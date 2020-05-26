@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<collection count="1">
+  <record>
+    <header>
+      <identifier>876056729</identifier>
+      <status>upsert</status>
+    </header>
+    <metadata>
+      <datafield tag="001@" fulltag="001@">
+        <subfield code="0">11,21-22,24,31,39-40,62-63,65-66,69-70,72,90,118,120-121,130,139,165,172,181,203,234,274,293,370,695,698,2003-2006,2008,2010-2011,2015-2016,2018,2037-2038,2042,2044,2046,2082,2084,2089,2096-2097,2109,2117,2151,2162,2166-2167,2427,2481,2485,2493,2510,2512</subfield>
+      </datafield>
+      <datafield tag="001A" fulltag="001A">
+        <subfield code="0">2001:04-01-17</subfield>
+      </datafield>
+      <datafield tag="001B" fulltag="001B">
+        <subfield code="0">0007:26-03-19</subfield>
+        <subfield code="t">11:57:56.000</subfield>
+      </datafield>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">0834:05-05-17</subfield>
+      </datafield>
+      <datafield tag="001U" fulltag="001U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="001X" fulltag="001X">
+        <subfield code="0">0</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Aau</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+        <subfield code="b">n</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Band</subfield>
+        <subfield code="b">nc</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">876056729</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">968218355</subfield>
+      </datafield>
+      <datafield tag="003S" fulltag="003S">
+        <subfield code="0">486039706</subfield>
+      </datafield>
+      <datafield tag="003T" fulltag="003T">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">968218355</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">9783791356563</subfield>
+        <subfield code="f"> : hardback (Deutsche Ausgabe) : EUR 35.00 (DE), EUR 25.70 (AT), CHF 33.90 (freier Preis)</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">3791356569</subfield>
+      </datafield>
+      <datafield tag="004L" fulltag="004L">
+        <subfield code="0">9783791356563</subfield>
+      </datafield>
+      <datafield tag="006G" fulltag="006G">
+        <subfield code="0">1122039492</subfield>
+      </datafield>
+      <datafield tag="006L" fulltag="006L">
+        <subfield code="i">DNB</subfield>
+        <subfield code="0">1122039492</subfield>
+      </datafield>
+      <datafield tag="006U" fulltag="006U">
+        <subfield code="0">17,N01</subfield>
+      </datafield>
+      <datafield tag="006Y" fulltag="006Y">
+        <subfield code="0">hks0029005</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">DNB</subfield>
+        <subfield code="0">1122039492</subfield>
+      </datafield>
+      <datafield tag="008G" fulltag="008G">
+        <subfield code="a">K10plus</subfield>
+      </datafield>
+      <datafield tag="009@" fulltag="009@">
+        <subfield code="b">Blocktest</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+      </datafield>
+      <datafield tag="010E" fulltag="010E">
+        <subfield code="e">rda</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2017</subfield>
+        <subfield code="n">[2017]</subfield>
+      </datafield>
+      <datafield tag="011F" fulltag="011F">
+        <subfield code="n">© 2017</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">10566491X</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">105605727</subfield>
+      </datafield>
+      <datafield tag="009Q" fulltag="009Q">
+        <subfield code="y">Inhaltsverzeichnis</subfield>
+        <subfield code="a">http://www.gbv.de/dms/weimar/toc/876056729_toc.pdf</subfield>
+        <subfield code="m">V:DE-601</subfield>
+        <subfield code="m">B:DE-Wim2</subfield>
+        <subfield code="q">application/pdf</subfield>
+        <subfield code="x">H</subfield>
+        <subfield code="y">Inhaltsverzeichnis</subfield>
+        <subfield code="3">Inhaltsverzeichnis</subfield>
+        <subfield code="5">04</subfield>
+        <subfield code="A">GBV</subfield>
+        <subfield code="B">2</subfield>
+      </datafield>
+      <datafield tag="009Q" fulltag="009Q">
+        <subfield code="a">http://deposit.d-nb.de/cgi-bin/dokserv?id=b05f600baad34766b9262ade27cdf07b&amp;prov=M&amp;dok_var=1&amp;dok_ext=htm</subfield>
+        <subfield code="m">X: MVB</subfield>
+        <subfield code="q">text/html</subfield>
+        <subfield code="v">2017-01-04</subfield>
+        <subfield code="x">H</subfield>
+        <subfield code="3">Inhaltstext</subfield>
+        <subfield code="5">01</subfield>
+        <subfield code="A">DNB</subfield>
+        <subfield code="B">2</subfield>
+      </datafield>
+      <datafield tag="009P" occurrence="09" fulltag="009P/09">
+        <subfield code="y">Beschreibung &amp; Leseprobe</subfield>
+        <subfield code="a">http://www.documenta14.de/de/publications/15731/der-documenta-14-reader</subfield>
+        <subfield code="x">H</subfield>
+        <subfield code="y">Beschreibung &amp; Leseprobe</subfield>
+      </datafield>
+      <datafield tag="009P" occurrence="09" fulltag="009P/09">
+        <subfield code="a">https://d-nb.info/1122039492/04</subfield>
+        <subfield code="x">H</subfield>
+      </datafield>
+      <datafield tag="019@" fulltag="019@">
+        <subfield code="a">XA-DE</subfield>
+        <subfield code="a">XA-GB</subfield>
+        <subfield code="a">XD-US</subfield>
+        <subfield code="a">XA-DE-BY</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Der @Documenta 14 Reader</subfield>
+        <subfield code="h">Herausgeber Quinn Latimer, Adam Szymczyk ; documenta und Museum Fridericianum gGmbH</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">716960583</subfield>
+        <subfield code="V">Tpv1</subfield>
+        <subfield code="7">gnd/1022363425</subfield>
+        <subfield code="3">36527738X</subfield>
+        <subfield code="w">piz</subfield>
+        <subfield code="A">Latimer</subfield>
+        <subfield code="D">Quinn</subfield>
+        <subfield code="E">1978</subfield>
+        <subfield code="B">HerausgeberIn</subfield>
+        <subfield code="4">edt</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">843625597</subfield>
+        <subfield code="V">Tpv1</subfield>
+        <subfield code="7">gnd/1080057544</subfield>
+        <subfield code="3">187947716</subfield>
+        <subfield code="w">piz</subfield>
+        <subfield code="A">Szymczyk</subfield>
+        <subfield code="D">Adam</subfield>
+        <subfield code="E">1970</subfield>
+        <subfield code="B">HerausgeberIn</subfield>
+        <subfield code="4">edt</subfield>
+      </datafield>
+      <datafield tag="029A" fulltag="029A">
+        <subfield code="9">862535026</subfield>
+        <subfield code="V">Tfv1</subfield>
+        <subfield code="7">gnd/1105406547</subfield>
+        <subfield code="3">473076306</subfield>
+        <subfield code="w">vie</subfield>
+        <subfield code="A">Documenta</subfield>
+        <subfield code="N">14.</subfield>
+        <subfield code="D">2017</subfield>
+        <subfield code="C">Athen; Kassel</subfield>
+        <subfield code="B">VerfasserIn</subfield>
+        <subfield code="4">aut</subfield>
+      </datafield>
+      <datafield tag="029F" fulltag="029F">
+        <subfield code="9">101546793</subfield>
+        <subfield code="B">VeranstalterIn</subfield>
+        <subfield code="4">orm</subfield>
+      </datafield>
+      <datafield tag="030F" fulltag="030F">
+        <subfield code="a">Documenta</subfield>
+        <subfield code="j">14</subfield>
+        <subfield code="k">Athen</subfield>
+        <subfield code="p">2017.04.08-07.16</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">München</subfield>
+        <subfield code="p">London</subfield>
+        <subfield code="p">New York</subfield>
+        <subfield code="n">Prestel Verlag</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">708 Seiten</subfield>
+      </datafield>
+      <datafield tag="034I" fulltag="034I">
+        <subfield code="a">23 cm</subfield>
+      </datafield>
+      <datafield tag="034M" fulltag="034M">
+        <subfield code="a">Illustrationen</subfield>
+      </datafield>
+      <datafield tag="037A" fulltag="037A">
+        <subfield code="a">Hier auch später erschienene, unveränderte Nachdrucke.</subfield>
+      </datafield>
+      <datafield tag="037A" fulltag="037A">
+        <subfield code="a">ISBN der englische Ausgabe: 978-3-7913-5657-0. - ISBN der griechischen Ausgabe: 978-3-7913-5684-6</subfield>
+      </datafield>
+      <datafield tag="039M" fulltag="039M">
+        <subfield code="i">Parallele Sprachausgabe</subfield>
+        <subfield code="n">englisch</subfield>
+        <subfield code="t">The @documenta 14 Reader</subfield>
+        <subfield code="d">München</subfield>
+        <subfield code="e">Prestel Verlag</subfield>
+        <subfield code="f">2017</subfield>
+        <subfield code="h">708 Seiten</subfield>
+        <subfield code="C">KXP</subfield>
+        <subfield code="6">162617945X</subfield>
+        <subfield code="C">ISBN</subfield>
+        <subfield code="6">9783791356570</subfield>
+        <subfield code="C">ZDB</subfield>
+        <subfield code="6">gnd/1022363425</subfield>
+      </datafield>
+      <datafield tag="039M" fulltag="039M">
+        <subfield code="i">Parallele Sprachausgabe</subfield>
+        <subfield code="n">griechisch</subfield>
+        <subfield code="t">documenta 14 Reader</subfield>
+        <subfield code="d">Munich</subfield>
+        <subfield code="e">Prestel Verlag</subfield>
+        <subfield code="f">2017</subfield>
+        <subfield code="h">708 Seiten</subfield>
+        <subfield code="C">KXP</subfield>
+        <subfield code="6">895866609</subfield>
+        <subfield code="C">ISBN</subfield>
+        <subfield code="6">9783791356846</subfield>
+        <subfield code="C">ZDB</subfield>
+        <subfield code="6">gnd/1022363425</subfield>
+      </datafield>
+      <datafield tag="044K" fulltag="044K">
+        <subfield code="9">862535026</subfield>
+      </datafield>
+      <datafield tag="045F" fulltag="045F">
+        <subfield code="e">23sdnb</subfield>
+        <subfield code="a">700</subfield>
+        <subfield code="A">DE-101</subfield>
+      </datafield>
+      <datafield tag="045G" fulltag="045G">
+        <subfield code="a">700</subfield>
+        <subfield code="A">DE-101</subfield>
+      </datafield>
+      <datafield tag="045Q" occurrence="01" fulltag="045Q/01">
+        <subfield code="9">106406493</subfield>
+      </datafield>
+      <datafield tag="045R" fulltag="045R">
+        <subfield code="a">LH 65880</subfield>
+      </datafield>
+      <datafield tag="045R" fulltag="045R">
+        <subfield code="a">LH 40300</subfield>
+        <subfield code="A">BSZ</subfield>
+      </datafield>
+      <datafield tag="045R" fulltag="045R">
+        <subfield code="a">LH 44330</subfield>
+        <subfield code="A">BSZ</subfield>
+      </datafield>
+      <datafield tag="045V" fulltag="045V">
+        <subfield code="i">FID</subfield>
+        <subfield code="a">KUNST</subfield>
+        <subfield code="q">DE-14</subfield>
+      </datafield>
+      <datafield tag="047A" fulltag="047A">
+        <subfield code="a">5550:KAKM ; 5090: knweph17 (SWB)</subfield>
+      </datafield>
+      <datafield tag="047C" fulltag="047C">
+        <subfield code="a">Documenta-14-Reader</subfield>
+      </datafield>
+      <datafield tag="047I" fulltag="047I">
+        <subfield code="a">Hauptpublikation zur documenta 14, der weltweit größten Ausstellungen zeitgenössischer Kunst - 2017 in Athen und Kassel! Als siebbedruckter Halbleinen-Band! Der Reader oder das Lesebuch der documenta 14 erforscht in Essays Allegorien, Gedichten, historischen Dokumenten und anderen, hybriden literarischen Formen die diskursiven Anliegen der Ausstellung: Formen von Dekolonialität und Widerstand, Schuld und Geschenk, Entortung und Enteignung, Sprache und Gewalt, Indigenität und Exil. Als kritische Anthologie, die Geschichte reflektiert, um einen klareren Blick auf die Gegenwart zu erhalten und die Zukunft neu zu entwerfen, versammelt der Reader eigens in Auftrag gegebene Beiträge und Wiederabdrucke wegweisender Texte. Die Bildstrecken illustrieren den – zeitlich wie geografisch – weitgespannten Rahmen, der durch die historischen Positionen bei der documenta 14 gesteckt wird.</subfield>
+      </datafield>
+      <datafield tag="092B" fulltag="092B">
+        <subfield code="1">3522/0004</subfield>
+        <subfield code="2">1696308542</subfield>
+        <subfield code="3">Ausst.Kassel2017-8</subfield>
+        <subfield code="S">zu</subfield>
+        <subfield code="a">Sautter + Lackmann Fachbuchhandlung, Hamburg</subfield>
+        <subfield code="9">231499442</subfield>
+        <subfield code="c">2017-06-26</subfield>
+      </datafield>
+      <datafield tag="101B" fulltag="101B">
+        <subfield code="0">11-07-17</subfield>
+        <subfield code="t">15:16:58.000</subfield>
+      </datafield>
+      <datafield tag="101U" fulltag="101U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="102D" fulltag="102D">
+        <subfield code="0">11-07-17</subfield>
+        <subfield code="b">6288</subfield>
+        <subfield code="a">0046</subfield>
+      </datafield>
+      <datafield tag="145Z" occurrence="25" fulltag="145Z/25">
+        <subfield code="a">7.085</subfield>
+      </datafield>
+      <datafield tag="145Z" occurrence="30" fulltag="145Z/30">
+        <subfield code="a">kun 030 kas</subfield>
+      </datafield>
+      <datafield tag="145Z" occurrence="99" fulltag="145Z/99">
+        <subfield code="a">67</subfield>
+      </datafield>
+      <item epn="1685560091">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">22-05-20</subfield>
+          <subfield code="t">21:04:28.000</subfield>
+        </datafield>
+        <datafield tag="201D" occurrence="01" fulltag="201D/01">
+          <subfield code="0">0046:22-05-20</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="01" fulltag="202D/01">
+          <subfield code="0">22-05-20</subfield>
+          <subfield code="b">1684049</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">1685560091</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">08-05-17</subfield>
+          <subfield code="b">zkw</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="f">TB Kunst</subfield>
+          <subfield code="a">7.085 DOC</subfield>
+          <subfield code="d">i</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="01" fulltag="209C/01">
+          <subfield code="a">2017:245</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">46D$000461059</subfield>
+        </datafield>
+        <datafield tag="237A" occurrence="01" fulltag="237A/01">
+          <subfield code="a">Test note!</subfield>
+        </datafield>
+      </item>
+      <item epn="1695305477">
+        <datafield tag="201B" occurrence="02" fulltag="201B/02">
+          <subfield code="0">11-07-17</subfield>
+          <subfield code="t">15:16:58.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="02" fulltag="201U/02">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="02" fulltag="202D/02">
+          <subfield code="0">11-07-17</subfield>
+          <subfield code="b">6288</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="02" fulltag="203@/02">
+          <subfield code="0">1695305477</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="02" fulltag="208@/02">
+          <subfield code="a">12-07-17</subfield>
+          <subfield code="b">zza</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="02" fulltag="209A/02">
+          <subfield code="a">a kun 030 kas/316-14,2</subfield>
+          <subfield code="d">u</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="02" fulltag="209C/02">
+          <subfield code="a">2017-09951</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="02" fulltag="209G/02">
+          <subfield code="a">46$0005746205</subfield>
+        </datafield>
+        <datafield tag="209O" occurrence="02" fulltag="209O/02">
+          <subfield code="a">Aufsätze_zu_erfassen</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+      </item>
+    </metadata>
+    <rawrecord><![CDATA[001@ ƒ011,21-22,24,31,39-40,62-63,65-66,69-70,72,90,118,120-121,130,139,165,172,181,203,234,274,293,370,695,698,2003-2006,2008,2010-2011,2015-2016,2018,2037-2038,2042,2044,2046,2082,2084,2089,2096-2097,2109,2117,2151,2162,2166-2167,2427,2481,2485,2493,2510,2512001A ƒ02001:04-01-17001B ƒ00007:26-03-19ƒt11:57:56.000001D ƒ00834:05-05-17001U ƒ0utf8001X ƒ00002@ ƒ0Aau002C ƒaTextƒbtxt002D ƒaohne Hilfsmittel zu benutzenƒbn002E ƒaBandƒbnc003@ ƒ0876056729003O ƒaOCoLCƒ0968218355003S ƒ0486039706003T ƒaOCoLCƒ0968218355004A ƒ09783791356563ƒf : hardback (Deutsche Ausgabe) : EUR 35.00 (DE), EUR 25.70 (AT), CHF 33.90 (freier Preis)004A ƒ03791356569004L ƒ09783791356563006G ƒ01122039492006L ƒiDNBƒ01122039492006U ƒ017,N01006Y ƒ0hks0029005007G ƒiDNBƒ01122039492008G ƒaK10plus009@ ƒbBlocktest010@ ƒager010E ƒerda011@ ƒa2017ƒn[2017]011F ƒn© 2017013D ƒ910566491X013D ƒ9105605727009Q ƒyInhaltsverzeichnisƒahttp://www.gbv.de/dms/weimar/toc/876056729_toc.pdfƒmV:DE-601ƒmB:DE-Wim2ƒqapplication/pdfƒxHƒyInhaltsverzeichnisƒ3Inhaltsverzeichnisƒ504ƒAGBVƒB2009Q ƒahttp://deposit.d-nb.de/cgi-bin/dokserv?id=b05f600baad34766b9262ade27cdf07b&prov=M&dok_var=1&dok_ext=htmƒmX: MVBƒqtext/htmlƒv2017-01-04ƒxHƒ3Inhaltstextƒ501ƒADNBƒB2009P/09 ƒyBeschreibung & Leseprobeƒahttp://www.documenta14.de/de/publications/15731/der-documenta-14-readerƒxHƒyBeschreibung & Leseprobe009P/09 ƒahttps://d-nb.info/1122039492/04ƒxH019@ ƒaXA-DEƒaXA-GBƒaXD-USƒaXA-DE-BY021A ƒaDer @Documenta 14 ReaderƒhHerausgeber Quinn Latimer, Adam Szymczyk ; documenta und Museum Fridericianum gGmbH028C ƒ9716960583ƒVTpv1ƒ7gnd/1022363425ƒ336527738XƒwpizƒALatimerƒDQuinnƒE1978ƒBHerausgeberInƒ4edt028C ƒ9843625597ƒVTpv1ƒ7gnd/1080057544ƒ3187947716ƒwpizƒASzymczykƒDAdamƒE1970ƒBHerausgeberInƒ4edt029A ƒ9862535026ƒVTfv1ƒ7gnd/1105406547ƒ3473076306ƒwvieƒADocumentaƒN14.ƒD2017ƒCAthen; KasselƒBVerfasserInƒ4aut029F ƒ9101546793ƒBVeranstalterInƒ4orm030F ƒaDocumentaƒj14ƒkAthenƒp2017.04.08-07.16033A ƒpMünchenƒpLondonƒpNew YorkƒnPrestel Verlag034D ƒa708 Seiten034I ƒa23 cm034M ƒaIllustrationen037A ƒaHier auch später erschienene, unveränderte Nachdrucke.037A ƒaISBN der englische Ausgabe: 978-3-7913-5657-0. - ISBN der griechischen Ausgabe: 978-3-7913-5684-6039M ƒiParallele SprachausgabeƒnenglischƒtThe @documenta 14 ReaderƒdMünchenƒePrestel Verlagƒf2017ƒh708 SeitenƒCKXPƒ6162617945XƒCISBNƒ69783791356570ƒCZDBƒ6gnd/1022363425039M ƒiParallele Sprachausgabeƒngriechischƒtdocumenta 14 ReaderƒdMunichƒePrestel Verlagƒf2017ƒh708 SeitenƒCKXPƒ6895866609ƒCISBNƒ69783791356846ƒCZDBƒ6gnd/1022363425044K ƒ9862535026045F ƒe23sdnbƒa700ƒADE-101045G ƒa700ƒADE-101045Q/01 ƒ9106406493045R ƒaLH 65880045R ƒaLH 40300ƒABSZ045R ƒaLH 44330ƒABSZ045V ƒiFIDƒaKUNSTƒqDE-14047A ƒa5550:KAKM ; 5090: knweph17 (SWB)047C ƒaDocumenta-14-Reader047I ƒaHauptpublikation zur documenta 14, der weltweit größten Ausstellungen zeitgenössischer Kunst - 2017 in Athen und Kassel! Als siebbedruckter Halbleinen-Band! Der Reader oder das Lesebuch der documenta 14 erforscht in Essays Allegorien, Gedichten, historischen Dokumenten und anderen, hybriden literarischen Formen die diskursiven Anliegen der Ausstellung: Formen von Dekolonialität und Widerstand, Schuld und Geschenk, Entortung und Enteignung, Sprache und Gewalt, Indigenität und Exil. Als kritische Anthologie, die Geschichte reflektiert, um einen klareren Blick auf die Gegenwart zu erhalten und die Zukunft neu zu entwerfen, versammelt der Reader eigens in Auftrag gegebene Beiträge und Wiederabdrucke wegweisender Texte. Die Bildstrecken illustrieren den – zeitlich wie geografisch – weitgespannten Rahmen, der durch die historischen Positionen bei der documenta 14 gesteckt wird.092B ƒ13522/0004ƒ21696308542ƒ3Ausst.Kassel2017-8ƒSzuƒaSautter + Lackmann Fachbuchhandlung, Hamburgƒ9231499442ƒc2017-06-26101B ƒ011-07-17ƒt15:16:58.000101U ƒ0utf8102D ƒ011-07-17ƒb6288ƒa0046145Z/25 ƒa7.085145Z/30 ƒakun 030 kas145Z/99 ƒa67201B/01 ƒ022-05-20ƒt21:04:28.000201D/01 ƒ00046:22-05-20201U/01 ƒ0utf8202D/01 ƒ022-05-20ƒb1684049ƒa0046203@/01 ƒ01685560091208@/01 ƒa08-05-17ƒbzkw209A/01 ƒfTB Kunstƒa7.085 DOCƒdiƒx00209C/01 ƒa2017:245ƒx00209G/01 ƒa46D$000461059237A/01 ƒaTest note!201B/02 ƒ011-07-17ƒt15:16:58.000201U/02 ƒ0utf8202D/02 ƒ011-07-17ƒb6288ƒa0046203@/02 ƒ01695305477208@/02 ƒa12-07-17ƒbzza209A/02 ƒaa kun 030 kas/316-14,2ƒduƒx00209C/02 ƒa2017-09951ƒx00209G/02 ƒa46$0005746205209O/02 ƒaAufsätze_zu_erfassenƒx00]]></rawrecord>
+  </record>
+</collection>

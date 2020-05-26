@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<collection count="1">
+  <record>
+    <header>
+      <identifier>1683609700</identifier>
+      <status>upsert</status>
+    </header>
+    <metadata>
+      <datafield tag="001@" fulltag="001@">
+        <subfield code="0">21,181</subfield>
+      </datafield>
+      <datafield tag="001A" fulltag="001A">
+        <subfield code="0">3181:27-11-19</subfield>
+      </datafield>
+      <datafield tag="001B" fulltag="001B">
+        <subfield code="0">3181:27-11-19</subfield>
+        <subfield code="t">09:37:31.000</subfield>
+      </datafield>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">3181:27-11-19</subfield>
+      </datafield>
+      <datafield tag="001U" fulltag="001U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="001X" fulltag="001X">
+        <subfield code="0">0</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Afu</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">unbewegtes Bild</subfield>
+        <subfield code="b">sti</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+        <subfield code="b">n</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Band</subfield>
+        <subfield code="b">nc</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">1683609700</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">KXP</subfield>
+        <subfield code="0">1683609700</subfield>
+      </datafield>
+      <datafield tag="008G" fulltag="008G">
+        <subfield code="a">K10plus</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">fre</subfield>
+      </datafield>
+      <datafield tag="010E" fulltag="010E">
+        <subfield code="e">rda</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2019</subfield>
+        <subfield code="n">[2019]</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">105605212</subfield>
+      </datafield>
+      <datafield tag="019@" fulltag="019@">
+        <subfield code="a">XA-FR</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Britannica, Americana</subfield>
+        <subfield code="d">lundi 18 novembre 2019</subfield>
+        <subfield code="h">Drouot Richelieu ; commissaire-priseur Claude Aguttes, Sophie Perrine</subfield>
+      </datafield>
+      <datafield tag="029A" fulltag="029A">
+        <subfield code="9">644570776</subfield>
+        <subfield code="V">Tbv1</subfield>
+        <subfield code="7">gnd/16098202-9</subfield>
+        <subfield code="3">336555075</subfield>
+        <subfield code="w">kif</subfield>
+        <subfield code="A">Binoche et Giquello</subfield>
+        <subfield code="B">VerfasserIn</subfield>
+        <subfield code="4">aut</subfield>
+      </datafield>
+      <datafield tag="029F" fulltag="029F">
+        <subfield code="9">102007047</subfield>
+        <subfield code="B">Gastgebende Institution</subfield>
+        <subfield code="4">his</subfield>
+      </datafield>
+      <datafield tag="030F" fulltag="030F">
+        <subfield code="a">Vente</subfield>
+        <subfield code="k">Paris</subfield>
+        <subfield code="p">2019.11.18</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Paris</subfield>
+        <subfield code="n">Drouot</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">247 Seiten</subfield>
+      </datafield>
+      <datafield tag="034M" fulltag="034M">
+        <subfield code="a">Illustrationen</subfield>
+      </datafield>
+      <datafield tag="036C" fulltag="036C">
+        <subfield code="a">Les @collections Aristophil</subfield>
+        <subfield code="h">Drouot Richelieu ; Aguttes, commissaire-priseur</subfield>
+      </datafield>
+      <datafield tag="036D" fulltag="036D">
+        <subfield code="X">22</subfield>
+        <subfield code="9">1010286986</subfield>
+        <subfield code="l">catalogue No 22</subfield>
+      </datafield>
+      <item epn="3524284647">
+        <datafield tag="201A" occurrence="01" fulltag="201A/01">
+          <subfield code="0">22-05-20</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">22-05-20</subfield>
+          <subfield code="t">18:57:44.000</subfield>
+        </datafield>
+        <datafield tag="201D" occurrence="01" fulltag="201D/01">
+          <subfield code="0">0046:22-05-20</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="01" fulltag="202D/01">
+          <subfield code="0">22-05-20</subfield>
+          <subfield code="b">1684049</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">3524284647</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">22-05-20</subfield>
+          <subfield code="b">z</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">206#</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+      </item>
+    </metadata>
+    <rawrecord><![CDATA[001@ ƒ021,181001A ƒ03181:27-11-19001B ƒ03181:27-11-19ƒt09:37:31.000001D ƒ03181:27-11-19001U ƒ0utf8001X ƒ00002@ ƒ0Afu002C ƒaTextƒbtxt002C ƒaunbewegtes Bildƒbsti002D ƒaohne Hilfsmittel zu benutzenƒbn002E ƒaBandƒbnc003@ ƒ01683609700007G ƒiKXPƒ01683609700008G ƒaK10plus010@ ƒafre010E ƒerda011@ ƒa2019ƒn[2019]013D ƒ9105605212019@ ƒaXA-FR021A ƒaBritannica, Americanaƒdlundi 18 novembre 2019ƒhDrouot Richelieu ; commissaire-priseur Claude Aguttes, Sophie Perrine029A ƒ9644570776ƒVTbv1ƒ7gnd/16098202-9ƒ3336555075ƒwkifƒABinoche et GiquelloƒBVerfasserInƒ4aut029F ƒ9102007047ƒBGastgebende Institutionƒ4his030F ƒaVenteƒkParisƒp2019.11.18033A ƒpParisƒnDrouot034D ƒa247 Seiten034M ƒaIllustrationen036C ƒaLes @collections AristophilƒhDrouot Richelieu ; Aguttes, commissaire-priseur036D ƒX22ƒ91010286986ƒlcatalogue No 22201A/01 ƒ022-05-20201B/01 ƒ022-05-20ƒt18:57:44.000201D/01 ƒ00046:22-05-20201U/01 ƒ0utf8202D/01 ƒ022-05-20ƒb1684049ƒa0046203@/01 ƒ03524284647208@/01 ƒa22-05-20ƒbz209A/01 ƒa206#ƒx00]]></rawrecord>
+  </record>
+</collection>

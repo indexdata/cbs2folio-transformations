@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<collection count="1">
+  <record>
+    <header>
+      <identifier>164286691</identifier>
+      <status>upsert</status>
+    </header>
+    <metadata>
+      <datafield tag="001@" fulltag="001@">
+        <subfield code="0">21,62</subfield>
+      </datafield>
+      <datafield tag="001A" fulltag="001A">
+        <subfield code="0">0007:04-10-94</subfield>
+      </datafield>
+      <datafield tag="001B" fulltag="001B">
+        <subfield code="0">1999:28-05-19</subfield>
+        <subfield code="t">22:31:02.000</subfield>
+      </datafield>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">9999:99-99-99</subfield>
+      </datafield>
+      <datafield tag="001U" fulltag="001U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="001X" fulltag="001X">
+        <subfield code="0">0</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Afu</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+        <subfield code="b">n</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Band</subfield>
+        <subfield code="b">nc</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">164286691</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">832253640</subfield>
+        <subfield code="v">2012-12-31</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">GBV</subfield>
+        <subfield code="0">164286691</subfield>
+      </datafield>
+      <datafield tag="007P" fulltag="007P">
+        <subfield code="S">fei</subfield>
+        <subfield code="0">s.es r.e. s.4. *)Sc 3 1791A 2</subfield>
+      </datafield>
+      <datafield tag="008G" fulltag="008G">
+        <subfield code="a">K10plus</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+        <subfield code="c">fre</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">1791</subfield>
+      </datafield>
+      <datafield tag="019@" fulltag="019@">
+        <subfield code="a">XA-DE</subfield>
+      </datafield>
+      <datafield tag="028A" fulltag="028A">
+        <subfield code="9">076630315</subfield>
+        <subfield code="V">Tpv3</subfield>
+        <subfield code="7">gnd/100511341</subfield>
+        <subfield code="3">288660765</subfield>
+        <subfield code="w">piz</subfield>
+        <subfield code="A">Faur</subfield>
+        <subfield code="D">Louis François</subfield>
+        <subfield code="E">1746</subfield>
+        <subfield code="M">1829</subfield>
+        <subfield code="V">Tpv3</subfield>
+        <subfield code="7">gnd/100511341</subfield>
+        <subfield code="3">288660765</subfield>
+        <subfield code="w">piz</subfield>
+        <subfield code="A">Faur</subfield>
+        <subfield code="D">Louis François</subfield>
+        <subfield code="E">1746</subfield>
+        <subfield code="M">1829</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">728567830</subfield>
+        <subfield code="V">Tpv3</subfield>
+        <subfield code="7">gnd/1027194230</subfield>
+        <subfield code="3">372581366</subfield>
+        <subfield code="w">piz</subfield>
+        <subfield code="A">Menzel</subfield>
+        <subfield code="D">Johann Friedrich Leonhard</subfield>
+        <subfield code="E">1765</subfield>
+        <subfield code="M">1814</subfield>
+        <subfield code="V">Tpv3</subfield>
+        <subfield code="7">gnd/1027194230</subfield>
+        <subfield code="3">372581366</subfield>
+        <subfield code="w">piz</subfield>
+        <subfield code="A">Menzel</subfield>
+        <subfield code="D">Johann Friedrich Leonhard</subfield>
+        <subfield code="E">1765</subfield>
+        <subfield code="M">1814</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">646084038</subfield>
+        <subfield code="V">Tpv1</subfield>
+        <subfield code="7">gnd/100844871</subfield>
+        <subfield code="3">167425293</subfield>
+        <subfield code="w">piz</subfield>
+        <subfield code="A">Valett</subfield>
+        <subfield code="D">Johann Jakob Meno</subfield>
+        <subfield code="E">1758</subfield>
+        <subfield code="M">1850</subfield>
+        <subfield code="V">Tpv1</subfield>
+        <subfield code="7">gnd/100844871</subfield>
+        <subfield code="3">167425293</subfield>
+        <subfield code="w">piz</subfield>
+        <subfield code="A">Valett</subfield>
+        <subfield code="D">Johann Jakob Meno</subfield>
+        <subfield code="E">1758</subfield>
+        <subfield code="M">1850</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Bayreuth</subfield>
+        <subfield code="n">Zeitungsdruckerei</subfield>
+      </datafield>
+      <datafield tag="033J" fulltag="033J">
+        <subfield code="9">731540484</subfield>
+        <subfield code="V">Tbv1</subfield>
+        <subfield code="7">gnd/6147273-6</subfield>
+        <subfield code="3">326066853</subfield>
+        <subfield code="w">kiz</subfield>
+        <subfield code="A">Zeitungsdruckerei</subfield>
+        <subfield code="G">Bayreuth</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">364 S., [2] Bl</subfield>
+      </datafield>
+      <datafield tag="034I" fulltag="034I">
+        <subfield code="a">8°</subfield>
+      </datafield>
+      <datafield tag="036C" fulltag="036C">
+        <subfield code="a">Geheime Lebensgeschichte des Marschalls von Richelieu oder Erzählung seiner Abenteuer, Liebschaften, Intriguen und all desjenigen, was auf die verschiedenen Rollen Bezug hat, die dieser merkwürdige Mann in einem Zeitraum von mehr als achtzig Jahren spielte</subfield>
+        <subfield code="f">Secret life story of the Marshal of Richelieu or narrative of his adventures, love affairs, intrigues and everything related to the different roles that this strange man played in a period of more than eighty years</subfield>
+        <subfield code="h">[Louis Francois Faur]</subfield>
+        <subfield code="l">Zweyter Band</subfield>
+      </datafield>
+      <datafield tag="036D" fulltag="036D">
+        <subfield code="X">2.1791</subfield>
+        <subfield code="9">164286551</subfield>
+        <subfield code="R">Acu</subfield>
+        <subfield code="V">Tpv3</subfield>
+        <subfield code="7">gnd/100511341</subfield>
+        <subfield code="3">288660765</subfield>
+        <subfield code="w">piz</subfield>
+        <subfield code="A">Faur</subfield>
+        <subfield code="D">Louis François</subfield>
+        <subfield code="E">1746</subfield>
+        <subfield code="M">1829</subfield>
+        <subfield code="a">Geheime Lebensgeschichte des Marschalls von Richelieu oder Erzählung seiner Abenteuer, Liebschaften, Intriguen und all desjenigen, was auf die verschiedenen Rollen Bezug hat, die dieser merkwürdige Mann in einem Zeitraum von mehr als achtzig Jahren spielte</subfield>
+        <subfield code="d">Aus dem Französischen übersetzt</subfield>
+        <subfield code="p">Bayreuth</subfield>
+        <subfield code="n">Zeitungsdruckerei</subfield>
+        <subfield code="h">1791</subfield>
+        <subfield code="i">1792</subfield>
+        <subfield code="l">Zweyter Band</subfield>
+        <subfield code="x">_12 1791</subfield>
+      </datafield>
+      <datafield tag="046H" fulltag="046H">
+        <subfield code="a">Vorlageform der Veröffentlichungsangabe: Bayreuth : in der Zeitungsdruckerey daselbst</subfield>
+      </datafield>
+      <datafield tag="046W" fulltag="046W">
+        <subfield code="a">IMD-Felder maschinell generiert (GBV)</subfield>
+      </datafield>
+      <datafield tag="047C" fulltag="047C">
+        <subfield code="a">Intrigen</subfield>
+      </datafield>
+      <item epn="1298392063">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">12-03-12</subfield>
+          <subfield code="t">14:53:08.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="01" fulltag="202D/01">
+          <subfield code="0">26-05-20</subfield>
+          <subfield code="b">touchtitle</subfield>
+          <subfield code="a">1999</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">1298392063</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">12-03-12</subfield>
+          <subfield code="b">rza</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="01" fulltag="209C/01">
+          <subfield code="a">60.c.1084</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="237A" occurrence="01" fulltag="237A/01">
+          <subfield code="a">in Bearbeitung</subfield>
+        </datafield>
+        <datafield tag="237A" occurrence="01" fulltag="237A/01">
+          <subfield code="a">Benutzung nur im HS-Lesesaal</subfield>
+        </datafield>
+        <datafield tag="237A" occurrence="01" fulltag="237A/01">
+          <subfield code="a">Bd. 1 bis Bd. 3 in einem Buch</subfield>
+        </datafield>
+      </item>
+    </metadata>
+    <rawrecord><![CDATA[001@ ƒ021,62
+001A ƒ00007:04-10-94
+001B ƒ01999:28-05-19ƒt22:31:02.000
+001D ƒ09999:99-99-99
+001U ƒ0utf8
+001X ƒ00
+002@ ƒ0Afu
+002C ƒaTextƒbtxt
+002D ƒaohne Hilfsmittel zu benutzenƒbn
+002E ƒaBandƒbnc
+003@ ƒ0164286691
+003O ƒaOCoLCƒ0832253640ƒv2012-12-31
+007G ƒiGBVƒ0164286691
+007P ƒSfeiƒ0s.es r.e. s.4. *)Sc 3 1791A 2
+008G ƒaK10plus
+010@ ƒagerƒcfre
+011@ ƒa1791
+019@ ƒaXA-DE
+028A ƒ9076630315ƒVTpv3ƒ7gnd/100511341ƒ3288660765ƒwpizƒAFaurƒDLouis FrançoisƒE1746ƒM1829ƒVTpv3ƒ7gnd/100511341ƒ3288660765ƒwpizƒAFaurƒDLouis FrançoisƒE1746ƒM1829
+028C ƒ9728567830ƒVTpv3ƒ7gnd/1027194230ƒ3372581366ƒwpizƒAMenzelƒDJohann Friedrich LeonhardƒE1765ƒM1814ƒVTpv3ƒ7gnd/1027194230ƒ3372581366ƒwpizƒAMenzelƒDJohann Friedrich LeonhardƒE1765ƒM1814
+028C ƒ9646084038ƒVTpv1ƒ7gnd/100844871ƒ3167425293ƒwpizƒAValettƒDJohann Jakob MenoƒE1758ƒM1850ƒVTpv1ƒ7gnd/100844871ƒ3167425293ƒwpizƒAValettƒDJohann Jakob MenoƒE1758ƒM1850
+033A ƒpBayreuthƒnZeitungsdruckerei
+033J ƒ9731540484ƒVTbv1ƒ7gnd/6147273-6ƒ3326066853ƒwkizƒAZeitungsdruckereiƒGBayreuth
+034D ƒa364 S., [2] Bl
+034I ƒa8°
+036C ƒaGeheime Lebensgeschichte des Marschalls von Richelieu oder Erzählung seiner Abenteuer, Liebschaften, Intriguen und all desjenigen, was auf die verschiedenen Rollen Bezug hat, die dieser merkwürdige Mann in einem Zeitraum von mehr als achtzig Jahren spielteƒh[Louis Francois Faur]ƒlZweyter Band
+036D ƒX2.1791ƒ9164286551ƒRAcuƒVTpv3ƒ7gnd/100511341ƒ3288660765ƒwpizƒAFaurƒDLouis FrançoisƒE1746ƒM1829ƒaGeheime Lebensgeschichte des Marschalls von Richelieu oder Erzählung seiner Abenteuer, Liebschaften, Intriguen und all desjenigen, was auf die verschiedenen Rollen Bezug hat, die dieser merkwürdige Mann in einem Zeitraum von mehr als achtzig Jahren spielteƒdAus dem Französischen übersetztƒpBayreuthƒnZeitungsdruckereiƒh1791ƒi1792ƒlZweyter Bandƒx_12 1791
+046H ƒaVorlageform der Veröffentlichungsangabe: Bayreuth : in der Zeitungsdruckerey daselbst
+046W ƒaIMD-Felder maschinell generiert (GBV)
+047C ƒaIntrigen
+
+201B/01 ƒ012-03-12ƒt14:53:08.000
+201U/01 ƒ0utf8
+202D/01 ƒ026-05-20ƒbtouchtitleƒa1999
+203@/01 ƒ01298392063
+208@/01 ƒa12-03-12ƒbrza
+209C/01 ƒa60.c.1084ƒx00
+237A/01 ƒain Bearbeitung
+237A/01 ƒaBenutzung nur im HS-Lesesaal
+237A/01 ƒaBd. 1 bis Bd. 3 in einem Buch
+
+]]></rawrecord>
+  </record>
+</collection>

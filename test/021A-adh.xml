@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<collection count="1">
+  <record>
+    <header>
+      <identifier>16814316X</identifier>
+      <status>upsert</status>
+    </header>
+    <metadata>
+      <datafield tag="001@" fulltag="001@">
+        <subfield code="0">11,20-23,40,60,72,90,110,120,131-132,183,267,2001,2005-2007,2009,2014,2018,2031,2038,2179,2505,4012,4027-4029,4035,4037-4038,4046,4082,4103,4125,4155,4251,4302,4305-4307,4309,4311,4316-4320,4322-4325</subfield>
+      </datafield>
+      <datafield tag="001A" fulltag="001A">
+        <subfield code="0">2004:31-10-94</subfield>
+      </datafield>
+      <datafield tag="001B" fulltag="001B">
+        <subfield code="0">2004:06-07-19</subfield>
+        <subfield code="t">10:09:26.000</subfield>
+      </datafield>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">2004:29-09-98</subfield>
+      </datafield>
+      <datafield tag="001U" fulltag="001U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="001X" fulltag="001X">
+        <subfield code="0">0</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Abv</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+        <subfield code="b">n</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Band</subfield>
+        <subfield code="b">nc</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">16814316X</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">224560053</subfield>
+        <subfield code="v">2012-12-31</subfield>
+      </datafield>
+      <datafield tag="003S" fulltag="003S">
+        <subfield code="0">018248128</subfield>
+      </datafield>
+      <datafield tag="003T" fulltag="003T">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">263602646</subfield>
+      </datafield>
+      <datafield tag="005A" fulltag="005A">
+        <subfield code="f">kart.</subfield>
+      </datafield>
+      <datafield tag="006G" fulltag="006G">
+        <subfield code="0">013736841</subfield>
+      </datafield>
+      <datafield tag="006U" fulltag="006U">
+        <subfield code="0">98,B34,0405</subfield>
+      </datafield>
+      <datafield tag="006Z" fulltag="006Z">
+        <subfield code="0">641153-8</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">ZDB</subfield>
+        <subfield code="0">641153-8</subfield>
+      </datafield>
+      <datafield tag="008G" fulltag="008G">
+        <subfield code="a">K10plus</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">1972</subfield>
+        <subfield code="b">2002</subfield>
+        <subfield code="n">1972-2002</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">10454466X</subfield>
+        <subfield code="V">Tsvz</subfield>
+        <subfield code="3">20917000X</subfield>
+        <subfield code="7">gnd/4067488-5</subfield>
+        <subfield code="a">Zeitschrift</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">106152955</subfield>
+        <subfield code="V">Tsvz</subfield>
+        <subfield code="3">209119799</subfield>
+        <subfield code="7">gnd/4056995-0</subfield>
+        <subfield code="a">Statistik</subfield>
+      </datafield>
+      <datafield tag="018@" fulltag="018@">
+        <subfield code="a">a</subfield>
+      </datafield>
+      <datafield tag="019@" fulltag="019@">
+        <subfield code="a">XA-DE</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Prüfungen an Hochschulen</subfield>
+        <subfield code="d">Fächergruppen, Studienbereiche, Prüfungsgruppen, Prüfungserfolg, Geschlecht, Länder</subfield>
+        <subfield code="h">Bundesministerium für Bildung und Forschung</subfield>
+      </datafield>
+      <datafield tag="027A" fulltag="027A">
+        <subfield code="a">BMBF-Bericht / Prüfungen an Hochschulen</subfield>
+      </datafield>
+      <datafield tag="029F" fulltag="029F">
+        <subfield code="9">252687302</subfield>
+        <subfield code="V">Tbv1</subfield>
+        <subfield code="7">gnd/5309538-8</subfield>
+        <subfield code="3">197391087</subfield>
+        <subfield code="w">kio</subfield>
+        <subfield code="A">Deutschland</subfield>
+        <subfield code="F">Bundesministerium für Bildung und Forschung</subfield>
+        <subfield code="B">Herausgebendes Organ</subfield>
+        <subfield code="4">isb</subfield>
+      </datafield>
+      <datafield tag="029F" fulltag="029F">
+        <subfield code="9">180780697</subfield>
+        <subfield code="V">Tbv1</subfield>
+        <subfield code="7">gnd/2142404-4</subfield>
+        <subfield code="3">19505458X</subfield>
+        <subfield code="w">kio</subfield>
+        <subfield code="A">Deutschland</subfield>
+        <subfield code="F">Bundesministerium für Bildung, Wissenschaft, Forschung und Technologie</subfield>
+        <subfield code="B">Herausgebendes Organ</subfield>
+        <subfield code="4">isb</subfield>
+      </datafield>
+      <datafield tag="029F" fulltag="029F">
+        <subfield code="9">10231148X</subfield>
+        <subfield code="V">Tbv1</subfield>
+        <subfield code="7">gnd/2028870-0</subfield>
+        <subfield code="3">191807370</subfield>
+        <subfield code="w">kio</subfield>
+        <subfield code="A">Deutschland</subfield>
+        <subfield code="G">Bundesrepublik</subfield>
+        <subfield code="F">Bundesminister für Bildung und Wissenschaft</subfield>
+        <subfield code="B">Herausgebendes Organ</subfield>
+        <subfield code="4">isb</subfield>
+      </datafield>
+      <datafield tag="029F" fulltag="029F">
+        <subfield code="9">187652201</subfield>
+        <subfield code="V">Tbv1</subfield>
+        <subfield code="7">gnd/2028958-3</subfield>
+        <subfield code="3">191808067</subfield>
+        <subfield code="w">kio</subfield>
+        <subfield code="A">Deutschland</subfield>
+        <subfield code="G">Bundesrepublik</subfield>
+        <subfield code="F">Bundesminister für Forschung und Technologie</subfield>
+        <subfield code="B">Herausgebendes Organ</subfield>
+        <subfield code="4">isb</subfield>
+      </datafield>
+      <datafield tag="031@" fulltag="031@">
+        <subfield code="a">Nachgewiesen WS 1972/73/SS 1974; 1975/85(1985); 1973/88(1990); 1973/90(1992) - 1973/92(1994); 1973/96(1998); 1973/98(2000); 1973/2000(2002); damit Ersch. eingest.</subfield>
+      </datafield>
+      <datafield tag="031N ƒj1972" occurrence="73ƒ0 ƒj1975/85ƒ0 ƒj1973/88ƒ0 ƒj1973/90ƒk1973/92ƒ0 ƒj1973/96ƒ0 ƒj1973/98ƒ0" fulltag="031N ƒj1972/73ƒ0 ƒj1975/85ƒ0 ƒj1973/88ƒ0 ƒj1973/90ƒk1973/92ƒ0 ƒj1973/96ƒ0 ƒj1973/98ƒ0">
+        <subfield code="j">1973/2000</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Bonn</subfield>
+        <subfield code="n">Bundesminister</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Wiesbaden</subfield>
+        <subfield code="n">Statist. Bundesamt</subfield>
+        <subfield code="h">-1987</subfield>
+        <subfield code="z">f</subfield>
+      </datafield>
+      <datafield tag="034I" fulltag="034I">
+        <subfield code="a">30 cm</subfield>
+      </datafield>
+      <datafield tag="036E" fulltag="036E">
+        <subfield code="a">1973/2000: BMBF-Bericht</subfield>
+      </datafield>
+      <datafield tag="037A" fulltag="037A">
+        <subfield code="a">Zusatz wechselt</subfield>
+      </datafield>
+      <datafield tag="037A" fulltag="037A">
+        <subfield code="a">Beteil. Körp. anfangs: Statistisches Bundesamt Wiesbaden, Bundesminister für Forschung und Technologie; 1973/90 - 1973/92: Bundesminister für Bildung und Wissenschaft; 1973/96: Bundesministerium für Bildung, Wissenschaft, Forschung und Technologie</subfield>
+      </datafield>
+      <datafield tag="041A" fulltag="041A">
+        <subfield code="9">104704861</subfield>
+        <subfield code="V">Tgvz</subfield>
+        <subfield code="7">gnd/4011882-4</subfield>
+        <subfield code="3">208896155</subfield>
+        <subfield code="A">Deutschland</subfield>
+      </datafield>
+      <datafield tag="041A" occurrence="01" fulltag="041A/01">
+        <subfield code="9">105670340</subfield>
+        <subfield code="V">Tsv1</subfield>
+        <subfield code="7">gnd/4134732-8</subfield>
+        <subfield code="3">209654783</subfield>
+        <subfield code="a">Hochschulprüfung</subfield>
+      </datafield>
+      <datafield tag="041A" occurrence="02" fulltag="041A/02">
+        <subfield code="f">Statistik</subfield>
+      </datafield>
+      <datafield tag="041A" occurrence="10" fulltag="041A/10">
+        <subfield code="9">104732423</subfield>
+        <subfield code="V">Tgvz</subfield>
+        <subfield code="7">gnd/4011889-7</subfield>
+        <subfield code="3">208896201</subfield>
+        <subfield code="A">Deutschland</subfield>
+        <subfield code="G">Bundesrepublik</subfield>
+      </datafield>
+      <datafield tag="041A" occurrence="11" fulltag="041A/11">
+        <subfield code="9">105670340</subfield>
+        <subfield code="V">Tsv1</subfield>
+        <subfield code="7">gnd/4134732-8</subfield>
+        <subfield code="3">209654783</subfield>
+        <subfield code="a">Hochschulprüfung</subfield>
+      </datafield>
+      <datafield tag="041A" occurrence="12" fulltag="041A/12">
+        <subfield code="f">Statistik</subfield>
+      </datafield>
+      <datafield tag="041A" occurrence="20" fulltag="041A/20">
+        <subfield code="9">104732423</subfield>
+        <subfield code="V">Tgvz</subfield>
+        <subfield code="7">gnd/4011889-7</subfield>
+        <subfield code="3">208896201</subfield>
+        <subfield code="A">Deutschland</subfield>
+        <subfield code="G">Bundesrepublik</subfield>
+      </datafield>
+      <datafield tag="041A" occurrence="21" fulltag="041A/21">
+        <subfield code="9">105670340</subfield>
+        <subfield code="V">Tsv1</subfield>
+        <subfield code="7">gnd/4134732-8</subfield>
+        <subfield code="3">209654783</subfield>
+        <subfield code="a">Hochschulprüfung</subfield>
+      </datafield>
+      <datafield tag="041A" occurrence="22" fulltag="041A/22">
+        <subfield code="f">Statistik 1973-1988</subfield>
+      </datafield>
+      <datafield tag="041A" occurrence="30" fulltag="041A/30">
+        <subfield code="9">104704861</subfield>
+        <subfield code="V">Tgvz</subfield>
+        <subfield code="7">gnd/4011882-4</subfield>
+        <subfield code="3">208896155</subfield>
+        <subfield code="A">Deutschland</subfield>
+      </datafield>
+      <datafield tag="041A" occurrence="31" fulltag="041A/31">
+        <subfield code="9">148053432</subfield>
+        <subfield code="V">Tsv1</subfield>
+        <subfield code="7">gnd/4332831-3</subfield>
+        <subfield code="3">211335479</subfield>
+        <subfield code="a">Studienabschluss</subfield>
+      </datafield>
+      <datafield tag="041A" occurrence="32" fulltag="041A/32">
+        <subfield code="f">Statistik</subfield>
+      </datafield>
+      <datafield tag="045G" fulltag="045G">
+        <subfield code="a">370</subfield>
+        <subfield code="A">DE-600</subfield>
+      </datafield>
+      <datafield tag="045Q" occurrence="01" fulltag="045Q/01">
+        <subfield code="9">106422847</subfield>
+        <subfield code="V">Tkv</subfield>
+        <subfield code="a">81.80</subfield>
+        <subfield code="j">Hochschulen</subfield>
+        <subfield code="j">Fachhochschulen</subfield>
+      </datafield>
+      <datafield tag="045R" fulltag="045R">
+        <subfield code="a">AL 43400</subfield>
+        <subfield code="A">ZDB</subfield>
+      </datafield>
+      <datafield tag="045R" fulltag="045R">
+        <subfield code="9">1270660411</subfield>
+        <subfield code="V">Tkv</subfield>
+        <subfield code="7">rvk/3415:</subfield>
+        <subfield code="3">200660411</subfield>
+        <subfield code="a">AL 43400</subfield>
+        <subfield code="j">Prüfungen allgemein, Vor- und Zwischenprüfungen</subfield>
+        <subfield code="k">Allgemeines</subfield>
+        <subfield code="k">Hochschul- und Universitätswesen</subfield>
+        <subfield code="k">Studienverlauf, -abschluss, Akademische Grade</subfield>
+      </datafield>
+      <datafield tag="046D" fulltag="046D">
+        <subfield code="i">Zusatz anfangs</subfield>
+        <subfield code="a">Arbeitsunterlage</subfield>
+      </datafield>
+      <datafield tag="046P" fulltag="046P">
+        <subfield code="a">Ersch. jährl.</subfield>
+      </datafield>
+      <datafield tag="047A" fulltag="047A">
+        <subfield code="a">Sortierzählung bei Bänden maschinell geändert (GBV)</subfield>
+      </datafield>
+      <datafield tag="047A" fulltag="047A">
+        <subfield code="a">C*(Kopie) (GBV)</subfield>
+      </datafield>
+      <datafield tag="047A" fulltag="047A">
+        <subfield code="a">C(Kopie) (SWB)</subfield>
+      </datafield>
+      <datafield tag="047B" fulltag="047B">
+        <subfield code="a">(Kopie)30!20-07-06)</subfield>
+      </datafield>
+      <datafield tag="101B" fulltag="101B">
+        <subfield code="0">10-11-98</subfield>
+        <subfield code="t">10:35:00.747</subfield>
+      </datafield>
+      <datafield tag="101U" fulltag="101U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="102D" fulltag="102D">
+        <subfield code="0">26-05-20</subfield>
+        <subfield code="b">touchtitle</subfield>
+        <subfield code="a">1999</subfield>
+      </datafield>
+      <datafield tag="145Z" occurrence="30" fulltag="145Z/30">
+        <subfield code="a">pae 897.5</subfield>
+      </datafield>
+      <datafield tag="145Z" occurrence="99" fulltag="145Z/99">
+        <subfield code="a">57</subfield>
+      </datafield>
+      <item epn="309118468">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">06-06-02</subfield>
+          <subfield code="t">08:49:40.818</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="01" fulltag="202D/01">
+          <subfield code="0">26-05-20</subfield>
+          <subfield code="b">touchtitle</subfield>
+          <subfield code="a">1999</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">309118468</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">10-11-98</subfield>
+          <subfield code="b">bza</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">ff 2072</subfield>
+          <subfield code="d">d</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="01" fulltag="209C/01">
+          <subfield code="a">ff 2072</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="231@" occurrence="01 ƒj1975/85ƒ0 ƒj1973/88ƒ0 ƒj1973/91ƒ0 ƒj1973/96ƒ0 ƒj1973/98ƒ0" fulltag="231@/01 ƒj1975/85ƒ0 ƒj1973/88ƒ0 ƒj1973/91ƒ0 ƒj1973/96ƒ0 ƒj1973/98ƒ0">
+          <subfield code="j">1973/2000</subfield>
+        </datafield>
+        <datafield tag="231B" occurrence="01" fulltag="231B/01">
+          <subfield code="a">1975/85(1985); 1973/88(1990); 1973/91(1993); 1973/96(1998); 1973/98(2000); 1973/2000(2002)</subfield>
+        </datafield>
+      </item>
+      <item epn="166981273">
+        <datafield tag="201B" occurrence="02" fulltag="201B/02">
+          <subfield code="0">01-11-06</subfield>
+          <subfield code="t">07:20:08.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="02" fulltag="201U/02">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="02" fulltag="202D/02">
+          <subfield code="0">01-11-06</subfield>
+          <subfield code="b">umlenk_ser</subfield>
+          <subfield code="a">1999</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="02" fulltag="203@/02">
+          <subfield code="0">166981273</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="02" fulltag="208@/02">
+          <subfield code="a">24-11-94</subfield>
+          <subfield code="b">xza</subfield>
+        </datafield>
+        <datafield tag="220D" occurrence="02" fulltag="220D/02">
+          <subfield code="a">QP036841579</subfield>
+        </datafield>
+      </item>
+    </metadata>
+    <rawrecord><![CDATA[001@ ƒ011,20-23,40,60,72,90,110,120,131-132,183,267,2001,2005-2007,2009,2014,2018,2031,2038,2179,2505,4012,4027-4029,4035,4037-4038,4046,4082,4103,4125,4155,4251,4302,4305-4307,4309,4311,4316-4320,4322-4325001A ƒ02004:31-10-94001B ƒ02004:06-07-19ƒt10:09:26.000001D ƒ02004:29-09-98001U ƒ0utf8001X ƒ00002@ ƒ0Abv002C ƒaTextƒbtxt002D ƒaohne Hilfsmittel zu benutzenƒbn002E ƒaBandƒbnc003@ ƒ016814316X003O ƒaOCoLCƒ0224560053ƒv2012-12-31003S ƒ0018248128003T ƒaOCoLCƒ0263602646005A ƒfkart.006G ƒ0013736841006U ƒ098,B34,0405006Z ƒ0641153-8007G ƒiZDBƒ0641153-8008G ƒaK10plus010@ ƒager011@ ƒa1972ƒb2002ƒn1972-2002013D ƒ910454466XƒVTsvzƒ320917000Xƒ7gnd/4067488-5ƒaZeitschrift013D ƒ9106152955ƒVTsvzƒ3209119799ƒ7gnd/4056995-0ƒaStatistik018@ ƒaa019@ ƒaXA-DE021A ƒaPrüfungen an HochschulenƒdFächergruppen, Studienbereiche, Prüfungsgruppen, Prüfungserfolg, Geschlecht, LänderƒhBundesministerium für Bildung und Forschung027A ƒaBMBF-Bericht / Prüfungen an Hochschulen029F ƒ9252687302ƒVTbv1ƒ7gnd/5309538-8ƒ3197391087ƒwkioƒADeutschlandƒFBundesministerium für Bildung und ForschungƒBHerausgebendes Organƒ4isb029F ƒ9180780697ƒVTbv1ƒ7gnd/2142404-4ƒ319505458XƒwkioƒADeutschlandƒFBundesministerium für Bildung, Wissenschaft, Forschung und TechnologieƒBHerausgebendes Organƒ4isb029F ƒ910231148XƒVTbv1ƒ7gnd/2028870-0ƒ3191807370ƒwkioƒADeutschlandƒGBundesrepublikƒFBundesminister für Bildung und WissenschaftƒBHerausgebendes Organƒ4isb029F ƒ9187652201ƒVTbv1ƒ7gnd/2028958-3ƒ3191808067ƒwkioƒADeutschlandƒGBundesrepublikƒFBundesminister für Forschung und TechnologieƒBHerausgebendes Organƒ4isb031@ ƒaNachgewiesen WS 1972/73/SS 1974; 1975/85(1985); 1973/88(1990); 1973/90(1992) - 1973/92(1994); 1973/96(1998); 1973/98(2000); 1973/2000(2002); damit Ersch. eingest.031N ƒj1972/73ƒ0 ƒj1975/85ƒ0 ƒj1973/88ƒ0 ƒj1973/90ƒk1973/92ƒ0 ƒj1973/96ƒ0 ƒj1973/98ƒ0 ƒj1973/2000033A ƒpBonnƒnBundesminister033A ƒpWiesbadenƒnStatist. Bundesamtƒh-1987ƒzf034I ƒa30 cm036E ƒa1973/2000: BMBF-Bericht037A ƒaZusatz wechselt037A ƒaBeteil. Körp. anfangs: Statistisches Bundesamt Wiesbaden, Bundesminister für Forschung und Technologie; 1973/90 - 1973/92: Bundesminister für Bildung und Wissenschaft; 1973/96: Bundesministerium für Bildung, Wissenschaft, Forschung und Technologie041A ƒ9104704861ƒVTgvzƒ7gnd/4011882-4ƒ3208896155ƒADeutschland041A/01 ƒ9105670340ƒVTsv1ƒ7gnd/4134732-8ƒ3209654783ƒaHochschulprüfung041A/02 ƒfStatistik041A/10 ƒ9104732423ƒVTgvzƒ7gnd/4011889-7ƒ3208896201ƒADeutschlandƒGBundesrepublik041A/11 ƒ9105670340ƒVTsv1ƒ7gnd/4134732-8ƒ3209654783ƒaHochschulprüfung041A/12 ƒfStatistik041A/20 ƒ9104732423ƒVTgvzƒ7gnd/4011889-7ƒ3208896201ƒADeutschlandƒGBundesrepublik041A/21 ƒ9105670340ƒVTsv1ƒ7gnd/4134732-8ƒ3209654783ƒaHochschulprüfung041A/22 ƒfStatistik 1973-1988041A/30 ƒ9104704861ƒVTgvzƒ7gnd/4011882-4ƒ3208896155ƒADeutschland041A/31 ƒ9148053432ƒVTsv1ƒ7gnd/4332831-3ƒ3211335479ƒaStudienabschluss041A/32 ƒfStatistik045G ƒa370ƒADE-600045Q/01 ƒ9106422847ƒVTkvƒa81.80ƒjHochschulenƒjFachhochschulen045R ƒaAL 43400ƒAZDB045R ƒ91270660411ƒVTkvƒ7rvk/3415:ƒ3200660411ƒaAL 43400ƒjPrüfungen allgemein, Vor- und ZwischenprüfungenƒkAllgemeinesƒkHochschul- und UniversitätswesenƒkStudienverlauf, -abschluss, Akademische Grade046D ƒiZusatz anfangsƒaArbeitsunterlage046P ƒaErsch. jährl.047A ƒaSortierzählung bei Bänden maschinell geändert (GBV)047A ƒaC*(Kopie) (GBV)047A ƒaC(Kopie) (SWB)047B ƒa(Kopie)30!20-07-06)101B ƒ010-11-98ƒt10:35:00.747101U ƒ0utf8102D ƒ026-05-20ƒbtouchtitleƒa1999145Z/30 ƒapae 897.5145Z/99 ƒa57201B/01 ƒ006-06-02ƒt08:49:40.818201U/01 ƒ0utf8202D/01 ƒ026-05-20ƒbtouchtitleƒa1999203@/01 ƒ0309118468208@/01 ƒa10-11-98ƒbbza209A/01 ƒaff 2072ƒddƒx00209C/01 ƒaff 2072ƒx00231@/01 ƒj1975/85ƒ0 ƒj1973/88ƒ0 ƒj1973/91ƒ0 ƒj1973/96ƒ0 ƒj1973/98ƒ0 ƒj1973/2000231B/01 ƒa1975/85(1985); 1973/88(1990); 1973/91(1993); 1973/96(1998); 1973/98(2000); 1973/2000(2002)201B/02 ƒ001-11-06ƒt07:20:08.000201U/02 ƒ0utf8202D/02 ƒ001-11-06ƒbumlenk_serƒa1999203@/02 ƒ0166981273208@/02 ƒa24-11-94ƒbxza220D/02 ƒaQP036841579]]></rawrecord>
+  </record>
+</collection>
