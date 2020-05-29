@@ -81,9 +81,6 @@
         <subfield code="i">DNB</subfield>
         <subfield code="0">1122039492</subfield>
       </datafield>
-      <datafield tag="008G" fulltag="008G">
-        <subfield code="a">K10plus</subfield>
-      </datafield>
       <datafield tag="009@" fulltag="009@">
         <subfield code="b">Blocktest</subfield>
       </datafield>
@@ -102,9 +99,11 @@
       </datafield>
       <datafield tag="013D" fulltag="013D">
         <subfield code="9">10566491X</subfield>
+        <subfield code="8">Ausstellungskatalog ; ID: gnd/4135467-9</subfield>
       </datafield>
       <datafield tag="013D" fulltag="013D">
         <subfield code="9">105605727</subfield>
+        <subfield code="8">Aufsatzsammlung ; ID: gnd/4143413-4</subfield>
       </datafield>
       <datafield tag="009Q" fulltag="009Q">
         <subfield code="y">Inhaltsverzeichnis</subfield>
@@ -152,43 +151,25 @@
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">716960583</subfield>
-        <subfield code="V">Tpv1</subfield>
-        <subfield code="7">gnd/1022363425</subfield>
-        <subfield code="3">36527738X</subfield>
-        <subfield code="w">piz</subfield>
-        <subfield code="A">Latimer</subfield>
-        <subfield code="D">Quinn</subfield>
-        <subfield code="E">1978</subfield>
+        <subfield code="8">Latimer, Quinn *1978-* ; ID: gnd/1022363425</subfield>
         <subfield code="B">HerausgeberIn</subfield>
         <subfield code="4">edt</subfield>
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">843625597</subfield>
-        <subfield code="V">Tpv1</subfield>
-        <subfield code="7">gnd/1080057544</subfield>
-        <subfield code="3">187947716</subfield>
-        <subfield code="w">piz</subfield>
-        <subfield code="A">Szymczyk</subfield>
-        <subfield code="D">Adam</subfield>
-        <subfield code="E">1970</subfield>
+        <subfield code="8">Szymczyk, Adam *1970-* ; ID: gnd/1080057544</subfield>
         <subfield code="B">HerausgeberIn</subfield>
         <subfield code="4">edt</subfield>
       </datafield>
       <datafield tag="029A" fulltag="029A">
         <subfield code="9">862535026</subfield>
-        <subfield code="V">Tfv1</subfield>
-        <subfield code="7">gnd/1105406547</subfield>
-        <subfield code="3">473076306</subfield>
-        <subfield code="w">vie</subfield>
-        <subfield code="A">Documenta</subfield>
-        <subfield code="N">14.</subfield>
-        <subfield code="D">2017</subfield>
-        <subfield code="C">Athen; Kassel</subfield>
+        <subfield code="8">Documenta$n14.$d2017$cAthen; Kassel ; ID: gnd/1105406547</subfield>
         <subfield code="B">VerfasserIn</subfield>
         <subfield code="4">aut</subfield>
       </datafield>
       <datafield tag="029F" fulltag="029F">
         <subfield code="9">101546793</subfield>
+        <subfield code="8">documenta und Museum Fridericianum Veranstaltungs-GmbH ; ID: gnd/515318-9</subfield>
         <subfield code="B">VeranstalterIn</subfield>
         <subfield code="4">orm</subfield>
       </datafield>
@@ -222,35 +203,18 @@
       <datafield tag="039M" fulltag="039M">
         <subfield code="i">Parallele Sprachausgabe</subfield>
         <subfield code="n">englisch</subfield>
-        <subfield code="t">The @documenta 14 Reader</subfield>
-        <subfield code="d">München</subfield>
-        <subfield code="e">Prestel Verlag</subfield>
-        <subfield code="f">2017</subfield>
-        <subfield code="h">708 Seiten</subfield>
-        <subfield code="C">KXP</subfield>
-        <subfield code="6">162617945X</subfield>
-        <subfield code="C">ISBN</subfield>
-        <subfield code="6">9783791356570</subfield>
-        <subfield code="C">ZDB</subfield>
-        <subfield code="6">gnd/1022363425</subfield>
+        <subfield code="9">162617945X</subfield>
+        <subfield code="8">The @documenta 14 Reader / Documenta$n14.$d2017$cAthen; Kassel ; ID: gnd/1105406547</subfield>
       </datafield>
       <datafield tag="039M" fulltag="039M">
         <subfield code="i">Parallele Sprachausgabe</subfield>
         <subfield code="n">griechisch</subfield>
-        <subfield code="t">documenta 14 Reader</subfield>
-        <subfield code="d">Munich</subfield>
-        <subfield code="e">Prestel Verlag</subfield>
-        <subfield code="f">2017</subfield>
-        <subfield code="h">708 Seiten</subfield>
-        <subfield code="C">KXP</subfield>
-        <subfield code="6">895866609</subfield>
-        <subfield code="C">ISBN</subfield>
-        <subfield code="6">9783791356846</subfield>
-        <subfield code="C">ZDB</subfield>
-        <subfield code="6">gnd/1022363425</subfield>
+        <subfield code="9">895866609</subfield>
+        <subfield code="8">documenta 14 Reader</subfield>
       </datafield>
       <datafield tag="044K" fulltag="044K">
         <subfield code="9">862535026</subfield>
+        <subfield code="8">Documenta$n14.$d2017$cAthen; Kassel ; ID: gnd/1105406547</subfield>
       </datafield>
       <datafield tag="045F" fulltag="045F">
         <subfield code="e">23sdnb</subfield>
@@ -263,6 +227,7 @@
       </datafield>
       <datafield tag="045Q" occurrence="01" fulltag="045Q/01">
         <subfield code="9">106406493</subfield>
+        <subfield code="8">20.00$jKunstwissenschaften: Allgemeines</subfield>
       </datafield>
       <datafield tag="045R" fulltag="045R">
         <subfield code="a">LH 65880</subfield>
@@ -296,6 +261,7 @@
         <subfield code="S">zu</subfield>
         <subfield code="a">Sautter + Lackmann Fachbuchhandlung, Hamburg</subfield>
         <subfield code="9">231499442</subfield>
+        <subfield code="8">Sautter + Lackmann Fachbuchhandlung$gHamburg ; ID: gnd/5211239-1</subfield>
         <subfield code="c">2017-06-26</subfield>
       </datafield>
       <datafield tag="101B" fulltag="101B">
@@ -397,6 +363,6 @@
         </datafield>
       </item>
     </metadata>
-    <rawrecord><![CDATA[001@ ƒ011,21-22,24,31,39-40,62-63,65-66,69-70,72,90,118,120-121,130,139,165,172,181,203,234,274,293,370,695,698,2003-2006,2008,2010-2011,2015-2016,2018,2037-2038,2042,2044,2046,2082,2084,2089,2096-2097,2109,2117,2151,2162,2166-2167,2427,2481,2485,2493,2510,2512001A ƒ02001:04-01-17001B ƒ00007:26-03-19ƒt11:57:56.000001D ƒ00834:05-05-17001U ƒ0utf8001X ƒ00002@ ƒ0Aau002C ƒaTextƒbtxt002D ƒaohne Hilfsmittel zu benutzenƒbn002E ƒaBandƒbnc003@ ƒ0876056729003O ƒaOCoLCƒ0968218355003S ƒ0486039706003T ƒaOCoLCƒ0968218355004A ƒ09783791356563ƒf : hardback (Deutsche Ausgabe) : EUR 35.00 (DE), EUR 25.70 (AT), CHF 33.90 (freier Preis)004A ƒ03791356569004L ƒ09783791356563006G ƒ01122039492006L ƒiDNBƒ01122039492006U ƒ017,N01006Y ƒ0hks0029005007G ƒiDNBƒ01122039492008G ƒaK10plus009@ ƒbBlocktest010@ ƒager010E ƒerda011@ ƒa2017ƒn[2017]011F ƒn© 2017013D ƒ910566491X013D ƒ9105605727009Q ƒyInhaltsverzeichnisƒahttp://www.gbv.de/dms/weimar/toc/876056729_toc.pdfƒmV:DE-601ƒmB:DE-Wim2ƒqapplication/pdfƒxHƒyInhaltsverzeichnisƒ3Inhaltsverzeichnisƒ504ƒAGBVƒB2009Q ƒahttp://deposit.d-nb.de/cgi-bin/dokserv?id=b05f600baad34766b9262ade27cdf07b&prov=M&dok_var=1&dok_ext=htmƒmX: MVBƒqtext/htmlƒv2017-01-04ƒxHƒ3Inhaltstextƒ501ƒADNBƒB2009P/09 ƒyBeschreibung & Leseprobeƒahttp://www.documenta14.de/de/publications/15731/der-documenta-14-readerƒxHƒyBeschreibung & Leseprobe009P/09 ƒahttps://d-nb.info/1122039492/04ƒxH019@ ƒaXA-DEƒaXA-GBƒaXD-USƒaXA-DE-BY021A ƒaDer @Documenta 14 ReaderƒhHerausgeber Quinn Latimer, Adam Szymczyk ; documenta und Museum Fridericianum gGmbH028C ƒ9716960583ƒVTpv1ƒ7gnd/1022363425ƒ336527738XƒwpizƒALatimerƒDQuinnƒE1978ƒBHerausgeberInƒ4edt028C ƒ9843625597ƒVTpv1ƒ7gnd/1080057544ƒ3187947716ƒwpizƒASzymczykƒDAdamƒE1970ƒBHerausgeberInƒ4edt029A ƒ9862535026ƒVTfv1ƒ7gnd/1105406547ƒ3473076306ƒwvieƒADocumentaƒN14.ƒD2017ƒCAthen; KasselƒBVerfasserInƒ4aut029F ƒ9101546793ƒBVeranstalterInƒ4orm030F ƒaDocumentaƒj14ƒkAthenƒp2017.04.08-07.16033A ƒpMünchenƒpLondonƒpNew YorkƒnPrestel Verlag034D ƒa708 Seiten034I ƒa23 cm034M ƒaIllustrationen037A ƒaHier auch später erschienene, unveränderte Nachdrucke.037A ƒaISBN der englische Ausgabe: 978-3-7913-5657-0. - ISBN der griechischen Ausgabe: 978-3-7913-5684-6039M ƒiParallele SprachausgabeƒnenglischƒtThe @documenta 14 ReaderƒdMünchenƒePrestel Verlagƒf2017ƒh708 SeitenƒCKXPƒ6162617945XƒCISBNƒ69783791356570ƒCZDBƒ6gnd/1022363425039M ƒiParallele Sprachausgabeƒngriechischƒtdocumenta 14 ReaderƒdMunichƒePrestel Verlagƒf2017ƒh708 SeitenƒCKXPƒ6895866609ƒCISBNƒ69783791356846ƒCZDBƒ6gnd/1022363425044K ƒ9862535026045F ƒe23sdnbƒa700ƒADE-101045G ƒa700ƒADE-101045Q/01 ƒ9106406493045R ƒaLH 65880045R ƒaLH 40300ƒABSZ045R ƒaLH 44330ƒABSZ045V ƒiFIDƒaKUNSTƒqDE-14047A ƒa5550:KAKM ; 5090: knweph17 (SWB)047C ƒaDocumenta-14-Reader047I ƒaHauptpublikation zur documenta 14, der weltweit größten Ausstellungen zeitgenössischer Kunst - 2017 in Athen und Kassel! Als siebbedruckter Halbleinen-Band! Der Reader oder das Lesebuch der documenta 14 erforscht in Essays Allegorien, Gedichten, historischen Dokumenten und anderen, hybriden literarischen Formen die diskursiven Anliegen der Ausstellung: Formen von Dekolonialität und Widerstand, Schuld und Geschenk, Entortung und Enteignung, Sprache und Gewalt, Indigenität und Exil. Als kritische Anthologie, die Geschichte reflektiert, um einen klareren Blick auf die Gegenwart zu erhalten und die Zukunft neu zu entwerfen, versammelt der Reader eigens in Auftrag gegebene Beiträge und Wiederabdrucke wegweisender Texte. Die Bildstrecken illustrieren den – zeitlich wie geografisch – weitgespannten Rahmen, der durch die historischen Positionen bei der documenta 14 gesteckt wird.092B ƒ13522/0004ƒ21696308542ƒ3Ausst.Kassel2017-8ƒSzuƒaSautter + Lackmann Fachbuchhandlung, Hamburgƒ9231499442ƒc2017-06-26101B ƒ011-07-17ƒt15:16:58.000101U ƒ0utf8102D ƒ011-07-17ƒb6288ƒa0046145Z/25 ƒa7.085145Z/30 ƒakun 030 kas145Z/99 ƒa67201B/01 ƒ022-05-20ƒt21:04:28.000201D/01 ƒ00046:22-05-20201U/01 ƒ0utf8202D/01 ƒ022-05-20ƒb1684049ƒa0046203@/01 ƒ01685560091208@/01 ƒa08-05-17ƒbzkw209A/01 ƒfTB Kunstƒa7.085 DOCƒdiƒx00209C/01 ƒa2017:245ƒx00209G/01 ƒa46D$000461059237A/01 ƒaTest note!201B/02 ƒ011-07-17ƒt15:16:58.000201U/02 ƒ0utf8202D/02 ƒ011-07-17ƒb6288ƒa0046203@/02 ƒ01695305477208@/02 ƒa12-07-17ƒbzza209A/02 ƒaa kun 030 kas/316-14,2ƒduƒx00209C/02 ƒa2017-09951ƒx00209G/02 ƒa46$0005746205209O/02 ƒaAufsätze_zu_erfassenƒx00]]></rawrecord>
+    <rawrecord><![CDATA[001@ ƒ011,21-22,24,31,39-40,62-63,65-66,69-70,72,90,118,120-121,130,139,165,172,181,203,234,274,293,370,695,698,2003-2006,2008,2010-2011,2015-2016,2018,2037-2038,2042,2044,2046,2082,2084,2089,2096-2097,2109,2117,2151,2162,2166-2167,2427,2481,2485,2493,2510,2512001A ƒ02001:04-01-17001B ƒ00007:26-03-19ƒt11:57:56.000001D ƒ00834:05-05-17001U ƒ0utf8001X ƒ00002@ ƒ0Aau002C ƒaTextƒbtxt002D ƒaohne Hilfsmittel zu benutzenƒbn002E ƒaBandƒbnc003@ ƒ0876056729003O ƒaOCoLCƒ0968218355003S ƒ0486039706003T ƒaOCoLCƒ0968218355004A ƒ09783791356563ƒf : hardback (Deutsche Ausgabe) : EUR 35.00 (DE), EUR 25.70 (AT), CHF 33.90 (freier Preis)004A ƒ03791356569004L ƒ09783791356563006G ƒ01122039492006L ƒiDNBƒ01122039492006U ƒ017,N01006Y ƒ0hks0029005007G ƒiDNBƒ01122039492009@ ƒbBlocktest010@ ƒager010E ƒerda011@ ƒa2017ƒn[2017]011F ƒn© 2017013D ƒ910566491Xƒ8Ausstellungskatalog ; ID: gnd/4135467-9013D ƒ9105605727ƒ8Aufsatzsammlung ; ID: gnd/4143413-4009Q ƒyInhaltsverzeichnisƒahttp://www.gbv.de/dms/weimar/toc/876056729_toc.pdfƒmV:DE-601ƒmB:DE-Wim2ƒqapplication/pdfƒxHƒyInhaltsverzeichnisƒ3Inhaltsverzeichnisƒ504ƒAGBVƒB2009Q ƒahttp://deposit.d-nb.de/cgi-bin/dokserv?id=b05f600baad34766b9262ade27cdf07b&prov=M&dok_var=1&dok_ext=htmƒmX: MVBƒqtext/htmlƒv2017-01-04ƒxHƒ3Inhaltstextƒ501ƒADNBƒB2009P/09 ƒyBeschreibung & Leseprobeƒahttp://www.documenta14.de/de/publications/15731/der-documenta-14-readerƒxHƒyBeschreibung & Leseprobe009P/09 ƒahttps://d-nb.info/1122039492/04ƒxH019@ ƒaXA-DEƒaXA-GBƒaXD-USƒaXA-DE-BY021A ƒaDer @Documenta 14 ReaderƒhHerausgeber Quinn Latimer, Adam Szymczyk ; documenta und Museum Fridericianum gGmbH028C ƒ9716960583ƒ8Latimer, Quinn *1978-* ; ID: gnd/1022363425ƒBHerausgeberInƒ4edt028C ƒ9843625597ƒ8Szymczyk, Adam *1970-* ; ID: gnd/1080057544ƒBHerausgeberInƒ4edt029A ƒ9862535026ƒ8Documenta$n14.$d2017$cAthen; Kassel ; ID: gnd/1105406547ƒBVerfasserInƒ4aut029F ƒ9101546793ƒ8documenta und Museum Fridericianum Veranstaltungs-GmbH ; ID: gnd/515318-9ƒBVeranstalterInƒ4orm030F ƒaDocumentaƒj14ƒkAthenƒp2017.04.08-07.16033A ƒpMünchenƒpLondonƒpNew YorkƒnPrestel Verlag034D ƒa708 Seiten034I ƒa23 cm034M ƒaIllustrationen037A ƒaHier auch später erschienene, unveränderte Nachdrucke.037A ƒaISBN der englische Ausgabe: 978-3-7913-5657-0. - ISBN der griechischen Ausgabe: 978-3-7913-5684-6039M ƒiParallele Sprachausgabeƒnenglischƒ9162617945Xƒ8The @documenta 14 Reader / Documenta$n14.$d2017$cAthen; Kassel ; ID: gnd/1105406547039M ƒiParallele Sprachausgabeƒngriechischƒ9895866609ƒ8documenta 14 Reader044K ƒ9862535026ƒ8Documenta$n14.$d2017$cAthen; Kassel ; ID: gnd/1105406547045F ƒe23sdnbƒa700ƒADE-101045G ƒa700ƒADE-101045Q/01 ƒ9106406493ƒ820.00$jKunstwissenschaften: Allgemeines045R ƒaLH 65880045R ƒaLH 40300ƒABSZ045R ƒaLH 44330ƒABSZ045V ƒiFIDƒaKUNSTƒqDE-14047A ƒa5550:KAKM ; 5090: knweph17 (SWB)047C ƒaDocumenta-14-Reader047I ƒaHauptpublikation zur documenta 14, der weltweit größten Ausstellungen zeitgenössischer Kunst - 2017 in Athen und Kassel! Als siebbedruckter Halbleinen-Band! Der Reader oder das Lesebuch der documenta 14 erforscht in Essays Allegorien, Gedichten, historischen Dokumenten und anderen, hybriden literarischen Formen die diskursiven Anliegen der Ausstellung: Formen von Dekolonialität und Widerstand, Schuld und Geschenk, Entortung und Enteignung, Sprache und Gewalt, Indigenität und Exil. Als kritische Anthologie, die Geschichte reflektiert, um einen klareren Blick auf die Gegenwart zu erhalten und die Zukunft neu zu entwerfen, versammelt der Reader eigens in Auftrag gegebene Beiträge und Wiederabdrucke wegweisender Texte. Die Bildstrecken illustrieren den – zeitlich wie geografisch – weitgespannten Rahmen, der durch die historischen Positionen bei der documenta 14 gesteckt wird.092B ƒ13522/0004ƒ21696308542ƒ3Ausst.Kassel2017-8ƒSzuƒaSautter + Lackmann Fachbuchhandlung, Hamburgƒ9231499442ƒ8Sautter + Lackmann Fachbuchhandlung$gHamburg ; ID: gnd/5211239-1ƒc2017-06-26101B ƒ011-07-17ƒt15:16:58.000101U ƒ0utf8102D ƒ011-07-17ƒb6288ƒa0046145Z/25 ƒa7.085145Z/30 ƒakun 030 kas145Z/99 ƒa67201B/01 ƒ022-05-20ƒt21:04:28.000201D/01 ƒ00046:22-05-20201U/01 ƒ0utf8202D/01 ƒ022-05-20ƒb1684049ƒa0046203@/01 ƒ01685560091208@/01 ƒa08-05-17ƒbzkw209A/01 ƒfTB Kunstƒa7.085 DOCƒdiƒx00209C/01 ƒa2017:245ƒx00209G/01 ƒa46D$000461059237A/01 ƒaTest note!201B/02 ƒ011-07-17ƒt15:16:58.000201U/02 ƒ0utf8202D/02 ƒ011-07-17ƒb6288ƒa0046203@/02 ƒ01695305477208@/02 ƒa12-07-17ƒbzza209A/02 ƒaa kun 030 kas/316-14,2ƒduƒx00209C/02 ƒa2017-09951ƒx00209G/02 ƒa46$0005746205209O/02 ƒaAufsätze_zu_erfassenƒx00]]></rawrecord>
   </record>
 </collection>
