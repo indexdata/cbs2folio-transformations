@@ -252,7 +252,7 @@
               <value>
                 <xsl:choose>
                   <xsl:when test="./subfield[@code='0']">
-                    <xsl:value-of select="concat(./subfield[@code='i'],':_',./subfield[@code='0'])" />
+                    <xsl:value-of select="concat(./subfield[@code='i'],': ',./subfield[@code='0'])" />
                   </xsl:when>
                   <xsl:otherwise>
                     <xsl:value-of select="./subfield[@code='i']" />
