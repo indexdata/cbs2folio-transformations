@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<collection count="1">
+  <record>
+    <header>
+      <identifier>162318830X</identifier>
+      <status>upsert</status>
+    </header>
+    <metadata>
+      <datafield tag="001@" fulltag="001@">
+        <subfield code="0">21,2097,2377,2512</subfield>
+      </datafield>
+      <datafield tag="001A" fulltag="001A">
+        <subfield code="0">S1KM:02-02-17</subfield>
+      </datafield>
+      <datafield tag="001B" fulltag="001B">
+        <subfield code="0">BSZ:31-07-18</subfield>
+        <subfield code="t">07:40:24.000</subfield>
+      </datafield>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">S1KM:02-02-17</subfield>
+      </datafield>
+      <datafield tag="001U" fulltag="001U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="001X" fulltag="001X">
+        <subfield code="0">0</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Aau</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+        <subfield code="b">n</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Band</subfield>
+        <subfield code="b">nc</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">162318830X</subfield>
+      </datafield>
+      <datafield tag="003S" fulltag="003S">
+        <subfield code="0">483041807</subfield>
+      </datafield>
+      <datafield tag="003T" fulltag="003T">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">1033912851</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">9781904864493</subfield>
+        <subfield code="f">pbk</subfield>
+      </datafield>
+      <datafield tag="004D" fulltag="004D">
+        <subfield code="0">9780955161193</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">BSZ</subfield>
+        <subfield code="0">483041807</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">eng</subfield>
+        <subfield code="a">ger</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2009</subfield>
+        <subfield code="n">[ca. 2009]</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Sofia Hultén - 12 works</subfield>
+        <subfield code="d">[publ. on occasion of the exhibitions "Mutual Annihilation", Künstlerhaus Bremen (24. 05. - 17. 08. 2008); "Drawn onward", Ikon Gallery, Perrott's Folly, Birmingham (08. 04. - 25. 05. 2009)]</subfield>
+        <subfield code="h">[Ed. and curated by Stefanie Böttcher; Helen Legg. Transl.: Nicholas Grindell ...]</subfield>
+      </datafield>
+      <datafield tag="027A" fulltag="027A">
+        <subfield code="a">Twelve works</subfield>
+      </datafield>
+      <datafield tag="027A" fulltag="027A">
+        <subfield code="a">Mutual annihilation</subfield>
+      </datafield>
+      <datafield tag="027A" fulltag="027A">
+        <subfield code="a">Drawn onward</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">379127717</subfield>
+        <subfield code="8">Hultén, Sofia *1972-* ; ID: gnd/128750693</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="d">Stefanie</subfield>
+        <subfield code="a">Böttcher</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="d">Helen</subfield>
+        <subfield code="a">Legg</subfield>
+      </datafield>
+      <datafield tag="029F" fulltag="029F">
+        <subfield code="9">121175294</subfield>
+        <subfield code="8">Ikon Gallery ; ID: gnd/5063314-4</subfield>
+      </datafield>
+      <datafield tag="029F" fulltag="029F">
+        <subfield code="9">34934244X</subfield>
+        <subfield code="8">Künstlerhaus$gBremen ; ID: gnd/1246415-6</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Birmingham</subfield>
+        <subfield code="n">Ikon Gallery</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Bremen</subfield>
+        <subfield code="n">Künstlerhaus</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">183 Seiten</subfield>
+      </datafield>
+      <datafield tag="034M" fulltag="034M">
+        <subfield code="a">überw. Ill.</subfield>
+      </datafield>
+      <datafield tag="046L" fulltag="046L">
+        <subfield code="a">Text englisch und deutsch</subfield>
+      </datafield>
+      <datafield tag="047A" fulltag="047A">
+        <subfield code="a">IMD-Felder und 1131 maschinell ergänzt (SWB)</subfield>
+      </datafield>
+      <item epn="3524285759">
+        <datafield tag="201A" occurrence="01" fulltag="201A/01">
+          <subfield code="0">02-06-20</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">02-06-20</subfield>
+          <subfield code="t">17:21:53.000</subfield>
+        </datafield>
+        <datafield tag="201D" occurrence="01" fulltag="201D/01">
+          <subfield code="0">0046:02-06-20</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="01" fulltag="202D/01">
+          <subfield code="0">02-06-20</subfield>
+          <subfield code="b">21</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">3524285759</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">02-06-20</subfield>
+          <subfield code="b">zza</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">test vzg update barcode </subfield>
+          <subfield code="d">u</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="01" fulltag="209C/01">
+          <subfield code="a">Akz-Nummer</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">46$0001111574</subfield>
+        </datafield>
+      </item>
+    </metadata>
+    <rawrecord><![CDATA[001@ ƒ021,2097,2377,2512
+001A ƒ0S1KM:02-02-17
+001B ƒ0BSZ:31-07-18ƒt07:40:24.000
+001D ƒ0S1KM:02-02-17
+001U ƒ0utf8
+001X ƒ00
+002@ ƒ0Aau
+002C ƒaTextƒbtxt
+002D ƒaohne Hilfsmittel zu benutzenƒbn
+002E ƒaBandƒbnc
+003@ ƒ0162318830X
+003S ƒ0483041807
+003T ƒaOCoLCƒ01033912851
+004A ƒ09781904864493ƒfpbk
+004D ƒ09780955161193
+007G ƒiBSZƒ0483041807
+010@ ƒaengƒager
+011@ ƒa2009ƒn[ca. 2009]
+021A ƒaSofia Hultén - 12 worksƒd[publ. on occasion of the exhibitions "Mutual Annihilation", Künstlerhaus Bremen (24. 05. - 17. 08. 2008); "Drawn onward", Ikon Gallery, Perrott's Folly, Birmingham (08. 04. - 25. 05. 2009)]ƒh[Ed. and curated by Stefanie Böttcher; Helen Legg. Transl.: Nicholas Grindell ...]
+027A ƒaTwelve works
+027A ƒaMutual annihilation
+027A ƒaDrawn onward
+028C ƒ9379127717ƒ8Hultén, Sofia *1972-* ; ID: gnd/128750693
+028C ƒdStefanieƒaBöttcher
+028C ƒdHelenƒaLegg
+029F ƒ9121175294ƒ8Ikon Gallery ; ID: gnd/5063314-4
+029F ƒ934934244Xƒ8Künstlerhaus$gBremen ; ID: gnd/1246415-6
+033A ƒpBirminghamƒnIkon Gallery
+033A ƒpBremenƒnKünstlerhaus
+034D ƒa183 Seiten
+034M ƒaüberw. Ill.
+046L ƒaText englisch und deutsch
+047A ƒaIMD-Felder und 1131 maschinell ergänzt (SWB)
+
+201A/01 ƒ002-06-20
+201B/01 ƒ002-06-20ƒt17:21:53.000
+201D/01 ƒ00046:02-06-20
+201U/01 ƒ0utf8
+202D/01 ƒ002-06-20ƒb21ƒa0046
+203@/01 ƒ03524285759
+208@/01 ƒa02-06-20ƒbzza
+209A/01 ƒatest vzg update barcode ƒduƒx00
+209C/01 ƒaAkz-Nummerƒx00
+209G/01 ƒa46$0001111574
+
+]]></rawrecord>
+  </record>
+</collection>

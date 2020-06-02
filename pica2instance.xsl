@@ -14,14 +14,6 @@
   <xsl:template match="record">
     <record>
       <xsl:apply-templates select="metadata"/>
-      <xsl:if test="section[@type='item']">
-        <holdingsRecords>
-          <arr>
-            <xsl:apply-templates select="section[@type='item']"/>
-          </arr>
-        </holdingsRecords>
-      </xsl:if>
-      
     </record>
   </xsl:template>
 
@@ -630,6 +622,13 @@
               <name>Available</name>
             </status>
             <itemLevelCallNumber><xsl:value-of select="datafield[@tag='209A']/subfield[@code='a']" /></itemLevelCallNumber>
+            <barcode>
+              <xsl:variable name="item-bc" select="datafield[@tag='209G']/subfield[@code='a']" />
+              <xsl:choose>
+                <xsl:when test="contains($item-bc, '$')"><xsl:value-of select="substring-after($item-bc, '$')" /></xsl:when>
+                <xsl:otherwise><xsl:value-of select="$item-bc" /></xsl:otherwise>
+              </xsl:choose>
+            </barcode>
           </i>
         </arr>
       </items>
