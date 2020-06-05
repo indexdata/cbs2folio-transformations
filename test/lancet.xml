@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <collection count="1">
   <record>
-    <header>
+    <header status="upsert">
       <identifier>270128484</identifier>
-      <status>upsert</status>
     </header>
     <metadata>
       <datafield tag="001@" fulltag="001@">

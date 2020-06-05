@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<collection count="1">
+  <record>
+    <header status="deleted">
+      <identifier>3556405105</identifier>
+    </header>
+    <metadata>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">3556405105</subfield>
+      </datafield>
+    </metadata>
+    <rawrecord><![CDATA[PPN:3556405105 PXBSTATUS:delete003@ ƒ03556405105]]></rawrecord>
+  </record>
+</collection>

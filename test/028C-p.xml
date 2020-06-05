@@ -1,503 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<collection count="1">
-  <record>
-    <header>
-      <identifier>164024913</identifier>
-      <status>upsert</status>
-    </header>
-    <metadata>
-      <datafield tag="001@" fulltag="001@">
-        <subfield code="0">21-22,24,31,63,70,110,113,118,130-131,136,139,151,165,181,203,213,2006,2008,2011,2014,2016,2018,2082,2089,2096-2097,2151,2167,2481,2485,2496,2510,2512</subfield>
-      </datafield>
-      <datafield tag="001A" fulltag="001A">
-        <subfield code="0">2001:15-09-94</subfield>
-      </datafield>
-      <datafield tag="001B" fulltag="001B">
-        <subfield code="0">BSZ:18-03-19</subfield>
-        <subfield code="t">02:32:35.000</subfield>
-      </datafield>
-      <datafield tag="001D" fulltag="001D">
-        <subfield code="0">9999:99-99-99</subfield>
-      </datafield>
-      <datafield tag="001U" fulltag="001U">
-        <subfield code="0">utf8</subfield>
-      </datafield>
-      <datafield tag="001X" fulltag="001X">
-        <subfield code="0">0</subfield>
-      </datafield>
-      <datafield tag="002@" fulltag="002@">
-        <subfield code="0">Aau</subfield>
-      </datafield>
-      <datafield tag="002C" fulltag="002C">
-        <subfield code="a">Text</subfield>
-        <subfield code="b">txt</subfield>
-      </datafield>
-      <datafield tag="002D" fulltag="002D">
-        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
-        <subfield code="b">n</subfield>
-      </datafield>
-      <datafield tag="002E" fulltag="002E">
-        <subfield code="a">Band</subfield>
-        <subfield code="b">nc</subfield>
-      </datafield>
-      <datafield tag="003@" fulltag="003@">
-        <subfield code="0">164024913</subfield>
-      </datafield>
-      <datafield tag="003O" fulltag="003O">
-        <subfield code="a">OCoLC</subfield>
-        <subfield code="0">260187908</subfield>
-        <subfield code="v">2012-12-31</subfield>
-      </datafield>
-      <datafield tag="003S" fulltag="003S">
-        <subfield code="0">042724368</subfield>
-      </datafield>
-      <datafield tag="003T" fulltag="003T">
-        <subfield code="a">OCoLC</subfield>
-        <subfield code="0">260187908</subfield>
-      </datafield>
-      <datafield tag="004A" fulltag="004A">
-        <subfield code="0">9783927789128</subfield>
-        <subfield code="f"> : (Pp.)</subfield>
-      </datafield>
-      <datafield tag="004A" fulltag="004A">
-        <subfield code="0">3927789127</subfield>
-        <subfield code="f">(Pp.)</subfield>
-      </datafield>
-      <datafield tag="006A" fulltag="006A">
-        <subfield code="0">96186978</subfield>
-      </datafield>
-      <datafield tag="006G" fulltag="006G">
-        <subfield code="0">941823466</subfield>
-      </datafield>
-      <datafield tag="006S" fulltag="006S">
-        <subfield code="0">444218998</subfield>
-      </datafield>
-      <datafield tag="006S" fulltag="006S">
-        <subfield code="0">505201720</subfield>
-      </datafield>
-      <datafield tag="006U" fulltag="006U">
-        <subfield code="0">94,A38,1616</subfield>
-      </datafield>
-      <datafield tag="006Y" fulltag="006Y">
-        <subfield code="0">340100040866</subfield>
-      </datafield>
-      <datafield tag="007G" fulltag="007G">
-        <subfield code="i">GBV</subfield>
-        <subfield code="0">164024913</subfield>
-      </datafield>
-      <datafield tag="008G" fulltag="008G">
-        <subfield code="a">K10plus</subfield>
-      </datafield>
-      <datafield tag="009@" fulltag="009@">
-        <subfield code="b">Blocktest</subfield>
-      </datafield>
-      <datafield tag="010@" fulltag="010@">
-        <subfield code="a">ger</subfield>
-      </datafield>
-      <datafield tag="011@" fulltag="011@">
-        <subfield code="a">1994</subfield>
-        <subfield code="n">1994</subfield>
-      </datafield>
-      <datafield tag="013D" fulltag="013D">
-        <subfield code="9">826484824</subfield>
-        <subfield code="V">Tsv1</subfield>
-        <subfield code="3">433375485</subfield>
-        <subfield code="7">gnd/1071861417</subfield>
-        <subfield code="a">Konferenzschrift</subfield>
-      </datafield>
-      <datafield tag="013D" fulltag="013D">
-        <subfield code="9">10566491X</subfield>
-        <subfield code="V">Tsv1</subfield>
-        <subfield code="3">209660988</subfield>
-        <subfield code="7">gnd/4135467-9</subfield>
-        <subfield code="a">Ausstellungskatalog</subfield>
-      </datafield>
-      <datafield tag="013D" fulltag="013D">
-        <subfield code="9">105605727</subfield>
-        <subfield code="V">Tsvz</subfield>
-        <subfield code="3">209726091</subfield>
-        <subfield code="7">gnd/4143413-4</subfield>
-        <subfield code="a">Aufsatzsammlung</subfield>
-      </datafield>
-      <datafield tag="009Q" fulltag="009Q">
-        <subfield code="S">0</subfield>
-        <subfield code="a">https://external.dandelon.com/download/attachments/dandelon/ids/DE0045398BD62B613E089C1257B31004377ED.pdf</subfield>
-        <subfield code="m">V:DE-601</subfield>
-        <subfield code="m">X:AGI</subfield>
-        <subfield code="q">pdf/application</subfield>
-        <subfield code="v">2019-02-01</subfield>
-        <subfield code="x">H</subfield>
-        <subfield code="3">Inhaltsverzeichnis</subfield>
-        <subfield code="5">04</subfield>
-        <subfield code="A">GBV</subfield>
-        <subfield code="B">2</subfield>
-      </datafield>
-      <datafield tag="019@" fulltag="019@">
-        <subfield code="a">XA-DE</subfield>
-      </datafield>
-      <datafield tag="021A" fulltag="021A">
-        <subfield code="a">In Bewegung</subfield>
-        <subfield code="d">Denkmodelle zur Veränderung von Architektur und bildender Kunst ; [anläßlich der Ausstellung "Jean Nouvel" (17.6. - 18.8.1994) im Kunstverein in Hamburg]</subfield>
-        <subfield code="h">hrsg. von Barbara Steiner ... [Autoren: Absalon ...]</subfield>
-      </datafield>
-      <datafield tag="027A" fulltag="027A">
-        <subfield code="a">Jean Nouvel</subfield>
-      </datafield>
-      <datafield tag="028C" fulltag="028C">
-        <subfield code="9">081176910</subfield>
-        <subfield code="V">Tpv3</subfield>
-        <subfield code="7">gnd/121242560</subfield>
-        <subfield code="3">164703594</subfield>
-        <subfield code="w">piz</subfield>
-        <subfield code="A">Steiner</subfield>
-        <subfield code="D">Barbara</subfield>
-        <subfield code="E">1964</subfield>
-        <subfield code="V">Tpv3</subfield>
-        <subfield code="7">gnd/121242560</subfield>
-        <subfield code="3">164703594</subfield>
-        <subfield code="w">piz</subfield>
-        <subfield code="A">Steiner</subfield>
-        <subfield code="D">Barbara</subfield>
-        <subfield code="E">1964</subfield>
-        <subfield code="B">Hrsg.</subfield>
-      </datafield>
-      <datafield tag="028C" fulltag="028C">
-        <subfield code="9">077179390</subfield>
-        <subfield code="V">Tpv1</subfield>
-        <subfield code="7">gnd/114300739</subfield>
-        <subfield code="3">172004721</subfield>
-        <subfield code="w">piz</subfield>
-        <subfield code="P">Absalon</subfield>
-        <subfield code="E">1964</subfield>
-        <subfield code="M">1993</subfield>
-        <subfield code="V">Tpv1</subfield>
-        <subfield code="7">gnd/114300739</subfield>
-        <subfield code="3">172004721</subfield>
-        <subfield code="w">piz</subfield>
-        <subfield code="P">Absalon</subfield>
-        <subfield code="E">1964</subfield>
-        <subfield code="M">1993</subfield>
-      </datafield>
-      <datafield tag="028C" fulltag="028C">
-        <subfield code="9">394191145</subfield>
-        <subfield code="V">Tpv1</subfield>
-        <subfield code="7">gnd/11090849X</subfield>
-        <subfield code="3">16406284X</subfield>
-        <subfield code="w">piz</subfield>
-        <subfield code="A">Schmidt-Wulffen</subfield>
-        <subfield code="D">Stephan</subfield>
-        <subfield code="E">1951</subfield>
-        <subfield code="V">Tpv1</subfield>
-        <subfield code="7">gnd/11090849X</subfield>
-        <subfield code="3">16406284X</subfield>
-        <subfield code="w">piz</subfield>
-        <subfield code="A">Schmidt-Wulffen</subfield>
-        <subfield code="D">Stephan</subfield>
-        <subfield code="E">1951</subfield>
-      </datafield>
-      <datafield tag="028C" fulltag="028C">
-        <subfield code="9">085590665</subfield>
-        <subfield code="V">Tpv3</subfield>
-        <subfield code="7">gnd/124027261</subfield>
-        <subfield code="3">163008566</subfield>
-        <subfield code="w">piz</subfield>
-        <subfield code="A">Schwarz</subfield>
-        <subfield code="D">Ullrich</subfield>
-        <subfield code="E">1950</subfield>
-        <subfield code="V">Tpv3</subfield>
-        <subfield code="7">gnd/124027261</subfield>
-        <subfield code="3">163008566</subfield>
-        <subfield code="w">piz</subfield>
-        <subfield code="A">Schwarz</subfield>
-        <subfield code="D">Ullrich</subfield>
-        <subfield code="E">1950</subfield>
-      </datafield>
-      <datafield tag="028C" fulltag="028C">
-        <subfield code="9">080052533</subfield>
-        <subfield code="V">Tpv1</subfield>
-        <subfield code="7">gnd/119250187</subfield>
-        <subfield code="3">211789496</subfield>
-        <subfield code="w">piz</subfield>
-        <subfield code="A">Skene</subfield>
-        <subfield code="D">Cathy</subfield>
-        <subfield code="E">1964</subfield>
-        <subfield code="V">Tpv1</subfield>
-        <subfield code="7">gnd/119250187</subfield>
-        <subfield code="3">211789496</subfield>
-        <subfield code="w">piz</subfield>
-        <subfield code="A">Skene</subfield>
-        <subfield code="D">Cathy</subfield>
-        <subfield code="E">1964</subfield>
-      </datafield>
-      <datafield tag="028C" fulltag="028C">
-        <subfield code="9">624934136</subfield>
-        <subfield code="V">Tpv1</subfield>
-        <subfield code="7">gnd/14112024X</subfield>
-        <subfield code="3">322273714</subfield>
-        <subfield code="w">piz</subfield>
-        <subfield code="A">Schäfer</subfield>
-        <subfield code="D">Christoph</subfield>
-        <subfield code="E">1964</subfield>
-        <subfield code="V">Tpv1</subfield>
-        <subfield code="7">gnd/14112024X</subfield>
-        <subfield code="3">322273714</subfield>
-        <subfield code="w">piz</subfield>
-        <subfield code="A">Schäfer</subfield>
-        <subfield code="D">Christoph</subfield>
-        <subfield code="E">1964</subfield>
-      </datafield>
-      <datafield tag="028C" fulltag="028C">
-        <subfield code="9">503370630</subfield>
-        <subfield code="V">Tpv1</subfield>
-        <subfield code="7">gnd/130542806</subfield>
-        <subfield code="3">298259273</subfield>
-        <subfield code="w">piz</subfield>
-        <subfield code="A">Braun</subfield>
-        <subfield code="D">Reinhard</subfield>
-        <subfield code="E">1964</subfield>
-        <subfield code="V">Tpv1</subfield>
-        <subfield code="7">gnd/130542806</subfield>
-        <subfield code="3">298259273</subfield>
-        <subfield code="w">piz</subfield>
-        <subfield code="A">Braun</subfield>
-        <subfield code="D">Reinhard</subfield>
-        <subfield code="E">1964</subfield>
-      </datafield>
-      <datafield tag="028C" fulltag="028C">
-        <subfield code="d">Robert</subfield>
-        <subfield code="a">Harbison</subfield>
-      </datafield>
-      <datafield tag="028C" fulltag="028C">
-        <subfield code="d">Brian</subfield>
-        <subfield code="a">Hatton</subfield>
-      </datafield>
-      <datafield tag="028C" fulltag="028C">
-        <subfield code="9">397651775</subfield>
-        <subfield code="V">Tpv1</subfield>
-        <subfield code="7">gnd/107946246</subfield>
-        <subfield code="3">161456952</subfield>
-        <subfield code="w">piz</subfield>
-        <subfield code="A">Hoffmann-Axthelm</subfield>
-        <subfield code="D">Dieter</subfield>
-        <subfield code="E">1940</subfield>
-        <subfield code="V">Tpv1</subfield>
-        <subfield code="7">gnd/107946246</subfield>
-        <subfield code="3">161456952</subfield>
-        <subfield code="w">piz</subfield>
-        <subfield code="A">Hoffmann-Axthelm</subfield>
-        <subfield code="D">Dieter</subfield>
-        <subfield code="E">1940</subfield>
-      </datafield>
-      <datafield tag="028C" fulltag="028C">
-        <subfield code="9">081422393</subfield>
-        <subfield code="V">Tpv1</subfield>
-        <subfield code="7">gnd/121613291</subfield>
-        <subfield code="3">16162894X</subfield>
-        <subfield code="w">piz</subfield>
-        <subfield code="A">Kähler</subfield>
-        <subfield code="D">Gert</subfield>
-        <subfield code="E">1942</subfield>
-        <subfield code="V">Tpv1</subfield>
-        <subfield code="7">gnd/121613291</subfield>
-        <subfield code="3">16162894X</subfield>
-        <subfield code="w">piz</subfield>
-        <subfield code="A">Kähler</subfield>
-        <subfield code="D">Gert</subfield>
-        <subfield code="E">1942</subfield>
-      </datafield>
-      <datafield tag="028C" fulltag="028C">
-        <subfield code="9">079695531</subfield>
-        <subfield code="V">Tpv1</subfield>
-        <subfield code="7">gnd/118918540</subfield>
-        <subfield code="3">210391057</subfield>
-        <subfield code="w">piz</subfield>
-        <subfield code="A">Mullican</subfield>
-        <subfield code="D">Matt</subfield>
-        <subfield code="E">1951</subfield>
-        <subfield code="V">Tpv1</subfield>
-        <subfield code="7">gnd/118918540</subfield>
-        <subfield code="3">210391057</subfield>
-        <subfield code="w">piz</subfield>
-        <subfield code="A">Mullican</subfield>
-        <subfield code="D">Matt</subfield>
-        <subfield code="E">1951</subfield>
-      </datafield>
-      <datafield tag="028C" fulltag="028C">
-        <subfield code="9">080081703</subfield>
-        <subfield code="V">Tpv1</subfield>
-        <subfield code="7">gnd/11927650X</subfield>
-        <subfield code="3">211877093</subfield>
-        <subfield code="w">piz</subfield>
-        <subfield code="A">Pardo</subfield>
-        <subfield code="D">Jorge</subfield>
-        <subfield code="E">1963</subfield>
-        <subfield code="V">Tpv1</subfield>
-        <subfield code="7">gnd/11927650X</subfield>
-        <subfield code="3">211877093</subfield>
-        <subfield code="w">piz</subfield>
-        <subfield code="A">Pardo</subfield>
-        <subfield code="D">Jorge</subfield>
-        <subfield code="E">1963</subfield>
-      </datafield>
-      <datafield tag="028G" fulltag="028G">
-        <subfield code="9">079760511</subfield>
-        <subfield code="V">Tpv1</subfield>
-        <subfield code="7">gnd/118979566</subfield>
-        <subfield code="3">210595930</subfield>
-        <subfield code="w">piz</subfield>
-        <subfield code="A">Nouvel</subfield>
-        <subfield code="D">Jean</subfield>
-        <subfield code="E">1945</subfield>
-      </datafield>
-      <datafield tag="029F" fulltag="029F">
-        <subfield code="9">16418127X</subfield>
-        <subfield code="V">Tfv1</subfield>
-        <subfield code="7">gnd/2138882-9</subfield>
-        <subfield code="3">194907473</subfield>
-        <subfield code="w">vie</subfield>
-        <subfield code="A">Ausstellung Jean Nouvel</subfield>
-        <subfield code="D">1994</subfield>
-        <subfield code="C">Hamburg</subfield>
-      </datafield>
-      <datafield tag="029F" fulltag="029F">
-        <subfield code="9">101911688</subfield>
-        <subfield code="V">Tbv1</subfield>
-        <subfield code="7">gnd/2016736-2</subfield>
-        <subfield code="3">191705616</subfield>
-        <subfield code="w">kiz</subfield>
-        <subfield code="A">Kunstverein in Hamburg</subfield>
-      </datafield>
-      <datafield tag="030F" fulltag="030F">
-        <subfield code="a">Ausstellung "Jean Nouvel"</subfield>
-        <subfield code="k">Hamburg</subfield>
-        <subfield code="p">1994.06.17-08.18</subfield>
-      </datafield>
-      <datafield tag="033A" fulltag="033A">
-        <subfield code="p">[Hamburg]</subfield>
-        <subfield code="p">[Stuttgart]</subfield>
-        <subfield code="n">Oktagon</subfield>
-      </datafield>
-      <datafield tag="034D" fulltag="034D">
-        <subfield code="a">128 S.</subfield>
-      </datafield>
-      <datafield tag="034M" fulltag="034M">
-        <subfield code="a">Ill., graph. Darst., Kt.</subfield>
-      </datafield>
-      <datafield tag="036E" fulltag="036E">
-        <subfield code="a">Schriften des Kunstvereins in Hamburg</subfield>
-      </datafield>
-      <datafield tag="041A" fulltag="041A">
-        <subfield code="9">104280352</subfield>
-        <subfield code="V">Tsvz</subfield>
-        <subfield code="7">gnd/4002851-3</subfield>
-        <subfield code="3">208848975</subfield>
-        <subfield code="a">Architektur</subfield>
-      </datafield>
-      <datafield tag="044A" fulltag="044A">
-        <subfield code="N">650</subfield>
-        <subfield code="s">Architecture</subfield>
-        <subfield code="x">Environmental aspects</subfield>
-      </datafield>
-      <datafield tag="044K" fulltag="044K">
-        <subfield code="9">104280352</subfield>
-        <subfield code="V">Tsvz</subfield>
-        <subfield code="7">gnd/4002851-3</subfield>
-        <subfield code="3">208848975</subfield>
-        <subfield code="a">Architektur</subfield>
-      </datafield>
-      <datafield tag="045A" fulltag="045A">
-        <subfield code="a">NA2542.35</subfield>
-      </datafield>
-      <datafield tag="045E" fulltag="045E">
-        <subfield code="a">45</subfield>
-      </datafield>
-      <datafield tag="045Q" occurrence="01" fulltag="045Q/01">
-        <subfield code="9">181570572</subfield>
-        <subfield code="V">Tkv</subfield>
-        <subfield code="a">56.62</subfield>
-        <subfield code="j">Architekturtheorie</subfield>
-        <subfield code="j">Architekturentwicklung</subfield>
-      </datafield>
-      <datafield tag="045Q" occurrence="02" fulltag="045Q/02">
-        <subfield code="9">106415824</subfield>
-        <subfield code="V">Tkv</subfield>
-        <subfield code="a">20.05</subfield>
-        <subfield code="j">Kunst in Beziehung zu anderen Wissenschaftsgebieten</subfield>
-      </datafield>
-      <datafield tag="045R" fulltag="045R">
-        <subfield code="9">1270646443</subfield>
-        <subfield code="V">Tkv</subfield>
-        <subfield code="7">rvk/94206:</subfield>
-        <subfield code="3">200646443</subfield>
-        <subfield code="a">LH 61060</subfield>
-        <subfield code="j">Kunstvergleichung und Kunstkritik</subfield>
-        <subfield code="k">Kunstgeschichte</subfield>
-        <subfield code="k">Allgemeines. Allgemeine Kunstgeschichte</subfield>
-        <subfield code="k">Theorie und Praxis der Bildenden Kunst</subfield>
-        <subfield code="k">Theorie der Bildenden Kunst</subfield>
-      </datafield>
-      <datafield tag="045V" fulltag="045V">
-        <subfield code="a">9,10</subfield>
-      </datafield>
-      <datafield tag="046W" fulltag="046W">
-        <subfield code="a">IMD-Felder maschinell generiert (GBV)</subfield>
-      </datafield>
-      <datafield tag="047A" fulltag="047A">
-        <subfield code="a">5090: DDSU/sred ; IMD-Felder und 1131 maschinell ergänzt (SWB)</subfield>
-      </datafield>
-      <datafield tag="101B" fulltag="101B">
-        <subfield code="0">22-09-95</subfield>
-        <subfield code="t">09:46:51.383</subfield>
-      </datafield>
-      <datafield tag="101U" fulltag="101U">
-        <subfield code="0">utf8</subfield>
-      </datafield>
-      <datafield tag="102D" fulltag="102D">
-        <subfield code="0">26-05-20</subfield>
-        <subfield code="b">touchtitle</subfield>
-        <subfield code="a">1999</subfield>
-      </datafield>
-      <datafield tag="145Z" occurrence="30" fulltag="145Z/30">
-        <subfield code="a">kun 100.3</subfield>
-      </datafield>
-      <datafield tag="145Z" occurrence="99" fulltag="145Z/99">
-        <subfield code="a">67</subfield>
-      </datafield>
-      <item epn="157430286">
-        <datafield tag="201B" occurrence="01" fulltag="201B/01">
-          <subfield code="0">22-09-95</subfield>
-          <subfield code="t">09:46:51.414</subfield>
-        </datafield>
-        <datafield tag="201U" occurrence="01" fulltag="201U/01">
-          <subfield code="0">utf8</subfield>
-        </datafield>
-        <datafield tag="202D" occurrence="01" fulltag="202D/01">
-          <subfield code="0">26-05-20</subfield>
-          <subfield code="b">touchtitle</subfield>
-          <subfield code="a">1999</subfield>
-        </datafield>
-        <datafield tag="203@" occurrence="01" fulltag="203@/01">
-          <subfield code="0">157430286</subfield>
-        </datafield>
-        <datafield tag="208@" occurrence="01" fulltag="208@/01">
-          <subfield code="a">22-09-95</subfield>
-          <subfield code="b">zza</subfield>
-        </datafield>
-        <datafield tag="209A" occurrence="01" fulltag="209A/01">
-          <subfield code="a">a kun 100.3/848</subfield>
-          <subfield code="d">u</subfield>
-          <subfield code="x">00</subfield>
-        </datafield>
-        <datafield tag="209C" occurrence="01" fulltag="209C/01">
-          <subfield code="a">wp 0848</subfield>
-          <subfield code="x">00</subfield>
-        </datafield>
-        <datafield tag="209O" occurrence="01" fulltag="209O/01">
-          <subfield code="a">kk</subfield>
-          <subfield code="x">00</subfield>
-        </datafield>
-      </item>
-    </metadata>
-    <rawrecord><![CDATA[001@ ƒ021-22,24,31,63,70,110,113,118,130-131,136,139,151,165,181,203,213,2006,2008,2011,2014,2016,2018,2082,2089,2096-2097,2151,2167,2481,2485,2496,2510,2512001A ƒ02001:15-09-94001B ƒ0BSZ:18-03-19ƒt02:32:35.000001D ƒ09999:99-99-99001U ƒ0utf8001X ƒ00002@ ƒ0Aau002C ƒaTextƒbtxt002D ƒaohne Hilfsmittel zu benutzenƒbn002E ƒaBandƒbnc003@ ƒ0164024913003O ƒaOCoLCƒ0260187908ƒv2012-12-31003S ƒ0042724368003T ƒaOCoLCƒ0260187908004A ƒ09783927789128ƒf : (Pp.)004A ƒ03927789127ƒf(Pp.)006A ƒ096186978006G ƒ0941823466006S ƒ0444218998006S ƒ0505201720006U ƒ094,A38,1616006Y ƒ0340100040866007G ƒiGBVƒ0164024913008G ƒaK10plus009@ ƒbBlocktest010@ ƒager011@ ƒa1994ƒn1994013D ƒ9826484824ƒVTsv1ƒ3433375485ƒ7gnd/1071861417ƒaKonferenzschrift013D ƒ910566491XƒVTsv1ƒ3209660988ƒ7gnd/4135467-9ƒaAusstellungskatalog013D ƒ9105605727ƒVTsvzƒ3209726091ƒ7gnd/4143413-4ƒaAufsatzsammlung009Q ƒS0ƒahttps://external.dandelon.com/download/attachments/dandelon/ids/DE0045398BD62B613E089C1257B31004377ED.pdfƒmV:DE-601ƒmX:AGIƒqpdf/applicationƒv2019-02-01ƒxHƒ3Inhaltsverzeichnisƒ504ƒAGBVƒB2019@ ƒaXA-DE021A ƒaIn BewegungƒdDenkmodelle zur Veränderung von Architektur und bildender Kunst ; [anläßlich der Ausstellung "Jean Nouvel" (17.6. - 18.8.1994) im Kunstverein in Hamburg]ƒhhrsg. von Barbara Steiner ... [Autoren: Absalon ...]027A ƒaJean Nouvel028C ƒ9081176910ƒVTpv3ƒ7gnd/121242560ƒ3164703594ƒwpizƒASteinerƒDBarbaraƒE1964ƒVTpv3ƒ7gnd/121242560ƒ3164703594ƒwpizƒASteinerƒDBarbaraƒE1964ƒBHrsg.028C ƒ9077179390ƒVTpv1ƒ7gnd/114300739ƒ3172004721ƒwpizƒPAbsalonƒE1964ƒM1993ƒVTpv1ƒ7gnd/114300739ƒ3172004721ƒwpizƒPAbsalonƒE1964ƒM1993028C ƒ9394191145ƒVTpv1ƒ7gnd/11090849Xƒ316406284XƒwpizƒASchmidt-WulffenƒDStephanƒE1951ƒVTpv1ƒ7gnd/11090849Xƒ316406284XƒwpizƒASchmidt-WulffenƒDStephanƒE1951028C ƒ9085590665ƒVTpv3ƒ7gnd/124027261ƒ3163008566ƒwpizƒASchwarzƒDUllrichƒE1950ƒVTpv3ƒ7gnd/124027261ƒ3163008566ƒwpizƒASchwarzƒDUllrichƒE1950028C ƒ9080052533ƒVTpv1ƒ7gnd/119250187ƒ3211789496ƒwpizƒASkeneƒDCathyƒE1964ƒVTpv1ƒ7gnd/119250187ƒ3211789496ƒwpizƒASkeneƒDCathyƒE1964028C ƒ9624934136ƒVTpv1ƒ7gnd/14112024Xƒ3322273714ƒwpizƒASchäferƒDChristophƒE1964ƒVTpv1ƒ7gnd/14112024Xƒ3322273714ƒwpizƒASchäferƒDChristophƒE1964028C ƒ9503370630ƒVTpv1ƒ7gnd/130542806ƒ3298259273ƒwpizƒABraunƒDReinhardƒE1964ƒVTpv1ƒ7gnd/130542806ƒ3298259273ƒwpizƒABraunƒDReinhardƒE1964028C ƒdRobertƒaHarbison028C ƒdBrianƒaHatton028C ƒ9397651775ƒVTpv1ƒ7gnd/107946246ƒ3161456952ƒwpizƒAHoffmann-AxthelmƒDDieterƒE1940ƒVTpv1ƒ7gnd/107946246ƒ3161456952ƒwpizƒAHoffmann-AxthelmƒDDieterƒE1940028C ƒ9081422393ƒVTpv1ƒ7gnd/121613291ƒ316162894XƒwpizƒAKählerƒDGertƒE1942ƒVTpv1ƒ7gnd/121613291ƒ316162894XƒwpizƒAKählerƒDGertƒE1942028C ƒ9079695531ƒVTpv1ƒ7gnd/118918540ƒ3210391057ƒwpizƒAMullicanƒDMattƒE1951ƒVTpv1ƒ7gnd/118918540ƒ3210391057ƒwpizƒAMullicanƒDMattƒE1951028C ƒ9080081703ƒVTpv1ƒ7gnd/11927650Xƒ3211877093ƒwpizƒAPardoƒDJorgeƒE1963ƒVTpv1ƒ7gnd/11927650Xƒ3211877093ƒwpizƒAPardoƒDJorgeƒE1963028G ƒ9079760511ƒVTpv1ƒ7gnd/118979566ƒ3210595930ƒwpizƒANouvelƒDJeanƒE1945029F ƒ916418127XƒVTfv1ƒ7gnd/2138882-9ƒ3194907473ƒwvieƒAAusstellung Jean NouvelƒD1994ƒCHamburg029F ƒ9101911688ƒVTbv1ƒ7gnd/2016736-2ƒ3191705616ƒwkizƒAKunstverein in Hamburg030F ƒaAusstellung "Jean Nouvel"ƒkHamburgƒp1994.06.17-08.18033A ƒp[Hamburg]ƒp[Stuttgart]ƒnOktagon034D ƒa128 S.034M ƒaIll., graph. Darst., Kt.036E ƒaSchriften des Kunstvereins in Hamburg041A ƒ9104280352ƒVTsvzƒ7gnd/4002851-3ƒ3208848975ƒaArchitektur044A ƒN650ƒsArchitectureƒxEnvironmental aspects044K ƒ9104280352ƒVTsvzƒ7gnd/4002851-3ƒ3208848975ƒaArchitektur045A ƒaNA2542.35045E ƒa45045Q/01 ƒ9181570572ƒVTkvƒa56.62ƒjArchitekturtheorieƒjArchitekturentwicklung045Q/02 ƒ9106415824ƒVTkvƒa20.05ƒjKunst in Beziehung zu anderen Wissenschaftsgebieten045R ƒ91270646443ƒVTkvƒ7rvk/94206:ƒ3200646443ƒaLH 61060ƒjKunstvergleichung und KunstkritikƒkKunstgeschichteƒkAllgemeines. Allgemeine KunstgeschichteƒkTheorie und Praxis der Bildenden KunstƒkTheorie der Bildenden Kunst045V ƒa9,10046W ƒaIMD-Felder maschinell generiert (GBV)047A ƒa5090: DDSU/sred ; IMD-Felder und 1131 maschinell ergänzt (SWB)101B ƒ022-09-95ƒt09:46:51.383101U ƒ0utf8102D ƒ026-05-20ƒbtouchtitleƒa1999145Z/30 ƒakun 100.3145Z/99 ƒa67201B/01 ƒ022-09-95ƒt09:46:51.414201U/01 ƒ0utf8202D/01 ƒ026-05-20ƒbtouchtitleƒa1999203@/01 ƒ0157430286208@/01 ƒa22-09-95ƒbzza209A/01 ƒaa kun 100.3/848ƒduƒx00209C/01 ƒawp 0848ƒx00209O/01 ƒakkƒx00]]></rawrecord>
-  </record>
-</collection>

@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <collection count="1">
   <record>
-    <header>
+    <header status="upsert">
       <identifier>025708635</identifier>
-      <status>upsert</status>
     </header>
     <metadata>
       <datafield tag="001@" fulltag="001@">
@@ -73,9 +72,6 @@
         <subfield code="i">GBV</subfield>
         <subfield code="0">025708635</subfield>
       </datafield>
-      <datafield tag="008G" fulltag="008G">
-        <subfield code="a">K10plus</subfield>
-      </datafield>
       <datafield tag="009@" fulltag="009@">
         <subfield code="b">Blocktest</subfield>
       </datafield>
@@ -88,10 +84,7 @@
       </datafield>
       <datafield tag="013D" fulltag="013D">
         <subfield code="9">104450460</subfield>
-        <subfield code="V">Tsvz</subfield>
-        <subfield code="3">209786884</subfield>
-        <subfield code="7">gnd/4151278-9</subfield>
-        <subfield code="a">Einführung</subfield>
+        <subfield code="8">Einführung ; ID: gnd/4151278-9</subfield>
       </datafield>
       <datafield tag="016B" fulltag="016B">
         <subfield code="a">BGTS</subfield>
@@ -147,31 +140,19 @@
       </datafield>
       <datafield tag="044K" fulltag="044K">
         <subfield code="9">106311905</subfield>
-        <subfield code="V">Tsv1</subfield>
-        <subfield code="7">gnd/4021850-8</subfield>
-        <subfield code="3">208940278</subfield>
-        <subfield code="a">Graphische Technik</subfield>
+        <subfield code="8">Graphische Technik ; ID: gnd/4021850-8</subfield>
       </datafield>
       <datafield tag="044L" fulltag="044L">
         <subfield code="9">105522953</subfield>
-        <subfield code="V">Tsv1</subfield>
-        <subfield code="7">gnd/4154503-5</subfield>
-        <subfield code="3">209811692</subfield>
-        <subfield code="a">Flachdruck</subfield>
+        <subfield code="8">Flachdruck ; ID: gnd/4154503-5</subfield>
       </datafield>
       <datafield tag="044L" fulltag="044L">
         <subfield code="9">106311905</subfield>
-        <subfield code="V">Tsv1</subfield>
-        <subfield code="7">gnd/4021850-8</subfield>
-        <subfield code="3">208940278</subfield>
-        <subfield code="a">Graphische Technik</subfield>
+        <subfield code="8">Graphische Technik ; ID: gnd/4021850-8</subfield>
       </datafield>
       <datafield tag="044L" fulltag="044L">
         <subfield code="9">106186582</subfield>
-        <subfield code="V">Tsv1</subfield>
-        <subfield code="7">gnd/4049540-1</subfield>
-        <subfield code="3">209082518</subfield>
-        <subfield code="a">Reproduktionstechnik</subfield>
+        <subfield code="8">Reproduktionstechnik ; ID: gnd/4049540-1</subfield>
       </datafield>
       <datafield tag="045B" fulltag="045B">
         <subfield code="a">Ahl</subfield>
@@ -189,54 +170,23 @@
       </datafield>
       <datafield tag="045Q" occurrence="01" fulltag="045Q/01">
         <subfield code="9">106421786</subfield>
-        <subfield code="V">Tkv</subfield>
-        <subfield code="a">21.31</subfield>
-        <subfield code="j">Graphische Technik</subfield>
-        <subfield code="j">Graphisches Material</subfield>
-        <subfield code="X">Kunst</subfield>
+        <subfield code="8">21.31$jGraphische Technik$jGraphisches Material$XKunst</subfield>
       </datafield>
       <datafield tag="045Q" occurrence="01" fulltag="045Q/01">
         <subfield code="9">106410962</subfield>
-        <subfield code="V">Tkv</subfield>
-        <subfield code="a">52.87</subfield>
-        <subfield code="j">Graphische Technik</subfield>
+        <subfield code="8">52.87$jGraphische Technik</subfield>
       </datafield>
       <datafield tag="045R" fulltag="045R">
         <subfield code="9">1270677136</subfield>
-        <subfield code="V">Tkv</subfield>
-        <subfield code="7">rvk/5916:</subfield>
-        <subfield code="3">200677136</subfield>
-        <subfield code="a">AN 28000</subfield>
-        <subfield code="j">Allgemeines</subfield>
-        <subfield code="k">Allgemeines</subfield>
-        <subfield code="k">Buch- und Bibliothekswesen, Informationswissenschaft</subfield>
-        <subfield code="k">Buchwesen</subfield>
-        <subfield code="k">Druckverfahren</subfield>
+        <subfield code="8">AN 28000: Allgemeines / Buch- und Bibliothekswesen, Informationswissenschaft / Buchwesen / Druckverfahren / Allgemeines</subfield>
       </datafield>
       <datafield tag="045R" fulltag="045R">
         <subfield code="9">1271107902</subfield>
-        <subfield code="V">Tkv</subfield>
-        <subfield code="7">rvk/94849:</subfield>
-        <subfield code="3">201107902</subfield>
-        <subfield code="a">LH 71130</subfield>
-        <subfield code="j">Allgemeine Darstellungen nach Material und Technik</subfield>
-        <subfield code="k">Kunstgeschichte</subfield>
-        <subfield code="k">Allgemeines. Allgemeine Kunstgeschichte</subfield>
-        <subfield code="k">Kunstgeschichte einzelner Gattungen der Kunst</subfield>
-        <subfield code="k">Zeichnung und Grafik</subfield>
-        <subfield code="k">Darstellungen nach Material und Technik</subfield>
+        <subfield code="8">LH 71130: Kunstgeschichte / Allgemeines. Allgemeine Kunstgeschichte / Kunstgeschichte einzelner Gattungen der Kunst / Zeichnung und Grafik / Darstellungen nach Material und Technik / Allgemeine Darstellungen nach Material und Technik</subfield>
       </datafield>
       <datafield tag="045R" fulltag="045R">
         <subfield code="9">1270676970</subfield>
-        <subfield code="V">Tkv</subfield>
-        <subfield code="7">rvk/5899:</subfield>
-        <subfield code="3">200676970</subfield>
-        <subfield code="a">AN 26000</subfield>
-        <subfield code="j">Einrichtung, Ausstattung</subfield>
-        <subfield code="k">Allgemeines</subfield>
-        <subfield code="k">Buch- und Bibliothekswesen, Informationswissenschaft</subfield>
-        <subfield code="k">Buchwesen</subfield>
-        <subfield code="k">Buchdruck, Buchherstellung</subfield>
+        <subfield code="8">AN 26000: Allgemeines / Buch- und Bibliothekswesen, Informationswissenschaft / Buchwesen / Buchdruck, Buchherstellung / Einrichtung, Ausstattung</subfield>
       </datafield>
       <datafield tag="046W" fulltag="046W">
         <subfield code="a">IMD-Felder maschinell generiert (GBV)</subfield>
@@ -291,6 +241,6 @@
         </datafield>
       </item>
     </metadata>
-    <rawrecord><![CDATA[001@ ƒ011,21,31,34,39,50,61,63,70,91,110,118,152,186,231,285,340,2006,2036,2042-2043,2048,2057,2063,2097,2510001A ƒ02000:02-07-91001B ƒ0BSZ:17-03-19ƒt23:02:21.000001D ƒ09999:99-99-99001U ƒ0utf8001X ƒ00002@ ƒ0Aau002C ƒaTextƒbtxt002D ƒaohne Hilfsmittel zu benutzenƒbn002E ƒaBandƒbnc003@ ƒ0025708635003O ƒaOCoLCƒ0215417764ƒv2012-12-31003S ƒ0060960434003T ƒaOCoLCƒ0215417764003T ƒaOCoLCƒ01083801283004A ƒ03770112377006L ƒiBVBƒ08082415129006Y ƒ0340100015684007G ƒiGBVƒ0025708635008G ƒaK10plus009@ ƒbBlocktest010@ ƒager011@ ƒa1990ƒn1990013D ƒ9104450460ƒVTsvzƒ3209786884ƒ7gnd/4151278-9ƒaEinführung016B ƒaBGTS009Q ƒahttp://d-nb.info/830744932/04ƒmB:DE-101ƒqpdf/applicationƒv20161127003401ƒxHƒ3Inhaltsverzeichnisƒ504ƒADNBƒB2019@ ƒaXA-DE021A ƒaDuMont's Handbuch der grafischen Technikenƒdmanuelle und maschinelle Druckverfahren ; Hochdruck, Tiefdruck, Flachdruck, Durchdruck ; Reproduktionstechniken ; MehrfarbendruckƒhFons van der Linden022A/01 ƒaDe @grafische technieken <dt.>027A ƒaHandbuch der grafischen Techniken027A ƒaDuMonts Handbuch der grafischen Techniken027A ƒaHandbuch der graphischen Techniken028A ƒdFonsƒcvan derƒaLinden032@ ƒa3. Aufl.033A ƒpKölnƒnDuMont034D ƒa228 S034M ƒaIll., graph. Darst044K ƒ9106311905ƒVTsv1ƒ7gnd/4021850-8ƒ3208940278ƒaGraphische Technik044L ƒ9105522953ƒVTsv1ƒ7gnd/4154503-5ƒ3209811692ƒaFlachdruck044L ƒ9106311905ƒVTsv1ƒ7gnd/4021850-8ƒ3208940278ƒaGraphische Technik044L ƒ9106186582ƒVTsv1ƒ7gnd/4049540-1ƒ3209082518ƒaReproduktionstechnik045B ƒaAhl045B ƒaRdm045B ƒaIGSST045E ƒa46ƒa09ƒa42045Q/01 ƒ9106421786ƒVTkvƒa21.31ƒjGraphische TechnikƒjGraphisches MaterialƒXKunst045Q/01 ƒ9106410962ƒVTkvƒa52.87ƒjGraphische Technik045R ƒ91270677136ƒVTkvƒ7rvk/5916:ƒ3200677136ƒaAN 28000ƒjAllgemeinesƒkAllgemeinesƒkBuch- und Bibliothekswesen, InformationswissenschaftƒkBuchwesenƒkDruckverfahren045R ƒ91271107902ƒVTkvƒ7rvk/94849:ƒ3201107902ƒaLH 71130ƒjAllgemeine Darstellungen nach Material und TechnikƒkKunstgeschichteƒkAllgemeines. Allgemeine KunstgeschichteƒkKunstgeschichte einzelner Gattungen der KunstƒkZeichnung und GrafikƒkDarstellungen nach Material und Technik045R ƒ91270676970ƒVTkvƒ7rvk/5899:ƒ3200676970ƒaAN 26000ƒjEinrichtung, AusstattungƒkAllgemeinesƒkBuch- und Bibliothekswesen, InformationswissenschaftƒkBuchwesenƒkBuchdruck, Buchherstellung046W ƒaIMD-Felder maschinell generiert (GBV)047A ƒa720 ff. bvb; 580 ff. bvb ; IMD-Felder und 1131 maschinell ergänzt (SWB)101B ƒ003-11-95ƒt13:42:05.751101U ƒ0utf8102D ƒ003-11-95ƒb9060ƒa0000145Z/25 ƒa76.02201B/01 ƒ003-11-95ƒt13:42:05.767201U/01 ƒ0utf8202D/01 ƒ003-11-95ƒb9060ƒa0000203@/01 ƒ0160581419208@/01 ƒa03-11-95ƒbrkw209A/01 ƒfTB Kunst-W.ƒa76.02ƒdcƒx00209C/01 ƒa1993:98ƒx00]]></rawrecord>
+    <rawrecord><![CDATA[001@ ƒ011,21,31,34,39,50,61,63,70,91,110,118,152,186,231,285,340,2006,2036,2042-2043,2048,2057,2063,2097,2510001A ƒ02000:02-07-91001B ƒ0BSZ:17-03-19ƒt23:02:21.000001D ƒ09999:99-99-99001U ƒ0utf8001X ƒ00002@ ƒ0Aau002C ƒaTextƒbtxt002D ƒaohne Hilfsmittel zu benutzenƒbn002E ƒaBandƒbnc003@ ƒ0025708635003O ƒaOCoLCƒ0215417764ƒv2012-12-31003S ƒ0060960434003T ƒaOCoLCƒ0215417764003T ƒaOCoLCƒ01083801283004A ƒ03770112377006L ƒiBVBƒ08082415129006Y ƒ0340100015684007G ƒiGBVƒ0025708635009@ ƒbBlocktest010@ ƒager011@ ƒa1990ƒn1990013D ƒ9104450460ƒ8Einführung ; ID: gnd/4151278-9016B ƒaBGTS009Q ƒahttp://d-nb.info/830744932/04ƒmB:DE-101ƒqpdf/applicationƒv20161127003401ƒxHƒ3Inhaltsverzeichnisƒ504ƒADNBƒB2019@ ƒaXA-DE021A ƒaDuMont's Handbuch der grafischen Technikenƒdmanuelle und maschinelle Druckverfahren ; Hochdruck, Tiefdruck, Flachdruck, Durchdruck ; Reproduktionstechniken ; MehrfarbendruckƒhFons van der Linden022A/01 ƒaDe @grafische technieken <dt.>027A ƒaHandbuch der grafischen Techniken027A ƒaDuMonts Handbuch der grafischen Techniken027A ƒaHandbuch der graphischen Techniken028A ƒdFonsƒcvan derƒaLinden032@ ƒa3. Aufl.033A ƒpKölnƒnDuMont034D ƒa228 S034M ƒaIll., graph. Darst044K ƒ9106311905ƒ8Graphische Technik ; ID: gnd/4021850-8044L ƒ9105522953ƒ8Flachdruck ; ID: gnd/4154503-5044L ƒ9106311905ƒ8Graphische Technik ; ID: gnd/4021850-8044L ƒ9106186582ƒ8Reproduktionstechnik ; ID: gnd/4049540-1045B ƒaAhl045B ƒaRdm045B ƒaIGSST045E ƒa46ƒa09ƒa42045Q/01 ƒ9106421786ƒ821.31$jGraphische Technik$jGraphisches Material$XKunst045Q/01 ƒ9106410962ƒ852.87$jGraphische Technik045R ƒ91270677136ƒ8AN 28000: Allgemeines / Buch- und Bibliothekswesen, Informationswissenschaft / Buchwesen / Druckverfahren / Allgemeines045R ƒ91271107902ƒ8LH 71130: Kunstgeschichte / Allgemeines. Allgemeine Kunstgeschichte / Kunstgeschichte einzelner Gattungen der Kunst / Zeichnung und Grafik / Darstellungen nach Material und Technik / Allgemeine Darstellungen nach Material und Technik045R ƒ91270676970ƒ8AN 26000: Allgemeines / Buch- und Bibliothekswesen, Informationswissenschaft / Buchwesen / Buchdruck, Buchherstellung / Einrichtung, Ausstattung046W ƒaIMD-Felder maschinell generiert (GBV)047A ƒa720 ff. bvb; 580 ff. bvb ; IMD-Felder und 1131 maschinell ergänzt (SWB)101B ƒ003-11-95ƒt13:42:05.751101U ƒ0utf8102D ƒ003-11-95ƒb9060ƒa0000145Z/25 ƒa76.02201B/01 ƒ003-11-95ƒt13:42:05.767201U/01 ƒ0utf8202D/01 ƒ003-11-95ƒb9060ƒa0000203@/01 ƒ0160581419208@/01 ƒa03-11-95ƒbrkw209A/01 ƒfTB Kunst-W.ƒa76.02ƒdcƒx00209C/01 ƒa1993:98ƒx00]]></rawrecord>
   </record>
 </collection>

@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <collection count="1">
   <record>
-    <header>
-      <identifier>876056729</identifier>
-      <status>upsert</status>
+    <header status="upsert">
+      <identifier>161040829</identifier>
     </header>
     <metadata>
       <datafield tag="001@" fulltag="001@">
-        <subfield code="0">11,21-22,24,31,39-40,62-63,65-66,69-70,72,90,118,120-121,130,139,165,172,181,203,234,274,293,370,695,698,2003-2006,2008,2010-2011,2015-2016,2018,2037-2038,2042,2044,2046,2082,2084,2089,2096-2097,2109,2117,2151,2162,2166-2167,2427,2481,2485,2493,2510,2512</subfield>
+        <subfield code="0">21,34,63,66,69,165,181,2001,2003,2006,2008,2011,2018,2166,2512</subfield>
       </datafield>
       <datafield tag="001A" fulltag="001A">
-        <subfield code="0">2001:04-01-17</subfield>
+        <subfield code="0">2001:04-09-94</subfield>
       </datafield>
       <datafield tag="001B" fulltag="001B">
-        <subfield code="0">0007:26-03-19</subfield>
-        <subfield code="t">11:57:56.000</subfield>
+        <subfield code="0">BSZ:18-03-19</subfield>
+        <subfield code="t">05:01:49.000</subfield>
       </datafield>
       <datafield tag="001D" fulltag="001D">
-        <subfield code="0">0834:05-05-17</subfield>
+        <subfield code="0">9999:99-99-99</subfield>
       </datafield>
       <datafield tag="001U" fulltag="001U">
         <subfield code="0">utf8</subfield>
@@ -41,328 +40,238 @@
         <subfield code="b">nc</subfield>
       </datafield>
       <datafield tag="003@" fulltag="003@">
-        <subfield code="0">876056729</subfield>
+        <subfield code="0">161040829</subfield>
       </datafield>
       <datafield tag="003O" fulltag="003O">
         <subfield code="a">OCoLC</subfield>
-        <subfield code="0">968218355</subfield>
+        <subfield code="0">631546983</subfield>
+        <subfield code="v">2012-12-31</subfield>
       </datafield>
       <datafield tag="003S" fulltag="003S">
-        <subfield code="0">486039706</subfield>
+        <subfield code="0">018996744</subfield>
       </datafield>
       <datafield tag="003T" fulltag="003T">
         <subfield code="a">OCoLC</subfield>
-        <subfield code="0">968218355</subfield>
+        <subfield code="0">20264662</subfield>
       </datafield>
       <datafield tag="004A" fulltag="004A">
-        <subfield code="0">9783791356563</subfield>
-        <subfield code="f"> : hardback (Deutsche Ausgabe) : EUR 35.00 (DE), EUR 25.70 (AT), CHF 33.90 (freier Preis)</subfield>
+        <subfield code="0">379130965X</subfield>
+        <subfield code="f"> : DM 380.00 (Gewebe)</subfield>
       </datafield>
-      <datafield tag="004A" fulltag="004A">
-        <subfield code="0">3791356569</subfield>
-      </datafield>
-      <datafield tag="004L" fulltag="004L">
-        <subfield code="0">9783791356563</subfield>
+      <datafield tag="006A" fulltag="006A">
+        <subfield code="0">89022575</subfield>
       </datafield>
       <datafield tag="006G" fulltag="006G">
-        <subfield code="0">1122039492</subfield>
-      </datafield>
-      <datafield tag="006L" fulltag="006L">
-        <subfield code="i">DNB</subfield>
-        <subfield code="0">1122039492</subfield>
+        <subfield code="0">901063983</subfield>
       </datafield>
       <datafield tag="006U" fulltag="006U">
-        <subfield code="0">17,N01</subfield>
-      </datafield>
-      <datafield tag="006Y" fulltag="006Y">
-        <subfield code="0">hks0029005</subfield>
+        <subfield code="0">90,A35,0877</subfield>
       </datafield>
       <datafield tag="007G" fulltag="007G">
-        <subfield code="i">DNB</subfield>
-        <subfield code="0">1122039492</subfield>
+        <subfield code="i">GBV</subfield>
+        <subfield code="0">161040829</subfield>
       </datafield>
       <datafield tag="009@" fulltag="009@">
         <subfield code="b">Blocktest</subfield>
       </datafield>
       <datafield tag="010@" fulltag="010@">
-        <subfield code="a">ger</subfield>
-      </datafield>
-      <datafield tag="010E" fulltag="010E">
-        <subfield code="e">rda</subfield>
+        <subfield code="a">eng</subfield>
       </datafield>
       <datafield tag="011@" fulltag="011@">
-        <subfield code="a">2017</subfield>
-        <subfield code="n">[2017]</subfield>
-      </datafield>
-      <datafield tag="011F" fulltag="011F">
-        <subfield code="n">© 2017</subfield>
+        <subfield code="a">1990</subfield>
+        <subfield code="n">1990</subfield>
       </datafield>
       <datafield tag="013D" fulltag="013D">
-        <subfield code="9">10566491X</subfield>
-        <subfield code="8">Ausstellungskatalog ; ID: gnd/4135467-9</subfield>
-      </datafield>
-      <datafield tag="013D" fulltag="013D">
-        <subfield code="9">105605727</subfield>
-        <subfield code="8">Aufsatzsammlung ; ID: gnd/4143413-4</subfield>
+        <subfield code="9">104464909</subfield>
+        <subfield code="8">Werkverzeichnis ; ID: gnd/4189680-4</subfield>
       </datafield>
       <datafield tag="009Q" fulltag="009Q">
-        <subfield code="y">Inhaltsverzeichnis</subfield>
-        <subfield code="a">http://www.gbv.de/dms/weimar/toc/876056729_toc.pdf</subfield>
-        <subfield code="m">V:DE-601</subfield>
-        <subfield code="m">B:DE-Wim2</subfield>
+        <subfield code="a">http://d-nb.info/901063983/04</subfield>
+        <subfield code="m">V:DE-576</subfield>
         <subfield code="q">application/pdf</subfield>
+        <subfield code="v">20130501</subfield>
         <subfield code="x">H</subfield>
-        <subfield code="y">Inhaltsverzeichnis</subfield>
         <subfield code="3">Inhaltsverzeichnis</subfield>
         <subfield code="5">04</subfield>
-        <subfield code="A">GBV</subfield>
-        <subfield code="B">2</subfield>
-      </datafield>
-      <datafield tag="009Q" fulltag="009Q">
-        <subfield code="a">http://deposit.d-nb.de/cgi-bin/dokserv?id=b05f600baad34766b9262ade27cdf07b&amp;prov=M&amp;dok_var=1&amp;dok_ext=htm</subfield>
-        <subfield code="m">X: MVB</subfield>
-        <subfield code="q">text/html</subfield>
-        <subfield code="v">2017-01-04</subfield>
-        <subfield code="x">H</subfield>
-        <subfield code="3">Inhaltstext</subfield>
-        <subfield code="5">01</subfield>
         <subfield code="A">DNB</subfield>
         <subfield code="B">2</subfield>
       </datafield>
-      <datafield tag="009P" occurrence="09" fulltag="009P/09">
-        <subfield code="y">Beschreibung &amp; Leseprobe</subfield>
-        <subfield code="a">http://www.documenta14.de/de/publications/15731/der-documenta-14-reader</subfield>
+      <datafield tag="009Q" fulltag="009Q">
+        <subfield code="a">http://swbplus.bsz-bw.de/bsz018996744inh.htm</subfield>
+        <subfield code="m">B:DE-576;DE-16</subfield>
+        <subfield code="q">application/pdf</subfield>
+        <subfield code="v">20100610111902</subfield>
         <subfield code="x">H</subfield>
-        <subfield code="y">Beschreibung &amp; Leseprobe</subfield>
-      </datafield>
-      <datafield tag="009P" occurrence="09" fulltag="009P/09">
-        <subfield code="a">https://d-nb.info/1122039492/04</subfield>
-        <subfield code="x">H</subfield>
+        <subfield code="3">Inhaltsverzeichnis</subfield>
+        <subfield code="5">04</subfield>
       </datafield>
       <datafield tag="019@" fulltag="019@">
         <subfield code="a">XA-DE</subfield>
-        <subfield code="a">XA-GB</subfield>
-        <subfield code="a">XD-US</subfield>
-        <subfield code="a">XA-DE-BY</subfield>
       </datafield>
       <datafield tag="021A" fulltag="021A">
-        <subfield code="a">Der @Documenta 14 Reader</subfield>
-        <subfield code="h">Herausgeber Quinn Latimer, Adam Szymczyk ; documenta und Museum Fridericianum gGmbH</subfield>
+        <subfield code="a">Maurice Brazil Prendergast, Charles Prendergast</subfield>
+        <subfield code="d">a catalogue raisonné</subfield>
+        <subfield code="h">Williams College Museum of Art. Carol Clark ...</subfield>
       </datafield>
       <datafield tag="028C" fulltag="028C">
-        <subfield code="9">716960583</subfield>
-        <subfield code="8">Latimer, Quinn *1978-* ; ID: gnd/1022363425</subfield>
-        <subfield code="B">HerausgeberIn</subfield>
-        <subfield code="4">edt</subfield>
+        <subfield code="9">079522378</subfield>
+        <subfield code="8">Prendergast, Maurice Brazil *1858-1924* ; ID: gnd/118741845</subfield>
+        <subfield code="B">Ill.</subfield>
       </datafield>
       <datafield tag="028C" fulltag="028C">
-        <subfield code="9">843625597</subfield>
-        <subfield code="8">Szymczyk, Adam *1970-* ; ID: gnd/1080057544</subfield>
-        <subfield code="B">HerausgeberIn</subfield>
-        <subfield code="4">edt</subfield>
+        <subfield code="9">079698514</subfield>
+        <subfield code="8">Prendergast, Charles *1863-1948* ; ID: gnd/118921371</subfield>
       </datafield>
-      <datafield tag="029A" fulltag="029A">
-        <subfield code="9">862535026</subfield>
-        <subfield code="8">Documenta$n14.$d2017$cAthen; Kassel ; ID: gnd/1105406547</subfield>
-        <subfield code="B">VerfasserIn</subfield>
-        <subfield code="4">aut</subfield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="d">Carol</subfield>
+        <subfield code="a">Clark</subfield>
+        <subfield code="B">Hrsg.</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">1234683024</subfield>
+        <subfield code="8">Mathews, Nancy Mowll</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="d">Gwendolyn</subfield>
+        <subfield code="a">Owens</subfield>
       </datafield>
       <datafield tag="029F" fulltag="029F">
-        <subfield code="9">101546793</subfield>
-        <subfield code="8">documenta und Museum Fridericianum Veranstaltungs-GmbH ; ID: gnd/515318-9</subfield>
-        <subfield code="B">VeranstalterIn</subfield>
-        <subfield code="4">orm</subfield>
+        <subfield code="9">103941096</subfield>
+        <subfield code="8">Museum of Art$gWilliamstown, Mass.$bMaurice and Charles Prendergast Systematic Catalogue Project ; ID: gnd/5045032-3</subfield>
       </datafield>
-      <datafield tag="030F" fulltag="030F">
-        <subfield code="a">Documenta</subfield>
-        <subfield code="j">14</subfield>
-        <subfield code="k">Athen</subfield>
-        <subfield code="p">2017.04.08-07.16</subfield>
+      <datafield tag="029F" fulltag="029F">
+        <subfield code="9">102088497</subfield>
+        <subfield code="8">Museum of Art$gWilliamstown, Mass. ; ID: gnd/671227-7</subfield>
       </datafield>
       <datafield tag="033A" fulltag="033A">
         <subfield code="p">München</subfield>
-        <subfield code="p">London</subfield>
-        <subfield code="p">New York</subfield>
-        <subfield code="n">Prestel Verlag</subfield>
+        <subfield code="n">Prestel</subfield>
       </datafield>
       <datafield tag="034D" fulltag="034D">
-        <subfield code="a">708 Seiten</subfield>
+        <subfield code="a">811 S</subfield>
       </datafield>
       <datafield tag="034I" fulltag="034I">
-        <subfield code="a">23 cm</subfield>
+        <subfield code="a">31 cm</subfield>
       </datafield>
       <datafield tag="034M" fulltag="034M">
-        <subfield code="a">Illustrationen</subfield>
+        <subfield code="a">überw. Ill</subfield>
       </datafield>
       <datafield tag="037A" fulltag="037A">
-        <subfield code="a">Hier auch später erschienene, unveränderte Nachdrucke.</subfield>
+        <subfield code="a">Literaturverz. S. 730 - 759</subfield>
       </datafield>
-      <datafield tag="037A" fulltag="037A">
-        <subfield code="a">ISBN der englische Ausgabe: 978-3-7913-5657-0. - ISBN der griechischen Ausgabe: 978-3-7913-5684-6</subfield>
+      <datafield tag="041A" fulltag="041A">
+        <subfield code="9">079522378</subfield>
+        <subfield code="8">Prendergast, Maurice Brazil *1858-1924* ; ID: gnd/118741845</subfield>
       </datafield>
-      <datafield tag="039M" fulltag="039M">
-        <subfield code="i">Parallele Sprachausgabe</subfield>
-        <subfield code="n">englisch</subfield>
-        <subfield code="9">162617945X</subfield>
-        <subfield code="8">The @documenta 14 Reader / Documenta$n14.$d2017$cAthen; Kassel ; ID: gnd/1105406547</subfield>
+      <datafield tag="041A" occurrence="10" fulltag="041A/10">
+        <subfield code="9">079698514</subfield>
+        <subfield code="8">Prendergast, Charles *1863-1948* ; ID: gnd/118921371</subfield>
       </datafield>
-      <datafield tag="039M" fulltag="039M">
-        <subfield code="i">Parallele Sprachausgabe</subfield>
-        <subfield code="n">griechisch</subfield>
-        <subfield code="9">895866609</subfield>
-        <subfield code="8">documenta 14 Reader</subfield>
+      <datafield tag="044A" fulltag="044A">
+        <subfield code="p">Prendergast, Maurice Brazil</subfield>
+        <subfield code="a">Catalogues raisonnés</subfield>
+      </datafield>
+      <datafield tag="044A" fulltag="044A">
+        <subfield code="p">Prendergast, Charles</subfield>
+        <subfield code="a">Catalogues raisonnés</subfield>
       </datafield>
       <datafield tag="044K" fulltag="044K">
-        <subfield code="9">862535026</subfield>
-        <subfield code="8">Documenta$n14.$d2017$cAthen; Kassel ; ID: gnd/1105406547</subfield>
+        <subfield code="9">079522378</subfield>
+        <subfield code="8">Prendergast, Maurice Brazil *1858-1924* ; ID: gnd/118741845</subfield>
+      </datafield>
+      <datafield tag="044K" occurrence="01" fulltag="044K/01">
+        <subfield code="9">079698514</subfield>
+        <subfield code="8">Prendergast, Charles *1863-1948* ; ID: gnd/118921371</subfield>
+      </datafield>
+      <datafield tag="045A" fulltag="045A">
+        <subfield code="a">N6537.P68</subfield>
+      </datafield>
+      <datafield tag="045E" fulltag="045E">
+        <subfield code="a">46</subfield>
       </datafield>
       <datafield tag="045F" fulltag="045F">
-        <subfield code="e">23sdnb</subfield>
-        <subfield code="a">700</subfield>
-        <subfield code="A">DE-101</subfield>
+        <subfield code="a">760.092</subfield>
       </datafield>
-      <datafield tag="045G" fulltag="045G">
-        <subfield code="a">700</subfield>
-        <subfield code="A">DE-101</subfield>
+      <datafield tag="045F" fulltag="045F">
+        <subfield code="a">760/.092</subfield>
+      </datafield>
+      <datafield tag="045M" occurrence="10" fulltag="045M/10">
+        <subfield code="i">9</subfield>
+        <subfield code="a">LI 99999</subfield>
       </datafield>
       <datafield tag="045Q" occurrence="01" fulltag="045Q/01">
-        <subfield code="9">106406493</subfield>
-        <subfield code="8">20.00$jKunstwissenschaften: Allgemeines</subfield>
+        <subfield code="9">181571080</subfield>
+        <subfield code="8">20.31$jBildende Künstler</subfield>
+      </datafield>
+      <datafield tag="045Q" occurrence="02" fulltag="045Q/02">
+        <subfield code="9">106406698</subfield>
+        <subfield code="8">21.02$jGeschichte der Malerei</subfield>
       </datafield>
       <datafield tag="045R" fulltag="045R">
-        <subfield code="a">LH 65880</subfield>
-      </datafield>
-      <datafield tag="045R" fulltag="045R">
-        <subfield code="a">LH 40300</subfield>
-        <subfield code="A">BSZ</subfield>
-      </datafield>
-      <datafield tag="045R" fulltag="045R">
-        <subfield code="a">LH 44330</subfield>
-        <subfield code="A">BSZ</subfield>
+        <subfield code="9">1270635948</subfield>
+        <subfield code="8">LI 99999: Kunstgeschichte / Künstler-Monografien / Sonstige (CSN der Person)</subfield>
       </datafield>
       <datafield tag="045V" fulltag="045V">
-        <subfield code="i">FID</subfield>
-        <subfield code="a">KUNST</subfield>
-        <subfield code="q">DE-14</subfield>
+        <subfield code="a">9,10</subfield>
+      </datafield>
+      <datafield tag="046W" fulltag="046W">
+        <subfield code="a">IMD-Felder maschinell generiert (GBV)</subfield>
       </datafield>
       <datafield tag="047A" fulltag="047A">
-        <subfield code="a">5550:KAKM ; 5090: knweph17 (SWB)</subfield>
-      </datafield>
-      <datafield tag="047C" fulltag="047C">
-        <subfield code="a">Documenta-14-Reader</subfield>
-      </datafield>
-      <datafield tag="047I" fulltag="047I">
-        <subfield code="a">Hauptpublikation zur documenta 14, der weltweit größten Ausstellungen zeitgenössischer Kunst - 2017 in Athen und Kassel! Als siebbedruckter Halbleinen-Band! Der Reader oder das Lesebuch der documenta 14 erforscht in Essays Allegorien, Gedichten, historischen Dokumenten und anderen, hybriden literarischen Formen die diskursiven Anliegen der Ausstellung: Formen von Dekolonialität und Widerstand, Schuld und Geschenk, Entortung und Enteignung, Sprache und Gewalt, Indigenität und Exil. Als kritische Anthologie, die Geschichte reflektiert, um einen klareren Blick auf die Gegenwart zu erhalten und die Zukunft neu zu entwerfen, versammelt der Reader eigens in Auftrag gegebene Beiträge und Wiederabdrucke wegweisender Texte. Die Bildstrecken illustrieren den – zeitlich wie geografisch – weitgespannten Rahmen, der durch die historischen Positionen bei der documenta 14 gesteckt wird.</subfield>
-      </datafield>
-      <datafield tag="092B" fulltag="092B">
-        <subfield code="1">3522/0004</subfield>
-        <subfield code="2">1696308542</subfield>
-        <subfield code="3">Ausst.Kassel2017-8</subfield>
-        <subfield code="S">zu</subfield>
-        <subfield code="a">Sautter + Lackmann Fachbuchhandlung, Hamburg</subfield>
-        <subfield code="9">231499442</subfield>
-        <subfield code="8">Sautter + Lackmann Fachbuchhandlung$gHamburg ; ID: gnd/5211239-1</subfield>
-        <subfield code="c">2017-06-26</subfield>
+        <subfield code="a">720 ff. (DDC): GBV/LOC; 5090 maschinell aus ähnlichen Titelaufnahmen ergänzt ; IMD-Felder und 1131 maschinell ergänzt (SWB)</subfield>
       </datafield>
       <datafield tag="101B" fulltag="101B">
-        <subfield code="0">11-07-17</subfield>
-        <subfield code="t">15:16:58.000</subfield>
+        <subfield code="0">29-04-96</subfield>
+        <subfield code="t">02:01:25.227</subfield>
       </datafield>
       <datafield tag="101U" fulltag="101U">
         <subfield code="0">utf8</subfield>
       </datafield>
       <datafield tag="102D" fulltag="102D">
-        <subfield code="0">11-07-17</subfield>
-        <subfield code="b">6288</subfield>
-        <subfield code="a">0046</subfield>
+        <subfield code="0">26-05-20</subfield>
+        <subfield code="b">touchtitle</subfield>
+        <subfield code="a">1999</subfield>
       </datafield>
-      <datafield tag="145Z" occurrence="25" fulltag="145Z/25">
-        <subfield code="a">7.085</subfield>
+      <datafield tag="107F" fulltag="107F">
+        <subfield code="0">vh 3000</subfield>
       </datafield>
       <datafield tag="145Z" occurrence="30" fulltag="145Z/30">
-        <subfield code="a">kun 030 kas</subfield>
+        <subfield code="a">kun 880 pren</subfield>
       </datafield>
       <datafield tag="145Z" occurrence="99" fulltag="145Z/99">
         <subfield code="a">67</subfield>
       </datafield>
-      <item epn="1685560091">
+      <item epn="184549736">
         <datafield tag="201B" occurrence="01" fulltag="201B/01">
-          <subfield code="0">22-05-20</subfield>
-          <subfield code="t">21:04:28.000</subfield>
-        </datafield>
-        <datafield tag="201D" occurrence="01" fulltag="201D/01">
-          <subfield code="0">0046:22-05-20</subfield>
+          <subfield code="0">29-04-96</subfield>
+          <subfield code="t">02:01:25.266</subfield>
         </datafield>
         <datafield tag="201U" occurrence="01" fulltag="201U/01">
           <subfield code="0">utf8</subfield>
         </datafield>
         <datafield tag="202D" occurrence="01" fulltag="202D/01">
-          <subfield code="0">22-05-20</subfield>
-          <subfield code="b">1684049</subfield>
-          <subfield code="a">0046</subfield>
+          <subfield code="0">26-05-20</subfield>
+          <subfield code="b">touchtitle</subfield>
+          <subfield code="a">1999</subfield>
         </datafield>
         <datafield tag="203@" occurrence="01" fulltag="203@/01">
-          <subfield code="0">1685560091</subfield>
+          <subfield code="0">184549736</subfield>
         </datafield>
         <datafield tag="208@" occurrence="01" fulltag="208@/01">
-          <subfield code="a">08-05-17</subfield>
-          <subfield code="b">zkw</subfield>
+          <subfield code="a">12-06-72</subfield>
+          <subfield code="b">xza</subfield>
         </datafield>
         <datafield tag="209A" occurrence="01" fulltag="209A/01">
-          <subfield code="f">TB Kunst</subfield>
-          <subfield code="a">7.085 DOC</subfield>
-          <subfield code="d">i</subfield>
+          <subfield code="a">h kun 880 pren/000</subfield>
+          <subfield code="d">d</subfield>
           <subfield code="x">00</subfield>
         </datafield>
         <datafield tag="209C" occurrence="01" fulltag="209C/01">
-          <subfield code="a">2017:245</subfield>
-          <subfield code="x">00</subfield>
-        </datafield>
-        <datafield tag="209G" occurrence="01" fulltag="209G/01">
-          <subfield code="a">46D$000461059</subfield>
-        </datafield>
-        <datafield tag="237A" occurrence="01" fulltag="237A/01">
-          <subfield code="a">Test note!</subfield>
-        </datafield>
-      </item>
-      <item epn="1695305477">
-        <datafield tag="201B" occurrence="02" fulltag="201B/02">
-          <subfield code="0">11-07-17</subfield>
-          <subfield code="t">15:16:58.000</subfield>
-        </datafield>
-        <datafield tag="201U" occurrence="02" fulltag="201U/02">
-          <subfield code="0">utf8</subfield>
-        </datafield>
-        <datafield tag="202D" occurrence="02" fulltag="202D/02">
-          <subfield code="0">11-07-17</subfield>
-          <subfield code="b">6288</subfield>
-          <subfield code="a">0046</subfield>
-        </datafield>
-        <datafield tag="203@" occurrence="02" fulltag="203@/02">
-          <subfield code="0">1695305477</subfield>
-        </datafield>
-        <datafield tag="208@" occurrence="02" fulltag="208@/02">
-          <subfield code="a">12-07-17</subfield>
-          <subfield code="b">zza</subfield>
-        </datafield>
-        <datafield tag="209A" occurrence="02" fulltag="209A/02">
-          <subfield code="a">a kun 030 kas/316-14,2</subfield>
-          <subfield code="d">u</subfield>
-          <subfield code="x">00</subfield>
-        </datafield>
-        <datafield tag="209C" occurrence="02" fulltag="209C/02">
-          <subfield code="a">2017-09951</subfield>
-          <subfield code="x">00</subfield>
-        </datafield>
-        <datafield tag="209G" occurrence="02" fulltag="209G/02">
-          <subfield code="a">46$0005746205</subfield>
-        </datafield>
-        <datafield tag="209O" occurrence="02" fulltag="209O/02">
-          <subfield code="a">Aufsätze_zu_erfassen</subfield>
+          <subfield code="a">vh 3000</subfield>
           <subfield code="x">00</subfield>
         </datafield>
       </item>
     </metadata>
-    <rawrecord><![CDATA[001@ ƒ011,21-22,24,31,39-40,62-63,65-66,69-70,72,90,118,120-121,130,139,165,172,181,203,234,274,293,370,695,698,2003-2006,2008,2010-2011,2015-2016,2018,2037-2038,2042,2044,2046,2082,2084,2089,2096-2097,2109,2117,2151,2162,2166-2167,2427,2481,2485,2493,2510,2512001A ƒ02001:04-01-17001B ƒ00007:26-03-19ƒt11:57:56.000001D ƒ00834:05-05-17001U ƒ0utf8001X ƒ00002@ ƒ0Aau002C ƒaTextƒbtxt002D ƒaohne Hilfsmittel zu benutzenƒbn002E ƒaBandƒbnc003@ ƒ0876056729003O ƒaOCoLCƒ0968218355003S ƒ0486039706003T ƒaOCoLCƒ0968218355004A ƒ09783791356563ƒf : hardback (Deutsche Ausgabe) : EUR 35.00 (DE), EUR 25.70 (AT), CHF 33.90 (freier Preis)004A ƒ03791356569004L ƒ09783791356563006G ƒ01122039492006L ƒiDNBƒ01122039492006U ƒ017,N01006Y ƒ0hks0029005007G ƒiDNBƒ01122039492009@ ƒbBlocktest010@ ƒager010E ƒerda011@ ƒa2017ƒn[2017]011F ƒn© 2017013D ƒ910566491Xƒ8Ausstellungskatalog ; ID: gnd/4135467-9013D ƒ9105605727ƒ8Aufsatzsammlung ; ID: gnd/4143413-4009Q ƒyInhaltsverzeichnisƒahttp://www.gbv.de/dms/weimar/toc/876056729_toc.pdfƒmV:DE-601ƒmB:DE-Wim2ƒqapplication/pdfƒxHƒyInhaltsverzeichnisƒ3Inhaltsverzeichnisƒ504ƒAGBVƒB2009Q ƒahttp://deposit.d-nb.de/cgi-bin/dokserv?id=b05f600baad34766b9262ade27cdf07b&prov=M&dok_var=1&dok_ext=htmƒmX: MVBƒqtext/htmlƒv2017-01-04ƒxHƒ3Inhaltstextƒ501ƒADNBƒB2009P/09 ƒyBeschreibung & Leseprobeƒahttp://www.documenta14.de/de/publications/15731/der-documenta-14-readerƒxHƒyBeschreibung & Leseprobe009P/09 ƒahttps://d-nb.info/1122039492/04ƒxH019@ ƒaXA-DEƒaXA-GBƒaXD-USƒaXA-DE-BY021A ƒaDer @Documenta 14 ReaderƒhHerausgeber Quinn Latimer, Adam Szymczyk ; documenta und Museum Fridericianum gGmbH028C ƒ9716960583ƒ8Latimer, Quinn *1978-* ; ID: gnd/1022363425ƒBHerausgeberInƒ4edt028C ƒ9843625597ƒ8Szymczyk, Adam *1970-* ; ID: gnd/1080057544ƒBHerausgeberInƒ4edt029A ƒ9862535026ƒ8Documenta$n14.$d2017$cAthen; Kassel ; ID: gnd/1105406547ƒBVerfasserInƒ4aut029F ƒ9101546793ƒ8documenta und Museum Fridericianum Veranstaltungs-GmbH ; ID: gnd/515318-9ƒBVeranstalterInƒ4orm030F ƒaDocumentaƒj14ƒkAthenƒp2017.04.08-07.16033A ƒpMünchenƒpLondonƒpNew YorkƒnPrestel Verlag034D ƒa708 Seiten034I ƒa23 cm034M ƒaIllustrationen037A ƒaHier auch später erschienene, unveränderte Nachdrucke.037A ƒaISBN der englische Ausgabe: 978-3-7913-5657-0. - ISBN der griechischen Ausgabe: 978-3-7913-5684-6039M ƒiParallele Sprachausgabeƒnenglischƒ9162617945Xƒ8The @documenta 14 Reader / Documenta$n14.$d2017$cAthen; Kassel ; ID: gnd/1105406547039M ƒiParallele Sprachausgabeƒngriechischƒ9895866609ƒ8documenta 14 Reader044K ƒ9862535026ƒ8Documenta$n14.$d2017$cAthen; Kassel ; ID: gnd/1105406547045F ƒe23sdnbƒa700ƒADE-101045G ƒa700ƒADE-101045Q/01 ƒ9106406493ƒ820.00$jKunstwissenschaften: Allgemeines045R ƒaLH 65880045R ƒaLH 40300ƒABSZ045R ƒaLH 44330ƒABSZ045V ƒiFIDƒaKUNSTƒqDE-14047A ƒa5550:KAKM ; 5090: knweph17 (SWB)047C ƒaDocumenta-14-Reader047I ƒaHauptpublikation zur documenta 14, der weltweit größten Ausstellungen zeitgenössischer Kunst - 2017 in Athen und Kassel! Als siebbedruckter Halbleinen-Band! Der Reader oder das Lesebuch der documenta 14 erforscht in Essays Allegorien, Gedichten, historischen Dokumenten und anderen, hybriden literarischen Formen die diskursiven Anliegen der Ausstellung: Formen von Dekolonialität und Widerstand, Schuld und Geschenk, Entortung und Enteignung, Sprache und Gewalt, Indigenität und Exil. Als kritische Anthologie, die Geschichte reflektiert, um einen klareren Blick auf die Gegenwart zu erhalten und die Zukunft neu zu entwerfen, versammelt der Reader eigens in Auftrag gegebene Beiträge und Wiederabdrucke wegweisender Texte. Die Bildstrecken illustrieren den – zeitlich wie geografisch – weitgespannten Rahmen, der durch die historischen Positionen bei der documenta 14 gesteckt wird.092B ƒ13522/0004ƒ21696308542ƒ3Ausst.Kassel2017-8ƒSzuƒaSautter + Lackmann Fachbuchhandlung, Hamburgƒ9231499442ƒ8Sautter + Lackmann Fachbuchhandlung$gHamburg ; ID: gnd/5211239-1ƒc2017-06-26101B ƒ011-07-17ƒt15:16:58.000101U ƒ0utf8102D ƒ011-07-17ƒb6288ƒa0046145Z/25 ƒa7.085145Z/30 ƒakun 030 kas145Z/99 ƒa67201B/01 ƒ022-05-20ƒt21:04:28.000201D/01 ƒ00046:22-05-20201U/01 ƒ0utf8202D/01 ƒ022-05-20ƒb1684049ƒa0046203@/01 ƒ01685560091208@/01 ƒa08-05-17ƒbzkw209A/01 ƒfTB Kunstƒa7.085 DOCƒdiƒx00209C/01 ƒa2017:245ƒx00209G/01 ƒa46D$000461059237A/01 ƒaTest note!201B/02 ƒ011-07-17ƒt15:16:58.000201U/02 ƒ0utf8202D/02 ƒ011-07-17ƒb6288ƒa0046203@/02 ƒ01695305477208@/02 ƒa12-07-17ƒbzza209A/02 ƒaa kun 030 kas/316-14,2ƒduƒx00209C/02 ƒa2017-09951ƒx00209G/02 ƒa46$0005746205209O/02 ƒaAufsätze_zu_erfassenƒx00]]></rawrecord>
+    <rawrecord><![CDATA[001@ ƒ021,34,63,66,69,165,181,2001,2003,2006,2008,2011,2018,2166,2512001A ƒ02001:04-09-94001B ƒ0BSZ:18-03-19ƒt05:01:49.000001D ƒ09999:99-99-99001U ƒ0utf8001X ƒ00002@ ƒ0Aau002C ƒaTextƒbtxt002D ƒaohne Hilfsmittel zu benutzenƒbn002E ƒaBandƒbnc003@ ƒ0161040829003O ƒaOCoLCƒ0631546983ƒv2012-12-31003S ƒ0018996744003T ƒaOCoLCƒ020264662004A ƒ0379130965Xƒf : DM 380.00 (Gewebe)006A ƒ089022575006G ƒ0901063983006U ƒ090,A35,0877007G ƒiGBVƒ0161040829009@ ƒbBlocktest010@ ƒaeng011@ ƒa1990ƒn1990013D ƒ9104464909ƒ8Werkverzeichnis ; ID: gnd/4189680-4009Q ƒahttp://d-nb.info/901063983/04ƒmV:DE-576ƒqapplication/pdfƒv20130501ƒxHƒ3Inhaltsverzeichnisƒ504ƒADNBƒB2009Q ƒahttp://swbplus.bsz-bw.de/bsz018996744inh.htmƒmB:DE-576;DE-16ƒqapplication/pdfƒv20100610111902ƒxHƒ3Inhaltsverzeichnisƒ504019@ ƒaXA-DE021A ƒaMaurice Brazil Prendergast, Charles Prendergastƒda catalogue raisonnéƒhWilliams College Museum of Art. Carol Clark ...028C ƒ9079522378ƒ8Prendergast, Maurice Brazil *1858-1924* ; ID: gnd/118741845ƒBIll.028C ƒ9079698514ƒ8Prendergast, Charles *1863-1948* ; ID: gnd/118921371028C ƒdCarolƒaClarkƒBHrsg.028C ƒ91234683024ƒ8Mathews, Nancy Mowll028C ƒdGwendolynƒaOwens029F ƒ9103941096ƒ8Museum of Art$gWilliamstown, Mass.$bMaurice and Charles Prendergast Systematic Catalogue Project ; ID: gnd/5045032-3029F ƒ9102088497ƒ8Museum of Art$gWilliamstown, Mass. ; ID: gnd/671227-7033A ƒpMünchenƒnPrestel034D ƒa811 S034I ƒa31 cm034M ƒaüberw. Ill037A ƒaLiteraturverz. S. 730 - 759041A ƒ9079522378ƒ8Prendergast, Maurice Brazil *1858-1924* ; ID: gnd/118741845041A/10 ƒ9079698514ƒ8Prendergast, Charles *1863-1948* ; ID: gnd/118921371044A ƒpPrendergast, Maurice BrazilƒaCatalogues raisonnés044A ƒpPrendergast, CharlesƒaCatalogues raisonnés044K ƒ9079522378ƒ8Prendergast, Maurice Brazil *1858-1924* ; ID: gnd/118741845044K/01 ƒ9079698514ƒ8Prendergast, Charles *1863-1948* ; ID: gnd/118921371045A ƒaN6537.P68045E ƒa46045F ƒa760.092045F ƒa760/.092045M/10 ƒi9ƒaLI 99999045Q/01 ƒ9181571080ƒ820.31$jBildende Künstler045Q/02 ƒ9106406698ƒ821.02$jGeschichte der Malerei045R ƒ91270635948ƒ8LI 99999: Kunstgeschichte / Künstler-Monografien / Sonstige (CSN der Person)045V ƒa9,10046W ƒaIMD-Felder maschinell generiert (GBV)047A ƒa720 ff. (DDC): GBV/LOC; 5090 maschinell aus ähnlichen Titelaufnahmen ergänzt ; IMD-Felder und 1131 maschinell ergänzt (SWB)101B ƒ029-04-96ƒt02:01:25.227101U ƒ0utf8102D ƒ026-05-20ƒbtouchtitleƒa1999107F ƒ0vh 3000145Z/30 ƒakun 880 pren145Z/99 ƒa67201B/01 ƒ029-04-96ƒt02:01:25.266201U/01 ƒ0utf8202D/01 ƒ026-05-20ƒbtouchtitleƒa1999203@/01 ƒ0184549736208@/01 ƒa12-06-72ƒbxza209A/01 ƒah kun 880 pren/000ƒddƒx00209C/01 ƒavh 3000ƒx00]]></rawrecord>
   </record>
 </collection>

@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <collection count="1">
   <record>
-    <header>
+    <header status="upsert">
       <identifier>167385054</identifier>
-      <status>upsert</status>
     </header>
     <metadata>
       <datafield tag="001@" fulltag="001@">
@@ -13,8 +12,8 @@
         <subfield code="0">2004:30-10-94</subfield>
       </datafield>
       <datafield tag="001B" fulltag="001B">
-        <subfield code="0">2004:08-06-19</subfield>
-        <subfield code="t">21:08:55.000</subfield>
+        <subfield code="0">1999:02-06-20</subfield>
+        <subfield code="t">12:12:56.000</subfield>
       </datafield>
       <datafield tag="001D" fulltag="001D">
         <subfield code="0">2004:26-09-96</subfield>
@@ -65,9 +64,6 @@
         <subfield code="i">ZDB</subfield>
         <subfield code="0">513034-7</subfield>
       </datafield>
-      <datafield tag="008G" fulltag="008G">
-        <subfield code="a">K10plus</subfield>
-      </datafield>
       <datafield tag="010@" fulltag="010@">
         <subfield code="a">ger</subfield>
       </datafield>
@@ -78,17 +74,11 @@
       </datafield>
       <datafield tag="013D" fulltag="013D">
         <subfield code="9">10454466X</subfield>
-        <subfield code="V">Tsvz</subfield>
-        <subfield code="3">20917000X</subfield>
-        <subfield code="7">gnd/4067488-5</subfield>
-        <subfield code="a">Zeitschrift</subfield>
+        <subfield code="8">Zeitschrift ; ID: gnd/4067488-5</subfield>
       </datafield>
       <datafield tag="013D" fulltag="013D">
         <subfield code="9">105614165</subfield>
-        <subfield code="V">Tsv1</subfield>
-        <subfield code="3">209717653</subfield>
-        <subfield code="7">gnd/4142300-8</subfield>
-        <subfield code="a">Amtliche Publikation</subfield>
+        <subfield code="8">Amtliche Publikation ; ID: gnd/4142300-8</subfield>
       </datafield>
       <datafield tag="018@" fulltag="018@">
         <subfield code="a">z</subfield>
@@ -116,18 +106,7 @@
       </datafield>
       <datafield tag="029A" fulltag="029A">
         <subfield code="9">104732423</subfield>
-        <subfield code="V">Tgvz</subfield>
-        <subfield code="7">gnd/4011889-7</subfield>
-        <subfield code="3">208896201</subfield>
-        <subfield code="w">gik</subfield>
-        <subfield code="A">Deutschland</subfield>
-        <subfield code="G">Bundesrepublik</subfield>
-        <subfield code="V">Tgvz</subfield>
-        <subfield code="7">gnd/4011889-7</subfield>
-        <subfield code="3">208896201</subfield>
-        <subfield code="w">gik</subfield>
-        <subfield code="A">Deutschland</subfield>
-        <subfield code="G">Bundesrepublik</subfield>
+        <subfield code="8">Deutschland$gBundesrepublik ; ID: gnd/4011889-7</subfield>
         <subfield code="B">Verfasser</subfield>
         <subfield code="4">aut</subfield>
       </datafield>
@@ -147,12 +126,8 @@
       </datafield>
       <datafield tag="039S" fulltag="039S">
         <subfield code="i">1=6; 1(2.Aufl.)=113; 1(3.Aufl.)=132; 2=129; 3=114; 4=115; 5=117; 6=116; 7=131 von</subfield>
-        <subfield code="t">Bundesgesetzblatt / 3</subfield>
-        <subfield code="d">Bonn</subfield>
-        <subfield code="e">Bundesanzeiger-Verl.</subfield>
-        <subfield code="f">1958</subfield>
-        <subfield code="C">KXP</subfield>
-        <subfield code="6">130142107</subfield>
+        <subfield code="9">130142107</subfield>
+        <subfield code="8">Bundesgesetzblatt. Teil 3 / Deutschland$gBundesrepublik ; ID: gnd/4011889-7. - Bonn : Bundesanzeiger-Verl., 1958-1969 ; ZDB-ID: 513033-5</subfield>
         <subfield code="C">ZDB</subfield>
         <subfield code="6">513033-5</subfield>
       </datafield>
@@ -164,15 +139,15 @@
         <subfield code="a">Sortierzählung bei Bänden maschinell geändert (GBV)</subfield>
       </datafield>
       <datafield tag="101B" fulltag="101B">
-        <subfield code="0">13-03-07</subfield>
-        <subfield code="t">12:08:29.000</subfield>
+        <subfield code="0">02-06-20</subfield>
+        <subfield code="t">12:12:56.000</subfield>
       </datafield>
       <datafield tag="101U" fulltag="101U">
         <subfield code="0">utf8</subfield>
       </datafield>
       <datafield tag="102D" fulltag="102D">
-        <subfield code="0">26-05-20</subfield>
-        <subfield code="b">touchtitle</subfield>
+        <subfield code="0">02-06-20</subfield>
+        <subfield code="b">800</subfield>
         <subfield code="a">1999</subfield>
       </datafield>
       <datafield tag="145Z" occurrence="30" fulltag="145Z/30">
@@ -183,15 +158,18 @@
       </datafield>
       <item epn="812962001">
         <datafield tag="201B" occurrence="01" fulltag="201B/01">
-          <subfield code="0">27-01-10</subfield>
-          <subfield code="t">13:57:35.000</subfield>
+          <subfield code="0">02-06-20</subfield>
+          <subfield code="t">12:12:56.000</subfield>
+        </datafield>
+        <datafield tag="201D" occurrence="01" fulltag="201D/01">
+          <subfield code="0">1999:02-06-20</subfield>
         </datafield>
         <datafield tag="201U" occurrence="01" fulltag="201U/01">
           <subfield code="0">utf8</subfield>
         </datafield>
         <datafield tag="202D" occurrence="01" fulltag="202D/01">
-          <subfield code="0">26-05-20</subfield>
-          <subfield code="b">touchtitle</subfield>
+          <subfield code="0">02-06-20</subfield>
+          <subfield code="b">800</subfield>
           <subfield code="a">1999</subfield>
         </datafield>
         <datafield tag="203@" occurrence="01" fulltag="203@/01">
@@ -218,6 +196,6 @@
         </datafield>
       </item>
     </metadata>
-    <rawrecord><![CDATA[001@ ƒ011,21-22,24,34,39,69,99,101,183,235,285,2001,2005,2007-2008,2010-2011,2018,2020,2023-2024,2036,2051,2179,4036-4038,4082,4103,4116,4125,4238,4251,4253,4277,4302,4305,4309,4311,4320,4323,4325,4753001A ƒ02004:30-10-94001B ƒ02004:08-06-19ƒt21:08:55.000001D ƒ02004:26-09-96001U ƒ0utf8001X ƒ00002@ ƒ0Abv002C ƒaTextƒbtxt002D ƒaohne Hilfsmittel zu benutzenƒbn002E ƒaBandƒbnc003@ ƒ0167385054003O ƒaOCoLCƒ0263601160ƒv2012-12-31003S ƒ0015682013003T ƒaOCoLCƒ0985612136006G ƒ0012701793006Z ƒ0513034-7007G ƒiZDBƒ0513034-7008G ƒaK10plus010@ ƒager011@ ƒa1959ƒb1963ƒn1959-1963013D ƒ910454466XƒVTsvzƒ320917000Xƒ7gnd/4067488-5ƒaZeitschrift013D ƒ9105614165ƒVTsv1ƒ3209717653ƒ7gnd/4142300-8ƒaAmtliche Publikation018@ ƒaz019@ ƒaXA-DE021A ƒaBundesgesetzblattƒhHrsg. Der Bundesminister der Justiz021C ƒlTeil 3ƒaSammlung des Bundesrechts021C ƒlSachgebiet 1ƒaStaats- und Verfassungsrecht025@ ƒaBundesgesetzblatt / 3 / 1027A ƒaSammlung des Bundesrechts029A ƒ9104732423ƒVTgvzƒ7gnd/4011889-7ƒ3208896201ƒwgikƒADeutschlandƒGBundesrepublikƒVTgvzƒ7gnd/4011889-7ƒ3208896201ƒwgikƒADeutschlandƒGBundesrepublikƒBVerfasserƒ4aut031@ ƒaLfg. 1.1959 - 7.1963; damit Ersch. eingest.031N ƒd1ƒj1959ƒn7ƒk1963033A ƒpBonnƒpKölnƒnBundesanzeiger-Verl.039S ƒi1=6; 1(2.Aufl.)=113; 1(3.Aufl.)=132; 2=129; 3=114; 4=115; 5=117; 6=116; 7=131 vonƒtBundesgesetzblatt / 3ƒdBonnƒeBundesanzeiger-Verl.ƒf1958ƒCKXPƒ6130142107ƒCZDBƒ6513033-5045G ƒa340ƒADE-600047A ƒaSortierzählung bei Bänden maschinell geändert (GBV)101B ƒ013-03-07ƒt12:08:29.000101U ƒ0utf8102D ƒ026-05-20ƒbtouchtitleƒa1999145Z/30 ƒajur 001 bd145Z/99 ƒa34201B/01 ƒ027-01-10ƒt13:57:35.000201U/01 ƒ0utf8202D/01 ƒ026-05-20ƒbtouchtitleƒa1999203@/01 ƒ0812962001208@/01 ƒa13-03-07ƒbbza209A/01 ƒaz jur 001/104ƒddƒx00209C/01 ƒaak 9346-1ƒx00231@/01 ƒj1963231B/01 ƒaStand: 1963]]></rawrecord>
+    <rawrecord><![CDATA[001@ ƒ011,21-22,24,34,39,69,99,101,183,235,285,2001,2005,2007-2008,2010-2011,2018,2020,2023-2024,2036,2051,2179,4036-4038,4082,4103,4116,4125,4238,4251,4253,4277,4302,4305,4309,4311,4320,4323,4325,4753001A ƒ02004:30-10-94001B ƒ01999:02-06-20ƒt12:12:56.000001D ƒ02004:26-09-96001U ƒ0utf8001X ƒ00002@ ƒ0Abv002C ƒaTextƒbtxt002D ƒaohne Hilfsmittel zu benutzenƒbn002E ƒaBandƒbnc003@ ƒ0167385054003O ƒaOCoLCƒ0263601160ƒv2012-12-31003S ƒ0015682013003T ƒaOCoLCƒ0985612136006G ƒ0012701793006Z ƒ0513034-7007G ƒiZDBƒ0513034-7010@ ƒager011@ ƒa1959ƒb1963ƒn1959-1963013D ƒ910454466Xƒ8Zeitschrift ; ID: gnd/4067488-5013D ƒ9105614165ƒ8Amtliche Publikation ; ID: gnd/4142300-8018@ ƒaz019@ ƒaXA-DE021A ƒaBundesgesetzblattƒhHrsg. Der Bundesminister der Justiz021C ƒlTeil 3ƒaSammlung des Bundesrechts021C ƒlSachgebiet 1ƒaStaats- und Verfassungsrecht025@ ƒaBundesgesetzblatt / 3 / 1027A ƒaSammlung des Bundesrechts029A ƒ9104732423ƒ8Deutschland$gBundesrepublik ; ID: gnd/4011889-7ƒBVerfasserƒ4aut031@ ƒaLfg. 1.1959 - 7.1963; damit Ersch. eingest.031N ƒd1ƒj1959ƒn7ƒk1963033A ƒpBonnƒpKölnƒnBundesanzeiger-Verl.039S ƒi1=6; 1(2.Aufl.)=113; 1(3.Aufl.)=132; 2=129; 3=114; 4=115; 5=117; 6=116; 7=131 vonƒ9130142107ƒ8Bundesgesetzblatt. Teil 3 / Deutschland$gBundesrepublik ; ID: gnd/4011889-7. - Bonn : Bundesanzeiger-Verl., 1958-1969 ; ZDB-ID: 513033-5ƒCZDBƒ6513033-5045G ƒa340ƒADE-600047A ƒaSortierzählung bei Bänden maschinell geändert (GBV)101B ƒ002-06-20ƒt12:12:56.000101U ƒ0utf8102D ƒ002-06-20ƒb800ƒa1999145Z/30 ƒajur 001 bd145Z/99 ƒa34201B/01 ƒ002-06-20ƒt12:12:56.000201D/01 ƒ01999:02-06-20201U/01 ƒ0utf8202D/01 ƒ002-06-20ƒb800ƒa1999203@/01 ƒ0812962001208@/01 ƒa13-03-07ƒbbza209A/01 ƒaz jur 001/104ƒddƒx00209C/01 ƒaak 9346-1ƒx00231@/01 ƒj1963231B/01 ƒaStand: 1963]]></rawrecord>
   </record>
 </collection>

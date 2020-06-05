@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <collection count="1">
   <record>
-    <header>
+    <header status="upsert">
       <identifier>131837699</identifier>
-      <status>upsert</status>
     </header>
     <metadata>
       <datafield tag="001@" fulltag="001@">
@@ -81,9 +80,6 @@
         <subfield code="i">GBV</subfield>
         <subfield code="0">131837699</subfield>
       </datafield>
-      <datafield tag="008G" fulltag="008G">
-        <subfield code="a">K10plus</subfield>
-      </datafield>
       <datafield tag="009@" fulltag="009@">
         <subfield code="b">Blocktest</subfield>
       </datafield>
@@ -96,6 +92,7 @@
       </datafield>
       <datafield tag="013D" fulltag="013D">
         <subfield code="9">105825778</subfield>
+        <subfield code="8">Hochschulschrift ; ID: gnd/4113937-9</subfield>
       </datafield>
       <datafield tag="009Q" fulltag="009Q">
         <subfield code="y">Inhaltsverzeichnis</subfield>
@@ -131,13 +128,7 @@
       </datafield>
       <datafield tag="028A" fulltag="028A">
         <subfield code="9">604362536</subfield>
-        <subfield code="V">Tpv3</subfield>
-        <subfield code="7">gnd/138559007</subfield>
-        <subfield code="3">308050428</subfield>
-        <subfield code="w">piz</subfield>
-        <subfield code="A">Kröll</subfield>
-        <subfield code="D">Friedhelm</subfield>
-        <subfield code="E">1945</subfield>
+        <subfield code="8">Kröll, Friedhelm *1945-* ; ID: gnd/138559007</subfield>
       </datafield>
       <datafield tag="033A" fulltag="033A">
         <subfield code="p">Düsseldorf</subfield>
@@ -160,15 +151,7 @@
       <datafield tag="036F" fulltag="036F">
         <subfield code="X">1700</subfield>
         <subfield code="9">130204056</subfield>
-        <subfield code="R">Adv</subfield>
-        <subfield code="7">zdb/532745-3</subfield>
-        <subfield code="5">015749819</subfield>
-        <subfield code="a">Gesellschaft und Kommunikation</subfield>
-        <subfield code="d">eine Schriftenreihe</subfield>
-        <subfield code="p">Düsseldorf</subfield>
-        <subfield code="n">Bertelsmann Universitätsverl.</subfield>
-        <subfield code="h">1969</subfield>
-        <subfield code="j">1969-</subfield>
+        <subfield code="8">Gesellschaft und Kommunikation ; ZDB-ID: 532745-3</subfield>
         <subfield code="l">17</subfield>
       </datafield>
       <datafield tag="037A" fulltag="037A">
@@ -182,12 +165,14 @@
       </datafield>
       <datafield tag="044K" fulltag="044K">
         <subfield code="9">104465611</subfield>
+        <subfield code="8">Bauhaus ; ID: gnd/4130303-9</subfield>
       </datafield>
       <datafield tag="044K" fulltag="044K">
         <subfield code="z">Geschichte 1919-1933</subfield>
       </datafield>
       <datafield tag="044L" fulltag="044L">
         <subfield code="9">104465611</subfield>
+        <subfield code="8">Bauhaus ; ID: gnd/4130303-9</subfield>
       </datafield>
       <datafield tag="044L" fulltag="044L">
         <subfield code="z">Geschichte 1919-1933</subfield>
@@ -204,18 +189,23 @@
       </datafield>
       <datafield tag="045Q" occurrence="01" fulltag="045Q/01">
         <subfield code="9">181569620</subfield>
+        <subfield code="8">15.07$jKulturgeschichte</subfield>
       </datafield>
       <datafield tag="045Q" occurrence="02" fulltag="045Q/02">
         <subfield code="9">181570572</subfield>
+        <subfield code="8">56.62$jArchitekturtheorie$jArchitekturentwicklung</subfield>
       </datafield>
       <datafield tag="045R" fulltag="045R">
         <subfield code="9">1270702777</subfield>
+        <subfield code="8">LK 79310: Kunstgeschichte / Kunst nach Ländern bzw. Kontinenten / Deutschland / Deutsche Kunstgeschichte nach Gattungen / Architektur / Architekturzeichnung / 20. Jahrhundert</subfield>
       </datafield>
       <datafield tag="045R" fulltag="045R">
         <subfield code="9">1270637002</subfield>
+        <subfield code="8">LH 65820: Kunstgeschichte / Allgemeines. Allgemeine Kunstgeschichte / Allgemeine Kunstgeschichte: Darstellungen / Darstellungen einzelner Epochen / Mittlere und neuere Kunstgeschichte / Neuzeit / 19. und 20. Jahrhundert / 20. Jahrhundert / allgemein</subfield>
       </datafield>
       <datafield tag="045R" fulltag="045R">
         <subfield code="9">1270989200</subfield>
+        <subfield code="8">MS 8000: Soziologie / Spezielle Soziologien / Kunstsoziologie / Allgemeine Abhandlungen, Künstler etc.</subfield>
       </datafield>
       <datafield tag="045V" fulltag="045V">
         <subfield code="a">9,10</subfield>
@@ -323,6 +313,6 @@
         </datafield>
       </item>
     </metadata>
-    <rawrecord><![CDATA[001@ ƒ011,20-22,24,40,61,63,70,72,90-91,120-121,139,165,181,186,192,203,234,289,344,723,2001-2003,2005-2012,2014-2015,2018,2025,2037-2038,2042,2044,2046,2082,2084,2121,2151,2159,2510001A ƒ00700:06-01-94001B ƒ0L1UB:29-04-19ƒt09:34:49.000001D ƒ09999:99-99-99001U ƒ0utf8001X ƒ00002@ ƒ0Aau002C ƒaTextƒbtxt002D ƒaohne Hilfsmittel zu benutzenƒbn002E ƒaBandƒbnc003@ ƒ0131837699003D ƒ0417199074003D ƒ0429735014003O ƒaOCoLCƒ01477708ƒv2012-12-31003S ƒ0004767365003T ƒaOCoLCƒ0263571315004A ƒ03571091248006G ƒ0750008008006L ƒiBVBƒ08031882625006U ƒ075,A01,0586006Y ƒ0lvrrad0025695007G ƒiGBVƒ0131837699008G ƒaK10plus009@ ƒbBlocktest010@ ƒager011@ ƒa1974ƒn1974013D ƒ9105825778009Q ƒyInhaltsverzeichnisƒahttp://www.gbv.de/dms/hebis-darmstadt/toc/35495081.pdfƒmV:DE-603ƒmB:DE-17ƒqpdf/applicationƒxHƒyInhaltsverzeichnisƒ3Inhaltsverzeichnisƒ504ƒAHEBƒB2009Q ƒahttp://d-nb.info/750008008/04ƒmV:DE-603ƒqapplication/pdfƒv20130501ƒxHƒ3Inhaltsverzeichnisƒ504ƒADNBƒB2019@ ƒaXA-DE021A ƒaBauhaus 1919 - 1933ƒdKünstler zwischen Isolation und kollektiver PraxisƒhFriedhelm Kröll028A ƒ9604362536ƒVTpv3ƒ7gnd/138559007ƒ3308050428ƒwpizƒAKröllƒDFriedhelmƒE1945033A ƒpDüsseldorfƒnBertelsmann-Universitätsverl.033D ƒpErlangen-Nürnbergƒ4uvp034D ƒa168 S.034I ƒa23 cm036E ƒaGesellschaft und Kommunikationƒl17036F ƒX1700ƒ9130204056ƒRAdvƒ7zdb/532745-3ƒ5015749819ƒaGesellschaft und Kommunikationƒdeine SchriftenreiheƒpDüsseldorfƒnBertelsmann Universitätsverl.ƒh1969ƒj1969-ƒl17037A ƒaLiteraturverz. S. 159 - 164037C ƒaTeilw. zugl.: Erlangen, Nürnberg, Univ., Philos. Fak., Diss. 1972044A ƒaBauhaus044K ƒ9104465611044K ƒzGeschichte 1919-1933044L ƒ9104465611044L ƒzGeschichte 1919-1933045A ƒaN332.G33045E ƒa12a045F ƒa720.943ƒAOCLC045Q/01 ƒ9181569620045Q/02 ƒ9181570572045R ƒ91270702777045R ƒ91270637002045R ƒ91270989200045V ƒa9,10045Y ƒaang046W ƒaIMD-Felder maschinell generiert (GBV)047A ƒa720 ff. bvb; 580 ff. bvb ; 5090: DDSU/sred ; IMD-Felder und 1131 maschinell ergänzt (SWB)047C ƒaneunzehnhundertneunzehn bis neunzehnhundertdreiunddreißig101B ƒ010-07-01ƒt19:24:25.320101U ƒ0utf8102D ƒ003-11-94ƒb9060ƒa0000107F ƒ0ck 1582144Z/05 ƒaBauhaus145Z/05 ƒaK I145Z/30 ƒakun 351.4145Z/99 ƒa67150K ƒaBauhaus neunzehnhundertneunzehn bis201B/01 ƒ027-07-98ƒt13:37:26.271201U/01 ƒ0utf8202D/01 ƒ003-11-94ƒb9060ƒa0000203@/01 ƒ0134666267208@/01 ƒa03-11-94ƒbrns209A/01 ƒfTB Sozialw.ƒaK I Kröƒdcƒx00209C/01 ƒa75:218ƒx00209G/01 ƒa46B$001626647ƒx00201B/02 ƒ010-07-01ƒt19:24:24.220201U/02 ƒ0utf8203@/02 ƒ0004959094208@/02 ƒa08-06-72ƒbxza209A/02 ƒaa kun 351.4/582ƒduƒx00209C/02 ƒack 1582ƒx00]]></rawrecord>
+    <rawrecord><![CDATA[001@ ƒ011,20-22,24,40,61,63,70,72,90-91,120-121,139,165,181,186,192,203,234,289,344,723,2001-2003,2005-2012,2014-2015,2018,2025,2037-2038,2042,2044,2046,2082,2084,2121,2151,2159,2510001A ƒ00700:06-01-94001B ƒ0L1UB:29-04-19ƒt09:34:49.000001D ƒ09999:99-99-99001U ƒ0utf8001X ƒ00002@ ƒ0Aau002C ƒaTextƒbtxt002D ƒaohne Hilfsmittel zu benutzenƒbn002E ƒaBandƒbnc003@ ƒ0131837699003D ƒ0417199074003D ƒ0429735014003O ƒaOCoLCƒ01477708ƒv2012-12-31003S ƒ0004767365003T ƒaOCoLCƒ0263571315004A ƒ03571091248006G ƒ0750008008006L ƒiBVBƒ08031882625006U ƒ075,A01,0586006Y ƒ0lvrrad0025695007G ƒiGBVƒ0131837699009@ ƒbBlocktest010@ ƒager011@ ƒa1974ƒn1974013D ƒ9105825778ƒ8Hochschulschrift ; ID: gnd/4113937-9009Q ƒyInhaltsverzeichnisƒahttp://www.gbv.de/dms/hebis-darmstadt/toc/35495081.pdfƒmV:DE-603ƒmB:DE-17ƒqpdf/applicationƒxHƒyInhaltsverzeichnisƒ3Inhaltsverzeichnisƒ504ƒAHEBƒB2009Q ƒahttp://d-nb.info/750008008/04ƒmV:DE-603ƒqapplication/pdfƒv20130501ƒxHƒ3Inhaltsverzeichnisƒ504ƒADNBƒB2019@ ƒaXA-DE021A ƒaBauhaus 1919 - 1933ƒdKünstler zwischen Isolation und kollektiver PraxisƒhFriedhelm Kröll028A ƒ9604362536ƒ8Kröll, Friedhelm *1945-* ; ID: gnd/138559007033A ƒpDüsseldorfƒnBertelsmann-Universitätsverl.033D ƒpErlangen-Nürnbergƒ4uvp034D ƒa168 S.034I ƒa23 cm036E ƒaGesellschaft und Kommunikationƒl17036F ƒX1700ƒ9130204056ƒ8Gesellschaft und Kommunikation ; ZDB-ID: 532745-3ƒl17037A ƒaLiteraturverz. S. 159 - 164037C ƒaTeilw. zugl.: Erlangen, Nürnberg, Univ., Philos. Fak., Diss. 1972044A ƒaBauhaus044K ƒ9104465611ƒ8Bauhaus ; ID: gnd/4130303-9044K ƒzGeschichte 1919-1933044L ƒ9104465611ƒ8Bauhaus ; ID: gnd/4130303-9044L ƒzGeschichte 1919-1933045A ƒaN332.G33045E ƒa12a045F ƒa720.943ƒAOCLC045Q/01 ƒ9181569620ƒ815.07$jKulturgeschichte045Q/02 ƒ9181570572ƒ856.62$jArchitekturtheorie$jArchitekturentwicklung045R ƒ91270702777ƒ8LK 79310: Kunstgeschichte / Kunst nach Ländern bzw. Kontinenten / Deutschland / Deutsche Kunstgeschichte nach Gattungen / Architektur / Architekturzeichnung / 20. Jahrhundert045R ƒ91270637002ƒ8LH 65820: Kunstgeschichte / Allgemeines. Allgemeine Kunstgeschichte / Allgemeine Kunstgeschichte: Darstellungen / Darstellungen einzelner Epochen / Mittlere und neuere Kunstgeschichte / Neuzeit / 19. und 20. Jahrhundert / 20. Jahrhundert / allgemein045R ƒ91270989200ƒ8MS 8000: Soziologie / Spezielle Soziologien / Kunstsoziologie / Allgemeine Abhandlungen, Künstler etc.045V ƒa9,10045Y ƒaang046W ƒaIMD-Felder maschinell generiert (GBV)047A ƒa720 ff. bvb; 580 ff. bvb ; 5090: DDSU/sred ; IMD-Felder und 1131 maschinell ergänzt (SWB)047C ƒaneunzehnhundertneunzehn bis neunzehnhundertdreiunddreißig101B ƒ010-07-01ƒt19:24:25.320101U ƒ0utf8102D ƒ003-11-94ƒb9060ƒa0000107F ƒ0ck 1582144Z/05 ƒaBauhaus145Z/05 ƒaK I145Z/30 ƒakun 351.4145Z/99 ƒa67150K ƒaBauhaus neunzehnhundertneunzehn bis201B/01 ƒ027-07-98ƒt13:37:26.271201U/01 ƒ0utf8202D/01 ƒ003-11-94ƒb9060ƒa0000203@/01 ƒ0134666267208@/01 ƒa03-11-94ƒbrns209A/01 ƒfTB Sozialw.ƒaK I Kröƒdcƒx00209C/01 ƒa75:218ƒx00209G/01 ƒa46B$001626647ƒx00201B/02 ƒ010-07-01ƒt19:24:24.220201U/02 ƒ0utf8203@/02 ƒ0004959094208@/02 ƒa08-06-72ƒbxza209A/02 ƒaa kun 351.4/582ƒduƒx00209C/02 ƒack 1582ƒx00]]></rawrecord>
   </record>
 </collection>

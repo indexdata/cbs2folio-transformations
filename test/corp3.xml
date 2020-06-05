@@ -1,202 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<collection count="1">
-  <record>
-    <header>
-      <identifier>1684136350</identifier>
-      <status>upsert</status>
-    </header>
-    <metadata>
-      <datafield tag="001@" fulltag="001@">
-        <subfield code="0">21</subfield>
-      </datafield>
-      <datafield tag="001A" fulltag="001A">
-        <subfield code="0">2003:03-12-19</subfield>
-      </datafield>
-      <datafield tag="001B" fulltag="001B">
-        <subfield code="0">1999:03-12-19</subfield>
-        <subfield code="t">21:15:35.000</subfield>
-      </datafield>
-      <datafield tag="001D" fulltag="001D">
-        <subfield code="0">2003:03-12-19</subfield>
-      </datafield>
-      <datafield tag="001U" fulltag="001U">
-        <subfield code="0">utf8</subfield>
-      </datafield>
-      <datafield tag="001X" fulltag="001X">
-        <subfield code="0">0</subfield>
-      </datafield>
-      <datafield tag="002@" fulltag="002@">
-        <subfield code="0">Aax</subfield>
-      </datafield>
-      <datafield tag="002C" fulltag="002C">
-        <subfield code="a">Text</subfield>
-        <subfield code="b">txt</subfield>
-      </datafield>
-      <datafield tag="002C" fulltag="002C">
-        <subfield code="a">unbewegtes Bild</subfield>
-        <subfield code="b">sti</subfield>
-      </datafield>
-      <datafield tag="002D" fulltag="002D">
-        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
-        <subfield code="b">n</subfield>
-      </datafield>
-      <datafield tag="002E" fulltag="002E">
-        <subfield code="a">Band</subfield>
-        <subfield code="b">nc</subfield>
-      </datafield>
-      <datafield tag="003@" fulltag="003@">
-        <subfield code="0">1684136350</subfield>
-      </datafield>
-      <datafield tag="004A" fulltag="004A">
-        <subfield code="0">9781614910480</subfield>
-        <subfield code="f">hardback</subfield>
-      </datafield>
-      <datafield tag="006A" fulltag="006A">
-        <subfield code="0">2019945088</subfield>
-      </datafield>
-      <datafield tag="007G" fulltag="007G">
-        <subfield code="i">KXP</subfield>
-        <subfield code="0">1684136350</subfield>
-      </datafield>
-      <datafield tag="008G" fulltag="008G">
-        <subfield code="a">K10plus</subfield>
-      </datafield>
-      <datafield tag="010@" fulltag="010@">
-        <subfield code="a">eng</subfield>
-      </datafield>
-      <datafield tag="010E" fulltag="010E">
-        <subfield code="b">eng</subfield>
-        <subfield code="e">rda</subfield>
-      </datafield>
-      <datafield tag="011@" fulltag="011@">
-        <subfield code="a">2019</subfield>
-      </datafield>
-      <datafield tag="019@" fulltag="019@">
-        <subfield code="a">XD-US</subfield>
-      </datafield>
-      <datafield tag="021A" fulltag="021A">
-        <subfield code="a">100 highlights of the collections of the Oriental Institute museum</subfield>
-        <subfield code="h">edited by Jean M. Evans, Jack Green, and Emily Teeter</subfield>
-      </datafield>
-      <datafield tag="027A" fulltag="027A">
-        <subfield code="a">One hundred highlights of the collections of the Oriental Institute Museum</subfield>
-      </datafield>
-      <datafield tag="028C" fulltag="028C">
-        <subfield code="d">Jean M.</subfield>
-        <subfield code="a">Evans</subfield>
-        <subfield code="B">HerausgeberIn</subfield>
-        <subfield code="4">edt</subfield>
-      </datafield>
-      <datafield tag="028C" fulltag="028C">
-        <subfield code="d">Jack</subfield>
-        <subfield code="a">Green</subfield>
-        <subfield code="p">Museum curator</subfield>
-        <subfield code="B">HerausgeberIn</subfield>
-        <subfield code="4">edt</subfield>
-      </datafield>
-      <datafield tag="028C" fulltag="028C">
-        <subfield code="d">Emily</subfield>
-        <subfield code="a">Teeter</subfield>
-        <subfield code="B">HerausgeberIn</subfield>
-        <subfield code="4">edt</subfield>
-      </datafield>
-      <datafield tag="029A" fulltag="029A">
-        <subfield code="a">University of Chicago</subfield>
-        <subfield code="b">Oriental Institute</subfield>
-        <subfield code="b">Museumauthorissuing body</subfield>
-        <subfield code="B">VerfasserIn</subfield>
-        <subfield code="4">aut</subfield>
-        <subfield code="B">Herausgebendes Organ</subfield>
-        <subfield code="4">isb</subfield>
-      </datafield>
-      <datafield tag="033A" fulltag="033A">
-        <subfield code="p">Chicago</subfield>
-        <subfield code="n">Oriental Institute Museum, The University of Chicago</subfield>
-        <subfield code="h">2019</subfield>
-      </datafield>
-      <datafield tag="034D" fulltag="034D">
-        <subfield code="a">156 pages</subfield>
-      </datafield>
-      <datafield tag="034I" fulltag="034I">
-        <subfield code="a">29 cm</subfield>
-      </datafield>
-      <datafield tag="034M" fulltag="034M">
-        <subfield code="a">illustrations, map</subfield>
-      </datafield>
-      <datafield tag="037A" fulltag="037A">
-        <subfield code="a">"OI centennial special edition publication."</subfield>
-      </datafield>
-      <datafield tag="044A" fulltag="044A">
-        <subfield code="N">610</subfield>
-        <subfield code="S">k</subfield>
-        <subfield code="a">University of Chicago</subfield>
-        <subfield code="b">Oriental Institute</subfield>
-        <subfield code="b">Museum</subfield>
-        <subfield code="v">Catalogs</subfield>
-      </datafield>
-      <datafield tag="044A" fulltag="044A">
-        <subfield code="N">650</subfield>
-        <subfield code="S">s</subfield>
-        <subfield code="a">Art</subfield>
-        <subfield code="z">Illinois</subfield>
-        <subfield code="z">Chicago</subfield>
-        <subfield code="v">Catalogs</subfield>
-      </datafield>
-      <datafield tag="044A" fulltag="044A">
-        <subfield code="N">650</subfield>
-        <subfield code="S">s</subfield>
-        <subfield code="a">Art, Ancient</subfield>
-        <subfield code="z">Middle East</subfield>
-        <subfield code="v">Catalogs</subfield>
-      </datafield>
-      <datafield tag="044A" fulltag="044A">
-        <subfield code="N">651</subfield>
-        <subfield code="S">g</subfield>
-        <subfield code="a">Middle East</subfield>
-        <subfield code="x">Antiquities</subfield>
-        <subfield code="v">Catalogs</subfield>
-      </datafield>
-      <datafield tag="045A" fulltag="045A">
-        <subfield code="a">DS56</subfield>
-      </datafield>
-      <datafield tag="047I" fulltag="047I">
-        <subfield code="a">"In honor of the Oriental Institute's centennial celebration, this special edition guide to 100 select highlights of the collections of the Oriental Institute Museum at the University of Chicago presents objects from ancient Mesopotamia, Syro-Anatolia, the Levant, Egypt, Nubia, and Persia. The guide features a history of the collections, new photography, provenance information, and a brief description of each object"--</subfield>
-      </datafield>
-      <item epn="3524284663">
-        <datafield tag="201A" occurrence="01" fulltag="201A/01">
-          <subfield code="0">22-05-20</subfield>
-        </datafield>
-        <datafield tag="201B" occurrence="01" fulltag="201B/01">
-          <subfield code="0">22-05-20</subfield>
-          <subfield code="t">21:07:09.000</subfield>
-        </datafield>
-        <datafield tag="201D" occurrence="01" fulltag="201D/01">
-          <subfield code="0">0046:22-05-20</subfield>
-        </datafield>
-        <datafield tag="201U" occurrence="01" fulltag="201U/01">
-          <subfield code="0">utf8</subfield>
-        </datafield>
-        <datafield tag="202D" occurrence="01" fulltag="202D/01">
-          <subfield code="0">22-05-20</subfield>
-          <subfield code="b">1684049</subfield>
-          <subfield code="a">0046</subfield>
-        </datafield>
-        <datafield tag="203@" occurrence="01" fulltag="203@/01">
-          <subfield code="0">3524284663</subfield>
-        </datafield>
-        <datafield tag="208@" occurrence="01" fulltag="208@/01">
-          <subfield code="a">22-05-20</subfield>
-          <subfield code="b">z</subfield>
-        </datafield>
-        <datafield tag="209O" occurrence="01" fulltag="209O/01">
-          <subfield code="a">Opus</subfield>
-          <subfield code="x">00</subfield>
-        </datafield>
-        <datafield tag="237A" occurrence="01" fulltag="237A/01">
-          <subfield code="a">Elektronischer Volltext.</subfield>
-        </datafield>
-      </item>
-    </metadata>
-    <rawrecord><![CDATA[001@ ƒ021001A ƒ02003:03-12-19001B ƒ01999:03-12-19ƒt21:15:35.000001D ƒ02003:03-12-19001U ƒ0utf8001X ƒ00002@ ƒ0Aax002C ƒaTextƒbtxt002C ƒaunbewegtes Bildƒbsti002D ƒaohne Hilfsmittel zu benutzenƒbn002E ƒaBandƒbnc003@ ƒ01684136350004A ƒ09781614910480ƒfhardback006A ƒ02019945088007G ƒiKXPƒ01684136350008G ƒaK10plus010@ ƒaeng010E ƒbengƒerda011@ ƒa2019019@ ƒaXD-US021A ƒa100 highlights of the collections of the Oriental Institute museumƒhedited by Jean M. Evans, Jack Green, and Emily Teeter027A ƒaOne hundred highlights of the collections of the Oriental Institute Museum028C ƒdJean M.ƒaEvansƒBHerausgeberInƒ4edt028C ƒdJackƒaGreenƒpMuseum curatorƒBHerausgeberInƒ4edt028C ƒdEmilyƒaTeeterƒBHerausgeberInƒ4edt029A ƒaUniversity of ChicagoƒbOriental InstituteƒbMuseumauthorissuing bodyƒBVerfasserInƒ4autƒBHerausgebendes Organƒ4isb033A ƒpChicagoƒnOriental Institute Museum, The University of Chicagoƒh2019034D ƒa156 pages034I ƒa29 cm034M ƒaillustrations, map037A ƒa"OI centennial special edition publication."044A ƒN610ƒSkƒaUniversity of ChicagoƒbOriental InstituteƒbMuseumƒvCatalogs044A ƒN650ƒSsƒaArtƒzIllinoisƒzChicagoƒvCatalogs044A ƒN650ƒSsƒaArt, AncientƒzMiddle EastƒvCatalogs044A ƒN651ƒSgƒaMiddle EastƒxAntiquitiesƒvCatalogs045A ƒaDS56047I ƒa"In honor of the Oriental Institute's centennial celebration, this special edition guide to 100 select highlights of the collections of the Oriental Institute Museum at the University of Chicago presents objects from ancient Mesopotamia, Syro-Anatolia, the Levant, Egypt, Nubia, and Persia. The guide features a history of the collections, new photography, provenance information, and a brief description of each object"--201A/01 ƒ022-05-20201B/01 ƒ022-05-20ƒt21:07:09.000201D/01 ƒ00046:22-05-20201U/01 ƒ0utf8202D/01 ƒ022-05-20ƒb1684049ƒa0046203@/01 ƒ03524284663208@/01 ƒa22-05-20ƒbz209O/01 ƒaOpusƒx00237A/01 ƒaElektronischer Volltext.]]></rawrecord>
-  </record>
-</collection>

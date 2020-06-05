@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <collection count="1">
   <record>
-    <header>
+    <header status="upsert">
       <identifier>162318830X</identifier>
-      <status>upsert</status>
     </header>
     <metadata>
       <datafield tag="001@" fulltag="001@">
@@ -163,51 +162,6 @@
         </datafield>
       </item>
     </metadata>
-    <rawrecord><![CDATA[001@ ƒ021,2097,2377,2512
-001A ƒ0S1KM:02-02-17
-001B ƒ0BSZ:31-07-18ƒt07:40:24.000
-001D ƒ0S1KM:02-02-17
-001U ƒ0utf8
-001X ƒ00
-002@ ƒ0Aau
-002C ƒaTextƒbtxt
-002D ƒaohne Hilfsmittel zu benutzenƒbn
-002E ƒaBandƒbnc
-003@ ƒ0162318830X
-003S ƒ0483041807
-003T ƒaOCoLCƒ01033912851
-004A ƒ09781904864493ƒfpbk
-004D ƒ09780955161193
-007G ƒiBSZƒ0483041807
-010@ ƒaengƒager
-011@ ƒa2009ƒn[ca. 2009]
-021A ƒaSofia Hultén - 12 worksƒd[publ. on occasion of the exhibitions "Mutual Annihilation", Künstlerhaus Bremen (24. 05. - 17. 08. 2008); "Drawn onward", Ikon Gallery, Perrott's Folly, Birmingham (08. 04. - 25. 05. 2009)]ƒh[Ed. and curated by Stefanie Böttcher; Helen Legg. Transl.: Nicholas Grindell ...]
-027A ƒaTwelve works
-027A ƒaMutual annihilation
-027A ƒaDrawn onward
-028C ƒ9379127717ƒ8Hultén, Sofia *1972-* ; ID: gnd/128750693
-028C ƒdStefanieƒaBöttcher
-028C ƒdHelenƒaLegg
-029F ƒ9121175294ƒ8Ikon Gallery ; ID: gnd/5063314-4
-029F ƒ934934244Xƒ8Künstlerhaus$gBremen ; ID: gnd/1246415-6
-033A ƒpBirminghamƒnIkon Gallery
-033A ƒpBremenƒnKünstlerhaus
-034D ƒa183 Seiten
-034M ƒaüberw. Ill.
-046L ƒaText englisch und deutsch
-047A ƒaIMD-Felder und 1131 maschinell ergänzt (SWB)
-
-201A/01 ƒ002-06-20
-201B/01 ƒ002-06-20ƒt17:21:53.000
-201D/01 ƒ00046:02-06-20
-201U/01 ƒ0utf8
-202D/01 ƒ002-06-20ƒb21ƒa0046
-203@/01 ƒ03524285759
-208@/01 ƒa02-06-20ƒbzza
-209A/01 ƒatest vzg update barcode ƒduƒx00
-209C/01 ƒaAkz-Nummerƒx00
-209G/01 ƒa46$0001111574
-
-]]></rawrecord>
+    <rawrecord><![CDATA[001@ ƒ021,2097,2377,2512001A ƒ0S1KM:02-02-17001B ƒ0BSZ:31-07-18ƒt07:40:24.000001D ƒ0S1KM:02-02-17001U ƒ0utf8001X ƒ00002@ ƒ0Aau002C ƒaTextƒbtxt002D ƒaohne Hilfsmittel zu benutzenƒbn002E ƒaBandƒbnc003@ ƒ0162318830X003S ƒ0483041807003T ƒaOCoLCƒ01033912851004A ƒ09781904864493ƒfpbk004D ƒ09780955161193007G ƒiBSZƒ0483041807010@ ƒaengƒager011@ ƒa2009ƒn[ca. 2009]021A ƒaSofia Hultén - 12 worksƒd[publ. on occasion of the exhibitions "Mutual Annihilation", Künstlerhaus Bremen (24. 05. - 17. 08. 2008); "Drawn onward", Ikon Gallery, Perrott's Folly, Birmingham (08. 04. - 25. 05. 2009)]ƒh[Ed. and curated by Stefanie Böttcher; Helen Legg. Transl.: Nicholas Grindell ...]027A ƒaTwelve works027A ƒaMutual annihilation027A ƒaDrawn onward028C ƒ9379127717ƒ8Hultén, Sofia *1972-* ; ID: gnd/128750693028C ƒdStefanieƒaBöttcher028C ƒdHelenƒaLegg029F ƒ9121175294ƒ8Ikon Gallery ; ID: gnd/5063314-4029F ƒ934934244Xƒ8Künstlerhaus$gBremen ; ID: gnd/1246415-6033A ƒpBirminghamƒnIkon Gallery033A ƒpBremenƒnKünstlerhaus034D ƒa183 Seiten034M ƒaüberw. Ill.046L ƒaText englisch und deutsch047A ƒaIMD-Felder und 1131 maschinell ergänzt (SWB)201A/01 ƒ002-06-20201B/01 ƒ002-06-20ƒt17:21:53.000201D/01 ƒ00046:02-06-20201U/01 ƒ0utf8202D/01 ƒ002-06-20ƒb21ƒa0046203@/01 ƒ03524285759208@/01 ƒa02-06-20ƒbzza209A/01 ƒatest vzg update barcode ƒduƒx00209C/01 ƒaAkz-Nummerƒx00209G/01 ƒa46$0001111574]]></rawrecord>
   </record>
 </collection>
