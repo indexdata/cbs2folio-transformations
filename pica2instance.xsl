@@ -19,8 +19,9 @@
 
   <xsl:template match="metadata">
     <source>FOLIO</source>
+    <xsl:variable name="ppn" select="datafield[@tag='003@']/subfield[@code='0']" />
     <hrid>
-      <xsl:value-of select="datafield[@tag='003@']/subfield[@code='0']" />
+      <xsl:value-of select="$ppn" />
     </hrid>
 
     <xsl:for-each select="datafield[@tag='001A']/subfield[@code='0']">
@@ -591,6 +592,7 @@
         <!-- Electronic access -->
         <xsl:if test="datafield[@tag='109R']/subfield[@code='u']">
           <i>
+            <hrid><xsl:value-of select="$ppn" /></hrid>
             <permanentLocationId>Zentrale Leihtheke</permanentLocationId> <!-- hardcoded : where to find in item record? --> 
             <electronicAccess>
               <arr>
