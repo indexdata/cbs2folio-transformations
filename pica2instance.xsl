@@ -618,7 +618,7 @@
       <items>
         <arr>
           <i>
-            <itemIdentifier><xsl:value-of select="$hhrid" /></itemIdentifier>
+            <hrid><xsl:value-of select="$hhrid" /></hrid>
             <materialTypeId>book</materialTypeId> <!-- hardcoded : where to find in item record? -->
             <permanentLoanTypeId>
               <xsl:variable name="loantype" select="datafield[@tag='209@']/subfield[@code='d']"></xsl:variable>
