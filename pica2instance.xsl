@@ -584,31 +584,32 @@
 
     <!-- Subjects -->
 
+    <xsl:if test="datafield[@tag='203@']/subfield[@code='0'] | datafield[@tag='109R']">
+      <holdingsRecords>
+        <arr>
+          <xsl:apply-templates select="item"/>
 
-    <holdingsRecords>
-      <arr>
-        <xsl:apply-templates select="item"/>
-
-        <!-- Electronic access -->
-        <xsl:if test="datafield[@tag='109R']/subfield[@code='u']">
-          <i>
-            <hrid><xsl:value-of select="$ppn" /></hrid>
-            <permanentLocationId>Zentrale Leihtheke</permanentLocationId> <!-- hardcoded : where to find in item record? --> 
-            <electronicAccess>
-              <arr>
-                <xsl:for-each select="datafield[@tag='109R']">
-                  <i>
-                    <uri>
-                      <xsl:value-of select="./subfield[@code='u']" />
-                    </uri>
-                  </i>
-                </xsl:for-each>
-              </arr>
-            </electronicAccess>
-          </i>
-        </xsl:if>
-      </arr>
-    </holdingsRecords>
+          <!-- Electronic access -->
+          <xsl:if test="datafield[@tag='109R']/subfield[@code='u']">
+            <i>
+              <hrid><xsl:value-of select="$ppn" /></hrid>
+              <permanentLocationId>Zentrale Leihtheke</permanentLocationId> <!-- hardcoded : where to find in item record? --> 
+              <electronicAccess>
+                <arr>
+                  <xsl:for-each select="datafield[@tag='109R']">
+                    <i>
+                      <uri>
+                        <xsl:value-of select="./subfield[@code='u']" />
+                      </uri>
+                    </i>
+                  </xsl:for-each>
+                </arr>
+              </electronicAccess>
+            </i>
+          </xsl:if>
+        </arr>
+      </holdingsRecords>
+    </xsl:if>
   </xsl:template>
 
   <xsl:template match="item">
