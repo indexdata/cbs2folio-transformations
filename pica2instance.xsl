@@ -584,7 +584,7 @@
 
     <!-- Subjects -->
 
-    <xsl:if test="datafield[@tag='203@']/subfield[@code='0'] | datafield[@tag='109R']">
+    <xsl:if test="item/datafield[@tag='203@']/subfield[@code='0'] | datafield[@tag='109R']">
       <holdingsRecords>
         <arr>
           <xsl:apply-templates select="item"/>
