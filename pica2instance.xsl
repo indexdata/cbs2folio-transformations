@@ -375,7 +375,8 @@
               <i>
                 <name>
                   <xsl:choose>
-                    <xsl:when test="./subfield[@code='8']"><xsl:value-of select="substring-before(./subfield[@code='8'], ' ; ID:')" /></xsl:when>
+                    <xsl:when test="./subfield[@code='8'][contains(., ' ; ID:')]"><xsl:value-of select="substring-before(./subfield[@code='8'], ' ; ID:')" /></xsl:when>
+                    <xsl:when test="./subfield[@code='8']"><xsl:value-of select="./subfield[@code='8']" /></xsl:when>
                     <xsl:when test="./subfield[@code='P']"><xsl:value-of select="./subfield[@code='P']" /></xsl:when>
                     <xsl:when test="./subfield[@code='d' or @code='D']">
                       <xsl:variable name='name' select="concat(./subfield[@code='a' or @code='A'], ', ', ./subfield[@code='d' or @code='D'])" />
