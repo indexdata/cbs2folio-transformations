@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<collection count="1">
+  <record>
+    <header status="upsert">
+      <identifier>174360606</identifier>
+    </header>
+    <metadata>
+      <datafield tag="001@" fulltag="001@">
+        <subfield code="0">21</subfield>
+      </datafield>
+      <datafield tag="001A" fulltag="001A">
+        <subfield code="0">0089:31-12-94</subfield>
+      </datafield>
+      <datafield tag="001B" fulltag="001B">
+        <subfield code="0">1999:02-06-20</subfield>
+        <subfield code="t">12:27:25.000</subfield>
+      </datafield>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">0089:28-02-13</subfield>
+      </datafield>
+      <datafield tag="001U" fulltag="001U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="001X" fulltag="001X">
+        <subfield code="0">0</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Afk</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+        <subfield code="b">n</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Band</subfield>
+        <subfield code="b">nc</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">174360606</subfield>
+      </datafield>
+      <datafield tag="006Y" fulltag="006Y">
+        <subfield code="0">00890468052</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">GBV</subfield>
+        <subfield code="0">174360606</subfield>
+      </datafield>
+      <datafield tag="030F" fulltag="030F">
+        <subfield code="a">[Kongress]</subfield>
+        <subfield code="j">1985</subfield>
+        <subfield code="k">Aachen</subfield>
+        <subfield code="p">1985.11.18-19</subfield>
+      </datafield>
+      <datafield tag="036F" fulltag="036F">
+        <subfield code="X">01985</subfield>
+        <subfield code="9">174360592</subfield>
+        <subfield code="8">[KONGRESSFOLGE] @Motorische Verbrennung</subfield>
+        <subfield code="l">1985</subfield>
+      </datafield>
+      <datafield tag="038L" fulltag="038L">
+        <subfield code="a">VZGCHECK</subfield>
+        <subfield code="b">N</subfield>
+        <subfield code="x">10.000</subfield>
+        <subfield code="9">017897335</subfield>
+      </datafield>
+      <datafield tag="046W" fulltag="046W">
+        <subfield code="a">IMD-Felder maschinell generiert (GBV)</subfield>
+      </datafield>
+      <datafield tag="101B" fulltag="101B">
+        <subfield code="0">02-06-20</subfield>
+        <subfield code="t">12:27:25.000</subfield>
+      </datafield>
+      <datafield tag="101U" fulltag="101U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="102D" fulltag="102D">
+        <subfield code="0">02-06-20</subfield>
+        <subfield code="b">800</subfield>
+        <subfield code="a">1999</subfield>
+      </datafield>
+      <datafield tag="145Z" occurrence="20" fulltag="145Z/20">
+        <subfield code="a">mas 460</subfield>
+      </datafield>
+      <item epn="296907596">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">02-06-20</subfield>
+          <subfield code="t">12:27:25.000</subfield>
+        </datafield>
+        <datafield tag="201D" occurrence="01" fulltag="201D/01">
+          <subfield code="0">1999:02-06-20</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="01" fulltag="202D/01">
+          <subfield code="0">02-06-20</subfield>
+          <subfield code="b">800</subfield>
+          <subfield code="a">1999</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">296907596</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">17-09-98</subfield>
+          <subfield code="b">zba</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="f">TB BHV</subfield>
+          <subfield code="a">mas 640/27</subfield>
+          <subfield code="d">u</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="01" fulltag="209C/01">
+          <subfield code="a">a 3309</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">46A$000294950</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+      </item>
+    </metadata>
+    <rawrecord><![CDATA[001@ ƒ021001A ƒ00089:31-12-94001B ƒ01999:02-06-20ƒt12:27:25.000001D ƒ00089:28-02-13001U ƒ0utf8001X ƒ00002@ ƒ0Afk002C ƒaTextƒbtxt002D ƒaohne Hilfsmittel zu benutzenƒbn002E ƒaBandƒbnc003@ ƒ0174360606006Y ƒ000890468052007G ƒiGBVƒ0174360606030F ƒa[Kongress]ƒj1985ƒkAachenƒp1985.11.18-19036F ƒX01985ƒ9174360592ƒ8[KONGRESSFOLGE] @Motorische Verbrennungƒl1985038L ƒaVZGCHECKƒbNƒx10.000ƒ9017897335046W ƒaIMD-Felder maschinell generiert (GBV)101B ƒ002-06-20ƒt12:27:25.000101U ƒ0utf8102D ƒ002-06-20ƒb800ƒa1999145Z/20 ƒamas 460201B/01 ƒ002-06-20ƒt12:27:25.000201D/01 ƒ01999:02-06-20201U/01 ƒ0utf8202D/01 ƒ002-06-20ƒb800ƒa1999203@/01 ƒ0296907596208@/01 ƒa17-09-98ƒbzba209A/01 ƒfTB BHVƒamas 640/27ƒduƒx00209C/01 ƒaa 3309ƒx00209G/01 ƒa46A$000294950ƒx00]]></rawrecord>
+  </record>
+</collection>
