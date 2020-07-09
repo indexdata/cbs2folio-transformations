@@ -214,7 +214,7 @@
       or @tag='004U' or @tag='003O' or @tag='003T' or @tag='003D' or @tag='007C' or @tag='007D' or @tag='007G']">
         <i>
           <xsl:choose>
-            <xsl:when test="current()[@tag='004A' or @tag='004P' or @tag='005A' or @tag='005P' or @tag='005D' or @tag='004F' or @tag='004M' or @tag='004I']">
+            <xsl:when test="current()[@tag='004A' or @tag='004D' or @tag='004P' or @tag='005A' or @tag='005P' or @tag='005D' or @tag='004F' or @tag='004M' or @tag='004I']">
               <value>
                 <xsl:choose>
                   <xsl:when test="./subfield[@code='f'] and ./subfield[@code='0']">
@@ -230,19 +230,20 @@
               </value>
               <identifierTypeId>
                 <xsl:choose>
-                  <xsl:when test="current()/@tag='004A'">ISBN</xsl:when> <!-- ISBN -->
+                  <xsl:when test="current()/@tag='004A'">ISBN</xsl:when>
                   <xsl:when test="current()/@tag='004P' and ./subfield[@code='S']='a'">ISBN der parallelen Ausgabe auf einem anderen Datenträger</xsl:when>
                   <xsl:when test="current()/@tag='004P' and ./subfield[@code='S']='o'">ISBN der parallelen Ausgabe im Fernzugriff</xsl:when>
                   <xsl:when test="current()/@tag='004P' and ./subfield[@code='S']='p'">ISBN der parallelen Druckausgabe</xsl:when>
                   <xsl:when test="current()/@tag='004P' and ./subfield[@code='S']='u'">ISBN für parallele Ausgabe in einer anderen physischen Form</xsl:when>
                   <xsl:when test="current()/@tag='004P'">ISBN einer Manifestation in anderer physischer Form</xsl:when>
-                  <xsl:when test="current()/@tag='005A'">ISSN</xsl:when> <!-- ISSN -->
-                  <xsl:when test="current()/@tag='005D'">Formal falsche ISSN</xsl:when>
+                  <xsl:when test="current()/@tag='005A'">ISSN</xsl:when>
+                  <xsl:when test="current()/@tag='005D'">Invalid ISSN</xsl:when>
                   <xsl:when test="current()/@tag='005P' and ./subfield[@code='S']='a'">ISSN für parallele Ausgaben auf einem anderen Datenträger</xsl:when>
                   <xsl:when test="current()/@tag='005P' and ./subfield[@code='S']='o'">ISSN für parallele Ausgaben im Fernzugriff</xsl:when>
                   <xsl:when test="current()/@tag='005P' and ./subfield[@code='S']='p'">ISSN für parallele Druckausgaben</xsl:when>
                   <xsl:when test="current()/@tag='005P' and ./subfield[@code='S']='f'">fehlerhafte ISSN der parallelen Ausgabe</xsl:when>
                   <xsl:when test="current()/@tag='005P'">ISSN of parallel editions</xsl:when>
+                  <xsl:when test="current()/@tag='004D'">Invalid ISBN</xsl:when>
                   <xsl:when test="current()/@tag='004F'">ISMN</xsl:when>
                   <xsl:when test="current()/@tag='004M'">ISRN</xsl:when>
                   <xsl:when test="current()/@tag='004I'">Formal falsche ISMN</xsl:when>
@@ -277,7 +278,6 @@
                   <xsl:when test="current()[@tag='003S']">PPN SWB</xsl:when>
                   <xsl:when test="current()[@tag='004J']">ISBN der Reproduktion</xsl:when>
                   <xsl:when test="current()[@tag='004K']">Formal falsche ISBN der Reproduktion</xsl:when>
-                  <xsl:when test="current()[@tag='004D']">Formal falsche ISBN</xsl:when>
                   <xsl:when test="current()[@tag='005I']">Autorisierte ISSN</xsl:when>
                   <xsl:when test="current()[@tag='006A']">LCCN</xsl:when>
                 </xsl:choose>
