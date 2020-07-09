@@ -268,7 +268,7 @@
                 </xsl:choose>
               </identifierTypeId>
             </xsl:when>
-            <xsl:otherwise>
+            <xsl:when test="./subfield[@code='0']">
               <value>
                 <xsl:value-of select="./subfield[@code='0']"/>
               </value>
@@ -282,7 +282,7 @@
                   <xsl:when test="current()[@tag='006A']">LCCN</xsl:when>
                 </xsl:choose>
               </identifierTypeId>
-            </xsl:otherwise>
+            </xsl:when>
           </xsl:choose>
         </i>
       </xsl:for-each>
