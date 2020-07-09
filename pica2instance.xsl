@@ -435,6 +435,7 @@
               <name>
                 <xsl:choose>
                   <xsl:when test="./subfield[@code='8']"><xsl:value-of select="substring-before(./subfield[@code='8'], ' ; ID:')" /></xsl:when>
+                  <xsl:when test="./subfield[@code='8']"><xsl:value-of select="./subfield[@code='8']" /></xsl:when>
                   <xsl:when test="$cpa and string($cpb) and string($cpg) and string($cpx) and string($cpn) and string($cpd) and string($cpc)">
                     <xsl:value-of select="concat($cpa,$lash,$cpb,$lash,$cpg,$lash,$cpx,' (',$cpn,') : ',$cpd,$lash,$cpc)"></xsl:value-of>
                   </xsl:when>
