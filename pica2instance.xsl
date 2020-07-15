@@ -649,6 +649,11 @@
             <barcode>
               <xsl:value-of select="datafield[@tag='209G']/subfield[@code='a']" />
             </barcode>
+            <xsl:if test='datafield[@tag="231B"]'>
+              <enumeration>
+                <xsl:value-of select="datafield[@tag='231B']/subfield[@code='a']" />
+              </enumeration>
+            </xsl:if>
             <notes>
               <arr>
                 <xsl:for-each select="datafield[@tag='220B']">
