@@ -398,8 +398,122 @@
         <datafield tag="220B" occurrence="04" fulltag="220B/04">
           <subfield code="a">FOLIO</subfield>
         </datafield>
+        <datafield tag="244Z" occurrence="04" fulltag="244Z/04">
+          <subfield code="a">This is a local subject heading</subfield>
+        </datafield>
+        <datafield tag="244Z" occurrence="04" fulltag="244Z/04">
+          <subfield code="S">sub01</subfield>
+          <subfield code="a">This is a local subject heading with a code</subfield>
+        </datafield>
+        <datafield tag="244Z" occurrence="04" fulltag="244Z/04">
+          <subfield code="8">This is a controlled local subject heading ; ID: 789456789</subfield>
+        </datafield>
       </item>
     </metadata>
-    <rawrecord><![CDATA[001@ ƒ011,21,60,72,92,113,121,130,154,162,176,203,235,274,365,674,1015,1018,2006,2008001A ƒ00705:01-12-14001B ƒ04365:04-12-19ƒt08:58:58.000001D ƒ03162:26-07-16001U ƒ0utf8001X ƒ00002@ ƒ0Aau002C ƒaTextƒbtxt002D ƒaohne Hilfsmittel zu benutzenƒbn002E ƒaBandƒbnc003@ ƒ0807040673003O ƒaOCoLCƒ0953989940003S ƒ0475980328003T ƒaOCoLCƒ0953989940004A ƒ09783869270760006Y ƒ0ndsbib006Y ƒ0sab0117412007G ƒiGBVƒ0807040673009@ ƒbBlocktest010@ ƒager010E ƒerda011@ ƒa2016ƒn[2016]011F ƒn© 2016009Q ƒahttp://d-nb.info/1076925448/04ƒmB:DE-101ƒqpdf/applicationƒv20161030003401ƒxHƒ3Inhaltsverzeichnisƒ504ƒADNBƒB2009Q ƒahttp://deposit.d-nb.de/cgi-bin/dokserv?id=bfeecaec094f43cf9473528805783c5a&prov=M&dok_var=1&dok_ext=htmƒmX:MVBƒqtext/htmlƒ3Inhaltstextƒ501019@ ƒaXA-DE-NI021A ƒaDas @Bremer Schlachte-Schiffƒdeine Proto-Kogge mit Heckruder aus der Zeit um 1100ƒhManfred Rech ; mit Beiträgen von Michael Wesemann und Wilhelm Voigt028A ƒ9746862903ƒ8Rech, Manfred *1942-* ; ID: gnd/1035120658ƒBVerfasserInƒ4aut028C ƒdMichaelƒaWesemannƒBMitwirkendeRƒ4ctb028C ƒdWilhelmƒaVoigtƒBMitwirkendeRƒ4ctb029F ƒ9101636091ƒ8Deutsches Schifffahrtsmuseum ; ID: gnd/2008892-9ƒBHerausgebendes Organƒ4isb033A ƒpBremerhavenƒnDeutsches Schiffahrtsmuseum033A ƒpWiefelstedeƒnOceanum Verlag034D ƒa264 Seiten034M ƒaIllustrationen, Diagramme036E ƒaSchriften des Deutschen SchiffahrtsmuseumsƒlBand 76036F ƒX7600ƒ9129297100ƒ8Schriften des Deutschen Schiffahrtsmuseums / Deutsches Schifffahrtsmuseum ; ID: gnd/2008892-9 ; ZDB-ID: 121376-3ƒlBand 76037A ƒaLiteraturverzeichnis: Seite 244-261041A ƒ9508296617ƒ8Schlachte Bremen ; ID: gnd/7518294-4041A/01 ƒ9106264664ƒ8Kogge ; ID: gnd/4031628-2041A/02 ƒ9106111078ƒ8Wrack ; ID: gnd/4066981-6041A/03 ƒ9105723770ƒ8Schiffsbergung ; ID: gnd/4127580-9041A/04 ƒ9104642874ƒ8Funde ; ID: gnd/4071507-3041A/05 ƒzGeschichte 1100-1400041A/09 ƒADE-101045F ƒe22/gerƒa623.820309435209021ƒADE-101045F ƒe23sdnbƒa620ƒa380ƒADE-101045F ƒe23sdnbƒa940045G ƒa620ƒa380ƒADE-101045H ƒeDDC22gerƒa623.820309435209021ƒc623.8203ƒf09021ƒg4352045Q/01 ƒ9106413805ƒ855.41$jSchiffe045Q/02 ƒ9181571579ƒ815.51$jNiedersachsen$jBremen$XGeschichte045R ƒ91271768917ƒ8ZO 6020: Technik / Verkehr, Transport / Schifffahrt / Geschichte der Schifffahrt045Y ƒanbbre047A ƒa5090: DDSU/sred (SWB)101B ƒ018-10-16ƒt13:16:27.000101U ƒ0utf8102D ƒ018-10-16ƒb6284ƒa0046145Z/15 ƒaPv145Z/30 ƒareg 584145Z/31 ƒareg 583145Z/32 ƒareg 513145Z/99 ƒa04201B/01 ƒ004-08-16ƒt13:28:25.000201U/01 ƒ0utf8202D/01 ƒ004-08-16ƒb6232ƒa0046203@/01 ƒ01629596469208@/01 ƒa04-08-16ƒbzwn209A/01 ƒfTB NautikƒaPv Rec.1ƒdcƒx00209C/01 ƒa16:0698ƒx00209G/01 ƒa46C$003896080201B/02 ƒ018-10-16ƒt13:16:27.000201U/02 ƒ0utf8202D/02 ƒ018-10-16ƒb6284ƒa0046203@/02 ƒ01638440395208@/02 ƒa17-10-16ƒbzza209A/02 ƒaa reg 584/430ƒduƒx00209C/02 ƒa2016-14134ƒx00209G/02 ƒa46$0005769000209O/02 ƒaRegionalbibliografieƒx00201B/03 ƒ023-11-16ƒt09:20:21.000201U/03 ƒ0utf8202D/03 ƒ023-11-16ƒb6274ƒa0046203@/03 ƒ01647556066208@/03 ƒa22-11-16ƒbzza209A/03 ƒats 3284ƒdiƒx00209C/03 ƒa2016-16952ƒx00209G/03 ƒa46$0005815835201A/04 ƒ015-06-20201B/04 ƒ015-06-20ƒt12:39:37.000201D/04 ƒ00046:15-06-20201U/04 ƒ0utf8202D/04 ƒ015-06-20ƒb21ƒa0046203@/04 ƒ03524285821208@/04 ƒa15-06-20ƒbz209A/04 ƒatest vzg ƒduƒx00209G/04 ƒa46$0005769000220B/04 ƒaFOLIO]]></rawrecord>
+    <rawrecord><![CDATA[001@ ƒ011,21,60,72,92,113,121,130,154,162,176,203,235,274,365,674,1015,1018,2006,2008
+001A ƒ00705:01-12-14
+001B ƒ04365:04-12-19ƒt08:58:58.000
+001D ƒ03162:26-07-16
+001U ƒ0utf8
+001X ƒ00
+002@ ƒ0Aau
+002C ƒaTextƒbtxt
+002D ƒaohne Hilfsmittel zu benutzenƒbn
+002E ƒaBandƒbnc
+003@ ƒ0807040673
+003O ƒaOCoLCƒ0953989940
+003S ƒ0475980328
+003T ƒaOCoLCƒ0953989940
+004A ƒ09783869270760
+006Y ƒ0ndsbib
+006Y ƒ0sab0117412
+007G ƒiGBVƒ0807040673
+009@ ƒbBlocktest
+010@ ƒager
+010E ƒerda
+011@ ƒa2016ƒn[2016]
+011F ƒn© 2016
+009Q ƒahttp://d-nb.info/1076925448/04ƒmB:DE-101ƒqpdf/applicationƒv20161030003401ƒxHƒ3Inhaltsverzeichnisƒ504ƒADNBƒB2
+009Q ƒahttp://deposit.d-nb.de/cgi-bin/dokserv?id=bfeecaec094f43cf9473528805783c5a&prov=M&dok_var=1&dok_ext=htmƒmX:MVBƒqtext/htmlƒ3Inhaltstextƒ501
+019@ ƒaXA-DE-NI
+021A ƒaDas @Bremer Schlachte-Schiffƒdeine Proto-Kogge mit Heckruder aus der Zeit um 1100ƒhManfred Rech ; mit Beiträgen von Michael Wesemann und Wilhelm Voigt
+028A ƒ9746862903ƒ8Rech, Manfred *1942-* ; ID: gnd/1035120658ƒBVerfasserInƒ4aut
+028C ƒdMichaelƒaWesemannƒBMitwirkendeRƒ4ctb
+028C ƒdWilhelmƒaVoigtƒBMitwirkendeRƒ4ctb
+029F ƒ9101636091ƒ8Deutsches Schifffahrtsmuseum ; ID: gnd/2008892-9ƒBHerausgebendes Organƒ4isb
+033A ƒpBremerhavenƒnDeutsches Schiffahrtsmuseum
+033A ƒpWiefelstedeƒnOceanum Verlag
+034D ƒa264 Seiten
+034M ƒaIllustrationen, Diagramme
+036E ƒaSchriften des Deutschen SchiffahrtsmuseumsƒlBand 76
+036F ƒX7600ƒ9129297100ƒ8Schriften des Deutschen Schiffahrtsmuseums / Deutsches Schifffahrtsmuseum ; ID: gnd/2008892-9 ; ZDB-ID: 121376-3ƒlBand 76
+037A ƒaLiteraturverzeichnis: Seite 244-261
+041A ƒ9508296617ƒ8Schlachte Bremen ; ID: gnd/7518294-4
+041A/01 ƒ9106264664ƒ8Kogge ; ID: gnd/4031628-2
+041A/02 ƒ9106111078ƒ8Wrack ; ID: gnd/4066981-6
+041A/03 ƒ9105723770ƒ8Schiffsbergung ; ID: gnd/4127580-9
+041A/04 ƒ9104642874ƒ8Funde ; ID: gnd/4071507-3
+041A/05 ƒzGeschichte 1100-1400
+041A/09 ƒADE-101
+045F ƒe22/gerƒa623.820309435209021ƒADE-101
+045F ƒe23sdnbƒa620ƒa380ƒADE-101
+045F ƒe23sdnbƒa940
+045G ƒa620ƒa380ƒADE-101
+045H ƒeDDC22gerƒa623.820309435209021ƒc623.8203ƒf09021ƒg4352
+045Q/01 ƒ9106413805ƒ855.41$jSchiffe
+045Q/02 ƒ9181571579ƒ815.51$jNiedersachsen$jBremen$XGeschichte
+045R ƒ91271768917ƒ8ZO 6020: Technik / Verkehr, Transport / Schifffahrt / Geschichte der Schifffahrt
+045Y ƒanbbre
+047A ƒa5090: DDSU/sred (SWB)
+
+101B ƒ018-10-16ƒt13:16:27.000
+101U ƒ0utf8
+102D ƒ018-10-16ƒb6284ƒa0046
+145Z/15 ƒaPv
+145Z/30 ƒareg 584
+145Z/31 ƒareg 583
+145Z/32 ƒareg 513
+145Z/99 ƒa04
+
+201B/01 ƒ004-08-16ƒt13:28:25.000
+201U/01 ƒ0utf8
+202D/01 ƒ004-08-16ƒb6232ƒa0046
+203@/01 ƒ01629596469
+208@/01 ƒa04-08-16ƒbzwn
+209A/01 ƒfTB NautikƒaPv Rec.1ƒdcƒx00
+209C/01 ƒa16:0698ƒx00
+209G/01 ƒa46C$003896080
+
+201B/02 ƒ018-10-16ƒt13:16:27.000
+201U/02 ƒ0utf8
+202D/02 ƒ018-10-16ƒb6284ƒa0046
+203@/02 ƒ01638440395
+208@/02 ƒa17-10-16ƒbzza
+209A/02 ƒaa reg 584/430ƒduƒx00
+209C/02 ƒa2016-14134ƒx00
+209G/02 ƒa46$0005769000
+209O/02 ƒaRegionalbibliografieƒx00
+
+201B/03 ƒ023-11-16ƒt09:20:21.000
+201U/03 ƒ0utf8
+202D/03 ƒ023-11-16ƒb6274ƒa0046
+203@/03 ƒ01647556066
+208@/03 ƒa22-11-16ƒbzza
+209A/03 ƒats 3284ƒdiƒx00
+209C/03 ƒa2016-16952ƒx00
+209G/03 ƒa46$0005815835
+
+201A/04 ƒ015-06-20
+201B/04 ƒ015-06-20ƒt12:39:37.000
+201D/04 ƒ00046:15-06-20
+201U/04 ƒ0utf8
+202D/04 ƒ015-06-20ƒb21ƒa0046
+203@/04 ƒ03524285821
+208@/04 ƒa15-06-20ƒbz
+209A/04 ƒatest vzg ƒduƒx00
+209G/04 ƒa46$0005769000
+220B/04 ƒaFOLIO
+
+]]></rawrecord>
   </record>
 </collection>

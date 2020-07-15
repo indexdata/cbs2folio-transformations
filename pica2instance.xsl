@@ -654,11 +654,36 @@
                 <xsl:for-each select="datafield[@tag='220B']">
                   <xsl:if test="./subfield[@code='a']">
                     <i>
-                      <itemNoteTypeId>Note</itemNoteTypeId>
                       <note><xsl:value-of select="./subfield[@code='a']" /></note>
+                      <itemNoteTypeId>Note</itemNoteTypeId>
                       <staffOnly>true</staffOnly>
                     </i>
                   </xsl:if>
+                </xsl:for-each>
+                <xsl:for-each select="datafield[@tag='244Z']">
+                  <xsl:variable name="expansion" select="substring-before(./subfield[@code='8'], ' ; ID:')" />
+                  <i>
+                    <note>
+                      <xsl:choose>
+                        <xsl:when test="./subfield[@code='S']">
+                          <xsl:choose>
+                            <xsl:when test="$expansion"><xsl:value-of select="concat(./subfield[@code='S'], ' ', $expansion)" /></xsl:when>
+                            <xsl:when test="./subfield[@code='8']"><xsl:value-of select="concat(./subfield[@code='S'], ' ', ./subfield[@code='8'])" /></xsl:when>
+                            <xsl:when test="./subfield[@code='a']"><xsl:value-of select="concat(./subfield[@code='S'], ' ', ./subfield[@code='a'])" /></xsl:when>
+                          </xsl:choose>
+                        </xsl:when>
+                        <xsl:otherwise>
+                          <xsl:choose>
+                            <xsl:when test="$expansion"><xsl:value-of select="$expansion" /></xsl:when>
+                            <xsl:when test="./subfield[@code='8']"><xsl:value-of select="./subfield[@code='8']" /></xsl:when>
+                            <xsl:when test="./subfield[@code='a']"><xsl:value-of select="./subfield[@code='a']" /></xsl:when>
+                          </xsl:choose>
+                        </xsl:otherwise>
+                      </xsl:choose>
+                    </note>
+                    <itemNoteTypeId>Note</itemNoteTypeId>
+                    <staffOnly>false</staffOnly>
+                  </i>
                 </xsl:for-each>
               </arr>
             </notes>
