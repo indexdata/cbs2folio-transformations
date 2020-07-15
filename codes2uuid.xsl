@@ -6,6 +6,24 @@
     </xsl:copy>
   </xsl:template>
 
+  <!-- Map item note types -->
+  <xsl:template match="itemNoteTypeId">
+    <itemNoteTypeId>
+      <xsl:choose>
+        <xsl:when test=".='Binding'">87c450be-2033-41fb-80ba-dd2409883681</xsl:when>
+        <xsl:when test=".='Note'">8d0a5eca-25de-4391-81a9-236eeefdd20b</xsl:when>
+        <xsl:when test=".='Reproduction'">acb3a58f-1d72-461d-97c3-0e7119e8d544</xsl:when>
+        <xsl:when test=".='Electronic bookplate'">f3ae3823-d096-4c65-8734-0c1efd2ffea8</xsl:when>
+        <xsl:when test=".='Action note'">0e40884c-3523-4c6d-8187-d578e3d2794e</xsl:when>
+        <xsl:when test=".='Copy note'">1dde7141-ec8a-4dae-9825-49ce14c728e7</xsl:when>
+        <xsl:when test=".='Provenance'">c3a539b9-9576-4e3a-b6de-d910200b2919</xsl:when>
+        <xsl:when test=".='Abrufzeichen exemplarspezifisch (8600)'">1f679b18-3a4d-421a-aa8f-8a0d8f758f71</xsl:when>
+        <xsl:otherwise>8d0a5eca-25de-4391-81a9-236eeefdd20b</xsl:otherwise>
+      </xsl:choose>
+    </itemNoteTypeId>
+  </xsl:template>
+
+
   <!-- Map loan types -->
   <xsl:template match="permanentLoanTypeId">
     <permanentLoanTypeId>

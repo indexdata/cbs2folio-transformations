@@ -649,6 +649,19 @@
             <barcode>
               <xsl:value-of select="datafield[@tag='209G']/subfield[@code='a']" />
             </barcode>
+            <notes>
+              <arr>
+                <xsl:for-each select="datafield[@tag='220B']">
+                  <xsl:if test="./subfield[@code='a']">
+                    <i>
+                      <itemNoteTypeId>Note</itemNoteTypeId>
+                      <note><xsl:value-of select="./subfield[@code='a']" /></note>
+                      <staffOnly>true</staffOnly>
+                    </i>
+                  </xsl:if>
+                </xsl:for-each>
+              </arr>
+            </notes>
           </i>
         </arr>
       </items>

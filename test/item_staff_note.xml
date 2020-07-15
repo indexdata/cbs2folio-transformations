@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<collection count="1">
+  <record>
+    <header status="upsert">
+      <identifier>807040673</identifier>
+    </header>
+    <metadata>
+      <datafield tag="001@" fulltag="001@">
+        <subfield code="0">11,21,60,72,92,113,121,130,154,162,176,203,235,274,365,674,1015,1018,2006,2008</subfield>
+      </datafield>
+      <datafield tag="001A" fulltag="001A">
+        <subfield code="0">0705:01-12-14</subfield>
+      </datafield>
+      <datafield tag="001B" fulltag="001B">
+        <subfield code="0">4365:04-12-19</subfield>
+        <subfield code="t">08:58:58.000</subfield>
+      </datafield>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">3162:26-07-16</subfield>
+      </datafield>
+      <datafield tag="001U" fulltag="001U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="001X" fulltag="001X">
+        <subfield code="0">0</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Aau</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+        <subfield code="b">n</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Band</subfield>
+        <subfield code="b">nc</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">807040673</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">953989940</subfield>
+      </datafield>
+      <datafield tag="003S" fulltag="003S">
+        <subfield code="0">475980328</subfield>
+      </datafield>
+      <datafield tag="003T" fulltag="003T">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">953989940</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">9783869270760</subfield>
+      </datafield>
+      <datafield tag="006Y" fulltag="006Y">
+        <subfield code="0">ndsbib</subfield>
+      </datafield>
+      <datafield tag="006Y" fulltag="006Y">
+        <subfield code="0">sab0117412</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">GBV</subfield>
+        <subfield code="0">807040673</subfield>
+      </datafield>
+      <datafield tag="009@" fulltag="009@">
+        <subfield code="b">Blocktest</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+      </datafield>
+      <datafield tag="010E" fulltag="010E">
+        <subfield code="e">rda</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2016</subfield>
+        <subfield code="n">[2016]</subfield>
+      </datafield>
+      <datafield tag="011F" fulltag="011F">
+        <subfield code="n">© 2016</subfield>
+      </datafield>
+      <datafield tag="009Q" fulltag="009Q">
+        <subfield code="a">http://d-nb.info/1076925448/04</subfield>
+        <subfield code="m">B:DE-101</subfield>
+        <subfield code="q">pdf/application</subfield>
+        <subfield code="v">20161030003401</subfield>
+        <subfield code="x">H</subfield>
+        <subfield code="3">Inhaltsverzeichnis</subfield>
+        <subfield code="5">04</subfield>
+        <subfield code="A">DNB</subfield>
+        <subfield code="B">2</subfield>
+      </datafield>
+      <datafield tag="009Q" fulltag="009Q">
+        <subfield code="a">http://deposit.d-nb.de/cgi-bin/dokserv?id=bfeecaec094f43cf9473528805783c5a&amp;prov=M&amp;dok_var=1&amp;dok_ext=htm</subfield>
+        <subfield code="m">X:MVB</subfield>
+        <subfield code="q">text/html</subfield>
+        <subfield code="3">Inhaltstext</subfield>
+        <subfield code="5">01</subfield>
+      </datafield>
+      <datafield tag="019@" fulltag="019@">
+        <subfield code="a">XA-DE-NI</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Das @Bremer Schlachte-Schiff</subfield>
+        <subfield code="d">eine Proto-Kogge mit Heckruder aus der Zeit um 1100</subfield>
+        <subfield code="h">Manfred Rech ; mit Beiträgen von Michael Wesemann und Wilhelm Voigt</subfield>
+      </datafield>
+      <datafield tag="028A" fulltag="028A">
+        <subfield code="9">746862903</subfield>
+        <subfield code="8">Rech, Manfred *1942-* ; ID: gnd/1035120658</subfield>
+        <subfield code="B">VerfasserIn</subfield>
+        <subfield code="4">aut</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="d">Michael</subfield>
+        <subfield code="a">Wesemann</subfield>
+        <subfield code="B">MitwirkendeR</subfield>
+        <subfield code="4">ctb</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="d">Wilhelm</subfield>
+        <subfield code="a">Voigt</subfield>
+        <subfield code="B">MitwirkendeR</subfield>
+        <subfield code="4">ctb</subfield>
+      </datafield>
+      <datafield tag="029F" fulltag="029F">
+        <subfield code="9">101636091</subfield>
+        <subfield code="8">Deutsches Schifffahrtsmuseum ; ID: gnd/2008892-9</subfield>
+        <subfield code="B">Herausgebendes Organ</subfield>
+        <subfield code="4">isb</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Bremerhaven</subfield>
+        <subfield code="n">Deutsches Schiffahrtsmuseum</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Wiefelstede</subfield>
+        <subfield code="n">Oceanum Verlag</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">264 Seiten</subfield>
+      </datafield>
+      <datafield tag="034M" fulltag="034M">
+        <subfield code="a">Illustrationen, Diagramme</subfield>
+      </datafield>
+      <datafield tag="036E" fulltag="036E">
+        <subfield code="a">Schriften des Deutschen Schiffahrtsmuseums</subfield>
+        <subfield code="l">Band 76</subfield>
+      </datafield>
+      <datafield tag="036F" fulltag="036F">
+        <subfield code="X">7600</subfield>
+        <subfield code="9">129297100</subfield>
+        <subfield code="8">Schriften des Deutschen Schiffahrtsmuseums / Deutsches Schifffahrtsmuseum ; ID: gnd/2008892-9 ; ZDB-ID: 121376-3</subfield>
+        <subfield code="l">Band 76</subfield>
+      </datafield>
+      <datafield tag="037A" fulltag="037A">
+        <subfield code="a">Literaturverzeichnis: Seite 244-261</subfield>
+      </datafield>
+      <datafield tag="041A" fulltag="041A">
+        <subfield code="9">508296617</subfield>
+        <subfield code="8">Schlachte Bremen ; ID: gnd/7518294-4</subfield>
+      </datafield>
+      <datafield tag="041A" occurrence="01" fulltag="041A/01">
+        <subfield code="9">106264664</subfield>
+        <subfield code="8">Kogge ; ID: gnd/4031628-2</subfield>
+      </datafield>
+      <datafield tag="041A" occurrence="02" fulltag="041A/02">
+        <subfield code="9">106111078</subfield>
+        <subfield code="8">Wrack ; ID: gnd/4066981-6</subfield>
+      </datafield>
+      <datafield tag="041A" occurrence="03" fulltag="041A/03">
+        <subfield code="9">105723770</subfield>
+        <subfield code="8">Schiffsbergung ; ID: gnd/4127580-9</subfield>
+      </datafield>
+      <datafield tag="041A" occurrence="04" fulltag="041A/04">
+        <subfield code="9">104642874</subfield>
+        <subfield code="8">Funde ; ID: gnd/4071507-3</subfield>
+      </datafield>
+      <datafield tag="041A" occurrence="05" fulltag="041A/05">
+        <subfield code="z">Geschichte 1100-1400</subfield>
+      </datafield>
+      <datafield tag="041A" occurrence="09" fulltag="041A/09">
+        <subfield code="A">DE-101</subfield>
+      </datafield>
+      <datafield tag="045F" fulltag="045F">
+        <subfield code="e">22/ger</subfield>
+        <subfield code="a">623.820309435209021</subfield>
+        <subfield code="A">DE-101</subfield>
+      </datafield>
+      <datafield tag="045F" fulltag="045F">
+        <subfield code="e">23sdnb</subfield>
+        <subfield code="a">620</subfield>
+        <subfield code="a">380</subfield>
+        <subfield code="A">DE-101</subfield>
+      </datafield>
+      <datafield tag="045F" fulltag="045F">
+        <subfield code="e">23sdnb</subfield>
+        <subfield code="a">940</subfield>
+      </datafield>
+      <datafield tag="045G" fulltag="045G">
+        <subfield code="a">620</subfield>
+        <subfield code="a">380</subfield>
+        <subfield code="A">DE-101</subfield>
+      </datafield>
+      <datafield tag="045H" fulltag="045H">
+        <subfield code="e">DDC22ger</subfield>
+        <subfield code="a">623.820309435209021</subfield>
+        <subfield code="c">623.8203</subfield>
+        <subfield code="f">09021</subfield>
+        <subfield code="g">4352</subfield>
+      </datafield>
+      <datafield tag="045Q" occurrence="01" fulltag="045Q/01">
+        <subfield code="9">106413805</subfield>
+        <subfield code="8">55.41 Schiffe</subfield>
+      </datafield>
+      <datafield tag="045Q" occurrence="02" fulltag="045Q/02">
+        <subfield code="9">181571579</subfield>
+        <subfield code="8">15.51 Niedersachsen Bremen Geschichte</subfield>
+      </datafield>
+      <datafield tag="045R" fulltag="045R">
+        <subfield code="9">1271768917</subfield>
+        <subfield code="8">ZO 6020: Technik / Verkehr, Transport / Schifffahrt / Geschichte der Schifffahrt</subfield>
+      </datafield>
+      <datafield tag="045Y" fulltag="045Y">
+        <subfield code="a">nbbre</subfield>
+      </datafield>
+      <datafield tag="047A" fulltag="047A">
+        <subfield code="a">5090: DDSU/sred (SWB)</subfield>
+      </datafield>
+      <datafield tag="101B" fulltag="101B">
+        <subfield code="0">18-10-16</subfield>
+        <subfield code="t">13:16:27.000</subfield>
+      </datafield>
+      <datafield tag="101U" fulltag="101U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="102D" fulltag="102D">
+        <subfield code="0">18-10-16</subfield>
+        <subfield code="b">6284</subfield>
+        <subfield code="a">0046</subfield>
+      </datafield>
+      <datafield tag="145Z" occurrence="15" fulltag="145Z/15">
+        <subfield code="a">Pv</subfield>
+      </datafield>
+      <datafield tag="145Z" occurrence="30" fulltag="145Z/30">
+        <subfield code="a">reg 584</subfield>
+      </datafield>
+      <datafield tag="145Z" occurrence="31" fulltag="145Z/31">
+        <subfield code="a">reg 583</subfield>
+      </datafield>
+      <datafield tag="145Z" occurrence="32" fulltag="145Z/32">
+        <subfield code="a">reg 513</subfield>
+      </datafield>
+      <datafield tag="145Z" occurrence="99" fulltag="145Z/99">
+        <subfield code="a">04</subfield>
+      </datafield>
+      <item epn="1629596469">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">04-08-16</subfield>
+          <subfield code="t">13:28:25.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="01" fulltag="202D/01">
+          <subfield code="0">04-08-16</subfield>
+          <subfield code="b">6232</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">1629596469</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">04-08-16</subfield>
+          <subfield code="b">zwn</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="f">TB Nautik</subfield>
+          <subfield code="a">Pv Rec.1</subfield>
+          <subfield code="d">c</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="01" fulltag="209C/01">
+          <subfield code="a">16:0698</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">46C$003896080</subfield>
+        </datafield>
+      </item>
+      <item epn="1638440395">
+        <datafield tag="201B" occurrence="02" fulltag="201B/02">
+          <subfield code="0">18-10-16</subfield>
+          <subfield code="t">13:16:27.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="02" fulltag="201U/02">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="02" fulltag="202D/02">
+          <subfield code="0">18-10-16</subfield>
+          <subfield code="b">6284</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="02" fulltag="203@/02">
+          <subfield code="0">1638440395</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="02" fulltag="208@/02">
+          <subfield code="a">17-10-16</subfield>
+          <subfield code="b">zza</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="02" fulltag="209A/02">
+          <subfield code="a">a reg 584/430</subfield>
+          <subfield code="d">u</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="02" fulltag="209C/02">
+          <subfield code="a">2016-14134</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="02" fulltag="209G/02">
+          <subfield code="a">46$0005769000</subfield>
+        </datafield>
+        <datafield tag="209O" occurrence="02" fulltag="209O/02">
+          <subfield code="a">Regionalbibliografie</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+      </item>
+      <item epn="1647556066">
+        <datafield tag="201B" occurrence="03" fulltag="201B/03">
+          <subfield code="0">23-11-16</subfield>
+          <subfield code="t">09:20:21.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="03" fulltag="201U/03">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="03" fulltag="202D/03">
+          <subfield code="0">23-11-16</subfield>
+          <subfield code="b">6274</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="03" fulltag="203@/03">
+          <subfield code="0">1647556066</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="03" fulltag="208@/03">
+          <subfield code="a">22-11-16</subfield>
+          <subfield code="b">zza</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="03" fulltag="209A/03">
+          <subfield code="a">ts 3284</subfield>
+          <subfield code="d">i</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="03" fulltag="209C/03">
+          <subfield code="a">2016-16952</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="03" fulltag="209G/03">
+          <subfield code="a">46$0005815835</subfield>
+        </datafield>
+      </item>
+      <item epn="3524285821">
+        <datafield tag="201A" occurrence="04" fulltag="201A/04">
+          <subfield code="0">15-06-20</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="04" fulltag="201B/04">
+          <subfield code="0">15-06-20</subfield>
+          <subfield code="t">12:39:37.000</subfield>
+        </datafield>
+        <datafield tag="201D" occurrence="04" fulltag="201D/04">
+          <subfield code="0">0046:15-06-20</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="04" fulltag="201U/04">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="04" fulltag="202D/04">
+          <subfield code="0">15-06-20</subfield>
+          <subfield code="b">21</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="04" fulltag="203@/04">
+          <subfield code="0">3524285821</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="04" fulltag="208@/04">
+          <subfield code="a">15-06-20</subfield>
+          <subfield code="b">z</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="04" fulltag="209A/04">
+          <subfield code="a">test vzg </subfield>
+          <subfield code="d">u</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="04" fulltag="209G/04">
+          <subfield code="a">46$0005769000</subfield>
+        </datafield>
+        <datafield tag="220B" occurrence="04" fulltag="220B/04">
+          <subfield code="a">FOLIO</subfield>
+        </datafield>
+      </item>
+    </metadata>
+    <rawrecord><![CDATA[001@ ƒ011,21,60,72,92,113,121,130,154,162,176,203,235,274,365,674,1015,1018,2006,2008001A ƒ00705:01-12-14001B ƒ04365:04-12-19ƒt08:58:58.000001D ƒ03162:26-07-16001U ƒ0utf8001X ƒ00002@ ƒ0Aau002C ƒaTextƒbtxt002D ƒaohne Hilfsmittel zu benutzenƒbn002E ƒaBandƒbnc003@ ƒ0807040673003O ƒaOCoLCƒ0953989940003S ƒ0475980328003T ƒaOCoLCƒ0953989940004A ƒ09783869270760006Y ƒ0ndsbib006Y ƒ0sab0117412007G ƒiGBVƒ0807040673009@ ƒbBlocktest010@ ƒager010E ƒerda011@ ƒa2016ƒn[2016]011F ƒn© 2016009Q ƒahttp://d-nb.info/1076925448/04ƒmB:DE-101ƒqpdf/applicationƒv20161030003401ƒxHƒ3Inhaltsverzeichnisƒ504ƒADNBƒB2009Q ƒahttp://deposit.d-nb.de/cgi-bin/dokserv?id=bfeecaec094f43cf9473528805783c5a&prov=M&dok_var=1&dok_ext=htmƒmX:MVBƒqtext/htmlƒ3Inhaltstextƒ501019@ ƒaXA-DE-NI021A ƒaDas @Bremer Schlachte-Schiffƒdeine Proto-Kogge mit Heckruder aus der Zeit um 1100ƒhManfred Rech ; mit Beiträgen von Michael Wesemann und Wilhelm Voigt028A ƒ9746862903ƒ8Rech, Manfred *1942-* ; ID: gnd/1035120658ƒBVerfasserInƒ4aut028C ƒdMichaelƒaWesemannƒBMitwirkendeRƒ4ctb028C ƒdWilhelmƒaVoigtƒBMitwirkendeRƒ4ctb029F ƒ9101636091ƒ8Deutsches Schifffahrtsmuseum ; ID: gnd/2008892-9ƒBHerausgebendes Organƒ4isb033A ƒpBremerhavenƒnDeutsches Schiffahrtsmuseum033A ƒpWiefelstedeƒnOceanum Verlag034D ƒa264 Seiten034M ƒaIllustrationen, Diagramme036E ƒaSchriften des Deutschen SchiffahrtsmuseumsƒlBand 76036F ƒX7600ƒ9129297100ƒ8Schriften des Deutschen Schiffahrtsmuseums / Deutsches Schifffahrtsmuseum ; ID: gnd/2008892-9 ; ZDB-ID: 121376-3ƒlBand 76037A ƒaLiteraturverzeichnis: Seite 244-261041A ƒ9508296617ƒ8Schlachte Bremen ; ID: gnd/7518294-4041A/01 ƒ9106264664ƒ8Kogge ; ID: gnd/4031628-2041A/02 ƒ9106111078ƒ8Wrack ; ID: gnd/4066981-6041A/03 ƒ9105723770ƒ8Schiffsbergung ; ID: gnd/4127580-9041A/04 ƒ9104642874ƒ8Funde ; ID: gnd/4071507-3041A/05 ƒzGeschichte 1100-1400041A/09 ƒADE-101045F ƒe22/gerƒa623.820309435209021ƒADE-101045F ƒe23sdnbƒa620ƒa380ƒADE-101045F ƒe23sdnbƒa940045G ƒa620ƒa380ƒADE-101045H ƒeDDC22gerƒa623.820309435209021ƒc623.8203ƒf09021ƒg4352045Q/01 ƒ9106413805ƒ855.41$jSchiffe045Q/02 ƒ9181571579ƒ815.51$jNiedersachsen$jBremen$XGeschichte045R ƒ91271768917ƒ8ZO 6020: Technik / Verkehr, Transport / Schifffahrt / Geschichte der Schifffahrt045Y ƒanbbre047A ƒa5090: DDSU/sred (SWB)101B ƒ018-10-16ƒt13:16:27.000101U ƒ0utf8102D ƒ018-10-16ƒb6284ƒa0046145Z/15 ƒaPv145Z/30 ƒareg 584145Z/31 ƒareg 583145Z/32 ƒareg 513145Z/99 ƒa04201B/01 ƒ004-08-16ƒt13:28:25.000201U/01 ƒ0utf8202D/01 ƒ004-08-16ƒb6232ƒa0046203@/01 ƒ01629596469208@/01 ƒa04-08-16ƒbzwn209A/01 ƒfTB NautikƒaPv Rec.1ƒdcƒx00209C/01 ƒa16:0698ƒx00209G/01 ƒa46C$003896080201B/02 ƒ018-10-16ƒt13:16:27.000201U/02 ƒ0utf8202D/02 ƒ018-10-16ƒb6284ƒa0046203@/02 ƒ01638440395208@/02 ƒa17-10-16ƒbzza209A/02 ƒaa reg 584/430ƒduƒx00209C/02 ƒa2016-14134ƒx00209G/02 ƒa46$0005769000209O/02 ƒaRegionalbibliografieƒx00201B/03 ƒ023-11-16ƒt09:20:21.000201U/03 ƒ0utf8202D/03 ƒ023-11-16ƒb6274ƒa0046203@/03 ƒ01647556066208@/03 ƒa22-11-16ƒbzza209A/03 ƒats 3284ƒdiƒx00209C/03 ƒa2016-16952ƒx00209G/03 ƒa46$0005815835201A/04 ƒ015-06-20201B/04 ƒ015-06-20ƒt12:39:37.000201D/04 ƒ00046:15-06-20201U/04 ƒ0utf8202D/04 ƒ015-06-20ƒb21ƒa0046203@/04 ƒ03524285821208@/04 ƒa15-06-20ƒbz209A/04 ƒatest vzg ƒduƒx00209G/04 ƒa46$0005769000220B/04 ƒaFOLIO]]></rawrecord>
+  </record>
+</collection>
