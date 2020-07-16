@@ -672,44 +672,46 @@
             <enumeration>
               <xsl:value-of select="datafield[@tag='231B']/subfield[@code='a']" />
             </enumeration>
-            <notes>
-              <arr>
-                <xsl:for-each select="datafield[@tag='220B']">
-                  <xsl:if test="./subfield[@code='a']">
+            <xsl:if test="datafield[@tag='220B' or @tag='244Z']">
+              <notes>
+                <arr>
+                  <xsl:for-each select="datafield[@tag='220B']">
+                    <xsl:if test="./subfield[@code='a']">
+                      <i>
+                        <note><xsl:value-of select="./subfield[@code='a']" /></note>
+                        <itemNoteTypeId>Note</itemNoteTypeId>
+                        <staffOnly>true</staffOnly>
+                      </i>
+                    </xsl:if>
+                  </xsl:for-each>
+                  <xsl:for-each select="datafield[@tag='244Z']">
+                    <xsl:variable name="expansion" select="substring-before(./subfield[@code='8'], ' ; ID:')" />
                     <i>
-                      <note><xsl:value-of select="./subfield[@code='a']" /></note>
+                      <note>
+                        <xsl:choose>
+                          <xsl:when test="./subfield[@code='S']">
+                            <xsl:choose>
+                              <xsl:when test="$expansion"><xsl:value-of select="concat(./subfield[@code='S'], ' ', $expansion)" /></xsl:when>
+                              <xsl:when test="./subfield[@code='8']"><xsl:value-of select="concat(./subfield[@code='S'], ' ', ./subfield[@code='8'])" /></xsl:when>
+                              <xsl:when test="./subfield[@code='a']"><xsl:value-of select="concat(./subfield[@code='S'], ' ', ./subfield[@code='a'])" /></xsl:when>
+                            </xsl:choose>
+                          </xsl:when>
+                          <xsl:otherwise>
+                            <xsl:choose>
+                              <xsl:when test="$expansion"><xsl:value-of select="$expansion" /></xsl:when>
+                              <xsl:when test="./subfield[@code='8']"><xsl:value-of select="./subfield[@code='8']" /></xsl:when>
+                              <xsl:when test="./subfield[@code='a']"><xsl:value-of select="./subfield[@code='a']" /></xsl:when>
+                            </xsl:choose>
+                          </xsl:otherwise>
+                        </xsl:choose>
+                      </note>
                       <itemNoteTypeId>Note</itemNoteTypeId>
-                      <staffOnly>true</staffOnly>
+                      <staffOnly>false</staffOnly>
                     </i>
-                  </xsl:if>
-                </xsl:for-each>
-                <xsl:for-each select="datafield[@tag='244Z']">
-                  <xsl:variable name="expansion" select="substring-before(./subfield[@code='8'], ' ; ID:')" />
-                  <i>
-                    <note>
-                      <xsl:choose>
-                        <xsl:when test="./subfield[@code='S']">
-                          <xsl:choose>
-                            <xsl:when test="$expansion"><xsl:value-of select="concat(./subfield[@code='S'], ' ', $expansion)" /></xsl:when>
-                            <xsl:when test="./subfield[@code='8']"><xsl:value-of select="concat(./subfield[@code='S'], ' ', ./subfield[@code='8'])" /></xsl:when>
-                            <xsl:when test="./subfield[@code='a']"><xsl:value-of select="concat(./subfield[@code='S'], ' ', ./subfield[@code='a'])" /></xsl:when>
-                          </xsl:choose>
-                        </xsl:when>
-                        <xsl:otherwise>
-                          <xsl:choose>
-                            <xsl:when test="$expansion"><xsl:value-of select="$expansion" /></xsl:when>
-                            <xsl:when test="./subfield[@code='8']"><xsl:value-of select="./subfield[@code='8']" /></xsl:when>
-                            <xsl:when test="./subfield[@code='a']"><xsl:value-of select="./subfield[@code='a']" /></xsl:when>
-                          </xsl:choose>
-                        </xsl:otherwise>
-                      </xsl:choose>
-                    </note>
-                    <itemNoteTypeId>Note</itemNoteTypeId>
-                    <staffOnly>false</staffOnly>
-                  </i>
-                </xsl:for-each>
-              </arr>
-            </notes>
+                  </xsl:for-each>
+                </arr>
+              </notes>
+            </xsl:if>
           </i>
         </arr>
       </items>
