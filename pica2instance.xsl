@@ -649,11 +649,19 @@
             <barcode>
               <xsl:value-of select="datafield[@tag='209G']/subfield[@code='a']" />
             </barcode>
-            <xsl:if test='datafield[@tag="231B"]'>
-              <enumeration>
-                <xsl:value-of select="datafield[@tag='231B']/subfield[@code='a']" />
-              </enumeration>
-            </xsl:if>
+            <volume>
+              <xsl:for-each select="datafield[@tag='231@']/subfield[@code='d' or @code='n']">
+                <xsl:choose>
+                  <xsl:when test="./@code='n'"><xsl:value-of select="concat('-', .)" /></xsl:when>
+                  <xsl:when test="./@code='d' and position()>1"><xsl:value-of select="concat(', ', .)" /></xsl:when>
+                  <xsl:otherwise><xsl:value-of select="." /></xsl:otherwise>
+                </xsl:choose>
+                <xsl:if test="position()=last() and ./@code='d' and ../subfield[@code='6']">-</xsl:if>
+              </xsl:for-each>
+            </volume>
+            <enumeration>
+              <xsl:value-of select="datafield[@tag='231B']/subfield[@code='a']" />
+            </enumeration>
             <notes>
               <arr>
                 <xsl:for-each select="datafield[@tag='220B']">
