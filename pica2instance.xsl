@@ -746,6 +746,12 @@
                 </arr>
               </electronicAccess>
             </xsl:if>
+            <accessionNumber>
+              <xsl:for-each select="datafield[@tag='209C']">
+                <xsl:value-of select="./subfield[@code='a']" />
+                <xsl:if test='position() != last()'>, </xsl:if>
+              </xsl:for-each>
+            </accessionNumber>
           </i>
         </arr>
       </items>
