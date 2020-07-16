@@ -659,6 +659,16 @@
                 <xsl:if test="position()=last() and ./@code='d' and ../subfield[@code='6']">-</xsl:if>
               </xsl:for-each>
             </volume>
+            <chronology>
+              <xsl:for-each select="datafield[@tag='231@']/subfield[@code='j' or @code='k']">
+                <xsl:choose>
+                  <xsl:when test="./@code='k'"><xsl:value-of select="concat('-', .)" /></xsl:when>
+                  <xsl:when test="./@code='j' and position()>1"><xsl:value-of select="concat(', ', .)" /></xsl:when>
+                  <xsl:otherwise><xsl:value-of select="." /></xsl:otherwise>
+                </xsl:choose>
+                <xsl:if test="position()=last() and ./@code='j' and ../subfield[@code='6']">-</xsl:if>
+              </xsl:for-each>
+            </chronology>
             <enumeration>
               <xsl:value-of select="datafield[@tag='231B']/subfield[@code='a']" />
             </enumeration>

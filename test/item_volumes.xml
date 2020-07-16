@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<collection count="1">
+  <record>
+    <header status="upsert">
+      <identifier>270128484</identifier>
+    </header>
+    <metadata>
+      <datafield tag="001@" fulltag="001@">
+        <subfield code="0">11,14,20-24,30-32,34,39-40,55,60-66,69-70,72-74,90-91,95,100-101,105,110,118,120-122,130-132,138,140,147,151-152,160-161,164,168,170-171,178,185-187,209,213,215,224,230,239,252,264,285,293,370,374,602-603,635,640,647-648,685,702,752,754,789,2001,2003-2011,2014-2015,2018,2020-2021,2025-2027,2031,2034,2036-2039,2043-2044,2048-2049,2055-2057,2059,2061,2064-2065,2068,2088,2093,2106-2108,2110-2113,2116,2118-2119,2122,2129,2134,2143-2144,2147-2148,2152-2153,2158,2190,2193,2232,2395,2403,2424,2446,2470,2472,2474,2507,2522,2807,2985,4012,4035,4037,4046,4112,4125-4126,4242,4246,4249,4251,4277,4305-4307,4313,4322-4326,4328,4333-4336,4338,4346,4367,4393,4700,4753</subfield>
+      </datafield>
+      <datafield tag="001A" fulltag="001A">
+        <subfield code="0">2004:10-06-99</subfield>
+      </datafield>
+      <datafield tag="001B" fulltag="001B">
+        <subfield code="0">2004:09-06-19</subfield>
+        <subfield code="t">04:21:56.000</subfield>
+      </datafield>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">2004:10-06-99</subfield>
+      </datafield>
+      <datafield tag="001U" fulltag="001U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="001X" fulltag="001X">
+        <subfield code="0">0</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Obv</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">Computermedien</subfield>
+        <subfield code="b">c</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Online-Ressource</subfield>
+        <subfield code="b">cr</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">270128484</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">863013852</subfield>
+        <subfield code="v">2012-12-31</subfield>
+      </datafield>
+      <datafield tag="003S" fulltag="003S">
+        <subfield code="0">078590159</subfield>
+      </datafield>
+      <datafield tag="003T" fulltag="003T">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">1021351103</subfield>
+      </datafield>
+      <datafield tag="003T" fulltag="003T">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">1033770426</subfield>
+      </datafield>
+      <datafield tag="005A" fulltag="005A">
+        <subfield code="0">1474-547X</subfield>
+      </datafield>
+      <datafield tag="005P" fulltag="005P">
+        <subfield code="S">p</subfield>
+        <subfield code="0">0140-6736</subfield>
+      </datafield>
+      <datafield tag="006G" fulltag="006G">
+        <subfield code="0">019696191</subfield>
+      </datafield>
+      <datafield tag="006Z" fulltag="006Z">
+        <subfield code="0">1476593-7</subfield>
+      </datafield>
+      <datafield tag="007C" fulltag="007C">
+        <subfield code="0">LANCA</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">ZDB</subfield>
+        <subfield code="0">1476593-7</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">eng</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">1823</subfield>
+        <subfield code="n">1823-</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">10454466X</subfield>
+        <subfield code="8">Zeitschrift ; ID: gnd/4067488-5</subfield>
+      </datafield>
+      <datafield tag="016A" fulltag="016A">
+        <subfield code="0">cr|uuu---uuuuu</subfield>
+      </datafield>
+      <datafield tag="009P" occurrence="03" fulltag="009P/03">
+        <subfield code="a">http://www.bibliothek.uni-regensburg.de/ezeit/?1476593</subfield>
+        <subfield code="x">F</subfield>
+      </datafield>
+      <datafield tag="009P" occurrence="03" fulltag="009P/03">
+        <subfield code="a">http://www.thelancet.com/journals/lancet</subfield>
+        <subfield code="x">H</subfield>
+      </datafield>
+      <datafield tag="009P" occurrence="03" fulltag="009P/03">
+        <subfield code="a">http://www.sciencedirect.com/science/journal/01406736</subfield>
+        <subfield code="x">H</subfield>
+      </datafield>
+      <datafield tag="009P" occurrence="03" fulltag="009P/03">
+        <subfield code="a">http://www.sciencedirect.com/science/journal/01406736</subfield>
+        <subfield code="x">H ; 1.1823 - 360.2002</subfield>
+        <subfield code="4">NL</subfield>
+      </datafield>
+      <datafield tag="009P" occurrence="03" fulltag="009P/03">
+        <subfield code="a">http://search.ebscohost.com/login.aspx?direct=true&amp;db=h9j&amp;jid=8ACR&amp;site=ehost-live</subfield>
+        <subfield code="x">D ; 1.1842 - 2.1844</subfield>
+        <subfield code="4">NL</subfield>
+      </datafield>
+      <datafield tag="009P" occurrence="03" fulltag="009P/03">
+        <subfield code="a">http://search.ebscohost.com/login.aspx?direct=true&amp;db=h9j&amp;jid=6IQ3&amp;site=ehost-live</subfield>
+        <subfield code="x">D ; 1.1845,1 - 2.1852,6</subfield>
+        <subfield code="4">NL</subfield>
+      </datafield>
+      <datafield tag="017K" fulltag="017K">
+        <subfield code="a">ZDB-1-SDJ</subfield>
+      </datafield>
+      <datafield tag="017K" fulltag="017K">
+        <subfield code="a">ZDB-1-AAS3</subfield>
+      </datafield>
+      <datafield tag="018@" fulltag="018@">
+        <subfield code="a">z</subfield>
+      </datafield>
+      <datafield tag="019@" fulltag="019@">
+        <subfield code="a">XA-GB</subfield>
+        <subfield code="a">XD-US</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">The @lancet</subfield>
+      </datafield>
+      <datafield tag="025@" fulltag="025@">
+        <subfield code="a">The @lancet &lt;London&gt;</subfield>
+      </datafield>
+      <datafield tag="026C" fulltag="026C">
+        <subfield code="a">Lancet</subfield>
+      </datafield>
+      <datafield tag="031@" fulltag="031@">
+        <subfield code="a">1.1823 -</subfield>
+      </datafield>
+      <datafield tag="031N" fulltag="031N">
+        <subfield code="d">1</subfield>
+        <subfield code="j">1823</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">London [u.a.]</subfield>
+        <subfield code="n">Elsevier</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">London</subfield>
+        <subfield code="n">The Lancet Ltd.</subfield>
+        <subfield code="h">anfangs</subfield>
+        <subfield code="z">f</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">Online-Ressource</subfield>
+      </datafield>
+      <datafield tag="039D" fulltag="039D">
+        <subfield code="i">Druckausg.</subfield>
+        <subfield code="7">33066</subfield>
+        <subfield code="t">The lancet &lt;London&gt;</subfield>
+        <subfield code="C">ZDB</subfield>
+        <subfield code="6">33066</subfield>
+      </datafield>
+      <datafield tag="044K" fulltag="044K">
+        <subfield code="9">104584963</subfield>
+        <subfield code="8">Medizin ; ID: gnd/4038243-6</subfield>
+      </datafield>
+      <datafield tag="044K" fulltag="044K">
+        <subfield code="9">106219324</subfield>
+        <subfield code="8">Naturwissenschaften ; ID: gnd/4041421-8</subfield>
+      </datafield>
+      <datafield tag="045G" fulltag="045G">
+        <subfield code="a">610</subfield>
+        <subfield code="A">DE-600</subfield>
+      </datafield>
+      <datafield tag="045Q" occurrence="01" fulltag="045Q/01">
+        <subfield code="9">106409646</subfield>
+        <subfield code="8">44.00$jMedizin: Allgemeines</subfield>
+      </datafield>
+      <datafield tag="045Q" occurrence="02" fulltag="045Q/02">
+        <subfield code="9">106410709</subfield>
+        <subfield code="8">30.00$jNaturwissenschaften allgemein: Allgemeines</subfield>
+      </datafield>
+      <datafield tag="045R" fulltag="045R">
+        <subfield code="a">ELIB24</subfield>
+      </datafield>
+      <datafield tag="046C" fulltag="046C">
+        <subfield code="i">Nebent.</subfield>
+        <subfield code="a">London lancet</subfield>
+      </datafield>
+      <datafield tag="047A" fulltag="047A">
+        <subfield code="a">FEST:22/01/01 (GBV)</subfield>
+      </datafield>
+      <datafield tag="047A" fulltag="047A">
+        <subfield code="a">FEST:09/06/00 (GBV)</subfield>
+      </datafield>
+      <item epn="1784253170">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">16-07-18</subfield>
+          <subfield code="t">16:56:19.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="01" fulltag="202D/01">
+          <subfield code="0">16-07-18</subfield>
+          <subfield code="b">6277</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">1784253170</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">16-07-18</subfield>
+          <subfield code="b">bkb</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="b">46</subfield>
+          <subfield code="j">5555</subfield>
+          <subfield code="d">s</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">ky</subfield>
+          <subfield code="x">52</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">02</subfield>
+          <subfield code="c">12</subfield>
+          <subfield code="d">zz</subfield>
+          <subfield code="x">53</subfield>
+        </datafield>
+        <datafield tag="209O" occurrence="01" fulltag="209O/01">
+          <subfield code="a">KBPLUS_ProviderID13_SubID33_SubStartDate_2018-01-01_SubEndDate_2100-12-31</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209O" occurrence="01" fulltag="209O/01">
+          <subfield code="a">Core:Print+Electronic</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209R" occurrence="01" fulltag="209R/01">
+          <subfield code="u">http://www.sciencedirect.com/science/journal/01406736</subfield>
+        </datafield>
+        <datafield tag="220B" occurrence="01" fulltag="220B/01">
+          <subfield code="a">Papierkopie an Endnutzer; nur Inland</subfield>
+        </datafield>
+        <datafield tag="231@" occurrence="01" fulltag="231@/01">
+          <subfield code="d">1</subfield>
+          <subfield code="n">2</subfield>
+          <subfield code="d">4</subfield>
+          <subfield code="n">17</subfield>
+          <subfield code="j">2004</subfield>
+          <subfield code="k">2017</subfield>
+        </datafield>
+        <datafield tag="231B" occurrence="01" fulltag="231B/01">
+          <subfield code="a">lizenziert: 365.2004 - 2017</subfield>
+        </datafield>
+        <datafield tag="237A" occurrence="01" fulltag="237A/01">
+          <subfield code="a">Zugriff fuer Nutzer der Bremischen Hochschulen; Remotezugriff: OK</subfield>
+        </datafield>
+      </item>
+      <item epn="00000000">
+        <datafield tag="220B" occurrence="01" fulltag="220B/01">
+          <subfield code="a">Current</subfield>
+        </datafield>
+        <datafield tag="231@" occurrence="01" fulltag="231@/01">
+          <subfield code="d">1</subfield>
+          <subfield code="j">1998</subfield>
+        </datafield>
+      </item>
+      <!-- Retired subscription (start and end date): 231@ $d1 $j1998 $n2 $k1999 -->
+      <item epn="000000011">
+        <datafield tag="231@" occurrence="01" fulltag="231@/01">
+          <subfield code="d">1</subfield>
+          <subfield code="n">2</subfield>
+          <subfield code="j">1998</subfield>
+          <subfield code="k">1999</subfield>
+        </datafield>
+      </item>
+      <!-- Multiple volumes (multiple start dates): 231@ $d1 $j1998 $d3 $j2000 $d5 $j2002 -->
+      <item epn="000000012">
+        <datafield tag="231@" occurrence="01" fulltag="231@/01">
+          <subfield code="d">1</subfield>
+          <subfield code="d">3</subfield>
+          <subfield code="d">5</subfield>
+          <subfield code="j">1998</subfield>
+          <subfield code="j">2000</subfield>
+          <subfield code="j">2002</subfield>
+        </datafield>
+      </item>
+      <!-- Gaps (multiple start and end dates and current subscription): 231@ $d1 $j1920 $n19 $k1939 $d21 $j1941 $n26 $k1946 $d36 $j1956 $6 -->
+      <item epn="000000013">
+        <datafield tag="231@" occurrence="01" fulltag="231@/01">
+          <subfield code="6"></subfield>
+          <subfield code="d">1</subfield>
+          <subfield code="n">19</subfield>
+          <subfield code="d">21</subfield>
+          <subfield code="n">26</subfield>
+          <subfield code="d">36</subfield>
+          <subfield code="j">1920</subfield>
+          <subfield code="k">1939</subfield>
+          <subfield code="j">1941</subfield>
+          <subfield code="k">1946</subfield>
+          <subfield code="j">1956</subfield>
+        </datafield>
+      </item>
+    </metadata>
+    <rawrecord><![CDATA[001@ ƒ011,14,20-24,30-32,34,39-40,55,60-66,69-70,72-74,90-91,95,100-101,105,110,118,120-122,130-132,138,140,147,151-152,160-161,164,168,170-171,178,185-187,209,213,215,224,230,239,252,264,285,293,370,374,602-603,635,640,647-648,685,702,752,754,789,2001,2003-2011,2014-2015,2018,2020-2021,2025-2027,2031,2034,2036-2039,2043-2044,2048-2049,2055-2057,2059,2061,2064-2065,2068,2088,2093,2106-2108,2110-2113,2116,2118-2119,2122,2129,2134,2143-2144,2147-2148,2152-2153,2158,2190,2193,2232,2395,2403,2424,2446,2470,2472,2474,2507,2522,2807,2985,4012,4035,4037,4046,4112,4125-4126,4242,4246,4249,4251,4277,4305-4307,4313,4322-4326,4328,4333-4336,4338,4346,4367,4393,4700,4753
+001A ƒ02004:10-06-99
+001B ƒ02004:09-06-19ƒt04:21:56.000
+001D ƒ02004:10-06-99
+001U ƒ0utf8
+001X ƒ00
+002@ ƒ0Obv
+002C ƒaTextƒbtxt
+002D ƒaComputermedienƒbc
+002E ƒaOnline-Ressourceƒbcr
+003@ ƒ0270128484
+003O ƒaOCoLCƒ0863013852ƒv2012-12-31
+003S ƒ0078590159
+003T ƒaOCoLCƒ01021351103
+003T ƒaOCoLCƒ01033770426
+005A ƒ01474-547X
+005P ƒSpƒ00140-6736
+006G ƒ0019696191
+006Z ƒ01476593-7
+007C ƒ0LANCA
+007G ƒiZDBƒ01476593-7
+010@ ƒaeng
+011@ ƒa1823ƒn1823-
+013D ƒ910454466Xƒ8Zeitschrift ; ID: gnd/4067488-5
+016A ƒ0cr|uuu---uuuuu
+009P/03 ƒahttp://www.bibliothek.uni-regensburg.de/ezeit/?1476593ƒxF
+009P/03 ƒahttp://www.thelancet.com/journals/lancetƒxH
+009P/03 ƒahttp://www.sciencedirect.com/science/journal/01406736ƒxH
+009P/03 ƒahttp://www.sciencedirect.com/science/journal/01406736ƒxH ; 1.1823 - 360.2002ƒ4NL
+009P/03 ƒahttp://search.ebscohost.com/login.aspx?direct=true&db=h9j&jid=8ACR&site=ehost-liveƒxD ; 1.1842 - 2.1844ƒ4NL
+009P/03 ƒahttp://search.ebscohost.com/login.aspx?direct=true&db=h9j&jid=6IQ3&site=ehost-liveƒxD ; 1.1845,1 - 2.1852,6ƒ4NL
+017K ƒaZDB-1-SDJ
+017K ƒaZDB-1-AAS3
+018@ ƒaz
+019@ ƒaXA-GBƒaXD-US
+021A ƒaThe @lancet
+025@ ƒaThe @lancet <London>
+026C ƒaLancet
+031@ ƒa1.1823 -
+031N ƒd1ƒj1823ƒ6
+033A ƒpLondon [u.a.]ƒnElsevier
+033A ƒpLondonƒnThe Lancet Ltd.ƒhanfangsƒzf
+034D ƒaOnline-Ressource
+039D ƒiDruckausg.ƒ733066ƒtThe lancet <London>ƒCZDBƒ633066
+044K ƒ9104584963ƒ8Medizin ; ID: gnd/4038243-6
+044K ƒ9106219324ƒ8Naturwissenschaften ; ID: gnd/4041421-8
+045G ƒa610ƒADE-600
+045Q/01 ƒ9106409646ƒ844.00$jMedizin: Allgemeines
+045Q/02 ƒ9106410709ƒ830.00$jNaturwissenschaften allgemein: Allgemeines
+045R ƒaELIB24
+046C ƒiNebent.ƒaLondon lancet
+047A ƒaFEST:22/01/01 (GBV)
+047A ƒaFEST:09/06/00 (GBV)
+
+201B/01 ƒ016-07-18ƒt16:56:19.000
+201U/01 ƒ0utf8
+202D/01 ƒ016-07-18ƒb6277ƒa0046
+203@/01 ƒ01784253170
+208@/01 ƒa16-07-18ƒbbkb
+209A/01 ƒb46ƒj5555ƒdsƒx00
+209B/01 ƒakyƒx52
+209B/01 ƒa02ƒc12ƒdzzƒx53
+209O/01 ƒaKBPLUS_ProviderID13_SubID33_SubStartDate_2018-01-01_SubEndDate_2100-12-31ƒx00
+209O/01 ƒaCore:Print+Electronicƒx00
+209R/01 ƒuhttp://www.sciencedirect.com/science/journal/01406736
+220B/01 ƒaPapierkopie an Endnutzer; nur Inland
+231@/01 ƒd365ƒj2004ƒk2017
+231B/01 ƒalizenziert: 365.2004 - 2017
+237A/01 ƒaZugriff fuer Nutzer der Bremischen Hochschulen; Remotezugriff: OK
+
+]]></rawrecord>
+  </record>
+</collection>
