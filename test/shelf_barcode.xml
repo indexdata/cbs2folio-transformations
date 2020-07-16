@@ -146,7 +146,7 @@
         </datafield>
         <datafield tag="208@" occurrence="01" fulltag="208@/01">
           <subfield code="a">02-06-20</subfield>
-          <subfield code="b">zza</subfield>
+          <subfield code="b">a</subfield>
         </datafield>
         <datafield tag="209A" occurrence="01" fulltag="209A/01">
           <subfield code="a">test vzg update barcode </subfield>
@@ -158,7 +158,7 @@
           <subfield code="x">00</subfield>
         </datafield>
         <datafield tag="209C" occurrence="01" fulltag="209C/01">
-          <subfield code="a">Akz-Nummer</subfield>
+          <subfield code="a">Akz-Nummer2</subfield>
           <subfield code="x">00</subfield>
         </datafield>
         <datafield tag="209G" occurrence="01" fulltag="209G/01">

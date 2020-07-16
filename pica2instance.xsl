@@ -643,7 +643,12 @@
               </xsl:choose>
             </permanentLoanTypeId>
             <status>
-              <name>Available</name>
+              <name>
+                <xsl:choose>
+                  <xsl:when test="datafield[@tag='208@']/subfield[@code='b']='a'">On order</xsl:when>
+                  <xsl:otherwise>Available</xsl:otherwise>
+                </xsl:choose>
+              </name>
             </status>
             <itemLevelCallNumber><xsl:value-of select="datafield[@tag='209A']/subfield[@code='a']" /></itemLevelCallNumber>
             <barcode>
@@ -752,6 +757,13 @@
                 <xsl:if test='position() != last()'>, </xsl:if>
               </xsl:for-each>
             </accessionNumber>
+            <discoverySuppress>
+              <xsl:choose>
+                <xsl:when test="datafield[@tag='208@']/subfield[@code='b']='d'">true</xsl:when>
+                <xsl:when test="datafield[@tag='208@']/subfield[@code='b']='i'">true</xsl:when>
+                <xsl:otherwise>false</xsl:otherwise>
+              </xsl:choose>
+            </discoverySuppress>
           </i>
         </arr>
       </items>
