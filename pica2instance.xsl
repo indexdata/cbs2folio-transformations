@@ -712,6 +712,40 @@
                 </arr>
               </notes>
             </xsl:if>
+            <xsl:if test="datafield[@tag='209R']">
+              <electronicAccess>
+                <arr>
+                  <xsl:for-each select="datafield[@tag='209R']">
+                    <xsl:if test="./subfield[@code='u']">
+                      <i>
+                        <uri><xsl:value-of select="./subfield[@code='u']" /></uri>
+                        <relationshipId>f5d0068e-6272-458e-8a81-b85e7b9a14aa</relationshipId> <!-- Resource -->
+                        <xsl:if test="../datafield[@tag='209K']">
+                          <publicNote>
+                            <xsl:variable name="enote" select="../datafield[@tag='209K'][1]/subfield[@code='a']" />
+                            <xsl:variable name="bnote" select="../datafield[@tag='209K'][1]/subfield[@code='b']" />
+                            <xsl:variable name="cnote" select="../datafield[@tag='209K'][1]/subfield[@code='c']" />
+                            <xsl:choose>
+                              <xsl:when test="$enote='a'">Zugriffsrechte: domain, der Zugriff ist nur hausintern möglich</xsl:when>
+                              <xsl:when test="$enote='b'">Zugriffsrechte: free, der Zugriff ist unbeschränkt möglich</xsl:when>
+                              <xsl:when test="$enote='c'">Zugriffsrechte: blocked, der Zugriff ist gar nicht möglich</xsl:when>
+                              <xsl:when test="$enote='d'">Zugriffsrechte: domain+, der Zugriff ist hausintern und für bestimmte zugelassene, andere Benutzer möglich</xsl:when>
+                              <xsl:when test="$bnote">
+                                <xsl:value-of select="concat('Zahl der parallelen Zugriffe: ', $bnote)" />
+                              </xsl:when>
+                            </xsl:choose>
+                            <xsl:choose>
+                              <xsl:when test="$cnote and ($enote or $bnote)"><xsl:value-of select="concat(' ; ', $cnote)" /></xsl:when>
+                              <xsl:when test="$cnote"><xsl:value-of select="$cnote" /></xsl:when>
+                            </xsl:choose>
+                          </publicNote>
+                        </xsl:if>
+                      </i>
+                    </xsl:if>
+                  </xsl:for-each>
+                </arr>
+              </electronicAccess>
+            </xsl:if>
           </i>
         </arr>
       </items>

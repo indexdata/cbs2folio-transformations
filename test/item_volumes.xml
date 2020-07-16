@@ -245,6 +245,11 @@
           <subfield code="a">Core:Print+Electronic</subfield>
           <subfield code="x">00</subfield>
         </datafield>
+        <datafield tag="209K" occurrence="01" fulltag="209K/01">
+          <subfield code="a">d</subfield>
+          <subfield code="b">Access note</subfield>
+          <subfield code="c">This is a comment</subfield>
+        </datafield>
         <datafield tag="209R" occurrence="01" fulltag="209R/01">
           <subfield code="u">http://www.sciencedirect.com/science/journal/01406736</subfield>
         </datafield>
