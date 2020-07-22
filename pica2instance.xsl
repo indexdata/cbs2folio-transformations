@@ -536,6 +536,7 @@
                 <xsl:otherwise>
                   <note><xsl:value-of select="./subfield[@code='a']" /></note>
                   <xsl:choose>
+                    <xsl:when test="./@tag='046K'"><instanceNoteTypeId>Estimated publication date</instanceNoteTypeId></xsl:when>
                     <xsl:when test="./@tag='046L'"><instanceNoteTypeId>Language note</instanceNoteTypeId></xsl:when>
                     <xsl:when test="./@tag='046P'"><instanceNoteTypeId>Numbering peculiarities note</instanceNoteTypeId></xsl:when>
                     <xsl:otherwise><instanceNoteTypeId>General note</instanceNoteTypeId></xsl:otherwise>
