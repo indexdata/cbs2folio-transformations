@@ -511,10 +511,10 @@
       </publication>
     </xsl:for-each>
 
-    <xsl:if test="datafield[@tag='011B' or @tag='037A']">
+    <xsl:if test="datafield[@tag='011B' or @tag='037A' or @tag='046P']">
       <notes>
         <arr>
-          <xsl:for-each select="datafield[@tag='011B' or @tag='037A']">
+          <xsl:for-each select="datafield[@tag='011B' or @tag='037A' or @tag='046P']">
             <i>
               <xsl:choose>
                 <xsl:when test="./@tag='011B'">
@@ -532,6 +532,10 @@
                     </xsl:choose>
                   </note>
                   <instanceNoteTypeId>aecfda7a-e8aa-46d6-9046-9b0b8c231b85</instanceNoteTypeId> <!-- supplement note -->
+                </xsl:when>
+                <xsl:when test="./@tag='046P'">
+                  <note><xsl:value-of select="./subfield[@code='a']" /></note>
+                  <instanceNoteTypeId>cf635f41-29e7-4dd0-8598-33f230157074</instanceNoteTypeId> <!-- numbering peculiarities -->
                 </xsl:when>
               </xsl:choose>
             </i>
