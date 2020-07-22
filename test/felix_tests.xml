@@ -1663,6 +1663,9 @@
         <subfield code="i">Titelzusatz bis 66.2015,20</subfield>
         <subfield code="a">deutsche Wochenzeitung für Politik, Wirtschaft und Kultur</subfield>
       </datafield>
+      <datafield tag="046L" fulltag="046L">
+        <subfield code="a">This is a test language note.</subfield>
+      </datafield>
       <datafield tag="046P" fulltag="046P">
         <subfield code="a">63.2012,33-34 u. 65.2014,32-34 nicht ersch.; Periodizität: monatl., bis 66.2015,20 wöchentl.</subfield>
       </datafield>
