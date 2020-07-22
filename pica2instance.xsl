@@ -584,7 +584,22 @@
       </physicalDescriptions>
     </xsl:if>
 
-    <!-- Subjects -->
+    <!-- Edition -->
+
+    <xsl:if test="datafield[@tag='032@']/subfield[@code='a']">
+      <xsl:variable name="eda" select="datafield[@tag='032@']/subfield[@code='a']" />
+      <xsl:variable name="edh" select="datafield[@tag='032@']/subfield[@code='h']" />
+      <editions>
+        <arr>
+          <i>
+            <xsl:choose>
+              <xsl:when test="$edh"><xsl:value-of select="concat($eda, ' / ', $edh)" /></xsl:when>
+              <xsl:otherwise><xsl:value-of select="$eda" /></xsl:otherwise>
+            </xsl:choose>
+          </i>
+        </arr>
+      </editions>
+    </xsl:if>
 
     <xsl:if test="item/datafield[@tag='203@']/subfield[@code='0'] | datafield[@tag='109R']">
       <holdingsRecords>

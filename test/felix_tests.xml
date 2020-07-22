@@ -1,0 +1,1922 @@
+<?xml version="1.0" encoding="utf-8"?>
+<collection count="5">
+  <record>
+    <header status="upsert">
+      <identifier>1685461026</identifier>
+    </header>
+    <metadata>
+      <datafield tag="001@" fulltag="001@">
+        <subfield code="0">21,2041</subfield>
+      </datafield>
+      <datafield tag="001A" fulltag="001A">
+        <subfield code="0">FR085:13-12-19</subfield>
+      </datafield>
+      <datafield tag="001B" fulltag="001B">
+        <subfield code="0">0046:30-06-20</subfield>
+        <subfield code="t">12:30:48.000</subfield>
+      </datafield>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">FR085:13-12-19</subfield>
+      </datafield>
+      <datafield tag="001U" fulltag="001U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="001X" fulltag="001X">
+        <subfield code="0">0</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Oau</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">Computermedien</subfield>
+        <subfield code="b">c</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Online-Ressource</subfield>
+        <subfield code="b">cr</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">1685461026</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">9780429320118</subfield>
+        <subfield code="f">ebk</subfield>
+      </datafield>
+      <datafield tag="004D" fulltag="004D">
+        <subfield code="0">1-234-567-8</subfield>
+      </datafield>
+      <datafield tag="004K" fulltag="004K">
+        <subfield code="0">9876-5432</subfield>
+      </datafield>
+      <datafield tag="004P" fulltag="004P">
+        <subfield code="S">p</subfield>
+        <subfield code="0">9781482260458</subfield>
+        <subfield code="f">hbk</subfield>
+      </datafield>
+      <datafield tag="004R" fulltag="004R">
+        <subfield code="0">10419/30247</subfield>
+      </datafield>
+      <datafield tag="004U" fulltag="004U">
+        <subfield code="0">urn:nbn:de:101:1-2012052110172</subfield>
+      </datafield>
+      <datafield tag="004V" fulltag="004V">
+        <subfield code="0">10.4324/9780429320118</subfield>
+      </datafield>
+      <datafield tag="005B" fulltag="005B">
+        <subfield code="0">1-234</subfield>
+      </datafield>
+      <datafield tag="005I" fulltag="005I">
+        <subfield code="0">1234-567X</subfield>
+      </datafield>
+      <datafield tag="006X" fulltag="006X">
+        <subfield code="i">TFG</subfield>
+        <subfield code="0">9780429320118</subfield>
+      </datafield>
+      <datafield tag="006Z" fulltag="006Z">
+        <subfield code="0">2198113-1</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">KXP</subfield>
+        <subfield code="0">1685461026</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">eng</subfield>
+      </datafield>
+      <datafield tag="010E" fulltag="010E">
+        <subfield code="e">rda</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2020</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">105605727</subfield>
+        <subfield code="8">Aufsatzsammlung ; ID: gnd/4143413-4</subfield>
+      </datafield>
+      <datafield tag="009P" occurrence="03" fulltag="009P/03">
+        <subfield code="a">https://doi.org/10.4324/9780429320118</subfield>
+        <subfield code="x">R</subfield>
+        <subfield code="3">Volltext</subfield>
+        <subfield code="5">34</subfield>
+      </datafield>
+      <datafield tag="009P" occurrence="03" fulltag="009P/03">
+        <subfield code="a">http://nbn-resolving.de/urn:nbn:de:101:1-2012052110172</subfield>
+        <subfield code="x">R</subfield>
+        <subfield code="3">Volltext</subfield>
+        <subfield code="5">34</subfield>
+      </datafield>
+      <datafield tag="009P" occurrence="03" fulltag="009P/03">
+        <subfield code="a">http://hdl.handle.net/10419/156402</subfield>
+        <subfield code="x">R</subfield>
+        <subfield code="3">Volltext</subfield>
+        <subfield code="4">LF</subfield>
+        <subfield code="5">34</subfield>
+      </datafield>
+      <datafield tag="009Q" fulltag="009Q">
+        <subfield code="a">http://swbplus.bsz-bw.de/bsz1622423674inh.htm</subfield>
+        <subfield code="m">V:DE-576;B:DE-21</subfield>
+        <subfield code="q">application/pdf</subfield>
+        <subfield code="v">20191014153522</subfield>
+        <subfield code="3">Inhaltsverzeichnis</subfield>
+        <subfield code="5">04</subfield>
+      </datafield>
+      <datafield tag="009Q" fulltag="009Q">
+        <subfield code="a">17</subfield>
+        <subfield code="m">V:DE-576;B:DE-21</subfield>
+        <subfield code="q">application/pdf</subfield>
+        <subfield code="v">20191014153522</subfield>
+        <subfield code="3">Klappentext</subfield>
+        <subfield code="5">04</subfield>
+      </datafield>
+      <datafield tag="019@" fulltag="019@">
+        <subfield code="a">XD-US</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Routledge handbook of South Asian criminology</subfield>
+        <subfield code="h">edited by K. Jaishankar</subfield>
+      </datafield>
+      <datafield tag="027A" fulltag="027A">
+        <subfield code="a">Handbook of South Asian criminology</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">875668607</subfield>
+        <subfield code="8">Jaishankar, K. *1973-* ; ID: gnd/1122441843</subfield>
+        <subfield code="B">HerausgeberIn</subfield>
+        <subfield code="4">edt</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">New York</subfield>
+        <subfield code="p">London</subfield>
+        <subfield code="n">Routledge</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">1 Online-Ressource (xxiii, 374 Seiten)</subfield>
+      </datafield>
+      <datafield tag="036E" fulltag="036E">
+        <subfield code="a">Routledge handbooks</subfield>
+      </datafield>
+      <datafield tag="039D" fulltag="039D">
+        <subfield code="i">Erscheint auch als</subfield>
+        <subfield code="n">Druck-Ausgabe</subfield>
+        <subfield code="9">1622423674</subfield>
+        <subfield code="8">Routledge handbook of South Asian criminology / Jaishankar, K. *1973-* ; ID: gnd/1122441843. - New York : Routledge, 2020</subfield>
+      </datafield>
+      <datafield tag="044A" fulltag="044A">
+        <subfield code="S">s</subfield>
+        <subfield code="a">Criminology</subfield>
+        <subfield code="a">South Asia</subfield>
+      </datafield>
+      <datafield tag="044A" fulltag="044A">
+        <subfield code="S">s</subfield>
+        <subfield code="a">Criminal justice, Administration of</subfield>
+        <subfield code="a">South Asia</subfield>
+      </datafield>
+      <datafield tag="044K" fulltag="044K">
+        <subfield code="9">106147463</subfield>
+        <subfield code="8">Südasien ; ID: gnd/4058406-9</subfield>
+      </datafield>
+      <datafield tag="044K" fulltag="044K">
+        <subfield code="9">10458503X</subfield>
+        <subfield code="8">Kriminalität ; ID: gnd/4033178-7</subfield>
+      </datafield>
+      <datafield tag="044K" fulltag="044K">
+        <subfield code="9">106258575</subfield>
+        <subfield code="8">Kriminalpolitik ; ID: gnd/4033181-7</subfield>
+      </datafield>
+      <datafield tag="044K" fulltag="044K">
+        <subfield code="9">105302465</subfield>
+        <subfield code="8">Strafjustiz ; ID: gnd/4183472-0</subfield>
+      </datafield>
+      <datafield tag="044K" fulltag="044K">
+        <subfield code="A">DE-21/19-fid2,1</subfield>
+      </datafield>
+      <datafield tag="045F" fulltag="045F">
+        <subfield code="a">364.954</subfield>
+      </datafield>
+      <datafield tag="045V" fulltag="045V">
+        <subfield code="a">2,1</subfield>
+      </datafield>
+      <item epn="3524286062">
+        <datafield tag="201A" occurrence="01" fulltag="201A/01">
+          <subfield code="0">30-06-20</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">30-06-20</subfield>
+          <subfield code="t">12:30:57.000</subfield>
+        </datafield>
+        <datafield tag="201D" occurrence="01" fulltag="201D/01">
+          <subfield code="0">0046:30-06-20</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="01" fulltag="202D/01">
+          <subfield code="0">30-06-20</subfield>
+          <subfield code="b">21</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">3524286062</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">30-06-20</subfield>
+          <subfield code="b">a</subfield>
+        </datafield>
+      </item>
+    </metadata>
+    <rawrecord><![CDATA[001@ ƒ021,2041
+001A ƒ0FR085:13-12-19
+001B ƒ00046:30-06-20ƒt12:30:48.000
+001D ƒ0FR085:13-12-19
+001U ƒ0utf8
+001X ƒ00
+002@ ƒ0Oau
+002C ƒaTextƒbtxt
+002D ƒaComputermedienƒbc
+002E ƒaOnline-Ressourceƒbcr
+003@ ƒ01685461026
+004A ƒ09780429320118ƒfebk
+004D ƒ01-234-567-8
+004K ƒ09876-5432
+004P ƒSpƒ09781482260458ƒfhbk
+004R ƒ010419/30247
+004U ƒ0urn:nbn:de:101:1-2012052110172
+004V ƒ010.4324/9780429320118
+005B ƒ01-234
+005I ƒ01234-567X
+006X ƒiTFGƒ09780429320118
+006Z ƒ02198113-1
+007G ƒiKXPƒ01685461026
+010@ ƒaeng
+010E ƒerda
+011@ ƒa2020
+013D ƒ9105605727ƒ8Aufsatzsammlung ; ID: gnd/4143413-4
+009P/03 ƒahttps://doi.org/10.4324/9780429320118ƒxRƒ3Volltextƒ534
+009P/03 ƒahttp://nbn-resolving.de/urn:nbn:de:101:1-2012052110172ƒxRƒ3Volltextƒ534
+009P/03 ƒahttp://hdl.handle.net/10419/156402ƒxRƒ3Volltextƒ4LFƒ534
+009Q ƒahttp://swbplus.bsz-bw.de/bsz1622423674inh.htmƒmV:DE-576;B:DE-21ƒqapplication/pdfƒv20191014153522ƒ3Inhaltsverzeichnisƒ504
+009Q ƒa17ƒmV:DE-576;B:DE-21ƒqapplication/pdfƒv20191014153522ƒ3Klappentextƒ504
+019@ ƒaXD-US
+021A ƒaRoutledge handbook of South Asian criminologyƒhedited by K. Jaishankar
+027A ƒaHandbook of South Asian criminology
+028C ƒ9875668607ƒ8Jaishankar, K. *1973-* ; ID: gnd/1122441843ƒBHerausgeberInƒ4edt
+033A ƒpNew YorkƒpLondonƒnRoutledge
+034D ƒa1 Online-Ressource (xxiii, 374 Seiten)
+036E ƒaRoutledge handbooks
+039D ƒiErscheint auch alsƒnDruck-Ausgabeƒ91622423674ƒ8Routledge handbook of South Asian criminology / Jaishankar, K. *1973-* ; ID: gnd/1122441843. - New York : Routledge, 2020
+044A ƒSsƒaCriminologyƒaSouth Asia
+044A ƒSsƒaCriminal justice, Administration ofƒaSouth Asia
+044K ƒ9106147463ƒ8Südasien ; ID: gnd/4058406-9
+044K ƒ910458503Xƒ8Kriminalität ; ID: gnd/4033178-7
+044K ƒ9106258575ƒ8Kriminalpolitik ; ID: gnd/4033181-7
+044K ƒ9105302465ƒ8Strafjustiz ; ID: gnd/4183472-0
+044K ƒADE-21/19-fid2,1
+045F ƒa364.954
+045V ƒa2,1
+
+201A/01 ƒ030-06-20
+201B/01 ƒ030-06-20ƒt12:30:57.000
+201D/01 ƒ00046:30-06-20
+201U/01 ƒ0utf8
+202D/01 ƒ030-06-20ƒb21ƒa0046
+203@/01 ƒ03524286062
+208@/01 ƒa30-06-20ƒba
+
+]]></rawrecord>
+  </record>
+  <record>
+    <header status="upsert">
+      <identifier>055468454</identifier>
+    </header>
+    <metadata>
+      <datafield tag="001@" fulltag="001@">
+        <subfield code="0">21,62,376</subfield>
+      </datafield>
+      <datafield tag="001A" fulltag="001A">
+        <subfield code="0">2001:22-03-97</subfield>
+      </datafield>
+      <datafield tag="001B" fulltag="001B">
+        <subfield code="0">0046:30-06-20</subfield>
+        <subfield code="t">10:47:43.000</subfield>
+      </datafield>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">9999:99-99-99</subfield>
+      </datafield>
+      <datafield tag="001U" fulltag="001U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="001X" fulltag="001X">
+        <subfield code="0">0</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Aax</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+        <subfield code="b">n</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Band</subfield>
+        <subfield code="b">nc</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">055468454</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">74687001</subfield>
+        <subfield code="v">2012-12-31</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="f"> : M 2.50 (kart.)</subfield>
+      </datafield>
+      <datafield tag="006G" fulltag="006G">
+        <subfield code="0">850495083</subfield>
+      </datafield>
+      <datafield tag="006U" fulltag="006U">
+        <subfield code="0">85,A24,0107</subfield>
+      </datafield>
+      <datafield tag="006Y" fulltag="006Y">
+        <subfield code="0">khfs34790</subfield>
+      </datafield>
+      <datafield tag="006Y" fulltag="006Y">
+        <subfield code="0">CBS1091</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">GBV</subfield>
+        <subfield code="0">055468454</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">1985</subfield>
+        <subfield code="n">1985</subfield>
+      </datafield>
+      <datafield tag="019@" fulltag="019@">
+        <subfield code="a">XA-DDDE</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">@Versöhnung und Busse</subfield>
+        <subfield code="d">Apostol. Schreiben im Anschluss an d. Bischofssynode ; dt. Übers.</subfield>
+        <subfield code="h">Papst Johannes Paul II. [Hrsg. im Auftr. d. Berliner Bischofskonferenz]</subfield>
+      </datafield>
+      <datafield tag="021F" fulltag="021F">
+        <subfield code="a">Reconciliatio et paenitentia</subfield>
+      </datafield>
+      <datafield tag="022A" occurrence="01" fulltag="022A/01">
+        <subfield code="a">Reconciliatio et paenitentia &lt;dt.&gt;</subfield>
+      </datafield>
+      <datafield tag="027A" fulltag="027A">
+        <subfield code="a">Reconciliatio et paenitentia</subfield>
+      </datafield>
+      <datafield tag="028A" fulltag="028A">
+        <subfield code="d">II.</subfield>
+        <subfield code="a">Johannes Paulus</subfield>
+        <subfield code="l">Papa</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="P">Raymundus</subfield>
+        <subfield code="l">Frater</subfield>
+        <subfield code="B">ZensorIn</subfield>
+        <subfield code="4">cns</subfield>
+      </datafield>
+      <datafield tag="028Z" fulltag="028Z">
+        <subfield code="C">3000</subfield>
+        <subfield code="d">Karol</subfield>
+        <subfield code="a">Wojtyła</subfield>
+      </datafield>
+      <datafield tag="028Z" fulltag="028Z">
+        <subfield code="C">3000</subfield>
+        <subfield code="d">II.</subfield>
+        <subfield code="a">Johannes Paul</subfield>
+        <subfield code="l">Papst</subfield>
+      </datafield>
+      <datafield tag="032@" fulltag="032@">
+        <subfield code="a">1. Aufl</subfield>
+        <subfield code="h">Test subfield h</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Leipzig</subfield>
+        <subfield code="n">S[ank]t-Benno-Verlag</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">93 S</subfield>
+      </datafield>
+      <datafield tag="034I" fulltag="034I">
+        <subfield code="a">21 cm</subfield>
+      </datafield>
+      <datafield tag="036E" fulltag="036E">
+        <subfield code="a">Kirchliche Dokumente nach dem Konzil</subfield>
+        <subfield code="l">H. 23</subfield>
+      </datafield>
+      <datafield tag="037A" fulltag="037A">
+        <subfield code="a">Ausg. für d. Dt. Demokrat. Republik u.d. sozialist. Länder</subfield>
+      </datafield>
+      <datafield tag="045E" fulltag="045E">
+        <subfield code="a">12</subfield>
+      </datafield>
+      <datafield tag="046W" fulltag="046W">
+        <subfield code="a">IMD-Felder maschinell generiert (GBV)</subfield>
+      </datafield>
+      <item epn="3524286011">
+        <datafield tag="201A" occurrence="01" fulltag="201A/01">
+          <subfield code="0">30-06-20</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">30-06-20</subfield>
+          <subfield code="t">10:47:43.000</subfield>
+        </datafield>
+        <datafield tag="201D" occurrence="01" fulltag="201D/01">
+          <subfield code="0">0046:30-06-20</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="01" fulltag="202D/01">
+          <subfield code="0">30-06-20</subfield>
+          <subfield code="b">21</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">3524286011</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">30-06-20</subfield>
+          <subfield code="b">d</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="f">K:</subfield>
+          <subfield code="a">2020 B 1</subfield>
+          <subfield code="d">a</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+      </item>
+    </metadata>
+    <rawrecord><![CDATA[001@ ƒ021,62,376
+001A ƒ02001:22-03-97
+001B ƒ00046:30-06-20ƒt10:47:43.000
+001D ƒ09999:99-99-99
+001U ƒ0utf8
+001X ƒ00
+002@ ƒ0Aax
+002C ƒaTextƒbtxt
+002D ƒaohne Hilfsmittel zu benutzenƒbn
+002E ƒaBandƒbnc
+003@ ƒ0055468454
+003O ƒaOCoLCƒ074687001ƒv2012-12-31
+004A ƒf : M 2.50 (kart.)
+006G ƒ0850495083
+006U ƒ085,A24,0107
+006Y ƒ0khfs34790
+006Y ƒ0CBS1091
+007G ƒiGBVƒ0055468454
+010@ ƒager
+011@ ƒa1985ƒn1985
+019@ ƒaXA-DDDE
+021A ƒa@Versöhnung und BusseƒdApostol. Schreiben im Anschluss an d. Bischofssynode ; dt. Übers.ƒhPapst Johannes Paul II. [Hrsg. im Auftr. d. Berliner Bischofskonferenz]
+021F ƒaReconciliatio et paenitentia
+022A/01 ƒaReconciliatio et paenitentia <dt.>
+027A ƒaReconciliatio et paenitentia
+028A ƒdII.ƒaJohannes PaulusƒlPapa
+028C ƒPRaymundusƒlFraterƒBZensorInƒ4cns
+028Z ƒC3000ƒdKarolƒaWojtyła
+028Z ƒC3000ƒdII.ƒaJohannes PaulƒlPapst
+032@ ƒa1. Aufl
+033A ƒpLeipzigƒnS[ank]t-Benno-Verlag
+034D ƒa93 S
+034I ƒa21 cm
+036E ƒaKirchliche Dokumente nach dem KonzilƒlH. 23
+037A ƒaAusg. für d. Dt. Demokrat. Republik u.d. sozialist. Länder
+045E ƒa12
+046W ƒaIMD-Felder maschinell generiert (GBV)
+
+201A/01 ƒ030-06-20
+201B/01 ƒ030-06-20ƒt10:47:43.000
+201D/01 ƒ00046:30-06-20
+201U/01 ƒ0utf8
+202D/01 ƒ030-06-20ƒb21ƒa0046
+203@/01 ƒ03524286011
+208@/01 ƒa30-06-20ƒbd
+209A/01 ƒfK:ƒa2020 B 1ƒdaƒx00
+
+]]></rawrecord>
+  </record>
+  <record>
+    <header status="upsert">
+      <identifier>211577553</identifier>
+    </header>
+    <metadata>
+      <datafield tag="001@" fulltag="001@">
+        <subfield code="0">11,21,31,267</subfield>
+      </datafield>
+      <datafield tag="001A" fulltag="001A">
+        <subfield code="0">2004:07-06-96</subfield>
+      </datafield>
+      <datafield tag="001B" fulltag="001B">
+        <subfield code="0">2004:09-06-19</subfield>
+        <subfield code="t">02:44:07.000</subfield>
+      </datafield>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">2004:07-05-97</subfield>
+      </datafield>
+      <datafield tag="001U" fulltag="001U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="001X" fulltag="001X">
+        <subfield code="0">0</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Abv</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+        <subfield code="b">n</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Band</subfield>
+        <subfield code="b">nc</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">211577553</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">648802627</subfield>
+        <subfield code="v">2012-12-31</subfield>
+      </datafield>
+      <datafield tag="003T" fulltag="003T">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">648802627</subfield>
+      </datafield>
+      <datafield tag="006G" fulltag="006G">
+        <subfield code="0">018224695</subfield>
+      </datafield>
+      <datafield tag="006U" fulltag="006U">
+        <subfield code="0">98,B16,0226</subfield>
+      </datafield>
+      <datafield tag="006Z" fulltag="006Z">
+        <subfield code="0">1318654-1</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">ZDB</subfield>
+        <subfield code="0">1318654-1</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">1996</subfield>
+        <subfield code="b">2001</subfield>
+        <subfield code="n">1996-2001</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">10454466X</subfield>
+        <subfield code="8">Zeitschrift ; ID: gnd/4067488-5</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">105614165</subfield>
+        <subfield code="8">Amtliche Publikation ; ID: gnd/4142300-8</subfield>
+      </datafield>
+      <datafield tag="018@" fulltag="018@">
+        <subfield code="a">z</subfield>
+      </datafield>
+      <datafield tag="019@" fulltag="019@">
+        <subfield code="a">XA-DE</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Amtsblatt des Wasser- und Abwasserzweckverbandes Jena</subfield>
+      </datafield>
+      <datafield tag="029A" fulltag="029A">
+        <subfield code="9">194789195</subfield>
+        <subfield code="8">Wasser- und Abwasserzweckverband Jena ; ID: gnd/5169445-1</subfield>
+        <subfield code="B">Verfasser</subfield>
+        <subfield code="4">aut</subfield>
+      </datafield>
+      <datafield tag="031@" fulltag="031@">
+        <subfield code="a">1996 - 2001</subfield>
+      </datafield>
+      <datafield tag="031N" fulltag="031N">
+        <subfield code="j">1996</subfield>
+        <subfield code="k">2001</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Jena</subfield>
+      </datafield>
+      <datafield tag="039B" fulltag="039B">
+        <subfield code="i">Beil. zu</subfield>
+        <subfield code="9">170940314</subfield>
+        <subfield code="8">Amtsblatt der Stadt Jena / Jena ; ID: gnd/4028557-1. - Jena : Stadtverwaltung, Büro Oberbürgermeister, 1990- ; ZDB-ID: 1130130-2</subfield>
+        <subfield code="C">ZDB</subfield>
+        <subfield code="6">11301302</subfield>
+      </datafield>
+      <datafield tag="039E" fulltag="039E">
+        <subfield code="b">s</subfield>
+        <subfield code="i">Forts.</subfield>
+        <subfield code="9">352261269</subfield>
+        <subfield code="8">JenaWasser ; ZDB-ID: 2085261-7</subfield>
+        <subfield code="C">ZDB</subfield>
+        <subfield code="6">20852617</subfield>
+      </datafield>
+      <datafield tag="045G" fulltag="045G">
+        <subfield code="a">340</subfield>
+        <subfield code="A">DE-600</subfield>
+      </datafield>
+      <item epn="3524286038">
+        <datafield tag="201A" occurrence="01" fulltag="201A/01">
+          <subfield code="0">30-06-20</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">30-06-20</subfield>
+          <subfield code="t">11:24:16.000</subfield>
+        </datafield>
+        <datafield tag="201D" occurrence="01" fulltag="201D/01">
+          <subfield code="0">0046:30-06-20</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="01" fulltag="202D/01">
+          <subfield code="0">30-06-20</subfield>
+          <subfield code="b">21</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">3524286038</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">30-06-20</subfield>
+          <subfield code="b">d</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">2020 Z 1</subfield>
+          <subfield code="d">d</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="231@" occurrence="01" fulltag="231@/01">
+          <subfield code="j">2012</subfield>
+          <subfield code="k">2019</subfield>
+        </datafield>
+        <datafield tag="231B" occurrence="01" fulltag="231B/01">
+          <subfield code="a">2012 - 2019</subfield>
+        </datafield>
+      </item>
+    </metadata>
+    <rawrecord><![CDATA[001@ ƒ011,21,31,267
+001A ƒ02004:07-06-96
+001B ƒ02004:09-06-19ƒt02:44:07.000
+001D ƒ02004:07-05-97
+001U ƒ0utf8
+001X ƒ00
+002@ ƒ0Abv
+002C ƒaTextƒbtxt
+002D ƒaohne Hilfsmittel zu benutzenƒbn
+002E ƒaBandƒbnc
+003@ ƒ0211577553
+003O ƒaOCoLCƒ0648802627ƒv2012-12-31
+003T ƒaOCoLCƒ0648802627
+006G ƒ0018224695
+006U ƒ098,B16,0226
+006Z ƒ01318654-1
+007G ƒiZDBƒ01318654-1
+010@ ƒager
+011@ ƒa1996ƒb2001ƒn1996-2001
+013D ƒ910454466Xƒ8Zeitschrift ; ID: gnd/4067488-5
+013D ƒ9105614165ƒ8Amtliche Publikation ; ID: gnd/4142300-8
+018@ ƒaz
+019@ ƒaXA-DE
+021A ƒaAmtsblatt des Wasser- und Abwasserzweckverbandes Jena
+029A ƒ9194789195ƒ8Wasser- und Abwasserzweckverband$gJena ; ID: gnd/5169445-1ƒBVerfasserƒ4aut
+031@ ƒa1996 - 2001
+031N ƒj1996ƒk2001
+033A ƒpJena
+039B ƒiBeil. zuƒ9170940314ƒ8Amtsblatt der Stadt Jena / Jena ; ID: gnd/4028557-1. - Jena : Stadtverwaltung, Büro Oberbürgermeister, 1990- ; ZDB-ID: 1130130-2ƒCZDBƒ611301302
+039E ƒbsƒiForts.ƒ9352261269ƒ8JenaWasser ; ZDB-ID: 2085261-7ƒCZDBƒ620852617
+045G ƒa340ƒADE-600
+
+201A/01 ƒ030-06-20
+201B/01 ƒ030-06-20ƒt11:24:16.000
+201D/01 ƒ00046:30-06-20
+201U/01 ƒ0utf8
+202D/01 ƒ030-06-20ƒb21ƒa0046
+203@/01 ƒ03524286038
+208@/01 ƒa30-06-20ƒbd
+209A/01 ƒa2020 Z 1ƒddƒx00
+231@/01 ƒj2012ƒk2019
+231B/01 ƒa2012 - 2019
+
+]]></rawrecord>
+  </record>
+  <record>
+    <header status="upsert">
+      <identifier>1672380227</identifier>
+    </header>
+    <metadata>
+      <datafield tag="001@" fulltag="001@">
+        <subfield code="0">21-22,40,65,70,121,152,164,2005,2007-2008,2018,2024,2035,2059,2105,2188</subfield>
+      </datafield>
+      <datafield tag="001A" fulltag="001A">
+        <subfield code="0">2001:28-08-19</subfield>
+      </datafield>
+      <datafield tag="001B" fulltag="001B">
+        <subfield code="0">0046:30-06-20</subfield>
+        <subfield code="t">09:24:36.000</subfield>
+      </datafield>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">SBU102:05-11-19</subfield>
+      </datafield>
+      <datafield tag="001U" fulltag="001U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="001X" fulltag="001X">
+        <subfield code="0">0</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Aau</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+        <subfield code="b">n</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Band</subfield>
+        <subfield code="b">nc</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">1672380227</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">9783170380783</subfield>
+        <subfield code="f"> : circa EUR 24.00 (DE)</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">3170380788</subfield>
+      </datafield>
+      <datafield tag="004L" fulltag="004L">
+        <subfield code="0">9783170380783</subfield>
+      </datafield>
+      <datafield tag="006G" fulltag="006G">
+        <subfield code="0">1193268710</subfield>
+      </datafield>
+      <datafield tag="006L" fulltag="006L">
+        <subfield code="i">DNB</subfield>
+        <subfield code="0">1193268710</subfield>
+      </datafield>
+      <datafield tag="006U" fulltag="006U">
+        <subfield code="0">19,N35</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">DNB</subfield>
+        <subfield code="0">1193268710</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+      </datafield>
+      <datafield tag="010E" fulltag="010E">
+        <subfield code="e">rda</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2019</subfield>
+      </datafield>
+      <datafield tag="011F" fulltag="011F">
+        <subfield code="n">© 2020</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">104270187</subfield>
+        <subfield code="8">Lehrbuch ; ID: gnd/4123623-3</subfield>
+      </datafield>
+      <datafield tag="009Q" fulltag="009Q">
+        <subfield code="a">http://www.kohlhammer.de/wms/instances/KOB/appDE/nav_product.php?product=978-3-17-038078-3</subfield>
+        <subfield code="m">X:MVB</subfield>
+        <subfield code="v">2019-08-28</subfield>
+        <subfield code="x">H</subfield>
+        <subfield code="3">Unbekannt</subfield>
+        <subfield code="5">xx</subfield>
+        <subfield code="A">DNB</subfield>
+        <subfield code="B">2</subfield>
+      </datafield>
+      <datafield tag="019@" fulltag="019@">
+        <subfield code="a">XA-DE-BW</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Europarecht</subfield>
+        <subfield code="d">mit umfassenden Material zum Brexit und dessen Auswirkungen auf die Europäischen Organisationen</subfield>
+        <subfield code="h">von Professor Dr. jur. Dieter Krimphove (Universität Paderborn)</subfield>
+      </datafield>
+      <datafield tag="028A" fulltag="028A">
+        <subfield code="9">082461813</subfield>
+        <subfield code="8">Krimphove, Dieter *1958-* ; ID: gnd/123285240</subfield>
+        <subfield code="B">VerfasserIn</subfield>
+        <subfield code="4">aut</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">508484510</subfield>
+        <subfield code="8">Wiesenmüller, Heidrun *1968-* ; ID: gnd/122087801</subfield>
+        <subfield code="B">HerausgeberIn</subfield>
+        <subfield code="4">edt</subfield>
+      </datafield>
+      <datafield tag="029F" fulltag="029F">
+        <subfield code="9">100744702</subfield>
+        <subfield code="8">W.-Kohlhammer-Verlag Stuttgart ; ID: gnd/31662-3</subfield>
+        <subfield code="B">Verlag</subfield>
+        <subfield code="4">pbl</subfield>
+      </datafield>
+      <datafield tag="032@" fulltag="032@">
+        <subfield code="a">3., aktualisierte Auflage</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Stuttgart</subfield>
+        <subfield code="n">Verlag W. Kohlhammer</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">XII, 144 Seiten</subfield>
+      </datafield>
+      <datafield tag="034M" fulltag="034M">
+        <subfield code="a">Diagramme</subfield>
+      </datafield>
+      <datafield tag="036E" fulltag="036E">
+        <subfield code="a">Kompass Recht</subfield>
+      </datafield>
+      <datafield tag="037A" fulltag="037A">
+        <subfield code="a">Titelzusatz auf dem Umschlag: Interaktive Fälle zum Download</subfield>
+      </datafield>
+      <datafield tag="039E" fulltag="039E">
+        <subfield code="b">f</subfield>
+        <subfield code="i">Vorangegangen ist</subfield>
+        <subfield code="C">ISBN</subfield>
+        <subfield code="6">9783170242951</subfield>
+      </datafield>
+      <datafield tag="041A" fulltag="041A">
+        <subfield code="9">105532622</subfield>
+        <subfield code="8">Europarecht ; ID: gnd/4153206-5</subfield>
+      </datafield>
+      <datafield tag="044K" fulltag="044K">
+        <subfield code="9">132918269</subfield>
+        <subfield code="8">Europäische Union ; ID: gnd/5098525-5</subfield>
+      </datafield>
+      <datafield tag="044K" fulltag="044K">
+        <subfield code="9">106189719</subfield>
+        <subfield code="8">Recht ; ID: gnd/4048737-4</subfield>
+      </datafield>
+      <datafield tag="044K" fulltag="044K">
+        <subfield code="A">DE-Sp3</subfield>
+      </datafield>
+      <datafield tag="045G" fulltag="045G">
+        <subfield code="a">340</subfield>
+        <subfield code="A">DE-101</subfield>
+      </datafield>
+      <datafield tag="045H" fulltag="045H">
+        <subfield code="e">DDC22ger</subfield>
+        <subfield code="a">341.2422</subfield>
+        <subfield code="c">341.2422</subfield>
+      </datafield>
+      <datafield tag="045Q" occurrence="01" fulltag="045Q/01">
+        <subfield code="9">10641335X</subfield>
+        <subfield code="8">86.86 Europarecht: Allgemeines</subfield>
+      </datafield>
+      <datafield tag="045R" fulltag="045R">
+        <subfield code="9">1271423065</subfield>
+        <subfield code="8">PS 2500: Rechtswissenschaft / Europarecht; Recht der Europäischen Gemeinschaften bzw. der Europäischen Union und der sonstigen europäischen Organisationen; Europäische Rechtsvereinheitlichung / Europäisches Gemeinschaftsrecht; Europäisches Unionsrecht / Gesamtdarstellungen / Europäische Union (CF früher Europäische Gemeinschaften)</subfield>
+        <subfield code="A">DE-Sp3</subfield>
+      </datafield>
+      <datafield tag="101B" fulltag="101B">
+        <subfield code="0">30-06-20</subfield>
+        <subfield code="t">09:24:36.000</subfield>
+      </datafield>
+      <datafield tag="101U" fulltag="101U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="102D" fulltag="102D">
+        <subfield code="0">30-06-20</subfield>
+        <subfield code="b">21</subfield>
+        <subfield code="a">0046</subfield>
+      </datafield>
+      <datafield tag="109R" fulltag="109R">
+        <subfield code="u">https://librecatproject.wordpress.com/2014/12/15/day-10-working-with-mongodb/</subfield>
+        <subfield code="3">Volltext</subfield>
+        <subfield code="5">34</subfield>
+      </datafield>
+      <item epn="3524285902">
+        <datafield tag="201A" occurrence="01" fulltag="201A/01">
+          <subfield code="0">30-06-20</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">30-06-20</subfield>
+          <subfield code="t">09:24:36.000</subfield>
+        </datafield>
+        <datafield tag="201D" occurrence="01" fulltag="201D/01">
+          <subfield code="0">0046:30-06-20</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="01" fulltag="202D/01">
+          <subfield code="0">30-06-20</subfield>
+          <subfield code="b">21</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">3524285902</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">30-06-20</subfield>
+          <subfield code="b">z</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="f">K:</subfield>
+          <subfield code="a">2020 A 1</subfield>
+          <subfield code="d">u</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+      </item>
+      <item epn="3524285910">
+        <datafield tag="201A" occurrence="02" fulltag="201A/02">
+          <subfield code="0">30-06-20</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="02" fulltag="201B/02">
+          <subfield code="0">30-06-20</subfield>
+          <subfield code="t">09:24:36.000</subfield>
+        </datafield>
+        <datafield tag="201D" occurrence="02" fulltag="201D/02">
+          <subfield code="0">0046:30-06-20</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="02" fulltag="201U/02">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="02" fulltag="202D/02">
+          <subfield code="0">30-06-20</subfield>
+          <subfield code="b">21</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="02" fulltag="203@/02">
+          <subfield code="0">3524285910</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="02" fulltag="208@/02">
+          <subfield code="a">30-06-20</subfield>
+          <subfield code="b">z</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="02" fulltag="209A/02">
+          <subfield code="f">H:</subfield>
+          <subfield code="a">2020 A 2</subfield>
+          <subfield code="d">b</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+      </item>
+      <item epn="3524285929">
+        <datafield tag="201A" occurrence="03" fulltag="201A/03">
+          <subfield code="0">30-06-20</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="03" fulltag="201B/03">
+          <subfield code="0">30-06-20</subfield>
+          <subfield code="t">09:24:36.000</subfield>
+        </datafield>
+        <datafield tag="201D" occurrence="03" fulltag="201D/03">
+          <subfield code="0">0046:30-06-20</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="03" fulltag="201U/03">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="03" fulltag="202D/03">
+          <subfield code="0">30-06-20</subfield>
+          <subfield code="b">21</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="03" fulltag="203@/03">
+          <subfield code="0">3524285929</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="03" fulltag="208@/03">
+          <subfield code="a">30-06-20</subfield>
+          <subfield code="b">z</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="03" fulltag="209A/03">
+          <subfield code="f">H:</subfield>
+          <subfield code="a">2020 A 3</subfield>
+          <subfield code="d">c</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+      </item>
+      <item epn="3524285937">
+        <datafield tag="201A" occurrence="04" fulltag="201A/04">
+          <subfield code="0">30-06-20</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="04" fulltag="201B/04">
+          <subfield code="0">30-06-20</subfield>
+          <subfield code="t">09:24:36.000</subfield>
+        </datafield>
+        <datafield tag="201D" occurrence="04" fulltag="201D/04">
+          <subfield code="0">0046:30-06-20</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="04" fulltag="201U/04">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="04" fulltag="202D/04">
+          <subfield code="0">30-06-20</subfield>
+          <subfield code="b">21</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="04" fulltag="203@/04">
+          <subfield code="0">3524285937</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="04" fulltag="208@/04">
+          <subfield code="a">30-06-20</subfield>
+          <subfield code="b">z</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="04" fulltag="209A/04">
+          <subfield code="f">H:</subfield>
+          <subfield code="a">2020 A 2</subfield>
+          <subfield code="d">s</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+      </item>
+      <item epn="3524285945">
+        <datafield tag="201A" occurrence="05" fulltag="201A/05">
+          <subfield code="0">30-06-20</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="05" fulltag="201B/05">
+          <subfield code="0">30-06-20</subfield>
+          <subfield code="t">09:24:36.000</subfield>
+        </datafield>
+        <datafield tag="201D" occurrence="05" fulltag="201D/05">
+          <subfield code="0">0046:30-06-20</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="05" fulltag="201U/05">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="05" fulltag="202D/05">
+          <subfield code="0">30-06-20</subfield>
+          <subfield code="b">21</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="05" fulltag="203@/05">
+          <subfield code="0">3524285945</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="05" fulltag="208@/05">
+          <subfield code="a">30-06-20</subfield>
+          <subfield code="b">z</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="05" fulltag="209A/05">
+          <subfield code="f">H:</subfield>
+          <subfield code="a">2020 A 2</subfield>
+          <subfield code="d">d</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+      </item>
+      <item epn="3524285953">
+        <datafield tag="201A" occurrence="06" fulltag="201A/06">
+          <subfield code="0">30-06-20</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="06" fulltag="201B/06">
+          <subfield code="0">30-06-20</subfield>
+          <subfield code="t">09:24:36.000</subfield>
+        </datafield>
+        <datafield tag="201D" occurrence="06" fulltag="201D/06">
+          <subfield code="0">0046:30-06-20</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="06" fulltag="201U/06">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="06" fulltag="202D/06">
+          <subfield code="0">30-06-20</subfield>
+          <subfield code="b">21</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="06" fulltag="203@/06">
+          <subfield code="0">3524285953</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="06" fulltag="208@/06">
+          <subfield code="a">30-06-20</subfield>
+          <subfield code="b">z</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="06" fulltag="209A/06">
+          <subfield code="f">H:</subfield>
+          <subfield code="a">2020 A 2</subfield>
+          <subfield code="d">i</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+      </item>
+      <item epn="3524285961">
+        <datafield tag="201A" occurrence="07" fulltag="201A/07">
+          <subfield code="0">30-06-20</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="07" fulltag="201B/07">
+          <subfield code="0">30-06-20</subfield>
+          <subfield code="t">09:24:36.000</subfield>
+        </datafield>
+        <datafield tag="201D" occurrence="07" fulltag="201D/07">
+          <subfield code="0">0046:30-06-20</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="07" fulltag="201U/07">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="07" fulltag="202D/07">
+          <subfield code="0">30-06-20</subfield>
+          <subfield code="b">21</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="07" fulltag="203@/07">
+          <subfield code="0">3524285961</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="07" fulltag="208@/07">
+          <subfield code="a">30-06-20</subfield>
+          <subfield code="b">z</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="07" fulltag="209A/07">
+          <subfield code="f">H:</subfield>
+          <subfield code="a">2020 A 2</subfield>
+          <subfield code="d">f</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+      </item>
+      <item epn="352428597X">
+        <datafield tag="201A" occurrence="08" fulltag="201A/08">
+          <subfield code="0">30-06-20</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="08" fulltag="201B/08">
+          <subfield code="0">30-06-20</subfield>
+          <subfield code="t">09:24:36.000</subfield>
+        </datafield>
+        <datafield tag="201D" occurrence="08" fulltag="201D/08">
+          <subfield code="0">0046:30-06-20</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="08" fulltag="201U/08">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="08" fulltag="202D/08">
+          <subfield code="0">30-06-20</subfield>
+          <subfield code="b">21</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="08" fulltag="203@/08">
+          <subfield code="0">352428597X</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="08" fulltag="208@/08">
+          <subfield code="a">30-06-20</subfield>
+          <subfield code="b">z</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="08" fulltag="209A/08">
+          <subfield code="f">H:</subfield>
+          <subfield code="a">2020 A 2</subfield>
+          <subfield code="d">g</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+      </item>
+      <item epn="3524285988">
+        <datafield tag="201A" occurrence="09" fulltag="201A/09">
+          <subfield code="0">30-06-20</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="09" fulltag="201B/09">
+          <subfield code="0">30-06-20</subfield>
+          <subfield code="t">09:24:36.000</subfield>
+        </datafield>
+        <datafield tag="201D" occurrence="09" fulltag="201D/09">
+          <subfield code="0">0046:30-06-20</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="09" fulltag="201U/09">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="09" fulltag="202D/09">
+          <subfield code="0">30-06-20</subfield>
+          <subfield code="b">21</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="09" fulltag="203@/09">
+          <subfield code="0">3524285988</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="09" fulltag="208@/09">
+          <subfield code="a">30-06-20</subfield>
+          <subfield code="b">z</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="09" fulltag="209A/09">
+          <subfield code="f">H:</subfield>
+          <subfield code="a">2020 A 2</subfield>
+          <subfield code="d">a</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+      </item>
+      <item epn="3524285996">
+        <datafield tag="201A" occurrence="10" fulltag="201A/10">
+          <subfield code="0">30-06-20</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="10" fulltag="201B/10">
+          <subfield code="0">30-06-20</subfield>
+          <subfield code="t">09:24:36.000</subfield>
+        </datafield>
+        <datafield tag="201D" occurrence="10" fulltag="201D/10">
+          <subfield code="0">0046:30-06-20</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="10" fulltag="201U/10">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="10" fulltag="202D/10">
+          <subfield code="0">30-06-20</subfield>
+          <subfield code="b">21</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="10" fulltag="203@/10">
+          <subfield code="0">3524285996</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="10" fulltag="208@/10">
+          <subfield code="a">30-06-20</subfield>
+          <subfield code="b">z</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="10" fulltag="209A/10">
+          <subfield code="f">H:</subfield>
+          <subfield code="a">2020 A 2</subfield>
+          <subfield code="d">o</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+      </item>
+      <item epn="3524286003">
+        <datafield tag="201A" occurrence="11" fulltag="201A/11">
+          <subfield code="0">30-06-20</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="11" fulltag="201B/11">
+          <subfield code="0">30-06-20</subfield>
+          <subfield code="t">09:24:36.000</subfield>
+        </datafield>
+        <datafield tag="201D" occurrence="11" fulltag="201D/11">
+          <subfield code="0">0046:30-06-20</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="11" fulltag="201U/11">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="11" fulltag="202D/11">
+          <subfield code="0">30-06-20</subfield>
+          <subfield code="b">21</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="11" fulltag="203@/11">
+          <subfield code="0">3524286003</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="11" fulltag="208@/11">
+          <subfield code="a">30-06-20</subfield>
+          <subfield code="b">z</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="11" fulltag="209A/11">
+          <subfield code="f">H:</subfield>
+          <subfield code="a">2020 A 2</subfield>
+          <subfield code="d">z</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+      </item>
+    </metadata>
+    <rawrecord><![CDATA[001@ ƒ021-22,40,65,70,121,152,164,2005,2007-2008,2018,2024,2035,2059,2105,2188
+001A ƒ02001:28-08-19
+001B ƒ00046:30-06-20ƒt09:24:36.000
+001D ƒ0SBU102:05-11-19
+001U ƒ0utf8
+001X ƒ00
+002@ ƒ0Aau
+002C ƒaTextƒbtxt
+002D ƒaohne Hilfsmittel zu benutzenƒbn
+002E ƒaBandƒbnc
+003@ ƒ01672380227
+004A ƒ09783170380783ƒf : circa EUR 24.00 (DE)
+004A ƒ03170380788
+004L ƒ09783170380783
+006G ƒ01193268710
+006L ƒiDNBƒ01193268710
+006U ƒ019,N35
+007G ƒiDNBƒ01193268710
+010@ ƒager
+010E ƒerda
+011@ ƒa2019
+011F ƒn© 2020
+013D ƒ9104270187ƒ8Lehrbuch ; ID: gnd/4123623-3
+009Q ƒahttp://www.kohlhammer.de/wms/instances/KOB/appDE/nav_product.php?product=978-3-17-038078-3ƒmX:MVBƒv2019-08-28ƒxHƒ3Unbekanntƒ5xxƒADNBƒB2
+019@ ƒaXA-DE-BW
+021A ƒaEuroparechtƒdmit umfassenden Material zum Brexit und dessen Auswirkungen auf die Europäischen Organisationenƒhvon Professor Dr. jur. Dieter Krimphove (Universität Paderborn)
+028A ƒ9082461813ƒ8Krimphove, Dieter *1958-* ; ID: gnd/123285240ƒBVerfasserInƒ4aut
+028C ƒ9508484510ƒ8Wiesenmüller, Heidrun *1968-* ; ID: gnd/122087801ƒBHerausgeberInƒ4edt
+029F ƒ9100744702ƒ8W.-Kohlhammer-Verlag$gStuttgart ; ID: gnd/31662-3ƒBVerlagƒ4pbl
+032@ ƒa3., aktualisierte Auflage
+033A ƒpStuttgartƒnVerlag W. Kohlhammer
+034D ƒaXII, 144 Seiten
+034M ƒaDiagramme
+036E ƒaKompass Recht
+037A ƒaTitelzusatz auf dem Umschlag: Interaktive Fälle zum Download
+039E ƒbfƒiVorangegangen istƒCISBNƒ69783170242951
+041A ƒ9105532622ƒ8Europarecht ; ID: gnd/4153206-5
+044K ƒ9132918269ƒ8Europäische Union ; ID: gnd/5098525-5
+044K ƒ9106189719ƒ8Recht ; ID: gnd/4048737-4
+044K ƒADE-Sp3
+045G ƒa340ƒADE-101
+045H ƒeDDC22gerƒa341.2422ƒc341.2422
+045Q/01 ƒ910641335Xƒ886.86$jEuroparecht: Allgemeines
+045R ƒ91271423065ƒ8PS 2500: Rechtswissenschaft / Europarecht; Recht der Europäischen Gemeinschaften bzw. der Europäischen Union und der sonstigen europäischen Organisationen; Europäische Rechtsvereinheitlichung / Europäisches Gemeinschaftsrecht; Europäisches Unionsrecht / Gesamtdarstellungen / Europäische Union (CF früher Europäische Gemeinschaften)ƒADE-Sp3
+
+101B ƒ030-06-20ƒt09:24:36.000
+101U ƒ0utf8
+102D ƒ030-06-20ƒb21ƒa0046
+109R ƒuhttps://librecatproject.wordpress.com/2014/12/15/day-10-working-with-mongodb/ƒ3Volltextƒ534
+
+201A/01 ƒ030-06-20
+201B/01 ƒ030-06-20ƒt09:24:36.000
+201D/01 ƒ00046:30-06-20
+201U/01 ƒ0utf8
+202D/01 ƒ030-06-20ƒb21ƒa0046
+203@/01 ƒ03524285902
+208@/01 ƒa30-06-20ƒbz
+209A/01 ƒfK:ƒa2020 A 1ƒduƒx00
+
+201A/02 ƒ030-06-20
+201B/02 ƒ030-06-20ƒt09:24:36.000
+201D/02 ƒ00046:30-06-20
+201U/02 ƒ0utf8
+202D/02 ƒ030-06-20ƒb21ƒa0046
+203@/02 ƒ03524285910
+208@/02 ƒa30-06-20ƒbz
+209A/02 ƒfH:ƒa2020 A 2ƒdbƒx00
+
+201A/03 ƒ030-06-20
+201B/03 ƒ030-06-20ƒt09:24:36.000
+201D/03 ƒ00046:30-06-20
+201U/03 ƒ0utf8
+202D/03 ƒ030-06-20ƒb21ƒa0046
+203@/03 ƒ03524285929
+208@/03 ƒa30-06-20ƒbz
+209A/03 ƒfH:ƒa2020 A 3ƒdcƒx00
+
+201A/04 ƒ030-06-20
+201B/04 ƒ030-06-20ƒt09:24:36.000
+201D/04 ƒ00046:30-06-20
+201U/04 ƒ0utf8
+202D/04 ƒ030-06-20ƒb21ƒa0046
+203@/04 ƒ03524285937
+208@/04 ƒa30-06-20ƒbz
+209A/04 ƒfH:ƒa2020 A 2ƒdsƒx00
+
+201A/05 ƒ030-06-20
+201B/05 ƒ030-06-20ƒt09:24:36.000
+201D/05 ƒ00046:30-06-20
+201U/05 ƒ0utf8
+202D/05 ƒ030-06-20ƒb21ƒa0046
+203@/05 ƒ03524285945
+208@/05 ƒa30-06-20ƒbz
+209A/05 ƒfH:ƒa2020 A 2ƒddƒx00
+
+201A/06 ƒ030-06-20
+201B/06 ƒ030-06-20ƒt09:24:36.000
+201D/06 ƒ00046:30-06-20
+201U/06 ƒ0utf8
+202D/06 ƒ030-06-20ƒb21ƒa0046
+203@/06 ƒ03524285953
+208@/06 ƒa30-06-20ƒbz
+209A/06 ƒfH:ƒa2020 A 2ƒdiƒx00
+
+201A/07 ƒ030-06-20
+201B/07 ƒ030-06-20ƒt09:24:36.000
+201D/07 ƒ00046:30-06-20
+201U/07 ƒ0utf8
+202D/07 ƒ030-06-20ƒb21ƒa0046
+203@/07 ƒ03524285961
+208@/07 ƒa30-06-20ƒbz
+209A/07 ƒfH:ƒa2020 A 2ƒdfƒx00
+
+201A/08 ƒ030-06-20
+201B/08 ƒ030-06-20ƒt09:24:36.000
+201D/08 ƒ00046:30-06-20
+201U/08 ƒ0utf8
+202D/08 ƒ030-06-20ƒb21ƒa0046
+203@/08 ƒ0352428597X
+208@/08 ƒa30-06-20ƒbz
+209A/08 ƒfH:ƒa2020 A 2ƒdgƒx00
+
+201A/09 ƒ030-06-20
+201B/09 ƒ030-06-20ƒt09:24:36.000
+201D/09 ƒ00046:30-06-20
+201U/09 ƒ0utf8
+202D/09 ƒ030-06-20ƒb21ƒa0046
+203@/09 ƒ03524285988
+208@/09 ƒa30-06-20ƒbz
+209A/09 ƒfH:ƒa2020 A 2ƒdaƒx00
+
+201A/10 ƒ030-06-20
+201B/10 ƒ030-06-20ƒt09:24:36.000
+201D/10 ƒ00046:30-06-20
+201U/10 ƒ0utf8
+202D/10 ƒ030-06-20ƒb21ƒa0046
+203@/10 ƒ03524285996
+208@/10 ƒa30-06-20ƒbz
+209A/10 ƒfH:ƒa2020 A 2ƒdoƒx00
+
+201A/11 ƒ030-06-20
+201B/11 ƒ030-06-20ƒt09:24:36.000
+201D/11 ƒ00046:30-06-20
+201U/11 ƒ0utf8
+202D/11 ƒ030-06-20ƒb21ƒa0046
+203@/11 ƒ03524286003
+208@/11 ƒa30-06-20ƒbz
+209A/11 ƒfH:ƒa2020 A 2ƒdzƒx00
+
+]]></rawrecord>
+  </record>
+  <record>
+    <header status="upsert">
+      <identifier>13020014X</identifier>
+    </header>
+    <metadata>
+      <datafield tag="001@" fulltag="001@">
+        <subfield code="0">11,20-22,24,26,31,40,62,70,72,90,120,267,285,618,2003,2007-2010,2012,2018,2023,2037,2039,2470,2507,4012,4035,4082,4112,4125,4238,4277,4305-4306,4309-4312,4316,4324-4325,4346,4700</subfield>
+      </datafield>
+      <datafield tag="001A" fulltag="001A">
+        <subfield code="0">2004:16-11-93</subfield>
+      </datafield>
+      <datafield tag="001B" fulltag="001B">
+        <subfield code="0">0046:30-06-20</subfield>
+        <subfield code="t">12:07:07.000</subfield>
+      </datafield>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">2004:29-09-96</subfield>
+      </datafield>
+      <datafield tag="001U" fulltag="001U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="001X" fulltag="001X">
+        <subfield code="0">0</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Abv</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+        <subfield code="b">n</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">Mikroform</subfield>
+        <subfield code="b">h</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Band</subfield>
+        <subfield code="b">nc</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Mikrofilmrolle</subfield>
+        <subfield code="b">hj</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">13020014X</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">231011134</subfield>
+        <subfield code="v">2012-12-31</subfield>
+      </datafield>
+      <datafield tag="003S" fulltag="003S">
+        <subfield code="0">015744728</subfield>
+      </datafield>
+      <datafield tag="003T" fulltag="003T">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">985616393</subfield>
+      </datafield>
+      <datafield tag="005A" fulltag="005A">
+        <subfield code="0">0340-2673</subfield>
+      </datafield>
+      <datafield tag="006G" fulltag="006G">
+        <subfield code="0">012853089</subfield>
+      </datafield>
+      <datafield tag="006L" fulltag="006L">
+        <subfield code="i">FIV</subfield>
+        <subfield code="0">00261615</subfield>
+      </datafield>
+      <datafield tag="006S" fulltag="006S">
+        <subfield code="0">385484089</subfield>
+      </datafield>
+      <datafield tag="006U" fulltag="006U">
+        <subfield code="0">96,A14,0064</subfield>
+      </datafield>
+      <datafield tag="006Y" fulltag="006Y">
+        <subfield code="0">STHANT00587949</subfield>
+      </datafield>
+      <datafield tag="006Z" fulltag="006Z">
+        <subfield code="0">531863-4</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">ZDB</subfield>
+        <subfield code="0">531863-4</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+        <subfield code="c">eng</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">1949</subfield>
+        <subfield code="b">2019</subfield>
+        <subfield code="n">1949-[2019]</subfield>
+      </datafield>
+      <datafield tag="011B" fulltag="011B">
+        <subfield code="a">1983</subfield>
+        <subfield code="b">2005</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">10454466X</subfield>
+        <subfield code="8">Zeitschrift ; ID: gnd/4067488-5</subfield>
+      </datafield>
+      <datafield tag="016E" fulltag="016E">
+        <subfield code="0">hd uuu000uuuu</subfield>
+      </datafield>
+      <datafield tag="018@" fulltag="018@">
+        <subfield code="a">m</subfield>
+        <subfield code="a">w</subfield>
+      </datafield>
+      <datafield tag="019@" fulltag="019@">
+        <subfield code="a">XA-DE</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Bayernkurier</subfield>
+        <subfield code="d"># Klartext für Bayern</subfield>
+      </datafield>
+      <datafield tag="027A" fulltag="027A">
+        <subfield code="a">#Klartext für Bayern</subfield>
+      </datafield>
+      <datafield tag="031@" fulltag="031@">
+        <subfield code="a">1.1949,Juli - 2.1950,21(27.März); [N.F.] 1.1950 -  66.2015,20(16.Mai); 2015,1[Juni]-2019, Ausgabe 12 ; damit Erscheinen eingestellt</subfield>
+      </datafield>
+      <datafield tag="031N ƒd1ƒj1949ƒn2ƒo21ƒk1950ƒ0" fulltag="031N ƒd1ƒj1949ƒn2ƒo21ƒk1950ƒ0">
+        <subfield code="d">1</subfield>
+        <subfield code="j">1950</subfield>
+        <subfield code="o">12</subfield>
+        <subfield code="k">2019</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">München</subfield>
+        <subfield code="n">Bayern-Kurier</subfield>
+      </datafield>
+      <datafield tag="033H" fulltag="033H">
+        <subfield code="9">105722073</subfield>
+        <subfield code="8">München ; ID: gnd/4127793-4</subfield>
+      </datafield>
+      <datafield tag="033N" fulltag="033N">
+        <subfield code="p">Hamburg</subfield>
+        <subfield code="n">Alpha Com, Ges. für Mikroverfilmung</subfield>
+      </datafield>
+      <datafield tag="033N" fulltag="033N">
+        <subfield code="p">Bonn</subfield>
+        <subfield code="n">Mikropress</subfield>
+      </datafield>
+      <datafield tag="034I" fulltag="034I">
+        <subfield code="a">28 cm</subfield>
+      </datafield>
+      <datafield tag="037A" fulltag="037A">
+        <subfield code="a">Beteil. Körp.: Christlich-Soziale Union in Bayern e.V.; Gründungshrsg.: Franz Josef Strauß; Hrsg. früher: Edmund Stoiber; Hrsg. ab  2015,1[Juni]: Horst Seehofer verantw. Red.: Peter Schmalz</subfield>
+      </datafield>
+      <datafield tag="037G" fulltag="037G">
+        <subfield code="a">Mikrofilm-Ausg.: Bonn : Mikropress., 1993. -  Mikrofilm-Ausg.: Hamburg : Alpha Com, Ges. für Mikroverfilmung</subfield>
+      </datafield>
+      <datafield tag="039C" fulltag="039C">
+        <subfield code="i">Index</subfield>
+        <subfield code="9">129405779</subfield>
+        <subfield code="8">Zeitungs-Index / Gorzny, Willi ; ID: gnd/1056490020. - Pullach : Gorzny, 1974-2003 ; ZDB-ID: 187394-5</subfield>
+        <subfield code="C">ZDB</subfield>
+        <subfield code="6">1873945</subfield>
+      </datafield>
+      <datafield tag="039D" fulltag="039D">
+        <subfield code="i">Erscheint auch als</subfield>
+        <subfield code="n">Online-Ausgabe</subfield>
+        <subfield code="9">566722348</subfield>
+        <subfield code="8">Bayernkurier. - München : Verl. Bayernkurier, 2001- ; ZDB-ID: 2427798-8</subfield>
+        <subfield code="C">ZDB</subfield>
+        <subfield code="6">24277988</subfield>
+      </datafield>
+      <datafield tag="039E" fulltag="039E">
+        <subfield code="b">f</subfield>
+        <subfield code="i">Darin aufgegangen</subfield>
+        <subfield code="9">169158810</subfield>
+        <subfield code="8">Union-Flüchtlingsdienst / Christlich-Soziale Union in Bayern ; ID: gnd/2006707-0 ; ZDB-ID: 901710-0</subfield>
+        <subfield code="C">ZDB</subfield>
+        <subfield code="6">9017100</subfield>
+      </datafield>
+      <datafield tag="039E" fulltag="039E">
+        <subfield code="b">f</subfield>
+        <subfield code="i">Fortsetzung von</subfield>
+        <subfield code="9">167479261</subfield>
+        <subfield code="8">Bayerische Rundschau ; ZDB-ID: 531861-0</subfield>
+        <subfield code="C">ZDB</subfield>
+        <subfield code="6">5318610</subfield>
+      </datafield>
+      <datafield tag="044N" fulltag="044N">
+        <subfield code="S">s</subfield>
+        <subfield code="a">Bundesrepublik Deutschland (1949-1990)</subfield>
+        <subfield code="a">Innenpolitik</subfield>
+        <subfield code="a">Internationale Politik</subfield>
+        <subfield code="a">Internationale Sicherheit</subfield>
+        <subfield code="a">Wirtschaft</subfield>
+      </datafield>
+      <datafield tag="044N" fulltag="044N">
+        <subfield code="S">s</subfield>
+        <subfield code="a">Politische Partei</subfield>
+        <subfield code="a">Christlich-Soziale Union (Deutschland, BRD)</subfield>
+      </datafield>
+      <datafield tag="045B" occurrence="02" fulltag="045B/02">
+        <subfield code="a">ALLG 290</subfield>
+      </datafield>
+      <datafield tag="045G" fulltag="045G">
+        <subfield code="a">070</subfield>
+        <subfield code="a">320</subfield>
+        <subfield code="A">DE-600</subfield>
+      </datafield>
+      <datafield tag="046C" fulltag="046C">
+        <subfield code="i">Titelzusatz bis 2.1950,21(27.März)</subfield>
+        <subfield code="a">Wochenzeitung der Christlich-Sozialen Union</subfield>
+      </datafield>
+      <datafield tag="046C" fulltag="046C">
+        <subfield code="i">Titelzusatz früher</subfield>
+        <subfield code="a">Wochenzeitung für christliche Politik und Kultur</subfield>
+      </datafield>
+      <datafield tag="046C" fulltag="046C">
+        <subfield code="i">Titelzusatz früher</subfield>
+        <subfield code="a">Das @Magazin für Orientierungdas Magazin für Orientierung</subfield>
+      </datafield>
+      <datafield tag="046D" fulltag="046D">
+        <subfield code="i">Hauptsacht. bis 2.1950,21(27.März)</subfield>
+        <subfield code="a">Union</subfield>
+      </datafield>
+      <datafield tag="046D" fulltag="046D">
+        <subfield code="i">Hauptsacht. früher</subfield>
+        <subfield code="a">Bayern-Kurier</subfield>
+      </datafield>
+      <datafield tag="046D" fulltag="046D">
+        <subfield code="i">Nebent. bis 2.1950,21(27.März)</subfield>
+        <subfield code="a">CS-Union</subfield>
+      </datafield>
+      <datafield tag="046D" fulltag="046D">
+        <subfield code="i">Titelzusatz bis 66.2015,20</subfield>
+        <subfield code="a">deutsche Wochenzeitung für Politik, Wirtschaft und Kultur</subfield>
+      </datafield>
+      <datafield tag="046P" fulltag="046P">
+        <subfield code="a">63.2012,33-34 u. 65.2014,32-34 nicht ersch.; Periodizität: monatl., bis 66.2015,20 wöchentl.</subfield>
+      </datafield>
+      <datafield tag="047A" fulltag="047A">
+        <subfield code="a">Sortierzählung bei Bänden maschinell geändert (GBV)</subfield>
+      </datafield>
+      <datafield tag="047A" fulltag="047A">
+        <subfield code="a">(üa/Z) (SWB)</subfield>
+      </datafield>
+      <datafield tag="047B" fulltag="047B">
+        <subfield code="a">(üa/Z);101b!(20-11-19)</subfield>
+      </datafield>
+      <datafield tag="101B" fulltag="101B">
+        <subfield code="0">26-05-04</subfield>
+        <subfield code="t">16:01:56.000</subfield>
+      </datafield>
+      <datafield tag="101U" fulltag="101U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="102D" fulltag="102D">
+        <subfield code="0">26-05-04</subfield>
+        <subfield code="b">6264</subfield>
+        <subfield code="a">0046</subfield>
+      </datafield>
+      <datafield tag="107F" fulltag="107F">
+        <subfield code="0">ZDB3149052-9</subfield>
+      </datafield>
+      <datafield tag="107F" occurrence="01" fulltag="107F/01">
+        <subfield code="0">ZDB31490529</subfield>
+      </datafield>
+      <datafield tag="145Z" occurrence="99" fulltag="145Z/99">
+        <subfield code="a">01</subfield>
+      </datafield>
+      <item epn="14735952X">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">16-01-19</subfield>
+          <subfield code="t">10:35:00.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="01" fulltag="202D/01">
+          <subfield code="0">16-01-19</subfield>
+          <subfield code="b">6299</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">14735952X</subfield>
+        </datafield>
+        <datafield tag="206X" occurrence="01" fulltag="206X/01">
+          <subfield code="0">31490529/01</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">03-06-96</subfield>
+          <subfield code="b">bza</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">fa 0201</subfield>
+          <subfield code="d">d</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="01" fulltag="209C/01">
+          <subfield code="a">fa 0201</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="231@" occurrence="01" fulltag="231@/01">
+          <subfield code="d">20</subfield>
+          <subfield code="j">1969</subfield>
+          <subfield code="n">40</subfield>
+          <subfield code="k">1989</subfield>
+        </datafield>
+        <datafield tag="231B" occurrence="01" fulltag="231B/01">
+          <subfield code="a">20.1969 - 40.1989</subfield>
+        </datafield>
+      </item>
+      <item epn="147359538">
+        <datafield tag="201B" occurrence="02" fulltag="201B/02">
+          <subfield code="0">22-04-15</subfield>
+          <subfield code="t">16:45:12.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="02" fulltag="201U/02">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="02" fulltag="202D/02">
+          <subfield code="0">22-04-15</subfield>
+          <subfield code="b">6299</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="02" fulltag="203@/02">
+          <subfield code="0">147359538</subfield>
+        </datafield>
+        <datafield tag="206X" occurrence="02" fulltag="206X/02">
+          <subfield code="0">31490529/02</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="02" fulltag="208@/02">
+          <subfield code="a">03-06-96</subfield>
+          <subfield code="b">bza</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="02" fulltag="209A/02">
+          <subfield code="f">ZS-Lesesaal</subfield>
+          <subfield code="a">jb 4016</subfield>
+          <subfield code="d">d</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="02" fulltag="209C/02">
+          <subfield code="a">jb 4016</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="231@" occurrence="02" fulltag="231@/02">
+          <subfield code="d">41</subfield>
+          <subfield code="j">1990</subfield>
+          <subfield code="n">51</subfield>
+          <subfield code="k">2000</subfield>
+        </datafield>
+        <datafield tag="231B" occurrence="02" fulltag="231B/02">
+          <subfield code="a">41.1990 - 51.2000</subfield>
+        </datafield>
+        <datafield tag="237A" occurrence="02" fulltag="237A/02">
+          <subfield code="a">Als Mikrofilm; Papierausg. bis zur Lieferung d. Mikrofilmausg. vh.</subfield>
+        </datafield>
+      </item>
+      <item epn="3524286046">
+        <datafield tag="201A" occurrence="03" fulltag="201A/03">
+          <subfield code="0">30-06-20</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="03" fulltag="201B/03">
+          <subfield code="0">30-06-20</subfield>
+          <subfield code="t">11:57:22.000</subfield>
+        </datafield>
+        <datafield tag="201D" occurrence="03" fulltag="201D/03">
+          <subfield code="0">0046:30-06-20</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="03" fulltag="201U/03">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="03" fulltag="202D/03">
+          <subfield code="0">30-06-20</subfield>
+          <subfield code="b">21</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="03" fulltag="203@/03">
+          <subfield code="0">3524286046</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="03" fulltag="208@/03">
+          <subfield code="a">30-06-20</subfield>
+          <subfield code="b">a</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="03" fulltag="209A/03">
+          <subfield code="a">2020 Z 2</subfield>
+          <subfield code="d">d</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+      </item>
+    </metadata>
+    <rawrecord><![CDATA[001@ ƒ011,20-22,24,26,31,40,62,70,72,90,120,267,285,618,2003,2007-2010,2012,2018,2023,2037,2039,2470,2507,4012,4035,4082,4112,4125,4238,4277,4305-4306,4309-4312,4316,4324-4325,4346,4700
+001A ƒ02004:16-11-93
+001B ƒ00046:30-06-20ƒt12:07:07.000
+001D ƒ02004:29-09-96
+001U ƒ0utf8
+001X ƒ00
+002@ ƒ0Abv
+002C ƒaTextƒbtxt
+002D ƒaohne Hilfsmittel zu benutzenƒbn
+002D ƒaMikroformƒbh
+002E ƒaBandƒbnc
+002E ƒaMikrofilmrolleƒbhj
+003@ ƒ013020014X
+003O ƒaOCoLCƒ0231011134ƒv2012-12-31
+003S ƒ0015744728
+003T ƒaOCoLCƒ0985616393
+005A ƒ00340-2673
+006G ƒ0012853089
+006L ƒiFIVƒ000261615
+006S ƒ0385484089
+006U ƒ096,A14,0064
+006Y ƒ0STHANT00587949
+006Z ƒ0531863-4
+007G ƒiZDBƒ0531863-4
+010@ ƒagerƒceng
+011@ ƒa1949ƒb2019ƒn1949-[2019]
+011B ƒa1983ƒb2005
+013D ƒ910454466Xƒ8Zeitschrift ; ID: gnd/4067488-5
+016E ƒ0hd uuu000uuuu
+018@ ƒamƒaw
+019@ ƒaXA-DE
+021A ƒaBayernkurierƒd# Klartext für Bayern
+027A ƒa#Klartext für Bayern
+031@ ƒa1.1949,Juli - 2.1950,21(27.März); [N.F.] 1.1950 -  66.2015,20(16.Mai); 2015,1[Juni]-2019, Ausgabe 12 ; damit Erscheinen eingestellt
+031N ƒd1ƒj1949ƒn2ƒo21ƒk1950ƒ0 ƒd1ƒj1950ƒo12ƒk2019
+033A ƒpMünchenƒnBayern-Kurier
+033H ƒ9105722073ƒ8München ; ID: gnd/4127793-4
+033N ƒpHamburgƒnAlpha Com, Ges. für Mikroverfilmung
+033N ƒpBonnƒnMikropress
+034I ƒa28 cm
+037A ƒaBeteil. Körp.: Christlich-Soziale Union in Bayern e.V.; Gründungshrsg.: Franz Josef Strauß; Hrsg. früher: Edmund Stoiber; Hrsg. ab  2015,1[Juni]: Horst Seehofer verantw. Red.: Peter Schmalz
+037G ƒaMikrofilm-Ausg.: Bonn : Mikropress., 1993. -  Mikrofilm-Ausg.: Hamburg : Alpha Com, Ges. für Mikroverfilmung
+039C ƒiIndexƒ9129405779ƒ8Zeitungs-Index / Gorzny, Willi ; ID: gnd/1056490020. - Pullach : Gorzny, 1974-2003 ; ZDB-ID: 187394-5ƒCZDBƒ61873945
+039D ƒiErscheint auch alsƒnOnline-Ausgabeƒ9566722348ƒ8Bayernkurier. - München : Verl. Bayernkurier, 2001- ; ZDB-ID: 2427798-8ƒCZDBƒ624277988
+039E ƒbfƒiDarin aufgegangenƒ9169158810ƒ8Union-Flüchtlingsdienst / Christlich-Soziale Union in Bayern ; ID: gnd/2006707-0 ; ZDB-ID: 901710-0ƒCZDBƒ69017100
+039E ƒbfƒiFortsetzung vonƒ9167479261ƒ8Bayerische Rundschau ; ZDB-ID: 531861-0ƒCZDBƒ65318610
+044N ƒSsƒaBundesrepublik Deutschland (1949-1990)ƒaInnenpolitikƒaInternationale PolitikƒaInternationale SicherheitƒaWirtschaft
+044N ƒSsƒaPolitische ParteiƒaChristlich-Soziale Union (Deutschland, BRD)
+045B/02 ƒaALLG 290
+045G ƒa070ƒa320ƒADE-600
+046C ƒiTitelzusatz bis 2.1950,21(27.März)ƒaWochenzeitung der Christlich-Sozialen Union
+046C ƒiTitelzusatz früherƒaWochenzeitung für christliche Politik und Kultur
+046C ƒiTitelzusatz früherƒaDas @Magazin für Orientierungdas Magazin für Orientierung
+046D ƒiHauptsacht. bis 2.1950,21(27.März)ƒaUnion
+046D ƒiHauptsacht. früherƒaBayern-Kurier
+046D ƒiNebent. bis 2.1950,21(27.März)ƒaCS-Union
+046D ƒiTitelzusatz bis 66.2015,20ƒadeutsche Wochenzeitung für Politik, Wirtschaft und Kultur
+046P ƒa63.2012,33-34 u. 65.2014,32-34 nicht ersch.; Periodizität: monatl., bis 66.2015,20 wöchentl.
+047A ƒaSortierzählung bei Bänden maschinell geändert (GBV)
+047A ƒa(üa/Z) (SWB)
+047B ƒa(üa/Z);101b!(20-11-19)
+
+101B ƒ026-05-04ƒt16:01:56.000
+101U ƒ0utf8
+102D ƒ026-05-04ƒb6264ƒa0046
+107F ƒ0ZDB3149052-9
+107F/01 ƒ0ZDB31490529
+145Z/99 ƒa01
+
+201B/01 ƒ016-01-19ƒt10:35:00.000
+201U/01 ƒ0utf8
+202D/01 ƒ016-01-19ƒb6299ƒa0046
+203@/01 ƒ014735952X
+206X/01 ƒ031490529/01
+208@/01 ƒa03-06-96ƒbbza
+209A/01 ƒafa 0201ƒddƒx00
+209C/01 ƒafa 0201ƒx00
+231@/01 ƒd20ƒj1969ƒn40ƒk1989
+231B/01 ƒa20.1969 - 40.1989
+
+201B/02 ƒ022-04-15ƒt16:45:12.000
+201U/02 ƒ0utf8
+202D/02 ƒ022-04-15ƒb6299ƒa0046
+203@/02 ƒ0147359538
+206X/02 ƒ031490529/02
+208@/02 ƒa03-06-96ƒbbza
+209A/02 ƒfZS-Lesesaalƒajb 4016ƒddƒx00
+209C/02 ƒajb 4016ƒx00
+231@/02 ƒd41ƒj1990ƒn51ƒk2000
+231B/02 ƒa41.1990 - 51.2000
+237A/02 ƒaAls Mikrofilm; Papierausg. bis zur Lieferung d. Mikrofilmausg. vh.
+
+201A/03 ƒ030-06-20
+201B/03 ƒ030-06-20ƒt11:57:22.000
+201D/03 ƒ00046:30-06-20
+201U/03 ƒ0utf8
+202D/03 ƒ030-06-20ƒb21ƒa0046
+203@/03 ƒ03524286046
+208@/03 ƒa30-06-20ƒba
+209A/03 ƒa2020 Z 2ƒddƒx00
+
+]]></rawrecord>
+  </record>
+</collection>
