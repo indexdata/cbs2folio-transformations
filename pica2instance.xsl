@@ -511,10 +511,10 @@
       </publication>
     </xsl:for-each>
 
-    <xsl:if test="datafield[@tag='011B' or @tag='037A' or @tag='046P' or @tag='046L']">
+    <xsl:if test="datafield[@tag='011B' or @tag='037A' or @tag='046P' or @tag='046L' or @tag='046K']">
       <notes>
         <arr>
-          <xsl:for-each select="datafield[@tag='011B' or @tag='037A' or @tag='046P' or @tag='046L']">
+          <xsl:for-each select="datafield[@tag='011B' or @tag='037A' or @tag='046P' or @tag='046L' or @tag='046K']">
             <i>
               <xsl:choose>
                 <xsl:when test="./@tag='011B'">
@@ -522,7 +522,7 @@
                     <xsl:if test="./subfield[@code='b']"><xsl:value-of select="concat(./subfield[@code='a'], '-', ./subfield[@code='b'])" /></xsl:if>
                     <xsl:if test="not(./subfield[@code='b'])"><xsl:value-of select="./subfield[@code='a']" /></xsl:if>
                   </note>
-                  <instanceNoteTypeId>6a2533a7-4de2-4e64-8466-074c2fa9308c</instanceNoteTypeId> <!-- general -->
+                  <instanceNoteTypeId>General note</instanceNoteTypeId>
                 </xsl:when>
                 <xsl:when test="./@tag='037A'">
                   <note>
@@ -531,13 +531,14 @@
                       <xsl:otherwise><xsl:value-of select="./subfield[@code='a']" /></xsl:otherwise>
                     </xsl:choose>
                   </note>
-                  <instanceNoteTypeId>aecfda7a-e8aa-46d6-9046-9b0b8c231b85</instanceNoteTypeId> <!-- supplement note -->
+                  <instanceNoteTypeId>Supplement note</instanceNoteTypeId>
                 </xsl:when>
                 <xsl:otherwise>
                   <note><xsl:value-of select="./subfield[@code='a']" /></note>
                   <xsl:choose>
-                    <xsl:when test="./@tag='046L'"><instanceNoteTypeId>7356cde5-ec6b-4961-9cb0-961c48a37af4</instanceNoteTypeId></xsl:when> <!-- language note -->
-                    <xsl:otherwise><instanceNoteTypeId>cf635f41-29e7-4dd0-8598-33f230157074</instanceNoteTypeId></xsl:otherwise>  <!-- numbering peculiarities -->
+                    <xsl:when test="./@tag='046L'"><instanceNoteTypeId>Language note</instanceNoteTypeId></xsl:when>
+                    <xsl:when test="./@tag='046P'"><instanceNoteTypeId>Numbering peculiarities note</instanceNoteTypeId></xsl:when>
+                    <xsl:otherwise><instanceNoteTypeId>General note</instanceNoteTypeId></xsl:otherwise>
                   </xsl:choose>
                 </xsl:otherwise>
               </xsl:choose>

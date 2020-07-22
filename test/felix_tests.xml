@@ -1663,6 +1663,9 @@
         <subfield code="i">Titelzusatz bis 66.2015,20</subfield>
         <subfield code="a">deutsche Wochenzeitung für Politik, Wirtschaft und Kultur</subfield>
       </datafield>
+      <datafield tag="046K" fulltag="046K">
+        <subfield code="a">Estimated publication date test.</subfield>
+      </datafield>
       <datafield tag="046L" fulltag="046L">
         <subfield code="a">This is a test language note.</subfield>
       </datafield>

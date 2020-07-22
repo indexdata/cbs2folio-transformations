@@ -23,6 +23,69 @@
     </itemNoteTypeId>
   </xsl:template>
 
+  <!-- Map instance note types -->
+  <xsl:template match="instanceNoteTypeId">
+  <instanceNoteTypeId>
+    <xsl:choose>
+      <xsl:when test=".='Information related to Copyright Status'">654be0fd-bba2-4791-afa3-ae60300d7043</xsl:when>
+      <xsl:when test=".='Supplement note'">aecfda7a-e8aa-46d6-9046-9b0b8c231b85</xsl:when>
+      <xsl:when test=".='Bibliography note'">86b6e817-e1bc-42fb-bab0-70e7547de6c1</xsl:when>
+      <xsl:when test=".='Exhibitions note'">0ed2da88-3f81-42f5-b688-91b70919d9bb</xsl:when>
+      <xsl:when test=".='Data quality note'">7929eee7-6822-4199-8df4-bb2ae773e4cd</xsl:when>
+      <xsl:when test=".='Numbering peculiarities note'">cf635f41-29e7-4dd0-8598-33f230157074</xsl:when>
+      <xsl:when test=".='Type of computer file or data note'">3d931c23-6ae8-4e5a-8802-dc8c2e21ea19</xsl:when>
+      <xsl:when test=".='Local notes'">265c4910-3997-4242-9269-6a4a2e91392b</xsl:when>
+      <xsl:when test=".='Language note'">7356cde5-ec6b-4961-9cb0-961c48a37af4</xsl:when>
+      <xsl:when test=".='Publications About Described Materials note'">e0ea861c-959f-4912-8579-5e9ea8a69454</xsl:when>
+      <xsl:when test=".='Biographical or Historical Data'">c636881b-8927-4480-ad1b-8d7b27b4bbfe</xsl:when>
+      <xsl:when test=".='Additional Physical Form Available note'">1d51e8b2-dee7-43f5-983c-a40757b9cdfa</xsl:when>
+      <xsl:when test=".='System Details note'">95f62ca7-5df5-4a51-9890-d0ec3a34665f</xsl:when>
+      <xsl:when test=".='Target Audience note'">922fdcde-952d-45c2-b9ea-5fc8959ad116</xsl:when>
+      <xsl:when test=".='Cartographic Mathematical Data'">794f19f1-d00b-4b4b-97e9-0de5a34495a0</xsl:when>
+      <xsl:when test=".='Linking Entry Complexity note'">779c22a2-311c-4ebb-b71e-b246c7ee574d</xsl:when>
+      <xsl:when test=".='Funding Information Note'">f289c02b-9515-4c3f-b242-ffd071e82135</xsl:when>
+      <xsl:when test=".='Reproduction note'">d548fdff-b71c-4359-8055-f1c008c30f01</xsl:when>
+      <xsl:when test=".='Formatted Contents Note'">5ba8e385-0e27-462e-a571-ffa1fa34ea54</xsl:when>
+      <xsl:when test=".='Geographic Coverage note'">28e12ad3-4a8d-48cc-b56c-a5ded22fc844</xsl:when>
+      <xsl:when test=".='Terms Governing Use and Reproduction note'">f677d908-69c6-4450-94a6-abbcf94a1ee5</xsl:when>
+      <xsl:when test=".='Immediate Source of Acquisition note'">86c4bd09-16de-45ee-89d3-b6d32fae6de9</xsl:when>
+      <xsl:when test=".='Accessibility note'">a6a5550f-4981-4b48-b821-a57d5c8ca3b3</xsl:when>
+      <xsl:when test=".='Information About Documentation note'">13047c94-7d2c-4c41-9658-abacfa97a5c8</xsl:when>
+      <xsl:when test=".='Preferred Citation of Described Materials note'">09812302-92f7-497e-9120-ed25de458ea5</xsl:when>
+      <xsl:when test=".='Type of report and period covered note'">f939b820-4a23-43d1-84ba-101add6e1456</xsl:when>
+      <xsl:when test=".='Original Version note'">42be8949-6f69-4c55-874b-60b744ac1103</xsl:when>
+      <xsl:when test=".='Creation / Production Credits note'">9f08c9b7-500a-43e0-b00f-ba02396b198f</xsl:when>
+      <xsl:when test=".='Entity and Attribute Information note'">1cb8ac76-01fa-49be-8b9c-fcdaf17458a5</xsl:when>
+      <xsl:when test=".='Copy and Version Identification note'">ec9f8285-6bf9-4e6c-a3cb-38ef17f0317f</xsl:when>
+      <xsl:when test=".='Awards note'">e8cdc2fe-c53c-478a-a7f3-47f2fc79c6d4</xsl:when>
+      <xsl:when test=".='Location of Other Archival Materials note'">9a4b39f4-a7d5-4c4d-abc6-5ccf1fc1d78c</xsl:when>
+      <xsl:when test=".='Summary'">10e2e11b-450f-45c8-b09b-0f819999966e</xsl:when>
+      <xsl:when test=".='Participant or Performer note'">9b56b954-7f3b-4e4b-8ed0-cf40aef13975</xsl:when>
+      <xsl:when test=".='Restrictions on Access note'">e814a32e-02da-4773-8f3a-6629cdb7ecdf</xsl:when>
+      <xsl:when test=".='With note'">06b44741-888e-4b15-a75e-cb29e27752d1</xsl:when>
+      <xsl:when test=".='Date / time and place of an event note'">43295b78-3bfa-4c28-bc7f-8d924f63493f</xsl:when>
+      <xsl:when test=".='Scale note for graphic material'">72c611ab-f353-4c09-a0cc-33ff96cc3bef</xsl:when>
+      <xsl:when test=".='Action note'">1c017b8d-c783-4f63-b620-079f7a5b9c07</xsl:when>
+      <xsl:when test=".='Citation / References note'">6ca9df3f-454d-4b5b-9d41-feb5d5030b99</xsl:when>
+      <xsl:when test=".='Binding Information note'">0dc69a30-6d2b-40df-a50e-e4982bda86f4</xsl:when>
+      <xsl:when test=".='Source of Description note'">66ea8f28-d5da-426a-a7c9-739a5d676347</xsl:when>
+      <xsl:when test=".='Ownership and Custodial History note'">56cf513e-a738-40c5-a3ab-b0c60ba07e15</xsl:when>
+      <xsl:when test=".='Cumulative Index / Finding Aides notes'">fda2f2e3-965f-4220-8a2b-93d35ce6d582</xsl:when>
+      <xsl:when test=".='Location of Originals / Duplicates note'">c6340b85-d048-426a-89aa-163cfb801a56</xsl:when>
+      <xsl:when test=".='Methodology note'">02b5b0c6-3375-4912-ac75-ad9f552362b2</xsl:when>
+      <xsl:when test=".='General note'">6a2533a7-4de2-4e64-8466-074c2fa9308c</xsl:when>
+      <xsl:when test=".='Case File Characteristics note'">6f76f4e7-9c0b-4138-9371-09b36136372d</xsl:when>
+      <xsl:when test=".='Accumulation and Frequency of Use note'">1c7acba3-523d-4237-acd2-e88549bfc660</xsl:when>
+      <xsl:when test=".='Former Title Complexity note'">806cb024-80d2-47c2-8bbf-b91091c85f68</xsl:when>
+      <xsl:when test=".='Study Program Information note'">06489647-c7b7-4b6c-878a-cb7c1178e9ca</xsl:when>
+      <xsl:when test=".='Issuing Body note'">49475f04-35ef-4f8a-aa7f-92773594ca76</xsl:when>
+      <xsl:when test=".='Dissertation note'">b73cc9c2-c9fa-49aa-964f-5ae1aa754ecd</xsl:when>
+      <xsl:otherwise>6a2533a7-4de2-4e64-8466-074c2fa9308c</xsl:otherwise>
+    </xsl:choose>
+  </instanceNoteTypeId>
+</xsl:template>
+
+
 
   <!-- Map loan types -->
   <xsl:template match="permanentLoanTypeId">
