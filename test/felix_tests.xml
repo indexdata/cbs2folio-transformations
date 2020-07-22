@@ -1678,6 +1678,9 @@
       <datafield tag="047A" fulltag="047A">
         <subfield code="a">(üa/Z) (SWB)</subfield>
       </datafield>
+      <datafield tag="047C" fulltag="047C">
+        <subfield code="a">Alternative title TEST</subfield>
+      </datafield>
       <datafield tag="047B" fulltag="047B">
         <subfield code="a">(üa/Z);101b!(20-11-19)</subfield>
       </datafield>

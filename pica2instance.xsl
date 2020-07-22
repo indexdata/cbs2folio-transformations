@@ -349,22 +349,19 @@
       </title>
     </xsl:for-each>
 
-    <matchKey>
-        <!-- Only fields that are actually included in
-              the instance somewhere - for example in 'title' -
-              should be included as 'matchKey' elements lest
-              the instance "magically" splits on "invisible"
-              properties.
-        <name-of-part-section-of-work>
-          <xsl:value-of select="marc:subfield[@code='p']" />
-        </name-of-part-section-of-work>
-        <number-of-part-section-of-work>
-          <xsl:value-of select="marc:subfield[@code='n']" />
-        </number-of-part-section-of-work>
-        <inclusive-dates>
-          <xsl:value-of select="marc:subfield[@code='f']" />
-        </inclusive-dates> -->
-    </matchKey>
+    <!-- Alternate titles -->
+    <xsl:if test="datafield[@tag='047C']">
+      <alternativeTitles>
+        <arr>
+          <xsl:for-each select="datafield[@tag='047C']">
+            <i>
+              <alternativeTitle><xsl:value-of select="./subfield[@code='a']" /></alternativeTitle>
+              <alternativeTitleTypeId>Portion of title</alternativeTitleTypeId>
+            </i>
+          </xsl:for-each>
+        </arr>
+      </alternativeTitles>
+    </xsl:if>
 
     <!-- Contributors -->
     <xsl:if test="datafield[@tag='028A' or @tag='028B' or @tag='028C' or @tag='028G' or @tag='029A']">
