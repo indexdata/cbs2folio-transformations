@@ -349,8 +349,8 @@
       </title>
     </xsl:for-each>
 
-    <!-- Alternate titles -->
-    <xsl:if test="datafield[@tag='047C']">
+    <!-- Alternative titles -->
+    <xsl:if test="datafield[@tag='047C'] or datafield[@tag='022A'][@occurrence='00']">
       <alternativeTitles>
         <arr>
           <xsl:for-each select="datafield[@tag='047C']">
@@ -359,6 +359,24 @@
               <alternativeTitleTypeId>Portion of title</alternativeTitleTypeId>
             </i>
           </xsl:for-each>
+          <xsl:if test="datafield[@tag='022A']">
+            <xsl:variable name="wt8" select="datafield[@tag='022A']/subfield[@code='8']" />
+            <xsl:variable name="wta" select="datafield[@tag='022A']/subfield[@code='a']" />
+            <xsl:variable name="wtg" select="datafield[@tag='022A']/subfield[@code='g']" />
+            <xsl:variable name="wtf" select="datafield[@tag='022A']/subfield[@code='f']" />
+            <i>
+              <alternativeTitle>
+                <xsl:choose>
+                  <xsl:when test="$wt8"><xsl:value-of select="substring-before($wt8, ' ; ID:')" /></xsl:when>
+                  <xsl:when test="$wtf and $wtg and $wta"><xsl:value-of select="concat($wta, ' / ', $wtg, ', ', $wtf)" /></xsl:when>
+                  <xsl:when test="$wtg and $wta"><xsl:value-of select="concat($wta, ' / ', $wtg)" /></xsl:when>
+                  <xsl:when test="$wtf and $wta"><xsl:value-of select="concat($wta, ', ', $wtf)" /></xsl:when>
+                  <xsl:otherwise><xsl:value-of select="$wta" /></xsl:otherwise>
+                </xsl:choose>
+              </alternativeTitle>
+              <alternativeTitleTypeId>Uniform title</alternativeTitleTypeId>
+            </i>
+          </xsl:if>
         </arr>
       </alternativeTitles>
     </xsl:if>

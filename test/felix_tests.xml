@@ -138,6 +138,10 @@
         <subfield code="a">Routledge handbook of South Asian criminology</subfield>
         <subfield code="h">edited by K. Jaishankar</subfield>
       </datafield>
+      <datafield tag="022A" occurrence="00" fulltag="022A/00">
+        <subfield code="a">Work title subfield a TEST with g</subfield>
+        <subfield code="g">subfield g</subfield>
+      </datafield>
       <datafield tag="027A" fulltag="027A">
         <subfield code="a">Handbook of South Asian criminology</subfield>
       </datafield>
@@ -371,6 +375,9 @@
       <datafield tag="021F" fulltag="021F">
         <subfield code="a">Reconciliatio et paenitentia</subfield>
       </datafield>
+      <datafield tag="022A" occurrence="00" fulltag="022A/00">
+        <subfield code="8">Work title subfield 8 TEST ; ID: gnd/1234789</subfield>
+      </datafield>
       <datafield tag="022A" occurrence="01" fulltag="022A/01">
         <subfield code="a">Reconciliatio et paenitentia &lt;dt.&gt;</subfield>
       </datafield>
@@ -599,6 +606,9 @@
       <datafield tag="021A" fulltag="021A">
         <subfield code="a">Amtsblatt des Wasser- und Abwasserzweckverbandes Jena</subfield>
       </datafield>
+      <datafield tag="022A" occurrence="00" fulltag="022A/00">
+        <subfield code="a">Work title subfield a TEST</subfield>
+      </datafield>
       <datafield tag="029A" fulltag="029A">
         <subfield code="9">194789195</subfield>
         <subfield code="8">Wasser- und Abwasserzweckverband Jena ; ID: gnd/5169445-1</subfield>
@@ -818,6 +828,11 @@
         <subfield code="a">Europarecht</subfield>
         <subfield code="d">mit umfassenden Material zum Brexit und dessen Auswirkungen auf die Europäischen Organisationen</subfield>
         <subfield code="h">von Professor Dr. jur. Dieter Krimphove (Universität Paderborn)</subfield>
+      </datafield>
+      <datafield tag="022A" occurrence="00" fulltag="022A/00">
+        <subfield code="a">Work title subfield a TEST</subfield>
+        <subfield code="g">subfield g</subfield>
+        <subfield code="f">subfield f</subfield>
       </datafield>
       <datafield tag="028A" fulltag="028A">
         <subfield code="9">082461813</subfield>
@@ -1545,6 +1560,10 @@
       <datafield tag="021A" fulltag="021A">
         <subfield code="a">Bayernkurier</subfield>
         <subfield code="d"># Klartext für Bayern</subfield>
+      </datafield>
+      <datafield tag="022A" occurrence="00" fulltag="022A/00">
+        <subfield code="a">Work title subfield a TEST</subfield>
+        <subfield code="f">subfield f</subfield>
       </datafield>
       <datafield tag="027A" fulltag="027A">
         <subfield code="a">#Klartext für Bayern</subfield>
