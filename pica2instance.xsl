@@ -511,24 +511,29 @@
       </publication>
     </xsl:for-each>
 
-    <xsl:if test="datafield[@tag='011B']">
+    <xsl:if test="datafield[@tag='011B' or @tag='037A']">
       <notes>
         <arr>
-          <xsl:for-each select="datafield[@tag='011B']">
+          <xsl:for-each select="datafield[@tag='011B' or @tag='037A']">
             <i>
-                <xsl:choose>
-                  <xsl:when test="./@tag='011B'">
-                    <note>
-                      <xsl:if test="./subfield[@code='b']">
-                        <xsl:value-of select="concat(./subfield[@code='a'], '-', ./subfield[@code='b'])" />
-                      </xsl:if>
-                      <xsl:if test="not(./subfield[@code='b'])">
-                        <xsl:value-of select="./subfield[@code='a']" />
-                      </xsl:if>
-                    </note>
-                    <instanceNoteTypeId>6a2533a7-4de2-4e64-8466-074c2fa9308c</instanceNoteTypeId> <!-- general -->
-                  </xsl:when>
-                </xsl:choose>
+              <xsl:choose>
+                <xsl:when test="./@tag='011B'">
+                  <note>
+                    <xsl:if test="./subfield[@code='b']"><xsl:value-of select="concat(./subfield[@code='a'], '-', ./subfield[@code='b'])" /></xsl:if>
+                    <xsl:if test="not(./subfield[@code='b'])"><xsl:value-of select="./subfield[@code='a']" /></xsl:if>
+                  </note>
+                  <instanceNoteTypeId>6a2533a7-4de2-4e64-8466-074c2fa9308c</instanceNoteTypeId> <!-- general -->
+                </xsl:when>
+                <xsl:when test="./@tag='037A'">
+                  <note>
+                    <xsl:choose>
+                      <xsl:when test="./subfield[@code='A']"><xsl:value-of select="concat(./subfield[@code='a'], ' (Quelle: ', ./subfield[@code='A'], ')')" /></xsl:when>
+                      <xsl:otherwise><xsl:value-of select="./subfield[@code='a']" /></xsl:otherwise>
+                    </xsl:choose>
+                  </note>
+                  <instanceNoteTypeId>aecfda7a-e8aa-46d6-9046-9b0b8c231b85</instanceNoteTypeId> <!-- supplement note -->
+                </xsl:when>
+              </xsl:choose>
             </i>
           </xsl:for-each>
         </arr>

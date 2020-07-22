@@ -419,6 +419,7 @@
       </datafield>
       <datafield tag="037A" fulltag="037A">
         <subfield code="a">Ausg. für d. Dt. Demokrat. Republik u.d. sozialist. Länder</subfield>
+        <subfield code="A">Test subfield A</subfield>
       </datafield>
       <datafield tag="045E" fulltag="045E">
         <subfield code="a">12</subfield>
