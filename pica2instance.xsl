@@ -55,21 +55,6 @@
       </statusUpdatedDate>
     </xsl:for-each>
 
-      <!-- There are more 1540 statistical codes in the spreadsheet for tag 002@. I'm not quite sure what to do about this -->
-      <!-- <statisticalCodeIds>
-        <arr>
-          <xsl:for-each select="datafield[@tag='016B' or @tag='009N']"> 
-            <i>
-              <xsl:choose>
-                <xsl:when test="subfield[@code='']='Aau'">UUID of Aau</xsl:when>
-                <xsl:when test="subfield[@code='']='Aau'">UUID of Aau</xsl:when>
-                <xsl:otherwise>b5968c9e-cddc-4576-99e3-8e60aed8b0dd</xsl:otherwise>
-              </xsl:choose>
-            </i>
-          </xsl:for-each>
-        </arr>
-      </statisticalCodeIds> -->
-
     <xsl:if test="datafield[@tag='002@']">
       <!-- statusId -->
       <statusId>
@@ -668,7 +653,46 @@
         <arr>
           <i>
             <hrid><xsl:value-of select="$hhrid" /></hrid>
-            <materialTypeId>book</materialTypeId> <!-- hardcoded : where to find in item record? -->
+            <!-- <materialTypeId>book</materialTypeId> --> <!-- hardcoded : where to find in item record? -->
+            <materialTypeId>
+              <xsl:variable name="type" select="../datafield[@tag='002@']/subfield[@code='0']"></xsl:variable>
+              <xsl:variable name="type1" select="substring($type, 1, 1)"></xsl:variable>
+              <xsl:variable name="type12" select="substring($type, 1, 2)"></xsl:variable>
+              <xsl:variable name="pd" select="../datafield[@tag='013H']/subfield[@code='0']"></xsl:variable>
+              <xsl:variable name="mt" select="../datafield[@tag='002D']/subfield[@code='b']"></xsl:variable>
+              <xsl:choose>
+                <xsl:when test="$type12 = 'Ab'">
+                  <xsl:choose>
+                    <xsl:when test="$pd = 'zt'">Zeitung</xsl:when>
+                    <xsl:otherwise>Zeitschrift</xsl:otherwise>
+                  </xsl:choose>
+                </xsl:when>
+                <xsl:when test="$type1 = 'A'">
+                  <xsl:choose>
+                    <xsl:when test="$pd = 'kart'">Karte(nwerk)</xsl:when>
+                    <xsl:when test="$pd = 'lo'">Loseblattwerk</xsl:when>
+                    <xsl:when test="$pd = 'muno'">Musiknote</xsl:when>
+                    <xsl:otherwise>Buch</xsl:otherwise>
+                  </xsl:choose>
+                </xsl:when>
+                <xsl:when test="$type1 = 'B'">
+                  <xsl:choose>
+                    <xsl:when test="$pd = 'vide' or $mt = 'v'">Film (DVD/Video)</xsl:when>
+                    <xsl:when test="$mt = 'g' or $mt = 'n'">Bild(ersammlung)</xsl:when>
+                    <xsl:when test="$mt = 'muno'">Musiknote</xsl:when>
+                    <xsl:otherwise>Tonträger</xsl:otherwise>
+                  </xsl:choose>
+                </xsl:when>
+                <xsl:when test="$type1 = 'C'">Blindenschriftträger</xsl:when>
+                <xsl:when test="$type1 = 'E'">Mikroform</xsl:when>
+                <xsl:when test="$type1 = 'H'">Handschrift</xsl:when>
+                <xsl:when test="$type1 = 'O'">E-Ressource</xsl:when>
+                <xsl:when test="$type1 = 'S'">E-Ressource auf Datenträger</xsl:when>
+                <xsl:when test="$type1 = 'V'">Objekt</xsl:when>
+                <xsl:when test="$type = 'Lax'">Lax</xsl:when>
+                <xsl:otherwise>Nicht spezifiziert</xsl:otherwise>
+              </xsl:choose>
+            </materialTypeId>
             <permanentLoanTypeId>
               <xsl:variable name="loantype" select="datafield[@tag='209@']/subfield[@code='d']"></xsl:variable>
               <xsl:choose>
