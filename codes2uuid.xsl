@@ -122,19 +122,28 @@
   <xsl:template match="materialTypeId">
     <materialTypeId>
       <xsl:choose>
-        <xsl:when test=".='electronic resource'">615b8413-82d5-4203-aa6e-e37984cb5ac3</xsl:when>
-        <xsl:when test=".='microform'">fd6c6515-d470-4561-9c32-3e3290d4ca98</xsl:when>
-        <xsl:when test=".='dvd'">5ee11d91-f7e8-481d-b079-65d708582ccc</xsl:when>
-        <xsl:when test=".='text'">d9acad2f-2aac-4b48-9097-e6ab85906b25</xsl:when>
-        <xsl:when test=".='video recording'">30b3e36a-d3b2-415e-98c2-47fbdf878862</xsl:when>
-        <xsl:when test=".='sound recording'">dd0bf600-dbd9-44ab-9ff2-e2a61a6539f1</xsl:when>
-        <xsl:when test=".='unspecified'">71fbd940-1027-40a6-8a48-49b44d795e46</xsl:when>
-        <xsl:when test=".='book'">1a54b431-2e4f-452d-9cae-9cee66c9a892</xsl:when>
+        <xsl:when test=".='Buch'">1a54b431-2e4f-452d-9cae-9cee66c9a892</xsl:when>
+        <xsl:when test=".='E-Ressource'">615b8413-82d5-4203-aa6e-e37984cb5ac3</xsl:when>
+        <xsl:when test=".='Mikroform'">fd6c6515-d470-4561-9c32-3e3290d4ca98</xsl:when>
+        <xsl:when test=".='Film (DVD/Video)'">5ee11d91-f7e8-481d-b079-65d708582ccc</xsl:when>
+        <xsl:when test=".='Zeitschrift'">9030eb8b-4450-46f4-9297-63100d5e69aa</xsl:when>
+        <xsl:when test=".='Karte(nwerk)'">4c0e4f9c-4f57-4307-9ea0-ddacd5626876</xsl:when>
+        <xsl:when test=".='Loseblattwerk'">ee6e0c3f-975b-419a-9728-049566f9f1ec</xsl:when>
+        <xsl:when test=".='Musiknote'">27f76b9f-ddc4-4e29-b1d7-80d43c43fabd</xsl:when>
+        <xsl:when test=".='Zeitung'">0e8e0c57-697b-4ba3-beeb-99fc1d6a76d5</xsl:when>
+        <xsl:when test=".='Tonträger'">dd0bf600-dbd9-44ab-9ff2-e2a61a6539f1</xsl:when>
+        <xsl:when test=".='Blindenschriftträger'">82a25aae-1c10-4da2-896f-b0dc0feb59d9</xsl:when>
+        <xsl:when test=".='Handschrift'">8b7dead4-9ebf-497c-8f55-8beb89544b8e</xsl:when>
+        <xsl:when test=".='E-Ressource auf Datenträger'">8893c631-b898-4254-b104-25fa19e68321</xsl:when>
+        <xsl:when test=".='Objekt'">41d6b1e7-2eda-4a79-83fc-78fa067c982f</xsl:when>
+        <xsl:when test=".='Lax'">bbf8cd4a-80ce-479d-92b8-1d4f26c162a7</xsl:when>
+        <xsl:when test=".='Nicht spezifiziert'">71fbd940-1027-40a6-8a48-49b44d795e46</xsl:when>
+        <xsl:when test=".='Bild(ersammlung)'">778666c8-e79b-4b62-a17a-2f350e165908</xsl:when>
+        <xsl:when test=".='text (to be deleted)'">d9acad2f-2aac-4b48-9097-e6ab85906b25</xsl:when>
         <xsl:otherwise>1a54b431-2e4f-452d-9cae-9cee66c9a892</xsl:otherwise>
       </xsl:choose>
     </materialTypeId>
   </xsl:template>
-
   <!-- Map locations -->
   <xsl:template match="permanentLocationId">
     <permanentLocationId>
