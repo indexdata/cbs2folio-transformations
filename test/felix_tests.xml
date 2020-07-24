@@ -145,6 +145,9 @@
       <datafield tag="027A" fulltag="027A">
         <subfield code="a">Handbook of South Asian criminology</subfield>
       </datafield>
+      <datafield tag="026C" fulltag="026C">
+        <subfield code="a">Distinctive title TEST</subfield>
+      </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">875668607</subfield>
         <subfield code="8">Jaishankar, K. *1973-* ; ID: gnd/1122441843</subfield>
@@ -374,6 +377,19 @@
       </datafield>
       <datafield tag="021F" fulltag="021F">
         <subfield code="a">Reconciliatio et paenitentia</subfield>
+      </datafield>
+      <datafield tag="021F" fulltag="021F">
+        <subfield code="a">Reconciliatio et paenitentia</subfield>
+        <subfield code="d">subfield d TEST</subfield>
+      </datafield>
+      <datafield tag="021F" fulltag="021F">
+        <subfield code="a">Reconciliatio et paenitentia</subfield>
+        <subfield code="h">subfield h TEST</subfield>
+      </datafield>
+      <datafield tag="021F" fulltag="021F">
+        <subfield code="a">Reconciliatio et paenitentia</subfield>
+        <subfield code="d">subfield d TEST</subfield>
+        <subfield code="h">subfield h TEST</subfield>
       </datafield>
       <datafield tag="022A" occurrence="00" fulltag="022A/00">
         <subfield code="8">Work title subfield 8 TEST ; ID: gnd/1234789</subfield>

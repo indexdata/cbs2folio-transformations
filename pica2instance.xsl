@@ -335,13 +335,35 @@
     </xsl:for-each>
 
     <!-- Alternative titles -->
-    <xsl:if test="datafield[@tag='047C'] or datafield[@tag='022A'][@occurrence='00']">
+    <xsl:if test="datafield[@tag='047C' or @tag='027A' or @tag='021F' or @tag='026C'] or datafield[@tag='022A'][@occurrence='00']">
       <alternativeTitles>
         <arr>
-          <xsl:for-each select="datafield[@tag='047C']">
+          <xsl:for-each select="datafield[@tag='047C' or @tag='027A' or @tag='026C']">
             <i>
               <alternativeTitle><xsl:value-of select="./subfield[@code='a']" /></alternativeTitle>
-              <alternativeTitleTypeId>Portion of title</alternativeTitleTypeId>
+              <alternativeTitleTypeId>
+                <xsl:choose>
+                  <xsl:when test="./@tag='047C'">Portion of title</xsl:when>
+                  <xsl:when test="./@tag='026C'">Distinctive title</xsl:when>
+                  <xsl:otherwise>Other title</xsl:otherwise>
+                </xsl:choose>
+              </alternativeTitleTypeId>
+            </i>
+          </xsl:for-each>
+          <xsl:for-each select="datafield[@tag='021F']">
+            <xsl:variable name="pta" select="./subfield[@code='a']"></xsl:variable>
+            <xsl:variable name="ptd" select="./subfield[@code='d']"></xsl:variable>
+            <xsl:variable name="pth" select="./subfield[@code='h']"></xsl:variable>
+            <i>
+              <alternativeTitle>
+                <xsl:choose>
+                  <xsl:when test="$ptd and $pth"><xsl:value-of select="concat($pta, ' : ', $ptd, ' / ', $pth)" /></xsl:when>
+                  <xsl:when test="$ptd"><xsl:value-of select="concat($pta, ' : ', $ptd)" /></xsl:when>
+                  <xsl:when test="$pth"><xsl:value-of select="concat($pta, ' / ', $pth)" /></xsl:when>
+                  <xsl:otherwise><xsl:value-of select="$pta" /></xsl:otherwise>
+                </xsl:choose>
+              </alternativeTitle>
+              <alternativeTitleTypeId>Parallel title</alternativeTitleTypeId>
             </i>
           </xsl:for-each>
           <xsl:if test="datafield[@tag='022A']">
