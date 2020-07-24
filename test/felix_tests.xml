@@ -96,6 +96,11 @@
         <subfield code="9">105605727</subfield>
         <subfield code="8">Aufsatzsammlung ; ID: gnd/4143413-4</subfield>
       </datafield>
+      <datafield tag="017C" fulltag="017C">
+        <subfield code="u">https://www.folio.org/</subfield>
+        <subfield code="3">MaterialsSpec TEST</subfield>
+        <subfield code="4">Open access TEST</subfield>
+      </datafield>
       <datafield tag="009P" occurrence="03" fulltag="009P/03">
         <subfield code="a">https://doi.org/10.4324/9780429320118</subfield>
         <subfield code="x">R</subfield>

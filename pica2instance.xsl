@@ -583,6 +583,24 @@
       </publicationRange>
     </xsl:if>
 
+    <!-- Electronic access -->
+    <xsl:if test="datafield[@tag='017C']">
+      <electronicAccess>
+        <arr>
+          <xsl:for-each select="datafield[@tag='017C']">
+            <xsl:if test="./subfield[@code='u']">
+              <i>
+                <uri><xsl:value-of select="./subfield[@code='u']" /></uri>
+                <materialsSpecification><xsl:value-of select="./subfield[@code='3']" /></materialsSpecification>
+                <publicNote><xsl:value-of select="./subfield[@code='4']" /></publicNote>
+                <relationshipId>f5d0068e-6272-458e-8a81-b85e7b9a14aa</relationshipId> <!-- Resource -->
+              </i>
+            </xsl:if>
+          </xsl:for-each>
+        </arr>
+      </electronicAccess>
+    </xsl:if>
+
     <!-- Notes -->
     <xsl:if test="datafield[@tag='011B' or @tag='037A' or @tag='046P' or @tag='046L' or @tag='046K']">
       <notes>
