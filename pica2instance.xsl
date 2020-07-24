@@ -759,7 +759,6 @@
         <arr>
           <i>
             <hrid><xsl:value-of select="$hhrid" /></hrid>
-            <!-- <materialTypeId>book</materialTypeId> --> <!-- hardcoded : where to find in item record? -->
             <materialTypeId>
               <xsl:variable name="type" select="../datafield[@tag='002@']/subfield[@code='0']"></xsl:variable>
               <xsl:variable name="type1" select="substring($type, 1, 1)"></xsl:variable>
@@ -851,15 +850,20 @@
             <enumeration>
               <xsl:value-of select="datafield[@tag='231B']/subfield[@code='a']" />
             </enumeration>
-            <xsl:if test="datafield[@tag='220B' or @tag='244Z']">
+            <xsl:if test="datafield[@tag='220B' or @tag='237A' or @tag='244Z']">
               <notes>
                 <arr>
-                  <xsl:for-each select="datafield[@tag='220B']">
+                  <xsl:for-each select="datafield[@tag='220B' or @tag='237A']">
                     <xsl:if test="./subfield[@code='a']">
                       <i>
                         <note><xsl:value-of select="./subfield[@code='a']" /></note>
                         <itemNoteTypeId>Note</itemNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>
+                          <xsl:choose>
+                            <xsl:when test="./@tag='220B'">true</xsl:when>
+                            <xsl:otherwise>false</xsl:otherwise>
+                          </xsl:choose>
+                        </staffOnly>
                       </i>
                     </xsl:if>
                   </xsl:for-each>
