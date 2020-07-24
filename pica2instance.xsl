@@ -853,18 +853,18 @@
             <numberOfPieces>
               <xsl:value-of select="datafield[@tag='208F']/subfield[@code='a']" />
             </numberOfPieces>
-            <xsl:if test="datafield[@tag='220B' or @tag='237A' or @tag='244Z' or @tag='209O']">
+            <xsl:if test="datafield[@tag='220B' or @tag='237A' or @tag='244Z' or @tag='209O' or @tag='206X' or @tag='206W']">
               <notes>
                 <arr>
-                  <xsl:for-each select="datafield[@tag='220B' or @tag='237A' or @tag='209O']">
-                    <xsl:if test="./subfield[@code='a']">
+                  <xsl:for-each select="datafield[@tag='220B' or @tag='237A' or @tag='209O' or @tag='206X' or @tag='206W']">
+                    <xsl:if test="./subfield[@code='a'] or ./subfield[@code='0']">
                       <i>
-                        <note><xsl:value-of select="./subfield[@code='a']" /></note>
+                        <note><xsl:value-of select="./subfield[@code='a'] | ./subfield[@code='0']" /></note>
                         <itemNoteTypeId>Note</itemNoteTypeId>
                         <staffOnly>
                           <xsl:choose>
-                            <xsl:when test="./@tag='220B'">true</xsl:when>
-                            <xsl:otherwise>false</xsl:otherwise>
+                            <xsl:when test="./@tag='237A'">false</xsl:when>
+                            <xsl:otherwise>true</xsl:otherwise>
                           </xsl:choose>
                         </staffOnly>
                       </i>
