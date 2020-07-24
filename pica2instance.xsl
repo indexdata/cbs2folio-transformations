@@ -555,6 +555,15 @@
       </publicationFrequency>
     </xsl:if>
 
+    <!-- Publication range -->
+    <xsl:if test="datafield[@tag='031@']">
+      <publicationRange>
+        <arr>
+          <i><xsl:value-of select="datafield[@tag='031@']/subfield[@code='a']" /></i>
+        </arr>
+      </publicationRange>
+    </xsl:if>
+
     <!-- Notes -->
     <xsl:if test="datafield[@tag='011B' or @tag='037A' or @tag='046P' or @tag='046L' or @tag='046K']">
       <notes>
