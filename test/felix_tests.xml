@@ -249,6 +249,9 @@
           <subfield code="a">30-06-20</subfield>
           <subfield code="b">a</subfield>
         </datafield>
+        <datafield tag="208F" occurrence="01" fulltag="208@/01">
+          <subfield code="a">Number of pieces Test</subfield>
+        </datafield>
       </item>
     </metadata>
     <rawrecord><![CDATA[001@ ƒ021,2041

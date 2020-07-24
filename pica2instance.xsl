@@ -850,6 +850,9 @@
             <enumeration>
               <xsl:value-of select="datafield[@tag='231B']/subfield[@code='a']" />
             </enumeration>
+            <numberOfPieces>
+              <xsl:value-of select="datafield[@tag='208F']/subfield[@code='a']" />
+            </numberOfPieces>
             <xsl:if test="datafield[@tag='220B' or @tag='237A' or @tag='244Z']">
               <notes>
                 <arr>
