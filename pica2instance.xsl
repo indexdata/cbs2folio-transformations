@@ -853,10 +853,10 @@
             <numberOfPieces>
               <xsl:value-of select="datafield[@tag='208F']/subfield[@code='a']" />
             </numberOfPieces>
-            <xsl:if test="datafield[@tag='220B' or @tag='237A' or @tag='244Z']">
+            <xsl:if test="datafield[@tag='220B' or @tag='237A' or @tag='244Z' or @tag='209O']">
               <notes>
                 <arr>
-                  <xsl:for-each select="datafield[@tag='220B' or @tag='237A']">
+                  <xsl:for-each select="datafield[@tag='220B' or @tag='237A' or @tag='209O']">
                     <xsl:if test="./subfield[@code='a']">
                       <i>
                         <note><xsl:value-of select="./subfield[@code='a']" /></note>
