@@ -508,7 +508,7 @@
     <!-- Publication -->
     <publication>
       <arr>
-        <xsl:for-each select="datafield[@tag='033A' or @tag='033E']">
+        <xsl:for-each select="datafield[@tag='033A' or @tag='033E' or @tag='033C']">
           <i>
           <place>
               <xsl:call-template name="join">
@@ -527,7 +527,6 @@
                 </xsl:if>
                 <xsl:if test="$pos != last()"> ; </xsl:if>
               </xsl:for-each>
-          
             </publisher>
             <xsl:if test="..//datafield[@tag='011@']">
               <dateOfPublication>
@@ -552,6 +551,13 @@
                 </xsl:choose>
               </dateOfPublication>
             </xsl:if>
+            <role>
+            <xsl:choose>
+              <xsl:when test="./@tag = '033C'">Manufacturer</xsl:when>
+              <xsl:when test="./@tag = '033E'">Distributor</xsl:when>
+              <xsl:otherwise>Publisher</xsl:otherwise>
+            </xsl:choose>
+            </role>
           </i>
         </xsl:for-each>
       </arr>

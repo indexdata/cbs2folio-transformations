@@ -167,6 +167,10 @@
         <subfield code="p">Distributor place TEST</subfield>
         <subfield code="n">Distributor TEST</subfield>
       </datafield>
+      <datafield tag="033C" fulltag="033C">
+        <subfield code="p">Manufacturer place TEST</subfield>
+        <subfield code="n">Manufacturer TEST</subfield>
+      </datafield>
       <datafield tag="034D" fulltag="034D">
         <subfield code="a">1 Online-Ressource (xxiii, 374 Seiten)</subfield>
       </datafield>
