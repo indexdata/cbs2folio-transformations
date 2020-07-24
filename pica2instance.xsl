@@ -335,7 +335,7 @@
     </xsl:for-each>
 
     <!-- Alternative titles -->
-    <xsl:if test="datafield[@tag='047C' or @tag='027A' or @tag='021F' or @tag='026C'] or datafield[@tag='022A'][@occurrence='00']">
+    <xsl:if test="datafield[@tag='047C' or @tag='027A' or @tag='021F' or @tag='046C' or @tag='026C'] or datafield[@tag='022A'][@occurrence='00']">
       <alternativeTitles>
         <arr>
           <xsl:for-each select="datafield[@tag='047C' or @tag='027A' or @tag='026C']">
@@ -364,6 +364,19 @@
                 </xsl:choose>
               </alternativeTitle>
               <alternativeTitleTypeId>Parallel title</alternativeTitleTypeId>
+            </i>
+          </xsl:for-each>
+          <xsl:for-each select="datafield[@tag='046C']">
+            <xsl:variable name="vti" select="./subfield[@code='i']"></xsl:variable>
+            <xsl:variable name="vta" select="./subfield[@code='a']"></xsl:variable>
+            <i>
+              <alternativeTitle>
+                <xsl:choose>
+                  <xsl:when test="$vti and $vta"><xsl:value-of select="concat($vti, ': ', $vta)" /></xsl:when>
+                  <xsl:otherwise><xsl:value-of select="$vta" /></xsl:otherwise>
+                </xsl:choose>
+              </alternativeTitle>
+              <alternativeTitleTypeId>Other title</alternativeTitleTypeId>
             </i>
           </xsl:for-each>
           <xsl:if test="datafield[@tag='022A']">
