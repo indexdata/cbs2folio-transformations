@@ -156,8 +156,16 @@
       </datafield>
       <datafield tag="033A" fulltag="033A">
         <subfield code="p">New York</subfield>
-        <subfield code="p">London</subfield>
         <subfield code="n">Routledge</subfield>
+        <subfield code="h">1900-2000 TEST</subfield>
+        <subfield code="z">f</subfield>
+        <subfield code="p">London</subfield>
+        <subfield code="n">Routledge UK TEST</subfield>
+        <subfield code="z">z</subfield>
+      </datafield>
+      <datafield tag="033E" fulltag="033E">
+        <subfield code="p">Distributor place TEST</subfield>
+        <subfield code="n">Distributor TEST</subfield>
       </datafield>
       <datafield tag="034D" fulltag="034D">
         <subfield code="a">1 Online-Ressource (xxiii, 374 Seiten)</subfield>

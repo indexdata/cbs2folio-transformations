@@ -506,16 +506,29 @@
     </xsl:if>
 
     <!-- Publication -->
-    <xsl:for-each select="datafield[@tag='033A']">
-      <publication>
-        <arr>
+    <publication>
+      <arr>
+        <xsl:for-each select="datafield[@tag='033A' or @tag='033E']">
           <i>
-            <publisher>
-              <xsl:value-of select="./subfield[@code='n']"></xsl:value-of>
-            </publisher>
-            <place>
-              <xsl:value-of select="./subfield[@code='p']"></xsl:value-of>
+          <place>
+              <xsl:call-template name="join">
+                <xsl:with-param name="list" select="./subfield[@code='p']" />
+                <xsl:with-param name="separator" select="' ; '" />
+              </xsl:call-template>
             </place>
+            <publisher>
+              <xsl:for-each select="./subfield[@code='n']">
+                <xsl:variable name="pos" select="position()" />
+                <xsl:if test="../subfield[@code='z'][$pos] = 'f'">früher: </xsl:if>
+                <xsl:if test="../subfield[@code='z'][$pos] = 'z'">später: </xsl:if>
+                <xsl:value-of select="." />
+                <xsl:if test="../subfield[@code='h'][$pos]">
+                  <xsl:value-of select="concat(' (', ../subfield[@code='h'][$pos], ')')" />
+                </xsl:if>
+                <xsl:if test="$pos != last()"> ; </xsl:if>
+              </xsl:for-each>
+          
+            </publisher>
             <xsl:if test="..//datafield[@tag='011@']">
               <dateOfPublication>
                 <xsl:variable name="date-a" select="../datafield[@tag='011@']/subfield[@code='a']" />
@@ -540,9 +553,9 @@
               </dateOfPublication>
             </xsl:if>
           </i>
-        </arr>
-      </publication>
-    </xsl:for-each>
+        </xsl:for-each>
+      </arr>
+    </publication>
 
     <!-- Publication frequency -->
     <xsl:if test="datafield[@tag='018@']">
