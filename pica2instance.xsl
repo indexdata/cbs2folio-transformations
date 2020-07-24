@@ -505,8 +505,6 @@
       </contributors>
     </xsl:if>
 
-    <!-- Editions -->
-
     <!-- Publication -->
     <xsl:for-each select="datafield[@tag='033A']">
       <publication>
@@ -546,6 +544,18 @@
       </publication>
     </xsl:for-each>
 
+    <!-- Publication frequency -->
+    <xsl:if test="datafield[@tag='018@']">
+      <publicationFrequency>
+        <arr>
+          <xsl:for-each select="datafield[@tag='018@']/subfield[@code='a']">
+            <i><xsl:value-of select="." /></i>
+          </xsl:for-each>
+        </arr>
+      </publicationFrequency>
+    </xsl:if>
+
+    <!-- Notes -->
     <xsl:if test="datafield[@tag='011B' or @tag='037A' or @tag='046P' or @tag='046L' or @tag='046K']">
       <notes>
         <arr>
