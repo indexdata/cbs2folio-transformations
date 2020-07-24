@@ -196,7 +196,8 @@
       or @tag='005A' or @tag='005I' or @tag='005P' or @tag='005D' or @tag='004F' or @tag='004M' or @tag='004I' or @tag='006A'
       or @tag='006B' or @tag='006G' or @tag='006T' or @tag='006U' or @tag='006Z' or @tag='006S' or @tag='006L' or @tag='006'
       or @tag='006V' or @tag='006W' or @tag='006M' or @tag='004V' or @tag='004R' or @tag='004W' or @tag='004L' or @tag='004C'
-      or @tag='004U' or @tag='003O' or @tag='003T' or @tag='003D' or @tag='007C' or @tag='007D' or @tag='007G' or @tag='017K']">
+      or @tag='004U' or @tag='003O' or @tag='003T' or @tag='003D' or @tag='007C' or @tag='007D' or @tag='007G' or @tag='017K'
+      or @tag='017L']">
         <i>
           <xsl:choose>
             <xsl:when test="current()[@tag='004A' or @tag='004D' or @tag='004P' or @tag='005A' or @tag='005P' or @tag='005D' or @tag='004F' or @tag='004M' or @tag='004I']">
@@ -253,14 +254,19 @@
                 </xsl:choose>
               </identifierTypeId>
             </xsl:when>
-            <xsl:when test="./@tag='017K'">
+            <xsl:when test="./@tag='017K' or ./@tag='017L'">
               <value>
                <xsl:call-template name="join">
                 <xsl:with-param name="list" select="./subfield[@code='a' or @code='b' or @code='c' or @code='d']" />
                 <xsl:with-param name="separator" select="' '" />
               </xsl:call-template> 
               </value>
-              <identifierTypeId>Produktsigel Gesamtpaket</identifierTypeId>
+              <identifierTypeId>
+                <xsl:choose>
+                    <xsl:when test="./@tag='017L'">Produktsigel Teilpaket, Arbeitsfeld für sonstige Produktsigel</xsl:when>
+                    <xsl:otherwise>Produktsigel Gesamtpaket</xsl:otherwise>
+                </xsl:choose>
+              </identifierTypeId>
             </xsl:when>
             <xsl:when test="./subfield[@code='0']">
               <value>

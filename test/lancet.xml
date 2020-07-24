@@ -125,6 +125,10 @@
       <datafield tag="017K" fulltag="017K">
         <subfield code="a">ZDB-1-AAS3</subfield>
       </datafield>
+      <datafield tag="017L" fulltag="017L">
+        <subfield code="a">ZDB-1-AAS3</subfield>
+        <subfield code="b">TEST</subfield>
+      </datafield>
       <datafield tag="018@" fulltag="018@">
         <subfield code="a">z</subfield>
       </datafield>
@@ -264,6 +268,76 @@
         </datafield>
       </item>
     </metadata>
-    <rawrecord><![CDATA[001@ ƒ011,14,20-24,30-32,34,39-40,55,60-66,69-70,72-74,90-91,95,100-101,105,110,118,120-122,130-132,138,140,147,151-152,160-161,164,168,170-171,178,185-187,209,213,215,224,230,239,252,264,285,293,370,374,602-603,635,640,647-648,685,702,752,754,789,2001,2003-2011,2014-2015,2018,2020-2021,2025-2027,2031,2034,2036-2039,2043-2044,2048-2049,2055-2057,2059,2061,2064-2065,2068,2088,2093,2106-2108,2110-2113,2116,2118-2119,2122,2129,2134,2143-2144,2147-2148,2152-2153,2158,2190,2193,2232,2395,2403,2424,2446,2470,2472,2474,2507,2522,2807,2985,4012,4035,4037,4046,4112,4125-4126,4242,4246,4249,4251,4277,4305-4307,4313,4322-4326,4328,4333-4336,4338,4346,4367,4393,4700,4753001A ƒ02004:10-06-99001B ƒ02004:09-06-19ƒt04:21:56.000001D ƒ02004:10-06-99001U ƒ0utf8001X ƒ00002@ ƒ0Obv002C ƒaTextƒbtxt002D ƒaComputermedienƒbc002E ƒaOnline-Ressourceƒbcr003@ ƒ0270128484003O ƒaOCoLCƒ0863013852ƒv2012-12-31003S ƒ0078590159003T ƒaOCoLCƒ01021351103003T ƒaOCoLCƒ01033770426005A ƒ01474-547X005P ƒSpƒ00140-6736006G ƒ0019696191006Z ƒ01476593-7007C ƒ0LANCA007G ƒiZDBƒ01476593-7010@ ƒaeng011@ ƒa1823ƒn1823-013D ƒ910454466Xƒ8Zeitschrift ; ID: gnd/4067488-5016A ƒ0cr|uuu---uuuuu009P/03 ƒahttp://www.bibliothek.uni-regensburg.de/ezeit/?1476593ƒxF009P/03 ƒahttp://www.thelancet.com/journals/lancetƒxH009P/03 ƒahttp://www.sciencedirect.com/science/journal/01406736ƒxH009P/03 ƒahttp://www.sciencedirect.com/science/journal/01406736ƒxH ; 1.1823 - 360.2002ƒ4NL009P/03 ƒahttp://search.ebscohost.com/login.aspx?direct=true&db=h9j&jid=8ACR&site=ehost-liveƒxD ; 1.1842 - 2.1844ƒ4NL009P/03 ƒahttp://search.ebscohost.com/login.aspx?direct=true&db=h9j&jid=6IQ3&site=ehost-liveƒxD ; 1.1845,1 - 2.1852,6ƒ4NL017K ƒaZDB-1-SDJ017K ƒaZDB-1-AAS3018@ ƒaz019@ ƒaXA-GBƒaXD-US021A ƒaThe @lancet025@ ƒaThe @lancet <London>026C ƒaLancet031@ ƒa1.1823 -031N ƒd1ƒj1823ƒ6033A ƒpLondon [u.a.]ƒnElsevier033A ƒpLondonƒnThe Lancet Ltd.ƒhanfangsƒzf034D ƒaOnline-Ressource039D ƒiDruckausg.ƒ733066ƒtThe lancet <London>ƒCZDBƒ633066044K ƒ9104584963ƒ8Medizin ; ID: gnd/4038243-6044K ƒ9106219324ƒ8Naturwissenschaften ; ID: gnd/4041421-8045G ƒa610ƒADE-600045Q/01 ƒ9106409646ƒ844.00$jMedizin: Allgemeines045Q/02 ƒ9106410709ƒ830.00$jNaturwissenschaften allgemein: Allgemeines045R ƒaELIB24046C ƒiNebent.ƒaLondon lancet047A ƒaFEST:22/01/01 (GBV)047A ƒaFEST:09/06/00 (GBV)201B/01 ƒ016-07-18ƒt16:56:19.000201U/01 ƒ0utf8202D/01 ƒ016-07-18ƒb6277ƒa0046203@/01 ƒ01784253170208@/01 ƒa16-07-18ƒbbkb209A/01 ƒb46ƒj5555ƒdsƒx00209B/01 ƒakyƒx52209B/01 ƒa02ƒc12ƒdzzƒx53209O/01 ƒaKBPLUS_ProviderID13_SubID33_SubStartDate_2018-01-01_SubEndDate_2100-12-31ƒx00209O/01 ƒaCore:Print+Electronicƒx00209R/01 ƒuhttp://www.sciencedirect.com/science/journal/01406736220B/01 ƒaPapierkopie an Endnutzer; nur Inland231@/01 ƒd365ƒj2004ƒk2017231B/01 ƒalizenziert: 365.2004 - 2017237A/01 ƒaZugriff fuer Nutzer der Bremischen Hochschulen; Remotezugriff: OK]]></rawrecord>
+    <rawrecord><![CDATA[001@ ƒ011,14,20-24,30-32,34,39-40,55,60-66,69-70,72-74,90-91,95,100-101,105,110,118,120-122,130-132,138,140,147,151-152,160-161,164,168,170-171,178,185-187,209,213,215,224,230,239,252,264,285,293,370,374,602-603,635,640,647-648,685,702,752,754,789,2001,2003-2011,2014-2015,2018,2020-2021,2025-2027,2031,2034,2036-2039,2043-2044,2048-2049,2055-2057,2059,2061,2064-2065,2068,2088,2093,2106-2108,2110-2113,2116,2118-2119,2122,2129,2134,2143-2144,2147-2148,2152-2153,2158,2190,2193,2232,2395,2403,2424,2446,2470,2472,2474,2507,2522,2807,2985,4012,4035,4037,4046,4112,4125-4126,4242,4246,4249,4251,4277,4305-4307,4313,4322-4326,4328,4333-4336,4338,4346,4367,4393,4700,4753
+001A ƒ02004:10-06-99
+001B ƒ02004:09-06-19ƒt04:21:56.000
+001D ƒ02004:10-06-99
+001U ƒ0utf8
+001X ƒ00
+002@ ƒ0Obv
+002C ƒaTextƒbtxt
+002D ƒaComputermedienƒbc
+002E ƒaOnline-Ressourceƒbcr
+003@ ƒ0270128484
+003O ƒaOCoLCƒ0863013852ƒv2012-12-31
+003S ƒ0078590159
+003T ƒaOCoLCƒ01021351103
+003T ƒaOCoLCƒ01033770426
+005A ƒ01474-547X
+005P ƒSpƒ00140-6736
+006G ƒ0019696191
+006Z ƒ01476593-7
+007C ƒ0LANCA
+007G ƒiZDBƒ01476593-7
+010@ ƒaeng
+011@ ƒa1823ƒn1823-
+013D ƒ910454466Xƒ8Zeitschrift ; ID: gnd/4067488-5
+016A ƒ0cr|uuu---uuuuu
+009P/03 ƒahttp://www.bibliothek.uni-regensburg.de/ezeit/?1476593ƒxF
+009P/03 ƒahttp://www.thelancet.com/journals/lancetƒxH
+009P/03 ƒahttp://www.sciencedirect.com/science/journal/01406736ƒxH
+009P/03 ƒahttp://www.sciencedirect.com/science/journal/01406736ƒxH ; 1.1823 - 360.2002ƒ4NL
+009P/03 ƒahttp://search.ebscohost.com/login.aspx?direct=true&db=h9j&jid=8ACR&site=ehost-liveƒxD ; 1.1842 - 2.1844ƒ4NL
+009P/03 ƒahttp://search.ebscohost.com/login.aspx?direct=true&db=h9j&jid=6IQ3&site=ehost-liveƒxD ; 1.1845,1 - 2.1852,6ƒ4NL
+017K ƒaZDB-1-SDJ
+017K ƒaZDB-1-AAS3
+018@ ƒaz
+019@ ƒaXA-GBƒaXD-US
+021A ƒaThe @lancet
+025@ ƒaThe @lancet <London>
+026C ƒaLancet
+031@ ƒa1.1823 -
+031N ƒd1ƒj1823ƒ6
+033A ƒpLondon [u.a.]ƒnElsevier
+033A ƒpLondonƒnThe Lancet Ltd.ƒhanfangsƒzf
+034D ƒaOnline-Ressource
+039D ƒiDruckausg.ƒ733066ƒtThe lancet <London>ƒCZDBƒ633066
+044K ƒ9104584963ƒ8Medizin ; ID: gnd/4038243-6
+044K ƒ9106219324ƒ8Naturwissenschaften ; ID: gnd/4041421-8
+045G ƒa610ƒADE-600
+045Q/01 ƒ9106409646ƒ844.00$jMedizin: Allgemeines
+045Q/02 ƒ9106410709ƒ830.00$jNaturwissenschaften allgemein: Allgemeines
+045R ƒaELIB24
+046C ƒiNebent.ƒaLondon lancet
+047A ƒaFEST:22/01/01 (GBV)
+047A ƒaFEST:09/06/00 (GBV)
+
+201B/01 ƒ016-07-18ƒt16:56:19.000
+201U/01 ƒ0utf8
+202D/01 ƒ016-07-18ƒb6277ƒa0046
+203@/01 ƒ01784253170
+208@/01 ƒa16-07-18ƒbbkb
+209A/01 ƒb46ƒj5555ƒdsƒx00
+209B/01 ƒakyƒx52
+209B/01 ƒa02ƒc12ƒdzzƒx53
+209O/01 ƒaKBPLUS_ProviderID13_SubID33_SubStartDate_2018-01-01_SubEndDate_2100-12-31ƒx00
+209O/01 ƒaCore:Print+Electronicƒx00
+209R/01 ƒuhttp://www.sciencedirect.com/science/journal/01406736
+220B/01 ƒaPapierkopie an Endnutzer; nur Inland
+231@/01 ƒd365ƒj2004ƒk2017
+231B/01 ƒalizenziert: 365.2004 - 2017
+237A/01 ƒaZugriff fuer Nutzer der Bremischen Hochschulen; Remotezugriff: OK
+
+]]></rawrecord>
   </record>
 </collection>
