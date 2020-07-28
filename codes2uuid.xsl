@@ -140,6 +140,9 @@
         <xsl:when test=".='Nicht spezifiziert'">71fbd940-1027-40a6-8a48-49b44d795e46</xsl:when>
         <xsl:when test=".='Bild(ersammlung)'">778666c8-e79b-4b62-a17a-2f350e165908</xsl:when>
         <xsl:when test=".='text (to be deleted)'">d9acad2f-2aac-4b48-9097-e6ab85906b25</xsl:when>
+        <xsl:when test=".='Aufsatz'">0b8a8d0b-767e-4b1e-89b8-c3192dd906b0</xsl:when>
+        <xsl:when test=".='Mehrteilige Monografie'">32dd9d91-be93-4e48-bd9e-e3e0f08f7d85</xsl:when>
+        <xsl:when test=".='Serie'">1ef6a0f9-6cc6-4da2-816e-9e674a9c5358</xsl:when>
         <xsl:otherwise>1a54b431-2e4f-452d-9cae-9cee66c9a892</xsl:otherwise>
       </xsl:choose>
     </materialTypeId>
