@@ -782,6 +782,7 @@
               <xsl:variable name="type" select="../datafield[@tag='002@']/subfield[@code='0']"></xsl:variable>
               <xsl:variable name="type1" select="substring($type, 1, 1)"></xsl:variable>
               <xsl:variable name="type12" select="substring($type, 1, 2)"></xsl:variable>
+              <xsl:variable name="type2" select="substring($type, 2, 1)"></xsl:variable>
               <xsl:variable name="pd" select="../datafield[@tag='013H']/subfield[@code='0']"></xsl:variable>
               <xsl:variable name="mt" select="../datafield[@tag='002D']/subfield[@code='b']"></xsl:variable>
               <xsl:choose>
@@ -791,6 +792,9 @@
                     <xsl:otherwise>Zeitschrift</xsl:otherwise>
                   </xsl:choose>
                 </xsl:when>
+                <xsl:when test="$type2 = 's'">Aufsatz</xsl:when>
+                <xsl:when test="$type2 = 'c'">Mehrteilige Monografie</xsl:when>
+                <xsl:when test="$type2 = 'd'">Serie</xsl:when>
                 <xsl:when test="$type1 = 'A'">
                   <xsl:choose>
                     <xsl:when test="$pd = 'kart'">Karte(nwerk)</xsl:when>
