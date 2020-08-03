@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<collection count="1">
+  <record>
+    <header status="upsert">
+      <identifier>38503881X</identifier>
+    </header>
+    <metadata>
+      <datafield tag="001@" fulltag="001@">
+        <subfield code="0">11,21-23,26,31-32,39-40,50,60,62,69,77,100,161,181,203-204,213,217,235,289,293,350,375,382,694,721,723,2009-2011,2023-2024,2027,2033,2036,2046,2065,2093,2299,2403,2505,2535,4277,4334</subfield>
+      </datafield>
+      <datafield tag="001A" fulltag="001A">
+        <subfield code="0">2004:14-04-04</subfield>
+      </datafield>
+      <datafield tag="001B" fulltag="001B">
+        <subfield code="0">2004:06-07-19</subfield>
+        <subfield code="t">11:57:13.000</subfield>
+      </datafield>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">2004:22-04-04</subfield>
+      </datafield>
+      <datafield tag="001U" fulltag="001U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="001X" fulltag="001X">
+        <subfield code="0">0</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Odv</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">Computermedien</subfield>
+        <subfield code="b">c</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Online-Ressource</subfield>
+        <subfield code="b">cr</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">38503881X</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">176877777</subfield>
+        <subfield code="v">2012-12-31</subfield>
+      </datafield>
+      <datafield tag="003S" fulltag="003S">
+        <subfield code="0">265360129</subfield>
+      </datafield>
+      <datafield tag="003T" fulltag="003T">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">984754041</subfield>
+      </datafield>
+      <datafield tag="005A" fulltag="005A">
+        <subfield code="0">1438-7662</subfield>
+      </datafield>
+      <datafield tag="006G" fulltag="006G">
+        <subfield code="0">025858920</subfield>
+      </datafield>
+      <datafield tag="006S" fulltag="006S">
+        <subfield code="0">281247161</subfield>
+      </datafield>
+      <datafield tag="006S" fulltag="006S">
+        <subfield code="0">442557175</subfield>
+      </datafield>
+      <datafield tag="006Y" fulltag="006Y">
+        <subfield code="0">lvrrad1020843</subfield>
+      </datafield>
+      <datafield tag="006Z" fulltag="006Z">
+        <subfield code="0">2142636-3</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">ZDB</subfield>
+        <subfield code="0">2142636-3</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">1998</subfield>
+        <subfield code="n">1998-</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">104628669</subfield>
+        <subfield code="8">Monografische Reihe ; ID: gnd/4179998-7</subfield>
+      </datafield>
+      <datafield tag="016A" fulltag="016A">
+        <subfield code="0">cr|uuu---uuuuu</subfield>
+      </datafield>
+      <datafield tag="016B" fulltag="016B">
+        <subfield code="a">SAXB</subfield>
+      </datafield>
+      <datafield tag="009P" occurrence="03" fulltag="009P/03">
+        <subfield code="a">http://www.ib.hu-berlin.de/inf/handrei.htm</subfield>
+        <subfield code="x">H</subfield>
+        <subfield code="4">LF</subfield>
+      </datafield>
+      <datafield tag="018@" fulltag="018@">
+        <subfield code="a">z</subfield>
+      </datafield>
+      <datafield tag="019@" fulltag="019@">
+        <subfield code="a">XA-DE</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Berliner Handreichungen zur Bibliotheks- und Informationswissenschaft</subfield>
+        <subfield code="h">Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft</subfield>
+      </datafield>
+      <datafield tag="029F" fulltag="029F">
+        <subfield code="9">122907388</subfield>
+        <subfield code="8">Freie Universität Berlin Institut für Bibliothekswissenschaft und Bibliothekarausbildung ; ID: gnd/2127595-6</subfield>
+        <subfield code="B">Herausgebendes Organ</subfield>
+        <subfield code="4">isb</subfield>
+      </datafield>
+      <datafield tag="029F" fulltag="029F">
+        <subfield code="9">183866096</subfield>
+        <subfield code="8">Humboldt-Universität zu Berlin Institut für Bibliothekswissenschaft ; ID: gnd/2144828-0</subfield>
+        <subfield code="B">Herausgebendes Organ</subfield>
+        <subfield code="4">isb</subfield>
+      </datafield>
+      <datafield tag="029F" fulltag="029F">
+        <subfield code="9">503111929</subfield>
+        <subfield code="8">Humboldt-Universität zu Berlin Institut für Bibliotheks- und Informationswissenschaft ; ID: gnd/10120031-6</subfield>
+        <subfield code="B">Herausgebendes Organ</subfield>
+        <subfield code="4">isb</subfield>
+      </datafield>
+      <datafield tag="031@" fulltag="031@">
+        <subfield code="a">2.1998 -</subfield>
+      </datafield>
+      <datafield tag="031N" fulltag="031N">
+        <subfield code="d">2</subfield>
+        <subfield code="j">1998</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Berlin</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">Online-Ressource</subfield>
+      </datafield>
+      <datafield tag="037A" fulltag="037A">
+        <subfield code="a">Gesehen am 15.11.10</subfield>
+      </datafield>
+      <datafield tag="039E" fulltag="039E">
+        <subfield code="b">f</subfield>
+        <subfield code="i">Druckausg. u. Vorg.</subfield>
+        <subfield code="9">642433968</subfield>
+        <subfield code="8">Berliner Handreichungen zur Bibliotheks- und Informationswissenschaft ; ZDB-ID: 2586241-8</subfield>
+        <subfield code="C">ZDB</subfield>
+        <subfield code="6">25862418</subfield>
+      </datafield>
+      <datafield tag="044K" fulltag="044K">
+        <subfield code="9">106377477</subfield>
+        <subfield code="8">Bibliothekswissenschaft ; ID: gnd/4006465-7</subfield>
+      </datafield>
+      <datafield tag="044K" fulltag="044K">
+        <subfield code="9">106377523</subfield>
+        <subfield code="8">Bibliothek ; ID: gnd/4006439-6</subfield>
+      </datafield>
+      <datafield tag="044K" fulltag="044K">
+        <subfield code="9">105718254</subfield>
+        <subfield code="8">Informations- und Dokumentationswissenschaft ; ID: gnd/4128313-2</subfield>
+      </datafield>
+      <datafield tag="045D" occurrence="49" fulltag="045D/49">
+        <subfield code="b">44</subfield>
+      </datafield>
+      <datafield tag="045D" occurrence="49" fulltag="045D/49">
+        <subfield code="b">81</subfield>
+        <subfield code="c">Online-Publikation</subfield>
+        <subfield code="d">Online publication</subfield>
+      </datafield>
+      <datafield tag="045G" fulltag="045G">
+        <subfield code="a">020</subfield>
+        <subfield code="A">DE-600</subfield>
+      </datafield>
+      <datafield tag="045Q" occurrence="01" fulltag="045Q/01">
+        <subfield code="9">106402811</subfield>
+        <subfield code="8">06.30 Bibliothekswesen Dokumentationswesen: Allgemeines</subfield>
+      </datafield>
+      <datafield tag="045Q" occurrence="02" fulltag="045Q/02">
+        <subfield code="9">106403648</subfield>
+        <subfield code="8">06.04 Ausbildung Beruf Organisationen Information und Dokumentation</subfield>
+      </datafield>
+      <datafield tag="045V" fulltag="045V">
+        <subfield code="a">24,1</subfield>
+      </datafield>
+      <datafield tag="045Y" fulltag="045Y">
+        <subfield code="a">bbi</subfield>
+      </datafield>
+      <datafield tag="046D" fulltag="046D">
+        <subfield code="i">Hauptsacht. teils</subfield>
+        <subfield code="a">Berliner Handreichungen zur Bibliothekswissenschaft</subfield>
+      </datafield>
+      <datafield tag="046D" fulltag="046D">
+        <subfield code="i">Hauptsacht. teils u. später Nebent.</subfield>
+        <subfield code="a">Berliner Handreichungen zur Bibliothekswissenschaft und Bibliothekarausbildung</subfield>
+      </datafield>
+      <datafield tag="046P" fulltag="046P">
+        <subfield code="a">Bd 201 nicht ersch.</subfield>
+      </datafield>
+      <item epn="1163626767">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">16-01-14</subfield>
+          <subfield code="t">16:14:23.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="01" fulltag="202D/01">
+          <subfield code="0">16-01-14</subfield>
+          <subfield code="b">6277</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">1163626767</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">25-05-10</subfield>
+          <subfield code="b">xza</subfield>
+        </datafield>
+        <datafield tag="209O" occurrence="01" fulltag="209O/01">
+          <subfield code="a">ebook_laufend_anzuhängen</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+      </item>
+    </metadata>
+    <rawrecord><![CDATA[001@ ƒ011,21-23,26,31-32,39-40,50,60,62,69,77,100,161,181,203-204,213,217,235,289,293,350,375,382,694,721,723,2009-2011,2023-2024,2027,2033,2036,2046,2065,2093,2299,2403,2505,2535,4277,4334001A ƒ02004:14-04-04001B ƒ02004:06-07-19ƒt11:57:13.000001D ƒ02004:22-04-04001U ƒ0utf8001X ƒ00002@ ƒ0Odv002C ƒaTextƒbtxt002D ƒaComputermedienƒbc002E ƒaOnline-Ressourceƒbcr003@ ƒ038503881X003O ƒaOCoLCƒ0176877777ƒv2012-12-31003S ƒ0265360129003T ƒaOCoLCƒ0984754041005A ƒ01438-7662006G ƒ0025858920006S ƒ0281247161006S ƒ0442557175006Y ƒ0lvrrad1020843006Z ƒ02142636-3007G ƒiZDBƒ02142636-3010@ ƒager011@ ƒa1998ƒn1998-013D ƒ9104628669ƒ8Monografische Reihe ; ID: gnd/4179998-7016A ƒ0cr|uuu---uuuuu016B ƒaSAXB009P/03 ƒahttp://www.ib.hu-berlin.de/inf/handrei.htmƒxHƒ4LF018@ ƒaz019@ ƒaXA-DE021A ƒaBerliner Handreichungen zur Bibliotheks- und InformationswissenschaftƒhHumboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft029F ƒ9122907388ƒ8Freie Universität Berlin$bInstitut für Bibliothekswissenschaft und Bibliothekarausbildung ; ID: gnd/2127595-6ƒBHerausgebendes Organƒ4isb029F ƒ9183866096ƒ8Humboldt-Universität zu Berlin$bInstitut für Bibliothekswissenschaft ; ID: gnd/2144828-0ƒBHerausgebendes Organƒ4isb029F ƒ9503111929ƒ8Humboldt-Universität zu Berlin$bInstitut für Bibliotheks- und Informationswissenschaft ; ID: gnd/10120031-6ƒBHerausgebendes Organƒ4isb031@ ƒa2.1998 -031N ƒd2ƒj1998033A ƒpBerlin034D ƒaOnline-Ressource037A ƒaGesehen am 15.11.10039E ƒbfƒiDruckausg. u. Vorg.ƒ9642433968ƒ8Berliner Handreichungen zur Bibliotheks- und Informationswissenschaft ; ZDB-ID: 2586241-8ƒCZDBƒ625862418044K ƒ9106377477ƒ8Bibliothekswissenschaft ; ID: gnd/4006465-7044K ƒ9106377523ƒ8Bibliothek ; ID: gnd/4006439-6044K ƒ9105718254ƒ8Informations- und Dokumentationswissenschaft ; ID: gnd/4128313-2045D/49 ƒb44045D/49 ƒb81ƒcOnline-PublikationƒdOnline publication045G ƒa020ƒADE-600045Q/01 ƒ9106402811ƒ806.30$jBibliothekswesen$jDokumentationswesen: Allgemeines045Q/02 ƒ9106403648ƒ806.04$jAusbildung$jBeruf$jOrganisationen$XInformation und Dokumentation045V ƒa24,1045Y ƒabbi046D ƒiHauptsacht. teilsƒaBerliner Handreichungen zur Bibliothekswissenschaft046D ƒiHauptsacht. teils u. später Nebent.ƒaBerliner Handreichungen zur Bibliothekswissenschaft und Bibliothekarausbildung046P ƒaBd 201 nicht ersch.201B/01 ƒ016-01-14ƒt16:14:23.000201U/01 ƒ0utf8202D/01 ƒ016-01-14ƒb6277ƒa0046203@/01 ƒ01163626767208@/01 ƒa25-05-10ƒbxza209O/01 ƒaebook_laufend_anzuhängenƒx00]]></rawrecord>
+  </record>
+</collection>
