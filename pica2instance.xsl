@@ -30,22 +30,23 @@
       </xsl:call-template>
     </xsl:variable>
 
+    <xsl:variable name="udate" >
+      <xsl:call-template name="pica-to-iso-date">
+        <xsl:with-param name="input" select="datafield[@tag='001B']/subfield[@code='0']" />
+        <xsl:with-param name="suffix" select="concat('T', datafield[@tag='001B']/subfield[@code='t'], '+0000')" />
+      </xsl:call-template>
+    </xsl:variable>
+
     <catalogedDate><xsl:value-of select="$cdate" /></catalogedDate>
 
-    <xsl:if test="datafield[@tag='001B']">
-      <metadata>
-        <xsl:for-each select="datafield[@tag='001B']">
-          <xsl:variable name="udate" >
-            <xsl:call-template name="pica-to-iso-date">
-              <xsl:with-param name="input" select="./subfield[@code='0']" />
-              <xsl:with-param name="suffix" select="concat('T', ./subfield[@code='t'], 'Z')" />
-            </xsl:call-template>
-          </xsl:variable>
-          <updatedDate><xsl:value-of select="$udate" /></updatedDate>
-          <createdDate><xsl:value-of select="$cdate" /></createdDate>
-        </xsl:for-each>
-      </metadata>
-    </xsl:if>
+    <metadata>
+      <updatedDate><xsl:value-of select="$udate" /></updatedDate>
+      <updatedByUserId>47a72722-eb72-4d77-bfc5-cbc9ec39f4a2</updatedByUserId>
+      <updatedByUsername>cledvina</updatedByUsername>
+      <createdDate><xsl:value-of select="concat($cdate, 'T12:00:00.000+0000')" /></createdDate>
+      <createdByUserId>47a72722-eb72-4d77-bfc5-cbc9ec39f4a2</createdByUserId>
+      <createdByUsername>cledvina</createdByUsername>
+    </metadata>
 
     <xsl:for-each select="datafield[@tag='001D']/subfield[@code='0'][not(contains(.,'99-99'))]">
       <statusUpdatedDate>
