@@ -32,20 +32,20 @@
       </catalogedDate>
     </xsl:for-each>
 
-<!-- This will causes errors right now because createdDate also needs to be there
     <xsl:if test="datafield[@tag='001B']">
       <metadata>
         <xsl:for-each select="datafield[@tag='001B']">
-          <updatedDate>
+          <xsl:variable name="udate" >
             <xsl:call-template name="pica-to-iso-date">
-              <xsl:with-param name="input" select="subfield[@code='0']" />
-              <xsl:with-param name="suffix" select="concat('T', subfield[@code='t'], 'Z')" />
+              <xsl:with-param name="input" select="./subfield[@code='0']" />
+              <xsl:with-param name="suffix" select="concat('T', ./subfield[@code='t'], 'Z')" />
             </xsl:call-template>
-          </updatedDate>
+          </xsl:variable>
+          <updatedDate><xsl:value-of select="$udate" /></updatedDate>
+          <createdDate><xsl:value-of select="$udate" /></createdDate>
         </xsl:for-each>
       </metadata>
     </xsl:if>
--->
 
     <xsl:for-each select="datafield[@tag='001D']/subfield[@code='0'][not(contains(.,'99-99'))]">
       <statusUpdatedDate>
