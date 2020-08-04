@@ -148,7 +148,8 @@
     </materialTypeId>
   </xsl:template>
 
-  <!-- Map locations -->
+  <!-- Map locations 
+       NOTE: The the tests are the codes returned by 209@ $f, not the location names in FOLIO -->
   <xsl:template match="permanentLocationId">
     <permanentLocationId>
       <xsl:choose>
