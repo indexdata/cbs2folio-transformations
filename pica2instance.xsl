@@ -24,6 +24,8 @@
       <xsl:value-of select="$ppn" />
     </hrid>
 
+    <!-- Metadata won't load.  It appears like FOLIO simply overrides the data with what it sees fit.
+
     <xsl:variable name="cdate">
       <xsl:call-template name="pica-to-iso-date">
         <xsl:with-param name="input" select="datafield[@tag='001A']/subfield[@code='0']" />
@@ -47,6 +49,8 @@
       <createdByUserId>47a72722-eb72-4d77-bfc5-cbc9ec39f4a2</createdByUserId>
       <createdByUsername>cledvina</createdByUsername>
     </metadata>
+
+    -->
 
     <xsl:for-each select="datafield[@tag='001D']/subfield[@code='0'][not(contains(.,'99-99'))]">
       <statusUpdatedDate>
@@ -1016,22 +1020,5 @@
       <xsl:value-of select="concat($year, '-', $month, '-', $day, $suffix)" />
     </xsl:if>
   </xsl:template>
-
-  <xsl:template name="remove-characters-last">
-    <xsl:param name="input" />
-    <xsl:param name="characters"/>
-    <xsl:variable name="lastcharacter" select="substring($input,string-length($input))" />
-    <xsl:choose>
-      <xsl:when test="$characters and $lastcharacter and contains($characters, $lastcharacter)">
-        <xsl:call-template name="remove-characters-last">
-          <xsl:with-param  name="input" select="substring($input,1, string-length($input)-1)" />
-          <xsl:with-param  name="characters" select="$characters" />
-        </xsl:call-template>
-      </xsl:when>
-      <xsl:otherwise>
-        <xsl:value-of select="$input"/>
-      </xsl:otherwise>
-    </xsl:choose>
-  </xsl:template>
-
+  
 </xsl:stylesheet>
