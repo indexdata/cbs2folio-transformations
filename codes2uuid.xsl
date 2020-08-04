@@ -147,22 +147,20 @@
       </xsl:choose>
     </materialTypeId>
   </xsl:template>
+
   <!-- Map locations -->
   <xsl:template match="permanentLocationId">
     <permanentLocationId>
       <xsl:choose>
-        <xsl:when test=".='ORWIG ETHNO CD'">758258bc-ecc1-41b8-abca-f7b610822ffd</xsl:when>
-        <xsl:when test=".='SECOND FLOOR'">f34d27c6-a8eb-461b-acd6-5dea81771e70</xsl:when>
-        <xsl:when test=".='Main Library'">fcd64ce1-6995-48f0-840e-89ffa2288371</xsl:when>
-        <xsl:when test=".='Online'">184aae84-a5bf-4c6a-85ba-4a7c73026cd5</xsl:when>
-        <xsl:when test=".='Annex'">53cf956f-c1df-410b-8bea-27f712cca7c0</xsl:when>
-        <xsl:when test=".='Popular Reading Collection'">b241764c-1466-4e1d-a028-1a3684a5da87</xsl:when>
         <xsl:when test=".='Zeitschriftenlesesaal'">7f9cbae3-4831-45ed-9fb5-bdcc30544c18</xsl:when>
         <xsl:when test=".='Magazin'">158e56a0-92f7-4c29-9630-ea134483dbb8</xsl:when>
         <xsl:when test=".='Mediathek'">11d9bb9b-fe63-4159-965f-e1ba26f6850a</xsl:when>
         <xsl:when test=".='Handschriftenlesesaal'">31ac6d7e-4a9a-469b-b7a4-18c99c9ba87a</xsl:when>
         <xsl:when test=".='Zentrale Leihtheke'">48e979f0-b637-4dbb-b818-e03b6ef8c58b</xsl:when>
-        <xsl:otherwise>48e979f0-b637-4dbb-b818-e03b6ef8c58b</xsl:otherwise>
+        <xsl:when test=".='Freihandbereich 1'">5ecf63c1-c76e-4896-aaf2-8a97ab9f032c</xsl:when>
+        <xsl:when test=".='BB Wirtschaftswissenschaften'">fa1d4d42-a872-4e5f-9346-d2840421060d</xsl:when>
+        <xsl:when test=".='TB Bremerhaven'">c19004fc-6c68-4de4-8d23-f5788a6567d1</xsl:when>
+        <xsl:otherwise>c19004fc-6c68-4de4-8d23-f5788a6567d1</xsl:otherwise>
       </xsl:choose>
     </permanentLocationId>
   </xsl:template>

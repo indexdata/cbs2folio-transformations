@@ -772,7 +772,18 @@
     <i>
       <xsl:variable name="hhrid" select="datafield[@tag='203@']/subfield[@code='0']" />
       <hrid><xsl:value-of select="$hhrid" /></hrid>
-      <permanentLocationId>Zentrale Leihtheke</permanentLocationId> <!-- hardcoded : where to find in item record? -->
+      <xsl:variable name="lcode" select="datafield[@tag='209@']/subfield[@code='f']"></xsl:variable>
+      <xsl:variable name="location">
+        <xsl:choose>
+          <xsl:when test="$lcode = 'ZS-Lesesaal'">Zeitschriftenlesesaal</xsl:when>
+          <xsl:when test="$lcode = 'Mediathek'">Mediathek</xsl:when>
+          <xsl:when test="$lcode = 'Handschr.-LS'">Handschriftenlesesaal</xsl:when>
+          <xsl:when test="$lcode = 'BB WiWi'">BB Wirtschaftswissenschaften</xsl:when>
+          <xsl:when test="$lcode = 'TB BHV'">TB Bremerhaven</xsl:when>
+          <xsl:otherwise>Magazin</xsl:otherwise>
+        </xsl:choose>
+      </xsl:variable>
+      <permanentLocationId><xsl:value-of select="$location" /></permanentLocationId>
       <callNumber><xsl:value-of select="datafield[@tag='209A']/subfield[@code='a']" /></callNumber>
       <items>
         <arr>
