@@ -24,13 +24,13 @@
       <xsl:value-of select="$ppn" />
     </hrid>
 
-    <xsl:for-each select="datafield[@tag='001A']/subfield[@code='0']">
-      <catalogedDate>
-        <xsl:call-template name="pica-to-iso-date">
-          <xsl:with-param name="input" select="." />
-        </xsl:call-template>
-      </catalogedDate>
-    </xsl:for-each>
+    <xsl:variable name="cdate">
+      <xsl:call-template name="pica-to-iso-date">
+        <xsl:with-param name="input" select="datafield[@tag='001A']/subfield[@code='0']" />
+      </xsl:call-template>
+    </xsl:variable>
+
+    <catalogedDate><xsl:value-of select="$cdate" /></catalogedDate>
 
     <xsl:if test="datafield[@tag='001B']">
       <metadata>
@@ -42,7 +42,7 @@
             </xsl:call-template>
           </xsl:variable>
           <updatedDate><xsl:value-of select="$udate" /></updatedDate>
-          <createdDate><xsl:value-of select="$udate" /></createdDate>
+          <createdDate><xsl:value-of select="$cdate" /></createdDate>
         </xsl:for-each>
       </metadata>
     </xsl:if>
