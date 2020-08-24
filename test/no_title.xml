@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <collection count="1">
   <record>
-    <header status="upsert">
-      <identifier>164286691</identifier>
-    </header>
+    <status>upsert</status>
+    <hrid>164286691</hrid>
     <metadata>
       <datafield tag="001@" fulltag="001@">
         <subfield code="0">21,62</subfield>
@@ -83,7 +82,7 @@
       </datafield>
       <datafield tag="033J" fulltag="033J">
         <subfield code="9">731540484</subfield>
-        <subfield code="8">Zeitungsdruckerei$gBayreuth ; ID: gnd/6147273-6</subfield>
+        <subfield code="8">Zeitungsdruckerei Bayreuth ; ID: gnd/6147273-6</subfield>
       </datafield>
       <datafield tag="034D" fulltag="034D">
         <subfield code="a">364 S., [2] Bl</subfield>
@@ -124,8 +123,8 @@
           <subfield code="0">utf8</subfield>
         </datafield>
         <datafield tag="202D" occurrence="01" fulltag="202D/01">
-          <subfield code="0">02-06-20</subfield>
-          <subfield code="b">800</subfield>
+          <subfield code="0">01-08-20</subfield>
+          <subfield code="b">touchtitle</subfield>
           <subfield code="a">1999</subfield>
         </datafield>
         <datafield tag="203@" occurrence="01" fulltag="203@/01">
@@ -150,6 +149,6 @@
         </datafield>
       </item>
     </metadata>
-    <rawrecord><![CDATA[001@ ƒ021,62001A ƒ00007:04-10-94001B ƒ01999:02-06-20ƒt12:05:33.000001D ƒ09999:99-99-99001U ƒ0utf8001X ƒ00002@ ƒ0Afu002C ƒaTextƒbtxt002D ƒaohne Hilfsmittel zu benutzenƒbn002E ƒaBandƒbnc003@ ƒ0164286691003O ƒaOCoLCƒ0832253640ƒv2012-12-31007G ƒiGBVƒ0164286691007P ƒSfeiƒ0s.es r.e. s.4. *)Sc 3 1791A 2010@ ƒagerƒcfre011@ ƒa1791019@ ƒaXA-DE028A ƒ9076630315ƒ8Faur, Louis François *1746-1829* ; ID: gnd/100511341028C ƒ9728567830ƒ8Menzel, Johann Friedrich Leonhard *1765-1814* ; ID: gnd/1027194230028C ƒ9646084038ƒ8Valett, Johann Jakob Meno *1758-1850* ; ID: gnd/100844871033A ƒpBayreuthƒnZeitungsdruckerei033J ƒ9731540484ƒ8Zeitungsdruckerei$gBayreuth ; ID: gnd/6147273-6034D ƒa364 S., [2] Bl034I ƒa8°036C ƒaGeheime Lebensgeschichte des Marschalls von Richelieu oder Erzählung seiner Abenteuer, Liebschaften, Intriguen und all desjenigen, was auf die verschiedenen Rollen Bezug hat, die dieser merkwürdige Mann in einem Zeitraum von mehr als achtzig Jahren spielteƒh[Louis Francois Faur]ƒlZweyter Band036D ƒX2.1791ƒ9164286551ƒ8Geheime Lebensgeschichte des Marschalls von Richelieu oder Erzählung seiner Abenteuer, Liebschaften, Intriguen und all desjenigen, was auf die verschiedenen Rollen Bezug hat, die dieser merkwürdige Mann in einem Zeitraum von mehr als achtzig Jahren spielte / Faur, Louis François *1746-1829* ; ID: gnd/100511341ƒlZweyter Bandƒx_12 1791046H ƒaVorlageform der Veröffentlichungsangabe: Bayreuth : in der Zeitungsdruckerey daselbst046W ƒaIMD-Felder maschinell generiert (GBV)047C ƒaIntrigen201B/01 ƒ002-06-20ƒt12:05:33.000201D/01 ƒ01999:02-06-20201U/01 ƒ0utf8202D/01 ƒ002-06-20ƒb800ƒa1999203@/01 ƒ01298392063208@/01 ƒa12-03-12ƒbrza209C/01 ƒa60.c.1084ƒx00237A/01 ƒain Bearbeitung237A/01 ƒaBenutzung nur im HS-Lesesaal237A/01 ƒaBd. 1 bis Bd. 3 in einem Buch]]></rawrecord>
+    <rawrecord><![CDATA[001@ ƒ021,62001A ƒ00007:04-10-94001B ƒ01999:02-06-20ƒt12:05:33.000001D ƒ09999:99-99-99001U ƒ0utf8001X ƒ00002@ ƒ0Afu002C ƒaTextƒbtxt002D ƒaohne Hilfsmittel zu benutzenƒbn002E ƒaBandƒbnc003@ ƒ0164286691003O ƒaOCoLCƒ0832253640ƒv2012-12-31007G ƒiGBVƒ0164286691007P ƒSfeiƒ0s.es r.e. s.4. *)Sc 3 1791A 2010@ ƒagerƒcfre011@ ƒa1791019@ ƒaXA-DE028A ƒ9076630315ƒ8Faur, Louis François *1746-1829* ; ID: gnd/100511341028C ƒ9728567830ƒ8Menzel, Johann Friedrich Leonhard *1765-1814* ; ID: gnd/1027194230028C ƒ9646084038ƒ8Valett, Johann Jakob Meno *1758-1850* ; ID: gnd/100844871033A ƒpBayreuthƒnZeitungsdruckerei033J ƒ9731540484ƒ8Zeitungsdruckerei$gBayreuth ; ID: gnd/6147273-6034D ƒa364 S., [2] Bl034I ƒa8°036C ƒaGeheime Lebensgeschichte des Marschalls von Richelieu oder Erzählung seiner Abenteuer, Liebschaften, Intriguen und all desjenigen, was auf die verschiedenen Rollen Bezug hat, die dieser merkwürdige Mann in einem Zeitraum von mehr als achtzig Jahren spielteƒh[Louis Francois Faur]ƒlZweyter Band036D ƒX2.1791ƒ9164286551ƒ8Geheime Lebensgeschichte des Marschalls von Richelieu oder Erzählung seiner Abenteuer, Liebschaften, Intriguen und all desjenigen, was auf die verschiedenen Rollen Bezug hat, die dieser merkwürdige Mann in einem Zeitraum von mehr als achtzig Jahren spielte / Faur, Louis François *1746-1829* ; ID: gnd/100511341ƒlZweyter Bandƒx_12 1791046H ƒaVorlageform der Veröffentlichungsangabe: Bayreuth : in der Zeitungsdruckerey daselbst046W ƒaIMD-Felder maschinell generiert (GBV)047C ƒaIntrigen201B/01 ƒ002-06-20ƒt12:05:33.000201D/01 ƒ01999:02-06-20201U/01 ƒ0utf8202D/01 ƒ001-08-20ƒbtouchtitleƒa1999203@/01 ƒ01298392063208@/01 ƒa12-03-12ƒbrza209C/01 ƒa60.c.1084ƒx00237A/01 ƒain Bearbeitung237A/01 ƒaBenutzung nur im HS-Lesesaal237A/01 ƒaBd. 1 bis Bd. 3 in einem Buch]]></rawrecord>
   </record>
 </collection>

@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <collection count="5">
   <record>
-    <header status="upsert">
-      <identifier>1685461026</identifier>
-    </header>
+    <status>upsert</status>
+    <hrid>1685461026</hrid>
     <metadata>
       <datafield tag="001@" fulltag="001@">
         <subfield code="0">21,2041</subfield>
@@ -315,9 +314,8 @@
 ]]></rawrecord>
   </record>
   <record>
-    <header status="upsert">
-      <identifier>055468454</identifier>
-    </header>
+    <status>upsert</status>
+    <hrid>055468454</hrid>
     <metadata>
       <datafield tag="001@" fulltag="001@">
         <subfield code="0">21,62,376</subfield>
@@ -554,9 +552,8 @@
 ]]></rawrecord>
   </record>
   <record>
-    <header status="upsert">
-      <identifier>211577553</identifier>
-    </header>
+    <status>upsert</status>
+    <hrid>211577553</hrid>
     <metadata>
       <datafield tag="001@" fulltag="001@">
         <subfield code="0">11,21,31,267</subfield>
@@ -769,9 +766,8 @@
 ]]></rawrecord>
   </record>
   <record>
-    <header status="upsert">
-      <identifier>1672380227</identifier>
-    </header>
+    <status>upsert</status>
+    <hrid>1672380227</hrid>
     <metadata>
       <datafield tag="001@" fulltag="001@">
         <subfield code="0">21-22,40,65,70,121,152,164,2005,2007-2008,2018,2024,2035,2059,2105,2188</subfield>
@@ -1482,9 +1478,8 @@
 ]]></rawrecord>
   </record>
   <record>
-    <header status="upsert">
-      <identifier>13020014X</identifier>
-    </header>
+    <status>upsert</status>
+    <hrid>13020014X</hrid>
     <metadata>
       <datafield tag="001@" fulltag="001@">
         <subfield code="0">11,20-22,24,26,31,40,62,70,72,90,120,267,285,618,2003,2007-2010,2012,2018,2023,2037,2039,2470,2507,4012,4035,4082,4112,4125,4238,4277,4305-4306,4309-4312,4316,4324-4325,4346,4700</subfield>

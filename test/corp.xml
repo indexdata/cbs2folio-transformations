@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <collection count="1">
   <record>
-    <header status="upsert">
-      <identifier>161040829</identifier>
-    </header>
+    <status>upsert</status>
+    <hrid>161040829</hrid>
     <metadata>
       <datafield tag="001@" fulltag="001@">
         <subfield code="0">21,34,63,66,69,165,181,2001,2003,2006,2008,2011,2018,2166,2512</subfield>
@@ -272,6 +271,78 @@
         </datafield>
       </item>
     </metadata>
-    <rawrecord><![CDATA[001@ ƒ021,34,63,66,69,165,181,2001,2003,2006,2008,2011,2018,2166,2512001A ƒ02001:04-09-94001B ƒ0BSZ:18-03-19ƒt05:01:49.000001D ƒ09999:99-99-99001U ƒ0utf8001X ƒ00002@ ƒ0Aau002C ƒaTextƒbtxt002D ƒaohne Hilfsmittel zu benutzenƒbn002E ƒaBandƒbnc003@ ƒ0161040829003O ƒaOCoLCƒ0631546983ƒv2012-12-31003S ƒ0018996744003T ƒaOCoLCƒ020264662004A ƒ0379130965Xƒf : DM 380.00 (Gewebe)006A ƒ089022575006G ƒ0901063983006U ƒ090,A35,0877007G ƒiGBVƒ0161040829009@ ƒbBlocktest010@ ƒaeng011@ ƒa1990ƒn1990013D ƒ9104464909ƒ8Werkverzeichnis ; ID: gnd/4189680-4009Q ƒahttp://d-nb.info/901063983/04ƒmV:DE-576ƒqapplication/pdfƒv20130501ƒxHƒ3Inhaltsverzeichnisƒ504ƒADNBƒB2009Q ƒahttp://swbplus.bsz-bw.de/bsz018996744inh.htmƒmB:DE-576;DE-16ƒqapplication/pdfƒv20100610111902ƒxHƒ3Inhaltsverzeichnisƒ504019@ ƒaXA-DE021A ƒaMaurice Brazil Prendergast, Charles Prendergastƒda catalogue raisonnéƒhWilliams College Museum of Art. Carol Clark ...028C ƒ9079522378ƒ8Prendergast, Maurice Brazil *1858-1924* ; ID: gnd/118741845ƒBIll.028C ƒ9079698514ƒ8Prendergast, Charles *1863-1948* ; ID: gnd/118921371028C ƒdCarolƒaClarkƒBHrsg.028C ƒ91234683024ƒ8Mathews, Nancy Mowll028C ƒdGwendolynƒaOwens029F ƒ9103941096ƒ8Museum of Art$gWilliamstown, Mass.$bMaurice and Charles Prendergast Systematic Catalogue Project ; ID: gnd/5045032-3029F ƒ9102088497ƒ8Museum of Art$gWilliamstown, Mass. ; ID: gnd/671227-7033A ƒpMünchenƒnPrestel034D ƒa811 S034I ƒa31 cm034M ƒaüberw. Ill037A ƒaLiteraturverz. S. 730 - 759041A ƒ9079522378ƒ8Prendergast, Maurice Brazil *1858-1924* ; ID: gnd/118741845041A/10 ƒ9079698514ƒ8Prendergast, Charles *1863-1948* ; ID: gnd/118921371044A ƒpPrendergast, Maurice BrazilƒaCatalogues raisonnés044A ƒpPrendergast, CharlesƒaCatalogues raisonnés044K ƒ9079522378ƒ8Prendergast, Maurice Brazil *1858-1924* ; ID: gnd/118741845044K/01 ƒ9079698514ƒ8Prendergast, Charles *1863-1948* ; ID: gnd/118921371045A ƒaN6537.P68045E ƒa46045F ƒa760.092045F ƒa760/.092045M/10 ƒi9ƒaLI 99999045Q/01 ƒ9181571080ƒ820.31$jBildende Künstler045Q/02 ƒ9106406698ƒ821.02$jGeschichte der Malerei045R ƒ91270635948ƒ8LI 99999: Kunstgeschichte / Künstler-Monografien / Sonstige (CSN der Person)045V ƒa9,10046W ƒaIMD-Felder maschinell generiert (GBV)047A ƒa720 ff. (DDC): GBV/LOC; 5090 maschinell aus ähnlichen Titelaufnahmen ergänzt ; IMD-Felder und 1131 maschinell ergänzt (SWB)101B ƒ029-04-96ƒt02:01:25.227101U ƒ0utf8102D ƒ026-05-20ƒbtouchtitleƒa1999107F ƒ0vh 3000145Z/30 ƒakun 880 pren145Z/99 ƒa67201B/01 ƒ029-04-96ƒt02:01:25.266201U/01 ƒ0utf8202D/01 ƒ026-05-20ƒbtouchtitleƒa1999203@/01 ƒ0184549736208@/01 ƒa12-06-72ƒbxza209A/01 ƒah kun 880 pren/000ƒddƒx00209C/01 ƒavh 3000ƒx00]]></rawrecord>
+    <rawrecord><![CDATA[001@ ƒ021,34,63,66,69,165,181,2001,2003,2006,2008,2011,2018,2166,2512
+001A ƒ02001:04-09-94
+001B ƒ0BSZ:18-03-19ƒt05:01:49.000
+001D ƒ09999:99-99-99
+001U ƒ0utf8
+001X ƒ00
+002@ ƒ0Aau
+002C ƒaTextƒbtxt
+002D ƒaohne Hilfsmittel zu benutzenƒbn
+002E ƒaBandƒbnc
+003@ ƒ0161040829
+003O ƒaOCoLCƒ0631546983ƒv2012-12-31
+003S ƒ0018996744
+003T ƒaOCoLCƒ020264662
+004A ƒ0379130965Xƒf : DM 380.00 (Gewebe)
+006A ƒ089022575
+006G ƒ0901063983
+006U ƒ090,A35,0877
+007G ƒiGBVƒ0161040829
+009@ ƒbBlocktest
+010@ ƒaeng
+011@ ƒa1990ƒn1990
+013D ƒ9104464909ƒ8Werkverzeichnis ; ID: gnd/4189680-4
+009Q ƒahttp://d-nb.info/901063983/04ƒmV:DE-576ƒqapplication/pdfƒv20130501ƒxHƒ3Inhaltsverzeichnisƒ504ƒADNBƒB2
+009Q ƒahttp://swbplus.bsz-bw.de/bsz018996744inh.htmƒmB:DE-576;DE-16ƒqapplication/pdfƒv20100610111902ƒxHƒ3Inhaltsverzeichnisƒ504
+019@ ƒaXA-DE
+021A ƒaMaurice Brazil Prendergast, Charles Prendergastƒda catalogue raisonnéƒhWilliams College Museum of Art. Carol Clark ...
+028C ƒ9079522378ƒ8Prendergast, Maurice Brazil *1858-1924* ; ID: gnd/118741845ƒBIll.
+028C ƒ9079698514ƒ8Prendergast, Charles *1863-1948* ; ID: gnd/118921371
+028C ƒdCarolƒaClarkƒBHrsg.
+028C ƒ91234683024ƒ8Mathews, Nancy Mowll
+028C ƒdGwendolynƒaOwens
+029F ƒ9103941096ƒ8Museum of Art$gWilliamstown, Mass.$bMaurice and Charles Prendergast Systematic Catalogue Project ; ID: gnd/5045032-3
+029F ƒ9102088497ƒ8Museum of Art$gWilliamstown, Mass. ; ID: gnd/671227-7
+033A ƒpMünchenƒnPrestel
+034D ƒa811 S
+034I ƒa31 cm
+034M ƒaüberw. Ill
+037A ƒaLiteraturverz. S. 730 - 759
+041A ƒ9079522378ƒ8Prendergast, Maurice Brazil *1858-1924* ; ID: gnd/118741845
+041A/10 ƒ9079698514ƒ8Prendergast, Charles *1863-1948* ; ID: gnd/118921371
+044A ƒpPrendergast, Maurice BrazilƒaCatalogues raisonnés
+044A ƒpPrendergast, CharlesƒaCatalogues raisonnés
+044K ƒ9079522378ƒ8Prendergast, Maurice Brazil *1858-1924* ; ID: gnd/118741845
+044K/01 ƒ9079698514ƒ8Prendergast, Charles *1863-1948* ; ID: gnd/118921371
+045A ƒaN6537.P68
+045E ƒa46
+045F ƒa760.092
+045F ƒa760/.092
+045M/10 ƒi9ƒaLI 99999
+045Q/01 ƒ9181571080ƒ820.31$jBildende Künstler
+045Q/02 ƒ9106406698ƒ821.02$jGeschichte der Malerei
+045R ƒ91270635948ƒ8LI 99999: Kunstgeschichte / Künstler-Monografien / Sonstige (CSN der Person)
+045V ƒa9,10
+046W ƒaIMD-Felder maschinell generiert (GBV)
+047A ƒa720 ff. (DDC): GBV/LOC; 5090 maschinell aus ähnlichen Titelaufnahmen ergänzt ; IMD-Felder und 1131 maschinell ergänzt (SWB)
+
+101B ƒ029-04-96ƒt02:01:25.227
+101U ƒ0utf8
+102D ƒ026-05-20ƒbtouchtitleƒa1999
+107F ƒ0vh 3000
+145Z/30 ƒakun 880 pren
+145Z/99 ƒa67
+
+201B/01 ƒ029-04-96ƒt02:01:25.266
+201U/01 ƒ0utf8
+202D/01 ƒ026-05-20ƒbtouchtitleƒa1999
+203@/01 ƒ0184549736
+208@/01 ƒa12-06-72ƒbxza
+209A/01 ƒah kun 880 pren/000ƒddƒx00
+209C/01 ƒavh 3000ƒx00
+
+]]></rawrecord>
   </record>
 </collection>

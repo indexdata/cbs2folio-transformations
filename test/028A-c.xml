@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <collection count="1">
   <record>
-    <header status="upsert">
-      <identifier>025708635</identifier>
-    </header>
+    <status>upsert</status>
+    <hrid>025708635</hrid>
     <metadata>
       <datafield tag="001@" fulltag="001@">
         <subfield code="0">11,21,31,34,39,50,61,63,70,91,110,118,152,186,231,285,340,2006,2036,2042-2043,2048,2057,2063,2097,2510</subfield>
@@ -241,6 +240,71 @@
         </datafield>
       </item>
     </metadata>
-    <rawrecord><![CDATA[001@ ƒ011,21,31,34,39,50,61,63,70,91,110,118,152,186,231,285,340,2006,2036,2042-2043,2048,2057,2063,2097,2510001A ƒ02000:02-07-91001B ƒ0BSZ:17-03-19ƒt23:02:21.000001D ƒ09999:99-99-99001U ƒ0utf8001X ƒ00002@ ƒ0Aau002C ƒaTextƒbtxt002D ƒaohne Hilfsmittel zu benutzenƒbn002E ƒaBandƒbnc003@ ƒ0025708635003O ƒaOCoLCƒ0215417764ƒv2012-12-31003S ƒ0060960434003T ƒaOCoLCƒ0215417764003T ƒaOCoLCƒ01083801283004A ƒ03770112377006L ƒiBVBƒ08082415129006Y ƒ0340100015684007G ƒiGBVƒ0025708635009@ ƒbBlocktest010@ ƒager011@ ƒa1990ƒn1990013D ƒ9104450460ƒ8Einführung ; ID: gnd/4151278-9016B ƒaBGTS009Q ƒahttp://d-nb.info/830744932/04ƒmB:DE-101ƒqpdf/applicationƒv20161127003401ƒxHƒ3Inhaltsverzeichnisƒ504ƒADNBƒB2019@ ƒaXA-DE021A ƒaDuMont's Handbuch der grafischen Technikenƒdmanuelle und maschinelle Druckverfahren ; Hochdruck, Tiefdruck, Flachdruck, Durchdruck ; Reproduktionstechniken ; MehrfarbendruckƒhFons van der Linden022A/01 ƒaDe @grafische technieken <dt.>027A ƒaHandbuch der grafischen Techniken027A ƒaDuMonts Handbuch der grafischen Techniken027A ƒaHandbuch der graphischen Techniken028A ƒdFonsƒcvan derƒaLinden032@ ƒa3. Aufl.033A ƒpKölnƒnDuMont034D ƒa228 S034M ƒaIll., graph. Darst044K ƒ9106311905ƒ8Graphische Technik ; ID: gnd/4021850-8044L ƒ9105522953ƒ8Flachdruck ; ID: gnd/4154503-5044L ƒ9106311905ƒ8Graphische Technik ; ID: gnd/4021850-8044L ƒ9106186582ƒ8Reproduktionstechnik ; ID: gnd/4049540-1045B ƒaAhl045B ƒaRdm045B ƒaIGSST045E ƒa46ƒa09ƒa42045Q/01 ƒ9106421786ƒ821.31$jGraphische Technik$jGraphisches Material$XKunst045Q/01 ƒ9106410962ƒ852.87$jGraphische Technik045R ƒ91270677136ƒ8AN 28000: Allgemeines / Buch- und Bibliothekswesen, Informationswissenschaft / Buchwesen / Druckverfahren / Allgemeines045R ƒ91271107902ƒ8LH 71130: Kunstgeschichte / Allgemeines. Allgemeine Kunstgeschichte / Kunstgeschichte einzelner Gattungen der Kunst / Zeichnung und Grafik / Darstellungen nach Material und Technik / Allgemeine Darstellungen nach Material und Technik045R ƒ91270676970ƒ8AN 26000: Allgemeines / Buch- und Bibliothekswesen, Informationswissenschaft / Buchwesen / Buchdruck, Buchherstellung / Einrichtung, Ausstattung046W ƒaIMD-Felder maschinell generiert (GBV)047A ƒa720 ff. bvb; 580 ff. bvb ; IMD-Felder und 1131 maschinell ergänzt (SWB)101B ƒ003-11-95ƒt13:42:05.751101U ƒ0utf8102D ƒ003-11-95ƒb9060ƒa0000145Z/25 ƒa76.02201B/01 ƒ003-11-95ƒt13:42:05.767201U/01 ƒ0utf8202D/01 ƒ003-11-95ƒb9060ƒa0000203@/01 ƒ0160581419208@/01 ƒa03-11-95ƒbrkw209A/01 ƒfTB Kunst-W.ƒa76.02ƒdcƒx00209C/01 ƒa1993:98ƒx00]]></rawrecord>
+    <rawrecord><![CDATA[001@ ƒ011,21,31,34,39,50,61,63,70,91,110,118,152,186,231,285,340,2006,2036,2042-2043,2048,2057,2063,2097,2510
+001A ƒ02000:02-07-91
+001B ƒ0BSZ:17-03-19ƒt23:02:21.000
+001D ƒ09999:99-99-99
+001U ƒ0utf8
+001X ƒ00
+002@ ƒ0Aau
+002C ƒaTextƒbtxt
+002D ƒaohne Hilfsmittel zu benutzenƒbn
+002E ƒaBandƒbnc
+003@ ƒ0025708635
+003O ƒaOCoLCƒ0215417764ƒv2012-12-31
+003S ƒ0060960434
+003T ƒaOCoLCƒ0215417764
+003T ƒaOCoLCƒ01083801283
+004A ƒ03770112377
+006L ƒiBVBƒ08082415129
+006Y ƒ0340100015684
+007G ƒiGBVƒ0025708635
+009@ ƒbBlocktest
+010@ ƒager
+011@ ƒa1990ƒn1990
+013D ƒ9104450460ƒ8Einführung ; ID: gnd/4151278-9
+016B ƒaBGTS
+009Q ƒahttp://d-nb.info/830744932/04ƒmB:DE-101ƒqpdf/applicationƒv20161127003401ƒxHƒ3Inhaltsverzeichnisƒ504ƒADNBƒB2
+019@ ƒaXA-DE
+021A ƒaDuMont's Handbuch der grafischen Technikenƒdmanuelle und maschinelle Druckverfahren ; Hochdruck, Tiefdruck, Flachdruck, Durchdruck ; Reproduktionstechniken ; MehrfarbendruckƒhFons van der Linden
+022A/01 ƒaDe @grafische technieken <dt.>
+027A ƒaHandbuch der grafischen Techniken
+027A ƒaDuMonts Handbuch der grafischen Techniken
+027A ƒaHandbuch der graphischen Techniken
+028A ƒdFonsƒcvan derƒaLinden
+032@ ƒa3. Aufl.
+033A ƒpKölnƒnDuMont
+034D ƒa228 S
+034M ƒaIll., graph. Darst
+044K ƒ9106311905ƒ8Graphische Technik ; ID: gnd/4021850-8
+044L ƒ9105522953ƒ8Flachdruck ; ID: gnd/4154503-5
+044L ƒ9106311905ƒ8Graphische Technik ; ID: gnd/4021850-8
+044L ƒ9106186582ƒ8Reproduktionstechnik ; ID: gnd/4049540-1
+045B ƒaAhl
+045B ƒaRdm
+045B ƒaIGSST
+045E ƒa46ƒa09ƒa42
+045Q/01 ƒ9106421786ƒ821.31$jGraphische Technik$jGraphisches Material$XKunst
+045Q/01 ƒ9106410962ƒ852.87$jGraphische Technik
+045R ƒ91270677136ƒ8AN 28000: Allgemeines / Buch- und Bibliothekswesen, Informationswissenschaft / Buchwesen / Druckverfahren / Allgemeines
+045R ƒ91271107902ƒ8LH 71130: Kunstgeschichte / Allgemeines. Allgemeine Kunstgeschichte / Kunstgeschichte einzelner Gattungen der Kunst / Zeichnung und Grafik / Darstellungen nach Material und Technik / Allgemeine Darstellungen nach Material und Technik
+045R ƒ91270676970ƒ8AN 26000: Allgemeines / Buch- und Bibliothekswesen, Informationswissenschaft / Buchwesen / Buchdruck, Buchherstellung / Einrichtung, Ausstattung
+046W ƒaIMD-Felder maschinell generiert (GBV)
+047A ƒa720 ff. bvb; 580 ff. bvb ; IMD-Felder und 1131 maschinell ergänzt (SWB)
+
+101B ƒ003-11-95ƒt13:42:05.751
+101U ƒ0utf8
+102D ƒ003-11-95ƒb9060ƒa0000
+145Z/25 ƒa76.02
+
+201B/01 ƒ003-11-95ƒt13:42:05.767
+201U/01 ƒ0utf8
+202D/01 ƒ003-11-95ƒb9060ƒa0000
+203@/01 ƒ0160581419
+208@/01 ƒa03-11-95ƒbrkw
+209A/01 ƒfTB Kunst-W.ƒa76.02ƒdcƒx00
+209C/01 ƒa1993:98ƒx00
+
+]]></rawrecord>
   </record>
 </collection>

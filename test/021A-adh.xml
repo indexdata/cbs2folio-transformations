@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <collection count="1">
   <record>
-    <header status="upsert">
-      <identifier>16814316X</identifier>
-    </header>
+    <status>upsert</status>
+    <hrid>16814316X</hrid>
     <metadata>
       <datafield tag="001@" fulltag="001@">
         <subfield code="0">11,20-23,40,60,72,90,110,120,131-132,183,267,2001,2005-2007,2009,2014,2018,2031,2038,2179,2505,4012,4027-4029,4035,4037-4038,4046,4082,4103,4125,4155,4251,4302,4305-4307,4309,4311,4316-4320,4322-4325</subfield>
@@ -334,6 +333,92 @@
         </datafield>
       </item>
     </metadata>
-    <rawrecord><![CDATA[001@ ƒ011,20-23,40,60,72,90,110,120,131-132,183,267,2001,2005-2007,2009,2014,2018,2031,2038,2179,2505,4012,4027-4029,4035,4037-4038,4046,4082,4103,4125,4155,4251,4302,4305-4307,4309,4311,4316-4320,4322-4325001A ƒ02004:31-10-94001B ƒ01999:02-06-20ƒt12:15:06.000001D ƒ02004:29-09-98001U ƒ0utf8001X ƒ00002@ ƒ0Abv002C ƒaTextƒbtxt002D ƒaohne Hilfsmittel zu benutzenƒbn002E ƒaBandƒbnc003@ ƒ016814316X003O ƒaOCoLCƒ0224560053ƒv2012-12-31003S ƒ0018248128003T ƒaOCoLCƒ0263602646005A ƒfkart.006G ƒ0013736841006U ƒ098,B34,0405006Z ƒ0641153-8007G ƒiZDBƒ0641153-8010@ ƒager011@ ƒa1972ƒb2002ƒn1972-2002013D ƒ910454466Xƒ8Zeitschrift ; ID: gnd/4067488-5013D ƒ9106152955ƒ8Statistik ; ID: gnd/4056995-0018@ ƒaa019@ ƒaXA-DE021A ƒaPrüfungen an HochschulenƒdFächergruppen, Studienbereiche, Prüfungsgruppen, Prüfungserfolg, Geschlecht, LänderƒhBundesministerium für Bildung und Forschung027A ƒaBMBF-Bericht / Prüfungen an Hochschulen029F ƒ9252687302ƒ8Deutschland$bBundesministerium für Bildung und Forschung ; ID: gnd/5309538-8ƒBHerausgebendes Organƒ4isb029F ƒ9180780697ƒ8Deutschland$bBundesministerium für Bildung, Wissenschaft, Forschung und Technologie ; ID: gnd/2142404-4ƒBHerausgebendes Organƒ4isb029F ƒ910231148Xƒ8Deutschland$gBundesrepublik$bBundesminister für Bildung und Wissenschaft ; ID: gnd/2028870-0ƒBHerausgebendes Organƒ4isb029F ƒ9187652201ƒ8Deutschland$gBundesrepublik$bBundesminister für Forschung und Technologie ; ID: gnd/2028958-3ƒBHerausgebendes Organƒ4isb031@ ƒaNachgewiesen WS 1972/73/SS 1974; 1975/85(1985); 1973/88(1990); 1973/90(1992) - 1973/92(1994); 1973/96(1998); 1973/98(2000); 1973/2000(2002); damit Ersch. eingest.031N ƒj1972/73ƒ0 ƒj1975/85ƒ0 ƒj1973/88ƒ0 ƒj1973/90ƒk1973/92ƒ0 ƒj1973/96ƒ0 ƒj1973/98ƒ0 ƒj1973/2000033A ƒpBonnƒnBundesminister033A ƒpWiesbadenƒnStatist. Bundesamtƒh-1987ƒzf034I ƒa30 cm036E ƒa1973/2000: BMBF-Bericht037A ƒaZusatz wechselt037A ƒaBeteil. Körp. anfangs: Statistisches Bundesamt Wiesbaden, Bundesminister für Forschung und Technologie; 1973/90 - 1973/92: Bundesminister für Bildung und Wissenschaft; 1973/96: Bundesministerium für Bildung, Wissenschaft, Forschung und Technologie041A ƒ9104704861ƒ8Deutschland ; ID: gnd/4011882-4041A/01 ƒ9105670340ƒ8Hochschulprüfung ; ID: gnd/4134732-8041A/02 ƒfStatistik041A/10 ƒ9104732423ƒ8Deutschland$gBundesrepublik ; ID: gnd/4011889-7041A/11 ƒ9105670340ƒ8Hochschulprüfung ; ID: gnd/4134732-8041A/12 ƒfStatistik041A/20 ƒ9104732423ƒ8Deutschland$gBundesrepublik ; ID: gnd/4011889-7041A/21 ƒ9105670340ƒ8Hochschulprüfung ; ID: gnd/4134732-8041A/22 ƒfStatistik 1973-1988041A/30 ƒ9104704861ƒ8Deutschland ; ID: gnd/4011882-4041A/31 ƒ9148053432ƒ8Studienabschluss ; ID: gnd/4332831-3041A/32 ƒfStatistik045G ƒa370ƒADE-600045Q/01 ƒ9106422847ƒ881.80$jHochschulen$jFachhochschulen045R ƒaAL 43400ƒAZDB045R ƒ91270660411ƒ8AL 43400: Allgemeines / Hochschul- und Universitätswesen / Studienverlauf, -abschluss, Akademische Grade / Prüfungen allgemein, Vor- und Zwischenprüfungen046D ƒiZusatz anfangsƒaArbeitsunterlage046P ƒaErsch. jährl.047A ƒaSortierzählung bei Bänden maschinell geändert (GBV)047A ƒaC*(Kopie) (GBV)047A ƒaC(Kopie) (SWB)047B ƒa(Kopie)30!20-07-06)101B ƒ002-06-20ƒt12:15:06.000101U ƒ0utf8102D ƒ002-06-20ƒb800ƒa1999145Z/30 ƒapae 897.5145Z/99 ƒa57201B/01 ƒ002-06-20ƒt12:15:06.000201D/01 ƒ01999:02-06-20201U/01 ƒ0utf8202D/01 ƒ002-06-20ƒb800ƒa1999203@/01 ƒ0309118468208@/01 ƒa10-11-98ƒbbza209A/01 ƒaff 2072ƒddƒx00209C/01 ƒaff 2072ƒx00231@/01 ƒj1975/85ƒ0 ƒj1973/88ƒ0 ƒj1973/91ƒ0 ƒj1973/96ƒ0 ƒj1973/98ƒ0 ƒj1973/2000231B/01 ƒa1975/85(1985); 1973/88(1990); 1973/91(1993); 1973/96(1998); 1973/98(2000); 1973/2000(2002)201B/02 ƒ001-11-06ƒt07:20:08.000201U/02 ƒ0utf8202D/02 ƒ001-11-06ƒbumlenk_serƒa1999203@/02 ƒ0166981273208@/02 ƒa24-11-94ƒbxza220D/02 ƒaQP036841579]]></rawrecord>
+    <rawrecord><![CDATA[001@ ƒ011,20-23,40,60,72,90,110,120,131-132,183,267,2001,2005-2007,2009,2014,2018,2031,2038,2179,2505,4012,4027-4029,4035,4037-4038,4046,4082,4103,4125,4155,4251,4302,4305-4307,4309,4311,4316-4320,4322-4325
+001A ƒ02004:31-10-94
+001B ƒ01999:02-06-20ƒt12:15:06.000
+001D ƒ02004:29-09-98
+001U ƒ0utf8
+001X ƒ00
+002@ ƒ0Abv
+002C ƒaTextƒbtxt
+002D ƒaohne Hilfsmittel zu benutzenƒbn
+002E ƒaBandƒbnc
+003@ ƒ016814316X
+003O ƒaOCoLCƒ0224560053ƒv2012-12-31
+003S ƒ0018248128
+003T ƒaOCoLCƒ0263602646
+005A ƒfkart.
+006G ƒ0013736841
+006U ƒ098,B34,0405
+006Z ƒ0641153-8
+007G ƒiZDBƒ0641153-8
+010@ ƒager
+011@ ƒa1972ƒb2002ƒn1972-2002
+013D ƒ910454466Xƒ8Zeitschrift ; ID: gnd/4067488-5
+013D ƒ9106152955ƒ8Statistik ; ID: gnd/4056995-0
+018@ ƒaa
+019@ ƒaXA-DE
+021A ƒaPrüfungen an HochschulenƒdFächergruppen, Studienbereiche, Prüfungsgruppen, Prüfungserfolg, Geschlecht, LänderƒhBundesministerium für Bildung und Forschung
+027A ƒaBMBF-Bericht / Prüfungen an Hochschulen
+029F ƒ9252687302ƒ8Deutschland$bBundesministerium für Bildung und Forschung ; ID: gnd/5309538-8ƒBHerausgebendes Organƒ4isb
+029F ƒ9180780697ƒ8Deutschland$bBundesministerium für Bildung, Wissenschaft, Forschung und Technologie ; ID: gnd/2142404-4ƒBHerausgebendes Organƒ4isb
+029F ƒ910231148Xƒ8Deutschland$gBundesrepublik$bBundesminister für Bildung und Wissenschaft ; ID: gnd/2028870-0ƒBHerausgebendes Organƒ4isb
+029F ƒ9187652201ƒ8Deutschland$gBundesrepublik$bBundesminister für Forschung und Technologie ; ID: gnd/2028958-3ƒBHerausgebendes Organƒ4isb
+031@ ƒaNachgewiesen WS 1972/73/SS 1974; 1975/85(1985); 1973/88(1990); 1973/90(1992) - 1973/92(1994); 1973/96(1998); 1973/98(2000); 1973/2000(2002); damit Ersch. eingest.
+031N ƒj1972/73ƒ0 ƒj1975/85ƒ0 ƒj1973/88ƒ0 ƒj1973/90ƒk1973/92ƒ0 ƒj1973/96ƒ0 ƒj1973/98ƒ0 ƒj1973/2000
+033A ƒpBonnƒnBundesminister
+033A ƒpWiesbadenƒnStatist. Bundesamtƒh-1987ƒzf
+034I ƒa30 cm
+036E ƒa1973/2000: BMBF-Bericht
+037A ƒaZusatz wechselt
+037A ƒaBeteil. Körp. anfangs: Statistisches Bundesamt Wiesbaden, Bundesminister für Forschung und Technologie; 1973/90 - 1973/92: Bundesminister für Bildung und Wissenschaft; 1973/96: Bundesministerium für Bildung, Wissenschaft, Forschung und Technologie
+041A ƒ9104704861ƒ8Deutschland ; ID: gnd/4011882-4
+041A/01 ƒ9105670340ƒ8Hochschulprüfung ; ID: gnd/4134732-8
+041A/02 ƒfStatistik
+041A/10 ƒ9104732423ƒ8Deutschland$gBundesrepublik ; ID: gnd/4011889-7
+041A/11 ƒ9105670340ƒ8Hochschulprüfung ; ID: gnd/4134732-8
+041A/12 ƒfStatistik
+041A/20 ƒ9104732423ƒ8Deutschland$gBundesrepublik ; ID: gnd/4011889-7
+041A/21 ƒ9105670340ƒ8Hochschulprüfung ; ID: gnd/4134732-8
+041A/22 ƒfStatistik 1973-1988
+041A/30 ƒ9104704861ƒ8Deutschland ; ID: gnd/4011882-4
+041A/31 ƒ9148053432ƒ8Studienabschluss ; ID: gnd/4332831-3
+041A/32 ƒfStatistik
+045G ƒa370ƒADE-600
+045Q/01 ƒ9106422847ƒ881.80$jHochschulen$jFachhochschulen
+045R ƒaAL 43400ƒAZDB
+045R ƒ91270660411ƒ8AL 43400: Allgemeines / Hochschul- und Universitätswesen / Studienverlauf, -abschluss, Akademische Grade / Prüfungen allgemein, Vor- und Zwischenprüfungen
+046D ƒiZusatz anfangsƒaArbeitsunterlage
+046P ƒaErsch. jährl.
+047A ƒaSortierzählung bei Bänden maschinell geändert (GBV)
+047A ƒaC*(Kopie) (GBV)
+047A ƒaC(Kopie) (SWB)
+047B ƒa(Kopie)30!20-07-06)
+
+101B ƒ002-06-20ƒt12:15:06.000
+101U ƒ0utf8
+102D ƒ002-06-20ƒb800ƒa1999
+145Z/30 ƒapae 897.5
+145Z/99 ƒa57
+
+201B/01 ƒ002-06-20ƒt12:15:06.000
+201D/01 ƒ01999:02-06-20
+201U/01 ƒ0utf8
+202D/01 ƒ002-06-20ƒb800ƒa1999
+203@/01 ƒ0309118468
+208@/01 ƒa10-11-98ƒbbza
+209A/01 ƒaff 2072ƒddƒx00
+209C/01 ƒaff 2072ƒx00
+231@/01 ƒj1975/85ƒ0 ƒj1973/88ƒ0 ƒj1973/91ƒ0 ƒj1973/96ƒ0 ƒj1973/98ƒ0 ƒj1973/2000
+231B/01 ƒa1975/85(1985); 1973/88(1990); 1973/91(1993); 1973/96(1998); 1973/98(2000); 1973/2000(2002)
+
+201B/02 ƒ001-11-06ƒt07:20:08.000
+201U/02 ƒ0utf8
+202D/02 ƒ001-11-06ƒbumlenk_serƒa1999
+203@/02 ƒ0166981273
+208@/02 ƒa24-11-94ƒbxza
+220D/02 ƒaQP036841579
+
+]]></rawrecord>
   </record>
 </collection>

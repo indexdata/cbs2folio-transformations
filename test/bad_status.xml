@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <collection count="1">
   <record>
-    <header status="upsert">
-      <identifier>174360606</identifier>
-    </header>
+    <status>upsert</status>
+    <hrid>174360606</hrid>
     <metadata>
       <datafield tag="001@" fulltag="001@">
         <subfield code="0">21</subfield>
@@ -124,6 +123,39 @@
         </datafield>
       </item>
     </metadata>
-    <rawrecord><![CDATA[001@ ƒ021001A ƒ00089:31-12-94001B ƒ01999:02-06-20ƒt12:27:25.000001D ƒ00089:28-02-13001U ƒ0utf8001X ƒ00002@ ƒ0Afk002C ƒaTextƒbtxt002D ƒaohne Hilfsmittel zu benutzenƒbn002E ƒaBandƒbnc003@ ƒ0174360606006Y ƒ000890468052007G ƒiGBVƒ0174360606030F ƒa[Kongress]ƒj1985ƒkAachenƒp1985.11.18-19036F ƒX01985ƒ9174360592ƒ8[KONGRESSFOLGE] @Motorische Verbrennungƒl1985038L ƒaVZGCHECKƒbNƒx10.000ƒ9017897335046W ƒaIMD-Felder maschinell generiert (GBV)101B ƒ002-06-20ƒt12:27:25.000101U ƒ0utf8102D ƒ002-06-20ƒb800ƒa1999145Z/20 ƒamas 460201B/01 ƒ002-06-20ƒt12:27:25.000201D/01 ƒ01999:02-06-20201U/01 ƒ0utf8202D/01 ƒ002-06-20ƒb800ƒa1999203@/01 ƒ0296907596208@/01 ƒa17-09-98ƒbzba209A/01 ƒfTB BHVƒamas 640/27ƒduƒx00209C/01 ƒaa 3309ƒx00209G/01 ƒa46A$000294950ƒx00]]></rawrecord>
+    <rawrecord><![CDATA[001@ ƒ021
+001A ƒ00089:31-12-94
+001B ƒ01999:02-06-20ƒt12:27:25.000
+001D ƒ00089:28-02-13
+001U ƒ0utf8
+001X ƒ00
+002@ ƒ0Afk
+002C ƒaTextƒbtxt
+002D ƒaohne Hilfsmittel zu benutzenƒbn
+002E ƒaBandƒbnc
+003@ ƒ0174360606
+006Y ƒ000890468052
+007G ƒiGBVƒ0174360606
+030F ƒa[Kongress]ƒj1985ƒkAachenƒp1985.11.18-19
+036F ƒX01985ƒ9174360592ƒ8[KONGRESSFOLGE] @Motorische Verbrennungƒl1985
+038L ƒaVZGCHECKƒbNƒx10.000ƒ9017897335
+046W ƒaIMD-Felder maschinell generiert (GBV)
+
+101B ƒ002-06-20ƒt12:27:25.000
+101U ƒ0utf8
+102D ƒ002-06-20ƒb800ƒa1999
+145Z/20 ƒamas 460
+
+201B/01 ƒ002-06-20ƒt12:27:25.000
+201D/01 ƒ01999:02-06-20
+201U/01 ƒ0utf8
+202D/01 ƒ002-06-20ƒb800ƒa1999
+203@/01 ƒ0296907596
+208@/01 ƒa17-09-98ƒbzba
+209A/01 ƒfTB BHVƒamas 640/27ƒduƒx00
+209C/01 ƒaa 3309ƒx00
+209G/01 ƒa46A$000294950ƒx00
+
+]]></rawrecord>
   </record>
 </collection>

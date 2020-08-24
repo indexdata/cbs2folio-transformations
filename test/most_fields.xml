@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <collection count="1">
   <record>
-    <header status="upsert">
-      <identifier>1006635181</identifier>
-    </header>
+    <status>upsert</status>
+    <hrid>1006635181</hrid>
     <metadata>
       <datafield tag="001@" fulltag="001@">
-        <subfield code="0">22</subfield>
+        <subfield code="0">21-22</subfield>
       </datafield>
       <datafield tag="001A" fulltag="001A">
         <subfield code="0">2045:01-12-17</subfield>
       </datafield>
       <datafield tag="001B" fulltag="001B">
-        <subfield code="0">0046:08-06-20</subfield>
-        <subfield code="t">13:27:06.000</subfield>
+        <subfield code="0">0046:27-07-20</subfield>
+        <subfield code="t">12:13:14.000</subfield>
       </datafield>
       <datafield tag="001D" fulltag="001D">
         <subfield code="0">0018:06-03-18</subfield>
@@ -91,7 +90,7 @@
         <subfield code="a">XA-DE</subfield>
       </datafield>
       <datafield tag="021A" fulltag="021A">
-        <subfield code="a">Java ist auch eine Insel</subfield>
+        <subfield code="a">Java ist auch noch eine Insel</subfield>
         <subfield code="d">Einführung, Ausbildung, Praxis</subfield>
         <subfield code="h">Christian Ullenboom</subfield>
       </datafield>
@@ -100,6 +99,12 @@
         <subfield code="8">Ullenboom, Christian ; ID: gnd/123404738</subfield>
         <subfield code="B">VerfasserIn</subfield>
         <subfield code="4">aut</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">88082512X</subfield>
+        <subfield code="8">Bargen, Marleen von *ca. 20./21. Jh.* ; ID: gnd/1123089639</subfield>
+        <subfield code="B">InterviewteR</subfield>
+        <subfield code="4">ive</subfield>
       </datafield>
       <datafield tag="032@" fulltag="032@">
         <subfield code="a">13., aktualisierte und überarbeitete Auflage</subfield>
@@ -112,7 +117,7 @@
         <subfield code="a">1 Online-Ressource (1363 Seiten)</subfield>
       </datafield>
       <datafield tag="034M" fulltag="034M">
-        <subfield code="a">Illustrationen, Diagramme</subfield>
+        <subfield code="a">Illustrationen, Diagramme und Bilder</subfield>
       </datafield>
       <datafield tag="037A" fulltag="037A">
         <subfield code="a">Titelzusätze auf dem Umschlag: Erste Insel ; Programmieren mit der Java-Platform, Standard Edition 9 ; Java von A bis Z: Einführung, Praxis, Referenz ; Von Ausdrücken und Anweisungen zu Klassen und Objekten ; aktuell zu Java 9</subfield>
@@ -138,7 +143,7 @@
         <subfield code="8">54.53 Programmiersprachen</subfield>
       </datafield>
       <datafield tag="045R" fulltag="045R">
-        <subfield code="a">QP 230</subfield>
+        <subfield code="a">QP 232</subfield>
       </datafield>
       <datafield tag="045X" fulltag="045X">
         <subfield code="i">JEL</subfield>
@@ -151,12 +156,110 @@
       <datafield tag="045X" fulltag="045X">
         <subfield code="i">FIV</subfield>
         <subfield code="a">SK01</subfield>
-        <subfield code="j">Wissenschaftsgebiete</subfield>
+        <subfield code="j">Wissenschaftsgebieteü</subfield>
       </datafield>
       <datafield tag="047I" fulltag="047I">
         <subfield code="a">»Ein Kultbuch.«- iX - Magazin für professionelle Informationstechnik  Das Standardwerk zur Java-Programmierung in 13. Auflage! Aktuell zu Java 9Programmieren mit der Java Platform, Standard Edition 9Java von A bis Z: Einführung, Praxis, ReferenzVon Klassen und Objekten zu Datenstrukturen und AlgorithmenUnser Handbuch ist die erste Wahl, wenn es um aktuelles und praktisches Java-Wissengeht. Java-Einsteiger, Studenten und Umsteiger profitieren seit mehr als einem Jahrzehnt von diesem Lehrwerk. Neben der Behandlung der Sprachgrundlagen von Java(Neu in Java 9: das Modulsystem Jigsaw) gibt es kompakte Einführungen in Spezialthemen. So erfahren Sie einiges über Threads, Algorithmen, GUIs, XML und Java. Dieses Buch gehört in das Regal eines jeden Java-Programmierers.  Aus dem Inhalt: Imperative SprachkonzepteKlassen und ObjekteAusnahmebehandlungGenericsLambda-Ausdrücke und funktionale ProgrammierungDie KlassenbibliothekNebenläufige ProgrammierungEinführung in Datenstrukturen, GUI-Entwicklung, Dateien, XML usw. Galileo Press heißt jetzt Rheinwerk Verlag. Christian Ullenboom, Dipl.-Informatiker, ist zertifizierter Java-Programmierer und seit 1997 Trainer und Berater für Java-Technologien und objektorientierte Analyse und Design. Seit Jahren teilt er sein Wissen mit unzähligen Besuchern seiner Website, wo er Fragen beantwortet, Inhalte bereitstellt und diskutiert. Seine Sympathie gilt Java Performance Tuning und den sinnlichen Freuden des Lebens.</subfield>
       </datafield>
+      <item epn="3524286275">
+        <datafield tag="201A" occurrence="01" fulltag="201A/01">
+          <subfield code="0">20-07-20</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">27-07-20</subfield>
+          <subfield code="t">12:13:14.000</subfield>
+        </datafield>
+        <datafield tag="201D" occurrence="01" fulltag="201D/01">
+          <subfield code="0">0046:20-07-20</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="01" fulltag="202D/01">
+          <subfield code="0">03-08-20</subfield>
+          <subfield code="b">touchtitle</subfield>
+          <subfield code="a">1999</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">3524286275</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">27-07-20</subfield>
+          <subfield code="b">z</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">test vzg 27.07.20 </subfield>
+          <subfield code="d">u</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">test 7109 a</subfield>
+          <subfield code="x">09</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="01" fulltag="209C/01">
+          <subfield code="a">2020/00003456</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">46$0005769000</subfield>
+        </datafield>
+        <datafield tag="220B" occurrence="01" fulltag="220B/01">
+          <subfield code="a">test 4802</subfield>
+        </datafield>
+        <datafield tag="237A" occurrence="01" fulltag="237A/01">
+          <subfield code="a">test 4801</subfield>
+        </datafield>
+      </item>
+      <item epn="3524286283">
+        <datafield tag="201A" occurrence="02" fulltag="201A/02">
+          <subfield code="0">20-07-20</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="02" fulltag="201B/02">
+          <subfield code="0">27-07-20</subfield>
+          <subfield code="t">12:13:14.000</subfield>
+        </datafield>
+        <datafield tag="201D" occurrence="02" fulltag="201D/02">
+          <subfield code="0">0046:20-07-20</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="02" fulltag="201U/02">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="02" fulltag="202D/02">
+          <subfield code="0">27-07-20</subfield>
+          <subfield code="b">21</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="02" fulltag="203@/02">
+          <subfield code="0">3524286283</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="02" fulltag="208@/02">
+          <subfield code="a">27-07-20</subfield>
+          <subfield code="b">z</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="02" fulltag="209A/02">
+          <subfield code="a">test vzg 27.07.20 (2)</subfield>
+          <subfield code="d">u</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="02" fulltag="209A/02">
+          <subfield code="a">test 7109 b</subfield>
+          <subfield code="x">09</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="02" fulltag="209C/02">
+          <subfield code="a">2020/00003457</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="02" fulltag="209G/02">
+          <subfield code="a">46$0005769000</subfield>
+        </datafield>
+        <datafield tag="220B" occurrence="02" fulltag="220B/02">
+          <subfield code="a">test 4802</subfield>
+        </datafield>
+        <datafield tag="237A" occurrence="02" fulltag="237A/02">
+          <subfield code="a">test 4801</subfield>
+        </datafield>
+      </item>
     </metadata>
-    <rawrecord><![CDATA[001@ ƒ022001A ƒ02045:01-12-17001B ƒ00046:08-06-20ƒt13:27:06.000001D ƒ00018:06-03-18001U ƒ0utf8001X ƒ00002@ ƒ0Oau002C ƒaTextƒbtxt002D ƒaComputermedienƒbc002E ƒaOnline-Ressourceƒbcr003@ ƒ01006635181004A ƒ03836258714ƒf : 44.90 €004A ƒ09783836258715ƒf : 44.90 €004P ƒSpƒ09783836258692007G ƒiGBVƒ01006635181010@ ƒager010E ƒerda011@ ƒa2018ƒn[2018]009P/03 ƒahhttp://sub-hh.ciando.com/book/?bok_id=2404378ƒxGƒ3Volltextƒ534009P/03 ƒS0ƒahttps://external.dandelon.com/download/attachments/dandelon/ids/DE006D64EF1D231AA2D71C12581FC00289C8E.pdfƒmV:DE-601ƒmX:AGIƒqpdf/applicationƒv2019-02-01ƒxHƒ3Volltextƒ534ƒAGBVƒB2019@ ƒaXA-DE021A ƒaJava ist auch eine InselƒdEinführung, Ausbildung, PraxisƒhChristian Ullenboom028A ƒ9502584122ƒ8Ullenboom, Christian ; ID: gnd/123404738ƒBVerfasserInƒ4aut032@ ƒa13., aktualisierte und überarbeitete Auflage033A ƒpBonnƒnRheinwerk034D ƒa1 Online-Ressource (1363 Seiten)034M ƒaIllustrationen, Diagramme037A ƒaTitelzusätze auf dem Umschlag: Erste Insel ; Programmieren mit der Java-Platform, Standard Edition 9 ; Java von A bis Z: Einführung, Praxis, Referenz ; Von Ausdrücken und Anweisungen zu Klassen und Objekten ; aktuell zu Java 9041A ƒ9663854784ƒ8Java Standard Edition 7 ; ID: gnd/7751205-4041A/09 ƒADE-101045D ƒ9091376092ƒ8Makroökonomik ; STW-ID: stw10249-5045D/49 ƒb34ƒcArbeitspapierƒdWorking Paper045Q/01 ƒ9106418890ƒ854.53$jProgrammiersprachen045R ƒaQP 230045X ƒiJELƒaB25ƒaF13ƒaF34ƒaG15ƒaP30045X ƒiFIVƒaSK01ƒjWissenschaftsgebiete047I ƒa»Ein Kultbuch.«- iX - Magazin für professionelle Informationstechnik  Das Standardwerk zur Java-Programmierung in 13. Auflage! Aktuell zu Java 9Programmieren mit der Java Platform, Standard Edition 9Java von A bis Z: Einführung, Praxis, ReferenzVon Klassen und Objekten zu Datenstrukturen und AlgorithmenUnser Handbuch ist die erste Wahl, wenn es um aktuelles und praktisches Java-Wissengeht. Java-Einsteiger, Studenten und Umsteiger profitieren seit mehr als einem Jahrzehnt von diesem Lehrwerk. Neben der Behandlung der Sprachgrundlagen von Java(Neu in Java 9: das Modulsystem Jigsaw) gibt es kompakte Einführungen in Spezialthemen. So erfahren Sie einiges über Threads, Algorithmen, GUIs, XML und Java. Dieses Buch gehört in das Regal eines jeden Java-Programmierers.  Aus dem Inhalt: Imperative SprachkonzepteKlassen und ObjekteAusnahmebehandlungGenericsLambda-Ausdrücke und funktionale ProgrammierungDie KlassenbibliothekNebenläufige ProgrammierungEinführung in Datenstrukturen, GUI-Entwicklung, Dateien, XML usw. Galileo Press heißt jetzt Rheinwerk Verlag. Christian Ullenboom, Dipl.-Informatiker, ist zertifizierter Java-Programmierer und seit 1997 Trainer und Berater für Java-Technologien und objektorientierte Analyse und Design. Seit Jahren teilt er sein Wissen mit unzähligen Besuchern seiner Website, wo er Fragen beantwortet, Inhalte bereitstellt und diskutiert. Seine Sympathie gilt Java Performance Tuning und den sinnlichen Freuden des Lebens.]]></rawrecord>
+    <rawrecord><![CDATA[001@ ƒ021-22001A ƒ02045:01-12-17001B ƒ00046:27-07-20ƒt12:13:14.000001D ƒ00018:06-03-18001U ƒ0utf8001X ƒ00002@ ƒ0Oau002C ƒaTextƒbtxt002D ƒaComputermedienƒbc002E ƒaOnline-Ressourceƒbcr003@ ƒ01006635181004A ƒ03836258714ƒf : 44.90 €004A ƒ09783836258715ƒf : 44.90 €004P ƒSpƒ09783836258692007G ƒiGBVƒ01006635181010@ ƒager010E ƒerda011@ ƒa2018ƒn[2018]009P/03 ƒahhttp://sub-hh.ciando.com/book/?bok_id=2404378ƒxGƒ3Volltextƒ534009P/03 ƒS0ƒahttps://external.dandelon.com/download/attachments/dandelon/ids/DE006D64EF1D231AA2D71C12581FC00289C8E.pdfƒmV:DE-601ƒmX:AGIƒqpdf/applicationƒv2019-02-01ƒxHƒ3Volltextƒ534ƒAGBVƒB2019@ ƒaXA-DE021A ƒaJava ist auch noch eine InselƒdEinführung, Ausbildung, PraxisƒhChristian Ullenboom028A ƒ9502584122ƒ8Ullenboom, Christian ; ID: gnd/123404738ƒBVerfasserInƒ4aut028C ƒ988082512Xƒ8Bargen, Marleen$cvon *ca. 20./21. Jh.* ; ID: gnd/1123089639ƒBInterviewteRƒ4ive032@ ƒa13., aktualisierte und überarbeitete Auflage033A ƒpBonnƒnRheinwerk034D ƒa1 Online-Ressource (1363 Seiten)034M ƒaIllustrationen, Diagramme und Bilder037A ƒaTitelzusätze auf dem Umschlag: Erste Insel ; Programmieren mit der Java-Platform, Standard Edition 9 ; Java von A bis Z: Einführung, Praxis, Referenz ; Von Ausdrücken und Anweisungen zu Klassen und Objekten ; aktuell zu Java 9041A ƒ9663854784ƒ8Java Standard Edition 7 ; ID: gnd/7751205-4041A/09 ƒADE-101045D ƒ9091376092ƒ8Makroökonomik ; STW-ID: stw10249-5045D/49 ƒb34ƒcArbeitspapierƒdWorking Paper045Q/01 ƒ9106418890ƒ854.53$jProgrammiersprachen045R ƒaQP 232045X ƒiJELƒaB25ƒaF13ƒaF34ƒaG15ƒaP30045X ƒiFIVƒaSK01ƒjWissenschaftsgebieteü047I ƒa»Ein Kultbuch.«- iX - Magazin für professionelle Informationstechnik  Das Standardwerk zur Java-Programmierung in 13. Auflage! Aktuell zu Java 9Programmieren mit der Java Platform, Standard Edition 9Java von A bis Z: Einführung, Praxis, ReferenzVon Klassen und Objekten zu Datenstrukturen und AlgorithmenUnser Handbuch ist die erste Wahl, wenn es um aktuelles und praktisches Java-Wissengeht. Java-Einsteiger, Studenten und Umsteiger profitieren seit mehr als einem Jahrzehnt von diesem Lehrwerk. Neben der Behandlung der Sprachgrundlagen von Java(Neu in Java 9: das Modulsystem Jigsaw) gibt es kompakte Einführungen in Spezialthemen. So erfahren Sie einiges über Threads, Algorithmen, GUIs, XML und Java. Dieses Buch gehört in das Regal eines jeden Java-Programmierers.  Aus dem Inhalt: Imperative SprachkonzepteKlassen und ObjekteAusnahmebehandlungGenericsLambda-Ausdrücke und funktionale ProgrammierungDie KlassenbibliothekNebenläufige ProgrammierungEinführung in Datenstrukturen, GUI-Entwicklung, Dateien, XML usw. Galileo Press heißt jetzt Rheinwerk Verlag. Christian Ullenboom, Dipl.-Informatiker, ist zertifizierter Java-Programmierer und seit 1997 Trainer und Berater für Java-Technologien und objektorientierte Analyse und Design. Seit Jahren teilt er sein Wissen mit unzähligen Besuchern seiner Website, wo er Fragen beantwortet, Inhalte bereitstellt und diskutiert. Seine Sympathie gilt Java Performance Tuning und den sinnlichen Freuden des Lebens.201A/01 ƒ020-07-20201B/01 ƒ027-07-20ƒt12:13:14.000201D/01 ƒ00046:20-07-20201U/01 ƒ0utf8202D/01 ƒ003-08-20ƒbtouchtitleƒa1999203@/01 ƒ03524286275208@/01 ƒa27-07-20ƒbz209A/01 ƒatest vzg 27.07.20 ƒduƒx00209A/01 ƒatest 7109 aƒx09209C/01 ƒa2020/00003456ƒx00209G/01 ƒa46$0005769000220B/01 ƒatest 4802237A/01 ƒatest 4801201A/02 ƒ020-07-20201B/02 ƒ027-07-20ƒt12:13:14.000201D/02 ƒ00046:20-07-20201U/02 ƒ0utf8202D/02 ƒ027-07-20ƒb21ƒa0046203@/02 ƒ03524286283208@/02 ƒa27-07-20ƒbz209A/02 ƒatest vzg 27.07.20 (2)ƒduƒx00209A/02 ƒatest 7109 bƒx09209C/02 ƒa2020/00003457ƒx00209G/02 ƒa46$0005769000220B/02 ƒatest 4802237A/02 ƒatest 4801]]></rawrecord>
   </record>
 </collection>

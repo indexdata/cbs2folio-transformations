@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <collection count="1">
   <record>
-    <header status="upsert">
-      <identifier>164024913</identifier>
-    </header>
+    <status>upsert</status>
+    <hrid>164024913</hrid>
     <metadata>
       <datafield tag="001@" fulltag="001@">
         <subfield code="0">21-22,24,31,63,70,110,113,118,130-131,136,139,151,165,181,203,213,2006,2008,2011,2014,2016,2018,2082,2089,2096-2097,2151,2167,2481,2485,2496,2510,2512</subfield>
@@ -310,6 +309,88 @@
         </datafield>
       </item>
     </metadata>
-    <rawrecord><![CDATA[001@ ƒ021-22,24,31,63,70,110,113,118,130-131,136,139,151,165,181,203,213,2006,2008,2011,2014,2016,2018,2082,2089,2096-2097,2151,2167,2481,2485,2496,2510,2512001A ƒ02001:15-09-94001B ƒ01999:02-06-20ƒt12:04:37.000001D ƒ09999:99-99-99001U ƒ0utf8001X ƒ00002@ ƒ0Aau002C ƒaTextƒbtxt002D ƒaohne Hilfsmittel zu benutzenƒbn002E ƒaBandƒbnc003@ ƒ0164024913003O ƒaOCoLCƒ0260187908ƒv2012-12-31003S ƒ0042724368003T ƒaOCoLCƒ0260187908004A ƒ09783927789128ƒf : (Pp.)004A ƒ03927789127ƒf(Pp.)006A ƒ096186978006G ƒ0941823466006S ƒ0444218998006S ƒ0505201720006U ƒ094,A38,1616006Y ƒ0340100040866007G ƒiGBVƒ0164024913009@ ƒbBlocktest010@ ƒager011@ ƒa1994ƒn1994013D ƒ9826484824ƒ8Konferenzschrift ; ID: gnd/1071861417013D ƒ910566491Xƒ8Ausstellungskatalog ; ID: gnd/4135467-9013D ƒ9105605727ƒ8Aufsatzsammlung ; ID: gnd/4143413-4009Q ƒS0ƒahttps://external.dandelon.com/download/attachments/dandelon/ids/DE0045398BD62B613E089C1257B31004377ED.pdfƒmV:DE-601ƒmX:AGIƒqpdf/applicationƒv2019-02-01ƒxHƒ3Inhaltsverzeichnisƒ504ƒAGBVƒB2019@ ƒaXA-DE021A ƒaIn BewegungƒdDenkmodelle zur Veränderung von Architektur und bildender Kunst ; [anläßlich der Ausstellung "Jean Nouvel" (17.6. - 18.8.1994) im Kunstverein in Hamburg]ƒhhrsg. von Barbara Steiner ... [Autoren: Absalon ...]027A ƒaJean Nouvel028C ƒ9081176910ƒ8Steiner, Barbara *1964-* ; ID: gnd/121242560ƒBHrsg.028C ƒ9077179390ƒ8$PAbsalon *1964-1993* ; ID: gnd/114300739028C ƒ9394191145ƒ8Schmidt-Wulffen, Stephan *1951-* ; ID: gnd/11090849X028C ƒ9085590665ƒ8Schwarz, Ullrich *1950-* ; ID: gnd/124027261028C ƒ9080052533ƒ8Skene, Cathy *1964-* ; ID: gnd/119250187028C ƒ9624934136ƒ8Schäfer, Christoph *1964-* ; ID: gnd/14112024X028C ƒ9503370630ƒ8Braun, Reinhard *1964-* ; ID: gnd/130542806028C ƒdRobertƒaHarbison028C ƒdBrianƒaHatton028C ƒ9397651775ƒ8Hoffmann-Axthelm, Dieter *1940-* ; ID: gnd/107946246028C ƒ9081422393ƒ8Kähler, Gert *1942-* ; ID: gnd/121613291028C ƒ9079695531ƒ8Mullican, Matt *1951-* ; ID: gnd/118918540028C ƒ9080081703ƒ8Pardo, Jorge *1963-* ; ID: gnd/11927650X028G ƒ9079760511ƒ8Nouvel, Jean *1945-* ; ID: gnd/118979566029F ƒ916418127Xƒ8Ausstellung Jean Nouvel$d1994$cHamburg ; ID: gnd/2138882-9029F ƒ9101911688ƒ8Kunstverein in Hamburg ; ID: gnd/2016736-2030F ƒaAusstellung "Jean Nouvel"ƒkHamburgƒp1994.06.17-08.18033A ƒp[Hamburg]ƒp[Stuttgart]ƒnOktagon034D ƒa128 S.034M ƒaIll., graph. Darst., Kt.036E ƒaSchriften des Kunstvereins in Hamburg041A ƒ9104280352ƒ8Architektur ; ID: gnd/4002851-3044A ƒN650ƒsArchitectureƒxEnvironmental aspects044K ƒ9104280352ƒ8Architektur ; ID: gnd/4002851-3045A ƒaNA2542.35045E ƒa45045Q/01 ƒ9181570572ƒ856.62$jArchitekturtheorie$jArchitekturentwicklung045Q/02 ƒ9106415824ƒ820.05$jKunst in Beziehung zu anderen Wissenschaftsgebieten045R ƒ91270646443ƒ8LH 61060: Kunstgeschichte / Allgemeines. Allgemeine Kunstgeschichte / Theorie und Praxis der Bildenden Kunst / Theorie der Bildenden Kunst / Kunstvergleichung und Kunstkritik045V ƒa9,10046W ƒaIMD-Felder maschinell generiert (GBV)047A ƒa5090: DDSU/sred ; IMD-Felder und 1131 maschinell ergänzt (SWB)101B ƒ002-06-20ƒt12:04:37.000101U ƒ0utf8102D ƒ002-06-20ƒb800ƒa1999145Z/30 ƒakun 100.3145Z/99 ƒa67201B/01 ƒ002-06-20ƒt12:04:37.000201D/01 ƒ01999:02-06-20201U/01 ƒ0utf8202D/01 ƒ002-06-20ƒb800ƒa1999203@/01 ƒ0157430286208@/01 ƒa22-09-95ƒbzza209A/01 ƒaa kun 100.3/848ƒduƒx00209C/01 ƒawp 0848ƒx00209O/01 ƒakkƒx00]]></rawrecord>
+    <rawrecord><![CDATA[001@ ƒ021-22,24,31,63,70,110,113,118,130-131,136,139,151,165,181,203,213,2006,2008,2011,2014,2016,2018,2082,2089,2096-2097,2151,2167,2481,2485,2496,2510,2512
+001A ƒ02001:15-09-94
+001B ƒ01999:02-06-20ƒt12:04:37.000
+001D ƒ09999:99-99-99
+001U ƒ0utf8
+001X ƒ00
+002@ ƒ0Aau
+002C ƒaTextƒbtxt
+002D ƒaohne Hilfsmittel zu benutzenƒbn
+002E ƒaBandƒbnc
+003@ ƒ0164024913
+003O ƒaOCoLCƒ0260187908ƒv2012-12-31
+003S ƒ0042724368
+003T ƒaOCoLCƒ0260187908
+004A ƒ09783927789128ƒf : (Pp.)
+004A ƒ03927789127ƒf(Pp.)
+006A ƒ096186978
+006G ƒ0941823466
+006S ƒ0444218998
+006S ƒ0505201720
+006U ƒ094,A38,1616
+006Y ƒ0340100040866
+007G ƒiGBVƒ0164024913
+009@ ƒbBlocktest
+010@ ƒager
+011@ ƒa1994ƒn1994
+013D ƒ9826484824ƒ8Konferenzschrift ; ID: gnd/1071861417
+013D ƒ910566491Xƒ8Ausstellungskatalog ; ID: gnd/4135467-9
+013D ƒ9105605727ƒ8Aufsatzsammlung ; ID: gnd/4143413-4
+009Q ƒS0ƒahttps://external.dandelon.com/download/attachments/dandelon/ids/DE0045398BD62B613E089C1257B31004377ED.pdfƒmV:DE-601ƒmX:AGIƒqpdf/applicationƒv2019-02-01ƒxHƒ3Inhaltsverzeichnisƒ504ƒAGBVƒB2
+019@ ƒaXA-DE
+021A ƒaIn BewegungƒdDenkmodelle zur Veränderung von Architektur und bildender Kunst ; [anläßlich der Ausstellung "Jean Nouvel" (17.6. - 18.8.1994) im Kunstverein in Hamburg]ƒhhrsg. von Barbara Steiner ... [Autoren: Absalon ...]
+027A ƒaJean Nouvel
+028C ƒ9081176910ƒ8Steiner, Barbara *1964-* ; ID: gnd/121242560ƒBHrsg.
+028C ƒ9077179390ƒ8$PAbsalon *1964-1993* ; ID: gnd/114300739
+028C ƒ9394191145ƒ8Schmidt-Wulffen, Stephan *1951-* ; ID: gnd/11090849X
+028C ƒ9085590665ƒ8Schwarz, Ullrich *1950-* ; ID: gnd/124027261
+028C ƒ9080052533ƒ8Skene, Cathy *1964-* ; ID: gnd/119250187
+028C ƒ9624934136ƒ8Schäfer, Christoph *1964-* ; ID: gnd/14112024X
+028C ƒ9503370630ƒ8Braun, Reinhard *1964-* ; ID: gnd/130542806
+028C ƒdRobertƒaHarbison
+028C ƒdBrianƒaHatton
+028C ƒ9397651775ƒ8Hoffmann-Axthelm, Dieter *1940-* ; ID: gnd/107946246
+028C ƒ9081422393ƒ8Kähler, Gert *1942-* ; ID: gnd/121613291
+028C ƒ9079695531ƒ8Mullican, Matt *1951-* ; ID: gnd/118918540
+028C ƒ9080081703ƒ8Pardo, Jorge *1963-* ; ID: gnd/11927650X
+028G ƒ9079760511ƒ8Nouvel, Jean *1945-* ; ID: gnd/118979566
+029F ƒ916418127Xƒ8Ausstellung Jean Nouvel$d1994$cHamburg ; ID: gnd/2138882-9
+029F ƒ9101911688ƒ8Kunstverein in Hamburg ; ID: gnd/2016736-2
+030F ƒaAusstellung "Jean Nouvel"ƒkHamburgƒp1994.06.17-08.18
+033A ƒp[Hamburg]ƒp[Stuttgart]ƒnOktagon
+034D ƒa128 S.
+034M ƒaIll., graph. Darst., Kt.
+036E ƒaSchriften des Kunstvereins in Hamburg
+041A ƒ9104280352ƒ8Architektur ; ID: gnd/4002851-3
+044A ƒN650ƒsArchitectureƒxEnvironmental aspects
+044K ƒ9104280352ƒ8Architektur ; ID: gnd/4002851-3
+045A ƒaNA2542.35
+045E ƒa45
+045Q/01 ƒ9181570572ƒ856.62$jArchitekturtheorie$jArchitekturentwicklung
+045Q/02 ƒ9106415824ƒ820.05$jKunst in Beziehung zu anderen Wissenschaftsgebieten
+045R ƒ91270646443ƒ8LH 61060: Kunstgeschichte / Allgemeines. Allgemeine Kunstgeschichte / Theorie und Praxis der Bildenden Kunst / Theorie der Bildenden Kunst / Kunstvergleichung und Kunstkritik
+045V ƒa9,10
+046W ƒaIMD-Felder maschinell generiert (GBV)
+047A ƒa5090: DDSU/sred ; IMD-Felder und 1131 maschinell ergänzt (SWB)
+
+101B ƒ002-06-20ƒt12:04:37.000
+101U ƒ0utf8
+102D ƒ002-06-20ƒb800ƒa1999
+145Z/30 ƒakun 100.3
+145Z/99 ƒa67
+
+201B/01 ƒ002-06-20ƒt12:04:37.000
+201D/01 ƒ01999:02-06-20
+201U/01 ƒ0utf8
+202D/01 ƒ002-06-20ƒb800ƒa1999
+203@/01 ƒ0157430286
+208@/01 ƒa22-09-95ƒbzza
+209A/01 ƒaa kun 100.3/848ƒduƒx00
+209C/01 ƒawp 0848ƒx00
+209O/01 ƒakkƒx00
+
+]]></rawrecord>
   </record>
 </collection>

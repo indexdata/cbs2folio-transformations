@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <collection count="1">
   <record>
-    <header status="upsert">
-      <identifier>161063977</identifier>
-    </header>
+    <status>upsert</status>
+    <hrid>161063977</hrid>
     <metadata>
       <datafield tag="001@" fulltag="001@">
         <subfield code="0">21-22,24,26,62,104,202,381,600,640</subfield>
@@ -190,6 +189,59 @@
         </datafield>
       </item>
     </metadata>
-    <rawrecord><![CDATA[001@ ƒ021-22,24,26,62,104,202,381,600,640001A ƒ02001:04-09-94001B ƒ01999:17-03-18ƒt16:37:32.000001D ƒ09999:99-99-99001U ƒ0utf8001X ƒ00002@ ƒ0Aau002C ƒaTextƒbtxt002D ƒaohne Hilfsmittel zu benutzenƒbn002E ƒaBandƒbnc003@ ƒ0161063977003D ƒ0672023490003O ƒaOCoLCƒ0832323544ƒv2012-12-31004D ƒf (kart. (Pr. nicht mitget.)006G ƒ0871320320006U ƒ087,B47,0327006Y ƒ0IFM00002607006Y ƒ0IFMGO2836006Y ƒ0dms0042003007G ƒiDNBƒ0871320320010@ ƒager011@ ƒa1985ƒn1985019@ ƒaXA-DE021A ƒaMeeressymposium Bonn 1985ƒdauf Einladung des schleswig-holsteinischen Ministers für Wirtschaft und Verkehr ... und des Bundesministers für Wirtschaft ... am 13. Juni 1985 in der schleswig-holsteinischen Landesvertretung in Bonnƒh[Hrsg.: Der Minister für Wirtschaft und Verkehr des Landes Schleswig-Holstein]029A ƒ9100530990ƒ8Meeressymposium$d1985$cBonn ; ID: gnd/2093492-0029F ƒ9102264228ƒ8Schleswig-Holstein$bMinister für Wirtschaft und Verkehr ; ID: gnd/2027507-9029F ƒaBundesministerium Wirtschaft030F ƒaMeeressymposiumƒkBonnƒp1985033A ƒp[Kiel]ƒnMinister für Wirtschaft und Verkehr des Landes Schleswig-Holstein034D ƒa127 S.034I ƒa21 cm034M ƒaIll. (farb.), Kt.036E ƒaSchriftenreihe der Landesregierung Schleswig-HolsteinƒeSchriften des Ministers für Wirtschaft und Verkehr036F ƒX1700ƒ9129343323ƒ8Der @Minister für Wirtschaft und Verkehr des Landes Schleswig-Holstein / Schleswig-Holstein$bMinister für Wirtschaft und Verkehr ; ID: gnd/2027507-9 ; ZDB-ID: 150346-7ƒl17037A ƒaEnthält Aufsätze045E ƒa31ƒa32045M/10 ƒi8ƒaretro070046W ƒaIMD-Felder maschinell generiert (GBV)101B ƒ010-07-95ƒt08:22:38.299101U ƒ0utf8102D ƒ026-05-20ƒbtouchtitleƒa1999145Z/15 ƒaQe201B/01 ƒ029-07-16ƒt13:54:21.000201U/01 ƒ0utf8202D/01 ƒ026-05-20ƒbtouchtitleƒa1999203@/01 ƒ0151746443208@/01 ƒa10-07-95ƒbzwn209A/01 ƒfTB NautikƒaQe Mee/Magazinƒdcƒx00209C/01 ƒa86/320ƒx00209G/01 ƒa46C$001878484]]></rawrecord>
+    <rawrecord><![CDATA[001@ ƒ021-22,24,26,62,104,202,381,600,640
+001A ƒ02001:04-09-94
+001B ƒ01999:17-03-18ƒt16:37:32.000
+001D ƒ09999:99-99-99
+001U ƒ0utf8
+001X ƒ00
+002@ ƒ0Aau
+002C ƒaTextƒbtxt
+002D ƒaohne Hilfsmittel zu benutzenƒbn
+002E ƒaBandƒbnc
+003@ ƒ0161063977
+003D ƒ0672023490
+003O ƒaOCoLCƒ0832323544ƒv2012-12-31
+004D ƒf (kart. (Pr. nicht mitget.)
+006G ƒ0871320320
+006U ƒ087,B47,0327
+006Y ƒ0IFM00002607
+006Y ƒ0IFMGO2836
+006Y ƒ0dms0042003
+007G ƒiDNBƒ0871320320
+010@ ƒager
+011@ ƒa1985ƒn1985
+019@ ƒaXA-DE
+021A ƒaMeeressymposium Bonn 1985ƒdauf Einladung des schleswig-holsteinischen Ministers für Wirtschaft und Verkehr ... und des Bundesministers für Wirtschaft ... am 13. Juni 1985 in der schleswig-holsteinischen Landesvertretung in Bonnƒh[Hrsg.: Der Minister für Wirtschaft und Verkehr des Landes Schleswig-Holstein]
+029A ƒ9100530990ƒ8Meeressymposium$d1985$cBonn ; ID: gnd/2093492-0
+029F ƒ9102264228ƒ8Schleswig-Holstein$bMinister für Wirtschaft und Verkehr ; ID: gnd/2027507-9
+029F ƒaBundesministerium Wirtschaft
+030F ƒaMeeressymposiumƒkBonnƒp1985
+033A ƒp[Kiel]ƒnMinister für Wirtschaft und Verkehr des Landes Schleswig-Holstein
+034D ƒa127 S.
+034I ƒa21 cm
+034M ƒaIll. (farb.), Kt.
+036E ƒaSchriftenreihe der Landesregierung Schleswig-HolsteinƒeSchriften des Ministers für Wirtschaft und Verkehr
+036F ƒX1700ƒ9129343323ƒ8Der @Minister für Wirtschaft und Verkehr des Landes Schleswig-Holstein / Schleswig-Holstein$bMinister für Wirtschaft und Verkehr ; ID: gnd/2027507-9 ; ZDB-ID: 150346-7ƒl17
+037A ƒaEnthält Aufsätze
+045E ƒa31ƒa32
+045M/10 ƒi8ƒaretro070
+046W ƒaIMD-Felder maschinell generiert (GBV)
+
+101B ƒ010-07-95ƒt08:22:38.299
+101U ƒ0utf8
+102D ƒ026-05-20ƒbtouchtitleƒa1999
+145Z/15 ƒaQe
+
+201B/01 ƒ029-07-16ƒt13:54:21.000
+201U/01 ƒ0utf8
+202D/01 ƒ026-05-20ƒbtouchtitleƒa1999
+203@/01 ƒ0151746443
+208@/01 ƒa10-07-95ƒbzwn
+209A/01 ƒfTB NautikƒaQe Mee/Magazinƒdcƒx00
+209C/01 ƒa86/320ƒx00
+209G/01 ƒa46C$001878484
+
+]]></rawrecord>
   </record>
 </collection>

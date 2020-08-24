@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <collection count="2">
   <record>
-    <header status="upsert">
-      <identifier>3556408759</identifier>
-    </header>
+    <status>upsert</status>
+    <hrid>3556408759</hrid>
     <metadata>
       <datafield tag="001@" fulltag="001@">
         <subfield code="0">21</subfield>
@@ -150,12 +149,55 @@
         </datafield>
       </item>
     </metadata>
-    <rawrecord><![CDATA[001@ ƒ021001A ƒ00046:05-06-20001B ƒ00046:05-06-20ƒt18:31:48.000001D ƒ00046:05-06-20001U ƒ0utf8001X ƒ00002@ ƒ0Aax002C ƒaTextƒbtxt002D ƒaohne Hilfsmittel zu benutzenƒbn002E ƒaBandƒbnc003@ ƒ03556408759007G ƒiKXPƒ03556408759010@ ƒaeng010E ƒerda011@ ƒa20021A ƒaLedvina's test record 3028A ƒdCharlesƒaLedvina033A ƒpChicagoƒnMonkeyWerks101B ƒ005-06-20ƒt21:50:49.000101U ƒ0utf8102D ƒ002-06-20ƒb1684049ƒa0046109R ƒuhttp://chopac.org201A/01 ƒ005-06-20201B/01 ƒ005-06-20ƒt21:46:29.000201D/01 ƒ00046:05-06-20201U/01 ƒ0utf8202D/01 ƒ005-06-20ƒb1684049ƒa0046203@/01 ƒ03524285791208@/01 ƒa13-05-20ƒbz209A/01 ƒb206ƒx00237A/01 ƒaThis is item number 2201A/02 ƒ013-05-20201B/02 ƒ005-06-20ƒt21:50:49.000201D/02 ƒ00046:13-05-20201U/02 ƒ0utf8202D/02 ƒ005-06-20ƒb1684049ƒa0046203@/02 ƒ03524282822208@/02 ƒa13-05-20ƒbz209A/02 ƒb206ƒx00237A/02 ƒaThis is item number 1]]></rawrecord>
+    <rawrecord><![CDATA[001@ ƒ021
+001A ƒ00046:05-06-20
+001B ƒ00046:05-06-20ƒt18:31:48.000
+001D ƒ00046:05-06-20
+001U ƒ0utf8
+001X ƒ00
+002@ ƒ0Aax
+002C ƒaTextƒbtxt
+002D ƒaohne Hilfsmittel zu benutzenƒbn
+002E ƒaBandƒbnc
+003@ ƒ03556408759
+007G ƒiKXPƒ03556408759
+010@ ƒaeng
+010E ƒerda
+011@ ƒa20
+021A ƒaLedvina's test record 3
+028A ƒdCharlesƒaLedvina
+033A ƒpChicagoƒnMonkeyWerks
+
+101B ƒ005-06-20ƒt21:50:49.000
+101U ƒ0utf8
+102D ƒ002-06-20ƒb1684049ƒa0046
+109R ƒuhttp://chopac.org
+
+201A/01 ƒ005-06-20
+201B/01 ƒ005-06-20ƒt21:46:29.000
+201D/01 ƒ00046:05-06-20
+201U/01 ƒ0utf8
+202D/01 ƒ005-06-20ƒb1684049ƒa0046
+203@/01 ƒ03524285791
+208@/01 ƒa13-05-20ƒbz
+209A/01 ƒb206ƒx00
+237A/01 ƒaThis is item number 2
+
+201A/02 ƒ013-05-20
+201B/02 ƒ005-06-20ƒt21:50:49.000
+201D/02 ƒ00046:13-05-20
+201U/02 ƒ0utf8
+202D/02 ƒ005-06-20ƒb1684049ƒa0046
+203@/02 ƒ03524282822
+208@/02 ƒa13-05-20ƒbz
+209A/02 ƒb206ƒx00
+237A/02 ƒaThis is item number 1
+
+]]></rawrecord>
   </record>
   <record>
-    <header status="upsert">
-      <identifier>3556405105</identifier>
-    </header>
+    <status>deleted</status>
+    <hrid>3556405105</hrid>
     <metadata>
       <datafield tag="001A" fulltag="001A">
         <subfield code="0">0046:12-05-20</subfield>
@@ -216,6 +258,24 @@
         <subfield code="n">MonkeyWerks</subfield>
       </datafield>
     </metadata>
-    <rawrecord><![CDATA[001A ƒ00046:12-05-20001B ƒ00046:15-05-20ƒt23:31:42.000001D ƒ00046:12-05-20001U ƒ0utf8001X ƒ00002@ ƒ0Aau002C ƒaTextƒbtxt002D ƒaohne Hilfsmittel zu benutzenƒbn002E ƒaBandƒbnc003@ ƒ03556405105007G ƒiKXPƒ03556405105010@ ƒaeng010E ƒerda011@ ƒa2020021A ƒaLedvina's test record$ntwo028A ƒ9575780959ƒ8Mobley, Hank *1930-1986* ; ID: gnd/134464311033A ƒpChicagoƒnMonkeyWerks]]></rawrecord>
+    <rawrecord><![CDATA[001A ƒ00046:12-05-20
+001B ƒ00046:15-05-20ƒt23:31:42.000
+001D ƒ00046:12-05-20
+001U ƒ0utf8
+001X ƒ00
+002@ ƒ0Aau
+002C ƒaTextƒbtxt
+002D ƒaohne Hilfsmittel zu benutzenƒbn
+002E ƒaBandƒbnc
+003@ ƒ03556405105
+007G ƒiKXPƒ03556405105
+010@ ƒaeng
+010E ƒerda
+011@ ƒa2020
+021A ƒaLedvina's test record$ntwo
+028A ƒ9575780959ƒ8Mobley, Hank *1930-1986* ; ID: gnd/134464311
+033A ƒpChicagoƒnMonkeyWerks
+
+]]></rawrecord>
   </record>
 </collection>

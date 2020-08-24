@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <collection count="1">
   <record>
-    <header status="upsert">
-      <identifier>38503881X</identifier>
-    </header>
+    <status>upsert</status>
+    <hrid>38503881X</hrid>
     <metadata>
       <datafield tag="001@" fulltag="001@">
         <subfield code="0">11,21-23,26,31-32,39-40,50,60,62,69,77,100,161,181,203-204,213,217,235,289,293,350,375,382,694,721,723,2009-2011,2023-2024,2027,2033,2036,2046,2065,2093,2299,2403,2505,2535,4277,4334</subfield>
@@ -225,6 +224,66 @@
         </datafield>
       </item>
     </metadata>
-    <rawrecord><![CDATA[001@ ƒ011,21-23,26,31-32,39-40,50,60,62,69,77,100,161,181,203-204,213,217,235,289,293,350,375,382,694,721,723,2009-2011,2023-2024,2027,2033,2036,2046,2065,2093,2299,2403,2505,2535,4277,4334001A ƒ02004:14-04-04001B ƒ02004:06-07-19ƒt11:57:13.000001D ƒ02004:22-04-04001U ƒ0utf8001X ƒ00002@ ƒ0Odv002C ƒaTextƒbtxt002D ƒaComputermedienƒbc002E ƒaOnline-Ressourceƒbcr003@ ƒ038503881X003O ƒaOCoLCƒ0176877777ƒv2012-12-31003S ƒ0265360129003T ƒaOCoLCƒ0984754041005A ƒ01438-7662006G ƒ0025858920006S ƒ0281247161006S ƒ0442557175006Y ƒ0lvrrad1020843006Z ƒ02142636-3007G ƒiZDBƒ02142636-3010@ ƒager011@ ƒa1998ƒn1998-013D ƒ9104628669ƒ8Monografische Reihe ; ID: gnd/4179998-7016A ƒ0cr|uuu---uuuuu016B ƒaSAXB009P/03 ƒahttp://www.ib.hu-berlin.de/inf/handrei.htmƒxHƒ4LF018@ ƒaz019@ ƒaXA-DE021A ƒaBerliner Handreichungen zur Bibliotheks- und InformationswissenschaftƒhHumboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft029F ƒ9122907388ƒ8Freie Universität Berlin$bInstitut für Bibliothekswissenschaft und Bibliothekarausbildung ; ID: gnd/2127595-6ƒBHerausgebendes Organƒ4isb029F ƒ9183866096ƒ8Humboldt-Universität zu Berlin$bInstitut für Bibliothekswissenschaft ; ID: gnd/2144828-0ƒBHerausgebendes Organƒ4isb029F ƒ9503111929ƒ8Humboldt-Universität zu Berlin$bInstitut für Bibliotheks- und Informationswissenschaft ; ID: gnd/10120031-6ƒBHerausgebendes Organƒ4isb031@ ƒa2.1998 -031N ƒd2ƒj1998033A ƒpBerlin034D ƒaOnline-Ressource037A ƒaGesehen am 15.11.10039E ƒbfƒiDruckausg. u. Vorg.ƒ9642433968ƒ8Berliner Handreichungen zur Bibliotheks- und Informationswissenschaft ; ZDB-ID: 2586241-8ƒCZDBƒ625862418044K ƒ9106377477ƒ8Bibliothekswissenschaft ; ID: gnd/4006465-7044K ƒ9106377523ƒ8Bibliothek ; ID: gnd/4006439-6044K ƒ9105718254ƒ8Informations- und Dokumentationswissenschaft ; ID: gnd/4128313-2045D/49 ƒb44045D/49 ƒb81ƒcOnline-PublikationƒdOnline publication045G ƒa020ƒADE-600045Q/01 ƒ9106402811ƒ806.30$jBibliothekswesen$jDokumentationswesen: Allgemeines045Q/02 ƒ9106403648ƒ806.04$jAusbildung$jBeruf$jOrganisationen$XInformation und Dokumentation045V ƒa24,1045Y ƒabbi046D ƒiHauptsacht. teilsƒaBerliner Handreichungen zur Bibliothekswissenschaft046D ƒiHauptsacht. teils u. später Nebent.ƒaBerliner Handreichungen zur Bibliothekswissenschaft und Bibliothekarausbildung046P ƒaBd 201 nicht ersch.201B/01 ƒ016-01-14ƒt16:14:23.000201U/01 ƒ0utf8202D/01 ƒ016-01-14ƒb6277ƒa0046203@/01 ƒ01163626767208@/01 ƒa25-05-10ƒbxza209O/01 ƒaebook_laufend_anzuhängenƒx00]]></rawrecord>
+    <rawrecord><![CDATA[001@ ƒ011,21-23,26,31-32,39-40,50,60,62,69,77,100,161,181,203-204,213,217,235,289,293,350,375,382,694,721,723,2009-2011,2023-2024,2027,2033,2036,2046,2065,2093,2299,2403,2505,2535,4277,4334
+001A ƒ02004:14-04-04
+001B ƒ02004:06-07-19ƒt11:57:13.000
+001D ƒ02004:22-04-04
+001U ƒ0utf8
+001X ƒ00
+002@ ƒ0Odv
+002C ƒaTextƒbtxt
+002D ƒaComputermedienƒbc
+002E ƒaOnline-Ressourceƒbcr
+003@ ƒ038503881X
+003O ƒaOCoLCƒ0176877777ƒv2012-12-31
+003S ƒ0265360129
+003T ƒaOCoLCƒ0984754041
+005A ƒ01438-7662
+006G ƒ0025858920
+006S ƒ0281247161
+006S ƒ0442557175
+006Y ƒ0lvrrad1020843
+006Z ƒ02142636-3
+007G ƒiZDBƒ02142636-3
+010@ ƒager
+011@ ƒa1998ƒn1998-
+013D ƒ9104628669ƒ8Monografische Reihe ; ID: gnd/4179998-7
+016A ƒ0cr|uuu---uuuuu
+016B ƒaSAXB
+009P/03 ƒahttp://www.ib.hu-berlin.de/inf/handrei.htmƒxHƒ4LF
+018@ ƒaz
+019@ ƒaXA-DE
+021A ƒaBerliner Handreichungen zur Bibliotheks- und InformationswissenschaftƒhHumboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft
+029F ƒ9122907388ƒ8Freie Universität Berlin$bInstitut für Bibliothekswissenschaft und Bibliothekarausbildung ; ID: gnd/2127595-6ƒBHerausgebendes Organƒ4isb
+029F ƒ9183866096ƒ8Humboldt-Universität zu Berlin$bInstitut für Bibliothekswissenschaft ; ID: gnd/2144828-0ƒBHerausgebendes Organƒ4isb
+029F ƒ9503111929ƒ8Humboldt-Universität zu Berlin$bInstitut für Bibliotheks- und Informationswissenschaft ; ID: gnd/10120031-6ƒBHerausgebendes Organƒ4isb
+031@ ƒa2.1998 -
+031N ƒd2ƒj1998
+033A ƒpBerlin
+034D ƒaOnline-Ressource
+037A ƒaGesehen am 15.11.10
+039E ƒbfƒiDruckausg. u. Vorg.ƒ9642433968ƒ8Berliner Handreichungen zur Bibliotheks- und Informationswissenschaft ; ZDB-ID: 2586241-8ƒCZDBƒ625862418
+044K ƒ9106377477ƒ8Bibliothekswissenschaft ; ID: gnd/4006465-7
+044K ƒ9106377523ƒ8Bibliothek ; ID: gnd/4006439-6
+044K ƒ9105718254ƒ8Informations- und Dokumentationswissenschaft ; ID: gnd/4128313-2
+045D/49 ƒb44
+045D/49 ƒb81ƒcOnline-PublikationƒdOnline publication
+045G ƒa020ƒADE-600
+045Q/01 ƒ9106402811ƒ806.30$jBibliothekswesen$jDokumentationswesen: Allgemeines
+045Q/02 ƒ9106403648ƒ806.04$jAusbildung$jBeruf$jOrganisationen$XInformation und Dokumentation
+045V ƒa24,1
+045Y ƒabbi
+046D ƒiHauptsacht. teilsƒaBerliner Handreichungen zur Bibliothekswissenschaft
+046D ƒiHauptsacht. teils u. später Nebent.ƒaBerliner Handreichungen zur Bibliothekswissenschaft und Bibliothekarausbildung
+046P ƒaBd 201 nicht ersch.
+
+201B/01 ƒ016-01-14ƒt16:14:23.000
+201U/01 ƒ0utf8
+202D/01 ƒ016-01-14ƒb6277ƒa0046
+203@/01 ƒ01163626767
+208@/01 ƒa25-05-10ƒbxza
+209O/01 ƒaebook_laufend_anzuhängenƒx00
+
+]]></rawrecord>
   </record>
 </collection>

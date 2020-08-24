@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <collection count="1">
   <record>
-    <header status="upsert">
-      <identifier>167385054</identifier>
-    </header>
+    <status>upsert</status>
+    <hrid>167385054</hrid>
     <metadata>
       <datafield tag="001@" fulltag="001@">
         <subfield code="0">11,21-22,24,34,39,69,99,101,183,235,285,2001,2005,2007-2008,2010-2011,2018,2020,2023-2024,2036,2051,2179,4036-4038,4082,4103,4116,4125,4238,4251,4253,4277,4302,4305,4309,4311,4320,4323,4325,4753</subfield>
@@ -196,6 +195,59 @@
         </datafield>
       </item>
     </metadata>
-    <rawrecord><![CDATA[001@ ƒ011,21-22,24,34,39,69,99,101,183,235,285,2001,2005,2007-2008,2010-2011,2018,2020,2023-2024,2036,2051,2179,4036-4038,4082,4103,4116,4125,4238,4251,4253,4277,4302,4305,4309,4311,4320,4323,4325,4753001A ƒ02004:30-10-94001B ƒ01999:02-06-20ƒt12:12:56.000001D ƒ02004:26-09-96001U ƒ0utf8001X ƒ00002@ ƒ0Abv002C ƒaTextƒbtxt002D ƒaohne Hilfsmittel zu benutzenƒbn002E ƒaBandƒbnc003@ ƒ0167385054003O ƒaOCoLCƒ0263601160ƒv2012-12-31003S ƒ0015682013003T ƒaOCoLCƒ0985612136006G ƒ0012701793006Z ƒ0513034-7007G ƒiZDBƒ0513034-7010@ ƒager011@ ƒa1959ƒb1963ƒn1959-1963013D ƒ910454466Xƒ8Zeitschrift ; ID: gnd/4067488-5013D ƒ9105614165ƒ8Amtliche Publikation ; ID: gnd/4142300-8018@ ƒaz019@ ƒaXA-DE021A ƒaBundesgesetzblattƒhHrsg. Der Bundesminister der Justiz021C ƒlTeil 3ƒaSammlung des Bundesrechts021C ƒlSachgebiet 1ƒaStaats- und Verfassungsrecht025@ ƒaBundesgesetzblatt / 3 / 1027A ƒaSammlung des Bundesrechts029A ƒ9104732423ƒ8Deutschland$gBundesrepublik ; ID: gnd/4011889-7ƒBVerfasserƒ4aut031@ ƒaLfg. 1.1959 - 7.1963; damit Ersch. eingest.031N ƒd1ƒj1959ƒn7ƒk1963033A ƒpBonnƒpKölnƒnBundesanzeiger-Verl.039S ƒi1=6; 1(2.Aufl.)=113; 1(3.Aufl.)=132; 2=129; 3=114; 4=115; 5=117; 6=116; 7=131 vonƒ9130142107ƒ8Bundesgesetzblatt. Teil 3 / Deutschland$gBundesrepublik ; ID: gnd/4011889-7. - Bonn : Bundesanzeiger-Verl., 1958-1969 ; ZDB-ID: 513033-5ƒCZDBƒ6513033-5045G ƒa340ƒADE-600047A ƒaSortierzählung bei Bänden maschinell geändert (GBV)101B ƒ002-06-20ƒt12:12:56.000101U ƒ0utf8102D ƒ002-06-20ƒb800ƒa1999145Z/30 ƒajur 001 bd145Z/99 ƒa34201B/01 ƒ002-06-20ƒt12:12:56.000201D/01 ƒ01999:02-06-20201U/01 ƒ0utf8202D/01 ƒ002-06-20ƒb800ƒa1999203@/01 ƒ0812962001208@/01 ƒa13-03-07ƒbbza209A/01 ƒaz jur 001/104ƒddƒx00209C/01 ƒaak 9346-1ƒx00231@/01 ƒj1963231B/01 ƒaStand: 1963]]></rawrecord>
+    <rawrecord><![CDATA[001@ ƒ011,21-22,24,34,39,69,99,101,183,235,285,2001,2005,2007-2008,2010-2011,2018,2020,2023-2024,2036,2051,2179,4036-4038,4082,4103,4116,4125,4238,4251,4253,4277,4302,4305,4309,4311,4320,4323,4325,4753
+001A ƒ02004:30-10-94
+001B ƒ01999:02-06-20ƒt12:12:56.000
+001D ƒ02004:26-09-96
+001U ƒ0utf8
+001X ƒ00
+002@ ƒ0Abv
+002C ƒaTextƒbtxt
+002D ƒaohne Hilfsmittel zu benutzenƒbn
+002E ƒaBandƒbnc
+003@ ƒ0167385054
+003O ƒaOCoLCƒ0263601160ƒv2012-12-31
+003S ƒ0015682013
+003T ƒaOCoLCƒ0985612136
+006G ƒ0012701793
+006Z ƒ0513034-7
+007G ƒiZDBƒ0513034-7
+010@ ƒager
+011@ ƒa1959ƒb1963ƒn1959-1963
+013D ƒ910454466Xƒ8Zeitschrift ; ID: gnd/4067488-5
+013D ƒ9105614165ƒ8Amtliche Publikation ; ID: gnd/4142300-8
+018@ ƒaz
+019@ ƒaXA-DE
+021A ƒaBundesgesetzblattƒhHrsg. Der Bundesminister der Justiz
+021C ƒlTeil 3ƒaSammlung des Bundesrechts
+021C ƒlSachgebiet 1ƒaStaats- und Verfassungsrecht
+025@ ƒaBundesgesetzblatt / 3 / 1
+027A ƒaSammlung des Bundesrechts
+029A ƒ9104732423ƒ8Deutschland$gBundesrepublik ; ID: gnd/4011889-7ƒBVerfasserƒ4aut
+031@ ƒaLfg. 1.1959 - 7.1963; damit Ersch. eingest.
+031N ƒd1ƒj1959ƒn7ƒk1963
+033A ƒpBonnƒpKölnƒnBundesanzeiger-Verl.
+039S ƒi1=6; 1(2.Aufl.)=113; 1(3.Aufl.)=132; 2=129; 3=114; 4=115; 5=117; 6=116; 7=131 vonƒ9130142107ƒ8Bundesgesetzblatt. Teil 3 / Deutschland$gBundesrepublik ; ID: gnd/4011889-7. - Bonn : Bundesanzeiger-Verl., 1958-1969 ; ZDB-ID: 513033-5ƒCZDBƒ6513033-5
+045G ƒa340ƒADE-600
+047A ƒaSortierzählung bei Bänden maschinell geändert (GBV)
+
+101B ƒ002-06-20ƒt12:12:56.000
+101U ƒ0utf8
+102D ƒ002-06-20ƒb800ƒa1999
+145Z/30 ƒajur 001 bd
+145Z/99 ƒa34
+
+201B/01 ƒ002-06-20ƒt12:12:56.000
+201D/01 ƒ01999:02-06-20
+201U/01 ƒ0utf8
+202D/01 ƒ002-06-20ƒb800ƒa1999
+203@/01 ƒ0812962001
+208@/01 ƒa13-03-07ƒbbza
+209A/01 ƒaz jur 001/104ƒddƒx00
+209C/01 ƒaak 9346-1ƒx00
+231@/01 ƒj1963
+231B/01 ƒaStand: 1963
+
+]]></rawrecord>
   </record>
 </collection>
