@@ -13,7 +13,14 @@
 
   <xsl:template match="record">
     <record>
-      <xsl:apply-templates select="metadata"/>
+      <xsl:choose>
+        <xsl:when test="status='deleted'">
+          <delete><hrid><xsl:value-of select="./hrid" /></hrid></delete>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:apply-templates select="metadata"/>
+        </xsl:otherwise>
+      </xsl:choose>
     </record>
   </xsl:template>
 
