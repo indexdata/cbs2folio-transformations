@@ -25,7 +25,7 @@
   </xsl:template>
 
   <xsl:template match="metadata">
-    <source>K10Plus</source>
+    <source>K10plus</source>
     <xsl:variable name="ppn" select="datafield[@tag='003@']/subfield[@code='0']" />
     <hrid>
       <xsl:value-of select="$ppn" />
