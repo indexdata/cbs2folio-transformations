@@ -648,10 +648,10 @@
 -->
 
     <!-- Notes -->
-    <xsl:if test="datafield[@tag='011B' or @tag='037A' or @tag='046P' or @tag='046L' or @tag='046K']">
+    <xsl:if test="datafield[@tag='011B' or @tag='037A' or @tag='046P' or @tag='046L' or @tag='046K' or @tag='047I' or @tag='048H']">
       <notes>
         <arr>
-          <xsl:for-each select="datafield[@tag='011B' or @tag='037A' or @tag='046P' or @tag='046L' or @tag='046K']">
+          <xsl:for-each select="datafield[@tag='011B' or @tag='037A' or @tag='037I' or @tag='046P' or @tag='046L' or @tag='046K']">
             <i>
               <xsl:choose>
                 <xsl:when test="./@tag='011B'">
@@ -676,6 +676,9 @@
                     <xsl:when test="./@tag='046K'"><instanceNoteTypeId>Estimated publication date</instanceNoteTypeId></xsl:when>
                     <xsl:when test="./@tag='046L'"><instanceNoteTypeId>Language note</instanceNoteTypeId></xsl:when>
                     <xsl:when test="./@tag='046P'"><instanceNoteTypeId>Numbering peculiarities note</instanceNoteTypeId></xsl:when>
+					<xsl:when test="./@tag='047I'"><instanceNoteTypeId>Summary</instanceNoteTypeId></xsl:when>
+					<xsl:when test="./@tag='037I'"><instanceNoteTypeId>Reproduction note</instanceNoteTypeId></xsl:when>
+					<xsl:when test="./@tag='048H'"><instanceNoteTypeId>System Details note</instanceNoteTypeId></xsl:when>
                     <xsl:otherwise><instanceNoteTypeId>General note</instanceNoteTypeId></xsl:otherwise>
                   </xsl:choose>
                 </xsl:otherwise>
