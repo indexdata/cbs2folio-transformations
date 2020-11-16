@@ -659,7 +659,7 @@
                     <xsl:if test="./subfield[@code='b']"><xsl:value-of select="concat(./subfield[@code='a'], '-', ./subfield[@code='b'])" /></xsl:if>
                     <xsl:if test="not(./subfield[@code='b'])"><xsl:value-of select="./subfield[@code='a']" /></xsl:if>
                   </note>
-                  <instanceNoteTypeId>General note</instanceNoteTypeId>
+                  <instanceNoteTypeId>Reproduction note</instanceNoteTypeId>
                 </xsl:when>
                 <xsl:when test="./@tag='037A'">
                   <note>
@@ -668,7 +668,7 @@
                       <xsl:otherwise><xsl:value-of select="./subfield[@code='a']" /></xsl:otherwise>
                     </xsl:choose>
                   </note>
-                  <instanceNoteTypeId>Supplement note</instanceNoteTypeId>
+                  <instanceNoteTypeId>General note</instanceNoteTypeId>
                 </xsl:when>
                 <xsl:otherwise>
                   <note><xsl:value-of select="./subfield[@code='a']" /></note>
