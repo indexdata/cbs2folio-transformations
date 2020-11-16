@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<collection count="1">
+  <record>
+    <status>upsert</status>
+    <hrid>476130832</hrid>
+    <metadata>
+      <datafield tag="001@" fulltag="001@">
+        <subfield code="0">11,21-22,31,39,50,63,92,104,135,165,181,203</subfield>
+      </datafield>
+      <datafield tag="001A" fulltag="001A">
+        <subfield code="0">0023:23-12-04</subfield>
+      </datafield>
+      <datafield tag="001B" fulltag="001B">
+        <subfield code="0">1999:05-08-16</subfield>
+        <subfield code="t">16:17:14.000</subfield>
+      </datafield>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">0023:23-12-04</subfield>
+      </datafield>
+      <datafield tag="001U" fulltag="001U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="001X" fulltag="001X">
+        <subfield code="0">0</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Avu</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+        <subfield code="b">n</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Band</subfield>
+        <subfield code="b">nc</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">476130832</subfield>
+      </datafield>
+      <datafield tag="003D" fulltag="003D">
+        <subfield code="0">476650496</subfield>
+      </datafield>
+      <datafield tag="003D" fulltag="003D">
+        <subfield code="0">476650658</subfield>
+      </datafield>
+      <datafield tag="003D" fulltag="003D">
+        <subfield code="0">476650836</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">3598231040</subfield>
+        <subfield code="f"> (Vol. 1 - 3)</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">GBV</subfield>
+        <subfield code="0">476130832</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2005</subfield>
+      </datafield>
+      <datafield tag="036F" fulltag="036F">
+        <subfield code="X">2005,0029,00</subfield>
+        <subfield code="9">129080330</subfield>
+        <subfield code="8">International directory of art ; ZDB-ID: 3283-9</subfield>
+        <subfield code="l">29.2005</subfield>
+      </datafield>
+      <datafield tag="046W" fulltag="046W">
+        <subfield code="a">IMD-Felder maschinell generiert (GBV)</subfield>
+      </datafield>
+      <datafield tag="047A" fulltag="047A">
+        <subfield code="a">Sortierzählung maschinell geändert (GBV)</subfield>
+      </datafield>
+      <datafield tag="101B" fulltag="101B">
+        <subfield code="0">11-01-05</subfield>
+        <subfield code="t">11:28:47.000</subfield>
+      </datafield>
+      <datafield tag="101U" fulltag="101U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="102D" fulltag="102D">
+        <subfield code="0">11-01-05</subfield>
+        <subfield code="b">6235</subfield>
+        <subfield code="a">0046</subfield>
+      </datafield>
+      <datafield tag="145Z" occurrence="25" fulltag="145Z/25">
+        <subfield code="a">H Lex</subfield>
+      </datafield>
+      <item epn="693197595">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">11-01-05</subfield>
+          <subfield code="t">11:28:47.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="01" fulltag="202D/01">
+          <subfield code="0">11-01-05</subfield>
+          <subfield code="b">6235</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">693197595</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">11-01-05</subfield>
+          <subfield code="b">zkw</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="f">TB Kunst</subfield>
+          <subfield code="a">H Lex</subfield>
+          <subfield code="d">i</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="01" fulltag="209C/01">
+          <subfield code="a">2004:1305,1-3</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">46D$000282332</subfield>
+          <subfield code="c">Vol.1</subfield>
+          <subfield code="a">46D$000282340</subfield>
+          <subfield code="c">Vol.2</subfield>
+          <subfield code="a">46D$000282359</subfield>
+          <subfield code="c">Vol.3</subfield>
+        </datafield>
+      </item>
+    </metadata>
+    <rawrecord><![CDATA[001@ ƒ011,21-22,31,39,50,63,92,104,135,165,181,203001A ƒ00023:23-12-04001B ƒ01999:05-08-16ƒt16:17:14.000001D ƒ00023:23-12-04001U ƒ0utf8001X ƒ00002@ ƒ0Avu002C ƒaTextƒbtxt002D ƒaohne Hilfsmittel zu benutzenƒbn002E ƒaBandƒbnc003@ ƒ0476130832003D ƒ0476650496003D ƒ0476650658003D ƒ0476650836004A ƒ03598231040ƒf (Vol. 1 - 3)007G ƒiGBVƒ0476130832011@ ƒa2005036F ƒX2005,0029,00ƒ9129080330ƒ8International directory of art ; ZDB-ID: 3283-9ƒl29.2005046W ƒaIMD-Felder maschinell generiert (GBV)047A ƒaSortierzählung maschinell geändert (GBV)101B ƒ011-01-05ƒt11:28:47.000101U ƒ0utf8102D ƒ011-01-05ƒb6235ƒa0046145Z/25 ƒaH Lex201B/01 ƒ011-01-05ƒt11:28:47.000201U/01 ƒ0utf8202D/01 ƒ011-01-05ƒb6235ƒa0046203@/01 ƒ0693197595208@/01 ƒa11-01-05ƒbzkw209A/01 ƒfTB KunstƒaH Lexƒdiƒx00209C/01 ƒa2004:1305,1-3ƒx00209G/01 ƒa46D$000282332ƒcVol.1ƒa46D$000282340ƒcVol.2ƒa46D$000282359ƒcVol.3]]></rawrecord>
+  </record>
+</collection>
