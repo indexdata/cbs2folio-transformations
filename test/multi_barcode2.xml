@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<collection count="1">
+  <record>
+    <status>upsert</status>
+    <hrid>665697066</hrid>
+    <metadata>
+      <datafield tag="001@" fulltag="001@">
+        <subfield code="0">21-22,30,34,40,70,90-91,170,227,250,274,293</subfield>
+      </datafield>
+      <datafield tag="001A" fulltag="001A">
+        <subfield code="0">2001:10-08-11</subfield>
+      </datafield>
+      <datafield tag="001B" fulltag="001B">
+        <subfield code="0">BSZ:06-11-20</subfield>
+        <subfield code="t">19:41:28.000</subfield>
+      </datafield>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">3090:14-01-14</subfield>
+      </datafield>
+      <datafield tag="001U" fulltag="001U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="001X" fulltag="001X">
+        <subfield code="0">0</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Aau</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+        <subfield code="b">n</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Band</subfield>
+        <subfield code="b">nc</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">665697066</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">869005021</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">9783897215672</subfield>
+        <subfield code="f"> : EUR 24.90 (DE)</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">3897215675</subfield>
+      </datafield>
+      <datafield tag="006G" fulltag="006G">
+        <subfield code="0">1014056810</subfield>
+      </datafield>
+      <datafield tag="006L" fulltag="006L">
+        <subfield code="i">DNB</subfield>
+        <subfield code="0">1014056810</subfield>
+      </datafield>
+      <datafield tag="006T" fulltag="006T">
+        <subfield code="0">11,N32</subfield>
+      </datafield>
+      <datafield tag="006X" fulltag="006X">
+        <subfield code="i">EKZ</subfield>
+        <subfield code="0">3907929</subfield>
+      </datafield>
+      <datafield tag="006Y" fulltag="006Y">
+        <subfield code="0">9783897215672/sfi</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">DNB</subfield>
+        <subfield code="0">1014056810</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2013</subfield>
+      </datafield>
+      <datafield tag="009Q" fulltag="009Q">
+        <subfield code="a">http://d-nb.info/1014056810/04</subfield>
+        <subfield code="m">B:DE-101</subfield>
+        <subfield code="q">pdf/application</subfield>
+        <subfield code="v">2014-09-07</subfield>
+        <subfield code="x">H</subfield>
+        <subfield code="3">Inhaltsverzeichnis</subfield>
+        <subfield code="5">04</subfield>
+        <subfield code="A">DNB</subfield>
+        <subfield code="B">2</subfield>
+      </datafield>
+      <datafield tag="009P" occurrence="09" fulltag="009P/09">
+        <subfield code="y">Inhaltsbeschreibung &amp; Leseprobe</subfield>
+        <subfield code="a">http://www.oreilly.de/catalog/wenschleprogger/index.html</subfield>
+        <subfield code="x">H</subfield>
+        <subfield code="y">Inhaltsbeschreibung &amp; Leseprobe</subfield>
+      </datafield>
+      <datafield tag="019@" fulltag="019@">
+        <subfield code="a">XB-CN</subfield>
+        <subfield code="a">XD-US</subfield>
+        <subfield code="a">XA-GB</subfield>
+      </datafield>
+      <datafield tag="020I" fulltag="020I">
+        <subfield code="a">Amüsante Darstellung der Schwierigkeiten und Irrwege, die einem Programmierneuling das Leben schwer machen. Aufgezeigt werden Wege zum Verbessern der Programmierkünste.</subfield>
+      </datafield>
+      <datafield tag="020K" fulltag="020K">
+        <subfield code="a">Die Autorin Kathrin Passig gilt als Meisterin des unorthodoxen Blickwinkels. Sie ist bekannt durch Bücher, in denen sie sich sehr humorvoll mit ungelösten Fragen aus den Naturwissenschaften (ID-A 42/11) oder auch mit dem Internet (ID-B 4/13) auseinandersetzt. Im vorliegenden Buch zeigt sie mit ihrem Koautor, einem erfahrenen Softwareentwickler, Holzwege, Fehleinschätzungen und Irrtümer auf, die schwer auszurotten sind und Einsteigern in die Programmierung das Leben schwer machen können. Das Buch beginnt mit einer eventuellen Selbstüberschätzung eines Programmierneulings und kommt dann zu dem Punkt, dass Programme nicht Selbstzweck sind, sondern anderen (Anwendern) etwas mitteilen sollen, also der Kommunikation dienen. Ausführlich behandelt wird die Frage, wie kann der Programmierer als Fehlerverursacher seine Fehler auch finden. Am Schluss stehen der "Werkzeugkasten" für die Fehlerbehebung und Hinweise auf die Wahl einer aufgabenangepassten Programmiersprache. Gut zu lesende Darstellung, die einem Programmierneuling in sehr humorvoller Weise Grundlagen für ein effektives Programmieren vermittelt. (2)</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Weniger schlecht programmieren</subfield>
+        <subfield code="h">Kathrin Passig &amp; Johannes Jander</subfield>
+      </datafield>
+      <datafield tag="028A" fulltag="028A">
+        <subfield code="9">512977364</subfield>
+        <subfield code="8">Passig, Kathrin *1970-* ; ID: gnd/122342321</subfield>
+      </datafield>
+      <datafield tag="028B" occurrence="01" fulltag="028B/01">
+        <subfield code="9">741290855</subfield>
+        <subfield code="8">Jander, Johannes ; ID: gnd/1033474479</subfield>
+      </datafield>
+      <datafield tag="032@" fulltag="032@">
+        <subfield code="a">1. Aufl.</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Beijing [u.a.]</subfield>
+        <subfield code="n">O'Reilly</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">XX, 431 S.</subfield>
+      </datafield>
+      <datafield tag="034M" fulltag="034M">
+        <subfield code="a">Ill.</subfield>
+      </datafield>
+      <datafield tag="041A" fulltag="041A">
+        <subfield code="9">106083031</subfield>
+        <subfield code="8">Programmierung ; ID: gnd/4076370-5</subfield>
+      </datafield>
+      <datafield tag="041A" occurrence="01" fulltag="041A/01">
+        <subfield code="9">104878282</subfield>
+        <subfield code="8">Bug Informatik ; ID: gnd/4238603-2</subfield>
+      </datafield>
+      <datafield tag="041A" occurrence="09" fulltag="041A/09">
+        <subfield code="A">DE-101</subfield>
+      </datafield>
+      <datafield tag="044N" fulltag="044N">
+        <subfield code="S">u</subfield>
+        <subfield code="a">Best Practices</subfield>
+      </datafield>
+      <datafield tag="044N" fulltag="044N">
+        <subfield code="S">u</subfield>
+        <subfield code="a">Book</subfield>
+      </datafield>
+      <datafield tag="044N" fulltag="044N">
+        <subfield code="S">u</subfield>
+        <subfield code="a">Code</subfield>
+      </datafield>
+      <datafield tag="044N" fulltag="044N">
+        <subfield code="S">u</subfield>
+        <subfield code="a">Qualität</subfield>
+      </datafield>
+      <datafield tag="044N" fulltag="044N">
+        <subfield code="S">u</subfield>
+        <subfield code="a">Softwareentwicklung</subfield>
+      </datafield>
+      <datafield tag="044N" fulltag="044N">
+        <subfield code="S">u</subfield>
+        <subfield code="a">testen</subfield>
+      </datafield>
+      <datafield tag="045B" fulltag="045B">
+        <subfield code="a">Wcm</subfield>
+      </datafield>
+      <datafield tag="045B" occurrence="01" fulltag="045B/01">
+        <subfield code="a">WGL 124</subfield>
+      </datafield>
+      <datafield tag="045B" occurrence="02" fulltag="045B/02">
+        <subfield code="a">EDV 350</subfield>
+      </datafield>
+      <datafield tag="045B" occurrence="03" fulltag="045B/03">
+        <subfield code="a">Z 300</subfield>
+      </datafield>
+      <datafield tag="045F" fulltag="045F">
+        <subfield code="a">004</subfield>
+        <subfield code="A">BSZ</subfield>
+      </datafield>
+      <datafield tag="045G" fulltag="045G">
+        <subfield code="a">004</subfield>
+        <subfield code="A">DNB</subfield>
+      </datafield>
+      <datafield tag="045Q" occurrence="01" fulltag="045Q/01">
+        <subfield code="9">106418882</subfield>
+        <subfield code="8">54.52 Software engineering</subfield>
+      </datafield>
+      <datafield tag="045Q" occurrence="02" fulltag="045Q/02">
+        <subfield code="9">106418122</subfield>
+        <subfield code="8">54.51 Programmiermethodik</subfield>
+      </datafield>
+      <datafield tag="045R" fulltag="045R">
+        <subfield code="9">1270877534</subfield>
+        <subfield code="8">ST 230: Informatik / Monografien / Software und -entwicklung / Software allgemein, (Einführung, Lehrbücher, Methoden der Programmierung) Software engineering, Programmentwicklungssysteme und Frameworks, Softwarewerkzeuge</subfield>
+        <subfield code="A">BVB</subfield>
+      </datafield>
+      <datafield tag="046W" fulltag="046W">
+        <subfield code="a">IMD-Felder maschinell generiert (GBV)</subfield>
+      </datafield>
+      <datafield tag="091O" occurrence="05" fulltag="091O/05">
+        <subfield code="a">01</subfield>
+        <subfield code="b">95</subfield>
+        <subfield code="t">sfi-2014-07-169221-9</subfield>
+      </datafield>
+      <datafield tag="101B" fulltag="101B">
+        <subfield code="0">06-02-17</subfield>
+        <subfield code="t">13:08:26.000</subfield>
+      </datafield>
+      <datafield tag="101U" fulltag="101U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="102D" fulltag="102D">
+        <subfield code="0">06-02-17</subfield>
+        <subfield code="b">6228</subfield>
+        <subfield code="a">0046</subfield>
+      </datafield>
+      <datafield tag="145Z" fulltag="145Z">
+        <subfield code="a">n 440</subfield>
+      </datafield>
+      <datafield tag="145Z" occurrence="20" fulltag="145Z/20">
+        <subfield code="a">com 401</subfield>
+      </datafield>
+      <item epn="1455887560">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">04-02-14</subfield>
+          <subfield code="t">09:22:28.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="01" fulltag="202D/01">
+          <subfield code="0">04-02-14</subfield>
+          <subfield code="b">6234</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">1455887560</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">04-02-14</subfield>
+          <subfield code="b">zba</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="f">TB BHV</subfield>
+          <subfield code="a">com 401/26</subfield>
+          <subfield code="d">u</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="01" fulltag="209C/01">
+          <subfield code="a">b 66769</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">46A$003715736</subfield>
+        </datafield>
+      </item>
+      <item epn="1661836488">
+        <datafield tag="201B" occurrence="02" fulltag="201B/02">
+          <subfield code="0">06-02-17</subfield>
+          <subfield code="t">13:09:44.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="02" fulltag="201U/02">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="02" fulltag="202D/02">
+          <subfield code="0">06-02-17</subfield>
+          <subfield code="b">6228</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="02" fulltag="203@/02">
+          <subfield code="0">1661836488</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="02" fulltag="208@/02">
+          <subfield code="a">06-02-17</subfield>
+          <subfield code="b">znt</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="02" fulltag="209A/02">
+          <subfield code="f">TB Technik</subfield>
+          <subfield code="a">n 440/749</subfield>
+          <subfield code="d">c</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="02" fulltag="209C/02">
+          <subfield code="a">137749</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="02" fulltag="209G/02">
+          <subfield code="a">46B$003820602</subfield>
+        </datafield>
+        <datafield tag="220B" occurrence="02" fulltag="220B/02">
+          <subfield code="a">1. Nachdr. 2014</subfield>
+        </datafield>
+      </item>
+      <item epn="3786277796">
+        <datafield tag="201A" occurrence="03" fulltag="201A/03">
+          <subfield code="0">11-11-20</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="03" fulltag="201B/03">
+          <subfield code="0">11-11-20</subfield>
+          <subfield code="t">15:54:22.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="03" fulltag="201U/03">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="03" fulltag="202D/03">
+          <subfield code="0">11-11-20</subfield>
+          <subfield code="b">21</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="03" fulltag="203@/03">
+          <subfield code="0">3786277796</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="03" fulltag="208@/03">
+          <subfield code="a">11-11-20</subfield>
+          <subfield code="b">z</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="03" fulltag="209A/03">
+          <subfield code="f">TB Technik</subfield>
+          <subfield code="a">n 440/749 Uschi</subfield>
+          <subfield code="d">c</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="03" fulltag="209G/03">
+          <subfield code="a">46B$103820604</subfield>
+          <subfield code="c">A</subfield>
+          <subfield code="a">46B$103820612</subfield>
+          <subfield code="c">B</subfield>
+          <subfield code="a">46B$103820620</subfield>
+          <subfield code="c">C</subfield>
+        </datafield>
+        <datafield tag="220B" occurrence="03" fulltag="220B/03">
+          <subfield code="a">Test VZG</subfield>
+        </datafield>
+      </item>
+    </metadata>
+    <rawrecord><![CDATA[001@ ƒ021-22,30,34,40,70,90-91,170,227,250,274,293001A ƒ02001:10-08-11001B ƒ0BSZ:06-11-20ƒt19:41:28.000001D ƒ03090:14-01-14001U ƒ0utf8001X ƒ00002@ ƒ0Aau002C ƒaTextƒbtxt002D ƒaohne Hilfsmittel zu benutzenƒbn002E ƒaBandƒbnc003@ ƒ0665697066003O ƒaOCoLCƒ0869005021004A ƒ09783897215672ƒf : EUR 24.90 (DE)004A ƒ03897215675006G ƒ01014056810006L ƒiDNBƒ01014056810006T ƒ011,N32006X ƒiEKZƒ03907929006Y ƒ09783897215672/sfi007G ƒiDNBƒ01014056810010@ ƒager011@ ƒa2013009Q ƒahttp://d-nb.info/1014056810/04ƒmB:DE-101ƒqpdf/applicationƒv2014-09-07ƒxHƒ3Inhaltsverzeichnisƒ504ƒADNBƒB2009P/09 ƒyInhaltsbeschreibung & Leseprobeƒahttp://www.oreilly.de/catalog/wenschleprogger/index.htmlƒxHƒyInhaltsbeschreibung & Leseprobe019@ ƒaXB-CNƒaXD-USƒaXA-GB020I ƒaAmüsante Darstellung der Schwierigkeiten und Irrwege, die einem Programmierneuling das Leben schwer machen. Aufgezeigt werden Wege zum Verbessern der Programmierkünste.020K ƒaDie Autorin Kathrin Passig gilt als Meisterin des unorthodoxen Blickwinkels. Sie ist bekannt durch Bücher, in denen sie sich sehr humorvoll mit ungelösten Fragen aus den Naturwissenschaften (ID-A 42/11) oder auch mit dem Internet (ID-B 4/13) auseinandersetzt. Im vorliegenden Buch zeigt sie mit ihrem Koautor, einem erfahrenen Softwareentwickler, Holzwege, Fehleinschätzungen und Irrtümer auf, die schwer auszurotten sind und Einsteigern in die Programmierung das Leben schwer machen können. Das Buch beginnt mit einer eventuellen Selbstüberschätzung eines Programmierneulings und kommt dann zu dem Punkt, dass Programme nicht Selbstzweck sind, sondern anderen (Anwendern) etwas mitteilen sollen, also der Kommunikation dienen. Ausführlich behandelt wird die Frage, wie kann der Programmierer als Fehlerverursacher seine Fehler auch finden. Am Schluss stehen der "Werkzeugkasten" für die Fehlerbehebung und Hinweise auf die Wahl einer aufgabenangepassten Programmiersprache. Gut zu lesende Darstellung, die einem Programmierneuling in sehr humorvoller Weise Grundlagen für ein effektives Programmieren vermittelt. (2)021A ƒaWeniger schlecht programmierenƒhKathrin Passig & Johannes Jander028A ƒ9512977364ƒ8Passig, Kathrin *1970-* ; ID: gnd/122342321028B/01 ƒ9741290855ƒ8Jander, Johannes ; ID: gnd/1033474479032@ ƒa1. Aufl.033A ƒpBeijing [u.a.]ƒnO'Reilly034D ƒaXX, 431 S.034M ƒaIll.041A ƒ9106083031ƒ8Programmierung ; ID: gnd/4076370-5041A/01 ƒ9104878282ƒ8Bug$gInformatik ; ID: gnd/4238603-2041A/09 ƒADE-101044N ƒSuƒaBest Practices044N ƒSuƒaBook044N ƒSuƒaCode044N ƒSuƒaQualität044N ƒSuƒaSoftwareentwicklung044N ƒSuƒatesten045B ƒaWcm045B/01 ƒaWGL 124045B/02 ƒaEDV 350045B/03 ƒaZ 300045F ƒa004ƒABSZ045G ƒa004ƒADNB045Q/01 ƒ9106418882ƒ854.52$jSoftware engineering045Q/02 ƒ9106418122ƒ854.51$jProgrammiermethodik045R ƒ91270877534ƒ8ST 230: Informatik / Monografien / Software und -entwicklung / Software allgemein, (Einführung, Lehrbücher, Methoden der Programmierung) Software engineering, Programmentwicklungssysteme und Frameworks, SoftwarewerkzeugeƒABVB046W ƒaIMD-Felder maschinell generiert (GBV)091O/05 ƒa01ƒb95ƒtsfi-2014-07-169221-9101B ƒ006-02-17ƒt13:08:26.000101U ƒ0utf8102D ƒ006-02-17ƒb6228ƒa0046145Z ƒan 440145Z/20 ƒacom 401201B/01 ƒ004-02-14ƒt09:22:28.000201U/01 ƒ0utf8202D/01 ƒ004-02-14ƒb6234ƒa0046203@/01 ƒ01455887560208@/01 ƒa04-02-14ƒbzba209A/01 ƒfTB BHVƒacom 401/26ƒduƒx00209C/01 ƒab 66769ƒx00209G/01 ƒa46A$003715736201B/02 ƒ006-02-17ƒt13:09:44.000201U/02 ƒ0utf8202D/02 ƒ006-02-17ƒb6228ƒa0046203@/02 ƒ01661836488208@/02 ƒa06-02-17ƒbznt209A/02 ƒfTB Technikƒan 440/749ƒdcƒx00209C/02 ƒa137749ƒx00209G/02 ƒa46B$003820602220B/02 ƒa1. Nachdr. 2014201A/03 ƒ011-11-20201B/03 ƒ011-11-20ƒt15:54:22.000201U/03 ƒ0utf8202D/03 ƒ011-11-20ƒb21ƒa0046203@/03 ƒ03786277796208@/03 ƒa11-11-20ƒbz209A/03 ƒfTB Technikƒan 440/749 Uschiƒdcƒx00209G/03 ƒa46B$103820604ƒcAƒa46B$103820612ƒcBƒa46B$103820620ƒcC220B/03 ƒaTest VZG]]></rawrecord>
+  </record>
+</collection>

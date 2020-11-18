@@ -2,20 +2,20 @@
 <collection count="1">
   <record>
     <status>upsert</status>
-    <hrid>476130832</hrid>
+    <hrid>785495819</hrid>
     <metadata>
       <datafield tag="001@" fulltag="001@">
-        <subfield code="0">11,21-22,31,39,50,63,92,104,135,165,181,203</subfield>
+        <subfield code="0">21-24,30,32,34,39-40,55,60-63,65,95,105,120,122,130,132,140,150-151,154,161,164,170,185,207,227,274,285,808</subfield>
       </datafield>
       <datafield tag="001A" fulltag="001A">
-        <subfield code="0">0023:23-12-04</subfield>
+        <subfield code="0">0715:13-05-14</subfield>
       </datafield>
       <datafield tag="001B" fulltag="001B">
-        <subfield code="0">1999:05-08-16</subfield>
-        <subfield code="t">16:17:14.000</subfield>
+        <subfield code="0">BSZ:07-11-20</subfield>
+        <subfield code="t">04:52:18.000</subfield>
       </datafield>
       <datafield tag="001D" fulltag="001D">
-        <subfield code="0">0023:23-12-04</subfield>
+        <subfield code="0">0715:13-05-14</subfield>
       </datafield>
       <datafield tag="001U" fulltag="001U">
         <subfield code="0">utf8</subfield>
@@ -24,7 +24,7 @@
         <subfield code="0">0</subfield>
       </datafield>
       <datafield tag="002@" fulltag="002@">
-        <subfield code="0">Avu</subfield>
+        <subfield code="0">Aau</subfield>
       </datafield>
       <datafield tag="002C" fulltag="002C">
         <subfield code="a">Text</subfield>
@@ -39,95 +39,255 @@
         <subfield code="b">nc</subfield>
       </datafield>
       <datafield tag="003@" fulltag="003@">
-        <subfield code="0">476130832</subfield>
+        <subfield code="0">785495819</subfield>
       </datafield>
-      <datafield tag="003D" fulltag="003D">
-        <subfield code="0">476650496</subfield>
-      </datafield>
-      <datafield tag="003D" fulltag="003D">
-        <subfield code="0">476650658</subfield>
-      </datafield>
-      <datafield tag="003D" fulltag="003D">
-        <subfield code="0">476650836</subfield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">879626118</subfield>
       </datafield>
       <datafield tag="004A" fulltag="004A">
-        <subfield code="0">3598231040</subfield>
-        <subfield code="f"> (Vol. 1 - 3)</subfield>
+        <subfield code="0">3897215675</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">9783897215672</subfield>
+        <subfield code="f">kart. : EUR 24.90</subfield>
+      </datafield>
+      <datafield tag="006Y" fulltag="006Y">
+        <subfield code="0">UE-B0008734</subfield>
       </datafield>
       <datafield tag="007G" fulltag="007G">
         <subfield code="i">GBV</subfield>
-        <subfield code="0">476130832</subfield>
+        <subfield code="0">785495819</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+      </datafield>
+      <datafield tag="010E" fulltag="010E">
+        <subfield code="e">rda</subfield>
       </datafield>
       <datafield tag="011@" fulltag="011@">
-        <subfield code="a">2005</subfield>
+        <subfield code="a">2014</subfield>
       </datafield>
-      <datafield tag="036F" fulltag="036F">
-        <subfield code="X">2005,0029,00</subfield>
-        <subfield code="9">129080330</subfield>
-        <subfield code="8">International directory of art ; ZDB-ID: 3283-9</subfield>
-        <subfield code="l">29.2005</subfield>
+      <datafield tag="009Q" fulltag="009Q">
+        <subfield code="a">http://d-nb.info/1014056810/04</subfield>
+        <subfield code="m">B:DE-101</subfield>
+        <subfield code="q">pdf/application</subfield>
+        <subfield code="v">2014-09-07</subfield>
+        <subfield code="x">H</subfield>
+        <subfield code="3">Inhaltsverzeichnis</subfield>
+        <subfield code="5">04</subfield>
+        <subfield code="A">DNB</subfield>
+        <subfield code="B">2</subfield>
       </datafield>
-      <datafield tag="046W" fulltag="046W">
-        <subfield code="a">IMD-Felder maschinell generiert (GBV)</subfield>
+      <datafield tag="019@" fulltag="019@">
+        <subfield code="a">XB-CN</subfield>
+        <subfield code="a">XA-GB</subfield>
+        <subfield code="a">XD-US</subfield>
       </datafield>
-      <datafield tag="047A" fulltag="047A">
-        <subfield code="a">Sortierzählung maschinell geändert (GBV)</subfield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Weniger schlecht programmieren</subfield>
+        <subfield code="h">Kathrin Passig &amp; Johannes Jander</subfield>
+      </datafield>
+      <datafield tag="028A" fulltag="028A">
+        <subfield code="9">512977364</subfield>
+        <subfield code="8">Passig, Kathrin *1970-* ; ID: gnd/122342321</subfield>
+        <subfield code="B">VerfasserIn</subfield>
+        <subfield code="4">aut</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">741290855</subfield>
+        <subfield code="8">Jander, Johannes ; ID: gnd/1033474479</subfield>
+        <subfield code="B">VerfasserIn</subfield>
+        <subfield code="4">aut</subfield>
+      </datafield>
+      <datafield tag="032@" fulltag="032@">
+        <subfield code="a">1. Auflage 2013, 1., korrigierter Nachdruck 2014</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Beijing</subfield>
+        <subfield code="p">Cambridge</subfield>
+        <subfield code="p">Farnham</subfield>
+        <subfield code="p">Köln</subfield>
+        <subfield code="p">Sebastopol</subfield>
+        <subfield code="p">Tokyo</subfield>
+        <subfield code="n">O'Reilly</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">XX, 431 Seiten</subfield>
+      </datafield>
+      <datafield tag="034I" fulltag="034I">
+        <subfield code="a">23 cm</subfield>
+      </datafield>
+      <datafield tag="034M" fulltag="034M">
+        <subfield code="a">Illustrationen</subfield>
+      </datafield>
+      <datafield tag="041A" fulltag="041A">
+        <subfield code="9">106083031</subfield>
+        <subfield code="8">Programmierung ; ID: gnd/4076370-5</subfield>
+      </datafield>
+      <datafield tag="041A" occurrence="01" fulltag="041A/01">
+        <subfield code="9">104878282</subfield>
+        <subfield code="8">Bug Informatik ; ID: gnd/4238603-2</subfield>
+      </datafield>
+      <datafield tag="041A" occurrence="09" fulltag="041A/09">
+        <subfield code="A">DE-101</subfield>
+      </datafield>
+      <datafield tag="044K" fulltag="044K">
+        <subfield code="9">104616369</subfield>
+        <subfield code="8">Softwareentwicklung ; ID: gnd/4116522-6</subfield>
+      </datafield>
+      <datafield tag="044K" fulltag="044K">
+        <subfield code="9">104878282</subfield>
+        <subfield code="8">Bug Informatik ; ID: gnd/4238603-2</subfield>
+      </datafield>
+      <datafield tag="044N" fulltag="044N">
+        <subfield code="S">u</subfield>
+        <subfield code="a">Best Practices</subfield>
+      </datafield>
+      <datafield tag="044N" fulltag="044N">
+        <subfield code="S">u</subfield>
+        <subfield code="a">Book</subfield>
+      </datafield>
+      <datafield tag="044N" fulltag="044N">
+        <subfield code="S">u</subfield>
+        <subfield code="a">Code</subfield>
+      </datafield>
+      <datafield tag="044N" fulltag="044N">
+        <subfield code="S">u</subfield>
+        <subfield code="a">Qualität</subfield>
+      </datafield>
+      <datafield tag="044N" fulltag="044N">
+        <subfield code="S">u</subfield>
+        <subfield code="a">Softwareentwicklung</subfield>
+      </datafield>
+      <datafield tag="044N" fulltag="044N">
+        <subfield code="S">u</subfield>
+        <subfield code="a">testen</subfield>
+      </datafield>
+      <datafield tag="045B" fulltag="045B">
+        <subfield code="a">Wcm</subfield>
+      </datafield>
+      <datafield tag="045B" occurrence="01" fulltag="045B/01">
+        <subfield code="a">WGL 124</subfield>
+      </datafield>
+      <datafield tag="045B" occurrence="02" fulltag="045B/02">
+        <subfield code="a">EDV 350</subfield>
+      </datafield>
+      <datafield tag="045B" occurrence="03" fulltag="045B/03">
+        <subfield code="a">Z 300</subfield>
+      </datafield>
+      <datafield tag="045F" fulltag="045F">
+        <subfield code="a">004</subfield>
+        <subfield code="A">BSZ</subfield>
+      </datafield>
+      <datafield tag="045G" fulltag="045G">
+        <subfield code="a">004</subfield>
+        <subfield code="A">DNB</subfield>
+      </datafield>
+      <datafield tag="045Q" occurrence="01" fulltag="045Q/01">
+        <subfield code="9">106418882</subfield>
+        <subfield code="8">54.52 Software engineering</subfield>
+      </datafield>
+      <datafield tag="045R" fulltag="045R">
+        <subfield code="9">1270877534</subfield>
+        <subfield code="8">ST 230: Informatik / Monografien / Software und -entwicklung / Software allgemein, (Einführung, Lehrbücher, Methoden der Programmierung) Software engineering, Programmentwicklungssysteme und Frameworks, Softwarewerkzeuge</subfield>
+        <subfield code="A">BVB</subfield>
       </datafield>
       <datafield tag="101B" fulltag="101B">
-        <subfield code="0">11-01-05</subfield>
-        <subfield code="t">11:28:47.000</subfield>
+        <subfield code="0">18-05-15</subfield>
+        <subfield code="t">16:44:33.000</subfield>
       </datafield>
       <datafield tag="101U" fulltag="101U">
         <subfield code="0">utf8</subfield>
       </datafield>
       <datafield tag="102D" fulltag="102D">
-        <subfield code="0">11-01-05</subfield>
-        <subfield code="b">6235</subfield>
+        <subfield code="0">18-05-15</subfield>
+        <subfield code="b">6281</subfield>
         <subfield code="a">0046</subfield>
       </datafield>
-      <datafield tag="145Z" occurrence="25" fulltag="145Z/25">
-        <subfield code="a">H Lex</subfield>
+      <datafield tag="145Z" occurrence="30" fulltag="145Z/30">
+        <subfield code="a">inf 322 sic</subfield>
       </datafield>
-      <item epn="693197595">
+      <datafield tag="145Z" occurrence="31" fulltag="145Z/31">
+        <subfield code="a">inf 322 tst</subfield>
+      </datafield>
+      <datafield tag="145Z" occurrence="99" fulltag="145Z/99">
+        <subfield code="a">92</subfield>
+      </datafield>
+      <item epn="147818227X">
         <datafield tag="201B" occurrence="01" fulltag="201B/01">
-          <subfield code="0">11-01-05</subfield>
-          <subfield code="t">11:28:47.000</subfield>
+          <subfield code="0">18-05-15</subfield>
+          <subfield code="t">16:44:33.000</subfield>
         </datafield>
         <datafield tag="201U" occurrence="01" fulltag="201U/01">
           <subfield code="0">utf8</subfield>
         </datafield>
         <datafield tag="202D" occurrence="01" fulltag="202D/01">
-          <subfield code="0">11-01-05</subfield>
-          <subfield code="b">6235</subfield>
+          <subfield code="0">18-05-15</subfield>
+          <subfield code="b">6281</subfield>
           <subfield code="a">0046</subfield>
         </datafield>
         <datafield tag="203@" occurrence="01" fulltag="203@/01">
-          <subfield code="0">693197595</subfield>
+          <subfield code="0">147818227X</subfield>
         </datafield>
         <datafield tag="208@" occurrence="01" fulltag="208@/01">
-          <subfield code="a">11-01-05</subfield>
-          <subfield code="b">zkw</subfield>
+          <subfield code="a">18-05-15</subfield>
+          <subfield code="b">zza</subfield>
         </datafield>
         <datafield tag="209A" occurrence="01" fulltag="209A/01">
-          <subfield code="f">TB Kunst</subfield>
-          <subfield code="a">H Lex</subfield>
-          <subfield code="d">i</subfield>
+          <subfield code="a">a inf 322 sic/357</subfield>
+          <subfield code="d">u</subfield>
           <subfield code="x">00</subfield>
         </datafield>
         <datafield tag="209C" occurrence="01" fulltag="209C/01">
-          <subfield code="a">2004:1305,1-3</subfield>
+          <subfield code="a">2014-12357</subfield>
           <subfield code="x">00</subfield>
         </datafield>
         <datafield tag="209G" occurrence="01" fulltag="209G/01">
-          <subfield code="a">46D$000282332</subfield>
-          <subfield code="c">Vol.1</subfield>
-          <subfield code="a">46D$000282340</subfield>
-          <subfield code="c">Vol.2</subfield>
-          <subfield code="a">46D$000282359</subfield>
-          <subfield code="c">Vol.3</subfield>
+          <subfield code="a">46$0005344549</subfield>
+        </datafield>
+      </item>
+      <item epn="3786277788">
+        <datafield tag="201A" occurrence="02" fulltag="201A/02">
+          <subfield code="0">11-11-20</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="02" fulltag="201B/02">
+          <subfield code="0">11-11-20</subfield>
+          <subfield code="t">15:50:20.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="02" fulltag="201U/02">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="02" fulltag="202D/02">
+          <subfield code="0">11-11-20</subfield>
+          <subfield code="b">21</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="02" fulltag="203@/02">
+          <subfield code="0">3786277788</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="02" fulltag="208@/02">
+          <subfield code="a">11-11-20</subfield>
+          <subfield code="b">z</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="02" fulltag="209A/02">
+          <subfield code="a">a inf 322 sic/357 Uschi</subfield>
+          <subfield code="d">u</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="02" fulltag="209G/02">
+          <subfield code="a">46$100534454X</subfield>
+          <subfield code="c">Ex.1</subfield>
+          <subfield code="a">46$1005344558</subfield>
+          <subfield code="c">Ex.1</subfield>
+          <subfield code="a">46$1005344566</subfield>
+          <subfield code="c">Ex.3</subfield>
+        </datafield>
+        <datafield tag="220B" occurrence="02" fulltag="220B/02">
+          <subfield code="a">Test VZG</subfield>
         </datafield>
       </item>
     </metadata>
-    <rawrecord><![CDATA[001@ ƒ011,21-22,31,39,50,63,92,104,135,165,181,203001A ƒ00023:23-12-04001B ƒ01999:05-08-16ƒt16:17:14.000001D ƒ00023:23-12-04001U ƒ0utf8001X ƒ00002@ ƒ0Avu002C ƒaTextƒbtxt002D ƒaohne Hilfsmittel zu benutzenƒbn002E ƒaBandƒbnc003@ ƒ0476130832003D ƒ0476650496003D ƒ0476650658003D ƒ0476650836004A ƒ03598231040ƒf (Vol. 1 - 3)007G ƒiGBVƒ0476130832011@ ƒa2005036F ƒX2005,0029,00ƒ9129080330ƒ8International directory of art ; ZDB-ID: 3283-9ƒl29.2005046W ƒaIMD-Felder maschinell generiert (GBV)047A ƒaSortierzählung maschinell geändert (GBV)101B ƒ011-01-05ƒt11:28:47.000101U ƒ0utf8102D ƒ011-01-05ƒb6235ƒa0046145Z/25 ƒaH Lex201B/01 ƒ011-01-05ƒt11:28:47.000201U/01 ƒ0utf8202D/01 ƒ011-01-05ƒb6235ƒa0046203@/01 ƒ0693197595208@/01 ƒa11-01-05ƒbzkw209A/01 ƒfTB KunstƒaH Lexƒdiƒx00209C/01 ƒa2004:1305,1-3ƒx00209G/01 ƒa46D$000282332ƒcVol.1ƒa46D$000282340ƒcVol.2ƒa46D$000282359ƒcVol.3]]></rawrecord>
+    <rawrecord><![CDATA[001@ ƒ021-24,30,32,34,39-40,55,60-63,65,95,105,120,122,130,132,140,150-151,154,161,164,170,185,207,227,274,285,808001A ƒ00715:13-05-14001B ƒ0BSZ:07-11-20ƒt04:52:18.000001D ƒ00715:13-05-14001U ƒ0utf8001X ƒ00002@ ƒ0Aau002C ƒaTextƒbtxt002D ƒaohne Hilfsmittel zu benutzenƒbn002E ƒaBandƒbnc003@ ƒ0785495819003O ƒaOCoLCƒ0879626118004A ƒ03897215675004A ƒ09783897215672ƒfkart. : EUR 24.90006Y ƒ0UE-B0008734007G ƒiGBVƒ0785495819010@ ƒager010E ƒerda011@ ƒa2014009Q ƒahttp://d-nb.info/1014056810/04ƒmB:DE-101ƒqpdf/applicationƒv2014-09-07ƒxHƒ3Inhaltsverzeichnisƒ504ƒADNBƒB2019@ ƒaXB-CNƒaXA-GBƒaXD-US021A ƒaWeniger schlecht programmierenƒhKathrin Passig & Johannes Jander028A ƒ9512977364ƒ8Passig, Kathrin *1970-* ; ID: gnd/122342321ƒBVerfasserInƒ4aut028C ƒ9741290855ƒ8Jander, Johannes ; ID: gnd/1033474479ƒBVerfasserInƒ4aut032@ ƒa1. Auflage 2013, 1., korrigierter Nachdruck 2014033A ƒpBeijingƒpCambridgeƒpFarnhamƒpKölnƒpSebastopolƒpTokyoƒnO'Reilly034D ƒaXX, 431 Seiten034I ƒa23 cm034M ƒaIllustrationen041A ƒ9106083031ƒ8Programmierung ; ID: gnd/4076370-5041A/01 ƒ9104878282ƒ8Bug$gInformatik ; ID: gnd/4238603-2041A/09 ƒADE-101044K ƒ9104616369ƒ8Softwareentwicklung ; ID: gnd/4116522-6044K ƒ9104878282ƒ8Bug$gInformatik ; ID: gnd/4238603-2044N ƒSuƒaBest Practices044N ƒSuƒaBook044N ƒSuƒaCode044N ƒSuƒaQualität044N ƒSuƒaSoftwareentwicklung044N ƒSuƒatesten045B ƒaWcm045B/01 ƒaWGL 124045B/02 ƒaEDV 350045B/03 ƒaZ 300045F ƒa004ƒABSZ045G ƒa004ƒADNB045Q/01 ƒ9106418882ƒ854.52$jSoftware engineering045R ƒ91270877534ƒ8ST 230: Informatik / Monografien / Software und -entwicklung / Software allgemein, (Einführung, Lehrbücher, Methoden der Programmierung) Software engineering, Programmentwicklungssysteme und Frameworks, SoftwarewerkzeugeƒABVB101B ƒ018-05-15ƒt16:44:33.000101U ƒ0utf8102D ƒ018-05-15ƒb6281ƒa0046145Z/30 ƒainf 322 sic145Z/31 ƒainf 322 tst145Z/99 ƒa92201B/01 ƒ018-05-15ƒt16:44:33.000201U/01 ƒ0utf8202D/01 ƒ018-05-15ƒb6281ƒa0046203@/01 ƒ0147818227X208@/01 ƒa18-05-15ƒbzza209A/01 ƒaa inf 322 sic/357ƒduƒx00209C/01 ƒa2014-12357ƒx00209G/01 ƒa46$0005344549201A/02 ƒ011-11-20201B/02 ƒ011-11-20ƒt15:50:20.000201U/02 ƒ0utf8202D/02 ƒ011-11-20ƒb21ƒa0046203@/02 ƒ03786277788208@/02 ƒa11-11-20ƒbz209A/02 ƒaa inf 322 sic/357 Uschiƒduƒx00209G/02 ƒa46$100534454XƒcEx.1ƒa46$1005344558ƒcEx.1ƒa46$1005344566ƒcEx.3220B/02 ƒaTest VZG]]></rawrecord>
   </record>
 </collection>
