@@ -279,7 +279,7 @@
           <subfield code="a">46$100534454X</subfield>
           <subfield code="c">Ex.1</subfield>
           <subfield code="a">46$1005344558</subfield>
-          <subfield code="c">Ex.1</subfield>
+          <subfield code="c">Ex.2</subfield>
           <subfield code="a">46$1005344566</subfield>
           <subfield code="c">Ex.3</subfield>
         </datafield>
@@ -288,6 +288,81 @@
         </datafield>
       </item>
     </metadata>
-    <rawrecord><![CDATA[001@ ƒ021-24,30,32,34,39-40,55,60-63,65,95,105,120,122,130,132,140,150-151,154,161,164,170,185,207,227,274,285,808001A ƒ00715:13-05-14001B ƒ0BSZ:07-11-20ƒt04:52:18.000001D ƒ00715:13-05-14001U ƒ0utf8001X ƒ00002@ ƒ0Aau002C ƒaTextƒbtxt002D ƒaohne Hilfsmittel zu benutzenƒbn002E ƒaBandƒbnc003@ ƒ0785495819003O ƒaOCoLCƒ0879626118004A ƒ03897215675004A ƒ09783897215672ƒfkart. : EUR 24.90006Y ƒ0UE-B0008734007G ƒiGBVƒ0785495819010@ ƒager010E ƒerda011@ ƒa2014009Q ƒahttp://d-nb.info/1014056810/04ƒmB:DE-101ƒqpdf/applicationƒv2014-09-07ƒxHƒ3Inhaltsverzeichnisƒ504ƒADNBƒB2019@ ƒaXB-CNƒaXA-GBƒaXD-US021A ƒaWeniger schlecht programmierenƒhKathrin Passig & Johannes Jander028A ƒ9512977364ƒ8Passig, Kathrin *1970-* ; ID: gnd/122342321ƒBVerfasserInƒ4aut028C ƒ9741290855ƒ8Jander, Johannes ; ID: gnd/1033474479ƒBVerfasserInƒ4aut032@ ƒa1. Auflage 2013, 1., korrigierter Nachdruck 2014033A ƒpBeijingƒpCambridgeƒpFarnhamƒpKölnƒpSebastopolƒpTokyoƒnO'Reilly034D ƒaXX, 431 Seiten034I ƒa23 cm034M ƒaIllustrationen041A ƒ9106083031ƒ8Programmierung ; ID: gnd/4076370-5041A/01 ƒ9104878282ƒ8Bug$gInformatik ; ID: gnd/4238603-2041A/09 ƒADE-101044K ƒ9104616369ƒ8Softwareentwicklung ; ID: gnd/4116522-6044K ƒ9104878282ƒ8Bug$gInformatik ; ID: gnd/4238603-2044N ƒSuƒaBest Practices044N ƒSuƒaBook044N ƒSuƒaCode044N ƒSuƒaQualität044N ƒSuƒaSoftwareentwicklung044N ƒSuƒatesten045B ƒaWcm045B/01 ƒaWGL 124045B/02 ƒaEDV 350045B/03 ƒaZ 300045F ƒa004ƒABSZ045G ƒa004ƒADNB045Q/01 ƒ9106418882ƒ854.52$jSoftware engineering045R ƒ91270877534ƒ8ST 230: Informatik / Monografien / Software und -entwicklung / Software allgemein, (Einführung, Lehrbücher, Methoden der Programmierung) Software engineering, Programmentwicklungssysteme und Frameworks, SoftwarewerkzeugeƒABVB101B ƒ018-05-15ƒt16:44:33.000101U ƒ0utf8102D ƒ018-05-15ƒb6281ƒa0046145Z/30 ƒainf 322 sic145Z/31 ƒainf 322 tst145Z/99 ƒa92201B/01 ƒ018-05-15ƒt16:44:33.000201U/01 ƒ0utf8202D/01 ƒ018-05-15ƒb6281ƒa0046203@/01 ƒ0147818227X208@/01 ƒa18-05-15ƒbzza209A/01 ƒaa inf 322 sic/357ƒduƒx00209C/01 ƒa2014-12357ƒx00209G/01 ƒa46$0005344549201A/02 ƒ011-11-20201B/02 ƒ011-11-20ƒt15:50:20.000201U/02 ƒ0utf8202D/02 ƒ011-11-20ƒb21ƒa0046203@/02 ƒ03786277788208@/02 ƒa11-11-20ƒbz209A/02 ƒaa inf 322 sic/357 Uschiƒduƒx00209G/02 ƒa46$100534454XƒcEx.1ƒa46$1005344558ƒcEx.1ƒa46$1005344566ƒcEx.3220B/02 ƒaTest VZG]]></rawrecord>
+    <rawrecord><![CDATA[001@ ƒ021-24,30,32,34,39-40,55,60-63,65,95,105,120,122,130,132,140,150-151,154,161,164,170,185,207,227,274,285,808
+001A ƒ00715:13-05-14
+001B ƒ0BSZ:07-11-20ƒt04:52:18.000
+001D ƒ00715:13-05-14
+001U ƒ0utf8
+001X ƒ00
+002@ ƒ0Aau
+002C ƒaTextƒbtxt
+002D ƒaohne Hilfsmittel zu benutzenƒbn
+002E ƒaBandƒbnc
+003@ ƒ0785495819
+003O ƒaOCoLCƒ0879626118
+004A ƒ03897215675
+004A ƒ09783897215672ƒfkart. : EUR 24.90
+006Y ƒ0UE-B0008734
+007G ƒiGBVƒ0785495819
+010@ ƒager
+010E ƒerda
+011@ ƒa2014
+009Q ƒahttp://d-nb.info/1014056810/04ƒmB:DE-101ƒqpdf/applicationƒv2014-09-07ƒxHƒ3Inhaltsverzeichnisƒ504ƒADNBƒB2
+019@ ƒaXB-CNƒaXA-GBƒaXD-US
+021A ƒaWeniger schlecht programmierenƒhKathrin Passig & Johannes Jander
+028A ƒ9512977364ƒ8Passig, Kathrin *1970-* ; ID: gnd/122342321ƒBVerfasserInƒ4aut
+028C ƒ9741290855ƒ8Jander, Johannes ; ID: gnd/1033474479ƒBVerfasserInƒ4aut
+032@ ƒa1. Auflage 2013, 1., korrigierter Nachdruck 2014
+033A ƒpBeijingƒpCambridgeƒpFarnhamƒpKölnƒpSebastopolƒpTokyoƒnO'Reilly
+034D ƒaXX, 431 Seiten
+034I ƒa23 cm
+034M ƒaIllustrationen
+041A ƒ9106083031ƒ8Programmierung ; ID: gnd/4076370-5
+041A/01 ƒ9104878282ƒ8Bug$gInformatik ; ID: gnd/4238603-2
+041A/09 ƒADE-101
+044K ƒ9104616369ƒ8Softwareentwicklung ; ID: gnd/4116522-6
+044K ƒ9104878282ƒ8Bug$gInformatik ; ID: gnd/4238603-2
+044N ƒSuƒaBest Practices
+044N ƒSuƒaBook
+044N ƒSuƒaCode
+044N ƒSuƒaQualität
+044N ƒSuƒaSoftwareentwicklung
+044N ƒSuƒatesten
+045B ƒaWcm
+045B/01 ƒaWGL 124
+045B/02 ƒaEDV 350
+045B/03 ƒaZ 300
+045F ƒa004ƒABSZ
+045G ƒa004ƒADNB
+045Q/01 ƒ9106418882ƒ854.52$jSoftware engineering
+045R ƒ91270877534ƒ8ST 230: Informatik / Monografien / Software und -entwicklung / Software allgemein, (Einführung, Lehrbücher, Methoden der Programmierung) Software engineering, Programmentwicklungssysteme und Frameworks, SoftwarewerkzeugeƒABVB
+
+101B ƒ018-05-15ƒt16:44:33.000
+101U ƒ0utf8
+102D ƒ018-05-15ƒb6281ƒa0046
+145Z/30 ƒainf 322 sic
+145Z/31 ƒainf 322 tst
+145Z/99 ƒa92
+
+201B/01 ƒ018-05-15ƒt16:44:33.000
+201U/01 ƒ0utf8
+202D/01 ƒ018-05-15ƒb6281ƒa0046
+203@/01 ƒ0147818227X
+208@/01 ƒa18-05-15ƒbzza
+209A/01 ƒaa inf 322 sic/357ƒduƒx00
+209C/01 ƒa2014-12357ƒx00
+209G/01 ƒa46$0005344549
+
+201A/02 ƒ011-11-20
+201B/02 ƒ011-11-20ƒt15:50:20.000
+201U/02 ƒ0utf8
+202D/02 ƒ011-11-20ƒb21ƒa0046
+203@/02 ƒ03786277788
+208@/02 ƒa11-11-20ƒbz
+209A/02 ƒaa inf 322 sic/357 Uschiƒduƒx00
+209G/02 ƒa46$100534454XƒcEx.1ƒa46$1005344558ƒcEx.1ƒa46$1005344566ƒcEx.3
+220B/02 ƒaTest VZG
+
+]]></rawrecord>
   </record>
 </collection>

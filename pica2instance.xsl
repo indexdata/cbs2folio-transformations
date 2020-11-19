@@ -818,6 +818,7 @@
                 <xsl:apply-templates select="../.." mode="make-item">
                   <xsl:with-param name="hhrid" select="concat($hhrid, '-', .)" />
                   <xsl:with-param name="bcode" select="." />
+                  <xsl:with-param name="copy" select="./following-sibling::subfield[@code='c'][1]" />
                 </xsl:apply-templates>
               </xsl:for-each>
             </xsl:when>
@@ -834,7 +835,8 @@
   
   <xsl:template match="item" mode="make-item">
     <xsl:param name="hhrid" />
-    <xsl:param name="bcode" select="datafield[@tag='209G']/subfield[@code='a']"/>
+    <xsl:param name="bcode" select="datafield[@tag='209G']/subfield[@code='a']" />
+    <xsl:param name="copy" select="datafield[@tag='209G']/subfield[@code='c']" />
     <i>
       <hrid><xsl:value-of select="$hhrid" /></hrid>
       <materialTypeId>
@@ -909,6 +911,9 @@
       <barcode>
         <xsl:value-of select="$bcode" />
       </barcode>
+      <copyNumber>
+        <xsl:value-of select="$copy" />
+      </copyNumber>
       <volume>
         <xsl:for-each select="datafield[@tag='231@']/subfield[@code='d' or @code='n']">
           <xsl:choose>
