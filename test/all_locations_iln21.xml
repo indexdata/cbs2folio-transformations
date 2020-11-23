@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="utf-8"?>
+<collection count="1">
+  <record>
+    <status>upsert</status>
+    <hrid>859698947</hrid>
+    <metadata>
+      <datafield tag="001@" fulltag="001@">
+        <subfield code="0">21,31,62,65,92,118-121,132,136,147,152,164,185,207,230,265,811,2002,2005-2006,2008-2010,2014,2018,2020,2023,2026,2035,2048,2055,2106,2116,2118,2122,2132,2148,2152,2188,2509</subfield>
+      </datafield>
+      <datafield tag="001A" fulltag="001A">
+        <subfield code="0">3526:23-05-16</subfield>
+      </datafield>
+      <datafield tag="001B" fulltag="001B">
+        <subfield code="0">4811:22-07-20</subfield>
+        <subfield code="t">18:55:12.000</subfield>
+      </datafield>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">3119:30-03-17</subfield>
+      </datafield>
+      <datafield tag="001U" fulltag="001U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="001X" fulltag="001X">
+        <subfield code="0">0</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Aau</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+        <subfield code="b">n</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Band</subfield>
+        <subfield code="b">nc</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">859698947</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">991554045</subfield>
+      </datafield>
+      <datafield tag="003S" fulltag="003S">
+        <subfield code="0">47001900X</subfield>
+      </datafield>
+      <datafield tag="003T" fulltag="003T">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">950690682</subfield>
+      </datafield>
+      <datafield tag="003T" fulltag="003T">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">991554045</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">9783791037059</subfield>
+        <subfield code="f">Buch : EUR 49.95 (DE)</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">3791037056</subfield>
+      </datafield>
+      <datafield tag="004L" fulltag="004L">
+        <subfield code="0">9783791037059</subfield>
+      </datafield>
+      <datafield tag="004P" fulltag="004P">
+        <subfield code="S">o</subfield>
+        <subfield code="0">9783791037066</subfield>
+        <subfield code="f">ePDF</subfield>
+      </datafield>
+      <datafield tag="006G" fulltag="006G">
+        <subfield code="0">1100378715</subfield>
+      </datafield>
+      <datafield tag="006U" fulltag="006U">
+        <subfield code="0">16,N21</subfield>
+      </datafield>
+      <datafield tag="006Y" fulltag="006Y">
+        <subfield code="0">9783791037059/leh</subfield>
+      </datafield>
+      <datafield tag="006Y" fulltag="006Y">
+        <subfield code="0">FHVDAa0024881</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">GBV</subfield>
+        <subfield code="0">859698947</subfield>
+      </datafield>
+      <datafield tag="007Y" fulltag="007Y">
+        <subfield code="i">Bestellnummer</subfield>
+        <subfield code="0">20187-0002</subfield>
+      </datafield>
+      <datafield tag="009@" fulltag="009@">
+        <subfield code="b">Blocktest</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+      </datafield>
+      <datafield tag="010E" fulltag="010E">
+        <subfield code="e">rda</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2017</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">104270187</subfield>
+        <subfield code="8">Lehrbuch ; ID: gnd/4123623-3</subfield>
+      </datafield>
+      <datafield tag="009Q" fulltag="009Q">
+        <subfield code="a">http://d-nb.info/1100378715/04</subfield>
+        <subfield code="m">B:DE-101</subfield>
+        <subfield code="q">pdf/application</subfield>
+        <subfield code="v">20170415003401</subfield>
+        <subfield code="x">H</subfield>
+        <subfield code="3">Inhaltsverzeichnis</subfield>
+        <subfield code="5">04</subfield>
+        <subfield code="A">DNB</subfield>
+        <subfield code="B">2</subfield>
+      </datafield>
+      <datafield tag="009Q" fulltag="009Q">
+        <subfield code="a">http://deposit.d-nb.de/cgi-bin/dokserv?id=0e6adf761dc94e3d9aa6ccf7191b9805&amp;prov=M&amp;dok_var=1&amp;dok_ext=htm</subfield>
+        <subfield code="m">X:MVB</subfield>
+        <subfield code="q">text/html</subfield>
+        <subfield code="3">Inhaltstext</subfield>
+        <subfield code="5">01</subfield>
+      </datafield>
+      <datafield tag="009Q" fulltag="009Q">
+        <subfield code="a">http://swbplus.bsz-bw.de/bsz47001900Xinh.htm</subfield>
+        <subfield code="m">B:DE-576;DE-Sp3</subfield>
+        <subfield code="q">application/pdf</subfield>
+        <subfield code="v">20170410134624</subfield>
+        <subfield code="x">H</subfield>
+        <subfield code="3">Inhaltsverzeichnis</subfield>
+        <subfield code="5">04</subfield>
+      </datafield>
+      <datafield tag="019@" fulltag="019@">
+        <subfield code="a">XA-DE-BW</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Abgabenordnung und Finanzgerichtsordnung</subfield>
+        <subfield code="h">von Rolf Ax (Ltd. Ministerialrat a. D., Hessisches Ministerium der Finanzen, Wiesbaden), Thomas Große (Rechtsanwalt und Steuerberater, Dozent für die Aus- und Fortbildung von Steuerberatern, Eschwege), Jürgen Melchior (Dipl.-Finanzwirt (FH), Dozent an der Hochschule für Finanzen, Edenkoben), Anja Lotz (Dipl.-Finanzwirt (FH), Dozentin an der Hessischen Hochschule für Finanzen und Rechtspflege in Rotenburg an der Fulda), Dr. Christian Ziegler (Richter am Hessischen Finanzgericht, Kassel, ehem. Dozent an der Hessischen Hochschule für Finanzen und Rechtspflege in Rotenburg an der Fulda)</subfield>
+      </datafield>
+      <datafield tag="028A" fulltag="028A">
+        <subfield code="9">060727454</subfield>
+        <subfield code="8">Ax, Rolf ; ID: gnd/170613798</subfield>
+        <subfield code="B">VerfasserIn</subfield>
+        <subfield code="4">aut</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">689469594</subfield>
+        <subfield code="8">Große, Thomas *1955-* ; ID: gnd/1021230448</subfield>
+        <subfield code="B">VerfasserIn</subfield>
+        <subfield code="4">aut</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">698200098</subfield>
+        <subfield code="8">Melchior, Jürgen ; ID: gnd/173282032</subfield>
+        <subfield code="B">VerfasserIn</subfield>
+        <subfield code="4">aut</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">521949912</subfield>
+        <subfield code="8">Lotz, Anja *1971-* ; ID: gnd/132383020</subfield>
+        <subfield code="B">VerfasserIn</subfield>
+        <subfield code="4">aut</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">505583100</subfield>
+        <subfield code="8">Ziegler, Christian *1975-* ; ID: gnd/13068189X</subfield>
+        <subfield code="B">VerfasserIn</subfield>
+        <subfield code="4">aut</subfield>
+      </datafield>
+      <datafield tag="032@" fulltag="032@">
+        <subfield code="a">21. aktualisierte Auflage</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Stuttgart</subfield>
+        <subfield code="p">[Heidelberg]</subfield>
+        <subfield code="n">Schäffer-Poeschel Verlag</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">XLII, 918 Seiten</subfield>
+      </datafield>
+      <datafield tag="034M" fulltag="034M">
+        <subfield code="a">Diagramme</subfield>
+      </datafield>
+      <datafield tag="036E" fulltag="036E">
+        <subfield code="a">Finanz und Steuern - Blaue Reihe</subfield>
+        <subfield code="l">4</subfield>
+      </datafield>
+      <datafield tag="036F" fulltag="036F">
+        <subfield code="X">4.2017</subfield>
+        <subfield code="9">167102664</subfield>
+        <subfield code="8">Buchreihe Finanz und Steuern ; ZDB-ID: 409519-4</subfield>
+        <subfield code="l">Band 4</subfield>
+      </datafield>
+      <datafield tag="037A" fulltag="037A">
+        <subfield code="a">Auf hinterem Buchdeckel: Rechtsstand: 1. Januar 2017</subfield>
+      </datafield>
+      <datafield tag="039D" fulltag="039D">
+        <subfield code="i">Erscheint auch als</subfield>
+        <subfield code="n">Online-Ausgabe</subfield>
+        <subfield code="9">884929205</subfield>
+        <subfield code="8">Abgabenordnung und Finanzgerichtsordnung / Ax, Rolf ; ID: gnd/170613798. - 21., aktualisierte Auflage. - Stuttgart : Schäffer-Poeschel Verlag für Wirtschaft Steuern Recht GmbH, 2017</subfield>
+      </datafield>
+      <datafield tag="041A" fulltag="041A">
+        <subfield code="9">104704861</subfield>
+        <subfield code="8">Deutschland ; ID: gnd/4011882-4</subfield>
+      </datafield>
+      <datafield tag="041A" occurrence="01" fulltag="041A/01">
+        <subfield code="9">106402072</subfield>
+        <subfield code="8">Abgabenrecht ; ID: gnd/4000121-0</subfield>
+      </datafield>
+      <datafield tag="041A" occurrence="02" fulltag="041A/02">
+        <subfield code="9">106330802</subfield>
+        <subfield code="8">Finanzgerichtsbarkeit ; ID: gnd/4017179-6</subfield>
+      </datafield>
+      <datafield tag="041A" occurrence="09" fulltag="041A/09">
+        <subfield code="A">DE-101</subfield>
+      </datafield>
+      <datafield tag="045F" fulltag="045F">
+        <subfield code="e">23sdnb</subfield>
+        <subfield code="a">340</subfield>
+      </datafield>
+      <datafield tag="045F" fulltag="045F">
+        <subfield code="e">22/ger</subfield>
+        <subfield code="a">343.43036</subfield>
+        <subfield code="A">DE-101</subfield>
+      </datafield>
+      <datafield tag="045G" fulltag="045G">
+        <subfield code="a">340</subfield>
+        <subfield code="A">DE-101</subfield>
+      </datafield>
+      <datafield tag="045H" fulltag="045H">
+        <subfield code="e">DDC22ger</subfield>
+        <subfield code="a">343.43036</subfield>
+        <subfield code="c">343.036</subfield>
+        <subfield code="g">43</subfield>
+      </datafield>
+      <datafield tag="045Q" occurrence="01" fulltag="045Q/01">
+        <subfield code="9">106413287</subfield>
+        <subfield code="8">86.73 Steuerrecht</subfield>
+      </datafield>
+      <datafield tag="045R" fulltag="045R">
+        <subfield code="a">PP 3404</subfield>
+        <subfield code="A">BVB</subfield>
+      </datafield>
+      <datafield tag="045R" fulltag="045R">
+        <subfield code="a">PP 3103</subfield>
+        <subfield code="A">BVB</subfield>
+      </datafield>
+      <datafield tag="045R" fulltag="045R">
+        <subfield code="9">1271561921</subfield>
+        <subfield code="8">PP 3354: Rechtswissenschaft / Finanz-, Steuer- und Zollrecht / Steuerrecht / Steuerliches Verfahrensrecht / Allgemeines zum Steuerverfahrensrecht / Übergreifende Darstellungen zu AO, FGO, StAnpG und Nebengesetzen / Gesamtdarstellungen</subfield>
+      </datafield>
+      <datafield tag="045R" fulltag="045R">
+        <subfield code="9">1271498650</subfield>
+        <subfield code="8">QL 510: Wirtschaftswissenschaften / Finanzwissenschaft. Betriebswirtschaftliche Steuerlehre / Allgemeine Steuerlehre, Steuersystem einzelner Länder / Steuerrecht / Abgabenordnung, Betriebsprüfung, Finanzgerichtsordnung</subfield>
+      </datafield>
+      <datafield tag="046K" fulltag="046K">
+        <subfield code="a">201703</subfield>
+      </datafield>
+      <datafield tag="046X" fulltag="046X">
+        <subfield code="a">aa</subfield>
+        <subfield code="f">PEBW</subfield>
+        <subfield code="5">DE-31</subfield>
+      </datafield>
+      <datafield tag="047A" fulltag="047A">
+        <subfield code="a">5090:c1zwfh (SWB)</subfield>
+      </datafield>
+      <datafield tag="091O" occurrence="05" fulltag="091O/05">
+        <subfield code="a">01</subfield>
+        <subfield code="b">31</subfield>
+        <subfield code="t">leh-800036384-6</subfield>
+      </datafield>
+      <datafield tag="101B" fulltag="101B">
+        <subfield code="0">26-09-16</subfield>
+        <subfield code="t">14:10:18.000</subfield>
+      </datafield>
+      <datafield tag="101U" fulltag="101U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="102D" fulltag="102D">
+        <subfield code="0">26-09-16</subfield>
+        <subfield code="b">6223</subfield>
+        <subfield code="a">0046</subfield>
+      </datafield>
+      <datafield tag="145Z" occurrence="30" fulltag="145Z/30">
+        <subfield code="a">bwl 850</subfield>
+      </datafield>
+      <datafield tag="145Z" occurrence="31" fulltag="145Z/31">
+        <subfield code="a">jur 311</subfield>
+      </datafield>
+      <datafield tag="145Z" occurrence="99" fulltag="145Z/99">
+        <subfield code="a">40</subfield>
+      </datafield>
+      <item epn="1637935862">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">23-11-20</subfield>
+          <subfield code="t">16:07:56.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="01" fulltag="202D/01">
+          <subfield code="0">23-11-20</subfield>
+          <subfield code="b">21</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">1637935862</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">11-04-17</subfield>
+          <subfield code="b">zza</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="f">BB WiWi</subfield>
+          <subfield code="a">11h bwl 850/590(21)</subfield>
+          <subfield code="d">s</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="01" fulltag="209C/01">
+          <subfield code="a">2017-05728</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">46$0005696356</subfield>
+        </datafield>
+        <datafield tag="220B" occurrence="01" fulltag="220B/01">
+          <subfield code="a">BB WiWi</subfield>
+        </datafield>
+      </item>
+      <item epn="3789546097">
+        <datafield tag="201A" occurrence="02" fulltag="201A/02">
+          <subfield code="0">23-11-20</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="02" fulltag="201B/02">
+          <subfield code="0">23-11-20</subfield>
+          <subfield code="t">16:07:56.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="02" fulltag="201U/02">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="02" fulltag="202D/02">
+          <subfield code="0">23-11-20</subfield>
+          <subfield code="b">21</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="02" fulltag="203@/02">
+          <subfield code="0">3789546097</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="02" fulltag="208@/02">
+          <subfield code="a">23-11-20</subfield>
+          <subfield code="b">zza</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="02" fulltag="209A/02">
+          <subfield code="f">ZS-Lesesaal</subfield>
+          <subfield code="a">11h bwl 850/590(22)</subfield>
+          <subfield code="d">s</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="220B" occurrence="02" fulltag="220B/02">
+          <subfield code="a">ZS-Lesesaal</subfield>
+        </datafield>
+      </item>
+      <item epn="3789751839">
+        <datafield tag="201A" occurrence="03" fulltag="201A/03">
+          <subfield code="0">23-11-20</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="03" fulltag="201B/03">
+          <subfield code="0">23-11-20</subfield>
+          <subfield code="t">16:07:56.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="03" fulltag="201U/03">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="03" fulltag="202D/03">
+          <subfield code="0">23-11-20</subfield>
+          <subfield code="b">21</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="03" fulltag="203@/03">
+          <subfield code="0">3789751839</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="03" fulltag="208@/03">
+          <subfield code="a">23-11-20</subfield>
+          <subfield code="b">zza</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="03" fulltag="209A/03">
+          <subfield code="f">Magazin</subfield>
+          <subfield code="a">11h bwl 850/590(23)</subfield>
+          <subfield code="d">s</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="220B" occurrence="03" fulltag="220B/03">
+          <subfield code="a">Magazin</subfield>
+        </datafield>
+      </item>
+      <item epn="3789751847">
+        <datafield tag="201A" occurrence="04" fulltag="201A/04">
+          <subfield code="0">23-11-20</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="04" fulltag="201B/04">
+          <subfield code="0">23-11-20</subfield>
+          <subfield code="t">16:07:56.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="04" fulltag="201U/04">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="04" fulltag="202D/04">
+          <subfield code="0">23-11-20</subfield>
+          <subfield code="b">21</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="04" fulltag="203@/04">
+          <subfield code="0">3789751847</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="04" fulltag="208@/04">
+          <subfield code="a">23-11-20</subfield>
+          <subfield code="b">zza</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="04" fulltag="209A/04">
+          <subfield code="f">Mediathek</subfield>
+          <subfield code="a">11h bwl 850/590(24)</subfield>
+          <subfield code="d">s</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="220B" occurrence="04" fulltag="220B/04">
+          <subfield code="a">Mediathek</subfield>
+        </datafield>
+      </item>
+      <item epn="3789751855">
+        <datafield tag="201A" occurrence="05" fulltag="201A/05">
+          <subfield code="0">23-11-20</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="05" fulltag="201B/05">
+          <subfield code="0">23-11-20</subfield>
+          <subfield code="t">16:07:56.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="05" fulltag="201U/05">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="05" fulltag="202D/05">
+          <subfield code="0">23-11-20</subfield>
+          <subfield code="b">21</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="05" fulltag="203@/05">
+          <subfield code="0">3789751855</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="05" fulltag="208@/05">
+          <subfield code="a">23-11-20</subfield>
+          <subfield code="b">zza</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="05" fulltag="209A/05">
+          <subfield code="f">Handschr.-LS</subfield>
+          <subfield code="a">11h bwl 850/590(25)</subfield>
+          <subfield code="d">s</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="220B" occurrence="05" fulltag="220B/05">
+          <subfield code="a">Handschr.-LS</subfield>
+        </datafield>
+      </item>
+      <item epn="3789751863">
+        <datafield tag="201A" occurrence="06" fulltag="201A/06">
+          <subfield code="0">23-11-20</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="06" fulltag="201B/06">
+          <subfield code="0">23-11-20</subfield>
+          <subfield code="t">16:07:56.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="06" fulltag="201U/06">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="06" fulltag="202D/06">
+          <subfield code="0">23-11-20</subfield>
+          <subfield code="b">21</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="06" fulltag="203@/06">
+          <subfield code="0">3789751863</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="06" fulltag="208@/06">
+          <subfield code="a">23-11-20</subfield>
+          <subfield code="b">zza</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="06" fulltag="209A/06">
+          <subfield code="f">Zentrale Leihtheke</subfield>
+          <subfield code="a">11h bwl 850/590(26)</subfield>
+          <subfield code="d">s</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="220B" occurrence="06" fulltag="220B/06">
+          <subfield code="a">Zentrale Leihtheke</subfield>
+        </datafield>
+      </item>
+      <item epn="3789751871">
+        <datafield tag="201A" occurrence="07" fulltag="201A/07">
+          <subfield code="0">23-11-20</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="07" fulltag="201B/07">
+          <subfield code="0">23-11-20</subfield>
+          <subfield code="t">16:07:56.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="07" fulltag="201U/07">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="07" fulltag="202D/07">
+          <subfield code="0">23-11-20</subfield>
+          <subfield code="b">21</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="07" fulltag="203@/07">
+          <subfield code="0">3789751871</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="07" fulltag="208@/07">
+          <subfield code="a">23-11-20</subfield>
+          <subfield code="b">zza</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="07" fulltag="209A/07">
+          <subfield code="f">Freihandbereich 1</subfield>
+          <subfield code="a">11h bwl 850/590(27)</subfield>
+          <subfield code="d">s</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="220B" occurrence="07" fulltag="220B/07">
+          <subfield code="a">Freihandbereich 1</subfield>
+        </datafield>
+      </item>
+      <item epn="378975188X">
+        <datafield tag="201A" occurrence="08" fulltag="201A/08">
+          <subfield code="0">23-11-20</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="08" fulltag="201B/08">
+          <subfield code="0">23-11-20</subfield>
+          <subfield code="t">16:07:56.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="08" fulltag="201U/08">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="08" fulltag="202D/08">
+          <subfield code="0">23-11-20</subfield>
+          <subfield code="b">21</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="08" fulltag="203@/08">
+          <subfield code="0">378975188X</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="08" fulltag="208@/08">
+          <subfield code="a">23-11-20</subfield>
+          <subfield code="b">zza</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="08" fulltag="209A/08">
+          <subfield code="f">TB BHV</subfield>
+          <subfield code="a">11h bwl 850/590(28)</subfield>
+          <subfield code="d">s</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="220B" occurrence="08" fulltag="220B/08">
+          <subfield code="a">TB BHV</subfield>
+        </datafield>
+      </item>
+      <item epn="3789751898">
+        <datafield tag="201A" occurrence="09" fulltag="201A/09">
+          <subfield code="0">23-11-20</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="09" fulltag="201B/09">
+          <subfield code="0">23-11-20</subfield>
+          <subfield code="t">16:07:56.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="09" fulltag="201U/09">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="09" fulltag="202D/09">
+          <subfield code="0">23-11-20</subfield>
+          <subfield code="b">21</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="09" fulltag="203@/09">
+          <subfield code="0">3789751898</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="09" fulltag="208@/09">
+          <subfield code="a">23-11-20</subfield>
+          <subfield code="b">zza</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="09" fulltag="209A/09">
+          <subfield code="a">11h bwl 850/590(29)</subfield>
+          <subfield code="d">s</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="220B" occurrence="09" fulltag="220B/09">
+          <subfield code="a">Fallback ohne $f</subfield>
+        </datafield>
+      </item>
+    </metadata>
+    <rawrecord><![CDATA[001@ ƒ021,31,62,65,92,118-121,132,136,147,152,164,185,207,230,265,811,2002,2005-2006,2008-2010,2014,2018,2020,2023,2026,2035,2048,2055,2106,2116,2118,2122,2132,2148,2152,2188,2509001A ƒ03526:23-05-16001B ƒ04811:22-07-20ƒt18:55:12.000001D ƒ03119:30-03-17001U ƒ0utf8001X ƒ00002@ ƒ0Aau002C ƒaTextƒbtxt002D ƒaohne Hilfsmittel zu benutzenƒbn002E ƒaBandƒbnc003@ ƒ0859698947003O ƒaOCoLCƒ0991554045003S ƒ047001900X003T ƒaOCoLCƒ0950690682003T ƒaOCoLCƒ0991554045004A ƒ09783791037059ƒfBuch : EUR 49.95 (DE)004A ƒ03791037056004L ƒ09783791037059004P ƒSoƒ09783791037066ƒfePDF006G ƒ01100378715006U ƒ016,N21006Y ƒ09783791037059/leh006Y ƒ0FHVDAa0024881007G ƒiGBVƒ0859698947007Y ƒiBestellnummerƒ020187-0002009@ ƒbBlocktest010@ ƒager010E ƒerda011@ ƒa2017013D ƒ9104270187ƒ8Lehrbuch ; ID: gnd/4123623-3009Q ƒahttp://d-nb.info/1100378715/04ƒmB:DE-101ƒqpdf/applicationƒv20170415003401ƒxHƒ3Inhaltsverzeichnisƒ504ƒADNBƒB2009Q ƒahttp://deposit.d-nb.de/cgi-bin/dokserv?id=0e6adf761dc94e3d9aa6ccf7191b9805&prov=M&dok_var=1&dok_ext=htmƒmX:MVBƒqtext/htmlƒ3Inhaltstextƒ501009Q ƒahttp://swbplus.bsz-bw.de/bsz47001900Xinh.htmƒmB:DE-576;DE-Sp3ƒqapplication/pdfƒv20170410134624ƒxHƒ3Inhaltsverzeichnisƒ504019@ ƒaXA-DE-BW021A ƒaAbgabenordnung und Finanzgerichtsordnungƒhvon Rolf Ax (Ltd. Ministerialrat a. D., Hessisches Ministerium der Finanzen, Wiesbaden), Thomas Große (Rechtsanwalt und Steuerberater, Dozent für die Aus- und Fortbildung von Steuerberatern, Eschwege), Jürgen Melchior (Dipl.-Finanzwirt (FH), Dozent an der Hochschule für Finanzen, Edenkoben), Anja Lotz (Dipl.-Finanzwirt (FH), Dozentin an der Hessischen Hochschule für Finanzen und Rechtspflege in Rotenburg an der Fulda), Dr. Christian Ziegler (Richter am Hessischen Finanzgericht, Kassel, ehem. Dozent an der Hessischen Hochschule für Finanzen und Rechtspflege in Rotenburg an der Fulda)028A ƒ9060727454ƒ8Ax, Rolf ; ID: gnd/170613798ƒBVerfasserInƒ4aut028C ƒ9689469594ƒ8Große, Thomas *1955-* ; ID: gnd/1021230448ƒBVerfasserInƒ4aut028C ƒ9698200098ƒ8Melchior, Jürgen ; ID: gnd/173282032ƒBVerfasserInƒ4aut028C ƒ9521949912ƒ8Lotz, Anja *1971-* ; ID: gnd/132383020ƒBVerfasserInƒ4aut028C ƒ9505583100ƒ8Ziegler, Christian *1975-* ; ID: gnd/13068189XƒBVerfasserInƒ4aut032@ ƒa21. aktualisierte Auflage033A ƒpStuttgartƒp[Heidelberg]ƒnSchäffer-Poeschel Verlag034D ƒaXLII, 918 Seiten034M ƒaDiagramme036E ƒaFinanz und Steuern - Blaue Reiheƒl4036F ƒX4.2017ƒ9167102664ƒ8Buchreihe Finanz und Steuern ; ZDB-ID: 409519-4ƒlBand 4037A ƒaAuf hinterem Buchdeckel: Rechtsstand: 1. Januar 2017039D ƒiErscheint auch alsƒnOnline-Ausgabeƒ9884929205ƒ8Abgabenordnung und Finanzgerichtsordnung / Ax, Rolf ; ID: gnd/170613798. - 21., aktualisierte Auflage. - Stuttgart : Schäffer-Poeschel Verlag für Wirtschaft Steuern Recht GmbH, 2017041A ƒ9104704861ƒ8Deutschland ; ID: gnd/4011882-4041A/01 ƒ9106402072ƒ8Abgabenrecht ; ID: gnd/4000121-0041A/02 ƒ9106330802ƒ8Finanzgerichtsbarkeit ; ID: gnd/4017179-6041A/09 ƒADE-101045F ƒe23sdnbƒa340045F ƒe22/gerƒa343.43036ƒADE-101045G ƒa340ƒADE-101045H ƒeDDC22gerƒa343.43036ƒc343.036ƒg43045Q/01 ƒ9106413287ƒ886.73$jSteuerrecht045R ƒaPP 3404ƒABVB045R ƒaPP 3103ƒABVB045R ƒ91271561921ƒ8PP 3354: Rechtswissenschaft / Finanz-, Steuer- und Zollrecht / Steuerrecht / Steuerliches Verfahrensrecht / Allgemeines zum Steuerverfahrensrecht / Übergreifende Darstellungen zu AO, FGO, StAnpG und Nebengesetzen / Gesamtdarstellungen045R ƒ91271498650ƒ8QL 510: Wirtschaftswissenschaften / Finanzwissenschaft. Betriebswirtschaftliche Steuerlehre / Allgemeine Steuerlehre, Steuersystem einzelner Länder / Steuerrecht / Abgabenordnung, Betriebsprüfung, Finanzgerichtsordnung046K ƒa201703046X ƒaaaƒfPEBWƒ5DE-31047A ƒa5090:c1zwfh (SWB)091O/05 ƒa01ƒb31ƒtleh-800036384-6101B ƒ026-09-16ƒt14:10:18.000101U ƒ0utf8102D ƒ026-09-16ƒb6223ƒa0046145Z/30 ƒabwl 850145Z/31 ƒajur 311145Z/99 ƒa40201B/01 ƒ023-11-20ƒt16:07:56.000201U/01 ƒ0utf8202D/01 ƒ023-11-20ƒb21ƒa0046203@/01 ƒ01637935862208@/01 ƒa11-04-17ƒbzza209A/01 ƒfBB WiWiƒa11h bwl 850/590(21)ƒdsƒx00209C/01 ƒa2017-05728ƒx00209G/01 ƒa46$0005696356220B/01 ƒaBB WiWi201A/02 ƒ023-11-20201B/02 ƒ023-11-20ƒt16:07:56.000201U/02 ƒ0utf8202D/02 ƒ023-11-20ƒb21ƒa0046203@/02 ƒ03789546097208@/02 ƒa23-11-20ƒbzza209A/02 ƒfZS-Lesesaalƒa11h bwl 850/590(22)ƒdsƒx00220B/02 ƒaZS-Lesesaal201A/03 ƒ023-11-20201B/03 ƒ023-11-20ƒt16:07:56.000201U/03 ƒ0utf8202D/03 ƒ023-11-20ƒb21ƒa0046203@/03 ƒ03789751839208@/03 ƒa23-11-20ƒbzza209A/03 ƒfMagazinƒa11h bwl 850/590(23)ƒdsƒx00220B/03 ƒaMagazin201A/04 ƒ023-11-20201B/04 ƒ023-11-20ƒt16:07:56.000201U/04 ƒ0utf8202D/04 ƒ023-11-20ƒb21ƒa0046203@/04 ƒ03789751847208@/04 ƒa23-11-20ƒbzza209A/04 ƒfMediathekƒa11h bwl 850/590(24)ƒdsƒx00220B/04 ƒaMediathek201A/05 ƒ023-11-20201B/05 ƒ023-11-20ƒt16:07:56.000201U/05 ƒ0utf8202D/05 ƒ023-11-20ƒb21ƒa0046203@/05 ƒ03789751855208@/05 ƒa23-11-20ƒbzza209A/05 ƒfHandschr.-LSƒa11h bwl 850/590(25)ƒdsƒx00220B/05 ƒaHandschr.-LS201A/06 ƒ023-11-20201B/06 ƒ023-11-20ƒt16:07:56.000201U/06 ƒ0utf8202D/06 ƒ023-11-20ƒb21ƒa0046203@/06 ƒ03789751863208@/06 ƒa23-11-20ƒbzza209A/06 ƒfZentrale Leihthekeƒa11h bwl 850/590(26)ƒdsƒx00220B/06 ƒaZentrale Leihtheke201A/07 ƒ023-11-20201B/07 ƒ023-11-20ƒt16:07:56.000201U/07 ƒ0utf8202D/07 ƒ023-11-20ƒb21ƒa0046203@/07 ƒ03789751871208@/07 ƒa23-11-20ƒbzza209A/07 ƒfFreihandbereich 1ƒa11h bwl 850/590(27)ƒdsƒx00220B/07 ƒaFreihandbereich 1201A/08 ƒ023-11-20201B/08 ƒ023-11-20ƒt16:07:56.000201U/08 ƒ0utf8202D/08 ƒ023-11-20ƒb21ƒa0046203@/08 ƒ0378975188X208@/08 ƒa23-11-20ƒbzza209A/08 ƒfTB BHVƒa11h bwl 850/590(28)ƒdsƒx00220B/08 ƒaTB BHV201A/09 ƒ023-11-20201B/09 ƒ023-11-20ƒt16:07:56.000201U/09 ƒ0utf8202D/09 ƒ023-11-20ƒb21ƒa0046203@/09 ƒ03789751898208@/09 ƒa23-11-20ƒbzza209A/09 ƒa11h bwl 850/590(29)ƒdsƒx00220B/09 ƒaFallback ohne $f]]></rawrecord>
+  </record>
+</collection>
