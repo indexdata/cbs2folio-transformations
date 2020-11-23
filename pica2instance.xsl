@@ -807,7 +807,7 @@
     <i>
       <xsl:variable name="hhrid" select="datafield[@tag='203@']/subfield[@code='0']" />
       <hrid><xsl:value-of select="$hhrid" /></hrid>
-      <xsl:variable name="lcode" select="datafield[@tag='209@']/subfield[@code='f']"></xsl:variable>
+      <xsl:variable name="lcode" select="datafield[@tag='209A']/subfield[@code='f']"></xsl:variable>
       <permanentLocationId><xsl:value-of select="$lcode" /></permanentLocationId>
       <callNumber><xsl:value-of select="datafield[@tag='209A']/subfield[@code='a']" /></callNumber>
       <items>
@@ -883,7 +883,7 @@
         </xsl:choose>
       </materialTypeId>
       <permanentLoanTypeId>
-        <xsl:variable name="loantype" select="datafield[@tag='209@']/subfield[@code='d']"></xsl:variable>
+        <xsl:variable name="loantype" select="datafield[@tag='209A']/subfield[@code='d']"></xsl:variable>
         <xsl:choose>
           <xsl:when test="u">ausleihbar/Fernleihe</xsl:when>
           <xsl:when test="b">verkürzt ausleihbar/Fernleihe</xsl:when>
