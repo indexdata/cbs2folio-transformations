@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<collection count="1">
+  <record>
+    <status>upsert</status>
+    <hrid>688435181</hrid>
+    <metadata>
+      <datafield tag="001@" fulltag="001@">
+        <subfield code="0">21,23,30-31,70,110,132,151,161</subfield>
+      </datafield>
+      <datafield tag="001A" fulltag="001A">
+        <subfield code="0">0089:13-03-12</subfield>
+      </datafield>
+      <datafield tag="001B" fulltag="001B">
+        <subfield code="0">0089:10-09-20</subfield>
+        <subfield code="t">13:18:09.000</subfield>
+      </datafield>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">0089:13-03-12</subfield>
+      </datafield>
+      <datafield tag="001U" fulltag="001U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="001X" fulltag="001X">
+        <subfield code="0">0</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Ofu</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">Computermedien</subfield>
+        <subfield code="b">c</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Online-Ressource</subfield>
+        <subfield code="b">cr</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">688435181</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">GBV</subfield>
+        <subfield code="0">688435181</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">1998</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">10467444X</subfield>
+        <subfield code="8">Forschungsbericht ; ID: gnd/4155043-2</subfield>
+      </datafield>
+      <datafield tag="009P" occurrence="03" fulltag="009P/03">
+        <subfield code="a">https://edocs.tib.eu/files/e01fn12/688435181.pdf</subfield>
+        <subfield code="q">application/pdf</subfield>
+        <subfield code="x">H</subfield>
+        <subfield code="3">Volltext</subfield>
+        <subfield code="4">OA</subfield>
+        <subfield code="5">34</subfield>
+      </datafield>
+      <datafield tag="009P" occurrence="09" fulltag="009P/09">
+        <subfield code="y">Leseprobe</subfield>
+        <subfield code="a">https://edocs.tib.eu/files/e01fn12/688435181l.pdf</subfield>
+        <subfield code="q">application/pdf</subfield>
+        <subfield code="x">H</subfield>
+        <subfield code="y">Leseprobe</subfield>
+        <subfield code="4">OA</subfield>
+      </datafield>
+      <datafield tag="017L" fulltag="017L">
+        <subfield code="a">GBV-FB-TIB</subfield>
+      </datafield>
+      <datafield tag="019@" fulltag="019@">
+        <subfield code="a">XA-DE</subfield>
+      </datafield>
+      <datafield tag="029F" fulltag="029F">
+        <subfield code="9">103785639</subfield>
+        <subfield code="8">Leibniz-Rechenzentrum ; ID: gnd/1032564-5</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">München</subfield>
+        <subfield code="n">Leibniz-Rechenzentrum d. Bayer. Akad. d. Wiss.</subfield>
+      </datafield>
+      <datafield tag="033B" occurrence="01" fulltag="033B/01">
+        <subfield code="p">Hannover</subfield>
+        <subfield code="n">Technische Informationsbibliothek u. Universitätsbibliothek</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">Online-Ressource (149 S., 1,31 MB)</subfield>
+      </datafield>
+      <datafield tag="034M" fulltag="034M">
+        <subfield code="a">graph. Darst.</subfield>
+      </datafield>
+      <datafield tag="036E" fulltag="036E">
+        <subfield code="a">Jahresbericht des Leibniz-Rechenzentrums</subfield>
+        <subfield code="l">1997</subfield>
+      </datafield>
+      <datafield tag="036E" fulltag="036E">
+        <subfield code="a">LRZ-Bericht</subfield>
+        <subfield code="l">98, 01</subfield>
+      </datafield>
+      <datafield tag="036F" fulltag="036F">
+        <subfield code="X">1997</subfield>
+        <subfield code="9">654749329</subfield>
+        <subfield code="8">Jahresbericht ... / Leibniz-Rechenzentrum ; ID: gnd/1032564-5 ; ZDB-ID: 2600244-9</subfield>
+        <subfield code="l">1997</subfield>
+      </datafield>
+      <datafield tag="036F" occurrence="01" fulltag="036F/01">
+        <subfield code="X">1998,1</subfield>
+        <subfield code="9">727666614</subfield>
+        <subfield code="8">LRZ-Bericht / Leibniz-Rechenzentrum ; ID: gnd/1032564-5 ; ZDB-ID: 2687126-9</subfield>
+        <subfield code="l">98, 01</subfield>
+      </datafield>
+      <datafield tag="037A" fulltag="037A">
+        <subfield code="a">Unterschiede zwischen dem gedruckten Dokument und der elektronischen Ressource können nicht ausgeschlossen werden.</subfield>
+      </datafield>
+      <datafield tag="037A" fulltag="037A">
+        <subfield code="a">Auch als gedr. Ausg. vorhanden</subfield>
+      </datafield>
+      <datafield tag="046W" fulltag="046W">
+        <subfield code="a">IMD-Felder maschinell generiert (GBV)</subfield>
+      </datafield>
+      <datafield tag="047A" fulltag="047A">
+        <subfield code="a">Sortierzählung maschinell geändert (GBV)</subfield>
+      </datafield>
+      <datafield tag="048H" fulltag="048H">
+        <subfield code="a">Systemvoraussetzungen: Acrobat reader</subfield>
+      </datafield>
+      <item epn="1565603222">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">03-09-15</subfield>
+          <subfield code="t">16:11:56.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="01" fulltag="202D/01">
+          <subfield code="0">03-09-15</subfield>
+          <subfield code="b">6211</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">1565603222</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">03-09-15</subfield>
+          <subfield code="b">zza</subfield>
+        </datafield>
+        <datafield tag="209O" occurrence="01" fulltag="209O/01">
+          <subfield code="a">ebook_2015_free</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209R" occurrence="01" fulltag="209R/01">
+          <subfield code="u">http://edok01.tib.uni-hannover.de/edoks/e01fn12/688435181.pdf</subfield>
+          <subfield code="4">LF</subfield>
+        </datafield>
+      </item>
+    </metadata>
+    <rawrecord><![CDATA[001@ ƒ021,23,30-31,70,110,132,151,161001A ƒ00089:13-03-12001B ƒ00089:10-09-20ƒt13:18:09.000001D ƒ00089:13-03-12001U ƒ0utf8001X ƒ00002@ ƒ0Ofu002C ƒaTextƒbtxt002D ƒaComputermedienƒbc002E ƒaOnline-Ressourceƒbcr003@ ƒ0688435181007G ƒiGBVƒ0688435181010@ ƒager011@ ƒa1998013D ƒ910467444Xƒ8Forschungsbericht ; ID: gnd/4155043-2009P/03 ƒahttps://edocs.tib.eu/files/e01fn12/688435181.pdfƒqapplication/pdfƒxHƒ3Volltextƒ4OAƒ534009P/09 ƒyLeseprobeƒahttps://edocs.tib.eu/files/e01fn12/688435181l.pdfƒqapplication/pdfƒxHƒyLeseprobeƒ4OA017L ƒaGBV-FB-TIB019@ ƒaXA-DE029F ƒ9103785639ƒ8Leibniz-Rechenzentrum ; ID: gnd/1032564-5033A ƒpMünchenƒnLeibniz-Rechenzentrum d. Bayer. Akad. d. Wiss.033B/01 ƒpHannoverƒnTechnische Informationsbibliothek u. Universitätsbibliothek034D ƒaOnline-Ressource (149 S., 1,31 MB)034M ƒagraph. Darst.036E ƒaJahresbericht des Leibniz-Rechenzentrumsƒl1997036E ƒaLRZ-Berichtƒl98, 01036F ƒX1997ƒ9654749329ƒ8Jahresbericht ... / Leibniz-Rechenzentrum ; ID: gnd/1032564-5 ; ZDB-ID: 2600244-9ƒl1997036F/01 ƒX1998,1ƒ9727666614ƒ8LRZ-Bericht / Leibniz-Rechenzentrum ; ID: gnd/1032564-5 ; ZDB-ID: 2687126-9ƒl98, 01037A ƒaUnterschiede zwischen dem gedruckten Dokument und der elektronischen Ressource können nicht ausgeschlossen werden.037A ƒaAuch als gedr. Ausg. vorhanden046W ƒaIMD-Felder maschinell generiert (GBV)047A ƒaSortierzählung maschinell geändert (GBV)048H ƒaSystemvoraussetzungen: Acrobat reader201B/01 ƒ003-09-15ƒt16:11:56.000201U/01 ƒ0utf8202D/01 ƒ003-09-15ƒb6211ƒa0046203@/01 ƒ01565603222208@/01 ƒa03-09-15ƒbzza209O/01 ƒaebook_2015_freeƒx00209R/01 ƒuhttp://edok01.tib.uni-hannover.de/edoks/e01fn12/688435181.pdfƒ4LF]]></rawrecord>
+  </record>
+</collection>

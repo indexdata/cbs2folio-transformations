@@ -291,26 +291,26 @@
                   <xsl:when test="current()[@tag='004K']">Formal falsche ISBN der Reproduktion</xsl:when>
                   <xsl:when test="current()[@tag='005I']">Autorisierte ISSN</xsl:when>
                   <xsl:when test="current()[@tag='006A']">LCCN</xsl:when>
-                <xsl:when test="current()[@tag='006G']">DNB-Nummer</xsl:when>
-                <xsl:when test="current()[@tag='004W']">Digital Object Identifier (DOI) im Druckwerk</xsl:when>
-                <xsl:when test="current()[@tag='003T']">SWB-OCLC-Nummer</xsl:when>
-                <xsl:when test="current()[@tag='006T']">CIP-Nummer</xsl:when>
-                <xsl:when test="current()[@tag='006U']">WV-Nummer</xsl:when>
-                <xsl:when test="current()[@tag='006Z']">ZDB-Nummer</xsl:when>
-                <xsl:when test="current()[@tag='006S']">SWB-PPN des umgelenkten Satzes</xsl:when>
-                <xsl:when test="current()[@tag='006L']">Weitere Verbundidentnummern</xsl:when>
-                <xsl:when test="current()[@tag='006X']">Identnummern weiterer Fremddatenlieferanten</xsl:when>
-                <xsl:when test="current()[@tag='003D']">PPN des umgelenkten GBV- bzw. K10plus-Satzes</xsl:when>
-                <xsl:when test="current()[@tag='006N']">Swets-Nummer</xsl:when>
-                <xsl:when test="current()[@tag='006V']">VD16-Nummer</xsl:when>
-                <xsl:when test="current()[@tag='006W']">VD17-Nummer</xsl:when>
-                <xsl:when test="current()[@tag='006M']">VD18-Nummer</xsl:when>
-                <xsl:when test="current()[@tag='007Y']">Sonstige Standardnummern</xsl:when>
-                <xsl:when test="current()[@tag='006Y']">Identnummern (allgemein)</xsl:when>
-                <xsl:when test="current()[@tag='007C']">CODEN</xsl:when>
-                <xsl:when test="current()[@tag='004L']">GTIN (vormals EAN)</xsl:when>
-                <xsl:when test="current()[@tag='004C']">Universal Product Code (UPC)</xsl:when>
-                <xsl:when test="current()[@tag='007D']">Verlags-, Produktions- und Bestellnummer</xsl:when>
+                  <xsl:when test="current()[@tag='006G']">DNB-Nummer</xsl:when>
+                  <xsl:when test="current()[@tag='004W']">Digital Object Identifier (DOI) im Druckwerk</xsl:when>
+                  <xsl:when test="current()[@tag='003T']">SWB-OCLC-Nummer</xsl:when>
+                  <xsl:when test="current()[@tag='006T']">CIP-Nummer</xsl:when>
+                  <xsl:when test="current()[@tag='006U']">WV-Nummer</xsl:when>
+                  <xsl:when test="current()[@tag='006Z']">ZDB-Nummer</xsl:when>
+                  <xsl:when test="current()[@tag='006S']">SWB-PPN des umgelenkten Satzes</xsl:when>
+                  <xsl:when test="current()[@tag='006L']">Weitere Verbundidentnummern</xsl:when>
+                  <xsl:when test="current()[@tag='006X']">Identnummern weiterer Fremddatenlieferanten</xsl:when>
+                  <xsl:when test="current()[@tag='003D']">PPN des umgelenkten GBV- bzw. K10plus-Satzes</xsl:when>
+                  <xsl:when test="current()[@tag='006N']">Swets-Nummer</xsl:when>
+                  <xsl:when test="current()[@tag='006V']">VD16-Nummer</xsl:when>
+                  <xsl:when test="current()[@tag='006W']">VD17-Nummer</xsl:when>
+                  <xsl:when test="current()[@tag='006M']">VD18-Nummer</xsl:when>
+                  <xsl:when test="current()[@tag='007Y']">Sonstige Standardnummern</xsl:when>
+                  <xsl:when test="current()[@tag='006Y']">Identnummern (allgemein)</xsl:when>
+                  <xsl:when test="current()[@tag='007C']">CODEN</xsl:when>
+                  <xsl:when test="current()[@tag='004L']">GTIN (vormals EAN)</xsl:when>
+                  <xsl:when test="current()[@tag='004C']">Universal Product Code (UPC)</xsl:when>
+                  <xsl:when test="current()[@tag='007D']">Verlags-, Produktions- und Bestellnummer</xsl:when>
                 </xsl:choose>
               </identifierTypeId>
             </xsl:when>
@@ -323,12 +323,13 @@
     <!-- title -->
     <xsl:variable name="title-tag">
       <xsl:choose>
-        <xsl:when test="boolean(substring(datafield[@tag='002@']/subfield[@code='0'], 2, 1) = 'f')">036C</xsl:when>
+        <xsl:when test="boolean(substring(datafield[@tag='002@']/subfield[@code='0'], 2, 1) = 'f') and datafield[@tag='036C']">036C</xsl:when>
+        <xsl:when test="boolean(substring(datafield[@tag='002@']/subfield[@code='0'], 2, 1) = 'f') and datafield[@tag='036E']">036E</xsl:when>
         <xsl:otherwise>021A</xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
 
-    <xsl:for-each select="datafield[@tag=$title-tag]">
+    <xsl:for-each select="datafield[@tag=$title-tag][1]">
       <xsl:variable name="title-a" select="translate(./subfield[@code='a'], '@', '')" />
       <xsl:variable name="title-d" select="./subfield[@code='d']" />
       <xsl:variable name="title-h" select="./subfield[@code='h']" />
