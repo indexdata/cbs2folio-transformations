@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<collection count="1">
+  <record>
+    <status>upsert</status>
+    <hrid>1733299742</hrid>
+    <metadata>
+      <datafield tag="001@" fulltag="001@">
+        <subfield code="0">21</subfield>
+      </datafield>
+      <datafield tag="001A" fulltag="001A">
+        <subfield code="0">S1UB:18-09-20</subfield>
+      </datafield>
+      <datafield tag="001B" fulltag="001B">
+        <subfield code="0">S1UB:18-09-20</subfield>
+        <subfield code="t">10:46:54.000</subfield>
+      </datafield>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">S1UB:18-09-20</subfield>
+      </datafield>
+      <datafield tag="001U" fulltag="001U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="001X" fulltag="001X">
+        <subfield code="0">0</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Afx</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+        <subfield code="b">n</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Band</subfield>
+        <subfield code="b">nc</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">1733299742</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">0128208074</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">9780128208076</subfield>
+      </datafield>
+      <datafield tag="006X" fulltag="006X">
+        <subfield code="i">OCoLC</subfield>
+        <subfield code="0">on1159168622</subfield>
+      </datafield>
+      <datafield tag="006X" fulltag="006X">
+        <subfield code="i">OCoLC</subfield>
+        <subfield code="0">1159168622</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">KXP</subfield>
+        <subfield code="0">1733299742</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">eng</subfield>
+      </datafield>
+      <datafield tag="010E" fulltag="010E">
+        <subfield code="e">rda</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2021</subfield>
+      </datafield>
+      <datafield tag="019@" fulltag="019@">
+        <subfield code="a">XA-NL</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="h">edited by Thomas Müller-Reichert (Experimental Center, Medical Faculty Carl Gustav Carus, Technische Universität Dresden, Dresden, Germany), Paul Verkade (Wolfson Bioimaging Facility, School of Biochemistry, Biomedical Sciences Building, University Walk, University of Bristol, Bristol, UK)</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">522718817</subfield>
+        <subfield code="8">Müller-Reichert, Thomas *1962-* ; ID: gnd/132464020</subfield>
+        <subfield code="B">HerausgeberIn</subfield>
+        <subfield code="4">edt</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">890446032</subfield>
+        <subfield code="8">Verkade, Paul ; ID: gnd/113549391X</subfield>
+        <subfield code="B">HerausgeberIn</subfield>
+        <subfield code="4">edt</subfield>
+      </datafield>
+      <datafield tag="032@" fulltag="032@">
+        <subfield code="a">First edition</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Cambridge</subfield>
+        <subfield code="p">San Diego, Calif.</subfield>
+        <subfield code="p">London</subfield>
+        <subfield code="p">Oxford</subfield>
+        <subfield code="n">Elsevier, Academic Press</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">362 Seiten</subfield>
+      </datafield>
+      <datafield tag="036C" fulltag="036C">
+        <subfield code="a">Correlative light and electron microscopy</subfield>
+        <subfield code="h">ed. by Thomas Müller-Reichert ...</subfield>
+        <subfield code="l">4</subfield>
+      </datafield>
+      <datafield tag="036D" fulltag="036D">
+        <subfield code="X">4</subfield>
+        <subfield code="9">1497707005</subfield>
+        <subfield code="8">Correlative light and electron microscopy</subfield>
+        <subfield code="l">4</subfield>
+      </datafield>
+      <datafield tag="036E" fulltag="036E">
+        <subfield code="a">Methods in cell biology</subfield>
+        <subfield code="l">Volume 162</subfield>
+      </datafield>
+      <datafield tag="036F" fulltag="036F">
+        <subfield code="X">162</subfield>
+        <subfield code="9">129307440</subfield>
+        <subfield code="8">Methods in cell biology ; ZDB-ID: 124646-X</subfield>
+        <subfield code="l">Volume 162</subfield>
+      </datafield>
+      <datafield tag="046K" fulltag="046K">
+        <subfield code="a">Erscheinungstermin 1.3.2021 -&gt; https://www.elsevier.com/books/correlative-light-and-electron-microscopy-iv/muller-reichert/978-0-12-822058-0 (S1UB, 18.9.2020)</subfield>
+      </datafield>
+      <datafield tag="047F" fulltag="047F">
+        <subfield code="b">Broadcast-Übernahme aus 24.6 WorldCat</subfield>
+      </datafield>
+      <item epn="3790456128">
+        <datafield tag="201A" occurrence="01" fulltag="201A/01">
+          <subfield code="0">24-11-20</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">24-11-20</subfield>
+          <subfield code="t">16:35:21.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="01" fulltag="202D/01">
+          <subfield code="0">24-11-20</subfield>
+          <subfield code="b">21</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">3790456128</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">24-11-20</subfield>
+          <subfield code="b">z</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">Test</subfield>
+          <subfield code="d">u</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+      </item>
+    </metadata>
+    <rawrecord><![CDATA[001@ ƒ021001A ƒ0S1UB:18-09-20001B ƒ0S1UB:18-09-20ƒt10:46:54.000001D ƒ0S1UB:18-09-20001U ƒ0utf8001X ƒ00002@ ƒ0Afx002C ƒaTextƒbtxt002D ƒaohne Hilfsmittel zu benutzenƒbn002E ƒaBandƒbnc003@ ƒ01733299742004A ƒ00128208074004A ƒ09780128208076006X ƒiOCoLCƒ0on1159168622006X ƒiOCoLCƒ01159168622007G ƒiKXPƒ01733299742010@ ƒaeng010E ƒerda011@ ƒa2021019@ ƒaXA-NL021A ƒhedited by Thomas Müller-Reichert (Experimental Center, Medical Faculty Carl Gustav Carus, Technische Universität Dresden, Dresden, Germany), Paul Verkade (Wolfson Bioimaging Facility, School of Biochemistry, Biomedical Sciences Building, University Walk, University of Bristol, Bristol, UK)028C ƒ9522718817ƒ8Müller-Reichert, Thomas *1962-* ; ID: gnd/132464020ƒBHerausgeberInƒ4edt028C ƒ9890446032ƒ8Verkade, Paul ; ID: gnd/113549391XƒBHerausgeberInƒ4edt032@ ƒaFirst edition033A ƒpCambridgeƒpSan Diego, Calif.ƒpLondonƒpOxfordƒnElsevier, Academic Press034D ƒa362 Seiten036C ƒaCorrelative light and electron microscopyƒhed. by Thomas Müller-Reichert ...ƒl4036D ƒX4ƒ91497707005ƒ8Correlative light and electron microscopyƒl4036E ƒaMethods in cell biologyƒlVolume 162036F ƒX162ƒ9129307440ƒ8Methods in cell biology ; ZDB-ID: 124646-XƒlVolume 162046K ƒaErscheinungstermin 1.3.2021 -> https://www.elsevier.com/books/correlative-light-and-electron-microscopy-iv/muller-reichert/978-0-12-822058-0 (S1UB, 18.9.2020)047F ƒbBroadcast-Übernahme aus 24.6 WorldCat201A/01 ƒ024-11-20201B/01 ƒ024-11-20ƒt16:35:21.000201U/01 ƒ0utf8202D/01 ƒ024-11-20ƒb21ƒa0046203@/01 ƒ03790456128208@/01 ƒa24-11-20ƒbz209A/01 ƒaTestƒduƒx00]]></rawrecord>
+  </record>
+</collection>
