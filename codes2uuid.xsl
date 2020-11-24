@@ -447,18 +447,18 @@
       <xsl:when test=".='Cataloged'">9634a5ab-9228-4703-baf2-4d12ebc77d56</xsl:when>
       <xsl:when test=".='Uncataloged'">26f5208e-110a-4394-be29-1569a8c84a65</xsl:when>
       <xsl:when test=".='Autopsie'">bac08adf-98ef-44ee-8e8a-ab76128c92c1</xsl:when>
-      <xsl:when test=".='Bibliografisch vollständig'">24d7c039-b538-46ee-9b44-6348df2ef7bf</xsl:when>
-      <xsl:when test=".='Erwerbungsdatensatz'">618c0e26-029e-42ed-85fa-5ffa1dab1e78</xsl:when>
-      <xsl:when test=".='Datensatz für internen Gebrauch'">aa59e2e1-379c-4772-93fc-0623df183cfb</xsl:when>
-      <xsl:when test=".='Lösch-Status'">9b15b1f3-bb91-40ba-8053-35dd3bd2aa7b</xsl:when>
-      <xsl:when test=".='Maschinell konvertierte Daten'">e199770c-943c-4a89-9c5b-ad2187e8fa3e</xsl:when>
-      <xsl:when test=".='Katalogisat ohne Autopsie'">cecd7663-ce5c-451b-8e7f-f3fac797c465</xsl:when>
-      <xsl:when test=".='Verwaltungsdatensatz'">e9683fa7-88a7-4956-8631-dedb1252b059</xsl:when>
-      <xsl:when test=".='Fremddatensatz'">f8d54dae-77d9-4363-8063-f504b1cd094e</xsl:when>
-      <xsl:when test=".='Katalogisat nach Autopsie im Vorläufigkeitsstatus'">12383c8c-a99d-4257-8864-647b1c2fdb17</xsl:when>
-      <xsl:when test=".='Maschinelle Einspielung, möglicherweise dublett'">1d37e542-276a-4dbd-ac4d-f58534cdbc6e</xsl:when>
-      <xsl:when test=".='Zunächst verdeckt eingespieltes Novum'">e7b3092b-ffb2-44a0-906e-e55a01a518af</xsl:when>
-      <xsl:when test=".='Inhalt oder Struktur ist zu überprüfen'">03b669ae-07b9-4421-965c-bbda50d39065</xsl:when>
+      <xsl:when test=".='Bibliografisch vollständig'">8bc58a74-b04e-45a4-8c5d-64568a5f0d55</xsl:when>
+      <xsl:when test=".='Erwerbungsdatensatz'">5dc8b06f-6b85-4a64-9825-811d5c0660a8</xsl:when>
+      <xsl:when test=".='Datensatz für internen Gebrauch'">3f378ff8-a474-4232-85b1-977650abba83</xsl:when>
+      <xsl:when test=".='Lösch-Status'">287f32a7-434b-4a89-a7f3-d12c8d6bf81c</xsl:when>
+      <xsl:when test=".='Maschinell konvertierte Daten'">e1700e6a-f606-4464-a9af-f0849890f17e</xsl:when>
+      <xsl:when test=".='Katalogisat ohne Autopsie'">8867ba26-c5da-4a5d-851d-976429f83a45</xsl:when>
+      <xsl:when test=".='Verwaltungsdatensatz'">07ae89f4-e760-421a-8c74-c69f643881dc</xsl:when>
+      <xsl:when test=".='Fremddatensatz'">449a7305-0bfc-434d-ba93-1ce916f706b1</xsl:when>
+      <xsl:when test=".='Katalogisat nach Autopsie im Vorläufigkeitsstatus'">0c81eb93-f2f1-477a-9bbb-a0b18b094f8f</xsl:when>
+      <xsl:when test=".='Maschinelle Einspielung, möglicherweise dublett'">b7ca8a3f-e818-4253-8461-55f198eaf101</xsl:when>
+      <xsl:when test=".='Zunächst verdeckt eingespieltes Novum'">c8678080-990d-4633-95cb-56d06bbf108f</xsl:when>
+      <xsl:when test=".='Inhalt oder Struktur ist zu überprüfen'">775bdbe0-ba63-4d51-aa78-04b2ee81bd27</xsl:when>
     </xsl:choose>
     </statusId>
   </xsl:template>
