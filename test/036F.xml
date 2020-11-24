@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<collection count="1">
+  <record>
+    <status>upsert</status>
+    <hrid>390267198</hrid>
+    <metadata>
+      <datafield tag="001@" fulltag="001@">
+        <subfield code="0">21,235</subfield>
+      </datafield>
+      <datafield tag="001A" fulltag="001A">
+        <subfield code="0">3235:08-07-04</subfield>
+      </datafield>
+      <datafield tag="001B" fulltag="001B">
+        <subfield code="0">0046:14-09-11</subfield>
+        <subfield code="t">12:51:27.000</subfield>
+      </datafield>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">3235:08-07-04</subfield>
+      </datafield>
+      <datafield tag="001U" fulltag="001U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="001X" fulltag="001X">
+        <subfield code="0">0</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Avu</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+        <subfield code="b">n</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Band</subfield>
+        <subfield code="b">nc</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">390267198</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">GBV</subfield>
+        <subfield code="0">390267198</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">1995</subfield>
+      </datafield>
+      <datafield tag="036F" fulltag="036F">
+        <subfield code="X">1995,0000,00</subfield>
+        <subfield code="9">216696771</subfield>
+        <subfield code="8">Gewässergütebericht des Landes Bremen ; ZDB-ID: 1339843-X</subfield>
+        <subfield code="l">1995</subfield>
+      </datafield>
+      <datafield tag="046W" fulltag="046W">
+        <subfield code="a">IMD-Felder maschinell generiert (GBV)</subfield>
+      </datafield>
+      <datafield tag="047A" fulltag="047A">
+        <subfield code="a">Sortierzählung maschinell geändert (GBV)</subfield>
+      </datafield>
+      <item epn="778540251">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">24-11-20</subfield>
+          <subfield code="t">16:03:14.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="01" fulltag="202D/01">
+          <subfield code="0">24-11-20</subfield>
+          <subfield code="b">21</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">778540251</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">22-09-06</subfield>
+          <subfield code="b">zza</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">a reg 095.0/681-1995</subfield>
+          <subfield code="d">u</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="01" fulltag="209C/01">
+          <subfield code="a">fe 6681-1995</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="220B" occurrence="01" fulltag="220B/01">
+          <subfield code="a">Test</subfield>
+        </datafield>
+      </item>
+    </metadata>
+    <rawrecord><![CDATA[001@ ƒ021,235001A ƒ03235:08-07-04001B ƒ00046:14-09-11ƒt12:51:27.000001D ƒ03235:08-07-04001U ƒ0utf8001X ƒ00002@ ƒ0Avu002C ƒaTextƒbtxt002D ƒaohne Hilfsmittel zu benutzenƒbn002E ƒaBandƒbnc003@ ƒ0390267198007G ƒiGBVƒ0390267198011@ ƒa1995036F ƒX1995,0000,00ƒ9216696771ƒ8Gewässergütebericht des Landes Bremen ; ZDB-ID: 1339843-Xƒl1995046W ƒaIMD-Felder maschinell generiert (GBV)047A ƒaSortierzählung maschinell geändert (GBV)201B/01 ƒ024-11-20ƒt16:03:14.000201U/01 ƒ0utf8202D/01 ƒ024-11-20ƒb21ƒa0046203@/01 ƒ0778540251208@/01 ƒa22-09-06ƒbzza209A/01 ƒaa reg 095.0/681-1995ƒduƒx00209C/01 ƒafe 6681-1995ƒx00220B/01 ƒaTest]]></rawrecord>
+  </record>
+</collection>
