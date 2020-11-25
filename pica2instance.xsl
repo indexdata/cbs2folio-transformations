@@ -900,7 +900,7 @@
           <xsl:when test="a">bestellt/keine Fernleihe</xsl:when>
           <xsl:when test="o">keine Angabe/keine Fernleihe</xsl:when>
           <xsl:when test="z">Verlust/keine Fernleihe</xsl:when>
-          <xsl:otherwise>Normal / Can circulate</xsl:otherwise>
+          <xsl:otherwise>ausleihbar/Fernleihe</xsl:otherwise>
         </xsl:choose>
       </permanentLoanTypeId>
       <status>
