@@ -889,17 +889,17 @@
       <permanentLoanTypeId>
         <xsl:variable name="loantype" select="datafield[@tag='209A']/subfield[@code='d']"></xsl:variable>
         <xsl:choose>
-          <xsl:when test="u">ausleihbar/Fernleihe</xsl:when>
-          <xsl:when test="b">verkürzt ausleihbar/Fernleihe</xsl:when>
-          <xsl:when test="c">ausleihbar/keine Fernleihe</xsl:when>
-          <xsl:when test="s">mit Zustimmung ausleihbar/nur Kopie in die Fernleihe</xsl:when>
-          <xsl:when test="d">mit Zustimmung ausleihbar/Fernleihe</xsl:when>
-          <xsl:when test="i">Lesesaalausleihe/keine Fernleihe</xsl:when>
-          <xsl:when test="f">Lesesaalausleihe/nur Kopie in die Fernleihe</xsl:when>
-          <xsl:when test="g">für die Ausleihe gesperrt/keine Fernleihe</xsl:when>
-          <xsl:when test="a">bestellt/keine Fernleihe</xsl:when>
-          <xsl:when test="o">keine Angabe/keine Fernleihe</xsl:when>
-          <xsl:when test="z">Verlust/keine Fernleihe</xsl:when>
+          <xsl:when test="$loantype='u'">ausleihbar/Fernleihe</xsl:when>
+          <xsl:when test="$loantype='b'">verkürzt ausleihbar/Fernleihe</xsl:when>
+          <xsl:when test="$loantype='c'">ausleihbar/keine Fernleihe</xsl:when>
+          <xsl:when test="$loantype='s'">mit Zustimmung ausleihbar/nur Kopie in die Fernleihe</xsl:when>
+          <xsl:when test="$loantype='d'">mit Zustimmung ausleihbar/Fernleihe</xsl:when>
+          <xsl:when test="$loantype='i'">Lesesaalausleihe/keine Fernleihe</xsl:when>
+          <xsl:when test="$loantype='f'">Lesesaalausleihe/nur Kopie in die Fernleihe</xsl:when>
+          <xsl:when test="$loantype='g'">für die Ausleihe gesperrt/keine Fernleihe</xsl:when>
+          <xsl:when test="$loantype='a'">bestellt/keine Fernleihe</xsl:when>
+          <xsl:when test="$loantype='o'">keine Angabe/keine Fernleihe</xsl:when>
+          <xsl:when test="$loantype='z'">Verlust/keine Fernleihe</xsl:when>
           <xsl:otherwise>ausleihbar/Fernleihe</xsl:otherwise>
         </xsl:choose>
       </permanentLoanTypeId>
