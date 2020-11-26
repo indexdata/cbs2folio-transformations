@@ -91,7 +91,7 @@
         <xsl:variable name="mii" select="substring(datafield[@tag='002@']/subfield[@code='0'], 2, 1)" />
         <xsl:variable name="noc" select="datafield[@tag='013D']/subfield[@code='9']" />
         <xsl:choose>
-          <xsl:when test="($noc='106354256' or $noc='32609296X' or $noc='344907406' or $noc='153776951') and ($mii='a' or $mii='f' or $mii='F' or $mii='s' or $mii='v')">Integrierende Ressource</xsl:when>
+          <xsl:when test="($noc='106354256' or $noc='32609296X' or $noc='344907406' or $noc='153776951') and ($mii='a' or $mii='f' or $mii='F' or $mii='s' or $mii='v')">4fc0f4fe-06fd-490a-a078-c4da1754e03a</xsl:when>
           <xsl:when test="$mii='c'">f5cc2ab6-bb92-4cab-b83f-5a3d09261a41</xsl:when>
           <xsl:when test="$mii='b' or $mii='d'">068b5344-e2a6-40df-9186-1829e13cd344</xsl:when>
           <xsl:when test="$mii='z'">612bbd3d-c16b-4bfb-8517-2afafc60204a</xsl:when>
