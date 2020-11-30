@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<collection count="1">
+  <record>
+    <status>upsert</status>
+    <hrid>1735203289</hrid>
+    <metadata>
+      <datafield tag="001@" fulltag="001@">
+        <subfield code="0">21,2002</subfield>
+      </datafield>
+      <datafield tag="001A" fulltag="001A">
+        <subfield code="0">TUUBSF:08-10-20</subfield>
+      </datafield>
+      <datafield tag="001B" fulltag="001B">
+        <subfield code="0">0046:26-11-20</subfield>
+        <subfield code="t">21:41:35.000</subfield>
+      </datafield>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">TUUBSF:08-10-20</subfield>
+      </datafield>
+      <datafield tag="001U" fulltag="001U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="001X" fulltag="001X">
+        <subfield code="0">0</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Aau</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+        <subfield code="b">n</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Band</subfield>
+        <subfield code="b">nc</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">1735203289</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">KXP</subfield>
+        <subfield code="0">1735203289</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+      </datafield>
+      <datafield tag="010E" fulltag="010E">
+        <subfield code="e">rda</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2021</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">132098628</subfield>
+        <subfield code="8">Hörbuch ; ID: gnd/4329497-2</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">106388258</subfield>
+        <subfield code="8">Autobiografie ; ID: gnd/4003939-0</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">104814519</subfield>
+        <subfield code="8">Bibliografie ; ID: gnd/4006432-3</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">104213493</subfield>
+        <subfield code="8">Biografie ; ID: gnd/4006804-3</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">10566491X</subfield>
+        <subfield code="8">Ausstellungskatalog ; ID: gnd/4135467-9</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">105681490</subfield>
+        <subfield code="8">Erlebnisbericht ; ID: gnd/4133254-4</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">104400986</subfield>
+        <subfield code="8">Festschrift ; ID: gnd/4016928-5</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">104450835</subfield>
+        <subfield code="8">Bildband ; ID: gnd/4145395-5</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">105825778</subfield>
+        <subfield code="8">Hochschulschrift ; ID: gnd/4113937-9</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">104377402</subfield>
+        <subfield code="8">Comic ; ID: gnd/4010427-8</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">104712805</subfield>
+        <subfield code="8">Literaturbericht ; ID: gnd/4167870-9</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">826484824</subfield>
+        <subfield code="8">Konferenzschrift ; ID: gnd/1071861417</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">10467444X</subfield>
+        <subfield code="8">Forschungsbericht ; ID: gnd/4155043-2</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">104383704</subfield>
+        <subfield code="8">Schulbuch ; ID: gnd/4053458-3</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">104189037</subfield>
+        <subfield code="8">Reisebericht ; ID: gnd/4076645-7</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">32609296X</subfield>
+        <subfield code="8">Website ; ID: gnd/4596172-4</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">104616091</subfield>
+        <subfield code="8">Bericht ; ID: gnd/4128022-2</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Surfen und Lebensstil</subfield>
+        <subfield code="d">über die Relevanz von Lifestyle-Aspekten bei Surfern</subfield>
+        <subfield code="h">Simon Schilling</subfield>
+      </datafield>
+      <datafield tag="028A" fulltag="028A">
+        <subfield code="9">1734416602</subfield>
+        <subfield code="8">Schilling, Simon *1995-* ; ID: gnd/1218738723</subfield>
+        <subfield code="B">VerfasserIn</subfield>
+        <subfield code="4">aut</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Tübingen</subfield>
+      </datafield>
+      <datafield tag="033D" fulltag="033D">
+        <subfield code="9">106136933</subfield>
+        <subfield code="8">Tübingen ; ID: gnd/4061147-4</subfield>
+        <subfield code="4">uvp</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">III, 53 Blätter</subfield>
+      </datafield>
+      <datafield tag="037C" fulltag="037C">
+        <subfield code="d">Bachelorarbeit</subfield>
+        <subfield code="e">Eberhard Karls Universität Tübingen</subfield>
+        <subfield code="f">2020</subfield>
+      </datafield>
+      <datafield tag="044K" fulltag="044K">
+        <subfield code="9">828137838</subfield>
+        <subfield code="8">Wellenreiter ; ID: gnd/1072719428</subfield>
+      </datafield>
+      <datafield tag="044K" fulltag="044K">
+        <subfield code="9">10415151X</subfield>
+        <subfield code="8">Lebensstil ; ID: gnd/4138354-0</subfield>
+      </datafield>
+      <datafield tag="044K" fulltag="044K">
+        <subfield code="A">DE-21-37/20</subfield>
+      </datafield>
+      <item epn="3790933015">
+        <datafield tag="201A" occurrence="01" fulltag="201A/01">
+          <subfield code="0">26-11-20</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">26-11-20</subfield>
+          <subfield code="t">21:34:55.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="01" fulltag="202D/01">
+          <subfield code="0">26-11-20</subfield>
+          <subfield code="b">21</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">3790933015</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">26-11-20</subfield>
+          <subfield code="b">a</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">Tests FH 0</subfield>
+          <subfield code="d">a</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+      </item>
+    </metadata>
+    <rawrecord><![CDATA[001@ ƒ021,2002001A ƒ0TUUBSF:08-10-20001B ƒ00046:26-11-20ƒt21:41:35.000001D ƒ0TUUBSF:08-10-20001U ƒ0utf8001X ƒ00002@ ƒ0Aau002C ƒaTextƒbtxt002D ƒaohne Hilfsmittel zu benutzenƒbn002E ƒaBandƒbnc003@ ƒ01735203289007G ƒiKXPƒ01735203289010@ ƒager010E ƒerda011@ ƒa2021013D ƒ9132098628ƒ8Hörbuch ; ID: gnd/4329497-2013D ƒ9106388258ƒ8Autobiografie ; ID: gnd/4003939-0013D ƒ9104814519ƒ8Bibliografie ; ID: gnd/4006432-3013D ƒ9104213493ƒ8Biografie ; ID: gnd/4006804-3013D ƒ910566491Xƒ8Ausstellungskatalog ; ID: gnd/4135467-9013D ƒ9105681490ƒ8Erlebnisbericht ; ID: gnd/4133254-4013D ƒ9104400986ƒ8Festschrift ; ID: gnd/4016928-5013D ƒ9104450835ƒ8Bildband ; ID: gnd/4145395-5013D ƒ9105825778ƒ8Hochschulschrift ; ID: gnd/4113937-9013D ƒ9104377402ƒ8Comic ; ID: gnd/4010427-8013D ƒ9104712805ƒ8Literaturbericht ; ID: gnd/4167870-9013D ƒ9826484824ƒ8Konferenzschrift ; ID: gnd/1071861417013D ƒ910467444Xƒ8Forschungsbericht ; ID: gnd/4155043-2013D ƒ9104383704ƒ8Schulbuch ; ID: gnd/4053458-3013D ƒ9104189037ƒ8Reisebericht ; ID: gnd/4076645-7013D ƒ932609296Xƒ8Website ; ID: gnd/4596172-4013D ƒ9104616091ƒ8Bericht ; ID: gnd/4128022-2021A ƒaSurfen und Lebensstilƒdüber die Relevanz von Lifestyle-Aspekten bei SurfernƒhSimon Schilling028A ƒ91734416602ƒ8Schilling, Simon *1995-* ; ID: gnd/1218738723ƒBVerfasserInƒ4aut033A ƒpTübingen033D ƒ9106136933ƒ8Tübingen ; ID: gnd/4061147-4ƒ4uvp034D ƒaIII, 53 Blätter037C ƒdBachelorarbeitƒeEberhard Karls Universität Tübingenƒf2020044K ƒ9828137838ƒ8Wellenreiter ; ID: gnd/1072719428044K ƒ910415151Xƒ8Lebensstil ; ID: gnd/4138354-0044K ƒADE-21-37/20201A/01 ƒ026-11-20201B/01 ƒ026-11-20ƒt21:34:55.000201U/01 ƒ0utf8202D/01 ƒ026-11-20ƒb21ƒa0046203@/01 ƒ03790933015208@/01 ƒa26-11-20ƒba209A/01 ƒaTests FH 0ƒdaƒx00]]></rawrecord>
+  </record>
+</collection>
