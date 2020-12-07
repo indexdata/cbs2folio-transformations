@@ -204,13 +204,12 @@
     <!-- Identifiers -->
     <identifiers>
       <arr>
-      <xsl:for-each select="datafield[@tag='003S' or @tag='004A' or @tag='004P' or @tag='004J' or @tag='004K' or @tag='004D' 
-      or @tag='005A' or @tag='005I' or @tag='005P' or @tag='005D' or @tag='004F' or @tag='004M' or @tag='004I' or @tag='006A'
-      or @tag='006B' or @tag='006G' or @tag='006T' or @tag='006U' or @tag='006Z' or @tag='006S' or @tag='006L' or @tag='006'
-      or @tag='006V' or @tag='006W' or @tag='006M' or @tag='004V' or @tag='004R' or @tag='004W' or @tag='004L' or @tag='004C'
-      or @tag='004U' or @tag='003O' or @tag='003T' or @tag='003D' or @tag='007C' or @tag='007D' or @tag='007G' or @tag='017K'
-      or @tag='017L']">
-        
+        <xsl:for-each select="datafield[@tag='003S' or @tag='004A' or @tag='004P' or @tag='004J' or @tag='004K' or @tag='004D' 
+        or @tag='005A' or @tag='005I' or @tag='005P' or @tag='005D' or @tag='004F' or @tag='004M' or @tag='004I' or @tag='006A'
+        or @tag='006B' or @tag='006G' or @tag='006T' or @tag='006U' or @tag='006Z' or @tag='006S' or @tag='006L' or @tag='006'
+        or @tag='006V' or @tag='006W' or @tag='006M' or @tag='004V' or @tag='004R' or @tag='004W' or @tag='004L' or @tag='004C'
+        or @tag='004U' or @tag='003O' or @tag='003T' or @tag='003D' or @tag='007C' or @tag='007D' or @tag='007G' or @tag='017K'
+        or @tag='017L']">
           <xsl:choose>
             <xsl:when test="./@tag='004A' or @tag='004D' or @tag='004P' or @tag='005A' or @tag='005P' or @tag='005D' or @tag='004F' or @tag='004M' or @tag='004I'">
               <xsl:variable name="id-value">
@@ -247,13 +246,14 @@
                   <xsl:when test="./@tag='004I'">Formal falsche ISMN</xsl:when>
                 </xsl:choose>
               </xsl:variable>
-              <xsl:if test="string-length($id-value) > 0">
+              <xsl:if test="string-length($id-value) &gt; 0">
                 <i>
                   <value><xsl:value-of select="$id-value" /></value>
                   <identifierTypeId><xsl:value-of select="$id-type" /></identifierTypeId>
                 </i>
               </xsl:if>
             </xsl:when>
+
             <xsl:when test="./@tag='007G' or @tag='007D'">
               <xsl:variable name="id-value">
                 <xsl:choose>
@@ -270,7 +270,7 @@
                   <xsl:when test="./@tag='007G'">Identnummer der erstkatalogisierenden Institution</xsl:when>
                 </xsl:choose>
               </xsl:variable>
-              <xsl:if test="string-length($id-value) > 0">
+              <xsl:if test="string-length($id-value) &gt; 0">
                 <i>
                   <value><xsl:value-of select="$id-value" /></value>
                   <identifierTypeId><xsl:value-of select="$id-type" /></identifierTypeId>
@@ -291,7 +291,7 @@
                     <xsl:otherwise>Produktsigel Gesamtpaket</xsl:otherwise>
                 </xsl:choose>
               </xsl:variable>
-              <xsl:if test="string-length($id-value) > 0">
+              <xsl:if test="string-length($id-value) &gt; 0">
                 <i>
                   <value><xsl:value-of select="$id-value" /></value>
                   <identifierTypeId><xsl:value-of select="$id-type" /></identifierTypeId>
@@ -332,7 +332,7 @@
                   <xsl:when test="./@tag='007D'">Verlags-, Produktions- und Bestellnummer</xsl:when>
                 </xsl:choose>
               </xsl:variable>
-              <xsl:if test="string-length($id-value) > 0">
+              <xsl:if test="string-length($id-value) &gt; 0">
                 <i>
                   <value><xsl:value-of select="$id-value" /></value>
                   <identifierTypeId><xsl:value-of select="$id-type" /></identifierTypeId>
@@ -340,8 +340,7 @@
               </xsl:if>
             </xsl:when>
           </xsl:choose>
-        
-      </xsl:for-each>
+        </xsl:for-each>
       </arr>
     </identifiers>
 
@@ -482,8 +481,7 @@
         <arr>
           <xsl:for-each select="datafield[@tag='028A' or @tag='028B' or @tag='028C' or @tag='028G']">
             <xsl:if test="subfield[@code='a' or @code='A' or @code='P' or @code='8']">
-              <i>
-                <name>
+                <xsl:variable name="name">
                   <xsl:choose>
                     <xsl:when test="./subfield[@code='8'][contains(., ' ; ID:')]"><xsl:value-of select="substring-before(./subfield[@code='8'], ' ; ID:')" /></xsl:when>
                     <xsl:when test="./subfield[@code='8']"><xsl:value-of select="./subfield[@code='8']" /></xsl:when>
@@ -499,15 +497,19 @@
                     </xsl:when>
                     <xsl:otherwise><xsl:value-of select="./subfield[@code='a' or @code='A']" /></xsl:otherwise>
                   </xsl:choose>
-                </name>
-                <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId> <!-- personal name -->
-                <xsl:if test="@tag='028A'">
-                  <primary>true</primary>
+                </xsl:variable>
+                <xsl:if test="string-length($name) &gt; 0">
+                <i>
+                  <name><xsl:value-of select="$name" /></name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId> <!-- personal name -->
+                  <xsl:if test="@tag='028A'">
+                    <primary>true</primary>
+                  </xsl:if>
+                  <xsl:if test="./subfield[@code='4']">
+                    <contributorTypeId><xsl:value-of select="./subfield[@code='4']"></xsl:value-of></contributorTypeId>
+                  </xsl:if>
+                </i>
                 </xsl:if>
-                <xsl:if test="./subfield[@code='4']">
-                  <contributorTypeId><xsl:value-of select="./subfield[@code='4']"></xsl:value-of></contributorTypeId>
-                </xsl:if>
-              </i>
             </xsl:if>
           </xsl:for-each> 
 
@@ -541,40 +543,43 @@
               </xsl:call-template>
             </xsl:variable>
             <xsl:variable name="lash" select="' / '" />
-            <i>
-              <name>
-                <xsl:choose>
-                  <xsl:when test="./subfield[@code='8']"><xsl:value-of select="substring-before(./subfield[@code='8'], ' ; ID:')" /></xsl:when>
-                  <xsl:when test="./subfield[@code='8']"><xsl:value-of select="./subfield[@code='8']" /></xsl:when>
-                  <xsl:when test="$cpa and string($cpb) and string($cpg) and string($cpx) and string($cpn) and string($cpd) and string($cpc)">
-                    <xsl:value-of select="concat($cpa,$lash,$cpb,$lash,$cpg,$lash,$cpx,' (',$cpn,') : ',$cpd,$lash,$cpc)"></xsl:value-of>
-                  </xsl:when>
-                  <xsl:when test="$cpa and string($cpb) and string($cpg) and string($cpn) and string($cpd) and string($cpc)">
-                    <xsl:value-of select="concat($cpa,$lash,$cpb,$lash,$cpg,' (',$cpn,') : ',$cpd,$lash,$cpc)"></xsl:value-of>
-                  </xsl:when>
-                  <xsl:when test="$cpa and string($cpb) and string($cpn) and string($cpd) and string($cpc)">
-                    <xsl:value-of select="concat($cpa,$lash,$cpb,' (',$cpn,') : ',$cpd,$lash,$cpc)"></xsl:value-of>
-                  </xsl:when>
-                  <xsl:when test="$cpa and string($cpb) and string($cpg)">
-                    <xsl:value-of select="concat($cpa,$lash,$cpb,$lash,$cpg)"></xsl:value-of>
-                  </xsl:when>
-                  <xsl:when test="$cpa and string($cpg)">
-                    <xsl:value-of select="concat($cpa,$lash,$cpg)"></xsl:value-of>
-                  </xsl:when>
-                  <xsl:when test="$cpa and string($cpb)">
-                    <xsl:value-of select="concat($cpa,$lash,$cpb)"></xsl:value-of>
-                  </xsl:when>
-                  <xsl:when test="string($cpb)">
-                    <xsl:value-of select="$cpb"></xsl:value-of>
-                  </xsl:when>
-                  <xsl:otherwise><xsl:value-of select="$cpa" /></xsl:otherwise>
-                </xsl:choose>
-              </name>
-              <contributorNameTypeId>2e48e713-17f3-4c13-a9f8-23845bb210aa</contributorNameTypeId>
-              <xsl:if test="./subfield[@code='4']">
+            <xsl:variable name="name">
+              <xsl:choose>
+                <xsl:when test="./subfield[@code='8'][contains(., ' ; ID:')]"><xsl:value-of select="substring-before(./subfield[@code='8'], ' ; ID:')" /></xsl:when>
+                <xsl:when test="./subfield[@code='8']"><xsl:value-of select="./subfield[@code='8']" /></xsl:when>
+                <xsl:when test="$cpa and string($cpb) and string($cpg) and string($cpx) and string($cpn) and string($cpd) and string($cpc)">
+                  <xsl:value-of select="concat($cpa,$lash,$cpb,$lash,$cpg,$lash,$cpx,' (',$cpn,') : ',$cpd,$lash,$cpc)"></xsl:value-of>
+                </xsl:when>
+                <xsl:when test="$cpa and string($cpb) and string($cpg) and string($cpn) and string($cpd) and string($cpc)">
+                  <xsl:value-of select="concat($cpa,$lash,$cpb,$lash,$cpg,' (',$cpn,') : ',$cpd,$lash,$cpc)"></xsl:value-of>
+                </xsl:when>
+                <xsl:when test="$cpa and string($cpb) and string($cpn) and string($cpd) and string($cpc)">
+                  <xsl:value-of select="concat($cpa,$lash,$cpb,' (',$cpn,') : ',$cpd,$lash,$cpc)"></xsl:value-of>
+                </xsl:when>
+                <xsl:when test="$cpa and string($cpb) and string($cpg)">
+                  <xsl:value-of select="concat($cpa,$lash,$cpb,$lash,$cpg)"></xsl:value-of>
+                </xsl:when>
+                <xsl:when test="$cpa and string($cpg)">
+                  <xsl:value-of select="concat($cpa,$lash,$cpg)"></xsl:value-of>
+                </xsl:when>
+                <xsl:when test="$cpa and string($cpb)">
+                  <xsl:value-of select="concat($cpa,$lash,$cpb)"></xsl:value-of>
+                </xsl:when>
+                <xsl:when test="string($cpb)">
+                  <xsl:value-of select="$cpb"></xsl:value-of>
+                </xsl:when>
+                <xsl:otherwise><xsl:value-of select="$cpa" /></xsl:otherwise>
+              </xsl:choose>
+            </xsl:variable>
+            <xsl:if test="string-length($name) &gt; 0">
+              <i>
+                <name><xsl:value-of select="$name" /></name> 
+                <contributorNameTypeId>2e48e713-17f3-4c13-a9f8-23845bb210aa</contributorNameTypeId>
+                <xsl:if test="./subfield[@code='4']">
                   <contributorTypeId><xsl:value-of select="./subfield[@code='4']"></xsl:value-of></contributorTypeId>
-              </xsl:if>
-            </i>
+                </xsl:if>
+              </i>
+            </xsl:if>
           </xsl:for-each>
         </arr>
       </contributors>

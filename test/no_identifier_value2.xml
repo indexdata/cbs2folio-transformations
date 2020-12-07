@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?><collection count="1000">
+         <record>
+            <header status="upsert">
+               <identifier>1655450506</identifier>
+            </header>
+            <metadata>
+               <datafield fulltag="001A" tag="001A">
+                  <subfield code="0">EBP:07-05-18</subfield>
+               </datafield>
+               <datafield fulltag="001B" tag="001B">
+                  <subfield code="0">2026:07-08-20</subfield>
+                  <subfield code="t">13:36:02.000</subfield>
+               </datafield>
+               <datafield fulltag="001D" tag="001D">
+                  <subfield code="0">BSZ:01-06-18</subfield>
+               </datafield>
+               <datafield fulltag="001U" tag="001U">
+                  <subfield code="0">utf8</subfield>
+               </datafield>
+               <datafield fulltag="001X" tag="001X">
+                  <subfield code="0">0</subfield>
+               </datafield>
+               <datafield fulltag="002@" tag="002@">
+                  <subfield code="0">Oax</subfield>
+               </datafield>
+               <datafield fulltag="002C" tag="002C">
+                  <subfield code="a">Text</subfield>
+                  <subfield code="b">txt</subfield>
+               </datafield>
+               <datafield fulltag="002D" tag="002D">
+                  <subfield code="a">Computermedien</subfield>
+                  <subfield code="b">c</subfield>
+               </datafield>
+               <datafield fulltag="002E" tag="002E">
+                  <subfield code="a">Online-Ressource</subfield>
+                  <subfield code="b">cr</subfield>
+               </datafield>
+               <datafield fulltag="003@" tag="003@">
+                  <subfield code="0">1655450506</subfield>
+               </datafield>
+               <datafield fulltag="003O" tag="003O">
+                  <subfield code="a">OCoLC</subfield>
+                  <subfield code="0">934173525</subfield>
+               </datafield>
+               <datafield fulltag="003S" tag="003S">
+                  <subfield code="0">504040286</subfield>
+               </datafield>
+               <datafield fulltag="004A" tag="004A">
+                  <subfield code="0">9783593417493</subfield>
+               </datafield>
+               <datafield fulltag="004P" tag="004P">
+                  <subfield code="S">p</subfield>
+               </datafield>
+               <datafield fulltag="006X" tag="006X">
+                  <subfield code="i">EBP</subfield>
+                  <subfield code="0">015212017</subfield>
+               </datafield>
+               <datafield fulltag="006X" tag="006X">
+                  <subfield code="i">PRE</subfield>
+                  <subfield code="0">519cc2a6-a624-45f8-8618-253e5dbbeaba</subfield>
+               </datafield>
+               <datafield fulltag="007G" tag="007G">
+                  <subfield code="i">KEP</subfield>
+                  <subfield code="0">015212017</subfield>
+               </datafield>
+               <datafield fulltag="011@" tag="011@">
+                  <subfield code="a">2012</subfield>
+               </datafield>
+               <datafield fulltag="017C" tag="017C">
+                  <subfield code="u">http://www.content-select.com/index.php?id=bib_view&amp;ean=9783593417493</subfield>
+                  <subfield code="m">X:PRESELECT</subfield>
+                  <subfield code="x">H</subfield>
+                  <subfield code="3">Volltext</subfield>
+                  <subfield code="5">34</subfield>
+               </datafield>
+               <datafield fulltag="017G" tag="017G">
+                  <subfield code="u">https://content-select.com/portal/media/cover_image/519cc2a6-a624-45f8-8618-253e5dbbeaba/500</subfield>
+                  <subfield code="m">X:PRESELECT</subfield>
+                  <subfield code="3">Cover</subfield>
+                  <subfield code="5">93</subfield>
+               </datafield>
+               <datafield fulltag="017K" tag="017K">
+                  <subfield code="a">ZDB-73-CVA</subfield>
+               </datafield>
+               <datafield fulltag="017L" tag="017L">
+                  <subfield code="a">ZDB-73-CVB</subfield>
+                  <subfield code="b">2012</subfield>
+                  <subfield code="i">Business 2012</subfield>
+               </datafield>
+               <datafield fulltag="021A" tag="021A">
+                  <subfield code="a">Coaching</subfield>
+                  <subfield code="d">Eine Einfu??hrung fu??r Praxis und Ausbildung</subfield>
+               </datafield>
+               <datafield fulltag="028A" tag="028A">
+                  <subfield code="d">Astrid</subfield>
+                  <subfield code="a">Schreyo??gg</subfield>
+                  <subfield code="B">VerfasserIn</subfield>
+                  <subfield code="4">aut</subfield>
+               </datafield>
+               <datafield fulltag="032@" tag="032@">
+                  <subfield code="a">7. komplett u??berarbeitete und erweiterte Auflage</subfield>
+               </datafield>
+               <datafield fulltag="033A" tag="033A">
+                  <subfield code="p">Frankfurt u.a.</subfield>
+                  <subfield code="n">Campus Frankfurt / New York</subfield>
+               </datafield>
+               <datafield fulltag="034D" tag="034D">
+                  <subfield code="a">1 Online-Ressource</subfield>
+               </datafield>
+               <datafield fulltag="039D" tag="039D">
+                  <subfield code="n">Druck-Ausgabe</subfield>
+                  <subfield code="a">Erscheint auch als</subfield>
+                  <subfield code="C">ISBN</subfield>
+                  <subfield code="6">97835933733249783593423951978359342391397835934294659783593430133978359342961897835934321379783593432908978359343075197835933968979783593417509978359341723397835934218109783593435534978359343552797835934365559783593436609</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Seele</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Unternehmensfu??hrung</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Teamfu??hrung</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Manager</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Steuerung</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Fu??hrungskraft</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Unternehmensleitung</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">General Management</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Erfolgspotenzial</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Mitarbeiterfu??hrung</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Erfolgsgeschichte</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Leitung</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Psyche</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Erfolgsrezept</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Erfolgsstrategie</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Organisationspsychologie</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Profi</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Personalbetreuung</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Betriebsfu??hrung</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Gestaltpsychologie</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Gescha??ftsfu??hrer</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Work psychology</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">CEO (Chief Executive Officers)</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Chief executive officers</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Leitende Angestellte</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Direktoren</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Topmanager</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Generaldirektoren</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Betriebsleiter</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Corporate executives</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Management-by-Prinzip</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Senior staff</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Senior managers</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Sinnesorgan</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Managementtheorie</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Dispositiver Faktor</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Gescha??ftsleitung</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Psychologischer Aspekt</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Theoretische Psychologie</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Psychologische Theorie</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Personnel psychology</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Sozialpsychologie des Betriebes</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Organisational psychology</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Industrial psychology</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Betriebspsychologie</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="a">erfolg</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Erfolg</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Arbeitspsychologie</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Psychologie</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Fu??hrung</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Management</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Personalfu??hrung</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Fu??hrungskra??fte</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Leadership</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Psychology</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Managers</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">success</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Organizational psychology</subfield>
+               </datafield>
+               <datafield fulltag="101@" tag="101@">
+                  <subfield code="a">21</subfield>
+               </datafield>
+               <item epn="3742211528">
+                  <datafield fulltag="201A/01" occurrence="01" tag="201A">
+                     <subfield code="0">23-08-20</subfield>
+                  </datafield>
+                  <datafield fulltag="201B/01" occurrence="01" tag="201B">
+                     <subfield code="0">23-08-20</subfield>
+                     <subfield code="t">15:17:48.000</subfield>
+                  </datafield>
+                  <datafield fulltag="201U/01" occurrence="01" tag="201U">
+                     <subfield code="0">utf8</subfield>
+                  </datafield>
+                  <datafield fulltag="202D/01" occurrence="01" tag="202D">
+                     <subfield code="0">23-08-20</subfield>
+                     <subfield code="b">6277</subfield>
+                     <subfield code="a">0046</subfield>
+                  </datafield>
+                  <datafield fulltag="203@/01" occurrence="01" tag="203@">
+                     <subfield code="0">3742211528</subfield>
+                  </datafield>
+                  <datafield fulltag="208@/01" occurrence="01" tag="208@">
+                     <subfield code="a">23-08-20</subfield>
+                     <subfield code="b">zza</subfield>
+                  </datafield>
+                  <datafield fulltag="209O/01" occurrence="01" tag="209O">
+                     <subfield code="a">ebook_2020_campus_ebs</subfield>
+                     <subfield code="x">00</subfield>
+                  </datafield>
+                  <datafield fulltag="209R/01" occurrence="01" tag="209R">
+                     <subfield code="u">https://content-select.com/index.php?id=bib_view&amp;ean=9783593417493</subfield>
+                  </datafield>
+                  <datafield fulltag="237A/01" occurrence="01" tag="237A">
+                     <subfield code="a">Freie Nutzung im Campusnetz der Universitaet und der Hochschulen im Lande Bremen</subfield>
+                  </datafield>
+               </item>
+            </metadata>
+         </record>
+      </collection>
