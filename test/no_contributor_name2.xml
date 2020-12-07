@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><collection count="1000">
+         <record>
+            <header status="upsert">
+               <identifier>465944647</identifier>
+            </header>
+            <metadata>
+               <datafield fulltag="001A" tag="001A">
+                  <subfield code="0">0204:01-01-00</subfield>
+               </datafield>
+               <datafield fulltag="001B" tag="001B">
+                  <subfield code="0">1999:18-03-18</subfield>
+                  <subfield code="t">08:47:08.000</subfield>
+               </datafield>
+               <datafield fulltag="001D" tag="001D">
+                  <subfield code="0">0018:30-07-08</subfield>
+               </datafield>
+               <datafield fulltag="001U" tag="001U">
+                  <subfield code="0">utf8</subfield>
+               </datafield>
+               <datafield fulltag="001X" tag="001X">
+                  <subfield code="0">0</subfield>
+               </datafield>
+               <datafield fulltag="002@" tag="002@">
+                  <subfield code="0">Aau</subfield>
+               </datafield>
+               <datafield fulltag="002C" tag="002C">
+                  <subfield code="a">Text</subfield>
+                  <subfield code="b">txt</subfield>
+               </datafield>
+               <datafield fulltag="002D" tag="002D">
+                  <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+                  <subfield code="b">n</subfield>
+               </datafield>
+               <datafield fulltag="002E" tag="002E">
+                  <subfield code="a">Band</subfield>
+                  <subfield code="b">nc</subfield>
+               </datafield>
+               <datafield fulltag="003@" tag="003@">
+                  <subfield code="0">465944647</subfield>
+               </datafield>
+               <datafield fulltag="003O" tag="003O">
+                  <subfield code="a">OCoLC</subfield>
+                  <subfield code="0">174834217</subfield>
+                  <subfield code="v">2012-12-31</subfield>
+               </datafield>
+               <datafield fulltag="006Y" tag="006Y">
+                  <subfield code="0">IFMGW000007765</subfield>
+               </datafield>
+               <datafield fulltag="007G" tag="007G">
+                  <subfield code="i">GBV</subfield>
+                  <subfield code="0">465944647</subfield>
+               </datafield>
+               <datafield fulltag="010@" tag="010@">
+                  <subfield code="a">spa</subfield>
+                  <subfield code="c">eng</subfield>
+               </datafield>
+               <datafield fulltag="011@" tag="011@">
+                  <subfield code="a">1963</subfield>
+               </datafield>
+               <datafield fulltag="019@" tag="019@">
+                  <subfield code="a">XD-AR</subfield>
+               </datafield>
+               <datafield fulltag="021A" tag="021A">
+                  <subfield code="a">Diccionario de la terminologi??a del plancton marino en cinco idiomas</subfield>
+                  <subfield code="d">ingle??s, espan??ol, alema??n, france??s y ruso</subfield>
+                  <subfield code="h">Esteban Boltovskoy</subfield>
+               </datafield>
+               <datafield fulltag="027A" tag="027A">
+                  <subfield code="a">Planctological dictionary in five languages</subfield>
+               </datafield>
+               <datafield fulltag="028A" tag="028A">
+                  <subfield code="9">795025475</subfield>
+                  <subfield code="8">Boltovskoy, Esteban ; ID: gnd/1056792817</subfield>
+               </datafield>
+               <datafield fulltag="029F" tag="029F">
+                  <subfield code="9">399594124</subfield>
+                  <subfield code="8">KSKSKS</subfield>
+               </datafield>
+               <datafield fulltag="033A" tag="033A">
+                  <subfield code="p">Buenos Aires</subfield>
+                  <subfield code="n">Talleres Gra??f. del Servicio de Hidrografi??a Naval</subfield>
+               </datafield>
+               <datafield fulltag="034D" tag="034D">
+                  <subfield code="a">XIX, 114 S</subfield>
+               </datafield>
+               <datafield fulltag="046L" tag="046L">
+                  <subfield code="a">Text in span. u. engl. Sprache</subfield>
+               </datafield>
+               <datafield fulltag="046W" tag="046W">
+                  <subfield code="a">IMD-Felder maschinell generiert (GBV)</subfield>
+               </datafield>
+               <datafield fulltag="101@" tag="101@">
+                  <subfield code="a">21</subfield>
+               </datafield>
+               <datafield fulltag="101B" tag="101B">
+                  <subfield code="0">14-10-10</subfield>
+                  <subfield code="t">13:15:25.000</subfield>
+               </datafield>
+               <datafield fulltag="101U" tag="101U">
+                  <subfield code="0">utf8</subfield>
+               </datafield>
+               <datafield fulltag="102D" tag="102D">
+                  <subfield code="0">14-10-10</subfield>
+                  <subfield code="b">9060</subfield>
+                  <subfield code="a">0046</subfield>
+               </datafield>
+               <datafield fulltag="145Z/30" occurrence="30" tag="145Z">
+                  <subfield code="a">bio 391.3 qb</subfield>
+               </datafield>
+               <datafield fulltag="145Z/31" occurrence="31" tag="145Z">
+                  <subfield code="a">asl 266.9 bio</subfield>
+               </datafield>
+               <datafield fulltag="145Z/99" occurrence="99" tag="145Z">
+                  <subfield code="a">13</subfield>
+               </datafield>
+               <item epn="118773523X">
+                  <datafield fulltag="201B/01" occurrence="01" tag="201B">
+                     <subfield code="0">14-10-10</subfield>
+                     <subfield code="t">13:16:45.000</subfield>
+                  </datafield>
+                  <datafield fulltag="201U/01" occurrence="01" tag="201U">
+                     <subfield code="0">utf8</subfield>
+                  </datafield>
+                  <datafield fulltag="202D/01" occurrence="01" tag="202D">
+                     <subfield code="0">14-10-10</subfield>
+                     <subfield code="b">9060</subfield>
+                     <subfield code="a">0046</subfield>
+                  </datafield>
+                  <datafield fulltag="203@/01" occurrence="01" tag="203@">
+                     <subfield code="0">118773523X</subfield>
+                  </datafield>
+                  <datafield fulltag="208@/01" occurrence="01" tag="208@">
+                     <subfield code="a">17-11-85</subfield>
+                     <subfield code="b">rza</subfield>
+                  </datafield>
+                  <datafield fulltag="209A/01" occurrence="01" tag="209A">
+                     <subfield code="f">F.Wo??rterb.-E2</subfield>
+                     <subfield code="a">w46 bio 391.3 qb/640</subfield>
+                     <subfield code="d">s</subfield>
+                     <subfield code="x">00</subfield>
+                  </datafield>
+                  <datafield fulltag="209C/01" occurrence="01" tag="209C">
+                     <subfield code="a">ae 0640</subfield>
+                     <subfield code="x">00</subfield>
+                  </datafield>
+               </item>
+            </metadata>
+         </record>
+      </collection>
