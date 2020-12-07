@@ -481,7 +481,7 @@
         <arr>
           <xsl:for-each select="datafield[@tag='028A' or @tag='028B' or @tag='028C' or @tag='028G']">
             <xsl:if test="subfield[@code='a' or @code='A' or @code='P' or @code='8']">
-                <xsl:variable name="name">
+                <xsl:variable name="con-name">
                   <xsl:choose>
                     <xsl:when test="./subfield[@code='8'][contains(., ' ; ID:')]"><xsl:value-of select="substring-before(./subfield[@code='8'], ' ; ID:')" /></xsl:when>
                     <xsl:when test="./subfield[@code='8']"><xsl:value-of select="./subfield[@code='8']" /></xsl:when>
@@ -498,9 +498,9 @@
                     <xsl:otherwise><xsl:value-of select="./subfield[@code='a' or @code='A']" /></xsl:otherwise>
                   </xsl:choose>
                 </xsl:variable>
-                <xsl:if test="string-length($name) &gt; 0">
+                <xsl:if test="string-length($con-name) &gt; 0">
                 <i>
-                  <name><xsl:value-of select="$name" /></name>
+                  <name><xsl:value-of select="$con-name" /></name>
                   <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId> <!-- personal name -->
                   <xsl:if test="@tag='028A'">
                     <primary>true</primary>
