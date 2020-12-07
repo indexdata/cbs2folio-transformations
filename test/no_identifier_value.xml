@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?><collection count="1000">
+         <record>
+            <header status="upsert">
+               <identifier>1655449303</identifier>
+            </header>
+            <metadata>
+               <datafield fulltag="001A" tag="001A">
+                  <subfield code="0">EBP:07-05-18</subfield>
+               </datafield>
+               <datafield fulltag="001B" tag="001B">
+                  <subfield code="0">2026:05-08-20</subfield>
+                  <subfield code="t">11:18:58.000</subfield>
+               </datafield>
+               <datafield fulltag="001D" tag="001D">
+                  <subfield code="0">BSZ:01-06-18</subfield>
+               </datafield>
+               <datafield fulltag="001U" tag="001U">
+                  <subfield code="0">utf8</subfield>
+               </datafield>
+               <datafield fulltag="001X" tag="001X">
+                  <subfield code="0">0</subfield>
+               </datafield>
+               <datafield fulltag="002@" tag="002@">
+                  <subfield code="0">Oax</subfield>
+               </datafield>
+               <datafield fulltag="002C" tag="002C">
+                  <subfield code="a">Text</subfield>
+                  <subfield code="b">txt</subfield>
+               </datafield>
+               <datafield fulltag="002D" tag="002D">
+                  <subfield code="a">Computermedien</subfield>
+                  <subfield code="b">c</subfield>
+               </datafield>
+               <datafield fulltag="002E" tag="002E">
+                  <subfield code="a">Online-Ressource</subfield>
+                  <subfield code="b">cr</subfield>
+               </datafield>
+               <datafield fulltag="003@" tag="003@">
+                  <subfield code="0">1655449303</subfield>
+               </datafield>
+               <datafield fulltag="003O" tag="003O">
+                  <subfield code="a">OCoLC</subfield>
+                  <subfield code="0">1165497671</subfield>
+               </datafield>
+               <datafield fulltag="003S" tag="003S">
+                  <subfield code="0">504039555</subfield>
+               </datafield>
+               <datafield fulltag="004A" tag="004A">
+                  <subfield code="0">9783593401065</subfield>
+               </datafield>
+               <datafield fulltag="004P" tag="004P">
+                  <subfield code="S">p</subfield>
+               </datafield>
+               <datafield fulltag="006X" tag="006X">
+                  <subfield code="i">EBP</subfield>
+                  <subfield code="0">015213730</subfield>
+               </datafield>
+               <datafield fulltag="006X" tag="006X">
+                  <subfield code="i">PRE</subfield>
+                  <subfield code="0">519cc2e5-de10-4a89-8355-253f5dbbeaba</subfield>
+               </datafield>
+               <datafield fulltag="007G" tag="007G">
+                  <subfield code="i">KEP</subfield>
+                  <subfield code="0">015213730</subfield>
+               </datafield>
+               <datafield fulltag="011@" tag="011@">
+                  <subfield code="a">2004</subfield>
+               </datafield>
+               <datafield fulltag="017C" tag="017C">
+                  <subfield code="u">http://www.content-select.com/index.php?id=bib_view&amp;ean=9783593401065</subfield>
+                  <subfield code="m">X:PRESELECT</subfield>
+                  <subfield code="x">H</subfield>
+                  <subfield code="3">Volltext</subfield>
+                  <subfield code="5">34</subfield>
+               </datafield>
+               <datafield fulltag="017G" tag="017G">
+                  <subfield code="u">https://content-select.com/portal/media/cover_image/519cc2e5-de10-4a89-8355-253f5dbbeaba/500</subfield>
+                  <subfield code="m">X:PRESELECT</subfield>
+                  <subfield code="3">Cover</subfield>
+                  <subfield code="5">93</subfield>
+               </datafield>
+               <datafield fulltag="017K" tag="017K">
+                  <subfield code="a">ZDB-73-CVA</subfield>
+               </datafield>
+               <datafield fulltag="017L" tag="017L">
+                  <subfield code="a">ZDB-73-CVC</subfield>
+                  <subfield code="i">Business Backlist</subfield>
+               </datafield>
+               <datafield fulltag="021A" tag="021A">
+                  <subfield code="a">Sun Tzu fu??r Manager</subfield>
+                  <subfield code="d">Die 13 ewigen Gebote der Strategie</subfield>
+               </datafield>
+               <datafield fulltag="028A" tag="028A">
+                  <subfield code="d">Werner</subfield>
+                  <subfield code="a">Schwanfelder</subfield>
+                  <subfield code="B">VerfasserIn</subfield>
+                  <subfield code="4">aut</subfield>
+               </datafield>
+               <datafield fulltag="033A" tag="033A">
+                  <subfield code="p">Frankfurt u.a.</subfield>
+                  <subfield code="n">Campus Frankfurt / New York</subfield>
+               </datafield>
+               <datafield fulltag="034D" tag="034D">
+                  <subfield code="a">1 Online-Ressource</subfield>
+               </datafield>
+               <datafield fulltag="039D" tag="039D">
+                  <subfield code="n">Druck-Ausgabe</subfield>
+                  <subfield code="a">Erscheint auch als</subfield>
+                  <subfield code="C">ISBN</subfield>
+                  <subfield code="6">978359340888097835934079759783593375380</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="a">strategie</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Strategie</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Fu??hrung</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Management</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">China</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Sun Tzu</subfield>
+               </datafield>
+               <datafield fulltag="044N" tag="044N">
+                  <subfield code="S">s</subfield>
+                  <subfield code="a">Sun Tsu</subfield>
+               </datafield>
+               <datafield fulltag="047I" tag="047I">
+                  <subfield code="a">Wie funktionieren die 13 Gebote des Meisterstrategen in der Welt des heutigen Managements? Schwanfelders praxisnahe und anschauliche Interpretation zeigt, wie Manager mit Sun Tzu entscheidende strategische Vorteile erringen ko??nnen. Das Buch entha??lt au??erdem eine vollsta??ndige U??bersetzung des Textes von Sun Tzu, die als direkte Quelle der Inspiration dienen soll. Pflichtlektu??re fu??r Fu??hrungskra??fte!</subfield>
+               </datafield>
+               <datafield fulltag="101@" tag="101@">
+                  <subfield code="a">21</subfield>
+               </datafield>
+               <item epn="3742212990">
+                  <datafield fulltag="201A/01" occurrence="01" tag="201A">
+                     <subfield code="0">23-08-20</subfield>
+                  </datafield>
+                  <datafield fulltag="201B/01" occurrence="01" tag="201B">
+                     <subfield code="0">23-08-20</subfield>
+                     <subfield code="t">15:20:44.000</subfield>
+                  </datafield>
+                  <datafield fulltag="201U/01" occurrence="01" tag="201U">
+                     <subfield code="0">utf8</subfield>
+                  </datafield>
+                  <datafield fulltag="202D/01" occurrence="01" tag="202D">
+                     <subfield code="0">23-08-20</subfield>
+                     <subfield code="b">6277</subfield>
+                     <subfield code="a">0046</subfield>
+                  </datafield>
+                  <datafield fulltag="203@/01" occurrence="01" tag="203@">
+                     <subfield code="0">3742212990</subfield>
+                  </datafield>
+                  <datafield fulltag="208@/01" occurrence="01" tag="208@">
+                     <subfield code="a">23-08-20</subfield>
+                     <subfield code="b">zza</subfield>
+                  </datafield>
+                  <datafield fulltag="209O/01" occurrence="01" tag="209O">
+                     <subfield code="a">ebook_2020_campus_ebs</subfield>
+                     <subfield code="x">00</subfield>
+                  </datafield>
+                  <datafield fulltag="209R/01" occurrence="01" tag="209R">
+                     <subfield code="u">https://content-select.com/index.php?id=bib_view&amp;ean=9783593401065</subfield>
+                  </datafield>
+                  <datafield fulltag="237A/01" occurrence="01" tag="237A">
+                     <subfield code="a">Freie Nutzung im Campusnetz der Universitaet und der Hochschulen im Lande Bremen</subfield>
+                  </datafield>
+               </item>
+            </metadata>
+         </record>
+      </collection>
