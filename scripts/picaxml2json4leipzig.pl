@@ -31,12 +31,14 @@ if (! $source_files[0]) {
 
 sub uuid {
   my $msg = shift;
+  print "$msg\n";
   my $uuid_bin = create_uuid(UUID_SHA1, UUID_NS_DNS, $msg);
   my $uuid = uuid_to_string($uuid_bin);
   return $uuid;
 }
 
 my $json = JSON->new->allow_nonref;
+$json->canonical();
 my $parser = XML::LibXML->new();
 my $xslt = XML::LibXSLT->new();
 my $stylesheet = $xslt->parse_stylesheet_file($style_file);
@@ -65,7 +67,7 @@ foreach my $file ( @source_files ) {
     my $hcount = 0;
     my $icount = 0;
     my $recObj = getElements($rec);
-    my $inst_id = uuid($recObj->{id});
+    my $inst_id = uuid('ub.uni-leipzig.de:instance:' . $recObj->{id});
     if (!$only_inst && $recObj->{holdingsRecords}) {
       foreach (@{ $recObj->{holdingsRecords} }) {
         $hcount++;
