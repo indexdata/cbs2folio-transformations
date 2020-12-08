@@ -31,7 +31,6 @@ if (! $source_files[0]) {
 
 sub uuid {
   my $msg = shift;
-  print "$msg\n";
   my $uuid_bin = create_uuid(UUID_SHA1, UUID_NS_DNS, $msg);
   my $uuid = uuid_to_string($uuid_bin);
   return $uuid;
