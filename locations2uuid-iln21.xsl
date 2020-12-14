@@ -22,6 +22,7 @@
         <xsl:when test=".='BB WiWi'">fa1d4d42-a872-4e5f-9346-d2840421060d</xsl:when>
         <xsl:when test=".='TB BHV'">c19004fc-6c68-4de4-8d23-f5788a6567d1</xsl:when>
 		<xsl:when test=".[contains(.,'geloescht')]">2f84ae67-bd38-4546-a0bb-256d7a1b7ef6</xsl:when>
+		<xsl:when test=".='Online'">58a36dce-7dae-4bc4-8edb-3e8b8f8e44cd</xsl:when>
 		<xsl:otherwise>48e979f0-b637-4dbb-b818-e03b6ef8c58b</xsl:otherwise>
       </xsl:choose>
     </permanentLocationId>

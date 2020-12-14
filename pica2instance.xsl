@@ -831,7 +831,7 @@
           <xsl:if test="datafield[@tag='109R']/subfield[@code='u']">
             <i>
               <hrid><xsl:value-of select="$ppn" /></hrid>
-              <permanentLocationId>Zentrale Leihtheke</permanentLocationId> <!-- hardcoded : where to find in item record? --> 
+              <permanentLocationId>Online</permanentLocationId> <!-- hardcoded : where to find in item record? --> 
               <electronicAccess>
                 <arr>
                   <xsl:for-each select="datafield[@tag='109R']">
