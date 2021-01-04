@@ -349,64 +349,72 @@
       <xsl:choose>
         <xsl:when test="boolean(substring(datafield[@tag='002@']/subfield[@code='0'], 2, 1) = 'f') and datafield[@tag='036C']">036C</xsl:when>
         <xsl:when test="boolean(substring(datafield[@tag='002@']/subfield[@code='0'], 2, 1) = 'f') and datafield[@tag='036E']">036E</xsl:when>
-		<xsl:when test="boolean(substring(datafield[@tag='002@']/subfield[@code='0'], 2, 1) = 'v') and datafield[@tag='036F']/subfield[@code='8']">036F</xsl:when>
+		    <xsl:when test="boolean(substring(datafield[@tag='002@']/subfield[@code='0'], 2, 1) = 'v') and datafield[@tag='036F']/subfield[@code='8']">036F</xsl:when>
         <xsl:otherwise>021A</xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
 
-    <xsl:for-each select="datafield[@tag=$title-tag][1]">
-      <xsl:variable name="title-a" select="translate(./subfield[@code='a'], '@', '')" />
-      <xsl:variable name="title-d" select="./subfield[@code='d']" />
-      <xsl:variable name="title-h" select="./subfield[@code='h']" />
-      <xsl:variable name="title-dx" select="substring-after(./subfield[@code='a'], '@')" />	  
-	  <xsl:variable name="title-8" select="substring-before(./subfield[@code='8'], ' ; ZDB-ID:')" />		
-      <xsl:variable name="title-l">
-        <xsl:choose>
-          <xsl:when test="./subfield[@code='l']"><xsl:value-of select="concat(' (', ./subfield[@code='l'], ')')"/></xsl:when>
-          <xsl:otherwise />
-        </xsl:choose>
-      </xsl:variable>
-      <xsl:variable name="title-f">
-        <xsl:choose>
-          <xsl:when test="./subfield[@code='f']"><xsl:value-of select="concat(' = ', ./subfield[@code='f'])"/></xsl:when>
-          <xsl:otherwise />
-        </xsl:choose>
-      </xsl:variable>
-      <xsl:variable name="title-p">
-        <xsl:for-each select="../datafield[@tag='021C']">
-          <xsl:value-of select="normalize-space(concat(./subfield[@code='l'], ' ', ./subfield[@code='a']))" /> 
-            <xsl:if test="position() != last()">
-              <xsl:value-of select="string('. ')" />
-            </xsl:if>
+    <xsl:choose>
+      <xsl:when test="datafield[@tag=$title-tag][1]">
+        <xsl:for-each select="datafield[@tag=$title-tag][1]">
+          <xsl:variable name="title-a" select="translate(./subfield[@code='a'], '@', '')" />
+          <xsl:variable name="title-d" select="./subfield[@code='d']" />
+          <xsl:variable name="title-h" select="./subfield[@code='h']" />
+          <xsl:variable name="title-dx" select="substring-after(./subfield[@code='a'], '@')" />	  
+        <xsl:variable name="title-8" select="substring-before(./subfield[@code='8'], ' ; ZDB-ID:')" />		
+          <xsl:variable name="title-l">
+            <xsl:choose>
+              <xsl:when test="./subfield[@code='l']"><xsl:value-of select="concat(' (', ./subfield[@code='l'], ')')"/></xsl:when>
+              <xsl:otherwise />
+            </xsl:choose>
+          </xsl:variable>
+          <xsl:variable name="title-f">
+            <xsl:choose>
+              <xsl:when test="./subfield[@code='f']"><xsl:value-of select="concat(' = ', ./subfield[@code='f'])"/></xsl:when>
+              <xsl:otherwise />
+            </xsl:choose>
+          </xsl:variable>
+          <xsl:variable name="title-p">
+            <xsl:for-each select="../datafield[@tag='021C']">
+              <xsl:value-of select="normalize-space(concat(./subfield[@code='l'], ' ', ./subfield[@code='a']))" /> 
+                <xsl:if test="position() != last()">
+                  <xsl:value-of select="string('. ')" />
+                </xsl:if>
+            </xsl:for-each>
+          </xsl:variable>
+          <indexTitle>
+            <xsl:choose>
+              <xsl:when test="$title-dx">
+                <xsl:value-of select="normalize-space(concat($title-dx, ' ', $title-d, ' ', $title-h))" /> 
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:value-of select="normalize-space(concat($title-a, ' ', $title-d, ' ', $title-h))" />
+              </xsl:otherwise>
+            </xsl:choose>
+          </indexTitle>
+          <xsl:variable name="main-title">
+            <xsl:choose>
+              <xsl:when test="string($title-h) and string($title-d) and string($title-p)"><xsl:value-of select="concat($title-a, '. ', $title-p, ' : ', $title-d, $title-f, ' / ', $title-h)" /></xsl:when>
+              <xsl:when test="string($title-h) and string($title-d)"><xsl:value-of select="concat($title-a, ' : ', $title-d, $title-f, ' / ', $title-h)" /></xsl:when>
+              <xsl:when test="string($title-d) and string($title-p)"><xsl:value-of select="concat($title-a, '. ', $title-p, ' : ', $title-d, $title-f)" /></xsl:when>
+              <xsl:when test="string($title-h) and string($title-p)"><xsl:value-of select="concat($title-a, $title-f, '. ', $title-p, ' / ', $title-h)" /></xsl:when>
+              <xsl:when test="string($title-d)"><xsl:value-of select="concat($title-a, ' : ', $title-d, $title-f)" /></xsl:when>
+              <xsl:when test="string($title-h)"><xsl:value-of select="concat($title-a, $title-f, ' / ', $title-h)" /></xsl:when>
+              <xsl:when test="string($title-p)"><xsl:value-of select="concat($title-a, $title-f, '. ', $title-p)" /></xsl:when>
+          <xsl:when test="string($title-8)"><xsl:value-of select="$title-8" /></xsl:when>
+              <xsl:otherwise><xsl:value-of select="concat($title-a, $title-f)" /></xsl:otherwise>
+            </xsl:choose>
+          </xsl:variable>
+          <title>
+            <xsl:value-of select="concat($main-title,$title-l)" />
+          </title>
         </xsl:for-each>
-      </xsl:variable>
-      <indexTitle>
-        <xsl:choose>
-          <xsl:when test="$title-dx">
-            <xsl:value-of select="normalize-space(concat($title-dx, ' ', $title-d, ' ', $title-h))" /> 
-          </xsl:when>
-          <xsl:otherwise>
-            <xsl:value-of select="normalize-space(concat($title-a, ' ', $title-d, ' ', $title-h))" />
-          </xsl:otherwise>
-        </xsl:choose>
-      </indexTitle>
-      <xsl:variable name="main-title">
-        <xsl:choose>
-          <xsl:when test="string($title-h) and string($title-d) and string($title-p)"><xsl:value-of select="concat($title-a, '. ', $title-p, ' : ', $title-d, $title-f, ' / ', $title-h)" /></xsl:when>
-          <xsl:when test="string($title-h) and string($title-d)"><xsl:value-of select="concat($title-a, ' : ', $title-d, $title-f, ' / ', $title-h)" /></xsl:when>
-          <xsl:when test="string($title-d) and string($title-p)"><xsl:value-of select="concat($title-a, '. ', $title-p, ' : ', $title-d, $title-f)" /></xsl:when>
-          <xsl:when test="string($title-h) and string($title-p)"><xsl:value-of select="concat($title-a, $title-f, '. ', $title-p, ' / ', $title-h)" /></xsl:when>
-          <xsl:when test="string($title-d)"><xsl:value-of select="concat($title-a, ' : ', $title-d, $title-f)" /></xsl:when>
-          <xsl:when test="string($title-h)"><xsl:value-of select="concat($title-a, $title-f, ' / ', $title-h)" /></xsl:when>
-          <xsl:when test="string($title-p)"><xsl:value-of select="concat($title-a, $title-f, '. ', $title-p)" /></xsl:when>
-		  <xsl:when test="string($title-8)"><xsl:value-of select="$title-8" /></xsl:when>
-          <xsl:otherwise><xsl:value-of select="concat($title-a, $title-f)" /></xsl:otherwise>
-        </xsl:choose>
-      </xsl:variable>
-      <title>
-        <xsl:value-of select="concat($main-title,$title-l)" />
-      </title>
-    </xsl:for-each>
+      </xsl:when>
+      <xsl:otherwise>
+        <indexTitle>KEIN TITEL, IN K10plus PRÜFEN</indexTitle>
+        <title>KEIN TITEL, IN K10plus PRÜFEN</title>
+      </xsl:otherwise>
+    </xsl:choose>
 
     <!-- Alternative titles -->
     <xsl:if test="datafield[@tag='047C' or @tag='027A' or @tag='021F' or @tag='046C' or @tag='026C'] or datafield[@tag='022A'][@occurrence='00']">
