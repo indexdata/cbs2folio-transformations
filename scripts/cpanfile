@@ -1,0 +1,11 @@
+# This file lists all non-core CPAN modules. They can be installed with cpanm:
+# cpanm --installdeps .
+
+requires 'Config::Tiny';
+requires 'UUID::Tiny';
+requires 'Data::Dumper';
+requires 'JSON';
+requires 'File::Copy';
+
+requires 'XML::LibXML';
+requires 'XML::LibXSLT';
