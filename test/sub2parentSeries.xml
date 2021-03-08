@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<collection count="1">
+  <record>
+    <status>upsert</status>
+    <hrid>1671048202</hrid>
+    <metadata>
+      <datafield tag="001@" fulltag="001@">
+        <subfield code="0">26</subfield>
+      </datafield>
+      <datafield tag="001A" fulltag="001A">
+        <subfield code="0">0206:09-08-19</subfield>
+      </datafield>
+      <datafield tag="001B" fulltag="001B">
+        <subfield code="0">NOMIRROR:16-01-20</subfield>
+        <subfield code="t">22:02:52.000</subfield>
+      </datafield>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">0206:09-08-19</subfield>
+      </datafield>
+      <datafield tag="001U" fulltag="001U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="001X" fulltag="001X">
+        <subfield code="0">0</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Oau</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">Computermedien</subfield>
+        <subfield code="b">c</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Online-Ressource</subfield>
+        <subfield code="b">cr</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">1671048202</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">KXP</subfield>
+        <subfield code="0">1671048202</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">eng</subfield>
+      </datafield>
+      <datafield tag="010E" fulltag="010E">
+        <subfield code="e">rda</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2019</subfield>
+        <subfield code="n">07 January 2019</subfield>
+      </datafield>
+      <datafield tag="009P" occurrence="03" fulltag="009P/03">
+        <subfield code="a">https://cepr.org/active/publications/discussion_papers/dp.php?dpno=13433</subfield>
+        <subfield code="x">H</subfield>
+        <subfield code="3">Volltext</subfield>
+        <subfield code="4">ZZ</subfield>
+        <subfield code="5">34</subfield>
+      </datafield>
+      <datafield tag="009P" occurrence="03" fulltag="009P/03">
+        <subfield code="a">https://cepr.org/active/publications/discussion_papers/download.php?dpno=13433</subfield>
+        <subfield code="x">H</subfield>
+        <subfield code="3">Volltext</subfield>
+        <subfield code="4">ZZ</subfield>
+        <subfield code="5">34</subfield>
+      </datafield>
+      <datafield tag="017K" fulltag="017K">
+        <subfield code="a">ZDB-1-CEP</subfield>
+      </datafield>
+      <datafield tag="019@" fulltag="019@">
+        <subfield code="a">XA-GB</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Heterogeneity, measurement error, and misallocation</subfield>
+        <subfield code="d">evidence from african agriculture</subfield>
+        <subfield code="h">Douglas Gollin and Christopher Udry</subfield>
+      </datafield>
+      <datafield tag="028A" fulltag="028A">
+        <subfield code="9">061592323</subfield>
+        <subfield code="8">Gollin, Douglas ; ID: gnd/171395603</subfield>
+        <subfield code="B">VerfasserIn</subfield>
+        <subfield code="4">aut</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">391862898</subfield>
+        <subfield code="8">Udry, Christopher ; ID: gnd/129253197</subfield>
+        <subfield code="B">VerfasserIn</subfield>
+        <subfield code="4">aut</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">London</subfield>
+        <subfield code="n">Centre for Economic Policy Research</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">1 Online-Ressource (circa 108 Seiten)</subfield>
+      </datafield>
+      <datafield tag="034M" fulltag="034M">
+        <subfield code="a">Illustrationen</subfield>
+      </datafield>
+      <datafield tag="036E" fulltag="036E">
+        <subfield code="a">Discussion paper series</subfield>
+        <subfield code="b">Centre for Economic Policy Research</subfield>
+        <subfield code="e">Development economics and macroeconomics and growth</subfield>
+        <subfield code="l">DP13433</subfield>
+      </datafield>
+      <datafield tag="036F" fulltag="036F">
+        <subfield code="X">13433</subfield>
+        <subfield code="9">32040868X</subfield>
+        <subfield code="8">Discussion papers / Centre for Economic Policy Research ; ID: gnd/277099-4 ; ZDB-ID: 2001019-9</subfield>
+        <subfield code="l">DP13433</subfield>
+      </datafield>
+      <datafield tag="045D" occurrence="49" fulltag="045D/49">
+        <subfield code="b">34</subfield>
+      </datafield>
+    </metadata>
+    <rawrecord><![CDATA[001@ ƒ026001A ƒ00206:09-08-19001B ƒ0NOMIRROR:16-01-20ƒt22:02:52.000001D ƒ00206:09-08-19001U ƒ0utf8001X ƒ00002@ ƒ0Oau002C ƒaTextƒbtxt002D ƒaComputermedienƒbc002E ƒaOnline-Ressourceƒbcr003@ ƒ01671048202007G ƒiKXPƒ01671048202010@ ƒaeng010E ƒerda011@ ƒa2019ƒn07 January 2019009P/03 ƒahttps://cepr.org/active/publications/discussion_papers/dp.php?dpno=13433ƒxHƒ3Volltextƒ4ZZƒ534009P/03 ƒahttps://cepr.org/active/publications/discussion_papers/download.php?dpno=13433ƒxHƒ3Volltextƒ4ZZƒ534017K ƒaZDB-1-CEP019@ ƒaXA-GB021A ƒaHeterogeneity, measurement error, and misallocationƒdevidence from african agricultureƒhDouglas Gollin and Christopher Udry028A ƒ9061592323ƒ8Gollin, Douglas ; ID: gnd/171395603ƒBVerfasserInƒ4aut028C ƒ9391862898ƒ8Udry, Christopher ; ID: gnd/129253197ƒBVerfasserInƒ4aut033A ƒpLondonƒnCentre for Economic Policy Research034D ƒa1 Online-Ressource (circa 108 Seiten)034M ƒaIllustrationen036E ƒaDiscussion paper seriesƒbCentre for Economic Policy ResearchƒeDevelopment economics and macroeconomics and growthƒlDP13433036F ƒX13433ƒ932040868Xƒ8Discussion papers / Centre for Economic Policy Research ; ID: gnd/277099-4 ; ZDB-ID: 2001019-9ƒlDP13433045D/49 ƒb34]]></rawrecord>
+  </record>
+</collection>

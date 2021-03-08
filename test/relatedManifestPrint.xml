@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<collection count="1">
+  <record>
+    <status>upsert</status>
+    <hrid>889275785</hrid>
+    <metadata>
+      <datafield tag="001@" fulltag="001@">
+        <subfield code="0">11,20-24,26,30-31,40,60,62,65,69-70,72,90,95,110,120,122,140,147,154,161,264,283,285,293,370,754,2001,2005-2010,2014,2018,2020,2027,2044-2045,2048,2050,2055-2057,2061-2063,2065,2106,2118,2122,2131-2136,2143,2148-2149,2152-2153,2232,2371,2433,2474</subfield>
+      </datafield>
+      <datafield tag="001A" fulltag="001A">
+        <subfield code="0">KNUB:01-09-17</subfield>
+      </datafield>
+      <datafield tag="001B" fulltag="001B">
+        <subfield code="0">BSZ:22-02-21</subfield>
+        <subfield code="t">18:59:56.000</subfield>
+      </datafield>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">L1FH:29-09-17</subfield>
+      </datafield>
+      <datafield tag="001U" fulltag="001U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="001X" fulltag="001X">
+        <subfield code="0">0</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Oau</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">Computermedien</subfield>
+        <subfield code="b">c</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Online-Ressource</subfield>
+        <subfield code="b">cr</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">889275785</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">994030083</subfield>
+      </datafield>
+      <datafield tag="003S" fulltag="003S">
+        <subfield code="0">492980802</subfield>
+      </datafield>
+      <datafield tag="003T" fulltag="003T">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">1006693667</subfield>
+      </datafield>
+      <datafield tag="003T" fulltag="003T">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">994030083</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">9783110544725</subfield>
+        <subfield code="f">pdf</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">9783110550740</subfield>
+        <subfield code="f">epub</subfield>
+      </datafield>
+      <datafield tag="004P" fulltag="004P">
+        <subfield code="S">p</subfield>
+        <subfield code="0">9783110538687</subfield>
+      </datafield>
+      <datafield tag="004P" fulltag="004P">
+        <subfield code="S">p</subfield>
+        <subfield code="0">3110538687</subfield>
+      </datafield>
+      <datafield tag="004V" fulltag="004V">
+        <subfield code="0">10.1515/9783110544725</subfield>
+      </datafield>
+      <datafield tag="006X" fulltag="006X">
+        <subfield code="i">EBP</subfield>
+        <subfield code="0">014881799</subfield>
+      </datafield>
+      <datafield tag="006X" fulltag="006X">
+        <subfield code="i">GRUY</subfield>
+        <subfield code="0">481149</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">GBV</subfield>
+        <subfield code="0">889275785</subfield>
+      </datafield>
+      <datafield tag="009@" fulltag="009@">
+        <subfield code="b">Blocktest</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+      </datafield>
+      <datafield tag="010E" fulltag="010E">
+        <subfield code="e">rda</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2017</subfield>
+        <subfield code="n">[2017]</subfield>
+      </datafield>
+      <datafield tag="011F" fulltag="011F">
+        <subfield code="n">© 2017</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">104270187</subfield>
+        <subfield code="8">Lehrbuch ; ID: gnd/4123623-3</subfield>
+      </datafield>
+      <datafield tag="009P" occurrence="03" fulltag="009P/03">
+        <subfield code="a">https://www.degruyter.com/viewbooktoc/product/487025</subfield>
+        <subfield code="x">H</subfield>
+        <subfield code="3">Volltext</subfield>
+        <subfield code="5">34</subfield>
+      </datafield>
+      <datafield tag="009P" occurrence="03" fulltag="009P/03">
+        <subfield code="a">http://www.reference-global.com/doi/book/10.1515/9783110544725sc xl1 HB 02 Tr</subfield>
+        <subfield code="x">H</subfield>
+        <subfield code="3">Volltext</subfield>
+        <subfield code="5">34</subfield>
+      </datafield>
+      <datafield tag="009P" occurrence="03" fulltag="009P/03">
+        <subfield code="a">http://dx.doi.org/10.1515/9783110544725</subfield>
+        <subfield code="x">R</subfield>
+        <subfield code="3">Volltext</subfield>
+        <subfield code="5">34</subfield>
+      </datafield>
+      <datafield tag="009P" occurrence="03" fulltag="009P/03">
+        <subfield code="a">https://doi.org/10.1515/9783110544725</subfield>
+        <subfield code="m">X:GRUY</subfield>
+        <subfield code="x">R</subfield>
+        <subfield code="3">Volltext</subfield>
+        <subfield code="5">34</subfield>
+      </datafield>
+      <datafield tag="009Q" fulltag="009Q">
+        <subfield code="S">0</subfield>
+        <subfield code="a">https://external.dandelon.com/download/attachments/dandelon/ids/FL001FF103BC639035901C12581B8002A40BC.pdf</subfield>
+        <subfield code="m">V:DE-601</subfield>
+        <subfield code="m">X:AGI</subfield>
+        <subfield code="q">pdf/application</subfield>
+        <subfield code="v">2019-02-01</subfield>
+        <subfield code="x">H</subfield>
+        <subfield code="3">Inhaltsverzeichnis</subfield>
+        <subfield code="5">04</subfield>
+        <subfield code="A">GBV</subfield>
+        <subfield code="B">2</subfield>
+      </datafield>
+      <datafield tag="009Q" fulltag="009Q">
+        <subfield code="a">https://www.degruyter.com/doc/cover/9783110544725.jpg</subfield>
+        <subfield code="m">X:GRUY</subfield>
+        <subfield code="3">Cover</subfield>
+        <subfield code="5">93</subfield>
+      </datafield>
+      <datafield tag="017K" fulltag="017K">
+        <subfield code="a">ZDB-23-DGG</subfield>
+      </datafield>
+      <datafield tag="017L" fulltag="017L">
+        <subfield code="a">PDA-23-SAX</subfield>
+        <subfield code="b">2017</subfield>
+      </datafield>
+      <datafield tag="017L" fulltag="017L">
+        <subfield code="a">PDA11SSHE</subfield>
+      </datafield>
+      <datafield tag="017L" fulltag="017L">
+        <subfield code="a">PDA14ALL</subfield>
+      </datafield>
+      <datafield tag="017L" fulltag="017L">
+        <subfield code="a">PDA16SSH</subfield>
+      </datafield>
+      <datafield tag="017L" fulltag="017L">
+        <subfield code="a">PDA1ALL</subfield>
+      </datafield>
+      <datafield tag="017L" fulltag="017L">
+        <subfield code="a">PDA2</subfield>
+      </datafield>
+      <datafield tag="017L" fulltag="017L">
+        <subfield code="a">PDA2HUM</subfield>
+      </datafield>
+      <datafield tag="017L" fulltag="017L">
+        <subfield code="a">PDA5EBK</subfield>
+      </datafield>
+      <datafield tag="017L" fulltag="017L">
+        <subfield code="a">EBA-BACKALL</subfield>
+      </datafield>
+      <datafield tag="017L" fulltag="017L">
+        <subfield code="a">GBV-deGruyter-alles</subfield>
+      </datafield>
+      <datafield tag="017L" fulltag="017L">
+        <subfield code="a">EBA-EBKALL</subfield>
+      </datafield>
+      <datafield tag="017L" fulltag="017L">
+        <subfield code="a">EBA-SSHALL</subfield>
+      </datafield>
+      <datafield tag="019@" fulltag="019@">
+        <subfield code="a">XA-DE</subfield>
+        <subfield code="a">XD-US</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Basiswissen RDA</subfield>
+        <subfield code="d">eine Einführung für deutschsprachige Anwender</subfield>
+        <subfield code="h">Heidrun Wiesenmüller, Silke Horny</subfield>
+      </datafield>
+      <datafield tag="028A" fulltag="028A">
+        <subfield code="9">508484510</subfield>
+        <subfield code="8">Wiesenmüller, Heidrun *1968-* ; ID: gnd/122087801</subfield>
+        <subfield code="B">VerfasserIn</subfield>
+        <subfield code="4">aut</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">818747137</subfield>
+        <subfield code="8">Horny, Silke ; ID: gnd/106745389X</subfield>
+        <subfield code="B">VerfasserIn</subfield>
+        <subfield code="4">aut</subfield>
+      </datafield>
+      <datafield tag="032@" fulltag="032@">
+        <subfield code="a">2., überarbeitete und erweiterte Auflage</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Berlin</subfield>
+        <subfield code="p">Boston</subfield>
+        <subfield code="n">De Gruyter Saur</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">1 Online-Ressource (XXII, 326 Seiten)</subfield>
+      </datafield>
+      <datafield tag="037A" fulltag="037A">
+        <subfield code="a">Description based upon print version of record</subfield>
+      </datafield>
+      <datafield tag="039D" fulltag="039D">
+        <subfield code="i">Erscheint auch als</subfield>
+        <subfield code="n">Druck-Ausgabe</subfield>
+        <subfield code="9">887836224</subfield>
+        <subfield code="8">Basiswissen RDA / Wiesenmüller, Heidrun *1968-* ; ID: gnd/122087801. - 2., überarbeitete und erweiterte Auflage. - Berlin : De Gruyter, Saur, [2017]</subfield>
+      </datafield>
+      <datafield tag="044A" fulltag="044A">
+        <subfield code="N">655</subfield>
+        <subfield code="S">f</subfield>
+        <subfield code="a">Electronic books</subfield>
+      </datafield>
+      <datafield tag="044A" fulltag="044A">
+        <subfield code="N">630</subfield>
+        <subfield code="S">t</subfield>
+        <subfield code="a">Resource description &amp; access</subfield>
+        <subfield code="v">Handbooks, manuals, etc</subfield>
+      </datafield>
+      <datafield tag="044A" fulltag="044A">
+        <subfield code="N">650</subfield>
+        <subfield code="S">s</subfield>
+        <subfield code="a">Descriptive cataloging</subfield>
+        <subfield code="x">Rules</subfield>
+        <subfield code="v">Handbooks, manuals, etc</subfield>
+      </datafield>
+      <datafield tag="044A" fulltag="044A">
+        <subfield code="N">650</subfield>
+        <subfield code="S">s</subfield>
+        <subfield code="a">Descriptive cataloging</subfield>
+        <subfield code="x">Standards</subfield>
+        <subfield code="v">Handbooks, manuals, etc</subfield>
+      </datafield>
+      <datafield tag="044K" fulltag="044K">
+        <subfield code="9">632475951</subfield>
+        <subfield code="8">Resource description and access ; ID: gnd/7710221-6</subfield>
+      </datafield>
+      <datafield tag="044K" occurrence="01" fulltag="044K/01">
+        <subfield code="9">106377523</subfield>
+        <subfield code="8">Bibliothek ; ID: gnd/4006439-6</subfield>
+      </datafield>
+      <datafield tag="044K" occurrence="01" fulltag="044K/01">
+        <subfield code="9">104588829</subfield>
+        <subfield code="8">Katalogisierung ; ID: gnd/4163418-4</subfield>
+      </datafield>
+      <datafield tag="045A" fulltag="045A">
+        <subfield code="a">Z694.15.R47 W54 2015</subfield>
+      </datafield>
+      <datafield tag="045F" fulltag="045F">
+        <subfield code="a">020</subfield>
+      </datafield>
+      <datafield tag="045F" fulltag="045F">
+        <subfield code="a">025.32</subfield>
+      </datafield>
+      <datafield tag="045G" fulltag="045G">
+        <subfield code="a">020</subfield>
+        <subfield code="A">DNB</subfield>
+      </datafield>
+      <datafield tag="045Q" occurrence="01" fulltag="045Q/01">
+        <subfield code="9">106402854</subfield>
+        <subfield code="8">06.70 Katalogisierung Bestandserschließung</subfield>
+      </datafield>
+      <datafield tag="045R" fulltag="045R">
+        <subfield code="9">1270679872</subfield>
+        <subfield code="8">AN 74000: Allgemeines / Buch- und Bibliothekswesen, Informationswissenschaft / Bibliothekswesen / Kataloge, Katalogisierung / Allgemeines</subfield>
+      </datafield>
+      <datafield tag="045R" fulltag="045R">
+        <subfield code="9">1270679937</subfield>
+        <subfield code="8">AN 74400: Allgemeines / Buch- und Bibliothekswesen, Informationswissenschaft / Bibliothekswesen / Kataloge, Katalogisierung / Titelaufnahme, Katalogisierung in Deutschland</subfield>
+      </datafield>
+      <datafield tag="045X" fulltag="045X">
+        <subfield code="i">BISAC</subfield>
+        <subfield code="a">LAN025000</subfield>
+      </datafield>
+      <datafield tag="046Q" fulltag="046Q">
+        <subfield code="u">Vorwort; Inhaltsübersicht; Hinweise zur Benutzung; Allgemeiner Teil; 1 Formalerschließung: Konzepte und Standards; 1.1 Ziele von Formalerschließung; 1.2 Bisherige Regelwerke; 1.3 Bibliografische Beschreibung; 1.4 Eintragungen und Verweisungen; 1.5 EDV-Katalogisierung; 1.6 Aktuelle Herausforderungen; 2 Das FRBR-Modell; 2.1 Grundlagen; 2.2 Entitäten der Gruppe 1; 2.3 Entitäten der Gruppe 2; 2.4 FRBR in der Praxis; 3 RDA: Grundlagen; 3.1 Die Entwicklung von RDA; 3.2 RDA und FRBR; 3.3 Weitere Grundprinzipien von RDA; 3.4 Das RDA Toolkit; Haupteil; 4 Manifestationen und Exemplare; 4.1 Allgemeines</subfield>
+      </datafield>
+      <datafield tag="046Q" fulltag="046Q">
+        <subfield code="u">4.2 Grundprinzipien beim Erfassen und Übertragen4.3 Informationsquellen; 4.4 Titel der Manifestation; 4.5 Verantwortlichkeitsangabe; 4.6 Ausgabevermerk; 4.7 Erscheinungsvermerk; 4.8 Gesamttitelangabe; 4.9 Erscheinungsweise; 4.10 Identifikator für die Manifestation; 4.11 Anmerkung zur Manifestation; 4.12 Medientyp und Datenträgertyp; 4.13 Umfang; 4.14 Weitere Merkmale von Datenträgern; 4.15 Bezugs- und Zugangsinformationen; 4.16 Merkmale auf Exemplar-Ebene; 4.17 Begleitmaterial; 4.18 Beschreibung von mehrteiligen Monografien; 4.19 Beschreibung von monografischen Reihen</subfield>
+      </datafield>
+      <datafield tag="046Q" fulltag="046Q">
+        <subfield code="u">4.20 Beschreibung von integrierenden Ressourcen5 Werke und Expressionen; 5.1 Allgemeines; 5.2 Titel des Werks; 5.3 Weitere Merkmale von Werken; 5.4 Inhaltstyp; 5.5 Weitere Merkmale von Expressionen; 5.6 Sucheinstiege für Werke und Expressionen; 5.7 Beschreibung des Inhalts; 6 Personen, Familien und Körperschaften; 6.1 Allgemeines; 6.2 Moderne Personennamen; 6.3 Moderne Personen: Merkmale und Sucheinstiege; 6.4 Besondere Personengruppen; 6.5 Familien; 6.6 Namen von Körperschaften; 6.7 Namen von untergeordneten Körperschaften; 6.8 Körperschaften: Merkmale und Sucheinstiege</subfield>
+      </datafield>
+      <datafield tag="046Q" fulltag="046Q">
+        <subfield code="u">6.9 Gebietskörperschaften und die ihnen untergeordneten Körperschaften6.10 Konferenzen und ähnliche Veranstaltungen; 7 Geografika; 7.1 Allgemeines; 7.2 Namen von Geografika; 8 Primärbeziehungen; 8.1 Allgemeines; 8.2 Primärbeziehungen und Datenmodelle; 8.3 Kernelemente bei den Primärbeziehungen; 9 Beziehungen zu Personen, Familien und Körperschaften; 9.1 Allgemeines; 9.2 Geistiger Schöpfer: Allgemeines; 9.3 Körperschaft als geistiger Schöpfer; 9.4 Sonstige Person, Familie oder Körperschaft, die mit einem Werk in Verbindung steht; 9.5 Mitwirkender</subfield>
+      </datafield>
+      <datafield tag="046Q" fulltag="046Q">
+        <subfield code="u">9.6 Geistige Schöpfer und Mitwirkende: Besondere Fälle9.7 Beziehungen auf der Manifestationsebene; 9.8 Beziehungen auf der Exemplar-Ebene; 10 Beziehungen zwischen Werken, Expressionen, Manifestationen und Exemplaren; 10.1 Allgemeines; 10.2 In Beziehung stehende Werke; 10.3 In Beziehung stehende Expressionen; 10.4 In Beziehung stehende Manifestationen; 10.5 In Beziehung stehende Exemplare; 11 Beziehungen zwischen Personen, Familien und Körperschaften; 11.1 Allgemeines; 11.2 In Beziehung stehende Personen; 11.3 In Beziehung stehende Familien; 11.4 In Beziehung stehende Körperschaften</subfield>
+      </datafield>
+      <datafield tag="046Q" fulltag="046Q">
+        <subfield code="u">12 Sacherschließung in RDA</subfield>
+      </datafield>
+      <datafield tag="047A" fulltag="047A">
+        <subfield code="a">ZRED: Sacherschließungsdaten maschinell aus paralleler Ausg. übernommen (SWB)</subfield>
+      </datafield>
+      <datafield tag="047I" fulltag="047I">
+        <subfield code="a">Klappentext: Mit der ersten Auflage von Basiswissen RDA lag erstmals ein deutschsprachiges Lehrbuch für das neue, internationale Katalogisierungsregelwerk RDA (Resource Description and Access) vor. Seither wurde nicht nur das Regelwerk selbst an vielen Stellen verändert, sondern auch die deutschsprachigen Anwendungsrichtlinien wurden erheblich erweitert und verfeinert - nicht zuletzt aufgrund der Praxiserfahrungen seit dem Beginn der aktiven Katalogisierung mit RDA. Die überarbeitete und erweiterte Neuauflage präsentiert die Katalogisierungsregeln auf dem aktuellen Stand von 2017; bietet an vielen Stellen zusätzliche Details und Erläuterungen; geht besonders auf typische Fragen und Probleme ein, die beim Katalogisieren mit RDA auftreten; wurde um Beispiele und Erklärungen für verschiedene Themenbereiche erweitert (u.a. Reproduktionen, E-Books, Sprachkurse); behandelt auch das neue theoretische Modell IFLA LRM und die geplante Weiterentwicklung von RDA. Die zweite Auflage von Basiswissen RDA ist ein unverzichtbarer Begleiter für Studierende, Auszubildende und Beschäftigte in Bibliotheken, die mit RDA arbeiten. Das Lehrbuch unterstützt nicht nur beim Anfertigen von korrekten Katalogisaten, sondern auch dabei, das neue Regelwerk zu verstehen.</subfield>
+      </datafield>
+      <datafield tag="047I" fulltag="047I">
+        <subfield code="a">Mit der ersten Auflage von Basiswissen RDAlag erstmals ein deutschsprachiges Lehrbuch für das neue, internationale Katalogisierungsregelwerk RDA (Resource Description and Access) vor. Seither wurde nicht nur das Regelwerk selbst an vielen Stellen verändert, sondern auch die deutschsprachigen Anwendungsrichtlinien wurden erheblich erweitert und verfeinert - nicht zuletzt aufgrund der Praxiserfahrungen seit dem Beginn der aktiven Katalogisierung mit RDA.Die überarbeitete und erweiterte Neuauflage präsentiert die Katalogisierungsregeln auf dem aktuellen Stand von 2017 bietet an vielen Stellen zusätzliche Details und Erläuterungen geht besonders auf typische Fragen und Probleme ein, die beim Katalogisieren mit RDA auftreten wurde um Beispiele und Erklärungen für verschiedene Themenbereiche erweitert (u.a. Reproduktionen, E-Books, Sprachkurse) behandelt auch das neue theoretische Modell IFLA LRM und die geplante Weiterentwicklung von RDA Die zweite Auflage von Basiswissen RDAist ein unverzichtbarer Begleiter für Studierende, Auszubildende und Beschäftigte in Bibliotheken, die mit RDA arbeiten. Das Lehrbuch unterstützt nicht nur beim Anfertigen von korrekten Katalogisaten, sondern auch dabei, das neue Regelwerk zu verstehen.  Heidrun Wiesenmüller,Hochschule der Medien, Stuttgart; Silke Horny,Bibliotheksservice-Zentrum Baden Württemberg.</subfield>
+      </datafield>
+      <item epn="348465337X">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">05-02-20</subfield>
+          <subfield code="t">21:45:27.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="01" fulltag="202D/01">
+          <subfield code="0">05-02-20</subfield>
+          <subfield code="b">add_ebook</subfield>
+          <subfield code="a">1999</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">348465337X</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">11-06-19</subfield>
+          <subfield code="b">zza</subfield>
+        </datafield>
+        <datafield tag="209O" occurrence="01" fulltag="209O/01">
+          <subfield code="a">ebook_2019_degruyter_ebs</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209O" occurrence="01" fulltag="209O/01">
+          <subfield code="a">ebm</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209R" occurrence="01" fulltag="209R/01">
+          <subfield code="u">https://doi.org/10.1515/9783110544725</subfield>
+        </datafield>
+        <datafield tag="237A" occurrence="01" fulltag="237A/01">
+          <subfield code="a">Freie Nutzung im Campusnetz der Universitaet und der Hochschulen im Lande Bremen</subfield>
+        </datafield>
+      </item>
+    </metadata>
+    <rawrecord><![CDATA[001@ ƒ011,20-24,26,30-31,40,60,62,65,69-70,72,90,95,110,120,122,140,147,154,161,264,283,285,293,370,754,2001,2005-2010,2014,2018,2020,2027,2044-2045,2048,2050,2055-2057,2061-2063,2065,2106,2118,2122,2131-2136,2143,2148-2149,2152-2153,2232,2371,2433,2474001A ƒ0KNUB:01-09-17001B ƒ0BSZ:22-02-21ƒt18:59:56.000001D ƒ0L1FH:29-09-17001U ƒ0utf8001X ƒ00002@ ƒ0Oau002C ƒaTextƒbtxt002D ƒaComputermedienƒbc002E ƒaOnline-Ressourceƒbcr003@ ƒ0889275785003O ƒaOCoLCƒ0994030083003S ƒ0492980802003T ƒaOCoLCƒ01006693667003T ƒaOCoLCƒ0994030083004A ƒ09783110544725ƒfpdf004A ƒ09783110550740ƒfepub004P ƒSpƒ09783110538687004P ƒSpƒ03110538687004V ƒ010.1515/9783110544725006X ƒiEBPƒ0014881799006X ƒiGRUYƒ0481149007G ƒiGBVƒ0889275785009@ ƒbBlocktest010@ ƒager010E ƒerda011@ ƒa2017ƒn[2017]011F ƒn© 2017013D ƒ9104270187ƒ8Lehrbuch ; ID: gnd/4123623-3009P/03 ƒahttps://www.degruyter.com/viewbooktoc/product/487025ƒxHƒ3Volltextƒ534009P/03 ƒahttp://www.reference-global.com/doi/book/10.1515/9783110544725sc xl1 HB 02 TrƒxHƒ3Volltextƒ534009P/03 ƒahttp://dx.doi.org/10.1515/9783110544725ƒxRƒ3Volltextƒ534009P/03 ƒahttps://doi.org/10.1515/9783110544725ƒmX:GRUYƒxRƒ3Volltextƒ534009Q ƒS0ƒahttps://external.dandelon.com/download/attachments/dandelon/ids/FL001FF103BC639035901C12581B8002A40BC.pdfƒmV:DE-601ƒmX:AGIƒqpdf/applicationƒv2019-02-01ƒxHƒ3Inhaltsverzeichnisƒ504ƒAGBVƒB2009Q ƒahttps://www.degruyter.com/doc/cover/9783110544725.jpgƒmX:GRUYƒ3Coverƒ593017K ƒaZDB-23-DGG017L ƒaPDA-23-SAXƒb2017017L ƒaPDA11SSHE017L ƒaPDA14ALL017L ƒaPDA16SSH017L ƒaPDA1ALL017L ƒaPDA2017L ƒaPDA2HUM017L ƒaPDA5EBK017L ƒaEBA-BACKALL017L ƒaGBV-deGruyter-alles017L ƒaEBA-EBKALL017L ƒaEBA-SSHALL019@ ƒaXA-DEƒaXD-US021A ƒaBasiswissen RDAƒdeine Einführung für deutschsprachige AnwenderƒhHeidrun Wiesenmüller, Silke Horny028A ƒ9508484510ƒ8Wiesenmüller, Heidrun *1968-* ; ID: gnd/122087801ƒBVerfasserInƒ4aut028C ƒ9818747137ƒ8Horny, Silke ; ID: gnd/106745389XƒBVerfasserInƒ4aut032@ ƒa2., überarbeitete und erweiterte Auflage033A ƒpBerlinƒpBostonƒnDe Gruyter Saur034D ƒa1 Online-Ressource (XXII, 326 Seiten)037A ƒaDescription based upon print version of record039D ƒiErscheint auch alsƒnDruck-Ausgabeƒ9887836224ƒ8Basiswissen RDA / Wiesenmüller, Heidrun *1968-* ; ID: gnd/122087801. - 2., überarbeitete und erweiterte Auflage. - Berlin : De Gruyter, Saur, [2017]044A ƒN655ƒSfƒaElectronic books044A ƒN630ƒStƒaResource description & accessƒvHandbooks, manuals, etc044A ƒN650ƒSsƒaDescriptive catalogingƒxRulesƒvHandbooks, manuals, etc044A ƒN650ƒSsƒaDescriptive catalogingƒxStandardsƒvHandbooks, manuals, etc044K ƒ9632475951ƒ8Resource description and access ; ID: gnd/7710221-6044K/01 ƒ9106377523ƒ8Bibliothek ; ID: gnd/4006439-6044K/01 ƒ9104588829ƒ8Katalogisierung ; ID: gnd/4163418-4045A ƒaZ694.15.R47 W54 2015045F ƒa020045F ƒa025.32045G ƒa020ƒADNB045Q/01 ƒ9106402854ƒ806.70$jKatalogisierung$jBestandserschließung045R ƒ91270679872ƒ8AN 74000: Allgemeines / Buch- und Bibliothekswesen, Informationswissenschaft / Bibliothekswesen / Kataloge, Katalogisierung / Allgemeines045R ƒ91270679937ƒ8AN 74400: Allgemeines / Buch- und Bibliothekswesen, Informationswissenschaft / Bibliothekswesen / Kataloge, Katalogisierung / Titelaufnahme, Katalogisierung in Deutschland045X ƒiBISACƒaLAN025000046Q ƒuVorwort; Inhaltsübersicht; Hinweise zur Benutzung; Allgemeiner Teil; 1 Formalerschließung: Konzepte und Standards; 1.1 Ziele von Formalerschließung; 1.2 Bisherige Regelwerke; 1.3 Bibliografische Beschreibung; 1.4 Eintragungen und Verweisungen; 1.5 EDV-Katalogisierung; 1.6 Aktuelle Herausforderungen; 2 Das FRBR-Modell; 2.1 Grundlagen; 2.2 Entitäten der Gruppe 1; 2.3 Entitäten der Gruppe 2; 2.4 FRBR in der Praxis; 3 RDA: Grundlagen; 3.1 Die Entwicklung von RDA; 3.2 RDA und FRBR; 3.3 Weitere Grundprinzipien von RDA; 3.4 Das RDA Toolkit; Haupteil; 4 Manifestationen und Exemplare; 4.1 Allgemeines046Q ƒu4.2 Grundprinzipien beim Erfassen und Übertragen4.3 Informationsquellen; 4.4 Titel der Manifestation; 4.5 Verantwortlichkeitsangabe; 4.6 Ausgabevermerk; 4.7 Erscheinungsvermerk; 4.8 Gesamttitelangabe; 4.9 Erscheinungsweise; 4.10 Identifikator für die Manifestation; 4.11 Anmerkung zur Manifestation; 4.12 Medientyp und Datenträgertyp; 4.13 Umfang; 4.14 Weitere Merkmale von Datenträgern; 4.15 Bezugs- und Zugangsinformationen; 4.16 Merkmale auf Exemplar-Ebene; 4.17 Begleitmaterial; 4.18 Beschreibung von mehrteiligen Monografien; 4.19 Beschreibung von monografischen Reihen046Q ƒu4.20 Beschreibung von integrierenden Ressourcen5 Werke und Expressionen; 5.1 Allgemeines; 5.2 Titel des Werks; 5.3 Weitere Merkmale von Werken; 5.4 Inhaltstyp; 5.5 Weitere Merkmale von Expressionen; 5.6 Sucheinstiege für Werke und Expressionen; 5.7 Beschreibung des Inhalts; 6 Personen, Familien und Körperschaften; 6.1 Allgemeines; 6.2 Moderne Personennamen; 6.3 Moderne Personen: Merkmale und Sucheinstiege; 6.4 Besondere Personengruppen; 6.5 Familien; 6.6 Namen von Körperschaften; 6.7 Namen von untergeordneten Körperschaften; 6.8 Körperschaften: Merkmale und Sucheinstiege046Q ƒu6.9 Gebietskörperschaften und die ihnen untergeordneten Körperschaften6.10 Konferenzen und ähnliche Veranstaltungen; 7 Geografika; 7.1 Allgemeines; 7.2 Namen von Geografika; 8 Primärbeziehungen; 8.1 Allgemeines; 8.2 Primärbeziehungen und Datenmodelle; 8.3 Kernelemente bei den Primärbeziehungen; 9 Beziehungen zu Personen, Familien und Körperschaften; 9.1 Allgemeines; 9.2 Geistiger Schöpfer: Allgemeines; 9.3 Körperschaft als geistiger Schöpfer; 9.4 Sonstige Person, Familie oder Körperschaft, die mit einem Werk in Verbindung steht; 9.5 Mitwirkender046Q ƒu9.6 Geistige Schöpfer und Mitwirkende: Besondere Fälle9.7 Beziehungen auf der Manifestationsebene; 9.8 Beziehungen auf der Exemplar-Ebene; 10 Beziehungen zwischen Werken, Expressionen, Manifestationen und Exemplaren; 10.1 Allgemeines; 10.2 In Beziehung stehende Werke; 10.3 In Beziehung stehende Expressionen; 10.4 In Beziehung stehende Manifestationen; 10.5 In Beziehung stehende Exemplare; 11 Beziehungen zwischen Personen, Familien und Körperschaften; 11.1 Allgemeines; 11.2 In Beziehung stehende Personen; 11.3 In Beziehung stehende Familien; 11.4 In Beziehung stehende Körperschaften046Q ƒu12 Sacherschließung in RDA047A ƒaZRED: Sacherschließungsdaten maschinell aus paralleler Ausg. übernommen (SWB)047I ƒaKlappentext: Mit der ersten Auflage von Basiswissen RDA lag erstmals ein deutschsprachiges Lehrbuch für das neue, internationale Katalogisierungsregelwerk RDA (Resource Description and Access) vor. Seither wurde nicht nur das Regelwerk selbst an vielen Stellen verändert, sondern auch die deutschsprachigen Anwendungsrichtlinien wurden erheblich erweitert und verfeinert - nicht zuletzt aufgrund der Praxiserfahrungen seit dem Beginn der aktiven Katalogisierung mit RDA. Die überarbeitete und erweiterte Neuauflage präsentiert die Katalogisierungsregeln auf dem aktuellen Stand von 2017; bietet an vielen Stellen zusätzliche Details und Erläuterungen; geht besonders auf typische Fragen und Probleme ein, die beim Katalogisieren mit RDA auftreten; wurde um Beispiele und Erklärungen für verschiedene Themenbereiche erweitert (u.a. Reproduktionen, E-Books, Sprachkurse); behandelt auch das neue theoretische Modell IFLA LRM und die geplante Weiterentwicklung von RDA. Die zweite Auflage von Basiswissen RDA ist ein unverzichtbarer Begleiter für Studierende, Auszubildende und Beschäftigte in Bibliotheken, die mit RDA arbeiten. Das Lehrbuch unterstützt nicht nur beim Anfertigen von korrekten Katalogisaten, sondern auch dabei, das neue Regelwerk zu verstehen.047I ƒaMit der ersten Auflage von Basiswissen RDAlag erstmals ein deutschsprachiges Lehrbuch für das neue, internationale Katalogisierungsregelwerk RDA (Resource Description and Access) vor. Seither wurde nicht nur das Regelwerk selbst an vielen Stellen verändert, sondern auch die deutschsprachigen Anwendungsrichtlinien wurden erheblich erweitert und verfeinert - nicht zuletzt aufgrund der Praxiserfahrungen seit dem Beginn der aktiven Katalogisierung mit RDA.Die überarbeitete und erweiterte Neuauflage präsentiert die Katalogisierungsregeln auf dem aktuellen Stand von 2017 bietet an vielen Stellen zusätzliche Details und Erläuterungen geht besonders auf typische Fragen und Probleme ein, die beim Katalogisieren mit RDA auftreten wurde um Beispiele und Erklärungen für verschiedene Themenbereiche erweitert (u.a. Reproduktionen, E-Books, Sprachkurse) behandelt auch das neue theoretische Modell IFLA LRM und die geplante Weiterentwicklung von RDA Die zweite Auflage von Basiswissen RDAist ein unverzichtbarer Begleiter für Studierende, Auszubildende und Beschäftigte in Bibliotheken, die mit RDA arbeiten. Das Lehrbuch unterstützt nicht nur beim Anfertigen von korrekten Katalogisaten, sondern auch dabei, das neue Regelwerk zu verstehen.  Heidrun Wiesenmüller,Hochschule der Medien, Stuttgart; Silke Horny,Bibliotheksservice-Zentrum Baden Württemberg.201B/01 ƒ005-02-20ƒt21:45:27.000201U/01 ƒ0utf8202D/01 ƒ005-02-20ƒbadd_ebookƒa1999203@/01 ƒ0348465337X208@/01 ƒa11-06-19ƒbzza209O/01 ƒaebook_2019_degruyter_ebsƒx00209O/01 ƒaebmƒx00209R/01 ƒuhttps://doi.org/10.1515/9783110544725237A/01 ƒaFreie Nutzung im Campusnetz der Universitaet und der Hochschulen im Lande Bremen]]></rawrecord>
+  </record>
+</collection>

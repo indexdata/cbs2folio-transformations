@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<collection count="1">
+  <record>
+    <status>upsert</status>
+    <hrid>53882784X</hrid>
+    <metadata>
+      <datafield tag="001@" fulltag="001@">
+        <subfield code="0">65,289</subfield>
+      </datafield>
+      <datafield tag="001A" fulltag="001A">
+        <subfield code="0">2004:07-08-07</subfield>
+      </datafield>
+      <datafield tag="001B" fulltag="001B">
+        <subfield code="0">2004:06-07-19</subfield>
+        <subfield code="t">12:18:21.000</subfield>
+      </datafield>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">2004:16-08-07</subfield>
+      </datafield>
+      <datafield tag="001U" fulltag="001U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="001X" fulltag="001X">
+        <subfield code="0">0</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Abv</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+        <subfield code="b">n</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Band</subfield>
+        <subfield code="b">nc</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">53882784X</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">646573908</subfield>
+        <subfield code="v">2012-12-31</subfield>
+      </datafield>
+      <datafield tag="003S" fulltag="003S">
+        <subfield code="0">491197853</subfield>
+      </datafield>
+      <datafield tag="003T" fulltag="003T">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">723793480</subfield>
+      </datafield>
+      <datafield tag="006G" fulltag="006G">
+        <subfield code="0">985263504</subfield>
+      </datafield>
+      <datafield tag="006Z" fulltag="006Z">
+        <subfield code="0">2381707-0</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">ZDB</subfield>
+        <subfield code="0">2381707-0</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2007</subfield>
+        <subfield code="b">2008</subfield>
+        <subfield code="n">2007-2008</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">106108832</subfield>
+        <subfield code="8">Zeitung ; ID: gnd/4067510-5</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">10466861X</subfield>
+        <subfield code="8">Anzeigenblatt ; ID: gnd/4142761-0</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">10445895X</subfield>
+        <subfield code="8">Lokalpresse ; ID: gnd/4074317-2</subfield>
+      </datafield>
+      <datafield tag="013H" fulltag="013H">
+        <subfield code="a">zt</subfield>
+      </datafield>
+      <datafield tag="018@" fulltag="018@">
+        <subfield code="a">c</subfield>
+      </datafield>
+      <datafield tag="019@" fulltag="019@">
+        <subfield code="a">XA-DE</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">General-Anzeiger</subfield>
+      </datafield>
+      <datafield tag="021C" fulltag="021C">
+        <subfield code="a">Landkreis Börde-Ausgabe</subfield>
+        <subfield code="d">das Amtsblatt für den Landkreis Börde</subfield>
+      </datafield>
+      <datafield tag="021C" fulltag="021C">
+        <subfield code="a">Oschersleben, Wanzleben</subfield>
+      </datafield>
+      <datafield tag="025@" fulltag="025@">
+        <subfield code="a">General-Anzeiger &lt;Magdeburg&gt; / Landkreis Börde-Ausgabe / Oschersleben, Wanzleben</subfield>
+      </datafield>
+      <datafield tag="027A" fulltag="027A">
+        <subfield code="a">Das @Amtsblatt für den Landkreis Börde</subfield>
+      </datafield>
+      <datafield tag="029F" fulltag="029F">
+        <subfield code="9">591856476</subfield>
+        <subfield code="8">Landkreis Börde ; ID: gnd/7642061-9</subfield>
+        <subfield code="B">Herausgebendes Organ</subfield>
+        <subfield code="4">isb</subfield>
+      </datafield>
+      <datafield tag="031@" fulltag="031@">
+        <subfield code="a">2007,27(4.Juli); 2007,27(8.Juli) - 2008,48(26.Nov.)</subfield>
+      </datafield>
+      <datafield tag="031N" fulltag="031N">
+        <subfield code="e">27</subfield>
+        <subfield code="j">2007</subfield>
+        <subfield code="o">48</subfield>
+        <subfield code="k">2008</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Magdeburg</subfield>
+        <subfield code="n">Magdeburger Verl.- und Dr.-Haus</subfield>
+      </datafield>
+      <datafield tag="033H" fulltag="033H">
+        <subfield code="9">104126485</subfield>
+        <subfield code="8">Oschersleben (Bode) ; ID: gnd/4298955-3</subfield>
+      </datafield>
+      <datafield tag="033H" fulltag="033H">
+        <subfield code="9">133209784</subfield>
+        <subfield code="8">Wanzleben ; ID: gnd/4329661-0</subfield>
+      </datafield>
+      <datafield tag="034I" fulltag="034I">
+        <subfield code="a">51 cm</subfield>
+      </datafield>
+      <datafield tag="039D" fulltag="039D">
+        <subfield code="i">Parallelausg.</subfield>
+        <subfield code="9">538825200</subfield>
+        <subfield code="8">General-Anzeiger. Landkreis Börde-Ausgabe. Haldensleben, Wolmirstedt / Landkreis Börde ; ID: gnd/7642061-9. - Magdeburg : Magdeburger Verl.- und Dr.-Haus, 2007-2008 ; ZDB-ID: 2381086-5</subfield>
+        <subfield code="C">ZDB</subfield>
+        <subfield code="6">23810865</subfield>
+      </datafield>
+      <datafield tag="039E" fulltag="039E">
+        <subfield code="b">f</subfield>
+        <subfield code="i">Vorg.</subfield>
+        <subfield code="9">23862983X</subfield>
+        <subfield code="8">General-Anzeiger. Bördekreis ; ZDB-ID: 1408978-6</subfield>
+        <subfield code="C">ZDB</subfield>
+        <subfield code="6">14089786</subfield>
+      </datafield>
+      <datafield tag="039E" fulltag="039E">
+        <subfield code="b">s</subfield>
+        <subfield code="i">Forts.</subfield>
+        <subfield code="9">589227084</subfield>
+        <subfield code="8">General-Anzeiger. Oschersleben-Wanzleben ; ZDB-ID: 2473406-8</subfield>
+        <subfield code="C">ZDB</subfield>
+        <subfield code="6">24734068</subfield>
+      </datafield>
+      <datafield tag="045G" fulltag="045G">
+        <subfield code="a">350</subfield>
+        <subfield code="A">DE-101</subfield>
+      </datafield>
+      <datafield tag="045G" fulltag="045G">
+        <subfield code="a">350</subfield>
+        <subfield code="A">DE-600</subfield>
+      </datafield>
+      <datafield tag="046P" fulltag="046P">
+        <subfield code="a">Doppelte Nummernzählung in der Mittwochs- u. Sonntagsausg.; Periodizität: 2x wöchentl.</subfield>
+      </datafield>
+      <datafield tag="047B" fulltag="047B">
+        <subfield code="a">In Abspr. mit 3 Ausgabensplit nicht möglich! (üa/Z) kein Amtsblatt</subfield>
+      </datafield>
+    </metadata>
+    <rawrecord><![CDATA[001@ ƒ065,289001A ƒ02004:07-08-07001B ƒ02004:06-07-19ƒt12:18:21.000001D ƒ02004:16-08-07001U ƒ0utf8001X ƒ00002@ ƒ0Abv002C ƒaTextƒbtxt002D ƒaohne Hilfsmittel zu benutzenƒbn002E ƒaBandƒbnc003@ ƒ053882784X003O ƒaOCoLCƒ0646573908ƒv2012-12-31003S ƒ0491197853003T ƒaOCoLCƒ0723793480006G ƒ0985263504006Z ƒ02381707-0007G ƒiZDBƒ02381707-0010@ ƒager011@ ƒa2007ƒb2008ƒn2007-2008013D ƒ9106108832ƒ8Zeitung ; ID: gnd/4067510-5013D ƒ910466861Xƒ8Anzeigenblatt ; ID: gnd/4142761-0013D ƒ910445895Xƒ8Lokalpresse ; ID: gnd/4074317-2013H ƒazt018@ ƒac019@ ƒaXA-DE021A ƒaGeneral-Anzeiger021C ƒaLandkreis Börde-Ausgabeƒddas Amtsblatt für den Landkreis Börde021C ƒaOschersleben, Wanzleben025@ ƒaGeneral-Anzeiger <Magdeburg> / Landkreis Börde-Ausgabe / Oschersleben, Wanzleben027A ƒaDas @Amtsblatt für den Landkreis Börde029F ƒ9591856476ƒ8Landkreis Börde ; ID: gnd/7642061-9ƒBHerausgebendes Organƒ4isb031@ ƒa2007,27(4.Juli); 2007,27(8.Juli) - 2008,48(26.Nov.)031N ƒe27ƒj2007ƒo48ƒk2008033A ƒpMagdeburgƒnMagdeburger Verl.- und Dr.-Haus033H ƒ9104126485ƒ8Oschersleben (Bode) ; ID: gnd/4298955-3033H ƒ9133209784ƒ8Wanzleben ; ID: gnd/4329661-0034I ƒa51 cm039D ƒiParallelausg.ƒ9538825200ƒ8General-Anzeiger. Landkreis Börde-Ausgabe. Haldensleben, Wolmirstedt / Landkreis Börde ; ID: gnd/7642061-9. - Magdeburg : Magdeburger Verl.- und Dr.-Haus, 2007-2008 ; ZDB-ID: 2381086-5ƒCZDBƒ623810865039E ƒbfƒiVorg.ƒ923862983Xƒ8General-Anzeiger. Bördekreis ; ZDB-ID: 1408978-6ƒCZDBƒ614089786039E ƒbsƒiForts.ƒ9589227084ƒ8General-Anzeiger. Oschersleben-Wanzleben ; ZDB-ID: 2473406-8ƒCZDBƒ624734068045G ƒa350ƒADE-101045G ƒa350ƒADE-600046P ƒaDoppelte Nummernzählung in der Mittwochs- u. Sonntagsausg.; Periodizität: 2x wöchentl.047B ƒaIn Abspr. mit 3 Ausgabensplit nicht möglich! (üa/Z) kein Amtsblatt]]></rawrecord>
+  </record>
+</collection>

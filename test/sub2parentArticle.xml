@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<collection count="1">
+  <record>
+    <status>upsert</status>
+    <hrid>1725155206</hrid>
+    <metadata>
+      <datafield tag="001@" fulltag="001@">
+        <subfield code="0">21,2403</subfield>
+        <subfield code="a">U</subfield>
+      </datafield>
+      <datafield tag="001A" fulltag="001A">
+        <subfield code="0">0046:20-07-20</subfield>
+      </datafield>
+      <datafield tag="001B" fulltag="001B">
+        <subfield code="0">0046:20-07-20</subfield>
+        <subfield code="t">13:30:14.000</subfield>
+      </datafield>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">0046:20-07-20</subfield>
+      </datafield>
+      <datafield tag="001U" fulltag="001U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="001X" fulltag="001X">
+        <subfield code="0">0</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Osu</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">Computermedien</subfield>
+        <subfield code="b">c</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Online-Ressource</subfield>
+        <subfield code="b">cr</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">1725155206</subfield>
+      </datafield>
+      <datafield tag="004V" fulltag="004V">
+        <subfield code="0">10.26092/elib/162</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">KXP</subfield>
+        <subfield code="0">1725155206</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">eng</subfield>
+      </datafield>
+      <datafield tag="010E" fulltag="010E">
+        <subfield code="e">rda</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2020</subfield>
+        <subfield code="n">12 June 2020</subfield>
+      </datafield>
+      <datafield tag="009P" occurrence="03" fulltag="009P/03">
+        <subfield code="a">http://dx.doi.org/10.26092/elib/162</subfield>
+        <subfield code="x">H</subfield>
+        <subfield code="x">R</subfield>
+        <subfield code="3">Volltext</subfield>
+        <subfield code="4">LF</subfield>
+        <subfield code="5">34</subfield>
+      </datafield>
+      <datafield tag="019@" fulltag="019@">
+        <subfield code="a">XA-DE-HB</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Lubricant-free forming by affecting thermoelectric currents</subfield>
+        <subfield code="h">Philipp Tröber, Markus Welm, Hannes A. Weiss, Peter Demmel, Roland Golle, Wolfram Volk</subfield>
+      </datafield>
+      <datafield tag="028A" fulltag="028A">
+        <subfield code="d">Philipp</subfield>
+        <subfield code="a">Tröber</subfield>
+        <subfield code="B">VerfasserIn</subfield>
+        <subfield code="4">aut</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="d">Markus</subfield>
+        <subfield code="a">Welm</subfield>
+        <subfield code="B">VerfasserIn</subfield>
+        <subfield code="4">aut</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="d">Hannes A.</subfield>
+        <subfield code="a">Weiss</subfield>
+        <subfield code="B">VerfasserIn</subfield>
+        <subfield code="4">aut</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">889097038</subfield>
+        <subfield code="8">Demmel, Peter ; ID: gnd/1133299482</subfield>
+        <subfield code="B">VerfasserIn</subfield>
+        <subfield code="4">aut</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="d">Roland</subfield>
+        <subfield code="a">Golle</subfield>
+        <subfield code="B">VerfasserIn</subfield>
+        <subfield code="4">aut</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">705366022</subfield>
+        <subfield code="8">Volk, Wolfram *1968-* ; ID: gnd/121300994</subfield>
+        <subfield code="B">VerfasserIn</subfield>
+        <subfield code="4">aut</subfield>
+      </datafield>
+      <datafield tag="031A" fulltag="031A">
+        <subfield code="j">2020</subfield>
+        <subfield code="e">6</subfield>
+        <subfield code="h">316-333</subfield>
+        <subfield code="g">18</subfield>
+      </datafield>
+      <datafield tag="034M" fulltag="034M">
+        <subfield code="a">Illustrationen, Diagramme</subfield>
+      </datafield>
+      <datafield tag="039B" fulltag="039B">
+        <subfield code="i">Enthalten in</subfield>
+        <subfield code="9">818932589</subfield>
+        <subfield code="8">Dry metal forming open access journal / Bremer Institut für Angewandte Strahltechnik ; ID: gnd/291617-4. - Bremen, 2015- ; ZDB-ID: 2811852-2</subfield>
+        <subfield code="x">202000000000006684</subfield>
+      </datafield>
+      <item epn="3725973415">
+        <datafield tag="201A" occurrence="01" fulltag="201A/01">
+          <subfield code="0">20-07-20</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">20-07-20</subfield>
+          <subfield code="t">13:30:27.000</subfield>
+        </datafield>
+        <datafield tag="201D" occurrence="01" fulltag="201D/01">
+          <subfield code="0">0046:20-07-20</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="01" fulltag="202D/01">
+          <subfield code="0">20-07-20</subfield>
+          <subfield code="b">6215</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">3725973415</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">20-07-20</subfield>
+          <subfield code="b">xza</subfield>
+        </datafield>
+        <datafield tag="209O" occurrence="01" fulltag="209O/01">
+          <subfield code="a">epflicht_2020</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209R" occurrence="01" fulltag="209R/01">
+          <subfield code="u">http://dx.doi.org/10.26092/elib/162</subfield>
+          <subfield code="4">LF</subfield>
+        </datafield>
+      </item>
+    </metadata>
+    <rawrecord><![CDATA[001@ ƒ021,2403ƒaU001A ƒ00046:20-07-20001B ƒ00046:20-07-20ƒt13:30:14.000001D ƒ00046:20-07-20001U ƒ0utf8001X ƒ00002@ ƒ0Osu002C ƒaTextƒbtxt002D ƒaComputermedienƒbc002E ƒaOnline-Ressourceƒbcr003@ ƒ01725155206004V ƒ010.26092/elib/162007G ƒiKXPƒ01725155206010@ ƒaeng010E ƒerda011@ ƒa2020ƒn12 June 2020009P/03 ƒahttp://dx.doi.org/10.26092/elib/162ƒxHƒxRƒ3Volltextƒ4LFƒ534019@ ƒaXA-DE-HB021A ƒaLubricant-free forming by affecting thermoelectric currentsƒhPhilipp Tröber, Markus Welm, Hannes A. Weiss, Peter Demmel, Roland Golle, Wolfram Volk028A ƒdPhilippƒaTröberƒBVerfasserInƒ4aut028C ƒdMarkusƒaWelmƒBVerfasserInƒ4aut028C ƒdHannes A.ƒaWeissƒBVerfasserInƒ4aut028C ƒ9889097038ƒ8Demmel, Peter ; ID: gnd/1133299482ƒBVerfasserInƒ4aut028C ƒdRolandƒaGolleƒBVerfasserInƒ4aut028C ƒ9705366022ƒ8Volk, Wolfram *1968-* ; ID: gnd/121300994ƒBVerfasserInƒ4aut031A ƒj2020ƒe6ƒh316-333ƒg18034M ƒaIllustrationen, Diagramme039B ƒiEnthalten inƒ9818932589ƒ8Dry metal forming open access journal / Bremer Institut für Angewandte Strahltechnik ; ID: gnd/291617-4. - Bremen, 2015- ; ZDB-ID: 2811852-2ƒx202000000000006684201A/01 ƒ020-07-20201B/01 ƒ020-07-20ƒt13:30:27.000201D/01 ƒ00046:20-07-20201U/01 ƒ0utf8202D/01 ƒ020-07-20ƒb6215ƒa0046203@/01 ƒ03725973415208@/01 ƒa20-07-20ƒbxza209O/01 ƒaepflicht_2020ƒx00209R/01 ƒuhttp://dx.doi.org/10.26092/elib/162ƒ4LF]]></rawrecord>
+  </record>
+</collection>

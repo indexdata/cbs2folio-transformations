@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<collection count="1">
+  <record>
+    <status>upsert</status>
+    <hrid>780021096</hrid>
+    <metadata>
+      <datafield tag="001@" fulltag="001@">
+        <subfield code="0">21-22,26,264,358</subfield>
+      </datafield>
+      <datafield tag="001A" fulltag="001A">
+        <subfield code="0">3264:07-03-14</subfield>
+      </datafield>
+      <datafield tag="001B" fulltag="001B">
+        <subfield code="0">3264:07-03-14</subfield>
+        <subfield code="t">08:33:23.000</subfield>
+      </datafield>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">3264:07-03-14</subfield>
+      </datafield>
+      <datafield tag="001U" fulltag="001U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="001X" fulltag="001X">
+        <subfield code="0">0</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Avu</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+        <subfield code="b">n</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Band</subfield>
+        <subfield code="b">nc</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">780021096</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">9783868972290</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">GBV</subfield>
+        <subfield code="0">780021096</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2014</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">XII, 636 S.</subfield>
+      </datafield>
+      <datafield tag="034M" fulltag="034M">
+        <subfield code="a">Ill., graph. Darst., Kt.</subfield>
+      </datafield>
+      <datafield tag="036F" fulltag="036F">
+        <subfield code="X">2014,0063,00</subfield>
+        <subfield code="9">515078115</subfield>
+        <subfield code="8">Handbuch für Export und Versand ; ZDB-ID: 2244787-8</subfield>
+        <subfield code="l">63.2014</subfield>
+      </datafield>
+      <datafield tag="046W" fulltag="046W">
+        <subfield code="a">IMD-Felder maschinell generiert (GBV)</subfield>
+      </datafield>
+      <datafield tag="047A" fulltag="047A">
+        <subfield code="a">Sortierzählung maschinell geändert (GBV)</subfield>
+      </datafield>
+      <datafield tag="101B" fulltag="101B">
+        <subfield code="0">16-07-14</subfield>
+        <subfield code="t">09:58:04.000</subfield>
+      </datafield>
+      <datafield tag="101U" fulltag="101U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="102D" fulltag="102D">
+        <subfield code="0">16-07-14</subfield>
+        <subfield code="b">6232</subfield>
+        <subfield code="a">0046</subfield>
+      </datafield>
+      <datafield tag="145Z" occurrence="15" fulltag="145Z/15">
+        <subfield code="a">Ud</subfield>
+      </datafield>
+      <item epn="1488839123">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">15-09-20</subfield>
+          <subfield code="t">08:31:48.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="01" fulltag="202D/01">
+          <subfield code="0">15-09-20</subfield>
+          <subfield code="b">6211</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">1488839123</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">16-07-14</subfield>
+          <subfield code="b">zwn</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="f">TB Nautik</subfield>
+          <subfield code="a">Ud Han-2014.1</subfield>
+          <subfield code="d">u</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="01" fulltag="209C/01">
+          <subfield code="a">14:1117</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">46C$003699188</subfield>
+        </datafield>
+      </item>
+      <item epn="1488840237">
+        <datafield tag="201B" occurrence="02" fulltag="201B/02">
+          <subfield code="0">15-09-20</subfield>
+          <subfield code="t">08:31:52.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="02" fulltag="201U/02">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="02" fulltag="202D/02">
+          <subfield code="0">15-09-20</subfield>
+          <subfield code="b">6211</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="02" fulltag="203@/02">
+          <subfield code="0">1488840237</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="02" fulltag="208@/02">
+          <subfield code="a">16-07-14</subfield>
+          <subfield code="b">zwn</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="02" fulltag="209A/02">
+          <subfield code="f">TB Nautik</subfield>
+          <subfield code="a">Ud Han-2014.2</subfield>
+          <subfield code="d">u</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="02" fulltag="209C/02">
+          <subfield code="a">09:5077-2014</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="02" fulltag="209G/02">
+          <subfield code="a">46C$00368900X</subfield>
+        </datafield>
+      </item>
+    </metadata>
+    <rawrecord><![CDATA[001@ ƒ021-22,26,264,358001A ƒ03264:07-03-14001B ƒ03264:07-03-14ƒt08:33:23.000001D ƒ03264:07-03-14001U ƒ0utf8001X ƒ00002@ ƒ0Avu002C ƒaTextƒbtxt002D ƒaohne Hilfsmittel zu benutzenƒbn002E ƒaBandƒbnc003@ ƒ0780021096004A ƒ09783868972290007G ƒiGBVƒ0780021096011@ ƒa2014034D ƒaXII, 636 S.034M ƒaIll., graph. Darst., Kt.036F ƒX2014,0063,00ƒ9515078115ƒ8Handbuch für Export und Versand ; ZDB-ID: 2244787-8ƒl63.2014046W ƒaIMD-Felder maschinell generiert (GBV)047A ƒaSortierzählung maschinell geändert (GBV)101B ƒ016-07-14ƒt09:58:04.000101U ƒ0utf8102D ƒ016-07-14ƒb6232ƒa0046145Z/15 ƒaUd201B/01 ƒ015-09-20ƒt08:31:48.000201U/01 ƒ0utf8202D/01 ƒ015-09-20ƒb6211ƒa0046203@/01 ƒ01488839123208@/01 ƒa16-07-14ƒbzwn209A/01 ƒfTB NautikƒaUd Han-2014.1ƒduƒx00209C/01 ƒa14:1117ƒx00209G/01 ƒa46C$003699188201B/02 ƒ015-09-20ƒt08:31:52.000201U/02 ƒ0utf8202D/02 ƒ015-09-20ƒb6211ƒa0046203@/02 ƒ01488840237208@/02 ƒa16-07-14ƒbzwn209A/02 ƒfTB NautikƒaUd Han-2014.2ƒduƒx00209C/02 ƒa09:5077-2014ƒx00209G/02 ƒa46C$00368900X]]></rawrecord>
+  </record>
+</collection>

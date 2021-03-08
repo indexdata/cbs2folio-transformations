@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<collection count="1">
+  <record>
+    <status>upsert</status>
+    <hrid>244162093</hrid>
+    <metadata>
+      <datafield tag="001@" fulltag="001@">
+        <subfield code="0">11,20-24,30-32,34,39-40,47,55,59-63,65,69-70,72,74,90-92,95,100-101,110,118,130-132,136,138,140,147,150-154,160,164,170-171,176,179,185-186,191,201,213,230-231,250,285,343,381,601</subfield>
+      </datafield>
+      <datafield tag="001A" fulltag="001A">
+        <subfield code="0">2001:27-05-98</subfield>
+      </datafield>
+      <datafield tag="001B" fulltag="001B">
+        <subfield code="0">BSZ:21-11-20</subfield>
+        <subfield code="t">04:48:51.000</subfield>
+      </datafield>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">9999:99-99-99</subfield>
+      </datafield>
+      <datafield tag="001U" fulltag="001U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="001X" fulltag="001X">
+        <subfield code="0">0</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Afu</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+        <subfield code="b">n</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Band</subfield>
+        <subfield code="b">nc</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">244162093</subfield>
+      </datafield>
+      <datafield tag="003D" fulltag="003D">
+        <subfield code="0">090329864</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">231703676</subfield>
+        <subfield code="v">2012-12-31</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">3860252917</subfield>
+      </datafield>
+      <datafield tag="006G" fulltag="006G">
+        <subfield code="0">953675955</subfield>
+      </datafield>
+      <datafield tag="006T" fulltag="006T">
+        <subfield code="0">98,N23,0412</subfield>
+      </datafield>
+      <datafield tag="006U" fulltag="006U">
+        <subfield code="0">98,A46,0831</subfield>
+      </datafield>
+      <datafield tag="006Y" fulltag="006Y">
+        <subfield code="0">fwg10000004</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">DNB</subfield>
+        <subfield code="0">953675955</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">1998</subfield>
+      </datafield>
+      <datafield tag="019@" fulltag="019@">
+        <subfield code="a">XA-DE</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Aa bis De</subfield>
+        <subfield code="h">[Red.: Walter Greulich]</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">518390845</subfield>
+        <subfield code="8">Greulich, Walter ; ID: gnd/132128179</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Heidelberg [u.a.]</subfield>
+        <subfield code="n">Spektrum, Akad. Verl.</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">X, 500 S.</subfield>
+      </datafield>
+      <datafield tag="034M" fulltag="034M">
+        <subfield code="a">Ill., graph. Darst.</subfield>
+      </datafield>
+      <datafield tag="036C" fulltag="036C">
+        <subfield code="a">Lexikon der Physik</subfield>
+        <subfield code="d">in sechs Bänden</subfield>
+        <subfield code="l">Bd. 1</subfield>
+      </datafield>
+      <datafield tag="036D" fulltag="036D">
+        <subfield code="X">1.1998</subfield>
+        <subfield code="9">244162085</subfield>
+        <subfield code="8">Lexikon der Physik</subfield>
+        <subfield code="l">Bd. 1</subfield>
+      </datafield>
+      <datafield tag="037A" fulltag="037A">
+        <subfield code="a">Literaturangaben</subfield>
+      </datafield>
+      <datafield tag="045M" occurrence="10" fulltag="045M/10">
+        <subfield code="i">9</subfield>
+        <subfield code="a">UC 500</subfield>
+      </datafield>
+      <datafield tag="045R" fulltag="045R">
+        <subfield code="9">1271501317</subfield>
+        <subfield code="8">UC 500: Physik / Enzyklopädien und Lehrbücher / Physikalische Enzyklopädien und Lexika</subfield>
+      </datafield>
+      <datafield tag="046W" fulltag="046W">
+        <subfield code="a">IMD-Felder maschinell generiert (GBV)</subfield>
+      </datafield>
+      <item epn="289314240">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">17-07-19</subfield>
+          <subfield code="t">10:43:48.000</subfield>
+        </datafield>
+        <datafield tag="201D" occurrence="01" fulltag="201D/01">
+          <subfield code="0">0046:17-07-19</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="01" fulltag="202D/01">
+          <subfield code="0">17-07-19</subfield>
+          <subfield code="b">6233</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">289314240</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">09-07-98</subfield>
+          <subfield code="b">zba</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="B">46</subfield>
+          <subfield code="f">TB BHV</subfield>
+          <subfield code="a">phy 1/1-1</subfield>
+          <subfield code="d">u</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="01" fulltag="209C/01">
+          <subfield code="a">b 25468-1</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">46A$000259438</subfield>
+        </datafield>
+      </item>
+      <item epn="291481671">
+        <datafield tag="201B" occurrence="02" fulltag="201B/02">
+          <subfield code="0">27-06-03</subfield>
+          <subfield code="t">11:52:11.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="02" fulltag="201U/02">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="02" fulltag="202D/02">
+          <subfield code="0">27-06-03</subfield>
+          <subfield code="b">6280</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="02" fulltag="203@/02">
+          <subfield code="0">291481671</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="02" fulltag="208@/02">
+          <subfield code="a">29-07-98</subfield>
+          <subfield code="b">zza</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="02" fulltag="209A/02">
+          <subfield code="f">BB Nat.-NW1</subfield>
+          <subfield code="a">15h phy 001 a/705-1</subfield>
+          <subfield code="d">d</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="02" fulltag="209C/02">
+          <subfield code="a">vl 7705-1</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209O" occurrence="02" fulltag="209O/02">
+          <subfield code="a">kk</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+      </item>
+      <item epn="619402733">
+        <datafield tag="201B" occurrence="03" fulltag="201B/03">
+          <subfield code="0">22-10-03</subfield>
+          <subfield code="t">13:20:53.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="03" fulltag="201U/03">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="03" fulltag="202D/03">
+          <subfield code="0">22-10-03</subfield>
+          <subfield code="b">6260</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="03" fulltag="203@/03">
+          <subfield code="0">619402733</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="03" fulltag="208@/03">
+          <subfield code="a">09-10-03</subfield>
+          <subfield code="b">znt</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="03" fulltag="209A/03">
+          <subfield code="f">TB Technik</subfield>
+          <subfield code="a">c 4/7-1</subfield>
+          <subfield code="d">i</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="03" fulltag="209C/03">
+          <subfield code="a">96407</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="03" fulltag="209G/03">
+          <subfield code="a">46B$001474685</subfield>
+        </datafield>
+      </item>
+      <item epn="617789894">
+        <datafield tag="201B" occurrence="04" fulltag="201B/04">
+          <subfield code="0">25-02-04</subfield>
+          <subfield code="t">16:59:20.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="04" fulltag="201U/04">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="04" fulltag="202D/04">
+          <subfield code="0">25-02-04</subfield>
+          <subfield code="b">6263</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="04" fulltag="203@/04">
+          <subfield code="0">617789894</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="04" fulltag="208@/04">
+          <subfield code="a">22-10-03</subfield>
+          <subfield code="b">zza</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="04" fulltag="209A/04">
+          <subfield code="a">h phy 001 a/705a-1</subfield>
+          <subfield code="d">d</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="04" fulltag="209C/04">
+          <subfield code="a">vs 4981-1</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+      </item>
+      <item epn="630561052">
+        <datafield tag="201B" occurrence="05" fulltag="201B/05">
+          <subfield code="0">18-07-18</subfield>
+          <subfield code="t">12:52:49.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="05" fulltag="201U/05">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="05" fulltag="202D/05">
+          <subfield code="0">18-07-18</subfield>
+          <subfield code="b">6229</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="05" fulltag="203@/05">
+          <subfield code="0">630561052</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="05" fulltag="208@/05">
+          <subfield code="a">02-12-03</subfield>
+          <subfield code="b">znt</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="05" fulltag="209A/05">
+          <subfield code="f">TB Technik</subfield>
+          <subfield code="a">c 4/7-1a</subfield>
+          <subfield code="d">s</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="05" fulltag="209C/05">
+          <subfield code="a">96764</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="05" fulltag="209G/05">
+          <subfield code="a">46B$001475940</subfield>
+        </datafield>
+        <datafield tag="237A" occurrence="05" fulltag="237A/05">
+          <subfield code="a">Standort: Semesterapparat 54 - Bionik - "Bionik" / Kesel</subfield>
+        </datafield>
+      </item>
+      <item epn="624815188">
+        <datafield tag="201B" occurrence="06" fulltag="201B/06">
+          <subfield code="0">16-11-10</subfield>
+          <subfield code="t">12:11:04.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="06" fulltag="201U/06">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="06" fulltag="202D/06">
+          <subfield code="0">16-11-10</subfield>
+          <subfield code="b">6277</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="06" fulltag="203@/06">
+          <subfield code="0">624815188</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="06" fulltag="208@/06">
+          <subfield code="a">16-11-10</subfield>
+          <subfield code="b">dza</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="06" fulltag="209A/06">
+          <subfield code="f">DL Will </subfield>
+          <subfield code="a">td 5356-1</subfield>
+          <subfield code="d">i</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="06" fulltag="209C/06">
+          <subfield code="a">td 5356-1</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="237A" occurrence="06" fulltag="237A/06">
+          <subfield code="a">Angaben zum Standort siehe: &lt;a href="http://www.suub.uni-bremen.de/semester/dauer.htm" Target="_blank"&gt;Dauerleihgaben&lt;/a&gt;</subfield>
+        </datafield>
+      </item>
+      <item epn="745031544">
+        <datafield tag="201B" occurrence="07" fulltag="201B/07">
+          <subfield code="0">02-09-08</subfield>
+          <subfield code="t">10:48:08.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="07" fulltag="201U/07">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="07" fulltag="202D/07">
+          <subfield code="0">02-09-08</subfield>
+          <subfield code="b">6228</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="07" fulltag="203@/07">
+          <subfield code="0">745031544</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="07" fulltag="208@/07">
+          <subfield code="a">22-11-05</subfield>
+          <subfield code="b">znt</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="07" fulltag="209A/07">
+          <subfield code="f">TB Technik</subfield>
+          <subfield code="a">c 4/7-1b</subfield>
+          <subfield code="d">u</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="07" fulltag="209C/07">
+          <subfield code="a">102060</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="07" fulltag="209G/07">
+          <subfield code="a">46B$001201336</subfield>
+        </datafield>
+      </item>
+    </metadata>
+    <rawrecord><![CDATA[001@ ƒ011,20-24,30-32,34,39-40,47,55,59-63,65,69-70,72,74,90-92,95,100-101,110,118,130-132,136,138,140,147,150-154,160,164,170-171,176,179,185-186,191,201,213,230-231,250,285,343,381,601001A ƒ02001:27-05-98001B ƒ0BSZ:21-11-20ƒt04:48:51.000001D ƒ09999:99-99-99001U ƒ0utf8001X ƒ00002@ ƒ0Afu002C ƒaTextƒbtxt002D ƒaohne Hilfsmittel zu benutzenƒbn002E ƒaBandƒbnc003@ ƒ0244162093003D ƒ0090329864003O ƒaOCoLCƒ0231703676ƒv2012-12-31004A ƒ03860252917006G ƒ0953675955006T ƒ098,N23,0412006U ƒ098,A46,0831006Y ƒ0fwg10000004007G ƒiDNBƒ0953675955010@ ƒager011@ ƒa1998019@ ƒaXA-DE021A ƒaAa bis Deƒh[Red.: Walter Greulich]028C ƒ9518390845ƒ8Greulich, Walter ; ID: gnd/132128179033A ƒpHeidelberg [u.a.]ƒnSpektrum, Akad. Verl.034D ƒaX, 500 S.034M ƒaIll., graph. Darst.036C ƒaLexikon der Physikƒdin sechs BändenƒlBd. 1036D ƒX1.1998ƒ9244162085ƒ8Lexikon der PhysikƒlBd. 1037A ƒaLiteraturangaben045M/10 ƒi9ƒaUC 500045R ƒ91271501317ƒ8UC 500: Physik / Enzyklopädien und Lehrbücher / Physikalische Enzyklopädien und Lexika046W ƒaIMD-Felder maschinell generiert (GBV)201B/01 ƒ017-07-19ƒt10:43:48.000201D/01 ƒ00046:17-07-19201U/01 ƒ0utf8202D/01 ƒ017-07-19ƒb6233ƒa0046203@/01 ƒ0289314240208@/01 ƒa09-07-98ƒbzba209A/01 ƒB46ƒfTB BHVƒaphy 1/1-1ƒduƒx00209C/01 ƒab 25468-1ƒx00209G/01 ƒa46A$000259438201B/02 ƒ027-06-03ƒt11:52:11.000201U/02 ƒ0utf8202D/02 ƒ027-06-03ƒb6280ƒa0046203@/02 ƒ0291481671208@/02 ƒa29-07-98ƒbzza209A/02 ƒfBB Nat.-NW1ƒa15h phy 001 a/705-1ƒddƒx00209C/02 ƒavl 7705-1ƒx00209O/02 ƒakkƒx00201B/03 ƒ022-10-03ƒt13:20:53.000201U/03 ƒ0utf8202D/03 ƒ022-10-03ƒb6260ƒa0046203@/03 ƒ0619402733208@/03 ƒa09-10-03ƒbznt209A/03 ƒfTB Technikƒac 4/7-1ƒdiƒx00209C/03 ƒa96407ƒx00209G/03 ƒa46B$001474685201B/04 ƒ025-02-04ƒt16:59:20.000201U/04 ƒ0utf8202D/04 ƒ025-02-04ƒb6263ƒa0046203@/04 ƒ0617789894208@/04 ƒa22-10-03ƒbzza209A/04 ƒah phy 001 a/705a-1ƒddƒx00209C/04 ƒavs 4981-1ƒx00201B/05 ƒ018-07-18ƒt12:52:49.000201U/05 ƒ0utf8202D/05 ƒ018-07-18ƒb6229ƒa0046203@/05 ƒ0630561052208@/05 ƒa02-12-03ƒbznt209A/05 ƒfTB Technikƒac 4/7-1aƒdsƒx00209C/05 ƒa96764ƒx00209G/05 ƒa46B$001475940237A/05 ƒaStandort: Semesterapparat 54 - Bionik - "Bionik" / Kesel201B/06 ƒ016-11-10ƒt12:11:04.000201U/06 ƒ0utf8202D/06 ƒ016-11-10ƒb6277ƒa0046203@/06 ƒ0624815188208@/06 ƒa16-11-10ƒbdza209A/06 ƒfDL Will ƒatd 5356-1ƒdiƒx00209C/06 ƒatd 5356-1ƒx00237A/06 ƒaAngaben zum Standort siehe: <a href="http://www.suub.uni-bremen.de/semester/dauer.htm" Target="_blank">Dauerleihgaben</a>201B/07 ƒ002-09-08ƒt10:48:08.000201U/07 ƒ0utf8202D/07 ƒ002-09-08ƒb6228ƒa0046203@/07 ƒ0745031544208@/07 ƒa22-11-05ƒbznt209A/07 ƒfTB Technikƒac 4/7-1bƒduƒx00209C/07 ƒa102060ƒx00209G/07 ƒa46B$001201336]]></rawrecord>
+  </record>
+</collection>

@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="utf-8"?>
+<collection count="1">
+  <record>
+    <status>upsert</status>
+    <hrid>887836224</hrid>
+    <metadata>
+      <datafield tag="001@" fulltag="001@">
+        <subfield code="0">11,20-22,24,30,32,34,39-40,50,55,61-63,65,69-70,72-74,77,91-92,95-96,98,100-101,104-105,110,113-114,119-122,130-132,136,140,150,154,160-161,163-165,170,172,175-176,179,181,183,185-186,191,203,207,216,227,235,245,252,274,293-294,352,370,375,380-381,496,597,640,647,665-666,683,696,698,707,721-723,725,729,754,808,810-812,1023,2001-2005,2007-2011,2014-2015,2018,2020-2021,2023-2026,2031,2033-2034,2036-2041,2043-2044,2046,2049,2051,2055,2057,2065,2068,2073-2074,2083,2093,2108,2111,2116,2129,2141-2144,2146-2149,2165,2206,2227,2248,2299,2345,2395,2415,2430,2467,2489,2498,2507-2509,2513,2527,2547</subfield>
+      </datafield>
+      <datafield tag="001A" fulltag="001A">
+        <subfield code="0">0959:22-05-17</subfield>
+      </datafield>
+      <datafield tag="001B" fulltag="001B">
+        <subfield code="0">4023:07-12-20</subfield>
+        <subfield code="t">19:56:36.000</subfield>
+      </datafield>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">0478:02-10-17</subfield>
+      </datafield>
+      <datafield tag="001U" fulltag="001U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="001X" fulltag="001X">
+        <subfield code="0">0</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Aau</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+        <subfield code="b">n</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Band</subfield>
+        <subfield code="b">nc</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">887836224</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">1004224528</subfield>
+      </datafield>
+      <datafield tag="003S" fulltag="003S">
+        <subfield code="0">489359884</subfield>
+      </datafield>
+      <datafield tag="003T" fulltag="003T">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">990783865</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">9783110538687</subfield>
+        <subfield code="f">Broschur : EUR 39.95 (DE), EUR 39.95 (AT)</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">3110538687</subfield>
+      </datafield>
+      <datafield tag="004L" fulltag="004L">
+        <subfield code="0">9783110538687</subfield>
+      </datafield>
+      <datafield tag="004P" fulltag="004P">
+        <subfield code="S">o</subfield>
+        <subfield code="0">9783110544725</subfield>
+        <subfield code="f"> :  (PDF)</subfield>
+      </datafield>
+      <datafield tag="004P" fulltag="004P">
+        <subfield code="S">o</subfield>
+        <subfield code="0">9783110550740</subfield>
+        <subfield code="f"> :  (EPUB)</subfield>
+      </datafield>
+      <datafield tag="006Y" fulltag="006Y">
+        <subfield code="0">statna0026088</subfield>
+      </datafield>
+      <datafield tag="006Y" fulltag="006Y">
+        <subfield code="0">UE-B0009199</subfield>
+      </datafield>
+      <datafield tag="006Y" fulltag="006Y">
+        <subfield code="0">HFMB0016732</subfield>
+      </datafield>
+      <datafield tag="006Y" fulltag="006Y">
+        <subfield code="0">FHVDRa006144</subfield>
+      </datafield>
+      <datafield tag="006Y" fulltag="006Y">
+        <subfield code="0">STAHI670815</subfield>
+      </datafield>
+      <datafield tag="006Y" fulltag="006Y">
+        <subfield code="0">RLS000024906</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">GBV</subfield>
+        <subfield code="0">887836224</subfield>
+      </datafield>
+      <datafield tag="009@" fulltag="009@">
+        <subfield code="b">sf</subfield>
+      </datafield>
+      <datafield tag="009@" fulltag="009@">
+        <subfield code="a">SWB</subfield>
+        <subfield code="b">4170rda</subfield>
+      </datafield>
+      <datafield tag="009@" fulltag="009@">
+        <subfield code="b">Blocktest</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+      </datafield>
+      <datafield tag="010E" fulltag="010E">
+        <subfield code="e">rda</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2017</subfield>
+        <subfield code="n">[2017]</subfield>
+      </datafield>
+      <datafield tag="011F" fulltag="011F">
+        <subfield code="n">© 2017</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">104450460</subfield>
+        <subfield code="8">Einführung ; ID: gnd/4151278-9</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">104270187</subfield>
+        <subfield code="8">Lehrbuch ; ID: gnd/4123623-3</subfield>
+      </datafield>
+      <datafield tag="009Q" fulltag="009Q">
+        <subfield code="a">https://d-nb.info/1135496102/04</subfield>
+        <subfield code="m">B:DE-101</subfield>
+        <subfield code="q">application/pdf</subfield>
+        <subfield code="3">Inhaltsverzeichnis</subfield>
+        <subfield code="5">04</subfield>
+      </datafield>
+      <datafield tag="009P" occurrence="09" fulltag="009P/09">
+        <subfield code="a">http://www.blickinsbuch.de/item/c184c869e8c21fc8a82f828baa123f39</subfield>
+        <subfield code="x">H</subfield>
+        <subfield code="3">Auszug</subfield>
+        <subfield code="5">23</subfield>
+      </datafield>
+      <datafield tag="019@" fulltag="019@">
+        <subfield code="a">XA-DE-BE</subfield>
+        <subfield code="a">XD-US</subfield>
+        <subfield code="a">XA-DE</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Basiswissen RDA</subfield>
+        <subfield code="d">eine Einführung für deutschsprachige Anwender</subfield>
+        <subfield code="h">Heidrun Wiesenmüller und Silke Horny</subfield>
+      </datafield>
+      <datafield tag="028A" fulltag="028A">
+        <subfield code="9">508484510</subfield>
+        <subfield code="8">Wiesenmüller, Heidrun *1968-* ; ID: gnd/122087801</subfield>
+        <subfield code="B">VerfasserIn</subfield>
+        <subfield code="4">aut</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">818747137</subfield>
+        <subfield code="8">Horny, Silke ; ID: gnd/106745389X</subfield>
+        <subfield code="B">VerfasserIn</subfield>
+        <subfield code="4">aut</subfield>
+      </datafield>
+      <datafield tag="032@" fulltag="032@">
+        <subfield code="a">2., überarbeitete und erweiterte Auflage</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Berlin</subfield>
+        <subfield code="p">Boston</subfield>
+        <subfield code="n">De Gruyter, Saur</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">XXII, 326 Seiten</subfield>
+      </datafield>
+      <datafield tag="034I" fulltag="034I">
+        <subfield code="a">28 cm</subfield>
+      </datafield>
+      <datafield tag="034M" fulltag="034M">
+        <subfield code="a">Illustrationen, Diagramme</subfield>
+      </datafield>
+      <datafield tag="036E" fulltag="036E">
+        <subfield code="a">De Gruyter</subfield>
+        <subfield code="e">Studium</subfield>
+      </datafield>
+      <datafield tag="039D" fulltag="039D">
+        <subfield code="i">Erscheint auch als</subfield>
+        <subfield code="n">Online-Ausgabe</subfield>
+        <subfield code="9">889275785</subfield>
+        <subfield code="8">Basiswissen RDA / Wiesenmüller, Heidrun *1968-* ; ID: gnd/122087801. - 2., überarbeitete und erweiterte Auflage. - Berlin : De Gruyter Saur, [2017]</subfield>
+      </datafield>
+      <datafield tag="039D" fulltag="039D">
+        <subfield code="i">Erscheint auch als</subfield>
+        <subfield code="n">Online-Ausgabe (De Gruyter)</subfield>
+        <subfield code="9">889275785</subfield>
+        <subfield code="8">Basiswissen RDA / Wiesenmüller, Heidrun *1968-* ; ID: gnd/122087801. - 2., überarbeitete und erweiterte Auflage. - Berlin : De Gruyter Saur, [2017]</subfield>
+      </datafield>
+      <datafield tag="039D" fulltag="039D">
+        <subfield code="i">Erscheint auch als</subfield>
+        <subfield code="n">Online-Ausgabe (ProQuest)</subfield>
+        <subfield code="9">898360706</subfield>
+        <subfield code="8">Basiswissen RDA / Wiesenmüller, Heidrun *1968-* ; ID: gnd/122087801. - 2., überarbeitete und erweiterte Auflage. - Berlin : De Gruyter Saur, [2017]</subfield>
+      </datafield>
+      <datafield tag="041A" fulltag="041A">
+        <subfield code="9">632475951</subfield>
+        <subfield code="8">Resource description and access ; ID: gnd/7710221-6</subfield>
+      </datafield>
+      <datafield tag="041A" occurrence="09" fulltag="041A/09">
+        <subfield code="A">DE-101</subfield>
+      </datafield>
+      <datafield tag="044A" fulltag="044A">
+        <subfield code="N">630</subfield>
+        <subfield code="t">Resource description &amp; access</subfield>
+        <subfield code="v">Handbooks, manuals, etc</subfield>
+      </datafield>
+      <datafield tag="044A" fulltag="044A">
+        <subfield code="N">650</subfield>
+        <subfield code="s">Descriptive cataloging</subfield>
+        <subfield code="x">Standards</subfield>
+        <subfield code="v">Handbooks, manuals, etc</subfield>
+      </datafield>
+      <datafield tag="044A" fulltag="044A">
+        <subfield code="S">s</subfield>
+        <subfield code="a">Resource description and access</subfield>
+        <subfield code="a">Handbooks, manuals, etc.</subfield>
+      </datafield>
+      <datafield tag="044A" fulltag="044A">
+        <subfield code="S">s</subfield>
+        <subfield code="a">Descriptive cataloging</subfield>
+        <subfield code="a">Rules</subfield>
+        <subfield code="a">Handbooks, manuals, etc.</subfield>
+      </datafield>
+      <datafield tag="044A" fulltag="044A">
+        <subfield code="S">s</subfield>
+        <subfield code="a">Descriptive cataloging</subfield>
+        <subfield code="a">Standards</subfield>
+        <subfield code="a">Handbooks, manuals, etc.</subfield>
+      </datafield>
+      <datafield tag="044A" fulltag="044A">
+        <subfield code="S">s</subfield>
+        <subfield code="a">FRBR (Conceptual model)</subfield>
+      </datafield>
+      <datafield tag="044K" fulltag="044K">
+        <subfield code="9">632475951</subfield>
+        <subfield code="8">Resource description and access ; ID: gnd/7710221-6</subfield>
+      </datafield>
+      <datafield tag="044K" occurrence="01" fulltag="044K/01">
+        <subfield code="9">106377523</subfield>
+        <subfield code="8">Bibliothek ; ID: gnd/4006439-6</subfield>
+      </datafield>
+      <datafield tag="044K" occurrence="01" fulltag="044K/01">
+        <subfield code="9">104588829</subfield>
+        <subfield code="8">Katalogisierung ; ID: gnd/4163418-4</subfield>
+      </datafield>
+      <datafield tag="045A" fulltag="045A">
+        <subfield code="a">Z694.15.R47</subfield>
+      </datafield>
+      <datafield tag="045F" fulltag="045F">
+        <subfield code="e">23</subfield>
+        <subfield code="a">025.3/2</subfield>
+        <subfield code="A">LOC</subfield>
+      </datafield>
+      <datafield tag="045F" fulltag="045F">
+        <subfield code="e">22/ger</subfield>
+        <subfield code="a">025.3</subfield>
+        <subfield code="A">DE-101</subfield>
+      </datafield>
+      <datafield tag="045F" fulltag="045F">
+        <subfield code="e">23sdnb</subfield>
+        <subfield code="a">020</subfield>
+        <subfield code="A">DE-101</subfield>
+      </datafield>
+      <datafield tag="045G" fulltag="045G">
+        <subfield code="a">020</subfield>
+        <subfield code="A">DE-101</subfield>
+      </datafield>
+      <datafield tag="045H" fulltag="045H">
+        <subfield code="e">DDC22ger</subfield>
+        <subfield code="a">025.3</subfield>
+        <subfield code="c">025.3</subfield>
+      </datafield>
+      <datafield tag="045Q" occurrence="01" fulltag="045Q/01">
+        <subfield code="9">106402854</subfield>
+        <subfield code="8">06.70 Katalogisierung Bestandserschließung</subfield>
+      </datafield>
+      <datafield tag="045R" fulltag="045R">
+        <subfield code="9">1270679872</subfield>
+        <subfield code="8">AN 74000: Allgemeines / Buch- und Bibliothekswesen, Informationswissenschaft / Bibliothekswesen / Kataloge, Katalogisierung / Allgemeines</subfield>
+      </datafield>
+      <datafield tag="045R" fulltag="045R">
+        <subfield code="9">1270679937</subfield>
+        <subfield code="8">AN 74400: Allgemeines / Buch- und Bibliothekswesen, Informationswissenschaft / Bibliothekswesen / Kataloge, Katalogisierung / Titelaufnahme, Katalogisierung in Deutschland</subfield>
+      </datafield>
+      <datafield tag="045V" fulltag="045V">
+        <subfield code="i">FID</subfield>
+        <subfield code="a">BBI</subfield>
+        <subfield code="q">DE-23</subfield>
+      </datafield>
+      <datafield tag="046L" fulltag="046L">
+        <subfield code="a">Deutsch</subfield>
+      </datafield>
+      <datafield tag="047A" fulltag="047A">
+        <subfield code="a">AN 74000: KABG (SWB)</subfield>
+      </datafield>
+      <datafield tag="047C" fulltag="047C">
+        <subfield code="a">Resource description access</subfield>
+      </datafield>
+      <datafield tag="101B" fulltag="101B">
+        <subfield code="0">04-10-17</subfield>
+        <subfield code="t">15:06:49.000</subfield>
+      </datafield>
+      <datafield tag="101U" fulltag="101U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="102D" fulltag="102D">
+        <subfield code="0">04-10-17</subfield>
+        <subfield code="b">6260</subfield>
+        <subfield code="a">0046</subfield>
+      </datafield>
+      <datafield tag="145Z" occurrence="30" fulltag="145Z/30">
+        <subfield code="a">bub 591.0</subfield>
+      </datafield>
+      <datafield tag="145Z" occurrence="99" fulltag="145Z/99">
+        <subfield code="a">74</subfield>
+      </datafield>
+      <item epn="1713965569">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">05-04-18</subfield>
+          <subfield code="t">13:08:10.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="01" fulltag="202D/01">
+          <subfield code="0">05-04-18</subfield>
+          <subfield code="b">6244</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">1713965569</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">04-10-17</subfield>
+          <subfield code="b">dza</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="f">Dienstapp.</subfield>
+          <subfield code="a">d21 bub 591.0/710(2)</subfield>
+          <subfield code="d">i</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="01" fulltag="209C/01">
+          <subfield code="a">2017-15242</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">46$0005929695</subfield>
+        </datafield>
+      </item>
+      <item epn="1725567040">
+        <datafield tag="201B" occurrence="02" fulltag="201B/02">
+          <subfield code="0">05-04-18</subfield>
+          <subfield code="t">13:08:10.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="02" fulltag="201U/02">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="02" fulltag="202D/02">
+          <subfield code="0">05-04-18</subfield>
+          <subfield code="b">6244</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="02" fulltag="203@/02">
+          <subfield code="0">1725567040</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="02" fulltag="208@/02">
+          <subfield code="a">28-11-17</subfield>
+          <subfield code="b">dza</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="02" fulltag="209A/02">
+          <subfield code="f">Dienstapp.</subfield>
+          <subfield code="a">d22 bub 591.0/710(2)a</subfield>
+          <subfield code="d">i</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="02" fulltag="209C/02">
+          <subfield code="a">2017-19803</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="02" fulltag="209G/02">
+          <subfield code="a">46$0005930340</subfield>
+        </datafield>
+      </item>
+      <item epn="1756164673">
+        <datafield tag="201B" occurrence="03" fulltag="201B/03">
+          <subfield code="0">05-04-18</subfield>
+          <subfield code="t">13:08:10.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="03" fulltag="201U/03">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="03" fulltag="202D/03">
+          <subfield code="0">05-04-18</subfield>
+          <subfield code="b">6244</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="03" fulltag="203@/03">
+          <subfield code="0">1756164673</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="03" fulltag="208@/03">
+          <subfield code="a">28-02-18</subfield>
+          <subfield code="b">dza</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="03" fulltag="209A/03">
+          <subfield code="f">Dienstapp.</subfield>
+          <subfield code="a">d21 bub 591.0/710(2)b</subfield>
+          <subfield code="d">i</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="03" fulltag="209C/03">
+          <subfield code="a">2018-03594</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="03" fulltag="209G/03">
+          <subfield code="a">46$0006588980</subfield>
+        </datafield>
+      </item>
+      <item epn="1756164681">
+        <datafield tag="201B" occurrence="04" fulltag="201B/04">
+          <subfield code="0">05-04-18</subfield>
+          <subfield code="t">13:12:51.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="04" fulltag="201U/04">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="04" fulltag="202D/04">
+          <subfield code="0">05-04-18</subfield>
+          <subfield code="b">6244</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="04" fulltag="203@/04">
+          <subfield code="0">1756164681</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="04" fulltag="208@/04">
+          <subfield code="a">28-02-18</subfield>
+          <subfield code="b">dza</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="04" fulltag="209A/04">
+          <subfield code="f">Dienstapp.</subfield>
+          <subfield code="a">d21 bub 591.0/710(2)c</subfield>
+          <subfield code="d">i</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="04" fulltag="209C/04">
+          <subfield code="a">2018-03595</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="04" fulltag="209G/04">
+          <subfield code="a">46$0006588999</subfield>
+        </datafield>
+      </item>
+      <item epn="175616469X">
+        <datafield tag="201B" occurrence="05" fulltag="201B/05">
+          <subfield code="0">05-04-18</subfield>
+          <subfield code="t">13:08:10.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="05" fulltag="201U/05">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="05" fulltag="202D/05">
+          <subfield code="0">05-04-18</subfield>
+          <subfield code="b">6244</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="05" fulltag="203@/05">
+          <subfield code="0">175616469X</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="05" fulltag="208@/05">
+          <subfield code="a">28-02-18</subfield>
+          <subfield code="b">dza</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="05" fulltag="209A/05">
+          <subfield code="f">Dienstapp.</subfield>
+          <subfield code="a">d21 bub 591.0/710(2)d</subfield>
+          <subfield code="d">i</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="05" fulltag="209C/05">
+          <subfield code="a">2018-03596</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="05" fulltag="209G/05">
+          <subfield code="a">46$0006589006</subfield>
+        </datafield>
+      </item>
+      <item epn="1756164703">
+        <datafield tag="201B" occurrence="06" fulltag="201B/06">
+          <subfield code="0">05-04-18</subfield>
+          <subfield code="t">13:08:10.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="06" fulltag="201U/06">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="06" fulltag="202D/06">
+          <subfield code="0">05-04-18</subfield>
+          <subfield code="b">6244</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="06" fulltag="203@/06">
+          <subfield code="0">1756164703</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="06" fulltag="208@/06">
+          <subfield code="a">28-02-18</subfield>
+          <subfield code="b">dza</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="06" fulltag="209A/06">
+          <subfield code="f">Dienstapp.</subfield>
+          <subfield code="a">d21 bub 591.0/710(2)e</subfield>
+          <subfield code="d">i</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="06" fulltag="209C/06">
+          <subfield code="a">2018-03597</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="06" fulltag="209G/06">
+          <subfield code="a">46$0006589014</subfield>
+        </datafield>
+      </item>
+      <item epn="1756164711">
+        <datafield tag="201B" occurrence="07" fulltag="201B/07">
+          <subfield code="0">05-04-18</subfield>
+          <subfield code="t">13:08:10.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="07" fulltag="201U/07">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="07" fulltag="202D/07">
+          <subfield code="0">05-04-18</subfield>
+          <subfield code="b">6244</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="07" fulltag="203@/07">
+          <subfield code="0">1756164711</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="07" fulltag="208@/07">
+          <subfield code="a">28-02-18</subfield>
+          <subfield code="b">dza</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="07" fulltag="209A/07">
+          <subfield code="f">Dienstapp.</subfield>
+          <subfield code="a">d21 bub 591.0/710(2)f</subfield>
+          <subfield code="d">i</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="07" fulltag="209C/07">
+          <subfield code="a">2018-03598</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="07" fulltag="209G/07">
+          <subfield code="a">46$0006589022</subfield>
+        </datafield>
+      </item>
+      <item epn="175616472X">
+        <datafield tag="201B" occurrence="08" fulltag="201B/08">
+          <subfield code="0">05-04-18</subfield>
+          <subfield code="t">13:08:10.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="08" fulltag="201U/08">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="08" fulltag="202D/08">
+          <subfield code="0">05-04-18</subfield>
+          <subfield code="b">6244</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="08" fulltag="203@/08">
+          <subfield code="0">175616472X</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="08" fulltag="208@/08">
+          <subfield code="a">28-02-18</subfield>
+          <subfield code="b">dza</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="08" fulltag="209A/08">
+          <subfield code="f">Dienstapp.</subfield>
+          <subfield code="a">d02 jur bub 591.0/710(2)g</subfield>
+          <subfield code="d">i</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="08" fulltag="209C/08">
+          <subfield code="a">2018-03599</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="08" fulltag="209G/08">
+          <subfield code="a">46$0006589030</subfield>
+        </datafield>
+      </item>
+      <item epn="1757599533">
+        <datafield tag="201B" occurrence="09" fulltag="201B/09">
+          <subfield code="0">05-04-18</subfield>
+          <subfield code="t">13:08:10.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="09" fulltag="201U/09">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="09" fulltag="202D/09">
+          <subfield code="0">05-04-18</subfield>
+          <subfield code="b">6244</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="09" fulltag="203@/09">
+          <subfield code="0">1757599533</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="09" fulltag="208@/09">
+          <subfield code="a">09-03-18</subfield>
+          <subfield code="b">dza</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="09" fulltag="209A/09">
+          <subfield code="f">Dienstapp.</subfield>
+          <subfield code="a">d21 bub 591.0/710(2)h</subfield>
+          <subfield code="d">i</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="09" fulltag="209C/09">
+          <subfield code="a">2018-04232</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="09" fulltag="209G/09">
+          <subfield code="a">46$0006688055</subfield>
+        </datafield>
+      </item>
+    </metadata>
+    <rawrecord><![CDATA[001@ ƒ011,20-22,24,30,32,34,39-40,50,55,61-63,65,69-70,72-74,77,91-92,95-96,98,100-101,104-105,110,113-114,119-122,130-132,136,140,150,154,160-161,163-165,170,172,175-176,179,181,183,185-186,191,203,207,216,227,235,245,252,274,293-294,352,370,375,380-381,496,597,640,647,665-666,683,696,698,707,721-723,725,729,754,808,810-812,1023,2001-2005,2007-2011,2014-2015,2018,2020-2021,2023-2026,2031,2033-2034,2036-2041,2043-2044,2046,2049,2051,2055,2057,2065,2068,2073-2074,2083,2093,2108,2111,2116,2129,2141-2144,2146-2149,2165,2206,2227,2248,2299,2345,2395,2415,2430,2467,2489,2498,2507-2509,2513,2527,2547001A ƒ00959:22-05-17001B ƒ04023:07-12-20ƒt19:56:36.000001D ƒ00478:02-10-17001U ƒ0utf8001X ƒ00002@ ƒ0Aau002C ƒaTextƒbtxt002D ƒaohne Hilfsmittel zu benutzenƒbn002E ƒaBandƒbnc003@ ƒ0887836224003O ƒaOCoLCƒ01004224528003S ƒ0489359884003T ƒaOCoLCƒ0990783865004A ƒ09783110538687ƒfBroschur : EUR 39.95 (DE), EUR 39.95 (AT)004A ƒ03110538687004L ƒ09783110538687004P ƒSoƒ09783110544725ƒf :  (PDF)004P ƒSoƒ09783110550740ƒf :  (EPUB)006Y ƒ0statna0026088006Y ƒ0UE-B0009199006Y ƒ0HFMB0016732006Y ƒ0FHVDRa006144006Y ƒ0STAHI670815006Y ƒ0RLS000024906007G ƒiGBVƒ0887836224009@ ƒbsf009@ ƒaSWBƒb4170rda009@ ƒbBlocktest010@ ƒager010E ƒerda011@ ƒa2017ƒn[2017]011F ƒn© 2017013D ƒ9104450460ƒ8Einführung ; ID: gnd/4151278-9013D ƒ9104270187ƒ8Lehrbuch ; ID: gnd/4123623-3009Q ƒahttps://d-nb.info/1135496102/04ƒmB:DE-101ƒqapplication/pdfƒ3Inhaltsverzeichnisƒ504009P/09 ƒahttp://www.blickinsbuch.de/item/c184c869e8c21fc8a82f828baa123f39ƒxHƒ3Auszugƒ523019@ ƒaXA-DE-BEƒaXD-USƒaXA-DE021A ƒaBasiswissen RDAƒdeine Einführung für deutschsprachige AnwenderƒhHeidrun Wiesenmüller und Silke Horny028A ƒ9508484510ƒ8Wiesenmüller, Heidrun *1968-* ; ID: gnd/122087801ƒBVerfasserInƒ4aut028C ƒ9818747137ƒ8Horny, Silke ; ID: gnd/106745389XƒBVerfasserInƒ4aut032@ ƒa2., überarbeitete und erweiterte Auflage033A ƒpBerlinƒpBostonƒnDe Gruyter, Saur034D ƒaXXII, 326 Seiten034I ƒa28 cm034M ƒaIllustrationen, Diagramme036E ƒaDe GruyterƒeStudium039D ƒiErscheint auch alsƒnOnline-Ausgabeƒ9889275785ƒ8Basiswissen RDA / Wiesenmüller, Heidrun *1968-* ; ID: gnd/122087801. - 2., überarbeitete und erweiterte Auflage. - Berlin : De Gruyter Saur, [2017]039D ƒiErscheint auch alsƒnOnline-Ausgabe (De Gruyter)ƒ9889275785ƒ8Basiswissen RDA / Wiesenmüller, Heidrun *1968-* ; ID: gnd/122087801. - 2., überarbeitete und erweiterte Auflage. - Berlin : De Gruyter Saur, [2017]039D ƒiErscheint auch alsƒnOnline-Ausgabe (ProQuest)ƒ9898360706ƒ8Basiswissen RDA / Wiesenmüller, Heidrun *1968-* ; ID: gnd/122087801. - 2., überarbeitete und erweiterte Auflage. - Berlin : De Gruyter Saur, [2017]041A ƒ9632475951ƒ8Resource description and access ; ID: gnd/7710221-6041A/09 ƒADE-101044A ƒN630ƒtResource description & accessƒvHandbooks, manuals, etc044A ƒN650ƒsDescriptive catalogingƒxStandardsƒvHandbooks, manuals, etc044A ƒSsƒaResource description and accessƒaHandbooks, manuals, etc.044A ƒSsƒaDescriptive catalogingƒaRulesƒaHandbooks, manuals, etc.044A ƒSsƒaDescriptive catalogingƒaStandardsƒaHandbooks, manuals, etc.044A ƒSsƒaFRBR (Conceptual model)044K ƒ9632475951ƒ8Resource description and access ; ID: gnd/7710221-6044K/01 ƒ9106377523ƒ8Bibliothek ; ID: gnd/4006439-6044K/01 ƒ9104588829ƒ8Katalogisierung ; ID: gnd/4163418-4045A ƒaZ694.15.R47045F ƒe23ƒa025.3/2ƒALOC045F ƒe22/gerƒa025.3ƒADE-101045F ƒe23sdnbƒa020ƒADE-101045G ƒa020ƒADE-101045H ƒeDDC22gerƒa025.3ƒc025.3045Q/01 ƒ9106402854ƒ806.70$jKatalogisierung$jBestandserschließung045R ƒ91270679872ƒ8AN 74000: Allgemeines / Buch- und Bibliothekswesen, Informationswissenschaft / Bibliothekswesen / Kataloge, Katalogisierung / Allgemeines045R ƒ91270679937ƒ8AN 74400: Allgemeines / Buch- und Bibliothekswesen, Informationswissenschaft / Bibliothekswesen / Kataloge, Katalogisierung / Titelaufnahme, Katalogisierung in Deutschland045V ƒiFIDƒaBBIƒqDE-23046L ƒaDeutsch047A ƒaAN 74000: KABG (SWB)047C ƒaResource description access101B ƒ004-10-17ƒt15:06:49.000101U ƒ0utf8102D ƒ004-10-17ƒb6260ƒa0046145Z/30 ƒabub 591.0145Z/99 ƒa74201B/01 ƒ005-04-18ƒt13:08:10.000201U/01 ƒ0utf8202D/01 ƒ005-04-18ƒb6244ƒa0046203@/01 ƒ01713965569208@/01 ƒa04-10-17ƒbdza209A/01 ƒfDienstapp.ƒad21 bub 591.0/710(2)ƒdiƒx00209C/01 ƒa2017-15242ƒx00209G/01 ƒa46$0005929695201B/02 ƒ005-04-18ƒt13:08:10.000201U/02 ƒ0utf8202D/02 ƒ005-04-18ƒb6244ƒa0046203@/02 ƒ01725567040208@/02 ƒa28-11-17ƒbdza209A/02 ƒfDienstapp.ƒad22 bub 591.0/710(2)aƒdiƒx00209C/02 ƒa2017-19803ƒx00209G/02 ƒa46$0005930340201B/03 ƒ005-04-18ƒt13:08:10.000201U/03 ƒ0utf8202D/03 ƒ005-04-18ƒb6244ƒa0046203@/03 ƒ01756164673208@/03 ƒa28-02-18ƒbdza209A/03 ƒfDienstapp.ƒad21 bub 591.0/710(2)bƒdiƒx00209C/03 ƒa2018-03594ƒx00209G/03 ƒa46$0006588980201B/04 ƒ005-04-18ƒt13:12:51.000201U/04 ƒ0utf8202D/04 ƒ005-04-18ƒb6244ƒa0046203@/04 ƒ01756164681208@/04 ƒa28-02-18ƒbdza209A/04 ƒfDienstapp.ƒad21 bub 591.0/710(2)cƒdiƒx00209C/04 ƒa2018-03595ƒx00209G/04 ƒa46$0006588999201B/05 ƒ005-04-18ƒt13:08:10.000201U/05 ƒ0utf8202D/05 ƒ005-04-18ƒb6244ƒa0046203@/05 ƒ0175616469X208@/05 ƒa28-02-18ƒbdza209A/05 ƒfDienstapp.ƒad21 bub 591.0/710(2)dƒdiƒx00209C/05 ƒa2018-03596ƒx00209G/05 ƒa46$0006589006201B/06 ƒ005-04-18ƒt13:08:10.000201U/06 ƒ0utf8202D/06 ƒ005-04-18ƒb6244ƒa0046203@/06 ƒ01756164703208@/06 ƒa28-02-18ƒbdza209A/06 ƒfDienstapp.ƒad21 bub 591.0/710(2)eƒdiƒx00209C/06 ƒa2018-03597ƒx00209G/06 ƒa46$0006589014201B/07 ƒ005-04-18ƒt13:08:10.000201U/07 ƒ0utf8202D/07 ƒ005-04-18ƒb6244ƒa0046203@/07 ƒ01756164711208@/07 ƒa28-02-18ƒbdza209A/07 ƒfDienstapp.ƒad21 bub 591.0/710(2)fƒdiƒx00209C/07 ƒa2018-03598ƒx00209G/07 ƒa46$0006589022201B/08 ƒ005-04-18ƒt13:08:10.000201U/08 ƒ0utf8202D/08 ƒ005-04-18ƒb6244ƒa0046203@/08 ƒ0175616472X208@/08 ƒa28-02-18ƒbdza209A/08 ƒfDienstapp.ƒad02 jur bub 591.0/710(2)gƒdiƒx00209C/08 ƒa2018-03599ƒx00209G/08 ƒa46$0006589030201B/09 ƒ005-04-18ƒt13:08:10.000201U/09 ƒ0utf8202D/09 ƒ005-04-18ƒb6244ƒa0046203@/09 ƒ01757599533208@/09 ƒa09-03-18ƒbdza209A/09 ƒfDienstapp.ƒad21 bub 591.0/710(2)hƒdiƒx00209C/09 ƒa2018-04232ƒx00209G/09 ƒa46$0006688055]]></rawrecord>
+  </record>
+</collection>
