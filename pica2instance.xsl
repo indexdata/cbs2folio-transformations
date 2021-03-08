@@ -18,6 +18,12 @@
           <delete><hrid><xsl:value-of select="./hrid" /></hrid></delete>
         </xsl:when>
         <xsl:otherwise>
+          <original>            
+            <xsl:copy>
+              <xsl:copy-of select="@*"/>
+              <xsl:copy-of select="*"/>
+            </xsl:copy>
+          </original>
           <xsl:apply-templates select="metadata"/>
         </xsl:otherwise>
       </xsl:choose>
