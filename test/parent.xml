@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<collection count="1">
+  <record>
+    <status>upsert</status>
+    <hrid>818932589</hrid>
+    <metadata>
+      <datafield tag="001@" fulltag="001@">
+        <subfield code="0">20-24,30-31,40,60,62-63,65,69-70,72-73,95,105,110,118,122,131-132,140,151,160-161,164,170,213,230,264,285,293,358,370,602,2014,2403,4012,4037,4112,4125-4126,4249,4305-4307,4313,4322-4325,4335,4338,4367,4700</subfield>
+      </datafield>
+      <datafield tag="001A" fulltag="001A">
+        <subfield code="0">2004:25-02-15</subfield>
+      </datafield>
+      <datafield tag="001B" fulltag="001B">
+        <subfield code="0">2026:02-09-20</subfield>
+        <subfield code="t">11:17:47.000</subfield>
+      </datafield>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">2004:25-02-15</subfield>
+      </datafield>
+      <datafield tag="001U" fulltag="001U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="001X" fulltag="001X">
+        <subfield code="0">0</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Obv</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">Computermedien</subfield>
+        <subfield code="b">c</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Online-Ressource</subfield>
+        <subfield code="b">cr</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">818932589</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">1192405748</subfield>
+      </datafield>
+      <datafield tag="003S" fulltag="003S">
+        <subfield code="0">426747208</subfield>
+      </datafield>
+      <datafield tag="006G" fulltag="006G">
+        <subfield code="0">1067366717</subfield>
+      </datafield>
+      <datafield tag="006Z" fulltag="006Z">
+        <subfield code="0">2811852-2</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">ZDB</subfield>
+        <subfield code="0">2811852-2</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">eng</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2015</subfield>
+        <subfield code="n">2015-</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">10454466X</subfield>
+        <subfield code="8">Zeitschrift ; ID: gnd/4067488-5</subfield>
+      </datafield>
+      <datafield tag="016A" fulltag="016A">
+        <subfield code="0">cr|uuu---uuuuu</subfield>
+      </datafield>
+      <datafield tag="009P" occurrence="03" fulltag="009P/03">
+        <subfield code="a">http://www.drymetalforming.de/index.php/journal-menu/home</subfield>
+        <subfield code="x">H</subfield>
+        <subfield code="4">LF</subfield>
+      </datafield>
+      <datafield tag="009P" occurrence="03" fulltag="009P/03">
+        <subfield code="a">http://www.bibliothek.uni-regensburg.de/ezeit/?2811852</subfield>
+        <subfield code="x">F</subfield>
+      </datafield>
+      <datafield tag="018@" fulltag="018@">
+        <subfield code="a">z</subfield>
+      </datafield>
+      <datafield tag="019@" fulltag="019@">
+        <subfield code="a">XA-DE</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Dry metal forming open access journal</subfield>
+        <subfield code="d">DMFOAJ ; fast manuscript track</subfield>
+        <subfield code="h">BIAS; Bremer Institut für angewandte Strahltechnik</subfield>
+      </datafield>
+      <datafield tag="027A" fulltag="027A">
+        <subfield code="a">DMFOAJ</subfield>
+      </datafield>
+      <datafield tag="029F" fulltag="029F">
+        <subfield code="9">100670660</subfield>
+        <subfield code="8">Bremer Institut für Angewandte Strahltechnik ; ID: gnd/291617-4</subfield>
+        <subfield code="B">Herausgebendes Organ</subfield>
+        <subfield code="4">isb</subfield>
+      </datafield>
+      <datafield tag="031@" fulltag="031@">
+        <subfield code="a">Volume 1 (2015)-</subfield>
+      </datafield>
+      <datafield tag="031N" fulltag="031N">
+        <subfield code="d">1</subfield>
+        <subfield code="j">2015</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Bremen</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">Online-Ressource</subfield>
+      </datafield>
+      <datafield tag="037A" fulltag="037A">
+        <subfield code="a">Gesehen am 21.02.15</subfield>
+      </datafield>
+      <datafield tag="045G" fulltag="045G">
+        <subfield code="a">050</subfield>
+        <subfield code="a">670</subfield>
+        <subfield code="A">DE-600</subfield>
+      </datafield>
+      <datafield tag="045Q" occurrence="01" fulltag="045Q/01">
+        <subfield code="9">106420054</subfield>
+        <subfield code="8">52.76 Umformtechnik</subfield>
+      </datafield>
+      <item epn="3727932872">
+        <datafield tag="201A" occurrence="01" fulltag="201A/01">
+          <subfield code="0">22-07-20</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">22-07-20</subfield>
+          <subfield code="t">13:09:23.000</subfield>
+        </datafield>
+        <datafield tag="201D" occurrence="01" fulltag="201D/01">
+          <subfield code="0">0046:22-07-20</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="202D" occurrence="01" fulltag="202D/01">
+          <subfield code="0">22-07-20</subfield>
+          <subfield code="b">6254</subfield>
+          <subfield code="a">0046</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">3727932872</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">22-07-20</subfield>
+          <subfield code="b">dza</subfield>
+        </datafield>
+        <datafield tag="220B" occurrence="01" fulltag="220B/01">
+          <subfield code="a">****Pflicht zur Fortsetzung****</subfield>
+        </datafield>
+      </item>
+    </metadata>
+    <rawrecord><![CDATA[001@ ƒ020-24,30-31,40,60,62-63,65,69-70,72-73,95,105,110,118,122,131-132,140,151,160-161,164,170,213,230,264,285,293,358,370,602,2014,2403,4012,4037,4112,4125-4126,4249,4305-4307,4313,4322-4325,4335,4338,4367,4700001A ƒ02004:25-02-15001B ƒ02026:02-09-20ƒt11:17:47.000001D ƒ02004:25-02-15001U ƒ0utf8001X ƒ00002@ ƒ0Obv002C ƒaTextƒbtxt002D ƒaComputermedienƒbc002E ƒaOnline-Ressourceƒbcr003@ ƒ0818932589003O ƒaOCoLCƒ01192405748003S ƒ0426747208006G ƒ01067366717006Z ƒ02811852-2007G ƒiZDBƒ02811852-2010@ ƒaeng011@ ƒa2015ƒn2015-013D ƒ910454466Xƒ8Zeitschrift ; ID: gnd/4067488-5016A ƒ0cr|uuu---uuuuu009P/03 ƒahttp://www.drymetalforming.de/index.php/journal-menu/homeƒxHƒ4LF009P/03 ƒahttp://www.bibliothek.uni-regensburg.de/ezeit/?2811852ƒxF018@ ƒaz019@ ƒaXA-DE021A ƒaDry metal forming open access journalƒdDMFOAJ ; fast manuscript trackƒhBIAS; Bremer Institut für angewandte Strahltechnik027A ƒaDMFOAJ029F ƒ9100670660ƒ8Bremer Institut für Angewandte Strahltechnik ; ID: gnd/291617-4ƒBHerausgebendes Organƒ4isb031@ ƒaVolume 1 (2015)-031N ƒd1ƒj2015ƒ6033A ƒpBremen034D ƒaOnline-Ressource037A ƒaGesehen am 21.02.15045G ƒa050ƒa670ƒADE-600045Q/01 ƒ9106420054ƒ852.76$jUmformtechnik201A/01 ƒ022-07-20201B/01 ƒ022-07-20ƒt13:09:23.000201D/01 ƒ00046:22-07-20201U/01 ƒ0utf8202D/01 ƒ022-07-20ƒb6254ƒa0046203@/01 ƒ03727932872208@/01 ƒa22-07-20ƒbdza220B/01 ƒa****Pflicht zur Fortsetzung****]]></rawrecord>
+  </record>
+</collection>

@@ -534,4 +534,5 @@
       </xsl:choose>
     </identifierTypeId>
   </xsl:template>
+  <xsl:template match="original"/>
 </xsl:stylesheet>

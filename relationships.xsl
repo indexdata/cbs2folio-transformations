@@ -7,11 +7,11 @@
 
   <xsl:template match="collection">
     <collection>
-      <xsl:apply-templates />
+        <xsl:apply-templates/>
     </collection>
   </xsl:template>
 
-  <xsl:template match="collection/record">
+  <xsl:template match="record">
     <record>
         <xsl:for-each select="@* | node()">
             <xsl:copy-of select="."/>
@@ -20,7 +20,7 @@
     </record>
   </xsl:template>
 
-  <xsl:template match="original/record/metadata">
+  <xsl:template match="original">
     <instanceRelations>
       <xsl:if test="./datafield[@tag='036D' or @tag='036F' or @tag='039B']">
         <parentInstances>
@@ -37,10 +37,10 @@
                       <xsl:otherwise><xsl:value-of select="./subfield[@code='8']"/></xsl:otherwise>
                     </xsl:choose>
                   </title>
-                  <instanceTypeId><xsl:value-of select="ancestor::*/instanceTypeId"/></instanceTypeId>
-                  <source><xsl:value-of select="ancestor::*/source"/></source>
+                  <instanceTypeId><xsl:value-of select="../../instance/instanceTypeId"/></instanceTypeId>
+                  <source><xsl:value-of select="../../instance/source"/></source>
                 </provisionalInstance>
-                <instancesRelationshipTypeId>
+                <instanceRelationshipTypeId>
                   <xsl:choose>
                     <xsl:when test="./@tag='039B'">6366b68c-aeeb-4dfe-9cd5-92518b2244a0</xsl:when> <!-- article -->
                     <xsl:when test="./@tag='036F'">23651816-7176-406a-8915-52e25b3a9411</xsl:when> <!-- volume -->
@@ -48,7 +48,7 @@
                     <xsl:when test="./@tag='036F'">30773a27-b485-4dab-aeb6-b8c04fa3cb17</xsl:when> <!-- series -->
                     <xsl:otherwise>758f13db-ffb4-440e-bb10-8a364aa6cb4a</xsl:otherwise> <!-- bound with -->
                   </xsl:choose>
-                </instancesRelationshipTypeId>
+                </instanceRelationshipTypeId>
               </i>
             </xsl:for-each>
           </arr>
@@ -57,6 +57,5 @@
 
     </instanceRelations>
   </xsl:template>
-
-    <xsl:template match="text()"/>
+  <xsl:template match="text()"/>
 </xsl:stylesheet>
