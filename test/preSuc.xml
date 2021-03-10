@@ -153,6 +153,14 @@
         <subfield code="C">ZDB</subfield>
         <subfield code="6">14089786</subfield>
       </datafield>
+            <datafield tag="039E" fulltag="039E">
+        <subfield code="b">z</subfield>
+        <subfield code="i">Vorg.</subfield>
+        <subfield code="9">23862983XXXX</subfield>
+        <subfield code="8">General-Anzeiger. Bördekreis ; ZDB-ID: 1408978-6</subfield>
+        <subfield code="C">ZDB</subfield>
+        <subfield code="6">14089786</subfield>
+      </datafield>
       <datafield tag="039E" fulltag="039E">
         <subfield code="b">s</subfield>
         <subfield code="i">Forts.</subfield>
@@ -176,6 +184,51 @@
         <subfield code="a">In Abspr. mit 3 Ausgabensplit nicht möglich! (üa/Z) kein Amtsblatt</subfield>
       </datafield>
     </metadata>
-    <rawrecord><![CDATA[001@ ƒ065,289001A ƒ02004:07-08-07001B ƒ02004:06-07-19ƒt12:18:21.000001D ƒ02004:16-08-07001U ƒ0utf8001X ƒ00002@ ƒ0Abv002C ƒaTextƒbtxt002D ƒaohne Hilfsmittel zu benutzenƒbn002E ƒaBandƒbnc003@ ƒ053882784X003O ƒaOCoLCƒ0646573908ƒv2012-12-31003S ƒ0491197853003T ƒaOCoLCƒ0723793480006G ƒ0985263504006Z ƒ02381707-0007G ƒiZDBƒ02381707-0010@ ƒager011@ ƒa2007ƒb2008ƒn2007-2008013D ƒ9106108832ƒ8Zeitung ; ID: gnd/4067510-5013D ƒ910466861Xƒ8Anzeigenblatt ; ID: gnd/4142761-0013D ƒ910445895Xƒ8Lokalpresse ; ID: gnd/4074317-2013H ƒazt018@ ƒac019@ ƒaXA-DE021A ƒaGeneral-Anzeiger021C ƒaLandkreis Börde-Ausgabeƒddas Amtsblatt für den Landkreis Börde021C ƒaOschersleben, Wanzleben025@ ƒaGeneral-Anzeiger <Magdeburg> / Landkreis Börde-Ausgabe / Oschersleben, Wanzleben027A ƒaDas @Amtsblatt für den Landkreis Börde029F ƒ9591856476ƒ8Landkreis Börde ; ID: gnd/7642061-9ƒBHerausgebendes Organƒ4isb031@ ƒa2007,27(4.Juli); 2007,27(8.Juli) - 2008,48(26.Nov.)031N ƒe27ƒj2007ƒo48ƒk2008033A ƒpMagdeburgƒnMagdeburger Verl.- und Dr.-Haus033H ƒ9104126485ƒ8Oschersleben (Bode) ; ID: gnd/4298955-3033H ƒ9133209784ƒ8Wanzleben ; ID: gnd/4329661-0034I ƒa51 cm039D ƒiParallelausg.ƒ9538825200ƒ8General-Anzeiger. Landkreis Börde-Ausgabe. Haldensleben, Wolmirstedt / Landkreis Börde ; ID: gnd/7642061-9. - Magdeburg : Magdeburger Verl.- und Dr.-Haus, 2007-2008 ; ZDB-ID: 2381086-5ƒCZDBƒ623810865039E ƒbfƒiVorg.ƒ923862983Xƒ8General-Anzeiger. Bördekreis ; ZDB-ID: 1408978-6ƒCZDBƒ614089786039E ƒbsƒiForts.ƒ9589227084ƒ8General-Anzeiger. Oschersleben-Wanzleben ; ZDB-ID: 2473406-8ƒCZDBƒ624734068045G ƒa350ƒADE-101045G ƒa350ƒADE-600046P ƒaDoppelte Nummernzählung in der Mittwochs- u. Sonntagsausg.; Periodizität: 2x wöchentl.047B ƒaIn Abspr. mit 3 Ausgabensplit nicht möglich! (üa/Z) kein Amtsblatt]]></rawrecord>
+    <rawrecord><![CDATA[001@ ƒ065,289
+001A ƒ02004:07-08-07
+001B ƒ02004:06-07-19ƒt12:18:21.000
+001D ƒ02004:16-08-07
+001U ƒ0utf8
+001X ƒ00
+002@ ƒ0Abv
+002C ƒaTextƒbtxt
+002D ƒaohne Hilfsmittel zu benutzenƒbn
+002E ƒaBandƒbnc
+003@ ƒ053882784X
+003O ƒaOCoLCƒ0646573908ƒv2012-12-31
+003S ƒ0491197853
+003T ƒaOCoLCƒ0723793480
+006G ƒ0985263504
+006Z ƒ02381707-0
+007G ƒiZDBƒ02381707-0
+010@ ƒager
+011@ ƒa2007ƒb2008ƒn2007-2008
+013D ƒ9106108832ƒ8Zeitung ; ID: gnd/4067510-5
+013D ƒ910466861Xƒ8Anzeigenblatt ; ID: gnd/4142761-0
+013D ƒ910445895Xƒ8Lokalpresse ; ID: gnd/4074317-2
+013H ƒazt
+018@ ƒac
+019@ ƒaXA-DE
+021A ƒaGeneral-Anzeiger
+021C ƒaLandkreis Börde-Ausgabeƒddas Amtsblatt für den Landkreis Börde
+021C ƒaOschersleben, Wanzleben
+025@ ƒaGeneral-Anzeiger <Magdeburg> / Landkreis Börde-Ausgabe / Oschersleben, Wanzleben
+027A ƒaDas @Amtsblatt für den Landkreis Börde
+029F ƒ9591856476ƒ8Landkreis Börde ; ID: gnd/7642061-9ƒBHerausgebendes Organƒ4isb
+031@ ƒa2007,27(4.Juli); 2007,27(8.Juli) - 2008,48(26.Nov.)
+031N ƒe27ƒj2007ƒo48ƒk2008
+033A ƒpMagdeburgƒnMagdeburger Verl.- und Dr.-Haus
+033H ƒ9104126485ƒ8Oschersleben (Bode) ; ID: gnd/4298955-3
+033H ƒ9133209784ƒ8Wanzleben ; ID: gnd/4329661-0
+034I ƒa51 cm
+039D ƒiParallelausg.ƒ9538825200ƒ8General-Anzeiger. Landkreis Börde-Ausgabe. Haldensleben, Wolmirstedt / Landkreis Börde ; ID: gnd/7642061-9. - Magdeburg : Magdeburger Verl.- und Dr.-Haus, 2007-2008 ; ZDB-ID: 2381086-5ƒCZDBƒ623810865
+039E ƒbfƒiVorg.ƒ923862983Xƒ8General-Anzeiger. Bördekreis ; ZDB-ID: 1408978-6ƒCZDBƒ614089786
+039E ƒbsƒiForts.ƒ9589227084ƒ8General-Anzeiger. Oschersleben-Wanzleben ; ZDB-ID: 2473406-8ƒCZDBƒ624734068
+045G ƒa350ƒADE-101
+045G ƒa350ƒADE-600
+046P ƒaDoppelte Nummernzählung in der Mittwochs- u. Sonntagsausg.; Periodizität: 2x wöchentl.
+047B ƒaIn Abspr. mit 3 Ausgabensplit nicht möglich! (üa/Z) kein Amtsblatt
+
+]]></rawrecord>
   </record>
 </collection>
