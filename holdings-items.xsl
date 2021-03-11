@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+  <xsl:strip-space elements="*"/>
   <xsl:output indent="yes" method="xml" version="1.0" encoding="UTF-8"/>
 
   <xsl:template match="collection">
@@ -21,7 +22,9 @@
     <xsl:if test="item/datafield[@tag='203@']/subfield[@code='0'] | datafield[@tag='109R']">
       <holdingsRecords>
         <arr>
-          <xsl:apply-templates select="item"/>
+          <xsl:apply-templates select="item">
+              <xsl:sort select="concat(datafield[@tag='209A']/subfield[@code='f'],datafield[@tag='209A']/subfield[@code='a'])"/>
+          </xsl:apply-templates>
           <!-- Electronic access -->
           <xsl:if test="datafield[@tag='109R']/subfield[@code='u']">
             <i>
@@ -55,11 +58,19 @@
         <xsl:value-of select="$hhrid"/>
       </hrid>
       <xsl:variable name="lcode" select="datafield[@tag='209A']/subfield[@code='f']"/>
+      <xsl:variable name="callno" select="datafield[@tag='209A']/subfield[@code='a']"/>
+      <xsl:variable name="loc-key" select="concat($lcode, $callno)"/>
+      <xsl:variable name="pre-pos" select="position() - 1"/>
+      <xsl:variable name="pre-key" select="current()[$pre-pos]/datafield[@tag='209A']/subfield[@code='f']" />
+      <locationKey>
+        <key><xsl:value-of select="$loc-key"/></key>
+        <pos><xsl:value-of select="$pre-key"/></pos>
+      </locationKey>
       <permanentLocationId>
         <xsl:value-of select="$lcode"/>
       </permanentLocationId>
       <callNumber>
-        <xsl:value-of select="datafield[@tag='209A']/subfield[@code='a']"/>
+        <xsl:value-of select="$callno"/>
       </callNumber>
       <items>
         <arr>
@@ -83,6 +94,7 @@
       </items>
     </i>
   </xsl:template>
+
   <xsl:template match="item" mode="make-item">
     <xsl:param name="hhrid"/>
     <xsl:param name="bcode" select="datafield[@tag='209G']/subfield[@code='a']"/>
