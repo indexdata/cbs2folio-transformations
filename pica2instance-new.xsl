@@ -820,7 +820,7 @@
     <!-- Electronic access -->
     <electronicAccess>
       <arr>
-        <xsl:for-each select="datafield[@tag='009P' or @tag='017C']">
+        <xsl:for-each select="datafield[@tag='009P' or @tag='017C' or @tag='017M' or @tag='017R']">
           <xsl:if test="./@tag='009P' and ./subfield[@code='a']">
             <i>
               <uri>
@@ -848,6 +848,36 @@
                 <xsl:value-of select="./subfield[@code='4']"/>
               </publicNote>
               <relationshipId>f5d0068e-6272-458e-8a81-b85e7b9a14aa</relationshipId>
+            </i>
+          </xsl:if>
+		  <xsl:if test="./@tag='017R' and ./subfield[@code='u']">
+            <i>
+              <uri>
+                <xsl:value-of select="./subfield[@code='u']"/>
+              </uri>
+              <materialsSpecification>
+                <xsl:value-of select="./subfield[@code='g']"/>
+              </materialsSpecification>
+			  <linkText>
+				<xsl:value-of select="./subfield[@code='a']"/>
+			  </linkText>
+              <relationshipId>0ce08069-8f5f-411b-b622-46674aa66a45</relationshipId>
+			  <!-- Access Status -->
+            </i>
+          </xsl:if>
+		  <xsl:if test="./@tag='017M' and ./subfield[@code='u']">
+            <i>
+              <uri>
+                <xsl:value-of select="./subfield[@code='u']"/>
+              </uri>
+              <materialsSpecification>
+                <xsl:value-of select="./subfield[@code='g']"/>
+              </materialsSpecification>
+			  <linkText>
+				<xsl:value-of select="./subfield[@code='a']"/>
+			  </linkText>
+              <relationshipId>f781cb3d-af16-40f6-9d02-c24204ac6fdc</relationshipId>
+			  <!-- Rechteinformation -->
             </i>
           </xsl:if>
         </xsl:for-each>
