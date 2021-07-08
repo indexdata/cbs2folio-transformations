@@ -1014,6 +1014,18 @@
         </arr>
       </languages>
     </xsl:if>
+	<!-- series -->
+    <xsl:if test="datafield[@tag='036E']/subfield[@code='a']">
+      <series>
+        <arr>
+          <xsl:for-each select="datafield[@tag='036E']/subfield[@code='a']">
+            <i>
+              <xsl:value-of select="."/>
+            </i>
+          </xsl:for-each>
+        </arr>
+      </series>
+    </xsl:if>
     <!-- physicalDescriptions -->
     <xsl:if test="datafield[@tag='034D' or @tag='034M' or @tag='034I' or @tag='034K']">
       <xsl:variable name="phd">
