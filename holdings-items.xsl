@@ -61,6 +61,14 @@
       <callNumber>
         <xsl:value-of select="datafield[@tag='209A']/subfield[@code='a']"/>
       </callNumber>
+	  <holdingsTypeId>
+	    <xsl:variable name="holType" select="../datafield[@tag='002@']/subfield[@code='0']"/>
+		<xsl:variable name="holType1" select="substring($holType, 1, 1)"/>
+		<xsl:choose>
+		  <xsl:when test="$holType1 = 'O'">electronic</xsl:when>
+		  <xsl:otherwise>physical</xsl:otherwise>
+		</xsl:choose>
+	  </holdingsTypeId>
       <items>
         <arr>
           <xsl:choose>

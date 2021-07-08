@@ -133,7 +133,7 @@
       </xsl:choose>
     </permanentLoanTypeId>
   </xsl:template>
-
+  
   <!-- Map material types -->
   <xsl:template match="materialTypeId">
     <materialTypeId>
@@ -533,6 +533,16 @@
         <xsl:otherwise>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</xsl:otherwise>
       </xsl:choose>
     </identifierTypeId>
+  </xsl:template>
+  
+  <!-- Map holdings types -->
+  <xsl:template match="holdingsTypeId">
+    <holdingsTypeId>
+      <xsl:choose>
+        <xsl:when test=".='electronic'">996f93e2-5b5e-4cf2-9168-33ced1f95eed</xsl:when>
+        <xsl:when test=".='physical'">0c422f92-0f4d-4d32-8cbe-390ebc33a3e5</xsl:when>
+      </xsl:choose>
+    </holdingsTypeId>
   </xsl:template>
   <xsl:template match="original"/>
 </xsl:stylesheet>
