@@ -491,6 +491,7 @@
         <xsl:when test=".='Publisher or distributor number'">b5d8cdc4-9441-487c-90cf-0c7ec97728eb</xsl:when>
         <xsl:when test=".='BNB'">3187432f-9434-40a8-8782-35a111a1491e</xsl:when>
         <xsl:when test=".='GBV Number'">e133d384-332d-11ea-a8a4-ff796e46a18d</xsl:when>
+		<xsl:when test=".='PPN'">1d5cb40c-508f-451b-8952-87c92be4255a</xsl:when>
         <xsl:when test=".='PPN SWB'">6048004e-75bc-11ea-8ddd-5a780fe0d4e4</xsl:when>
 		<xsl:when test=".='DNB-Nummer'">63fd8fa0-a939-4d1e-869c-6dcc24c9d507</xsl:when>
 		<xsl:when test=".='Autorisierte ISSN'">c90b1f32-0ad9-46fc-9bf6-98c79a966844</xsl:when>

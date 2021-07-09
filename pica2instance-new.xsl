@@ -253,7 +253,7 @@
     <!-- Identifiers -->
     <identifiers>
       <arr>
-        <xsl:for-each select="datafield[@tag='003S' or @tag='004A' or @tag='004P' or @tag='004J' or @tag='004K' or @tag='004D'          or @tag='005A' or @tag='005I' or @tag='005P' or @tag='005D' or @tag='004F' or @tag='004M' or @tag='004I' or @tag='006A'         or @tag='006B' or @tag='006G' or @tag='006T' or @tag='006U' or @tag='006Z' or @tag='006S' or @tag='006L' or @tag='006'         or @tag='006V' or @tag='006W' or @tag='006M' or @tag='004V' or @tag='004R' or @tag='004W' or @tag='004L' or @tag='004C'         or @tag='004U' or @tag='003O' or @tag='003T' or @tag='003D' or @tag='007C' or @tag='007D' or @tag='007G' or @tag='017K'         or @tag='017L']">
+        <xsl:for-each select="datafield[@tag='003S' or @tag='003@' or @tag='004A' or @tag='004P' or @tag='004J' or @tag='004K' or @tag='004D'          or @tag='005A' or @tag='005I' or @tag='005P' or @tag='005D' or @tag='004F' or @tag='004M' or @tag='004I' or @tag='006A'         or @tag='006B' or @tag='006G' or @tag='006T' or @tag='006U' or @tag='006Z' or @tag='006S' or @tag='006L' or @tag='006'         or @tag='006V' or @tag='006W' or @tag='006M' or @tag='004V' or @tag='004R' or @tag='004W' or @tag='004L' or @tag='004C'         or @tag='004U' or @tag='003O' or @tag='003T' or @tag='003D' or @tag='007C' or @tag='007D' or @tag='007G' or @tag='017K'         or @tag='017L']">
           <xsl:choose>
             <xsl:when test="./@tag='004A' or @tag='004D' or @tag='004P' or @tag='005A' or @tag='005P' or @tag='005D' or @tag='004F' or @tag='004M' or @tag='004I'">
               <xsl:variable name="id-value">
@@ -360,6 +360,7 @@
                 <xsl:choose>
                   <xsl:when test="./@tag='003O'">OCLC</xsl:when>
                   <xsl:when test="./@tag='003S'">PPN SWB</xsl:when>
+				  <xsl:when test="./@tag='003@'">PPN</xsl:when>
                   <xsl:when test="./@tag='004J'">ISBN der Reproduktion</xsl:when>
                   <xsl:when test="./@tag='004K'">Formal falsche ISBN der Reproduktion</xsl:when>
                   <xsl:when test="./@tag='005I'">Autorisierte ISSN</xsl:when>
