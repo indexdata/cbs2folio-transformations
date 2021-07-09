@@ -638,6 +638,11 @@
                       <xsl:value-of select="./subfield[@code='4']"/>
                     </contributorTypeId>
                   </xsl:if>
+				  <xsl:if test="./subfield[@code='B']">
+                    <contributorTypeText>
+                      <xsl:value-of select="./subfield[@code='B']"/>
+                    </contributorTypeText>
+                  </xsl:if>
                 </i>
               </xsl:if>
             </xsl:if>
