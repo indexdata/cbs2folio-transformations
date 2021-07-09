@@ -69,6 +69,19 @@
 		  <xsl:otherwise>physical</xsl:otherwise>
 		</xsl:choose>
 	  </holdingsTypeId>
+      <holdingsStatements>
+	    <xsl:if test="datafield[@tag='231B']/subfield[@code='a']">
+		  <arr>
+		    <xsl:for-each select="datafield[@tag='231B']/subfield[@code='a']">
+			  <i>
+			    <statement>
+				  <xsl:value-of select="."/>
+				</statement>
+              </i>
+			</xsl:for-each>
+		  </arr>
+	    </xsl:if>
+      </holdingsStatements>
       <items>
         <arr>
           <xsl:choose>
