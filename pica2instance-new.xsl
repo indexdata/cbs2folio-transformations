@@ -796,12 +796,30 @@
       </arr>
     </publication>
     <!-- Publication frequency -->
-    <xsl:if test="datafield[@tag='018@']">
+	<xsl:if test="datafield[@tag='018@']">
       <publicationFrequency>
         <arr>
-          <xsl:for-each select="datafield[@tag='018@']/subfield[@code='a']">
+          <xsl:for-each select="datafield[@tag='018@']">
             <i>
-              <xsl:value-of select="."/>
+              <xsl:choose>
+                <xsl:when test="./subfield[@code='a']='d'">täglich</xsl:when>
+				<xsl:when test="./subfield[@code='a']='t'">drei- bis fünfmal wöchentlich</xsl:when>
+				<xsl:when test="./subfield[@code='a']='c'">zweimal wöchentlich</xsl:when>
+				<xsl:when test="./subfield[@code='a']='w'">wöchentlich</xsl:when>
+				<xsl:when test="./subfield[@code='a']='j'">dreimal im Monat</xsl:when>
+				<xsl:when test="./subfield[@code='a']='e'">vierzehntägig</xsl:when>
+				<xsl:when test="./subfield[@code='a']='s'">halbmonatlich</xsl:when>
+				<xsl:when test="./subfield[@code='a']='m'">monatlich</xsl:when>
+				<xsl:when test="./subfield[@code='a']='b'">alle zwei Monate</xsl:when>
+				<xsl:when test="./subfield[@code='a']='q'">vierteljährlich</xsl:when>
+				<xsl:when test="./subfield[@code='a']='i'">dreimal im Jahr</xsl:when>
+				<xsl:when test="./subfield[@code='a']='f'">halbjährlich</xsl:when>
+				<xsl:when test="./subfield[@code='a']='a'">jährlich</xsl:when>
+				<xsl:when test="./subfield[@code='a']='g'">alle zwei Jahre</xsl:when>
+				<xsl:when test="./subfield[@code='a']='h'">alle drei Jahre</xsl:when>
+				<xsl:when test="./subfield[@code='a']='z'">unregelmäßig</xsl:when>
+				<xsl:otherwise/>
+              </xsl:choose>
             </i>
           </xsl:for-each>
         </arr>
