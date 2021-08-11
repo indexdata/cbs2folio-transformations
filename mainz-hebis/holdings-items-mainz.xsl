@@ -126,9 +126,10 @@
 		</xsl:choose>
 	  </holdingsTypeId>
       <holdingsStatements>
-	    <xsl:if test="datafield[@tag='231B']/subfield[@code='a']">
+<!-- Hebis 209E$a -->
+      <xsl:if test="datafield[(@tag='209E') and (subfield[@code='x']='02')]/subfield[@code='a']">
 		  <arr>
-		    <xsl:for-each select="datafield[@tag='231B']/subfield[@code='a']">
+		    <xsl:for-each select="datafield[(@tag='209E') and (subfield[@code='x']='02')]/subfield[@code='a']">
 			  <i>
 			    <statement>
 				  <xsl:value-of select="."/>
