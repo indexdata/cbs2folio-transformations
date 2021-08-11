@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output indent="yes" method="xml" version="1.0" encoding="UTF-8"/>
+<!-- Mainz/Hebis-Anpassungen 10.8.21 -->
 
   <xsl:template match="collection">
     <collection>
@@ -54,7 +55,62 @@
       <hrid>
         <xsl:value-of select="$hhrid"/>
       </hrid>
-      <xsl:variable name="lcode" select="datafield[@tag='209A']/subfield[@code='f']"/>
+<!-- Mainz/Hebis 209A$f/209G$a -->
+      <xsl:variable name="lcode">
+        <xsl:choose>
+          <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='000'">
+          <xsl:choose>
+            <xsl:when test="datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']='FREIHAND'">FREI</xsl:when>
+            <xsl:when test="datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']='LBS'">LBS</xsl:when>
+            <xsl:when test="datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']='LESESAAL'">LS</xsl:when>
+            <xsl:when test="contains(datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a'],'RARA')">RARA</xsl:when>
+            <xsl:otherwise>MAG</xsl:otherwise>
+          </xsl:choose>
+          </xsl:when>
+          <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='005'">
+            <xsl:choose>
+              <xsl:when test="contains(datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a'],'LESESAAL')">UMLS</xsl:when>
+              <xsl:when test="contains(datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a'],'LBS')">UMLBS</xsl:when>
+              <xsl:otherwise>UMFH</xsl:otherwise>
+            </xsl:choose>
+          </xsl:when>
+          <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='006'">
+            <xsl:choose>
+              <xsl:when test="contains(datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a'],'LEHRBUCH')">MINLBS</xsl:when>
+              <xsl:when test="contains(datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a'],'Handapparat')">MINFAK</xsl:when>
+              <xsl:otherwise>MIN</xsl:otherwise>
+            </xsl:choose>
+          </xsl:when>
+          <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='016'">
+            <xsl:choose>
+              <xsl:when test="contains(datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a'],'Rara')">THRARA</xsl:when>
+              <xsl:when test="contains(datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a'],'LEHRBUCH')">THLBS</xsl:when>
+              <xsl:otherwise>TH</xsl:otherwise>
+            </xsl:choose>
+          </xsl:when>
+          <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='018'">
+            <xsl:choose>
+              <xsl:when test="contains(datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a'],'LEHRBUCH')">RWLBS</xsl:when>
+              <xsl:otherwise>RW</xsl:otherwise>
+            </xsl:choose>
+          </xsl:when>
+          <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='019'">
+            <xsl:choose>
+              <xsl:when test="contains(datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a'],'Handapparat')">GHFAK</xsl:when> <!-- Es gibt auch starts-with(...,...) -->
+              <xsl:when test="contains(datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a'],'Lehrbuch')">GHLBS</xsl:when>
+              <xsl:when test="contains(datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a'],'Lesesaal')">GHLS</xsl:when>
+              <xsl:when test="contains(datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a'],'Magazin')">GHMAG</xsl:when>
+              <xsl:when test="(datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']='CELA')
+                or (datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']='CELTRA')
+                or (datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']='SSC')">GHSEP</xsl:when>
+              <xsl:otherwise>GHFREI</xsl:otherwise>
+            </xsl:choose>
+          </xsl:when>
+          <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='020'">RWFAK</xsl:when>
+          <xsl:otherwise>UNKNOWN</xsl:otherwise>
+        </xsl:choose>
+       </xsl:variable>
+      <xsl:message>Debug: Location "<xsl:value-of select="$lcode"/>"</xsl:message>
       <permanentLocationId>
         <xsl:value-of select="$lcode"/>
       </permanentLocationId>
@@ -84,13 +140,16 @@
       </holdingsStatements>
       <items>
         <arr>
+<!-- Hebis 209G$a -->
+          <xsl:message>Debug: 209G - Hebis</xsl:message>
           <xsl:choose>
-            <xsl:when test="datafield[@tag='209G']/subfield[@code='a'][2]">
-              <xsl:for-each select="datafield[@tag='209G']/subfield[@code='a']">
+            <xsl:when test="(datafield[(@tag='209G') and (subfield[@code='x']='00')]/subfield[@code='a'])[2]">
+              <xsl:for-each select="datafield[(@tag='209G') and (subfield[@code='x']='00')]/subfield[@code='a']">
+                <xsl:message>Debug: <xsl:value-of select="."/></xsl:message>
                 <xsl:apply-templates select="../.." mode="make-item">
-                  <xsl:with-param name="hhrid" select="concat($hhrid, '-', .)"/>
-                  <xsl:with-param name="bcode" select="."/>
-                  <xsl:with-param name="copy" select="./following-sibling::subfield[@code='c'][1]"/>
+                  <xsl:with-param name="hhrid" select="concat($hhrid, '-', substring-before(.,' '))"/>
+                  <xsl:with-param name="bcode" select="substring-before(.,' ')"/>
+                  <xsl:with-param name="copy" select="substring-before(substring-after(.,'('),')')"/>
                 </xsl:apply-templates>
               </xsl:for-each>
             </xsl:when>
@@ -99,15 +158,18 @@
                 <xsl:with-param name="hhrid" select="$hhrid"/>
               </xsl:apply-templates>
             </xsl:otherwise>
-          </xsl:choose>
+          </xsl:choose>          
         </arr>
       </items>
     </i>
   </xsl:template>
+ 
   <xsl:template match="item" mode="make-item">
     <xsl:param name="hhrid"/>
-    <xsl:param name="bcode" select="datafield[@tag='209G']/subfield[@code='a']"/>
-    <xsl:param name="copy" select="datafield[@tag='209G']/subfield[@code='c']"/>
+<!-- Hebis 209G$a -->   
+    <xsl:param name="bcode" select="substring-before(concat(datafield[(@tag='209G') and (subfield[@code='x']='00')]/subfield[@code='a'],' '),' ')"/>
+    <xsl:param name="copy" select="''"/> <!-- oder kann hier eine copy-Information kommen? -->
+    <xsl:message>Debug: <xsl:value-of select="concat($hhrid,'#',$bcode,'#',$copy)"/></xsl:message>
     <i>
       <hrid>
         <xsl:value-of select="$hhrid"/>
@@ -157,20 +219,20 @@
       </materialTypeId>
       <permanentLoanTypeId>
         <xsl:variable name="loantype" select="datafield[@tag='209A']/subfield[@code='d']"/>
-        <xsl:choose>
-          <xsl:when test="$loantype='u'">ausleihbar/Fernleihe</xsl:when>
-          <xsl:when test="$loantype='b'">verkürzt ausleihbar/Fernleihe</xsl:when>
-          <xsl:when test="$loantype='c'">ausleihbar/keine Fernleihe</xsl:when>
-          <xsl:when test="$loantype='s'">mit Zustimmung ausleihbar/nur Kopie in die Fernleihe</xsl:when>
-          <xsl:when test="$loantype='d'">mit Zustimmung ausleihbar/Fernleihe</xsl:when>
-          <xsl:when test="$loantype='i'">Lesesaalausleihe/keine Fernleihe</xsl:when>
-          <xsl:when test="$loantype='f'">Lesesaalausleihe/nur Kopie in die Fernleihe</xsl:when>
-          <xsl:when test="$loantype='g'">für die Ausleihe gesperrt/keine Fernleihe</xsl:when>
-          <xsl:when test="$loantype='a'">bestellt/keine Fernleihe</xsl:when>
-          <xsl:when test="$loantype='o'">keine Angabe/keine Fernleihe</xsl:when>
-          <xsl:when test="$loantype='z'">Verlust/keine Fernleihe</xsl:when>
-          <xsl:otherwise>ausleihbar/Fernleihe</xsl:otherwise>
-        </xsl:choose>
+<!-- Mainz 209A$d -->
+          <xsl:choose>
+            <xsl:when test="$loantype='u'">0 u ausleihbar</xsl:when>
+            <xsl:when test="$loantype='b'">1 b Kurzausleihe</xsl:when>
+            <xsl:when test="$loantype='c'">2 c Lehrbuchsammlung</xsl:when>
+            <xsl:when test="$loantype='s'">3 s Präsenzbestand Lesesaal</xsl:when>
+            <xsl:when test="$loantype='d'">4 d Präsenzbestand Wochenendausleihe</xsl:when>
+            <xsl:when test="$loantype='i'">5 i nur für den Lesesaal</xsl:when>
+            <xsl:when test="$loantype='e'">8 e vermisst</xsl:when>
+            <xsl:when test="$loantype='g'">9 g nicht ausleihbar</xsl:when>
+            <xsl:when test="$loantype='a'">9 a bestellt</xsl:when>
+            <xsl:when test="$loantype='z'">9 z Verlust</xsl:when>
+            <xsl:otherwise>ausleihbar/Fernleihe</xsl:otherwise>
+          </xsl:choose>
       </permanentLoanTypeId>
       <status>
         <name>
