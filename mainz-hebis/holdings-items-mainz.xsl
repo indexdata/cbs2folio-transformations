@@ -60,12 +60,24 @@
         <xsl:choose>
           <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='000'">
           <xsl:choose>
-            <xsl:when test="datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']='FREIHAND'">FREI</xsl:when>
-            <xsl:when test="datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']='LBS'">LBS</xsl:when>
-            <xsl:when test="datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']='LESESAAL'">LS</xsl:when>
-            <xsl:when test="contains(datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a'],'RARA')">RARA</xsl:when>
-            <xsl:otherwise>MAG</xsl:otherwise>
+            <xsl:when test="datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']='FREIHAND'">ZBFREI</xsl:when>
+            <xsl:when test="datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']='LBS'">ZBLBS</xsl:when>
+            <xsl:when test="datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']='LESESAAL'">ZBLS</xsl:when>
+            <xsl:when test="contains(datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a'],'RARA')">ZBRARA</xsl:when>
+            <xsl:otherwise>ZBMAG</xsl:otherwise>
           </xsl:choose>
+		  </xsl:when>
+		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='002'">
+            <xsl:choose>
+            <xsl:when test="datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']='Erziehungswissenschaft'">GFGPÄD</xsl:when>
+			<xsl:when test="datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']='Filmwissenschaft'">GFGFILM</xsl:when>
+			<xsl:when test="datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']='Journalistik'">GFGJOUR</xsl:when>
+            <xsl:when test="datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']='Politikwissenschaft'">GFGPOL</xsl:when>
+			<xsl:when test="datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']='Psychologie'">GFGPSYCH</xsl:when>
+            <xsl:when test="datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']='Publizistik'">GFGPUB</xsl:when>
+			<xsl:when test="datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']='Soziologie'">GFGSOZ</xsl:when>
+			<xsl:otherwise>GFGPÄD</xsl:otherwise>
+            </xsl:choose>
           </xsl:when>
           <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='005'">
             <xsl:choose>
@@ -107,7 +119,44 @@
             </xsl:choose>
           </xsl:when>
           <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='020'">RWFAK</xsl:when>
-          <xsl:otherwise>UNKNOWN</xsl:otherwise>
+		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='021'">ZBMAG</xsl:when>
+		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='034'">FBGTEM</xsl:when>
+		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='043'">UMPSY</xsl:when>
+		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='054'">UMZMK</xsl:when>
+		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='058'">PHPHI</xsl:when>
+		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='066'">RWETH</xsl:when>
+		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='070'">PHGER</xsl:when>
+		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='071'">PHAVL</xsl:when>
+		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='072'">PHANG</xsl:when>
+		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='073'">PHAVS</xsl:when>
+		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='074'">PHROM</xsl:when>
+		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='075'">PHSLAV</xsl:when>
+		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='076'">PHPOL</xsl:when>
+		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='077'">PHKLP</xsl:when>
+		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='078'">PHKLA</xsl:when>
+		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='079'">GFGKUN</xsl:when>
+		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='080'">ZBTURK</xsl:when>
+		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='083'">PHKLW</xsl:when>
+		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='086'">PHALG</xsl:when>
+		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='087'">PHBYZ</xsl:when>
+		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='088'">PHMNG</xsl:when>
+		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='090'">PHBUW</xsl:when>
+		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='091'">PHMUW</xsl:when>
+		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='092'">PHOEG</xsl:when>
+		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='093'">
+           <xsl:choose>
+            <xsl:when test="datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']='MAG'">ZBMAG</xsl:when>
+            <xsl:otherwise>ZBLS</xsl:otherwise>
+           </xsl:choose>
+		  </xsl:when>
+		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='110'">GFGGEO</xsl:when>
+		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='112'">PHHFM</xsl:when>
+		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='113'">GFGSPO</xsl:when>
+		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='120'">PHTHW</xsl:when>
+		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='125'">ZBMAG</xsl:when>
+		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='126'">GFGUSA</xsl:when>
+		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='127'">PHMAG</xsl:when>
+		  <xsl:otherwise>UNKNOWN</xsl:otherwise>
         </xsl:choose>
        </xsl:variable>
       <xsl:message>Debug: Location "<xsl:value-of select="$lcode"/>"</xsl:message>

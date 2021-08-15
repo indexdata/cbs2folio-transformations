@@ -1435,7 +1435,7 @@
          <arr>
             <i>
                <hrid>1070511676</hrid>
-               <permanentLocationId>UNKNOWN</permanentLocationId>
+               <permanentLocationId>ZBTURK</permanentLocationId>
                <callNumber>Lex-T-osm-290</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
@@ -1809,7 +1809,7 @@
          <arr>
             <i>
                <hrid>1141649802</hrid>
-               <permanentLocationId>LS</permanentLocationId>
+               <permanentLocationId>ZBLS</permanentLocationId>
                <callNumber>LING B 356</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
@@ -1846,7 +1846,7 @@
             </i>
             <i>
                <hrid>1144975972</hrid>
-               <permanentLocationId>LBS</permanentLocationId>
+               <permanentLocationId>ZBLBS</permanentLocationId>
                <callNumber>15E 010</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
@@ -2502,7 +2502,7 @@
          <arr>
             <i>
                <hrid>1052419968</hrid>
-               <permanentLocationId>UNKNOWN</permanentLocationId>
+               <permanentLocationId>PHAVL</permanentLocationId>
                <callNumber>FL VOLTA 1/15</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
@@ -2820,7 +2820,7 @@
          <arr>
             <i>
                <hrid>603482163</hrid>
-               <permanentLocationId>MAG</permanentLocationId>
+               <permanentLocationId>ZBMAG</permanentLocationId>
                <callNumber>ZB 1305-24</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
@@ -4639,7 +4639,7 @@
          <arr>
             <i>
                <hrid>760510180</hrid>
-               <permanentLocationId>LBS</permanentLocationId>
+               <permanentLocationId>ZBLBS</permanentLocationId>
                <callNumber>40B 242,4.Aufl.</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
@@ -6525,7 +6525,7 @@
          <arr>
             <i>
                <hrid>806517980</hrid>
-               <permanentLocationId>UNKNOWN</permanentLocationId>
+               <permanentLocationId>FBGTEM</permanentLocationId>
                <callNumber>Gesmed 48 2016</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
@@ -7138,7 +7138,7 @@
          <arr>
             <i>
                <hrid>1124014802</hrid>
-               <permanentLocationId>MAG</permanentLocationId>
+               <permanentLocationId>ZBMAG</permanentLocationId>
                <callNumber>KIND 267</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
@@ -8932,7 +8932,7 @@
             </i>
             <i>
                <hrid>646142364</hrid>
-               <permanentLocationId>UNKNOWN</permanentLocationId>
+               <permanentLocationId>UMZMK</permanentLocationId>
                <callNumber>ZMK A 305,4.Aufl.</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
@@ -9113,7 +9113,7 @@
             </i>
             <i>
                <hrid>566028360</hrid>
-               <permanentLocationId>UNKNOWN</permanentLocationId>
+               <permanentLocationId>UMZMK</permanentLocationId>
                <callNumber>ZMK A 305,4.Aufl.</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
@@ -9141,7 +9141,7 @@
             </i>
             <i>
                <hrid>779043049</hrid>
-               <permanentLocationId>UNKNOWN</permanentLocationId>
+               <permanentLocationId>UMZMK</permanentLocationId>
                <callNumber>ZMK A 305,4.Aufl.</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
@@ -9404,7 +9404,7 @@
          <arr>
             <i>
                <hrid>113674406</hrid>
-               <permanentLocationId>MAG</permanentLocationId>
+               <permanentLocationId>ZBMAG</permanentLocationId>
                <callNumber>4° BB 1129</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
@@ -11879,7 +11879,7 @@
          <arr>
             <i>
                <hrid>1118270851</hrid>
-               <permanentLocationId>UNKNOWN</permanentLocationId>
+               <permanentLocationId>ZBTURK</permanentLocationId>
                <callNumber>Ab 37-61</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
