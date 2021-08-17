@@ -474,17 +474,10 @@
       </discoverySuppress> -->
 	  <!-- Mainz 208@$b Pos 1 = 'g' OR Pos 2 = 'y' OR Pos 2 = 'z'-->
 	 <discoverySuppress>
-	 <xsl:variable name="type" select="../datafield[@tag='208@']/subfield[@code='b']"/>
-	 <xsl:variable name="type1" select="substring($type, 1, 1)"/>
-     <xsl:variable name="type2" select="substring($type, 2, 1)"/>
+	 <xsl:variable name="selectioncode" select="../datafield[@tag='208@']/subfield[@code='b']"/>
         <xsl:choose>
-          <xsl:when test="$type1 = 'g'">true</xsl:when>           
-		  </xsl:choose>
-         <xsl:choose>
-          <xsl:when test="$type2 = 'y'">true</xsl:when> 
-          <xsl:when test="$type2 = 'z'">true</xsl:when> 
-         </xsl:choose> 
-        <xsl:otherwise>false</xsl:otherwise>
+          <xsl:when test="(substring($selectioncode, 1, 1) = 'g') or (substring($selectioncode, 2, 1) = 'y') or (substring($selectioncode, 2, 1) = 'z')">true</xsl:when>           
+          <xsl:otherwise>false</xsl:otherwise>
         </xsl:choose> 
 	</discoverySuppress>
     </i>
