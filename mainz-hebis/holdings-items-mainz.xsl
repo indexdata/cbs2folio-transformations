@@ -19,46 +19,11 @@
   </xsl:template>
 
   <xsl:template match="original">
-    <xsl:if test="item/datafield[@tag='203@']/subfield[@code='0'] | datafield[@tag='109R']">
+    <xsl:if test="item/datafield[@tag='203@']/subfield[@code='0']">
       <holdingsRecords>
         <arr>
           <xsl:apply-templates select="item"/>
-          <!-- Electronic access -->
-		  <!-- Note! There is no 109R in hebis. There is always Level-2-Data (EPN)
-		       There are Two Cases for permanentLocation "online": 
-		        1.) "datafield[@tag='209A']/subfield[@code='a'] = '/'"
-			         AND "datafield[@tag='209A']/subfield[@code='f']='001'"> 
-			        (MAA: Obv and knz: p) = eigenkatalogisierte E-Journals
-			   2.) There is no datafield[@tag='209A']. 
-			       Tags for electronic addresses, like
-			       209S Subfield u (URL)
-			       204P Subfield 0 (DOI)
-			       204U Subfield 0 (URN)
-				   204R Subfield 0 (handle)
-				  (MAA: O* and knz: l) = Lizenzexemplare
-			   Hrid should be EPN from "datafield[@tag='203@']/subfield[@code='0']" in both cases
-		   -->
-          <xsl:if test="datafield[@tag='109R']/subfield[@code='u']">
-            <i>
-              <hrid>
-                <xsl:value-of select="datafield[@tag='003@']/subfield[@code='0']"/>
-              </hrid>
-              <permanentLocationId>Online</permanentLocationId>
-              <!-- hardcoded : where to find in item record? -->
-              <electronicAccess>
-                <arr>
-                  <xsl:for-each select="datafield[@tag='109R']">
-                    <i>
-                      <uri>
-                        <xsl:value-of select="./subfield[@code='u']"/>
-                      </uri>
-                    </i>
-                  </xsl:for-each>
-                </arr>
-              </electronicAccess>
-            </i>
-          </xsl:if>
-        </arr>
+       </arr>
       </holdingsRecords>
     </xsl:if>
   </xsl:template>
@@ -69,7 +34,24 @@
       <hrid>
         <xsl:value-of select="$hhrid"/>
       </hrid>
-<!-- Mainz/Hebis 209A$f/209G$a -->
+      <!-- Electronic access -->
+      <!-- Note! There is no 109R in hebis. There is always Level-2-Data (EPN)
+		       There are Two Cases for permanentLocation "online": 
+		        1.) "datafield[@tag='209A']/subfield[@code='a'] = '/'"
+			         AND "datafield[@tag='209A']/subfield[@code='f']='001'"> 
+			        (MAA: Obv and knz: p) = eigenkatalogisierte E-Journals
+			   2.) There is no datafield[@tag='209A']. 
+			       Tags for electronic addresses, like
+			       209S Subfield u (URL)
+			       204P Subfield 0 (DOI)
+			       204U Subfield 0 (URN)
+  				   204R Subfield 0 (handle)
+				  (MAA: O* and knz: l) = Lizenzexemplare
+			   Hrid should be EPN from "datafield[@tag='203@']/subfield[@code='0']" in both cases
+		   -->
+      <xsl:variable name="electronicholding" select="(substring(datafield[@tag='208@']/subfield[@code='b'],1,1) = 'l') or (substring(datafield[@tag='208@']/subfield[@code='b'],1,1) = 'o') or (datafield[@tag='209A']/subfield[@code='f']='001')"/>
+      <xsl:message>Debug: Electronic <xsl:value-of select="$electronicholding"/></xsl:message>
+      <!-- Mainz/Hebis 209A$f/209G$a -->
       <xsl:variable name="lcode">
         <xsl:choose>
           <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='000'">
@@ -171,25 +153,28 @@
 		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='126'">GFGUSA</xsl:when>
 		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='127'">PHMAG</xsl:when>
 		  <xsl:otherwise>UNKNOWN</xsl:otherwise>
-		  <!-- Would then all hebis-Lizenzexemplare be unknown? They have no 209A
-		       Dito BCO 001: datafield[@tag='209A']/subfield[@code='f']='001' '001" is not defined here-->
-        </xsl:choose>
+       </xsl:choose>
        </xsl:variable>
       <xsl:message>Debug: Location "<xsl:value-of select="$lcode"/>"</xsl:message>
       <permanentLocationId>
-        <xsl:value-of select="$lcode"/>
+        <xsl:choose>
+          <xsl:when test="$electronicholding">Online</xsl:when>
+          <xsl:otherwise><xsl:value-of select="$lcode"/></xsl:otherwise>
+        </xsl:choose>
       </permanentLocationId>
-      <callNumber>
-        <xsl:value-of select="datafield[@tag='209A']/subfield[@code='a']"/>
-      </callNumber>
-	  <holdingsTypeId>
+      <xsl:if test="not($electronicholding)">
+         <callNumber>
+            <xsl:value-of select="datafield[@tag='209A']/subfield[@code='a']"/>
+         </callNumber>
+      </xsl:if>
+	    <holdingsTypeId>
 	    <xsl:variable name="holType" select="../datafield[@tag='002@']/subfield[@code='0']"/>
-		<xsl:variable name="holType1" select="substring($holType, 1, 1)"/>
-		<xsl:choose>
-		  <xsl:when test="$holType1 = 'O'">electronic</xsl:when>
-		  <xsl:otherwise>physical</xsl:otherwise>
-		</xsl:choose>
-	  </holdingsTypeId>
+		  <xsl:variable name="holType1" select="substring($holType, 1, 1)"/>
+		  <xsl:choose>
+		     <xsl:when test="$holType1 = 'O'">electronic</xsl:when>
+		     <xsl:otherwise>physical</xsl:otherwise>
+		  </xsl:choose>
+	    </holdingsTypeId>
       <holdingsStatements>
 <!-- Hebis 209E$a -->
       <xsl:if test="datafield[(@tag='209E') and (subfield[@code='x']='02')]/subfield[@code='a']">
@@ -204,29 +189,65 @@
 		  </arr>
 	    </xsl:if>
       </holdingsStatements>
-      <items>
-        <arr>
+      <xsl:if test="not($electronicholding)">
+         <items>
+           <arr>
 <!-- Hebis 209G$a -->
-          <xsl:message>Debug: 209G - Hebis</xsl:message>
-          <xsl:choose>
-            <xsl:when test="(datafield[(@tag='209G') and (subfield[@code='x']='00')]/subfield[@code='a'])[2]">
-              <xsl:for-each select="datafield[(@tag='209G') and (subfield[@code='x']='00')]/subfield[@code='a']">
-                <xsl:message>Debug: <xsl:value-of select="."/></xsl:message>
-                <xsl:apply-templates select="../.." mode="make-item">
+            <xsl:message>Debug: 209G - Hebis</xsl:message>
+            <xsl:choose>
+              <xsl:when test="(datafield[(@tag='209G') and (subfield[@code='x']='00')]/subfield[@code='a'])[2]">
+                <xsl:for-each select="datafield[(@tag='209G') and (subfield[@code='x']='00')]/subfield[@code='a']">
+                  <xsl:message>Debug: <xsl:value-of select="."/></xsl:message>
+                  <xsl:apply-templates select="../.." mode="make-item">
                   <xsl:with-param name="hhrid" select="concat($hhrid, '-', substring-before(.,' '))"/>
                   <xsl:with-param name="bcode" select="substring-before(.,' ')"/>
                   <xsl:with-param name="copy" select="substring-before(substring-after(.,'('),')')"/>
+                  </xsl:apply-templates>
+                </xsl:for-each>
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:apply-templates select="." mode="make-item">
+                  <xsl:with-param name="hhrid" select="$hhrid"/>
                 </xsl:apply-templates>
-              </xsl:for-each>
-            </xsl:when>
-            <xsl:otherwise>
-              <xsl:apply-templates select="." mode="make-item">
-                <xsl:with-param name="hhrid" select="$hhrid"/>
-              </xsl:apply-templates>
-            </xsl:otherwise>
-          </xsl:choose>          
-        </arr>
-      </items>
+                </xsl:otherwise>
+             </xsl:choose>          
+           </arr>
+         </items>
+      </xsl:if>
+      <xsl:if test="$electronicholding">
+        <electronicAccess>
+          <arr>
+            <xsl:for-each select="datafield[@tag='209S']">
+              <i>
+                <uri>
+                  <xsl:value-of select="./subfield[@code='u']"/>
+                </uri>
+              </i>
+            </xsl:for-each>
+            <xsl:for-each select="datafield[@tag='204P']">
+              <i>
+                <uri>
+                  <xsl:value-of select="./subfield[@code='0']"/>
+                </uri>
+              </i>
+            </xsl:for-each>
+            <xsl:for-each select="datafield[@tag='204U']">
+              <i>
+                <uri>
+                  <xsl:value-of select="./subfield[@code='0']"/>
+                </uri>
+              </i>
+            </xsl:for-each>
+            <xsl:for-each select="datafield[@tag='204R']">
+              <i>
+                <uri>
+                  <xsl:value-of select="./subfield[@code='0']"/>
+                </uri>
+              </i>
+            </xsl:for-each>
+          </arr>
+        </electronicAccess>
+      </xsl:if>
     </i>
   </xsl:template>
  
@@ -463,11 +484,10 @@
           <xsl:if test="position() != last()">, </xsl:if>
         </xsl:for-each>
       </accessionNumber>
-	  
-	  <!-- Mainz 208@$b Pos 1 = 'g' OR Pos 2 = 'y' OR Pos 2 = 'z'-->
+ 	  <!-- Mainz 208@$b Pos 1 = 'g' OR Pos 2 = 'y' OR Pos 2 = 'z'-->
 	 <discoverySuppress>
 	 <xsl:variable name="selectioncode" select="datafield[@tag='208@']/subfield[@code='b']"/>
-	   <xsl:message>Debug: selection code <xsl:value-of select="$selectioncode"/></xsl:message>
+	 <xsl:message>Debug: selection code <xsl:value-of select="$selectioncode"/></xsl:message>
         <xsl:choose>
           <xsl:when test="(substring($selectioncode, 1, 1) = 'g') or (substring($selectioncode, 2, 1) = 'y') or (substring($selectioncode, 2, 1) = 'z')">true</xsl:when>           
           <xsl:otherwise>false</xsl:otherwise>

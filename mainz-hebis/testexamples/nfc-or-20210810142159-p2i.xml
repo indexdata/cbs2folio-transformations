@@ -3556,40 +3556,16 @@
          <arr>
             <i>
                <hrid>113267364X</hrid>
-               <permanentLocationId>UNKNOWN</permanentLocationId>
-               <callNumber/>
+               <permanentLocationId>Online</permanentLocationId>
                <holdingsTypeId>electronic</holdingsTypeId>
                <holdingsStatements/>
-               <items>
+               <electronicAccess>
                   <arr>
                      <i>
-                        <hrid>113267364X</hrid>
-                        <materialTypeId>E-Ressource</materialTypeId>
-                        <permanentLoanTypeId>ausleihbar/Fernleihe</permanentLoanTypeId>
-                        <status>
-                           <name>Available</name>
-                        </status>
-                        <itemLevelCallNumber/>
-                        <barcode/>
-                        <copyNumber/>
-                        <volume/>
-                        <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
-                        <notes>
-                           <arr>
-                              <i>
-                                 <note>Online-Zugang nur im Netz der Universität Mainz</note>
-                                 <itemNoteTypeId>Note</itemNoteTypeId>
-                                 <staffOnly>false</staffOnly>
-                              </i>
-                           </arr>
-                        </notes>
-                        <accessionNumber/>
-                        <discoverySuppress>false</discoverySuppress>
+                        <uri>https://doi.org/10.1017/9781108771160</uri>
                      </i>
                   </arr>
-               </items>
+               </electronicAccess>
             </i>
          </arr>
       </holdingsRecords>
