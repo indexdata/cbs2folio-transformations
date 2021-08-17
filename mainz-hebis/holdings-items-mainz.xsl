@@ -464,17 +464,10 @@
         </xsl:for-each>
       </accessionNumber>
 	  
-      <!-- GBV:
-	  <discoverySuppress>
-        <xsl:choose>
-          <xsl:when test="datafield[@tag='208@']/subfield[@code='b']='gp'">true</xsl:when>
-          <xsl:when test="datafield[@tag='208@']/subfield[@code='b']='i'">true</xsl:when>
-          <xsl:otherwise>false</xsl:otherwise>
-        </xsl:choose>
-      </discoverySuppress> -->
 	  <!-- Mainz 208@$b Pos 1 = 'g' OR Pos 2 = 'y' OR Pos 2 = 'z'-->
 	 <discoverySuppress>
-	 <xsl:variable name="selectioncode" select="../datafield[@tag='208@']/subfield[@code='b']"/>
+	 <xsl:variable name="selectioncode" select="datafield[@tag='208@']/subfield[@code='b']"/>
+	   <xsl:message>Debug: selection code <xsl:value-of select="$selectioncode"/></xsl:message>
         <xsl:choose>
           <xsl:when test="(substring($selectioncode, 1, 1) = 'g') or (substring($selectioncode, 2, 1) = 'y') or (substring($selectioncode, 2, 1) = 'z')">true</xsl:when>           
           <xsl:otherwise>false</xsl:otherwise>
