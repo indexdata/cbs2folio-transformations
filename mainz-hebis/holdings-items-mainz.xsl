@@ -24,6 +24,20 @@
         <arr>
           <xsl:apply-templates select="item"/>
           <!-- Electronic access -->
+		  <!-- Note! There is no 109R in hebis. There is always Level-2-Data (EPN)
+		       There are Two Cases for permanentLocation "online": 
+		        1.) "datafield[@tag='209A']/subfield[@code='a'] = '/'"
+			         AND "datafield[@tag='209A']/subfield[@code='f']='001'"> 
+			        (MAA: Obv and knz: p) = eigenkatalogisierte E-Journals
+			   2.) There is no datafield[@tag='209A']. 
+			       Tags for electronic addresses, like
+			       209S Subfield u (URL)
+			       204P Subfield 0 (DOI)
+			       204U Subfield 0 (URN)
+				   204R Subfield 0 (handle)
+				  (MAA: O* and knz: l) = Lizenzexemplare
+			   Hrid should be EPN from "datafield[@tag='203@']/subfield[@code='0']" in both cases
+		   -->
           <xsl:if test="datafield[@tag='109R']/subfield[@code='u']">
             <i>
               <hrid>
@@ -157,6 +171,8 @@
 		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='126'">GFGUSA</xsl:when>
 		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='127'">PHMAG</xsl:when>
 		  <xsl:otherwise>UNKNOWN</xsl:otherwise>
+		  <!-- Would then all hebis-Lizenzexemplare be unknown? They have no 209A
+		       Dito BCO 001: datafield[@tag='209A']/subfield[@code='f']='001' '001" is not defined here-->
         </xsl:choose>
        </xsl:variable>
       <xsl:message>Debug: Location "<xsl:value-of select="$lcode"/>"</xsl:message>
@@ -447,13 +463,30 @@
           <xsl:if test="position() != last()">, </xsl:if>
         </xsl:for-each>
       </accessionNumber>
-      <discoverySuppress>
+	  
+      <!-- GBV:
+	  <discoverySuppress>
         <xsl:choose>
-          <xsl:when test="datafield[@tag='208@']/subfield[@code='b']='d'">true</xsl:when>
+          <xsl:when test="datafield[@tag='208@']/subfield[@code='b']='gp'">true</xsl:when>
           <xsl:when test="datafield[@tag='208@']/subfield[@code='b']='i'">true</xsl:when>
           <xsl:otherwise>false</xsl:otherwise>
         </xsl:choose>
-      </discoverySuppress>
+      </discoverySuppress> -->
+	  <!-- Mainz 208@$b Pos 1 = 'g' OR Pos 2 = 'y' OR Pos 2 = 'z'-->
+	 <discoverySuppress>
+	 <xsl:variable name="type" select="../datafield[@tag='208@']/subfield[@code='b']"/>
+	 <xsl:variable name="type1" select="substring($type, 1, 1)"/>
+     <xsl:variable name="type2" select="substring($type, 2, 1)"/>
+        <xsl:choose>
+          <xsl:when test="$type1 = 'g'">true</xsl:when>           
+		  </xsl:choose>
+         <xsl:choose>
+          <xsl:when test="$type2 = 'y'">true</xsl:when> 
+          <xsl:when test="$type2 = 'z'">true</xsl:when> 
+         </xsl:choose> 
+        <xsl:otherwise>false</xsl:otherwise>
+        </xsl:choose> 
+	</discoverySuppress>
     </i>
   </xsl:template>
   <xsl:template match="text()"/>
