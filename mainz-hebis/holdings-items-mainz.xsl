@@ -35,7 +35,7 @@
         <xsl:value-of select="$hhrid"/>
       </hrid>
       <!-- Electronic access -->
-      <!-- Note! There is no 109R in hebis. There is always Level-2-Data (EPN)
+      <!-- Note! There is no 109R in hebis. There are always Level-2-Data (EPN)
 		       There are Two Cases for permanentLocation "online": 
 		        1.) "datafield[@tag='209A']/subfield[@code='a'] = '/'"
 			         AND "datafield[@tag='209A']/subfield[@code='f']='001'"> 
@@ -46,11 +46,12 @@
 			       204P Subfield 0 (DOI)
 			       204U Subfield 0 (URN)
   				   204R Subfield 0 (handle)
-				  (MAA: O* and knz: l) = Lizenzexemplare
+				  (MAA: O* and knz: l*) = Lizenzexemplare (MAA: O* and knz: o*) = Eigenkatalogisate ebooks
 			   Hrid should be EPN from "datafield[@tag='203@']/subfield[@code='0']" in both cases
 		   -->
       <xsl:variable name="electronicholding" select="(substring(datafield[@tag='208@']/subfield[@code='b'],1,1) = 'l') or (substring(datafield[@tag='208@']/subfield[@code='b'],1,1) = 'o') or (datafield[@tag='209A']/subfield[@code='f']='001')"/>
       <xsl:message>Debug: Electronic <xsl:value-of select="$electronicholding"/></xsl:message>
+	  <xsl:variable name="dummyrecord" select="(substring(datafield[@tag='208@']/subfield[@code='b'],1,1) = 'd')"/>
       <!-- Mainz/Hebis 209A$f/209G$a -->
       <xsl:variable name="lcode">
         <xsl:choose>
@@ -158,11 +159,17 @@
       <xsl:message>Debug: Location "<xsl:value-of select="$lcode"/>"</xsl:message>
       <permanentLocationId>
         <xsl:choose>
-          <xsl:when test="$electronicholding">Online</xsl:when>
+          <xsl:when test="$electronicholding">ONLINE</xsl:when>
           <xsl:otherwise><xsl:value-of select="$lcode"/></xsl:otherwise>
         </xsl:choose>
       </permanentLocationId>
-      <xsl:if test="not($electronicholding)">
+	  <permanentLocationId>
+        <xsl:choose>
+          <xsl:when test="$dummyrecord">DUMMY</xsl:when>
+          <xsl:otherwise><xsl:value-of select="$lcode"/></xsl:otherwise>
+        </xsl:choose>
+      </permanentLocationId>
+      <xsl:if test="not($electronicholding) or not($dummyrecord)">
          <callNumber>
             <xsl:value-of select="datafield[@tag='209A']/subfield[@code='a']"/>
          </callNumber>
