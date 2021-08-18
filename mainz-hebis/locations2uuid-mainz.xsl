@@ -18,7 +18,14 @@
     <permanentLocationId>
       <xsl:choose>
 	    <xsl:when test=".='DUMMY'">87764786-c5c8-47d0-a480-df506c751d76</xsl:when>
+		<xsl:when test=".='FBÄGYPT'">18fe087a-125a-4082-a578-7c79fd9f64ff</xsl:when>
+		<xsl:when test=".='FBGESANG'">86f574fa-7ff2-4e54-a248-1867184b7139</xsl:when>
         <xsl:when test=".='FBGTEM'">9c231ef4-d653-4b1a-839b-8375307b8bc7</xsl:when>
+		<xsl:when test=".='FBIGL'">bb1e44b8-d9ab-4660-8758-b3adf2f70132</xsl:when>
+		<xsl:when test=".='FBIGL'">f3956a73-496a-4ffc-aa28-f638b54987f4</xsl:when>
+		<xsl:when test=".='FBMPI'">404d2702-7cab-4086-b758-352988354e94</xsl:when>
+		<xsl:when test=".='FBPSY'">ef19f548-1910-470a-b5bc-9c71421388bf</xsl:when>
+		<xsl:when test=".='FBVFGE'">3b92f4b4-b21b-4c58-b968-727a03f0dfec</xsl:when>
         <xsl:when test=".='GFGFILM'">eefdca5d-5541-459f-877e-84c184ce5899</xsl:when>
 		<xsl:when test=".='GFGGEO'">71cd6589-995b-473a-9db7-592cf12189ed</xsl:when>
         <xsl:when test=".='GFGJOUR'">209db366-27c5-4bfc-981e-25d9671b0348</xsl:when>

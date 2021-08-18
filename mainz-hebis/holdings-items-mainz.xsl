@@ -89,6 +89,7 @@
               <xsl:when test="contains(datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a'],'Handapparat')">MINFAK</xsl:when>
               <xsl:otherwise>MIN</xsl:otherwise>
             </xsl:choose>
+		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='009'">FBMPI</xsl:when>	
           </xsl:when>
           <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='016'">
             <xsl:choose>
@@ -122,6 +123,7 @@
 		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='054'">UMZMK</xsl:when>
 		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='058'">PHPHI</xsl:when>
 		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='066'">RWETH</xsl:when>
+		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='069'">FBPSY</xsl:when>
 		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='070'">PHGER</xsl:when>
 		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='071'">PHAVL</xsl:when>
 		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='072'">PHANG</xsl:when>
@@ -133,6 +135,8 @@
 		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='078'">PHKLA</xsl:when>
 		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='079'">GFGKUN</xsl:when>
 		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='080'">ZBTURK</xsl:when>
+		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='082'">FBÄGYPT</xsl:when>
+		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='085'">FBVFGE</xsl:when>
 		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='083'">PHKLW</xsl:when>
 		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='086'">PHALG</xsl:when>
 		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='087'">PHBYZ</xsl:when>
@@ -146,10 +150,13 @@
             <xsl:otherwise>ZBLS</xsl:otherwise>
            </xsl:choose>
 		  </xsl:when>
+		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='094'">FBIGL</xsl:when>
 		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='110'">GFGGEO</xsl:when>
+		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='111'">FBKUNST</xsl:when>
 		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='112'">PHHFM</xsl:when>
 		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='113'">GFGSPO</xsl:when>
 		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='120'">PHTHW</xsl:when>
+		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='124'">FBGESANG</xsl:when>
 		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='125'">ZBMAG</xsl:when>
 		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='126'">GFGUSA</xsl:when>
 		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='127'">PHMAG</xsl:when>
