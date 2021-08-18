@@ -51,29 +51,29 @@
 		   -->
       <xsl:variable name="electronicholding" select="(substring(datafield[@tag='208@']/subfield[@code='b'],1,1) = 'l') or (substring(datafield[@tag='208@']/subfield[@code='b'],1,1) = 'o') or (datafield[@tag='209A']/subfield[@code='f']='001')"/>
       <xsl:message>Debug: Electronic <xsl:value-of select="$electronicholding"/></xsl:message>
-	  <xsl:variable name="dummyrecord" select="(substring(datafield[@tag='208@']/subfield[@code='b'],1,1) = 'd')"/>
       <!-- Mainz/Hebis 209A$f/209G$a -->
       <xsl:variable name="lcode">
         <xsl:choose>
+          <xsl:when test="substring(datafield[@tag='208@']/subfield[@code='b'],1,1) = 'd'">DUMMY</xsl:when>
           <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='000'">
-          <xsl:choose>
-            <xsl:when test="datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']='FREIHAND'">ZBFREI</xsl:when>
-            <xsl:when test="datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']='LBS'">ZBLBS</xsl:when>
-            <xsl:when test="datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']='LESESAAL'">ZBLS</xsl:when>
-            <xsl:when test="contains(datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a'],'RARA')">ZBRARA</xsl:when>
-            <xsl:otherwise>ZBMAG</xsl:otherwise>
-          </xsl:choose>
-		  </xsl:when>
-		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='002'">
+             <xsl:choose>
+               <xsl:when test="datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']='FREIHAND'">ZBFREI</xsl:when>
+               <xsl:when test="datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']='LBS'">ZBLBS</xsl:when>
+               <xsl:when test="datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']='LESESAAL'">ZBLS</xsl:when>
+               <xsl:when test="contains(datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a'],'RARA')">ZBRARA</xsl:when>
+               <xsl:otherwise>ZBMAG</xsl:otherwise>
+             </xsl:choose>
+		      </xsl:when>
+		      <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='002'">
             <xsl:choose>
             <xsl:when test="datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']='Erziehungswissenschaft'">GFGPÄD</xsl:when>
-			<xsl:when test="datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']='Filmwissenschaft'">GFGFILM</xsl:when>
-			<xsl:when test="datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']='Journalistik'">GFGJOUR</xsl:when>
+			      <xsl:when test="datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']='Filmwissenschaft'">GFGFILM</xsl:when>
+		      	<xsl:when test="datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']='Journalistik'">GFGJOUR</xsl:when>
             <xsl:when test="datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']='Politikwissenschaft'">GFGPOL</xsl:when>
-			<xsl:when test="datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']='Psychologie'">GFGPSYCH</xsl:when>
+		      	<xsl:when test="datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']='Psychologie'">GFGPSYCH</xsl:when>
             <xsl:when test="datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']='Publizistik'">GFGPUB</xsl:when>
-			<xsl:when test="datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']='Soziologie'">GFGSOZ</xsl:when>
-			<xsl:otherwise>GFGPÄD</xsl:otherwise>
+		      	<xsl:when test="datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']='Soziologie'">GFGSOZ</xsl:when>
+	      		<xsl:otherwise>GFGPÄD</xsl:otherwise>
             </xsl:choose>
           </xsl:when>
           <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='005'">
@@ -89,8 +89,8 @@
               <xsl:when test="contains(datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a'],'Handapparat')">MINFAK</xsl:when>
               <xsl:otherwise>MIN</xsl:otherwise>
             </xsl:choose>
-		  <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='009'">FBMPI</xsl:when>	
           </xsl:when>
+          <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='009'">FBMPI</xsl:when>	
           <xsl:when test="datafield[@tag='209A']/subfield[@code='f']='016'">
             <xsl:choose>
               <xsl:when test="contains(datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a'],'Rara')">THRARA</xsl:when>
@@ -170,13 +170,7 @@
           <xsl:otherwise><xsl:value-of select="$lcode"/></xsl:otherwise>
         </xsl:choose>
       </permanentLocationId>
-	  <permanentLocationId>
-        <xsl:choose>
-          <xsl:when test="$dummyrecord">DUMMY</xsl:when>
-          <xsl:otherwise><xsl:value-of select="$lcode"/></xsl:otherwise>
-        </xsl:choose>
-      </permanentLocationId>
-      <xsl:if test="not($electronicholding) or not($dummyrecord)">
+      <xsl:if test="not($electronicholding) and ($lcode!='DUMMY')">
          <callNumber>
             <xsl:value-of select="datafield[@tag='209A']/subfield[@code='a']"/>
          </callNumber>

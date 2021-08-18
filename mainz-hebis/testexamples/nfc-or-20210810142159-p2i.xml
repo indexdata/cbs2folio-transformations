@@ -3556,7 +3556,7 @@
          <arr>
             <i>
                <hrid>113267364X</hrid>
-               <permanentLocationId>Online</permanentLocationId>
+               <permanentLocationId>ONLINE</permanentLocationId>
                <holdingsTypeId>electronic</holdingsTypeId>
                <holdingsStatements/>
                <electronicAccess>
