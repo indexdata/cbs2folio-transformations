@@ -17,6 +17,7 @@
    <xsl:template match="permanentLocationId">
     <permanentLocationId>
       <xsl:choose>
+	    <xsl:when test=".='DUMMY'">87764786-c5c8-47d0-a480-df506c751d76</xsl:when>
         <xsl:when test=".='FBGTEM'">9c231ef4-d653-4b1a-839b-8375307b8bc7</xsl:when>
         <xsl:when test=".='GFGFILM'">eefdca5d-5541-459f-877e-84c184ce5899</xsl:when>
 		<xsl:when test=".='GFGGEO'">71cd6589-995b-473a-9db7-592cf12189ed</xsl:when>
@@ -38,6 +39,7 @@
 		<xsl:when test=".='MIN'">a2b4dab0-da03-4b49-aa2a-8f0ed9c0e7dd</xsl:when>
 		<xsl:when test=".='MINLBS'">1ceaeeb6-acf6-4e28-b988-bc0c5d6b2f06</xsl:when>
 		<xsl:when test=".='MINFAK'">0bbd1c4d-6ced-46e1-b0ca-c6de67856313</xsl:when>
+		<xsl:when test=".='ONLINE'">2947e228-3ba6-4714-8ef4-bb31c254ea49</xsl:when>
 		<xsl:when test=".='PHALG'">904349f3-ccdf-4f40-a175-1d6ce394a079</xsl:when>
 		<xsl:when test=".='PHAVL'">b6742937-3cd5-42ac-a3f4-83ebe557215f</xsl:when>
 		<xsl:when test=".='PHANG'">7e42e23b-1d05-409e-a620-e39da09860c2</xsl:when>
