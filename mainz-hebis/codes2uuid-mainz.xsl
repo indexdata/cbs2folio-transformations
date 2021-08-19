@@ -114,22 +114,18 @@
   <xsl:template match="permanentLoanTypeId">
     <permanentLoanTypeId>
       <xsl:choose>
-        <xsl:when test=".='verkürzt ausleihbar / Course reserves'">e8b311a6-3b21-43f2-a269-dd9310cb2d0e</xsl:when>
-        <xsl:when test=".='Normal / Can circulate'">2b94c631-fca9-4892-a730-03ee529ffe27</xsl:when>
-        <xsl:when test=".='Lesesaal / Reading room'">2e48e713-17f3-4c13-a9f8-23845bb210a4</xsl:when>
-        <xsl:when test=".='Sonderausleihe / Selected'">a1dc1ce3-d56f-4d8a-b498-d5d674ccc845</xsl:when>
-		<xsl:when test=".='ausleihbar/Fernleihe'">a8cacfd0-b284-47ae-b5fa-235d768411e7</xsl:when>
-		<xsl:when test=".='verkürzt ausleihbar/Fernleihe'">633f22c8-b189-4dc9-b2f0-25eb10f4739e</xsl:when>
-		<xsl:when test=".='ausleihbar/keine Fernleihe'">f961ec82-65c0-4755-ad24-90bbf87b67d5</xsl:when>
-		<xsl:when test=".='mit Zustimmung ausleihbar/nur Kopie in die Fernleihe'">7141f5a0-05ef-4869-89ab-9f0b5e3cecf3</xsl:when>
-		<xsl:when test=".='mit Zustimmung ausleihbar/Fernleihe'">74084609-eb79-4133-b8fc-81d3f5105cab</xsl:when>
-		<xsl:when test=".='Lesesaalausleihe/keine Fernleihe'">3ef6d652-2e02-4561-8f7b-720cbccde87f</xsl:when>
-		<xsl:when test=".='Lesesaalausleihe/nur Kopie in die Fernleihe'">1c2b89cb-4776-4a70-8f0e-f939833a2f4a</xsl:when>
-		<xsl:when test=".='für die Ausleihe gesperrt/keine Fernleihe'">68000e5a-6d82-4473-bc71-983bb6fcab4c</xsl:when>
-		<xsl:when test=".='bestellt/keine Fernleihe'">19f3659e-389d-49b4-9b26-f64ebf980445</xsl:when>
-		<xsl:when test=".='keine Angabe/keine Fernleihe'">19eede99-dc4c-4d8c-a7c3-0370d63ffd3c</xsl:when>
-		<xsl:when test=".='Verlust/keine Fernleihe'">ceb42d94-de4a-49b4-97e4-c32d11a0d5fc</xsl:when>
-        <xsl:otherwise>a443f4ac-b4d3-446b-98a0-440e57dbbb06</xsl:otherwise>
+        <!--  <xsl:when test=".='0 u ausleihbar'">7a03b2e2-c995-47a4-83d0-04bbe1930af4</xsl:when>  --> 
+        <xsl:when test=".='1 b Kurzausleihe'">df64c252-595d-463c-aad8-3bda0ba101aa</xsl:when>
+        <xsl:when test=".='2 c Lehrbuchsammlung'">d1ba00c9-3f08-4df9-9d70-c7e1ab3b1702</xsl:when>
+        <xsl:when test=".='3 s Präsenzbestand Lesesaal'">1cecc65a-a7c4-437a-bb04-6756c23b422e</xsl:when>
+        <xsl:when test=".='4 d Präsenzbestand Wochenendausleihe'">31c550e8-86b7-4674-bab0-7011ba94148e</xsl:when>
+        <xsl:when test=".='5 i nur für den Lesesaal'">e04e82c1-1257-4046-bc5e-d742bbe061da</xsl:when>
+        <xsl:when test=".='8 e vermisst'">cbd4ec80-1622-420e-8b7c-644b04109367</xsl:when>
+        <xsl:when test=".='9 a bestellt'">8cef8fa7-0a78-4bdd-84d3-25ce207ef8c8</xsl:when>
+        <xsl:when test=".='9 g nicht ausleihbar'">20c359cb-b422-47cc-8c40-e8f6655f2b70</xsl:when>
+        <xsl:when test=".='9 Test'">3b23397c-93ec-40ad-bb8a-9113f9fe9de2</xsl:when>
+        <xsl:when test=".='9 z Verlust'">661ffe64-2e47-4203-845f-96d820aa48f2</xsl:when>
+        <xsl:otherwise>7a03b2e2-c995-47a4-83d0-04bbe1930af4</xsl:otherwise>
       </xsl:choose>
     </permanentLoanTypeId>
   </xsl:template>
@@ -138,28 +134,15 @@
   <xsl:template match="materialTypeId">
     <materialTypeId>
       <xsl:choose>
-        <xsl:when test=".='Buch'">1a54b431-2e4f-452d-9cae-9cee66c9a892</xsl:when>
-        <xsl:when test=".='E-Ressource'">615b8413-82d5-4203-aa6e-e37984cb5ac3</xsl:when>
-        <xsl:when test=".='Mikroform'">fd6c6515-d470-4561-9c32-3e3290d4ca98</xsl:when>
-        <xsl:when test=".='Film (DVD/Video)'">5ee11d91-f7e8-481d-b079-65d708582ccc</xsl:when>
-        <xsl:when test=".='Zeitschrift'">9030eb8b-4450-46f4-9297-63100d5e69aa</xsl:when>
-        <xsl:when test=".='Karte(nwerk)'">4c0e4f9c-4f57-4307-9ea0-ddacd5626876</xsl:when>
-        <xsl:when test=".='Loseblattwerk'">ee6e0c3f-975b-419a-9728-049566f9f1ec</xsl:when>
-        <xsl:when test=".='Musiknote'">27f76b9f-ddc4-4e29-b1d7-80d43c43fabd</xsl:when>
-        <xsl:when test=".='Zeitung'">0e8e0c57-697b-4ba3-beeb-99fc1d6a76d5</xsl:when>
-        <xsl:when test=".='Tonträger'">dd0bf600-dbd9-44ab-9ff2-e2a61a6539f1</xsl:when>
-        <xsl:when test=".='Blindenschriftträger'">82a25aae-1c10-4da2-896f-b0dc0feb59d9</xsl:when>
-        <xsl:when test=".='Handschrift'">8b7dead4-9ebf-497c-8f55-8beb89544b8e</xsl:when>
-        <xsl:when test=".='E-Ressource auf Datenträger'">8893c631-b898-4254-b104-25fa19e68321</xsl:when>
-        <xsl:when test=".='Objekt'">41d6b1e7-2eda-4a79-83fc-78fa067c982f</xsl:when>
-        <xsl:when test=".='Lax'">bbf8cd4a-80ce-479d-92b8-1d4f26c162a7</xsl:when>
-        <xsl:when test=".='Nicht spezifiziert'">71fbd940-1027-40a6-8a48-49b44d795e46</xsl:when>
-        <xsl:when test=".='Bild(ersammlung)'">778666c8-e79b-4b62-a17a-2f350e165908</xsl:when>
-        <xsl:when test=".='text (to be deleted)'">d9acad2f-2aac-4b48-9097-e6ab85906b25</xsl:when>
-        <xsl:when test=".='Aufsatz'">0b8a8d0b-767e-4b1e-89b8-c3192dd906b0</xsl:when>
-        <xsl:when test=".='Mehrteilige Monografie'">32dd9d91-be93-4e48-bd9e-e3e0f08f7d85</xsl:when>
-        <xsl:when test=".='Serie'">1ef6a0f9-6cc6-4da2-816e-9e674a9c5358</xsl:when>
-        <xsl:otherwise>1a54b431-2e4f-452d-9cae-9cee66c9a892</xsl:otherwise>
+ <!-- <xsl:when test=".='0 Druckschrift'">24080190-7539-4520-bde1-762f57d006fc</xsl:when> --> 
+        <xsl:when test=".='1 Audiovisuelles Material'">e378db32-4422-405d-bf08-89efd33335fd</xsl:when>
+        <xsl:when test=".='2 Tonträger'">baed4206-eef1-4c00-8126-d159a2113a71</xsl:when>
+        <xsl:when test=".='3 Computerlesbares Material'">a662fc3c-6a6e-4992-a38b-a74f875204c1</xsl:when>
+        <xsl:when test=".='4 Karten'">e8b94e9e-4144-46a8-b31c-774978d1c5ec</xsl:when>
+        <xsl:when test=".='5 Noten'">79edde01-85ce-451b-870a-edbfcbd8dbd7</xsl:when>
+        <xsl:when test=".='6 Mikroformen'">0a877486-1efb-43c2-b0e6-d539dd352aa2</xsl:when>
+        <xsl:when test=".='9 Sonstiges'">789c3cc7-54ac-41ed-90c6-da7fb417574a</xsl:when>
+        <xsl:otherwise>24080190-7539-4520-bde1-762f57d006fc</xsl:otherwise>
       </xsl:choose>
     </materialTypeId>
   </xsl:template>
