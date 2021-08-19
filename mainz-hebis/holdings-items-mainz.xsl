@@ -270,46 +270,20 @@
         <xsl:value-of select="$hhrid"/>
       </hrid>
       <materialTypeId>
-        <xsl:variable name="type" select="../datafield[@tag='002@']/subfield[@code='0']"/>
-        <xsl:variable name="type1" select="substring($type, 1, 1)"/>
-        <xsl:variable name="type12" select="substring($type, 1, 2)"/>
-        <xsl:variable name="type2" select="substring($type, 2, 1)"/>
-        <xsl:variable name="pd" select="../datafield[@tag='013H']/subfield[@code='0']"/>
-        <xsl:variable name="mt" select="../datafield[@tag='002D']/subfield[@code='b']"/>
+ <!--  Mainz/Hebis 002@$0  --> 
+        <xsl:variable name="type1" select="substring(../datafield[@tag='002@']/subfield[@code='0'], 1, 1)"/>
         <xsl:choose>
-          <xsl:when test="$type12 = 'Ab'">
-            <xsl:choose>
-              <xsl:when test="$pd = 'zt'">Zeitung</xsl:when>
-              <xsl:otherwise>Zeitschrift</xsl:otherwise>
-            </xsl:choose>
-          </xsl:when>
-          <xsl:when test="$type2 = 's'">Aufsatz</xsl:when>
-          <xsl:when test="$type2 = 'c'">Mehrteilige Monografie</xsl:when>
-          <xsl:when test="$type2 = 'd'">Serie</xsl:when>
-          <xsl:when test="$type1 = 'A'">
-            <xsl:choose>
-              <xsl:when test="$pd = 'kart'">Karte(nwerk)</xsl:when>
-              <xsl:when test="$pd = 'lo'">Loseblattwerk</xsl:when>
-              <xsl:when test="$pd = 'muno'">Musiknote</xsl:when>
-              <xsl:otherwise>Buch</xsl:otherwise>
-            </xsl:choose>
-          </xsl:when>
-          <xsl:when test="$type1 = 'B'">
-            <xsl:choose>
-              <xsl:when test="$pd = 'vide' or $mt = 'v'">Film (DVD/Video)</xsl:when>
-              <xsl:when test="$mt = 'g' or $mt = 'n'">Bild(ersammlung)</xsl:when>
-              <xsl:when test="$mt = 'muno'">Musiknote</xsl:when>
-              <xsl:otherwise>Tonträger</xsl:otherwise>
-            </xsl:choose>
-          </xsl:when>
-          <xsl:when test="$type1 = 'C'">Blindenschriftträger</xsl:when>
-          <xsl:when test="$type1 = 'E'">Mikroform</xsl:when>
-          <xsl:when test="$type1 = 'H'">Handschrift</xsl:when>
-          <xsl:when test="$type1 = 'O'">E-Ressource</xsl:when>
-          <xsl:when test="$type1 = 'S'">E-Ressource auf Datenträger</xsl:when>
-          <xsl:when test="$type1 = 'V'">Objekt</xsl:when>
-          <xsl:when test="$type = 'Lax'">Lax</xsl:when>
-          <xsl:otherwise>Nicht spezifiziert</xsl:otherwise>
+          <xsl:when test="($type1 = 'A') or ($type1 = 'H') or ($type1 = 'I')">0 Druckschrift</xsl:when>
+          <xsl:when test="$type1 = 'B'">1 Audiovisuelles Material</xsl:when>
+          <!-- <xsl:when test="$type1 = 'C'">Blindenschriftträger</xsl:when> -->
+          <xsl:when test="$type1 = 'E'">6 Mikroformen</xsl:when>
+          <xsl:when test="$type1 = 'G'">2 Tonträger</xsl:when>
+          <xsl:when test="$type1 = 'K'">4 Karten</xsl:when>
+          <xsl:when test="$type1 = 'M'">5 Noten</xsl:when>
+          <!-- <xsl:when test="$type1 = 'O'">E-Ressource</xsl:when> --> <!-- no items -->
+          <xsl:when test="$type1 = 'S'">3 Computerlesbares Material</xsl:when>
+          <!-- <xsl:when test="$type1 = 'V'">Objekt</xsl:when> -->
+          <xsl:otherwise>9 Sonstiges</xsl:otherwise>
         </xsl:choose>
       </materialTypeId>
       <permanentLoanTypeId>

@@ -332,7 +332,7 @@
                   <arr>
                      <i>
                         <hrid>1083251902</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -723,7 +723,7 @@
                   <arr>
                      <i>
                         <hrid>1115461281</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>3 s Präsenzbestand Lesesaal</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -760,7 +760,7 @@
                   <arr>
                      <i>
                         <hrid>112427944X-17764377</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -786,7 +786,7 @@
                      </i>
                      <i>
                         <hrid>112427944X-17764419</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -812,7 +812,7 @@
                      </i>
                      <i>
                         <hrid>112427944X-17764250</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -838,7 +838,7 @@
                      </i>
                      <i>
                         <hrid>112427944X-17764330</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -864,7 +864,7 @@
                      </i>
                      <i>
                         <hrid>112427944X-17764298</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -1136,7 +1136,7 @@
                   <arr>
                      <i>
                         <hrid>1010643096</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -1443,7 +1443,7 @@
                   <arr>
                      <i>
                         <hrid>1070511676</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -1817,7 +1817,7 @@
                   <arr>
                      <i>
                         <hrid>1141649802</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>3 s Präsenzbestand Lesesaal</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -1854,7 +1854,7 @@
                   <arr>
                      <i>
                         <hrid>1144975972-16551604</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -1871,7 +1871,7 @@
                      </i>
                      <i>
                         <hrid>1144975972-16551616</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -1888,7 +1888,7 @@
                      </i>
                      <i>
                         <hrid>1144975972-16551628</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -2181,7 +2181,7 @@
                   <arr>
                      <i>
                         <hrid>1015406858</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>3 s Präsenzbestand Lesesaal</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -2510,7 +2510,7 @@
                   <arr>
                      <i>
                         <hrid>1052419968</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -2828,7 +2828,7 @@
                   <arr>
                      <i>
                         <hrid>603482163</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -2870,7 +2870,7 @@
                   <arr>
                      <i>
                         <hrid>336705190</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -2907,7 +2907,7 @@
                   <arr>
                      <i>
                         <hrid>262731266</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -3174,7 +3174,7 @@
                   <arr>
                      <i>
                         <hrid>270135464</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -3211,7 +3211,7 @@
                   <arr>
                      <i>
                         <hrid>368079074</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -3947,7 +3947,7 @@
                   <arr>
                      <i>
                         <hrid>113445421X</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -3989,7 +3989,7 @@
                   <arr>
                      <i>
                         <hrid>1130673936</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -4623,7 +4623,7 @@
                   <arr>
                      <i>
                         <hrid>760510180-15888876</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -4649,7 +4649,7 @@
                      </i>
                      <i>
                         <hrid>760510180-15888864</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -4675,7 +4675,7 @@
                      </i>
                      <i>
                         <hrid>760510180-15888906</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -4701,7 +4701,7 @@
                      </i>
                      <i>
                         <hrid>760510180-15888890</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -4727,7 +4727,7 @@
                      </i>
                      <i>
                         <hrid>760510180-15888888</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -4753,7 +4753,7 @@
                      </i>
                      <i>
                         <hrid>760510180-15888670</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -4779,7 +4779,7 @@
                      </i>
                      <i>
                         <hrid>760510180-15888621</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -4805,7 +4805,7 @@
                      </i>
                      <i>
                         <hrid>760510180-15888669</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -4831,7 +4831,7 @@
                      </i>
                      <i>
                         <hrid>760510180-15888657</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -4857,7 +4857,7 @@
                      </i>
                      <i>
                         <hrid>760510180-15888645</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -4883,7 +4883,7 @@
                      </i>
                      <i>
                         <hrid>760510180-15888633</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -4909,7 +4909,7 @@
                      </i>
                      <i>
                         <hrid>760510180-15888566</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -4935,7 +4935,7 @@
                      </i>
                      <i>
                         <hrid>760510180-15888529</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -4961,7 +4961,7 @@
                      </i>
                      <i>
                         <hrid>760510180-15888487</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -4987,7 +4987,7 @@
                      </i>
                      <i>
                         <hrid>760510180-15888852</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -5013,7 +5013,7 @@
                      </i>
                      <i>
                         <hrid>760510180-15888840</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -5039,7 +5039,7 @@
                      </i>
                      <i>
                         <hrid>760510180-15888839</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -5065,7 +5065,7 @@
                      </i>
                      <i>
                         <hrid>760510180-15888580</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -5091,7 +5091,7 @@
                      </i>
                      <i>
                         <hrid>760510180-15888578</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -5117,7 +5117,7 @@
                      </i>
                      <i>
                         <hrid>760510180-15888610</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -5143,7 +5143,7 @@
                      </i>
                      <i>
                         <hrid>760510180-15888797</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -5169,7 +5169,7 @@
                      </i>
                      <i>
                         <hrid>760510180-15888785</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -5195,7 +5195,7 @@
                      </i>
                      <i>
                         <hrid>760510180-15888773</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -5221,7 +5221,7 @@
                      </i>
                      <i>
                         <hrid>760510180-15888827</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -5247,7 +5247,7 @@
                      </i>
                      <i>
                         <hrid>760510180-15888815</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -5273,7 +5273,7 @@
                      </i>
                      <i>
                         <hrid>760510180-15888803</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -5299,7 +5299,7 @@
                      </i>
                      <i>
                         <hrid>760510180-15888608</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -5325,7 +5325,7 @@
                      </i>
                      <i>
                         <hrid>760510180-15888591</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -5351,7 +5351,7 @@
                      </i>
                      <i>
                         <hrid>760510180-15888451</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -5377,7 +5377,7 @@
                      </i>
                      <i>
                         <hrid>760510180-15888440</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -5403,7 +5403,7 @@
                      </i>
                      <i>
                         <hrid>760510180-15888499</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -5429,7 +5429,7 @@
                      </i>
                      <i>
                         <hrid>760510180-15888761</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -5455,7 +5455,7 @@
                      </i>
                      <i>
                         <hrid>760510180-15888750</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -5481,7 +5481,7 @@
                      </i>
                      <i>
                         <hrid>760510180-15888748</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -5507,7 +5507,7 @@
                      </i>
                      <i>
                         <hrid>760510180-15888694</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -5533,7 +5533,7 @@
                      </i>
                      <i>
                         <hrid>760510180-15888682</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -5559,7 +5559,7 @@
                      </i>
                      <i>
                         <hrid>760510180-15888724</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -5585,7 +5585,7 @@
                      </i>
                      <i>
                         <hrid>760510180-15888712</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -5611,7 +5611,7 @@
                      </i>
                      <i>
                         <hrid>760510180-15888700</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -5637,7 +5637,7 @@
                      </i>
                      <i>
                         <hrid>760510180-15888475</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -5663,7 +5663,7 @@
                      </i>
                      <i>
                         <hrid>760510180-15888542</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -5689,7 +5689,7 @@
                      </i>
                      <i>
                         <hrid>760510180-15888554</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -5715,7 +5715,7 @@
                      </i>
                      <i>
                         <hrid>760510180-15888463</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -5741,7 +5741,7 @@
                      </i>
                      <i>
                         <hrid>760510180-15888505</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -5767,7 +5767,7 @@
                      </i>
                      <i>
                         <hrid>760510180-15888530</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -5804,7 +5804,7 @@
                   <arr>
                      <i>
                         <hrid>759702675</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -5841,7 +5841,7 @@
                   <arr>
                      <i>
                         <hrid>760509352</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>3 s Präsenzbestand Lesesaal</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -6213,7 +6213,7 @@
                   <arr>
                      <i>
                         <hrid>1036842541</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -6509,7 +6509,7 @@
                   <arr>
                      <i>
                         <hrid>806517980</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -6826,7 +6826,7 @@
                   <arr>
                      <i>
                         <hrid>564146293</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -7122,7 +7122,7 @@
                   <arr>
                      <i>
                         <hrid>1124014802</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -7563,7 +7563,7 @@
                   <arr>
                      <i>
                         <hrid>1126110477</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>3 s Präsenzbestand Lesesaal</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -7600,7 +7600,7 @@
                   <arr>
                      <i>
                         <hrid>112914383X-17767421</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -7626,7 +7626,7 @@
                      </i>
                      <i>
                         <hrid>112914383X-17767433</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -7652,7 +7652,7 @@
                      </i>
                      <i>
                         <hrid>112914383X-17767457</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -7678,7 +7678,7 @@
                      </i>
                      <i>
                         <hrid>112914383X-17767445</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -7704,7 +7704,7 @@
                      </i>
                      <i>
                         <hrid>112914383X-17767410</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -8337,7 +8337,7 @@
                   <arr>
                      <i>
                         <hrid>565909258</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>3 s Präsenzbestand Lesesaal</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -8374,7 +8374,7 @@
                   <arr>
                      <i>
                         <hrid>565909266-39467400</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -8400,7 +8400,7 @@
                      </i>
                      <i>
                         <hrid>565909266-39467412</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -8426,7 +8426,7 @@
                      </i>
                      <i>
                         <hrid>565909266-39467424</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -8452,7 +8452,7 @@
                      </i>
                      <i>
                         <hrid>565909266-39467436</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -8478,7 +8478,7 @@
                      </i>
                      <i>
                         <hrid>565909266-39467448</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -8504,7 +8504,7 @@
                      </i>
                      <i>
                         <hrid>565909266-39467450</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -8530,7 +8530,7 @@
                      </i>
                      <i>
                         <hrid>565909266-39467461</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -8556,7 +8556,7 @@
                      </i>
                      <i>
                         <hrid>565909266-39467473</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -8582,7 +8582,7 @@
                      </i>
                      <i>
                         <hrid>565909266-39467485</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -8608,7 +8608,7 @@
                      </i>
                      <i>
                         <hrid>565909266-39467527</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -8645,7 +8645,7 @@
                   <arr>
                      <i>
                         <hrid>616740840-12482506</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -8671,7 +8671,7 @@
                      </i>
                      <i>
                         <hrid>616740840-12482518</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -8697,7 +8697,7 @@
                      </i>
                      <i>
                         <hrid>616740840-12482520</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -8723,7 +8723,7 @@
                      </i>
                      <i>
                         <hrid>616740840-12482531</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -8749,7 +8749,7 @@
                      </i>
                      <i>
                         <hrid>616740840-12482543</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -8775,7 +8775,7 @@
                      </i>
                      <i>
                         <hrid>616740840-12482555</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -8801,7 +8801,7 @@
                      </i>
                      <i>
                         <hrid>616740840-12482567</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -8827,7 +8827,7 @@
                      </i>
                      <i>
                         <hrid>616740840-12482579</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -8853,7 +8853,7 @@
                      </i>
                      <i>
                         <hrid>616740840-12482580</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -8879,7 +8879,7 @@
                      </i>
                      <i>
                         <hrid>616740840-12482592</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -8916,7 +8916,7 @@
                   <arr>
                      <i>
                         <hrid>646142364-14247741</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -8933,7 +8933,7 @@
                      </i>
                      <i>
                         <hrid>646142364-14247819</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -8950,7 +8950,7 @@
                      </i>
                      <i>
                         <hrid>646142364-14247820</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -8967,7 +8967,7 @@
                      </i>
                      <i>
                         <hrid>646142364-14247832</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -8984,7 +8984,7 @@
                      </i>
                      <i>
                         <hrid>646142364-14247753</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -9001,7 +9001,7 @@
                      </i>
                      <i>
                         <hrid>646142364-14247789</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -9018,7 +9018,7 @@
                      </i>
                      <i>
                         <hrid>646142364-14247790</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -9035,7 +9035,7 @@
                      </i>
                      <i>
                         <hrid>646142364-14247807</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -9052,7 +9052,7 @@
                      </i>
                      <i>
                         <hrid>646142364-14247765</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -9069,7 +9069,7 @@
                      </i>
                      <i>
                         <hrid>646142364-14247777</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -9097,7 +9097,7 @@
                   <arr>
                      <i>
                         <hrid>566028360</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -9125,7 +9125,7 @@
                   <arr>
                      <i>
                         <hrid>779043049</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -9388,7 +9388,7 @@
                   <arr>
                      <i>
                         <hrid>113674406</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -9680,7 +9680,7 @@
                   <arr>
                      <i>
                         <hrid>1020927992</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>3 s Präsenzbestand Lesesaal</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -10039,10 +10039,10 @@
                   <arr>
                      <i>
                         <hrid>62927178X</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>9 g nicht ausleihbar</permanentLoanTypeId>
                         <status>
-                           <name>Withdrawn</name>
+                           <name>Unavailable</name>
                         </status>
                         <itemLevelCallNumber>29/ AK BIOPHARM./PHARMAZ. TECHN. VX 5100 WUR1 (18)</itemLevelCallNumber>
                         <barcode>11571197</barcode>
@@ -10076,7 +10076,7 @@
                   <arr>
                      <i>
                         <hrid>63069351X</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -10412,7 +10412,7 @@
                   <arr>
                      <i>
                         <hrid>1084012545</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -10654,7 +10654,7 @@
                   <arr>
                      <i>
                         <hrid>1010257188</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -10928,7 +10928,7 @@
                   <arr>
                      <i>
                         <hrid>299786846</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -10965,7 +10965,7 @@
                   <arr>
                      <i>
                         <hrid>376141832</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -11371,7 +11371,7 @@
                   <arr>
                      <i>
                         <hrid>1056542497-17275019</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -11397,7 +11397,7 @@
                      </i>
                      <i>
                         <hrid>1056542497-17275020</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -11423,7 +11423,7 @@
                      </i>
                      <i>
                         <hrid>1056542497-17275007</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -11460,7 +11460,7 @@
                   <arr>
                      <i>
                         <hrid>1048567109</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -11863,7 +11863,7 @@
                   <arr>
                      <i>
                         <hrid>1118270851</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -12285,7 +12285,7 @@
                   <arr>
                      <i>
                         <hrid>1118028570-17281469</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -12311,7 +12311,7 @@
                      </i>
                      <i>
                         <hrid>1118028570-17281470</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -12337,7 +12337,7 @@
                      </i>
                      <i>
                         <hrid>1118028570-17281482</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -12363,7 +12363,7 @@
                      </i>
                      <i>
                         <hrid>1118028570-17281494</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -12389,7 +12389,7 @@
                      </i>
                      <i>
                         <hrid>1118028570-17281500</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
@@ -12426,7 +12426,7 @@
                   <arr>
                      <i>
                         <hrid>1142630676</hrid>
-                        <materialTypeId>Buch</materialTypeId>
+                        <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>9 a bestellt</permanentLoanTypeId>
                         <status>
                            <name>On order</name>

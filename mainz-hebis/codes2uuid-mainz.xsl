@@ -134,7 +134,7 @@
   <xsl:template match="materialTypeId">
     <materialTypeId>
       <xsl:choose>
- <!-- <xsl:when test=".='0 Druckschrift'">24080190-7539-4520-bde1-762f57d006fc</xsl:when> --> 
+        <!-- <xsl:when test=".='0 Druckschrift'">24080190-7539-4520-bde1-762f57d006fc</xsl:when> --> 
         <xsl:when test=".='1 Audiovisuelles Material'">e378db32-4422-405d-bf08-89efd33335fd</xsl:when>
         <xsl:when test=".='2 Tonträger'">baed4206-eef1-4c00-8126-d159a2113a71</xsl:when>
         <xsl:when test=".='3 Computerlesbares Material'">a662fc3c-6a6e-4992-a38b-a74f875204c1</xsl:when>
