@@ -5637,6 +5637,9 @@
           <subfield code="d">c</subfield>
           <subfield code="x">00</subfield>
         </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">BASIS</subfield>
+        </datafield>
         <datafield tag="209G" occurrence="01" fulltag="209G/01">
           <subfield code="a">17275019 (1)</subfield>
           <subfield code="x">00</subfield>

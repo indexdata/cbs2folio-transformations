@@ -256,6 +256,15 @@
           </arr>
         </electronicAccess>
       </xsl:if>
+      <statisticalCodeIds>
+        <arr>
+          <xsl:for-each select="datafield[(@tag='209B') and ((subfield[@code='a']='00015') or (subfield[@code='a']='00016') or (subfield[@code='a']='BASIS'))]">
+            <i>
+              <xsl:value-of select="./subfield[@code='a']"/>
+            </i>
+          </xsl:for-each>
+        </arr>
+      </statisticalCodeIds>
     </i>
   </xsl:template>
  
