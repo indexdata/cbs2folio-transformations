@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output indent="yes" method="xml" version="1.0" encoding="UTF-8"/>
+  <xsl:param name="cbs" select="'hebis'"></xsl:param>
+  <!-- hebis/K10plus -->
   <xsl:template match="collection">
     <collection>
       <xsl:apply-templates/>
@@ -26,7 +28,7 @@
     </record>
   </xsl:template>
   <xsl:template match="metadata">
-    <source>K10plus</source>
+    <source><xsl:value-of select="$cbs"/></source>
     <xsl:variable name="ppn" select="datafield[@tag='003@']/subfield[@code='0']"/>
     <hrid>
       <xsl:value-of select="$ppn"/>
@@ -844,7 +846,8 @@
     <!-- Electronic access -->
     <electronicAccess>
       <arr>
-        <xsl:for-each select="datafield[@tag='009P' or @tag='017C' or @tag='017M' or @tag='017R']">
+        <!-- Hebis added -->
+        <xsl:for-each select="datafield[(($cbs='K10plus') and (@tag='009P' or @tag='017C' or @tag='017M' or @tag='017R')) or (($cbs='hebis') and (@tag='009Q'))]">
           <xsl:if test="./@tag='009P' and ./subfield[@code='a']">
             <i>
               <uri>
@@ -902,6 +905,14 @@
 			  </linkText>
               <relationshipId>f781cb3d-af16-40f6-9d02-c24204ac6fdc</relationshipId>
 			  <!-- Rechteinformation -->
+            </i>
+          </xsl:if>
+          <xsl:if test="./@tag='009Q' and ./subfield[@code='u']">
+            <i>
+              <uri>
+                <xsl:value-of select="./subfield[@code='u']"/>
+              </uri>
+              <relationshipId>f5d0068e-6272-458e-8a81-b85e7b9a14aa</relationshipId>
             </i>
           </xsl:if>
         </xsl:for-each>
