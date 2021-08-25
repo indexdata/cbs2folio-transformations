@@ -22,7 +22,7 @@
         <xsl:when test=".='FBGESANG'">86f574fa-7ff2-4e54-a248-1867184b7139</xsl:when>
         <xsl:when test=".='FBGTEM'">9c231ef4-d653-4b1a-839b-8375307b8bc7</xsl:when>
         <xsl:when test=".='FBIGL'">bb1e44b8-d9ab-4660-8758-b3adf2f70132</xsl:when>
-        <xsl:when test=".='FBIGL'">f3956a73-496a-4ffc-aa28-f638b54987f4</xsl:when>
+        <xsl:when test=".='FBKUNST'">f3956a73-496a-4ffc-aa28-f638b54987f4</xsl:when>
         <xsl:when test=".='FBMPI'">404d2702-7cab-4086-b758-352988354e94</xsl:when>
         <xsl:when test=".='FBPSY'">ef19f548-1910-470a-b5bc-9c71421388bf</xsl:when>
         <xsl:when test=".='FBVFGE'">3b92f4b4-b21b-4c58-b968-727a03f0dfec</xsl:when>
