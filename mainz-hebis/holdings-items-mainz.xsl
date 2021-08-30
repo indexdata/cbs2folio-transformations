@@ -319,6 +319,7 @@
             <xsl:when test="datafield[@tag='209A']/subfield[@code='d']='e'">Missing</xsl:when>
             <xsl:when test="datafield[@tag='209A']/subfield[@code='d']='z'">Withdrawn</xsl:when>
 			<xsl:when test="datafield[@tag='209A']/subfield[@code='d']='g'">Unavailable</xsl:when>
+			<xsl:when test="substring(datafield[@tag='208@']/subfield[@code='b'],1,1) = 'd'">Intellectual item</xsl:when>
             <xsl:otherwise>Available</xsl:otherwise>
           </xsl:choose>
         </name>
