@@ -82,6 +82,7 @@
 		  </arr>
 	    </xsl:if>
       </holdingsStatements>
+	  <sourceId>K10plus</sourceId>
       <items>
         <arr>
           <xsl:choose>
