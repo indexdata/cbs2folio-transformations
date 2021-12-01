@@ -13,33 +13,33 @@
    <xsl:template match="permanentLocationId">
     <permanentLocationId>
       <xsl:choose>
-        <xsl:when test=".='A:'">66fa1e3d-821d-4a01-b7f4-c2745ec262e0</xsl:when>
-        <xsl:when test=".='H:'">d88b46ae-8f03-4ceb-b957-710ecc9c4840</xsl:when>
-        <xsl:when test=".='H:a'">d88b46ae-8f03-4ceb-b957-710ecc9c4840</xsl:when>
-        <xsl:when test=".='H:acq'">d88b46ae-8f03-4ceb-b957-710ecc9c4840</xsl:when>
-        <xsl:when test=".='H:c'">d88b46ae-8f03-4ceb-b957-710ecc9c4840</xsl:when>
-        <xsl:when test=".='H:e'">d88b46ae-8f03-4ceb-b957-710ecc9c4840</xsl:when>
-        <xsl:when test=".='H:edz'">d88b46ae-8f03-4ceb-b957-710ecc9c4840</xsl:when>
-        <xsl:when test=".='H:ls'">6acc1cb2-19a2-4079-902c-a4c912c9e70f</xsl:when>
-		<xsl:when test=".='H:lz'">d88b46ae-8f03-4ceb-b957-710ecc9c4840</xsl:when>
-		<xsl:when test=".='H:p'">d88b46ae-8f03-4ceb-b957-710ecc9c4840</xsl:when>
-		<xsl:when test=".='H:pb'">d88b46ae-8f03-4ceb-b957-710ecc9c4840</xsl:when>
-		<xsl:when test=".='H:s'">d88b46ae-8f03-4ceb-b957-710ecc9c4840</xsl:when>
-		<xsl:when test=".='H:za'">d88b46ae-8f03-4ceb-b957-710ecc9c4840</xsl:when>
-		<xsl:when test=".='K:'">e5162952-0c2f-4563-9286-14d3c1414327</xsl:when>
-		<xsl:when test=".='K:a'">e5162952-0c2f-4563-9286-14d3c1414327</xsl:when>
-		<xsl:when test=".='K:acq'">e5162952-0c2f-4563-9286-14d3c1414327</xsl:when>
-		<xsl:when test=".='K:c'">e5162952-0c2f-4563-9286-14d3c1414327</xsl:when>
-		<xsl:when test=".='K:e'">e5162952-0c2f-4563-9286-14d3c1414327</xsl:when>
-		<xsl:when test=".='K:edz'">e5162952-0c2f-4563-9286-14d3c1414327</xsl:when>
-		<xsl:when test=".='K:i'">e5162952-0c2f-4563-9286-14d3c1414327</xsl:when>
-		<xsl:when test=".='K:k'">e5162952-0c2f-4563-9286-14d3c1414327</xsl:when>
-		<xsl:when test=".='K:ls'">e5162952-0c2f-4563-9286-14d3c1414327</xsl:when>
-		<xsl:when test=".='K:p'">e5162952-0c2f-4563-9286-14d3c1414327</xsl:when>
-		<xsl:when test=".='K:pb'">e5162952-0c2f-4563-9286-14d3c1414327</xsl:when>
-		<xsl:when test=".='K:s'">e5162952-0c2f-4563-9286-14d3c1414327</xsl:when>
-		<xsl:when test=".='K:zpb'">e5162952-0c2f-4563-9286-14d3c1414327</xsl:when>
-		<xsl:otherwise>fdcdb3bd-6b89-4646-ad46-601e3fedc8eb</xsl:otherwise>
+        <xsl:when test=".='A:'">3c4667f4-f634-4e6e-b1b5-2c489c60614f</xsl:when>
+        <xsl:when test=".='H:'">dec1fac9-68dd-4483-9952-7242be6fe257</xsl:when>
+        <xsl:when test=".='H:a'">dec1fac9-68dd-4483-9952-7242be6fe257</xsl:when>
+        <xsl:when test=".='H:acq'">dec1fac9-68dd-4483-9952-7242be6fe257</xsl:when>
+        <xsl:when test=".='H:c'">dec1fac9-68dd-4483-9952-7242be6fe257</xsl:when>
+        <xsl:when test=".='H:e'">dec1fac9-68dd-4483-9952-7242be6fe257</xsl:when>
+        <xsl:when test=".='H:edz'">dec1fac9-68dd-4483-9952-7242be6fe257</xsl:when>
+        <xsl:when test=".='H:ls'">20324cea-5ae5-4c40-9ba7-d2ab34ccbfff</xsl:when>
+		<xsl:when test=".='H:lz'">dec1fac9-68dd-4483-9952-7242be6fe257</xsl:when>
+		<xsl:when test=".='H:p'">dec1fac9-68dd-4483-9952-7242be6fe257</xsl:when>
+		<xsl:when test=".='H:pb'">dec1fac9-68dd-4483-9952-7242be6fe257</xsl:when>
+		<xsl:when test=".='H:s'">dec1fac9-68dd-4483-9952-7242be6fe257</xsl:when>
+		<xsl:when test=".='H:za'">dec1fac9-68dd-4483-9952-7242be6fe257</xsl:when>
+		<xsl:when test=".='K:'">ea56f9db-1acf-4c20-8b33-c008018f4699</xsl:when>
+		<xsl:when test=".='K:a'">ea56f9db-1acf-4c20-8b33-c008018f4699</xsl:when>
+		<xsl:when test=".='K:acq'">ea56f9db-1acf-4c20-8b33-c008018f4699</xsl:when>
+		<xsl:when test=".='K:c'">ea56f9db-1acf-4c20-8b33-c008018f4699</xsl:when>
+		<xsl:when test=".='K:e'">ea56f9db-1acf-4c20-8b33-c008018f4699</xsl:when>
+		<xsl:when test=".='K:edz'">ea56f9db-1acf-4c20-8b33-c008018f4699</xsl:when>
+		<xsl:when test=".='K:i'">ea56f9db-1acf-4c20-8b33-c008018f4699</xsl:when>
+		<xsl:when test=".='K:k'">ea56f9db-1acf-4c20-8b33-c008018f4699</xsl:when>
+		<xsl:when test=".='K:ls'">ea56f9db-1acf-4c20-8b33-c008018f4699</xsl:when>
+		<xsl:when test=".='K:p'">ea56f9db-1acf-4c20-8b33-c008018f4699</xsl:when>
+		<xsl:when test=".='K:pb'">ea56f9db-1acf-4c20-8b33-c008018f4699</xsl:when>
+		<xsl:when test=".='K:s'">ea56f9db-1acf-4c20-8b33-c008018f4699</xsl:when>
+		<xsl:when test=".='K:zpb'">ea56f9db-1acf-4c20-8b33-c008018f4699</xsl:when>
+		<xsl:otherwise>184aae84-a5bf-4c6a-85ba-4a7c73026cd5</xsl:otherwise>
       </xsl:choose>
     </permanentLocationId>
   </xsl:template>
