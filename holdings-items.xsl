@@ -178,7 +178,8 @@
           <xsl:choose>
             <xsl:when test="datafield[@tag='209A']/subfield[@code='d']='a'">On order</xsl:when>
             <xsl:when test="datafield[@tag='209A']/subfield[@code='d']='z'">Missing</xsl:when>
-            <xsl:when test="datafield[@tag='209A']/subfield[@code='d']='g'">Withdrawn</xsl:when>
+            <xsl:when test="datafield[@tag='209A']/subfield[@code='d']='g'">Restricted</xsl:when>
+			<xsl:when test="datafield[@tag='209A']/subfield[@code='d']='o'">Unknown</xsl:when>
             <xsl:otherwise>Available</xsl:otherwise>
           </xsl:choose>
         </name>
