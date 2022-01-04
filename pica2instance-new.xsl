@@ -410,9 +410,9 @@
       <xsl:when test="$cbs='hebis'">
         <identifiers>
           <arr>
-            <xsl:for-each select="datafield[@tag='003S' or @tag='003@' or @tag='004A' or @tag='004O' or @tag='004J' or @tag='004K' or @tag='004D' or @tag='005A' or @tag='005I' or @tag='005P' or @tag='005B' or @tag='004F' or @tag='004M' or @tag='004I' or @tag='006A' or @tag='007D' or @tag='006G' or @tag='006T' or @tag='006U' or @tag='006Z' or @tag='006S' or @tag='006L' or @tag='006X' or @tag='006V' or @tag='006W' or @tag='006M' or @tag='006N' or @tag='006Y' or @tag='004W' or @tag='004L' or @tag='004C' or @tag='007Y' or @tag='003O' or @tag='003T' or @tag='003D' or @tag='007C' or @tag='007A' or @tag='017B']">
+            <xsl:for-each select="datafield[@tag='003@' or @tag='004A' or @tag='004O' or @tag='004G' or @tag='004K' or @tag='004D' or @tag='005A' or @tag='005I' or @tag='005P' or @tag='005B' or @tag='004F' or @tag='004H' or @tag='004I' or @tag='006A' or @tag='004S' or @tag='006G' or @tag='006T' or @tag='006U' or @tag='006Z' or @tag='006M' or @tag='006N' or @tag='006Y' or @tag='004W' or @tag='004L' or @tag='004C' or @tag='003O' or @tag='007C' or @tag='007A' or @tag='017B']">
               <xsl:choose>
-                <xsl:when test="./@tag='004A' or @tag='004D' or @tag='004O' or @tag='005A' or @tag='005P' or @tag='005B' or @tag='004F' or @tag='004I'">
+                <xsl:when test="./@tag='004A' or @tag='004D' or @tag='004O' or @tag='005A' or @tag='005P' or @tag='005B' or @tag='004G' or @tag='004H' or @tag='004F' or @tag='004I'">
                   <xsl:for-each select="./subfield[@code='0'] | ./subfield[@code='A'] | ./subfield[@code='f']">
                     <xsl:if test="not(@code='f' and (../subfield[@code='0'] or ../subfield[@code='A']))">
                       <xsl:variable name="id-value">
@@ -443,6 +443,8 @@
                           <xsl:when test="../@tag='005P' and ./subfield[@code='S']='f'">Formal falsche ISSN einer parallelen Ausgabe</xsl:when>
                           <xsl:when test="../@tag='005P'">ISSN einer Manifestation in anderer physischer Form</xsl:when>
                           <xsl:when test="../@tag='004D'">Invalid ISBN</xsl:when>
+						  <xsl:when test="../@tag='004G'">ISBN der Sekundärausgabe</xsl:when>
+						  <xsl:when test="../@tag='004H'">Formal falsche ISBN der Sekundärausgabe</xsl:when>
                           <xsl:when test="../@tag='004F'">ISMN</xsl:when>
                           <xsl:when test="../@tag='004I'">Formal falsche ISMN</xsl:when>
                         </xsl:choose>
@@ -500,32 +502,23 @@
                   <xsl:variable name="id-type">
                     <xsl:choose>
                       <xsl:when test="./@tag='003O'">OCLC</xsl:when>
-                      <xsl:when test="./@tag='003S'">PPN SWB</xsl:when>
                       <xsl:when test="./@tag='003@'">PPN</xsl:when>
-                      <xsl:when test="./@tag='004J'">ISBN der Reproduktion</xsl:when>
-                      <xsl:when test="./@tag='004K'">Formal falsche ISBN der Reproduktion</xsl:when>
                       <xsl:when test="./@tag='005I'">Autorisierte ISSN</xsl:when>
                       <xsl:when test="./@tag='006A'">LCCN</xsl:when>
                       <xsl:when test="./@tag='006G'">DNB-Nummer</xsl:when>
-                      <xsl:when test="./@tag='004W'">Digital Object Identifier (DOI) im Druckwerk</xsl:when>
-                      <xsl:when test="./@tag='003T'">SWB-OCLC-Nummer</xsl:when>
+                      <xsl:when test="./@tag='004W'">ISBN-A</xsl:when>
                       <xsl:when test="./@tag='006T'">CIP-Nummer</xsl:when>
                       <xsl:when test="./@tag='006U'">WV-Nummer</xsl:when>
                       <xsl:when test="./@tag='006Z'">ZDB-Nummer</xsl:when>
-                      <xsl:when test="./@tag='006S'">SWB-PPN des umgelenkten Satzes</xsl:when>
-                      <xsl:when test="./@tag='006L'">Weitere Verbundidentnummern</xsl:when>
-                      <xsl:when test="./@tag='006X'">Identnummern weiterer Fremddatenlieferanten</xsl:when>
-                      <xsl:when test="./@tag='003D'">PPN des umgelenkten GBV- bzw. K10plus-Satzes</xsl:when>
+                      <xsl:when test="./@tag='007I'">Fremddaten-Identifikations-Nummer</xsl:when>
                       <xsl:when test="./@tag='006N'">Swets-Nummer</xsl:when>
-                      <xsl:when test="./@tag='006V'">VD16-Nummer</xsl:when>
-                      <xsl:when test="./@tag='006W'">VD17-Nummer</xsl:when>
+                      <xsl:when test="./@tag='004L'">Bibliographischer Nachweis alter Drucke</xsl:when>
                       <xsl:when test="./@tag='006M'">VD18-Nummer</xsl:when>
-                      <xsl:when test="./@tag='007Y'">Sonstige Standardnummern</xsl:when>
-                      <xsl:when test="./@tag='006Y'">Identnummern (allgemein)</xsl:when>
+                      <xsl:when test="./@tag='006Y'">Sonstige Standardnummern</xsl:when>
                       <xsl:when test="./@tag='007C'">CODEN</xsl:when>
-                      <xsl:when test="./@tag='004L'">GTIN (vormals EAN)</xsl:when>
+                      <xsl:when test="./@tag='004K'">EAN</xsl:when>
                       <xsl:when test="./@tag='004C'">Universal Product Code (UPC)</xsl:when>
-                      <xsl:when test="./@tag='007D'">Verlags-, Produktions- und Bestellnummer</xsl:when>
+                      <xsl:when test="./@tag='004S'">International Standard Recording Code (ISRC)</xsl:when>
                     </xsl:choose>
                   </xsl:variable>
                   <xsl:if test="string-length($id-value) &gt; 0">
