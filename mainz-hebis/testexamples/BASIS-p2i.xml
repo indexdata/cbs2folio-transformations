@@ -4329,7 +4329,7 @@
                         <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>ausleihbar/Fernleihe</permanentLoanTypeId>
                         <status>
-                           <name>Available</name>
+                           <name>Intellectual item</name>
                         </status>
                         <itemLevelCallNumber>Ya 7251</itemLevelCallNumber>
                         <barcode/>
@@ -10208,7 +10208,7 @@
                         <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>ausleihbar/Fernleihe</permanentLoanTypeId>
                         <status>
-                           <name>Available</name>
+                           <name>Intellectual item</name>
                         </status>
                         <itemLevelCallNumber>Z 373</itemLevelCallNumber>
                         <barcode/>
@@ -13267,7 +13267,7 @@
                         <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>5 i nur für den Lesesaal</permanentLoanTypeId>
                         <status>
-                           <name>Available</name>
+                           <name>Intellectual item</name>
                         </status>
                         <itemLevelCallNumber>Z 603</itemLevelCallNumber>
                         <barcode/>
@@ -13306,7 +13306,7 @@
                         <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>3 s Präsenzbestand Lesesaal</permanentLoanTypeId>
                         <status>
-                           <name>Available</name>
+                           <name>Intellectual item</name>
                         </status>
                         <itemLevelCallNumber>Z 872</itemLevelCallNumber>
                         <barcode/>
@@ -24142,7 +24142,7 @@
                         <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>ausleihbar/Fernleihe</permanentLoanTypeId>
                         <status>
-                           <name>Available</name>
+                           <name>Intellectual item</name>
                         </status>
                         <itemLevelCallNumber>FZ 1325</itemLevelCallNumber>
                         <barcode/>
