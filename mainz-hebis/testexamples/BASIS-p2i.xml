@@ -11333,7 +11333,8 @@
             <i>
                <hrid>113674406</hrid>
                <permanentLocationId>ZBMAG</permanentLocationId>
-               <callNumber>4° BB 1129</callNumber>
+               <prefix>4°</prefix>
+               <callNumber>BB 1129</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
                <items>
@@ -11345,7 +11346,8 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>4° BB 1129</itemLevelCallNumber>
+                        <itemLevelCallNumberPrefix>4°</itemLevelCallNumberPrefix>
+                        <itemLevelCallNumber>BB 1129</itemLevelCallNumber>
                         <barcode>34414860</barcode>
                         <copyNumber/>
                         <volume/>
@@ -11864,7 +11866,7 @@
             <i>
                <hrid>1048567109</hrid>
                <permanentLocationId>RW</permanentLocationId>
-               <callNumber>36 XX/r 5 7.Aufl. </callNumber>
+               <callNumber>36 XX/r 5 7.Aufl.</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
                <items>
@@ -11876,7 +11878,7 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>36 XX/r 5 7.Aufl. </itemLevelCallNumber>
+                        <itemLevelCallNumber>36 XX/r 5 7.Aufl.</itemLevelCallNumber>
                         <barcode/>
                         <copyNumber/>
                         <volume/>
@@ -23077,7 +23079,7 @@
             <i>
                <hrid>113445421X</hrid>
                <permanentLocationId>RW</permanentLocationId>
-               <callNumber>19 J/l 42 4.Aufl. </callNumber>
+               <callNumber>19 J/l 42 4.Aufl.</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
                <items>
@@ -23089,7 +23091,7 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>19 J/l 42 4.Aufl. </itemLevelCallNumber>
+                        <itemLevelCallNumber>19 J/l 42 4.Aufl.</itemLevelCallNumber>
                         <barcode/>
                         <copyNumber/>
                         <volume/>
