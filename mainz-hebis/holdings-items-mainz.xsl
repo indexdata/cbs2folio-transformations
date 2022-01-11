@@ -195,10 +195,10 @@
       </xsl:variable>
        <xsl:if test="not($electronicholding) and ($lcode!='DUMMY')">
          <xsl:if test="string-length($cnprefix)>0">
-          <prefix> <!-- TBD: Element Name -->
+          <callNumberPrefix> <!-- TBD: Element Name -->
             <xsl:value-of select="$cnprefix"/>
             <xsl:message>Debug: Prefix "<xsl:value-of select="$cnprefix"/>"</xsl:message>
-          </prefix>
+          </callNumberPrefix>
          </xsl:if>
          <callNumber>
            <xsl:value-of select="$cn"/>
