@@ -197,7 +197,6 @@
 		  </arr>
 	    </xsl:if>
       </holdingsStatements>
-      <sourceId>hebis</sourceId>	    
       <xsl:if test="not($electronicholding)">
          <items>
            <arr>
