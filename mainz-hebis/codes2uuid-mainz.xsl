@@ -624,5 +624,16 @@
       </xsl:choose>
     </holdingsTypeId>
   </xsl:template>
+
+  <!-- Map holdings source -->
+  <xsl:template match="sourceId">
+    <sourceId>
+      <xsl:choose>
+        <xsl:when test=".='hebis'">ed96edb1-d91d-4a31-9c40-006f5199d782</xsl:when>
+        <xsl:otherwise>f32d531e-df79-46b3-8932-cdd35f7a2264</xsl:otherwise>
+      </xsl:choose>
+    </sourceId>
+  </xsl:template>
+	ed96edb1-d91d-4a31-9c40-006f5199d782
   <xsl:template match="original"/>
 </xsl:stylesheet>
