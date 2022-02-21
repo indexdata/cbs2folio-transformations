@@ -177,7 +177,14 @@
         <name>
           <xsl:choose>
             <xsl:when test="datafield[@tag='209A']/subfield[@code='d']='a'">On order</xsl:when>
-            <xsl:when test="datafield[@tag='209A']/subfield[@code='d']='z'">Missing</xsl:when>
+			<xsl:when test="datafield[@tag='209A']/subfield[@code='d']='u'">Available</xsl:when>
+			<xsl:when test="datafield[@tag='209A']/subfield[@code='d']='b'">Available</xsl:when>
+			<xsl:when test="datafield[@tag='209A']/subfield[@code='d']='c'">Available</xsl:when>
+			<xsl:when test="datafield[@tag='209A']/subfield[@code='d']='s'">Available</xsl:when>
+			<xsl:when test="datafield[@tag='209A']/subfield[@code='d']='d'">Available</xsl:when>
+			<xsl:when test="datafield[@tag='209A']/subfield[@code='d']='i'">Available</xsl:when>
+			<xsl:when test="datafield[@tag='209A']/subfield[@code='d']='f'">Available</xsl:when>
+			<xsl:when test="datafield[@tag='209A']/subfield[@code='d']='z'">Missing</xsl:when>
             <xsl:when test="datafield[@tag='209A']/subfield[@code='d']='g'">Restricted</xsl:when>
 			<xsl:when test="datafield[@tag='209A']/subfield[@code='d']='o'">Unknown</xsl:when>
             <xsl:otherwise>Available</xsl:otherwise>
