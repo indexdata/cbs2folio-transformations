@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output indent="yes" method="xml" version="1.0" encoding="UTF-8"/>
-  <xsl:param name="cbs" select="'hebis'"></xsl:param>
+  <xsl:param name="cbs" select="'K10plus'"></xsl:param>
   <!-- hebis/K10plus -->
   <xsl:template match="collection">
     <collection>
