@@ -170,9 +170,39 @@
           <xsl:otherwise><xsl:value-of select="$lcode"/></xsl:otherwise>
         </xsl:choose>
       </permanentLocationId>
-      <xsl:if test="not($electronicholding) and ($lcode!='DUMMY')">
+      <xsl:variable name="cnprefix">
+        <xsl:choose>
+          <xsl:when test="contains(datafield[@tag='209A']/subfield[@code='a'],'°')">
+            <xsl:value-of select="concat(normalize-space(translate(substring-before(datafield[@tag='209A']/subfield[@code='a'],'°'),'@','')),'°')"/>
+          </xsl:when>
+          <xsl:when test="contains(datafield[@tag='209A']/subfield[@code='a'],'@')">
+              <xsl:value-of select="normalize-space(substring-before(datafield[@tag='209A']/subfield[@code='a'],'@'))"/> 
+          </xsl:when>
+        </xsl:choose>
+      </xsl:variable>
+      <xsl:variable name="cn">
+        <xsl:choose>
+          <xsl:when test="contains(datafield[@tag='209A']/subfield[@code='a'],'°')">
+            <xsl:value-of select="normalize-space(translate(substring-after(datafield[@tag='209A']/subfield[@code='a'],'°'),'@',''))"/>
+          </xsl:when>
+          <xsl:when test="contains(datafield[@tag='209A']/subfield[@code='a'],'@')">
+            <xsl:value-of select="normalize-space(translate(substring-after(datafield[@tag='209A']/subfield[@code='a'],'@'),'@',''))"/>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:value-of select="normalize-space(datafield[@tag='209A']/subfield[@code='a'])"/>
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:variable>
+       <xsl:if test="not($electronicholding) and ($lcode!='DUMMY')">
+         <xsl:if test="string-length($cnprefix)>0">
+          <callNumberPrefix> <!-- TBD: Element Name -->
+            <xsl:value-of select="$cnprefix"/>
+            <xsl:message>Debug: Prefix "<xsl:value-of select="$cnprefix"/>"</xsl:message>
+          </callNumberPrefix>
+         </xsl:if>
          <callNumber>
-            <xsl:value-of select="datafield[@tag='209A']/subfield[@code='a']"/>
+           <xsl:value-of select="$cn"/>
+           <xsl:message>Debug: Call Number "<xsl:value-of select="$cn"/>"</xsl:message>
          </callNumber>
       </xsl:if>
 	    <holdingsTypeId>
@@ -197,6 +227,7 @@
 		  </arr>
 	    </xsl:if>
       </holdingsStatements>
+      <sourceId>hebis</sourceId>
       <xsl:if test="not($electronicholding)">
          <items>
            <arr>
@@ -210,12 +241,16 @@
                   <xsl:with-param name="hhrid" select="concat($hhrid, '-', substring-before(.,' '))"/>
                   <xsl:with-param name="bcode" select="substring-before(.,' ')"/>
                   <xsl:with-param name="copy" select="substring-before(substring-after(.,'('),')')"/>
+                  <xsl:with-param name="cnprefix" select="$cnprefix"/>
+                  <xsl:with-param name="cn" select="$cn"/>
                   </xsl:apply-templates>
                 </xsl:for-each>
               </xsl:when>
               <xsl:otherwise>
                 <xsl:apply-templates select="." mode="make-item">
                   <xsl:with-param name="hhrid" select="$hhrid"/>
+                  <xsl:with-param name="cnprefix" select="$cnprefix"/>
+                  <xsl:with-param name="cn" select="$cn"/>
                 </xsl:apply-templates>
                 </xsl:otherwise>
              </xsl:choose>          
@@ -273,6 +308,8 @@
 <!-- Hebis 209G$a -->   
     <xsl:param name="bcode" select="substring-before(concat(datafield[(@tag='209G') and (subfield[@code='x']='00')]/subfield[@code='a'],' '),' ')"/>
     <xsl:param name="copy" select="''"/> <!-- oder kann hier eine copy-Information kommen? -->
+    <xsl:param name="cnprefix"/>
+    <xsl:param name="cn"/>
     <xsl:message>Debug: <xsl:value-of select="concat($hhrid,'#',$bcode,'#',$copy)"/></xsl:message>
     <i>
       <hrid>
@@ -315,17 +352,23 @@
       <status>
         <name>
           <xsl:choose>
+            <xsl:when test="substring(datafield[@tag='208@']/subfield[@code='b'],1,1) = 'd'">Intellectual item</xsl:when>
+            <xsl:when test="substring(datafield[@tag='208@']/subfield[@code='b'],1,1) = 'p'">Intellectual item</xsl:when>
             <xsl:when test="datafield[@tag='209A']/subfield[@code='d']='a'">On order</xsl:when>
             <xsl:when test="datafield[@tag='209A']/subfield[@code='d']='e'">Missing</xsl:when>
             <xsl:when test="datafield[@tag='209A']/subfield[@code='d']='z'">Withdrawn</xsl:when>
-			<xsl:when test="datafield[@tag='209A']/subfield[@code='d']='g'">Unavailable</xsl:when>
-			<xsl:when test="substring(datafield[@tag='208@']/subfield[@code='b'],1,1) = 'd'">Intellectual item</xsl:when>
+      	 		<xsl:when test="datafield[@tag='209A']/subfield[@code='d']='g'">Unavailable</xsl:when>
             <xsl:otherwise>Available</xsl:otherwise>
           </xsl:choose>
         </name>
       </status>
+      <xsl:if test="string-length($cnprefix)>0">
+        <itemLevelCallNumberPrefix> <!-- TBD: Element Name -->
+          <xsl:value-of select="$cnprefix"/>
+        </itemLevelCallNumberPrefix>
+      </xsl:if>
       <itemLevelCallNumber>
-        <xsl:value-of select="datafield[@tag='209A']/subfield[@code='a']"/>
+        <xsl:value-of select="$cn"/>
       </itemLevelCallNumber>
       <barcode>
         <xsl:value-of select="$bcode"/>

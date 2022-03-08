@@ -204,6 +204,14 @@
                   <value>2936581-8</value>
                   <identifierTypeId>ZDB-Nummer</identifierTypeId>
                </i>
+               <i>
+                  <value>ZDB: 2936581-8</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
+               </i>
+               <i>
+                  <value>ZDB-1-EIC</value>
+                  <identifierTypeId>Produktsigel für Pakete von Online-Ressourcen</identifierTypeId>
+               </i>
             </arr>
          </identifiers>
          <indexTitle>East India Company</indexTitle>
@@ -469,8 +477,16 @@
                   <identifierTypeId>OCLC</identifierTypeId>
                </i>
                <i>
+                  <value>978-90-450-0481-5</value>
+                  <identifierTypeId>ISBN</identifierTypeId>
+               </i>
+               <i>
                   <value>90-450-0481-X</value>
                   <identifierTypeId>ISBN</identifierTypeId>
+               </i>
+               <i>
+                  <value>HEB: 226193802</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -788,16 +804,20 @@
                   <identifierTypeId>OCLC</identifierTypeId>
                </i>
                <i>
-                  <value>Paperback</value>
+                  <value>978-1-108-44610-5 Paperback</value>
                   <identifierTypeId>ISBN</identifierTypeId>
                </i>
                <i>
-                  <value>Hardback</value>
+                  <value>978-1-108-42736-4 Hardback</value>
                   <identifierTypeId>ISBN</identifierTypeId>
                </i>
                <i>
-                  <value>GBC005585</value>
-                  <identifierTypeId/>
+                  <value>978-1-316-99779-6 E-Book</value>
+                  <identifierTypeId>ISBN einer Manifestation in anderer physischer Form</identifierTypeId>
+               </i>
+               <i>
+                  <value>HEB: 460686119</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -1071,6 +1091,10 @@
                   <value>90533396</value>
                   <identifierTypeId>OCLC</identifierTypeId>
                </i>
+               <i>
+                  <value>HEB: 104122676</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
+               </i>
             </arr>
          </identifiers>
          <indexTitle>Teatro António Pedro. Coord. de António Brás de Oliveira. Pref. de Luiz Francisco Rebello</indexTitle>
@@ -1313,6 +1337,10 @@
                <i>
                   <value>11,H06</value>
                   <identifierTypeId>WV-Nummer</identifierTypeId>
+               </i>
+               <i>
+                  <value>DNB: 1006184686</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -1597,6 +1625,10 @@
                   <value>3040993-7</value>
                   <identifierTypeId>ZDB-Nummer</identifierTypeId>
                </i>
+               <i>
+                  <value>ZDB: 3040993-7</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
+               </i>
             </arr>
          </identifiers>
          <indexTitle>Corona und COVID-19 plus</indexTitle>
@@ -1864,6 +1896,26 @@
                <i>
                   <value>1240212241</value>
                   <identifierTypeId>OCLC</identifierTypeId>
+               </i>
+               <i>
+                  <value>978-3-8385-5556-0</value>
+                  <identifierTypeId>ISBN</identifierTypeId>
+               </i>
+               <i>
+                  <value>BVB: BV047169505</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
+               </i>
+               <i>
+                  <value>ZDB-41-UTB</value>
+                  <identifierTypeId>Produktsigel für Pakete von Online-Ressourcen</identifierTypeId>
+               </i>
+               <i>
+                  <value>ZDB-41-UTBF</value>
+                  <identifierTypeId>Produktsigel für Pakete von Online-Ressourcen</identifierTypeId>
+               </i>
+               <i>
+                  <value>ZDB-41-UTBF21-1</value>
+                  <identifierTypeId>Produktsigel für Pakete von Online-Ressourcen</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -2603,12 +2655,8 @@
                   <identifierTypeId>WV-Nummer</identifierTypeId>
                </i>
                <i>
-                  <value>: AT00122F76</value>
-                  <identifierTypeId>Identnummer der erstkatalogisierenden Institution</identifierTypeId>
-               </i>
-               <i>
-                  <value>: AT00122F76</value>
-                  <identifierTypeId>Identnummer der erstkatalogisierenden Institution</identifierTypeId>
+                  <value>HEB: 107596806</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -3628,12 +3676,8 @@
                   <identifierTypeId>ISBN</identifierTypeId>
                </i>
                <i>
-                  <value>: AT00123196</value>
-                  <identifierTypeId>Identnummer der erstkatalogisierenden Institution</identifierTypeId>
-               </i>
-               <i>
-                  <value>: AT00123196</value>
-                  <identifierTypeId>Identnummer der erstkatalogisierenden Institution</identifierTypeId>
+                  <value>HEB: 117469521</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -4200,6 +4244,10 @@
                   <value>3037040-1</value>
                   <identifierTypeId>ZDB-Nummer</identifierTypeId>
                </i>
+               <i>
+                  <value>ZDB: 3037040-1</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
+               </i>
             </arr>
          </identifiers>
          <indexTitle>Jahrbuch Deutsche Einheit Marcus Böick, Constantin Goschler, Ralph Jessen (Hg.)</indexTitle>
@@ -4281,7 +4329,7 @@
                         <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>ausleihbar/Fernleihe</permanentLoanTypeId>
                         <status>
-                           <name>Available</name>
+                           <name>Intellectual item</name>
                         </status>
                         <itemLevelCallNumber>Ya 7251</itemLevelCallNumber>
                         <barcode/>
@@ -4548,6 +4596,10 @@
                <i>
                   <value>312250806</value>
                   <identifierTypeId>OCLC</identifierTypeId>
+               </i>
+               <i>
+                  <value>HEB: 054126797</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -5369,12 +5421,8 @@
                   <identifierTypeId>ISBN</identifierTypeId>
                </i>
                <i>
-                  <value>: AT001E7A6</value>
-                  <identifierTypeId>Identnummer der erstkatalogisierenden Institution</identifierTypeId>
-               </i>
-               <i>
-                  <value>: AT001E7A6</value>
-                  <identifierTypeId>Identnummer der erstkatalogisierenden Institution</identifierTypeId>
+                  <value>HEB: 128013710</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -6232,8 +6280,16 @@
                   <identifierTypeId>OCLC</identifierTypeId>
                </i>
                <i>
-                  <value>10.14361/9783839454251</value>
-                  <identifierTypeId>ISBN einer Manifestation in anderer physischer Form</identifierTypeId>
+                  <value>978-3-8394-5425-1</value>
+                  <identifierTypeId>ISBN</identifierTypeId>
+               </i>
+               <i>
+                  <value>HEB: 475634225</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
+               </i>
+               <i>
+                  <value>ZDB-23-DGG</value>
+                  <identifierTypeId>Produktsigel für Pakete von Online-Ressourcen</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -6666,6 +6722,10 @@
                   <value>19173566</value>
                   <identifierTypeId>OCLC</identifierTypeId>
                </i>
+               <i>
+                  <value>HEB: 129615552</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
+               </i>
             </arr>
          </identifiers>
          <indexTitle>göttliche Wort Grundfragen unseres Glaubens Ragnar Bring</indexTitle>
@@ -6981,8 +7041,20 @@
                   <identifierTypeId>PPN</identifierTypeId>
                </i>
                <i>
-                  <value>10.1051/978-2-7598-0102-2</value>
-                  <identifierTypeId>ISBN einer Manifestation in anderer physischer Form</identifierTypeId>
+                  <value>978-2-7598-0102-2</value>
+                  <identifierTypeId>ISBN</identifierTypeId>
+               </i>
+               <i>
+                  <value>HEB: 476202744</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
+               </i>
+               <i>
+                  <value>ZDB-23-GOA</value>
+                  <identifierTypeId>Produktsigel für Pakete von Online-Ressourcen</identifierTypeId>
+               </i>
+               <i>
+                  <value>ZDB-23-DGG</value>
+                  <identifierTypeId>Produktsigel für Pakete von Online-Ressourcen</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -7236,6 +7308,10 @@
                <i>
                   <value>3054981-4</value>
                   <identifierTypeId>ZDB-Nummer</identifierTypeId>
+               </i>
+               <i>
+                  <value>ZDB: 3054981-4</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -7520,7 +7596,7 @@
                   <identifierTypeId>PPN</identifierTypeId>
                </i>
                <i>
-                  <value>: EUR 59.00</value>
+                  <value>978-3-437-21681-7 : EUR 59.00</value>
                   <identifierTypeId>ISBN</identifierTypeId>
                </i>
                <i>
@@ -7529,7 +7605,7 @@
                </i>
                <i>
                   <value>9783437216817</value>
-                  <identifierTypeId>Formal falsche ISBN der Reproduktion</identifierTypeId>
+                  <identifierTypeId>EAN</identifierTypeId>
                </i>
                <i>
                   <value>1215220014</value>
@@ -7538,6 +7614,10 @@
                <i>
                   <value>20,N33</value>
                   <identifierTypeId>WV-Nummer</identifierTypeId>
+               </i>
+               <i>
+                  <value>DNB: 1215220014</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -7813,6 +7893,14 @@
                <i>
                   <value>1127908829</value>
                   <identifierTypeId>OCLC</identifierTypeId>
+               </i>
+               <i>
+                  <value>978-975-16-1548-0</value>
+                  <identifierTypeId>ISBN</identifierTypeId>
+               </i>
+               <i>
+                  <value>HEB: 455732515</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -8155,7 +8243,7 @@
                   <identifierTypeId>OCLC</identifierTypeId>
                </i>
                <i>
-                  <value>Gewebe Dünndr. : EUR 29.90 (DE), EUR 30.80 (AT), sfr 43.50 (freier Pr.)</value>
+                  <value>978-3-446-23754-4 Gewebe Dünndr. : EUR 29.90 (DE), EUR 30.80 (AT), sfr 43.50 (freier Pr.)</value>
                   <identifierTypeId>ISBN</identifierTypeId>
                </i>
                <i>
@@ -8164,7 +8252,7 @@
                </i>
                <i>
                   <value>9783446237544</value>
-                  <identifierTypeId>Formal falsche ISBN der Reproduktion</identifierTypeId>
+                  <identifierTypeId>EAN</identifierTypeId>
                </i>
                <i>
                   <value>1011238241</value>
@@ -8177,6 +8265,10 @@
                <i>
                   <value>11,A45</value>
                   <identifierTypeId>WV-Nummer</identifierTypeId>
+               </i>
+               <i>
+                  <value>DNB: 1011238241</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -8485,6 +8577,14 @@
                <i>
                   <value>1019865397</value>
                   <identifierTypeId>OCLC</identifierTypeId>
+               </i>
+               <i>
+                  <value>978-3-905816-57-0</value>
+                  <identifierTypeId>ISBN</identifierTypeId>
+               </i>
+               <i>
+                  <value>HEB: 425001725</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -8904,8 +9004,16 @@
                   <identifierTypeId>OCLC</identifierTypeId>
                </i>
                <i>
-                  <value>10.1515/9783110697308</value>
-                  <identifierTypeId>ISBN einer Manifestation in anderer physischer Form</identifierTypeId>
+                  <value>978-3-11-069730-8</value>
+                  <identifierTypeId>ISBN</identifierTypeId>
+               </i>
+               <i>
+                  <value>HEB: 475628594</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
+               </i>
+               <i>
+                  <value>ZDB-23-DGG</value>
+                  <identifierTypeId>Produktsigel für Pakete von Online-Ressourcen</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -9220,6 +9328,10 @@
                <i>
                   <value>613072307</value>
                   <identifierTypeId>OCLC</identifierTypeId>
+               </i>
+               <i>
+                  <value>HEB: 212094157</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -9569,7 +9681,7 @@
                   <identifierTypeId>PPN</identifierTypeId>
                </i>
                <i>
-                  <value>: EUR 22.99</value>
+                  <value>978-3-8233-8379-6 : EUR 22.99</value>
                   <identifierTypeId>ISBN</identifierTypeId>
                </i>
                <i>
@@ -9578,15 +9690,19 @@
                </i>
                <i>
                   <value>9783823383796</value>
-                  <identifierTypeId>Formal falsche ISBN der Reproduktion</identifierTypeId>
+                  <identifierTypeId>EAN</identifierTypeId>
                </i>
                <i>
-                  <value>1681822725</value>
-                  <identifierTypeId>Weitere Verbundidentnummern</identifierTypeId>
+                  <value>978-3-8233-9379-5 (ePDF)</value>
+                  <identifierTypeId>ISBN einer Manifestation in anderer physischer Form</identifierTypeId>
                </i>
                <i>
-                  <value>119894997X</value>
-                  <identifierTypeId>Weitere Verbundidentnummern</identifierTypeId>
+                  <value>978-3-8233-0272-8 (ePub)</value>
+                  <identifierTypeId>ISBN einer Manifestation in anderer physischer Form</identifierTypeId>
+               </i>
+               <i>
+                  <value>DNB: 119894997X</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -10004,6 +10120,10 @@
                   <value>3011660-0</value>
                   <identifierTypeId>ZDB-Nummer</identifierTypeId>
                </i>
+               <i>
+                  <value>ZDB: 3011660-0</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
+               </i>
             </arr>
          </identifiers>
          <indexTitle>On Lernen in der digitalen Welt</indexTitle>
@@ -10088,7 +10208,7 @@
                         <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>ausleihbar/Fernleihe</permanentLoanTypeId>
                         <status>
-                           <name>Available</name>
+                           <name>Intellectual item</name>
                         </status>
                         <itemLevelCallNumber>Z 373</itemLevelCallNumber>
                         <barcode/>
@@ -10269,16 +10389,16 @@
                   <identifierTypeId>PPN</identifierTypeId>
                </i>
                <i>
-                  <value>urn:nbn:de:bsz:21-dspace-1014575</value>
-                  <identifierTypeId/>
-               </i>
-               <i>
                   <value>1212849795</value>
                   <identifierTypeId>DNB-Nummer</identifierTypeId>
                </i>
                <i>
                   <value>20,O07</value>
                   <identifierTypeId>WV-Nummer</identifierTypeId>
+               </i>
+               <i>
+                  <value>DNB: 1212849795</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -10683,7 +10803,7 @@
                   <identifierTypeId>OCLC</identifierTypeId>
                </i>
                <i>
-                  <value>Broschur : circa EUR 34.99</value>
+                  <value>978-3-662-62033-5 Broschur : circa EUR 34.99</value>
                   <identifierTypeId>ISBN</identifierTypeId>
                </i>
                <i>
@@ -10692,7 +10812,11 @@
                </i>
                <i>
                   <value>9783662620335</value>
-                  <identifierTypeId>Formal falsche ISBN der Reproduktion</identifierTypeId>
+                  <identifierTypeId>EAN</identifierTypeId>
+               </i>
+               <i>
+                  <value>978-3-662-62034-2 eBook</value>
+                  <identifierTypeId>ISBN einer Manifestation in anderer physischer Form</identifierTypeId>
                </i>
                <i>
                   <value>1212124278</value>
@@ -10705,6 +10829,10 @@
                <i>
                   <value>20,A40</value>
                   <identifierTypeId>WV-Nummer</identifierTypeId>
+               </i>
+               <i>
+                  <value>DNB: 1212124278</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -11135,6 +11263,10 @@
                   <value>79666495</value>
                   <identifierTypeId>OCLC</identifierTypeId>
                </i>
+               <i>
+                  <value>HEB: 052746585</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
+               </i>
             </arr>
          </identifiers>
          <indexTitle>Methoden zur Regenwurm-Extraktion Vergleich der Formalin-, Senf- und Elektromethode [Autor: F. Vetter]</indexTitle>
@@ -11201,7 +11333,8 @@
             <i>
                <hrid>113674406</hrid>
                <permanentLocationId>ZBMAG</permanentLocationId>
-               <callNumber>4° BB 1129</callNumber>
+               <prefix>4°</prefix>
+               <callNumber>BB 1129</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
                <items>
@@ -11213,7 +11346,8 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>4° BB 1129</itemLevelCallNumber>
+                        <itemLevelCallNumberPrefix>4°</itemLevelCallNumberPrefix>
+                        <itemLevelCallNumber>BB 1129</itemLevelCallNumber>
                         <barcode>34414860</barcode>
                         <copyNumber/>
                         <volume/>
@@ -11547,12 +11681,12 @@
                   <identifierTypeId>OCLC</identifierTypeId>
                </i>
                <i>
-                  <value>kartoniert : circa EUR 25.00</value>
+                  <value>978-3-8006-5947-0 kartoniert : circa EUR 25.00</value>
                   <identifierTypeId>ISBN</identifierTypeId>
                </i>
                <i>
                   <value>9783800659470</value>
-                  <identifierTypeId>Formal falsche ISBN der Reproduktion</identifierTypeId>
+                  <identifierTypeId>EAN</identifierTypeId>
                </i>
                <i>
                   <value>1173519432</value>
@@ -11565,6 +11699,10 @@
                <i>
                   <value>19,A20</value>
                   <identifierTypeId>WV-Nummer</identifierTypeId>
+               </i>
+               <i>
+                  <value>DNB: 1173519432</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -11728,7 +11866,7 @@
             <i>
                <hrid>1048567109</hrid>
                <permanentLocationId>RW</permanentLocationId>
-               <callNumber>36 XX/r 5 7.Aufl. </callNumber>
+               <callNumber>36 XX/r 5 7.Aufl.</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
                <items>
@@ -11740,7 +11878,7 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>36 XX/r 5 7.Aufl. </itemLevelCallNumber>
+                        <itemLevelCallNumber>36 XX/r 5 7.Aufl.</itemLevelCallNumber>
                         <barcode/>
                         <copyNumber/>
                         <volume/>
@@ -11976,12 +12114,16 @@
                   <identifierTypeId>PPN</identifierTypeId>
                </i>
                <i>
-                  <value>kart. : EUR 19.90 (DE), EUR 20.50 (AT), sfr 30.50 (freier Pr.)</value>
+                  <value>978-3-87071-248-8 kart. : EUR 19.90 (DE), EUR 20.50 (AT), sfr 30.50 (freier Pr.)</value>
                   <identifierTypeId>ISBN</identifierTypeId>
                </i>
                <i>
                   <value>9783870712488</value>
-                  <identifierTypeId>Formal falsche ISBN der Reproduktion</identifierTypeId>
+                  <identifierTypeId>EAN</identifierTypeId>
+               </i>
+               <i>
+                  <value>HEB: 401737489</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -12336,7 +12478,7 @@
                   <identifierTypeId>OCLC</identifierTypeId>
                </i>
                <i>
-                  <value>Festeinband : EUR 48.00 (DE), EUR 49.40 (AT)</value>
+                  <value>978-3-374-05741-2 Festeinband : EUR 48.00 (DE), EUR 49.40 (AT)</value>
                   <identifierTypeId>ISBN</identifierTypeId>
                </i>
                <i>
@@ -12345,7 +12487,7 @@
                </i>
                <i>
                   <value>9783374057412</value>
-                  <identifierTypeId>Formal falsche ISBN der Reproduktion</identifierTypeId>
+                  <identifierTypeId>EAN</identifierTypeId>
                </i>
                <i>
                   <value>1168252067</value>
@@ -12358,6 +12500,10 @@
                <i>
                   <value>19,A07</value>
                   <identifierTypeId>WV-Nummer</identifierTypeId>
+               </i>
+               <i>
+                  <value>DNB: 1168252067</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -12680,16 +12826,16 @@
                   <identifierTypeId>ISBN</identifierTypeId>
                </i>
                <i>
+                  <value>978-3-13-147641-8</value>
+                  <identifierTypeId>ISBN</identifierTypeId>
+               </i>
+               <i>
                   <value>9783131476418</value>
-                  <identifierTypeId>Formal falsche ISBN der Reproduktion</identifierTypeId>
+                  <identifierTypeId>EAN</identifierTypeId>
                </i>
                <i>
                   <value>987419269</value>
                   <identifierTypeId>DNB-Nummer</identifierTypeId>
-               </i>
-               <i>
-                  <value>987419269</value>
-                  <identifierTypeId>Weitere Verbundidentnummern</identifierTypeId>
                </i>
                <i>
                   <value>08,N08,0618</value>
@@ -12698,6 +12844,10 @@
                <i>
                   <value>08,A45,1047</value>
                   <identifierTypeId>WV-Nummer</identifierTypeId>
+               </i>
+               <i>
+                  <value>DNB: 987419269</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -13043,6 +13193,10 @@
                   <value>3029047-8</value>
                   <identifierTypeId>ZDB-Nummer</identifierTypeId>
                </i>
+               <i>
+                  <value>ZDB: 3029047-8</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
+               </i>
             </arr>
          </identifiers>
          <indexTitle>Lire magazine littéraire</indexTitle>
@@ -13115,7 +13269,7 @@
                         <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>5 i nur für den Lesesaal</permanentLoanTypeId>
                         <status>
-                           <name>Available</name>
+                           <name>Intellectual item</name>
                         </status>
                         <itemLevelCallNumber>Z 603</itemLevelCallNumber>
                         <barcode/>
@@ -13154,7 +13308,7 @@
                         <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>3 s Präsenzbestand Lesesaal</permanentLoanTypeId>
                         <status>
-                           <name>Available</name>
+                           <name>Intellectual item</name>
                         </status>
                         <itemLevelCallNumber>Z 872</itemLevelCallNumber>
                         <barcode/>
@@ -13691,11 +13845,11 @@
                   <identifierTypeId>OCLC</identifierTypeId>
                </i>
                <i>
-                  <value>(Paket) Pp. : EUR 139.00, sfr 231.00 (freier Pr.)</value>
+                  <value>978-3-13-160181-0 (Paket) Pp. : EUR 139.00, sfr 231.00 (freier Pr.)</value>
                   <identifierTypeId>ISBN</identifierTypeId>
                </i>
                <i>
-                  <value>Pp. : EUR 59.99 (DE), EUR 61.70 (AT), sfr 69.00 (freier Pr.)</value>
+                  <value>978-3-13-139534-4 Pp. : EUR 59.99 (DE), EUR 61.70 (AT), sfr 69.00 (freier Pr.)</value>
                   <identifierTypeId>ISBN</identifierTypeId>
                </i>
                <i>
@@ -13704,15 +13858,11 @@
                </i>
                <i>
                   <value>9783131395344</value>
-                  <identifierTypeId>Formal falsche ISBN der Reproduktion</identifierTypeId>
+                  <identifierTypeId>EAN</identifierTypeId>
                </i>
                <i>
                   <value>1071731866</value>
                   <identifierTypeId>DNB-Nummer</identifierTypeId>
-               </i>
-               <i>
-                  <value>910739662</value>
-                  <identifierTypeId>Weitere Verbundidentnummern</identifierTypeId>
                </i>
                <i>
                   <value>15,N23</value>
@@ -13721,6 +13871,10 @@
                <i>
                   <value>15,A39</value>
                   <identifierTypeId>WV-Nummer</identifierTypeId>
+               </i>
+               <i>
+                  <value>DNB: 1071731866</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -15691,12 +15845,8 @@
                   <identifierTypeId>ISBN</identifierTypeId>
                </i>
                <i>
-                  <value>: AT001230BA</value>
-                  <identifierTypeId>Identnummer der erstkatalogisierenden Institution</identifierTypeId>
-               </i>
-               <i>
-                  <value>: AT001230BA</value>
-                  <identifierTypeId>Identnummer der erstkatalogisierenden Institution</identifierTypeId>
+                  <value>HEB: 100778224</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -16303,8 +16453,16 @@
                   <identifierTypeId>ISBN</identifierTypeId>
                </i>
                <i>
+                  <value>978-3-476-00913-5</value>
+                  <identifierTypeId>ISBN</identifierTypeId>
+               </i>
+               <i>
                   <value>959176306</value>
                   <identifierTypeId>DNB-Nummer</identifierTypeId>
+               </i>
+               <i>
+                  <value>HEB: 093913974</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -16364,7 +16522,7 @@
                         <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>ausleihbar/Fernleihe</permanentLoanTypeId>
                         <status>
-                           <name>Available</name>
+                           <name>Intellectual item</name>
                         </status>
                         <itemLevelCallNumber/>
                         <barcode/>
@@ -16644,7 +16802,7 @@
                   <identifierTypeId>OCLC</identifierTypeId>
                </i>
                <i>
-                  <value>Festeinband : EUR 25.00 (DE), EUR 25.70 (AT)</value>
+                  <value>978-3-498-00111-7 Festeinband : EUR 25.00 (DE), EUR 25.70 (AT)</value>
                   <identifierTypeId>ISBN</identifierTypeId>
                </i>
                <i>
@@ -16653,7 +16811,7 @@
                </i>
                <i>
                   <value>9783498001117</value>
-                  <identifierTypeId>Formal falsche ISBN der Reproduktion</identifierTypeId>
+                  <identifierTypeId>EAN</identifierTypeId>
                </i>
                <i>
                   <value>1185427465</value>
@@ -16666,6 +16824,10 @@
                <i>
                   <value>20,A08</value>
                   <identifierTypeId>WV-Nummer</identifierTypeId>
+               </i>
+               <i>
+                  <value>DNB: 1185427465</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -17312,7 +17474,7 @@
                   <identifierTypeId>OCLC</identifierTypeId>
                </i>
                <i>
-                  <value>Gb. : ca. sfr 133.00 (freier Pr.), ca. EUR 79.95</value>
+                  <value>978-3-13-593404-4 Gb. : ca. sfr 133.00 (freier Pr.), ca. EUR 79.95</value>
                   <identifierTypeId>ISBN</identifierTypeId>
                </i>
                <i>
@@ -17320,12 +17482,12 @@
                   <identifierTypeId>DNB-Nummer</identifierTypeId>
                </i>
                <i>
-                  <value>989362337</value>
-                  <identifierTypeId>Weitere Verbundidentnummern</identifierTypeId>
-               </i>
-               <i>
                   <value>08,N29,0796</value>
                   <identifierTypeId>CIP-Nummer</identifierTypeId>
+               </i>
+               <i>
+                  <value>DNB: 989362337</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -18477,7 +18639,7 @@
                   <identifierTypeId>OCLC</identifierTypeId>
                </i>
                <i>
-                  <value>Gewebe : EUR 34.50 (DE), EUR 35.50 (AT), CHF 38.00 (freier Preis)</value>
+                  <value>978-3-85995-257-7 Gewebe : EUR 34.50 (DE), EUR 35.50 (AT), CHF 38.00 (freier Preis)</value>
                   <identifierTypeId>ISBN</identifierTypeId>
                </i>
                <i>
@@ -18485,8 +18647,12 @@
                   <identifierTypeId>ISBN</identifierTypeId>
                </i>
                <i>
+                  <value>978-3-85995-256-0</value>
+                  <identifierTypeId>ISBN</identifierTypeId>
+               </i>
+               <i>
                   <value>9783859952577</value>
-                  <identifierTypeId>Formal falsche ISBN der Reproduktion</identifierTypeId>
+                  <identifierTypeId>EAN</identifierTypeId>
                </i>
                <i>
                   <value>1172362858</value>
@@ -18499,6 +18665,10 @@
                <i>
                   <value>19,A16</value>
                   <identifierTypeId>WV-Nummer</identifierTypeId>
+               </i>
+               <i>
+                  <value>DNB: 1172362858</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -19006,6 +19176,10 @@
                   <value>93,B16,0097</value>
                   <identifierTypeId>WV-Nummer</identifierTypeId>
                </i>
+               <i>
+                  <value>DNB: 930545532</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
+               </i>
             </arr>
          </identifiers>
          <indexTitle>Jubiläumsfestschrift St. Alban- St. Jakobus Mainz 1936 St. Alban, 1966 St. Jakobus, 1982 St. Alban- St. Jakobus [Hrsg.: Pfarrgemeinde St. Alban- St. Jakobus, Mainz. Red.: Franz Weinzinger, ...]</indexTitle>
@@ -19363,12 +19537,20 @@
                   <identifierTypeId>ISBN</identifierTypeId>
                </i>
                <i>
+                  <value>978-3-7741-1134-9 kart. : EUR 36.90</value>
+                  <identifierTypeId>ISBN</identifierTypeId>
+               </i>
+               <i>
                   <value>1014092566</value>
                   <identifierTypeId>DNB-Nummer</identifierTypeId>
                </i>
                <i>
                   <value>11,A36</value>
                   <identifierTypeId>WV-Nummer</identifierTypeId>
+               </i>
+               <i>
+                  <value>DNB: 1014092566</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -20170,12 +20352,12 @@
                   <identifierTypeId>ISBN</identifierTypeId>
                </i>
                <i>
-                  <value>: AT001B3B8B7777797C55AC125716A0033B74E</value>
-                  <identifierTypeId>Identnummer der erstkatalogisierenden Institution</identifierTypeId>
+                  <value>978-3-476-01744-4</value>
+                  <identifierTypeId>ISBN</identifierTypeId>
                </i>
                <i>
-                  <value>: AT001B3B8B7777797C55AC125716A0033B74E</value>
-                  <identifierTypeId>Identnummer der erstkatalogisierenden Institution</identifierTypeId>
+                  <value>HEB: 134552296</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -21190,12 +21372,8 @@
                   <identifierTypeId>ISBN</identifierTypeId>
                </i>
                <i>
-                  <value>: AT00123026</value>
-                  <identifierTypeId>Identnummer der erstkatalogisierenden Institution</identifierTypeId>
-               </i>
-               <i>
-                  <value>: AT00123026</value>
-                  <identifierTypeId>Identnummer der erstkatalogisierenden Institution</identifierTypeId>
+                  <value>HEB: 095964088</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -21863,7 +22041,7 @@
                   <identifierTypeId>PPN</identifierTypeId>
                </i>
                <i>
-                  <value>: circa EUR 79.00</value>
+                  <value>978-3-437-22449-2 : circa EUR 79.00</value>
                   <identifierTypeId>ISBN</identifierTypeId>
                </i>
                <i>
@@ -21872,7 +22050,11 @@
                </i>
                <i>
                   <value>9783437224492</value>
-                  <identifierTypeId>Formal falsche ISBN der Reproduktion</identifierTypeId>
+                  <identifierTypeId>EAN</identifierTypeId>
+               </i>
+               <i>
+                  <value>978-3-437-29565-2</value>
+                  <identifierTypeId>ISBN einer Manifestation in anderer physischer Form</identifierTypeId>
                </i>
                <i>
                   <value>120990098X</value>
@@ -21881,6 +22063,10 @@
                <i>
                   <value>20,N21</value>
                   <identifierTypeId>WV-Nummer</identifierTypeId>
+               </i>
+               <i>
+                  <value>DNB: 120990098X</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -22379,7 +22565,7 @@
                   <identifierTypeId>OCLC</identifierTypeId>
                </i>
                <i>
-                  <value>Broschur : circa EUR 12.95 (DE), circa EUR 13.40 (AT)</value>
+                  <value>978-3-7917-3075-2 Broschur : circa EUR 12.95 (DE), circa EUR 13.40 (AT)</value>
                   <identifierTypeId>ISBN</identifierTypeId>
                </i>
                <i>
@@ -22388,7 +22574,7 @@
                </i>
                <i>
                   <value>9783791730752</value>
-                  <identifierTypeId>Formal falsche ISBN der Reproduktion</identifierTypeId>
+                  <identifierTypeId>EAN</identifierTypeId>
                </i>
                <i>
                   <value>1184751412</value>
@@ -22401,6 +22587,10 @@
                <i>
                   <value>20,A27</value>
                   <identifierTypeId>WV-Nummer</identifierTypeId>
+               </i>
+               <i>
+                  <value>DNB: 1184751412</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -22788,7 +22978,7 @@
                   <identifierTypeId>OCLC</identifierTypeId>
                </i>
                <i>
-                  <value>kartoniert : circa EUR 30.00</value>
+                  <value>978-3-406-74583-6 kartoniert : circa EUR 30.00</value>
                   <identifierTypeId>ISBN</identifierTypeId>
                </i>
                <i>
@@ -22797,7 +22987,7 @@
                </i>
                <i>
                   <value>9783406745836</value>
-                  <identifierTypeId>Formal falsche ISBN der Reproduktion</identifierTypeId>
+                  <identifierTypeId>EAN</identifierTypeId>
                </i>
                <i>
                   <value>1200575679</value>
@@ -22810,6 +23000,10 @@
                <i>
                   <value>21,A01</value>
                   <identifierTypeId>WV-Nummer</identifierTypeId>
+               </i>
+               <i>
+                  <value>DNB: 1200575679</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -22885,7 +23079,7 @@
             <i>
                <hrid>113445421X</hrid>
                <permanentLocationId>RW</permanentLocationId>
-               <callNumber>19 J/l 42 4.Aufl. </callNumber>
+               <callNumber>19 J/l 42 4.Aufl.</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
                <items>
@@ -22897,7 +23091,7 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>19 J/l 42 4.Aufl. </itemLevelCallNumber>
+                        <itemLevelCallNumber>19 J/l 42 4.Aufl.</itemLevelCallNumber>
                         <barcode/>
                         <copyNumber/>
                         <volume/>
@@ -23222,7 +23416,7 @@
                   <identifierTypeId>PPN</identifierTypeId>
                </i>
                <i>
-                  <value>: EUR 69.95</value>
+                  <value>978-3-11-068889-4 : EUR 69.95</value>
                   <identifierTypeId>ISBN</identifierTypeId>
                </i>
                <i>
@@ -23230,12 +23424,12 @@
                   <identifierTypeId>ISBN</identifierTypeId>
                </i>
                <i>
-                  <value>Für den arabischen Raum: Dar alFarabi Beirut</value>
+                  <value>978-614-432-232-1 Für den arabischen Raum: Dar alFarabi Beirut</value>
                   <identifierTypeId>ISBN</identifierTypeId>
                </i>
                <i>
                   <value>9783110688894</value>
-                  <identifierTypeId>Formal falsche ISBN der Reproduktion</identifierTypeId>
+                  <identifierTypeId>EAN</identifierTypeId>
                </i>
                <i>
                   <value>1215778759</value>
@@ -23248,6 +23442,10 @@
                <i>
                   <value>20,A43</value>
                   <identifierTypeId>WV-Nummer</identifierTypeId>
+               </i>
+               <i>
+                  <value>DNB: 1215778759</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -23564,8 +23762,16 @@
                   <identifierTypeId>PPN</identifierTypeId>
                </i>
                <i>
+                  <value>978-2-85629-874-9</value>
+                  <identifierTypeId>ISBN</identifierTypeId>
+               </i>
+               <i>
                   <value>9782856298749</value>
-                  <identifierTypeId>Formal falsche ISBN der Reproduktion</identifierTypeId>
+                  <identifierTypeId>EAN</identifierTypeId>
+               </i>
+               <i>
+                  <value>BSZ: 501794603</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -23867,6 +24073,10 @@
                   <value>3036377-9</value>
                   <identifierTypeId>ZDB-Nummer</identifierTypeId>
                </i>
+               <i>
+                  <value>ZDB: 3036377-9</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
+               </i>
             </arr>
          </identifiers>
          <indexTitle>Lh Le magazine</indexTitle>
@@ -23934,7 +24144,7 @@
                         <materialTypeId>0 Druckschrift</materialTypeId>
                         <permanentLoanTypeId>ausleihbar/Fernleihe</permanentLoanTypeId>
                         <status>
-                           <name>Available</name>
+                           <name>Intellectual item</name>
                         </status>
                         <itemLevelCallNumber>FZ 1325</itemLevelCallNumber>
                         <barcode/>
@@ -24264,12 +24474,16 @@
                   <identifierTypeId>OCLC</identifierTypeId>
                </i>
                <i>
-                  <value>broschiert : circa EUR 26.00</value>
+                  <value>978-3-8487-5916-3 broschiert : circa EUR 26.00</value>
                   <identifierTypeId>ISBN</identifierTypeId>
                </i>
                <i>
                   <value>9783848759163</value>
-                  <identifierTypeId>Formal falsche ISBN der Reproduktion</identifierTypeId>
+                  <identifierTypeId>EAN</identifierTypeId>
+               </i>
+               <i>
+                  <value>978-3-7489-0042-9 ePDF</value>
+                  <identifierTypeId>ISBN einer Manifestation in anderer physischer Form</identifierTypeId>
                </i>
                <i>
                   <value>1202678815</value>
@@ -24282,6 +24496,10 @@
                <i>
                   <value>20,A43</value>
                   <identifierTypeId>WV-Nummer</identifierTypeId>
+               </i>
+               <i>
+                  <value>DNB: 1202678815</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -24737,6 +24955,10 @@
                <i>
                   <value>3-87476-138-X</value>
                   <identifierTypeId>ISBN</identifierTypeId>
+               </i>
+               <i>
+                  <value>HEB: 049233904</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
                </i>
             </arr>
          </identifiers>
