@@ -980,9 +980,10 @@
     <!-- Electronic access -->
     <electronicAccess>
       <arr>
-        <!-- Hebis added -->
+        <!-- Different cases for K10plus and Hebis -->
         <xsl:for-each select="datafield[(($cbs='K10plus') and (@tag='009P' or @tag='017C' or @tag='017M' or @tag='017R')) or (($cbs='hebis') and (@tag='009Q'))]">
-          <xsl:if test="./@tag='009P' and ./subfield[@code='a']">
+          <!-- considerung switch command? MK -->
+          <xsl:if test="./@tag='009P' and ./subfield[@code='a']"> <!-- K10plus case -->
             <i>
               <uri>
                 <xsl:value-of select="./subfield[@code='a']"/>
@@ -997,7 +998,7 @@
               <!-- Resource -->
             </i>
           </xsl:if>
-          <xsl:if test="./@tag='017C' and ./subfield[@code='u']">
+          <xsl:if test="./@tag='017C' and ./subfield[@code='u']"> <!-- K10plus case -->
             <i>
               <uri>
                 <xsl:value-of select="./subfield[@code='u']"/>
@@ -1011,7 +1012,7 @@
               <relationshipId>f5d0068e-6272-458e-8a81-b85e7b9a14aa</relationshipId>
             </i>
           </xsl:if>
-		  <xsl:if test="./@tag='017R' and ./subfield[@code='u']">
+          <xsl:if test="./@tag='017R' and ./subfield[@code='u']"> <!-- K10plus case -->
             <i>
               <uri>
                 <xsl:value-of select="./subfield[@code='u']"/>
@@ -1026,7 +1027,7 @@
 			  <!-- Access Status -->
             </i>
           </xsl:if>
-		  <xsl:if test="./@tag='017M' and ./subfield[@code='u']">
+          <xsl:if test="./@tag='017M' and ./subfield[@code='u']"> <!-- K10plus case -->
             <i>
               <uri>
                 <xsl:value-of select="./subfield[@code='u']"/>
@@ -1041,7 +1042,7 @@
 			  <!-- Rechteinformation -->
             </i>
           </xsl:if>
-          <xsl:if test="./@tag='009Q' and ./subfield[@code='u']">
+          <xsl:if test="./@tag='009Q' and ./subfield[@code='u']"> <!-- Hebis case -->
             <i>
               <uri>
                 <xsl:value-of select="./subfield[@code='u']"/>
