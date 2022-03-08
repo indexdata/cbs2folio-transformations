@@ -3573,16 +3573,7 @@
             </arr>
          </publication>
          <electronicAccess>
-            <arr>
-               <i>
-                  <uri>https://doi.org/10.1017/9781108771160</uri>
-                  <relationshipId>f5d0068e-6272-458e-8a81-b85e7b9a14aa</relationshipId>
-               </i>
-               <i>
-                  <uri>https://www.cambridge.org/core/books/jihadists-of-north-africa-and-the-sahel/C1C391EC226A65858CCF45322879ED1B</uri>
-                  <relationshipId>f5d0068e-6272-458e-8a81-b85e7b9a14aa</relationshipId>
-               </i>
-            </arr>
+            <arr/>
          </electronicAccess>
          <notes>
             <arr>

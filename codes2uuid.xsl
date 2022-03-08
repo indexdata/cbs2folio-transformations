@@ -545,5 +545,16 @@
       </xsl:choose>
     </holdingsTypeId>
   </xsl:template>
+  
+  <!-- Map holdings source -->
+  <xsl:template match="sourceId">
+    <sourceId>
+      <xsl:choose>
+        <xsl:when test=".='K10plus'">fa687f33-aab5-4119-b0ad-05afe8de4d92</xsl:when>
+        <xsl:otherwise>f32d531e-df79-46b3-8932-cdd35f7a2264</xsl:otherwise>
+      </xsl:choose>
+    </sourceId>
+  </xsl:template>
+  
   <xsl:template match="original"/>
 </xsl:stylesheet>
