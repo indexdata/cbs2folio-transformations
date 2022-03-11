@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output indent="yes" method="xml" version="1.0" encoding="UTF-8"/>
+  <!-- Adapted to hebis CBS -->
   <xsl:template match="collection">
     <collection>
       <xsl:apply-templates/>
@@ -26,7 +27,7 @@
     </record>
   </xsl:template>
   <xsl:template match="metadata">
-    <source>K10plus</source>
+    <source>hebis</source>
     <xsl:variable name="ppn" select="datafield[@tag='003@']/subfield[@code='0']"/>
     <hrid>
       <xsl:value-of select="$ppn"/>
@@ -250,158 +251,136 @@
         </xsl:for-each>
       </arr>
     </instanceFormatIds>
-    <!-- Identifiers -->
-    <identifiers>
-      <arr>
-        <xsl:for-each select="datafield[@tag='003S' or @tag='003@' or @tag='004A' or @tag='004P' or @tag='004J' or @tag='004K' or @tag='004D'          or @tag='005A' or @tag='005I' or @tag='005P' or @tag='005D' or @tag='004F' or @tag='004M' or @tag='004I' or @tag='006A'         or @tag='006B' or @tag='006G' or @tag='006T' or @tag='006U' or @tag='006Z' or @tag='006S' or @tag='006L' or @tag='006'         or @tag='006V' or @tag='006W' or @tag='006M' or @tag='004V' or @tag='004R' or @tag='004W' or @tag='004L' or @tag='004C'         or @tag='004U' or @tag='003O' or @tag='003T' or @tag='003D' or @tag='007C' or @tag='007D' or @tag='007G' or @tag='017K'         or @tag='017L']">
-          <xsl:choose>
-            <xsl:when test="./@tag='004A' or @tag='004D' or @tag='004P' or @tag='005A' or @tag='005P' or @tag='005D' or @tag='004F' or @tag='004M' or @tag='004I'">
-              <xsl:variable name="id-value">
-                <xsl:choose>
-                  <xsl:when test="./subfield[@code='f'] and ./subfield[@code='0']">
-                    <xsl:value-of select="concat(./subfield[@code='0'],' ',./subfield[@code='f'])"/>
-                  </xsl:when>
-                  <xsl:when test="./subfield[@code='f']">
-                    <xsl:value-of select="./subfield[@code='f']"/>
-                  </xsl:when>
-                  <xsl:otherwise>
-                    <xsl:value-of select="./subfield[@code='0']"/>
-                  </xsl:otherwise>
-                </xsl:choose>
-              </xsl:variable>
-              <xsl:variable name="id-type">
-                <xsl:choose>
-                  <xsl:when test="./@tag='004A'">ISBN</xsl:when>
-                  <xsl:when test="./@tag='004P' and ./subfield[@code='S']='a'">ISBN der parallelen Ausgabe auf einem anderen Datenträger</xsl:when>
-                  <xsl:when test="./@tag='004P' and ./subfield[@code='S']='o'">ISBN der parallelen Ausgabe im Fernzugriff</xsl:when>
-                  <xsl:when test="./@tag='004P' and ./subfield[@code='S']='p'">ISBN der parallelen Druckausgabe</xsl:when>
-                  <xsl:when test="./@tag='004P' and ./subfield[@code='S']='u'">ISBN für parallele Ausgabe in einer anderen physischen Form</xsl:when>
-                  <xsl:when test="./@tag='004P'">ISBN einer Manifestation in anderer physischer Form</xsl:when>
-                  <xsl:when test="./@tag='005A'">ISSN</xsl:when>
-                  <xsl:when test="./@tag='005D'">Invalid ISSN</xsl:when>
-                  <xsl:when test="./@tag='005P' and ./subfield[@code='S']='a'">ISSN für parallele Ausgaben auf einem anderen Datenträger</xsl:when>
-                  <xsl:when test="./@tag='005P' and ./subfield[@code='S']='o'">ISSN für parallele Ausgaben im Fernzugriff</xsl:when>
-                  <xsl:when test="./@tag='005P' and ./subfield[@code='S']='p'">ISSN für parallele Druckausgaben</xsl:when>
-                  <xsl:when test="./@tag='005P' and ./subfield[@code='S']='f'">Fehlerhafte ISSN der parallelen Ausgabe</xsl:when>
-                  <xsl:when test="./@tag='005P'">ISSN paralleler Ausgaben</xsl:when>
-                  <xsl:when test="./@tag='004D'">Invalid ISBN</xsl:when>
-                  <xsl:when test="./@tag='004F'">ISMN</xsl:when>
-                  <xsl:when test="./@tag='004M'">ISRN</xsl:when>
-                  <xsl:when test="./@tag='004I'">Formal falsche ISMN</xsl:when>
-                </xsl:choose>
-              </xsl:variable>
-              <xsl:if test="string-length($id-value) &gt; 0">
+    <!-- Identifiers - different for both cbs systems, K10plus and hebis -->
+     <identifiers>
+        <arr>
+          <xsl:for-each select="datafield[@tag='003@' or @tag='004A' or @tag='004O' or @tag='004G' or @tag='004K' or @tag='004D' or @tag='005A' or @tag='005I' or @tag='005P' or @tag='005B' or @tag='004F' or @tag='004H' or @tag='004I' or @tag='006A' or @tag='004S' or @tag='006G' or @tag='006T' or @tag='006U' or @tag='006Z' or @tag='006M' or @tag='006N' or @tag='006Y' or @tag='004W' or @tag='004L' or @tag='004C' or @tag='003O' or @tag='007C' or @tag='007A' or @tag='017B']">
+            <xsl:choose>
+              <xsl:when test="./@tag='004A' or @tag='004D' or @tag='004O' or @tag='005A' or @tag='005P' or @tag='005B' or @tag='004G' or @tag='004H' or @tag='004F' or @tag='004I'">
+                <xsl:for-each select="./subfield[@code='0'] | ./subfield[@code='A'] | ./subfield[@code='f']">
+                  <xsl:if test="not(@code='f' and (../subfield[@code='0'] or ../subfield[@code='A']))">
+                    <xsl:variable name="id-value">
+                      <xsl:choose>
+                        <xsl:when test="@code='f'">
+                          <xsl:value-of select="."/>
+                        </xsl:when>
+                        <xsl:when test="../subfield[@code='f']">
+                          <xsl:value-of select="concat(.,' ',../subfield[@code='f'])"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                          <xsl:value-of select="."/>
+                        </xsl:otherwise>
+                      </xsl:choose>
+                    </xsl:variable>
+                    <xsl:variable name="id-type">
+                      <xsl:choose> <!-- 004M bei Hebis Nachweis HS: TBD -->
+                        <xsl:when test="../@tag='004A'">ISBN</xsl:when>
+                        <xsl:when test="../@tag='004O' and ./subfield[@code='S']='a'">ISBN der parallelen Ausgabe auf einem anderen Datenträger</xsl:when>
+                        <xsl:when test="../@tag='004O' and ./subfield[@code='S']='o'">ISBN der parallelen Ausgabe als Online-​Ausgabe</xsl:when>
+                        <xsl:when test="../@tag='004O' and ./subfield[@code='S']='p'">ISBN der parallelen Druckausgabe</xsl:when>
+                        <xsl:when test="../@tag='004O'">ISBN einer Manifestation in anderer physischer Form</xsl:when>
+                        <xsl:when test="../@tag='005A'">ISSN</xsl:when>
+                        <xsl:when test="../@tag='005B'">Invalid ISSN</xsl:when>
+                        <xsl:when test="../@tag='005P' and ./subfield[@code='S']='a'">ISSN der parallelen Ausgabe auf einem anderen Datenträger</xsl:when>
+                        <xsl:when test="../@tag='005P' and ./subfield[@code='S']='o'">ISSN der parallelen Ausgabe als Online-​Ausgabe</xsl:when>
+                        <xsl:when test="../@tag='005P' and ./subfield[@code='S']='p'">ISSN der parallelen Ausgabe als Druck-​Ausgabe</xsl:when>
+                        <xsl:when test="../@tag='005P' and ./subfield[@code='S']='f'">Formal falsche ISSN einer parallelen Ausgabe</xsl:when>
+                        <xsl:when test="../@tag='005P'">ISSN einer Manifestation in anderer physischer Form</xsl:when>
+                        <xsl:when test="../@tag='004D'">Invalid ISBN</xsl:when>
+  			             	  <xsl:when test="../@tag='004G'">ISBN der Sekundärausgabe</xsl:when>
+  		            		  <xsl:when test="../@tag='004H'">Formal falsche ISBN der Sekundärausgabe</xsl:when>
+                        <xsl:when test="../@tag='004F'">ISMN</xsl:when>
+                        <xsl:when test="../@tag='004I'">Formal falsche ISMN</xsl:when>
+                      </xsl:choose>
+                    </xsl:variable>
+                      <i>
+                        <value>
+                          <xsl:value-of select="$id-value"/>
+                        </value>
+                        <identifierTypeId>
+                          <xsl:value-of select="$id-type"/>
+                        </identifierTypeId>
+                      </i>
+                  </xsl:if>
+                </xsl:for-each>
+              </xsl:when>
+              <xsl:when test="./@tag='007A'"> <!-- 006L TBD? -->
+                <xsl:variable name="id-value">
+                  <xsl:choose>
+                    <xsl:when test="./subfield[@code='0']">
+                      <xsl:value-of select="concat(./subfield[@code='a'],': ',./subfield[@code='0'])"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                      <xsl:value-of select="./subfield[@code='a']"/>
+                    </xsl:otherwise>
+                  </xsl:choose>
+                </xsl:variable>
+                <xsl:variable name="id-type">
+                  <xsl:text>Erstkatalogisierer-​ID-Nummer</xsl:text>
+                </xsl:variable>
+                <xsl:if test="string-length($id-value) &gt; 0">
+                  <i>
+                    <value>
+                      <xsl:value-of select="$id-value"/>
+                    </value>
+                    <identifierTypeId>
+                      <xsl:value-of select="$id-type"/>
+                    </identifierTypeId>
+                  </i>
+                </xsl:if>
+              </xsl:when>
+              <xsl:when test="./@tag='017B'">
                 <i>
                   <value>
-                    <xsl:value-of select="$id-value"/>
+                    <xsl:value-of select="./subfield[@code='a']"/>
                   </value>
                   <identifierTypeId>
-                    <xsl:value-of select="$id-type"/>
+                    <xsl:text>Produktsigel für Pakete von Online-Ressourcen</xsl:text>
                   </identifierTypeId>
                 </i>
-              </xsl:if>
-            </xsl:when>
-            <xsl:when test="./@tag='007G' or @tag='007D'">
-              <xsl:variable name="id-value">
-                <xsl:choose>
-                  <xsl:when test="./subfield[@code='0']">
-                    <xsl:value-of select="concat(./subfield[@code='i'],': ',./subfield[@code='0'])"/>
-                  </xsl:when>
-                  <xsl:otherwise>
-                    <xsl:value-of select="./subfield[@code='i']"/>
-                  </xsl:otherwise>
-                </xsl:choose>
-              </xsl:variable>
-              <xsl:variable name="id-type">
-                <xsl:choose>
-                  <xsl:when test="./@tag='007G'">Identnummer der erstkatalogisierenden Institution</xsl:when>
-                </xsl:choose>
-              </xsl:variable>
-              <xsl:if test="string-length($id-value) &gt; 0">
-                <i>
-                  <value>
-                    <xsl:value-of select="$id-value"/>
-                  </value>
-                  <identifierTypeId>
-                    <xsl:value-of select="$id-type"/>
-                  </identifierTypeId>
-                </i>
-              </xsl:if>
-            </xsl:when>
-            <xsl:when test="./@tag='017K' or ./@tag='017L'">
-              <xsl:variable name="id-value">
-                <xsl:call-template name="join">
-                  <xsl:with-param name="list" select="./subfield[@code='a' or @code='b' or @code='c' or @code='d']"/>
-                  <xsl:with-param name="separator" select="' '"/>
-                </xsl:call-template>
-              </xsl:variable>
-              <xsl:variable name="id-type">
-                <xsl:choose>
-                  <xsl:when test="./@tag='017L'">Produktsigel Teilpaket, Arbeitsfeld für sonstige Produktsigel</xsl:when>
-                  <xsl:otherwise>Produktsigel Gesamtpaket</xsl:otherwise>
-                </xsl:choose>
-              </xsl:variable>
-              <xsl:if test="string-length($id-value) &gt; 0">
-                <i>
-                  <value>
-                    <xsl:value-of select="$id-value"/>
-                  </value>
-                  <identifierTypeId>
-                    <xsl:value-of select="$id-type"/>
-                  </identifierTypeId>
-                </i>
-              </xsl:if>
-            </xsl:when>
-            <xsl:when test="./subfield[@code='0']">
-              <xsl:variable name="id-value">
-                <xsl:value-of select="./subfield[@code='0']"/>
-              </xsl:variable>
-              <xsl:variable name="id-type">
-                <xsl:choose>
-                  <xsl:when test="./@tag='003O'">OCLC</xsl:when>
-                  <xsl:when test="./@tag='003S'">PPN SWB</xsl:when>
-				  <xsl:when test="./@tag='003@'">PPN</xsl:when>
-                  <xsl:when test="./@tag='004J'">ISBN der Reproduktion</xsl:when>
-                  <xsl:when test="./@tag='004K'">Formal falsche ISBN der Reproduktion</xsl:when>
-                  <xsl:when test="./@tag='005I'">Autorisierte ISSN</xsl:when>
-                  <xsl:when test="./@tag='006A'">LCCN</xsl:when>
-                  <xsl:when test="./@tag='006G'">DNB-Nummer</xsl:when>
-                  <xsl:when test="./@tag='004W'">Digital Object Identifier (DOI) im Druckwerk</xsl:when>
-                  <xsl:when test="./@tag='003T'">SWB-OCLC-Nummer</xsl:when>
-                  <xsl:when test="./@tag='006T'">CIP-Nummer</xsl:when>
-                  <xsl:when test="./@tag='006U'">WV-Nummer</xsl:when>
-                  <xsl:when test="./@tag='006Z'">ZDB-Nummer</xsl:when>
-                  <xsl:when test="./@tag='006S'">SWB-PPN des umgelenkten Satzes</xsl:when>
-                  <xsl:when test="./@tag='006L'">Weitere Verbundidentnummern</xsl:when>
-                  <xsl:when test="./@tag='006X'">Identnummern weiterer Fremddatenlieferanten</xsl:when>
-                  <xsl:when test="./@tag='003D'">PPN des umgelenkten GBV- bzw. K10plus-Satzes</xsl:when>
-                  <xsl:when test="./@tag='006N'">Swets-Nummer</xsl:when>
-                  <xsl:when test="./@tag='006V'">VD16-Nummer</xsl:when>
-                  <xsl:when test="./@tag='006W'">VD17-Nummer</xsl:when>
-                  <xsl:when test="./@tag='006M'">VD18-Nummer</xsl:when>
-                  <xsl:when test="./@tag='007Y'">Sonstige Standardnummern</xsl:when>
-                  <xsl:when test="./@tag='006Y'">Identnummern (allgemein)</xsl:when>
-                  <xsl:when test="./@tag='007C'">CODEN</xsl:when>
-                  <xsl:when test="./@tag='004L'">GTIN (vormals EAN)</xsl:when>
-                  <xsl:when test="./@tag='004C'">Universal Product Code (UPC)</xsl:when>
-                  <xsl:when test="./@tag='007D'">Verlags-, Produktions- und Bestellnummer</xsl:when>
-                </xsl:choose>
-              </xsl:variable>
-              <xsl:if test="string-length($id-value) &gt; 0">
-                <i>
-                  <value>
-                    <xsl:value-of select="$id-value"/>
-                  </value>
-                  <identifierTypeId>
-                    <xsl:value-of select="$id-type"/>
-                  </identifierTypeId>
-                </i>
-              </xsl:if>
-            </xsl:when>
-          </xsl:choose>
-        </xsl:for-each>
-      </arr>
-    </identifiers>
+              </xsl:when>
+              <xsl:when test="./subfield[@code='0']">
+                <xsl:variable name="id-value">
+                  <xsl:value-of select="./subfield[@code='0']"/>
+                </xsl:variable>
+                <xsl:variable name="id-type">
+                  <xsl:choose>
+                    <xsl:when test="./@tag='003O'">OCLC</xsl:when>
+                    <xsl:when test="./@tag='003@'">PPN</xsl:when>
+                    <xsl:when test="./@tag='005I'">Autorisierte ISSN</xsl:when>
+                    <xsl:when test="./@tag='006A'">LCCN</xsl:when>
+                    <xsl:when test="./@tag='006G'">DNB-Nummer</xsl:when>
+                    <xsl:when test="./@tag='004W'">ISBN-A</xsl:when>
+                    <xsl:when test="./@tag='006T'">CIP-Nummer</xsl:when>
+                    <xsl:when test="./@tag='006U'">WV-Nummer</xsl:when>
+                    <xsl:when test="./@tag='006Z'">ZDB-Nummer</xsl:when>
+                    <xsl:when test="./@tag='007I'">Fremddaten-Identifikations-Nummer</xsl:when>
+                    <xsl:when test="./@tag='006N'">Swets-Nummer</xsl:when>
+                    <xsl:when test="./@tag='004L'">Bibliographischer Nachweis alter Drucke</xsl:when>
+                    <xsl:when test="./@tag='006M'">VD18-Nummer</xsl:when>
+                    <xsl:when test="./@tag='006Y'">Sonstige Standardnummern</xsl:when>
+                    <xsl:when test="./@tag='007C'">CODEN</xsl:when>
+                    <xsl:when test="./@tag='004K'">EAN</xsl:when>
+                    <xsl:when test="./@tag='004C'">Universal Product Code (UPC)</xsl:when>
+                    <xsl:when test="./@tag='004S'">International Standard Recording Code (ISRC)</xsl:when>
+                  </xsl:choose>
+                </xsl:variable>
+                <xsl:if test="string-length($id-value) &gt; 0">
+                  <i>
+                    <value>
+                      <xsl:value-of select="$id-value"/>
+                    </value>
+                    <identifierTypeId>
+                      <xsl:value-of select="$id-type"/>
+                    </identifierTypeId>
+                  </i>
+                </xsl:if>
+              </xsl:when>
+            </xsl:choose>
+          </xsl:for-each>
+        </arr>
+      </identifiers>
+    <!-- Identifiers end -->
     <!-- title -->
     <xsl:variable name="title-tag">
       <xsl:choose>
@@ -844,67 +823,20 @@
     <!-- Electronic access -->
     <electronicAccess>
       <arr>
-        <xsl:for-each select="datafield[@tag='009P' or @tag='017C' or @tag='017M' or @tag='017R']">
-          <xsl:if test="./@tag='009P' and ./subfield[@code='a']">
-            <i>
-              <uri>
-                <xsl:value-of select="./subfield[@code='a']"/>
-              </uri>
-              <materialsSpecification>
-                <xsl:value-of select="./subfield[@code='3']"/>
-              </materialsSpecification>
-              <publicNote>
-                <xsl:value-of select="./subfield[@code='4']"/>
-              </publicNote>
-              <relationshipId>f5d0068e-6272-458e-8a81-b85e7b9a14aa</relationshipId>
-              <!-- Resource -->
-            </i>
-          </xsl:if>
-          <xsl:if test="./@tag='017C' and ./subfield[@code='u']">
-            <i>
-              <uri>
-                <xsl:value-of select="./subfield[@code='u']"/>
-              </uri>
-              <materialsSpecification>
-                <xsl:value-of select="./subfield[@code='3']"/>
-              </materialsSpecification>
-              <publicNote>
-                <xsl:value-of select="./subfield[@code='4']"/>
-              </publicNote>
-              <relationshipId>f5d0068e-6272-458e-8a81-b85e7b9a14aa</relationshipId>
-            </i>
-          </xsl:if>
-		  <xsl:if test="./@tag='017R' and ./subfield[@code='u']">
-            <i>
-              <uri>
-                <xsl:value-of select="./subfield[@code='u']"/>
-              </uri>
-              <materialsSpecification>
-                <xsl:value-of select="./subfield[@code='g']"/>
-              </materialsSpecification>
-			  <linkText>
-				<xsl:value-of select="./subfield[@code='a']"/>
-			  </linkText>
-              <relationshipId>0ce08069-8f5f-411b-b622-46674aa66a45</relationshipId>
-			  <!-- Access Status -->
-            </i>
-          </xsl:if>
-		  <xsl:if test="./@tag='017M' and ./subfield[@code='u']">
-            <i>
-              <uri>
-                <xsl:value-of select="./subfield[@code='u']"/>
-              </uri>
-              <materialsSpecification>
-                <xsl:value-of select="./subfield[@code='g']"/>
-              </materialsSpecification>
-			  <linkText>
-				<xsl:value-of select="./subfield[@code='a']"/>
-			  </linkText>
-              <relationshipId>f781cb3d-af16-40f6-9d02-c24204ac6fdc</relationshipId>
-			  <!-- Rechteinformation -->
-            </i>
-          </xsl:if>
+        <!-- Different cases for Hebis -->
+        <xsl:for-each select="datafield[(@tag='009Q')]"> <!-- More cases in future -->
+          <xsl:choose>
+            <xsl:when test="./@tag='009Q' and ./subfield[@code='u']">
+              <i>
+                <uri>
+                  <xsl:value-of select="./subfield[@code='u']"/>
+                </uri>
+                <relationshipId>f5d0068e-6272-458e-8a81-b85e7b9a14aa</relationshipId>
+              </i>
+            </xsl:when>
+          </xsl:choose>
         </xsl:for-each>
+        <!-- Different cases end -->
       </arr>
     </electronicAccess>
     <!-- Notes -->
