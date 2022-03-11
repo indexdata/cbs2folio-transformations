@@ -275,6 +275,7 @@
                <permanentLocationId>ONLINE</permanentLocationId>
                <holdingsTypeId>electronic</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <electronicAccess>
                   <arr>
                      <i>
