@@ -541,6 +541,7 @@
                <callNumber>HIS-NL 01.20 Rooij 1</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -890,6 +891,7 @@
                <callNumber>20036909</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -1145,6 +1147,7 @@
                <callNumber>20000000</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -1380,6 +1383,7 @@
                <callNumber>295.572-test</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -1711,6 +1715,7 @@
                <permanentLocationId>ONLINE</permanentLocationId>
                <holdingsTypeId>electronic</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <electronicAccess>
                   <arr>
                      <i>
@@ -1979,6 +1984,7 @@
                <permanentLocationId>ONLINE</permanentLocationId>
                <holdingsTypeId>electronic</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <electronicAccess>
                   <arr>
                      <i>
@@ -2708,6 +2714,7 @@
                <callNumber>PHILOS C 370-4</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -2741,6 +2748,7 @@
                <callNumber>L 01 Ästh.Grund 1-4</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -2774,6 +2782,7 @@
                <callNumber>Zo 4-4</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -2807,6 +2816,7 @@
                <callNumber>PHIL 50/5</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -2840,6 +2850,7 @@
                <callNumber>05 L - A 12</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -2873,6 +2884,7 @@
                <callNumber>05 L - A 12 / 2. Ex. / Zimmer Breuer</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -2906,6 +2918,7 @@
                <callNumber>12.0 - 1/1.4</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -2939,6 +2952,7 @@
                <callNumber>A c.12/1-4</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -2972,6 +2986,7 @@
                <callNumber>CC 6800 BAR/ 1-4</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -3005,6 +3020,7 @@
                <callNumber>LEX ÄSTH 2.4</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -3729,6 +3745,7 @@
                <callNumber>PHILOS C 370-5</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -3762,6 +3779,7 @@
                <callNumber>L 01 Ästh.Grund 1-5</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -3795,6 +3813,7 @@
                <callNumber>Zo 4-5</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -3828,6 +3847,7 @@
                <callNumber>PHIL 50/5</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -3861,6 +3881,7 @@
                <callNumber>05 L - A 12</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -3894,6 +3915,7 @@
                <callNumber>05 L - A 12 / 2. Ex. / Zimmer Breuer</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -3927,6 +3949,7 @@
                <callNumber>12.0 - 1/1.5</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -3960,6 +3983,7 @@
                <callNumber>A c.12/1-5</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -3993,6 +4017,7 @@
                <callNumber>CC 6800 BAR/ 1-5</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -4026,6 +4051,7 @@
                <callNumber>LEX ÄSTH 2.5</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -4322,6 +4348,7 @@
                      </i>
                   </arr>
                </holdingsStatements>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -4652,6 +4679,7 @@
                <callNumber>ZB 1305-24</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -4699,6 +4727,7 @@
                <callNumber>BA IV 24,2</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -4741,6 +4770,7 @@
                <callNumber>THEMAG Bb 300-24,2</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -5474,6 +5504,7 @@
                <callNumber>PHILOS C 370-6</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -5507,6 +5538,7 @@
                <callNumber>L 01 Ästh.Grund 1-6</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -5540,6 +5572,7 @@
                <callNumber>Zo 4-6</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -5573,6 +5606,7 @@
                <callNumber>PHIL 50/5</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -5606,6 +5640,7 @@
                <callNumber>05 L - A 12</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -5639,6 +5674,7 @@
                <callNumber>05 L - A 12 / 2. Ex. / Zimmer Breuer</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -5672,6 +5708,7 @@
                <callNumber>12.0 - 1/1.6</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -5705,6 +5742,7 @@
                <callNumber>A c.12/1-6</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -5738,6 +5776,7 @@
                <callNumber>CC 6800 BAR/ 1-6</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -5771,6 +5810,7 @@
                <callNumber>LEX ÄSTH 2.6</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -6510,6 +6550,7 @@
                <permanentLocationId>ONLINE</permanentLocationId>
                <holdingsTypeId>electronic</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <electronicAccess>
                   <arr>
                      <i>
@@ -6771,6 +6812,7 @@
                <callNumber>F X d 42</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -6813,6 +6855,7 @@
                <callNumber>Sc 70</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -7129,6 +7172,7 @@
                <permanentLocationId>ONLINE</permanentLocationId>
                <holdingsTypeId>electronic</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <electronicAccess>
                   <arr>
                      <i>
@@ -7380,6 +7424,7 @@
                <permanentLocationId>ONLINE</permanentLocationId>
                <holdingsTypeId>electronic</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <electronicAccess>
                   <arr>
                      <i>
@@ -7666,6 +7711,7 @@
                <callNumber>KIND 267</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -7990,6 +8036,7 @@
                <callNumber>Lex-T-osm-290</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -8332,6 +8379,7 @@
                <callNumber>FL VOLTA 1/15</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -8651,6 +8699,7 @@
                <callNumber>LIN-ZH 08:8-4,1</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -9189,6 +9238,7 @@
                <permanentLocationId>ONLINE</permanentLocationId>
                <holdingsTypeId>electronic</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <electronicAccess>
                   <arr>
                      <i>
@@ -9369,6 +9419,7 @@
                <callNumber>G 7725</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -9765,6 +9816,7 @@
                <callNumber>LING B 356</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -9807,6 +9859,7 @@
                <callNumber>15E 010</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -10201,6 +10254,7 @@
                      </i>
                   </arr>
                </holdingsStatements>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -10466,6 +10520,7 @@
                <permanentLocationId>ONLINE</permanentLocationId>
                <holdingsTypeId>electronic</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <electronicAccess>
                   <arr>
                      <i>
@@ -10905,6 +10960,7 @@
                <callNumber>VE 5020 BEC1 (7)</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -10947,6 +11003,7 @@
                <callNumber>34B 223,7.Aufl.</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -11333,10 +11390,11 @@
             <i>
                <hrid>113674406</hrid>
                <permanentLocationId>ZBMAG</permanentLocationId>
-               <prefix>4°</prefix>
+               <callNumberPrefix>4°</callNumberPrefix>
                <callNumber>BB 1129</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -11775,6 +11833,7 @@
                <callNumber>26Q 384,7.Aufl.</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -11869,6 +11928,7 @@
                <callNumber>36 XX/r 5 7.Aufl.</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -12183,6 +12243,7 @@
                <callNumber>Gesmed 48 2016</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -12568,6 +12629,7 @@
                <callNumber>Sc 4779</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -12898,6 +12960,7 @@
                <callNumber>KIND 125</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -13262,6 +13325,7 @@
                      </i>
                   </arr>
                </holdingsStatements>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -13301,6 +13365,7 @@
                      </i>
                   </arr>
                </holdingsStatements>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -13938,6 +14003,7 @@
                <callNumber>40B 242,4.Aufl.</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -15124,6 +15190,7 @@
                <callNumber>GRUND 245</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -15166,6 +15233,7 @@
                <callNumber>MED B 132/02</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -15898,6 +15966,7 @@
                <callNumber>PHILOS C 370-3</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -15931,6 +16000,7 @@
                <callNumber>L 01 Ästh.Grund 1-3</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -15964,6 +16034,7 @@
                <callNumber>Zo 4-3</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -15997,6 +16068,7 @@
                <callNumber>PHIL 50/5</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -16030,6 +16102,7 @@
                <callNumber>05 L - A 12</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -16063,6 +16136,7 @@
                <callNumber>05 L - A 12 / 2. Ex. / Zimmer Breuer</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -16096,6 +16170,7 @@
                <callNumber>12.0 - 1/1.3</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -16129,6 +16204,7 @@
                <callNumber>A c.12/1-3</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -16162,6 +16238,7 @@
                <callNumber>CC 6800 BAR/ 1-3</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -16195,6 +16272,7 @@
                <callNumber>LEX ÄSTH 2.3</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -16515,6 +16593,7 @@
                <permanentLocationId>DUMMY</permanentLocationId>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -16881,6 +16960,7 @@
                <callNumber>KUL-ZH 07:15</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -17543,6 +17623,7 @@
                <callNumber>MED V 133/01</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -17585,6 +17666,7 @@
                <callNumber>41V 305,4.Aufl.</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -17861,6 +17943,7 @@
                <callNumber>41V 305,4.Aufl.</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -18137,6 +18220,7 @@
                <callNumber>ZMK A 305,4.Aufl.</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -18323,6 +18407,7 @@
                <callNumber>ZMK A 305,4.Aufl.</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -18356,6 +18441,7 @@
                <callNumber>ZMK A 305,4.Aufl.</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -18711,6 +18797,7 @@
                <callNumber>AT A VII 18 c</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -18753,6 +18840,7 @@
                <callNumber>AT A VII 18 d</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -18997,6 +19085,7 @@
                <permanentLocationId>ONLINE</permanentLocationId>
                <holdingsTypeId>electronic</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <electronicAccess>
                   <arr>
                      <i>
@@ -19238,6 +19327,7 @@
                <callNumber>AU 6073</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -19623,6 +19713,7 @@
                <callNumber>29/ AK BIOPHARM./PHARMAZ. TECHN. VX 5100 WUR1 (18)</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -19665,6 +19756,7 @@
                <callNumber>VX 5100 WUR1 (18) +2</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -20409,6 +20501,7 @@
                <callNumber>PHILOS C 370-7</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -20442,6 +20535,7 @@
                <callNumber>L 01 Ästh.Grund 1-7</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -20475,6 +20569,7 @@
                <callNumber>Zo 4-7</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -20508,6 +20603,7 @@
                <callNumber>PHIL 50/5</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -20541,6 +20637,7 @@
                <callNumber>05 L - A 12</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -20574,6 +20671,7 @@
                <callNumber>05 L - A 12 / 2. Ex. / Zimmer Breuer</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -20607,6 +20705,7 @@
                <callNumber>12.0 - 1/1.7</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -20640,6 +20739,7 @@
                <callNumber>A c.12/1-7</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -20673,6 +20773,7 @@
                <callNumber>CC 6800 BAR/ 1-7</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -20706,6 +20807,7 @@
                <callNumber>LEX ÄSTH 2.7</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -21425,6 +21527,7 @@
                <callNumber>PHILOS C 370-2</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -21458,6 +21561,7 @@
                <callNumber>L 01 Ästh.Grund 1-2</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -21491,6 +21595,7 @@
                <callNumber>Zo 4-2</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -21524,6 +21629,7 @@
                <callNumber>PHIL 50/5</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -21557,6 +21663,7 @@
                <callNumber>05 L - A 12</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -21590,6 +21697,7 @@
                <callNumber>05 L - A 12 / 2. Ex. / Zimmer Breuer</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -21623,6 +21731,7 @@
                <callNumber>12.0 - 1/1.2</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -21656,6 +21765,7 @@
                <callNumber>A c.12/1-2</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -21689,6 +21799,7 @@
                <callNumber>CC 6800 BAR/ 1-2</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -21722,6 +21833,7 @@
                <callNumber>LEX ÄSTH 2.2</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -22125,6 +22237,7 @@
                <callNumber>MED A 2053</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -22167,6 +22280,7 @@
                <callNumber>41A 017,9.Aufl.</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -22658,6 +22772,7 @@
                <callNumber>296.240</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -23082,6 +23197,7 @@
                <callNumber>19 J/l 42 4.Aufl.</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -23129,6 +23245,7 @@
                <callNumber>19 J/l 42 4.Aufl.</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -23545,6 +23662,7 @@
                <callNumber>Ab 37-61</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -23849,6 +23967,7 @@
                <callNumber>ZZ 7255-153</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -24137,6 +24256,7 @@
                      </i>
                   </arr>
                </holdingsStatements>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -24572,6 +24692,7 @@
                <callNumber>26F 090/02,3.Aufl.</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -24718,6 +24839,7 @@
                <callNumber>Recht bestellt 2021</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -25014,6 +25136,7 @@
                <callNumber>D III c 48</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
@@ -25056,6 +25179,7 @@
                <callNumber>Qf 6a-36</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
+               <sourceId>hebis</sourceId>
                <items>
                   <arr>
                      <i>
