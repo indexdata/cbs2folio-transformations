@@ -17,7 +17,7 @@
   </xsl:template>
   <xsl:template match="record">
     <record>
-	  <processing>
+      <processing>
         <item>
           <status>
             <policy>overwrite</policy>
