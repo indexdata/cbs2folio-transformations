@@ -17,6 +17,20 @@
   </xsl:template>
   <xsl:template match="record">
     <record>
+	  <processing>
+        <item>
+          <status>
+            <policy>overwrite</policy>
+            <ifStatusWas>
+              <arr>
+                <i>
+                <name>On order</name>
+                </i>
+              </arr>
+            </ifStatusWas>
+          </status>
+        </item>
+      </processing>
       <original>
         <xsl:copy-of select="metadata/*"/>
       </original>
