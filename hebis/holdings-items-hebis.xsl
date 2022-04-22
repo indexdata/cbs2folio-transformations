@@ -2,9 +2,9 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output indent="yes" method="xml" version="1.0" encoding="UTF-8"/>
 
-  <!-- Dummies -->
-  <xsl:template name="lcode">UNKNOWN</xsl:template>
-  <xsl:template name="loantype">unknown</xsl:template>
+  <!-- ILN specific processing -->
+  <xsl:template name="lcode"><xsl:value-of select="@epn"/></xsl:template>
+  <xsl:template name="loantype"><xsl:value-of select="@epn"/></xsl:template>
 
   <xsl:template match="collection">
     <collection>
@@ -52,20 +52,8 @@
 				  (MAA: O* and knz: l*) = Lizenzexemplare (MAA: O* and knz: o*) = Eigenkatalogisate ebooks
 			   Hrid should be EPN from "datafield[@tag='203@']/subfield[@code='0']" in both cases
 		   -->
-      <!-- ILN -->
-      <xsl:variable name="electronicholding" select="(substring(datafield[@tag='208@']/subfield[@code='b'],1,1) = 'l') or (substring(datafield[@tag='208@']/subfield[@code='b'],1,1) = 'o') or (datafield[@tag='209A']/subfield[@code='f']='001')"/>
-      <xsl:message>Debug: Electronic <xsl:value-of select="$electronicholding"/></xsl:message>
-      <!-- Mainz/Hebis 209A$f/209G$a -->
-      <xsl:variable name="lcode">
-        <xsl:call-template name="lcode"/>
-       </xsl:variable>
-      <xsl:message>Debug: Location "<xsl:value-of select="$lcode"/>"</xsl:message>
-      <!-- Ende ILN -->
       <permanentLocationId>
-        <xsl:choose>
-          <xsl:when test="$electronicholding">ONLINE</xsl:when>
-          <xsl:otherwise><xsl:value-of select="$lcode"/></xsl:otherwise>
-        </xsl:choose>
+        <xsl:call-template name="lcode"/>
       </permanentLocationId>
       <!-- ILN -->    
       <xsl:variable name="cnprefix">
@@ -92,7 +80,8 @@
           </xsl:otherwise>
         </xsl:choose>
       </xsl:variable>
-       <xsl:if test="not($electronicholding) and ($lcode!='DUMMY')">
+      <xsl:variable name="electronicholding" select="(substring(datafield[@tag='208@']/subfield[@code='b'],1,1) = 'l') or (substring(datafield[@tag='208@']/subfield[@code='b'],1,1) = 'o') or (datafield[@tag='209A']/subfield[@code='f']='001')"/>
+      <xsl:if test="not($electronicholding) and (substring(datafield[@tag='208@']/subfield[@code='b'],1,1) != 'd')">
          <xsl:if test="string-length($cnprefix)>0">
           <callNumberPrefix> <!-- TBD: Element Name: OK -->
             <xsl:value-of select="$cnprefix"/>
@@ -232,11 +221,9 @@
           <xsl:otherwise>9 Sonstiges</xsl:otherwise>
         </xsl:choose>
       </materialTypeId>
-      <!-- ILN Ausleihindikator -->   
       <permanentLoanTypeId>
         <xsl:call-template name="loantype"/>
       </permanentLoanTypeId>
-      <!-- ILN Ende -->   
       <!-- ILN ? Ausleihindikator  -->   
       <status>
         <name>
@@ -253,7 +240,7 @@
       </status>
       <!-- ILN Ende -->   
       <xsl:if test="string-length($cnprefix)>0">
-        <itemLevelCallNumberPrefix> <!-- TBD: Element Name: OK -->
+        <itemLevelCallNumberPrefix> 
           <xsl:value-of select="$cnprefix"/>
         </itemLevelCallNumberPrefix>
       </xsl:if>

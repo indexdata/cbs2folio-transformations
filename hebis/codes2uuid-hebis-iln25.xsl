@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-  <xsl:import href="codes2uuid-hebis.xsl"/>
-
+  <xsl:output indent="yes" method="xml" version="1.0" encoding="UTF-8"/>
+  <xsl:template match="@* | node()">
+    <xsl:copy>
+      <xsl:apply-templates select="@* | node()"/>
+    </xsl:copy>
+  </xsl:template>
+  
   <!-- Map locations 
        NOTE: For Mainz, the tests are the location names in FOLIO, generated in hodings-items-mainz.xsl from 209A $f and other pica fields
 	   NOTE: Das müssen wir für Mainz umbiegen, bei uns müssen es die location names in FOLIO sein, 
@@ -83,25 +88,6 @@
         <xsl:otherwise>413fe054-a4f3-423e-a62f-088eb111ea8d</xsl:otherwise>
       </xsl:choose>
     </permanentLocationId>
-  </xsl:template>
-
-  <!-- Map Aternative titles -->
-  <xsl:template match="alternativeTitleTypeId">
-    <alternativeTitleTypeId>
-      <xsl:choose>
-        <xsl:when test=".='Cover title'">5c364ce4-c8fd-4891-a28d-bb91c9bcdbfb</xsl:when>
-        <xsl:when test=".='Running title'">09964ad1-7aed-49b8-8223-a4c105e3ef87</xsl:when>
-        <xsl:when test=".='Caption title'">432ca81a-fe4d-4249-bfd3-53388725647d</xsl:when>
-        <xsl:when test=".='Uniform title'">30512027-cdc9-4c79-af75-1565b3bd888d</xsl:when>
-        <xsl:when test=".='Parallel title'">4bb300a4-04c9-414b-bfbc-9c032f74b7b2</xsl:when>
-        <xsl:when test=".='Distinctive title'">781c04a4-f41e-4ab0-9118-6836e93de3c8</xsl:when>
-        <xsl:when test=".='No type specified'">0fe58901-183e-4678-a3aa-0b4751174ba8</xsl:when>
-        <xsl:when test=".='Spine title'">dae08d04-8c4e-4ab2-b6bb-99edbf252231</xsl:when>
-        <xsl:when test=".='Added title page title'">2ca8538d-a2fd-4e60-b967-1cb220101e22</xsl:when>
-        <xsl:when test=".='Portion of title'">a8b45056-2223-43ca-8514-4dd88ece984b</xsl:when>
-        <xsl:otherwise>0fe58901-183e-4678-a3aa-0b4751174ba8</xsl:otherwise>
-      </xsl:choose>
-    </alternativeTitleTypeId>
   </xsl:template>
 
   <!-- Map loan types -->

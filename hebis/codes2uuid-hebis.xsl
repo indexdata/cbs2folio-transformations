@@ -8,10 +8,6 @@
     </xsl:copy>
   </xsl:template>
     
-  <xsl:template match="permanentLocationId">
-    <permanentLocationId>unknown</permanentLocationId>
-  </xsl:template>
-
   <!-- Map statistical code ids -->
   <xsl:template match="statisticalCodeIds">
     <statisticalCodeIds>
@@ -125,12 +121,6 @@
         <xsl:otherwise>0fe58901-183e-4678-a3aa-0b4751174ba8</xsl:otherwise>
       </xsl:choose>
     </alternativeTitleTypeId>
-  </xsl:template>
-
-
-  <!-- Map loan types -->
-  <xsl:template match="permanentLoanTypeId">
-    <permanentLoanTypeId>unknown</permanentLoanTypeId>
   </xsl:template>
   
   <!-- Map material types -->
