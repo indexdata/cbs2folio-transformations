@@ -83,7 +83,7 @@
       <xsl:variable name="electronicholding" select="(substring(datafield[@tag='208@']/subfield[@code='b'],1,1) = 'l') or (substring(datafield[@tag='208@']/subfield[@code='b'],1,1) = 'o') or (datafield[@tag='209A']/subfield[@code='f']='001')"/>
       <xsl:if test="not($electronicholding) and (substring(datafield[@tag='208@']/subfield[@code='b'],1,1) != 'd')">
          <xsl:if test="string-length($cnprefix)>0">
-          <callNumberPrefix> <!-- TBD: Element Name: OK -->
+          <callNumberPrefix>
             <xsl:value-of select="$cnprefix"/>
             <xsl:message>Debug: Prefix "<xsl:value-of select="$cnprefix"/>"</xsl:message>
           </callNumberPrefix>
@@ -102,7 +102,6 @@
 		  </xsl:choose>
 	    </holdingsTypeId>
       <holdingsStatements>
-<!-- Hebis 209E$a -->
       <xsl:if test="datafield[(@tag='209E') and (subfield[@code='x']='02')]/subfield[@code='a']">
 		  <arr>
 		    <xsl:for-each select="datafield[(@tag='209E') and (subfield[@code='x']='02')]/subfield[@code='a']">
@@ -119,8 +118,6 @@
       <xsl:if test="not($electronicholding)">
          <items>
            <arr>
-<!-- Hebis 209G$a -->
-            <xsl:message>Debug: 209G - Hebis</xsl:message>
             <xsl:choose>
               <xsl:when test="(datafield[(@tag='209G') and (subfield[@code='x']='00')]/subfield[@code='a'])[2]">
                 <xsl:for-each select="datafield[(@tag='209G') and (subfield[@code='x']='00')]/subfield[@code='a']">
@@ -193,7 +190,6 @@
  
   <xsl:template match="item" mode="make-item">
     <xsl:param name="hhrid"/>
-<!-- Hebis 209G$a -->   
     <xsl:param name="bcode" select="substring-before(concat(datafield[(@tag='209G') and (subfield[@code='x']='00')]/subfield[@code='a'],' '),' ')"/>
     <xsl:param name="copy" select="''"/> <!-- oder kann hier eine copy-Information kommen? -->
     <xsl:param name="cnprefix"/>
@@ -203,9 +199,9 @@
       <hrid>
         <xsl:value-of select="$hhrid"/>
       </hrid>
+      
+      <!-- Hebis --> 
       <materialTypeId>
- <!--  Mainz/Hebis 002@$0  --> 
-        <!-- Hebis/GBV? -->   
         <xsl:variable name="type1" select="substring(../datafield[@tag='002@']/subfield[@code='0'], 1, 1)"/>
         <xsl:choose>
           <xsl:when test="($type1 = 'A') or ($type1 = 'H') or ($type1 = 'I')">0 Druckschrift</xsl:when>
@@ -221,6 +217,52 @@
           <xsl:otherwise>9 Sonstiges</xsl:otherwise>
         </xsl:choose>
       </materialTypeId>
+ 
+       <!-- GBV Style
+      <materialTypeId>
+        <xsl:variable name="type" select="../datafield[@tag='002@']/subfield[@code='0']"/>
+        <xsl:variable name="type1" select="substring($type, 1, 1)"/>
+        <xsl:variable name="type12" select="substring($type, 1, 2)"/>
+        <xsl:variable name="type2" select="substring($type, 2, 1)"/>
+        <xsl:variable name="pd" select="../datafield[@tag='013H']/subfield[@code='0']"/>
+        <xsl:variable name="mt" select="../datafield[@tag='002D']/subfield[@code='b']"/>
+        <xsl:choose>
+          <xsl:when test="$type12 = 'Ab'">
+            <xsl:choose>
+              <xsl:when test="$pd = 'zt'">Zeitung</xsl:when>
+              <xsl:otherwise>Zeitschrift</xsl:otherwise>
+            </xsl:choose>
+          </xsl:when>
+          <xsl:when test="$type2 = 's'">Aufsatz</xsl:when>
+          <xsl:when test="$type2 = 'c'">Mehrteilige Monografie</xsl:when>
+          <xsl:when test="$type2 = 'd'">Serie</xsl:when>
+          <xsl:when test="$type1 = 'A'">
+            <xsl:choose>
+              <xsl:when test="$pd = 'kart'">Karte(nwerk)</xsl:when>
+              <xsl:when test="$pd = 'lo'">Loseblattwerk</xsl:when>
+              <xsl:when test="$pd = 'muno'">Musiknote</xsl:when>
+              <xsl:otherwise>Buch</xsl:otherwise>
+            </xsl:choose>
+          </xsl:when>
+          <xsl:when test="$type1 = 'B'">
+            <xsl:choose>
+              <xsl:when test="$pd = 'vide' or $mt = 'v'">Film (DVD/Video)</xsl:when>
+              <xsl:when test="$mt = 'g' or $mt = 'n'">Bild(ersammlung)</xsl:when>
+              <xsl:when test="$mt = 'muno'">Musiknote</xsl:when>
+              <xsl:otherwise>Tonträger</xsl:otherwise>
+            </xsl:choose>
+          </xsl:when>
+          <xsl:when test="$type1 = 'C'">Blindenschriftträger</xsl:when>
+          <xsl:when test="$type1 = 'E'">Mikroform</xsl:when>
+          <xsl:when test="$type1 = 'H'">Handschrift</xsl:when>
+          <xsl:when test="$type1 = 'O'">E-Ressource</xsl:when>
+          <xsl:when test="$type1 = 'S'">E-Ressource auf Datenträger</xsl:when>
+          <xsl:when test="$type1 = 'V'">Objekt</xsl:when>
+          <xsl:when test="$type = 'Lax'">Lax</xsl:when>
+          <xsl:otherwise>Nicht spezifiziert</xsl:otherwise>
+        </xsl:choose>
+      </materialTypeId> -->
+ 
       <permanentLoanTypeId>
         <xsl:call-template name="loantype"/>
       </permanentLoanTypeId>
@@ -350,23 +392,23 @@
           </arr>
         </notes>
       </xsl:if>
- <!-- No item for electronic access in hebis -->
+      <!-- No item for electronic access in hebis -->
       <accessionNumber>
         <xsl:for-each select="datafield[@tag='209C']">
           <xsl:value-of select="./subfield[@code='a']"/>
           <xsl:if test="position() != last()">, </xsl:if>
         </xsl:for-each>
       </accessionNumber>
- 	  <!-- Mainz 208@$b Pos 1 = 'g' OR Pos 2 = 'y' OR Pos 2 = 'z'-->
+ 	    <!-- Mainz 208@$b Pos 1 = 'g' OR Pos 2 = 'y' OR Pos 2 = 'z'-->
       <!-- ILN -->   
-	 <discoverySuppress>
-	 <xsl:variable name="selectioncode" select="datafield[@tag='208@']/subfield[@code='b']"/>
-	 <xsl:message>Debug: selection code <xsl:value-of select="$selectioncode"/></xsl:message>
-        <xsl:choose>
-          <xsl:when test="(substring($selectioncode, 1, 1) = 'g') or (substring($selectioncode, 2, 1) = 'y') or (substring($selectioncode, 2, 1) = 'z')">true</xsl:when>           
-          <xsl:otherwise>false</xsl:otherwise>
-        </xsl:choose> 
-	</discoverySuppress>
+    	 <discoverySuppress>
+      	 <xsl:variable name="selectioncode" select="datafield[@tag='208@']/subfield[@code='b']"/>
+      	 <xsl:message>Debug: selection code <xsl:value-of select="$selectioncode"/></xsl:message>
+            <xsl:choose>
+              <xsl:when test="(substring($selectioncode, 1, 1) = 'g') or (substring($selectioncode, 2, 1) = 'y') or (substring($selectioncode, 2, 1) = 'z')">true</xsl:when>           
+              <xsl:otherwise>false</xsl:otherwise>
+            </xsl:choose> 
+    	</discoverySuppress>
       <!-- ILN Ende -->   
     </i>
   </xsl:template>
