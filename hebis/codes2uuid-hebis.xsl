@@ -8,23 +8,6 @@
     </xsl:copy>
   </xsl:template>
     
-  <!-- Map statistical code ids -->
-  <xsl:template match="statisticalCodeIds">
-    <statisticalCodeIds>
-      <arr>
-        <xsl:for-each select="arr/i">
-          <i>
-            <xsl:choose>
-              <xsl:when test=".='BASIS'">0ac04835-6a08-4043-9453-38908ff91129</xsl:when>
-              <xsl:when test=".='00015'">a59d4a4e-0339-4243-9039-bd64c8a9c941</xsl:when>
-              <xsl:when test=".='00016'">e70c1e74-d136-4d59-bdb9-1ec2f33c6a93</xsl:when>
-            </xsl:choose>
-          </i>
-        </xsl:for-each>
-      </arr>
-    </statisticalCodeIds>
-  </xsl:template>
-
   <!-- Map item note types -->
   <xsl:template match="itemNoteTypeId">
     <itemNoteTypeId>
@@ -128,13 +111,13 @@
     <materialTypeId>
       <xsl:choose>
         <!-- <xsl:when test=".='0 Druckschrift'">24080190-7539-4520-bde1-762f57d006fc</xsl:when> --> 
-        <xsl:when test=".='1 Audiovisuelles Material'">e378db32-4422-405d-bf08-89efd33335fd</xsl:when>
-        <xsl:when test=".='2 Tonträger'">baed4206-eef1-4c00-8126-d159a2113a71</xsl:when>
-        <xsl:when test=".='3 Computerlesbares Material'">a662fc3c-6a6e-4992-a38b-a74f875204c1</xsl:when>
-        <xsl:when test=".='4 Karten'">e8b94e9e-4144-46a8-b31c-774978d1c5ec</xsl:when>
-        <xsl:when test=".='5 Noten'">79edde01-85ce-451b-870a-edbfcbd8dbd7</xsl:when>
-        <xsl:when test=".='6 Mikroformen'">0a877486-1efb-43c2-b0e6-d539dd352aa2</xsl:when>
-        <xsl:when test=".='9 Sonstiges'">789c3cc7-54ac-41ed-90c6-da7fb417574a</xsl:when>
+        <xsl:when test=".='Audiovisuelles Material'">e378db32-4422-405d-bf08-89efd33335fd</xsl:when>
+        <xsl:when test=".='Tonträger'">baed4206-eef1-4c00-8126-d159a2113a71</xsl:when>
+        <xsl:when test=".='Computerlesbares Material'">a662fc3c-6a6e-4992-a38b-a74f875204c1</xsl:when>
+        <xsl:when test=".='Karten'">e8b94e9e-4144-46a8-b31c-774978d1c5ec</xsl:when>
+        <xsl:when test=".='Noten'">79edde01-85ce-451b-870a-edbfcbd8dbd7</xsl:when>
+        <xsl:when test=".='Mikroformen'">0a877486-1efb-43c2-b0e6-d539dd352aa2</xsl:when>
+        <xsl:when test=".='Sonstiges'">789c3cc7-54ac-41ed-90c6-da7fb417574a</xsl:when>
         <xsl:otherwise>24080190-7539-4520-bde1-762f57d006fc</xsl:otherwise>
       </xsl:choose>
     </materialTypeId>
@@ -517,7 +500,7 @@
     <sourceId>
       <xsl:choose>
         <xsl:when test=".='hebis'">ed96edb1-d91d-4a31-9c40-006f5199d782</xsl:when>
-        <xsl:otherwise>f32d531e-df79-46b3-8932-cdd35f7a2264</xsl:otherwise>
+        <xsl:otherwise>f32d531e-df79-46b3-8932-cdd35f7a2264</xsl:otherwise> <!-- FOLIO -->
       </xsl:choose>
     </sourceId>
   </xsl:template>

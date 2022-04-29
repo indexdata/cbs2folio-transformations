@@ -110,4 +110,21 @@
     </permanentLoanTypeId>
   </xsl:template>
 
+  <!-- Map statistical code ids -->
+  <xsl:template match="statisticalCodeIds">
+    <statisticalCodeIds>
+      <arr>
+        <xsl:for-each select="arr/i">
+          <i>
+            <xsl:choose>
+              <xsl:when test=".='BASIS'">0ac04835-6a08-4043-9453-38908ff91129</xsl:when>
+              <xsl:when test=".='00015'">a59d4a4e-0339-4243-9039-bd64c8a9c941</xsl:when>
+              <xsl:when test=".='00016'">e70c1e74-d136-4d59-bdb9-1ec2f33c6a93</xsl:when>
+            </xsl:choose>
+          </i>
+        </xsl:for-each>
+      </arr>
+    </statisticalCodeIds>
+  </xsl:template>
+
 </xsl:stylesheet>

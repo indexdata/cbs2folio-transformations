@@ -204,17 +204,17 @@
       <materialTypeId>
         <xsl:variable name="type1" select="substring(../datafield[@tag='002@']/subfield[@code='0'], 1, 1)"/>
         <xsl:choose>
-          <xsl:when test="($type1 = 'A') or ($type1 = 'H') or ($type1 = 'I')">0 Druckschrift</xsl:when>
-          <xsl:when test="$type1 = 'B'">1 Audiovisuelles Material</xsl:when>
-          <!-- <xsl:when test="$type1 = 'C'">Blindenschriftträger</xsl:when> -->
-          <xsl:when test="$type1 = 'E'">6 Mikroformen</xsl:when>
-          <xsl:when test="$type1 = 'G'">2 Tonträger</xsl:when>
-          <xsl:when test="$type1 = 'K'">4 Karten</xsl:when>
-          <xsl:when test="$type1 = 'M'">5 Noten</xsl:when>
+          <xsl:when test="($type1 = 'A') or ($type1 = 'H') or ($type1 = 'I')">Druckschrift</xsl:when>
+          <xsl:when test="$type1 = 'B'">Audiovisuelles Material</xsl:when>
+          <xsl:when test="$type1 = 'C'">Blindenschriftträger</xsl:when>
+          <xsl:when test="$type1 = 'E'">Mikroformen</xsl:when>
+          <xsl:when test="$type1 = 'G'">Tonträger</xsl:when>
+          <xsl:when test="$type1 = 'K'">Karten</xsl:when>
+          <xsl:when test="$type1 = 'M'">Noten</xsl:when>
           <!-- <xsl:when test="$type1 = 'O'">E-Ressource</xsl:when> --> <!-- no items -->
-          <xsl:when test="$type1 = 'S'">3 Computerlesbares Material</xsl:when>
+          <xsl:when test="$type1 = 'S'">Computerlesbares Material</xsl:when>
           <!-- <xsl:when test="$type1 = 'V'">Objekt</xsl:when> -->
-          <xsl:otherwise>9 Sonstiges</xsl:otherwise>
+          <xsl:otherwise>Sonstiges</xsl:otherwise>
         </xsl:choose>
       </materialTypeId>
  
