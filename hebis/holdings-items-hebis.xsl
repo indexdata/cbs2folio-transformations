@@ -37,25 +37,10 @@
       <hrid>
         <xsl:value-of select="$hhrid"/>
       </hrid>
-      <!-- Electronic access -->
-      <!-- Note! There is no 109R in hebis. There are always Level-2-Data (EPN)
-		       There are Two Cases for permanentLocation "online": 
-		        1.) "datafield[@tag='209A']/subfield[@code='a'] = '/'"
-			         AND "datafield[@tag='209A']/subfield[@code='f']='001'"> 
-			        (MAA: Obv and knz: p) = eigenkatalogisierte E-Journals
-			   2.) There is no datafield[@tag='209A']. 
-			       Tags for electronic addresses, like
-			       209S Subfield u (URL)
-			       204P Subfield 0 (DOI)
-			       204U Subfield 0 (URN)
-  				   204R Subfield 0 (handle)
-				  (MAA: O* and knz: l*) = Lizenzexemplare (MAA: O* and knz: o*) = Eigenkatalogisate ebooks
-			   Hrid should be EPN from "datafield[@tag='203@']/subfield[@code='0']" in both cases
-		   -->
       <permanentLocationId>
         <xsl:call-template name="lcode"/>
       </permanentLocationId>
-      <!-- ILN -->    
+      <!-- ILN TBD? -->    
       <xsl:variable name="cnprefix">
         <xsl:choose>
           <xsl:when test="contains(datafield[@tag='209A']/subfield[@code='a'],'°')">
@@ -80,7 +65,21 @@
           </xsl:otherwise>
         </xsl:choose>
       </xsl:variable>
-      <xsl:variable name="electronicholding" select="(substring(datafield[@tag='208@']/subfield[@code='b'],1,1) = 'l') or (substring(datafield[@tag='208@']/subfield[@code='b'],1,1) = 'o') or (datafield[@tag='209A']/subfield[@code='f']='001')"/>
+      <!-- TBD: Hebisweites Kriterium für Electronic access 209A$f =001 (UB MZ) =900 (UB FFM) -->
+      <!-- Note! There is no 109R in hebis. There are always Level-2-Data (EPN)
+		       There are Two Cases for permanentLocation "online": 
+		        1.) "datafield[@tag='209A']/subfield[@code='a'] = '/'"
+			         AND "datafield[@tag='209A']/subfield[@code='f']='001'"> 
+			        (MAA: Obv and knz: p) = eigenkatalogisierte E-Journals
+			   2.) There is no datafield[@tag='209A']. 
+			       Tags for electronic addresses, like
+			       209S Subfield u (URL)
+			       204P Subfield 0 (DOI)
+			       204U Subfield 0 (URN)
+  				   204R Subfield 0 (handle)
+				  (MAA: O* and knz: l*) = Lizenzexemplare (MAA: O* and knz: o*) = Eigenkatalogisate ebooks
+			   Hrid should be EPN from "datafield[@tag='203@']/subfield[@code='0']" in both cases   -->
+      <xsl:variable name="electronicholding" select="(substring(datafield[@tag='208@']/subfield[@code='b'],1,1) = 'l') or (substring(datafield[@tag='208@']/subfield[@code='b'],1,1) = 'o') or (datafield[@tag='209A']/subfield[@code='f']='001') or (datafield[@tag='209A']/subfield[@code='f']='900')"/>
       <xsl:if test="not($electronicholding) and (substring(datafield[@tag='208@']/subfield[@code='b'],1,1) != 'd')">
          <xsl:if test="string-length($cnprefix)>0">
           <callNumberPrefix>
@@ -266,7 +265,7 @@
       <permanentLoanTypeId>
         <xsl:call-template name="loantype"/>
       </permanentLoanTypeId>
-      <!-- ILN ? Ausleihindikator  -->   
+      <!-- ILN TBD? Ausleihindikator  -->   
       <status>
         <name>
           <xsl:choose>
@@ -399,8 +398,8 @@
           <xsl:if test="position() != last()">, </xsl:if>
         </xsl:for-each>
       </accessionNumber>
- 	    <!-- Mainz 208@$b Pos 1 = 'g' OR Pos 2 = 'y' OR Pos 2 = 'z'-->
-      <!-- ILN -->   
+ 	    <!-- TBD: Mainz 208@$b Pos 1 = 'g' OR Pos 2 = 'y' OR Pos 2 = 'z'-->
+      <!-- ILN TBD? -->   
     	 <discoverySuppress>
       	 <xsl:variable name="selectioncode" select="datafield[@tag='208@']/subfield[@code='b']"/>
       	 <xsl:message>Debug: selection code <xsl:value-of select="$selectioncode"/></xsl:message>

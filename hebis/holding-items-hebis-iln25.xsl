@@ -12,7 +12,7 @@
   <xsl:template match="permanentLocationId">
     <xsl:variable name="i" select="key('original',.)"/>
     <xsl:variable name="electronicholding" select="(substring($i/datafield[@tag='208@']/subfield[@code='b'],1,1) = 'l') or (substring($i/datafield[@tag='208@']/subfield[@code='b'],1,1) = 'o') or ($i/datafield[@tag='209A']/subfield[@code='f']='001')"/>
-    <!-- Mainz/Hebis 209A$f/209G$a -->
+    <!-- UB Mainz 209A$f/209G$a -->
     <permanentLocationId>
        <xsl:choose>
          <xsl:when test="$electronicholding">ONLINE</xsl:when>
