@@ -11,36 +11,38 @@
 
   <xsl:template match="permanentLocationId">
     <xsl:variable name="i" select="key('original',.)"/>
-    <xsl:variable name="electronicholding" select="(substring($i/datafield[@tag='208@']/subfield[@code='b'],1,1) = 'l') or (substring($i/datafield[@tag='208@']/subfield[@code='b'],1,1) = 'o') or ($i/datafield[@tag='209A']/subfield[@code='f']='900')"/>
     <!-- UB FFM 209A$f/209G$a ? -->
+    <xsl:variable name="abt" select="$i/datafield[@tag='209A']/subfield[@code='f']"/>
+    <xsl:variable name="standort" select="$i/datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']"/>
+    <xsl:variable name="electronicholding" select="(substring($i/datafield[@tag='208@']/subfield[@code='b'],1,1) = 'l') or (substring($i/datafield[@tag='208@']/subfield[@code='b'],1,1) = 'o') or ($abt='900')"/>
     <permanentLocationId>
        <xsl:choose>
          <xsl:when test="$electronicholding">ONLINE</xsl:when>
          <xsl:when test="substring($i/datafield[@tag='208@']/subfield[@code='b'],1,1) = 'd'">DUMMY</xsl:when>
-         <xsl:when test="$i/datafield[@tag='209A']/subfield[@code='f']='000'">
+         <xsl:when test="$abt='000'">
            <xsl:choose>
-             <xsl:when test="starts-with($i/datafield[(@tag='209A') and (subfield[@code='x']='01')]/subfield[@code='a'],'SR')">ZBOM</xsl:when> <!-- TBD: Offenes Magazin -->
+             <xsl:when test="starts-with($i/datafield[@tag='209A']/subfield[@code='h'],'SR')">ZBOM</xsl:when> <!-- TBD: Offenes Magazin -->
 
              <xsl:otherwise>UNKNOWN</xsl:otherwise>
            </xsl:choose>
          </xsl:when>
-         <xsl:when test="$i/datafield[@tag='209A']/subfield[@code='f']='034'">
+         <xsl:when test="$abt='034'">
            <xsl:choose>
-             <xsl:when test="$i/datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']='Magazin'">BRUWGM</xsl:when>
+             <xsl:when test="$standort='Magazin'">BRUWGM</xsl:when>
 
              <xsl:otherwise>BRUW</xsl:otherwise>
            </xsl:choose>
          </xsl:when>
-         <xsl:when test="$i/datafield[@tag='209A']/subfield[@code='f']='330'">
+         <xsl:when test="$abt='330'">
            <xsl:choose>
-             <xsl:when test="starts-with($i/datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a'],'Lehrbuch')">BZGLB</xsl:when>
+             <xsl:when test="starts-with($standort,'Lehrbuch')">BZGLB</xsl:when>
 
              <xsl:otherwise>BZGOM</xsl:otherwise>
            </xsl:choose>
          </xsl:when>
-         <xsl:when test="$i/datafield[@tag='209A']/subfield[@code='f']='006'">
+         <xsl:when test="$abt='006'">
            <xsl:choose>
-             <xsl:when test="$i/datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']='Testarchiv'">BSPTST</xsl:when>
+             <xsl:when test="$standort='Testarchiv'">BSPTST</xsl:when>
 
              <xsl:otherwise>BSP</xsl:otherwise>
            </xsl:choose>
