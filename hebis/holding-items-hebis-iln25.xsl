@@ -14,7 +14,7 @@
     <!-- UB Mainz 209A$f/209G$a -->
     <xsl:variable name="abt" select="$i/datafield[@tag='209A']/subfield[@code='f']"/>
     <xsl:variable name="standort" select="$i/datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']"/> 
-    <xsl:variable name="electronicholding" select="(substring($i/datafield[@tag='208@']/subfield[@code='b'],1,1) = 'l') or (substring($i/datafield[@tag='208@']/subfield[@code='b'],1,1) = 'o') or ($abt='001')"/>
+    <xsl:variable name="electronicholding" select="(substring($i/../datafield[@tag='002@']/subfield[@code='0'],1,1) = 'O') and not(substring($i/datafield[@tag='208@']/subfield[@code='b'],1,1) = 'a')"/>
     <permanentLocationId>
        <xsl:choose>
          <xsl:when test="$electronicholding">ONLINE</xsl:when>
@@ -144,7 +144,7 @@
         <xsl:when test="$loantype='g'">9 g nicht ausleihbar</xsl:when>
         <xsl:when test="$loantype='a'">9 a bestellt</xsl:when>
         <xsl:when test="$loantype='z'">9 z Verlust</xsl:when>
-        <xsl:otherwise>ausleihbar/Fernleihe</xsl:otherwise>
+        <xsl:otherwise>0 u ausleihbar</xsl:otherwise>
       </xsl:choose>
     </permanentLoanTypeId>
   </xsl:template>

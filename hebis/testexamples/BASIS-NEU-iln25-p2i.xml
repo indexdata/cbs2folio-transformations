@@ -4355,7 +4355,7 @@
                      <i>
                         <hrid>1126038369</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>ausleihbar/Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
                            <name>Intellectual item</name>
                         </status>
@@ -10290,7 +10290,7 @@
                      <i>
                         <hrid>1107909716</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>ausleihbar/Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
                            <name>Intellectual item</name>
                         </status>
@@ -16629,7 +16629,7 @@
                      <i>
                         <hrid>147250242</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>ausleihbar/Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
                            <name>Intellectual item</name>
                         </status>
@@ -24292,7 +24292,7 @@
                      <i>
                         <hrid>112362786X</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>ausleihbar/Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
                            <name>Intellectual item</name>
                         </status>

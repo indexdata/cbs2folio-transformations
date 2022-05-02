@@ -105,7 +105,7 @@
         <xsl:when test=".='9 g nicht ausleihbar'">20c359cb-b422-47cc-8c40-e8f6655f2b70</xsl:when>
         <xsl:when test=".='9 Test'">3b23397c-93ec-40ad-bb8a-9113f9fe9de2</xsl:when>
         <xsl:when test=".='9 z Verlust'">661ffe64-2e47-4203-845f-96d820aa48f2</xsl:when>
-        <xsl:otherwise>7a03b2e2-c995-47a4-83d0-04bbe1930af4</xsl:otherwise>
+        <xsl:otherwise>7a03b2e2-c995-47a4-83d0-04bbe1930af4</xsl:otherwise> <!-- TBD? -->
       </xsl:choose>
     </permanentLoanTypeId>
   </xsl:template>

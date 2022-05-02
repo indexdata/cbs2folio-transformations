@@ -112,13 +112,15 @@
       <xsl:choose>
         <!-- <xsl:when test=".='0 Druckschrift'">24080190-7539-4520-bde1-762f57d006fc</xsl:when> --> 
         <xsl:when test=".='Audiovisuelles Material'">e378db32-4422-405d-bf08-89efd33335fd</xsl:when>
+        <xsl:when test=".='Blindenschriftträger'">TBD</xsl:when>
         <xsl:when test=".='Tonträger'">baed4206-eef1-4c00-8126-d159a2113a71</xsl:when>
         <xsl:when test=".='Computerlesbares Material'">a662fc3c-6a6e-4992-a38b-a74f875204c1</xsl:when>
         <xsl:when test=".='Karten'">e8b94e9e-4144-46a8-b31c-774978d1c5ec</xsl:when>
         <xsl:when test=".='Noten'">79edde01-85ce-451b-870a-edbfcbd8dbd7</xsl:when>
         <xsl:when test=".='Mikroformen'">0a877486-1efb-43c2-b0e6-d539dd352aa2</xsl:when>
         <xsl:when test=".='Sonstiges'">789c3cc7-54ac-41ed-90c6-da7fb417574a</xsl:when>
-        <xsl:otherwise>24080190-7539-4520-bde1-762f57d006fc</xsl:otherwise>
+        <xsl:when test=".='Objekt'">TBD</xsl:when>
+        <xsl:otherwise>24080190-7539-4520-bde1-762f57d006fc</xsl:otherwise> <!-- Druckschrift -->
       </xsl:choose>
     </materialTypeId>
   </xsl:template>
