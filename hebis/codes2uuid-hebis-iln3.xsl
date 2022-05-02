@@ -26,18 +26,19 @@
   <xsl:template match="permanentLoanTypeId">
     <permanentLoanTypeId>
       <xsl:choose>
-        <!--  <xsl:when test=".='0 u ausleihbar'">7a03b2e2-c995-47a4-83d0-04bbe1930af4</xsl:when>  --> 
-        <xsl:when test=".='1 b Kurzausleihe'">df64c252-595d-463c-aad8-3bda0ba101aa</xsl:when>
-        <xsl:when test=".='2 c Lehrbuchsammlung'">d1ba00c9-3f08-4df9-9d70-c7e1ab3b1702</xsl:when>
-        <xsl:when test=".='3 s Präsenzbestand Lesesaal'">1cecc65a-a7c4-437a-bb04-6756c23b422e</xsl:when>
-        <xsl:when test=".='4 d Präsenzbestand Wochenendausleihe'">31c550e8-86b7-4674-bab0-7011ba94148e</xsl:when>
-        <xsl:when test=".='5 i nur für den Lesesaal'">e04e82c1-1257-4046-bc5e-d742bbe061da</xsl:when>
-        <xsl:when test=".='8 e vermisst'">cbd4ec80-1622-420e-8b7c-644b04109367</xsl:when>
-        <xsl:when test=".='9 a bestellt'">8cef8fa7-0a78-4bdd-84d3-25ce207ef8c8</xsl:when>
-        <xsl:when test=".='9 g nicht ausleihbar'">20c359cb-b422-47cc-8c40-e8f6655f2b70</xsl:when>
-        <xsl:when test=".='9 Test'">3b23397c-93ec-40ad-bb8a-9113f9fe9de2</xsl:when>
-        <xsl:when test=".='9 z Verlust'">661ffe64-2e47-4203-845f-96d820aa48f2</xsl:when>
-        <xsl:otherwise>7a03b2e2-c995-47a4-83d0-04bbe1930af4</xsl:otherwise>
+        <!--  <xsl:when test=".='0 u normal ausleihbar'">c943ac60-b743-4d14-92d9-69de65934af8</xsl:when> see otherwise  --> 
+        <xsl:when test=".='1 b Kurzausleihe'">fdb6f275-b9ab-4638-9e96-02fa5bdd67ca</xsl:when>
+        <xsl:when test=".='2 c ausleihbar, keine Fernleihe'">cd7cd95f-66f7-49d5-a737-f4e001a8521c</xsl:when>
+        <xsl:when test=".='3 s Präsenzbestand'">9ec54944-4f44-460d-8791-3a76083fd31d</xsl:when>
+        <xsl:when test=".='4 d passive Fernleihe'">90631eac-caf7-4c31-9c63-e91552085aff</xsl:when>
+        <xsl:when test=".='5 i nur für den Lesesaal'">a7239b09-6780-40bc-9058-c945de2fb535</xsl:when>
+        <xsl:when test=".='6 f nur Kopie möglich'">cff01821-6c65-4309-aa65-40bea4a89efe</xsl:when>
+        <xsl:when test=".='8 e vermisst'">2c84f231-cab9-498a-8c05-5cb337fbfbf6</xsl:when>
+        <xsl:when test=".='9 a Erwerbungsdaten'">d28f0423-623b-428f-88cf-3dbea1d7c83b</xsl:when>
+        <xsl:when test=".='9 g nicht ausleihbar (gesperrt)'">a2103b55-a144-4f73-ab01-db53ee32c878</xsl:when>
+        <xsl:when test=".='9 o Ausleihstatus unbekannt'">481f366d-1bca-44ef-a5a2-fe343aca08d7</xsl:when>
+        <xsl:when test=".='9 z Verlust'">b167f552-152e-43f3-bc52-090a21cc9625</xsl:when>
+        <xsl:otherwise>c943ac60-b743-4d14-92d9-69de65934af8</xsl:otherwise>
       </xsl:choose>
     </permanentLoanTypeId>
   </xsl:template>
