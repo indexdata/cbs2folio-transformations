@@ -40,44 +40,13 @@
       <permanentLocationId>
         <xsl:call-template name="lcode"/>
       </permanentLocationId>
-      <!-- TBD ILN-abhängig  -->    
-      <xsl:variable name="cnprefix">
-        <xsl:choose>
-          <xsl:when test="contains(datafield[@tag='209A']/subfield[@code='a'],'°')">
-            <xsl:value-of select="concat(normalize-space(translate(substring-before(datafield[@tag='209A']/subfield[@code='a'],'°'),'@','')),'°')"/>
-          </xsl:when>
-          <xsl:when test="contains(datafield[@tag='209A']/subfield[@code='a'],'@')">
-              <xsl:value-of select="normalize-space(substring-before(datafield[@tag='209A']/subfield[@code='a'],'@'))"/> 
-          </xsl:when>
-        </xsl:choose>
-      </xsl:variable>
-      <xsl:variable name="cn">
-        <xsl:choose>
-          <xsl:when test="contains(datafield[@tag='209A']/subfield[@code='a'],'°')">
-            <xsl:value-of select="normalize-space(translate(substring-after(datafield[@tag='209A']/subfield[@code='a'],'°'),'@',''))"/>
-          </xsl:when>
-          <xsl:when test="contains(datafield[@tag='209A']/subfield[@code='a'],'@')">
-            <xsl:value-of select="normalize-space(translate(substring-after(datafield[@tag='209A']/subfield[@code='a'],'@'),'@',''))"/>
-          </xsl:when>
-          <xsl:otherwise>
-            <xsl:value-of select="normalize-space(datafield[@tag='209A']/subfield[@code='a'])"/>
-          </xsl:otherwise>
-        </xsl:choose>
-      </xsl:variable>
-      <!-- Ende ILN -->
+      <xsl:variable name="cn" select="normalize-space(datafield[@tag='209A']/subfield[@code='a'])"/>
       <!-- Note! There is no 109R in hebis, see $electronicholding -->
  <!--     <xsl:variable name="electronicholding" select="(substring(datafield[@tag='208@']/subfield[@code='b'],1,1) = 'l') or (substring(datafield[@tag='208@']/subfield[@code='b'],1,1) = 'o') or (datafield[@tag='209A']/subfield[@code='f']='001') or (datafield[@tag='209A']/subfield[@code='f']='900')"/> -->
       <xsl:variable name="electronicholding" select="(substring(../datafield[@tag='002@']/subfield[@code='0'],1,1) = 'O') and not(substring(datafield[@tag='208@']/subfield[@code='b'],1,1) = 'a')"/>
       <xsl:if test="not($electronicholding) and (substring(datafield[@tag='208@']/subfield[@code='b'],1,1) != 'd')">
-         <xsl:if test="string-length($cnprefix)>0">
-          <callNumberPrefix>
-            <xsl:value-of select="$cnprefix"/>
-            <xsl:message>Debug: Prefix "<xsl:value-of select="$cnprefix"/>"</xsl:message>
-          </callNumberPrefix>
-         </xsl:if>
          <callNumber>
            <xsl:value-of select="$cn"/>
-           <xsl:message>Debug: Call Number "<xsl:value-of select="$cn"/>"</xsl:message>
          </callNumber>
       </xsl:if>
 	    <holdingsTypeId>
@@ -113,7 +82,6 @@
                   <xsl:with-param name="hhrid" select="concat($hhrid, '-', substring-before(.,' '))"/>
                   <xsl:with-param name="bcode" select="substring-before(.,' ')"/>
                   <xsl:with-param name="copy" select="substring-before(substring-after(.,'('),')')"/>
-                  <xsl:with-param name="cnprefix" select="$cnprefix"/>
                   <xsl:with-param name="cn" select="$cn"/>
                   </xsl:apply-templates>
                 </xsl:for-each>
@@ -121,7 +89,6 @@
               <xsl:otherwise>
                 <xsl:apply-templates select="." mode="make-item">
                   <xsl:with-param name="hhrid" select="$hhrid"/>
-                  <xsl:with-param name="cnprefix" select="$cnprefix"/>
                   <xsl:with-param name="cn" select="$cn"/>
                 </xsl:apply-templates>
                 </xsl:otherwise>
@@ -179,7 +146,6 @@
     <xsl:param name="hhrid"/>
     <xsl:param name="bcode" select="substring-before(concat(datafield[(@tag='209G') and (subfield[@code='x']='00')]/subfield[@code='a'],' '),' ')"/>
     <xsl:param name="copy" select="''"/> <!-- oder kann hier eine copy-Information kommen? -->
-    <xsl:param name="cnprefix"/>
     <xsl:param name="cn"/>
     <xsl:message>Debug: <xsl:value-of select="concat($hhrid,'#',$bcode,'#',$copy)"/></xsl:message>
     <i>
@@ -269,11 +235,6 @@
         </name>
       </status>
       <!-- ILN Ende -->   
-      <xsl:if test="string-length($cnprefix)>0">
-        <itemLevelCallNumberPrefix> 
-          <xsl:value-of select="$cnprefix"/>
-        </itemLevelCallNumberPrefix>
-      </xsl:if>
       <itemLevelCallNumber>
         <xsl:value-of select="$cn"/>
       </itemLevelCallNumber>
