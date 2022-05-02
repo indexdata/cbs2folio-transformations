@@ -260,7 +260,7 @@
                      <i>
                         <hrid>234416866</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
+                        <permanentLoanTypeId>0 u normal ausleihbar</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -844,7 +844,7 @@
                      <i>
                         <hrid>757734308-1004671421</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -861,7 +861,7 @@
                      <i>
                         <hrid>757734308-1004671417</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -878,7 +878,7 @@
                      <i>
                         <hrid>757734308-1004671402</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>

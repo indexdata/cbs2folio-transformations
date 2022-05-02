@@ -130,20 +130,19 @@
   </xsl:template>
    
   <xsl:template match="permanentLoanTypeId">
-    <!-- Mainz 209A$d -->
-    <xsl:variable name="loantype" select="key('original',.)/datafield[@tag='209A']/subfield[@code='d']"/>
+   <!-- Mainz 209A$d -->
     <permanentLoanTypeId>
       <xsl:choose>
-        <xsl:when test="$loantype='u'">0 u ausleihbar</xsl:when>
-        <xsl:when test="$loantype='b'">1 b Kurzausleihe</xsl:when>
-        <xsl:when test="$loantype='c'">2 c Lehrbuchsammlung</xsl:when>
-        <xsl:when test="$loantype='s'">3 s Präsenzbestand Lesesaal</xsl:when>
-        <xsl:when test="$loantype='d'">4 d Präsenzbestand Wochenendausleihe</xsl:when>
-        <xsl:when test="$loantype='i'">5 i nur für den Lesesaal</xsl:when>
-        <xsl:when test="$loantype='e'">8 e vermisst</xsl:when>
-        <xsl:when test="$loantype='g'">9 g nicht ausleihbar</xsl:when>
-        <xsl:when test="$loantype='a'">9 a bestellt</xsl:when>
-        <xsl:when test="$loantype='z'">9 z Verlust</xsl:when>
+        <xsl:when test=".='u'">0 u ausleihbar</xsl:when>
+        <xsl:when test=".='b'">1 b Kurzausleihe</xsl:when>
+        <xsl:when test=".='c'">2 c Lehrbuchsammlung</xsl:when>
+        <xsl:when test=".='s'">3 s Präsenzbestand Lesesaal</xsl:when>
+        <xsl:when test=".='d'">4 d Präsenzbestand Wochenendausleihe</xsl:when>
+        <xsl:when test=".='i'">5 i nur für den Lesesaal</xsl:when>
+        <xsl:when test=".='e'">8 e vermisst</xsl:when>
+        <xsl:when test=".='g'">9 g nicht ausleihbar</xsl:when>
+        <xsl:when test=".='a'">9 a bestellt</xsl:when>
+        <xsl:when test=".='z'">9 z Verlust</xsl:when>
         <xsl:otherwise>0 u ausleihbar</xsl:otherwise>
       </xsl:choose>
     </permanentLoanTypeId>

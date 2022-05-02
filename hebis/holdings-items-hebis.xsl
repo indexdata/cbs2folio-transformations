@@ -4,7 +4,7 @@
 
   <!-- ILN specific processing -->
   <xsl:template name="lcode"><xsl:value-of select="@epn"/></xsl:template>
-  <xsl:template name="loantype"><xsl:value-of select="@epn"/></xsl:template>
+  <xsl:template name="loantype"><xsl:value-of select="datafield[@tag='209A']/subfield[@code='d']"/></xsl:template>
 
   <xsl:template match="collection">
     <collection>
