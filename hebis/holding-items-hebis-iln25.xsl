@@ -146,6 +146,12 @@
       </xsl:choose>
     </permanentLoanTypeId>
   </xsl:template>
+  
+  <xsl:template match="discoverySuppress"> <!-- TBD: Kat. 247E/XY ? -->
+    <discoverySuppress>
+        <xsl:value-of select="(substring(., 1, 1) = 'g') or (substring(., 2, 1) = 'y') or (substring(., 2, 1) = 'z')"/>           
+    </discoverySuppress>
+  </xsl:template>
 
 <!-- Parsing call number for prefix - optional -->
 

@@ -5,6 +5,7 @@
   <!-- ILN specific processing -->
   <xsl:template name="lcode"><xsl:value-of select="@epn"/></xsl:template>
   <xsl:template name="loantype"><xsl:value-of select="datafield[@tag='209A']/subfield[@code='d']"/></xsl:template>
+  <xsl:template name="selectioncode"><xsl:value-of select="datafield[@tag='208@']/subfield[@code='b']"/></xsl:template>
 
   <xsl:template match="collection">
     <collection>
@@ -42,7 +43,6 @@
       </permanentLocationId>
       <xsl:variable name="cn" select="normalize-space(datafield[@tag='209A']/subfield[@code='a'])"/>
       <!-- Note! There is no 109R in hebis, see $electronicholding -->
- <!--     <xsl:variable name="electronicholding" select="(substring(datafield[@tag='208@']/subfield[@code='b'],1,1) = 'l') or (substring(datafield[@tag='208@']/subfield[@code='b'],1,1) = 'o') or (datafield[@tag='209A']/subfield[@code='f']='001') or (datafield[@tag='209A']/subfield[@code='f']='900')"/> -->
       <xsl:variable name="electronicholding" select="(substring(../datafield[@tag='002@']/subfield[@code='0'],1,1) = 'O') and not(substring(datafield[@tag='208@']/subfield[@code='b'],1,1) = 'a')"/>
       <xsl:if test="not($electronicholding) and (substring(datafield[@tag='208@']/subfield[@code='b'],1,1) != 'd')">
          <callNumber>
@@ -348,16 +348,10 @@
           <xsl:if test="position() != last()">, </xsl:if>
         </xsl:for-each>
       </accessionNumber>
-      <!-- ILN-abhängig TBD  (TBD Kat. 4850?) ILN3: (substring($selectioncode, 1, 1) = 'g') -->   
+      <!-- TBD 247E/XY ? -->   
     	 <discoverySuppress>
-      	 <xsl:variable name="selectioncode" select="datafield[@tag='208@']/subfield[@code='b']"/>
-      	 <xsl:message>Debug: selection code <xsl:value-of select="$selectioncode"/></xsl:message>
-            <xsl:choose>
-              <xsl:when test="(substring($selectioncode, 1, 1) = 'g') or (substring($selectioncode, 2, 1) = 'y') or (substring($selectioncode, 2, 1) = 'z')">true</xsl:when>           
-              <xsl:otherwise>false</xsl:otherwise>
-            </xsl:choose> 
+      	 <xsl:call-template name="selectioncode"/>
     	</discoverySuppress>
-      <!-- ILN Ende -->   
     </i>
   </xsl:template>
   <xsl:template match="text()"/>

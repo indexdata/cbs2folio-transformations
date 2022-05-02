@@ -107,10 +107,10 @@
   </xsl:template>
   
   <!-- Map material types -->
-  <xsl:template match="materialTypeId">
+  <xsl:template match="materialTypeId"> <!-- hebis wide UUIDs -->
     <materialTypeId>
       <xsl:choose>
-        <!-- <xsl:when test=".='0 Druckschrift'">24080190-7539-4520-bde1-762f57d006fc</xsl:when> --> 
+        <!-- <xsl:when test=".='0 Druckschrift'">24080190-7539-4520-bde1-762f57d006fc</xsl:when> see otherwise --> 
         <xsl:when test=".='Audiovisuelles Material'">e378db32-4422-405d-bf08-89efd33335fd</xsl:when>
         <xsl:when test=".='Blindenschriftträger'">TBD</xsl:when>
         <xsl:when test=".='Tonträger'">baed4206-eef1-4c00-8126-d159a2113a71</xsl:when>
@@ -501,7 +501,7 @@
   <xsl:template match="sourceId">
     <sourceId>
       <xsl:choose>
-        <xsl:when test=".='hebis'">ed96edb1-d91d-4a31-9c40-006f5199d782</xsl:when>
+        <xsl:when test=".='hebis'">ed96edb1-d91d-4a31-9c40-006f5199d782</xsl:when> <!-- hebis wide UUID -->
         <xsl:otherwise>f32d531e-df79-46b3-8932-cdd35f7a2264</xsl:otherwise> <!-- FOLIO -->
       </xsl:choose>
     </sourceId>
