@@ -18,7 +18,7 @@
         <xsl:for-each select="@* | node()">
             <xsl:copy-of select="."/>
         </xsl:for-each>
-        <xsl:apply-templates/>
+        <xsl:apply-templates select="original"/>
     </record>
   </xsl:template>
 
@@ -42,7 +42,7 @@
         <xsl:call-template name="lcode"/>
       </permanentLocationId>
       <xsl:variable name="cn" select="normalize-space(datafield[@tag='209A']/subfield[@code='a'])"/>
-      <!-- Note! There is no 109R in hebis, see $electronicholding -->
+      <!-- There is no 109R in hebis, see $electronicholding -->
       <xsl:variable name="electronicholding" select="(substring(../datafield[@tag='002@']/subfield[@code='0'],1,1) = 'O') and not(substring(datafield[@tag='208@']/subfield[@code='b'],1,1) = 'a')"/>
       <xsl:if test="not($electronicholding) and (substring(datafield[@tag='208@']/subfield[@code='b'],1,1) != 'd')">
          <callNumber>
@@ -153,69 +153,24 @@
         <xsl:value-of select="$hhrid"/>
       </hrid>
       
-      <!-- Hebis -->  <!-- TBD GBV-Materialtypen -->
+      <!-- Hebis / K10plus -->  
       <materialTypeId>
         <xsl:variable name="type1" select="substring(../datafield[@tag='002@']/subfield[@code='0'], 1, 1)"/>
         <xsl:variable name="pd" select="../datafield[@tag='013H']/subfield[@code='0']"/>
         <xsl:choose>
-          <xsl:when test="($type1 = 'A') or ($type1 = 'H') or ($type1 = 'I') or ($type1 = 'L')">Druckschrift</xsl:when> <!-- pd bild type1 B statt type1 I -->
-          <xsl:when test="$type1 = 'B'">Audiovisuelles Material</xsl:when> <!-- pd vide type1 B -->
+          <xsl:when test="(($type1 = 'A') and ($pd = 'kart')) or ($type1 = 'K')">Karten</xsl:when> <!-- K10plus: pd kart type1 A / Hebis: type1 K -->
+          <xsl:when test="(($type1 = 'A') and ($pd = 'muno')) or ($type1 = 'M')">Noten</xsl:when> <!-- K10plus: pd muno type1 A / Hebis: type1 M -->
+          <xsl:when test="($type1 = 'A') or ($type1 = 'H') or ($type1 = 'I') or ($type1 = 'L') or (($type1 = 'B') and ($pd = 'bild'))">Druckschrift</xsl:when> <!-- K10plus: pd bild type1 B / Hebis: type1 I -->
+          <xsl:when test="($type1 = 'G') or (($type1 = 'B') and ($pd = 'soto'))">Tonträger</xsl:when> <!-- K10pus: pd soto type1 B / Hebis: type1 G -->
+          <xsl:when test="$type1 = 'B'">Audiovisuelles Material</xsl:when> <!-- K10plus: pd vide type1 B / Hebis: type1 B -->
           <xsl:when test="$type1 = 'C'">Blindenschriftträger</xsl:when>
           <xsl:when test="$type1 = 'E'">Mikroformen</xsl:when>
-          <xsl:when test="$type1 = 'G'">Tonträger</xsl:when> <!-- pd soto type1 B -->
-          <xsl:when test="$type1 = 'K'">Karten</xsl:when> <!-- pd kart type1 A -->
-          <xsl:when test="$type1 = 'M'">Noten</xsl:when> <!-- pd muno type1 A -->
           <!-- <xsl:when test="$type1 = 'O'">E-Ressource</xsl:when> --> <!-- no items -->
           <xsl:when test="$type1 = 'S'">Computerlesbares Material</xsl:when>
           <xsl:when test="$type1 = 'V'">Objekt</xsl:when>
           <xsl:otherwise>Sonstiges</xsl:otherwise>
         </xsl:choose>
       </materialTypeId>
- 
-       <!-- GBV Style
-      <materialTypeId>
-        <xsl:variable name="type" select="../datafield[@tag='002@']/subfield[@code='0']"/>
-        <xsl:variable name="type1" select="substring($type, 1, 1)"/>
-        <xsl:variable name="type12" select="substring($type, 1, 2)"/>
-        <xsl:variable name="type2" select="substring($type, 2, 1)"/>
-        <xsl:variable name="pd" select="../datafield[@tag='013H']/subfield[@code='0']"/>
-        <xsl:variable name="mt" select="../datafield[@tag='002D']/subfield[@code='b']"/>
-        <xsl:choose>
-          <xsl:when test="$type12 = 'Ab'">
-            <xsl:choose>
-              <xsl:when test="$pd = 'zt'">Zeitung</xsl:when>
-              <xsl:otherwise>Zeitschrift</xsl:otherwise>
-            </xsl:choose>
-          </xsl:when>
-          <xsl:when test="$type2 = 's'">Aufsatz</xsl:when>
-          <xsl:when test="$type2 = 'c'">Mehrteilige Monografie</xsl:when>
-          <xsl:when test="$type2 = 'd'">Serie</xsl:when>
-          <xsl:when test="$type1 = 'A'">
-            <xsl:choose>
-              <xsl:when test="$pd = 'kart'">Karte(nwerk)</xsl:when>
-              <xsl:when test="$pd = 'lo'">Loseblattwerk</xsl:when>
-              <xsl:when test="$pd = 'muno'">Musiknote</xsl:when>
-              <xsl:otherwise>Buch</xsl:otherwise>
-            </xsl:choose>
-          </xsl:when>
-          <xsl:when test="$type1 = 'B'">
-            <xsl:choose>
-              <xsl:when test="$pd = 'vide' or $mt = 'v'">Film (DVD/Video)</xsl:when>
-              <xsl:when test="$mt = 'g' or $mt = 'n'">Bild(ersammlung)</xsl:when>
-              <xsl:when test="$mt = 'muno'">Musiknote</xsl:when>
-              <xsl:otherwise>Tonträger</xsl:otherwise>
-            </xsl:choose>
-          </xsl:when>
-          <xsl:when test="$type1 = 'C'">Blindenschriftträger</xsl:when>
-          <xsl:when test="$type1 = 'E'">Mikroform</xsl:when>
-          <xsl:when test="$type1 = 'H'">Handschrift</xsl:when>
-          <xsl:when test="$type1 = 'O'">E-Ressource</xsl:when>
-          <xsl:when test="$type1 = 'S'">E-Ressource auf Datenträger</xsl:when>
-          <xsl:when test="$type1 = 'V'">Objekt</xsl:when>
-          <xsl:when test="$type = 'Lax'">Lax</xsl:when>
-          <xsl:otherwise>Nicht spezifiziert</xsl:otherwise>
-        </xsl:choose>
-      </materialTypeId> -->
  
       <permanentLoanTypeId>
         <xsl:call-template name="loantype"/>
@@ -279,7 +234,7 @@
       <enumeration>
         <xsl:value-of select="datafield[@tag='231B']/subfield[@code='a']"/>
       </enumeration>
-      <numberOfPieces>
+      <numberOfPieces> <!-- TBD -->
         <xsl:value-of select="datafield[@tag='208F']/subfield[@code='a']"/>
       </numberOfPieces>
       <xsl:if test="datafield[@tag='220B' or @tag='237A' or @tag='244Z' or @tag='209O' or @tag='206X' or @tag='206W']">

@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <collection>
    <record>
+      <processing>
+         <item>
+            <status>
+               <policy>overwrite</policy>
+               <ifStatusWas>
+                  <arr>
+                     <i>
+                        <name>On order</name>
+                     </i>
+                  </arr>
+               </ifStatusWas>
+            </status>
+         </item>
+      </processing>
       
       <instance>
          <source>hebis</source>
@@ -30,11 +44,11 @@
                </i>
                <i>
                   <value>ZDB: 2936581-8</value>
-                  <identifierTypeId>7ef1b405-cb90-4d4e-b5e3-2b25f5d8a79b</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
                <i>
                   <value>ZDB-1-EIC</value>
-                  <identifierTypeId>0af95dfb-6c4e-4db0-8ee6-bc95897f03e2</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -59,10 +73,14 @@
             <arr>
                <i>
                   <uri>http://www.eastindiacompany.amdigital.co.uk</uri>
+                  <materialsSpecification/>
+                  <publicNote/>
                   <relationshipId>f5d0068e-6272-458e-8a81-b85e7b9a14aa</relationshipId>
                </i>
                <i>
                   <uri>http://dbis.uni-regensburg.de/frontdoor.php?titel_id=101929</uri>
+                  <materialsSpecification/>
+                  <publicNote/>
                   <relationshipId>f5d0068e-6272-458e-8a81-b85e7b9a14aa</relationshipId>
                </i>
             </arr>
@@ -77,7 +95,6 @@
          </notes>
          <natureOfContentTermIds>
             <arr>
-               <i/>
                <i/>
             </arr>
          </natureOfContentTermIds>
@@ -118,6 +135,20 @@
       </holdingsRecords>
    </record>
    <record>
+      <processing>
+         <item>
+            <status>
+               <policy>overwrite</policy>
+               <ifStatusWas>
+                  <arr>
+                     <i>
+                        <name>On order</name>
+                     </i>
+                  </arr>
+               </ifStatusWas>
+            </status>
+         </item>
+      </processing>
       
       <instance>
          <source>hebis</source>
@@ -140,29 +171,23 @@
                   <identifierTypeId>439bfbae-75bc-4f74-9fc7-b2a2d47ce3ef</identifierTypeId>
                </i>
                <i>
-                  <value>978-90-450-0481-5</value>
+                  <value>9789045004815</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
                </i>
                <i>
-                  <value>90-450-0481-X</value>
+                  <value>904500481X</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
                </i>
                <i>
                   <value>HEB: 226193802</value>
-                  <identifierTypeId>7ef1b405-cb90-4d4e-b5e3-2b25f5d8a79b</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
             </arr>
          </identifiers>
          <indexTitle>Waterwolven een geschiedenis van stormvloeden, dijkenbouwers en droogmakers Cordula Rooijendijk</indexTitle>
          <title>Waterwolven : een geschiedenis van stormvloeden, dijkenbouwers en droogmakers / Cordula Rooijendijk</title>
          <contributors>
-            <arr>
-               <i>
-                  <name>Rooijendijk, Cordula 1973- [Tp3]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <primary>true</primary>
-               </i>
-            </arr>
+            <arr/>
          </contributors>
          <publication>
             <arr>
@@ -246,6 +271,20 @@
       </holdingsRecords>
    </record>
    <record>
+      <processing>
+         <item>
+            <status>
+               <policy>overwrite</policy>
+               <ifStatusWas>
+                  <arr>
+                     <i>
+                        <name>On order</name>
+                     </i>
+                  </arr>
+               </ifStatusWas>
+            </status>
+         </item>
+      </processing>
       
       <instance>
          <source>hebis</source>
@@ -270,20 +309,24 @@
                   <identifierTypeId>439bfbae-75bc-4f74-9fc7-b2a2d47ce3ef</identifierTypeId>
                </i>
                <i>
-                  <value>978-1-108-44610-5 Paperback</value>
+                  <value>9781108446105 Paperback</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
                </i>
                <i>
-                  <value>978-1-108-42736-4 Hardback</value>
+                  <value>9781108427364 Hardback</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
                </i>
                <i>
-                  <value>978-1-316-99779-6 E-Book</value>
-                  <identifierTypeId>47e6ce08-5ecb-4403-99ca-3c5a84412b48</identifierTypeId>
+                  <value>9781316997796 E-Book</value>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
+               </i>
+               <i>
+                  <value>GBC005585</value>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
                <i>
                   <value>HEB: 460686119</value>
-                  <identifierTypeId>7ef1b405-cb90-4d4e-b5e3-2b25f5d8a79b</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -296,20 +339,13 @@
                   <alternativeTitleTypeId>0fe58901-183e-4678-a3aa-0b4751174ba8</alternativeTitleTypeId>
                </i>
                <i>
-                  <alternativeTitle>Literature and food</alternativeTitle>
+                  <alternativeTitle>Abweichender Titel: Literature and food</alternativeTitle>
                   <alternativeTitleTypeId>0fe58901-183e-4678-a3aa-0b4751174ba8</alternativeTitleTypeId>
                </i>
             </arr>
          </alternativeTitles>
          <contributors>
-            <arr>
-               <i>
-                  <name>Coghlan, J. Michelle 1978- [Tp3]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <contributorTypeId>9deb29d1-3e71-4951-9413-a80adac703d0</contributorTypeId>
-                  <contributorTypeText>Herausgeber</contributorTypeText>
-               </i>
-            </arr>
+            <arr/>
          </contributors>
          <publication>
             <arr>
@@ -398,6 +434,20 @@
       </holdingsRecords>
    </record>
    <record>
+      <processing>
+         <item>
+            <status>
+               <policy>overwrite</policy>
+               <ifStatusWas>
+                  <arr>
+                     <i>
+                        <name>On order</name>
+                     </i>
+                  </arr>
+               </ifStatusWas>
+            </status>
+         </item>
+      </processing>
       
       <instance>
          <source>hebis</source>
@@ -421,25 +471,14 @@
                </i>
                <i>
                   <value>HEB: 104122676</value>
-                  <identifierTypeId>7ef1b405-cb90-4d4e-b5e3-2b25f5d8a79b</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
             </arr>
          </identifiers>
          <indexTitle>Teatro António Pedro. Coord. de António Brás de Oliveira. Pref. de Luiz Francisco Rebello</indexTitle>
          <title>Teatro / António Pedro. Coord. de António Brás de Oliveira. Pref. de Luiz Francisco Rebello</title>
          <contributors>
-            <arr>
-               <i>
-                  <name>Pedro, Antonio [Tnx]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <primary>true</primary>
-               </i>
-               <i>
-                  <name>Oliveira, António Brás de [Tnx]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <contributorTypeText>Hrsg.</contributorTypeText>
-               </i>
-            </arr>
+            <arr/>
          </contributors>
          <publication>
             <arr>
@@ -454,11 +493,21 @@
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <natureOfContentTermIds>
+            <arr>
+               <i>ebbbdef1-00e1-428b-bc11-314dc0705074</i>
+            </arr>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>por</i>
             </arr>
          </languages>
+         <series>
+            <arr>
+               <i>Autores portugueses dos séculos XIX e XX</i>
+            </arr>
+         </series>
          <physicalDescriptions>
             <arr>
                <i>344 S. : Ill.</i>
@@ -515,6 +564,20 @@
       </holdingsRecords>
    </record>
    <record>
+      <processing>
+         <item>
+            <status>
+               <policy>overwrite</policy>
+               <ifStatusWas>
+                  <arr>
+                     <i>
+                        <name>On order</name>
+                     </i>
+                  </arr>
+               </ifStatusWas>
+            </status>
+         </item>
+      </processing>
       
       <instance>
          <source>hebis</source>
@@ -537,25 +600,19 @@
                   <identifierTypeId>e176c942-bc34-417c-8ee5-920e5b279c1d</identifierTypeId>
                </i>
                <i>
-                  <value>11,H06</value>
+                  <value>11,H06,0826</value>
                   <identifierTypeId>91dd4d66-bb6b-45f9-9678-646b6322b31b</identifierTypeId>
                </i>
                <i>
                   <value>DNB: 1006184686</value>
-                  <identifierTypeId>7ef1b405-cb90-4d4e-b5e3-2b25f5d8a79b</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
             </arr>
          </identifiers>
          <indexTitle>Phosphor-(III)-funktionalisierte 1,8-Naphthyridin- und Harnstoff-Derivate und deren Anwendung in der Übergangsmetall-katalysierten homogenen Katalyse vorgelegt von Marc Awenius</indexTitle>
          <title>Phosphor-(III)-funktionalisierte 1,8-Naphthyridin- und Harnstoff-Derivate und deren Anwendung in der Übergangsmetall-katalysierten homogenen Katalyse / vorgelegt von Marc Awenius</title>
          <contributors>
-            <arr>
-               <i>
-                  <name>Awenius, Marc [Tp3]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <primary>true</primary>
-               </i>
-            </arr>
+            <arr/>
          </contributors>
          <publication>
             <arr/>
@@ -563,6 +620,11 @@
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <natureOfContentTermIds>
+            <arr>
+               <i>94f6d06a-61e0-47c1-bbcb-6186989e6040</i>
+            </arr>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -624,6 +686,20 @@
       </holdingsRecords>
    </record>
    <record>
+      <processing>
+         <item>
+            <status>
+               <policy>overwrite</policy>
+               <ifStatusWas>
+                  <arr>
+                     <i>
+                        <name>On order</name>
+                     </i>
+                  </arr>
+               </ifStatusWas>
+            </status>
+         </item>
+      </processing>
       
       <instance>
          <source>hebis</source>
@@ -653,7 +729,7 @@
                </i>
                <i>
                   <value>ZDB: 3040993-7</value>
-                  <identifierTypeId>7ef1b405-cb90-4d4e-b5e3-2b25f5d8a79b</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -690,10 +766,14 @@
             <arr>
                <i>
                   <uri>https://beck-online.beck.de/Modul/142882</uri>
+                  <materialsSpecification/>
+                  <publicNote/>
                   <relationshipId>f5d0068e-6272-458e-8a81-b85e7b9a14aa</relationshipId>
                </i>
                <i>
                   <uri>https://dbis.uni-regensburg.de/frontdoor.php?titel_id=104246</uri>
+                  <materialsSpecification/>
+                  <publicNote/>
                   <relationshipId>f5d0068e-6272-458e-8a81-b85e7b9a14aa</relationshipId>
                </i>
             </arr>
@@ -724,6 +804,11 @@
                <i>ger</i>
             </arr>
          </languages>
+         <series>
+            <arr>
+               <i>Beck-online</i>
+            </arr>
+         </series>
          <physicalDescriptions>
             <arr>
                <i>Online-Ressource</i>
@@ -756,6 +841,20 @@
       </holdingsRecords>
    </record>
    <record>
+      <processing>
+         <item>
+            <status>
+               <policy>overwrite</policy>
+               <ifStatusWas>
+                  <arr>
+                     <i>
+                        <name>On order</name>
+                     </i>
+                  </arr>
+               </ifStatusWas>
+            </status>
+         </item>
+      </processing>
       
       <instance>
          <source>hebis</source>
@@ -780,39 +879,31 @@
                   <identifierTypeId>439bfbae-75bc-4f74-9fc7-b2a2d47ce3ef</identifierTypeId>
                </i>
                <i>
-                  <value>978-3-8385-5556-0</value>
+                  <value>9783838555560</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
                </i>
                <i>
                   <value>BVB: BV047169505</value>
-                  <identifierTypeId>7ef1b405-cb90-4d4e-b5e3-2b25f5d8a79b</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
                <i>
                   <value>ZDB-41-UTB</value>
-                  <identifierTypeId>0af95dfb-6c4e-4db0-8ee6-bc95897f03e2</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
                <i>
                   <value>ZDB-41-UTBF</value>
-                  <identifierTypeId>0af95dfb-6c4e-4db0-8ee6-bc95897f03e2</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
                <i>
                   <value>ZDB-41-UTBF21-1</value>
-                  <identifierTypeId>0af95dfb-6c4e-4db0-8ee6-bc95897f03e2</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
             </arr>
          </identifiers>
          <indexTitle>Krimi in Literatur, Film und Serie eine Einführung Stefan Neuhaus</indexTitle>
          <title>Der Krimi in Literatur, Film und Serie : eine Einführung / Stefan Neuhaus</title>
          <contributors>
-            <arr>
-               <i>
-                  <name>Neuhaus, Stefan 1965- [Tp1]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <primary>true</primary>
-                  <contributorTypeId>6e09d47d-95e2-4d8a-831b-f777b8ef6d81</contributorTypeId>
-                  <contributorTypeText>Verfasser</contributorTypeText>
-               </i>
-            </arr>
+            <arr/>
          </contributors>
          <publication>
             <arr>
@@ -834,6 +925,8 @@
             <arr>
                <i>
                   <uri>https://elibrary.utb.de/doi/book/10.36198/9783838555560</uri>
+                  <materialsSpecification/>
+                  <publicNote/>
                   <relationshipId>f5d0068e-6272-458e-8a81-b85e7b9a14aa</relationshipId>
                </i>
             </arr>
@@ -880,6 +973,20 @@
       </holdingsRecords>
    </record>
    <record>
+      <processing>
+         <item>
+            <status>
+               <policy>overwrite</policy>
+               <ifStatusWas>
+                  <arr>
+                     <i>
+                        <name>On order</name>
+                     </i>
+                  </arr>
+               </ifStatusWas>
+            </status>
+         </item>
+      </processing>
       
       <instance>
          <source>hebis</source>
@@ -902,7 +1009,7 @@
                   <identifierTypeId>439bfbae-75bc-4f74-9fc7-b2a2d47ce3ef</identifierTypeId>
                </i>
                <i>
-                  <value>3-476-01658-7</value>
+                  <value>3476016587</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
                </i>
                <i>
@@ -910,30 +1017,19 @@
                   <identifierTypeId>e176c942-bc34-417c-8ee5-920e5b279c1d</identifierTypeId>
                </i>
                <i>
-                  <value>06,A09,0064</value>
+                  <value>06,A09,0064,0808</value>
                   <identifierTypeId>91dd4d66-bb6b-45f9-9678-646b6322b31b</identifierTypeId>
                </i>
                <i>
                   <value>HEB: 107596806</value>
-                  <identifierTypeId>7ef1b405-cb90-4d4e-b5e3-2b25f5d8a79b</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
             </arr>
          </identifiers>
          <indexTitle>Ästhetische Grundbegriffe (ÄGB) ; historisches Wörterbuch in sieben Bänden hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ...</indexTitle>
          <title>Ästhetische Grundbegriffe : (ÄGB) ; historisches Wörterbuch in sieben Bänden / hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ... (4)</title>
          <contributors>
-            <arr>
-               <i>
-                  <name>Barck, Karlheinz 1934-2012 [Tp3]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <contributorTypeText>Hrsg.</contributorTypeText>
-               </i>
-               <i>
-                  <name>Wolfzettel, Friedrich 1941- [Tp2]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <contributorTypeText>Hrsg.</contributorTypeText>
-               </i>
-            </arr>
+            <arr/>
          </contributors>
          <publication>
             <arr>
@@ -967,7 +1063,7 @@
                      <hrid>093913974</hrid>
                   </instanceIdentifier>
                   <provisionalInstance>
-                     <title>Ästhetische Grundbegriffe : (ÄGB)</title>
+                     <title/>
                      <instanceTypeId>a2c91e87-6bab-44d6-8adb-1fd02481fc4f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
@@ -1322,6 +1418,20 @@
       </holdingsRecords>
    </record>
    <record>
+      <processing>
+         <item>
+            <status>
+               <policy>overwrite</policy>
+               <ifStatusWas>
+                  <arr>
+                     <i>
+                        <name>On order</name>
+                     </i>
+                  </arr>
+               </ifStatusWas>
+            </status>
+         </item>
+      </processing>
       
       <instance>
          <source>hebis</source>
@@ -1344,30 +1454,19 @@
                   <identifierTypeId>439bfbae-75bc-4f74-9fc7-b2a2d47ce3ef</identifierTypeId>
                </i>
                <i>
-                  <value>3-476-01659-5</value>
+                  <value>3476016595</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
                </i>
                <i>
                   <value>HEB: 117469521</value>
-                  <identifierTypeId>7ef1b405-cb90-4d4e-b5e3-2b25f5d8a79b</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
             </arr>
          </identifiers>
          <indexTitle>Ästhetische Grundbegriffe (ÄGB) ; historisches Wörterbuch in sieben Bänden hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ...</indexTitle>
          <title>Ästhetische Grundbegriffe : (ÄGB) ; historisches Wörterbuch in sieben Bänden / hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ... (5)</title>
          <contributors>
-            <arr>
-               <i>
-                  <name>Barck, Karlheinz 1934-2012 [Tp3]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <contributorTypeText>Hrsg.</contributorTypeText>
-               </i>
-               <i>
-                  <name>Wolfzettel, Friedrich 1941- [Tp2]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <contributorTypeText>Hrsg.</contributorTypeText>
-               </i>
-            </arr>
+            <arr/>
          </contributors>
          <publication>
             <arr>
@@ -1401,7 +1500,7 @@
                      <hrid>093913974</hrid>
                   </instanceIdentifier>
                   <provisionalInstance>
-                     <title>Ästhetische Grundbegriffe : (ÄGB)</title>
+                     <title/>
                      <instanceTypeId>a2c91e87-6bab-44d6-8adb-1fd02481fc4f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
@@ -1756,6 +1855,20 @@
       </holdingsRecords>
    </record>
    <record>
+      <processing>
+         <item>
+            <status>
+               <policy>overwrite</policy>
+               <ifStatusWas>
+                  <arr>
+                     <i>
+                        <name>On order</name>
+                     </i>
+                  </arr>
+               </ifStatusWas>
+            </status>
+         </item>
+      </processing>
       
       <instance>
          <source>hebis</source>
@@ -1785,7 +1898,7 @@
                </i>
                <i>
                   <value>ZDB: 3037040-1</value>
-                  <identifierTypeId>7ef1b405-cb90-4d4e-b5e3-2b25f5d8a79b</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -1793,18 +1906,6 @@
          <title>Jahrbuch Deutsche Einheit / Marcus Böick, Constantin Goschler, Ralph Jessen (Hg.)</title>
          <contributors>
             <arr>
-               <i>
-                  <name>Böick, Marcus 1983- [Tp3]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <contributorTypeId>9deb29d1-3e71-4951-9413-a80adac703d0</contributorTypeId>
-                  <contributorTypeText>Herausgeber</contributorTypeText>
-               </i>
-               <i>
-                  <name>Goschler, Constantin 1960- [Tp3]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <contributorTypeId>9deb29d1-3e71-4951-9413-a80adac703d0</contributorTypeId>
-                  <contributorTypeText>Herausgeber</contributorTypeText>
-               </i>
                <i>
                   <name>Jessen, Ralph</name>
                   <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
@@ -1836,11 +1937,6 @@
          <electronicAccess>
             <arr/>
          </electronicAccess>
-         <natureOfContentTermIds>
-            <arr>
-               <i/>
-            </arr>
-         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -1894,6 +1990,20 @@
       </holdingsRecords>
    </record>
    <record>
+      <processing>
+         <item>
+            <status>
+               <policy>overwrite</policy>
+               <ifStatusWas>
+                  <arr>
+                     <i>
+                        <name>On order</name>
+                     </i>
+                  </arr>
+               </ifStatusWas>
+            </status>
+         </item>
+      </processing>
       
       <instance>
          <source>hebis</source>
@@ -1916,20 +2026,14 @@
                </i>
                <i>
                   <value>HEB: 054126797</value>
-                  <identifierTypeId>7ef1b405-cb90-4d4e-b5e3-2b25f5d8a79b</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
             </arr>
          </identifiers>
          <indexTitle>Judith formes et sens des diverses traditions A. M. Dubarle</indexTitle>
          <title>Judith : formes et sens des diverses traditions / A. M. Dubarle (2)</title>
          <contributors>
-            <arr>
-               <i>
-                  <name>Dubarle, André-Marie 1910-2002 [Tp1]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <primary>true</primary>
-               </i>
-            </arr>
+            <arr/>
          </contributors>
          <publication>
             <arr>
@@ -1969,22 +2073,11 @@
                      <hrid>054126444</hrid>
                   </instanceIdentifier>
                   <provisionalInstance>
-                     <title>Judith : formes et sens des diverses traditions / A. M. Dubarle</title>
+                     <title/>
                      <instanceTypeId>a2c91e87-6bab-44d6-8adb-1fd02481fc4f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
                   <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
-               </i>
-               <i>
-                  <instanceIdentifier>
-                     <hrid>006895026</hrid>
-                  </instanceIdentifier>
-                  <provisionalInstance>
-                     <title>Analecta biblica</title>
-                     <instanceTypeId>a2c91e87-6bab-44d6-8adb-1fd02481fc4f</instanceTypeId>
-                     <source>hebis</source>
-                  </provisionalInstance>
-                  <instanceRelationshipTypeId>30773a27-b485-4dab-aeb6-b8c04fa3cb17</instanceRelationshipTypeId>
                </i>
             </arr>
          </parentInstances>
@@ -2129,6 +2222,20 @@
       </holdingsRecords>
    </record>
    <record>
+      <processing>
+         <item>
+            <status>
+               <policy>overwrite</policy>
+               <ifStatusWas>
+                  <arr>
+                     <i>
+                        <name>On order</name>
+                     </i>
+                  </arr>
+               </ifStatusWas>
+            </status>
+         </item>
+      </processing>
       
       <instance>
          <source>hebis</source>
@@ -2151,30 +2258,19 @@
                   <identifierTypeId>439bfbae-75bc-4f74-9fc7-b2a2d47ce3ef</identifierTypeId>
                </i>
                <i>
-                  <value>3-476-01660-9</value>
+                  <value>3476016609</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
                </i>
                <i>
                   <value>HEB: 128013710</value>
-                  <identifierTypeId>7ef1b405-cb90-4d4e-b5e3-2b25f5d8a79b</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
             </arr>
          </identifiers>
          <indexTitle>Ästhetische Grundbegriffe (ÄGB) ; historisches Wörterbuch in sieben Bänden hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ...</indexTitle>
          <title>Ästhetische Grundbegriffe : (ÄGB) ; historisches Wörterbuch in sieben Bänden / hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ... (6)</title>
          <contributors>
-            <arr>
-               <i>
-                  <name>Barck, Karlheinz 1934-2012 [Tp3]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <contributorTypeText>Hrsg.</contributorTypeText>
-               </i>
-               <i>
-                  <name>Wolfzettel, Friedrich 1941- [Tp2]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <contributorTypeText>Hrsg.</contributorTypeText>
-               </i>
-            </arr>
+            <arr/>
          </contributors>
          <publication>
             <arr>
@@ -2208,7 +2304,7 @@
                      <hrid>093913974</hrid>
                   </instanceIdentifier>
                   <provisionalInstance>
-                     <title>Ästhetische Grundbegriffe : (ÄGB)</title>
+                     <title/>
                      <instanceTypeId>a2c91e87-6bab-44d6-8adb-1fd02481fc4f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
@@ -2563,6 +2659,20 @@
       </holdingsRecords>
    </record>
    <record>
+      <processing>
+         <item>
+            <status>
+               <policy>overwrite</policy>
+               <ifStatusWas>
+                  <arr>
+                     <i>
+                        <name>On order</name>
+                     </i>
+                  </arr>
+               </ifStatusWas>
+            </status>
+         </item>
+      </processing>
       
       <instance>
          <source>hebis</source>
@@ -2587,16 +2697,20 @@
                   <identifierTypeId>439bfbae-75bc-4f74-9fc7-b2a2d47ce3ef</identifierTypeId>
                </i>
                <i>
-                  <value>978-3-8394-5425-1</value>
+                  <value>9783839454251</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
                </i>
                <i>
+                  <value>10.14361/9783839454251</value>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
+               </i>
+               <i>
                   <value>HEB: 475634225</value>
-                  <identifierTypeId>7ef1b405-cb90-4d4e-b5e3-2b25f5d8a79b</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
                <i>
                   <value>ZDB-23-DGG</value>
-                  <identifierTypeId>0af95dfb-6c4e-4db0-8ee6-bc95897f03e2</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -2774,10 +2888,14 @@
             <arr>
                <i>
                   <uri>https://doi.org/10.14361/9783839454251</uri>
+                  <materialsSpecification/>
+                  <publicNote/>
                   <relationshipId>f5d0068e-6272-458e-8a81-b85e7b9a14aa</relationshipId>
                </i>
                <i>
                   <uri>https://www.degruyter.com/isbn/9783839454251</uri>
+                  <materialsSpecification/>
+                  <publicNote/>
                   <relationshipId>f5d0068e-6272-458e-8a81-b85e7b9a14aa</relationshipId>
                </i>
             </arr>
@@ -2836,6 +2954,20 @@
       </holdingsRecords>
    </record>
    <record>
+      <processing>
+         <item>
+            <status>
+               <policy>overwrite</policy>
+               <ifStatusWas>
+                  <arr>
+                     <i>
+                        <name>On order</name>
+                     </i>
+                  </arr>
+               </ifStatusWas>
+            </status>
+         </item>
+      </processing>
       
       <instance>
          <source>hebis</source>
@@ -2859,20 +2991,14 @@
                </i>
                <i>
                   <value>HEB: 129615552</value>
-                  <identifierTypeId>7ef1b405-cb90-4d4e-b5e3-2b25f5d8a79b</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
             </arr>
          </identifiers>
          <indexTitle>göttliche Wort Grundfragen unseres Glaubens Ragnar Bring</indexTitle>
          <title>Das göttliche Wort : Grundfragen unseres Glaubens / Ragnar Bring</title>
          <contributors>
-            <arr>
-               <i>
-                  <name>Bring, Ragnar 1895-1988 [Tp2]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <primary>true</primary>
-               </i>
-            </arr>
+            <arr/>
          </contributors>
          <publication>
             <arr>
@@ -2991,6 +3117,20 @@
       </holdingsRecords>
    </record>
    <record>
+      <processing>
+         <item>
+            <status>
+               <policy>overwrite</policy>
+               <ifStatusWas>
+                  <arr>
+                     <i>
+                        <name>On order</name>
+                     </i>
+                  </arr>
+               </ifStatusWas>
+            </status>
+         </item>
+      </processing>
       
       <instance>
          <source>hebis</source>
@@ -3011,20 +3151,24 @@
                   <identifierTypeId>d5558bde-b5dc-421b-919b-361cb161525c</identifierTypeId>
                </i>
                <i>
-                  <value>978-2-7598-0102-2</value>
+                  <value>9782759801022</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
                </i>
                <i>
+                  <value>10.1051/978-2-7598-0102-2</value>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
+               </i>
+               <i>
                   <value>HEB: 476202744</value>
-                  <identifierTypeId>7ef1b405-cb90-4d4e-b5e3-2b25f5d8a79b</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
                <i>
                   <value>ZDB-23-GOA</value>
-                  <identifierTypeId>0af95dfb-6c4e-4db0-8ee6-bc95897f03e2</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
                <i>
                   <value>ZDB-23-DGG</value>
-                  <identifierTypeId>0af95dfb-6c4e-4db0-8ee6-bc95897f03e2</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -3069,6 +3213,8 @@
             <arr>
                <i>
                   <uri>https://www.degruyter.com/isbn/9782759801022</uri>
+                  <materialsSpecification/>
+                  <publicNote/>
                   <relationshipId>f5d0068e-6272-458e-8a81-b85e7b9a14aa</relationshipId>
                </i>
             </arr>
@@ -3086,6 +3232,11 @@
                <i>fre</i>
             </arr>
          </languages>
+         <series>
+            <arr>
+               <i>Académie des sciences</i>
+            </arr>
+         </series>
          <physicalDescriptions>
             <arr>
                <i>1 Online-Ressource (482 p.)</i>
@@ -3118,6 +3269,20 @@
       </holdingsRecords>
    </record>
    <record>
+      <processing>
+         <item>
+            <status>
+               <policy>overwrite</policy>
+               <ifStatusWas>
+                  <arr>
+                     <i>
+                        <name>On order</name>
+                     </i>
+                  </arr>
+               </ifStatusWas>
+            </status>
+         </item>
+      </processing>
       
       <instance>
          <source>hebis</source>
@@ -3143,7 +3308,7 @@
                </i>
                <i>
                   <value>ZDB: 3054981-4</value>
-                  <identifierTypeId>7ef1b405-cb90-4d4e-b5e3-2b25f5d8a79b</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -3161,7 +3326,7 @@
          </publication>
          <publicationFrequency>
             <arr>
-               <i/>
+               <i>jährlich</i>
             </arr>
          </publicationFrequency>
          <publicationRange>
@@ -3173,10 +3338,14 @@
             <arr>
                <i>
                   <uri>https://www.klassik-stiftung.de/service/magazin/</uri>
+                  <materialsSpecification/>
+                  <publicNote/>
                   <relationshipId>f5d0068e-6272-458e-8a81-b85e7b9a14aa</relationshipId>
                </i>
                <i>
                   <uri>http://www.bibliothek.uni-regensburg.de/ezeit/?3054981</uri>
+                  <materialsSpecification/>
+                  <publicNote/>
                   <relationshipId>f5d0068e-6272-458e-8a81-b85e7b9a14aa</relationshipId>
                </i>
             </arr>
@@ -3189,11 +3358,6 @@
                </i>
             </arr>
          </notes>
-         <natureOfContentTermIds>
-            <arr>
-               <i/>
-            </arr>
-         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -3231,6 +3395,20 @@
       </holdingsRecords>
    </record>
    <record>
+      <processing>
+         <item>
+            <status>
+               <policy>overwrite</policy>
+               <ifStatusWas>
+                  <arr>
+                     <i>
+                        <name>On order</name>
+                     </i>
+                  </arr>
+               </ifStatusWas>
+            </status>
+         </item>
+      </processing>
       
       <instance>
          <source>hebis</source>
@@ -3251,43 +3429,35 @@
                   <identifierTypeId>d5558bde-b5dc-421b-919b-361cb161525c</identifierTypeId>
                </i>
                <i>
-                  <value>978-3-437-21681-7 : EUR 59.00</value>
+                  <value>9783437216817 : EUR 59.00</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
                </i>
                <i>
-                  <value>3-437-21681-3</value>
+                  <value>3437216813</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
                </i>
                <i>
                   <value>9783437216817</value>
-                  <identifierTypeId>ad80de2d-c060-48a0-b85f-9b1b14e22ed0</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
                <i>
                   <value>1215220014</value>
                   <identifierTypeId>e176c942-bc34-417c-8ee5-920e5b279c1d</identifierTypeId>
                </i>
                <i>
-                  <value>20,N33</value>
+                  <value>20,N33,0805</value>
                   <identifierTypeId>91dd4d66-bb6b-45f9-9678-646b6322b31b</identifierTypeId>
                </i>
                <i>
                   <value>DNB: 1215220014</value>
-                  <identifierTypeId>7ef1b405-cb90-4d4e-b5e3-2b25f5d8a79b</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
             </arr>
          </identifiers>
          <indexTitle>Repetitorium Facharztprüfung Kinder- und Jugendmedizin Ertan Mayatepek</indexTitle>
          <title>Repetitorium Facharztprüfung Kinder- und Jugendmedizin / Ertan Mayatepek</title>
          <contributors>
-            <arr>
-               <i>
-                  <name>Mayatepek, Ertan [Tp1]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <primary>true</primary>
-                  <contributorTypeId>6e09d47d-95e2-4d8a-831b-f777b8ef6d81</contributorTypeId>
-                  <contributorTypeText>Verfasser</contributorTypeText>
-               </i>
-            </arr>
+            <arr/>
          </contributors>
          <publication>
             <arr>
@@ -3363,6 +3533,20 @@
       </holdingsRecords>
    </record>
    <record>
+      <processing>
+         <item>
+            <status>
+               <policy>overwrite</policy>
+               <ifStatusWas>
+                  <arr>
+                     <i>
+                        <name>On order</name>
+                     </i>
+                  </arr>
+               </ifStatusWas>
+            </status>
+         </item>
+      </processing>
       
       <instance>
          <source>hebis</source>
@@ -3387,43 +3571,19 @@
                   <identifierTypeId>439bfbae-75bc-4f74-9fc7-b2a2d47ce3ef</identifierTypeId>
                </i>
                <i>
-                  <value>978-975-16-1548-0</value>
+                  <value>9789751615480</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
                </i>
                <i>
                   <value>HEB: 455732515</value>
-                  <identifierTypeId>7ef1b405-cb90-4d4e-b5e3-2b25f5d8a79b</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
             </arr>
          </identifiers>
          <indexTitle>Mükemmel Osmanlı lügatı Ali Nazîmâ, Faik Reşad. Hazırlayanlar Necat Birinci, Kâzım Yetiş, M. Fatih Andi, Erol Ülgen, Nuri Saglam, Ali Yükrü Coruk</indexTitle>
          <title>Mükemmel Osmanlı lügatı / Ali Nazîmâ, Faik Reşad. Hazırlayanlar Necat Birinci, Kâzım Yetiş, M. Fatih Andi, Erol Ülgen, Nuri Saglam, Ali Yükrü Coruk</title>
          <contributors>
-            <arr>
-               <i>
-                  <name>Nazîmâ, Ali [Tnu]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <primary>true</primary>
-                  <contributorTypeId>6e09d47d-95e2-4d8a-831b-f777b8ef6d81</contributorTypeId>
-                  <contributorTypeText>Verfasser</contributorTypeText>
-               </i>
-               <i>
-                  <name> Faik Reşat 1851-1914 [Tp1]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <contributorTypeId>6e09d47d-95e2-4d8a-831b-f777b8ef6d81</contributorTypeId>
-                  <contributorTypeText>Verfasser</contributorTypeText>
-               </i>
-               <i>
-                  <name>Birinci, Necat [Tnx]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <contributorTypeId>9deb29d1-3e71-4951-9413-a80adac703d0</contributorTypeId>
-                  <contributorTypeText>Herausgeber</contributorTypeText>
-               </i>
-               <i>
-                  <name>Yetiş, Kâzım 1947- [Tp3]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-               </i>
-            </arr>
+            <arr/>
          </contributors>
          <publication>
             <arr>
@@ -3446,11 +3606,6 @@
                </i>
             </arr>
          </notes>
-         <natureOfContentTermIds>
-            <arr>
-               <i/>
-            </arr>
-         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>tur</i>
@@ -3524,6 +3679,20 @@
       </holdingsRecords>
    </record>
    <record>
+      <processing>
+         <item>
+            <status>
+               <policy>overwrite</policy>
+               <ifStatusWas>
+                  <arr>
+                     <i>
+                        <name>On order</name>
+                     </i>
+                  </arr>
+               </ifStatusWas>
+            </status>
+         </item>
+      </processing>
       
       <instance>
          <source>hebis</source>
@@ -3546,16 +3715,20 @@
                   <identifierTypeId>439bfbae-75bc-4f74-9fc7-b2a2d47ce3ef</identifierTypeId>
                </i>
                <i>
-                  <value>978-3-446-23754-4 Gewebe Dünndr. : EUR 29.90 (DE), EUR 30.80 (AT), sfr 43.50 (freier Pr.)</value>
+                  <value>9783446237544 Gewebe Dünndr. : EUR 29.90 (DE), EUR 30.80 (AT), sfr 43.50 (freier Pr.)</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
                </i>
                <i>
-                  <value>3-446-23754-2</value>
+                  <value>3446237542</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
+               </i>
+               <i>
+                  <value>: 505/23754</value>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
                <i>
                   <value>9783446237544</value>
-                  <identifierTypeId>ad80de2d-c060-48a0-b85f-9b1b14e22ed0</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
                <i>
                   <value>1011238241</value>
@@ -3566,34 +3739,19 @@
                   <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
                <i>
-                  <value>11,A45</value>
+                  <value>11,A45,0426</value>
                   <identifierTypeId>91dd4d66-bb6b-45f9-9678-646b6322b31b</identifierTypeId>
                </i>
                <i>
                   <value>DNB: 1011238241</value>
-                  <identifierTypeId>7ef1b405-cb90-4d4e-b5e3-2b25f5d8a79b</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
             </arr>
          </identifiers>
          <indexTitle>Briefwechsel Voltaire ; Friedrich der Große. Hrsg. und übers. von Hans Pleschinski</indexTitle>
          <title>Briefwechsel / Voltaire ; Friedrich der Große. Hrsg. und übers. von Hans Pleschinski</title>
          <contributors>
-            <arr>
-               <i>
-                  <name> Voltaire 1694-1778 [Tp1]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <primary>true</primary>
-               </i>
-               <i>
-                  <name> Friedrich II. Preußen, König 1712-1786 [Tp1]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-               </i>
-               <i>
-                  <name>Pleschinski, Hans 1956- [Tp1]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <contributorTypeText>Hrsg.</contributorTypeText>
-               </i>
-            </arr>
+            <arr/>
          </contributors>
          <publication>
             <arr>
@@ -3677,6 +3835,20 @@
       </holdingsRecords>
    </record>
    <record>
+      <processing>
+         <item>
+            <status>
+               <policy>overwrite</policy>
+               <ifStatusWas>
+                  <arr>
+                     <i>
+                        <name>On order</name>
+                     </i>
+                  </arr>
+               </ifStatusWas>
+            </status>
+         </item>
+      </processing>
       
       <instance>
          <source>hebis</source>
@@ -3701,45 +3873,19 @@
                   <identifierTypeId>439bfbae-75bc-4f74-9fc7-b2a2d47ce3ef</identifierTypeId>
                </i>
                <i>
-                  <value>978-3-905816-57-0</value>
+                  <value>9783905816570</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
                </i>
                <i>
                   <value>HEB: 425001725</value>
-                  <identifierTypeId>7ef1b405-cb90-4d4e-b5e3-2b25f5d8a79b</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
             </arr>
          </identifiers>
          <indexTitle>China entdecken</indexTitle>
          <title>China entdecken (Lehrbuch 4)</title>
          <contributors>
-            <arr>
-               <i>
-                  <name>Qi, Shaoyan [Tp3]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <primary>true</primary>
-                  <contributorTypeId>6e09d47d-95e2-4d8a-831b-f777b8ef6d81</contributorTypeId>
-                  <contributorTypeText>Verfasser</contributorTypeText>
-               </i>
-               <i>
-                  <name>Tan, Qiuyu [Tp3]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <contributorTypeId>6e09d47d-95e2-4d8a-831b-f777b8ef6d81</contributorTypeId>
-                  <contributorTypeText>Verfasser</contributorTypeText>
-               </i>
-               <i>
-                  <name>Zimmermann, Katrin [Tnd]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <contributorTypeId>3322b734-ce38-4cd4-815d-8983352837cc</contributorTypeId>
-                  <contributorTypeText>Übersetzer</contributorTypeText>
-               </i>
-               <i>
-                  <name>Guder, Andreas 1966- [Tp1]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <contributorTypeId>3322b734-ce38-4cd4-815d-8983352837cc</contributorTypeId>
-                  <contributorTypeText>Übersetzer</contributorTypeText>
-               </i>
-            </arr>
+            <arr/>
          </contributors>
          <publication>
             <arr>
@@ -3773,7 +3919,7 @@
                      <hrid>42129762X</hrid>
                   </instanceIdentifier>
                   <provisionalInstance>
-                     <title>China entdecken</title>
+                     <title/>
                      <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
@@ -3831,6 +3977,20 @@
       </holdingsRecords>
    </record>
    <record>
+      <processing>
+         <item>
+            <status>
+               <policy>overwrite</policy>
+               <ifStatusWas>
+                  <arr>
+                     <i>
+                        <name>On order</name>
+                     </i>
+                  </arr>
+               </ifStatusWas>
+            </status>
+         </item>
+      </processing>
       
       <instance>
          <source>hebis</source>
@@ -3855,16 +4015,20 @@
                   <identifierTypeId>439bfbae-75bc-4f74-9fc7-b2a2d47ce3ef</identifierTypeId>
                </i>
                <i>
-                  <value>978-3-11-069730-8</value>
+                  <value>9783110697308</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
                </i>
                <i>
+                  <value>10.1515/9783110697308</value>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
+               </i>
+               <i>
                   <value>HEB: 475628594</value>
-                  <identifierTypeId>7ef1b405-cb90-4d4e-b5e3-2b25f5d8a79b</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
                <i>
                   <value>ZDB-23-DGG</value>
-                  <identifierTypeId>0af95dfb-6c4e-4db0-8ee6-bc95897f03e2</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -4002,10 +4166,14 @@
             <arr>
                <i>
                   <uri>https://doi.org/10.1515/9783110697308</uri>
+                  <materialsSpecification/>
+                  <publicNote/>
                   <relationshipId>f5d0068e-6272-458e-8a81-b85e7b9a14aa</relationshipId>
                </i>
                <i>
                   <uri>https://www.degruyter.com/isbn/9783110697308</uri>
+                  <materialsSpecification/>
+                  <publicNote/>
                   <relationshipId>f5d0068e-6272-458e-8a81-b85e7b9a14aa</relationshipId>
                </i>
             </arr>
@@ -4027,6 +4195,11 @@
                <i>ger</i>
             </arr>
          </languages>
+         <series>
+            <arr>
+               <i>De Gruyter Studium</i>
+            </arr>
+         </series>
          <physicalDescriptions>
             <arr>
                <i>1 Online-Ressource (XI, 199 p.)</i>
@@ -4059,12 +4232,26 @@
       </holdingsRecords>
    </record>
    <record>
+      <processing>
+         <item>
+            <status>
+               <policy>overwrite</policy>
+               <ifStatusWas>
+                  <arr>
+                     <i>
+                        <name>On order</name>
+                     </i>
+                  </arr>
+               </ifStatusWas>
+            </status>
+         </item>
+      </processing>
       
       <instance>
          <source>hebis</source>
          <hrid>212094157</hrid>
          <statusUpdatedDate>2009-05-08</statusUpdatedDate>
-         <statusId/>
+         <statusId>449a7305-0bfc-434d-ba93-1ce916f706b1</statusId>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>a2c91e87-6bab-44d6-8adb-1fd02481fc4f</instanceTypeId>
          <instanceFormatIds>
@@ -4082,7 +4269,7 @@
                </i>
                <i>
                   <value>HEB: 212094157</value>
-                  <identifierTypeId>7ef1b405-cb90-4d4e-b5e3-2b25f5d8a79b</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -4167,6 +4354,20 @@
       </holdingsRecords>
    </record>
    <record>
+      <processing>
+         <item>
+            <status>
+               <policy>overwrite</policy>
+               <ifStatusWas>
+                  <arr>
+                     <i>
+                        <name>On order</name>
+                     </i>
+                  </arr>
+               </ifStatusWas>
+            </status>
+         </item>
+      </processing>
       
       <instance>
          <source>hebis</source>
@@ -4187,57 +4388,51 @@
                   <identifierTypeId>d5558bde-b5dc-421b-919b-361cb161525c</identifierTypeId>
                </i>
                <i>
-                  <value>978-3-8233-8379-6 : EUR 22.99</value>
+                  <value>9783823383796 : EUR 22.99</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
                </i>
                <i>
-                  <value>3-8233-8379-5</value>
+                  <value>3823383795</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
                </i>
                <i>
                   <value>9783823383796</value>
-                  <identifierTypeId>ad80de2d-c060-48a0-b85f-9b1b14e22ed0</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
                <i>
-                  <value>978-3-8233-9379-5 (ePDF)</value>
-                  <identifierTypeId>47e6ce08-5ecb-4403-99ca-3c5a84412b48</identifierTypeId>
+                  <value>9783823393795 (ePDF)</value>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
                <i>
-                  <value>978-3-8233-0272-8 (ePub)</value>
-                  <identifierTypeId>47e6ce08-5ecb-4403-99ca-3c5a84412b48</identifierTypeId>
+                  <value>9783823302728 (ePub)</value>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
                <i>
                   <value>119894997X</value>
                   <identifierTypeId>e176c942-bc34-417c-8ee5-920e5b279c1d</identifierTypeId>
                </i>
                <i>
-                  <value>19,N46</value>
+                  <value>1681822725</value>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
+               </i>
+               <i>
+                  <value>119894997X</value>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
+               </i>
+               <i>
+                  <value>19,N46,1106</value>
                   <identifierTypeId>91dd4d66-bb6b-45f9-9678-646b6322b31b</identifierTypeId>
                </i>
                <i>
                   <value>DNB: 119894997X</value>
-                  <identifierTypeId>7ef1b405-cb90-4d4e-b5e3-2b25f5d8a79b</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
             </arr>
          </identifiers>
          <indexTitle>Semantik für Lehrkräfte linguistische Grundlagen und didaktische Impulse Christian Efing/Thorsten Roelcke</indexTitle>
          <title>Semantik für Lehrkräfte : linguistische Grundlagen und didaktische Impulse / Christian Efing/Thorsten Roelcke</title>
          <contributors>
-            <arr>
-               <i>
-                  <name>Efing, Christian 1976- [Tp3]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <primary>true</primary>
-                  <contributorTypeId>6e09d47d-95e2-4d8a-831b-f777b8ef6d81</contributorTypeId>
-                  <contributorTypeText>Verfasser</contributorTypeText>
-               </i>
-               <i>
-                  <name>Roelcke, Thorsten D. 1965- [Tp3]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <contributorTypeId>6e09d47d-95e2-4d8a-831b-f777b8ef6d81</contributorTypeId>
-                  <contributorTypeText>Verfasser</contributorTypeText>
-               </i>
-            </arr>
+            <arr/>
          </contributors>
          <publication>
             <arr>
@@ -4265,6 +4460,11 @@
                <i>ger</i>
             </arr>
          </languages>
+         <series>
+            <arr>
+               <i>Narr Studienbücher</i>
+            </arr>
+         </series>
          <physicalDescriptions>
             <arr>
                <i>221 Seiten : Illustrationen, 1 Karte ; 24 cm x 17 cm</i>
@@ -4389,6 +4589,20 @@
       </holdingsRecords>
    </record>
    <record>
+      <processing>
+         <item>
+            <status>
+               <policy>overwrite</policy>
+               <ifStatusWas>
+                  <arr>
+                     <i>
+                        <name>On order</name>
+                     </i>
+                  </arr>
+               </ifStatusWas>
+            </status>
+         </item>
+      </processing>
       
       <instance>
          <source>hebis</source>
@@ -4430,7 +4644,7 @@
                </i>
                <i>
                   <value>ZDB: 3011660-0</value>
-                  <identifierTypeId>7ef1b405-cb90-4d4e-b5e3-2b25f5d8a79b</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -4460,7 +4674,7 @@
          </publication>
          <publicationFrequency>
             <arr>
-               <i/>
+               <i>vierteljährlich</i>
             </arr>
          </publicationFrequency>
          <publicationRange>
@@ -4479,11 +4693,6 @@
                </i>
             </arr>
          </notes>
-         <natureOfContentTermIds>
-            <arr>
-               <i/>
-            </arr>
-         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -4503,7 +4712,7 @@
                      <hrid>048585882</hrid>
                   </instanceIdentifier>
                   <provisionalInstance>
-                     <title>--Abvc--. Computer + Unterricht</title>
+                     <title/>
                      <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
@@ -4557,6 +4766,20 @@
       </holdingsRecords>
    </record>
    <record>
+      <processing>
+         <item>
+            <status>
+               <policy>overwrite</policy>
+               <ifStatusWas>
+                  <arr>
+                     <i>
+                        <name>On order</name>
+                     </i>
+                  </arr>
+               </ifStatusWas>
+            </status>
+         </item>
+      </processing>
       
       <instance>
          <source>hebis</source>
@@ -4577,16 +4800,20 @@
                   <identifierTypeId>d5558bde-b5dc-421b-919b-361cb161525c</identifierTypeId>
                </i>
                <i>
+                  <value>urn:nbn:de:bsz:21-dspace-1014575</value>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
+               </i>
+               <i>
                   <value>1212849795</value>
                   <identifierTypeId>e176c942-bc34-417c-8ee5-920e5b279c1d</identifierTypeId>
                </i>
                <i>
-                  <value>20,O07</value>
+                  <value>20,O07,0630</value>
                   <identifierTypeId>91dd4d66-bb6b-45f9-9678-646b6322b31b</identifierTypeId>
                </i>
                <i>
                   <value>DNB: 1212849795</value>
-                  <identifierTypeId>7ef1b405-cb90-4d4e-b5e3-2b25f5d8a79b</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -4623,19 +4850,18 @@
             <arr>
                <i>
                   <uri>https://nbn-resolving.org/urn:nbn:de:bsz:21-dspace-1014575</uri>
+                  <materialsSpecification/>
+                  <publicNote/>
                   <relationshipId>f5d0068e-6272-458e-8a81-b85e7b9a14aa</relationshipId>
                </i>
                <i>
                   <uri>https://publikationen.uni-tuebingen.de/xmlui/handle/10900/101457/</uri>
+                  <materialsSpecification/>
+                  <publicNote/>
                   <relationshipId>f5d0068e-6272-458e-8a81-b85e7b9a14aa</relationshipId>
                </i>
             </arr>
          </electronicAccess>
-         <natureOfContentTermIds>
-            <arr>
-               <i/>
-            </arr>
-         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>eng</i>
@@ -4673,6 +4899,20 @@
       </holdingsRecords>
    </record>
    <record>
+      <processing>
+         <item>
+            <status>
+               <policy>overwrite</policy>
+               <ifStatusWas>
+                  <arr>
+                     <i>
+                        <name>On order</name>
+                     </i>
+                  </arr>
+               </ifStatusWas>
+            </status>
+         </item>
+      </processing>
       
       <instance>
          <source>hebis</source>
@@ -4697,20 +4937,20 @@
                   <identifierTypeId>439bfbae-75bc-4f74-9fc7-b2a2d47ce3ef</identifierTypeId>
                </i>
                <i>
-                  <value>978-3-662-62033-5 Broschur : circa EUR 34.99</value>
+                  <value>9783662620335 Broschur : circa EUR 34.99</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
                </i>
                <i>
-                  <value>3-662-62033-2</value>
+                  <value>3662620332</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
                </i>
                <i>
                   <value>9783662620335</value>
-                  <identifierTypeId>ad80de2d-c060-48a0-b85f-9b1b14e22ed0</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
                <i>
-                  <value>978-3-662-62034-2 eBook</value>
-                  <identifierTypeId>47e6ce08-5ecb-4403-99ca-3c5a84412b48</identifierTypeId>
+                  <value>9783662620342 eBook</value>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
                <i>
                   <value>1212124278</value>
@@ -4721,33 +4961,19 @@
                   <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
                <i>
-                  <value>20,A40</value>
+                  <value>20,A40,0617</value>
                   <identifierTypeId>91dd4d66-bb6b-45f9-9678-646b6322b31b</identifierTypeId>
                </i>
                <i>
                   <value>DNB: 1212124278</value>
-                  <identifierTypeId>7ef1b405-cb90-4d4e-b5e3-2b25f5d8a79b</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
             </arr>
          </identifiers>
          <indexTitle>Einstieg in die Physikalische Chemie für Naturwissenschaftler Wolfgang Bechmann, Ilko Bald</indexTitle>
          <title>Einstieg in die Physikalische Chemie für Naturwissenschaftler / Wolfgang Bechmann, Ilko Bald</title>
          <contributors>
-            <arr>
-               <i>
-                  <name>Bechmann, Wolfgang 1948- [Tp3]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <primary>true</primary>
-                  <contributorTypeId>6e09d47d-95e2-4d8a-831b-f777b8ef6d81</contributorTypeId>
-                  <contributorTypeText>Verfasser</contributorTypeText>
-               </i>
-               <i>
-                  <name>Bald, Ilko 1980- [Tp3]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <contributorTypeId>6e09d47d-95e2-4d8a-831b-f777b8ef6d81</contributorTypeId>
-                  <contributorTypeText>Verfasser</contributorTypeText>
-               </i>
-            </arr>
+            <arr/>
          </contributors>
          <publication>
             <arr>
@@ -4770,16 +4996,17 @@
                </i>
             </arr>
          </notes>
-         <natureOfContentTermIds>
-            <arr>
-               <i/>
-            </arr>
-         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
             </arr>
          </languages>
+         <series>
+            <arr>
+               <i>Studienbücher Chemie</i>
+               <i>Lehrbuch</i>
+            </arr>
+         </series>
          <physicalDescriptions>
             <arr>
                <i>508 Seiten : Illustrationen, Diagramme ; 24 cm x 16.8 cm, 860 g</i>
@@ -4791,22 +5018,7 @@
             </arr>
          </editions>
       </instance>
-      <instanceRelations>
-         <precedingTitles>
-            <arr>
-               <i>
-                  <instanceIdentifier>
-                     <hrid/>
-                  </instanceIdentifier>
-                  <provisionalInstance>
-                     <title/>
-                     <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
-                     <source>hebis</source>
-                  </provisionalInstance>
-               </i>
-            </arr>
-         </precedingTitles>
-      </instanceRelations>
+      <instanceRelations/>
       <holdingsRecords>
          <arr>
             <i>
@@ -5003,6 +5215,20 @@
       </holdingsRecords>
    </record>
    <record>
+      <processing>
+         <item>
+            <status>
+               <policy>overwrite</policy>
+               <ifStatusWas>
+                  <arr>
+                     <i>
+                        <name>On order</name>
+                     </i>
+                  </arr>
+               </ifStatusWas>
+            </status>
+         </item>
+      </processing>
       
       <instance>
          <source>hebis</source>
@@ -5025,7 +5251,7 @@
                </i>
                <i>
                   <value>HEB: 052746585</value>
-                  <identifierTypeId>7ef1b405-cb90-4d4e-b5e3-2b25f5d8a79b</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -5040,13 +5266,7 @@
             </arr>
          </alternativeTitles>
          <contributors>
-            <arr>
-               <i>
-                  <name>Vetter, Fredy [Tnd]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <primary>true</primary>
-               </i>
-            </arr>
+            <arr/>
          </contributors>
          <publication>
             <arr>
@@ -5069,6 +5289,11 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr>
+               <i>ebbbdef1-00e1-428b-bc11-314dc0705074</i>
+            </arr>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -5088,23 +5313,7 @@
             </arr>
          </physicalDescriptions>
       </instance>
-      <instanceRelations>
-         <parentInstances>
-            <arr>
-               <i>
-                  <instanceIdentifier>
-                     <hrid>026827980</hrid>
-                  </instanceIdentifier>
-                  <provisionalInstance>
-                     <title>Umwelt-Materialien</title>
-                     <instanceTypeId>a2c91e87-6bab-44d6-8adb-1fd02481fc4f</instanceTypeId>
-                     <source>hebis</source>
-                  </provisionalInstance>
-                  <instanceRelationshipTypeId>30773a27-b485-4dab-aeb6-b8c04fa3cb17</instanceRelationshipTypeId>
-               </i>
-            </arr>
-         </parentInstances>
-      </instanceRelations>
+      <instanceRelations/>
       <holdingsRecords>
          <arr>
             <i>
@@ -5161,6 +5370,20 @@
       </holdingsRecords>
    </record>
    <record>
+      <processing>
+         <item>
+            <status>
+               <policy>overwrite</policy>
+               <ifStatusWas>
+                  <arr>
+                     <i>
+                        <name>On order</name>
+                     </i>
+                  </arr>
+               </ifStatusWas>
+            </status>
+         </item>
+      </processing>
       
       <instance>
          <source>hebis</source>
@@ -5185,12 +5408,12 @@
                   <identifierTypeId>439bfbae-75bc-4f74-9fc7-b2a2d47ce3ef</identifierTypeId>
                </i>
                <i>
-                  <value>978-3-8006-5947-0 kartoniert : circa EUR 25.00</value>
+                  <value>9783800659470 kartoniert : circa EUR 25.00</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
                </i>
                <i>
                   <value>9783800659470</value>
-                  <identifierTypeId>ad80de2d-c060-48a0-b85f-9b1b14e22ed0</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
                <i>
                   <value>1173519432</value>
@@ -5201,33 +5424,19 @@
                   <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
                <i>
-                  <value>19,A20</value>
+                  <value>19,A20,1215</value>
                   <identifierTypeId>91dd4d66-bb6b-45f9-9678-646b6322b31b</identifierTypeId>
                </i>
                <i>
                   <value>DNB: 1173519432</value>
-                  <identifierTypeId>7ef1b405-cb90-4d4e-b5e3-2b25f5d8a79b</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
             </arr>
          </identifiers>
          <indexTitle>Fälle zum Besonderen Verwaltungsrecht Polizei- und Ordnungsrecht, Kommunalrecht mit Bezügen zum Verwaltungsprozessrecht von Dr. iur. Stefan Muckel (Professor an der Universität zu Köln) ; begründet von Dr. iur. Wolfgang Rüfner (em. Professor an der Universität zu Köln)</indexTitle>
          <title>Fälle zum Besonderen Verwaltungsrecht : Polizei- und Ordnungsrecht, Kommunalrecht mit Bezügen zum Verwaltungsprozessrecht / von Dr. iur. Stefan Muckel (Professor an der Universität zu Köln) ; begründet von Dr. iur. Wolfgang Rüfner (em. Professor an der Universität zu Köln)</title>
          <contributors>
-            <arr>
-               <i>
-                  <name>Muckel, Stefan 1961- [Tp3]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <primary>true</primary>
-                  <contributorTypeId>6e09d47d-95e2-4d8a-831b-f777b8ef6d81</contributorTypeId>
-                  <contributorTypeText>Verfasser</contributorTypeText>
-               </i>
-               <i>
-                  <name>Rüfner, Wolfgang 1933- [Tp1]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <contributorTypeId>361f4bfd-a87d-463c-84d8-69346c3082f6</contributorTypeId>
-                  <contributorTypeText>Begründer des Werks</contributorTypeText>
-               </i>
-            </arr>
+            <arr/>
          </contributors>
          <publication>
             <arr>
@@ -5250,16 +5459,16 @@
                </i>
             </arr>
          </notes>
-         <natureOfContentTermIds>
-            <arr>
-               <i/>
-            </arr>
-         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
             </arr>
          </languages>
+         <series>
+            <arr>
+               <i>Klausurenkurs Juristische Übungsbücher</i>
+            </arr>
+         </series>
          <physicalDescriptions>
             <arr>
                <i>XXIII, 385 Seiten</i>
@@ -5421,6 +5630,20 @@
       </holdingsRecords>
    </record>
    <record>
+      <processing>
+         <item>
+            <status>
+               <policy>overwrite</policy>
+               <ifStatusWas>
+                  <arr>
+                     <i>
+                        <name>On order</name>
+                     </i>
+                  </arr>
+               </ifStatusWas>
+            </status>
+         </item>
+      </processing>
       
       <instance>
          <source>hebis</source>
@@ -5441,37 +5664,39 @@
                   <identifierTypeId>d5558bde-b5dc-421b-919b-361cb161525c</identifierTypeId>
                </i>
                <i>
-                  <value>978-3-87071-248-8 kart. : EUR 19.90 (DE), EUR 20.50 (AT), sfr 30.50 (freier Pr.)</value>
+                  <value>9783870712488 kart. : EUR 19.90 (DE), EUR 20.50 (AT), sfr 30.50 (freier Pr.)</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
                </i>
                <i>
+                  <value>: 10248</value>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
+               </i>
+               <i>
                   <value>9783870712488</value>
-                  <identifierTypeId>ad80de2d-c060-48a0-b85f-9b1b14e22ed0</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
                <i>
                   <value>HEB: 401737489</value>
-                  <identifierTypeId>7ef1b405-cb90-4d4e-b5e3-2b25f5d8a79b</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
             </arr>
          </identifiers>
          <indexTitle>Ursprung und Behandlung der Krankheiten Hildegard von Bingen. Vollst. neu übers. und eingel. von Ortrun Riha</indexTitle>
-         <title>Ursprung und Behandlung der Krankheiten = Causae et curae / Hildegard von Bingen. Vollst. neu übers. und eingel. von Ortrun Riha</title>
-         <contributors>
+         <title>Ursprung und Behandlung der Krankheiten / Hildegard von Bingen. Vollst. neu übers. und eingel. von Ortrun Riha</title>
+         <alternativeTitles>
             <arr>
                <i>
-                  <name> Hildegard von Bingen, Heilige 1098-1179 [Tp1]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <primary>true</primary>
-                  <contributorTypeId>6e09d47d-95e2-4d8a-831b-f777b8ef6d81</contributorTypeId>
-                  <contributorTypeText>Verfasser</contributorTypeText>
+                  <alternativeTitle>Causae et curae / Hildegard von Bingen. Vollst. neu übers. und eingel. von Ortrun Riha</alternativeTitle>
+                  <alternativeTitleTypeId>4bb300a4-04c9-414b-bfbc-9c032f74b7b2</alternativeTitleTypeId>
                </i>
                <i>
-                  <name>Riha, Ortrun 1959- [Tp1]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <contributorTypeId>3322b734-ce38-4cd4-815d-8983352837cc</contributorTypeId>
-                  <contributorTypeText>Übersetzer</contributorTypeText>
+                  <alternativeTitle/>
+                  <alternativeTitleTypeId>30512027-cdc9-4c79-af75-1565b3bd888d</alternativeTitleTypeId>
                </i>
             </arr>
+         </alternativeTitles>
+         <contributors>
+            <arr/>
          </contributors>
          <publication>
             <arr>
@@ -5510,7 +5735,7 @@
                      <hrid>230601065</hrid>
                   </instanceIdentifier>
                   <provisionalInstance>
-                     <title>Werke / Hildegard von Bingen. Hrsg. von der Abtei St. Hildegard, Eibingen</title>
+                     <title/>
                      <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
@@ -5568,6 +5793,20 @@
       </holdingsRecords>
    </record>
    <record>
+      <processing>
+         <item>
+            <status>
+               <policy>overwrite</policy>
+               <ifStatusWas>
+                  <arr>
+                     <i>
+                        <name>On order</name>
+                     </i>
+                  </arr>
+               </ifStatusWas>
+            </status>
+         </item>
+      </processing>
       
       <instance>
          <source>hebis</source>
@@ -5592,16 +5831,16 @@
                   <identifierTypeId>439bfbae-75bc-4f74-9fc7-b2a2d47ce3ef</identifierTypeId>
                </i>
                <i>
-                  <value>978-3-374-05741-2 Festeinband : EUR 48.00 (DE), EUR 49.40 (AT)</value>
+                  <value>9783374057412 Festeinband : EUR 48.00 (DE), EUR 49.40 (AT)</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
                </i>
                <i>
-                  <value>3-374-05741-1</value>
+                  <value>3374057411</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
                </i>
                <i>
                   <value>9783374057412</value>
-                  <identifierTypeId>ad80de2d-c060-48a0-b85f-9b1b14e22ed0</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
                <i>
                   <value>1168252067</value>
@@ -5612,38 +5851,19 @@
                   <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
                <i>
-                  <value>19,A07</value>
+                  <value>19,A07,1002</value>
                   <identifierTypeId>91dd4d66-bb6b-45f9-9678-646b6322b31b</identifierTypeId>
                </i>
                <i>
                   <value>DNB: 1168252067</value>
-                  <identifierTypeId>7ef1b405-cb90-4d4e-b5e3-2b25f5d8a79b</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
             </arr>
          </identifiers>
          <indexTitle>Neugieriges Denken die Lehrtätigkeit und das theologische Werk von Hans-Georg Geyer : mit vier unpublizierten Predigten von Hans-Georg Geyer herausgegeben von Frank Dittmann, Thorsten Latzel und Henning Theißen</indexTitle>
          <title>Neugieriges Denken : die Lehrtätigkeit und das theologische Werk von Hans-Georg Geyer : mit vier unpublizierten Predigten von Hans-Georg Geyer / herausgegeben von Frank Dittmann, Thorsten Latzel und Henning Theißen</title>
          <contributors>
-            <arr>
-               <i>
-                  <name>Dittmann, Frank 1979- [Tp3]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <contributorTypeId>9deb29d1-3e71-4951-9413-a80adac703d0</contributorTypeId>
-                  <contributorTypeText>Herausgeber</contributorTypeText>
-               </i>
-               <i>
-                  <name>Latzel, Thorsten 1970- [Tp3]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <contributorTypeId>9deb29d1-3e71-4951-9413-a80adac703d0</contributorTypeId>
-                  <contributorTypeText>Herausgeber</contributorTypeText>
-               </i>
-               <i>
-                  <name>Theißen, Henning 1974- [Tp3]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <contributorTypeId>9deb29d1-3e71-4951-9413-a80adac703d0</contributorTypeId>
-                  <contributorTypeText>Herausgeber</contributorTypeText>
-               </i>
-            </arr>
+            <arr/>
          </contributors>
          <publication>
             <arr>
@@ -5724,6 +5944,20 @@
       </holdingsRecords>
    </record>
    <record>
+      <processing>
+         <item>
+            <status>
+               <policy>overwrite</policy>
+               <ifStatusWas>
+                  <arr>
+                     <i>
+                        <name>On order</name>
+                     </i>
+                  </arr>
+               </ifStatusWas>
+            </status>
+         </item>
+      </processing>
       
       <instance>
          <source>hebis</source>
@@ -5746,49 +5980,43 @@
                   <identifierTypeId>439bfbae-75bc-4f74-9fc7-b2a2d47ce3ef</identifierTypeId>
                </i>
                <i>
-                  <value>3-13-147641-9</value>
-                  <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
-               </i>
-               <i>
-                  <value>978-3-13-147641-8</value>
+                  <value>3131476419</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
                </i>
                <i>
                   <value>9783131476418</value>
-                  <identifierTypeId>ad80de2d-c060-48a0-b85f-9b1b14e22ed0</identifierTypeId>
+                  <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
+               </i>
+               <i>
+                  <value>9783131476418</value>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
                <i>
                   <value>987419269</value>
                   <identifierTypeId>e176c942-bc34-417c-8ee5-920e5b279c1d</identifierTypeId>
                </i>
                <i>
+                  <value>987419269</value>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
+               </i>
+               <i>
                   <value>08,N08,0618</value>
                   <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
                <i>
-                  <value>08,A45,1047</value>
+                  <value>08,A45,1047,0205</value>
                   <identifierTypeId>91dd4d66-bb6b-45f9-9678-646b6322b31b</identifierTypeId>
                </i>
                <i>
                   <value>DNB: 987419269</value>
-                  <identifierTypeId>7ef1b405-cb90-4d4e-b5e3-2b25f5d8a79b</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
             </arr>
          </identifiers>
          <indexTitle>Perinatalmedizin in Fällen pränatale Diagnostik, Management und Beratung ; 23 Tabellen Anke Reitter ; Rolf Schlößer</indexTitle>
          <title>Perinatalmedizin in Fällen : pränatale Diagnostik, Management und Beratung ; 23 Tabellen / Anke Reitter ; Rolf Schlößer</title>
          <contributors>
-            <arr>
-               <i>
-                  <name>Reitter, Anke 1967- [Tp3]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <primary>true</primary>
-               </i>
-               <i>
-                  <name>Schlößer, Rolf [Tnd]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-               </i>
-            </arr>
+            <arr/>
          </contributors>
          <publication>
             <arr>
@@ -5864,6 +6092,20 @@
       </holdingsRecords>
    </record>
    <record>
+      <processing>
+         <item>
+            <status>
+               <policy>overwrite</policy>
+               <ifStatusWas>
+                  <arr>
+                     <i>
+                        <name>On order</name>
+                     </i>
+                  </arr>
+               </ifStatusWas>
+            </status>
+         </item>
+      </processing>
       
       <instance>
          <source>hebis</source>
@@ -5897,7 +6139,7 @@
                </i>
                <i>
                   <value>ZDB: 3029047-8</value>
-                  <identifierTypeId>7ef1b405-cb90-4d4e-b5e3-2b25f5d8a79b</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -5915,7 +6157,7 @@
          </publication>
          <publicationFrequency>
             <arr>
-               <i/>
+               <i>monatlich</i>
             </arr>
          </publicationFrequency>
          <publicationRange>
@@ -5934,11 +6176,6 @@
                </i>
             </arr>
          </notes>
-         <natureOfContentTermIds>
-            <arr>
-               <i/>
-            </arr>
-         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>fre</i>
@@ -5958,7 +6195,7 @@
                      <hrid>048326186</hrid>
                   </instanceIdentifier>
                   <provisionalInstance>
-                     <title>--Abvc--. Lire</title>
+                     <title/>
                      <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
@@ -5968,7 +6205,7 @@
                      <hrid>424315815</hrid>
                   </instanceIdentifier>
                   <provisionalInstance>
-                     <title>--Abvc--. Le @nouveau magazine littéraire</title>
+                     <title/>
                      <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
@@ -6062,6 +6299,20 @@
       </holdingsRecords>
    </record>
    <record>
+      <processing>
+         <item>
+            <status>
+               <policy>overwrite</policy>
+               <ifStatusWas>
+                  <arr>
+                     <i>
+                        <name>On order</name>
+                     </i>
+                  </arr>
+               </ifStatusWas>
+            </status>
+         </item>
+      </processing>
       
       <instance>
          <source>hebis</source>
@@ -6084,61 +6335,47 @@
                   <identifierTypeId>439bfbae-75bc-4f74-9fc7-b2a2d47ce3ef</identifierTypeId>
                </i>
                <i>
-                  <value>978-3-13-160181-0 (Paket) Pp. : EUR 139.00, sfr 231.00 (freier Pr.)</value>
+                  <value>9783131601810 (Paket) Pp. : EUR 139.00, sfr 231.00 (freier Pr.)</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
                </i>
                <i>
-                  <value>978-3-13-139534-4 Pp. : EUR 59.99 (DE), EUR 61.70 (AT), sfr 69.00 (freier Pr.)</value>
+                  <value>9783131395344 Pp. : EUR 59.99 (DE), EUR 61.70 (AT), sfr 69.00 (freier Pr.)</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
                </i>
                <i>
-                  <value>3-13-139534-6</value>
+                  <value>3131395346</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
                </i>
                <i>
                   <value>9783131395344</value>
-                  <identifierTypeId>ad80de2d-c060-48a0-b85f-9b1b14e22ed0</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
                <i>
                   <value>1071731866</value>
                   <identifierTypeId>e176c942-bc34-417c-8ee5-920e5b279c1d</identifierTypeId>
                </i>
                <i>
+                  <value>910739662</value>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
+               </i>
+               <i>
                   <value>15,N23</value>
                   <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
                <i>
-                  <value>15,A39</value>
+                  <value>15,A39,0529</value>
                   <identifierTypeId>91dd4d66-bb6b-45f9-9678-646b6322b31b</identifierTypeId>
                </i>
                <i>
                   <value>DNB: 1071731866</value>
-                  <identifierTypeId>7ef1b405-cb90-4d4e-b5e3-2b25f5d8a79b</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
             </arr>
          </identifiers>
          <indexTitle>Innere Organe 122 Tabellen</indexTitle>
          <title>Innere Organe : 122 Tabellen</title>
          <contributors>
-            <arr>
-               <i>
-                  <name>Schünke, Michael 1950- [Tp3]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-               </i>
-               <i>
-                  <name>Schulte, Erik 1956- [Tp3]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-               </i>
-               <i>
-                  <name>Schumacher, Udo 1956- [Tp1]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-               </i>
-               <i>
-                  <name>Voll, Markus 1961- [Tp3]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <contributorTypeText>Ill.</contributorTypeText>
-               </i>
-            </arr>
+            <arr/>
          </contributors>
          <publication>
             <arr>
@@ -6177,7 +6414,7 @@
                      <hrid>123784344</hrid>
                   </instanceIdentifier>
                   <provisionalInstance>
-                     <title>Prometheus : LernAtlas der Anatomie / Michael Schünke</title>
+                     <title/>
                      <instanceTypeId>a2c91e87-6bab-44d6-8adb-1fd02481fc4f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
@@ -7465,6 +7702,20 @@
       </holdingsRecords>
    </record>
    <record>
+      <processing>
+         <item>
+            <status>
+               <policy>overwrite</policy>
+               <ifStatusWas>
+                  <arr>
+                     <i>
+                        <name>On order</name>
+                     </i>
+                  </arr>
+               </ifStatusWas>
+            </status>
+         </item>
+      </processing>
       
       <instance>
          <source>hebis</source>
@@ -7487,30 +7738,19 @@
                   <identifierTypeId>439bfbae-75bc-4f74-9fc7-b2a2d47ce3ef</identifierTypeId>
                </i>
                <i>
-                  <value>3-476-01657-9</value>
+                  <value>3476016579</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
                </i>
                <i>
                   <value>HEB: 100778224</value>
-                  <identifierTypeId>7ef1b405-cb90-4d4e-b5e3-2b25f5d8a79b</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
             </arr>
          </identifiers>
          <indexTitle>Ästhetische Grundbegriffe (ÄGB) ; historisches Wörterbuch in sieben Bänden hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ...</indexTitle>
          <title>Ästhetische Grundbegriffe : (ÄGB) ; historisches Wörterbuch in sieben Bänden / hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ... (3)</title>
          <contributors>
-            <arr>
-               <i>
-                  <name>Barck, Karlheinz 1934-2012 [Tp3]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <contributorTypeText>Hrsg.</contributorTypeText>
-               </i>
-               <i>
-                  <name>Wolfzettel, Friedrich 1941- [Tp2]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <contributorTypeText>Hrsg.</contributorTypeText>
-               </i>
-            </arr>
+            <arr/>
          </contributors>
          <publication>
             <arr>
@@ -7544,7 +7784,7 @@
                      <hrid>093913974</hrid>
                   </instanceIdentifier>
                   <provisionalInstance>
-                     <title>Ästhetische Grundbegriffe : (ÄGB)</title>
+                     <title/>
                      <instanceTypeId>a2c91e87-6bab-44d6-8adb-1fd02481fc4f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
@@ -7899,6 +8139,20 @@
       </holdingsRecords>
    </record>
    <record>
+      <processing>
+         <item>
+            <status>
+               <policy>overwrite</policy>
+               <ifStatusWas>
+                  <arr>
+                     <i>
+                        <name>On order</name>
+                     </i>
+                  </arr>
+               </ifStatusWas>
+            </status>
+         </item>
+      </processing>
       
       <instance>
          <source>hebis</source>
@@ -7921,11 +8175,11 @@
                   <identifierTypeId>439bfbae-75bc-4f74-9fc7-b2a2d47ce3ef</identifierTypeId>
                </i>
                <i>
-                  <value>3-476-00913-0</value>
+                  <value>3476009130</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
                </i>
                <i>
-                  <value>978-3-476-00913-5</value>
+                  <value>9783476009135</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
                </i>
                <i>
@@ -7934,7 +8188,7 @@
                </i>
                <i>
                   <value>HEB: 093913974</value>
-                  <identifierTypeId>7ef1b405-cb90-4d4e-b5e3-2b25f5d8a79b</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -7949,18 +8203,7 @@
             </arr>
          </alternativeTitles>
          <contributors>
-            <arr>
-               <i>
-                  <name>Barck, Karlheinz 1934-2012 [Tp3]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <contributorTypeText>Hrsg.</contributorTypeText>
-               </i>
-               <i>
-                  <name>Wolfzettel, Friedrich 1941- [Tp2]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <contributorTypeText>Hrsg.</contributorTypeText>
-               </i>
-            </arr>
+            <arr/>
          </contributors>
          <publication>
             <arr>
@@ -8020,6 +8263,20 @@
       </holdingsRecords>
    </record>
    <record>
+      <processing>
+         <item>
+            <status>
+               <policy>overwrite</policy>
+               <ifStatusWas>
+                  <arr>
+                     <i>
+                        <name>On order</name>
+                     </i>
+                  </arr>
+               </ifStatusWas>
+            </status>
+         </item>
+      </processing>
       
       <instance>
          <source>hebis</source>
@@ -8044,16 +8301,20 @@
                   <identifierTypeId>439bfbae-75bc-4f74-9fc7-b2a2d47ce3ef</identifierTypeId>
                </i>
                <i>
-                  <value>978-3-498-00111-7 Festeinband : EUR 25.00 (DE), EUR 25.70 (AT)</value>
+                  <value>9783498001117 Festeinband : EUR 25.00 (DE), EUR 25.70 (AT)</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
                </i>
                <i>
-                  <value>3-498-00111-6</value>
+                  <value>3498001116</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
+               </i>
+               <i>
+                  <value>Bestellnummer: 22090</value>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
                <i>
                   <value>9783498001117</value>
-                  <identifierTypeId>ad80de2d-c060-48a0-b85f-9b1b14e22ed0</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
                <i>
                   <value>1185427465</value>
@@ -8064,27 +8325,19 @@
                   <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
                <i>
-                  <value>20,A08</value>
+                  <value>20,A08,0506</value>
                   <identifierTypeId>91dd4d66-bb6b-45f9-9678-646b6322b31b</identifierTypeId>
                </i>
                <i>
                   <value>DNB: 1185427465</value>
-                  <identifierTypeId>7ef1b405-cb90-4d4e-b5e3-2b25f5d8a79b</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
             </arr>
          </identifiers>
          <indexTitle>Zeichen der Sieger der Aufstieg Chinas im Spiegel seiner Sprache Thekla Chabbi</indexTitle>
          <title>Die Zeichen der Sieger : der Aufstieg Chinas im Spiegel seiner Sprache / Thekla Chabbi</title>
          <contributors>
-            <arr>
-               <i>
-                  <name>Chabbi, Thekla 1968- [Tp1]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <primary>true</primary>
-                  <contributorTypeId>6e09d47d-95e2-4d8a-831b-f777b8ef6d81</contributorTypeId>
-                  <contributorTypeText>Verfasser</contributorTypeText>
-               </i>
-            </arr>
+            <arr/>
          </contributors>
          <publication>
             <arr>
@@ -8165,6 +8418,20 @@
       </holdingsRecords>
    </record>
    <record>
+      <processing>
+         <item>
+            <status>
+               <policy>overwrite</policy>
+               <ifStatusWas>
+                  <arr>
+                     <i>
+                        <name>On order</name>
+                     </i>
+                  </arr>
+               </ifStatusWas>
+            </status>
+         </item>
+      </processing>
       
       <instance>
          <source>hebis</source>
@@ -8187,7 +8454,7 @@
                   <identifierTypeId>439bfbae-75bc-4f74-9fc7-b2a2d47ce3ef</identifierTypeId>
                </i>
                <i>
-                  <value>978-3-13-593404-4 Gb. : ca. sfr 133.00 (freier Pr.), ca. EUR 79.95</value>
+                  <value>9783135934044 Gb. : ca. sfr 133.00 (freier Pr.), ca. EUR 79.95</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
                </i>
                <i>
@@ -8195,29 +8462,23 @@
                   <identifierTypeId>e176c942-bc34-417c-8ee5-920e5b279c1d</identifierTypeId>
                </i>
                <i>
+                  <value>989362337</value>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
+               </i>
+               <i>
                   <value>08,N29,0796</value>
                   <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
                <i>
                   <value>DNB: 989362337</value>
-                  <identifierTypeId>7ef1b405-cb90-4d4e-b5e3-2b25f5d8a79b</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
             </arr>
          </identifiers>
          <indexTitle>Chirurgische Grundlagen 72 Tabellen hrsg. von Norbert Schwenzer ... Mit Beitr. von Roland Bares ...</indexTitle>
          <title>Chirurgische Grundlagen : 72 Tabellen / hrsg. von Norbert Schwenzer ... Mit Beitr. von Roland Bares ...</title>
          <contributors>
-            <arr>
-               <i>
-                  <name>Schwenzer, Norbert 1929-2018 [Tp1]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <contributorTypeText>Hrsg.</contributorTypeText>
-               </i>
-               <i>
-                  <name>Bares, Roland [Tnd]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-               </i>
-            </arr>
+            <arr/>
          </contributors>
          <publication>
             <arr>
@@ -8237,6 +8498,11 @@
                <i>ger</i>
             </arr>
          </languages>
+         <series>
+            <arr>
+               <i>Zahn-Mund-Kiefer-Heilkunde</i>
+            </arr>
+         </series>
          <physicalDescriptions>
             <arr>
                <i>XII, 395 S. : zahlr. Ill., graph. Darst.</i>
@@ -9107,6 +9373,20 @@
       </holdingsRecords>
    </record>
    <record>
+      <processing>
+         <item>
+            <status>
+               <policy>overwrite</policy>
+               <ifStatusWas>
+                  <arr>
+                     <i>
+                        <name>On order</name>
+                     </i>
+                  </arr>
+               </ifStatusWas>
+            </status>
+         </item>
+      </processing>
       
       <instance>
          <source>hebis</source>
@@ -9131,20 +9411,24 @@
                   <identifierTypeId>439bfbae-75bc-4f74-9fc7-b2a2d47ce3ef</identifierTypeId>
                </i>
                <i>
-                  <value>978-3-85995-257-7 Gewebe : EUR 34.50 (DE), EUR 35.50 (AT), CHF 38.00 (freier Preis)</value>
+                  <value>9783859952577 Gewebe : EUR 34.50 (DE), EUR 35.50 (AT), CHF 38.00 (freier Preis)</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
                </i>
                <i>
-                  <value>3-85995-257-9</value>
+                  <value>3859952579</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
                </i>
                <i>
-                  <value>978-3-85995-256-0</value>
+                  <value>9783859952560</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
+               </i>
+               <i>
+                  <value>Bestellnummer: 257</value>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
                <i>
                   <value>9783859952577</value>
-                  <identifierTypeId>ad80de2d-c060-48a0-b85f-9b1b14e22ed0</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
                <i>
                   <value>1172362858</value>
@@ -9155,12 +9439,12 @@
                   <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
                <i>
-                  <value>19,A16</value>
+                  <value>19,A16,1128</value>
                   <identifierTypeId>91dd4d66-bb6b-45f9-9678-646b6322b31b</identifierTypeId>
                </i>
                <i>
                   <value>DNB: 1172362858</value>
-                  <identifierTypeId>7ef1b405-cb90-4d4e-b5e3-2b25f5d8a79b</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -9288,6 +9572,20 @@
       </holdingsRecords>
    </record>
    <record>
+      <processing>
+         <item>
+            <status>
+               <policy>overwrite</policy>
+               <ifStatusWas>
+                  <arr>
+                     <i>
+                        <name>On order</name>
+                     </i>
+                  </arr>
+               </ifStatusWas>
+            </status>
+         </item>
+      </processing>
       
       <instance>
          <source>hebis</source>
@@ -9312,20 +9610,7 @@
          <indexTitle>Diese Tage her, seit ich Deinen Brief empfangen, war ich im Grunde etwas … , 08.05.1826. - Benediktinerabtei St. Bonifaz in München und Andechs</indexTitle>
          <title>Diese Tage her, seit ich Deinen Brief empfangen, war ich im Grunde etwas … , 08.05.1826. -  Benediktinerabtei St. Bonifaz in München und Andechs</title>
          <contributors>
-            <arr>
-               <i>
-                  <name>Schlegel, Friedrich von 1772-1829 [Tp1]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <primary>true</primary>
-                  <contributorTypeId>6e09d47d-95e2-4d8a-831b-f777b8ef6d81</contributorTypeId>
-                  <contributorTypeText>Verfasser</contributorTypeText>
-               </i>
-               <i>
-                  <name>Stransky, Christine von 1785-1862 [Tp1]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <contributorTypeText>Adressat</contributorTypeText>
-               </i>
-            </arr>
+            <arr/>
          </contributors>
          <publication>
             <arr>
@@ -9348,11 +9633,6 @@
                </i>
             </arr>
          </notes>
-         <natureOfContentTermIds>
-            <arr>
-               <i/>
-            </arr>
-         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -9390,6 +9670,20 @@
       </holdingsRecords>
    </record>
    <record>
+      <processing>
+         <item>
+            <status>
+               <policy>overwrite</policy>
+               <ifStatusWas>
+                  <arr>
+                     <i>
+                        <name>On order</name>
+                     </i>
+                  </arr>
+               </ifStatusWas>
+            </status>
+         </item>
+      </processing>
       
       <instance>
          <source>hebis</source>
@@ -9420,7 +9714,7 @@
                </i>
                <i>
                   <value>DNB: 930545532</value>
-                  <identifierTypeId>7ef1b405-cb90-4d4e-b5e3-2b25f5d8a79b</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -9435,18 +9729,7 @@
             </arr>
          </alternativeTitles>
          <contributors>
-            <arr>
-               <i>
-                  <name>Weinzinger, Franz [Tp3]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <contributorTypeId>9deb29d1-3e71-4951-9413-a80adac703d0</contributorTypeId>
-                  <contributorTypeText>Herausgeber</contributorTypeText>
-               </i>
-               <i>
-                  <name>Pfarrei St. Alban- St. Jakobus Mainz [Tb1]</name>
-                  <contributorNameTypeId>2e48e713-17f3-4c13-a9f8-23845bb210aa</contributorNameTypeId>
-               </i>
-            </arr>
+            <arr/>
          </contributors>
          <publication>
             <arr>
@@ -9527,6 +9810,20 @@
       </holdingsRecords>
    </record>
    <record>
+      <processing>
+         <item>
+            <status>
+               <policy>overwrite</policy>
+               <ifStatusWas>
+                  <arr>
+                     <i>
+                        <name>On order</name>
+                     </i>
+                  </arr>
+               </ifStatusWas>
+            </status>
+         </item>
+      </processing>
       
       <instance>
          <source>hebis</source>
@@ -9545,11 +9842,11 @@
                   <identifierTypeId>d5558bde-b5dc-421b-919b-361cb161525c</identifierTypeId>
                </i>
                <i>
-                  <value>3-7741-1134-0 kart. : EUR 36.90</value>
+                  <value>3774111340 kart. : EUR 36.90</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
                </i>
                <i>
-                  <value>978-3-7741-1134-9 kart. : EUR 36.90</value>
+                  <value>9783774111349 kart. : EUR 36.90</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
                </i>
                <i>
@@ -9557,12 +9854,12 @@
                   <identifierTypeId>e176c942-bc34-417c-8ee5-920e5b279c1d</identifierTypeId>
                </i>
                <i>
-                  <value>11,A36</value>
+                  <value>11,A36,0805</value>
                   <identifierTypeId>91dd4d66-bb6b-45f9-9678-646b6322b31b</identifierTypeId>
                </i>
                <i>
                   <value>DNB: 1014092566</value>
-                  <identifierTypeId>7ef1b405-cb90-4d4e-b5e3-2b25f5d8a79b</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -9581,22 +9878,7 @@
             </arr>
          </alternativeTitles>
          <contributors>
-            <arr>
-               <i>
-                  <name>Willner, Barbara [Tnd]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <primary>true</primary>
-               </i>
-               <i>
-                  <name>Cutt, Iris [Tnd]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-               </i>
-               <i>
-                  <name>Wurm, Gisela [Tnd]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <contributorTypeText>Begr.</contributorTypeText>
-               </i>
-            </arr>
+            <arr/>
          </contributors>
          <publication>
             <arr>
@@ -9611,11 +9893,21 @@
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <natureOfContentTermIds>
+            <arr>
+               <i>ebbbdef1-00e1-428b-bc11-314dc0705074</i>
+            </arr>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
             </arr>
          </languages>
+         <series>
+            <arr>
+               <i>Lernen für die Praxis, PTA</i>
+            </arr>
+         </series>
          <physicalDescriptions>
             <arr>
                <i>VII, 482 S : Ill., graph. Darst. ; 24 cm</i>
@@ -9720,6 +10012,20 @@
       </holdingsRecords>
    </record>
    <record>
+      <processing>
+         <item>
+            <status>
+               <policy>overwrite</policy>
+               <ifStatusWas>
+                  <arr>
+                     <i>
+                        <name>On order</name>
+                     </i>
+                  </arr>
+               </ifStatusWas>
+            </status>
+         </item>
+      </processing>
       
       <instance>
          <source>hebis</source>
@@ -9742,34 +10048,23 @@
                   <identifierTypeId>439bfbae-75bc-4f74-9fc7-b2a2d47ce3ef</identifierTypeId>
                </i>
                <i>
-                  <value>3-476-01744-3</value>
+                  <value>3476017443</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
                </i>
                <i>
-                  <value>978-3-476-01744-4</value>
+                  <value>9783476017444</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
                </i>
                <i>
                   <value>HEB: 134552296</value>
-                  <identifierTypeId>7ef1b405-cb90-4d4e-b5e3-2b25f5d8a79b</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
             </arr>
          </identifiers>
          <indexTitle>Ästhetische Grundbegriffe (ÄGB) ; historisches Wörterbuch in sieben Bänden hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ...</indexTitle>
          <title>Ästhetische Grundbegriffe : (ÄGB) ; historisches Wörterbuch in sieben Bänden / hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ... (7)</title>
          <contributors>
-            <arr>
-               <i>
-                  <name>Barck, Karlheinz 1934-2012 [Tp3]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <contributorTypeText>Hrsg.</contributorTypeText>
-               </i>
-               <i>
-                  <name>Wolfzettel, Friedrich 1941- [Tp2]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <contributorTypeText>Hrsg.</contributorTypeText>
-               </i>
-            </arr>
+            <arr/>
          </contributors>
          <publication>
             <arr>
@@ -9803,7 +10098,7 @@
                      <hrid>093913974</hrid>
                   </instanceIdentifier>
                   <provisionalInstance>
-                     <title>Ästhetische Grundbegriffe : (ÄGB)</title>
+                     <title/>
                      <instanceTypeId>a2c91e87-6bab-44d6-8adb-1fd02481fc4f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
@@ -10158,6 +10453,20 @@
       </holdingsRecords>
    </record>
    <record>
+      <processing>
+         <item>
+            <status>
+               <policy>overwrite</policy>
+               <ifStatusWas>
+                  <arr>
+                     <i>
+                        <name>On order</name>
+                     </i>
+                  </arr>
+               </ifStatusWas>
+            </status>
+         </item>
+      </processing>
       
       <instance>
          <source>hebis</source>
@@ -10180,30 +10489,19 @@
                   <identifierTypeId>439bfbae-75bc-4f74-9fc7-b2a2d47ce3ef</identifierTypeId>
                </i>
                <i>
-                  <value>3-476-01656-0</value>
+                  <value>3476016560</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
                </i>
                <i>
                   <value>HEB: 095964088</value>
-                  <identifierTypeId>7ef1b405-cb90-4d4e-b5e3-2b25f5d8a79b</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
             </arr>
          </identifiers>
          <indexTitle>Ästhetische Grundbegriffe (ÄGB) ; historisches Wörterbuch in sieben Bänden hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ...</indexTitle>
          <title>Ästhetische Grundbegriffe : (ÄGB) ; historisches Wörterbuch in sieben Bänden / hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ... (2)</title>
          <contributors>
-            <arr>
-               <i>
-                  <name>Barck, Karlheinz 1934-2012 [Tp3]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <contributorTypeText>Hrsg.</contributorTypeText>
-               </i>
-               <i>
-                  <name>Wolfzettel, Friedrich 1941- [Tp2]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <contributorTypeText>Hrsg.</contributorTypeText>
-               </i>
-            </arr>
+            <arr/>
          </contributors>
          <publication>
             <arr>
@@ -10237,7 +10535,7 @@
                      <hrid>093913974</hrid>
                   </instanceIdentifier>
                   <provisionalInstance>
-                     <title>Ästhetische Grundbegriffe : (ÄGB)</title>
+                     <title/>
                      <instanceTypeId>a2c91e87-6bab-44d6-8adb-1fd02481fc4f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
@@ -10592,6 +10890,20 @@
       </holdingsRecords>
    </record>
    <record>
+      <processing>
+         <item>
+            <status>
+               <policy>overwrite</policy>
+               <ifStatusWas>
+                  <arr>
+                     <i>
+                        <name>On order</name>
+                     </i>
+                  </arr>
+               </ifStatusWas>
+            </status>
+         </item>
+      </processing>
       
       <instance>
          <source>hebis</source>
@@ -10612,52 +10924,39 @@
                   <identifierTypeId>d5558bde-b5dc-421b-919b-361cb161525c</identifierTypeId>
                </i>
                <i>
-                  <value>978-3-437-22449-2 : circa EUR 79.00</value>
+                  <value>9783437224492 : circa EUR 79.00</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
                </i>
                <i>
-                  <value>3-437-22449-2</value>
+                  <value>3437224492</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
                </i>
                <i>
                   <value>9783437224492</value>
-                  <identifierTypeId>ad80de2d-c060-48a0-b85f-9b1b14e22ed0</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
                <i>
-                  <value>978-3-437-29565-2</value>
-                  <identifierTypeId>47e6ce08-5ecb-4403-99ca-3c5a84412b48</identifierTypeId>
+                  <value>9783437295652</value>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
                <i>
                   <value>120990098X</value>
                   <identifierTypeId>e176c942-bc34-417c-8ee5-920e5b279c1d</identifierTypeId>
                </i>
                <i>
-                  <value>20,N21</value>
+                  <value>20,N21,0511</value>
                   <identifierTypeId>91dd4d66-bb6b-45f9-9678-646b6322b31b</identifierTypeId>
                </i>
                <i>
                   <value>DNB: 120990098X</value>
-                  <identifierTypeId>7ef1b405-cb90-4d4e-b5e3-2b25f5d8a79b</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
             </arr>
          </identifiers>
          <indexTitle>Praxisleitfaden Allgemeinmedizin Herausgeber Prof. Dr. med. Stefan Gesenhues, Dr. med. Anne Gesenhues, Ochtrup und Essen ; mit Beiträgen von Prof. Claudia Bausewein, PhD MSc, München und 27 weiteren</indexTitle>
          <title>Praxisleitfaden Allgemeinmedizin / Herausgeber Prof. Dr. med. Stefan Gesenhues, Dr. med. Anne Gesenhues, Ochtrup und Essen ; mit Beiträgen von Prof. Claudia Bausewein, PhD MSc, München und 27 weiteren</title>
          <contributors>
-            <arr>
-               <i>
-                  <name>Gesenhues, Stefan 1954- [Tp1]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <contributorTypeId>9deb29d1-3e71-4951-9413-a80adac703d0</contributorTypeId>
-                  <contributorTypeText>Herausgeber</contributorTypeText>
-               </i>
-               <i>
-                  <name>Gesenhues, Anne 1964- [Tp3]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <contributorTypeId>9deb29d1-3e71-4951-9413-a80adac703d0</contributorTypeId>
-                  <contributorTypeText>Herausgeber</contributorTypeText>
-               </i>
-            </arr>
+            <arr/>
          </contributors>
          <publication>
             <arr>
@@ -10677,6 +10976,11 @@
                <i>ger</i>
             </arr>
          </languages>
+         <series>
+            <arr>
+               <i>Praxisleitfaden</i>
+            </arr>
+         </series>
          <physicalDescriptions>
             <arr>
                <i>XXXVIII, 1764 Seiten : Illustrationen ; 19.3 cm x 11.3 cm</i>
@@ -10688,22 +10992,7 @@
             </arr>
          </editions>
       </instance>
-      <instanceRelations>
-         <precedingTitles>
-            <arr>
-               <i>
-                  <instanceIdentifier>
-                     <hrid/>
-                  </instanceIdentifier>
-                  <provisionalInstance>
-                     <title/>
-                     <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
-                     <source>hebis</source>
-                  </provisionalInstance>
-               </i>
-            </arr>
-         </precedingTitles>
-      </instanceRelations>
+      <instanceRelations/>
       <holdingsRecords>
          <arr>
             <i>
@@ -10900,6 +11189,20 @@
       </holdingsRecords>
    </record>
    <record>
+      <processing>
+         <item>
+            <status>
+               <policy>overwrite</policy>
+               <ifStatusWas>
+                  <arr>
+                     <i>
+                        <name>On order</name>
+                     </i>
+                  </arr>
+               </ifStatusWas>
+            </status>
+         </item>
+      </processing>
       
       <instance>
          <source>hebis</source>
@@ -10924,16 +11227,16 @@
                   <identifierTypeId>439bfbae-75bc-4f74-9fc7-b2a2d47ce3ef</identifierTypeId>
                </i>
                <i>
-                  <value>978-3-7917-3075-2 Broschur : circa EUR 12.95 (DE), circa EUR 13.40 (AT)</value>
+                  <value>9783791730752 Broschur : circa EUR 12.95 (DE), circa EUR 13.40 (AT)</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
                </i>
                <i>
-                  <value>3-7917-3075-4</value>
+                  <value>3791730754</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
                </i>
                <i>
                   <value>9783791730752</value>
-                  <identifierTypeId>ad80de2d-c060-48a0-b85f-9b1b14e22ed0</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
                <i>
                   <value>1184751412</value>
@@ -10944,33 +11247,19 @@
                   <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
                <i>
-                  <value>20,A27</value>
+                  <value>20,A27,0428</value>
                   <identifierTypeId>91dd4d66-bb6b-45f9-9678-646b6322b31b</identifierTypeId>
                </i>
                <i>
                   <value>DNB: 1184751412</value>
-                  <identifierTypeId>7ef1b405-cb90-4d4e-b5e3-2b25f5d8a79b</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
             </arr>
          </identifiers>
          <indexTitle>Max Mohr Arzt und rastloser Literat Florian Steger ; unter Mitarbeit von Martin Regenbrecht</indexTitle>
          <title>Max Mohr : Arzt und rastloser Literat / Florian Steger ; unter Mitarbeit von Martin Regenbrecht</title>
          <contributors>
-            <arr>
-               <i>
-                  <name>Steger, Florian 1974- [Tp1]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <primary>true</primary>
-                  <contributorTypeId>6e09d47d-95e2-4d8a-831b-f777b8ef6d81</contributorTypeId>
-                  <contributorTypeText>Verfasser</contributorTypeText>
-               </i>
-               <i>
-                  <name>Regenbrecht, Martin 1963- [Tp3]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <contributorTypeId>9f0a2cf0-7a9b-45a2-a403-f68d2850d07c</contributorTypeId>
-                  <contributorTypeText>Mitwirkender</contributorTypeText>
-               </i>
-            </arr>
+            <arr/>
          </contributors>
          <publication>
             <arr>
@@ -10993,16 +11282,16 @@
                </i>
             </arr>
          </notes>
-         <natureOfContentTermIds>
-            <arr>
-               <i/>
-            </arr>
-         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
             </arr>
          </languages>
+         <series>
+            <arr>
+               <i>Kleine bayerische Biografien</i>
+            </arr>
+         </series>
          <physicalDescriptions>
             <arr>
                <i>133 Seiten : Illustrationen ; 19 cm</i>
@@ -11059,6 +11348,20 @@
       </holdingsRecords>
    </record>
    <record>
+      <processing>
+         <item>
+            <status>
+               <policy>overwrite</policy>
+               <ifStatusWas>
+                  <arr>
+                     <i>
+                        <name>On order</name>
+                     </i>
+                  </arr>
+               </ifStatusWas>
+            </status>
+         </item>
+      </processing>
       
       <instance>
          <source>hebis</source>
@@ -11083,16 +11386,16 @@
                   <identifierTypeId>439bfbae-75bc-4f74-9fc7-b2a2d47ce3ef</identifierTypeId>
                </i>
                <i>
-                  <value>978-3-406-74583-6 kartoniert : circa EUR 30.00</value>
+                  <value>9783406745836 kartoniert : circa EUR 30.00</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
                </i>
                <i>
-                  <value>3-406-74583-0</value>
+                  <value>3406745830</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
                </i>
                <i>
                   <value>9783406745836</value>
-                  <identifierTypeId>ad80de2d-c060-48a0-b85f-9b1b14e22ed0</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
                <i>
                   <value>1200575679</value>
@@ -11103,12 +11406,12 @@
                   <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
                <i>
-                  <value>21,A01</value>
+                  <value>21,A01,1128</value>
                   <identifierTypeId>91dd4d66-bb6b-45f9-9678-646b6322b31b</identifierTypeId>
                </i>
                <i>
                   <value>DNB: 1200575679</value>
-                  <identifierTypeId>7ef1b405-cb90-4d4e-b5e3-2b25f5d8a79b</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -11127,15 +11430,7 @@
             </arr>
          </alternativeTitles>
          <contributors>
-            <arr>
-               <i>
-                  <name>Lettl, Tobias 1968- [Tp3]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <primary>true</primary>
-                  <contributorTypeId>6e09d47d-95e2-4d8a-831b-f777b8ef6d81</contributorTypeId>
-                  <contributorTypeText>Verfasser</contributorTypeText>
-               </i>
-            </arr>
+            <arr/>
          </contributors>
          <publication>
             <arr>
@@ -11158,16 +11453,16 @@
                </i>
             </arr>
          </notes>
-         <natureOfContentTermIds>
-            <arr>
-               <i/>
-            </arr>
-         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
             </arr>
          </languages>
+         <series>
+            <arr>
+               <i>Grundrisse des Rechts</i>
+            </arr>
+         </series>
          <physicalDescriptions>
             <arr>
                <i>XVI, 405 Seiten : Illustrationen, Diagramme ; 19.4 cm x 12.8 cm</i>
@@ -11282,6 +11577,20 @@
       </holdingsRecords>
    </record>
    <record>
+      <processing>
+         <item>
+            <status>
+               <policy>overwrite</policy>
+               <ifStatusWas>
+                  <arr>
+                     <i>
+                        <name>On order</name>
+                     </i>
+                  </arr>
+               </ifStatusWas>
+            </status>
+         </item>
+      </processing>
       
       <instance>
          <source>hebis</source>
@@ -11302,20 +11611,20 @@
                   <identifierTypeId>d5558bde-b5dc-421b-919b-361cb161525c</identifierTypeId>
                </i>
                <i>
-                  <value>978-3-11-068889-4 : EUR 69.95</value>
+                  <value>9783110688894 : EUR 69.95</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
                </i>
                <i>
-                  <value>3-11-068889-1</value>
+                  <value>3110688891</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
                </i>
                <i>
-                  <value>978-614-432-232-1 Für den arabischen Raum: Dar alFarabi Beirut</value>
+                  <value>9786144322321 Für den arabischen Raum: Dar alFarabi Beirut</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
                </i>
                <i>
                   <value>9783110688894</value>
-                  <identifierTypeId>ad80de2d-c060-48a0-b85f-9b1b14e22ed0</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
                <i>
                   <value>1215778759</value>
@@ -11326,12 +11635,12 @@
                   <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
                <i>
-                  <value>20,A43</value>
+                  <value>20,A43,0812</value>
                   <identifierTypeId>91dd4d66-bb6b-45f9-9678-646b6322b31b</identifierTypeId>
                </i>
                <i>
                   <value>DNB: 1215778759</value>
-                  <identifierTypeId>7ef1b405-cb90-4d4e-b5e3-2b25f5d8a79b</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -11340,26 +11649,7 @@
          <contributors>
             <arr>
                <i>
-                  <name>Ṯaʿālibī, ʿAbd-al-Malik Ibn-Muḥammad aṯ- 961-1038 [Tp1]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <primary>true</primary>
-                  <contributorTypeId>6e09d47d-95e2-4d8a-831b-f777b8ef6d81</contributorTypeId>
-                  <contributorTypeText>Verfasser</contributorTypeText>
-               </i>
-               <i>
-                  <name>Orfali, Bilal 1980- [Tp3]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <contributorTypeId>9deb29d1-3e71-4951-9413-a80adac703d0</contributorTypeId>
-                  <contributorTypeText>Herausgeber</contributorTypeText>
-               </i>
-               <i>
-                  <name>Baʿlabakkī, Ramzī Munīr 1951- [Tp3]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <contributorTypeId>9deb29d1-3e71-4951-9413-a80adac703d0</contributorTypeId>
-                  <contributorTypeText>Herausgeber</contributorTypeText>
-               </i>
-               <i>
-                  <name>Walter de Gruyter GmbH &amp; Co. KG [Tb1]</name>
+                  <name>Verlag</name>
                   <contributorNameTypeId>2e48e713-17f3-4c13-a9f8-23845bb210aa</contributorNameTypeId>
                   <contributorTypeId>a60314d4-c3c6-4e29-92fa-86cc6ace4d56</contributorTypeId>
                </i>
@@ -11473,6 +11763,20 @@
       </holdingsRecords>
    </record>
    <record>
+      <processing>
+         <item>
+            <status>
+               <policy>overwrite</policy>
+               <ifStatusWas>
+                  <arr>
+                     <i>
+                        <name>On order</name>
+                     </i>
+                  </arr>
+               </ifStatusWas>
+            </status>
+         </item>
+      </processing>
       
       <instance>
          <source>hebis</source>
@@ -11493,43 +11797,23 @@
                   <identifierTypeId>d5558bde-b5dc-421b-919b-361cb161525c</identifierTypeId>
                </i>
                <i>
-                  <value>978-2-85629-874-9</value>
+                  <value>9782856298749</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
                </i>
                <i>
                   <value>9782856298749</value>
-                  <identifierTypeId>ad80de2d-c060-48a0-b85f-9b1b14e22ed0</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
                <i>
                   <value>BSZ: 501794603</value>
-                  <identifierTypeId>7ef1b405-cb90-4d4e-b5e3-2b25f5d8a79b</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
             </arr>
          </identifiers>
          <indexTitle>Factorization of non-symmetric operators and exponential H-theorem M.P. Gualdani, S. Mischler, C. Mouhot</indexTitle>
          <title>Factorization of non-symmetric operators and exponential H-theorem / M.P. Gualdani, S. Mischler, C. Mouhot</title>
          <contributors>
-            <arr>
-               <i>
-                  <name>Gualdani, Maria Pia 1976- [Tp3]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <primary>true</primary>
-                  <contributorTypeId>6e09d47d-95e2-4d8a-831b-f777b8ef6d81</contributorTypeId>
-                  <contributorTypeText>Verfasser</contributorTypeText>
-               </i>
-               <i>
-                  <name>Mischler, Stéphane 1970- [Tp1]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <contributorTypeId>6e09d47d-95e2-4d8a-831b-f777b8ef6d81</contributorTypeId>
-                  <contributorTypeText>Verfasser</contributorTypeText>
-               </i>
-               <i>
-                  <name>Mouhot, Clément 1978- [Tp3]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <contributorTypeId>6e09d47d-95e2-4d8a-831b-f777b8ef6d81</contributorTypeId>
-                  <contributorTypeText>Verfasser</contributorTypeText>
-               </i>
-            </arr>
+            <arr/>
          </contributors>
          <publication>
             <arr>
@@ -11622,6 +11906,20 @@
       </holdingsRecords>
    </record>
    <record>
+      <processing>
+         <item>
+            <status>
+               <policy>overwrite</policy>
+               <ifStatusWas>
+                  <arr>
+                     <i>
+                        <name>On order</name>
+                     </i>
+                  </arr>
+               </ifStatusWas>
+            </status>
+         </item>
+      </processing>
       
       <instance>
          <source>hebis</source>
@@ -11655,7 +11953,7 @@
                </i>
                <i>
                   <value>ZDB: 3036377-9</value>
-                  <identifierTypeId>7ef1b405-cb90-4d4e-b5e3-2b25f5d8a79b</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -11673,7 +11971,7 @@
          </publication>
          <publicationFrequency>
             <arr>
-               <i/>
+               <i>monatlich</i>
             </arr>
          </publicationFrequency>
          <publicationRange>
@@ -11692,11 +11990,6 @@
                </i>
             </arr>
          </notes>
-         <natureOfContentTermIds>
-            <arr>
-               <i/>
-            </arr>
-         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>fre</i>
@@ -11711,7 +12004,7 @@
                      <hrid>04766035X</hrid>
                   </instanceIdentifier>
                   <provisionalInstance>
-                     <title>--Abvc--. Livres hebdo</title>
+                     <title/>
                      <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
@@ -11766,6 +12059,20 @@
       </holdingsRecords>
    </record>
    <record>
+      <processing>
+         <item>
+            <status>
+               <policy>overwrite</policy>
+               <ifStatusWas>
+                  <arr>
+                     <i>
+                        <name>On order</name>
+                     </i>
+                  </arr>
+               </ifStatusWas>
+            </status>
+         </item>
+      </processing>
       
       <instance>
          <source>hebis</source>
@@ -11790,16 +12097,16 @@
                   <identifierTypeId>439bfbae-75bc-4f74-9fc7-b2a2d47ce3ef</identifierTypeId>
                </i>
                <i>
-                  <value>978-3-8487-5916-3 broschiert : circa EUR 26.00</value>
+                  <value>9783848759163 broschiert : circa EUR 26.00</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
                </i>
                <i>
                   <value>9783848759163</value>
-                  <identifierTypeId>ad80de2d-c060-48a0-b85f-9b1b14e22ed0</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
                <i>
-                  <value>978-3-7489-0042-9 ePDF</value>
-                  <identifierTypeId>47e6ce08-5ecb-4403-99ca-3c5a84412b48</identifierTypeId>
+                  <value>9783748900429 ePDF</value>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
                <i>
                   <value>1202678815</value>
@@ -11810,33 +12117,19 @@
                   <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
                <i>
-                  <value>20,A43</value>
+                  <value>20,A43,0111</value>
                   <identifierTypeId>91dd4d66-bb6b-45f9-9678-646b6322b31b</identifierTypeId>
                </i>
                <i>
                   <value>DNB: 1202678815</value>
-                  <identifierTypeId>7ef1b405-cb90-4d4e-b5e3-2b25f5d8a79b</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
             </arr>
          </identifiers>
          <indexTitle>Wirtschaftsstrafrecht Prof. Dr. Dr. Hauke Brettel (Johannes Gutenberg-Universität Mainz), Prof. Dr. Hendrik Schneider (Universität Leipzig)</indexTitle>
          <title>Wirtschaftsstrafrecht / Prof. Dr. Dr. Hauke Brettel (Johannes Gutenberg-Universität Mainz), Prof. Dr. Hendrik Schneider (Universität Leipzig)</title>
          <contributors>
-            <arr>
-               <i>
-                  <name>Brettel, Hauke 1970- [Tp3]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <primary>true</primary>
-                  <contributorTypeId>6e09d47d-95e2-4d8a-831b-f777b8ef6d81</contributorTypeId>
-                  <contributorTypeText>Verfasser</contributorTypeText>
-               </i>
-               <i>
-                  <name>Schneider, Hendrik 1966- [Tp1]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <contributorTypeId>6e09d47d-95e2-4d8a-831b-f777b8ef6d81</contributorTypeId>
-                  <contributorTypeText>Verfasser</contributorTypeText>
-               </i>
-            </arr>
+            <arr/>
          </contributors>
          <publication>
             <arr>
@@ -11859,16 +12152,16 @@
                </i>
             </arr>
          </notes>
-         <natureOfContentTermIds>
-            <arr>
-               <i/>
-            </arr>
-         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
             </arr>
          </languages>
+         <series>
+            <arr>
+               <i>Nomos Lehrbuch</i>
+            </arr>
+         </series>
          <physicalDescriptions>
             <arr>
                <i>366 Seiten : Diagramme</i>
@@ -12082,6 +12375,20 @@
       </holdingsRecords>
    </record>
    <record>
+      <processing>
+         <item>
+            <status>
+               <policy>overwrite</policy>
+               <ifStatusWas>
+                  <arr>
+                     <i>
+                        <name>On order</name>
+                     </i>
+                  </arr>
+               </ifStatusWas>
+            </status>
+         </item>
+      </processing>
       
       <instance>
          <source>hebis</source>
@@ -12103,29 +12410,19 @@
                   <identifierTypeId>439bfbae-75bc-4f74-9fc7-b2a2d47ce3ef</identifierTypeId>
                </i>
                <i>
-                  <value>3-87476-138-X</value>
+                  <value>387476138X</value>
                   <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
                </i>
                <i>
                   <value>HEB: 049233904</value>
-                  <identifierTypeId>7ef1b405-cb90-4d4e-b5e3-2b25f5d8a79b</identifierTypeId>
+                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
                </i>
             </arr>
          </identifiers>
          <indexTitle>Christus allein - allein das Christentum? Vorträge der vierten theologischen Konferenz zwischen Vertretern der Evangelischen Kirche in Deutschland und der Kirche von England hrsg. von Klaus Kremkau</indexTitle>
          <title>Christus allein - allein das Christentum? : Vorträge der vierten theologischen Konferenz zwischen Vertretern der Evangelischen Kirche in Deutschland und der Kirche von England / hrsg. von Klaus Kremkau</title>
          <contributors>
-            <arr>
-               <i>
-                  <name>Kremkau, Klaus [Tnd]</name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-                  <contributorTypeText>Hrsg.</contributorTypeText>
-               </i>
-               <i>
-                  <name>Theologische Konferenz Evangelische Kirche in Deutschland 4 1978 Rehburg-Loccum [Tf1]</name>
-                  <contributorNameTypeId>2e48e713-17f3-4c13-a9f8-23845bb210aa</contributorNameTypeId>
-               </i>
-            </arr>
+            <arr/>
          </contributors>
          <publication>
             <arr>
@@ -12140,6 +12437,11 @@
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <natureOfContentTermIds>
+            <arr>
+               <i>ebbbdef1-00e1-428b-bc11-314dc0705074</i>
+            </arr>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -12156,23 +12458,7 @@
             </arr>
          </physicalDescriptions>
       </instance>
-      <instanceRelations>
-         <parentInstances>
-            <arr>
-               <i>
-                  <instanceIdentifier>
-                     <hrid>006414168</hrid>
-                  </instanceIdentifier>
-                  <provisionalInstance>
-                     <title>Ökumenische Rundschau. Beihefte zur Ökumenischen Rundschau</title>
-                     <instanceTypeId>a2c91e87-6bab-44d6-8adb-1fd02481fc4f</instanceTypeId>
-                     <source>hebis</source>
-                  </provisionalInstance>
-                  <instanceRelationshipTypeId>30773a27-b485-4dab-aeb6-b8c04fa3cb17</instanceRelationshipTypeId>
-               </i>
-            </arr>
-         </parentInstances>
-      </instanceRelations>
+      <instanceRelations/>
       <holdingsRecords>
          <arr>
             <i>

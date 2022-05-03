@@ -506,6 +506,11 @@
       </xsl:choose>
     </sourceId>
   </xsl:template>
+  
+  <!-- Re-map instance source -->
+  <xsl:template match="source">
+    <source>hebis</source>
+  </xsl:template>
 
   <xsl:template match="original"/>
 </xsl:stylesheet>
