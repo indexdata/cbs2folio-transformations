@@ -41,19 +41,16 @@
       <permanentLocationId>
         <xsl:call-template name="lcode"/>
       </permanentLocationId>
-      <xsl:variable name="cn" select="normalize-space(datafield[@tag='209A']/subfield[@code='a'])"/>
       <!-- There is no 109R in hebis, see $electronicholding -->
       <xsl:variable name="electronicholding" select="(substring(../datafield[@tag='002@']/subfield[@code='0'],1,1) = 'O') and not(substring(datafield[@tag='208@']/subfield[@code='b'],1,1) = 'a')"/>
       <xsl:if test="not($electronicholding) and (substring(datafield[@tag='208@']/subfield[@code='b'],1,1) != 'd')">
          <callNumber>
-           <xsl:value-of select="$cn"/>
+           <xsl:value-of select="datafield[@tag='209A']/subfield[@code='a']"/>
          </callNumber>
       </xsl:if>
 	    <holdingsTypeId>
-	    <xsl:variable name="holType" select="../datafield[@tag='002@']/subfield[@code='0']"/>
-		  <xsl:variable name="holType1" select="substring($holType, 1, 1)"/>
 		  <xsl:choose>
-		     <xsl:when test="$holType1 = 'O'">electronic</xsl:when>
+		    <xsl:when test="substring(../datafield[@tag='002@']/subfield[@code='0'], 1, 1) = 'O'">electronic</xsl:when>
 		     <xsl:otherwise>physical</xsl:otherwise>
 		  </xsl:choose>
 	    </holdingsTypeId>
@@ -82,14 +79,12 @@
                   <xsl:with-param name="hhrid" select="concat($hhrid, '-', substring-before(.,' '))"/>
                   <xsl:with-param name="bcode" select="substring-before(.,' ')"/>
                   <xsl:with-param name="copy" select="substring-before(substring-after(.,'('),')')"/>
-                  <xsl:with-param name="cn" select="$cn"/>
                   </xsl:apply-templates>
                 </xsl:for-each>
               </xsl:when>
               <xsl:otherwise>
                 <xsl:apply-templates select="." mode="make-item">
                   <xsl:with-param name="hhrid" select="$hhrid"/>
-                  <xsl:with-param name="cn" select="$cn"/>
                 </xsl:apply-templates>
                 </xsl:otherwise>
              </xsl:choose>          
@@ -133,7 +128,6 @@
     <xsl:param name="bcode" select="substring-before(concat(datafield[(@tag='209G') and (subfield[@code='x']='00')]/subfield[@code='a'],' '),' ')"/>
     <xsl:param name="copy" select="''"/> <!-- oder kann hier eine copy-Information kommen? -->
     <xsl:param name="cn"/>
-    <xsl:message>Debug: <xsl:value-of select="concat($hhrid,'#',$bcode,'#',$copy)"/></xsl:message>
     <i>
       <hrid>
         <xsl:value-of select="$hhrid"/>
@@ -177,7 +171,7 @@
       </status>
       <!-- ILN Ende -->   
       <itemLevelCallNumber>
-        <xsl:value-of select="$cn"/>
+        <xsl:value-of select="datafield[@tag='209A']/subfield[@code='a']"/>
       </itemLevelCallNumber>
       <barcode>
         <xsl:value-of select="$bcode"/>
@@ -234,10 +228,7 @@
                   </note>
                   <itemNoteTypeId>Note</itemNoteTypeId>
                   <staffOnly>
-                    <xsl:choose>
-                      <xsl:when test="./@tag='237A'">false</xsl:when>
-                      <xsl:otherwise>true</xsl:otherwise>
-                    </xsl:choose>
+                    <xsl:value-of select="./@tag!='237A'"/>
                   </staffOnly>
                 </i>
               </xsl:if>
