@@ -106,21 +106,7 @@
                 </uri>
               </i>
             </xsl:for-each>
-            <xsl:for-each select="datafield[@tag='204P']">
-              <i>
-                <uri>
-                  <xsl:value-of select="./subfield[@code='0']"/>
-                </uri>
-              </i>
-            </xsl:for-each>
-            <xsl:for-each select="datafield[@tag='204U']">
-              <i>
-                <uri>
-                  <xsl:value-of select="./subfield[@code='0']"/>
-                </uri>
-              </i>
-            </xsl:for-each>
-            <xsl:for-each select="datafield[@tag='204R']">
+            <xsl:for-each select="datafield[@tag='204P'] | datafield[@tag='204U'] | datafield[@tag='204R']">
               <i>
                 <uri>
                   <xsl:value-of select="./subfield[@code='0']"/>
@@ -132,7 +118,7 @@
       </xsl:if>
       <statisticalCodeIds>
         <arr>
-          <xsl:for-each select="datafield[(@tag='209B') and ((subfield[@code='a']='00015') or (subfield[@code='a']='00016') or (subfield[@code='a']='BASIS'))]">
+          <xsl:for-each select="datafield[@tag='209B']">
             <i>
               <xsl:value-of select="./subfield[@code='a']"/>
             </i>

@@ -523,7 +523,9 @@
                   </arr>
                </items>
                <statisticalCodeIds>
-                  <arr/>
+                  <arr>
+                     <i>1001</i>
+                  </arr>
                </statisticalCodeIds>
             </i>
          </arr>
@@ -1230,7 +1232,10 @@
                   </arr>
                </electronicAccess>
                <statisticalCodeIds>
-                  <arr/>
+                  <arr>
+                     <i>502</i>
+                     <i>562</i>
+                  </arr>
                </statisticalCodeIds>
             </i>
          </arr>

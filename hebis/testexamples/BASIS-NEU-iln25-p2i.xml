@@ -2002,6 +2002,7 @@
                </electronicAccess>
                <statisticalCodeIds>
                   <arr>
+                     <i>utbStudi gesamt</i>
                      <i>BASIS</i>
                   </arr>
                </statisticalCodeIds>
@@ -2865,6 +2866,7 @@
                </items>
                <statisticalCodeIds>
                   <arr>
+                     <i>!01901!</i>
                      <i>BASIS</i>
                   </arr>
                </statisticalCodeIds>
@@ -6649,6 +6651,7 @@
                </electronicAccess>
                <statisticalCodeIds>
                   <arr>
+                     <i>dG ebs</i>
                      <i>BASIS</i>
                   </arr>
                </statisticalCodeIds>
@@ -9361,6 +9364,7 @@
                </electronicAccess>
                <statisticalCodeIds>
                   <arr>
+                     <i>dG ebs</i>
                      <i>BASIS</i>
                   </arr>
                </statisticalCodeIds>
@@ -12161,6 +12165,7 @@
                </items>
                <statisticalCodeIds>
                   <arr>
+                     <i>01810</i>
                      <i>BASIS</i>
                   </arr>
                </statisticalCodeIds>
@@ -13207,6 +13212,7 @@
                </items>
                <statisticalCodeIds>
                   <arr>
+                     <i>00509</i>
                      <i>BASIS</i>
                   </arr>
                </statisticalCodeIds>
@@ -15437,6 +15443,7 @@
                </items>
                <statisticalCodeIds>
                   <arr>
+                     <i>00020</i>
                      <i>BASIS</i>
                   </arr>
                </statisticalCodeIds>
@@ -15523,6 +15530,7 @@
                </items>
                <statisticalCodeIds>
                   <arr>
+                     <i>00020</i>
                      <i>BASIS</i>
                   </arr>
                </statisticalCodeIds>
@@ -16366,6 +16374,7 @@
                </items>
                <statisticalCodeIds>
                   <arr>
+                     <i>!01901!</i>
                      <i>BASIS</i>
                   </arr>
                </statisticalCodeIds>
@@ -17933,6 +17942,7 @@
                </items>
                <statisticalCodeIds>
                   <arr>
+                     <i>00501</i>
                      <i>BASIS</i>
                   </arr>
                </statisticalCodeIds>
@@ -18210,6 +18220,7 @@
                </items>
                <statisticalCodeIds>
                   <arr>
+                     <i>00507</i>
                      <i>BASIS</i>
                   </arr>
                </statisticalCodeIds>
@@ -18487,6 +18498,7 @@
                </items>
                <statisticalCodeIds>
                   <arr>
+                     <i>00507</i>
                      <i>BASIS</i>
                   </arr>
                </statisticalCodeIds>
@@ -18674,6 +18686,7 @@
                </items>
                <statisticalCodeIds>
                   <arr>
+                     <i>00507</i>
                      <i>BASIS</i>
                   </arr>
                </statisticalCodeIds>
@@ -19108,6 +19121,7 @@
                </items>
                <statisticalCodeIds>
                   <arr>
+                     <i>01650</i>
                      <i>BASIS</i>
                   </arr>
                </statisticalCodeIds>
@@ -19151,6 +19165,7 @@
                </items>
                <statisticalCodeIds>
                   <arr>
+                     <i>01650</i>
                      <i>BASIS</i>
                   </arr>
                </statisticalCodeIds>
@@ -20891,6 +20906,7 @@
                </items>
                <statisticalCodeIds>
                   <arr>
+                     <i>01750</i>
                      <i>BASIS</i>
                   </arr>
                </statisticalCodeIds>
@@ -21968,6 +21984,7 @@
                </items>
                <statisticalCodeIds>
                   <arr>
+                     <i>!01901!</i>
                      <i>BASIS</i>
                   </arr>
                </statisticalCodeIds>
@@ -23568,6 +23585,7 @@
                </items>
                <statisticalCodeIds>
                   <arr>
+                     <i>01810</i>
                      <i>BASIS</i>
                   </arr>
                </statisticalCodeIds>
@@ -23616,6 +23634,7 @@
                </items>
                <statisticalCodeIds>
                   <arr>
+                     <i>02066</i>
                      <i>BASIS</i>
                   </arr>
                </statisticalCodeIds>
@@ -25229,6 +25248,7 @@
                </items>
                <statisticalCodeIds>
                   <arr>
+                     <i>01810</i>
                      <i>BASIS</i>
                   </arr>
                </statisticalCodeIds>
