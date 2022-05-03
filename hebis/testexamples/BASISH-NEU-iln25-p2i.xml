@@ -1,20 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <collection>
    <record>
-      <processing>
-         <item>
-            <status>
-               <policy>overwrite</policy>
-               <ifStatusWas>
-                  <arr>
-                     <i>
-                        <name>On order</name>
-                     </i>
-                  </arr>
-               </ifStatusWas>
-            </status>
-         </item>
-      </processing>
       <original>
          <datafield tag="001D" fulltag="001D">
             <subfield code="0">6050:19-07-18</subfield>
@@ -259,20 +245,6 @@
       </holdingsRecords>
    </record>
    <record>
-      <processing>
-         <item>
-            <status>
-               <policy>overwrite</policy>
-               <ifStatusWas>
-                  <arr>
-                     <i>
-                        <name>On order</name>
-                     </i>
-                  </arr>
-               </ifStatusWas>
-            </status>
-         </item>
-      </processing>
       <original>
          <datafield tag="001D" fulltag="001D">
             <subfield code="0">2077:19-08-10</subfield>
@@ -513,20 +485,6 @@
       </holdingsRecords>
    </record>
    <record>
-      <processing>
-         <item>
-            <status>
-               <policy>overwrite</policy>
-               <ifStatusWas>
-                  <arr>
-                     <i>
-                        <name>On order</name>
-                     </i>
-                  </arr>
-               </ifStatusWas>
-            </status>
-         </item>
-      </processing>
       <original>
          <datafield tag="001D" fulltag="001D">
             <subfield code="0">0077:18-03-20</subfield>
@@ -841,20 +799,6 @@
       </holdingsRecords>
    </record>
    <record>
-      <processing>
-         <item>
-            <status>
-               <policy>overwrite</policy>
-               <ifStatusWas>
-                  <arr>
-                     <i>
-                        <name>On order</name>
-                     </i>
-                  </arr>
-               </ifStatusWas>
-            </status>
-         </item>
-      </processing>
       <original>
          <datafield tag="001D" fulltag="001D">
             <subfield code="0">2077:08-04-02</subfield>
@@ -1090,20 +1034,6 @@
       </holdingsRecords>
    </record>
    <record>
-      <processing>
-         <item>
-            <status>
-               <policy>overwrite</policy>
-               <ifStatusWas>
-                  <arr>
-                     <i>
-                        <name>On order</name>
-                     </i>
-                  </arr>
-               </ifStatusWas>
-            </status>
-         </item>
-      </processing>
       <original>
          <datafield tag="001D" fulltag="001D">
             <subfield code="0">6000:16-06-11</subfield>
@@ -1303,20 +1233,6 @@
       </holdingsRecords>
    </record>
    <record>
-      <processing>
-         <item>
-            <status>
-               <policy>overwrite</policy>
-               <ifStatusWas>
-                  <arr>
-                     <i>
-                        <name>On order</name>
-                     </i>
-                  </arr>
-               </ifStatusWas>
-            </status>
-         </item>
-      </processing>
       <original>
          <datafield tag="001D" fulltag="001D">
             <subfield code="0">6050:07-10-20</subfield>
@@ -1592,20 +1508,6 @@
       </holdingsRecords>
    </record>
    <record>
-      <processing>
-         <item>
-            <status>
-               <policy>overwrite</policy>
-               <ifStatusWas>
-                  <arr>
-                     <i>
-                        <name>On order</name>
-                     </i>
-                  </arr>
-               </ifStatusWas>
-            </status>
-         </item>
-      </processing>
       <original>
          <datafield tag="001D" fulltag="001D">
             <subfield code="0">0077:04-03-21</subfield>
@@ -1845,20 +1747,6 @@
       </holdingsRecords>
    </record>
    <record>
-      <processing>
-         <item>
-            <status>
-               <policy>overwrite</policy>
-               <ifStatusWas>
-                  <arr>
-                     <i>
-                        <name>On order</name>
-                     </i>
-                  </arr>
-               </ifStatusWas>
-            </status>
-         </item>
-      </processing>
       <original>
          <datafield tag="001D" fulltag="001D">
             <subfield code="0">0077:11-10-02</subfield>
@@ -2831,20 +2719,6 @@
       </holdingsRecords>
    </record>
    <record>
-      <processing>
-         <item>
-            <status>
-               <policy>overwrite</policy>
-               <ifStatusWas>
-                  <arr>
-                     <i>
-                        <name>On order</name>
-                     </i>
-                  </arr>
-               </ifStatusWas>
-            </status>
-         </item>
-      </processing>
       <original>
          <datafield tag="001D" fulltag="001D">
             <subfield code="0">0004:22-12-03</subfield>
@@ -3802,20 +3676,6 @@
       </holdingsRecords>
    </record>
    <record>
-      <processing>
-         <item>
-            <status>
-               <policy>overwrite</policy>
-               <ifStatusWas>
-                  <arr>
-                     <i>
-                        <name>On order</name>
-                     </i>
-                  </arr>
-               </ifStatusWas>
-            </status>
-         </item>
-      </processing>
       <original>
          <datafield tag="001D" fulltag="001D">
             <subfield code="0">6050:10-09-20</subfield>
@@ -4053,20 +3913,6 @@
       </holdingsRecords>
    </record>
    <record>
-      <processing>
-         <item>
-            <status>
-               <policy>overwrite</policy>
-               <ifStatusWas>
-                  <arr>
-                     <i>
-                        <name>On order</name>
-                     </i>
-                  </arr>
-               </ifStatusWas>
-            </status>
-         </item>
-      </processing>
       <original>
          <datafield tag="001D" fulltag="001D">
             <subfield code="0">9999:99-99-99</subfield>
@@ -4477,20 +4323,6 @@
       </holdingsRecords>
    </record>
    <record>
-      <processing>
-         <item>
-            <status>
-               <policy>overwrite</policy>
-               <ifStatusWas>
-                  <arr>
-                     <i>
-                        <name>On order</name>
-                     </i>
-                  </arr>
-               </ifStatusWas>
-            </status>
-         </item>
-      </processing>
       <original>
          <datafield tag="001D" fulltag="001D">
             <subfield code="0">0004:21-04-05</subfield>
@@ -5448,20 +5280,6 @@
       </holdingsRecords>
    </record>
    <record>
-      <processing>
-         <item>
-            <status>
-               <policy>overwrite</policy>
-               <ifStatusWas>
-                  <arr>
-                     <i>
-                        <name>On order</name>
-                     </i>
-                  </arr>
-               </ifStatusWas>
-            </status>
-         </item>
-      </processing>
       <original>
          <datafield tag="001D" fulltag="001D">
             <subfield code="0">6055:09-02-21</subfield>
@@ -6010,20 +5828,6 @@
       </holdingsRecords>
    </record>
    <record>
-      <processing>
-         <item>
-            <status>
-               <policy>overwrite</policy>
-               <ifStatusWas>
-                  <arr>
-                     <i>
-                        <name>On order</name>
-                     </i>
-                  </arr>
-               </ifStatusWas>
-            </status>
-         </item>
-      </processing>
       <original>
          <datafield tag="001D" fulltag="001D">
             <subfield code="0">3030:13-08-19</subfield>
@@ -6304,20 +6108,6 @@
       </holdingsRecords>
    </record>
    <record>
-      <processing>
-         <item>
-            <status>
-               <policy>overwrite</policy>
-               <ifStatusWas>
-                  <arr>
-                     <i>
-                        <name>On order</name>
-                     </i>
-                  </arr>
-               </ifStatusWas>
-            </status>
-         </item>
-      </processing>
       <original>
          <datafield tag="001D" fulltag="001D">
             <subfield code="0">6055:02-03-21</subfield>
@@ -6573,20 +6363,6 @@
       </holdingsRecords>
    </record>
    <record>
-      <processing>
-         <item>
-            <status>
-               <policy>overwrite</policy>
-               <ifStatusWas>
-                  <arr>
-                     <i>
-                        <name>On order</name>
-                     </i>
-                  </arr>
-               </ifStatusWas>
-            </status>
-         </item>
-      </processing>
       <original>
          <datafield tag="001D" fulltag="001D">
             <subfield code="0">6050:24-02-21</subfield>
@@ -6798,20 +6574,6 @@
       </holdingsRecords>
    </record>
    <record>
-      <processing>
-         <item>
-            <status>
-               <policy>overwrite</policy>
-               <ifStatusWas>
-                  <arr>
-                     <i>
-                        <name>On order</name>
-                     </i>
-                  </arr>
-               </ifStatusWas>
-            </status>
-         </item>
-      </processing>
       <original>
          <datafield tag="001D" fulltag="001D">
             <subfield code="0">0077:18-01-21</subfield>
@@ -7067,20 +6829,6 @@
       </holdingsRecords>
    </record>
    <record>
-      <processing>
-         <item>
-            <status>
-               <policy>overwrite</policy>
-               <ifStatusWas>
-                  <arr>
-                     <i>
-                        <name>On order</name>
-                     </i>
-                  </arr>
-               </ifStatusWas>
-            </status>
-         </item>
-      </processing>
       <original>
          <datafield tag="001D" fulltag="001D">
             <subfield code="0">0077:18-11-19</subfield>
@@ -7346,20 +7094,6 @@
       </holdingsRecords>
    </record>
    <record>
-      <processing>
-         <item>
-            <status>
-               <policy>overwrite</policy>
-               <ifStatusWas>
-                  <arr>
-                     <i>
-                        <name>On order</name>
-                     </i>
-                  </arr>
-               </ifStatusWas>
-            </status>
-         </item>
-      </processing>
       <original>
          <datafield tag="001D" fulltag="001D">
             <subfield code="0">0077:07-10-19</subfield>
@@ -7630,20 +7364,6 @@
       </holdingsRecords>
    </record>
    <record>
-      <processing>
-         <item>
-            <status>
-               <policy>overwrite</policy>
-               <ifStatusWas>
-                  <arr>
-                     <i>
-                        <name>On order</name>
-                     </i>
-                  </arr>
-               </ifStatusWas>
-            </status>
-         </item>
-      </processing>
       <original>
          <datafield tag="001D" fulltag="001D">
             <subfield code="0">2077:18-01-18</subfield>
@@ -7926,20 +7646,6 @@
       </holdingsRecords>
    </record>
    <record>
-      <processing>
-         <item>
-            <status>
-               <policy>overwrite</policy>
-               <ifStatusWas>
-                  <arr>
-                     <i>
-                        <name>On order</name>
-                     </i>
-                  </arr>
-               </ifStatusWas>
-            </status>
-         </item>
-      </processing>
       <original>
          <datafield tag="001D" fulltag="001D">
             <subfield code="0">6055:09-02-21</subfield>
@@ -8406,20 +8112,6 @@
       </holdingsRecords>
    </record>
    <record>
-      <processing>
-         <item>
-            <status>
-               <policy>overwrite</policy>
-               <ifStatusWas>
-                  <arr>
-                     <i>
-                        <name>On order</name>
-                     </i>
-                  </arr>
-               </ifStatusWas>
-            </status>
-         </item>
-      </processing>
       <original>
          <datafield tag="001D" fulltag="001D">
             <subfield code="0">0077:08-05-09</subfield>
@@ -8610,20 +8302,6 @@
       </holdingsRecords>
    </record>
    <record>
-      <processing>
-         <item>
-            <status>
-               <policy>overwrite</policy>
-               <ifStatusWas>
-                  <arr>
-                     <i>
-                        <name>On order</name>
-                     </i>
-                  </arr>
-               </ifStatusWas>
-            </status>
-         </item>
-      </processing>
       <original>
          <datafield tag="001D" fulltag="001D">
             <subfield code="0">0026:02-03-21</subfield>
@@ -9056,20 +8734,6 @@
       </holdingsRecords>
    </record>
    <record>
-      <processing>
-         <item>
-            <status>
-               <policy>overwrite</policy>
-               <ifStatusWas>
-                  <arr>
-                     <i>
-                        <name>On order</name>
-                     </i>
-                  </arr>
-               </ifStatusWas>
-            </status>
-         </item>
-      </processing>
       <original>
          <datafield tag="001D" fulltag="001D">
             <subfield code="0">6050:16-03-20</subfield>
@@ -9371,20 +9035,6 @@
       </holdingsRecords>
    </record>
    <record>
-      <processing>
-         <item>
-            <status>
-               <policy>overwrite</policy>
-               <ifStatusWas>
-                  <arr>
-                     <i>
-                        <name>On order</name>
-                     </i>
-                  </arr>
-               </ifStatusWas>
-            </status>
-         </item>
-      </processing>
       <original>
          <datafield tag="001D" fulltag="001D">
             <subfield code="0">6000:09-07-20</subfield>
@@ -9608,20 +9258,6 @@
       </holdingsRecords>
    </record>
    <record>
-      <processing>
-         <item>
-            <status>
-               <policy>overwrite</policy>
-               <ifStatusWas>
-                  <arr>
-                     <i>
-                        <name>On order</name>
-                     </i>
-                  </arr>
-               </ifStatusWas>
-            </status>
-         </item>
-      </processing>
       <original>
          <datafield tag="001D" fulltag="001D">
             <subfield code="0">0043:09-10-20</subfield>
@@ -10151,20 +9787,6 @@
       </holdingsRecords>
    </record>
    <record>
-      <processing>
-         <item>
-            <status>
-               <policy>overwrite</policy>
-               <ifStatusWas>
-                  <arr>
-                     <i>
-                        <name>On order</name>
-                     </i>
-                  </arr>
-               </ifStatusWas>
-            </status>
-         </item>
-      </processing>
       <original>
          <datafield tag="001D" fulltag="001D">
             <subfield code="0">9999:99-99-99</subfield>
@@ -10432,20 +10054,6 @@
       </holdingsRecords>
    </record>
    <record>
-      <processing>
-         <item>
-            <status>
-               <policy>overwrite</policy>
-               <ifStatusWas>
-                  <arr>
-                     <i>
-                        <name>On order</name>
-                     </i>
-                  </arr>
-               </ifStatusWas>
-            </status>
-         </item>
-      </processing>
       <original>
          <datafield tag="001D" fulltag="001D">
             <subfield code="0">0004:12-04-19</subfield>
@@ -10894,20 +10502,6 @@
       </holdingsRecords>
    </record>
    <record>
-      <processing>
-         <item>
-            <status>
-               <policy>overwrite</policy>
-               <ifStatusWas>
-                  <arr>
-                     <i>
-                        <name>On order</name>
-                     </i>
-                  </arr>
-               </ifStatusWas>
-            </status>
-         </item>
-      </processing>
       <original>
          <datafield tag="001D" fulltag="001D">
             <subfield code="0">0034:07-04-17</subfield>
@@ -11185,20 +10779,6 @@
       </holdingsRecords>
    </record>
    <record>
-      <processing>
-         <item>
-            <status>
-               <policy>overwrite</policy>
-               <ifStatusWas>
-                  <arr>
-                     <i>
-                        <name>On order</name>
-                     </i>
-                  </arr>
-               </ifStatusWas>
-            </status>
-         </item>
-      </processing>
       <original>
          <datafield tag="001D" fulltag="001D">
             <subfield code="0">3018:05-11-18</subfield>
@@ -11473,20 +11053,6 @@
       </holdingsRecords>
    </record>
    <record>
-      <processing>
-         <item>
-            <status>
-               <policy>overwrite</policy>
-               <ifStatusWas>
-                  <arr>
-                     <i>
-                        <name>On order</name>
-                     </i>
-                  </arr>
-               </ifStatusWas>
-            </status>
-         </item>
-      </processing>
       <original>
          <datafield tag="001D" fulltag="001D">
             <subfield code="0">0004:08-10-08</subfield>
@@ -11743,20 +11309,6 @@
       </holdingsRecords>
    </record>
    <record>
-      <processing>
-         <item>
-            <status>
-               <policy>overwrite</policy>
-               <ifStatusWas>
-                  <arr>
-                     <i>
-                        <name>On order</name>
-                     </i>
-                  </arr>
-               </ifStatusWas>
-            </status>
-         </item>
-      </processing>
       <original>
          <datafield tag="001D" fulltag="001D">
             <subfield code="0">6050:02-07-20</subfield>
@@ -12122,20 +11674,6 @@
       </holdingsRecords>
    </record>
    <record>
-      <processing>
-         <item>
-            <status>
-               <policy>overwrite</policy>
-               <ifStatusWas>
-                  <arr>
-                     <i>
-                        <name>On order</name>
-                     </i>
-                  </arr>
-               </ifStatusWas>
-            </status>
-         </item>
-      </processing>
       <original>
          <datafield tag="001D" fulltag="001D">
             <subfield code="0">0066:08-10-15</subfield>
@@ -13947,20 +13485,6 @@
       </holdingsRecords>
    </record>
    <record>
-      <processing>
-         <item>
-            <status>
-               <policy>overwrite</policy>
-               <ifStatusWas>
-                  <arr>
-                     <i>
-                        <name>On order</name>
-                     </i>
-                  </arr>
-               </ifStatusWas>
-            </status>
-         </item>
-      </processing>
       <original>
          <datafield tag="001D" fulltag="001D">
             <subfield code="0">0969:18-10-01</subfield>
@@ -14921,20 +14445,6 @@
       </holdingsRecords>
    </record>
    <record>
-      <processing>
-         <item>
-            <status>
-               <policy>overwrite</policy>
-               <ifStatusWas>
-                  <arr>
-                     <i>
-                        <name>On order</name>
-                     </i>
-                  </arr>
-               </ifStatusWas>
-            </status>
-         </item>
-      </processing>
       <original>
          <datafield tag="001D" fulltag="001D">
             <subfield code="0">0026:12-10-00</subfield>
@@ -15128,20 +14638,6 @@
       </holdingsRecords>
    </record>
    <record>
-      <processing>
-         <item>
-            <status>
-               <policy>overwrite</policy>
-               <ifStatusWas>
-                  <arr>
-                     <i>
-                        <name>On order</name>
-                     </i>
-                  </arr>
-               </ifStatusWas>
-            </status>
-         </item>
-      </processing>
       <original>
          <datafield tag="001D" fulltag="001D">
             <subfield code="0">0043:03-02-20</subfield>
@@ -15447,20 +14943,6 @@
       </holdingsRecords>
    </record>
    <record>
-      <processing>
-         <item>
-            <status>
-               <policy>overwrite</policy>
-               <ifStatusWas>
-                  <arr>
-                     <i>
-                        <name>On order</name>
-                     </i>
-                  </arr>
-               </ifStatusWas>
-            </status>
-         </item>
-      </processing>
       <original>
          <datafield tag="001D" fulltag="001D">
             <subfield code="0">0004:09-10-08</subfield>
@@ -16857,20 +16339,6 @@
       </holdingsRecords>
    </record>
    <record>
-      <processing>
-         <item>
-            <status>
-               <policy>overwrite</policy>
-               <ifStatusWas>
-                  <arr>
-                     <i>
-                        <name>On order</name>
-                     </i>
-                  </arr>
-               </ifStatusWas>
-            </status>
-         </item>
-      </processing>
       <original>
          <datafield tag="001D" fulltag="001D">
             <subfield code="0">0077:02-08-19</subfield>
@@ -17245,20 +16713,6 @@
       </holdingsRecords>
    </record>
    <record>
-      <processing>
-         <item>
-            <status>
-               <policy>overwrite</policy>
-               <ifStatusWas>
-                  <arr>
-                     <i>
-                        <name>On order</name>
-                     </i>
-                  </arr>
-               </ifStatusWas>
-            </status>
-         </item>
-      </processing>
       <original>
          <datafield tag="001D" fulltag="001D">
             <subfield code="0">0077:21-07-21</subfield>
@@ -17426,20 +16880,6 @@
       </holdingsRecords>
    </record>
    <record>
-      <processing>
-         <item>
-            <status>
-               <policy>overwrite</policy>
-               <ifStatusWas>
-                  <arr>
-                     <i>
-                        <name>On order</name>
-                     </i>
-                  </arr>
-               </ifStatusWas>
-            </status>
-         </item>
-      </processing>
       <original>
          <datafield tag="001D" fulltag="001D">
             <subfield code="0">9999:99-99-99</subfield>
@@ -17667,20 +17107,6 @@
       </holdingsRecords>
    </record>
    <record>
-      <processing>
-         <item>
-            <status>
-               <policy>overwrite</policy>
-               <ifStatusWas>
-                  <arr>
-                     <i>
-                        <name>On order</name>
-                     </i>
-                  </arr>
-               </ifStatusWas>
-            </status>
-         </item>
-      </processing>
       <original>
          <datafield tag="001D" fulltag="001D">
             <subfield code="0">0043:08-09-11</subfield>
@@ -18057,20 +17483,6 @@
       </holdingsRecords>
    </record>
    <record>
-      <processing>
-         <item>
-            <status>
-               <policy>overwrite</policy>
-               <ifStatusWas>
-                  <arr>
-                     <i>
-                        <name>On order</name>
-                     </i>
-                  </arr>
-               </ifStatusWas>
-            </status>
-         </item>
-      </processing>
       <original>
          <datafield tag="001D" fulltag="001D">
             <subfield code="0">0004:08-12-05</subfield>
@@ -19041,20 +18453,6 @@
       </holdingsRecords>
    </record>
    <record>
-      <processing>
-         <item>
-            <status>
-               <policy>overwrite</policy>
-               <ifStatusWas>
-                  <arr>
-                     <i>
-                        <name>On order</name>
-                     </i>
-                  </arr>
-               </ifStatusWas>
-            </status>
-         </item>
-      </processing>
       <original>
          <datafield tag="001D" fulltag="001D">
             <subfield code="0">0969:20-02-01</subfield>
@@ -20011,20 +19409,6 @@
       </holdingsRecords>
    </record>
    <record>
-      <processing>
-         <item>
-            <status>
-               <policy>overwrite</policy>
-               <ifStatusWas>
-                  <arr>
-                     <i>
-                        <name>On order</name>
-                     </i>
-                  </arr>
-               </ifStatusWas>
-            </status>
-         </item>
-      </processing>
       <original>
          <datafield tag="001D" fulltag="001D">
             <subfield code="0">0077:30-09-20</subfield>
@@ -20517,20 +19901,6 @@
       </holdingsRecords>
    </record>
    <record>
-      <processing>
-         <item>
-            <status>
-               <policy>overwrite</policy>
-               <ifStatusWas>
-                  <arr>
-                     <i>
-                        <name>On order</name>
-                     </i>
-                  </arr>
-               </ifStatusWas>
-            </status>
-         </item>
-      </processing>
       <original>
          <datafield tag="001D" fulltag="001D">
             <subfield code="0">0030:24-07-20</subfield>
@@ -20826,20 +20196,6 @@
       </holdingsRecords>
    </record>
    <record>
-      <processing>
-         <item>
-            <status>
-               <policy>overwrite</policy>
-               <ifStatusWas>
-                  <arr>
-                     <i>
-                        <name>On order</name>
-                     </i>
-                  </arr>
-               </ifStatusWas>
-            </status>
-         </item>
-      </processing>
       <original>
          <datafield tag="001D" fulltag="001D">
             <subfield code="0">0004:10-11-20</subfield>
@@ -21251,20 +20607,6 @@
       </holdingsRecords>
    </record>
    <record>
-      <processing>
-         <item>
-            <status>
-               <policy>overwrite</policy>
-               <ifStatusWas>
-                  <arr>
-                     <i>
-                        <name>On order</name>
-                     </i>
-                  </arr>
-               </ifStatusWas>
-            </status>
-         </item>
-      </processing>
       <original>
          <datafield tag="001D" fulltag="001D">
             <subfield code="0">0077:20-08-20</subfield>
@@ -21602,20 +20944,6 @@
       </holdingsRecords>
    </record>
    <record>
-      <processing>
-         <item>
-            <status>
-               <policy>overwrite</policy>
-               <ifStatusWas>
-                  <arr>
-                     <i>
-                        <name>On order</name>
-                     </i>
-                  </arr>
-               </ifStatusWas>
-            </status>
-         </item>
-      </processing>
       <original>
          <datafield tag="001D" fulltag="001D">
             <subfield code="0">0077:17-04-18</subfield>
@@ -21876,20 +21204,6 @@
       </holdingsRecords>
    </record>
    <record>
-      <processing>
-         <item>
-            <status>
-               <policy>overwrite</policy>
-               <ifStatusWas>
-                  <arr>
-                     <i>
-                        <name>On order</name>
-                     </i>
-                  </arr>
-               </ifStatusWas>
-            </status>
-         </item>
-      </processing>
       <original>
          <datafield tag="001D" fulltag="001D">
             <subfield code="0">6050:04-09-20</subfield>
@@ -22139,20 +21453,6 @@
       </holdingsRecords>
    </record>
    <record>
-      <processing>
-         <item>
-            <status>
-               <policy>overwrite</policy>
-               <ifStatusWas>
-                  <arr>
-                     <i>
-                        <name>On order</name>
-                     </i>
-                  </arr>
-               </ifStatusWas>
-            </status>
-         </item>
-      </processing>
       <original>
          <datafield tag="001D" fulltag="001D">
             <subfield code="0">0004:18-09-20</subfield>
@@ -22670,20 +21970,6 @@
       </holdingsRecords>
    </record>
    <record>
-      <processing>
-         <item>
-            <status>
-               <policy>overwrite</policy>
-               <ifStatusWas>
-                  <arr>
-                     <i>
-                        <name>On order</name>
-                     </i>
-                  </arr>
-               </ifStatusWas>
-            </status>
-         </item>
-      </processing>
       <original>
          <datafield tag="001D" fulltag="001D">
             <subfield code="0">9999:99-99-99</subfield>

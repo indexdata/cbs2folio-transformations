@@ -9,13 +9,13 @@
 
   <xsl:template match="collection">
     <collection>
-        <xsl:apply-templates/>
+        <xsl:apply-templates select="record"/>
     </collection>
   </xsl:template>
 
   <xsl:template match="record">
     <record>
-        <xsl:for-each select="@* | node()">
+      <xsl:for-each select="*[not(self::processing)]">
             <xsl:copy-of select="."/>
         </xsl:for-each>
         <xsl:apply-templates select="original"/>
