@@ -9,10 +9,7 @@
   </xsl:template>
   
   <!-- Map locations 
-       NOTE: For Mainz, the tests are the location names in FOLIO, generated in hodings-items-mainz.xsl from 209A $f and other pica fields
-	   NOTE: Das müssen wir für Mainz umbiegen, bei uns müssen es die location names in FOLIO sein, 
-	         die stehen in holdings-items, 209A $f reicht ja nicht 
-			 Auffang-Location ist Zentralbibliothek MAG-->
+       For Mainz, the IDs are the location names in FOLIO, generated from 209A $f and other pica fields -->
   
   <xsl:template match="permanentLocationId">
     <permanentLocationId>
@@ -82,10 +79,10 @@
         <xsl:when test=".='ZBFREI'">ea51b803-8bc4-4441-84e0-30a8e29c7a51</xsl:when>
         <xsl:when test=".='ZBLBS'">67ae08e9-89f9-4939-8def-5666cf7bfc3d</xsl:when>
         <xsl:when test=".='ZBLS'">c23399ef-6776-4442-a53a-dfca759c3b9f</xsl:when>
-        <xsl:when test=".='ZBMAG'">413fe054-a4f3-423e-a62f-088eb111ea8d</xsl:when>
+        <!-- <xsl:when test=".='ZBMAG'">413fe054-a4f3-423e-a62f-088eb111ea8d</xsl:when> see otherwise -->
         <xsl:when test=".='ZBRARA'">61fac3e8-8a32-4117-9005-38d2a4847f00</xsl:when>
         <xsl:when test=".='ZBTURK'">129a4323-01a0-4bad-bac5-2e0487d8e67c</xsl:when>		
-        <xsl:otherwise>413fe054-a4f3-423e-a62f-088eb111ea8d</xsl:otherwise>
+        <xsl:otherwise>413fe054-a4f3-423e-a62f-088eb111ea8d</xsl:otherwise> <!-- ZBMAG -->
       </xsl:choose>
     </permanentLocationId>
   </xsl:template>
