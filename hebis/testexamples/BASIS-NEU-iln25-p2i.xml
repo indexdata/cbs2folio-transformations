@@ -282,7 +282,9 @@
                <hrid>1027892205</hrid>
                <permanentLocationId>ONLINE</permanentLocationId>
                <holdingsTypeId>electronic</holdingsTypeId>
-               <holdingsStatements/>
+               <holdingsStatements>
+                  <arr/>
+               </holdingsStatements>
                <sourceId>hebis</sourceId>
                <electronicAccess>
                   <arr>
@@ -573,8 +575,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -931,8 +931,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -1195,8 +1193,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -1439,8 +1435,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -1763,7 +1757,9 @@
                <hrid>1134457782</hrid>
                <permanentLocationId>ONLINE</permanentLocationId>
                <holdingsTypeId>electronic</holdingsTypeId>
-               <holdingsStatements/>
+               <holdingsStatements>
+                  <arr/>
+               </holdingsStatements>
                <sourceId>hebis</sourceId>
                <electronicAccess>
                   <arr>
@@ -2811,8 +2807,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>02/4910</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -2845,8 +2839,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -2879,8 +2871,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>371 GK</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -2913,8 +2903,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>02/759</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -2948,8 +2936,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>2002/857</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -2982,8 +2968,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>09/1328 Germanistik</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -3016,8 +3000,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>02/375</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -3050,8 +3032,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>58026</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -3084,8 +3064,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>ZP02 10/134-1</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -3118,8 +3096,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>05/300-4</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -3867,8 +3843,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>04/69</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -3901,8 +3875,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -3935,8 +3907,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>372 GK</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -3969,8 +3939,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>04/18</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -4003,8 +3971,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>2004/13</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -4037,8 +4003,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>09/1328 Germanistik</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -4071,8 +4035,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>04/9</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -4105,8 +4067,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>58026</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -4139,8 +4099,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>ZP02 10/134-1</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -4173,8 +4131,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>05/300-5</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -4478,8 +4434,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology>2020</chronology>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -4844,8 +4798,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -4892,8 +4844,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -4935,8 +4885,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -5693,8 +5641,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>05/1431</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -5727,8 +5673,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>2005/169</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -5761,8 +5705,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>395 GK</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -5795,8 +5737,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>05/300</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -5829,8 +5769,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>2005/284</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -5863,8 +5801,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>09/1328 Germanistik</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -5897,8 +5833,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>05/88</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -5931,8 +5865,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>58196</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -5965,8 +5897,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>ZP02 10/134-1</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -5999,8 +5929,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>05/300-6</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -7018,8 +6946,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -7061,8 +6987,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -7941,8 +7865,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -8274,8 +8196,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -8625,8 +8545,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -8969,8 +8887,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -9706,15 +9622,8 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
-                              <i>
-                                 <note>270-0265</note>
-                                 <itemNoteTypeId>Note</itemNoteTypeId>
-                                 <staffOnly>true</staffOnly>
-                              </i>
                               <i>
                                  <note>OUF-Test 21-08-03; 12:17</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
@@ -10140,8 +10049,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -10183,8 +10090,6 @@
                         <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -10200,8 +10105,6 @@
                         <copyNumber>2</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -10217,8 +10120,6 @@
                         <copyNumber>3</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -10601,8 +10502,6 @@
                         <copyNumber/>
                         <volume>30</volume>
                         <chronology>2020</chronology>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>ACQ</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -11338,8 +11237,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -11381,8 +11278,6 @@
                         <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -11407,8 +11302,6 @@
                         <copyNumber>2</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -11433,8 +11326,6 @@
                         <copyNumber>3</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -11459,8 +11350,6 @@
                         <copyNumber>4</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -11485,8 +11374,6 @@
                         <copyNumber>5</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -11797,15 +11684,8 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
-                              <i>
-                                 <note>/Test14/</note>
-                                 <itemNoteTypeId>Note</itemNoteTypeId>
-                                 <staffOnly>true</staffOnly>
-                              </i>
                               <i>
                                  <note>OUF-Test 21-08-03; 12:07</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
@@ -12243,8 +12123,6 @@
                         <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -12269,8 +12147,6 @@
                         <copyNumber>2</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -12295,8 +12171,6 @@
                         <copyNumber>3</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -12338,8 +12212,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -12678,8 +12550,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -13072,8 +12942,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -13411,8 +13279,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -13810,8 +13676,6 @@
                         <copyNumber/>
                         <volume>487</volume>
                         <chronology>2020</chronology>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -13850,8 +13714,6 @@
                         <copyNumber/>
                         <volume>487</volume>
                         <chronology>2020</chronology>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -14512,8 +14374,6 @@
                         <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -14538,8 +14398,6 @@
                         <copyNumber>2</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -14564,8 +14422,6 @@
                         <copyNumber>3</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -14590,8 +14446,6 @@
                         <copyNumber>4</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -14616,8 +14470,6 @@
                         <copyNumber>5</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -14642,8 +14494,6 @@
                         <copyNumber>6</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -14668,8 +14518,6 @@
                         <copyNumber>7</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -14694,8 +14542,6 @@
                         <copyNumber>8</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -14720,8 +14566,6 @@
                         <copyNumber>9</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -14746,8 +14590,6 @@
                         <copyNumber>10</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -14772,8 +14614,6 @@
                         <copyNumber>11</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -14798,8 +14638,6 @@
                         <copyNumber>12</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -14824,8 +14662,6 @@
                         <copyNumber>13</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -14850,8 +14686,6 @@
                         <copyNumber>14</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -14876,8 +14710,6 @@
                         <copyNumber>15</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -14902,8 +14734,6 @@
                         <copyNumber>16</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -14928,8 +14758,6 @@
                         <copyNumber>17</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -14954,8 +14782,6 @@
                         <copyNumber>18</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -14980,8 +14806,6 @@
                         <copyNumber>19</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -15006,8 +14830,6 @@
                         <copyNumber>20</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -15032,8 +14854,6 @@
                         <copyNumber>21</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -15058,8 +14878,6 @@
                         <copyNumber>22</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -15084,8 +14902,6 @@
                         <copyNumber>23</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -15110,8 +14926,6 @@
                         <copyNumber>24</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -15136,8 +14950,6 @@
                         <copyNumber>25</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -15162,8 +14974,6 @@
                         <copyNumber>26</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -15188,8 +14998,6 @@
                         <copyNumber>27</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -15214,8 +15022,6 @@
                         <copyNumber>28</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -15240,8 +15046,6 @@
                         <copyNumber>29</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -15266,8 +15070,6 @@
                         <copyNumber>30</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -15292,8 +15094,6 @@
                         <copyNumber>31</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -15318,8 +15118,6 @@
                         <copyNumber>32</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -15344,8 +15142,6 @@
                         <copyNumber>33</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -15370,8 +15166,6 @@
                         <copyNumber>34</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -15396,8 +15190,6 @@
                         <copyNumber>35</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -15422,8 +15214,6 @@
                         <copyNumber>36</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -15448,8 +15238,6 @@
                         <copyNumber>38</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -15474,8 +15262,6 @@
                         <copyNumber>39</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -15500,8 +15286,6 @@
                         <copyNumber>40</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -15526,8 +15310,6 @@
                         <copyNumber>41</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -15552,8 +15334,6 @@
                         <copyNumber>42</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -15578,8 +15358,6 @@
                         <copyNumber>43</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -15604,8 +15382,6 @@
                         <copyNumber>44</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -15630,8 +15406,6 @@
                         <copyNumber>45</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -15656,8 +15430,6 @@
                         <copyNumber>46</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -15700,8 +15472,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -15743,8 +15513,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -16501,8 +16269,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>01/4470</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -16535,8 +16301,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>FW 2001/208</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -16569,8 +16333,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>370 GK</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -16603,8 +16365,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>01/793</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -16638,8 +16398,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>2001/871 </accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -16672,8 +16430,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>09/1328 Germanistik</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -16706,8 +16462,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>01/552</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -16740,8 +16494,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>58026</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -16774,8 +16526,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>ZP02 10/134-1</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -16808,8 +16558,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>05/300-3</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -17137,8 +16885,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -17512,8 +17258,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -18183,8 +17927,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -18227,8 +17969,6 @@
                         <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -18253,8 +17993,6 @@
                         <copyNumber>2</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -18279,8 +18017,6 @@
                         <copyNumber>3</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -18305,8 +18041,6 @@
                         <copyNumber>4</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -18331,8 +18065,6 @@
                         <copyNumber>5</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -18357,8 +18089,6 @@
                         <copyNumber>6</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -18383,8 +18113,6 @@
                         <copyNumber>7</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -18409,8 +18137,6 @@
                         <copyNumber>8</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -18435,8 +18161,6 @@
                         <copyNumber>9</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -18461,8 +18185,6 @@
                         <copyNumber>10</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -18505,8 +18227,6 @@
                         <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -18531,8 +18251,6 @@
                         <copyNumber>2</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -18557,8 +18275,6 @@
                         <copyNumber>3</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -18583,8 +18299,6 @@
                         <copyNumber>4</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -18609,8 +18323,6 @@
                         <copyNumber>5</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -18635,8 +18347,6 @@
                         <copyNumber>6</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -18661,8 +18371,6 @@
                         <copyNumber>7</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -18687,8 +18395,6 @@
                         <copyNumber>8</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -18713,8 +18419,6 @@
                         <copyNumber>9</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -18739,8 +18443,6 @@
                         <copyNumber>10</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -18783,8 +18485,6 @@
                         <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -18800,8 +18500,6 @@
                         <copyNumber>2</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -18817,8 +18515,6 @@
                         <copyNumber>3</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -18834,8 +18530,6 @@
                         <copyNumber>4</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -18851,8 +18545,6 @@
                         <copyNumber>5</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -18868,8 +18560,6 @@
                         <copyNumber>6</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -18885,8 +18575,6 @@
                         <copyNumber>7</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -18902,8 +18590,6 @@
                         <copyNumber>8</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -18919,8 +18605,6 @@
                         <copyNumber>9</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -18936,8 +18620,6 @@
                         <copyNumber>10</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -18971,8 +18653,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -19005,8 +18685,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -19369,8 +19047,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -19413,8 +19089,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -19917,15 +19591,8 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
-                              <i>
-                                 <note>115-0846</note>
-                                 <itemNoteTypeId>Note</itemNoteTypeId>
-                                 <staffOnly>true</staffOnly>
-                              </i>
                               <i>
                                  <note>OUF-Test 21-08-03; 12:15</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
@@ -20311,8 +19978,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -20354,8 +20019,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -21123,8 +20786,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>05/6013</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -21157,8 +20818,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>FWG 2006/12</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -21191,8 +20850,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>401 GRK</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -21226,8 +20883,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>06/18</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -21260,8 +20915,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>2005/889</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -21294,8 +20947,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>09/1328 Germanistik</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -21328,8 +20979,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>06/36</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -21362,8 +21011,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>58596</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -21396,8 +21043,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>ZP02 10/134-1</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -21430,8 +21075,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>05/302</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -22174,8 +21817,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>01/980</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -22208,8 +21849,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>FW 2001/209</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -22242,8 +21881,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>369 GK</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -22276,8 +21913,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>01/230</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -22311,8 +21946,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>2001/123</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -22345,8 +21978,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>09/1328 Germanistik</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -22379,8 +22010,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>01/122</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -22413,8 +22042,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>58026</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -22447,8 +22074,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>ZP02 10/134-1</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -22481,8 +22106,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber>05/300-2</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -22908,8 +22531,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -22951,8 +22572,6 @@
                         <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -22977,8 +22596,6 @@
                         <copyNumber>2</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -23003,8 +22620,6 @@
                         <copyNumber>3</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -23029,8 +22644,6 @@
                         <copyNumber>4</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -23055,8 +22668,6 @@
                         <copyNumber>5</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -23451,8 +23062,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -23884,8 +23493,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -23933,8 +23540,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -24359,8 +23964,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -24672,8 +24275,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -24984,8 +24585,6 @@
                         <copyNumber/>
                         <volume>1</volume>
                         <chronology>2020</chronology>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -25428,8 +25027,6 @@
                         <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -25454,8 +25051,6 @@
                         <copyNumber>2</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -25480,8 +25075,6 @@
                         <copyNumber>3</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -25506,8 +25099,6 @@
                         <copyNumber>4</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -25532,8 +25123,6 @@
                         <copyNumber>5</copyNumber>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -25575,8 +25164,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -25897,8 +25484,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <notes>
                            <arr>
                               <i>
@@ -25940,8 +25525,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <enumeration/>
-                        <numberOfPieces/>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>

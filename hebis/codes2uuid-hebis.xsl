@@ -469,7 +469,7 @@
 		<xsl:when test=".='ISSN der parallelen Ausgabe als Online-​Ausgabe'">bacc4dd4-0427-424b-888a-786cba8de27e</xsl:when>
 		<xsl:when test=".='ISSN der parallelen Ausgabe als Druck-​Ausgabe'">ec70cc68-7d3a-4f1c-a3dc-c3ead0bb5cb0</xsl:when>
 		<xsl:when test=".='ISSN einer Manifestation in anderer physischer Form'">ff50893e-c884-4137-9a19-730a717b03ea</xsl:when>
-		<xsl:when test=".='Produktsigel für Pakete von Online-Ressourcen'">0af95dfb-6c4e-4db0-8ee6-bc95897f03e2</xsl:when>
+		<xsl:when test=".='Produktsigel für Pakete von Online-Ressourcen'">0af95dfb-6c4e-4db0-8ee6-bc95897f03e2</xsl:when> <!-- Teilpaket... -->
 		<xsl:when test=".='ISBN-A'">88324f74-cf3f-45c8-84ca-90d8ce3353f5</xsl:when>
 		<xsl:when test=".='Anzeigenummer Neuerscheinungsdienst'">84549c48-f95a-4017-9164-d3ee468559c9</xsl:when>
 		<xsl:when test=".='WV-Nummer'">91dd4d66-bb6b-45f9-9678-646b6322b31b</xsl:when>

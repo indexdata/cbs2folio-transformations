@@ -62,11 +62,14 @@
   		  </xsl:choose>
 	    </holdingsTypeId>
       <holdingsStatements>
-        <xsl:if test="datafield[(@tag='209E') and (subfield[@code='x']='02')]/subfield[@code='a']">
+        <xsl:if test="datafield[(@tag='209E')]/subfield[@code='a']">
           <arr>
-            <xsl:for-each select="datafield[(@tag='209E') and (subfield[@code='x']='02')]/subfield[@code='a']">
+            <xsl:for-each select="datafield[(@tag='209E') and (subfield[@code='x']='01' or subfield[@code='x']='02' or subfield[@code='x']='03')]/subfield[@code='a']">
               <i>
                 <statement>
+                    <xsl:if test="../subfield[@code='x']='03'">
+                       <xsl:text>Angaben zur Vollständigkeit:</xsl:text>  
+                    </xsl:if>
                   <xsl:value-of select="."/>
                 </statement>
               </i>
@@ -91,7 +94,7 @@
               </xsl:when>
               <xsl:otherwise>
                 <xsl:apply-templates select="." mode="make-item">
-                  <xsl:with-param name="hhrid" select="$hhrid"/>
+                  <xsl:with-param name="hhrid" select="$hhrid"/> <!-- TBD? -->
                 </xsl:apply-templates>
                 </xsl:otherwise>
              </xsl:choose>          
@@ -120,7 +123,7 @@
       </xsl:if>
       <statisticalCodeIds>
         <arr>
-          <xsl:for-each select="datafield[@tag='209B']">
+          <xsl:for-each select="datafield[(@tag='209B') and not(subfield[@code='x']='01' or subfield[@code='x']='02')]">
             <i>
               <xsl:value-of select="./subfield[@code='a']"/>
             </i>
@@ -161,7 +164,6 @@
       <permanentLoanTypeId>
         <xsl:call-template name="loantype"/>
       </permanentLoanTypeId>
-      <!-- ILN TBD? Item status -->   
       <status>
         <name>
           <xsl:choose>
@@ -175,7 +177,6 @@
           </xsl:choose>
         </name>
       </status>
-      <!-- ILN Ende -->   
       <itemLevelCallNumber>
         <xsl:value-of select="datafield[@tag='209A']/subfield[@code='a']"/>
       </itemLevelCallNumber>
@@ -186,7 +187,7 @@
         <xsl:value-of select="$copy"/>
       </copyNumber>
       <volume>
-        <xsl:for-each select="datafield[@tag='231@']/subfield[@code='d' or @code='n']">
+        <xsl:for-each select="datafield[@tag='231@']/subfield[@code='d' or @code='n']"> <!-- TBD: check if needed -->
           <xsl:choose>
             <xsl:when test="./@code='n'">
               <xsl:value-of select="concat('-', .)"/>
@@ -217,16 +218,10 @@
           <xsl:if test="position()=last() and ./@code='j' and ../subfield[@code='6']">-</xsl:if>
         </xsl:for-each>
       </chronology>
-      <enumeration>
-        <xsl:value-of select="datafield[@tag='231B']/subfield[@code='a']"/>
-      </enumeration>
-      <numberOfPieces> <!-- TBD -->
-        <xsl:value-of select="datafield[@tag='208F']/subfield[@code='a']"/>
-      </numberOfPieces>
-      <xsl:if test="datafield[@tag='220B' or @tag='237A' or @tag='244Z' or @tag='209O' or @tag='206X' or @tag='206W']">
+      <xsl:if test="datafield[@tag='220B' or @tag='220C' or @tag='220E' or @tag='237A' or @tag='244Z']">
         <notes>
           <arr>
-            <xsl:for-each select="datafield[@tag='220B' or @tag='237A' or @tag='209O' or @tag='206X' or @tag='206W']">
+            <xsl:for-each select="datafield[@tag='220B' or @tag='220C' or @tag='220E' or @tag='237A']">
               <xsl:if test="./subfield[@code='a'] or ./subfield[@code='0']">
                 <i>
                   <note>
