@@ -24,6 +24,13 @@
 
   <xsl:template match="original">
     <xsl:if test="item/datafield[@tag='203@']/subfield[@code='0']">
+      <processing>
+        <item>
+          <status>
+            <policy>retain</policy>
+          </status>
+        </item>
+      </processing>
       <holdingsRecords>
         <arr>
           <xsl:apply-templates select="item"/>
