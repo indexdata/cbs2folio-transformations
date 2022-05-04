@@ -1,0 +1,1590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection>
+   <record>
+      <original>
+         <datafield tag="001@" fulltag="001@">
+            <subfield code="0">3,25</subfield>
+         </datafield>
+         <datafield tag="001A" fulltag="001A">
+            <subfield code="0">0030:22-03-05</subfield>
+         </datafield>
+         <datafield tag="001B" fulltag="001B">
+            <subfield code="0">1999:12-08-17</subfield>
+            <subfield code="t">23:39:37.000</subfield>
+         </datafield>
+         <datafield tag="001D" fulltag="001D">
+            <subfield code="0">0030:22-03-05</subfield>
+         </datafield>
+         <datafield tag="001U" fulltag="001U">
+            <subfield code="0">utf8</subfield>
+         </datafield>
+         <datafield tag="001X" fulltag="001X">
+            <subfield code="0">0</subfield>
+         </datafield>
+         <datafield tag="002@" fulltag="002@">
+            <subfield code="0">Aau</subfield>
+         </datafield>
+         <datafield tag="003@" fulltag="003@">
+            <subfield code="0">127555897</subfield>
+         </datafield>
+         <datafield tag="003O" fulltag="003O">
+            <subfield code="a">OCoLC</subfield>
+            <subfield code="0">76743464</subfield>
+         </datafield>
+         <datafield tag="004A" fulltag="004A">
+            <subfield code="f">kart.</subfield>
+         </datafield>
+         <datafield tag="006G" fulltag="006G">
+            <subfield code="0">974392650</subfield>
+         </datafield>
+         <datafield tag="006U" fulltag="006U">
+            <subfield code="0">05,B22,0177</subfield>
+            <subfield code="f">20050413</subfield>
+         </datafield>
+         <datafield tag="007A" fulltag="007A">
+            <subfield code="a">HEB</subfield>
+            <subfield code="0">127555897</subfield>
+         </datafield>
+         <datafield tag="010@" fulltag="010@">
+            <subfield code="a">ger</subfield>
+         </datafield>
+         <datafield tag="011@" fulltag="011@">
+            <subfield code="a">2005</subfield>
+         </datafield>
+         <datafield tag="021A" fulltag="021A">
+            <subfield code="a">Steigerung des ehrenamtlichen Engagements in Naturschutzverbänden</subfield>
+            <subfield code="h">Günter Mitlacher ; Ralf Schulte</subfield>
+         </datafield>
+         <datafield tag="028A" fulltag="028A">
+            <subfield code="9">15472310X</subfield>
+            <subfield code="8">Mitlacher, Günter [Tp3]</subfield>
+         </datafield>
+         <datafield tag="028B" occurrence="01" fulltag="028B/01">
+            <subfield code="9">14793415X</subfield>
+            <subfield code="8">Schulte, Ralf [Tnd]</subfield>
+         </datafield>
+         <datafield tag="033A" fulltag="033A">
+            <subfield code="p">Bonn</subfield>
+            <subfield code="n">Bundesamt für Naturschutz</subfield>
+         </datafield>
+         <datafield tag="034D" fulltag="034D">
+            <subfield code="a">159 S.</subfield>
+         </datafield>
+         <datafield tag="034M" fulltag="034M">
+            <subfield code="a">graph. Darst.</subfield>
+         </datafield>
+         <datafield tag="036E" fulltag="036E">
+            <subfield code="a">BfN-Skripten</subfield>
+            <subfield code="l">129</subfield>
+         </datafield>
+         <datafield tag="036F" fulltag="036F">
+            <subfield code="x">3129</subfield>
+            <subfield code="9">060680504</subfield>
+            <subfield code="8">BfN-Skripten</subfield>
+            <subfield code="l">129</subfield>
+         </datafield>
+         <datafield tag="044K" fulltag="044K">
+            <subfield code="9">086248448</subfield>
+            <subfield code="8">Naturschutzverein [Ts1]</subfield>
+         </datafield>
+         <datafield tag="044K" fulltag="044K">
+            <subfield code="9">085030244</subfield>
+            <subfield code="8">Ehrenamtliche Tätigkeit [Ts1]</subfield>
+         </datafield>
+         <datafield tag="045E" fulltag="045E">
+            <subfield code="c">330</subfield>
+         </datafield>
+         <datafield tag="045Z" fulltag="045Z">
+            <subfield code="9">407363793</subfield>
+            <subfield code="8">AR 12700 [Tkv]</subfield>
+         </datafield>
+         <datafield tag="046M" fulltag="046M">
+            <subfield code="a">Literaturverz. S. 138 - 143</subfield>
+         </datafield>
+         <datafield tag="101B" fulltag="101B">
+            <subfield code="0">04-10-06</subfield>
+            <subfield code="t">14:54:33.000</subfield>
+         </datafield>
+         <datafield tag="101C" fulltag="101C">
+            <subfield code="0">22-03-05</subfield>
+         </datafield>
+         <datafield tag="101U" fulltag="101U">
+            <subfield code="0">utf8</subfield>
+         </datafield>
+         <datafield tag="144Z" occurrence="20" fulltag="144Z/20">
+            <subfield code="a">b05jun</subfield>
+         </datafield>
+         <datafield tag="145S" occurrence="01" fulltag="145S/01">
+            <subfield code="a">026</subfield>
+         </datafield>
+         <datafield tag="145S" occurrence="02" fulltag="145S/02">
+            <subfield code="a">008</subfield>
+         </datafield>
+         <datafield tag="145S" occurrence="06" fulltag="145S/06">
+            <subfield code="a">120</subfield>
+         </datafield>
+         <datafield tag="145Z" occurrence="41" fulltag="145Z/41">
+            <subfield code="a">biol T</subfield>
+         </datafield>
+         <item epn="234416866">
+            <datafield tag="208@" occurrence="01" fulltag="208@/01">
+               <subfield code="a">22-03-05</subfield>
+               <subfield code="b">zAa</subfield>
+            </datafield>
+            <datafield tag="201B" occurrence="01" fulltag="201B/01">
+               <subfield code="0">09-01-16</subfield>
+               <subfield code="t">15:18:13.000</subfield>
+            </datafield>
+            <datafield tag="201C" occurrence="01" fulltag="201C/01">
+               <subfield code="0">22-03-05</subfield>
+            </datafield>
+            <datafield tag="201U" occurrence="01" fulltag="201U/01">
+               <subfield code="0">utf8</subfield>
+            </datafield>
+            <datafield tag="203@" occurrence="01" fulltag="203@/01">
+               <subfield code="0">234416866</subfield>
+            </datafield>
+            <datafield tag="209A" occurrence="01" fulltag="209A/01">
+               <subfield code="a">SRq 1596/129</subfield>
+               <subfield code="f">000</subfield>
+               <subfield code="d">u</subfield>
+               <subfield code="h">SRQ 1596 / B 129</subfield>
+               <subfield code="x">00</subfield>
+            </datafield>
+            <datafield tag="209G" occurrence="01" fulltag="209G/01">
+               <subfield code="a">37323713</subfield>
+               <subfield code="x">00</subfield>
+            </datafield>
+            <datafield tag="220B" occurrence="01" fulltag="220B/01">
+               <subfield code="a">NG</subfield>
+            </datafield>
+            <datafield tag="247C" occurrence="01" fulltag="247C/01">
+               <subfield code="9">102598258</subfield>
+               <subfield code="8">601000-3 &lt;30&gt;Frankfurt, Universitätsbibliothek J. C. Senckenberg, Zentralbibliothek (ZB)</subfield>
+            </datafield>
+         </item>
+      </original>
+      <instance>
+         <source>hebis</source>
+         <hrid>127555897</hrid>
+         <statusUpdatedDate>2005-03-22</statusUpdatedDate>
+         <statusId>Autopsie</statusId>
+         <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
+         <instanceTypeId>a2c91e87-6bab-44d6-8adb-1fd02481fc4f</instanceTypeId>
+         <instanceFormatIds>
+            <arr/>
+         </instanceFormatIds>
+         <identifiers>
+            <arr>
+               <i>
+                  <value>127555897</value>
+                  <identifierTypeId>PPN</identifierTypeId>
+               </i>
+               <i>
+                  <value>76743464</value>
+                  <identifierTypeId>OCLC</identifierTypeId>
+               </i>
+               <i>
+                  <value>kart.</value>
+                  <identifierTypeId>ISBN</identifierTypeId>
+               </i>
+               <i>
+                  <value>974392650</value>
+                  <identifierTypeId>DNB-Nummer</identifierTypeId>
+               </i>
+               <i>
+                  <value>05,B22,0177</value>
+                  <identifierTypeId>WV-Nummer</identifierTypeId>
+               </i>
+               <i>
+                  <value>HEB: 127555897</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
+               </i>
+            </arr>
+         </identifiers>
+         <indexTitle>Steigerung des ehrenamtlichen Engagements in Naturschutzverbänden Günter Mitlacher ; Ralf Schulte</indexTitle>
+         <title>Steigerung des ehrenamtlichen Engagements in Naturschutzverbänden / Günter Mitlacher ; Ralf Schulte</title>
+         <contributors>
+            <arr>
+               <i>
+                  <name>Mitlacher, Günter [Tp3]</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <primary>true</primary>
+               </i>
+               <i>
+                  <name>Schulte, Ralf [Tnd]</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+               </i>
+            </arr>
+         </contributors>
+         <publication>
+            <arr>
+               <i>
+                  <place>Bonn</place>
+                  <publisher>Bundesamt für Naturschutz</publisher>
+                  <dateOfPublication>2005</dateOfPublication>
+                  <role>Publisher</role>
+               </i>
+            </arr>
+         </publication>
+         <electronicAccess>
+            <arr/>
+         </electronicAccess>
+         <languages>
+            <arr>
+               <i>ger</i>
+            </arr>
+         </languages>
+         <series>
+            <arr>
+               <i>BfN-Skripten</i>
+            </arr>
+         </series>
+         <physicalDescriptions>
+            <arr>
+               <i>159 S. : graph. Darst.</i>
+            </arr>
+         </physicalDescriptions>
+      </instance>
+      <processing>
+         <item>
+            <status>
+               <policy>retain</policy>
+            </status>
+         </item>
+      </processing>
+      <holdingsRecords>
+         <arr>
+            <i>
+               <hrid>234416866</hrid>
+               <permanentLocationId>ZBOM</permanentLocationId>
+               <callNumber>SRq 1596/129</callNumber>
+               <holdingsTypeId>physical</holdingsTypeId>
+               <holdingsStatements/>
+               <sourceId>hebis</sourceId>
+               <items>
+                  <arr>
+                     <i>
+                        <hrid>234416866</hrid>
+                        <materialTypeId>Druckschrift</materialTypeId>
+                        <permanentLoanTypeId>0 u normal ausleihbar</permanentLoanTypeId>
+                        <status>
+                           <name>Available</name>
+                        </status>
+                        <itemLevelCallNumber>SRq 1596/129</itemLevelCallNumber>
+                        <barcode>37323713</barcode>
+                        <copyNumber/>
+                        <volume/>
+                        <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>NG</note>
+                                 <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
+                        <accessionNumber/>
+                        <discoverySuppress>false</discoverySuppress>
+                     </i>
+                  </arr>
+               </items>
+               <statisticalCodeIds>
+                  <arr/>
+               </statisticalCodeIds>
+            </i>
+         </arr>
+      </holdingsRecords>
+   </record>
+   <record>
+      <original>
+         <datafield tag="001@" fulltag="001@">
+            <subfield code="0">3,25,205</subfield>
+         </datafield>
+         <datafield tag="001A" fulltag="001A">
+            <subfield code="0">2030:05-01-96</subfield>
+         </datafield>
+         <datafield tag="001B" fulltag="001B">
+            <subfield code="0">0004:07-09-20</subfield>
+            <subfield code="t">11:39:24.000</subfield>
+         </datafield>
+         <datafield tag="001C" fulltag="001C">
+            <subfield code="0">0077:10-11-08</subfield>
+            <subfield code="t">11:15:25.000</subfield>
+         </datafield>
+         <datafield tag="001D" fulltag="001D">
+            <subfield code="0">9999:99-99-99</subfield>
+         </datafield>
+         <datafield tag="001U" fulltag="001U">
+            <subfield code="0">utf8</subfield>
+         </datafield>
+         <datafield tag="001X" fulltag="001X">
+            <subfield code="0">0</subfield>
+         </datafield>
+         <datafield tag="002@" fulltag="002@">
+            <subfield code="0">Aau</subfield>
+         </datafield>
+         <datafield tag="003@" fulltag="003@">
+            <subfield code="0">045797889</subfield>
+         </datafield>
+         <datafield tag="003O" fulltag="003O">
+            <subfield code="a">OCoLC</subfield>
+            <subfield code="0">420161613</subfield>
+         </datafield>
+         <datafield tag="007A" fulltag="007A">
+            <subfield code="a">HEB</subfield>
+            <subfield code="0">045797889</subfield>
+         </datafield>
+         <datafield tag="010@" fulltag="010@">
+            <subfield code="a">ger</subfield>
+         </datafield>
+         <datafield tag="011@" fulltag="011@">
+            <subfield code="a">1948</subfield>
+         </datafield>
+         <datafield tag="013H" fulltag="013H">
+            <subfield code="0">u</subfield>
+         </datafield>
+         <datafield tag="021A" fulltag="021A">
+            <subfield code="a">Beiträge zur Unterscheidung von Kauf und Pacht</subfield>
+            <subfield code="h">vorgelegt von Peter Boller</subfield>
+         </datafield>
+         <datafield tag="028A" fulltag="028A">
+            <subfield code="9">468768459</subfield>
+            <subfield code="8">Boller, Peter 1914- [Tp3]</subfield>
+         </datafield>
+         <datafield tag="033A" fulltag="033A">
+            <subfield code="p">Zürich</subfield>
+            <subfield code="n">Wetzikon {[u.a.]</subfield>
+         </datafield>
+         <datafield tag="034D" fulltag="034D">
+            <subfield code="a">VIII, 90 S.</subfield>
+         </datafield>
+         <datafield tag="037C" fulltag="037C">
+            <subfield code="a">Zugl.: </subfield>
+            <subfield code="b">Zürich</subfield>
+            <subfield code="c">Univ., Diss., 1947</subfield>
+         </datafield>
+         <datafield tag="044K" fulltag="044K">
+            <subfield code="9">085149675</subfield>
+            <subfield code="8">Schweiz [Tg1]</subfield>
+         </datafield>
+         <datafield tag="044K" fulltag="044K">
+            <subfield code="9">085124230</subfield>
+            <subfield code="8">Pacht [Ts1]</subfield>
+         </datafield>
+         <datafield tag="044K" fulltag="044K">
+            <subfield code="9">085447714</subfield>
+            <subfield code="8">Kauf [Ts1]</subfield>
+         </datafield>
+         <datafield tag="045Z" fulltag="045Z">
+            <subfield code="9">411116517</subfield>
+            <subfield code="8">PU 2635 [Tkv]</subfield>
+         </datafield>
+         <datafield tag="101B" fulltag="101B">
+            <subfield code="0">28-10-09</subfield>
+            <subfield code="t">13:08:43.000</subfield>
+         </datafield>
+         <datafield tag="101C" fulltag="101C">
+            <subfield code="0">28-10-09</subfield>
+         </datafield>
+         <datafield tag="101U" fulltag="101U">
+            <subfield code="0">utf8</subfield>
+         </datafield>
+         <datafield tag="145S" occurrence="01" fulltag="145S/01">
+            <subfield code="a">009</subfield>
+         </datafield>
+         <item epn="100147178">
+            <datafield tag="208@" occurrence="01" fulltag="208@/01">
+               <subfield code="a">05-01-96</subfield>
+               <subfield code="b">zCa</subfield>
+            </datafield>
+            <datafield tag="201B" occurrence="01" fulltag="201B/01">
+               <subfield code="0">07-02-17</subfield>
+               <subfield code="t">14:51:34.000</subfield>
+            </datafield>
+            <datafield tag="201C" occurrence="01" fulltag="201C/01">
+               <subfield code="0">05-01-96</subfield>
+            </datafield>
+            <datafield tag="201U" occurrence="01" fulltag="201U/01">
+               <subfield code="0">utf8</subfield>
+            </datafield>
+            <datafield tag="203@" occurrence="01" fulltag="203@/01">
+               <subfield code="0">100147178</subfield>
+            </datafield>
+            <datafield tag="209A" occurrence="01" fulltag="209A/01">
+               <subfield code="a">52/99-01-119</subfield>
+               <subfield code="f">034</subfield>
+               <subfield code="d">i</subfield>
+               <subfield code="h">52 99 01 119</subfield>
+               <subfield code="x">00</subfield>
+            </datafield>
+            <datafield tag="209B" occurrence="01" fulltag="209B/01">
+               <subfield code="a">1001</subfield>
+               <subfield code="x">05</subfield>
+            </datafield>
+            <datafield tag="209G" occurrence="01" fulltag="209G/01">
+               <subfield code="a">Magazin</subfield>
+               <subfield code="x">01</subfield>
+            </datafield>
+            <datafield tag="245Z" occurrence="01" fulltag="245Z/01">
+               <subfield code="a">32-99</subfield>
+               <subfield code="x">01</subfield>
+            </datafield>
+            <datafield tag="247C" occurrence="01" fulltag="247C/01">
+               <subfield code="9">102598444</subfield>
+               <subfield code="8">601034-9 &lt;30/34&gt;Frankfurt, Universitätsbibliothek J. C. Senckenberg, Bibliothek Recht und Wirtschaft (BRuW)</subfield>
+            </datafield>
+         </item>
+      </original>
+      <instance>
+         <source>hebis</source>
+         <hrid>045797889</hrid>
+         <statusId>Autopsie</statusId>
+         <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
+         <instanceTypeId>a2c91e87-6bab-44d6-8adb-1fd02481fc4f</instanceTypeId>
+         <instanceFormatIds>
+            <arr/>
+         </instanceFormatIds>
+         <identifiers>
+            <arr>
+               <i>
+                  <value>045797889</value>
+                  <identifierTypeId>PPN</identifierTypeId>
+               </i>
+               <i>
+                  <value>420161613</value>
+                  <identifierTypeId>OCLC</identifierTypeId>
+               </i>
+               <i>
+                  <value>HEB: 045797889</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
+               </i>
+            </arr>
+         </identifiers>
+         <indexTitle>Beiträge zur Unterscheidung von Kauf und Pacht vorgelegt von Peter Boller</indexTitle>
+         <title>Beiträge zur Unterscheidung von Kauf und Pacht / vorgelegt von Peter Boller</title>
+         <contributors>
+            <arr>
+               <i>
+                  <name>Boller, Peter 1914- [Tp3]</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <primary>true</primary>
+               </i>
+            </arr>
+         </contributors>
+         <publication>
+            <arr>
+               <i>
+                  <place>Zürich</place>
+                  <publisher>Wetzikon {[u.a.]</publisher>
+                  <dateOfPublication>1948</dateOfPublication>
+                  <role>Publisher</role>
+               </i>
+            </arr>
+         </publication>
+         <electronicAccess>
+            <arr/>
+         </electronicAccess>
+         <languages>
+            <arr>
+               <i>ger</i>
+            </arr>
+         </languages>
+         <physicalDescriptions>
+            <arr>
+               <i>VIII, 90 S.</i>
+            </arr>
+         </physicalDescriptions>
+      </instance>
+      <processing>
+         <item>
+            <status>
+               <policy>retain</policy>
+            </status>
+         </item>
+      </processing>
+      <holdingsRecords>
+         <arr>
+            <i>
+               <hrid>100147178</hrid>
+               <permanentLocationId>BRUWGM</permanentLocationId>
+               <callNumber>52/99-01-119</callNumber>
+               <holdingsTypeId>physical</holdingsTypeId>
+               <holdingsStatements/>
+               <sourceId>hebis</sourceId>
+               <items>
+                  <arr>
+                     <i>
+                        <hrid>100147178</hrid>
+                        <materialTypeId>Druckschrift</materialTypeId>
+                        <permanentLoanTypeId>5 i nur für den Lesesaal</permanentLoanTypeId>
+                        <status>
+                           <name>Available</name>
+                        </status>
+                        <itemLevelCallNumber>52/99-01-119</itemLevelCallNumber>
+                        <barcode/>
+                        <copyNumber/>
+                        <volume/>
+                        <chronology/>
+                        <accessionNumber/>
+                        <discoverySuppress>false</discoverySuppress>
+                     </i>
+                  </arr>
+               </items>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>1001</i>
+                  </arr>
+               </statisticalCodeIds>
+            </i>
+         </arr>
+      </holdingsRecords>
+   </record>
+   <record>
+      <original>
+         <datafield tag="001@" fulltag="001@">
+            <subfield code="0">3,23,25</subfield>
+         </datafield>
+         <datafield tag="001A" fulltag="001A">
+            <subfield code="0">0077:06-08-96</subfield>
+         </datafield>
+         <datafield tag="001B" fulltag="001B">
+            <subfield code="0">1999:30-07-17</subfield>
+            <subfield code="t">08:11:16.000</subfield>
+         </datafield>
+         <datafield tag="001C" fulltag="001C">
+            <subfield code="0">0030:29-07-15</subfield>
+            <subfield code="t">14:23:46.000</subfield>
+         </datafield>
+         <datafield tag="001D" fulltag="001D">
+            <subfield code="0">9999:99-99-99</subfield>
+         </datafield>
+         <datafield tag="001U" fulltag="001U">
+            <subfield code="0">utf8</subfield>
+         </datafield>
+         <datafield tag="001X" fulltag="001X">
+            <subfield code="0">0</subfield>
+         </datafield>
+         <datafield tag="002@" fulltag="002@">
+            <subfield code="0">Afu</subfield>
+         </datafield>
+         <datafield tag="003@" fulltag="003@">
+            <subfield code="0">049073338</subfield>
+         </datafield>
+         <datafield tag="003O" fulltag="003O">
+            <subfield code="a">OCoLC</subfield>
+            <subfield code="0">180436707</subfield>
+         </datafield>
+         <datafield tag="004A" fulltag="004A">
+            <subfield code="0">3-525-71401-7</subfield>
+         </datafield>
+         <datafield tag="007A" fulltag="007A">
+            <subfield code="a">HEB</subfield>
+            <subfield code="0">049073338</subfield>
+         </datafield>
+         <datafield tag="010@" fulltag="010@">
+            <subfield code="a">ger</subfield>
+            <subfield code="a">lat</subfield>
+         </datafield>
+         <datafield tag="011@" fulltag="011@">
+            <subfield code="a">1995</subfield>
+         </datafield>
+         <datafield tag="028C" fulltag="028C">
+            <subfield code="9">139667423</subfield>
+            <subfield code="8">Schlüter, Helmut [Tnd]</subfield>
+         </datafield>
+         <datafield tag="028C" occurrence="01" fulltag="028C/01">
+            <subfield code="9">140381597</subfield>
+            <subfield code="8">Steinicke, Kurt [Tnd]</subfield>
+         </datafield>
+         <datafield tag="032@" fulltag="032@">
+            <subfield code="a">Neudr.</subfield>
+         </datafield>
+         <datafield tag="033A" fulltag="033A">
+            <subfield code="p">Göttingen</subfield>
+            <subfield code="n">Vandenhoeck &amp; Ruprecht</subfield>
+         </datafield>
+         <datafield tag="034D" fulltag="034D">
+            <subfield code="a">80 S.</subfield>
+         </datafield>
+         <datafield tag="036C" fulltag="036C">
+            <subfield code="x">grammatisches beiheft</subfield>
+            <subfield code="a">@Latinum</subfield>
+            <subfield code="d">Lehrgang für den spätbeginnenden Lateinunterricht</subfield>
+            <subfield code="h">von Helmut Schlüter u. Kurt Steinicke</subfield>
+            <subfield code="l">Grammatisches Beiheft</subfield>
+         </datafield>
+         <datafield tag="036D" fulltag="036D">
+            <subfield code="x">grammatisches beiheft</subfield>
+            <subfield code="9">027901505</subfield>
+            <subfield code="8">@Latinum : Lehrgang für den spätbeginnenden Lateinunterricht / von Helmut Schlüter u. Kurt Steinicke</subfield>
+         </datafield>
+         <datafield tag="037A" fulltag="037A">
+            <subfield code="a">Hier auch später erschienene, unveränderte Nachdrucke</subfield>
+         </datafield>
+         <datafield tag="045Z" fulltag="045Z">
+            <subfield code="9">407902058</subfield>
+            <subfield code="8">FB 3725 [Tkv]</subfield>
+         </datafield>
+         <datafield tag="101B" fulltag="101B">
+            <subfield code="0">19-12-08</subfield>
+            <subfield code="t">12:00:47.000</subfield>
+         </datafield>
+         <datafield tag="101C" fulltag="101C">
+            <subfield code="0">19-12-08</subfield>
+         </datafield>
+         <datafield tag="101U" fulltag="101U">
+            <subfield code="0">utf8</subfield>
+         </datafield>
+         <datafield tag="145S" occurrence="01" fulltag="145S/01">
+            <subfield code="a">035</subfield>
+         </datafield>
+         <item epn="138459320">
+            <datafield tag="208@" occurrence="01" fulltag="208@/01">
+               <subfield code="a">29-10-99</subfield>
+               <subfield code="b">zCh</subfield>
+            </datafield>
+            <datafield tag="201B" occurrence="01" fulltag="201B/01">
+               <subfield code="0">05-04-07</subfield>
+               <subfield code="t">14:29:08.000</subfield>
+            </datafield>
+            <datafield tag="201C" occurrence="01" fulltag="201C/01">
+               <subfield code="0">29-10-99</subfield>
+            </datafield>
+            <datafield tag="201U" occurrence="01" fulltag="201U/01">
+               <subfield code="0">utf8</subfield>
+            </datafield>
+            <datafield tag="203@" occurrence="01" fulltag="203@/01">
+               <subfield code="0">138459320</subfield>
+            </datafield>
+            <datafield tag="209A" occurrence="01" fulltag="209A/01">
+               <subfield code="a">21/FB 3725 L35-2</subfield>
+               <subfield code="f">330</subfield>
+               <subfield code="d">b</subfield>
+               <subfield code="h">21 FB 3725 L35 / B 2</subfield>
+               <subfield code="x">00</subfield>
+            </datafield>
+            <datafield tag="209C" occurrence="01" fulltag="209C/01">
+               <subfield code="a">106-31629</subfield>
+               <subfield code="h">106 31629</subfield>
+            </datafield>
+            <datafield tag="209G" occurrence="01" fulltag="209G/01">
+               <subfield code="a">1000021073</subfield>
+               <subfield code="x">00</subfield>
+            </datafield>
+            <datafield tag="247C" occurrence="01" fulltag="247C/01">
+               <subfield code="9">102599378</subfield>
+               <subfield code="8">601330-2 &lt;30/330&gt;Frankfurt, Universitätsbibliothek J. C. Senckenberg, Bibliothekszentrum Geisteswissenschaften (BzG)</subfield>
+            </datafield>
+         </item>
+         <item epn="757734308">
+            <datafield tag="208@" occurrence="02" fulltag="208@/02">
+               <subfield code="a">15-07-15</subfield>
+               <subfield code="b">mCh</subfield>
+            </datafield>
+            <datafield tag="201B" occurrence="02" fulltag="201B/02">
+               <subfield code="0">29-07-15</subfield>
+               <subfield code="t">14:25:00.000</subfield>
+            </datafield>
+            <datafield tag="201C" occurrence="02" fulltag="201C/02">
+               <subfield code="0">29-07-15</subfield>
+            </datafield>
+            <datafield tag="201U" occurrence="02" fulltag="201U/02">
+               <subfield code="0">utf8</subfield>
+            </datafield>
+            <datafield tag="203@" occurrence="02" fulltag="203@/02">
+               <subfield code="0">757734308</subfield>
+            </datafield>
+            <datafield tag="209A" occurrence="02" fulltag="209A/02">
+               <subfield code="e">3</subfield>
+               <subfield code="a">26/FB 3725 L357 (2)-2 (1.-3. Ex.)</subfield>
+               <subfield code="f">330</subfield>
+               <subfield code="d">c</subfield>
+               <subfield code="h">26 FB 3725 L357 / A 2 / B 2 / +1-3</subfield>
+               <subfield code="x">00</subfield>
+            </datafield>
+            <datafield tag="209C" occurrence="02" fulltag="209C/02">
+               <subfield code="a">BzG-2015/3896 (1.-3. Ex.)</subfield>
+            </datafield>
+            <datafield tag="209G" occurrence="02" fulltag="209G/02">
+               <subfield code="a">1004671421 (3)</subfield>
+               <subfield code="x">00</subfield>
+            </datafield>
+            <datafield tag="209G" occurrence="02" fulltag="209G/02">
+               <subfield code="a">1004671417 (2)</subfield>
+               <subfield code="x">00</subfield>
+            </datafield>
+            <datafield tag="209G" occurrence="02" fulltag="209G/02">
+               <subfield code="a">1004671402 (1)</subfield>
+               <subfield code="x">00</subfield>
+            </datafield>
+            <datafield tag="209G" occurrence="02" fulltag="209G/02">
+               <subfield code="a">Lehrbuchslg. BzG, Q6, 1. OG, 1.621</subfield>
+               <subfield code="x">01</subfield>
+            </datafield>
+            <datafield tag="247C" occurrence="02" fulltag="247C/02">
+               <subfield code="9">102599378</subfield>
+               <subfield code="8">601330-2 &lt;30/330&gt;Frankfurt, Universitätsbibliothek J. C. Senckenberg, Bibliothekszentrum Geisteswissenschaften (BzG)</subfield>
+            </datafield>
+         </item>
+      </original>
+      <instance>
+         <source>hebis</source>
+         <hrid>049073338</hrid>
+         <statusId>Autopsie</statusId>
+         <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
+         <instanceTypeId>a2c91e87-6bab-44d6-8adb-1fd02481fc4f</instanceTypeId>
+         <instanceFormatIds>
+            <arr/>
+         </instanceFormatIds>
+         <identifiers>
+            <arr>
+               <i>
+                  <value>049073338</value>
+                  <identifierTypeId>PPN</identifierTypeId>
+               </i>
+               <i>
+                  <value>180436707</value>
+                  <identifierTypeId>OCLC</identifierTypeId>
+               </i>
+               <i>
+                  <value>3-525-71401-7</value>
+                  <identifierTypeId>ISBN</identifierTypeId>
+               </i>
+               <i>
+                  <value>HEB: 049073338</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
+               </i>
+            </arr>
+         </identifiers>
+         <indexTitle>Latinum Lehrgang für den spätbeginnenden Lateinunterricht von Helmut Schlüter u. Kurt Steinicke</indexTitle>
+         <title>Latinum : Lehrgang für den spätbeginnenden Lateinunterricht / von Helmut Schlüter u. Kurt Steinicke (Grammatisches Beiheft)</title>
+         <contributors>
+            <arr>
+               <i>
+                  <name>Schlüter, Helmut [Tnd]</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+               </i>
+               <i>
+                  <name>Steinicke, Kurt [Tnd]</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+               </i>
+            </arr>
+         </contributors>
+         <publication>
+            <arr>
+               <i>
+                  <place>Göttingen</place>
+                  <publisher>Vandenhoeck &amp; Ruprecht</publisher>
+                  <dateOfPublication>1995</dateOfPublication>
+                  <role>Publisher</role>
+               </i>
+            </arr>
+         </publication>
+         <electronicAccess>
+            <arr/>
+         </electronicAccess>
+         <notes>
+            <arr>
+               <i>
+                  <note>Hier auch später erschienene, unveränderte Nachdrucke</note>
+                  <instanceNoteTypeId>General note</instanceNoteTypeId>
+               </i>
+            </arr>
+         </notes>
+         <languages>
+            <arr>
+               <i>ger</i>
+               <i>lat</i>
+            </arr>
+         </languages>
+         <physicalDescriptions>
+            <arr>
+               <i>80 S.</i>
+            </arr>
+         </physicalDescriptions>
+         <editions>
+            <arr>
+               <i>Neudr.</i>
+            </arr>
+         </editions>
+      </instance>
+      <processing>
+         <item>
+            <status>
+               <policy>retain</policy>
+            </status>
+         </item>
+      </processing>
+      <holdingsRecords>
+         <arr>
+            <i>
+               <hrid>138459320</hrid>
+               <permanentLocationId>BZGOM</permanentLocationId>
+               <callNumber>21/FB 3725 L35-2</callNumber>
+               <holdingsTypeId>physical</holdingsTypeId>
+               <holdingsStatements/>
+               <sourceId>hebis</sourceId>
+               <items>
+                  <arr>
+                     <i>
+                        <hrid>138459320</hrid>
+                        <materialTypeId>Druckschrift</materialTypeId>
+                        <permanentLoanTypeId>1 b Kurzausleihe</permanentLoanTypeId>
+                        <status>
+                           <name>Available</name>
+                        </status>
+                        <itemLevelCallNumber>21/FB 3725 L35-2</itemLevelCallNumber>
+                        <barcode>1000021073</barcode>
+                        <copyNumber/>
+                        <volume/>
+                        <chronology/>
+                        <accessionNumber>106-31629</accessionNumber>
+                        <discoverySuppress>false</discoverySuppress>
+                     </i>
+                  </arr>
+               </items>
+               <statisticalCodeIds>
+                  <arr/>
+               </statisticalCodeIds>
+            </i>
+            <i>
+               <hrid>757734308</hrid>
+               <permanentLocationId>BZGLB</permanentLocationId>
+               <callNumber>26/FB 3725 L357 (2)-2 (1.-3. Ex.)</callNumber>
+               <holdingsTypeId>physical</holdingsTypeId>
+               <holdingsStatements/>
+               <sourceId>hebis</sourceId>
+               <items>
+                  <arr>
+                     <i>
+                        <hrid>757734308-1004671421</hrid>
+                        <materialTypeId>Druckschrift</materialTypeId>
+                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <status>
+                           <name>Available</name>
+                        </status>
+                        <itemLevelCallNumber>26/FB 3725 L357 (2)-2 (1.-3. Ex.)</itemLevelCallNumber>
+                        <barcode>1004671421</barcode>
+                        <copyNumber>3</copyNumber>
+                        <volume/>
+                        <chronology/>
+                        <accessionNumber>BzG-2015/3896 (1.-3. Ex.)</accessionNumber>
+                        <discoverySuppress>false</discoverySuppress>
+                     </i>
+                     <i>
+                        <hrid>757734308-1004671417</hrid>
+                        <materialTypeId>Druckschrift</materialTypeId>
+                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <status>
+                           <name>Available</name>
+                        </status>
+                        <itemLevelCallNumber>26/FB 3725 L357 (2)-2 (1.-3. Ex.)</itemLevelCallNumber>
+                        <barcode>1004671417</barcode>
+                        <copyNumber>2</copyNumber>
+                        <volume/>
+                        <chronology/>
+                        <accessionNumber>BzG-2015/3896 (1.-3. Ex.)</accessionNumber>
+                        <discoverySuppress>false</discoverySuppress>
+                     </i>
+                     <i>
+                        <hrid>757734308-1004671402</hrid>
+                        <materialTypeId>Druckschrift</materialTypeId>
+                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <status>
+                           <name>Available</name>
+                        </status>
+                        <itemLevelCallNumber>26/FB 3725 L357 (2)-2 (1.-3. Ex.)</itemLevelCallNumber>
+                        <barcode>1004671402</barcode>
+                        <copyNumber>1</copyNumber>
+                        <volume/>
+                        <chronology/>
+                        <accessionNumber>BzG-2015/3896 (1.-3. Ex.)</accessionNumber>
+                        <discoverySuppress>false</discoverySuppress>
+                     </i>
+                  </arr>
+               </items>
+               <statisticalCodeIds>
+                  <arr/>
+               </statisticalCodeIds>
+            </i>
+         </arr>
+      </holdingsRecords>
+   </record>
+   <record>
+      <original>
+         <datafield tag="001@" fulltag="001@">
+            <subfield code="0">3</subfield>
+         </datafield>
+         <datafield tag="001A" fulltag="001A">
+            <subfield code="0">0030:18-01-21</subfield>
+         </datafield>
+         <datafield tag="001B" fulltag="001B">
+            <subfield code="0">1999:20-02-21</subfield>
+            <subfield code="t">08:37:58.000</subfield>
+         </datafield>
+         <datafield tag="001D" fulltag="001D">
+            <subfield code="0">0030:18-01-21</subfield>
+         </datafield>
+         <datafield tag="001U" fulltag="001U">
+            <subfield code="0">utf8</subfield>
+         </datafield>
+         <datafield tag="001X" fulltag="001X">
+            <subfield code="0">0</subfield>
+         </datafield>
+         <datafield tag="002@" fulltag="002@">
+            <subfield code="0">Oau</subfield>
+         </datafield>
+         <datafield tag="002C" fulltag="002C">
+            <subfield code="a">Text</subfield>
+            <subfield code="b">txt</subfield>
+            <subfield code="2">rdacontent</subfield>
+         </datafield>
+         <datafield tag="002D" fulltag="002D">
+            <subfield code="a">Computermedien</subfield>
+            <subfield code="b">c</subfield>
+            <subfield code="2">rdamedia</subfield>
+         </datafield>
+         <datafield tag="002E" fulltag="002E">
+            <subfield code="a">Online-Ressource</subfield>
+            <subfield code="b">cr</subfield>
+            <subfield code="2">rdacarrier</subfield>
+         </datafield>
+         <datafield tag="003@" fulltag="003@">
+            <subfield code="0">474839737</subfield>
+         </datafield>
+         <datafield tag="003O" fulltag="003O">
+            <subfield code="a">OCoLC</subfield>
+            <subfield code="0">1231717408</subfield>
+         </datafield>
+         <datafield tag="004A" fulltag="004A">
+            <subfield code="A">978-3-7489-2192-9</subfield>
+         </datafield>
+         <datafield tag="004O" fulltag="004O">
+            <subfield code="A">978-3-8487-7787-7</subfield>
+            <subfield code="S">p</subfield>
+         </datafield>
+         <datafield tag="004P" fulltag="004P">
+            <subfield code="0">10.5771/9783748921929</subfield>
+         </datafield>
+         <datafield tag="007A" fulltag="007A">
+            <subfield code="a">HEB</subfield>
+            <subfield code="0">474839737</subfield>
+         </datafield>
+         <datafield tag="007I" fulltag="007I">
+            <subfield code="0">Nomos-9783848777877</subfield>
+         </datafield>
+         <datafield tag="009Q" fulltag="009Q">
+            <subfield code="u">https://www.nomos-elibrary.de/10.5771/9783748921929/die-elektronische-person</subfield>
+            <subfield code="x">H</subfield>
+         </datafield>
+         <datafield tag="009Q" fulltag="009Q">
+            <subfield code="u">https://doi.org/10.5771/9783748921929</subfield>
+            <subfield code="x">R</subfield>
+         </datafield>
+         <datafield tag="010@" fulltag="010@">
+            <subfield code="a">ger</subfield>
+         </datafield>
+         <datafield tag="010E" fulltag="010E">
+            <subfield code="e">rda</subfield>
+         </datafield>
+         <datafield tag="011@" fulltag="011@">
+            <subfield code="a">2021</subfield>
+         </datafield>
+         <datafield tag="013D" fulltag="013D">
+            <subfield code="9">085338818</subfield>
+            <subfield code="8">Hochschulschrift [Ts1]</subfield>
+         </datafield>
+         <datafield tag="017B" fulltag="017B">
+            <subfield code="a">ZDB-1-NBR</subfield>
+         </datafield>
+         <datafield tag="017B" fulltag="017B">
+            <subfield code="a">ZDB-1-NOL</subfield>
+         </datafield>
+         <datafield tag="017B" fulltag="017B">
+            <subfield code="a">ZDB-18-NOL</subfield>
+         </datafield>
+         <datafield tag="021A" fulltag="021A">
+            <subfield code="a">Die @elektronische Person</subfield>
+            <subfield code="d">Entwurf eines Zurechnungs- und Haftungssubjekts für den Einsatz autonomer Systeme im Rechtsverkehr</subfield>
+            <subfield code="h">Cornelius Kleinert</subfield>
+         </datafield>
+         <datafield tag="028A" fulltag="028A">
+            <subfield code="9">147933455</subfield>
+            <subfield code="8">Kleinert, Cornelius [Tnd]</subfield>
+            <subfield code="B">Verfasser</subfield>
+            <subfield code="4">aut</subfield>
+         </datafield>
+         <datafield tag="032@" fulltag="032@">
+            <subfield code="a">1. Auflage</subfield>
+         </datafield>
+         <datafield tag="033A" fulltag="033A">
+            <subfield code="p">Baden-Baden</subfield>
+            <subfield code="n">Nomos</subfield>
+         </datafield>
+         <datafield tag="033E" fulltag="033E">
+            <subfield code="p">Baden-Baden</subfield>
+            <subfield code="n">Nomos Verlagsgesellschaft mbH &amp; Co. KG</subfield>
+         </datafield>
+         <datafield tag="034D" fulltag="034D">
+            <subfield code="a">1 Online-Ressource</subfield>
+         </datafield>
+         <datafield tag="036E" fulltag="036E">
+            <subfield code="a">Der @Elektronische Rechtsverkehr</subfield>
+            <subfield code="l">Band 44</subfield>
+         </datafield>
+         <datafield tag="037C" fulltag="037C">
+            <subfield code="d">Dissertation</subfield>
+            <subfield code="e">Albert-Ludwigs-Universität Freiburg im Breisgau</subfield>
+            <subfield code="f">2020</subfield>
+         </datafield>
+         <datafield tag="045E" fulltag="045E">
+            <subfield code="c">340</subfield>
+         </datafield>
+         <datafield tag="045Z" fulltag="045Z">
+            <subfield code="9">450594203</subfield>
+            <subfield code="8">PZ 3450 [Tkv]</subfield>
+         </datafield>
+         <datafield tag="047A" fulltag="047A">
+            <subfield code="a">Sacherschließung maschinell aus paralleler Ausg. übernommen</subfield>
+         </datafield>
+         <datafield tag="101B" fulltag="101B">
+            <subfield code="0">18-01-21</subfield>
+            <subfield code="t">13:18:47.000</subfield>
+         </datafield>
+         <datafield tag="101C" fulltag="101C">
+            <subfield code="0">18-01-21</subfield>
+         </datafield>
+         <datafield tag="101U" fulltag="101U">
+            <subfield code="0">utf8</subfield>
+         </datafield>
+         <datafield tag="145S" occurrence="01" fulltag="145S/01">
+            <subfield code="a">009</subfield>
+         </datafield>
+         <item epn="1137005297">
+            <datafield tag="208@" occurrence="01" fulltag="208@/01">
+               <subfield code="a">18-01-21</subfield>
+               <subfield code="b">oAa</subfield>
+            </datafield>
+            <datafield tag="201B" occurrence="01" fulltag="201B/01">
+               <subfield code="0">19-02-21</subfield>
+               <subfield code="t">22:44:58.000</subfield>
+            </datafield>
+            <datafield tag="201C" occurrence="01" fulltag="201C/01">
+               <subfield code="0">18-01-21</subfield>
+            </datafield>
+            <datafield tag="201U" occurrence="01" fulltag="201U/01">
+               <subfield code="0">utf8</subfield>
+            </datafield>
+            <datafield tag="203@" occurrence="01" fulltag="203@/01">
+               <subfield code="0">1137005297</subfield>
+            </datafield>
+            <datafield tag="209A" occurrence="01" fulltag="209A/01">
+               <subfield code="a">/</subfield>
+               <subfield code="f">900</subfield>
+               <subfield code="x">00</subfield>
+            </datafield>
+            <datafield tag="209B" occurrence="01" fulltag="209B/01">
+               <subfield code="a">502</subfield>
+               <subfield code="x">05</subfield>
+            </datafield>
+            <datafield tag="209B" occurrence="01" fulltag="209B/01">
+               <subfield code="a">562</subfield>
+               <subfield code="x">06</subfield>
+            </datafield>
+            <datafield tag="209G" occurrence="01" fulltag="209G/01">
+               <subfield code="a">Lizenziert für die Universität Frankfurt am Main</subfield>
+               <subfield code="x">01</subfield>
+            </datafield>
+            <datafield tag="209S" occurrence="01" fulltag="209S/01">
+               <subfield code="u">https://doi.org/10.5771/9783748921929</subfield>
+               <subfield code="X">XL</subfield>
+            </datafield>
+            <datafield tag="220C" occurrence="01" fulltag="220C/01">
+               <subfield code="a">Nomos Paket Zivilrecht 2020</subfield>
+            </datafield>
+            <datafield tag="247C" occurrence="01" fulltag="247C/01">
+               <subfield code="9">210502010</subfield>
+               <subfield code="8">601900-6 &lt;30/900&gt;Frankfurt, Universität Frankfurt, Elektronische Ressourcen</subfield>
+            </datafield>
+         </item>
+      </original>
+      <instance>
+         <source>hebis</source>
+         <hrid>474839737</hrid>
+         <statusUpdatedDate>2021-01-18</statusUpdatedDate>
+         <statusId>Autopsie</statusId>
+         <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
+         <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
+         <instanceFormatIds>
+            <arr>
+               <i>f5e8210f-7640-459b-a71f-552567f92369</i>
+            </arr>
+         </instanceFormatIds>
+         <identifiers>
+            <arr>
+               <i>
+                  <value>474839737</value>
+                  <identifierTypeId>PPN</identifierTypeId>
+               </i>
+               <i>
+                  <value>1231717408</value>
+                  <identifierTypeId>OCLC</identifierTypeId>
+               </i>
+               <i>
+                  <value>978-3-7489-2192-9</value>
+                  <identifierTypeId>ISBN</identifierTypeId>
+               </i>
+               <i>
+                  <value>978-3-8487-7787-7</value>
+                  <identifierTypeId>ISBN einer Manifestation in anderer physischer Form</identifierTypeId>
+               </i>
+               <i>
+                  <value>HEB: 474839737</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
+               </i>
+               <i>
+                  <value>ZDB-1-NBR</value>
+                  <identifierTypeId>Produktsigel für Pakete von Online-Ressourcen</identifierTypeId>
+               </i>
+               <i>
+                  <value>ZDB-1-NOL</value>
+                  <identifierTypeId>Produktsigel für Pakete von Online-Ressourcen</identifierTypeId>
+               </i>
+               <i>
+                  <value>ZDB-18-NOL</value>
+                  <identifierTypeId>Produktsigel für Pakete von Online-Ressourcen</identifierTypeId>
+               </i>
+            </arr>
+         </identifiers>
+         <indexTitle>elektronische Person Entwurf eines Zurechnungs- und Haftungssubjekts für den Einsatz autonomer Systeme im Rechtsverkehr Cornelius Kleinert</indexTitle>
+         <title>Die elektronische Person : Entwurf eines Zurechnungs- und Haftungssubjekts für den Einsatz autonomer Systeme im Rechtsverkehr / Cornelius Kleinert</title>
+         <contributors>
+            <arr>
+               <i>
+                  <name>Kleinert, Cornelius [Tnd]</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <primary>true</primary>
+                  <contributorTypeId>aut</contributorTypeId>
+                  <contributorTypeText>Verfasser</contributorTypeText>
+               </i>
+            </arr>
+         </contributors>
+         <publication>
+            <arr>
+               <i>
+                  <place>Baden-Baden</place>
+                  <publisher>Nomos</publisher>
+                  <dateOfPublication>2021</dateOfPublication>
+                  <role>Publisher</role>
+               </i>
+               <i>
+                  <place>Baden-Baden</place>
+                  <publisher>Nomos Verlagsgesellschaft mbH &amp; Co. KG</publisher>
+                  <dateOfPublication>2021</dateOfPublication>
+                  <role>Distributor</role>
+               </i>
+            </arr>
+         </publication>
+         <electronicAccess>
+            <arr>
+               <i>
+                  <uri>https://www.nomos-elibrary.de/10.5771/9783748921929/die-elektronische-person</uri>
+                  <relationshipId>f5d0068e-6272-458e-8a81-b85e7b9a14aa</relationshipId>
+               </i>
+               <i>
+                  <uri>https://doi.org/10.5771/9783748921929</uri>
+                  <relationshipId>f5d0068e-6272-458e-8a81-b85e7b9a14aa</relationshipId>
+               </i>
+            </arr>
+         </electronicAccess>
+         <natureOfContentTermIds>
+            <arr>
+               <i/>
+            </arr>
+         </natureOfContentTermIds>
+         <languages>
+            <arr>
+               <i>ger</i>
+            </arr>
+         </languages>
+         <series>
+            <arr>
+               <i>Der @Elektronische Rechtsverkehr</i>
+            </arr>
+         </series>
+         <physicalDescriptions>
+            <arr>
+               <i>1 Online-Ressource</i>
+            </arr>
+         </physicalDescriptions>
+         <editions>
+            <arr>
+               <i>1. Auflage</i>
+            </arr>
+         </editions>
+      </instance>
+      <processing>
+         <item>
+            <status>
+               <policy>retain</policy>
+            </status>
+         </item>
+      </processing>
+      <holdingsRecords>
+         <arr>
+            <i>
+               <hrid>1137005297</hrid>
+               <permanentLocationId>ONLINE</permanentLocationId>
+               <holdingsTypeId>electronic</holdingsTypeId>
+               <holdingsStatements/>
+               <sourceId>hebis</sourceId>
+               <electronicAccess>
+                  <arr>
+                     <i>
+                        <uri>https://doi.org/10.5771/9783748921929</uri>
+                     </i>
+                  </arr>
+               </electronicAccess>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>502</i>
+                     <i>562</i>
+                  </arr>
+               </statisticalCodeIds>
+            </i>
+         </arr>
+      </holdingsRecords>
+   </record>
+   <record>
+      <original>
+         <datafield tag="001@" fulltag="001@">
+            <subfield code="0">3,5,8,10-11,23,69,205</subfield>
+         </datafield>
+         <datafield tag="001A" fulltag="001A">
+            <subfield code="0">0034:09-04-09</subfield>
+         </datafield>
+         <datafield tag="001B" fulltag="001B">
+            <subfield code="0">1999:13-08-17</subfield>
+            <subfield code="t">16:29:21.000</subfield>
+         </datafield>
+         <datafield tag="001C" fulltag="001C">
+            <subfield code="0">3047:17-06-10</subfield>
+            <subfield code="t">14:12:23.000</subfield>
+         </datafield>
+         <datafield tag="001D" fulltag="001D">
+            <subfield code="0">0034:21-04-09</subfield>
+         </datafield>
+         <datafield tag="001U" fulltag="001U">
+            <subfield code="0">utf8</subfield>
+         </datafield>
+         <datafield tag="001X" fulltag="001X">
+            <subfield code="0">0</subfield>
+         </datafield>
+         <datafield tag="002@" fulltag="002@">
+            <subfield code="0">Aau</subfield>
+         </datafield>
+         <datafield tag="003@" fulltag="003@">
+            <subfield code="0">211350931</subfield>
+         </datafield>
+         <datafield tag="003O" fulltag="003O">
+            <subfield code="a">OCoLC</subfield>
+            <subfield code="0">316295712</subfield>
+         </datafield>
+         <datafield tag="004A" fulltag="004A">
+            <subfield code="A">978-3-7799-2137-0</subfield>
+            <subfield code="f">Ringb. : ca. sfr 70.90 (freier Pr.), ca. EUR 42.00</subfield>
+         </datafield>
+         <datafield tag="004K" fulltag="004K">
+            <subfield code="0">9783779921370</subfield>
+         </datafield>
+         <datafield tag="006G" fulltag="006G">
+            <subfield code="0">991499360</subfield>
+         </datafield>
+         <datafield tag="006T" fulltag="006T">
+            <subfield code="0">08,N51,0995</subfield>
+         </datafield>
+         <datafield tag="006U" fulltag="006U">
+            <subfield code="0">09,A37,0680</subfield>
+            <subfield code="f">20081128</subfield>
+         </datafield>
+         <datafield tag="007A" fulltag="007A">
+            <subfield code="a">HEB</subfield>
+            <subfield code="0">211350931</subfield>
+         </datafield>
+         <datafield tag="007G" fulltag="007G">
+            <subfield code="0">DE004F0ED5CC4B0AD5548C125765D005137FD</subfield>
+         </datafield>
+         <datafield tag="009P" fulltag="009P">
+            <subfield code="q">text/html</subfield>
+            <subfield code="u">http://deposit.d-nb.de/cgi-bin/dokserv?id=3184295&amp;prov=M&amp;dok_var=1&amp;dok_ext=htm</subfield>
+            <subfield code="3">Inhaltstext</subfield>
+            <subfield code="A">2</subfield>
+         </datafield>
+         <datafield tag="009P" fulltag="009P">
+            <subfield code="m">V:DE-603;B:DE-17</subfield>
+            <subfield code="q">application/pdf</subfield>
+            <subfield code="u">http://scans.hebis.de/HEBCGI/show.pl?21135093_toc.pdf</subfield>
+            <subfield code="3">Inhaltsverzeichnis</subfield>
+            <subfield code="A">2</subfield>
+         </datafield>
+         <datafield tag="010@" fulltag="010@">
+            <subfield code="a">ger</subfield>
+         </datafield>
+         <datafield tag="011@" fulltag="011@">
+            <subfield code="a">2009</subfield>
+            <subfield code="n">2009</subfield>
+         </datafield>
+         <datafield tag="021A" fulltag="021A">
+            <subfield code="a">Kompetenztraining "Pädagogik der Vielfalt"</subfield>
+            <subfield code="d">Grundlagen und Praxismaterialien zu Differenzverhältnissen, Selbstreflexion und Anerkennung</subfield>
+            <subfield code="h">Uwe Sielert ...</subfield>
+         </datafield>
+         <datafield tag="028C" fulltag="028C">
+            <subfield code="9">153507098</subfield>
+            <subfield code="8">Sielert, Uwe 1949- [Tp1]</subfield>
+         </datafield>
+         <datafield tag="033A" fulltag="033A">
+            <subfield code="p">Weinheim {[u.a.]</subfield>
+            <subfield code="n">Juventa</subfield>
+         </datafield>
+         <datafield tag="034D" fulltag="034D">
+            <subfield code="a">261 S.</subfield>
+         </datafield>
+         <datafield tag="034M" fulltag="034M">
+            <subfield code="a">graph. Darst.</subfield>
+         </datafield>
+         <datafield tag="036G" fulltag="036G">
+            <subfield code="a">Pädagogisches Training</subfield>
+         </datafield>
+         <datafield tag="041A" fulltag="041A">
+            <subfield code="9">085124370</subfield>
+            <subfield code="8">Pädagogik [Ts1]</subfield>
+         </datafield>
+         <datafield tag="041A" occurrence="01" fulltag="041A/01">
+            <subfield code="9">086017756</subfield>
+            <subfield code="8">Heterogenität [Ts1]</subfield>
+         </datafield>
+         <datafield tag="041A" occurrence="02" fulltag="041A/02">
+            <subfield code="a">f Lehrbuch</subfield>
+         </datafield>
+         <datafield tag="044N" fulltag="044N">
+            <subfield code="a">Baustein, Blatt, Didaktik</subfield>
+         </datafield>
+         <datafield tag="045E" fulltag="045E">
+            <subfield code="c">370</subfield>
+         </datafield>
+         <datafield tag="045F" fulltag="045F">
+            <subfield code="e">DDC22ger</subfield>
+            <subfield code="a">370.1</subfield>
+         </datafield>
+         <datafield tag="045F" occurrence="01" fulltag="045F/01">
+            <subfield code="a">370.1</subfield>
+         </datafield>
+         <datafield tag="045Z" fulltag="045Z">
+            <subfield code="9">407702040</subfield>
+            <subfield code="8">DP 1800 [Tkv]</subfield>
+         </datafield>
+         <datafield tag="045Z" fulltag="045Z">
+            <subfield code="9">407706445</subfield>
+            <subfield code="8">DP 6100 [Tkv]</subfield>
+         </datafield>
+         <datafield tag="045Z" fulltag="045Z">
+            <subfield code="9">407706453</subfield>
+            <subfield code="8">DP 6110 [Tkv]</subfield>
+         </datafield>
+         <datafield tag="046M" fulltag="046M">
+            <subfield code="a">Literaturverz. S. 257 - 261</subfield>
+         </datafield>
+         <datafield tag="101B" fulltag="101B">
+            <subfield code="0">13-01-10</subfield>
+            <subfield code="t">13:58:31.000</subfield>
+         </datafield>
+         <datafield tag="101C" fulltag="101C">
+            <subfield code="0">13-01-10</subfield>
+         </datafield>
+         <datafield tag="101U" fulltag="101U">
+            <subfield code="0">utf8</subfield>
+         </datafield>
+         <datafield tag="145S" occurrence="01" fulltag="145S/01">
+            <subfield code="a">005</subfield>
+         </datafield>
+         <item epn="582013216">
+            <datafield tag="208@" occurrence="01" fulltag="208@/01">
+               <subfield code="a">24-09-09</subfield>
+               <subfield code="b">zCe</subfield>
+            </datafield>
+            <datafield tag="201B" occurrence="01" fulltag="201B/01">
+               <subfield code="0">27-10-17</subfield>
+               <subfield code="t">14:52:04.000</subfield>
+            </datafield>
+            <datafield tag="201C" occurrence="01" fulltag="201C/01">
+               <subfield code="0">24-09-09</subfield>
+            </datafield>
+            <datafield tag="201U" occurrence="01" fulltag="201U/01">
+               <subfield code="0">utf8</subfield>
+            </datafield>
+            <datafield tag="203@" occurrence="01" fulltag="203@/01">
+               <subfield code="0">582013216</subfield>
+            </datafield>
+            <datafield tag="209A" occurrence="01" fulltag="209A/01">
+               <subfield code="a">42/T 10.475</subfield>
+               <subfield code="f">006</subfield>
+               <subfield code="d">b</subfield>
+               <subfield code="h">42 T 10475</subfield>
+               <subfield code="x">00</subfield>
+            </datafield>
+            <datafield tag="209A" occurrence="01" fulltag="209A/01">
+               <subfield code="a">Testsammlung</subfield>
+               <subfield code="x">02</subfield>
+            </datafield>
+            <datafield tag="209G" occurrence="01" fulltag="209G/01">
+               <subfield code="a">2003246358</subfield>
+               <subfield code="x">00</subfield>
+            </datafield>
+            <datafield tag="209G" occurrence="01" fulltag="209G/01">
+               <subfield code="a">Testarchiv</subfield>
+               <subfield code="x">01</subfield>
+            </datafield>
+            <datafield tag="237A" occurrence="01" fulltag="237A/01">
+               <subfield code="a">Ausleihe nur an berechtigte Personen. - Bitte beachten Sie die gesonderten Öffnungszeiten und Ausleihbedingungen der Testsammlung</subfield>
+            </datafield>
+            <datafield tag="247C" occurrence="01" fulltag="247C/01">
+               <subfield code="9">313751838</subfield>
+               <subfield code="8">601006-4 &lt;30/6&gt;Frankfurt, Universitätsbibliothek J. C. Senckenberg, Bibliothek Sozialwissenschaften und Psychologie (BSP)</subfield>
+            </datafield>
+         </item>
+      </original>
+      <instance>
+         <source>hebis</source>
+         <hrid>211350931</hrid>
+         <statusUpdatedDate>2009-04-21</statusUpdatedDate>
+         <statusId>Autopsie</statusId>
+         <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
+         <instanceTypeId>a2c91e87-6bab-44d6-8adb-1fd02481fc4f</instanceTypeId>
+         <instanceFormatIds>
+            <arr/>
+         </instanceFormatIds>
+         <identifiers>
+            <arr>
+               <i>
+                  <value>211350931</value>
+                  <identifierTypeId>PPN</identifierTypeId>
+               </i>
+               <i>
+                  <value>316295712</value>
+                  <identifierTypeId>OCLC</identifierTypeId>
+               </i>
+               <i>
+                  <value>978-3-7799-2137-0 Ringb. : ca. sfr 70.90 (freier Pr.), ca. EUR 42.00</value>
+                  <identifierTypeId>ISBN</identifierTypeId>
+               </i>
+               <i>
+                  <value>9783779921370</value>
+                  <identifierTypeId>EAN</identifierTypeId>
+               </i>
+               <i>
+                  <value>991499360</value>
+                  <identifierTypeId>DNB-Nummer</identifierTypeId>
+               </i>
+               <i>
+                  <value>08,N51,0995</value>
+                  <identifierTypeId>CIP-Nummer</identifierTypeId>
+               </i>
+               <i>
+                  <value>09,A37,0680</value>
+                  <identifierTypeId>WV-Nummer</identifierTypeId>
+               </i>
+               <i>
+                  <value>HEB: 211350931</value>
+                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
+               </i>
+            </arr>
+         </identifiers>
+         <indexTitle>Kompetenztraining "Pädagogik der Vielfalt" Grundlagen und Praxismaterialien zu Differenzverhältnissen, Selbstreflexion und Anerkennung Uwe Sielert ...</indexTitle>
+         <title>Kompetenztraining "Pädagogik der Vielfalt" : Grundlagen und Praxismaterialien zu Differenzverhältnissen, Selbstreflexion und Anerkennung / Uwe Sielert ...</title>
+         <contributors>
+            <arr>
+               <i>
+                  <name>Sielert, Uwe 1949- [Tp1]</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+               </i>
+            </arr>
+         </contributors>
+         <publication>
+            <arr>
+               <i>
+                  <place>Weinheim {[u.a.]</place>
+                  <publisher>Juventa</publisher>
+                  <dateOfPublication>2009 (2009)</dateOfPublication>
+                  <role>Publisher</role>
+               </i>
+            </arr>
+         </publication>
+         <electronicAccess>
+            <arr/>
+         </electronicAccess>
+         <languages>
+            <arr>
+               <i>ger</i>
+            </arr>
+         </languages>
+         <physicalDescriptions>
+            <arr>
+               <i>261 S. : graph. Darst.</i>
+            </arr>
+         </physicalDescriptions>
+      </instance>
+      <processing>
+         <item>
+            <status>
+               <policy>retain</policy>
+            </status>
+         </item>
+      </processing>
+      <holdingsRecords>
+         <arr>
+            <i>
+               <hrid>582013216</hrid>
+               <permanentLocationId>BSPTST</permanentLocationId>
+               <callNumber>42/T 10.475</callNumber>
+               <holdingsTypeId>physical</holdingsTypeId>
+               <holdingsStatements/>
+               <sourceId>hebis</sourceId>
+               <items>
+                  <arr>
+                     <i>
+                        <hrid>582013216</hrid>
+                        <materialTypeId>Druckschrift</materialTypeId>
+                        <permanentLoanTypeId>1 b Kurzausleihe</permanentLoanTypeId>
+                        <status>
+                           <name>Available</name>
+                        </status>
+                        <itemLevelCallNumber>42/T 10.475</itemLevelCallNumber>
+                        <barcode>2003246358</barcode>
+                        <copyNumber/>
+                        <volume/>
+                        <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>Ausleihe nur an berechtigte Personen. - Bitte beachten Sie die gesonderten Öffnungszeiten und Ausleihbedingungen der Testsammlung</note>
+                                 <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
+                        <accessionNumber/>
+                        <discoverySuppress>false</discoverySuppress>
+                     </i>
+                  </arr>
+               </items>
+               <statisticalCodeIds>
+                  <arr/>
+               </statisticalCodeIds>
+            </i>
+         </arr>
+      </holdingsRecords>
+   </record>
+</collection>
