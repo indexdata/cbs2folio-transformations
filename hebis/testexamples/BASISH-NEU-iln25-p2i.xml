@@ -127,7 +127,7 @@
          </item>
       </original>
       <instance>
-         <source>K10plus</source>
+         <source>hebis</source>
          <hrid>433828692</hrid>
          <statusUpdatedDate>2018-07-19</statusUpdatedDate>
          <statusId>Bibliografisch vollständig</statusId>
@@ -374,7 +374,7 @@
          </item>
       </original>
       <instance>
-         <source>K10plus</source>
+         <source>hebis</source>
          <hrid>226193802</hrid>
          <statusUpdatedDate>2010-08-19</statusUpdatedDate>
          <statusId>Autopsie</statusId>
@@ -486,6 +486,11 @@
                                  <note>OUF-Test 21-08-09; 15:45</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -671,7 +676,7 @@
          </item>
       </original>
       <instance>
-         <source>K10plus</source>
+         <source>hebis</source>
          <hrid>460686119</hrid>
          <statusUpdatedDate>2020-03-18</statusUpdatedDate>
          <statusId>Autopsie</statusId>
@@ -805,6 +810,11 @@
                                  <note>OUF-Test 21-08-09; 15:47</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -944,7 +954,7 @@
          </item>
       </original>
       <instance>
-         <source>K10plus</source>
+         <source>hebis</source>
          <hrid>104122676</hrid>
          <statusUpdatedDate>2002-04-08</statusUpdatedDate>
          <statusId>Katalogisat ohne Autopsie</statusId>
@@ -1050,6 +1060,11 @@
                                  <note>OUF-Test 21-08-09; 15:46</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -1161,7 +1176,7 @@
          </item>
       </original>
       <instance>
-         <source>K10plus</source>
+         <source>hebis</source>
          <hrid>26703895X</hrid>
          <statusUpdatedDate>2011-06-16</statusUpdatedDate>
          <statusId>Fremddatensatz</statusId>
@@ -1254,6 +1269,11 @@
                                  <note>OUF-Test 21-08-03; 12:21</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -1408,7 +1428,7 @@
          </item>
       </original>
       <instance>
-         <source>K10plus</source>
+         <source>hebis</source>
          <hrid>470182903</hrid>
          <statusUpdatedDate>2020-10-07</statusUpdatedDate>
          <statusId>Bibliografisch vollständig</statusId>
@@ -1679,7 +1699,7 @@
          </item>
       </original>
       <instance>
-         <source>K10plus</source>
+         <source>hebis</source>
          <hrid>47648104X</hrid>
          <statusUpdatedDate>2021-03-04</statusUpdatedDate>
          <statusId>Fremddatensatz</statusId>
@@ -2346,7 +2366,7 @@
          </item>
       </original>
       <instance>
-         <source>K10plus</source>
+         <source>hebis</source>
          <hrid>107596806</hrid>
          <statusUpdatedDate>2002-10-11</statusUpdatedDate>
          <statusId>Autopsie</statusId>
@@ -2422,7 +2442,7 @@
                   <provisionalInstance>
                      <title/>
                      <instanceTypeId>a2c91e87-6bab-44d6-8adb-1fd02481fc4f</instanceTypeId>
-                     <source>K10plus</source>
+                     <source>hebis</source>
                   </provisionalInstance>
                   <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
                </i>
@@ -2459,6 +2479,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber>02/4910</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -2491,6 +2520,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -2523,6 +2561,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber>371 GK</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -2562,6 +2609,16 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
+                              <i>
+                                 <note>!01901!</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber>02/759</accessionNumber>
@@ -2597,6 +2654,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber>2002/857</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -2629,6 +2695,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber>09/1328 Germanistik</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -2661,6 +2736,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber>02/375</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -2693,6 +2777,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber>58026</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -2725,6 +2818,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber>ZP02 10/134-1</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -2757,6 +2859,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber>05/300-4</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -3308,7 +3419,7 @@
          </item>
       </original>
       <instance>
-         <source>K10plus</source>
+         <source>hebis</source>
          <hrid>117469521</hrid>
          <statusUpdatedDate>2003-12-22</statusUpdatedDate>
          <statusId>Autopsie</statusId>
@@ -3376,7 +3487,7 @@
                   <provisionalInstance>
                      <title/>
                      <instanceTypeId>a2c91e87-6bab-44d6-8adb-1fd02481fc4f</instanceTypeId>
-                     <source>K10plus</source>
+                     <source>hebis</source>
                   </provisionalInstance>
                   <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
                </i>
@@ -3413,6 +3524,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber>04/69</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -3445,6 +3565,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -3477,6 +3606,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber>372 GK</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -3516,6 +3654,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber>04/18</accessionNumber>
@@ -3550,6 +3693,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber>2004/13</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -3582,6 +3734,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber>09/1328 Germanistik</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -3614,6 +3775,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber>04/9</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -3646,6 +3816,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber>58026</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -3678,6 +3857,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber>ZP02 10/134-1</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -3710,6 +3898,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber>05/300-5</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -3843,7 +4040,7 @@
          </item>
       </original>
       <instance>
-         <source>K10plus</source>
+         <source>hebis</source>
          <hrid>469102136</hrid>
          <statusUpdatedDate>2020-09-10</statusUpdatedDate>
          <statusId>Bibliografisch vollständig</statusId>
@@ -3952,6 +4149,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology>2020</chronology>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -4161,7 +4367,7 @@
          </item>
       </original>
       <instance>
-         <source>K10plus</source>
+         <source>hebis</source>
          <hrid>054126797</hrid>
          <statusId>Autopsie</statusId>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
@@ -4230,7 +4436,7 @@
                   <provisionalInstance>
                      <title/>
                      <instanceTypeId>a2c91e87-6bab-44d6-8adb-1fd02481fc4f</instanceTypeId>
-                     <source>K10plus</source>
+                     <source>hebis</source>
                   </provisionalInstance>
                   <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
                </i>
@@ -4279,6 +4485,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -4320,6 +4531,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber>1967/218</accessionNumber>
@@ -4360,6 +4576,11 @@
                                  <note>OUF-Test 21-08-09; 15:49</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -4914,7 +5135,7 @@
          </item>
       </original>
       <instance>
-         <source>K10plus</source>
+         <source>hebis</source>
          <hrid>128013710</hrid>
          <statusUpdatedDate>2005-04-21</statusUpdatedDate>
          <statusId>Autopsie</statusId>
@@ -4982,7 +5203,7 @@
                   <provisionalInstance>
                      <title/>
                      <instanceTypeId>a2c91e87-6bab-44d6-8adb-1fd02481fc4f</instanceTypeId>
-                     <source>K10plus</source>
+                     <source>hebis</source>
                   </provisionalInstance>
                   <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
                </i>
@@ -5019,6 +5240,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber>05/1431</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -5051,6 +5281,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber>2005/169</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -5083,6 +5322,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber>395 GK</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -5122,6 +5370,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber>05/300</accessionNumber>
@@ -5156,6 +5409,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber>2005/284</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -5188,6 +5450,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber>09/1328 Germanistik</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -5220,6 +5491,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber>05/88</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -5252,6 +5532,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber>58196</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -5284,6 +5573,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber>ZP02 10/134-1</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -5316,6 +5614,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber>05/300-6</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -5600,7 +5907,7 @@
          </item>
       </original>
       <instance>
-         <source>K10plus</source>
+         <source>hebis</source>
          <hrid>475634225</hrid>
          <statusUpdatedDate>2021-02-09</statusUpdatedDate>
          <statusId>Fremddatensatz</statusId>
@@ -6020,7 +6327,7 @@
          </item>
       </original>
       <instance>
-         <source>K10plus</source>
+         <source>hebis</source>
          <hrid>129615552</hrid>
          <statusUpdatedDate>2019-08-13</statusUpdatedDate>
          <statusId>Autopsie</statusId>
@@ -6112,6 +6419,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber>1964/483</accessionNumber>
@@ -6152,6 +6464,11 @@
                                  <note>OUF-Test 21-08-09; 15:48</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -6289,7 +6606,7 @@
          </item>
       </original>
       <instance>
-         <source>K10plus</source>
+         <source>hebis</source>
          <hrid>476202744</hrid>
          <statusUpdatedDate>2021-03-02</statusUpdatedDate>
          <statusId>Fremddatensatz</statusId>
@@ -6533,7 +6850,7 @@
          </item>
       </original>
       <instance>
-         <source>K10plus</source>
+         <source>hebis</source>
          <hrid>476012996</hrid>
          <statusUpdatedDate>2021-02-24</statusUpdatedDate>
          <statusId>Bibliografisch vollständig</statusId>
@@ -6783,7 +7100,7 @@
          </item>
       </original>
       <instance>
-         <source>K10plus</source>
+         <source>hebis</source>
          <hrid>469849312</hrid>
          <statusUpdatedDate>2021-01-18</statusUpdatedDate>
          <statusId>Autopsie</statusId>
@@ -6892,6 +7209,11 @@
                                  <note>OUF-Test 21-08-09; 15:58</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -7045,7 +7367,7 @@
          </item>
       </original>
       <instance>
-         <source>K10plus</source>
+         <source>hebis</source>
          <hrid>455732515</hrid>
          <statusUpdatedDate>2019-11-18</statusUpdatedDate>
          <statusId>Autopsie</statusId>
@@ -7162,6 +7484,11 @@
                                  <note>OUF-Test 21-08-06</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -7310,7 +7637,7 @@
          </item>
       </original>
       <instance>
-         <source>K10plus</source>
+         <source>hebis</source>
          <hrid>280217374</hrid>
          <statusUpdatedDate>2019-10-07</statusUpdatedDate>
          <statusId>Autopsie</statusId>
@@ -7437,6 +7764,11 @@
                                  <note>OUF-Test 21-08-06</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -7611,7 +7943,7 @@
          </item>
       </original>
       <instance>
-         <source>K10plus</source>
+         <source>hebis</source>
          <hrid>425001725</hrid>
          <statusUpdatedDate>2018-01-18</statusUpdatedDate>
          <statusId>Autopsie</statusId>
@@ -7681,7 +8013,7 @@
                   <provisionalInstance>
                      <title/>
                      <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
-                     <source>K10plus</source>
+                     <source>hebis</source>
                   </provisionalInstance>
                   <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
                </i>
@@ -7729,6 +8061,11 @@
                                  <note>OUF-Test 21-08-09; 15:53</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -7974,7 +8311,7 @@
          </item>
       </original>
       <instance>
-         <source>K10plus</source>
+         <source>hebis</source>
          <hrid>475628594</hrid>
          <statusUpdatedDate>2021-02-09</statusUpdatedDate>
          <statusId>Fremddatensatz</statusId>
@@ -8305,7 +8642,7 @@
          </item>
       </original>
       <instance>
-         <source>K10plus</source>
+         <source>hebis</source>
          <hrid>212094157</hrid>
          <statusUpdatedDate>2009-05-08</statusUpdatedDate>
          <statusId>Fremddatensatz</statusId>
@@ -8393,6 +8730,11 @@
                                  <note>OUF-Test 21-08-03; 12:17</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -8624,7 +8966,7 @@
          </item>
       </original>
       <instance>
-         <source>K10plus</source>
+         <source>hebis</source>
          <hrid>475748506</hrid>
          <statusUpdatedDate>2021-03-02</statusUpdatedDate>
          <statusId>Autopsie</statusId>
@@ -8666,11 +9008,11 @@
                   <identifierTypeId>DNB-Nummer</identifierTypeId>
                </i>
                <i>
-                  <value>1681822725</value>
+                  <value>KXP: 1681822725</value>
                   <identifierTypeId>Weitere Verbundidentnummern</identifierTypeId>
                </i>
                <i>
-                  <value>119894997X</value>
+                  <value>DNB: 119894997X</value>
                   <identifierTypeId>Weitere Verbundidentnummern</identifierTypeId>
                </i>
                <i>
@@ -8763,6 +9105,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -8797,6 +9144,15 @@
                         <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -8812,6 +9168,15 @@
                         <copyNumber>2</copyNumber>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -8827,6 +9192,15 @@
                         <copyNumber>3</copyNumber>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -8982,7 +9356,7 @@
          </item>
       </original>
       <instance>
-         <source>K10plus</source>
+         <source>hebis</source>
          <hrid>461064030</hrid>
          <statusUpdatedDate>2020-03-16</statusUpdatedDate>
          <statusId>Bibliografisch vollständig</statusId>
@@ -9034,7 +9408,7 @@
                   <alternativeTitleTypeId>Other title</alternativeTitleTypeId>
                </i>
                <i>
-                  <alternativeTitle>On / Hannover</alternativeTitle>
+                  <alternativeTitle>On (Hannover)</alternativeTitle>
                   <alternativeTitleTypeId>Uniform title</alternativeTitleTypeId>
                </i>
             </arr>
@@ -9091,7 +9465,7 @@
                   <provisionalInstance>
                      <title/>
                      <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
-                     <source>K10plus</source>
+                     <source>hebis</source>
                   </provisionalInstance>
                </i>
             </arr>
@@ -9133,6 +9507,15 @@
                         <copyNumber/>
                         <volume>30</volume>
                         <chronology>2020</chronology>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber>ACQ</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -9254,7 +9637,7 @@
          </item>
       </original>
       <instance>
-         <source>K10plus</source>
+         <source>hebis</source>
          <hrid>466731876</hrid>
          <statusUpdatedDate>2020-07-09</statusUpdatedDate>
          <statusId>Fremddatensatz</statusId>
@@ -9607,7 +9990,7 @@
          </item>
       </original>
       <instance>
-         <source>K10plus</source>
+         <source>hebis</source>
          <hrid>469695277</hrid>
          <statusUpdatedDate>2020-10-09</statusUpdatedDate>
          <statusId>Autopsie</statusId>
@@ -9753,6 +10136,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -9794,6 +10182,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -9817,6 +10210,11 @@
                                  <note>OUF-Test 21-08-09; 15:37</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -9842,6 +10240,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -9866,6 +10269,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -9889,6 +10297,11 @@
                                  <note>OUF-Test 21-08-09; 15:37</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -10035,7 +10448,7 @@
          </item>
       </original>
       <instance>
-         <source>K10plus</source>
+         <source>hebis</source>
          <hrid>052746585</hrid>
          <statusId>Autopsie</statusId>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
@@ -10156,6 +10569,11 @@
                                  <note>OUF-Test 21-08-03; 12:07</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -10378,7 +10796,7 @@
          </item>
       </original>
       <instance>
-         <source>K10plus</source>
+         <source>hebis</source>
          <hrid>440742811</hrid>
          <statusUpdatedDate>2019-04-12</statusUpdatedDate>
          <statusId>Autopsie</statusId>
@@ -10510,6 +10928,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -10534,6 +10957,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -10557,6 +10985,11 @@
                                  <note>OUF-Test 21-08-09; 15:52</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -10603,6 +11036,16 @@
                                  <note>OUF-Test 21-08-09; 15:52</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>01810</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -10752,7 +11195,7 @@
          </item>
       </original>
       <instance>
-         <source>K10plus</source>
+         <source>hebis</source>
          <hrid>401737489</hrid>
          <statusUpdatedDate>2017-04-07</statusUpdatedDate>
          <statusId>Autopsie</statusId>
@@ -10843,7 +11286,7 @@
                   <provisionalInstance>
                      <title/>
                      <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
-                     <source>K10plus</source>
+                     <source>hebis</source>
                   </provisionalInstance>
                   <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
                </i>
@@ -10886,6 +11329,11 @@
                                  <note>OUF-Test 21-08-06</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -11043,7 +11491,7 @@
          </item>
       </original>
       <instance>
-         <source>K10plus</source>
+         <source>hebis</source>
          <hrid>438450574</hrid>
          <statusUpdatedDate>2018-11-05</statusUpdatedDate>
          <statusId>Autopsie</statusId>
@@ -11165,6 +11613,11 @@
                                  <note>OUF-Test 21-08-09; 15:50</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -11307,7 +11760,7 @@
          </item>
       </original>
       <instance>
-         <source>K10plus</source>
+         <source>hebis</source>
          <hrid>204418348</hrid>
          <statusUpdatedDate>2008-10-08</statusUpdatedDate>
          <statusId>Autopsie</statusId>
@@ -11343,7 +11796,7 @@
                   <identifierTypeId>DNB-Nummer</identifierTypeId>
                </i>
                <i>
-                  <value>987419269</value>
+                  <value>DNB: 987419269</value>
                   <identifierTypeId>Weitere Verbundidentnummern</identifierTypeId>
                </i>
                <i>
@@ -11426,6 +11879,16 @@
                                  <note>OUF-Test 21-08-09; 15:59</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>00509</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -11619,7 +12082,7 @@
          </item>
       </original>
       <instance>
-         <source>K10plus</source>
+         <source>hebis</source>
          <hrid>466221029</hrid>
          <statusUpdatedDate>2020-07-02</statusUpdatedDate>
          <statusId>Bibliografisch vollständig</statusId>
@@ -11708,7 +12171,7 @@
                   <provisionalInstance>
                      <title/>
                      <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
-                     <source>K10plus</source>
+                     <source>hebis</source>
                   </provisionalInstance>
                </i>
                <i>
@@ -11718,7 +12181,7 @@
                   <provisionalInstance>
                      <title/>
                      <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
-                     <source>K10plus</source>
+                     <source>hebis</source>
                   </provisionalInstance>
                </i>
             </arr>
@@ -11760,6 +12223,15 @@
                         <copyNumber/>
                         <volume>487</volume>
                         <chronology>2020</chronology>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -11798,6 +12270,15 @@
                         <copyNumber/>
                         <volume>487</volume>
                         <chronology>2020</chronology>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -12237,7 +12718,7 @@
          </item>
       </original>
       <instance>
-         <source>K10plus</source>
+         <source>hebis</source>
          <hrid>36409513X</hrid>
          <statusUpdatedDate>2015-10-08</statusUpdatedDate>
          <statusId>Autopsie</statusId>
@@ -12338,7 +12819,7 @@
                   <provisionalInstance>
                      <title/>
                      <instanceTypeId>a2c91e87-6bab-44d6-8adb-1fd02481fc4f</instanceTypeId>
-                     <source>K10plus</source>
+                     <source>hebis</source>
                   </provisionalInstance>
                   <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
                </i>
@@ -12382,6 +12863,16 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>00020</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -12405,6 +12896,16 @@
                                  <note>OUF-Test 21-08-09; 16:00</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>00020</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -12430,6 +12931,16 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>00020</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -12453,6 +12964,16 @@
                                  <note>OUF-Test 21-08-09; 16:00</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>00020</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -12478,6 +12999,16 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>00020</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -12501,6 +13032,16 @@
                                  <note>OUF-Test 21-08-09; 16:00</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>00020</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -12526,6 +13067,16 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>00020</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -12549,6 +13100,16 @@
                                  <note>OUF-Test 21-08-09; 16:00</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>00020</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -12574,6 +13135,16 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>00020</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -12597,6 +13168,16 @@
                                  <note>OUF-Test 21-08-09; 16:00</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>00020</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -12622,6 +13203,16 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>00020</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -12645,6 +13236,16 @@
                                  <note>OUF-Test 21-08-09; 16:00</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>00020</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -12670,6 +13271,16 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>00020</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -12693,6 +13304,16 @@
                                  <note>OUF-Test 21-08-09; 16:00</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>00020</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -12718,6 +13339,16 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>00020</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -12741,6 +13372,16 @@
                                  <note>OUF-Test 21-08-09; 16:00</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>00020</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -12766,6 +13407,16 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>00020</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -12789,6 +13440,16 @@
                                  <note>OUF-Test 21-08-09; 16:00</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>00020</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -12814,6 +13475,16 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>00020</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -12837,6 +13508,16 @@
                                  <note>OUF-Test 21-08-09; 16:00</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>00020</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -12862,6 +13543,16 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>00020</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -12885,6 +13576,16 @@
                                  <note>OUF-Test 21-08-09; 16:00</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>00020</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -12910,6 +13611,16 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>00020</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -12933,6 +13644,16 @@
                                  <note>OUF-Test 21-08-09; 16:00</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>00020</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -12958,6 +13679,16 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>00020</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -12981,6 +13712,16 @@
                                  <note>OUF-Test 21-08-09; 16:00</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>00020</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -13006,6 +13747,16 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>00020</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -13029,6 +13780,16 @@
                                  <note>OUF-Test 21-08-09; 16:00</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>00020</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -13054,6 +13815,16 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>00020</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -13077,6 +13848,16 @@
                                  <note>OUF-Test 21-08-09; 16:00</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>00020</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -13102,6 +13883,16 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>00020</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -13125,6 +13916,16 @@
                                  <note>OUF-Test 21-08-09; 16:00</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>00020</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -13150,6 +13951,16 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>00020</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -13173,6 +13984,16 @@
                                  <note>OUF-Test 21-08-09; 16:00</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>00020</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -13198,6 +14019,16 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>00020</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -13221,6 +14052,16 @@
                                  <note>OUF-Test 21-08-09; 16:00</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>00020</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -13246,6 +14087,16 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>00020</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -13269,6 +14120,16 @@
                                  <note>OUF-Test 21-08-09; 16:00</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>00020</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -13294,6 +14155,16 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>00020</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -13317,6 +14188,16 @@
                                  <note>OUF-Test 21-08-09; 16:00</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>00020</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -13342,6 +14223,16 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>00020</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -13365,6 +14256,16 @@
                                  <note>OUF-Test 21-08-09; 16:00</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>00020</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -13390,6 +14291,16 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>00020</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -13414,6 +14325,16 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>00020</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -13437,6 +14358,16 @@
                                  <note>OUF-Test 21-08-09; 16:00</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>00020</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -13480,6 +14411,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber>15/2576-2</accessionNumber>
@@ -13520,6 +14456,16 @@
                                  <note>OUF-Test 21-08-09; 16:00</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>00020</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -14078,7 +15024,7 @@
          </item>
       </original>
       <instance>
-         <source>K10plus</source>
+         <source>hebis</source>
          <hrid>100778224</hrid>
          <statusUpdatedDate>2001-10-18</statusUpdatedDate>
          <statusId>Autopsie</statusId>
@@ -14146,7 +15092,7 @@
                   <provisionalInstance>
                      <title/>
                      <instanceTypeId>a2c91e87-6bab-44d6-8adb-1fd02481fc4f</instanceTypeId>
-                     <source>K10plus</source>
+                     <source>hebis</source>
                   </provisionalInstance>
                   <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
                </i>
@@ -14183,6 +15129,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber>01/4470</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -14215,6 +15170,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber>FW 2001/208</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -14247,6 +15211,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber>370 GK</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -14286,6 +15259,16 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
+                              <i>
+                                 <note>!01901!</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber>01/793</accessionNumber>
@@ -14321,6 +15304,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber>2001/871 </accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -14353,6 +15345,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber>09/1328 Germanistik</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -14385,6 +15386,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber>01/552</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -14417,6 +15427,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber>58026</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -14449,6 +15468,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber>ZP02 10/134-1</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -14481,6 +15509,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber>05/300-3</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -14581,7 +15618,7 @@
          </item>
       </original>
       <instance>
-         <source>K10plus</source>
+         <source>hebis</source>
          <hrid>093913974</hrid>
          <statusUpdatedDate>2000-10-12</statusUpdatedDate>
          <statusId>Autopsie</statusId>
@@ -14679,6 +15716,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -14860,7 +15906,7 @@
          </item>
       </original>
       <instance>
-         <source>K10plus</source>
+         <source>hebis</source>
          <hrid>454732422</hrid>
          <statusUpdatedDate>2020-02-03</statusUpdatedDate>
          <statusId>Autopsie</statusId>
@@ -14986,6 +16032,11 @@
                                  <note>OUF-Test 21-08-09; 15:44</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -15461,7 +16512,7 @@
          </item>
       </original>
       <instance>
-         <source>K10plus</source>
+         <source>hebis</source>
          <hrid>204418240</hrid>
          <statusUpdatedDate>2008-10-09</statusUpdatedDate>
          <statusId>Autopsie</statusId>
@@ -15489,7 +16540,7 @@
                   <identifierTypeId>DNB-Nummer</identifierTypeId>
                </i>
                <i>
-                  <value>989362337</value>
+                  <value>DNB: 989362337</value>
                   <identifierTypeId>Weitere Verbundidentnummern</identifierTypeId>
                </i>
                <i>
@@ -15579,6 +16630,16 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>00501</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber>08/ACQ</accessionNumber>
@@ -15621,6 +16682,16 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>00507</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -15644,6 +16715,16 @@
                                  <note>OUF-Test 21-08-09; 15:35</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>00507</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -15669,6 +16750,16 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>00507</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -15692,6 +16783,16 @@
                                  <note>OUF-Test 21-08-09; 15:35</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>00507</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -15717,6 +16818,16 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>00507</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -15740,6 +16851,16 @@
                                  <note>OUF-Test 21-08-09; 15:35</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>00507</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -15765,6 +16886,16 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>00507</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -15788,6 +16919,16 @@
                                  <note>OUF-Test 21-08-09; 15:35</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>00507</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -15813,6 +16954,16 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>00507</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -15836,6 +16987,16 @@
                                  <note>OUF-Test 21-08-09; 15:35</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>00507</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -15879,6 +17040,16 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>00507</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -15902,6 +17073,16 @@
                                  <note>OUF-Test 21-08-09; 15:35</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>00507</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -15927,6 +17108,16 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>00507</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -15950,6 +17141,16 @@
                                  <note>OUF-Test 21-08-09; 15:35</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>00507</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -15975,6 +17176,16 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>00507</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -15998,6 +17209,16 @@
                                  <note>OUF-Test 21-08-09; 15:35</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>00507</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -16023,6 +17244,16 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>00507</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -16046,6 +17277,16 @@
                                  <note>OUF-Test 21-08-09; 15:35</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>00507</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -16071,6 +17312,16 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>00507</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -16094,6 +17345,16 @@
                                  <note>OUF-Test 21-08-09; 15:35</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>00507</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -16130,6 +17391,20 @@
                         <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>00507</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -16145,6 +17420,20 @@
                         <copyNumber>2</copyNumber>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>00507</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -16160,6 +17449,20 @@
                         <copyNumber>3</copyNumber>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>00507</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -16175,6 +17478,20 @@
                         <copyNumber>4</copyNumber>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>00507</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -16190,6 +17507,20 @@
                         <copyNumber>5</copyNumber>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>00507</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -16205,6 +17536,20 @@
                         <copyNumber>6</copyNumber>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>00507</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -16220,6 +17565,20 @@
                         <copyNumber>7</copyNumber>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>00507</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -16235,6 +17594,20 @@
                         <copyNumber>8</copyNumber>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>00507</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -16250,6 +17623,20 @@
                         <copyNumber>9</copyNumber>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>00507</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -16265,6 +17652,20 @@
                         <copyNumber>10</copyNumber>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>00507</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -16298,6 +17699,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -16330,6 +17740,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -16536,7 +17955,7 @@
          </item>
       </original>
       <instance>
-         <source>K10plus</source>
+         <source>hebis</source>
          <hrid>442150539</hrid>
          <statusUpdatedDate>2019-08-02</statusUpdatedDate>
          <statusId>Autopsie</statusId>
@@ -16664,6 +18083,16 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>01650</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber>2019</accessionNumber>
@@ -16705,6 +18134,16 @@
                                  <note>OUF-Test 21-08-09; 15:50</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>01650</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -16809,7 +18248,7 @@
          </item>
       </original>
       <instance>
-         <source>K10plus</source>
+         <source>hebis</source>
          <hrid>480673772</hrid>
          <statusUpdatedDate>2021-07-21</statusUpdatedDate>
          <statusId>Fremddatensatz</statusId>
@@ -17001,7 +18440,7 @@
          </item>
       </original>
       <instance>
-         <source>K10plus</source>
+         <source>hebis</source>
          <hrid>024398136</hrid>
          <statusId>Fremddatensatz</statusId>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
@@ -17107,6 +18546,11 @@
                                  <note>OUF-Test 21-08-03; 12:15</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -17315,7 +18759,7 @@
          </item>
       </original>
       <instance>
-         <source>K10plus</source>
+         <source>hebis</source>
          <hrid>273361597</hrid>
          <statusUpdatedDate>2011-09-08</statusUpdatedDate>
          <statusId>Autopsie</statusId>
@@ -17446,6 +18890,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber>2011/280</accessionNumber>
@@ -17486,6 +18935,11 @@
                                  <note>OUF-Test 21-08-09; 15:36</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -18049,7 +19503,7 @@
          </item>
       </original>
       <instance>
-         <source>K10plus</source>
+         <source>hebis</source>
          <hrid>134552296</hrid>
          <statusUpdatedDate>2005-12-08</statusUpdatedDate>
          <statusId>Autopsie</statusId>
@@ -18121,7 +19575,7 @@
                   <provisionalInstance>
                      <title/>
                      <instanceTypeId>a2c91e87-6bab-44d6-8adb-1fd02481fc4f</instanceTypeId>
-                     <source>K10plus</source>
+                     <source>hebis</source>
                   </provisionalInstance>
                   <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
                </i>
@@ -18158,6 +19612,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber>05/6013</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -18190,6 +19653,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber>FWG 2006/12</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -18222,6 +19694,20 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>01750</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber>401 GRK</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -18262,6 +19748,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber>06/18</accessionNumber>
@@ -18296,6 +19787,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber>2005/889</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -18328,6 +19828,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber>09/1328 Germanistik</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -18360,6 +19869,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber>06/36</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -18392,6 +19910,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber>58596</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -18424,6 +19951,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber>ZP02 10/134-1</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -18456,6 +19992,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber>05/302</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -19006,7 +20551,7 @@
          </item>
       </original>
       <instance>
-         <source>K10plus</source>
+         <source>hebis</source>
          <hrid>095964088</hrid>
          <statusUpdatedDate>2001-02-20</statusUpdatedDate>
          <statusId>Autopsie</statusId>
@@ -19074,7 +20619,7 @@
                   <provisionalInstance>
                      <title/>
                      <instanceTypeId>a2c91e87-6bab-44d6-8adb-1fd02481fc4f</instanceTypeId>
-                     <source>K10plus</source>
+                     <source>hebis</source>
                   </provisionalInstance>
                   <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
                </i>
@@ -19111,6 +20656,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber>01/980</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -19143,6 +20697,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber>FW 2001/209</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -19175,6 +20738,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber>369 GK</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -19214,6 +20786,16 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
+                              <i>
+                                 <note>!01901!</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber>01/230</accessionNumber>
@@ -19249,6 +20831,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber>2001/123</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -19281,6 +20872,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber>09/1328 Germanistik</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -19313,6 +20913,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber>01/122</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -19345,6 +20954,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber>58026</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -19377,6 +20995,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber>ZP02 10/134-1</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -19409,6 +21036,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber>05/300-2</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -19633,7 +21269,7 @@
          </item>
       </original>
       <instance>
-         <source>K10plus</source>
+         <source>hebis</source>
          <hrid>466890184</hrid>
          <statusUpdatedDate>2020-09-30</statusUpdatedDate>
          <statusId>Autopsie</statusId>
@@ -19757,6 +21393,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -19798,6 +21439,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -19821,6 +21467,11 @@
                                  <note>OUF-Test 21-08-09; 15:34</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -19846,6 +21497,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -19870,6 +21526,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -19893,6 +21554,11 @@
                                  <note>OUF-Test 21-08-09; 15:34</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -20063,7 +21729,7 @@
          </item>
       </original>
       <instance>
-         <source>K10plus</source>
+         <source>hebis</source>
          <hrid>466033869</hrid>
          <statusUpdatedDate>2020-07-24</statusUpdatedDate>
          <statusId>Autopsie</statusId>
@@ -20193,6 +21859,11 @@
                                  <note>OUF-Test 21-08-03; 12:16</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -20409,7 +22080,7 @@
          </item>
       </original>
       <instance>
-         <source>K10plus</source>
+         <source>hebis</source>
          <hrid>457592567</hrid>
          <statusUpdatedDate>2020-11-10</statusUpdatedDate>
          <statusId>Autopsie</statusId>
@@ -20562,6 +22233,16 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>01810</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber>R 60/2021/1-2</accessionNumber>
@@ -20608,6 +22289,16 @@
                                  <note>OUF-Test 21-08-09; 15:54</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>02066</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -20794,7 +22485,7 @@
          </item>
       </original>
       <instance>
-         <source>K10plus</source>
+         <source>hebis</source>
          <hrid>468113517</hrid>
          <statusUpdatedDate>2020-08-20</statusUpdatedDate>
          <statusId>Autopsie</statusId>
@@ -20848,13 +22539,7 @@
          <indexTitle>Kitāb Ḫāṣṣ al-Ḫāṣṣ fī al-amṯāl Kitāb Khāṣṣ al-Khāṣṣ Abū Manṣūr al-Tha᾽ālibī . Edited by Ramzi Baalbaki, Bilal Orfali</indexTitle>
          <title>Kitāb Ḫāṣṣ al-Ḫāṣṣ fī al-amṯāl : Kitāb Khāṣṣ al-Khāṣṣ / Abū Manṣūr al-Tha᾽ālibī . Edited by Ramzi Baalbaki, Bilal Orfali</title>
          <contributors>
-            <arr>
-               <i>
-                  <name>Verlag</name>
-                  <contributorNameTypeId>2e48e713-17f3-4c13-a9f8-23845bb210aa</contributorNameTypeId>
-                  <contributorTypeId>pbl</contributorTypeId>
-               </i>
-            </arr>
+            <arr/>
          </contributors>
          <publication>
             <arr>
@@ -20951,6 +22636,11 @@
                                  <note>OUF-Test 21-08-06</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -21102,7 +22792,7 @@
          </item>
       </original>
       <instance>
-         <source>K10plus</source>
+         <source>hebis</source>
          <hrid>428199372</hrid>
          <statusUpdatedDate>2018-04-17</statusUpdatedDate>
          <statusId>Autopsie</statusId>
@@ -21216,6 +22906,11 @@
                                  <note>OUF-Test 21-08-09; 15:38</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -21346,7 +23041,7 @@
          </item>
       </original>
       <instance>
-         <source>K10plus</source>
+         <source>hebis</source>
          <hrid>468727116</hrid>
          <statusUpdatedDate>2020-09-04</statusUpdatedDate>
          <statusId>Bibliografisch vollständig</statusId>
@@ -21430,7 +23125,7 @@
                   <provisionalInstance>
                      <title/>
                      <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
-                     <source>K10plus</source>
+                     <source>hebis</source>
                   </provisionalInstance>
                </i>
             </arr>
@@ -21472,6 +23167,20 @@
                         <copyNumber/>
                         <volume>1</volume>
                         <chronology>2020</chronology>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>00015</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -21705,7 +23414,7 @@
          </item>
       </original>
       <instance>
-         <source>K10plus</source>
+         <source>hebis</source>
          <hrid>459446746</hrid>
          <statusUpdatedDate>2020-09-18</statusUpdatedDate>
          <statusId>Autopsie</statusId>
@@ -21841,6 +23550,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -21864,6 +23578,11 @@
                                  <note>OUF-Test 21-08-09; 15:51</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -21889,6 +23608,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -21913,6 +23637,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -21936,6 +23665,11 @@
                                  <note>OUF-Test 21-08-09; 15:51</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -21982,6 +23716,16 @@
                                  <note>OUF-Test 21-08-09; 15:51</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>01810</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
                               </i>
                            </arr>
                         </notes>
@@ -22145,7 +23889,7 @@
          </item>
       </original>
       <instance>
-         <source>K10plus</source>
+         <source>hebis</source>
          <hrid>049233904</hrid>
          <statusId>Katalogisat ohne Autopsie</statusId>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
@@ -22250,6 +23994,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber>1980/572</accessionNumber>
@@ -22284,6 +24033,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>BASIS</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
