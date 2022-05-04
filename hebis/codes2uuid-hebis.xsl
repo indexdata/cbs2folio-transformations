@@ -19,7 +19,7 @@
         <xsl:when test=".='Action note'">0e40884c-3523-4c6d-8187-d578e3d2794e</xsl:when>
         <xsl:when test=".='Copy note'">1dde7141-ec8a-4dae-9825-49ce14c728e7</xsl:when>
         <xsl:when test=".='Provenance'">c3a539b9-9576-4e3a-b6de-d910200b2919</xsl:when>
-        <xsl:when test=".='Abrufzeichen exemplarspezifisch (8600)'">1f679b18-3a4d-421a-aa8f-8a0d8f758f71</xsl:when>
+        <xsl:when test=".='Lokaler Schlüssel'">TBD</xsl:when> <!-- hebis-wide -->
         <xsl:otherwise>8d0a5eca-25de-4391-81a9-236eeefdd20b</xsl:otherwise>
       </xsl:choose>
     </itemNoteTypeId>

@@ -527,6 +527,15 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
+                        <notes>
+                           <arr>
+                              <i>
+                                 <note>1001</note>
+                                 <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                                 <staffOnly>true</staffOnly>
+                              </i>
+                           </arr>
+                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
