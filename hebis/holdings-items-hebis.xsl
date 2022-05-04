@@ -49,23 +49,23 @@
          </callNumber>
       </xsl:if>
 	    <holdingsTypeId>
-		  <xsl:choose>
-		    <xsl:when test="substring(../datafield[@tag='002@']/subfield[@code='0'], 1, 1) = 'O'">electronic</xsl:when>
-		     <xsl:otherwise>physical</xsl:otherwise>
-		  </xsl:choose>
+  		  <xsl:choose>
+  		    <xsl:when test="substring(../datafield[@tag='002@']/subfield[@code='0'], 1, 1) = 'O'">electronic</xsl:when>
+  		     <xsl:otherwise>physical</xsl:otherwise>
+  		  </xsl:choose>
 	    </holdingsTypeId>
       <holdingsStatements>
-      <xsl:if test="datafield[(@tag='209E') and (subfield[@code='x']='02')]/subfield[@code='a']">
-		  <arr>
-		    <xsl:for-each select="datafield[(@tag='209E') and (subfield[@code='x']='02')]/subfield[@code='a']">
-			  <i>
-			    <statement>
-				  <xsl:value-of select="."/>
-				</statement>
+        <xsl:if test="datafield[(@tag='209E') and (subfield[@code='x']='02')]/subfield[@code='a']">
+          <arr>
+            <xsl:for-each select="datafield[(@tag='209E') and (subfield[@code='x']='02')]/subfield[@code='a']">
+              <i>
+                <statement>
+                  <xsl:value-of select="."/>
+                </statement>
               </i>
-			</xsl:for-each>
-		  </arr>
-	    </xsl:if>
+            </xsl:for-each>
+          </arr>
+  	    </xsl:if>
       </holdingsStatements>
       <sourceId>hebis</sourceId>
       <xsl:if test="not($electronicholding)">
@@ -127,7 +127,6 @@
     <xsl:param name="hhrid"/>
     <xsl:param name="bcode" select="substring-before(concat(datafield[(@tag='209G') and (subfield[@code='x']='00')]/subfield[@code='a'],' '),' ')"/>
     <xsl:param name="copy" select="''"/> <!-- oder kann hier eine copy-Information kommen? -->
-    <xsl:param name="cn"/>
     <i>
       <hrid>
         <xsl:value-of select="$hhrid"/>
