@@ -19,7 +19,7 @@
         <xsl:when test=".='Action note'">0e40884c-3523-4c6d-8187-d578e3d2794e</xsl:when>
         <xsl:when test=".='Copy note'">1dde7141-ec8a-4dae-9825-49ce14c728e7</xsl:when>
         <xsl:when test=".='Provenance'">c3a539b9-9576-4e3a-b6de-d910200b2919</xsl:when>
-        <xsl:when test=".='Lokaler Schlüssel'">TBD</xsl:when> <!-- hebis-wide -->
+        <xsl:when test=".='Lokaler Schlüssel'">fcb01636-207d-4598-92a6-74d16e39d0a1</xsl:when> <!-- hebis-wide -->
         <xsl:otherwise>8d0a5eca-25de-4391-81a9-236eeefdd20b</xsl:otherwise>
       </xsl:choose>
     </itemNoteTypeId>
@@ -112,14 +112,14 @@
       <xsl:choose>
         <!-- <xsl:when test=".='0 Druckschrift'">24080190-7539-4520-bde1-762f57d006fc</xsl:when> see otherwise --> 
         <xsl:when test=".='Audiovisuelles Material'">e378db32-4422-405d-bf08-89efd33335fd</xsl:when>
-        <xsl:when test=".='Blindenschriftträger'">TBD</xsl:when>
+        <xsl:when test=".='Blindenschriftträger'">e7a305fc-3409-4c6a-95fe-7d220e773144</xsl:when>
         <xsl:when test=".='Tonträger'">baed4206-eef1-4c00-8126-d159a2113a71</xsl:when>
         <xsl:when test=".='Computerlesbares Material'">a662fc3c-6a6e-4992-a38b-a74f875204c1</xsl:when>
         <xsl:when test=".='Karten'">e8b94e9e-4144-46a8-b31c-774978d1c5ec</xsl:when>
         <xsl:when test=".='Noten'">79edde01-85ce-451b-870a-edbfcbd8dbd7</xsl:when>
         <xsl:when test=".='Mikroformen'">0a877486-1efb-43c2-b0e6-d539dd352aa2</xsl:when>
         <xsl:when test=".='Sonstiges'">789c3cc7-54ac-41ed-90c6-da7fb417574a</xsl:when>
-        <xsl:when test=".='Objekt'">TBD</xsl:when>
+        <xsl:when test=".='Objekt'">a84dfcf6-3ad7-4160-b926-3b2450eea081</xsl:when>
         <xsl:otherwise>24080190-7539-4520-bde1-762f57d006fc</xsl:otherwise> <!-- Druckschrift -->
       </xsl:choose>
     </materialTypeId>
