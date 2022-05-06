@@ -120,11 +120,7 @@
                      </i>
                   </arr>
                </electronicAccess>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -247,7 +243,7 @@
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -257,11 +253,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -406,7 +398,7 @@
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -416,11 +408,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -537,7 +525,7 @@
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -547,11 +535,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -655,7 +639,7 @@
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -665,11 +649,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -815,11 +795,7 @@
                      </i>
                   </arr>
                </electronicAccess>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -940,12 +916,7 @@
                      </i>
                   </arr>
                </electronicAccess>
-               <statisticalCodeIds>
-                  <arr>
-                     <i/>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -1070,7 +1041,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -1080,11 +1051,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>678097798</hrid>
@@ -1111,7 +1078,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -1121,11 +1088,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>221750509</hrid>
@@ -1152,7 +1115,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -1162,11 +1125,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>1010303376</hrid>
@@ -1198,12 +1157,12 @@
                               </i>
                               <i>
                                  <note>!01901!</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -1213,12 +1172,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i/>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>179077457</hrid>
@@ -1245,7 +1199,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -1255,11 +1209,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>584900007</hrid>
@@ -1286,7 +1236,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -1296,11 +1246,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>176844678</hrid>
@@ -1327,7 +1273,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -1337,11 +1283,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>22285393X</hrid>
@@ -1368,7 +1310,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -1378,11 +1320,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>595435629</hrid>
@@ -1409,7 +1347,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -1419,11 +1357,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>581150368</hrid>
@@ -1450,7 +1384,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -1460,11 +1394,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -1581,7 +1511,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -1591,11 +1521,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>67809781X</hrid>
@@ -1622,7 +1548,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -1632,11 +1558,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>221750266</hrid>
@@ -1663,7 +1585,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -1673,11 +1595,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>1010401270</hrid>
@@ -1709,7 +1627,7 @@
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -1719,11 +1637,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>207701636</hrid>
@@ -1750,7 +1664,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -1760,11 +1674,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>584899971</hrid>
@@ -1791,7 +1701,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -1801,11 +1711,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>20816233X</hrid>
@@ -1832,7 +1738,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -1842,11 +1748,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>22285409X</hrid>
@@ -1873,7 +1775,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -1883,11 +1785,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>595435947</hrid>
@@ -1914,7 +1812,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -1924,11 +1822,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>58115052X</hrid>
@@ -1955,7 +1849,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -1965,11 +1859,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -2090,7 +1980,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -2100,11 +1990,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -2232,7 +2118,7 @@
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -2242,11 +2128,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>336705190</hrid>
@@ -2278,7 +2160,7 @@
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -2288,11 +2170,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>262731266</hrid>
@@ -2324,7 +2202,7 @@
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -2334,11 +2212,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -2455,7 +2329,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -2465,11 +2339,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>467614156</hrid>
@@ -2496,7 +2366,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -2506,11 +2376,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>245463119</hrid>
@@ -2537,7 +2403,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -2547,11 +2413,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>1010468278</hrid>
@@ -2583,7 +2445,7 @@
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -2593,11 +2455,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>251796027</hrid>
@@ -2624,7 +2482,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -2634,11 +2492,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>584899947</hrid>
@@ -2665,7 +2519,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -2675,11 +2529,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>24580417X</hrid>
@@ -2706,7 +2556,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -2716,11 +2566,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>255947798</hrid>
@@ -2747,7 +2593,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -2757,11 +2603,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>595436102</hrid>
@@ -2788,7 +2630,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -2798,11 +2640,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>58115066X</hrid>
@@ -2829,7 +2667,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -2839,11 +2677,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -3127,12 +2961,7 @@
                      </i>
                   </arr>
                </electronicAccess>
-               <statisticalCodeIds>
-                  <arr>
-                     <i/>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -3234,7 +3063,7 @@
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -3244,11 +3073,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>368079074</hrid>
@@ -3280,7 +3105,7 @@
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -3290,11 +3115,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -3435,11 +3256,7 @@
                      </i>
                   </arr>
                </electronicAccess>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -3554,11 +3371,7 @@
                      </i>
                   </arr>
                </electronicAccess>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -3678,7 +3491,7 @@
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -3688,11 +3501,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -3820,7 +3629,7 @@
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -3830,11 +3639,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -3972,7 +3777,7 @@
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -3982,11 +3787,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -4115,7 +3916,7 @@
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -4125,11 +3926,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -4373,12 +4170,7 @@
                      </i>
                   </arr>
                </electronicAccess>
-               <statisticalCodeIds>
-                  <arr>
-                     <i/>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -4477,7 +4269,7 @@
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -4487,11 +4279,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -4640,7 +4428,7 @@
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -4650,11 +4438,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>1144975972</hrid>
@@ -4681,7 +4465,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -4705,7 +4489,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -4729,7 +4513,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -4739,11 +4523,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -4906,7 +4686,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -4916,11 +4696,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -5042,11 +4818,7 @@
                      </i>
                   </arr>
                </electronicAccess>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -5202,7 +4974,7 @@
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -5212,11 +4984,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>112914383X</hrid>
@@ -5248,7 +5016,7 @@
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -5277,7 +5045,7 @@
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -5306,7 +5074,7 @@
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -5335,7 +5103,7 @@
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -5364,7 +5132,7 @@
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -5374,11 +5142,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -5510,7 +5274,7 @@
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -5520,11 +5284,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -5666,7 +5426,7 @@
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -5695,7 +5455,7 @@
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -5724,7 +5484,7 @@
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -5734,11 +5494,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>1048567109</hrid>
@@ -5775,12 +5531,12 @@
                               </i>
                               <i>
                                  <note>01810</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -5790,12 +5546,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i/>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -5940,7 +5691,7 @@
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -5950,11 +5701,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -6087,7 +5834,7 @@
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -6097,11 +5844,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -6231,12 +5974,12 @@
                               </i>
                               <i>
                                  <note>00509</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -6246,12 +5989,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i/>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -6404,7 +6142,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -6414,11 +6152,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>1134433468</hrid>
@@ -6451,7 +6185,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -6461,11 +6195,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -6620,12 +6350,12 @@
                               </i>
                               <i>
                                  <note>00020</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -6654,12 +6384,12 @@
                               </i>
                               <i>
                                  <note>00020</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -6688,12 +6418,12 @@
                               </i>
                               <i>
                                  <note>00020</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -6722,12 +6452,12 @@
                               </i>
                               <i>
                                  <note>00020</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -6756,12 +6486,12 @@
                               </i>
                               <i>
                                  <note>00020</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -6790,12 +6520,12 @@
                               </i>
                               <i>
                                  <note>00020</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -6824,12 +6554,12 @@
                               </i>
                               <i>
                                  <note>00020</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -6858,12 +6588,12 @@
                               </i>
                               <i>
                                  <note>00020</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -6892,12 +6622,12 @@
                               </i>
                               <i>
                                  <note>00020</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -6926,12 +6656,12 @@
                               </i>
                               <i>
                                  <note>00020</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -6960,12 +6690,12 @@
                               </i>
                               <i>
                                  <note>00020</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -6994,12 +6724,12 @@
                               </i>
                               <i>
                                  <note>00020</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -7028,12 +6758,12 @@
                               </i>
                               <i>
                                  <note>00020</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -7062,12 +6792,12 @@
                               </i>
                               <i>
                                  <note>00020</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -7096,12 +6826,12 @@
                               </i>
                               <i>
                                  <note>00020</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -7130,12 +6860,12 @@
                               </i>
                               <i>
                                  <note>00020</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -7164,12 +6894,12 @@
                               </i>
                               <i>
                                  <note>00020</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -7198,12 +6928,12 @@
                               </i>
                               <i>
                                  <note>00020</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -7232,12 +6962,12 @@
                               </i>
                               <i>
                                  <note>00020</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -7266,12 +6996,12 @@
                               </i>
                               <i>
                                  <note>00020</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -7300,12 +7030,12 @@
                               </i>
                               <i>
                                  <note>00020</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -7334,12 +7064,12 @@
                               </i>
                               <i>
                                  <note>00020</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -7368,12 +7098,12 @@
                               </i>
                               <i>
                                  <note>00020</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -7402,12 +7132,12 @@
                               </i>
                               <i>
                                  <note>00020</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -7436,12 +7166,12 @@
                               </i>
                               <i>
                                  <note>00020</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -7470,12 +7200,12 @@
                               </i>
                               <i>
                                  <note>00020</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -7504,12 +7234,12 @@
                               </i>
                               <i>
                                  <note>00020</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -7538,12 +7268,12 @@
                               </i>
                               <i>
                                  <note>00020</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -7572,12 +7302,12 @@
                               </i>
                               <i>
                                  <note>00020</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -7606,12 +7336,12 @@
                               </i>
                               <i>
                                  <note>00020</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -7640,12 +7370,12 @@
                               </i>
                               <i>
                                  <note>00020</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -7674,12 +7404,12 @@
                               </i>
                               <i>
                                  <note>00020</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -7708,12 +7438,12 @@
                               </i>
                               <i>
                                  <note>00020</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -7742,12 +7472,12 @@
                               </i>
                               <i>
                                  <note>00020</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -7776,12 +7506,12 @@
                               </i>
                               <i>
                                  <note>00020</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -7810,12 +7540,12 @@
                               </i>
                               <i>
                                  <note>00020</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -7844,12 +7574,12 @@
                               </i>
                               <i>
                                  <note>00020</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -7878,12 +7608,12 @@
                               </i>
                               <i>
                                  <note>00020</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -7912,12 +7642,12 @@
                               </i>
                               <i>
                                  <note>00020</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -7946,12 +7676,12 @@
                               </i>
                               <i>
                                  <note>00020</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -7980,12 +7710,12 @@
                               </i>
                               <i>
                                  <note>00020</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -8014,12 +7744,12 @@
                               </i>
                               <i>
                                  <note>00020</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -8048,12 +7778,12 @@
                               </i>
                               <i>
                                  <note>00020</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -8082,12 +7812,12 @@
                               </i>
                               <i>
                                  <note>00020</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -8116,12 +7846,12 @@
                               </i>
                               <i>
                                  <note>00020</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -8131,12 +7861,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i/>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>759702675</hrid>
@@ -8168,7 +7893,7 @@
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -8178,11 +7903,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>760509352</hrid>
@@ -8214,12 +7935,12 @@
                               </i>
                               <i>
                                  <note>00020</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -8229,12 +7950,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i/>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -8351,7 +8067,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -8361,11 +8077,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>678097755</hrid>
@@ -8392,7 +8104,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -8402,11 +8114,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>221750649</hrid>
@@ -8433,7 +8141,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -8443,11 +8151,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>1010197053</hrid>
@@ -8479,12 +8183,12 @@
                               </i>
                               <i>
                                  <note>!01901!</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -8494,12 +8198,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i/>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>165736585</hrid>
@@ -8526,7 +8225,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -8536,11 +8235,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>584900031</hrid>
@@ -8567,7 +8262,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -8577,11 +8272,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>164736468</hrid>
@@ -8608,7 +8299,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -8618,11 +8309,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>222853697</hrid>
@@ -8649,7 +8336,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -8659,11 +8346,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>595435424</hrid>
@@ -8690,7 +8373,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -8700,11 +8383,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>581150228</hrid>
@@ -8731,7 +8410,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -8741,11 +8420,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -8855,7 +8530,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -8865,11 +8540,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -9006,7 +8677,7 @@
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -9016,11 +8687,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -9148,12 +8815,12 @@
                               </i>
                               <i>
                                  <note>00501</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -9163,12 +8830,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i/>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>565909266</hrid>
@@ -9200,12 +8862,12 @@
                               </i>
                               <i>
                                  <note>00507</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -9234,12 +8896,12 @@
                               </i>
                               <i>
                                  <note>00507</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -9268,12 +8930,12 @@
                               </i>
                               <i>
                                  <note>00507</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -9302,12 +8964,12 @@
                               </i>
                               <i>
                                  <note>00507</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -9336,12 +8998,12 @@
                               </i>
                               <i>
                                  <note>00507</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -9370,12 +9032,12 @@
                               </i>
                               <i>
                                  <note>00507</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -9404,12 +9066,12 @@
                               </i>
                               <i>
                                  <note>00507</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -9438,12 +9100,12 @@
                               </i>
                               <i>
                                  <note>00507</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -9472,12 +9134,12 @@
                               </i>
                               <i>
                                  <note>00507</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -9506,12 +9168,12 @@
                               </i>
                               <i>
                                  <note>00507</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -9521,12 +9183,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i/>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>616740840</hrid>
@@ -9558,12 +9215,12 @@
                               </i>
                               <i>
                                  <note>00507</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -9592,12 +9249,12 @@
                               </i>
                               <i>
                                  <note>00507</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -9626,12 +9283,12 @@
                               </i>
                               <i>
                                  <note>00507</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -9660,12 +9317,12 @@
                               </i>
                               <i>
                                  <note>00507</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -9694,12 +9351,12 @@
                               </i>
                               <i>
                                  <note>00507</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -9728,12 +9385,12 @@
                               </i>
                               <i>
                                  <note>00507</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -9762,12 +9419,12 @@
                               </i>
                               <i>
                                  <note>00507</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -9796,12 +9453,12 @@
                               </i>
                               <i>
                                  <note>00507</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -9830,12 +9487,12 @@
                               </i>
                               <i>
                                  <note>00507</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -9864,12 +9521,12 @@
                               </i>
                               <i>
                                  <note>00507</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -9879,12 +9536,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i/>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>646142364</hrid>
@@ -9911,12 +9563,12 @@
                            <arr>
                               <i>
                                  <note>00507</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -9940,12 +9592,12 @@
                            <arr>
                               <i>
                                  <note>00507</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -9969,12 +9621,12 @@
                            <arr>
                               <i>
                                  <note>00507</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -9998,12 +9650,12 @@
                            <arr>
                               <i>
                                  <note>00507</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -10027,12 +9679,12 @@
                            <arr>
                               <i>
                                  <note>00507</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -10056,12 +9708,12 @@
                            <arr>
                               <i>
                                  <note>00507</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -10085,12 +9737,12 @@
                            <arr>
                               <i>
                                  <note>00507</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -10114,12 +9766,12 @@
                            <arr>
                               <i>
                                  <note>00507</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -10143,12 +9795,12 @@
                            <arr>
                               <i>
                                  <note>00507</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -10172,12 +9824,12 @@
                            <arr>
                               <i>
                                  <note>00507</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -10187,12 +9839,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i/>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>566028360</hrid>
@@ -10219,7 +9866,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -10229,11 +9876,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>779043049</hrid>
@@ -10260,7 +9903,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -10270,11 +9913,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -10412,12 +10051,12 @@
                               </i>
                               <i>
                                  <note>01650</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -10427,12 +10066,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i/>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>1056626909</hrid>
@@ -10464,12 +10098,12 @@
                               </i>
                               <i>
                                  <note>01650</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -10479,12 +10113,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i/>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -10571,11 +10200,7 @@
                      </i>
                   </arr>
                </electronicAccess>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -10692,7 +10317,7 @@
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -10702,11 +10327,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -10847,7 +10468,7 @@
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -10857,11 +10478,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>63069351X</hrid>
@@ -10893,7 +10510,7 @@
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -10903,11 +10520,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -11028,7 +10641,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -11038,11 +10651,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>496431293</hrid>
@@ -11069,7 +10678,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -11079,11 +10688,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>345153359</hrid>
@@ -11110,12 +10715,12 @@
                            <arr>
                               <i>
                                  <note>01750</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -11125,12 +10730,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i/>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>1010484826</hrid>
@@ -11162,7 +10762,7 @@
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -11172,11 +10772,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>333532171</hrid>
@@ -11203,7 +10799,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -11213,11 +10809,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>584899890</hrid>
@@ -11244,7 +10836,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -11254,11 +10846,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>344792374</hrid>
@@ -11285,7 +10873,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -11295,11 +10883,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>343521903</hrid>
@@ -11326,7 +10910,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -11336,11 +10920,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>595436420</hrid>
@@ -11367,7 +10947,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -11377,11 +10957,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>581151119</hrid>
@@ -11408,7 +10984,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -11418,11 +10994,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -11539,7 +11111,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -11549,11 +11121,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>678097690</hrid>
@@ -11580,7 +11148,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -11590,11 +11158,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>221750134</hrid>
@@ -11621,7 +11185,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -11631,11 +11195,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>1010133578</hrid>
@@ -11667,12 +11227,12 @@
                               </i>
                               <i>
                                  <note>!01901!</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -11682,12 +11242,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i/>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>152309500</hrid>
@@ -11714,7 +11269,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -11724,11 +11279,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>584900082</hrid>
@@ -11755,7 +11306,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -11765,11 +11316,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>152171959</hrid>
@@ -11796,7 +11343,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -11806,11 +11353,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>222853557</hrid>
@@ -11837,7 +11380,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -11847,11 +11390,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>595435254</hrid>
@@ -11878,7 +11417,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -11888,11 +11427,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>581150023</hrid>
@@ -11919,7 +11454,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -11929,11 +11464,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -12067,7 +11598,7 @@
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -12077,11 +11608,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>112427944X</hrid>
@@ -12113,7 +11640,7 @@
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -12142,7 +11669,7 @@
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -12171,7 +11698,7 @@
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -12200,7 +11727,7 @@
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -12229,7 +11756,7 @@
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -12239,11 +11766,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -12384,7 +11907,7 @@
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -12394,11 +11917,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -12561,12 +12080,12 @@
                               </i>
                               <i>
                                  <note>01810</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -12576,12 +12095,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i/>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>1130673936</hrid>
@@ -12618,12 +12132,12 @@
                               </i>
                               <i>
                                  <note>02066</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -12633,12 +12147,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i/>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -12800,7 +12309,7 @@
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -12810,11 +12319,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -12939,7 +12444,7 @@
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -12949,11 +12454,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -13091,12 +12592,12 @@
                            <arr>
                               <i>
                                  <note>00015</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -13106,12 +12607,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>a59d4a4e-0339-4243-9039-bd64c8a9c941</i>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>a59d4a4e-0339-4243-9039-bd64c8a9c941</i><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -13257,7 +12753,7 @@
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -13286,7 +12782,7 @@
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -13315,7 +12811,7 @@
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -13344,7 +12840,7 @@
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -13373,7 +12869,7 @@
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -13383,11 +12879,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>1142630676</hrid>
@@ -13424,12 +12916,12 @@
                               </i>
                               <i>
                                  <note>01810</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -13439,12 +12931,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i/>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -13559,7 +13046,7 @@
                               </i>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -13569,11 +13056,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
             <i>
                <hrid>376141832</hrid>
@@ -13600,7 +13083,7 @@
                            <arr>
                               <i>
                                  <note>BASIS</note>
-                                 <itemNoteTypeId>TBD</itemNoteTypeId>
+                                 <itemNoteTypeId>fcb01636-207d-4598-92a6-74d16e39d0a1</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
                            </arr>
@@ -13610,11 +13093,7 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds>
-                  <arr>
-                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
-                  </arr>
-               </statisticalCodeIds>
+               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>

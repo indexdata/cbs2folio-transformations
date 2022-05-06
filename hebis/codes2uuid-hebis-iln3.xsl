@@ -8,7 +8,7 @@
     </xsl:copy>
   </xsl:template>
   
-  <xsl:template match="permanentLocationId">
+  <xsl:template match="permanentLocationId"> <!-- ILN -->
     <permanentLocationId>
       <xsl:choose>
         <xsl:when test=".='DUMMY'">87764786-c5c8-47d0-a480-df506c751d76</xsl:when> <!-- TBD? -->
@@ -23,7 +23,7 @@
   </xsl:template>
 
   <!-- Map loan types -->
-  <xsl:template match="permanentLoanTypeId">
+  <xsl:template match="permanentLoanTypeId"> <!-- ILN -->
     <permanentLoanTypeId>
       <xsl:choose>
         <xsl:when test=".='0 u normal ausleihbar'">c943ac60-b743-4d14-92d9-69de65934af8</xsl:when> 
@@ -44,7 +44,7 @@
   </xsl:template>
 
   <!-- Map statistical code ids -->
-  <xsl:template match="statisticalCodeIds">
+  <xsl:template match="statisticalCodeIds"> <!-- ILN -->
     <statisticalCodeIds>
       <arr>
         <xsl:for-each select="arr/i">

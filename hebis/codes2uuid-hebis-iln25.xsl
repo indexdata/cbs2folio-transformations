@@ -11,7 +11,7 @@
   <!-- Map locations 
        For Mainz, the IDs are the location names in FOLIO, generated from 209A $f and other pica fields -->
   
-  <xsl:template match="permanentLocationId">
+  <xsl:template match="permanentLocationId"> <!-- ILN -->
     <permanentLocationId>
       <xsl:choose>
         <xsl:when test=".='DUMMY'">87764786-c5c8-47d0-a480-df506c751d76</xsl:when>
@@ -88,7 +88,7 @@
   </xsl:template>
 
   <!-- Map loan types -->
-  <xsl:template match="permanentLoanTypeId">
+  <xsl:template match="permanentLoanTypeId"> <!-- ILN -->
     <permanentLoanTypeId>
       <xsl:choose>
         <xsl:when test=".='0 u ausleihbar'">7a03b2e2-c995-47a4-83d0-04bbe1930af4</xsl:when> 
@@ -108,7 +108,7 @@
   </xsl:template>
 
   <!-- Map statistical code ids -->
-  <xsl:template match="statisticalCodeIds">
+  <xsl:template match="statisticalCodeIds"> <!-- ILN -->
     <statisticalCodeIds>
       <arr>
         <xsl:for-each select="arr/i">
