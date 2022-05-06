@@ -17,7 +17,7 @@
         <xsl:when test=".='BZGLB'">0652ba86-8112-405f-9118-0eed500bcbb1</xsl:when>
         <xsl:when test=".='BSPTST'">1bdb8316-46cb-49ff-b2a4-a623fc6db4e9</xsl:when>
 
-        <xsl:otherwise>413fe054-a4f3-423e-a62f-088eb111ea8d</xsl:otherwise> <!-- TBD? -->
+        <xsl:otherwise>87764786-c5c8-47d0-a480-df506c751d76</xsl:otherwise> <!-- Dummy TBD? -->
       </xsl:choose>
     </permanentLocationId>
   </xsl:template>
@@ -26,7 +26,7 @@
   <xsl:template match="permanentLoanTypeId">
     <permanentLoanTypeId>
       <xsl:choose>
-        <!--  <xsl:when test=".='0 u normal ausleihbar'">c943ac60-b743-4d14-92d9-69de65934af8</xsl:when> see otherwise  --> 
+        <xsl:when test=".='0 u normal ausleihbar'">c943ac60-b743-4d14-92d9-69de65934af8</xsl:when> 
         <xsl:when test=".='1 b Kurzausleihe'">fdb6f275-b9ab-4638-9e96-02fa5bdd67ca</xsl:when>
         <xsl:when test=".='2 c ausleihbar, keine Fernleihe'">cd7cd95f-66f7-49d5-a737-f4e001a8521c</xsl:when>
         <xsl:when test=".='3 s Präsenzbestand'">9ec54944-4f44-460d-8791-3a76083fd31d</xsl:when>
@@ -38,7 +38,7 @@
         <xsl:when test=".='9 g nicht ausleihbar (gesperrt)'">a2103b55-a144-4f73-ab01-db53ee32c878</xsl:when>
         <xsl:when test=".='9 o Ausleihstatus unbekannt'">481f366d-1bca-44ef-a5a2-fe343aca08d7</xsl:when>
         <xsl:when test=".='9 z Verlust'">b167f552-152e-43f3-bc52-090a21cc9625</xsl:when>
-        <xsl:otherwise>c943ac60-b743-4d14-92d9-69de65934af8</xsl:otherwise>
+        <xsl:otherwise>c943ac60-b743-4d14-92d9-69de65934af8</xsl:otherwise> <!-- 0 u normal ausleihbar -->
       </xsl:choose>
     </permanentLoanTypeId>
   </xsl:template>

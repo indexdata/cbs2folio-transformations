@@ -79,7 +79,7 @@
         <xsl:when test=".='ZBFREI'">ea51b803-8bc4-4441-84e0-30a8e29c7a51</xsl:when>
         <xsl:when test=".='ZBLBS'">67ae08e9-89f9-4939-8def-5666cf7bfc3d</xsl:when>
         <xsl:when test=".='ZBLS'">c23399ef-6776-4442-a53a-dfca759c3b9f</xsl:when>
-        <!-- <xsl:when test=".='ZBMAG'">413fe054-a4f3-423e-a62f-088eb111ea8d</xsl:when> see otherwise -->
+        <xsl:when test=".='ZBMAG'">413fe054-a4f3-423e-a62f-088eb111ea8d</xsl:when>
         <xsl:when test=".='ZBRARA'">61fac3e8-8a32-4117-9005-38d2a4847f00</xsl:when>
         <xsl:when test=".='ZBTURK'">129a4323-01a0-4bad-bac5-2e0487d8e67c</xsl:when>		
         <xsl:otherwise>413fe054-a4f3-423e-a62f-088eb111ea8d</xsl:otherwise> <!-- ZBMAG -->
@@ -91,7 +91,7 @@
   <xsl:template match="permanentLoanTypeId">
     <permanentLoanTypeId>
       <xsl:choose>
-        <!--  <xsl:when test=".='0 u ausleihbar'">7a03b2e2-c995-47a4-83d0-04bbe1930af4</xsl:when>  see otherwise--> 
+        <xsl:when test=".='0 u ausleihbar'">7a03b2e2-c995-47a4-83d0-04bbe1930af4</xsl:when> 
         <xsl:when test=".='1 b Kurzausleihe'">df64c252-595d-463c-aad8-3bda0ba101aa</xsl:when>
         <xsl:when test=".='2 c Lehrbuchsammlung'">d1ba00c9-3f08-4df9-9d70-c7e1ab3b1702</xsl:when>
         <xsl:when test=".='3 s Präsenzbestand Lesesaal'">1cecc65a-a7c4-437a-bb04-6756c23b422e</xsl:when>
@@ -102,7 +102,7 @@
         <xsl:when test=".='9 g nicht ausleihbar'">20c359cb-b422-47cc-8c40-e8f6655f2b70</xsl:when>
         <xsl:when test=".='9 Test'">3b23397c-93ec-40ad-bb8a-9113f9fe9de2</xsl:when>
         <xsl:when test=".='9 z Verlust'">661ffe64-2e47-4203-845f-96d820aa48f2</xsl:when>
-        <xsl:otherwise>7a03b2e2-c995-47a4-83d0-04bbe1930af4</xsl:otherwise>
+        <xsl:otherwise>7a03b2e2-c995-47a4-83d0-04bbe1930af4</xsl:otherwise> <!-- 0 u ausleihbar -->
       </xsl:choose>
     </permanentLoanTypeId>
   </xsl:template>

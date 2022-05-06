@@ -20,7 +20,7 @@
         <xsl:when test=".='Copy note'">1dde7141-ec8a-4dae-9825-49ce14c728e7</xsl:when>
         <xsl:when test=".='Provenance'">c3a539b9-9576-4e3a-b6de-d910200b2919</xsl:when>
         <xsl:when test=".='Lokaler Schlüssel'">fcb01636-207d-4598-92a6-74d16e39d0a1</xsl:when> <!-- hebis-wide -->
-        <xsl:otherwise>8d0a5eca-25de-4391-81a9-236eeefdd20b</xsl:otherwise>
+        <xsl:otherwise>8d0a5eca-25de-4391-81a9-236eeefdd20b</xsl:otherwise> <!-- note -->
       </xsl:choose>
     </itemNoteTypeId>
   </xsl:template>
@@ -82,7 +82,7 @@
         <xsl:when test=".='Study Program Information note'">06489647-c7b7-4b6c-878a-cb7c1178e9ca</xsl:when>
         <xsl:when test=".='Issuing Body note'">49475f04-35ef-4f8a-aa7f-92773594ca76</xsl:when>
         <xsl:when test=".='Dissertation note'">b73cc9c2-c9fa-49aa-964f-5ae1aa754ecd</xsl:when>
-        <xsl:otherwise>6a2533a7-4de2-4e64-8466-074c2fa9308c</xsl:otherwise>
+        <xsl:otherwise>6a2533a7-4de2-4e64-8466-074c2fa9308c</xsl:otherwise> <!-- General note -->
       </xsl:choose>
     </instanceNoteTypeId>
   </xsl:template>
@@ -101,7 +101,7 @@
         <xsl:when test=".='Spine title'">dae08d04-8c4e-4ab2-b6bb-99edbf252231</xsl:when>
         <xsl:when test=".='Added title page title'">2ca8538d-a2fd-4e60-b967-1cb220101e22</xsl:when>
         <xsl:when test=".='Portion of title'">a8b45056-2223-43ca-8514-4dd88ece984b</xsl:when>
-        <xsl:otherwise>0fe58901-183e-4678-a3aa-0b4751174ba8</xsl:otherwise>
+        <xsl:otherwise>0fe58901-183e-4678-a3aa-0b4751174ba8</xsl:otherwise> <!-- No type specified -->
       </xsl:choose>
     </alternativeTitleTypeId>
   </xsl:template>
@@ -110,7 +110,7 @@
   <xsl:template match="materialTypeId"> <!-- hebis wide UUIDs -->
     <materialTypeId>
       <xsl:choose>
-        <!-- <xsl:when test=".='0 Druckschrift'">24080190-7539-4520-bde1-762f57d006fc</xsl:when> see otherwise --> 
+        <xsl:when test=".='Druckschrift'">24080190-7539-4520-bde1-762f57d006fc</xsl:when> 
         <xsl:when test=".='Audiovisuelles Material'">e378db32-4422-405d-bf08-89efd33335fd</xsl:when>
         <xsl:when test=".='Blindenschriftträger'">e7a305fc-3409-4c6a-95fe-7d220e773144</xsl:when>
         <xsl:when test=".='Tonträger'">baed4206-eef1-4c00-8126-d159a2113a71</xsl:when>
@@ -125,7 +125,7 @@
     </materialTypeId>
   </xsl:template>
   
-  <!-- Map contrutor type codes to uuid-->
+  <!-- Map contrutor type codes to uuid (closed list with marcrelator) -->
   <xsl:template match="contributorTypeId">
     <contributorTypeId>
       <xsl:choose>
@@ -396,7 +396,8 @@
         <xsl:when test=".='mrb'">515caf91-3dde-4769-b784-50c9e23400d5</xsl:when>
         <xsl:when test=".='dub'">88370fc3-bf69-45b6-b518-daf9a3877385</xsl:when>
         <xsl:when test=".='aqt'">57247637-c41b-498d-9c46-935469335485</xsl:when>
-        <xsl:otherwise>361f4bfd-a87d-463c-84d8-69346c3082f6</xsl:otherwise>
+        <xsl:when test=".='oth'">361f4bfd-a87d-463c-84d8-69346c3082f6</xsl:when>
+        <xsl:otherwise>361f4bfd-a87d-463c-84d8-69346c3082f6</xsl:otherwise> <!-- oth -->
       </xsl:choose>
     </contributorTypeId>
   </xsl:template>
@@ -492,7 +493,8 @@
         <xsl:when test=".='GTIN (vormals EAN)'">7836bced-1d36-4ee0-b263-5d63db38676a</xsl:when>
         <xsl:when test=".='Universal Product Code (UPC)'">0b9e3fe0-7452-445f-8696-e39f9f48ace3</xsl:when>
         <xsl:when test=".='Verlags-, Produktions- und Bestellnummer'">e0f6787d-a556-4d03-9850-e60c5a2baec1</xsl:when>
-        <xsl:otherwise>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</xsl:otherwise>
+        <xsl:when test=".='Other standard identifier'">2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</xsl:when>
+        <xsl:otherwise>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</xsl:otherwise> <!-- Other standard identifier -->
       </xsl:choose>
     </identifierTypeId>
   </xsl:template>
