@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0">
     <xsl:output method="text" encoding="UTF-8"/>
+
+    <!-- Generates reference records for FOLIO installations from codes2uuid mapping xls scripts. xsl:when are processed when containing an xsl:text element. -->
+
     <xsl:variable name="xsl-name-liste" select="('itemNoteTypeId','materialTypeId','identifierTypeId','sourceId','permanentLoanTypeId')"/>
     <xsl:variable name="api-name-liste" select="('item-note-types','material-types','identifier-types','holdings-sources','loan-types')"/>
     <xsl:variable name="source-name-liste" select="('hebis','hebis','K10plus','hebis','local')"/>
