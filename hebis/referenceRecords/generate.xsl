@@ -3,6 +3,7 @@
     <xsl:output method="text" encoding="UTF-8"/>
     <xsl:variable name="xsl-name-liste" select="('itemNoteTypeId','materialTypeId','identifierTypeId','sourceId','permanentLoanTypeId')"/>
     <xsl:variable name="api-name-liste" select="('item-note-types','material-types','identifier-types','holdings-sources','loan-types')"/>
+    <xsl:variable name="source-name-liste" select="('hebis','hebis','K10plus','hebis','local')"/>
  
     <xsl:template match="xsl:when[index-of($xsl-name-liste,ancestor::xsl:template/@match)>0 and xsl:text]">
             <xsl:variable name="text" select='substring-before(substring-after(@test,"&apos;"),"&apos;")'/>
@@ -13,7 +14,7 @@
                     <xsl:text>  "id": "</xsl:text><xsl:value-of select="."/><xsl:text>",&#10;</xsl:text>
                     <xsl:message><xsl:value-of select="."/></xsl:message>
                     <xsl:text>  "name": "</xsl:text><xsl:value-of select="$text"/><xsl:text>",&#10;</xsl:text>
-                    <xsl:text>  "source": "hebis"&#10;</xsl:text>
+                    <xsl:text>  "source": "</xsl:text><xsl:value-of select="$source-name-liste[$i]"/><xsl:text>"&#10;</xsl:text>
                 <xsl:text>}&#10;</xsl:text>
             </xsl:result-document>
         </xsl:template>
