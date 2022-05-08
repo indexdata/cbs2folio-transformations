@@ -8,8 +8,10 @@
     </xsl:copy>
   </xsl:template>
     
+  <!-- Note: <xsl:text> Elements mark the UUIDs that are added by K10plus/hebis and are used to generate the reference records -->
+
   <!-- Map item note types -->
-  <xsl:template match="itemNoteTypeId">
+  <xsl:template match="itemNoteTypeId"> <!-- Level 2: FOLIO/hebis-wide -->
     <itemNoteTypeId>
       <xsl:choose>
         <xsl:when test=".='Binding'">87c450be-2033-41fb-80ba-dd2409883681</xsl:when>
@@ -19,14 +21,14 @@
         <xsl:when test=".='Action note'">0e40884c-3523-4c6d-8187-d578e3d2794e</xsl:when>
         <xsl:when test=".='Copy note'">1dde7141-ec8a-4dae-9825-49ce14c728e7</xsl:when>
         <xsl:when test=".='Provenance'">c3a539b9-9576-4e3a-b6de-d910200b2919</xsl:when>
-        <xsl:when test=".='Abrufzeichen exemplarspezifisch (8600)'">1f679b18-3a4d-421a-aa8f-8a0d8f758f71</xsl:when>
-        <xsl:otherwise>8d0a5eca-25de-4391-81a9-236eeefdd20b</xsl:otherwise>
+        <xsl:when test=".='Lokaler Schlüssel'"><xsl:text>fcb01636-207d-4598-92a6-74d16e39d0a1</xsl:text></xsl:when> <!-- hebis-wide -->
+        <xsl:otherwise>8d0a5eca-25de-4391-81a9-236eeefdd20b</xsl:otherwise> <!-- Note -->
       </xsl:choose>
     </itemNoteTypeId>
   </xsl:template>
 
   <!-- Map instance note types -->
-  <xsl:template match="instanceNoteTypeId">
+  <xsl:template match="instanceNoteTypeId"> <!-- Level 0: FOLIO -->
     <instanceNoteTypeId>
       <xsl:choose>
         <xsl:when test=".='Information related to Copyright Status'">654be0fd-bba2-4791-afa3-ae60300d7043</xsl:when>
@@ -82,13 +84,13 @@
         <xsl:when test=".='Study Program Information note'">06489647-c7b7-4b6c-878a-cb7c1178e9ca</xsl:when>
         <xsl:when test=".='Issuing Body note'">49475f04-35ef-4f8a-aa7f-92773594ca76</xsl:when>
         <xsl:when test=".='Dissertation note'">b73cc9c2-c9fa-49aa-964f-5ae1aa754ecd</xsl:when>
-        <xsl:otherwise>6a2533a7-4de2-4e64-8466-074c2fa9308c</xsl:otherwise>
+        <xsl:otherwise>6a2533a7-4de2-4e64-8466-074c2fa9308c</xsl:otherwise> <!-- General note -->
       </xsl:choose>
     </instanceNoteTypeId>
   </xsl:template>
 
   <!-- Map Aternative titles -->
-  <xsl:template match="alternativeTitleTypeId">
+  <xsl:template match="alternativeTitleTypeId"> <!-- Level 0: FOLIO -->
     <alternativeTitleTypeId>
       <xsl:choose>
         <xsl:when test=".='Cover title'">5c364ce4-c8fd-4891-a28d-bb91c9bcdbfb</xsl:when>
@@ -101,31 +103,32 @@
         <xsl:when test=".='Spine title'">dae08d04-8c4e-4ab2-b6bb-99edbf252231</xsl:when>
         <xsl:when test=".='Added title page title'">2ca8538d-a2fd-4e60-b967-1cb220101e22</xsl:when>
         <xsl:when test=".='Portion of title'">a8b45056-2223-43ca-8514-4dd88ece984b</xsl:when>
-        <xsl:otherwise>0fe58901-183e-4678-a3aa-0b4751174ba8</xsl:otherwise>
+        <xsl:when test=".='Uniform title'">30512027-cdc9-4c79-af75-1565b3bd888d</xsl:when>
+        <xsl:otherwise>0fe58901-183e-4678-a3aa-0b4751174ba8</xsl:otherwise> <!-- No type specified -->
       </xsl:choose>
     </alternativeTitleTypeId>
   </xsl:template>
   
   <!-- Map material types -->
-  <xsl:template match="materialTypeId"> <!-- hebis wide UUIDs -->
+  <xsl:template match="materialTypeId"> <!-- Level 0/2: hebis wide -->
     <materialTypeId>
       <xsl:choose>
-        <!-- <xsl:when test=".='0 Druckschrift'">24080190-7539-4520-bde1-762f57d006fc</xsl:when> see otherwise --> 
-        <xsl:when test=".='Audiovisuelles Material'">e378db32-4422-405d-bf08-89efd33335fd</xsl:when>
-        <xsl:when test=".='Blindenschriftträger'">TBD</xsl:when>
-        <xsl:when test=".='Tonträger'">baed4206-eef1-4c00-8126-d159a2113a71</xsl:when>
-        <xsl:when test=".='Computerlesbares Material'">a662fc3c-6a6e-4992-a38b-a74f875204c1</xsl:when>
-        <xsl:when test=".='Karten'">e8b94e9e-4144-46a8-b31c-774978d1c5ec</xsl:when>
-        <xsl:when test=".='Noten'">79edde01-85ce-451b-870a-edbfcbd8dbd7</xsl:when>
-        <xsl:when test=".='Mikroformen'">0a877486-1efb-43c2-b0e6-d539dd352aa2</xsl:when>
-        <xsl:when test=".='Sonstiges'">789c3cc7-54ac-41ed-90c6-da7fb417574a</xsl:when>
-        <xsl:when test=".='Objekt'">TBD</xsl:when>
+        <xsl:when test=".='Druckschrift'"><xsl:text>24080190-7539-4520-bde1-762f57d006fc</xsl:text></xsl:when> 
+        <xsl:when test=".='Audiovisuelles Material'"><xsl:text>e378db32-4422-405d-bf08-89efd33335fd</xsl:text></xsl:when>
+        <xsl:when test=".='Blindenschriftträger'"><xsl:text>e7a305fc-3409-4c6a-95fe-7d220e773144</xsl:text></xsl:when>
+        <xsl:when test=".='Tonträger'"><xsl:text>baed4206-eef1-4c00-8126-d159a2113a71</xsl:text></xsl:when>
+        <xsl:when test=".='Computerlesbares Material'"><xsl:text>a662fc3c-6a6e-4992-a38b-a74f875204c1</xsl:text></xsl:when>
+        <xsl:when test=".='Karten'"><xsl:text>e8b94e9e-4144-46a8-b31c-774978d1c5ec</xsl:text></xsl:when>
+        <xsl:when test=".='Noten'"><xsl:text>79edde01-85ce-451b-870a-edbfcbd8dbd7</xsl:text></xsl:when>
+        <xsl:when test=".='Mikroformen'"><xsl:text>0a877486-1efb-43c2-b0e6-d539dd352aa2</xsl:text></xsl:when>
+        <xsl:when test=".='Sonstiges'"><xsl:text>789c3cc7-54ac-41ed-90c6-da7fb417574a</xsl:text></xsl:when>
+        <xsl:when test=".='Objekt'"><xsl:text>a84dfcf6-3ad7-4160-b926-3b2450eea081</xsl:text></xsl:when>
         <xsl:otherwise>24080190-7539-4520-bde1-762f57d006fc</xsl:otherwise> <!-- Druckschrift -->
       </xsl:choose>
     </materialTypeId>
   </xsl:template>
   
-  <!-- Map contrutor type codes to uuid-->
+  <!-- Map contrutor type codes to uuid (closed list with marcrelator) FOLIO -->
   <xsl:template match="contributorTypeId">
     <contributorTypeId>
       <xsl:choose>
@@ -396,36 +399,37 @@
         <xsl:when test=".='mrb'">515caf91-3dde-4769-b784-50c9e23400d5</xsl:when>
         <xsl:when test=".='dub'">88370fc3-bf69-45b6-b518-daf9a3877385</xsl:when>
         <xsl:when test=".='aqt'">57247637-c41b-498d-9c46-935469335485</xsl:when>
-        <xsl:otherwise>361f4bfd-a87d-463c-84d8-69346c3082f6</xsl:otherwise>
+        <xsl:when test=".='oth'">361f4bfd-a87d-463c-84d8-69346c3082f6</xsl:when>
+        <xsl:otherwise>361f4bfd-a87d-463c-84d8-69346c3082f6</xsl:otherwise> <!-- oth -->
       </xsl:choose>
     </contributorTypeId>
   </xsl:template>
 
-  <!-- Map instance statues -->
-  <xsl:template match="statusId">
+  <!-- Map instance statuses -->
+  <xsl:template match="statusId"> <!-- Level 0: hebis-wide (=K10pus) except for Cataloged/Uncataloged (FOLIO) -->
     <statusId>
     <xsl:choose>
-      <xsl:when test=".='Cataloged'">9634a5ab-9228-4703-baf2-4d12ebc77d56</xsl:when>
-      <xsl:when test=".='Uncataloged'">26f5208e-110a-4394-be29-1569a8c84a65</xsl:when>
-      <xsl:when test=".='Autopsie'">bac08adf-98ef-44ee-8e8a-ab76128c92c1</xsl:when>
-      <xsl:when test=".='Bibliografisch vollständig'">8bc58a74-b04e-45a4-8c5d-64568a5f0d55</xsl:when>
-      <xsl:when test=".='Erwerbungsdatensatz'">5dc8b06f-6b85-4a64-9825-811d5c0660a8</xsl:when>
-      <xsl:when test=".='Datensatz für internen Gebrauch'">3f378ff8-a474-4232-85b1-977650abba83</xsl:when>
-      <xsl:when test=".='Lösch-Status'">287f32a7-434b-4a89-a7f3-d12c8d6bf81c</xsl:when>
-      <xsl:when test=".='Maschinell konvertierte Daten'">e1700e6a-f606-4464-a9af-f0849890f17e</xsl:when>
-      <xsl:when test=".='Katalogisat ohne Autopsie'">8867ba26-c5da-4a5d-851d-976429f83a45</xsl:when>
-      <xsl:when test=".='Verwaltungsdatensatz'">07ae89f4-e760-421a-8c74-c69f643881dc</xsl:when>
-      <xsl:when test=".='Fremddatensatz'">449a7305-0bfc-434d-ba93-1ce916f706b1</xsl:when>
-      <xsl:when test=".='Katalogisat nach Autopsie im Vorläufigkeitsstatus'">0c81eb93-f2f1-477a-9bbb-a0b18b094f8f</xsl:when>
-      <xsl:when test=".='Maschinelle Einspielung, möglicherweise dublett'">b7ca8a3f-e818-4253-8461-55f198eaf101</xsl:when>
-      <xsl:when test=".='Zunächst verdeckt eingespieltes Novum'">c8678080-990d-4633-95cb-56d06bbf108f</xsl:when>
-      <xsl:when test=".='Inhalt oder Struktur ist zu überprüfen'">775bdbe0-ba63-4d51-aa78-04b2ee81bd27</xsl:when>
+      <xsl:when test=".='Cataloged'">9634a5ab-9228-4703-baf2-4d12ebc77d56</xsl:when> <!-- FOLIO -->
+      <xsl:when test=".='Uncataloged'">26f5208e-110a-4394-be29-1569a8c84a65</xsl:when> <!-- FOLIO -->
+      <xsl:when test=".='Autopsie'"><xsl:text>bac08adf-98ef-44ee-8e8a-ab76128c92c1</xsl:text></xsl:when>
+      <xsl:when test=".='Bibliografisch vollständig'"><xsl:text>8bc58a74-b04e-45a4-8c5d-64568a5f0d55</xsl:text></xsl:when>
+      <xsl:when test=".='Erwerbungsdatensatz'"><xsl:text>5dc8b06f-6b85-4a64-9825-811d5c0660a8</xsl:text></xsl:when>
+      <xsl:when test=".='Datensatz für internen Gebrauch'"><xsl:text>3f378ff8-a474-4232-85b1-977650abba83</xsl:text></xsl:when>
+      <xsl:when test=".='Lösch-Status'"><xsl:text>287f32a7-434b-4a89-a7f3-d12c8d6bf81c</xsl:text></xsl:when>
+      <xsl:when test=".='Maschinell konvertierte Daten'"><xsl:text>e1700e6a-f606-4464-a9af-f0849890f17e</xsl:text></xsl:when>
+      <xsl:when test=".='Katalogisat ohne Autopsie'"><xsl:text>8867ba26-c5da-4a5d-851d-976429f83a45</xsl:text></xsl:when>
+      <xsl:when test=".='Verwaltungsdatensatz'"><xsl:text>07ae89f4-e760-421a-8c74-c69f643881dc</xsl:text></xsl:when>
+      <xsl:when test=".='Fremddatensatz'"><xsl:text>449a7305-0bfc-434d-ba93-1ce916f706b1</xsl:text></xsl:when>
+      <xsl:when test=".='Katalogisat nach Autopsie im Vorläufigkeitsstatus'"><xsl:text>0c81eb93-f2f1-477a-9bbb-a0b18b094f8f</xsl:text></xsl:when>
+      <xsl:when test=".='Maschinelle Einspielung, möglicherweise dublett'"><xsl:text>b7ca8a3f-e818-4253-8461-55f198eaf101</xsl:text></xsl:when>
+      <xsl:when test=".='Zunächst verdeckt eingespieltes Novum'"><xsl:text>c8678080-990d-4633-95cb-56d06bbf108f</xsl:text></xsl:when>
+      <xsl:when test=".='Inhalt oder Struktur ist zu überprüfen'"><xsl:text>775bdbe0-ba63-4d51-aa78-04b2ee81bd27</xsl:text></xsl:when>
     </xsl:choose>
     </statusId>
   </xsl:template>
 
   <!-- Map identifier types -->
-  <xsl:template match="identifierTypeId">
+  <xsl:template match="identifierTypeId"> <!-- Level 0: FOLIO + hebis-wide (=K10plus) -->
     <identifierTypeId>
       <xsl:choose>
         <xsl:when test=".='Cancelled GPO item number'">5069054d-bc3a-4212-a4e8-e2013a02386f</xsl:when>
@@ -451,44 +455,55 @@
         <xsl:when test=".='Linking ISSN'">5860f255-a27f-4916-a830-262aa900a6b9</xsl:when>
         <xsl:when test=".='Publisher or distributor number'">b5d8cdc4-9441-487c-90cf-0c7ec97728eb</xsl:when>
         <xsl:when test=".='BNB'">3187432f-9434-40a8-8782-35a111a1491e</xsl:when>
-        <xsl:when test=".='PPN'">d5558bde-b5dc-421b-919b-361cb161525c</xsl:when>
-        <xsl:when test=".='DNB-Nummer'">e176c942-bc34-417c-8ee5-920e5b279c1d</xsl:when>
-		<xsl:when test=".='Autorisierte ISSN'">3e318d19-a1ea-4afe-a185-4dc9f6c6249e</xsl:when>
-		<xsl:when test=".='Formal falsche ISSN einer parallelen Ausgabe'">d841e41b-143f-4487-9ae4-cae8523a91e6</xsl:when>
-		<xsl:when test=".='Formal falsche ISBN der Sekundärausgabe'">7c4cf019-1c22-4004-9b4d-bfa0be4ea553</xsl:when>
-		<xsl:when test=".='Formal falsche ISMN'">7495a40f-1cc1-4af1-82ed-19a412e24fe6</xsl:when>
-		<xsl:when test=".='Erstkatalogisierer-​ID-Nummer'">7ef1b405-cb90-4d4e-b5e3-2b25f5d8a79b</xsl:when>
-		<xsl:when test=".='ISBN der parallelen Ausgabe auf einem anderen Datenträger'">b17bc05a-08ee-40a3-b6c7-c1d677507014</xsl:when>
-		<xsl:when test=".='ISBN der parallelen Ausgabe als Online-​Ausgabe'">f3c10486-4d80-4a0c-bc12-1b36fcdbe5a5</xsl:when>
-		<xsl:when test=".='ISBN der parallelen Druckausgabe'">54457e3e-12d8-49fc-8eb0-99f06760049c</xsl:when>
-		<xsl:when test=".='ISBN der Sekundärausgabe'">54042b80-58d7-443f-b620-c718df834a2d</xsl:when>
-		<xsl:when test=".='ISBN einer Manifestation in anderer physischer Form'">47e6ce08-5ecb-4403-99ca-3c5a84412b48</xsl:when>
-		<xsl:when test=".='ISMN'">972ee37b-6ce3-461f-aace-4201bcb576ad</xsl:when>
-		<xsl:when test=".='International Standard Recording Code (ISRC)'">a016b7cc-82a7-4d66-ad9b-6edd57deb4e7</xsl:when>
-		<xsl:when test=".='ISSN der parallelen Ausgabe auf einem anderen Datenträger'">45ab6e0b-94c9-476c-88f3-ad7da45004c2</xsl:when>
-		<xsl:when test=".='ISSN der parallelen Ausgabe als Online-​Ausgabe'">bacc4dd4-0427-424b-888a-786cba8de27e</xsl:when>
-		<xsl:when test=".='ISSN der parallelen Ausgabe als Druck-​Ausgabe'">ec70cc68-7d3a-4f1c-a3dc-c3ead0bb5cb0</xsl:when>
-		<xsl:when test=".='ISSN einer Manifestation in anderer physischer Form'">ff50893e-c884-4137-9a19-730a717b03ea</xsl:when>
-		<xsl:when test=".='Produktsigel für Pakete von Online-Ressourcen'">0af95dfb-6c4e-4db0-8ee6-bc95897f03e2</xsl:when> <!-- Teilpaket... -->
-		<xsl:when test=".='ISBN-A'">88324f74-cf3f-45c8-84ca-90d8ce3353f5</xsl:when>
-		<xsl:when test=".='Anzeigenummer Neuerscheinungsdienst'">84549c48-f95a-4017-9164-d3ee468559c9</xsl:when>
-		<xsl:when test=".='WV-Nummer'">91dd4d66-bb6b-45f9-9678-646b6322b31b</xsl:when>
-		<xsl:when test=".='ZDB-Nummer'">976aa3bc-8917-4b15-9e13-87fb3104173d</xsl:when>
-		<xsl:when test=".='Erstkatalogisierer-ID-Nummer aus Titelumlenkungen'">b986eebc-e74d-4b43-ab96-640b74a243b3</xsl:when>
-		<xsl:when test=".='Fremddaten-Identifikations-Nummer'">52e079be-2f0b-42c9-9c98-d3501178b32f</xsl:when>
-		<xsl:when test=".='Swets-Nummer'">e0526caa-ebeb-400c-b9bf-bd2f1a94326d</xsl:when>
-		<xsl:when test=".='Bibliographischer Nachweis alter Drucke'">ee436c6c-a37b-4121-b197-32a494a89bbe</xsl:when>
-		<xsl:when test=".='VD18-Nummer'">8341f1f9-6ac0-4108-ae9a-749017e9a6df</xsl:when>
-		<xsl:when test=".='Sonstige Standardnummern'">7423b056-9fd6-4918-bfd7-9ab3af630345</xsl:when>
-		<xsl:when test=".='EAN'">ad80de2d-c060-48a0-b85f-9b1b14e22ed0</xsl:when>
-		<xsl:when test=".='Universal Product Code (UPC)'">bffb24f2-5655-490a-846e-c7e01524b906</xsl:when>
-		<xsl:otherwise>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</xsl:otherwise>
+        <xsl:when test=".='GBV Number'"><xsl:text>e133d384-332d-11ea-a8a4-ff796e46a18d</xsl:text></xsl:when>
+        <xsl:when test=".='PPN'"><xsl:text>1d5cb40c-508f-451b-8952-87c92be4255a</xsl:text></xsl:when>
+        <xsl:when test=".='PPN SWB'"><xsl:text>6048004e-75bc-11ea-8ddd-5a780fe0d4e4</xsl:text></xsl:when>
+        <xsl:when test=".='DNB-Nummer'"><xsl:text>63fd8fa0-a939-4d1e-869c-6dcc24c9d507</xsl:text></xsl:when>
+        <xsl:when test=".='Autorisierte ISSN'"><xsl:text>c90b1f32-0ad9-46fc-9bf6-98c79a966844</xsl:text></xsl:when>
+        <xsl:when test=".='Fehlerhafte ISSN der parallelen Ausgabe'"><xsl:text>5626dbb7-a0b6-4722-905b-5a1f34f69fea</xsl:text></xsl:when>
+        <xsl:when test=".='Formal falsche ISBN der Reproduktion'"><xsl:text>60392328-7874-4dfa-91dc-7b56444c46f0</xsl:text></xsl:when>
+        <xsl:when test=".='Formal falsche ISMN'"><xsl:text>08dbec41-c94d-48f4-92e2-18044e83259f</xsl:text></xsl:when>
+        <xsl:when test=".='Identnummer der erstkatalogisierenden Institution'"><xsl:text>8e33c1be-e2c4-43ac-a975-8fb50f71137a</xsl:text></xsl:when>
+        <xsl:when test=".='ISBN der parallelen Ausgabe auf einem anderen Datenträger'"><xsl:text>cfbf1033-2809-44e3-b4a1-25ad2fc703d3</xsl:text></xsl:when>
+        <xsl:when test=".='ISBN der parallelen Ausgabe im Fernzugriff'"><xsl:text>a9ed691a-8773-4ece-88d1-c9703ab11e44</xsl:text></xsl:when>
+        <xsl:when test=".='ISBN der parallelen Druckausgabe'"><xsl:text>d9f789b1-69f2-4992-8b5f-fde5d0c75d59</xsl:text></xsl:when>
+        <xsl:when test=".='ISBN der Reproduktion'"><xsl:text>b99408a2-5116-4ae1-a16e-d379731d8814</xsl:text></xsl:when>
+        <xsl:when test=".='ISBN einer Manifestation in anderer physischer Form'"><xsl:text>55feb40b-0de9-461b-8c34-3b638164ea6c</xsl:text></xsl:when>
+        <xsl:when test=".='ISBN für parallele Ausgabe in einer anderen physischen Form'"><xsl:text>243e86bb-3192-4e6d-b58d-dc9bb4e26651</xsl:text></xsl:when>
+        <xsl:when test=".='ISMN'"><xsl:text>ce741fff-9dc7-4ebb-9a28-8c5174c3a962</xsl:text></xsl:when>
+        <xsl:when test=".='ISRN'"><xsl:text>22a144d5-0e43-4c71-b6f7-aac4ff6b9d3e</xsl:text></xsl:when>
+        <xsl:when test=".='ISSN für parallele Ausgaben auf einem anderen Datenträger'"><xsl:text>2c4d47a4-d776-469e-9514-05d1faca89b8</xsl:text></xsl:when>
+        <xsl:when test=".='ISSN für parallele Ausgaben im Fernzugriff'"><xsl:text>45ea57d6-9595-4fcf-bdd4-8339418a1553</xsl:text></xsl:when>
+        <xsl:when test=".='ISSN für parallele Druckausgaben'"><xsl:text>27e37c19-c77f-4452-bfe8-a05f6e3a4af4</xsl:text></xsl:when>
+        <xsl:when test=".='ISSN paralleler Ausgaben'"><xsl:text>1e4fb6ec-8fca-4bd3-ab21-2021a5f0e28a</xsl:text></xsl:when>
+        <xsl:when test=".='Produktsigel Gesamtpaket'"><xsl:text>0bb41e81-86b8-4d31-a578-17745b06b9fb</xsl:text></xsl:when>
+        <xsl:when test=".='Produktsigel Teilpaket, Arbeitsfeld für sonstige Produktsigel'"><xsl:text>6966e5f6-efaf-4378-86f1-7863ae1ecc6c</xsl:text></xsl:when>
+        <xsl:when test=".='Digital Object Identifier (DOI) im Druckwerk'"><xsl:text>91b2bf6d-6d14-4c2e-9a26-b8fee9a0a14a</xsl:text></xsl:when>
+        <xsl:when test=".='SWB-OCLC-Nummer'"><xsl:text>da3478c6-efa1-4fcb-a914-fde46a170c82</xsl:text></xsl:when>
+        <xsl:when test=".='CIP-Nummer'"><xsl:text>aaeec26d-72e9-4952-b59e-86bd9fbfedd3</xsl:text></xsl:when>
+        <xsl:when test=".='WV-Nummer'"><xsl:text>217a56e1-5e45-4253-b942-d2199cca183e</xsl:text></xsl:when>
+        <xsl:when test=".='ZDB-Nummer'"><xsl:text>7d09e4a5-31c9-43de-9b07-e02cf0e49252</xsl:text></xsl:when>
+        <xsl:when test=".='SWB-PPN des umgelenkten Satzes'"><xsl:text>076b9fed-7957-4b11-b8ac-0fe368939cbe</xsl:text></xsl:when>
+        <xsl:when test=".='Weitere Verbundidentnummern'"><xsl:text>24f03461-e76a-49cb-baba-8f5dd505bac4</xsl:text></xsl:when>
+        <xsl:when test=".='Identnummern weiterer Fremddatenlieferanten'"><xsl:text>623d4545-073d-456f-9173-07116107bf0a</xsl:text></xsl:when>
+        <xsl:when test=".='PPN des umgelenkten GBV- bzw. K10plus-Satzes'"><xsl:text>1035a102-9fdd-4556-9efd-bf9308e035f6</xsl:text></xsl:when>
+        <xsl:when test=".='Swets-Nummer'"><xsl:text>8334b288-2235-41d1-bcf2-a943255ff12c</xsl:text></xsl:when>
+        <xsl:when test=".='VD16-Nummer'"><xsl:text>ba9fb70d-a6bc-4eb9-9693-0a86bc9adc9c</xsl:text></xsl:when>
+        <xsl:when test=".='VD17-Nummer'"><xsl:text>f3b48441-336e-46da-9d34-5a97a12dfb84</xsl:text></xsl:when>
+        <xsl:when test=".='VD18-Nummer'"><xsl:text>1cfbd85f-4744-4107-8f8c-22f65fcef077</xsl:text></xsl:when>
+        <xsl:when test=".='Sonstige Standardnummern'"><xsl:text>6660c49d-a70e-4fcc-ae09-aaedb5bf92e5</xsl:text></xsl:when>
+        <xsl:when test=".='Identnummern (allgemein)'"><xsl:text>920062a7-384a-4150-8573-4b6f15a992d6</xsl:text></xsl:when>
+        <xsl:when test=".='GTIN (vormals EAN)'"><xsl:text>7836bced-1d36-4ee0-b263-5d63db38676a</xsl:text></xsl:when>
+        <xsl:when test=".='Universal Product Code (UPC)'"><xsl:text>0b9e3fe0-7452-445f-8696-e39f9f48ace3</xsl:text></xsl:when>
+        <xsl:when test=".='Verlags-, Produktions- und Bestellnummer'"><xsl:text>e0f6787d-a556-4d03-9850-e60c5a2baec1</xsl:text></xsl:when>
+        <xsl:when test=".='Other standard identifier'">2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</xsl:when>
+        <xsl:otherwise>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</xsl:otherwise> <!-- Other standard identifier -->
       </xsl:choose>
     </identifierTypeId>
   </xsl:template>
   
   <!-- Map holdings types -->
-  <xsl:template match="holdingsTypeId">
+  <xsl:template match="holdingsTypeId"> <!-- Level 0: FOLIO -->
     <holdingsTypeId>
       <xsl:choose>
         <xsl:when test=".='electronic'">996f93e2-5b5e-4cf2-9168-33ced1f95eed</xsl:when>
@@ -498,10 +513,10 @@
   </xsl:template>
 
   <!-- Map holdings source -->
-  <xsl:template match="sourceId">
+  <xsl:template match="sourceId"> <!-- Level 2: hebis-wide -->
     <sourceId>
       <xsl:choose>
-        <xsl:when test=".='hebis'">ed96edb1-d91d-4a31-9c40-006f5199d782</xsl:when> <!-- hebis wide UUID -->
+        <xsl:when test=".='hebis'"><xsl:text>ed96edb1-d91d-4a31-9c40-006f5199d782</xsl:text></xsl:when> <!-- hebis wide -->
         <xsl:otherwise>f32d531e-df79-46b3-8932-cdd35f7a2264</xsl:otherwise> <!-- FOLIO -->
       </xsl:choose>
     </sourceId>

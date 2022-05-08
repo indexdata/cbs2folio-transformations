@@ -218,7 +218,7 @@
           <xsl:if test="position()=last() and ./@code='j' and ../subfield[@code='6']">-</xsl:if>
         </xsl:for-each>
       </chronology>
-      <xsl:if test="datafield[@tag='220B' or @tag='220C' or @tag='220E' or @tag='237A' or @tag='244Z']">
+      <xsl:if test="datafield[@tag='220B' or @tag='220C' or @tag='220E' or @tag='237A' or @tag='244Z' or (@tag='209B' and not(subfield[@code='x']='01' or subfield[@code='x']='02'))]">
         <notes>
           <arr>
             <xsl:for-each select="datafield[@tag='220B' or @tag='220C' or @tag='220E' or @tag='237A']">
@@ -233,6 +233,15 @@
                   </staffOnly>
                 </i>
               </xsl:if>
+            </xsl:for-each>
+            <xsl:for-each select="datafield[@tag='209B' and not(subfield[@code='x']='01' or subfield[@code='x']='02')]">
+              <i>
+                <note>
+                  <xsl:value-of select="./subfield[@code='a']"/>
+                </note>
+                <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
+                <staffOnly>true</staffOnly>
+              </i>
             </xsl:for-each>
             <xsl:for-each select="datafield[@tag='244Z']">
               <xsl:variable name="expansion" select="substring-before(./subfield[@code='8'], ' ; ID:')"/>
