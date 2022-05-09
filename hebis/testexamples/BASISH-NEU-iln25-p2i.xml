@@ -711,7 +711,7 @@
                </i>
                <i>
                   <value>GBC005585</value>
-                  <identifierTypeId/>
+                  <identifierTypeId>BNB</identifierTypeId>
                </i>
                <i>
                   <value>HEB: 460686119</value>
@@ -5934,7 +5934,7 @@
                </i>
                <i>
                   <value>10.14361/9783839454251</value>
-                  <identifierTypeId/>
+                  <identifierTypeId>DOI</identifierTypeId>
                </i>
                <i>
                   <value>HEB: 475634225</value>
@@ -6629,7 +6629,7 @@
                </i>
                <i>
                   <value>10.1051/978-2-7598-0102-2</value>
-                  <identifierTypeId/>
+                  <identifierTypeId>DOI</identifierTypeId>
                </i>
                <i>
                   <value>HEB: 476202744</value>
@@ -8338,7 +8338,7 @@
                </i>
                <i>
                   <value>10.1515/9783110697308</value>
-                  <identifierTypeId/>
+                  <identifierTypeId>DOI</identifierTypeId>
                </i>
                <i>
                   <value>HEB: 475628594</value>
@@ -9656,7 +9656,7 @@
                </i>
                <i>
                   <value>urn:nbn:de:bsz:21-dspace-1014575</value>
-                  <identifierTypeId/>
+                  <identifierTypeId>URN</identifierTypeId>
                </i>
                <i>
                   <value>1212849795</value>
