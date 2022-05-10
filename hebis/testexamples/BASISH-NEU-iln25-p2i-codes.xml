@@ -120,7 +120,11 @@
                      </i>
                   </arr>
                </electronicAccess>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -253,7 +257,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -296,7 +304,7 @@
                </i>
                <i>
                   <value>GBC005585</value>
-                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
+                  <identifierTypeId>3187432f-9434-40a8-8782-35a111a1491e</identifierTypeId>
                </i>
                <i>
                   <value>HEB: 460686119</value>
@@ -310,11 +318,11 @@
             <arr>
                <i>
                   <alternativeTitle>Literature and food</alternativeTitle>
-                  <alternativeTitleTypeId>0fe58901-183e-4678-a3aa-0b4751174ba8</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
                </i>
                <i>
                   <alternativeTitle>Abweichender Titel: Literature and food</alternativeTitle>
-                  <alternativeTitleTypeId>0fe58901-183e-4678-a3aa-0b4751174ba8</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
                </i>
             </arr>
          </alternativeTitles>
@@ -408,7 +416,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -535,7 +547,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -649,7 +665,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -694,11 +714,11 @@
             <arr>
                <i>
                   <alternativeTitle>Beck-online</alternativeTitle>
-                  <alternativeTitleTypeId>0fe58901-183e-4678-a3aa-0b4751174ba8</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
                </i>
                <i>
                   <alternativeTitle>Beck online Corona und COVID-19 plus</alternativeTitle>
-                  <alternativeTitleTypeId>0fe58901-183e-4678-a3aa-0b4751174ba8</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
                </i>
             </arr>
          </alternativeTitles>
@@ -795,7 +815,11 @@
                      </i>
                   </arr>
                </electronicAccess>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -916,7 +940,12 @@
                      </i>
                   </arr>
                </electronicAccess>
-               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i/>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -1051,7 +1080,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>678097798</hrid>
@@ -1088,7 +1121,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>221750509</hrid>
@@ -1125,7 +1162,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>1010303376</hrid>
@@ -1172,7 +1213,12 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i/>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>179077457</hrid>
@@ -1209,7 +1255,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>584900007</hrid>
@@ -1246,7 +1296,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>176844678</hrid>
@@ -1283,7 +1337,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>22285393X</hrid>
@@ -1320,7 +1378,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>595435629</hrid>
@@ -1357,7 +1419,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>581150368</hrid>
@@ -1394,7 +1460,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -1521,7 +1591,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>67809781X</hrid>
@@ -1558,7 +1632,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>221750266</hrid>
@@ -1595,7 +1673,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>1010401270</hrid>
@@ -1637,7 +1719,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>207701636</hrid>
@@ -1674,7 +1760,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>584899971</hrid>
@@ -1711,7 +1801,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>20816233X</hrid>
@@ -1748,7 +1842,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>22285409X</hrid>
@@ -1785,7 +1883,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>595435947</hrid>
@@ -1822,7 +1924,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>58115052X</hrid>
@@ -1859,7 +1965,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -1990,7 +2100,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -2128,7 +2242,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>336705190</hrid>
@@ -2170,7 +2288,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>262731266</hrid>
@@ -2212,7 +2334,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -2339,7 +2465,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>467614156</hrid>
@@ -2376,7 +2506,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>245463119</hrid>
@@ -2413,7 +2547,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>1010468278</hrid>
@@ -2455,7 +2593,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>251796027</hrid>
@@ -2492,7 +2634,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>584899947</hrid>
@@ -2529,7 +2675,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>24580417X</hrid>
@@ -2566,7 +2716,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>255947798</hrid>
@@ -2603,7 +2757,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>595436102</hrid>
@@ -2640,7 +2798,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>58115066X</hrid>
@@ -2677,7 +2839,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -2712,7 +2878,7 @@
                </i>
                <i>
                   <value>10.14361/9783839454251</value>
-                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
+                  <identifierTypeId>39554f54-d0bb-4f0a-89a4-e422f6136316</identifierTypeId>
                </i>
                <i>
                   <value>HEB: 475634225</value>
@@ -2961,7 +3127,12 @@
                      </i>
                   </arr>
                </electronicAccess>
-               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i/>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -3073,7 +3244,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>368079074</hrid>
@@ -3115,7 +3290,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -3146,7 +3325,7 @@
                </i>
                <i>
                   <value>10.1051/978-2-7598-0102-2</value>
-                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
+                  <identifierTypeId>39554f54-d0bb-4f0a-89a4-e422f6136316</identifierTypeId>
                </i>
                <i>
                   <value>HEB: 476202744</value>
@@ -3256,7 +3435,11 @@
                      </i>
                   </arr>
                </electronicAccess>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -3371,7 +3554,11 @@
                      </i>
                   </arr>
                </electronicAccess>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -3501,7 +3688,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -3639,7 +3830,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -3787,7 +3982,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -3926,7 +4125,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -3961,7 +4164,7 @@
                </i>
                <i>
                   <value>10.1515/9783110697308</value>
-                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
+                  <identifierTypeId>39554f54-d0bb-4f0a-89a4-e422f6136316</identifierTypeId>
                </i>
                <i>
                   <value>HEB: 475628594</value>
@@ -4170,7 +4373,12 @@
                      </i>
                   </arr>
                </electronicAccess>
-               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i/>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -4279,7 +4487,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -4438,7 +4650,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>1144975972</hrid>
@@ -4523,7 +4739,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -4580,7 +4800,7 @@
             <arr>
                <i>
                   <alternativeTitle>Lernen in der digitalen Welt</alternativeTitle>
-                  <alternativeTitleTypeId>0fe58901-183e-4678-a3aa-0b4751174ba8</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
                </i>
                <i>
                   <alternativeTitle>On (Hannover)</alternativeTitle>
@@ -4696,7 +4916,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -4723,7 +4947,7 @@
                </i>
                <i>
                   <value>urn:nbn:de:bsz:21-dspace-1014575</value>
-                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
+                  <identifierTypeId>eb7b2717-f149-4fec-81a3-deefb8f5ee6b</identifierTypeId>
                </i>
                <i>
                   <value>1212849795</value>
@@ -4818,7 +5042,11 @@
                      </i>
                   </arr>
                </electronicAccess>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -4984,7 +5212,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>112914383X</hrid>
@@ -5142,7 +5374,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -5180,7 +5416,7 @@
             <arr>
                <i>
                   <alternativeTitle>Methoden zur Regenwurm-Extraktion</alternativeTitle>
-                  <alternativeTitleTypeId>0fe58901-183e-4678-a3aa-0b4751174ba8</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
                </i>
             </arr>
          </alternativeTitles>
@@ -5284,7 +5520,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -5494,7 +5734,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>1048567109</hrid>
@@ -5546,7 +5790,12 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i/>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -5701,7 +5950,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -5844,7 +6097,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -5989,7 +6246,12 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i/>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -6152,7 +6414,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>1134433468</hrid>
@@ -6195,7 +6461,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -7861,7 +8131,12 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i/>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>759702675</hrid>
@@ -7903,7 +8178,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>760509352</hrid>
@@ -7950,7 +8229,12 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i/>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -8077,7 +8361,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>678097755</hrid>
@@ -8114,7 +8402,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>221750649</hrid>
@@ -8151,7 +8443,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>1010197053</hrid>
@@ -8198,7 +8494,12 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i/>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>165736585</hrid>
@@ -8235,7 +8536,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>584900031</hrid>
@@ -8272,7 +8577,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>164736468</hrid>
@@ -8309,7 +8618,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>222853697</hrid>
@@ -8346,7 +8659,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>595435424</hrid>
@@ -8383,7 +8700,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>581150228</hrid>
@@ -8420,7 +8741,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -8471,7 +8796,7 @@
             <arr>
                <i>
                   <alternativeTitle>ÄGB</alternativeTitle>
-                  <alternativeTitleTypeId>0fe58901-183e-4678-a3aa-0b4751174ba8</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
                </i>
             </arr>
          </alternativeTitles>
@@ -8540,7 +8865,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -8687,7 +9016,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -8830,7 +9163,12 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i/>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>565909266</hrid>
@@ -9183,7 +9521,12 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i/>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>616740840</hrid>
@@ -9536,7 +9879,12 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i/>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>646142364</hrid>
@@ -9839,7 +10187,12 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i/>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>566028360</hrid>
@@ -9876,7 +10229,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>779043049</hrid>
@@ -9913,7 +10270,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -10066,7 +10427,12 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i/>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>1056626909</hrid>
@@ -10113,7 +10479,12 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i/>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -10200,7 +10571,11 @@
                      </i>
                   </arr>
                </electronicAccess>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -10246,7 +10621,7 @@
             <arr>
                <i>
                   <alternativeTitle>St. Alban- St. Jakobus Mainz Jubiläumsfestschrift</alternativeTitle>
-                  <alternativeTitleTypeId>0fe58901-183e-4678-a3aa-0b4751174ba8</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
                </i>
             </arr>
          </alternativeTitles>
@@ -10327,7 +10702,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -10378,11 +10757,11 @@
             <arr>
                <i>
                   <alternativeTitle>Wurm Galenische Übungen</alternativeTitle>
-                  <alternativeTitleTypeId>0fe58901-183e-4678-a3aa-0b4751174ba8</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
                </i>
                <i>
                   <alternativeTitle>Galenische Übungen für das technologische Praktikum und die pharmazeutische Praxis</alternativeTitle>
-                  <alternativeTitleTypeId>0fe58901-183e-4678-a3aa-0b4751174ba8</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
                </i>
             </arr>
          </alternativeTitles>
@@ -10478,7 +10857,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>63069351X</hrid>
@@ -10520,7 +10903,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -10651,7 +11038,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>496431293</hrid>
@@ -10688,7 +11079,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>345153359</hrid>
@@ -10730,7 +11125,12 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i/>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>1010484826</hrid>
@@ -10772,7 +11172,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>333532171</hrid>
@@ -10809,7 +11213,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>584899890</hrid>
@@ -10846,7 +11254,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>344792374</hrid>
@@ -10883,7 +11295,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>343521903</hrid>
@@ -10920,7 +11336,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>595436420</hrid>
@@ -10957,7 +11377,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>581151119</hrid>
@@ -10994,7 +11418,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -11121,7 +11549,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>678097690</hrid>
@@ -11158,7 +11590,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>221750134</hrid>
@@ -11195,7 +11631,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>1010133578</hrid>
@@ -11242,7 +11682,12 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i/>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>152309500</hrid>
@@ -11279,7 +11724,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>584900082</hrid>
@@ -11316,7 +11765,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>152171959</hrid>
@@ -11353,7 +11806,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>222853557</hrid>
@@ -11390,7 +11847,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>595435254</hrid>
@@ -11427,7 +11888,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>581150023</hrid>
@@ -11464,7 +11929,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -11608,7 +12077,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>112427944X</hrid>
@@ -11766,7 +12239,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -11917,7 +12394,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -11982,7 +12463,7 @@
             <arr>
                <i>
                   <alternativeTitle>Wettbewerbsrecht</alternativeTitle>
-                  <alternativeTitleTypeId>0fe58901-183e-4678-a3aa-0b4751174ba8</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
                </i>
                <i>
                   <alternativeTitle>Wettbewerbsrecht</alternativeTitle>
@@ -12095,7 +12576,12 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i/>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>1130673936</hrid>
@@ -12147,7 +12633,12 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i/>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -12319,7 +12810,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -12454,7 +12949,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -12607,7 +13106,12 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>a59d4a4e-0339-4243-9039-bd64c8a9c941</i><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>a59d4a4e-0339-4243-9039-bd64c8a9c941</i>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -12879,7 +13383,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>1142630676</hrid>
@@ -12931,7 +13439,12 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i/>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -13056,7 +13569,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>376141832</hrid>
@@ -13093,7 +13610,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
