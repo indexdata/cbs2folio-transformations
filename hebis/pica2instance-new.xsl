@@ -575,22 +575,23 @@
                   </xsl:when>
                   <xsl:otherwise>
                     <xsl:for-each select="subfield">
-                      <xsl:if test= "@code='a'">
-                        <xsl:value-of select="."/>
-                      </xsl:if>
-  
-                       <xsl:if test="@code='f' or @code='g'">
-                         <xsl:value-of select="concat(' (',.,')')"/>
-                      </xsl:if>
-                      <xsl:if test="@code='m' or @code='n' or @code='h' or @code='l' or @code='r' or @code='x'">
-                         <xsl:value-of select="concat(', ',.)"/>
-                      </xsl:if>
-                      <xsl:if test="@code='k' or @code='p' or @code='s'">
-                         <xsl:value-of select="concat('. ',.)"/>
-                      </xsl:if> 
-                      <xsl:if test="@code='o'">
-                         <xsl:value-of select="concat('; ',.)"/>
-                      </xsl:if> 
+                      <xsl:choose>
+                        <xsl:when test="@code='a'">
+                          <xsl:value-of select="."/>
+                        </xsl:when>
+                        <xsl:when test="@code='f' or @code='g'">
+                          <xsl:value-of select="concat(' (',.,')')"/>
+                        </xsl:when>
+                        <xsl:when test="@code='m' or @code='n' or @code='h' or @code='l' or @code='r' or @code='x'">
+                          <xsl:value-of select="concat(', ',.)"/>
+                        </xsl:when>
+                        <xsl:when test="@code='k' or @code='p' or @code='s'">
+                          <xsl:value-of select="concat('. ',.)"/>
+                        </xsl:when>
+                        <xsl:when test="@code='o'">
+                          <xsl:value-of select="concat('; ',.)"/>
+                        </xsl:when>
+                      </xsl:choose> 
                     </xsl:for-each>
                   </xsl:otherwise>
                 </xsl:choose>
