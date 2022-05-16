@@ -2,12 +2,12 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output indent="yes" method="xml" version="1.0" encoding="UTF-8"/>
   <xsl:key name="original" match="original/item" use="@epn"/>
-     
+
   <xsl:template match="@* | node()">
     <xsl:copy>
       <xsl:apply-templates select="@* | node()"/>
     </xsl:copy>
-  </xsl:template>  
+  </xsl:template>
 
   <xsl:template match="permanentLocationId">
     <xsl:variable name="i" select="key('original',.)"/>
@@ -16,43 +16,43 @@
     <xsl:variable name="signatur" select="$i/datafield[@tag='209A']/subfield[@code='a']"/>
     <xsl:variable name="electronicholding" select="(substring($i/../datafield[@tag='002@']/subfield[@code='0'],1,1) = 'O') and not(substring($i/datafield[@tag='208@']/subfield[@code='b'],1,1) = 'a')"/>
     <permanentLocationId>
-       <xsl:choose>
-         <xsl:when test="$electronicholding">ONLINE</xsl:when>
-         <xsl:when test="substring($i/datafield[@tag='208@']/subfield[@code='b'],1,1) = 'd'">DUMMY</xsl:when>
-         <xsl:when test="$abt='000'">
-           <xsl:choose>
-             <xsl:when test="starts-with($signatur,'SR')">ZBOM</xsl:when> <!-- TBD: Offenes Magazin -->
+      <xsl:choose>
+        <xsl:when test="$electronicholding">ONLINE</xsl:when>
+        <xsl:when test="substring($i/datafield[@tag='208@']/subfield[@code='b'],1,1) = 'd'">DUMMY</xsl:when>
+        <xsl:when test="$abt='000'">
+          <xsl:choose>
+            <xsl:when test="starts-with($signatur,'SR')">ZBOM</xsl:when> <!-- TBD: Offenes Magazin -->
 
-             <xsl:otherwise>UNKNOWN</xsl:otherwise>
-           </xsl:choose>
-         </xsl:when>
-         <xsl:when test="$abt='034'">
-           <xsl:choose>
-             <xsl:when test="starts-with($signatur,'52/')">BRUWGM</xsl:when>
+            <xsl:otherwise>UNKNOWN</xsl:otherwise>
+          </xsl:choose>
+        </xsl:when>
+        <xsl:when test="$abt='034'">
+          <xsl:choose>
+            <xsl:when test="starts-with($signatur,'52/')">BRUWGM</xsl:when>
 
-             <xsl:otherwise>BRUW</xsl:otherwise>
-           </xsl:choose>
-         </xsl:when>
-         <xsl:when test="$abt='330'">
-           <xsl:choose>
-             <xsl:when test="starts-with($signatur,'26/')">BZGLB</xsl:when>
+            <xsl:otherwise>BRUW</xsl:otherwise>
+          </xsl:choose>
+        </xsl:when>
+        <xsl:when test="$abt='330'">
+          <xsl:choose>
+            <xsl:when test="starts-with($signatur,'26/')">BZGLB</xsl:when>
 
-             <xsl:otherwise>BZGOM</xsl:otherwise>
-           </xsl:choose>
-         </xsl:when>
-         <xsl:when test="$abt='006'">
-           <xsl:choose>
-             <xsl:when test="starts-with($signatur,'42/')">BSPTST</xsl:when>
+            <xsl:otherwise>BZGOM</xsl:otherwise>
+          </xsl:choose>
+        </xsl:when>
+        <xsl:when test="$abt='006'">
+          <xsl:choose>
+            <xsl:when test="starts-with($signatur,'42/')">BSPTST</xsl:when>
 
-             <xsl:otherwise>BSP</xsl:otherwise>
-           </xsl:choose>
-         </xsl:when>
+            <xsl:otherwise>BSP</xsl:otherwise>
+          </xsl:choose>
+        </xsl:when>
 
-         <xsl:otherwise>UNKNOWN</xsl:otherwise>
-       </xsl:choose>
-      </permanentLocationId>
+        <xsl:otherwise>UNKNOWN</xsl:otherwise>
+      </xsl:choose>
+    </permanentLocationId>
   </xsl:template>
-   
+
   <xsl:template match="permanentLoanTypeId">
     <xsl:variable name="loantype" select="key('original',.)/datafield[@tag='209A']/subfield[@code='d']"/>
     <permanentLoanTypeId>
@@ -76,12 +76,12 @@
 
   <xsl:template match="discoverySuppress"> <!-- TBD: Kat. 247E/XY ? -->
     <discoverySuppress>
-      <xsl:value-of select="(substring(., 1, 1) = 'g')"/>           
+      <xsl:value-of select="(substring(., 1, 1) = 'g')"/>
     </discoverySuppress>
   </xsl:template>
 
   <!-- Parsing call number for prefix - optional -->
-  
+
   <xsl:template name="prefix"> <!-- TBD: Adapt to ILN 3 -->
     <xsl:param name="cn"/>
     <xsl:param name="cnprefixelement"/>
@@ -92,7 +92,7 @@
           <xsl:value-of select="concat(substring-before($cn,'°'),'°')"/>
         </xsl:when>
         <xsl:when test="contains($cn,'@')">
-          <xsl:value-of select="substring-before($cn,'@')"/> 
+          <xsl:value-of select="substring-before($cn,'@')"/>
         </xsl:when>
       </xsl:choose>
     </xsl:variable>
@@ -106,7 +106,7 @@
       <xsl:value-of select="normalize-space(translate(substring-after($cn,$cnprefix),'@',''))"/>
     </xsl:element>
   </xsl:template>
-  
+
   <xsl:template match="callNumber">
     <xsl:call-template name="prefix">
       <xsl:with-param name="cn" select="."/>
@@ -114,7 +114,7 @@
       <xsl:with-param name="cnelement" select="'callNumber'"/>
     </xsl:call-template>
   </xsl:template>
-  
+
   <xsl:template match="itemLevelCallNumber">
     <xsl:call-template name="prefix">
       <xsl:with-param name="cn" select="."/>
