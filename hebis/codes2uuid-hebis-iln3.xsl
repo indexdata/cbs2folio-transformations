@@ -17,7 +17,7 @@
         <xsl:when test=".='BZGLB'">0652ba86-8112-405f-9118-0eed500bcbb1</xsl:when>
         <xsl:when test=".='BSPTST'">1bdb8316-46cb-49ff-b2a4-a623fc6db4e9</xsl:when>
 
-        <xsl:otherwise>87764786-c5c8-47d0-a480-df506c751d76</xsl:otherwise> <!-- Dummy TBD? -->
+        <xsl:otherwise>3e529278-7069-46b8-9f77-ad4b3f4e1590</xsl:otherwise> <!-- RESTE -->
       </xsl:choose>
     </permanentLocationId>
   </xsl:template>
