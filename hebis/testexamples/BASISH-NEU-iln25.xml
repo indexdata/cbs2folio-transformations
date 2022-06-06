@@ -59,6 +59,10 @@
         <subfield code="9">106354256</subfield>
         <subfield code="a">Datenbank</subfield>
       </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">085503576</subfield>
+        <subfield code="a">Quelle</subfield>
+      </datafield>
       <datafield tag="017L" fulltag="017L">
         <subfield code="a">ZDB-1-EIC</subfield>
       </datafield>
@@ -124,7 +128,12 @@
         </datafield>
         <datafield tag="247C" occurrence="01" fulltag="247C/01">
           <subfield code="9">102599610</subfield>
-          <subfield code="8">651001-2 &lt;77/001&gt;Mainz, Universität Mainz, Elektronische Ressourcen</subfield>
+          <subfield code="a">Universität Mainz, Elektronische Ressourcen</subfield>
+          <subfield code="b">77/001</subfield>
+          <subfield code="c">651001-2</subfield>
+          <subfield code="h">DE-77-001</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
     </metadata>
@@ -169,6 +178,9 @@
       </datafield>
       <datafield tag="028A" fulltag="028A">
         <subfield code="9">215818776</subfield>
+        <subfield code="a">Rooijendijk</subfield>
+        <subfield code="d">Cordula</subfield>
+        <subfield code="h">1973-</subfield>
       </datafield>
       <datafield tag="033A" fulltag="033A">
         <subfield code="p">Amsterdam {[u.a.]</subfield>
@@ -247,7 +259,14 @@
         </datafield>
         <datafield tag="247C" occurrence="01" fulltag="247C/01">
           <subfield code="9">403989051</subfield>
-          <subfield code="8">651019-x &lt;Mz 19&gt;Germersheim, Universität Mainz, Bereichsbibliothek Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim</subfield>
+          <subfield code="b">Mz 19</subfield>
+          <subfield code="c">651019-x</subfield>
+          <subfield code="h">DE-Mz19</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
         </datafield>
       </item>
     </metadata>
@@ -319,6 +338,9 @@
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">398552614</subfield>
+        <subfield code="a">Coghlan</subfield>
+        <subfield code="d">J. Michelle</subfield>
+        <subfield code="h">1978-</subfield>
         <subfield code="B">Herausgeber</subfield>
         <subfield code="4">edt</subfield>
       </datafield>
@@ -417,7 +439,14 @@
         </datafield>
         <datafield tag="247C" occurrence="01" fulltag="247C/01">
           <subfield code="9">403989051</subfield>
-          <subfield code="8">651019-x &lt;Mz 19&gt;Germersheim, Universität Mainz, Bereichsbibliothek Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim</subfield>
+          <subfield code="b">Mz 19</subfield>
+          <subfield code="c">651019-x</subfield>
+          <subfield code="h">DE-Mz19</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
         </datafield>
       </item>
     </metadata>
@@ -459,9 +488,14 @@
       </datafield>
       <datafield tag="028A" fulltag="028A">
         <subfield code="9">163974403</subfield>
+        <subfield code="a">Pedro</subfield>
+        <subfield code="d">Antonio</subfield>
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">168855046</subfield>
+        <subfield code="a">Oliveira</subfield>
+        <subfield code="d">António Brás</subfield>
+        <subfield code="c">de</subfield>
         <subfield code="B">Hrsg.</subfield>
       </datafield>
       <datafield tag="033A" fulltag="033A">
@@ -541,7 +575,14 @@
         </datafield>
         <datafield tag="247C" occurrence="01" fulltag="247C/01">
           <subfield code="9">403989051</subfield>
-          <subfield code="8">651019-x &lt;Mz 19&gt;Germersheim, Universität Mainz, Bereichsbibliothek Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim</subfield>
+          <subfield code="b">Mz 19</subfield>
+          <subfield code="c">651019-x</subfield>
+          <subfield code="h">DE-Mz19</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
         </datafield>
       </item>
     </metadata>
@@ -586,6 +627,8 @@
       </datafield>
       <datafield tag="028A" fulltag="028A">
         <subfield code="9">226363856</subfield>
+        <subfield code="a">Awenius</subfield>
+        <subfield code="d">Marc</subfield>
       </datafield>
       <datafield tag="034D" fulltag="034D">
         <subfield code="a">[11], 261 S.</subfield>
@@ -637,7 +680,14 @@
         </datafield>
         <datafield tag="247C" occurrence="01" fulltag="247C/01">
           <subfield code="9">102599602</subfield>
-          <subfield code="8">651000-0 &lt;77&gt;Mainz, Universität Mainz, Zentralbibliothek</subfield>
+          <subfield code="a">Universität Mainz, Zentralbibliothek</subfield>
+          <subfield code="b">77</subfield>
+          <subfield code="c">651000-0</subfield>
+          <subfield code="h">DE-77</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
         </datafield>
       </item>
     </metadata>
@@ -714,6 +764,7 @@
       </datafield>
       <datafield tag="029F" fulltag="029F">
         <subfield code="9">303994975</subfield>
+        <subfield code="a">Verlag C.H. Beck</subfield>
         <subfield code="B">Herausgebendes Organ</subfield>
         <subfield code="4">isb</subfield>
       </datafield>
@@ -776,7 +827,12 @@
         </datafield>
         <datafield tag="247C" occurrence="01" fulltag="247C/01">
           <subfield code="9">102599610</subfield>
-          <subfield code="8">651001-2 &lt;77/001&gt;Mainz, Universität Mainz, Elektronische Ressourcen</subfield>
+          <subfield code="a">Universität Mainz, Elektronische Ressourcen</subfield>
+          <subfield code="b">77/001</subfield>
+          <subfield code="c">651001-2</subfield>
+          <subfield code="h">DE-77-001</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
     </metadata>
@@ -847,6 +903,9 @@
       </datafield>
       <datafield tag="028A" fulltag="028A">
         <subfield code="9">154827541</subfield>
+        <subfield code="a">Neuhaus</subfield>
+        <subfield code="d">Stefan</subfield>
+        <subfield code="h">1965-</subfield>
         <subfield code="B">Verfasser</subfield>
         <subfield code="4">aut</subfield>
       </datafield>
@@ -948,10 +1007,16 @@
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">160468841</subfield>
+        <subfield code="a">Barck</subfield>
+        <subfield code="d">Karlheinz</subfield>
+        <subfield code="h">1934-2012</subfield>
         <subfield code="B">Hrsg.</subfield>
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">152409173</subfield>
+        <subfield code="a">Wolfzettel</subfield>
+        <subfield code="d">Friedrich</subfield>
+        <subfield code="h">1941-</subfield>
         <subfield code="B">Hrsg.</subfield>
       </datafield>
       <datafield tag="033A" fulltag="033A">
@@ -970,6 +1035,7 @@
       </datafield>
       <datafield tag="036D" fulltag="036D">
         <subfield code="9">093913974</subfield>
+        <subfield code="8">Ästhetische Grundbegriffe</subfield>
       </datafield>
       <datafield tag="101B" fulltag="101B">
         <subfield code="0">03-11-17</subfield>
@@ -1025,7 +1091,14 @@
         </datafield>
         <datafield tag="247C" occurrence="01" fulltag="247C/01">
           <subfield code="9">102599602</subfield>
-          <subfield code="8">651000-0 &lt;77&gt;Mainz, Universität Mainz, Zentralbibliothek</subfield>
+          <subfield code="a">Universität Mainz, Zentralbibliothek</subfield>
+          <subfield code="b">77</subfield>
+          <subfield code="c">651000-0</subfield>
+          <subfield code="h">DE-77</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
         </datafield>
       </item>
       <item epn="678097798">
@@ -1070,7 +1143,12 @@
         </datafield>
         <datafield tag="247C" occurrence="02" fulltag="247C/02">
           <subfield code="9">103704124</subfield>
-          <subfield code="8">651002-4 &lt;77/002&gt;Mainz, Universität Mainz, Bereichsbibliothek Georg Forster-Gebäude</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Georg Forster-Gebäude</subfield>
+          <subfield code="b">77/002</subfield>
+          <subfield code="c">651002-4</subfield>
+          <subfield code="h">DE-77-002</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nn</subfield>
         </datafield>
       </item>
       <item epn="221750509">
@@ -1114,7 +1192,12 @@
         </datafield>
         <datafield tag="247C" occurrence="03" fulltag="247C/03">
           <subfield code="9">102599696</subfield>
-          <subfield code="8">651016-4 &lt;77/016&gt;Mainz, Universität Mainz, Bereichsbibliothek Katholische und Evangelische Theologie</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Katholische und Evangelische Theologie</subfield>
+          <subfield code="b">77/016</subfield>
+          <subfield code="c">651016-4</subfield>
+          <subfield code="h">DE-77-016</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
       <item epn="1010303376">
@@ -1169,7 +1252,14 @@
         </datafield>
         <datafield tag="247C" occurrence="04" fulltag="247C/04">
           <subfield code="9">403989051</subfield>
-          <subfield code="8">651019-x &lt;Mz 19&gt;Germersheim, Universität Mainz, Bereichsbibliothek Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim</subfield>
+          <subfield code="b">Mz 19</subfield>
+          <subfield code="c">651019-x</subfield>
+          <subfield code="h">DE-Mz19</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
         </datafield>
       </item>
       <item epn="179077457">
@@ -1219,7 +1309,12 @@
         </datafield>
         <datafield tag="247C" occurrence="05" fulltag="247C/05">
           <subfield code="9">102600198</subfield>
-          <subfield code="8">651070-x &lt;77/070&gt;Mainz, Universität Mainz, Bereichsbibliothek Philosophicum, Standorte Germanistik I / Kulturanthropologie und Germanistik II</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Philosophicum, Standorte Germanistik I / Kulturanthropologie und Germanistik II</subfield>
+          <subfield code="b">77/070</subfield>
+          <subfield code="c">651070-x</subfield>
+          <subfield code="h">DE-77-070</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
       <item epn="584900007">
@@ -1268,7 +1363,12 @@
         </datafield>
         <datafield tag="247C" occurrence="06" fulltag="247C/06">
           <subfield code="9">102600198</subfield>
-          <subfield code="8">651070-x &lt;77/070&gt;Mainz, Universität Mainz, Bereichsbibliothek Philosophicum, Standorte Germanistik I / Kulturanthropologie und Germanistik II</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Philosophicum, Standorte Germanistik I / Kulturanthropologie und Germanistik II</subfield>
+          <subfield code="b">77/070</subfield>
+          <subfield code="c">651070-x</subfield>
+          <subfield code="h">DE-77-070</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
       <item epn="176844678">
@@ -1316,7 +1416,12 @@
         </datafield>
         <datafield tag="247C" occurrence="07" fulltag="247C/07">
           <subfield code="9">102600201</subfield>
-          <subfield code="8">651071-1 &lt;77/071&gt;Mainz, Universität Mainz, Bereichsbibliothek Philosophicum, Standort Allgemeine und Vergleichende Literaturwissenschaft</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Philosophicum, Standort Allgemeine und Vergleichende Literaturwissenschaft</subfield>
+          <subfield code="b">77/071</subfield>
+          <subfield code="c">651071-1</subfield>
+          <subfield code="h">DE-77-071</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
       <item epn="22285393X">
@@ -1364,7 +1469,12 @@
         </datafield>
         <datafield tag="247C" occurrence="08" fulltag="247C/08">
           <subfield code="9">102600287</subfield>
-          <subfield code="8">651079-6 &lt;77/079&gt;Mainz, Universität Mainz, Bereichsbibliothek Georg Forster-Gebäude / Kunstgeschichte</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Georg Forster-Gebäude / Kunstgeschichte</subfield>
+          <subfield code="b">77/079</subfield>
+          <subfield code="c">651079-6</subfield>
+          <subfield code="h">DE-77-079</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
       <item epn="595435629">
@@ -1412,7 +1522,12 @@
         </datafield>
         <datafield tag="247C" occurrence="09" fulltag="247C/09">
           <subfield code="9">220061653</subfield>
-          <subfield code="8">651083-8 &lt;77/083&gt;Mainz, Universität Mainz, Bereichsbibliothek Philosophicum, Standort Historische Kulturwissenschaften</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Philosophicum, Standort Historische Kulturwissenschaften</subfield>
+          <subfield code="b">77/083</subfield>
+          <subfield code="c">651083-8</subfield>
+          <subfield code="h">DE-77-083</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
       <item epn="581150368">
@@ -1448,7 +1563,12 @@
         </datafield>
         <datafield tag="247C" occurrence="10" fulltag="247C/10">
           <subfield code="9">102600600</subfield>
-          <subfield code="8">651111-9 &lt;77/111&gt;Mainz, Universität Mainz, Kunsthochschule</subfield>
+          <subfield code="a">Universität Mainz, Kunsthochschule</subfield>
+          <subfield code="b">77/111</subfield>
+          <subfield code="c">651111-9</subfield>
+          <subfield code="h">DE-77-111</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
     </metadata>
@@ -1488,10 +1608,16 @@
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">160468841</subfield>
+        <subfield code="a">Barck</subfield>
+        <subfield code="d">Karlheinz</subfield>
+        <subfield code="h">1934-2012</subfield>
         <subfield code="B">Hrsg.</subfield>
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">152409173</subfield>
+        <subfield code="a">Wolfzettel</subfield>
+        <subfield code="d">Friedrich</subfield>
+        <subfield code="h">1941-</subfield>
         <subfield code="B">Hrsg.</subfield>
       </datafield>
       <datafield tag="033A" fulltag="033A">
@@ -1513,6 +1639,7 @@
       </datafield>
       <datafield tag="036D" fulltag="036D">
         <subfield code="9">093913974</subfield>
+        <subfield code="8">Ästhetische Grundbegriffe</subfield>
       </datafield>
       <datafield tag="101B" fulltag="101B">
         <subfield code="0">03-11-17</subfield>
@@ -1568,7 +1695,14 @@
         </datafield>
         <datafield tag="247C" occurrence="01" fulltag="247C/01">
           <subfield code="9">102599602</subfield>
-          <subfield code="8">651000-0 &lt;77&gt;Mainz, Universität Mainz, Zentralbibliothek</subfield>
+          <subfield code="a">Universität Mainz, Zentralbibliothek</subfield>
+          <subfield code="b">77</subfield>
+          <subfield code="c">651000-0</subfield>
+          <subfield code="h">DE-77</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
         </datafield>
       </item>
       <item epn="67809781X">
@@ -1613,7 +1747,12 @@
         </datafield>
         <datafield tag="247C" occurrence="02" fulltag="247C/02">
           <subfield code="9">103704124</subfield>
-          <subfield code="8">651002-4 &lt;77/002&gt;Mainz, Universität Mainz, Bereichsbibliothek Georg Forster-Gebäude</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Georg Forster-Gebäude</subfield>
+          <subfield code="b">77/002</subfield>
+          <subfield code="c">651002-4</subfield>
+          <subfield code="h">DE-77-002</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nn</subfield>
         </datafield>
       </item>
       <item epn="221750266">
@@ -1657,7 +1796,12 @@
         </datafield>
         <datafield tag="247C" occurrence="03" fulltag="247C/03">
           <subfield code="9">102599696</subfield>
-          <subfield code="8">651016-4 &lt;77/016&gt;Mainz, Universität Mainz, Bereichsbibliothek Katholische und Evangelische Theologie</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Katholische und Evangelische Theologie</subfield>
+          <subfield code="b">77/016</subfield>
+          <subfield code="c">651016-4</subfield>
+          <subfield code="h">DE-77-016</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
       <item epn="1010401270">
@@ -1708,7 +1852,14 @@
         </datafield>
         <datafield tag="247C" occurrence="04" fulltag="247C/04">
           <subfield code="9">403989051</subfield>
-          <subfield code="8">651019-x &lt;Mz 19&gt;Germersheim, Universität Mainz, Bereichsbibliothek Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim</subfield>
+          <subfield code="b">Mz 19</subfield>
+          <subfield code="c">651019-x</subfield>
+          <subfield code="h">DE-Mz19</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
         </datafield>
       </item>
       <item epn="207701636">
@@ -1758,7 +1909,12 @@
         </datafield>
         <datafield tag="247C" occurrence="05" fulltag="247C/05">
           <subfield code="9">102600198</subfield>
-          <subfield code="8">651070-x &lt;77/070&gt;Mainz, Universität Mainz, Bereichsbibliothek Philosophicum, Standorte Germanistik I / Kulturanthropologie und Germanistik II</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Philosophicum, Standorte Germanistik I / Kulturanthropologie und Germanistik II</subfield>
+          <subfield code="b">77/070</subfield>
+          <subfield code="c">651070-x</subfield>
+          <subfield code="h">DE-77-070</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
       <item epn="584899971">
@@ -1807,7 +1963,12 @@
         </datafield>
         <datafield tag="247C" occurrence="06" fulltag="247C/06">
           <subfield code="9">102600198</subfield>
-          <subfield code="8">651070-x &lt;77/070&gt;Mainz, Universität Mainz, Bereichsbibliothek Philosophicum, Standorte Germanistik I / Kulturanthropologie und Germanistik II</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Philosophicum, Standorte Germanistik I / Kulturanthropologie und Germanistik II</subfield>
+          <subfield code="b">77/070</subfield>
+          <subfield code="c">651070-x</subfield>
+          <subfield code="h">DE-77-070</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
       <item epn="20816233X">
@@ -1855,7 +2016,12 @@
         </datafield>
         <datafield tag="247C" occurrence="07" fulltag="247C/07">
           <subfield code="9">102600201</subfield>
-          <subfield code="8">651071-1 &lt;77/071&gt;Mainz, Universität Mainz, Bereichsbibliothek Philosophicum, Standort Allgemeine und Vergleichende Literaturwissenschaft</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Philosophicum, Standort Allgemeine und Vergleichende Literaturwissenschaft</subfield>
+          <subfield code="b">77/071</subfield>
+          <subfield code="c">651071-1</subfield>
+          <subfield code="h">DE-77-071</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
       <item epn="22285409X">
@@ -1903,7 +2069,12 @@
         </datafield>
         <datafield tag="247C" occurrence="08" fulltag="247C/08">
           <subfield code="9">102600287</subfield>
-          <subfield code="8">651079-6 &lt;77/079&gt;Mainz, Universität Mainz, Bereichsbibliothek Georg Forster-Gebäude / Kunstgeschichte</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Georg Forster-Gebäude / Kunstgeschichte</subfield>
+          <subfield code="b">77/079</subfield>
+          <subfield code="c">651079-6</subfield>
+          <subfield code="h">DE-77-079</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
       <item epn="595435947">
@@ -1951,7 +2122,12 @@
         </datafield>
         <datafield tag="247C" occurrence="09" fulltag="247C/09">
           <subfield code="9">220061653</subfield>
-          <subfield code="8">651083-8 &lt;77/083&gt;Mainz, Universität Mainz, Bereichsbibliothek Philosophicum, Standort Historische Kulturwissenschaften</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Philosophicum, Standort Historische Kulturwissenschaften</subfield>
+          <subfield code="b">77/083</subfield>
+          <subfield code="c">651083-8</subfield>
+          <subfield code="h">DE-77-083</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
       <item epn="58115052X">
@@ -1987,7 +2163,12 @@
         </datafield>
         <datafield tag="247C" occurrence="10" fulltag="247C/10">
           <subfield code="9">102600600</subfield>
-          <subfield code="8">651111-9 &lt;77/111&gt;Mainz, Universität Mainz, Kunsthochschule</subfield>
+          <subfield code="a">Universität Mainz, Kunsthochschule</subfield>
+          <subfield code="b">77/111</subfield>
+          <subfield code="c">651111-9</subfield>
+          <subfield code="h">DE-77-111</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
     </metadata>
@@ -2038,6 +2219,10 @@
         <subfield code="a">2020</subfield>
         <subfield code="n">September 2020-</subfield>
       </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">10454466X</subfield>
+        <subfield code="a">Zeitschrift</subfield>
+      </datafield>
       <datafield tag="018@" fulltag="018@">
         <subfield code="a">u</subfield>
       </datafield>
@@ -2047,11 +2232,17 @@
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">301661154</subfield>
+        <subfield code="a">Böick</subfield>
+        <subfield code="d">Marcus</subfield>
+        <subfield code="h">1983-</subfield>
         <subfield code="B">Herausgeber</subfield>
         <subfield code="4">edt</subfield>
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">154564516</subfield>
+        <subfield code="a">Goschler</subfield>
+        <subfield code="d">Constantin</subfield>
+        <subfield code="h">1960-</subfield>
         <subfield code="B">Herausgeber</subfield>
         <subfield code="4">edt</subfield>
       </datafield>
@@ -2108,7 +2299,12 @@
         </datafield>
         <datafield tag="247C" occurrence="01" fulltag="247C/01">
           <subfield code="9">102600376</subfield>
-          <subfield code="8">651088-7 &lt;77/088&gt;Mainz, Universität Mainz, Bereichsbibliothek Philosophicum, Standort Mittlere und Neuere Geschichte</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Philosophicum, Standort Mittlere und Neuere Geschichte</subfield>
+          <subfield code="b">77/088</subfield>
+          <subfield code="c">651088-7</subfield>
+          <subfield code="h">DE-77-088</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
     </metadata>
@@ -2146,6 +2342,9 @@
       </datafield>
       <datafield tag="028A" fulltag="028A">
         <subfield code="9">218696078</subfield>
+        <subfield code="a">Dubarle</subfield>
+        <subfield code="d">André-Marie</subfield>
+        <subfield code="h">1910-2002</subfield>
       </datafield>
       <datafield tag="033A" fulltag="033A">
         <subfield code="p">Rome</subfield>
@@ -2163,6 +2362,7 @@
       </datafield>
       <datafield tag="036D" fulltag="036D">
         <subfield code="9">054126444</subfield>
+        <subfield code="8">Judith</subfield>
       </datafield>
       <datafield tag="036E" fulltag="036E">
         <subfield code="a">Analecta biblica</subfield>
@@ -2210,7 +2410,14 @@
         </datafield>
         <datafield tag="247C" occurrence="01" fulltag="247C/01">
           <subfield code="9">102599602</subfield>
-          <subfield code="8">651000-0 &lt;77&gt;Mainz, Universität Mainz, Zentralbibliothek</subfield>
+          <subfield code="a">Universität Mainz, Zentralbibliothek</subfield>
+          <subfield code="b">77</subfield>
+          <subfield code="c">651000-0</subfield>
+          <subfield code="h">DE-77</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
         </datafield>
       </item>
       <item epn="336705190">
@@ -2257,7 +2464,12 @@
         </datafield>
         <datafield tag="247C" occurrence="02" fulltag="247C/02">
           <subfield code="9">102599696</subfield>
-          <subfield code="8">651016-4 &lt;77/016&gt;Mainz, Universität Mainz, Bereichsbibliothek Katholische und Evangelische Theologie</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Katholische und Evangelische Theologie</subfield>
+          <subfield code="b">77/016</subfield>
+          <subfield code="c">651016-4</subfield>
+          <subfield code="h">DE-77-016</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
       <item epn="262731266">
@@ -2305,7 +2517,12 @@
         </datafield>
         <datafield tag="247C" occurrence="03" fulltag="247C/03">
           <subfield code="9">102599696</subfield>
-          <subfield code="8">651016-4 &lt;77/016&gt;Mainz, Universität Mainz, Bereichsbibliothek Katholische und Evangelische Theologie</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Katholische und Evangelische Theologie</subfield>
+          <subfield code="b">77/016</subfield>
+          <subfield code="c">651016-4</subfield>
+          <subfield code="h">DE-77-016</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
     </metadata>
@@ -2345,10 +2562,16 @@
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">160468841</subfield>
+        <subfield code="a">Barck</subfield>
+        <subfield code="d">Karlheinz</subfield>
+        <subfield code="h">1934-2012</subfield>
         <subfield code="B">Hrsg.</subfield>
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">152409173</subfield>
+        <subfield code="a">Wolfzettel</subfield>
+        <subfield code="d">Friedrich</subfield>
+        <subfield code="h">1941-</subfield>
         <subfield code="B">Hrsg.</subfield>
       </datafield>
       <datafield tag="033A" fulltag="033A">
@@ -2367,6 +2590,7 @@
       </datafield>
       <datafield tag="036D" fulltag="036D">
         <subfield code="9">093913974</subfield>
+        <subfield code="8">Ästhetische Grundbegriffe</subfield>
       </datafield>
       <datafield tag="101B" fulltag="101B">
         <subfield code="0">03-11-17</subfield>
@@ -2422,7 +2646,14 @@
         </datafield>
         <datafield tag="247C" occurrence="01" fulltag="247C/01">
           <subfield code="9">102599602</subfield>
-          <subfield code="8">651000-0 &lt;77&gt;Mainz, Universität Mainz, Zentralbibliothek</subfield>
+          <subfield code="a">Universität Mainz, Zentralbibliothek</subfield>
+          <subfield code="b">77</subfield>
+          <subfield code="c">651000-0</subfield>
+          <subfield code="h">DE-77</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
         </datafield>
       </item>
       <item epn="467614156">
@@ -2470,7 +2701,12 @@
         </datafield>
         <datafield tag="247C" occurrence="02" fulltag="247C/02">
           <subfield code="9">103704124</subfield>
-          <subfield code="8">651002-4 &lt;77/002&gt;Mainz, Universität Mainz, Bereichsbibliothek Georg Forster-Gebäude</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Georg Forster-Gebäude</subfield>
+          <subfield code="b">77/002</subfield>
+          <subfield code="c">651002-4</subfield>
+          <subfield code="h">DE-77-002</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nn</subfield>
         </datafield>
       </item>
       <item epn="245463119">
@@ -2514,7 +2750,12 @@
         </datafield>
         <datafield tag="247C" occurrence="03" fulltag="247C/03">
           <subfield code="9">102599696</subfield>
-          <subfield code="8">651016-4 &lt;77/016&gt;Mainz, Universität Mainz, Bereichsbibliothek Katholische und Evangelische Theologie</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Katholische und Evangelische Theologie</subfield>
+          <subfield code="b">77/016</subfield>
+          <subfield code="c">651016-4</subfield>
+          <subfield code="h">DE-77-016</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
       <item epn="1010468278">
@@ -2565,7 +2806,14 @@
         </datafield>
         <datafield tag="247C" occurrence="04" fulltag="247C/04">
           <subfield code="9">403989051</subfield>
-          <subfield code="8">651019-x &lt;Mz 19&gt;Germersheim, Universität Mainz, Bereichsbibliothek Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim</subfield>
+          <subfield code="b">Mz 19</subfield>
+          <subfield code="c">651019-x</subfield>
+          <subfield code="h">DE-Mz19</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
         </datafield>
       </item>
       <item epn="251796027">
@@ -2615,7 +2863,12 @@
         </datafield>
         <datafield tag="247C" occurrence="05" fulltag="247C/05">
           <subfield code="9">102600198</subfield>
-          <subfield code="8">651070-x &lt;77/070&gt;Mainz, Universität Mainz, Bereichsbibliothek Philosophicum, Standorte Germanistik I / Kulturanthropologie und Germanistik II</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Philosophicum, Standorte Germanistik I / Kulturanthropologie und Germanistik II</subfield>
+          <subfield code="b">77/070</subfield>
+          <subfield code="c">651070-x</subfield>
+          <subfield code="h">DE-77-070</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
       <item epn="584899947">
@@ -2664,7 +2917,12 @@
         </datafield>
         <datafield tag="247C" occurrence="06" fulltag="247C/06">
           <subfield code="9">102600198</subfield>
-          <subfield code="8">651070-x &lt;77/070&gt;Mainz, Universität Mainz, Bereichsbibliothek Philosophicum, Standorte Germanistik I / Kulturanthropologie und Germanistik II</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Philosophicum, Standorte Germanistik I / Kulturanthropologie und Germanistik II</subfield>
+          <subfield code="b">77/070</subfield>
+          <subfield code="c">651070-x</subfield>
+          <subfield code="h">DE-77-070</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
       <item epn="24580417X">
@@ -2712,7 +2970,12 @@
         </datafield>
         <datafield tag="247C" occurrence="07" fulltag="247C/07">
           <subfield code="9">102600201</subfield>
-          <subfield code="8">651071-1 &lt;77/071&gt;Mainz, Universität Mainz, Bereichsbibliothek Philosophicum, Standort Allgemeine und Vergleichende Literaturwissenschaft</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Philosophicum, Standort Allgemeine und Vergleichende Literaturwissenschaft</subfield>
+          <subfield code="b">77/071</subfield>
+          <subfield code="c">651071-1</subfield>
+          <subfield code="h">DE-77-071</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
       <item epn="255947798">
@@ -2760,7 +3023,12 @@
         </datafield>
         <datafield tag="247C" occurrence="08" fulltag="247C/08">
           <subfield code="9">102600287</subfield>
-          <subfield code="8">651079-6 &lt;77/079&gt;Mainz, Universität Mainz, Bereichsbibliothek Georg Forster-Gebäude / Kunstgeschichte</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Georg Forster-Gebäude / Kunstgeschichte</subfield>
+          <subfield code="b">77/079</subfield>
+          <subfield code="c">651079-6</subfield>
+          <subfield code="h">DE-77-079</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
       <item epn="595436102">
@@ -2808,7 +3076,12 @@
         </datafield>
         <datafield tag="247C" occurrence="09" fulltag="247C/09">
           <subfield code="9">220061653</subfield>
-          <subfield code="8">651083-8 &lt;77/083&gt;Mainz, Universität Mainz, Bereichsbibliothek Philosophicum, Standort Historische Kulturwissenschaften</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Philosophicum, Standort Historische Kulturwissenschaften</subfield>
+          <subfield code="b">77/083</subfield>
+          <subfield code="c">651083-8</subfield>
+          <subfield code="h">DE-77-083</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
       <item epn="58115066X">
@@ -2844,7 +3117,12 @@
         </datafield>
         <datafield tag="247C" occurrence="10" fulltag="247C/10">
           <subfield code="9">102600600</subfield>
-          <subfield code="8">651111-9 &lt;77/111&gt;Mainz, Universität Mainz, Kunsthochschule</subfield>
+          <subfield code="a">Universität Mainz, Kunsthochschule</subfield>
+          <subfield code="b">77/111</subfield>
+          <subfield code="c">651111-9</subfield>
+          <subfield code="h">DE-77-111</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
     </metadata>
@@ -3156,6 +3434,9 @@
       </datafield>
       <datafield tag="028A" fulltag="028A">
         <subfield code="9">14007497X</subfield>
+        <subfield code="a">Bring</subfield>
+        <subfield code="d">Ragnar</subfield>
+        <subfield code="h">1895-1988</subfield>
       </datafield>
       <datafield tag="033A" fulltag="033A">
         <subfield code="p">Gütersloh</subfield>
@@ -3208,7 +3489,12 @@
         </datafield>
         <datafield tag="247C" occurrence="01" fulltag="247C/01">
           <subfield code="9">102599696</subfield>
-          <subfield code="8">651016-4 &lt;77/016&gt;Mainz, Universität Mainz, Bereichsbibliothek Katholische und Evangelische Theologie</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Katholische und Evangelische Theologie</subfield>
+          <subfield code="b">77/016</subfield>
+          <subfield code="c">651016-4</subfield>
+          <subfield code="h">DE-77-016</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
       <item epn="368079074">
@@ -3252,7 +3538,12 @@
         </datafield>
         <datafield tag="247C" occurrence="02" fulltag="247C/02">
           <subfield code="9">102599696</subfield>
-          <subfield code="8">651016-4 &lt;77/016&gt;Mainz, Universität Mainz, Bereichsbibliothek Katholische und Evangelische Theologie</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Katholische und Evangelische Theologie</subfield>
+          <subfield code="b">77/016</subfield>
+          <subfield code="c">651016-4</subfield>
+          <subfield code="h">DE-77-016</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
     </metadata>
@@ -3429,6 +3720,10 @@
         <subfield code="a">2021</subfield>
         <subfield code="n">[2021]-</subfield>
       </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">10454466X</subfield>
+        <subfield code="a">Zeitschrift</subfield>
+      </datafield>
       <datafield tag="018@" fulltag="018@">
         <subfield code="a">a</subfield>
       </datafield>
@@ -3438,6 +3733,7 @@
       </datafield>
       <datafield tag="029F" fulltag="029F">
         <subfield code="9">133440397</subfield>
+        <subfield code="a">Klassik Stiftung Weimar</subfield>
         <subfield code="B">Herausgebendes Organ</subfield>
         <subfield code="4">isb</subfield>
       </datafield>
@@ -3544,6 +3840,8 @@
       </datafield>
       <datafield tag="028A" fulltag="028A">
         <subfield code="9">191084972</subfield>
+        <subfield code="a">Mayatepek</subfield>
+        <subfield code="d">Ertan</subfield>
         <subfield code="B">Verfasser</subfield>
         <subfield code="4">aut</subfield>
       </datafield>
@@ -3614,7 +3912,14 @@
         </datafield>
         <datafield tag="247C" occurrence="01" fulltag="247C/01">
           <subfield code="9">102599602</subfield>
-          <subfield code="8">651000-0 &lt;77&gt;Mainz, Universität Mainz, Zentralbibliothek</subfield>
+          <subfield code="a">Universität Mainz, Zentralbibliothek</subfield>
+          <subfield code="b">77</subfield>
+          <subfield code="c">651000-0</subfield>
+          <subfield code="h">DE-77</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
         </datafield>
       </item>
     </metadata>
@@ -3665,27 +3970,40 @@
       <datafield tag="011@" fulltag="011@">
         <subfield code="a">2018</subfield>
       </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">085187623</subfield>
+        <subfield code="a">Wörterbuch</subfield>
+      </datafield>
       <datafield tag="021A" fulltag="021A">
         <subfield code="a">Mükemmel Osmanlı lügatı</subfield>
         <subfield code="h">Ali Nazîmâ, Faik Reşad. Hazırlayanlar Necat Birinci, Kâzım Yetiş, M. Fatih Andi, Erol Ülgen, Nuri Saglam, Ali Yükrü Coruk</subfield>
       </datafield>
       <datafield tag="028A" fulltag="028A">
         <subfield code="9">178038431</subfield>
+        <subfield code="a">Nazîmâ</subfield>
+        <subfield code="d">Ali</subfield>
         <subfield code="B">Verfasser</subfield>
         <subfield code="4">aut</subfield>
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">139090673</subfield>
+        <subfield code="P">Faik Reşat</subfield>
+        <subfield code="h">1851-1914</subfield>
         <subfield code="B">Verfasser</subfield>
         <subfield code="4">aut</subfield>
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">163829535</subfield>
+        <subfield code="a">Birinci</subfield>
+        <subfield code="d">Necat</subfield>
         <subfield code="B">Herausgeber</subfield>
         <subfield code="4">edt</subfield>
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">451390679</subfield>
+        <subfield code="a">Yetiş</subfield>
+        <subfield code="d">Kâzım</subfield>
+        <subfield code="h">1947-</subfield>
       </datafield>
       <datafield tag="032@" fulltag="032@">
         <subfield code="a">4. bsk. - Tipkibaski</subfield>
@@ -3752,7 +4070,14 @@
         </datafield>
         <datafield tag="247C" occurrence="01" fulltag="247C/01">
           <subfield code="9">102600295</subfield>
-          <subfield code="8">651080-2 &lt;77/080&gt;Mainz, Universität Mainz, Zentralbibliothek, Bestand Turkologie</subfield>
+          <subfield code="a">Universität Mainz, Zentralbibliothek, Bestand Turkologie</subfield>
+          <subfield code="b">77/080</subfield>
+          <subfield code="c">651080-2</subfield>
+          <subfield code="h">DE-77-080</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
         </datafield>
       </item>
     </metadata>
@@ -3813,12 +4138,21 @@
       </datafield>
       <datafield tag="028A" fulltag="028A">
         <subfield code="9">086968750</subfield>
+        <subfield code="P">Voltaire</subfield>
+        <subfield code="h">1694-1778</subfield>
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">086876805</subfield>
+        <subfield code="P">Friedrich</subfield>
+        <subfield code="n">II.</subfield>
+        <subfield code="l">Preußen, König</subfield>
+        <subfield code="h">1712-1786</subfield>
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">087433036</subfield>
+        <subfield code="a">Pleschinski</subfield>
+        <subfield code="d">Hans</subfield>
+        <subfield code="h">1956-</subfield>
         <subfield code="B">Hrsg.</subfield>
       </datafield>
       <datafield tag="033A" fulltag="033A">
@@ -3885,7 +4219,12 @@
         </datafield>
         <datafield tag="247C" occurrence="01" fulltag="247C/01">
           <subfield code="9">102600201</subfield>
-          <subfield code="8">651071-1 &lt;77/071&gt;Mainz, Universität Mainz, Bereichsbibliothek Philosophicum, Standort Allgemeine und Vergleichende Literaturwissenschaft</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Philosophicum, Standort Allgemeine und Vergleichende Literaturwissenschaft</subfield>
+          <subfield code="b">77/071</subfield>
+          <subfield code="c">651071-1</subfield>
+          <subfield code="h">DE-77-071</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
     </metadata>
@@ -3942,21 +4281,30 @@
       </datafield>
       <datafield tag="028A" fulltag="028A">
         <subfield code="9">37776244X</subfield>
+        <subfield code="a">Qi</subfield>
+        <subfield code="d">Shaoyan</subfield>
         <subfield code="B">Verfasser</subfield>
         <subfield code="4">aut</subfield>
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">377764523</subfield>
+        <subfield code="a">Tan</subfield>
+        <subfield code="d">Qiuyu</subfield>
         <subfield code="B">Verfasser</subfield>
         <subfield code="4">aut</subfield>
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">146653556</subfield>
+        <subfield code="a">Zimmermann</subfield>
+        <subfield code="d">Katrin</subfield>
         <subfield code="B">Übersetzer</subfield>
         <subfield code="4">trl</subfield>
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">147391857</subfield>
+        <subfield code="a">Guder</subfield>
+        <subfield code="d">Andreas</subfield>
+        <subfield code="h">1966-</subfield>
         <subfield code="B">Übersetzer</subfield>
         <subfield code="4">trl</subfield>
       </datafield>
@@ -3980,6 +4328,7 @@
       </datafield>
       <datafield tag="036D" fulltag="036D">
         <subfield code="9">42129762X</subfield>
+        <subfield code="8">China entdecken</subfield>
       </datafield>
       <datafield tag="101B" fulltag="101B">
         <subfield code="0">18-01-18</subfield>
@@ -4044,7 +4393,14 @@
         </datafield>
         <datafield tag="247C" occurrence="01" fulltag="247C/01">
           <subfield code="9">403989051</subfield>
-          <subfield code="8">651019-x &lt;Mz 19&gt;Germersheim, Universität Mainz, Bereichsbibliothek Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim</subfield>
+          <subfield code="b">Mz 19</subfield>
+          <subfield code="c">651019-x</subfield>
+          <subfield code="h">DE-Mz19</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
         </datafield>
       </item>
     </metadata>
@@ -4361,7 +4717,14 @@
         </datafield>
         <datafield tag="247C" occurrence="01" fulltag="247C/01">
           <subfield code="9">102599602</subfield>
-          <subfield code="8">651000-0 &lt;77&gt;Mainz, Universität Mainz, Zentralbibliothek</subfield>
+          <subfield code="a">Universität Mainz, Zentralbibliothek</subfield>
+          <subfield code="b">77</subfield>
+          <subfield code="c">651000-0</subfield>
+          <subfield code="h">DE-77</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
         </datafield>
       </item>
     </metadata>
@@ -4446,11 +4809,17 @@
       </datafield>
       <datafield tag="028A" fulltag="028A">
         <subfield code="9">159205980</subfield>
+        <subfield code="a">Efing</subfield>
+        <subfield code="d">Christian</subfield>
+        <subfield code="h">1976-</subfield>
         <subfield code="B">Verfasser</subfield>
         <subfield code="4">aut</subfield>
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">153710837</subfield>
+        <subfield code="a">Roelcke</subfield>
+        <subfield code="d">Thorsten D.</subfield>
+        <subfield code="h">1965-</subfield>
         <subfield code="B">Verfasser</subfield>
         <subfield code="4">aut</subfield>
       </datafield>
@@ -4527,7 +4896,14 @@
         </datafield>
         <datafield tag="247C" occurrence="01" fulltag="247C/01">
           <subfield code="9">102599602</subfield>
-          <subfield code="8">651000-0 &lt;77&gt;Mainz, Universität Mainz, Zentralbibliothek</subfield>
+          <subfield code="a">Universität Mainz, Zentralbibliothek</subfield>
+          <subfield code="b">77</subfield>
+          <subfield code="c">651000-0</subfield>
+          <subfield code="h">DE-77</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
         </datafield>
       </item>
       <item epn="1144975972">
@@ -4577,7 +4953,14 @@
         </datafield>
         <datafield tag="247C" occurrence="02" fulltag="247C/02">
           <subfield code="9">102599602</subfield>
-          <subfield code="8">651000-0 &lt;77&gt;Mainz, Universität Mainz, Zentralbibliothek</subfield>
+          <subfield code="a">Universität Mainz, Zentralbibliothek</subfield>
+          <subfield code="b">77</subfield>
+          <subfield code="c">651000-0</subfield>
+          <subfield code="h">DE-77</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
         </datafield>
       </item>
     </metadata>
@@ -4638,6 +5021,10 @@
         <subfield code="a">2020</subfield>
         <subfield code="n">[2020]-</subfield>
       </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">10454466X</subfield>
+        <subfield code="a">Zeitschrift</subfield>
+      </datafield>
       <datafield tag="018@" fulltag="018@">
         <subfield code="a">q</subfield>
       </datafield>
@@ -4671,6 +5058,7 @@
       <datafield tag="039E" fulltag="039E">
         <subfield code="b">f</subfield>
         <subfield code="9">048585882</subfield>
+        <subfield code="8">Computer + Unterricht</subfield>
       </datafield>
       <item epn="1107909716">
         <datafield tag="201B" occurrence="01" fulltag="201B/01">
@@ -4720,7 +5108,12 @@
         </datafield>
         <datafield tag="247C" occurrence="01" fulltag="247C/01">
           <subfield code="9">103704124</subfield>
-          <subfield code="8">651002-4 &lt;77/002&gt;Mainz, Universität Mainz, Bereichsbibliothek Georg Forster-Gebäude</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Georg Forster-Gebäude</subfield>
+          <subfield code="b">77/002</subfield>
+          <subfield code="c">651002-4</subfield>
+          <subfield code="h">DE-77-002</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nn</subfield>
         </datafield>
       </item>
     </metadata>
@@ -4780,6 +5173,10 @@
       <datafield tag="011@" fulltag="011@">
         <subfield code="a">2022</subfield>
         <subfield code="n">2022</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">105825778</subfield>
+        <subfield code="a">Hochschulschrift</subfield>
       </datafield>
       <datafield tag="021A" fulltag="021A">
         <subfield code="a">Immune modulation by molecules of Staphylococcus aureus</subfield>
@@ -4901,17 +5298,27 @@
         <subfield code="a">2020</subfield>
         <subfield code="n">[2020]</subfield>
       </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">08540926X</subfield>
+        <subfield code="a">Lehrbuch</subfield>
+      </datafield>
       <datafield tag="021A" fulltag="021A">
         <subfield code="a">Einstieg in die Physikalische Chemie für Naturwissenschaftler</subfield>
         <subfield code="h">Wolfgang Bechmann, Ilko Bald</subfield>
       </datafield>
       <datafield tag="028A" fulltag="028A">
         <subfield code="9">153497084</subfield>
+        <subfield code="a">Bechmann</subfield>
+        <subfield code="d">Wolfgang</subfield>
+        <subfield code="h">1948-</subfield>
         <subfield code="B">Verfasser</subfield>
         <subfield code="4">aut</subfield>
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">194967069</subfield>
+        <subfield code="a">Bald</subfield>
+        <subfield code="d">Ilko</subfield>
+        <subfield code="h">1980-</subfield>
         <subfield code="B">Verfasser</subfield>
         <subfield code="4">aut</subfield>
       </datafield>
@@ -5000,7 +5407,14 @@
         </datafield>
         <datafield tag="247C" occurrence="01" fulltag="247C/01">
           <subfield code="9">103704582</subfield>
-          <subfield code="8">651006-1 &lt;77/006&gt;Mainz, Universität Mainz, Bereichsbibliothek Mathematik, Informatik und Naturwissenschaften</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Mathematik, Informatik und Naturwissenschaften</subfield>
+          <subfield code="b">77/006</subfield>
+          <subfield code="c">651006-1</subfield>
+          <subfield code="h">DE-77-006</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">u?</subfield>
+          <subfield code="g">usc?</subfield>
         </datafield>
       </item>
       <item epn="112914383X">
@@ -5061,7 +5475,14 @@
         </datafield>
         <datafield tag="247C" occurrence="02" fulltag="247C/02">
           <subfield code="9">103704582</subfield>
-          <subfield code="8">651006-1 &lt;77/006&gt;Mainz, Universität Mainz, Bereichsbibliothek Mathematik, Informatik und Naturwissenschaften</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Mathematik, Informatik und Naturwissenschaften</subfield>
+          <subfield code="b">77/006</subfield>
+          <subfield code="c">651006-1</subfield>
+          <subfield code="h">DE-77-006</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">u?</subfield>
+          <subfield code="g">usc?</subfield>
         </datafield>
       </item>
     </metadata>
@@ -5110,6 +5531,8 @@
       </datafield>
       <datafield tag="028A" fulltag="028A">
         <subfield code="9">148569048</subfield>
+        <subfield code="a">Vetter</subfield>
+        <subfield code="d">Fredy</subfield>
       </datafield>
       <datafield tag="033A" fulltag="033A">
         <subfield code="p">Bern</subfield>
@@ -5192,7 +5615,14 @@
         </datafield>
         <datafield tag="247C" occurrence="01" fulltag="247C/01">
           <subfield code="9">102599602</subfield>
-          <subfield code="8">651000-0 &lt;77&gt;Mainz, Universität Mainz, Zentralbibliothek</subfield>
+          <subfield code="a">Universität Mainz, Zentralbibliothek</subfield>
+          <subfield code="b">77</subfield>
+          <subfield code="c">651000-0</subfield>
+          <subfield code="h">DE-77</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
         </datafield>
       </item>
     </metadata>
@@ -5255,6 +5685,10 @@
       <datafield tag="011@" fulltag="011@">
         <subfield code="a">2019</subfield>
       </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">085645524</subfield>
+        <subfield code="a">Fallsammlung</subfield>
+      </datafield>
       <datafield tag="021A" fulltag="021A">
         <subfield code="a">Fälle zum Besonderen Verwaltungsrecht</subfield>
         <subfield code="d">Polizei- und Ordnungsrecht, Kommunalrecht mit Bezügen zum Verwaltungsprozessrecht</subfield>
@@ -5262,11 +5696,17 @@
       </datafield>
       <datafield tag="028A" fulltag="028A">
         <subfield code="9">153626194</subfield>
+        <subfield code="a">Muckel</subfield>
+        <subfield code="d">Stefan</subfield>
+        <subfield code="h">1961-</subfield>
         <subfield code="B">Verfasser</subfield>
         <subfield code="4">aut</subfield>
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">118471740</subfield>
+        <subfield code="a">Rüfner</subfield>
+        <subfield code="d">Wolfgang</subfield>
+        <subfield code="h">1933-</subfield>
         <subfield code="B">Begründer des Werks</subfield>
         <subfield code="4">oth</subfield>
       </datafield>
@@ -5349,7 +5789,12 @@
         </datafield>
         <datafield tag="247C" occurrence="01" fulltag="247C/01">
           <subfield code="9">102599718</subfield>
-          <subfield code="8">651018-8 &lt;77/018&gt;Mainz, Universität Mainz, Bereichsbibliothek Rechts- und Wirtschaftswissenschaften</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Rechts- und Wirtschaftswissenschaften</subfield>
+          <subfield code="b">77/018</subfield>
+          <subfield code="c">651018-8</subfield>
+          <subfield code="h">DE-77-018</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
       <item epn="1048567109">
@@ -5399,7 +5844,12 @@
         </datafield>
         <datafield tag="247C" occurrence="02" fulltag="247C/02">
           <subfield code="9">102599718</subfield>
-          <subfield code="8">651018-8 &lt;77/018&gt;Mainz, Universität Mainz, Bereichsbibliothek Rechts- und Wirtschaftswissenschaften</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Rechts- und Wirtschaftswissenschaften</subfield>
+          <subfield code="b">77/018</subfield>
+          <subfield code="c">651018-8</subfield>
+          <subfield code="h">DE-77-018</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
     </metadata>
@@ -5462,14 +5912,21 @@
       </datafield>
       <datafield tag="022A" fulltag="022A">
         <subfield code="9">088095851</subfield>
+        <subfield code="a">Liber compositae medicinae</subfield>
       </datafield>
       <datafield tag="028A" fulltag="028A">
         <subfield code="9">086892029</subfield>
+        <subfield code="P">Hildegard</subfield>
+        <subfield code="l">von Bingen, Heilige</subfield>
+        <subfield code="h">1098-1179</subfield>
         <subfield code="B">Verfasser</subfield>
         <subfield code="4">aut</subfield>
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">145437248</subfield>
+        <subfield code="a">Riha</subfield>
+        <subfield code="d">Ortrun</subfield>
+        <subfield code="h">1959-</subfield>
         <subfield code="B">Übersetzer</subfield>
         <subfield code="4">trl</subfield>
       </datafield>
@@ -5491,6 +5948,7 @@
       </datafield>
       <datafield tag="036D" fulltag="036D">
         <subfield code="9">230601065</subfield>
+        <subfield code="8">Werke</subfield>
       </datafield>
       <item epn="806517980">
         <datafield tag="201B" occurrence="01" fulltag="201B/01">
@@ -5532,7 +5990,12 @@
         </datafield>
         <datafield tag="247C" occurrence="01" fulltag="247C/01">
           <subfield code="9">102599866</subfield>
-          <subfield code="8">651034-6 &lt;77/034&gt;Mainz, Universität Mainz, Fachbereich 04, Universitätsmedizin, Institut für Geschichte, Theorie und Ethik der Medizin</subfield>
+          <subfield code="a">Universität Mainz, Fachbereich 04, Universitätsmedizin, Institut für Geschichte, Theorie und Ethik der Medizin</subfield>
+          <subfield code="b">77/034</subfield>
+          <subfield code="c">651034-6</subfield>
+          <subfield code="h">DE-77-034</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
     </metadata>
@@ -5606,16 +6069,25 @@
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">437874079</subfield>
+        <subfield code="a">Dittmann</subfield>
+        <subfield code="d">Frank</subfield>
+        <subfield code="h">1979-</subfield>
         <subfield code="B">Herausgeber</subfield>
         <subfield code="4">edt</subfield>
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">159775027</subfield>
+        <subfield code="a">Latzel</subfield>
+        <subfield code="d">Thorsten</subfield>
+        <subfield code="h">1970-</subfield>
         <subfield code="B">Herausgeber</subfield>
         <subfield code="4">edt</subfield>
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">159350646</subfield>
+        <subfield code="a">Theißen</subfield>
+        <subfield code="d">Henning</subfield>
+        <subfield code="h">1974-</subfield>
         <subfield code="B">Herausgeber</subfield>
         <subfield code="4">edt</subfield>
       </datafield>
@@ -5674,7 +6146,12 @@
         </datafield>
         <datafield tag="247C" occurrence="01" fulltag="247C/01">
           <subfield code="9">102599696</subfield>
-          <subfield code="8">651016-4 &lt;77/016&gt;Mainz, Universität Mainz, Bereichsbibliothek Katholische und Evangelische Theologie</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Katholische und Evangelische Theologie</subfield>
+          <subfield code="b">77/016</subfield>
+          <subfield code="c">651016-4</subfield>
+          <subfield code="h">DE-77-016</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
     </metadata>
@@ -5735,9 +6212,14 @@
       </datafield>
       <datafield tag="028A" fulltag="028A">
         <subfield code="9">149645724</subfield>
+        <subfield code="a">Reitter</subfield>
+        <subfield code="d">Anke</subfield>
+        <subfield code="h">1967-</subfield>
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">204479274</subfield>
+        <subfield code="a">Schlößer</subfield>
+        <subfield code="d">Rolf</subfield>
       </datafield>
       <datafield tag="033A" fulltag="033A">
         <subfield code="p">Stuttgart {[u.a.] </subfield>
@@ -5801,7 +6283,14 @@
         </datafield>
         <datafield tag="247C" occurrence="01" fulltag="247C/01">
           <subfield code="9">103705643</subfield>
-          <subfield code="8">651005-x &lt;77/005&gt;Mainz, Universität Mainz, Bereichsbibliothek Universitätsmedizin</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Universitätsmedizin</subfield>
+          <subfield code="b">77/005</subfield>
+          <subfield code="c">651005-x</subfield>
+          <subfield code="h">DE-77-005</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ln</subfield>
+          <subfield code="f">udi?</subfield>
+          <subfield code="g">udbfsi?</subfield>
         </datafield>
       </item>
     </metadata>
@@ -5855,6 +6344,10 @@
         <subfield code="a">2020</subfield>
         <subfield code="n">[2020]-</subfield>
       </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">10454466X</subfield>
+        <subfield code="a">Zeitschrift</subfield>
+      </datafield>
       <datafield tag="018@" fulltag="018@">
         <subfield code="a">m</subfield>
       </datafield>
@@ -5874,10 +6367,12 @@
       <datafield tag="039E" fulltag="039E">
         <subfield code="b">f</subfield>
         <subfield code="9">048326186</subfield>
+        <subfield code="8">Lire</subfield>
       </datafield>
       <datafield tag="039E" fulltag="039E">
         <subfield code="b">f</subfield>
         <subfield code="9">424315815</subfield>
+        <subfield code="8">Le @nouveau magazine littéraire</subfield>
       </datafield>
       <datafield tag="046P" fulltag="046P">
         <subfield code="a">Zählung von Lire übernommen</subfield>
@@ -5929,7 +6424,14 @@
         </datafield>
         <datafield tag="247C" occurrence="01" fulltag="247C/01">
           <subfield code="9">403989051</subfield>
-          <subfield code="8">651019-x &lt;Mz 19&gt;Germersheim, Universität Mainz, Bereichsbibliothek Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim</subfield>
+          <subfield code="b">Mz 19</subfield>
+          <subfield code="c">651019-x</subfield>
+          <subfield code="h">DE-Mz19</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
         </datafield>
       </item>
       <item epn="1134433468">
@@ -5978,7 +6480,12 @@
         </datafield>
         <datafield tag="247C" occurrence="02" fulltag="247C/02">
           <subfield code="9">102600236</subfield>
-          <subfield code="8">651074-7 &lt;77/074&gt;Mainz, Universität Mainz, Bereichsbibliothek Philosophicum, Standort Romanistik</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Philosophicum, Standort Romanistik</subfield>
+          <subfield code="b">77/074</subfield>
+          <subfield code="c">651074-7</subfield>
+          <subfield code="h">DE-77-074</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
     </metadata>
@@ -6042,15 +6549,27 @@
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">153567686</subfield>
+        <subfield code="a">Schünke</subfield>
+        <subfield code="d">Michael</subfield>
+        <subfield code="h">1950-</subfield>
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">145079341</subfield>
+        <subfield code="a">Schulte</subfield>
+        <subfield code="d">Erik</subfield>
+        <subfield code="h">1956-</subfield>
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">216200962</subfield>
+        <subfield code="a">Schumacher</subfield>
+        <subfield code="d">Udo</subfield>
+        <subfield code="h">1956-</subfield>
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">159689147</subfield>
+        <subfield code="a">Voll</subfield>
+        <subfield code="d">Markus</subfield>
+        <subfield code="h">1961-</subfield>
         <subfield code="B">Ill.</subfield>
       </datafield>
       <datafield tag="032@" fulltag="032@">
@@ -6074,6 +6593,7 @@
       </datafield>
       <datafield tag="036D" fulltag="036D">
         <subfield code="9">123784344</subfield>
+        <subfield code="8">Prometheus</subfield>
       </datafield>
       <datafield tag="101B" fulltag="101B">
         <subfield code="0">24-09-18</subfield>
@@ -6310,7 +6830,14 @@
         </datafield>
         <datafield tag="247C" occurrence="01" fulltag="247C/01">
           <subfield code="9">102599602</subfield>
-          <subfield code="8">651000-0 &lt;77&gt;Mainz, Universität Mainz, Zentralbibliothek</subfield>
+          <subfield code="a">Universität Mainz, Zentralbibliothek</subfield>
+          <subfield code="b">77</subfield>
+          <subfield code="c">651000-0</subfield>
+          <subfield code="h">DE-77</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
         </datafield>
       </item>
       <item epn="759702675">
@@ -6357,7 +6884,14 @@
         </datafield>
         <datafield tag="247C" occurrence="02" fulltag="247C/02">
           <subfield code="9">103705643</subfield>
-          <subfield code="8">651005-x &lt;77/005&gt;Mainz, Universität Mainz, Bereichsbibliothek Universitätsmedizin</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Universitätsmedizin</subfield>
+          <subfield code="b">77/005</subfield>
+          <subfield code="c">651005-x</subfield>
+          <subfield code="h">DE-77-005</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ln</subfield>
+          <subfield code="f">udi?</subfield>
+          <subfield code="g">udbfsi?</subfield>
         </datafield>
       </item>
       <item epn="760509352">
@@ -6405,7 +6939,14 @@
         </datafield>
         <datafield tag="247C" occurrence="03" fulltag="247C/03">
           <subfield code="9">103705643</subfield>
-          <subfield code="8">651005-x &lt;77/005&gt;Mainz, Universität Mainz, Bereichsbibliothek Universitätsmedizin</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Universitätsmedizin</subfield>
+          <subfield code="b">77/005</subfield>
+          <subfield code="c">651005-x</subfield>
+          <subfield code="h">DE-77-005</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ln</subfield>
+          <subfield code="f">udi?</subfield>
+          <subfield code="g">udbfsi?</subfield>
         </datafield>
       </item>
     </metadata>
@@ -6445,10 +6986,16 @@
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">160468841</subfield>
+        <subfield code="a">Barck</subfield>
+        <subfield code="d">Karlheinz</subfield>
+        <subfield code="h">1934-2012</subfield>
         <subfield code="B">Hrsg.</subfield>
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">152409173</subfield>
+        <subfield code="a">Wolfzettel</subfield>
+        <subfield code="d">Friedrich</subfield>
+        <subfield code="h">1941-</subfield>
         <subfield code="B">Hrsg.</subfield>
       </datafield>
       <datafield tag="033A" fulltag="033A">
@@ -6470,6 +7017,7 @@
       </datafield>
       <datafield tag="036D" fulltag="036D">
         <subfield code="9">093913974</subfield>
+        <subfield code="8">Ästhetische Grundbegriffe</subfield>
       </datafield>
       <datafield tag="101B" fulltag="101B">
         <subfield code="0">03-11-17</subfield>
@@ -6525,7 +7073,14 @@
         </datafield>
         <datafield tag="247C" occurrence="01" fulltag="247C/01">
           <subfield code="9">102599602</subfield>
-          <subfield code="8">651000-0 &lt;77&gt;Mainz, Universität Mainz, Zentralbibliothek</subfield>
+          <subfield code="a">Universität Mainz, Zentralbibliothek</subfield>
+          <subfield code="b">77</subfield>
+          <subfield code="c">651000-0</subfield>
+          <subfield code="h">DE-77</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
         </datafield>
       </item>
       <item epn="678097755">
@@ -6573,7 +7128,12 @@
         </datafield>
         <datafield tag="247C" occurrence="02" fulltag="247C/02">
           <subfield code="9">103704124</subfield>
-          <subfield code="8">651002-4 &lt;77/002&gt;Mainz, Universität Mainz, Bereichsbibliothek Georg Forster-Gebäude</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Georg Forster-Gebäude</subfield>
+          <subfield code="b">77/002</subfield>
+          <subfield code="c">651002-4</subfield>
+          <subfield code="h">DE-77-002</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nn</subfield>
         </datafield>
       </item>
       <item epn="221750649">
@@ -6617,7 +7177,12 @@
         </datafield>
         <datafield tag="247C" occurrence="03" fulltag="247C/03">
           <subfield code="9">102599696</subfield>
-          <subfield code="8">651016-4 &lt;77/016&gt;Mainz, Universität Mainz, Bereichsbibliothek Katholische und Evangelische Theologie</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Katholische und Evangelische Theologie</subfield>
+          <subfield code="b">77/016</subfield>
+          <subfield code="c">651016-4</subfield>
+          <subfield code="h">DE-77-016</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
       <item epn="1010197053">
@@ -6672,7 +7237,14 @@
         </datafield>
         <datafield tag="247C" occurrence="04" fulltag="247C/04">
           <subfield code="9">403989051</subfield>
-          <subfield code="8">651019-x &lt;Mz 19&gt;Germersheim, Universität Mainz, Bereichsbibliothek Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim</subfield>
+          <subfield code="b">Mz 19</subfield>
+          <subfield code="c">651019-x</subfield>
+          <subfield code="h">DE-Mz19</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
         </datafield>
       </item>
       <item epn="165736585">
@@ -6718,7 +7290,12 @@
         </datafield>
         <datafield tag="247C" occurrence="05" fulltag="247C/05">
           <subfield code="9">102600198</subfield>
-          <subfield code="8">651070-x &lt;77/070&gt;Mainz, Universität Mainz, Bereichsbibliothek Philosophicum, Standorte Germanistik I / Kulturanthropologie und Germanistik II</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Philosophicum, Standorte Germanistik I / Kulturanthropologie und Germanistik II</subfield>
+          <subfield code="b">77/070</subfield>
+          <subfield code="c">651070-x</subfield>
+          <subfield code="h">DE-77-070</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
       <item epn="584900031">
@@ -6767,7 +7344,12 @@
         </datafield>
         <datafield tag="247C" occurrence="06" fulltag="247C/06">
           <subfield code="9">102600198</subfield>
-          <subfield code="8">651070-x &lt;77/070&gt;Mainz, Universität Mainz, Bereichsbibliothek Philosophicum, Standorte Germanistik I / Kulturanthropologie und Germanistik II</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Philosophicum, Standorte Germanistik I / Kulturanthropologie und Germanistik II</subfield>
+          <subfield code="b">77/070</subfield>
+          <subfield code="c">651070-x</subfield>
+          <subfield code="h">DE-77-070</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
       <item epn="164736468">
@@ -6815,7 +7397,12 @@
         </datafield>
         <datafield tag="247C" occurrence="07" fulltag="247C/07">
           <subfield code="9">102600201</subfield>
-          <subfield code="8">651071-1 &lt;77/071&gt;Mainz, Universität Mainz, Bereichsbibliothek Philosophicum, Standort Allgemeine und Vergleichende Literaturwissenschaft</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Philosophicum, Standort Allgemeine und Vergleichende Literaturwissenschaft</subfield>
+          <subfield code="b">77/071</subfield>
+          <subfield code="c">651071-1</subfield>
+          <subfield code="h">DE-77-071</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
       <item epn="222853697">
@@ -6863,7 +7450,12 @@
         </datafield>
         <datafield tag="247C" occurrence="08" fulltag="247C/08">
           <subfield code="9">102600287</subfield>
-          <subfield code="8">651079-6 &lt;77/079&gt;Mainz, Universität Mainz, Bereichsbibliothek Georg Forster-Gebäude / Kunstgeschichte</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Georg Forster-Gebäude / Kunstgeschichte</subfield>
+          <subfield code="b">77/079</subfield>
+          <subfield code="c">651079-6</subfield>
+          <subfield code="h">DE-77-079</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
       <item epn="595435424">
@@ -6911,7 +7503,12 @@
         </datafield>
         <datafield tag="247C" occurrence="09" fulltag="247C/09">
           <subfield code="9">220061653</subfield>
-          <subfield code="8">651083-8 &lt;77/083&gt;Mainz, Universität Mainz, Bereichsbibliothek Philosophicum, Standort Historische Kulturwissenschaften</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Philosophicum, Standort Historische Kulturwissenschaften</subfield>
+          <subfield code="b">77/083</subfield>
+          <subfield code="c">651083-8</subfield>
+          <subfield code="h">DE-77-083</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
       <item epn="581150228">
@@ -6947,7 +7544,12 @@
         </datafield>
         <datafield tag="247C" occurrence="10" fulltag="247C/10">
           <subfield code="9">102600600</subfield>
-          <subfield code="8">651111-9 &lt;77/111&gt;Mainz, Universität Mainz, Kunsthochschule</subfield>
+          <subfield code="a">Universität Mainz, Kunsthochschule</subfield>
+          <subfield code="b">77/111</subfield>
+          <subfield code="c">651111-9</subfield>
+          <subfield code="h">DE-77-111</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
     </metadata>
@@ -6995,10 +7597,16 @@
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">160468841</subfield>
+        <subfield code="a">Barck</subfield>
+        <subfield code="d">Karlheinz</subfield>
+        <subfield code="h">1934-2012</subfield>
         <subfield code="B">Hrsg.</subfield>
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">152409173</subfield>
+        <subfield code="a">Wolfzettel</subfield>
+        <subfield code="d">Friedrich</subfield>
+        <subfield code="h">1941-</subfield>
         <subfield code="B">Hrsg.</subfield>
       </datafield>
       <datafield tag="033A" fulltag="033A">
@@ -7113,6 +7721,9 @@
       </datafield>
       <datafield tag="028A" fulltag="028A">
         <subfield code="9">208225463</subfield>
+        <subfield code="a">Chabbi</subfield>
+        <subfield code="d">Thekla</subfield>
+        <subfield code="h">1968-</subfield>
         <subfield code="B">Verfasser</subfield>
         <subfield code="4">aut</subfield>
       </datafield>
@@ -7204,7 +7815,14 @@
         </datafield>
         <datafield tag="247C" occurrence="01" fulltag="247C/01">
           <subfield code="9">403989051</subfield>
-          <subfield code="8">651019-x &lt;Mz 19&gt;Germersheim, Universität Mainz, Bereichsbibliothek Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim</subfield>
+          <subfield code="b">Mz 19</subfield>
+          <subfield code="c">651019-x</subfield>
+          <subfield code="h">DE-Mz19</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
         </datafield>
       </item>
     </metadata>
@@ -7257,10 +7875,15 @@
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">434903736</subfield>
+        <subfield code="a">Schwenzer</subfield>
+        <subfield code="d">Norbert</subfield>
+        <subfield code="h">1929-2018</subfield>
         <subfield code="B">Hrsg.</subfield>
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">147593263</subfield>
+        <subfield code="a">Bares</subfield>
+        <subfield code="d">Roland</subfield>
       </datafield>
       <datafield tag="032@" fulltag="032@">
         <subfield code="a">4., vollst. überarb. und erw. Aufl.</subfield>
@@ -7330,7 +7953,14 @@
         </datafield>
         <datafield tag="247C" occurrence="01" fulltag="247C/01">
           <subfield code="9">103705643</subfield>
-          <subfield code="8">651005-x &lt;77/005&gt;Mainz, Universität Mainz, Bereichsbibliothek Universitätsmedizin</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Universitätsmedizin</subfield>
+          <subfield code="b">77/005</subfield>
+          <subfield code="c">651005-x</subfield>
+          <subfield code="h">DE-77-005</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ln</subfield>
+          <subfield code="f">udi?</subfield>
+          <subfield code="g">udbfsi?</subfield>
         </datafield>
       </item>
       <item epn="565909266">
@@ -7415,7 +8045,14 @@
         </datafield>
         <datafield tag="247C" occurrence="02" fulltag="247C/02">
           <subfield code="9">103705643</subfield>
-          <subfield code="8">651005-x &lt;77/005&gt;Mainz, Universität Mainz, Bereichsbibliothek Universitätsmedizin</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Universitätsmedizin</subfield>
+          <subfield code="b">77/005</subfield>
+          <subfield code="c">651005-x</subfield>
+          <subfield code="h">DE-77-005</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ln</subfield>
+          <subfield code="f">udi?</subfield>
+          <subfield code="g">udbfsi?</subfield>
         </datafield>
       </item>
       <item epn="616740840">
@@ -7500,7 +8137,14 @@
         </datafield>
         <datafield tag="247C" occurrence="03" fulltag="247C/03">
           <subfield code="9">103705643</subfield>
-          <subfield code="8">651005-x &lt;77/005&gt;Mainz, Universität Mainz, Bereichsbibliothek Universitätsmedizin</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Universitätsmedizin</subfield>
+          <subfield code="b">77/005</subfield>
+          <subfield code="c">651005-x</subfield>
+          <subfield code="h">DE-77-005</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ln</subfield>
+          <subfield code="f">udi?</subfield>
+          <subfield code="g">udbfsi?</subfield>
         </datafield>
       </item>
       <item epn="646142364">
@@ -7582,7 +8226,14 @@
         </datafield>
         <datafield tag="247C" occurrence="04" fulltag="247C/04">
           <subfield code="9">102600066</subfield>
-          <subfield code="8">651054-1 &lt;77/054&gt;Mainz, Universität Mainz, Bereichsbibliothek Universitätsmedizin, Zahnklinik</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Universitätsmedizin, Zahnklinik</subfield>
+          <subfield code="b">77/054</subfield>
+          <subfield code="c">651054-1</subfield>
+          <subfield code="h">DE-77-054</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ln</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">udbfsi?</subfield>
         </datafield>
       </item>
       <item epn="566028360">
@@ -7623,7 +8274,14 @@
         </datafield>
         <datafield tag="247C" occurrence="05" fulltag="247C/05">
           <subfield code="9">102600066</subfield>
-          <subfield code="8">651054-1 &lt;77/054&gt;Mainz, Universität Mainz, Bereichsbibliothek Universitätsmedizin, Zahnklinik</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Universitätsmedizin, Zahnklinik</subfield>
+          <subfield code="b">77/054</subfield>
+          <subfield code="c">651054-1</subfield>
+          <subfield code="h">DE-77-054</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ln</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">udbfsi?</subfield>
         </datafield>
       </item>
       <item epn="779043049">
@@ -7664,7 +8322,14 @@
         </datafield>
         <datafield tag="247C" occurrence="06" fulltag="247C/06">
           <subfield code="9">102600066</subfield>
-          <subfield code="8">651054-1 &lt;77/054&gt;Mainz, Universität Mainz, Bereichsbibliothek Universitätsmedizin, Zahnklinik</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Universitätsmedizin, Zahnklinik</subfield>
+          <subfield code="b">77/054</subfield>
+          <subfield code="c">651054-1</subfield>
+          <subfield code="h">DE-77-054</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ln</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">udbfsi?</subfield>
         </datafield>
       </item>
     </metadata>
@@ -7746,6 +8411,7 @@
       </datafield>
       <datafield tag="022A" fulltag="022A">
         <subfield code="9">085009156</subfield>
+        <subfield code="a">Bibel</subfield>
       </datafield>
       <datafield tag="032@" fulltag="032@">
         <subfield code="a">Text 4. Auflage 2012, 1. Auflage 2019</subfield>
@@ -7814,7 +8480,12 @@
         </datafield>
         <datafield tag="247C" occurrence="01" fulltag="247C/01">
           <subfield code="9">102599696</subfield>
-          <subfield code="8">651016-4 &lt;77/016&gt;Mainz, Universität Mainz, Bereichsbibliothek Katholische und Evangelische Theologie</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Katholische und Evangelische Theologie</subfield>
+          <subfield code="b">77/016</subfield>
+          <subfield code="c">651016-4</subfield>
+          <subfield code="h">DE-77-016</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
       <item epn="1056626909">
@@ -7858,7 +8529,12 @@
         </datafield>
         <datafield tag="247C" occurrence="02" fulltag="247C/02">
           <subfield code="9">102599696</subfield>
-          <subfield code="8">651016-4 &lt;77/016&gt;Mainz, Universität Mainz, Bereichsbibliothek Katholische und Evangelische Theologie</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Katholische und Evangelische Theologie</subfield>
+          <subfield code="b">77/016</subfield>
+          <subfield code="c">651016-4</subfield>
+          <subfield code="h">DE-77-016</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
     </metadata>
@@ -7901,16 +8577,28 @@
       <datafield tag="011B" fulltag="011B">
         <subfield code="a">2021</subfield>
       </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">085002291</subfield>
+        <subfield code="a">Autograf</subfield>
+      </datafield>
       <datafield tag="021A" fulltag="021A">
         <subfield code="a">Diese Tage her, seit ich Deinen Brief empfangen, war ich im Grunde etwas … , 08.05.1826. -  Benediktinerabtei St. Bonifaz in München und Andechs</subfield>
       </datafield>
       <datafield tag="028A" fulltag="028A">
         <subfield code="9">086948962</subfield>
+        <subfield code="a">Schlegel</subfield>
+        <subfield code="d">Friedrich</subfield>
+        <subfield code="c">von</subfield>
+        <subfield code="h">1772-1829</subfield>
         <subfield code="B">Verfasser</subfield>
         <subfield code="4">aut</subfield>
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">211663530</subfield>
+        <subfield code="a">Stransky</subfield>
+        <subfield code="d">Christine</subfield>
+        <subfield code="c">von</subfield>
+        <subfield code="h">1785-1862</subfield>
         <subfield code="B">Adressat</subfield>
       </datafield>
       <datafield tag="033A" fulltag="033A">
@@ -7995,11 +8683,15 @@
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">455726027</subfield>
+        <subfield code="a">Weinzinger</subfield>
+        <subfield code="d">Franz</subfield>
         <subfield code="B">Herausgeber</subfield>
         <subfield code="4">edt</subfield>
       </datafield>
       <datafield tag="029A" fulltag="029A">
         <subfield code="9">043723977</subfield>
+        <subfield code="a">Pfarrei St. Alban- St. Jakobus</subfield>
+        <subfield code="g">Mainz</subfield>
       </datafield>
       <datafield tag="033A" fulltag="033A">
         <subfield code="p">Mainz</subfield>
@@ -8052,7 +8744,14 @@
         </datafield>
         <datafield tag="247C" occurrence="01" fulltag="247C/01">
           <subfield code="9">102599602</subfield>
-          <subfield code="8">651000-0 &lt;77&gt;Mainz, Universität Mainz, Zentralbibliothek</subfield>
+          <subfield code="a">Universität Mainz, Zentralbibliothek</subfield>
+          <subfield code="b">77</subfield>
+          <subfield code="c">651000-0</subfield>
+          <subfield code="h">DE-77</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
         </datafield>
       </item>
     </metadata>
@@ -8110,12 +8809,18 @@
       </datafield>
       <datafield tag="028A" fulltag="028A">
         <subfield code="9">146370937</subfield>
+        <subfield code="a">Willner</subfield>
+        <subfield code="d">Barbara</subfield>
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">272581798</subfield>
+        <subfield code="a">Cutt</subfield>
+        <subfield code="d">Iris</subfield>
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">143206214</subfield>
+        <subfield code="a">Wurm</subfield>
+        <subfield code="d">Gisela</subfield>
         <subfield code="B">Begr.</subfield>
       </datafield>
       <datafield tag="032@" fulltag="032@">
@@ -8195,7 +8900,14 @@
         </datafield>
         <datafield tag="247C" occurrence="01" fulltag="247C/01">
           <subfield code="9">103704582</subfield>
-          <subfield code="8">651006-1 &lt;77/006&gt;Mainz, Universität Mainz, Bereichsbibliothek Mathematik, Informatik und Naturwissenschaften</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Mathematik, Informatik und Naturwissenschaften</subfield>
+          <subfield code="b">77/006</subfield>
+          <subfield code="c">651006-1</subfield>
+          <subfield code="h">DE-77-006</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">u?</subfield>
+          <subfield code="g">usc?</subfield>
         </datafield>
         <datafield tag="247D" occurrence="01" fulltag="247D/01">
           <subfield code="a">Genauen Standort in der BB MIN erfragen!</subfield>
@@ -8245,7 +8957,14 @@
         </datafield>
         <datafield tag="247C" occurrence="02" fulltag="247C/02">
           <subfield code="9">103704582</subfield>
-          <subfield code="8">651006-1 &lt;77/006&gt;Mainz, Universität Mainz, Bereichsbibliothek Mathematik, Informatik und Naturwissenschaften</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Mathematik, Informatik und Naturwissenschaften</subfield>
+          <subfield code="b">77/006</subfield>
+          <subfield code="c">651006-1</subfield>
+          <subfield code="h">DE-77-006</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">u?</subfield>
+          <subfield code="g">usc?</subfield>
         </datafield>
       </item>
     </metadata>
@@ -8288,10 +9007,16 @@
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">160468841</subfield>
+        <subfield code="a">Barck</subfield>
+        <subfield code="d">Karlheinz</subfield>
+        <subfield code="h">1934-2012</subfield>
         <subfield code="B">Hrsg.</subfield>
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">152409173</subfield>
+        <subfield code="a">Wolfzettel</subfield>
+        <subfield code="d">Friedrich</subfield>
+        <subfield code="h">1941-</subfield>
         <subfield code="B">Hrsg.</subfield>
       </datafield>
       <datafield tag="033A" fulltag="033A">
@@ -8316,6 +9041,7 @@
       </datafield>
       <datafield tag="036D" fulltag="036D">
         <subfield code="9">093913974</subfield>
+        <subfield code="8">Ästhetische Grundbegriffe</subfield>
       </datafield>
       <datafield tag="101B" fulltag="101B">
         <subfield code="0">03-11-17</subfield>
@@ -8371,7 +9097,14 @@
         </datafield>
         <datafield tag="247C" occurrence="01" fulltag="247C/01">
           <subfield code="9">102599602</subfield>
-          <subfield code="8">651000-0 &lt;77&gt;Mainz, Universität Mainz, Zentralbibliothek</subfield>
+          <subfield code="a">Universität Mainz, Zentralbibliothek</subfield>
+          <subfield code="b">77</subfield>
+          <subfield code="c">651000-0</subfield>
+          <subfield code="h">DE-77</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
         </datafield>
       </item>
       <item epn="496431293">
@@ -8419,7 +9152,12 @@
         </datafield>
         <datafield tag="247C" occurrence="02" fulltag="247C/02">
           <subfield code="9">103704124</subfield>
-          <subfield code="8">651002-4 &lt;77/002&gt;Mainz, Universität Mainz, Bereichsbibliothek Georg Forster-Gebäude</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Georg Forster-Gebäude</subfield>
+          <subfield code="b">77/002</subfield>
+          <subfield code="c">651002-4</subfield>
+          <subfield code="h">DE-77-002</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nn</subfield>
         </datafield>
       </item>
       <item epn="345153359">
@@ -8467,7 +9205,12 @@
         </datafield>
         <datafield tag="247C" occurrence="03" fulltag="247C/03">
           <subfield code="9">102599696</subfield>
-          <subfield code="8">651016-4 &lt;77/016&gt;Mainz, Universität Mainz, Bereichsbibliothek Katholische und Evangelische Theologie</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Katholische und Evangelische Theologie</subfield>
+          <subfield code="b">77/016</subfield>
+          <subfield code="c">651016-4</subfield>
+          <subfield code="h">DE-77-016</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
       <item epn="1010484826">
@@ -8518,7 +9261,14 @@
         </datafield>
         <datafield tag="247C" occurrence="04" fulltag="247C/04">
           <subfield code="9">403989051</subfield>
-          <subfield code="8">651019-x &lt;Mz 19&gt;Germersheim, Universität Mainz, Bereichsbibliothek Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim</subfield>
+          <subfield code="b">Mz 19</subfield>
+          <subfield code="c">651019-x</subfield>
+          <subfield code="h">DE-Mz19</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
         </datafield>
       </item>
       <item epn="333532171">
@@ -8568,7 +9318,12 @@
         </datafield>
         <datafield tag="247C" occurrence="05" fulltag="247C/05">
           <subfield code="9">102600198</subfield>
-          <subfield code="8">651070-x &lt;77/070&gt;Mainz, Universität Mainz, Bereichsbibliothek Philosophicum, Standorte Germanistik I / Kulturanthropologie und Germanistik II</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Philosophicum, Standorte Germanistik I / Kulturanthropologie und Germanistik II</subfield>
+          <subfield code="b">77/070</subfield>
+          <subfield code="c">651070-x</subfield>
+          <subfield code="h">DE-77-070</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
       <item epn="584899890">
@@ -8617,7 +9372,12 @@
         </datafield>
         <datafield tag="247C" occurrence="06" fulltag="247C/06">
           <subfield code="9">102600198</subfield>
-          <subfield code="8">651070-x &lt;77/070&gt;Mainz, Universität Mainz, Bereichsbibliothek Philosophicum, Standorte Germanistik I / Kulturanthropologie und Germanistik II</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Philosophicum, Standorte Germanistik I / Kulturanthropologie und Germanistik II</subfield>
+          <subfield code="b">77/070</subfield>
+          <subfield code="c">651070-x</subfield>
+          <subfield code="h">DE-77-070</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
       <item epn="344792374">
@@ -8665,7 +9425,12 @@
         </datafield>
         <datafield tag="247C" occurrence="07" fulltag="247C/07">
           <subfield code="9">102600201</subfield>
-          <subfield code="8">651071-1 &lt;77/071&gt;Mainz, Universität Mainz, Bereichsbibliothek Philosophicum, Standort Allgemeine und Vergleichende Literaturwissenschaft</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Philosophicum, Standort Allgemeine und Vergleichende Literaturwissenschaft</subfield>
+          <subfield code="b">77/071</subfield>
+          <subfield code="c">651071-1</subfield>
+          <subfield code="h">DE-77-071</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
       <item epn="343521903">
@@ -8709,7 +9474,12 @@
         </datafield>
         <datafield tag="247C" occurrence="08" fulltag="247C/08">
           <subfield code="9">102600287</subfield>
-          <subfield code="8">651079-6 &lt;77/079&gt;Mainz, Universität Mainz, Bereichsbibliothek Georg Forster-Gebäude / Kunstgeschichte</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Georg Forster-Gebäude / Kunstgeschichte</subfield>
+          <subfield code="b">77/079</subfield>
+          <subfield code="c">651079-6</subfield>
+          <subfield code="h">DE-77-079</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
       <item epn="595436420">
@@ -8757,7 +9527,12 @@
         </datafield>
         <datafield tag="247C" occurrence="09" fulltag="247C/09">
           <subfield code="9">220061653</subfield>
-          <subfield code="8">651083-8 &lt;77/083&gt;Mainz, Universität Mainz, Bereichsbibliothek Philosophicum, Standort Historische Kulturwissenschaften</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Philosophicum, Standort Historische Kulturwissenschaften</subfield>
+          <subfield code="b">77/083</subfield>
+          <subfield code="c">651083-8</subfield>
+          <subfield code="h">DE-77-083</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
       <item epn="581151119">
@@ -8793,7 +9568,12 @@
         </datafield>
         <datafield tag="247C" occurrence="10" fulltag="247C/10">
           <subfield code="9">102600600</subfield>
-          <subfield code="8">651111-9 &lt;77/111&gt;Mainz, Universität Mainz, Kunsthochschule</subfield>
+          <subfield code="a">Universität Mainz, Kunsthochschule</subfield>
+          <subfield code="b">77/111</subfield>
+          <subfield code="c">651111-9</subfield>
+          <subfield code="h">DE-77-111</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
     </metadata>
@@ -8833,10 +9613,16 @@
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">160468841</subfield>
+        <subfield code="a">Barck</subfield>
+        <subfield code="d">Karlheinz</subfield>
+        <subfield code="h">1934-2012</subfield>
         <subfield code="B">Hrsg.</subfield>
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">152409173</subfield>
+        <subfield code="a">Wolfzettel</subfield>
+        <subfield code="d">Friedrich</subfield>
+        <subfield code="h">1941-</subfield>
         <subfield code="B">Hrsg.</subfield>
       </datafield>
       <datafield tag="033A" fulltag="033A">
@@ -8858,6 +9644,7 @@
       </datafield>
       <datafield tag="036D" fulltag="036D">
         <subfield code="9">093913974</subfield>
+        <subfield code="8">Ästhetische Grundbegriffe</subfield>
       </datafield>
       <datafield tag="101B" fulltag="101B">
         <subfield code="0">03-11-17</subfield>
@@ -8913,7 +9700,14 @@
         </datafield>
         <datafield tag="247C" occurrence="01" fulltag="247C/01">
           <subfield code="9">102599602</subfield>
-          <subfield code="8">651000-0 &lt;77&gt;Mainz, Universität Mainz, Zentralbibliothek</subfield>
+          <subfield code="a">Universität Mainz, Zentralbibliothek</subfield>
+          <subfield code="b">77</subfield>
+          <subfield code="c">651000-0</subfield>
+          <subfield code="h">DE-77</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
         </datafield>
       </item>
       <item epn="678097690">
@@ -8961,7 +9755,12 @@
         </datafield>
         <datafield tag="247C" occurrence="02" fulltag="247C/02">
           <subfield code="9">103704124</subfield>
-          <subfield code="8">651002-4 &lt;77/002&gt;Mainz, Universität Mainz, Bereichsbibliothek Georg Forster-Gebäude</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Georg Forster-Gebäude</subfield>
+          <subfield code="b">77/002</subfield>
+          <subfield code="c">651002-4</subfield>
+          <subfield code="h">DE-77-002</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nn</subfield>
         </datafield>
       </item>
       <item epn="221750134">
@@ -9005,7 +9804,12 @@
         </datafield>
         <datafield tag="247C" occurrence="03" fulltag="247C/03">
           <subfield code="9">102599696</subfield>
-          <subfield code="8">651016-4 &lt;77/016&gt;Mainz, Universität Mainz, Bereichsbibliothek Katholische und Evangelische Theologie</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Katholische und Evangelische Theologie</subfield>
+          <subfield code="b">77/016</subfield>
+          <subfield code="c">651016-4</subfield>
+          <subfield code="h">DE-77-016</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
       <item epn="1010133578">
@@ -9060,7 +9864,14 @@
         </datafield>
         <datafield tag="247C" occurrence="04" fulltag="247C/04">
           <subfield code="9">403989051</subfield>
-          <subfield code="8">651019-x &lt;Mz 19&gt;Germersheim, Universität Mainz, Bereichsbibliothek Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim</subfield>
+          <subfield code="b">Mz 19</subfield>
+          <subfield code="c">651019-x</subfield>
+          <subfield code="h">DE-Mz19</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
         </datafield>
       </item>
       <item epn="152309500">
@@ -9102,7 +9913,12 @@
         </datafield>
         <datafield tag="247C" occurrence="05" fulltag="247C/05">
           <subfield code="9">102600198</subfield>
-          <subfield code="8">651070-x &lt;77/070&gt;Mainz, Universität Mainz, Bereichsbibliothek Philosophicum, Standorte Germanistik I / Kulturanthropologie und Germanistik II</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Philosophicum, Standorte Germanistik I / Kulturanthropologie und Germanistik II</subfield>
+          <subfield code="b">77/070</subfield>
+          <subfield code="c">651070-x</subfield>
+          <subfield code="h">DE-77-070</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
       <item epn="584900082">
@@ -9151,7 +9967,12 @@
         </datafield>
         <datafield tag="247C" occurrence="06" fulltag="247C/06">
           <subfield code="9">102600198</subfield>
-          <subfield code="8">651070-x &lt;77/070&gt;Mainz, Universität Mainz, Bereichsbibliothek Philosophicum, Standorte Germanistik I / Kulturanthropologie und Germanistik II</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Philosophicum, Standorte Germanistik I / Kulturanthropologie und Germanistik II</subfield>
+          <subfield code="b">77/070</subfield>
+          <subfield code="c">651070-x</subfield>
+          <subfield code="h">DE-77-070</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
       <item epn="152171959">
@@ -9199,7 +10020,12 @@
         </datafield>
         <datafield tag="247C" occurrence="07" fulltag="247C/07">
           <subfield code="9">102600201</subfield>
-          <subfield code="8">651071-1 &lt;77/071&gt;Mainz, Universität Mainz, Bereichsbibliothek Philosophicum, Standort Allgemeine und Vergleichende Literaturwissenschaft</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Philosophicum, Standort Allgemeine und Vergleichende Literaturwissenschaft</subfield>
+          <subfield code="b">77/071</subfield>
+          <subfield code="c">651071-1</subfield>
+          <subfield code="h">DE-77-071</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
       <item epn="222853557">
@@ -9247,7 +10073,12 @@
         </datafield>
         <datafield tag="247C" occurrence="08" fulltag="247C/08">
           <subfield code="9">102600287</subfield>
-          <subfield code="8">651079-6 &lt;77/079&gt;Mainz, Universität Mainz, Bereichsbibliothek Georg Forster-Gebäude / Kunstgeschichte</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Georg Forster-Gebäude / Kunstgeschichte</subfield>
+          <subfield code="b">77/079</subfield>
+          <subfield code="c">651079-6</subfield>
+          <subfield code="h">DE-77-079</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
       <item epn="595435254">
@@ -9295,7 +10126,12 @@
         </datafield>
         <datafield tag="247C" occurrence="09" fulltag="247C/09">
           <subfield code="9">220061653</subfield>
-          <subfield code="8">651083-8 &lt;77/083&gt;Mainz, Universität Mainz, Bereichsbibliothek Philosophicum, Standort Historische Kulturwissenschaften</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Philosophicum, Standort Historische Kulturwissenschaften</subfield>
+          <subfield code="b">77/083</subfield>
+          <subfield code="c">651083-8</subfield>
+          <subfield code="h">DE-77-083</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
       <item epn="581150023">
@@ -9331,7 +10167,12 @@
         </datafield>
         <datafield tag="247C" occurrence="10" fulltag="247C/10">
           <subfield code="9">102600600</subfield>
-          <subfield code="8">651111-9 &lt;77/111&gt;Mainz, Universität Mainz, Kunsthochschule</subfield>
+          <subfield code="a">Universität Mainz, Kunsthochschule</subfield>
+          <subfield code="b">77/111</subfield>
+          <subfield code="c">651111-9</subfield>
+          <subfield code="h">DE-77-111</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
     </metadata>
@@ -9401,11 +10242,17 @@
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">145171957</subfield>
+        <subfield code="a">Gesenhues</subfield>
+        <subfield code="d">Stefan</subfield>
+        <subfield code="h">1954-</subfield>
         <subfield code="B">Herausgeber</subfield>
         <subfield code="4">edt</subfield>
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">402858409</subfield>
+        <subfield code="a">Gesenhues</subfield>
+        <subfield code="d">Anne</subfield>
+        <subfield code="h">1964-</subfield>
         <subfield code="B">Herausgeber</subfield>
         <subfield code="4">edt</subfield>
       </datafield>
@@ -9482,7 +10329,14 @@
         </datafield>
         <datafield tag="247C" occurrence="01" fulltag="247C/01">
           <subfield code="9">103705643</subfield>
-          <subfield code="8">651005-x &lt;77/005&gt;Mainz, Universität Mainz, Bereichsbibliothek Universitätsmedizin</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Universitätsmedizin</subfield>
+          <subfield code="b">77/005</subfield>
+          <subfield code="c">651005-x</subfield>
+          <subfield code="h">DE-77-005</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ln</subfield>
+          <subfield code="f">udi?</subfield>
+          <subfield code="g">udbfsi?</subfield>
         </datafield>
       </item>
       <item epn="112427944X">
@@ -9543,7 +10397,14 @@
         </datafield>
         <datafield tag="247C" occurrence="02" fulltag="247C/02">
           <subfield code="9">103705643</subfield>
-          <subfield code="8">651005-x &lt;77/005&gt;Mainz, Universität Mainz, Bereichsbibliothek Universitätsmedizin</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Universitätsmedizin</subfield>
+          <subfield code="b">77/005</subfield>
+          <subfield code="c">651005-x</subfield>
+          <subfield code="h">DE-77-005</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ln</subfield>
+          <subfield code="f">udi?</subfield>
+          <subfield code="g">udbfsi?</subfield>
         </datafield>
       </item>
     </metadata>
@@ -9610,6 +10471,10 @@
         <subfield code="a">2020</subfield>
         <subfield code="n">[2020]</subfield>
       </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">104213493</subfield>
+        <subfield code="a">Biografie</subfield>
+      </datafield>
       <datafield tag="021A" fulltag="021A">
         <subfield code="a">Max Mohr</subfield>
         <subfield code="d">Arzt und rastloser Literat</subfield>
@@ -9617,11 +10482,17 @@
       </datafield>
       <datafield tag="028A" fulltag="028A">
         <subfield code="9">154474711</subfield>
+        <subfield code="a">Steger</subfield>
+        <subfield code="d">Florian</subfield>
+        <subfield code="h">1974-</subfield>
         <subfield code="B">Verfasser</subfield>
         <subfield code="4">aut</subfield>
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">466242689</subfield>
+        <subfield code="a">Regenbrecht</subfield>
+        <subfield code="d">Martin</subfield>
+        <subfield code="h">1963-</subfield>
         <subfield code="B">Mitwirkender</subfield>
         <subfield code="4">ctb</subfield>
       </datafield>
@@ -9698,7 +10569,14 @@
         </datafield>
         <datafield tag="247C" occurrence="01" fulltag="247C/01">
           <subfield code="9">102599602</subfield>
-          <subfield code="8">651000-0 &lt;77&gt;Mainz, Universität Mainz, Zentralbibliothek</subfield>
+          <subfield code="a">Universität Mainz, Zentralbibliothek</subfield>
+          <subfield code="b">77</subfield>
+          <subfield code="c">651000-0</subfield>
+          <subfield code="h">DE-77</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
         </datafield>
       </item>
     </metadata>
@@ -9765,6 +10643,10 @@
         <subfield code="a">2021</subfield>
         <subfield code="n">2021</subfield>
       </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">08540926X</subfield>
+        <subfield code="a">Lehrbuch</subfield>
+      </datafield>
       <datafield tag="021A" fulltag="021A">
         <subfield code="a">Lauterkeitsrecht</subfield>
         <subfield code="h">von Tobias Lettl</subfield>
@@ -9777,6 +10659,9 @@
       </datafield>
       <datafield tag="028A" fulltag="028A">
         <subfield code="9">152541926</subfield>
+        <subfield code="a">Lettl</subfield>
+        <subfield code="d">Tobias</subfield>
+        <subfield code="h">1968-</subfield>
         <subfield code="B">Verfasser</subfield>
         <subfield code="4">aut</subfield>
       </datafield>
@@ -9849,7 +10734,12 @@
         </datafield>
         <datafield tag="247C" occurrence="01" fulltag="247C/01">
           <subfield code="9">102599718</subfield>
-          <subfield code="8">651018-8 &lt;77/018&gt;Mainz, Universität Mainz, Bereichsbibliothek Rechts- und Wirtschaftswissenschaften</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Rechts- und Wirtschaftswissenschaften</subfield>
+          <subfield code="b">77/018</subfield>
+          <subfield code="c">651018-8</subfield>
+          <subfield code="h">DE-77-018</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
       <item epn="1130673936">
@@ -9899,7 +10789,12 @@
         </datafield>
         <datafield tag="247C" occurrence="02" fulltag="247C/02">
           <subfield code="9">102599726</subfield>
-          <subfield code="8">651020-6 &lt;77/020&gt;Mainz, Universität Mainz, Bereichsbibliothek Rechts- und Wirtschaftswissenschaften, Lehrstühle</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Rechts- und Wirtschaftswissenschaften, Lehrstühle</subfield>
+          <subfield code="b">77/020</subfield>
+          <subfield code="c">651020-6</subfield>
+          <subfield code="h">DE-77-020</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
     </metadata>
@@ -9973,21 +10868,32 @@
       </datafield>
       <datafield tag="028A" fulltag="028A">
         <subfield code="9">087246961</subfield>
+        <subfield code="a">Ṯaʿālibī</subfield>
+        <subfield code="d">ʿAbd-al-Malik Ibn-Muḥammad</subfield>
+        <subfield code="c">aṯ-</subfield>
+        <subfield code="h">961-1038</subfield>
         <subfield code="B">Verfasser</subfield>
         <subfield code="4">aut</subfield>
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">219313369</subfield>
+        <subfield code="a">Orfali</subfield>
+        <subfield code="d">Bilal</subfield>
+        <subfield code="h">1980-</subfield>
         <subfield code="B">Herausgeber</subfield>
         <subfield code="4">edt</subfield>
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">316467413</subfield>
+        <subfield code="a">Baʿlabakkī</subfield>
+        <subfield code="d">Ramzī Munīr</subfield>
+        <subfield code="h">1951-</subfield>
         <subfield code="B">Herausgeber</subfield>
         <subfield code="4">edt</subfield>
       </datafield>
       <datafield tag="029F" fulltag="029F">
         <subfield code="9">126089477</subfield>
+        <subfield code="a">Walter de Gruyter GmbH &amp; Co. KG</subfield>
         <subfield code="B">Verlag</subfield>
         <subfield code="4">pbl</subfield>
       </datafield>
@@ -10069,7 +10975,14 @@
         </datafield>
         <datafield tag="247C" occurrence="01" fulltag="247C/01">
           <subfield code="9">102600295</subfield>
-          <subfield code="8">651080-2 &lt;77/080&gt;Mainz, Universität Mainz, Zentralbibliothek, Bestand Turkologie</subfield>
+          <subfield code="a">Universität Mainz, Zentralbibliothek, Bestand Turkologie</subfield>
+          <subfield code="b">77/080</subfield>
+          <subfield code="c">651080-2</subfield>
+          <subfield code="h">DE-77-080</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
         </datafield>
       </item>
     </metadata>
@@ -10125,16 +11038,25 @@
       </datafield>
       <datafield tag="028A" fulltag="028A">
         <subfield code="9">15532778X</subfield>
+        <subfield code="a">Gualdani</subfield>
+        <subfield code="d">Maria Pia</subfield>
+        <subfield code="h">1976-</subfield>
         <subfield code="B">Verfasser</subfield>
         <subfield code="4">aut</subfield>
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">428000177</subfield>
+        <subfield code="a">Mischler</subfield>
+        <subfield code="d">Stéphane</subfield>
+        <subfield code="h">1970-</subfield>
         <subfield code="B">Verfasser</subfield>
         <subfield code="4">aut</subfield>
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">428160050</subfield>
+        <subfield code="a">Mouhot</subfield>
+        <subfield code="d">Clément</subfield>
+        <subfield code="h">1978-</subfield>
         <subfield code="B">Verfasser</subfield>
         <subfield code="4">aut</subfield>
       </datafield>
@@ -10205,7 +11127,14 @@
         </datafield>
         <datafield tag="247C" occurrence="01" fulltag="247C/01">
           <subfield code="9">103704582</subfield>
-          <subfield code="8">651006-1 &lt;77/006&gt;Mainz, Universität Mainz, Bereichsbibliothek Mathematik, Informatik und Naturwissenschaften</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Mathematik, Informatik und Naturwissenschaften</subfield>
+          <subfield code="b">77/006</subfield>
+          <subfield code="c">651006-1</subfield>
+          <subfield code="h">DE-77-006</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">u?</subfield>
+          <subfield code="g">usc?</subfield>
         </datafield>
       </item>
     </metadata>
@@ -10259,6 +11188,10 @@
         <subfield code="a">2020</subfield>
         <subfield code="n">[2020]-</subfield>
       </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">10454466X</subfield>
+        <subfield code="a">Zeitschrift</subfield>
+      </datafield>
       <datafield tag="018@" fulltag="018@">
         <subfield code="a">m</subfield>
       </datafield>
@@ -10278,6 +11211,7 @@
       <datafield tag="039E" fulltag="039E">
         <subfield code="b">f</subfield>
         <subfield code="9">04766035X</subfield>
+        <subfield code="8">Livres hebdo</subfield>
       </datafield>
       <item epn="112362786X">
         <datafield tag="201B" occurrence="01" fulltag="201B/01">
@@ -10320,7 +11254,14 @@
         </datafield>
         <datafield tag="247C" occurrence="01" fulltag="247C/01">
           <subfield code="9">102599602</subfield>
-          <subfield code="8">651000-0 &lt;77&gt;Mainz, Universität Mainz, Zentralbibliothek</subfield>
+          <subfield code="a">Universität Mainz, Zentralbibliothek</subfield>
+          <subfield code="b">77</subfield>
+          <subfield code="c">651000-0</subfield>
+          <subfield code="h">DE-77</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
         </datafield>
       </item>
     </metadata>
@@ -10389,17 +11330,27 @@
         <subfield code="a">2021</subfield>
         <subfield code="n">2021</subfield>
       </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">08540926X</subfield>
+        <subfield code="a">Lehrbuch</subfield>
+      </datafield>
       <datafield tag="021A" fulltag="021A">
         <subfield code="a">Wirtschaftsstrafrecht</subfield>
         <subfield code="h">Prof. Dr. Dr. Hauke Brettel (Johannes Gutenberg-Universität Mainz), Prof. Dr. Hendrik Schneider (Universität Leipzig)</subfield>
       </datafield>
       <datafield tag="028A" fulltag="028A">
         <subfield code="9">149758715</subfield>
+        <subfield code="a">Brettel</subfield>
+        <subfield code="d">Hauke</subfield>
+        <subfield code="h">1970-</subfield>
         <subfield code="B">Verfasser</subfield>
         <subfield code="4">aut</subfield>
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">189108533</subfield>
+        <subfield code="a">Schneider</subfield>
+        <subfield code="d">Hendrik</subfield>
+        <subfield code="h">1966-</subfield>
         <subfield code="B">Verfasser</subfield>
         <subfield code="4">aut</subfield>
       </datafield>
@@ -10493,7 +11444,12 @@
         </datafield>
         <datafield tag="247C" occurrence="01" fulltag="247C/01">
           <subfield code="9">102599718</subfield>
-          <subfield code="8">651018-8 &lt;77/018&gt;Mainz, Universität Mainz, Bereichsbibliothek Rechts- und Wirtschaftswissenschaften</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Rechts- und Wirtschaftswissenschaften</subfield>
+          <subfield code="b">77/018</subfield>
+          <subfield code="c">651018-8</subfield>
+          <subfield code="h">DE-77-018</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
       <item epn="1142630676">
@@ -10540,7 +11496,12 @@
         </datafield>
         <datafield tag="247C" occurrence="02" fulltag="247C/02">
           <subfield code="9">102599718</subfield>
-          <subfield code="8">651018-8 &lt;77/018&gt;Mainz, Universität Mainz, Bereichsbibliothek Rechts- und Wirtschaftswissenschaften</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Rechts- und Wirtschaftswissenschaften</subfield>
+          <subfield code="b">77/018</subfield>
+          <subfield code="c">651018-8</subfield>
+          <subfield code="h">DE-77-018</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
     </metadata>
@@ -10586,10 +11547,17 @@
       </datafield>
       <datafield tag="028C" fulltag="028C">
         <subfield code="9">140745149</subfield>
+        <subfield code="a">Kremkau</subfield>
+        <subfield code="d">Klaus</subfield>
         <subfield code="B">Hrsg.</subfield>
       </datafield>
       <datafield tag="029F" fulltag="029F">
         <subfield code="9">043044832</subfield>
+        <subfield code="a">Theologische Konferenz</subfield>
+        <subfield code="g">Evangelische Kirche in Deutschland</subfield>
+        <subfield code="n">4</subfield>
+        <subfield code="d">1978</subfield>
+        <subfield code="c">Rehburg-Loccum</subfield>
       </datafield>
       <datafield tag="033A" fulltag="033A">
         <subfield code="p">Frankfurt am Main</subfield>
@@ -10646,7 +11614,12 @@
         </datafield>
         <datafield tag="247C" occurrence="01" fulltag="247C/01">
           <subfield code="9">102599696</subfield>
-          <subfield code="8">651016-4 &lt;77/016&gt;Mainz, Universität Mainz, Bereichsbibliothek Katholische und Evangelische Theologie</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Katholische und Evangelische Theologie</subfield>
+          <subfield code="b">77/016</subfield>
+          <subfield code="c">651016-4</subfield>
+          <subfield code="h">DE-77-016</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
       <item epn="376141832">
@@ -10687,7 +11660,12 @@
         </datafield>
         <datafield tag="247C" occurrence="02" fulltag="247C/02">
           <subfield code="9">102599696</subfield>
-          <subfield code="8">651016-4 &lt;77/016&gt;Mainz, Universität Mainz, Bereichsbibliothek Katholische und Evangelische Theologie</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Katholische und Evangelische Theologie</subfield>
+          <subfield code="b">77/016</subfield>
+          <subfield code="c">651016-4</subfield>
+          <subfield code="h">DE-77-016</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
         </datafield>
       </item>
     </metadata>

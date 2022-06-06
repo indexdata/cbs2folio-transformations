@@ -255,7 +255,7 @@
       <arr>
         <xsl:for-each select="datafield[@tag='003S' or @tag='003@' or @tag='004A' or @tag='004P' or @tag='004J' or @tag='004K' or @tag='004D' or @tag='005A' or @tag='005I' or @tag='005P' or @tag='005D' or @tag='004F' or @tag='004M' or @tag='004I' or @tag='006A' or @tag='006B' or @tag='006G' or @tag='006T' or @tag='006U' or @tag='006Z' or @tag='006S' or @tag='006L' or @tag='006N' or @tag='006V' or @tag='006W' or @tag='006X' or @tag='006M' or @tag='004V' or @tag='004R' or @tag='004W' or @tag='004L' or @tag='004C' or @tag='004U' or @tag='003O' or @tag='003T' or @tag='003D' or @tag='007C' or @tag='007D' or @tag='007G' or @tag='007Y' or @tag='017K' or @tag='017L']">
           <xsl:choose>
-            <xsl:when test="./@tag='004A' or @tag='004D' or @tag='004P' or @tag='005A' or @tag='005P' or @tag='005D' or @tag='004F' or @tag='004M' or @tag='004I'">
+            <xsl:when test="./@tag='004A' or @tag='004D' or @tag='004P' or @tag='005A' or @tag='005P' or @tag='005D' or @tag='004F' or @tag='004M' or @tag='004I' or @tag='004R' or @tag='004U' or @tag='004V' or @tag='006B'">
               <xsl:variable name="id-value">
                 <xsl:choose>
                   <xsl:when test="./subfield[@code='f'] and ./subfield[@code='0']">
@@ -288,6 +288,10 @@
                   <xsl:when test="./@tag='004F'">ISMN</xsl:when>
                   <xsl:when test="./@tag='004M'">ISRN</xsl:when>
                   <xsl:when test="./@tag='004I'">Formal falsche ISMN</xsl:when>
+                  <xsl:when test="./@tag='004R'">Handle</xsl:when>
+                  <xsl:when test="./@tag='004U'">URN</xsl:when>
+                  <xsl:when test="./@tag='004V'">DOI</xsl:when>
+                  <xsl:when test="./@tag='006B'">BNB</xsl:when>
                 </xsl:choose>
               </xsl:variable>
               <xsl:if test="string-length($id-value) &gt; 0">
@@ -367,7 +371,7 @@
                 <xsl:choose>
                   <xsl:when test="./@tag='003O'">OCLC</xsl:when>
                   <xsl:when test="./@tag='003S'">PPN SWB</xsl:when>
-				  <xsl:when test="./@tag='003@'">PPN</xsl:when>
+        				  <xsl:when test="./@tag='003@'">PPN</xsl:when>
                   <xsl:when test="./@tag='004J'">ISBN der Reproduktion</xsl:when>
                   <xsl:when test="./@tag='004K'">Formal falsche ISBN der Reproduktion</xsl:when>
                   <xsl:when test="./@tag='005I'">Autorisierte ISSN</xsl:when>
@@ -570,28 +574,29 @@
                     <xsl:value-of select="substring-before(./subfield[@code='8'], ' ; ID:')"/>
                   </xsl:when>
                   <xsl:otherwise>
-                  <xsl:for-each select="subfield">
-                    <xsl:if test= "@code='a'">
-                      <xsl:value-of select="."/>
-                    </xsl:if>
-
-                     <xsl:if test="@code='f' or @code='g'">
-                       <xsl:value-of select="concat(' (',.,')')"/>
-                    </xsl:if>
-                    <xsl:if test="@code='m' or @code='n' or @code='h' or @code='l' or @code='r' or @code='x'">
-                       <xsl:value-of select="concat(', ',.)"/>
-                    </xsl:if>
-                    <xsl:if test="@code='k' or @code='p' or @code='s'">
-                       <xsl:value-of select="concat('. ',.)"/>
-                    </xsl:if> 
-                    <xsl:if test="@code='o'">
-                       <xsl:value-of select="concat('; ',.)"/>
-                    </xsl:if> 
-         </xsl:for-each>
+                    <xsl:for-each select="subfield">
+                      <xsl:choose>
+                        <xsl:when test="@code='a'">
+                          <xsl:value-of select="."/>
+                        </xsl:when>
+                        <xsl:when test="@code='f' or @code='g'">
+                          <xsl:value-of select="concat(' (',.,')')"/>
+                        </xsl:when>
+                        <xsl:when test="@code='m' or @code='n' or @code='h' or @code='l' or @code='r' or @code='x'">
+                          <xsl:value-of select="concat(', ',.)"/>
+                        </xsl:when>
+                        <xsl:when test="@code='k' or @code='p' or @code='s'">
+                          <xsl:value-of select="concat('. ',.)"/>
+                        </xsl:when>
+                        <xsl:when test="@code='o'">
+                          <xsl:value-of select="concat('; ',.)"/>
+                        </xsl:when>
+                      </xsl:choose> 
+                    </xsl:for-each>
                   </xsl:otherwise>
                 </xsl:choose>
               </xsl:variable>
-               <xsl:value-of select="$con-name"/>
+              <xsl:value-of select="$con-name"/>
               </alternativeTitle>
               <alternativeTitleTypeId>Uniform title</alternativeTitleTypeId>
             </i>
@@ -713,7 +718,7 @@
                       <xsl:value-of select="./subfield[@code='4']"/>
                     </contributorTypeId>
                   </xsl:if>
-				  <xsl:if test="./subfield[@code='B']">
+        				  <xsl:if test="./subfield[@code='B']">
                     <contributorTypeText>
                       <xsl:value-of select="./subfield[@code='B']"/>
                     </contributorTypeText>

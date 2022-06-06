@@ -82,6 +82,7 @@
          <natureOfContentTermIds>
             <arr>
                <i/>
+               <i/>
             </arr>
          </natureOfContentTermIds>
          <languages>
@@ -120,7 +121,11 @@
                      </i>
                   </arr>
                </electronicAccess>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -164,7 +169,13 @@
          <indexTitle>Waterwolven een geschiedenis van stormvloeden, dijkenbouwers en droogmakers Cordula Rooijendijk</indexTitle>
          <title>Waterwolven : een geschiedenis van stormvloeden, dijkenbouwers en droogmakers / Cordula Rooijendijk</title>
          <contributors>
-            <arr/>
+            <arr>
+               <i>
+                  <name>Rooijendijk, Cordula *1973-*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <primary>true</primary>
+               </i>
+            </arr>
          </contributors>
          <publication>
             <arr>
@@ -253,7 +264,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -296,7 +311,7 @@
                </i>
                <i>
                   <value>GBC005585</value>
-                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
+                  <identifierTypeId>3187432f-9434-40a8-8782-35a111a1491e</identifierTypeId>
                </i>
                <i>
                   <value>HEB: 460686119</value>
@@ -310,16 +325,23 @@
             <arr>
                <i>
                   <alternativeTitle>Literature and food</alternativeTitle>
-                  <alternativeTitleTypeId>0fe58901-183e-4678-a3aa-0b4751174ba8</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
                </i>
                <i>
                   <alternativeTitle>Abweichender Titel: Literature and food</alternativeTitle>
-                  <alternativeTitleTypeId>0fe58901-183e-4678-a3aa-0b4751174ba8</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
                </i>
             </arr>
          </alternativeTitles>
          <contributors>
-            <arr/>
+            <arr>
+               <i>
+                  <name>Coghlan, J. Michelle *1978-*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <contributorTypeId>9deb29d1-3e71-4951-9413-a80adac703d0</contributorTypeId>
+                  <contributorTypeText>Herausgeber</contributorTypeText>
+               </i>
+            </arr>
          </contributors>
          <publication>
             <arr>
@@ -408,7 +430,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -444,7 +470,18 @@
          <indexTitle>Teatro António Pedro. Coord. de António Brás de Oliveira. Pref. de Luiz Francisco Rebello</indexTitle>
          <title>Teatro / António Pedro. Coord. de António Brás de Oliveira. Pref. de Luiz Francisco Rebello</title>
          <contributors>
-            <arr/>
+            <arr>
+               <i>
+                  <name>Pedro, Antonio</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <primary>true</primary>
+               </i>
+               <i>
+                  <name>Oliveira, António Brás de</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <contributorTypeText>Hrsg.</contributorTypeText>
+               </i>
+            </arr>
          </contributors>
          <publication>
             <arr>
@@ -535,7 +572,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -575,7 +616,13 @@
          <indexTitle>Phosphor-(III)-funktionalisierte 1,8-Naphthyridin- und Harnstoff-Derivate und deren Anwendung in der Übergangsmetall-katalysierten homogenen Katalyse vorgelegt von Marc Awenius</indexTitle>
          <title>Phosphor-(III)-funktionalisierte 1,8-Naphthyridin- und Harnstoff-Derivate und deren Anwendung in der Übergangsmetall-katalysierten homogenen Katalyse / vorgelegt von Marc Awenius</title>
          <contributors>
-            <arr/>
+            <arr>
+               <i>
+                  <name>Awenius, Marc</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <primary>true</primary>
+               </i>
+            </arr>
          </contributors>
          <publication>
             <arr/>
@@ -649,7 +696,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -694,11 +745,11 @@
             <arr>
                <i>
                   <alternativeTitle>Beck-online</alternativeTitle>
-                  <alternativeTitleTypeId>0fe58901-183e-4678-a3aa-0b4751174ba8</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
                </i>
                <i>
                   <alternativeTitle>Beck online Corona und COVID-19 plus</alternativeTitle>
-                  <alternativeTitleTypeId>0fe58901-183e-4678-a3aa-0b4751174ba8</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
                </i>
             </arr>
          </alternativeTitles>
@@ -795,7 +846,11 @@
                      </i>
                   </arr>
                </electronicAccess>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -849,7 +904,15 @@
          <indexTitle>Krimi in Literatur, Film und Serie eine Einführung Stefan Neuhaus</indexTitle>
          <title>Der Krimi in Literatur, Film und Serie : eine Einführung / Stefan Neuhaus</title>
          <contributors>
-            <arr/>
+            <arr>
+               <i>
+                  <name>Neuhaus, Stefan *1965-*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <primary>true</primary>
+                  <contributorTypeId>6e09d47d-95e2-4d8a-831b-f777b8ef6d81</contributorTypeId>
+                  <contributorTypeText>Verfasser</contributorTypeText>
+               </i>
+            </arr>
          </contributors>
          <publication>
             <arr>
@@ -916,7 +979,12 @@
                      </i>
                   </arr>
                </electronicAccess>
-               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i/>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -964,7 +1032,18 @@
          <indexTitle>Ästhetische Grundbegriffe (ÄGB) ; historisches Wörterbuch in sieben Bänden hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ...</indexTitle>
          <title>Ästhetische Grundbegriffe : (ÄGB) ; historisches Wörterbuch in sieben Bänden / hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ... (4)</title>
          <contributors>
-            <arr/>
+            <arr>
+               <i>
+                  <name>Barck, Karlheinz *1934-2012*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <contributorTypeText>Hrsg.</contributorTypeText>
+               </i>
+               <i>
+                  <name>Wolfzettel, Friedrich *1941-*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <contributorTypeText>Hrsg.</contributorTypeText>
+               </i>
+            </arr>
          </contributors>
          <publication>
             <arr>
@@ -998,7 +1077,7 @@
                      <hrid>093913974</hrid>
                   </instanceIdentifier>
                   <provisionalInstance>
-                     <title/>
+                     <title>Ästhetische Grundbegriffe</title>
                      <instanceTypeId>a2c91e87-6bab-44d6-8adb-1fd02481fc4f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
@@ -1051,7 +1130,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>678097798</hrid>
@@ -1088,7 +1171,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>221750509</hrid>
@@ -1125,7 +1212,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>1010303376</hrid>
@@ -1172,7 +1263,12 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i/>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>179077457</hrid>
@@ -1209,7 +1305,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>584900007</hrid>
@@ -1246,7 +1346,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>176844678</hrid>
@@ -1283,7 +1387,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>22285393X</hrid>
@@ -1320,7 +1428,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>595435629</hrid>
@@ -1357,7 +1469,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>581150368</hrid>
@@ -1394,7 +1510,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -1434,7 +1554,18 @@
          <indexTitle>Ästhetische Grundbegriffe (ÄGB) ; historisches Wörterbuch in sieben Bänden hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ...</indexTitle>
          <title>Ästhetische Grundbegriffe : (ÄGB) ; historisches Wörterbuch in sieben Bänden / hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ... (5)</title>
          <contributors>
-            <arr/>
+            <arr>
+               <i>
+                  <name>Barck, Karlheinz *1934-2012*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <contributorTypeText>Hrsg.</contributorTypeText>
+               </i>
+               <i>
+                  <name>Wolfzettel, Friedrich *1941-*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <contributorTypeText>Hrsg.</contributorTypeText>
+               </i>
+            </arr>
          </contributors>
          <publication>
             <arr>
@@ -1468,7 +1599,7 @@
                      <hrid>093913974</hrid>
                   </instanceIdentifier>
                   <provisionalInstance>
-                     <title/>
+                     <title>Ästhetische Grundbegriffe</title>
                      <instanceTypeId>a2c91e87-6bab-44d6-8adb-1fd02481fc4f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
@@ -1521,7 +1652,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>67809781X</hrid>
@@ -1558,7 +1693,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>221750266</hrid>
@@ -1595,7 +1734,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>1010401270</hrid>
@@ -1637,7 +1780,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>207701636</hrid>
@@ -1674,7 +1821,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>584899971</hrid>
@@ -1711,7 +1862,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>20816233X</hrid>
@@ -1748,7 +1903,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>22285409X</hrid>
@@ -1785,7 +1944,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>595435947</hrid>
@@ -1822,7 +1985,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>58115052X</hrid>
@@ -1859,7 +2026,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -1903,6 +2074,18 @@
          <contributors>
             <arr>
                <i>
+                  <name>Böick, Marcus *1983-*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <contributorTypeId>9deb29d1-3e71-4951-9413-a80adac703d0</contributorTypeId>
+                  <contributorTypeText>Herausgeber</contributorTypeText>
+               </i>
+               <i>
+                  <name>Goschler, Constantin *1960-*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <contributorTypeId>9deb29d1-3e71-4951-9413-a80adac703d0</contributorTypeId>
+                  <contributorTypeText>Herausgeber</contributorTypeText>
+               </i>
+               <i>
                   <name>Jessen, Ralph</name>
                   <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
                   <contributorTypeId>9deb29d1-3e71-4951-9413-a80adac703d0</contributorTypeId>
@@ -1933,6 +2116,11 @@
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <natureOfContentTermIds>
+            <arr>
+               <i>0abeee3d-8ad2-4b04-92ff-221b4fce1075</i>
+            </arr>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -1990,7 +2178,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -2025,7 +2217,13 @@
          <indexTitle>Judith formes et sens des diverses traditions A. M. Dubarle</indexTitle>
          <title>Judith : formes et sens des diverses traditions / A. M. Dubarle (2)</title>
          <contributors>
-            <arr/>
+            <arr>
+               <i>
+                  <name>Dubarle, André-Marie *1910-2002*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <primary>true</primary>
+               </i>
+            </arr>
          </contributors>
          <publication>
             <arr>
@@ -2065,7 +2263,7 @@
                      <hrid>054126444</hrid>
                   </instanceIdentifier>
                   <provisionalInstance>
-                     <title/>
+                     <title>Judith</title>
                      <instanceTypeId>a2c91e87-6bab-44d6-8adb-1fd02481fc4f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
@@ -2128,7 +2326,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>336705190</hrid>
@@ -2170,7 +2372,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>262731266</hrid>
@@ -2212,7 +2418,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -2252,7 +2462,18 @@
          <indexTitle>Ästhetische Grundbegriffe (ÄGB) ; historisches Wörterbuch in sieben Bänden hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ...</indexTitle>
          <title>Ästhetische Grundbegriffe : (ÄGB) ; historisches Wörterbuch in sieben Bänden / hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ... (6)</title>
          <contributors>
-            <arr/>
+            <arr>
+               <i>
+                  <name>Barck, Karlheinz *1934-2012*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <contributorTypeText>Hrsg.</contributorTypeText>
+               </i>
+               <i>
+                  <name>Wolfzettel, Friedrich *1941-*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <contributorTypeText>Hrsg.</contributorTypeText>
+               </i>
+            </arr>
          </contributors>
          <publication>
             <arr>
@@ -2286,7 +2507,7 @@
                      <hrid>093913974</hrid>
                   </instanceIdentifier>
                   <provisionalInstance>
-                     <title/>
+                     <title>Ästhetische Grundbegriffe</title>
                      <instanceTypeId>a2c91e87-6bab-44d6-8adb-1fd02481fc4f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
@@ -2339,7 +2560,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>467614156</hrid>
@@ -2376,7 +2601,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>245463119</hrid>
@@ -2413,7 +2642,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>1010468278</hrid>
@@ -2455,7 +2688,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>251796027</hrid>
@@ -2492,7 +2729,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>584899947</hrid>
@@ -2529,7 +2770,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>24580417X</hrid>
@@ -2566,7 +2811,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>255947798</hrid>
@@ -2603,7 +2852,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>595436102</hrid>
@@ -2640,7 +2893,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>58115066X</hrid>
@@ -2677,7 +2934,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -2712,7 +2973,7 @@
                </i>
                <i>
                   <value>10.14361/9783839454251</value>
-                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
+                  <identifierTypeId>39554f54-d0bb-4f0a-89a4-e422f6136316</identifierTypeId>
                </i>
                <i>
                   <value>HEB: 475634225</value>
@@ -2961,7 +3222,12 @@
                      </i>
                   </arr>
                </electronicAccess>
-               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i/>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -2997,7 +3263,13 @@
          <indexTitle>göttliche Wort Grundfragen unseres Glaubens Ragnar Bring</indexTitle>
          <title>Das göttliche Wort : Grundfragen unseres Glaubens / Ragnar Bring</title>
          <contributors>
-            <arr/>
+            <arr>
+               <i>
+                  <name>Bring, Ragnar *1895-1988*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <primary>true</primary>
+               </i>
+            </arr>
          </contributors>
          <publication>
             <arr>
@@ -3073,7 +3345,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>368079074</hrid>
@@ -3115,7 +3391,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -3146,7 +3426,7 @@
                </i>
                <i>
                   <value>10.1051/978-2-7598-0102-2</value>
-                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
+                  <identifierTypeId>39554f54-d0bb-4f0a-89a4-e422f6136316</identifierTypeId>
                </i>
                <i>
                   <value>HEB: 476202744</value>
@@ -3256,7 +3536,11 @@
                      </i>
                   </arr>
                </electronicAccess>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -3337,6 +3621,11 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr>
+               <i>0abeee3d-8ad2-4b04-92ff-221b4fce1075</i>
+            </arr>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -3371,7 +3660,11 @@
                      </i>
                   </arr>
                </electronicAccess>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -3425,7 +3718,15 @@
          <indexTitle>Repetitorium Facharztprüfung Kinder- und Jugendmedizin Ertan Mayatepek</indexTitle>
          <title>Repetitorium Facharztprüfung Kinder- und Jugendmedizin / Ertan Mayatepek</title>
          <contributors>
-            <arr/>
+            <arr>
+               <i>
+                  <name>Mayatepek, Ertan</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <primary>true</primary>
+                  <contributorTypeId>6e09d47d-95e2-4d8a-831b-f777b8ef6d81</contributorTypeId>
+                  <contributorTypeText>Verfasser</contributorTypeText>
+               </i>
+            </arr>
          </contributors>
          <publication>
             <arr>
@@ -3501,7 +3802,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -3543,7 +3848,31 @@
          <indexTitle>Mükemmel Osmanlı lügatı Ali Nazîmâ, Faik Reşad. Hazırlayanlar Necat Birinci, Kâzım Yetiş, M. Fatih Andi, Erol Ülgen, Nuri Saglam, Ali Yükrü Coruk</indexTitle>
          <title>Mükemmel Osmanlı lügatı / Ali Nazîmâ, Faik Reşad. Hazırlayanlar Necat Birinci, Kâzım Yetiş, M. Fatih Andi, Erol Ülgen, Nuri Saglam, Ali Yükrü Coruk</title>
          <contributors>
-            <arr/>
+            <arr>
+               <i>
+                  <name>Nazîmâ, Ali</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <primary>true</primary>
+                  <contributorTypeId>6e09d47d-95e2-4d8a-831b-f777b8ef6d81</contributorTypeId>
+                  <contributorTypeText>Verfasser</contributorTypeText>
+               </i>
+               <i>
+                  <name>Faik Reşat *1851-1914*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <contributorTypeId>6e09d47d-95e2-4d8a-831b-f777b8ef6d81</contributorTypeId>
+                  <contributorTypeText>Verfasser</contributorTypeText>
+               </i>
+               <i>
+                  <name>Birinci, Necat</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <contributorTypeId>9deb29d1-3e71-4951-9413-a80adac703d0</contributorTypeId>
+                  <contributorTypeText>Herausgeber</contributorTypeText>
+               </i>
+               <i>
+                  <name>Yetiş, Kâzım *1947-*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+               </i>
+            </arr>
          </contributors>
          <publication>
             <arr>
@@ -3566,6 +3895,11 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr>
+               <i/>
+            </arr>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>tur</i>
@@ -3639,7 +3973,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -3703,7 +4041,22 @@
          <indexTitle>Briefwechsel Voltaire ; Friedrich der Große. Hrsg. und übers. von Hans Pleschinski</indexTitle>
          <title>Briefwechsel / Voltaire ; Friedrich der Große. Hrsg. und übers. von Hans Pleschinski</title>
          <contributors>
-            <arr/>
+            <arr>
+               <i>
+                  <name>Voltaire *1694-1778*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <primary>true</primary>
+               </i>
+               <i>
+                  <name>Friedrich II., Preußen, König *1712-1786*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+               </i>
+               <i>
+                  <name>Pleschinski, Hans *1956-*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <contributorTypeText>Hrsg.</contributorTypeText>
+               </i>
+            </arr>
          </contributors>
          <publication>
             <arr>
@@ -3787,7 +4140,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -3829,7 +4186,33 @@
          <indexTitle>China entdecken</indexTitle>
          <title>China entdecken (Lehrbuch 4)</title>
          <contributors>
-            <arr/>
+            <arr>
+               <i>
+                  <name>Qi, Shaoyan</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <primary>true</primary>
+                  <contributorTypeId>6e09d47d-95e2-4d8a-831b-f777b8ef6d81</contributorTypeId>
+                  <contributorTypeText>Verfasser</contributorTypeText>
+               </i>
+               <i>
+                  <name>Tan, Qiuyu</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <contributorTypeId>6e09d47d-95e2-4d8a-831b-f777b8ef6d81</contributorTypeId>
+                  <contributorTypeText>Verfasser</contributorTypeText>
+               </i>
+               <i>
+                  <name>Zimmermann, Katrin</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <contributorTypeId>3322b734-ce38-4cd4-815d-8983352837cc</contributorTypeId>
+                  <contributorTypeText>Übersetzer</contributorTypeText>
+               </i>
+               <i>
+                  <name>Guder, Andreas *1966-*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <contributorTypeId>3322b734-ce38-4cd4-815d-8983352837cc</contributorTypeId>
+                  <contributorTypeText>Übersetzer</contributorTypeText>
+               </i>
+            </arr>
          </contributors>
          <publication>
             <arr>
@@ -3863,7 +4246,7 @@
                      <hrid>42129762X</hrid>
                   </instanceIdentifier>
                   <provisionalInstance>
-                     <title/>
+                     <title>China entdecken</title>
                      <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
@@ -3926,7 +4309,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -3961,7 +4348,7 @@
                </i>
                <i>
                   <value>10.1515/9783110697308</value>
-                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
+                  <identifierTypeId>39554f54-d0bb-4f0a-89a4-e422f6136316</identifierTypeId>
                </i>
                <i>
                   <value>HEB: 475628594</value>
@@ -4170,7 +4557,12 @@
                      </i>
                   </arr>
                </electronicAccess>
-               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i/>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -4279,7 +4671,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -4349,7 +4745,21 @@
          <indexTitle>Semantik für Lehrkräfte linguistische Grundlagen und didaktische Impulse Christian Efing/Thorsten Roelcke</indexTitle>
          <title>Semantik für Lehrkräfte : linguistische Grundlagen und didaktische Impulse / Christian Efing/Thorsten Roelcke</title>
          <contributors>
-            <arr/>
+            <arr>
+               <i>
+                  <name>Efing, Christian *1976-*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <primary>true</primary>
+                  <contributorTypeId>6e09d47d-95e2-4d8a-831b-f777b8ef6d81</contributorTypeId>
+                  <contributorTypeText>Verfasser</contributorTypeText>
+               </i>
+               <i>
+                  <name>Roelcke, Thorsten D. *1965-*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <contributorTypeId>6e09d47d-95e2-4d8a-831b-f777b8ef6d81</contributorTypeId>
+                  <contributorTypeText>Verfasser</contributorTypeText>
+               </i>
+            </arr>
          </contributors>
          <publication>
             <arr>
@@ -4438,7 +4848,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>1144975972</hrid>
@@ -4523,7 +4937,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -4580,7 +4998,7 @@
             <arr>
                <i>
                   <alternativeTitle>Lernen in der digitalen Welt</alternativeTitle>
-                  <alternativeTitleTypeId>0fe58901-183e-4678-a3aa-0b4751174ba8</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
                </i>
                <i>
                   <alternativeTitle>On (Hannover)</alternativeTitle>
@@ -4619,6 +5037,11 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr>
+               <i>0abeee3d-8ad2-4b04-92ff-221b4fce1075</i>
+            </arr>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -4638,7 +5061,7 @@
                      <hrid>048585882</hrid>
                   </instanceIdentifier>
                   <provisionalInstance>
-                     <title/>
+                     <title>Computer + Unterricht</title>
                      <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
@@ -4696,7 +5119,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -4723,7 +5150,7 @@
                </i>
                <i>
                   <value>urn:nbn:de:bsz:21-dspace-1014575</value>
-                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
+                  <identifierTypeId>eb7b2717-f149-4fec-81a3-deefb8f5ee6b</identifierTypeId>
                </i>
                <i>
                   <value>1212849795</value>
@@ -4784,6 +5211,11 @@
                </i>
             </arr>
          </electronicAccess>
+         <natureOfContentTermIds>
+            <arr>
+               <i>94f6d06a-61e0-47c1-bbcb-6186989e6040</i>
+            </arr>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>eng</i>
@@ -4818,7 +5250,11 @@
                      </i>
                   </arr>
                </electronicAccess>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -4884,7 +5320,21 @@
          <indexTitle>Einstieg in die Physikalische Chemie für Naturwissenschaftler Wolfgang Bechmann, Ilko Bald</indexTitle>
          <title>Einstieg in die Physikalische Chemie für Naturwissenschaftler / Wolfgang Bechmann, Ilko Bald</title>
          <contributors>
-            <arr/>
+            <arr>
+               <i>
+                  <name>Bechmann, Wolfgang *1948-*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <primary>true</primary>
+                  <contributorTypeId>6e09d47d-95e2-4d8a-831b-f777b8ef6d81</contributorTypeId>
+                  <contributorTypeText>Verfasser</contributorTypeText>
+               </i>
+               <i>
+                  <name>Bald, Ilko *1980-*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <contributorTypeId>6e09d47d-95e2-4d8a-831b-f777b8ef6d81</contributorTypeId>
+                  <contributorTypeText>Verfasser</contributorTypeText>
+               </i>
+            </arr>
          </contributors>
          <publication>
             <arr>
@@ -4907,6 +5357,11 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr>
+               <i/>
+            </arr>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -4984,7 +5439,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>112914383X</hrid>
@@ -5142,7 +5601,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -5180,12 +5643,18 @@
             <arr>
                <i>
                   <alternativeTitle>Methoden zur Regenwurm-Extraktion</alternativeTitle>
-                  <alternativeTitleTypeId>0fe58901-183e-4678-a3aa-0b4751174ba8</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
                </i>
             </arr>
          </alternativeTitles>
          <contributors>
-            <arr/>
+            <arr>
+               <i>
+                  <name>Vetter, Fredy</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <primary>true</primary>
+               </i>
+            </arr>
          </contributors>
          <publication>
             <arr>
@@ -5284,7 +5753,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -5342,7 +5815,21 @@
          <indexTitle>Fälle zum Besonderen Verwaltungsrecht Polizei- und Ordnungsrecht, Kommunalrecht mit Bezügen zum Verwaltungsprozessrecht von Dr. iur. Stefan Muckel (Professor an der Universität zu Köln) ; begründet von Dr. iur. Wolfgang Rüfner (em. Professor an der Universität zu Köln)</indexTitle>
          <title>Fälle zum Besonderen Verwaltungsrecht : Polizei- und Ordnungsrecht, Kommunalrecht mit Bezügen zum Verwaltungsprozessrecht / von Dr. iur. Stefan Muckel (Professor an der Universität zu Köln) ; begründet von Dr. iur. Wolfgang Rüfner (em. Professor an der Universität zu Köln)</title>
          <contributors>
-            <arr/>
+            <arr>
+               <i>
+                  <name>Muckel, Stefan *1961-*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <primary>true</primary>
+                  <contributorTypeId>6e09d47d-95e2-4d8a-831b-f777b8ef6d81</contributorTypeId>
+                  <contributorTypeText>Verfasser</contributorTypeText>
+               </i>
+               <i>
+                  <name>Rüfner, Wolfgang *1933-*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <contributorTypeId>361f4bfd-a87d-463c-84d8-69346c3082f6</contributorTypeId>
+                  <contributorTypeText>Begründer des Werks</contributorTypeText>
+               </i>
+            </arr>
          </contributors>
          <publication>
             <arr>
@@ -5365,6 +5852,11 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr>
+               <i/>
+            </arr>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -5494,7 +5986,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>1048567109</hrid>
@@ -5546,7 +6042,12 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i/>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -5598,13 +6099,27 @@
                   <alternativeTitleTypeId>4bb300a4-04c9-414b-bfbc-9c032f74b7b2</alternativeTitleTypeId>
                </i>
                <i>
-                  <alternativeTitle/>
+                  <alternativeTitle>Liber compositae medicinae</alternativeTitle>
                   <alternativeTitleTypeId>30512027-cdc9-4c79-af75-1565b3bd888d</alternativeTitleTypeId>
                </i>
             </arr>
          </alternativeTitles>
          <contributors>
-            <arr/>
+            <arr>
+               <i>
+                  <name>Hildegard, von Bingen, Heilige *1098-1179*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <primary>true</primary>
+                  <contributorTypeId>6e09d47d-95e2-4d8a-831b-f777b8ef6d81</contributorTypeId>
+                  <contributorTypeText>Verfasser</contributorTypeText>
+               </i>
+               <i>
+                  <name>Riha, Ortrun *1959-*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <contributorTypeId>3322b734-ce38-4cd4-815d-8983352837cc</contributorTypeId>
+                  <contributorTypeText>Übersetzer</contributorTypeText>
+               </i>
+            </arr>
          </contributors>
          <publication>
             <arr>
@@ -5643,7 +6158,7 @@
                      <hrid>230601065</hrid>
                   </instanceIdentifier>
                   <provisionalInstance>
-                     <title/>
+                     <title>Werke</title>
                      <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
@@ -5701,7 +6216,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -5763,7 +6282,26 @@
          <indexTitle>Neugieriges Denken die Lehrtätigkeit und das theologische Werk von Hans-Georg Geyer : mit vier unpublizierten Predigten von Hans-Georg Geyer herausgegeben von Frank Dittmann, Thorsten Latzel und Henning Theißen</indexTitle>
          <title>Neugieriges Denken : die Lehrtätigkeit und das theologische Werk von Hans-Georg Geyer : mit vier unpublizierten Predigten von Hans-Georg Geyer / herausgegeben von Frank Dittmann, Thorsten Latzel und Henning Theißen</title>
          <contributors>
-            <arr/>
+            <arr>
+               <i>
+                  <name>Dittmann, Frank *1979-*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <contributorTypeId>9deb29d1-3e71-4951-9413-a80adac703d0</contributorTypeId>
+                  <contributorTypeText>Herausgeber</contributorTypeText>
+               </i>
+               <i>
+                  <name>Latzel, Thorsten *1970-*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <contributorTypeId>9deb29d1-3e71-4951-9413-a80adac703d0</contributorTypeId>
+                  <contributorTypeText>Herausgeber</contributorTypeText>
+               </i>
+               <i>
+                  <name>Theißen, Henning *1974-*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <contributorTypeId>9deb29d1-3e71-4951-9413-a80adac703d0</contributorTypeId>
+                  <contributorTypeText>Herausgeber</contributorTypeText>
+               </i>
+            </arr>
          </contributors>
          <publication>
             <arr>
@@ -5844,7 +6382,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -5908,7 +6450,17 @@
          <indexTitle>Perinatalmedizin in Fällen pränatale Diagnostik, Management und Beratung ; 23 Tabellen Anke Reitter ; Rolf Schlößer</indexTitle>
          <title>Perinatalmedizin in Fällen : pränatale Diagnostik, Management und Beratung ; 23 Tabellen / Anke Reitter ; Rolf Schlößer</title>
          <contributors>
-            <arr/>
+            <arr>
+               <i>
+                  <name>Reitter, Anke *1967-*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <primary>true</primary>
+               </i>
+               <i>
+                  <name>Schlößer, Rolf</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+               </i>
+            </arr>
          </contributors>
          <publication>
             <arr>
@@ -5989,7 +6541,12 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i/>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -6065,6 +6622,11 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr>
+               <i>0abeee3d-8ad2-4b04-92ff-221b4fce1075</i>
+            </arr>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>fre</i>
@@ -6084,7 +6646,7 @@
                      <hrid>048326186</hrid>
                   </instanceIdentifier>
                   <provisionalInstance>
-                     <title/>
+                     <title>Lire</title>
                      <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
@@ -6094,7 +6656,7 @@
                      <hrid>424315815</hrid>
                   </instanceIdentifier>
                   <provisionalInstance>
-                     <title/>
+                     <title>Le @nouveau magazine littéraire</title>
                      <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
@@ -6152,7 +6714,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>1134433468</hrid>
@@ -6195,7 +6761,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -6263,7 +6833,25 @@
          <indexTitle>Innere Organe 122 Tabellen</indexTitle>
          <title>Innere Organe : 122 Tabellen</title>
          <contributors>
-            <arr/>
+            <arr>
+               <i>
+                  <name>Schünke, Michael *1950-*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+               </i>
+               <i>
+                  <name>Schulte, Erik *1956-*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+               </i>
+               <i>
+                  <name>Schumacher, Udo *1956-*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+               </i>
+               <i>
+                  <name>Voll, Markus *1961-*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <contributorTypeText>Ill.</contributorTypeText>
+               </i>
+            </arr>
          </contributors>
          <publication>
             <arr>
@@ -6302,7 +6890,7 @@
                      <hrid>123784344</hrid>
                   </instanceIdentifier>
                   <provisionalInstance>
-                     <title/>
+                     <title>Prometheus</title>
                      <instanceTypeId>a2c91e87-6bab-44d6-8adb-1fd02481fc4f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
@@ -7861,7 +8449,12 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i/>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>759702675</hrid>
@@ -7903,7 +8496,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>760509352</hrid>
@@ -7950,7 +8547,12 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i/>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -7990,7 +8592,18 @@
          <indexTitle>Ästhetische Grundbegriffe (ÄGB) ; historisches Wörterbuch in sieben Bänden hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ...</indexTitle>
          <title>Ästhetische Grundbegriffe : (ÄGB) ; historisches Wörterbuch in sieben Bänden / hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ... (3)</title>
          <contributors>
-            <arr/>
+            <arr>
+               <i>
+                  <name>Barck, Karlheinz *1934-2012*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <contributorTypeText>Hrsg.</contributorTypeText>
+               </i>
+               <i>
+                  <name>Wolfzettel, Friedrich *1941-*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <contributorTypeText>Hrsg.</contributorTypeText>
+               </i>
+            </arr>
          </contributors>
          <publication>
             <arr>
@@ -8024,7 +8637,7 @@
                      <hrid>093913974</hrid>
                   </instanceIdentifier>
                   <provisionalInstance>
-                     <title/>
+                     <title>Ästhetische Grundbegriffe</title>
                      <instanceTypeId>a2c91e87-6bab-44d6-8adb-1fd02481fc4f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
@@ -8077,7 +8690,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>678097755</hrid>
@@ -8114,7 +8731,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>221750649</hrid>
@@ -8151,7 +8772,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>1010197053</hrid>
@@ -8198,7 +8823,12 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i/>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>165736585</hrid>
@@ -8235,7 +8865,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>584900031</hrid>
@@ -8272,7 +8906,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>164736468</hrid>
@@ -8309,7 +8947,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>222853697</hrid>
@@ -8346,7 +8988,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>595435424</hrid>
@@ -8383,7 +9029,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>581150228</hrid>
@@ -8420,7 +9070,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -8471,12 +9125,23 @@
             <arr>
                <i>
                   <alternativeTitle>ÄGB</alternativeTitle>
-                  <alternativeTitleTypeId>0fe58901-183e-4678-a3aa-0b4751174ba8</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
                </i>
             </arr>
          </alternativeTitles>
          <contributors>
-            <arr/>
+            <arr>
+               <i>
+                  <name>Barck, Karlheinz *1934-2012*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <contributorTypeText>Hrsg.</contributorTypeText>
+               </i>
+               <i>
+                  <name>Wolfzettel, Friedrich *1941-*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <contributorTypeText>Hrsg.</contributorTypeText>
+               </i>
+            </arr>
          </contributors>
          <publication>
             <arr>
@@ -8540,7 +9205,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -8606,7 +9275,15 @@
          <indexTitle>Zeichen der Sieger der Aufstieg Chinas im Spiegel seiner Sprache Thekla Chabbi</indexTitle>
          <title>Die Zeichen der Sieger : der Aufstieg Chinas im Spiegel seiner Sprache / Thekla Chabbi</title>
          <contributors>
-            <arr/>
+            <arr>
+               <i>
+                  <name>Chabbi, Thekla *1968-*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <primary>true</primary>
+                  <contributorTypeId>6e09d47d-95e2-4d8a-831b-f777b8ef6d81</contributorTypeId>
+                  <contributorTypeText>Verfasser</contributorTypeText>
+               </i>
+            </arr>
          </contributors>
          <publication>
             <arr>
@@ -8687,7 +9364,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -8739,7 +9420,17 @@
          <indexTitle>Chirurgische Grundlagen 72 Tabellen hrsg. von Norbert Schwenzer ... Mit Beitr. von Roland Bares ...</indexTitle>
          <title>Chirurgische Grundlagen : 72 Tabellen / hrsg. von Norbert Schwenzer ... Mit Beitr. von Roland Bares ...</title>
          <contributors>
-            <arr/>
+            <arr>
+               <i>
+                  <name>Schwenzer, Norbert *1929-2018*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <contributorTypeText>Hrsg.</contributorTypeText>
+               </i>
+               <i>
+                  <name>Bares, Roland</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+               </i>
+            </arr>
          </contributors>
          <publication>
             <arr>
@@ -8830,7 +9521,12 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i/>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>565909266</hrid>
@@ -9183,7 +9879,12 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i/>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>616740840</hrid>
@@ -9536,7 +10237,12 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i/>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>646142364</hrid>
@@ -9839,7 +10545,12 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i/>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>566028360</hrid>
@@ -9876,7 +10587,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>779043049</hrid>
@@ -9913,7 +10628,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -10066,7 +10785,12 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i/>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>1056626909</hrid>
@@ -10113,7 +10837,12 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i/>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -10143,7 +10872,20 @@
          <indexTitle>Diese Tage her, seit ich Deinen Brief empfangen, war ich im Grunde etwas … , 08.05.1826. - Benediktinerabtei St. Bonifaz in München und Andechs</indexTitle>
          <title>Diese Tage her, seit ich Deinen Brief empfangen, war ich im Grunde etwas … , 08.05.1826. -  Benediktinerabtei St. Bonifaz in München und Andechs</title>
          <contributors>
-            <arr/>
+            <arr>
+               <i>
+                  <name>Schlegel, Friedrich von *1772-1829*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <primary>true</primary>
+                  <contributorTypeId>6e09d47d-95e2-4d8a-831b-f777b8ef6d81</contributorTypeId>
+                  <contributorTypeText>Verfasser</contributorTypeText>
+               </i>
+               <i>
+                  <name>Stransky, Christine von *1785-1862*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <contributorTypeText>Adressat</contributorTypeText>
+               </i>
+            </arr>
          </contributors>
          <publication>
             <arr>
@@ -10166,6 +10908,11 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr>
+               <i/>
+            </arr>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -10200,7 +10947,11 @@
                      </i>
                   </arr>
                </electronicAccess>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -10246,12 +10997,23 @@
             <arr>
                <i>
                   <alternativeTitle>St. Alban- St. Jakobus Mainz Jubiläumsfestschrift</alternativeTitle>
-                  <alternativeTitleTypeId>0fe58901-183e-4678-a3aa-0b4751174ba8</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
                </i>
             </arr>
          </alternativeTitles>
          <contributors>
-            <arr/>
+            <arr>
+               <i>
+                  <name>Weinzinger, Franz</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <contributorTypeId>9deb29d1-3e71-4951-9413-a80adac703d0</contributorTypeId>
+                  <contributorTypeText>Herausgeber</contributorTypeText>
+               </i>
+               <i>
+                  <name>Pfarrei St. Alban- St. Jakobus, Mainz</name>
+                  <contributorNameTypeId>2e48e713-17f3-4c13-a9f8-23845bb210aa</contributorNameTypeId>
+               </i>
+            </arr>
          </contributors>
          <publication>
             <arr>
@@ -10327,7 +11089,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -10378,16 +11144,31 @@
             <arr>
                <i>
                   <alternativeTitle>Wurm Galenische Übungen</alternativeTitle>
-                  <alternativeTitleTypeId>0fe58901-183e-4678-a3aa-0b4751174ba8</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
                </i>
                <i>
                   <alternativeTitle>Galenische Übungen für das technologische Praktikum und die pharmazeutische Praxis</alternativeTitle>
-                  <alternativeTitleTypeId>0fe58901-183e-4678-a3aa-0b4751174ba8</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
                </i>
             </arr>
          </alternativeTitles>
          <contributors>
-            <arr/>
+            <arr>
+               <i>
+                  <name>Willner, Barbara</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <primary>true</primary>
+               </i>
+               <i>
+                  <name>Cutt, Iris</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+               </i>
+               <i>
+                  <name>Wurm, Gisela</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <contributorTypeText>Begr.</contributorTypeText>
+               </i>
+            </arr>
          </contributors>
          <publication>
             <arr>
@@ -10478,7 +11259,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>63069351X</hrid>
@@ -10520,7 +11305,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -10564,7 +11353,18 @@
          <indexTitle>Ästhetische Grundbegriffe (ÄGB) ; historisches Wörterbuch in sieben Bänden hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ...</indexTitle>
          <title>Ästhetische Grundbegriffe : (ÄGB) ; historisches Wörterbuch in sieben Bänden / hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ... (7)</title>
          <contributors>
-            <arr/>
+            <arr>
+               <i>
+                  <name>Barck, Karlheinz *1934-2012*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <contributorTypeText>Hrsg.</contributorTypeText>
+               </i>
+               <i>
+                  <name>Wolfzettel, Friedrich *1941-*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <contributorTypeText>Hrsg.</contributorTypeText>
+               </i>
+            </arr>
          </contributors>
          <publication>
             <arr>
@@ -10598,7 +11398,7 @@
                      <hrid>093913974</hrid>
                   </instanceIdentifier>
                   <provisionalInstance>
-                     <title/>
+                     <title>Ästhetische Grundbegriffe</title>
                      <instanceTypeId>a2c91e87-6bab-44d6-8adb-1fd02481fc4f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
@@ -10651,7 +11451,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>496431293</hrid>
@@ -10688,7 +11492,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>345153359</hrid>
@@ -10730,7 +11538,12 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i/>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>1010484826</hrid>
@@ -10772,7 +11585,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>333532171</hrid>
@@ -10809,7 +11626,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>584899890</hrid>
@@ -10846,7 +11667,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>344792374</hrid>
@@ -10883,7 +11708,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>343521903</hrid>
@@ -10920,7 +11749,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>595436420</hrid>
@@ -10957,7 +11790,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>581151119</hrid>
@@ -10994,7 +11831,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -11034,7 +11875,18 @@
          <indexTitle>Ästhetische Grundbegriffe (ÄGB) ; historisches Wörterbuch in sieben Bänden hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ...</indexTitle>
          <title>Ästhetische Grundbegriffe : (ÄGB) ; historisches Wörterbuch in sieben Bänden / hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ... (2)</title>
          <contributors>
-            <arr/>
+            <arr>
+               <i>
+                  <name>Barck, Karlheinz *1934-2012*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <contributorTypeText>Hrsg.</contributorTypeText>
+               </i>
+               <i>
+                  <name>Wolfzettel, Friedrich *1941-*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <contributorTypeText>Hrsg.</contributorTypeText>
+               </i>
+            </arr>
          </contributors>
          <publication>
             <arr>
@@ -11068,7 +11920,7 @@
                      <hrid>093913974</hrid>
                   </instanceIdentifier>
                   <provisionalInstance>
-                     <title/>
+                     <title>Ästhetische Grundbegriffe</title>
                      <instanceTypeId>a2c91e87-6bab-44d6-8adb-1fd02481fc4f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
@@ -11121,7 +11973,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>678097690</hrid>
@@ -11158,7 +12014,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>221750134</hrid>
@@ -11195,7 +12055,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>1010133578</hrid>
@@ -11242,7 +12106,12 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i/>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>152309500</hrid>
@@ -11279,7 +12148,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>584900082</hrid>
@@ -11316,7 +12189,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>152171959</hrid>
@@ -11353,7 +12230,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>222853557</hrid>
@@ -11390,7 +12271,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>595435254</hrid>
@@ -11427,7 +12312,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>581150023</hrid>
@@ -11464,7 +12353,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -11522,7 +12415,20 @@
          <indexTitle>Praxisleitfaden Allgemeinmedizin Herausgeber Prof. Dr. med. Stefan Gesenhues, Dr. med. Anne Gesenhues, Ochtrup und Essen ; mit Beiträgen von Prof. Claudia Bausewein, PhD MSc, München und 27 weiteren</indexTitle>
          <title>Praxisleitfaden Allgemeinmedizin / Herausgeber Prof. Dr. med. Stefan Gesenhues, Dr. med. Anne Gesenhues, Ochtrup und Essen ; mit Beiträgen von Prof. Claudia Bausewein, PhD MSc, München und 27 weiteren</title>
          <contributors>
-            <arr/>
+            <arr>
+               <i>
+                  <name>Gesenhues, Stefan *1954-*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <contributorTypeId>9deb29d1-3e71-4951-9413-a80adac703d0</contributorTypeId>
+                  <contributorTypeText>Herausgeber</contributorTypeText>
+               </i>
+               <i>
+                  <name>Gesenhues, Anne *1964-*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <contributorTypeId>9deb29d1-3e71-4951-9413-a80adac703d0</contributorTypeId>
+                  <contributorTypeText>Herausgeber</contributorTypeText>
+               </i>
+            </arr>
          </contributors>
          <publication>
             <arr>
@@ -11608,7 +12514,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>112427944X</hrid>
@@ -11766,7 +12676,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -11828,7 +12742,21 @@
          <indexTitle>Max Mohr Arzt und rastloser Literat Florian Steger ; unter Mitarbeit von Martin Regenbrecht</indexTitle>
          <title>Max Mohr : Arzt und rastloser Literat / Florian Steger ; unter Mitarbeit von Martin Regenbrecht</title>
          <contributors>
-            <arr/>
+            <arr>
+               <i>
+                  <name>Steger, Florian *1974-*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <primary>true</primary>
+                  <contributorTypeId>6e09d47d-95e2-4d8a-831b-f777b8ef6d81</contributorTypeId>
+                  <contributorTypeText>Verfasser</contributorTypeText>
+               </i>
+               <i>
+                  <name>Regenbrecht, Martin *1963-*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <contributorTypeId>9f0a2cf0-7a9b-45a2-a403-f68d2850d07c</contributorTypeId>
+                  <contributorTypeText>Mitwirkender</contributorTypeText>
+               </i>
+            </arr>
          </contributors>
          <publication>
             <arr>
@@ -11851,6 +12779,11 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr>
+               <i>b6e214bd-82f5-467f-af5b-4592456dc4ab</i>
+            </arr>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -11917,7 +12850,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -11982,7 +12919,7 @@
             <arr>
                <i>
                   <alternativeTitle>Wettbewerbsrecht</alternativeTitle>
-                  <alternativeTitleTypeId>0fe58901-183e-4678-a3aa-0b4751174ba8</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
                </i>
                <i>
                   <alternativeTitle>Wettbewerbsrecht</alternativeTitle>
@@ -11991,7 +12928,15 @@
             </arr>
          </alternativeTitles>
          <contributors>
-            <arr/>
+            <arr>
+               <i>
+                  <name>Lettl, Tobias *1968-*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <primary>true</primary>
+                  <contributorTypeId>6e09d47d-95e2-4d8a-831b-f777b8ef6d81</contributorTypeId>
+                  <contributorTypeText>Verfasser</contributorTypeText>
+               </i>
+            </arr>
          </contributors>
          <publication>
             <arr>
@@ -12014,6 +12959,11 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr>
+               <i/>
+            </arr>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -12095,7 +13045,12 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i/>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>1130673936</hrid>
@@ -12147,7 +13102,12 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i/>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -12209,7 +13169,33 @@
          <indexTitle>Kitāb Ḫāṣṣ al-Ḫāṣṣ fī al-amṯāl Kitāb Khāṣṣ al-Khāṣṣ Abū Manṣūr al-Tha᾽ālibī . Edited by Ramzi Baalbaki, Bilal Orfali</indexTitle>
          <title>Kitāb Ḫāṣṣ al-Ḫāṣṣ fī al-amṯāl : Kitāb Khāṣṣ al-Khāṣṣ / Abū Manṣūr al-Tha᾽ālibī . Edited by Ramzi Baalbaki, Bilal Orfali</title>
          <contributors>
-            <arr/>
+            <arr>
+               <i>
+                  <name>Ṯaʿālibī, ʿAbd-al-Malik Ibn-Muḥammad aṯ- *961-1038*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <primary>true</primary>
+                  <contributorTypeId>6e09d47d-95e2-4d8a-831b-f777b8ef6d81</contributorTypeId>
+                  <contributorTypeText>Verfasser</contributorTypeText>
+               </i>
+               <i>
+                  <name>Orfali, Bilal *1980-*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <contributorTypeId>9deb29d1-3e71-4951-9413-a80adac703d0</contributorTypeId>
+                  <contributorTypeText>Herausgeber</contributorTypeText>
+               </i>
+               <i>
+                  <name>Baʿlabakkī, Ramzī Munīr *1951-*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <contributorTypeId>9deb29d1-3e71-4951-9413-a80adac703d0</contributorTypeId>
+                  <contributorTypeText>Herausgeber</contributorTypeText>
+               </i>
+               <i>
+                  <name>Walter de Gruyter GmbH &amp; Co. KG</name>
+                  <contributorNameTypeId>2e48e713-17f3-4c13-a9f8-23845bb210aa</contributorNameTypeId>
+                  <contributorTypeId>a60314d4-c3c6-4e29-92fa-86cc6ace4d56</contributorTypeId>
+                  <contributorTypeText>Verlag</contributorTypeText>
+               </i>
+            </arr>
          </contributors>
          <publication>
             <arr>
@@ -12319,7 +13305,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -12361,7 +13351,27 @@
          <indexTitle>Factorization of non-symmetric operators and exponential H-theorem M.P. Gualdani, S. Mischler, C. Mouhot</indexTitle>
          <title>Factorization of non-symmetric operators and exponential H-theorem / M.P. Gualdani, S. Mischler, C. Mouhot</title>
          <contributors>
-            <arr/>
+            <arr>
+               <i>
+                  <name>Gualdani, Maria Pia *1976-*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <primary>true</primary>
+                  <contributorTypeId>6e09d47d-95e2-4d8a-831b-f777b8ef6d81</contributorTypeId>
+                  <contributorTypeText>Verfasser</contributorTypeText>
+               </i>
+               <i>
+                  <name>Mischler, Stéphane *1970-*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <contributorTypeId>6e09d47d-95e2-4d8a-831b-f777b8ef6d81</contributorTypeId>
+                  <contributorTypeText>Verfasser</contributorTypeText>
+               </i>
+               <i>
+                  <name>Mouhot, Clément *1978-*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <contributorTypeId>6e09d47d-95e2-4d8a-831b-f777b8ef6d81</contributorTypeId>
+                  <contributorTypeText>Verfasser</contributorTypeText>
+               </i>
+            </arr>
          </contributors>
          <publication>
             <arr>
@@ -12454,7 +13464,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -12530,6 +13544,11 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr>
+               <i>0abeee3d-8ad2-4b04-92ff-221b4fce1075</i>
+            </arr>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>fre</i>
@@ -12544,7 +13563,7 @@
                      <hrid>04766035X</hrid>
                   </instanceIdentifier>
                   <provisionalInstance>
-                     <title/>
+                     <title>Livres hebdo</title>
                      <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
@@ -12607,7 +13626,12 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>a59d4a4e-0339-4243-9039-bd64c8a9c941</i><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>a59d4a4e-0339-4243-9039-bd64c8a9c941</i>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -12669,7 +13693,21 @@
          <indexTitle>Wirtschaftsstrafrecht Prof. Dr. Dr. Hauke Brettel (Johannes Gutenberg-Universität Mainz), Prof. Dr. Hendrik Schneider (Universität Leipzig)</indexTitle>
          <title>Wirtschaftsstrafrecht / Prof. Dr. Dr. Hauke Brettel (Johannes Gutenberg-Universität Mainz), Prof. Dr. Hendrik Schneider (Universität Leipzig)</title>
          <contributors>
-            <arr/>
+            <arr>
+               <i>
+                  <name>Brettel, Hauke *1970-*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <primary>true</primary>
+                  <contributorTypeId>6e09d47d-95e2-4d8a-831b-f777b8ef6d81</contributorTypeId>
+                  <contributorTypeText>Verfasser</contributorTypeText>
+               </i>
+               <i>
+                  <name>Schneider, Hendrik *1966-*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <contributorTypeId>6e09d47d-95e2-4d8a-831b-f777b8ef6d81</contributorTypeId>
+                  <contributorTypeText>Verfasser</contributorTypeText>
+               </i>
+            </arr>
          </contributors>
          <publication>
             <arr>
@@ -12692,6 +13730,11 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr>
+               <i/>
+            </arr>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -12879,7 +13922,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>1142630676</hrid>
@@ -12931,7 +13978,12 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i/><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i/>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
@@ -12970,7 +14022,17 @@
          <indexTitle>Christus allein - allein das Christentum? Vorträge der vierten theologischen Konferenz zwischen Vertretern der Evangelischen Kirche in Deutschland und der Kirche von England hrsg. von Klaus Kremkau</indexTitle>
          <title>Christus allein - allein das Christentum? : Vorträge der vierten theologischen Konferenz zwischen Vertretern der Evangelischen Kirche in Deutschland und der Kirche von England / hrsg. von Klaus Kremkau</title>
          <contributors>
-            <arr/>
+            <arr>
+               <i>
+                  <name>Kremkau, Klaus</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <contributorTypeText>Hrsg.</contributorTypeText>
+               </i>
+               <i>
+                  <name>Theologische Konferenz, Evangelische Kirche in Deutschland (4 : 1978 : Rehburg-Loccum)</name>
+                  <contributorNameTypeId>2e48e713-17f3-4c13-a9f8-23845bb210aa</contributorNameTypeId>
+               </i>
+            </arr>
          </contributors>
          <publication>
             <arr>
@@ -13056,7 +14118,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
             <i>
                <hrid>376141832</hrid>
@@ -13093,7 +14159,11 @@
                      </i>
                   </arr>
                </items>
-               <statisticalCodeIds><arr><i>0ac04835-6a08-4043-9453-38908ff91129</i></arr></statisticalCodeIds>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>0ac04835-6a08-4043-9453-38908ff91129</i>
+                  </arr>
+               </statisticalCodeIds>
             </i>
          </arr>
       </holdingsRecords>
