@@ -8,6 +8,8 @@
     </xsl:copy>
   </xsl:template>
   
+  <!-- ILN 25 UB Mainz -->
+
   <!-- Map locations 
        For Mainz, the IDs are the location names in FOLIO, generated from 209A $f and other pica fields -->
   

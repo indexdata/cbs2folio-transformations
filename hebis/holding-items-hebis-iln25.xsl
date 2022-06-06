@@ -9,6 +9,8 @@
     </xsl:copy>
   </xsl:template>  
 
+  <!-- ILN 25 UB Mainz -->
+
   <xsl:template match="permanentLocationId">
     <xsl:variable name="i" select="key('original',.)"/>
     <!-- UB Mainz 209A$f/209G$a -->
