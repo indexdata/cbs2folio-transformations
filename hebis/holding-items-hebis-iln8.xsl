@@ -15,7 +15,8 @@
     <xsl:variable name="i" select="key('original',.)"/>
     <!-- 209A$f/209G$a ? -->
     <xsl:variable name="abt" select="$i/datafield[@tag='209A']/subfield[@code='f']"/>
-    <xsl:variable name="signatur" select="$i/datafield[@tag='209A']/subfield[@code='a']"/>
+    <!-- <xsl:variable name="signatur" select="$i/datafield[@tag='209A']/subfield[@code='a']"/> ? -->
+    <xsl:variable name="standort" select="$i/datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']"/> 
     <xsl:variable name="electronicholding" select="(substring($i/../datafield[@tag='002@']/subfield[@code='0'],1,1) = 'O') and not(substring($i/datafield[@tag='208@']/subfield[@code='b'],1,1) = 'a')"/>
     <permanentLocationId>
        <xsl:choose>
@@ -23,25 +24,24 @@
          <xsl:when test="substring($i/datafield[@tag='208@']/subfield[@code='b'],1,1) = 'd'">DUMMY</xsl:when>
          <xsl:when test="$abt='000'">
            <xsl:choose>
-             <xsl:when test="starts-with($signatur,'SR')">BIB1</xsl:when>
+             <xsl:when test="$standort='Erdgeschoss'">ZBEG</xsl:when>
+             <xsl:when test="$standort='3. Obergeschoss'">ZB3OG</xsl:when>
+             <xsl:when test="$standort='4. Obergeschoss'">ZB4OG</xsl:when>
 
+             <xsl:otherwise>MAG</xsl:otherwise>
+           </xsl:choose>
+         </xsl:when>
+         <xsl:when test="$abt='002'">
+           <xsl:choose>
+             <xsl:when test="$standort='Erdgeschoss'">LWEG</xsl:when>
+             <xsl:when test="$standort='2. Obergeschoss'">LW3OG</xsl:when>
+             <xsl:when test="$standort='3. Obergeschoss'">LW3OG</xsl:when>
+             
              <xsl:otherwise>UNKNOWN</xsl:otherwise>
            </xsl:choose>
          </xsl:when>
-         <xsl:when test="$abt='034'">
-           <xsl:choose>
-             <xsl:when test="starts-with($signatur,'52/')">BIB2</xsl:when>
-
-             <xsl:otherwise>BRUW</xsl:otherwise>
-           </xsl:choose>
-         </xsl:when>
-         <xsl:when test="$abt='330'">
-           <xsl:choose>
-             <xsl:when test="starts-with($signatur,'26/')">BIB3</xsl:when>
-
-             <xsl:otherwise>BSP</xsl:otherwise>
-           </xsl:choose>
-         </xsl:when>
+         <xsl:when test="$abt='010'">HAPHY</xsl:when>
+         <xsl:when test="$abt='052'">IKPHY</xsl:when>
 
          <xsl:otherwise>UNKNOWN</xsl:otherwise>
        </xsl:choose>
@@ -69,9 +69,10 @@
     </permanentLoanTypeId>
   </xsl:template>
 
-  <xsl:template match="discoverySuppress"> <!-- TBD: Kat. 247E/XY ? -->
+  <xsl:template match="discoverySuppress"> <!-- uses 208@$b (TBD: Kat. 247E/XY ?) -->
     <discoverySuppress>
-      <xsl:value-of select="(substring(., 1, 1) = 'g')"/>           
+      <xsl:value-of select="(substring(., 1, 1) = 'g')"/>  
+      <!-- Mz: <xsl:value-of select="(substring(., 1, 1) = 'g') or (substring(., 2, 1) = 'y') or (substring(., 2, 1) = 'z')"/> -->
     </discoverySuppress>
   </xsl:template>
 

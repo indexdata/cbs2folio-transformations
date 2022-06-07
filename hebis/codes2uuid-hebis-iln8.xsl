@@ -13,10 +13,10 @@
   <xsl:template match="permanentLocationId"> <!-- ILN -->
     <permanentLocationId>
       <xsl:choose>
-        <xsl:when test=".='DUMMY'">87764786-c5c8-47d0-a480-df506c751d76</xsl:when>
-        <xsl:when test=".='BIB1'">f6e47539-f4e6-41d8-b711-61a33f7bf2e5</xsl:when>
+        <xsl:when test=".='DUMMY'">UUID TBD</xsl:when>
+        <xsl:when test=".='ZBEG'">UUID TBD</xsl:when>
 
-        <xsl:otherwise>3e529278-7069-46b8-9f77-ad4b3f4e1590</xsl:otherwise> <!-- RESTE -->
+        <xsl:otherwise>UUID TBD</xsl:otherwise> <!-- RESTE -->
       </xsl:choose>
     </permanentLocationId>
   </xsl:template>
