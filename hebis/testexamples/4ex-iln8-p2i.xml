@@ -1998,7 +1998,6 @@
             </arr>
          </editions>
       </instance>
-      <instanceRelations/>
       <processing>
          <item>
             <status>
@@ -2010,7 +2009,7 @@
          <arr>
             <i>
                <hrid>75735355X</hrid>
-               <permanentLocationId>ZB4OG</permanentLocationId>
+               <permanentLocationId>S1OG3</permanentLocationId>
                <callNumber>/UC 148 G384 (25)</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
@@ -2051,7 +2050,7 @@
             </i>
             <i>
                <hrid>757353568</hrid>
-               <permanentLocationId>ZBEG</permanentLocationId>
+               <permanentLocationId>S1EG</permanentLocationId>
                <callNumber>LBS/UC 148 G384 (25)</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
@@ -2061,7 +2060,7 @@
                      <i>
                         <hrid>757353568</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -2097,7 +2096,7 @@
             </i>
             <i>
                <hrid>758104294</hrid>
-               <permanentLocationId>ZBEG</permanentLocationId>
+               <permanentLocationId>S1EG</permanentLocationId>
                <callNumber>LBS/UC 148 G384 (25)</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
@@ -2107,7 +2106,7 @@
                      <i>
                         <hrid>758104294</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -2143,7 +2142,7 @@
             </i>
             <i>
                <hrid>758104308</hrid>
-               <permanentLocationId>ZBEG</permanentLocationId>
+               <permanentLocationId>S1EG</permanentLocationId>
                <callNumber>LBS/UC 148 G384 (25)</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
@@ -2153,7 +2152,7 @@
                      <i>
                         <hrid>758104308</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -2189,7 +2188,7 @@
             </i>
             <i>
                <hrid>758104316</hrid>
-               <permanentLocationId>ZBEG</permanentLocationId>
+               <permanentLocationId>S1EG</permanentLocationId>
                <callNumber>LBS/UC 148 G384 (25)</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
@@ -2199,7 +2198,7 @@
                      <i>
                         <hrid>758104316</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -2235,7 +2234,7 @@
             </i>
             <i>
                <hrid>758104324</hrid>
-               <permanentLocationId>ZBEG</permanentLocationId>
+               <permanentLocationId>S1EG</permanentLocationId>
                <callNumber>LBS/UC 148 G384 (25)</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
@@ -2245,7 +2244,7 @@
                      <i>
                         <hrid>758104324</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -2281,7 +2280,7 @@
             </i>
             <i>
                <hrid>758104332</hrid>
-               <permanentLocationId>ZBEG</permanentLocationId>
+               <permanentLocationId>S1EG</permanentLocationId>
                <callNumber>LBS/UC 148 G384 (25)</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
@@ -2291,7 +2290,7 @@
                      <i>
                         <hrid>758104332</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -2327,7 +2326,7 @@
             </i>
             <i>
                <hrid>758104340</hrid>
-               <permanentLocationId>ZBEG</permanentLocationId>
+               <permanentLocationId>S1EG</permanentLocationId>
                <callNumber>LBS/UC 148 G384 (25)</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
@@ -2337,7 +2336,7 @@
                      <i>
                         <hrid>758104340</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -2373,7 +2372,7 @@
             </i>
             <i>
                <hrid>758104367</hrid>
-               <permanentLocationId>ZBEG</permanentLocationId>
+               <permanentLocationId>S1EG</permanentLocationId>
                <callNumber>LBS/UC 148 G384 (25)</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
@@ -2383,7 +2382,7 @@
                      <i>
                         <hrid>758104367</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -2419,7 +2418,7 @@
             </i>
             <i>
                <hrid>758104405</hrid>
-               <permanentLocationId>ZBEG</permanentLocationId>
+               <permanentLocationId>S1EG</permanentLocationId>
                <callNumber>LBS/UC 148 G384 (25)</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
@@ -2429,7 +2428,7 @@
                      <i>
                         <hrid>758104405</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -2465,7 +2464,7 @@
             </i>
             <i>
                <hrid>75810443X</hrid>
-               <permanentLocationId>ZBEG</permanentLocationId>
+               <permanentLocationId>S1EG</permanentLocationId>
                <callNumber>LBS/UC 148 G384 (25)</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
@@ -2475,7 +2474,7 @@
                      <i>
                         <hrid>75810443X</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -2511,7 +2510,7 @@
             </i>
             <i>
                <hrid>758104464</hrid>
-               <permanentLocationId>ZBEG</permanentLocationId>
+               <permanentLocationId>S1EG</permanentLocationId>
                <callNumber>LBS/UC 148 G384 (25)</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
@@ -2521,7 +2520,7 @@
                      <i>
                         <hrid>758104464</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -2557,7 +2556,7 @@
             </i>
             <i>
                <hrid>758104499</hrid>
-               <permanentLocationId>ZBEG</permanentLocationId>
+               <permanentLocationId>S1EG</permanentLocationId>
                <callNumber>LBS/UC 148 G384 (25)</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
@@ -2567,7 +2566,7 @@
                      <i>
                         <hrid>758104499</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -2603,7 +2602,7 @@
             </i>
             <i>
                <hrid>758104529</hrid>
-               <permanentLocationId>ZBEG</permanentLocationId>
+               <permanentLocationId>S1EG</permanentLocationId>
                <callNumber>LBS/UC 148 G384 (25)</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
@@ -2613,7 +2612,7 @@
                      <i>
                         <hrid>758104529</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -2649,7 +2648,7 @@
             </i>
             <i>
                <hrid>758104553</hrid>
-               <permanentLocationId>ZBEG</permanentLocationId>
+               <permanentLocationId>S1EG</permanentLocationId>
                <callNumber>LBS/UC 148 G384 (25)</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
@@ -2659,7 +2658,7 @@
                      <i>
                         <hrid>758104553</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -2695,7 +2694,7 @@
             </i>
             <i>
                <hrid>758104561</hrid>
-               <permanentLocationId>ZBEG</permanentLocationId>
+               <permanentLocationId>S1EG</permanentLocationId>
                <callNumber>LBS/UC 148 G384 (25)</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
@@ -2705,7 +2704,7 @@
                      <i>
                         <hrid>758104561</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -2741,7 +2740,7 @@
             </i>
             <i>
                <hrid>758104588</hrid>
-               <permanentLocationId>ZBEG</permanentLocationId>
+               <permanentLocationId>S1EG</permanentLocationId>
                <callNumber>LBS/UC 148 G384 (25)</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
@@ -2751,7 +2750,7 @@
                      <i>
                         <hrid>758104588</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -2787,7 +2786,7 @@
             </i>
             <i>
                <hrid>758104596</hrid>
-               <permanentLocationId>ZBEG</permanentLocationId>
+               <permanentLocationId>S1EG</permanentLocationId>
                <callNumber>LBS/UC 148 G384 (25)</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
@@ -2797,7 +2796,7 @@
                      <i>
                         <hrid>758104596</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -2833,7 +2832,7 @@
             </i>
             <i>
                <hrid>758104618</hrid>
-               <permanentLocationId>ZBEG</permanentLocationId>
+               <permanentLocationId>S1EG</permanentLocationId>
                <callNumber>LBS/UC 148 G384 (25)</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
@@ -2843,7 +2842,7 @@
                      <i>
                         <hrid>758104618</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -2879,7 +2878,7 @@
             </i>
             <i>
                <hrid>758104626</hrid>
-               <permanentLocationId>ZBEG</permanentLocationId>
+               <permanentLocationId>S1EG</permanentLocationId>
                <callNumber>LBS/UC 148 G384 (25)</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
@@ -2889,7 +2888,7 @@
                      <i>
                         <hrid>758104626</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -2925,7 +2924,7 @@
             </i>
             <i>
                <hrid>758104634</hrid>
-               <permanentLocationId>ZBEG</permanentLocationId>
+               <permanentLocationId>S1EG</permanentLocationId>
                <callNumber>LBS/UC 148 G384 (25)</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
@@ -2935,7 +2934,7 @@
                      <i>
                         <hrid>758104634</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -2971,7 +2970,7 @@
             </i>
             <i>
                <hrid>758104677</hrid>
-               <permanentLocationId>ZBEG</permanentLocationId>
+               <permanentLocationId>S1EG</permanentLocationId>
                <callNumber>LBS/UC 148 G384 (25)</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
@@ -2981,7 +2980,7 @@
                      <i>
                         <hrid>758104677</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -3017,7 +3016,7 @@
             </i>
             <i>
                <hrid>758104731</hrid>
-               <permanentLocationId>ZBEG</permanentLocationId>
+               <permanentLocationId>S1EG</permanentLocationId>
                <callNumber>LBS/UC 148 G384 (25)</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
@@ -3027,7 +3026,7 @@
                      <i>
                         <hrid>758104731</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -3063,7 +3062,7 @@
             </i>
             <i>
                <hrid>1030120307</hrid>
-               <permanentLocationId>ZBEG</permanentLocationId>
+               <permanentLocationId>S1EG</permanentLocationId>
                <callNumber>LBS/UC 148 G384 (25)</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
@@ -3073,7 +3072,7 @@
                      <i>
                         <hrid>1030120307-20043474</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -3102,7 +3101,7 @@
                      <i>
                         <hrid>1030120307-20043350</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -3131,7 +3130,7 @@
                      <i>
                         <hrid>1030120307-20043482</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -3160,7 +3159,7 @@
                      <i>
                         <hrid>1030120307-20042788</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -3189,7 +3188,7 @@
                      <i>
                         <hrid>1030120307-20042770</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -3218,7 +3217,7 @@
                      <i>
                         <hrid>1030120307-20042745</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -3247,7 +3246,7 @@
                      <i>
                         <hrid>1030120307-20043334</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -3276,7 +3275,7 @@
                      <i>
                         <hrid>1030120307-20043466</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -3305,7 +3304,7 @@
                      <i>
                         <hrid>1030120307-20042761</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -3334,7 +3333,7 @@
                      <i>
                         <hrid>1030120307-20042796</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -3363,7 +3362,7 @@
                      <i>
                         <hrid>1030120307-20042753</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -3392,7 +3391,7 @@
                      <i>
                         <hrid>1030120307-20042826</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -3421,7 +3420,7 @@
                      <i>
                         <hrid>1030120307-20042818</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -3450,7 +3449,7 @@
                      <i>
                         <hrid>1030120307-20042737</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -3479,7 +3478,7 @@
                      <i>
                         <hrid>1030120307-20042800</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -3508,7 +3507,7 @@
                      <i>
                         <hrid>1030120307-20043369</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -3537,7 +3536,7 @@
                      <i>
                         <hrid>1030120307-20043342</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -3566,7 +3565,7 @@
                      <i>
                         <hrid>1030120307-20043326</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -3595,7 +3594,7 @@
                      <i>
                         <hrid>1030120307-20043032</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -3624,7 +3623,7 @@
                      <i>
                         <hrid>1030120307-20043318</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -3660,7 +3659,7 @@
             </i>
             <i>
                <hrid>1034451685</hrid>
-               <permanentLocationId>ZBEG</permanentLocationId>
+               <permanentLocationId>S1EG</permanentLocationId>
                <callNumber>LBS/UC 148 G384 (25)</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
@@ -3670,7 +3669,7 @@
                      <i>
                         <hrid>1034451685-20023953</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -3699,7 +3698,7 @@
                      <i>
                         <hrid>1034451685-20024143</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -3728,7 +3727,7 @@
                      <i>
                         <hrid>1034451685-20023937</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -3757,7 +3756,7 @@
                      <i>
                         <hrid>1034451685-20024127</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -3786,7 +3785,7 @@
                      <i>
                         <hrid>1034451685-20023929</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -3815,7 +3814,7 @@
                      <i>
                         <hrid>1034451685-20023775</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -3844,7 +3843,7 @@
                      <i>
                         <hrid>1034451685-20023791</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -3873,7 +3872,7 @@
                      <i>
                         <hrid>1034451685-20023945</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -3902,7 +3901,7 @@
                      <i>
                         <hrid>1034451685-20023783</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -3931,7 +3930,7 @@
                      <i>
                         <hrid>1034451685-20023830</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -3960,7 +3959,7 @@
                      <i>
                         <hrid>1034451685-20023805</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -3989,7 +3988,7 @@
                      <i>
                         <hrid>1034451685-20023821</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -4018,7 +4017,7 @@
                      <i>
                         <hrid>1034451685-20023988</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -4047,7 +4046,7 @@
                      <i>
                         <hrid>1034451685-20023767</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -4076,7 +4075,7 @@
                      <i>
                         <hrid>1034451685-20023961</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -4105,7 +4104,7 @@
                      <i>
                         <hrid>1034451685-20023996</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -4134,7 +4133,7 @@
                      <i>
                         <hrid>1034451685-20024119</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -4163,7 +4162,7 @@
                      <i>
                         <hrid>1034451685-20023813</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -4192,7 +4191,7 @@
                      <i>
                         <hrid>1034451685-20024313</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -4221,7 +4220,7 @@
                      <i>
                         <hrid>1034451685-20024135</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -4257,7 +4256,7 @@
             </i>
             <i>
                <hrid>757353576</hrid>
-               <permanentLocationId>LW3OG</permanentLocationId>
+               <permanentLocationId>L42OG</permanentLocationId>
                <callNumber>/UC 148 G384 (25)</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
@@ -4298,7 +4297,7 @@
             </i>
             <i>
                <hrid>757353584</hrid>
-               <permanentLocationId>LWEG</permanentLocationId>
+               <permanentLocationId>L4EG</permanentLocationId>
                <callNumber>LBS/UC 148 G384 (25)</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
@@ -4308,7 +4307,7 @@
                      <i>
                         <hrid>757353584</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -4344,7 +4343,7 @@
             </i>
             <i>
                <hrid>758347413</hrid>
-               <permanentLocationId>LWEG</permanentLocationId>
+               <permanentLocationId>L4EG</permanentLocationId>
                <callNumber>LBS/UC 148 G384 (25)</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
@@ -4354,7 +4353,7 @@
                      <i>
                         <hrid>758347413</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -4390,7 +4389,7 @@
             </i>
             <i>
                <hrid>758347456</hrid>
-               <permanentLocationId>LWEG</permanentLocationId>
+               <permanentLocationId>L4EG</permanentLocationId>
                <callNumber>LBS/UC 148 G384 (25)</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
@@ -4400,7 +4399,7 @@
                      <i>
                         <hrid>758347456</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -4436,7 +4435,7 @@
             </i>
             <i>
                <hrid>758347499</hrid>
-               <permanentLocationId>LWEG</permanentLocationId>
+               <permanentLocationId>L4EG</permanentLocationId>
                <callNumber>LBS/UC 148 G384 (25)</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
@@ -4446,7 +4445,7 @@
                      <i>
                         <hrid>758347499</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -4482,7 +4481,7 @@
             </i>
             <i>
                <hrid>758347529</hrid>
-               <permanentLocationId>LWEG</permanentLocationId>
+               <permanentLocationId>L4EG</permanentLocationId>
                <callNumber>LBS/UC 148 G384 (25)</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
@@ -4492,7 +4491,7 @@
                      <i>
                         <hrid>758347529</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>2 c ausleihbar, keine Fernleihe</permanentLoanTypeId>
+                        <permanentLoanTypeId>2 c Lehrbuchsammlungsausleihe</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -4528,7 +4527,7 @@
             </i>
             <i>
                <hrid>76054901X</hrid>
-               <permanentLocationId>HAPHY</permanentLocationId>
+               <permanentLocationId>UNDEF</permanentLocationId>
                <callNumber>-010-LBS/UC 148 G384 (25)</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
@@ -4558,7 +4557,7 @@
             </i>
             <i>
                <hrid>78264192X</hrid>
-               <permanentLocationId>IKPHY</permanentLocationId>
+               <permanentLocationId>UNDEF</permanentLocationId>
                <callNumber>-052-GER 2015 - B6751</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
@@ -4773,7 +4772,6 @@
             </arr>
          </editions>
       </instance>
-      <instanceRelations/>
       <processing>
          <item>
             <status>
@@ -4785,7 +4783,7 @@
          <arr>
             <i>
                <hrid>729720098</hrid>
-               <permanentLocationId>LW3OG</permanentLocationId>
+               <permanentLocationId>L42OG</permanentLocationId>
                <callNumber>/US 2000 H392 (314)</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
@@ -4795,7 +4793,7 @@
                      <i>
                         <hrid>729720098</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>0 u normal ausleihbar</permanentLoanTypeId>
+                        <permanentLoanTypeId>0 u Ausleihbar</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -5094,37 +5092,6 @@
             </arr>
          </physicalDescriptions>
       </instance>
-      <instanceRelations>
-         <parentInstances>
-            <arr>
-               <i>
-                  <instanceIdentifier>
-                     <hrid>112014518</hrid>
-                  </instanceIdentifier>
-                  <provisionalInstance>
-                     <title>Gallica : la bibliothèque numérique / Bibliothèque Nationale de France</title>
-                     <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
-                     <source>hebis</source>
-                  </provisionalInstance>
-                  <instanceRelationshipTypeId>6366b68c-aeeb-4dfe-9cd5-92518b2244a0</instanceRelationshipTypeId>
-               </i>
-            </arr>
-         </parentInstances>
-         <precedingTitles>
-            <arr>
-               <i>
-                  <instanceIdentifier>
-                     <hrid>277310245</hrid>
-                  </instanceIdentifier>
-                  <provisionalInstance>
-                     <title>Neues Journal der Physik / hrsg. von Friedrich Albrecht Carl Gren</title>
-                     <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
-                     <source>hebis</source>
-                  </provisionalInstance>
-               </i>
-            </arr>
-         </precedingTitles>
-      </instanceRelations>
       <processing>
          <item>
             <status>
@@ -5369,7 +5336,6 @@
             </arr>
          </physicalDescriptions>
       </instance>
-      <instanceRelations/>
       <processing>
          <item>
             <status>
@@ -5391,7 +5357,7 @@
                      <i>
                         <hrid>061967041</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>0 u normal ausleihbar</permanentLoanTypeId>
+                        <permanentLoanTypeId>0 u Ausleihbar</permanentLoanTypeId>
                         <status>
                            <name>Available</name>
                         </status>
@@ -5411,7 +5377,7 @@
             </i>
             <i>
                <hrid>221082476</hrid>
-               <permanentLocationId>IKPHY</permanentLocationId>
+               <permanentLocationId>UNDEF</permanentLocationId>
                <callNumber>-052-X-All SIM - B4969</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
