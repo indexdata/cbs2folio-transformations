@@ -1948,8 +1948,11 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>Gerthsen Physik Dieter Meschede [Hrsg.]</indexTitle>
          <title>Gerthsen Physik / Dieter Meschede [Hrsg.]</title>
+         <indexTitle>Gerthsen Physik Dieter Meschede [Hrsg.]</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
          <contributors>
             <arr>
                <i>
@@ -1998,6 +2001,7 @@
             </arr>
          </editions>
       </instance>
+      <instanceRelations/>
       <processing>
          <item>
             <status>
@@ -4732,8 +4736,11 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>kurze Geschichte der Zeit die Suche nach der Urkraft des Universums Stephen W. Hawking. Mit e. Einl. von Carl Sagan. Dt. von Hainer Kober unter fachl. Beratung von Bernd Schmidt</indexTitle>
          <title>Eine kurze Geschichte der Zeit : die Suche nach der Urkraft des Universums / Stephen W. Hawking. Mit e. Einl. von Carl Sagan. Dt. von Hainer Kober unter fachl. Beratung von Bernd Schmidt</title>
+         <indexTitle>kurze Geschichte der Zeit die Suche nach der Urkraft des Universums Stephen W. Hawking. Mit e. Einl. von Carl Sagan. Dt. von Hainer Kober unter fachl. Beratung von Bernd Schmidt</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
          <contributors>
             <arr>
                <i>
@@ -4761,6 +4768,7 @@
                <i>ger</i>
             </arr>
          </languages>
+         <series/>
          <physicalDescriptions>
             <arr>
                <i>238 S. : Ill., graph. Darst.</i>
@@ -4772,6 +4780,7 @@
             </arr>
          </editions>
       </instance>
+      <instanceRelations/>
       <processing>
          <item>
             <status>
@@ -4998,8 +5007,8 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>Annalen der Physik hrsg. unter Mitw. der Deutschen Physikalischen Gesellschaft. unter Mitw. ... hrsg. von E. Grüneisen [u.a.]</indexTitle>
          <title>Annalen der Physik / hrsg. unter Mitw. der Deutschen Physikalischen Gesellschaft. unter Mitw. ... hrsg. von E. Grüneisen [u.a.]</title>
+         <indexTitle>Annalen der Physik hrsg. unter Mitw. der Deutschen Physikalischen Gesellschaft. unter Mitw. ... hrsg. von E. Grüneisen [u.a.]</indexTitle>
          <alternativeTitles>
             <arr>
                <i>
@@ -5021,13 +5030,13 @@
                <i>
                   <place>Leipzig</place>
                   <publisher>Barth</publisher>
-                  <dateOfPublication>1799-1943 (1799-1943)</dateOfPublication>
+                  <dateOfPublication>1799-1943</dateOfPublication>
                   <role>Publisher</role>
                </i>
                <i>
                   <place>Halle</place>
                   <publisher>früher: Renger (anfangs)</publisher>
-                  <dateOfPublication>1799-1943 (1799-1943)</dateOfPublication>
+                  <dateOfPublication>1799-1943</dateOfPublication>
                   <role>Publisher</role>
                </i>
             </arr>
@@ -5086,12 +5095,44 @@
                <i>ger</i>
             </arr>
          </languages>
+         <series/>
          <physicalDescriptions>
             <arr>
                <i>Online-Ressource</i>
             </arr>
          </physicalDescriptions>
       </instance>
+      <instanceRelations>
+         <parentInstances>
+            <arr>
+               <i>
+                  <instanceIdentifier>
+                     <hrid>112014518</hrid>
+                  </instanceIdentifier>
+                  <provisionalInstance>
+                     <title>Gallica : la bibliothèque numérique / Bibliothèque Nationale de France</title>
+                     <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
+                     <source>hebis</source>
+                  </provisionalInstance>
+                  <instanceRelationshipTypeId>6366b68c-aeeb-4dfe-9cd5-92518b2244a0</instanceRelationshipTypeId>
+               </i>
+            </arr>
+         </parentInstances>
+         <precedingTitles>
+            <arr>
+               <i>
+                  <instanceIdentifier>
+                     <hrid>277310245</hrid>
+                  </instanceIdentifier>
+                  <provisionalInstance>
+                     <title>Neues Journal der Physik / hrsg. von Friedrich Albrecht Carl Gren</title>
+                     <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
+                     <source>hebis</source>
+                  </provisionalInstance>
+               </i>
+            </arr>
+         </precedingTitles>
+      </instanceRelations>
       <processing>
          <item>
             <status>
@@ -5301,8 +5342,11 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>Kulturgeschichte der Physik K. Simonyi</indexTitle>
          <title>Kulturgeschichte der Physik / K. Simonyi</title>
+         <indexTitle>Kulturgeschichte der Physik K. Simonyi</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
          <contributors>
             <arr>
                <i>
@@ -5330,12 +5374,14 @@
                <i>ger</i>
             </arr>
          </languages>
+         <series/>
          <physicalDescriptions>
             <arr>
                <i>575 S. : zahlr. Ill. und graph. Darst., Kt.</i>
             </arr>
          </physicalDescriptions>
       </instance>
+      <instanceRelations/>
       <processing>
          <item>
             <status>

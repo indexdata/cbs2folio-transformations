@@ -171,14 +171,17 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>East India Company</indexTitle>
          <title>East India Company</title>
+         <indexTitle>East India Company</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
          <publication>
             <arr>
                <i>
                   <place>Marlborough, England</place>
                   <publisher>Adam Matthew Digital</publisher>
-                  <dateOfPublication>2018 (2018-)</dateOfPublication>
+                  <dateOfPublication>2018-</dateOfPublication>
                   <role>Publisher</role>
                </i>
             </arr>
@@ -210,6 +213,10 @@
                   <note>Gesehen am 19.07.2018</note>
                   <instanceNoteTypeId>General note</instanceNoteTypeId>
                </i>
+               <i>
+                  <note>This digital resource allows students and researchers to access avast and remarkable collection of primary source documents from theIndia Office Records held by the British Library, the single most important archive for the study of the East India Company. From the Company’s charter in 1600 to Indian independence in 1947, theEast India Company resource tells the story of trade with the East, politics, and the rise and fall of the British Empire. It records the challenges of a globalising world and sheds light on many contrasting lives – from those of powerful political figures to ordinary people in Britain and Asia and the individual traders who lived and worked at the edge of Empire. This incredible story is told through the manuscript records of theperiod, with over 1.2 million pages of content digitised.</note>
+                  <instanceNoteTypeId>Summary</instanceNoteTypeId>
+               </i>
             </arr>
          </notes>
          <natureOfContentTermIds>
@@ -223,6 +230,7 @@
                <i>eng</i>
             </arr>
          </languages>
+         <series/>
          <physicalDescriptions>
             <arr>
                <i>Online-Ressource</i>
@@ -427,8 +435,11 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>Waterwolven een geschiedenis van stormvloeden, dijkenbouwers en droogmakers Cordula Rooijendijk</indexTitle>
          <title>Waterwolven : een geschiedenis van stormvloeden, dijkenbouwers en droogmakers / Cordula Rooijendijk</title>
+         <indexTitle>Waterwolven een geschiedenis van stormvloeden, dijkenbouwers en droogmakers Cordula Rooijendijk</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
          <contributors>
             <arr>
                <i>
@@ -464,6 +475,7 @@
                <i>dut</i>
             </arr>
          </languages>
+         <series/>
          <physicalDescriptions>
             <arr>
                <i>407 S. : Ill., Kt.</i>
@@ -755,8 +767,8 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>Cambridge companion to literature and food edited by J. Michelle Coghlan, University of Manchester</indexTitle>
          <title>The Cambridge companion to literature and food / edited by J. Michelle Coghlan, University of Manchester</title>
+         <indexTitle>Cambridge companion to literature and food edited by J. Michelle Coghlan, University of Manchester</indexTitle>
          <alternativeTitles>
             <arr>
                <i>
@@ -1034,8 +1046,11 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>Teatro António Pedro. Coord. de António Brás de Oliveira. Pref. de Luiz Francisco Rebello</indexTitle>
          <title>Teatro / António Pedro. Coord. de António Brás de Oliveira. Pref. de Luiz Francisco Rebello</title>
+         <indexTitle>Teatro António Pedro. Coord. de António Brás de Oliveira. Pref. de Luiz Francisco Rebello</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
          <contributors>
             <arr>
                <i>
@@ -1280,8 +1295,11 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>Phosphor-(III)-funktionalisierte 1,8-Naphthyridin- und Harnstoff-Derivate und deren Anwendung in der Übergangsmetall-katalysierten homogenen Katalyse vorgelegt von Marc Awenius</indexTitle>
          <title>Phosphor-(III)-funktionalisierte 1,8-Naphthyridin- und Harnstoff-Derivate und deren Anwendung in der Übergangsmetall-katalysierten homogenen Katalyse / vorgelegt von Marc Awenius</title>
+         <indexTitle>Phosphor-(III)-funktionalisierte 1,8-Naphthyridin- und Harnstoff-Derivate und deren Anwendung in der Übergangsmetall-katalysierten homogenen Katalyse vorgelegt von Marc Awenius</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
          <contributors>
             <arr>
                <i>
@@ -1307,6 +1325,7 @@
                <i>ger</i>
             </arr>
          </languages>
+         <series/>
          <physicalDescriptions>
             <arr>
                <i>[11], 261 S. : Ill., graph. Darst. ; 21 cm</i>
@@ -1546,8 +1565,8 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>Corona und COVID-19 plus</indexTitle>
          <title>Corona und COVID-19 plus</title>
+         <indexTitle>Corona und COVID-19 plus</indexTitle>
          <alternativeTitles>
             <arr>
                <i>
@@ -1565,7 +1584,7 @@
                <i>
                   <place>München</place>
                   <publisher>C.H. Beck</publisher>
-                  <dateOfPublication>2020 ([2020?]-)</dateOfPublication>
+                  <dateOfPublication>[2020?]-</dateOfPublication>
                   <role>Publisher</role>
                </i>
             </arr>
@@ -1832,8 +1851,11 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>Krimi in Literatur, Film und Serie eine Einführung Stefan Neuhaus</indexTitle>
          <title>Der Krimi in Literatur, Film und Serie : eine Einführung / Stefan Neuhaus</title>
+         <indexTitle>Krimi in Literatur, Film und Serie eine Einführung Stefan Neuhaus</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
          <contributors>
             <arr>
                <i>
@@ -1850,13 +1872,13 @@
                <i>
                   <place>Tübingen</place>
                   <publisher>Narr Francke Attempto</publisher>
-                  <dateOfPublication>2021 ([2021])</dateOfPublication>
+                  <dateOfPublication>[2021]</dateOfPublication>
                   <role>Publisher</role>
                </i>
                <i>
                   <place>Stuttgart</place>
                   <publisher>utb GmbH</publisher>
-                  <dateOfPublication>2021 ([2021])</dateOfPublication>
+                  <dateOfPublication>[2021]</dateOfPublication>
                   <role>Distributor</role>
                </i>
             </arr>
@@ -1878,7 +1900,7 @@
          </languages>
          <series>
             <arr>
-               <i>Utb</i>
+               <i>Utb ; 5556</i>
             </arr>
          </series>
          <physicalDescriptions>
@@ -2562,8 +2584,11 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>Ästhetische Grundbegriffe (ÄGB) ; historisches Wörterbuch in sieben Bänden hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ...</indexTitle>
-         <title>Ästhetische Grundbegriffe : (ÄGB) ; historisches Wörterbuch in sieben Bänden / hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ... (4)</title>
+         <title>Ästhetische Grundbegriffe : (ÄGB) ; historisches Wörterbuch in sieben Bänden / hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ... ; 4 ; Medien - Populär</title>
+         <indexTitle>Ästhetische Grundbegriffe (ÄGB) ; historisches Wörterbuch in sieben Bänden hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ... 4 Medien - Populär</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
          <contributors>
             <arr>
                <i>
@@ -2596,6 +2621,7 @@
                <i>ger</i>
             </arr>
          </languages>
+         <series/>
          <physicalDescriptions>
             <arr>
                <i>XV, 884 S.</i>
@@ -3679,8 +3705,11 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>Ästhetische Grundbegriffe (ÄGB) ; historisches Wörterbuch in sieben Bänden hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ...</indexTitle>
-         <title>Ästhetische Grundbegriffe : (ÄGB) ; historisches Wörterbuch in sieben Bänden / hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ... (5)</title>
+         <title>Ästhetische Grundbegriffe : (ÄGB) ; historisches Wörterbuch in sieben Bänden / hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ... ; 5 ; Postmoderne - Synästhesie</title>
+         <indexTitle>Ästhetische Grundbegriffe (ÄGB) ; historisches Wörterbuch in sieben Bänden hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ... 5 Postmoderne - Synästhesie</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
          <contributors>
             <arr>
                <i>
@@ -3713,6 +3742,7 @@
                <i>ger</i>
             </arr>
          </languages>
+         <series/>
          <physicalDescriptions>
             <arr>
                <i>XV, 868 S. : Notenbeisp.</i>
@@ -4328,8 +4358,11 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>Jahrbuch Deutsche Einheit Marcus Böick, Constantin Goschler, Ralph Jessen (Hg.)</indexTitle>
          <title>Jahrbuch Deutsche Einheit / Marcus Böick, Constantin Goschler, Ralph Jessen (Hg.)</title>
+         <indexTitle>Jahrbuch Deutsche Einheit Marcus Böick, Constantin Goschler, Ralph Jessen (Hg.)</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
          <contributors>
             <arr>
                <i>
@@ -4357,7 +4390,7 @@
                <i>
                   <place>Berlin</place>
                   <publisher>Ch. Links Verlag</publisher>
-                  <dateOfPublication>2020 (September 2020-)</dateOfPublication>
+                  <dateOfPublication>September 2020-</dateOfPublication>
                   <role>Publisher</role>
                </i>
             </arr>
@@ -4385,6 +4418,7 @@
                <i>ger</i>
             </arr>
          </languages>
+         <series/>
       </instance>
       <instanceRelations/>
       <processing>
@@ -4686,8 +4720,11 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>Judith formes et sens des diverses traditions A. M. Dubarle</indexTitle>
-         <title>Judith : formes et sens des diverses traditions / A. M. Dubarle (2)</title>
+         <title>Judith : formes et sens des diverses traditions / A. M. Dubarle ; 2 ; Textes</title>
+         <indexTitle>Judith formes et sens des diverses traditions A. M. Dubarle 2 Textes</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
          <contributors>
             <arr>
                <i>
@@ -4718,7 +4755,7 @@
          </languages>
          <series>
             <arr>
-               <i>Analecta biblica</i>
+               <i>Analecta biblica ; 24, 2</i>
             </arr>
          </series>
          <physicalDescriptions>
@@ -5526,8 +5563,11 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>Ästhetische Grundbegriffe (ÄGB) ; historisches Wörterbuch in sieben Bänden hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ...</indexTitle>
-         <title>Ästhetische Grundbegriffe : (ÄGB) ; historisches Wörterbuch in sieben Bänden / hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ... (6)</title>
+         <title>Ästhetische Grundbegriffe : (ÄGB) ; historisches Wörterbuch in sieben Bänden / hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ... ; 6 ; Tanz - Zeitalter/Epoche</title>
+         <indexTitle>Ästhetische Grundbegriffe (ÄGB) ; historisches Wörterbuch in sieben Bänden hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ... 6 Tanz - Zeitalter/Epoche</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
          <contributors>
             <arr>
                <i>
@@ -5560,6 +5600,7 @@
                <i>ger</i>
             </arr>
          </languages>
+         <series/>
          <physicalDescriptions>
             <arr>
                <i>XV, 810 S.</i>
@@ -6319,8 +6360,11 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>Gutes Leben auf dem Land? Imaginationen und Projektionen vom 18. Jahrhundert bis zur Gegenwart Werner Nell, Marc Weiland</indexTitle>
          <title>Gutes Leben auf dem Land? : Imaginationen und Projektionen vom 18. Jahrhundert bis zur Gegenwart / Werner Nell, Marc Weiland</title>
+         <indexTitle>Gutes Leben auf dem Land? Imaginationen und Projektionen vom 18. Jahrhundert bis zur Gegenwart Werner Nell, Marc Weiland</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
          <contributors>
             <arr>
                <i>
@@ -6478,13 +6522,13 @@
                <i>
                   <place>Bielefeld</place>
                   <publisher>transcript-Verlag</publisher>
-                  <dateOfPublication>2021 ([2021])</dateOfPublication>
+                  <dateOfPublication>[2021]</dateOfPublication>
                   <role>Publisher</role>
                </i>
                <i>
                   <place>Berlin</place>
                   <publisher>Walter de Gruyter GmbH</publisher>
-                  <dateOfPublication>2021 ([2021])</dateOfPublication>
+                  <dateOfPublication>[2021]</dateOfPublication>
                   <role>Distributor</role>
                </i>
             </arr>
@@ -6515,6 +6559,10 @@
                   <note>Description based on online resource; title from PDF title page (publisher's Web site, viewed 25. Jan 2021)</note>
                   <instanceNoteTypeId>General note</instanceNoteTypeId>
                </i>
+               <i>
+                  <note>In Zeiten einer global fortschreitenden Urbanisierung der Lebenswelten gewinnen Imaginationen und Projektionen eines guten Lebens auf dem Land eine neue diskursive Attraktivität. Sie verweisen auf eine lange und ambivalente Geschichte zwischen Anforderungen und Überforderungen gesellschaftlichen Wandels sowie den Ansprüchen auf ein gelingendes Leben. Angesichts umfassender Transformationen, Krisen und Katastrophen bieten die kulturellen Produktionen ländlicher Lebensverhältnisse - und damit verbunden die Vorstellungen von Natur, Idylle und Heimat - sowohl idealisierte Sehnsuchtsorte als auch konkretisierte Orientierungspunkte. Land und Ländlichkeit geraten in ein komplexes Spannungsverhältnis, das auch Auskunft gibt über Wahrnehmung und Selbstverständnis im Leben in und zwischen Stadt und Land.</note>
+                  <instanceNoteTypeId>Summary</instanceNoteTypeId>
+               </i>
             </arr>
          </notes>
          <languages>
@@ -6524,7 +6572,7 @@
          </languages>
          <series>
             <arr>
-               <i>Rurale Topografien</i>
+               <i>Rurale Topografien ; 12</i>
             </arr>
          </series>
          <physicalDescriptions>
@@ -6738,8 +6786,11 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>göttliche Wort Grundfragen unseres Glaubens Ragnar Bring</indexTitle>
          <title>Das göttliche Wort : Grundfragen unseres Glaubens / Ragnar Bring</title>
+         <indexTitle>göttliche Wort Grundfragen unseres Glaubens Ragnar Bring</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
          <contributors>
             <arr>
                <i>
@@ -6767,6 +6818,7 @@
                <i>ger</i>
             </arr>
          </languages>
+         <series/>
          <physicalDescriptions>
             <arr>
                <i>110 S.</i>
@@ -7037,8 +7089,11 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>Cycles biogéochimiques et écosystèmes continentaux Alain Aspect, Jean-François Bach, Jean-Michel Bony, Christian Bordé</indexTitle>
          <title>Cycles biogéochimiques et écosystèmes continentaux / Alain Aspect, Jean-François Bach, Jean-Michel Bony, Christian Bordé</title>
+         <indexTitle>Cycles biogéochimiques et écosystèmes continentaux Alain Aspect, Jean-François Bach, Jean-Michel Bony, Christian Bordé</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
          <contributors>
             <arr>
                <i>
@@ -7063,13 +7118,13 @@
                <i>
                   <place>Les Ulis</place>
                   <publisher>EDP Sciences</publisher>
-                  <dateOfPublication>2021 ([2021])</dateOfPublication>
+                  <dateOfPublication>[2021]</dateOfPublication>
                   <role>Publisher</role>
                </i>
                <i>
                   <place>Berlin</place>
                   <publisher>Walter de Gruyter GmbH</publisher>
-                  <dateOfPublication>2021 ([2021])</dateOfPublication>
+                  <dateOfPublication>[2021]</dateOfPublication>
                   <role>Distributor</role>
                </i>
             </arr>
@@ -7089,6 +7144,10 @@
                <i>
                   <note>Description based on online resource; title from PDF title page (publisher's Web site, viewed 25. Feb 2021)</note>
                   <instanceNoteTypeId>General note</instanceNoteTypeId>
+               </i>
+               <i>
+                  <note>Depuis deux siècles, la poussée démographique et les développements industriels et agricoles provoquent un profond déséquilibre des cycles biogéochimiques de la planète. La vie est dépendante d'un grand nombre des éléments de la classification périodique. Certaines parties du cycle biogéochimique de ces éléments ont été explorées et une connaissance approfondie des mécanismes qui les font intervenir dans certains processus biologiques a été acquise : comprendre comment les éléments chimiques voyagent d'un règne à un autre permettra de déterminer une nouvelle approche de la nutrition, de la santé, de l'environnement et du climat. L'Académie des sciences a mené une réflexion multidisciplinaire pour établir l'état de l'art en ce domaine, tant du point de vue des connaissances fondamentales que de celui de la recherche et de ses structures. Ce rapport s'intéresse au comportement de différents éléments chimiques de la biogéosphère au cours de l'histoire de la planète, et plus particulièrement depuis que se manifeste une anthropisation accélérée (développement de la civilisation industrielle). Cet ouvrage se présente en quatre parties: - 1ère partie: approche par éléments: -carbone -nutriments -éléments majeurs de la lithosphère -radionucléides - 2ème partie: approche par milieux: -écosystèmes peu anthropisés -milieux à pression anthropique accentuée - 3ème partie: secteurs de recherche à développer: -les micro-organismes, clé des recyclages -nature, rôle et fonctions des matières organiques dans les sols -spécialisation des éléments chimiques - 4ème partie: nécessité de recourir à des modélisations et à des observatoires: -développement de la modélisation -mise en place et gestion de réseaux d'observation de longue durée.</note>
+                  <instanceNoteTypeId>Summary</instanceNoteTypeId>
                </i>
             </arr>
          </notes>
@@ -7274,14 +7333,17 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>Klassisch modern das Magazin der Klassik Stiftung Weimar</indexTitle>
          <title>Klassisch modern : das Magazin der Klassik Stiftung Weimar</title>
+         <indexTitle>Klassisch modern das Magazin der Klassik Stiftung Weimar</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
          <publication>
             <arr>
                <i>
                   <place>Weimar</place>
                   <publisher>Klassik Stiftung Weimar</publisher>
-                  <dateOfPublication>2021 ([2021]-)</dateOfPublication>
+                  <dateOfPublication>[2021]-</dateOfPublication>
                   <role>Publisher</role>
                </i>
             </arr>
@@ -7330,6 +7392,7 @@
                <i>ger</i>
             </arr>
          </languages>
+         <series/>
          <physicalDescriptions>
             <arr>
                <i>Online-Ressource</i>
@@ -7554,8 +7617,11 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>Repetitorium Facharztprüfung Kinder- und Jugendmedizin Ertan Mayatepek</indexTitle>
          <title>Repetitorium Facharztprüfung Kinder- und Jugendmedizin / Ertan Mayatepek</title>
+         <indexTitle>Repetitorium Facharztprüfung Kinder- und Jugendmedizin Ertan Mayatepek</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
          <contributors>
             <arr>
                <i>
@@ -7572,7 +7638,7 @@
                <i>
                   <place>München</place>
                   <publisher>Urban &amp; Fischer in Elsevier</publisher>
-                  <dateOfPublication>2021 ([2021])</dateOfPublication>
+                  <dateOfPublication>[2021]</dateOfPublication>
                   <role>Publisher</role>
                </i>
             </arr>
@@ -7585,6 +7651,7 @@
                <i>ger</i>
             </arr>
          </languages>
+         <series/>
          <physicalDescriptions>
             <arr>
                <i>XXIV, 554 Seiten : Illustrationen ; 24 cm x 17 cm</i>
@@ -7837,8 +7904,11 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>Mükemmel Osmanlı lügatı Ali Nazîmâ, Faik Reşad. Hazırlayanlar Necat Birinci, Kâzım Yetiş, M. Fatih Andi, Erol Ülgen, Nuri Saglam, Ali Yükrü Coruk</indexTitle>
          <title>Mükemmel Osmanlı lügatı / Ali Nazîmâ, Faik Reşad. Hazırlayanlar Necat Birinci, Kâzım Yetiş, M. Fatih Andi, Erol Ülgen, Nuri Saglam, Ali Yükrü Coruk</title>
+         <indexTitle>Mükemmel Osmanlı lügatı Ali Nazîmâ, Faik Reşad. Hazırlayanlar Necat Birinci, Kâzım Yetiş, M. Fatih Andi, Erol Ülgen, Nuri Saglam, Ali Yükrü Coruk</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
          <contributors>
             <arr>
                <i>
@@ -7900,8 +7970,8 @@
          </languages>
          <series>
             <arr>
-               <i>Türk Dil Kurumu yayınları</i>
-               <i>Türkiye Türkçesi sözlükleri projesi 1, Eski sözlükler dizisi</i>
+               <i>Türk Dil Kurumu yayınları ; 802</i>
+               <i>Türkiye Türkçesi sözlükleri projesi 1, Eski sözlükler dizisi ; 4</i>
             </arr>
          </series>
          <physicalDescriptions>
@@ -8148,7 +8218,7 @@
                </i>
                <i>
                   <value>: 505/23754</value>
-                  <identifierTypeId/>
+                  <identifierTypeId>Verlags-, Produktions- und Bestellnummer</identifierTypeId>
                </i>
                <i>
                   <value>9783446237544</value>
@@ -8172,8 +8242,11 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>Briefwechsel Voltaire ; Friedrich der Große. Hrsg. und übers. von Hans Pleschinski</indexTitle>
          <title>Briefwechsel / Voltaire ; Friedrich der Große. Hrsg. und übers. von Hans Pleschinski</title>
+         <indexTitle>Briefwechsel Voltaire ; Friedrich der Große. Hrsg. und übers. von Hans Pleschinski</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
          <contributors>
             <arr>
                <i>
@@ -8218,6 +8291,7 @@
                <i>ger</i>
             </arr>
          </languages>
+         <series/>
          <physicalDescriptions>
             <arr>
                <i>654 S. : Ill. ; 19 cm</i>
@@ -8488,8 +8562,11 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>China entdecken</indexTitle>
-         <title>China entdecken (Lehrbuch 4)</title>
+         <title>China entdecken ; Lehrbuch 4 ; / Autoren: Qi Shaoyan, Tan Qiuyu, Übersetzung ins Deutsche und Anpassung an deutschsprachige Lernende: Katrin Zimmermann, Andreas Guder</title>
+         <indexTitle>China entdecken Lehrbuch 4 / Autoren: Qi Shaoyan, Tan Qiuyu, Übersetzung ins Deutsche und Anpassung an deutschsprachige Lernende: Katrin Zimmermann, Andreas Guder</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
          <contributors>
             <arr>
                <i>
@@ -8524,7 +8601,7 @@
                <i>
                   <place>Zürich</place>
                   <publisher>Chinabooks E. Wolf und E. Wu</publisher>
-                  <dateOfPublication>2017 ([2017])</dateOfPublication>
+                  <dateOfPublication>[2017]</dateOfPublication>
                   <role>Publisher</role>
                </i>
             </arr>
@@ -8537,9 +8614,10 @@
                <i>ger</i>
             </arr>
          </languages>
+         <series/>
          <physicalDescriptions>
             <arr>
-               <i>231 Seiten : Illustrationen</i>
+               <i>231 Seiten : Illustrationen + 2 Audio-CDs</i>
             </arr>
          </physicalDescriptions>
       </instance>
@@ -8890,8 +8968,11 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>Kritische Fallstudien zum Verhalten in Organisationen Irma Rybnikova, Anna Fornfeist</indexTitle>
          <title>Kritische Fallstudien zum Verhalten in Organisationen / Irma Rybnikova, Anna Fornfeist</title>
+         <indexTitle>Kritische Fallstudien zum Verhalten in Organisationen Irma Rybnikova, Anna Fornfeist</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
          <contributors>
             <arr>
                <i>
@@ -9009,13 +9090,13 @@
                <i>
                   <place>München</place>
                   <publisher>De Gruyter Oldenbourg</publisher>
-                  <dateOfPublication>2021 ([2021])</dateOfPublication>
+                  <dateOfPublication>[2021]</dateOfPublication>
                   <role>Publisher</role>
                </i>
                <i>
                   <place>Berlin</place>
                   <publisher>Walter de Gruyter GmbH</publisher>
-                  <dateOfPublication>2021 ([2021])</dateOfPublication>
+                  <dateOfPublication>[2021]</dateOfPublication>
                   <role>Distributor</role>
                </i>
             </arr>
@@ -9045,6 +9126,10 @@
                <i>
                   <note>Description based on online resource; title from PDF title page (publisher's Web site, viewed 25. Jan 2021)</note>
                   <instanceNoteTypeId>General note</instanceNoteTypeId>
+               </i>
+               <i>
+                  <note>Fallstudien, die zu den bewährtesten Lehr- und Lernmethoden im Personalmanagement gehören, sind im deutschsprachigen Raum immer noch selten oder nur vereinzelt zu finden. Dieses Buch bietet eine Reihe von Fallstudien im Bereich organisationales Verhalten und Personalmanagement. Die Fallstudien verbindet ihr kritischer Ansatz, der sich in ausgewählten Themen niederschlägt, wie z.B.: - destruktive Führung - Unfälle in Organisationen - Fehlbeanspruchung von Mitarbeiter*innen - Diskriminierung und Ungerechtigkeit am Arbeitsplatz - Mobbing und sexuelle Belästigung am Arbeitsplatz. Das Besondere der hier aufgeführten Fallstudien besteht darin, dass sie von BWL-Studierenden der Hochschule Hamm-Lippstadt im Rahmen von Seminaren zu dem Themengebiet Personalmanagement erarbeitet worden sind. In die Fallstudien sind teilweise die eigenen Arbeitserfahrungen der Autor*innen eingeflossen, zum Teil waren es beobachtete Erfahrungen oder auch öffentliche Berichterstattungen, die zu den Fallstudien inspirierten. Die behandelten Probleme werden in den Fallstudien knapp, pointiert und verständlich umrissen sowie eine Analyse des Geschehens aus einer theoretischen Sicht angeboten. Mit Hilfe der hier vorgestellten Fallstudien können die Lehrenden ihre Veranstaltungen praxisnah und interaktiv gestalten sowie die Fallstudien als Prüfungsmethode anwenden. Die Studierenden hingegen gewinnen einen Einblick in die Realität des Arbeitslebens und können damit ihre Handlungskompetenzen erheblich erweitern. Durch die theoretische Analyse, die jeder Fallstudie folgt, wird zudem verdeutlicht, wie ein Praxis-Theorie-Bezug hergestellt werden kann und wann bzw. ob er neue Erkenntnisse fördert.</note>
+                  <instanceNoteTypeId>Summary</instanceNoteTypeId>
                </i>
             </arr>
          </notes>
@@ -9214,8 +9299,11 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>Geschichte der Familie Schenk von Nydeggen, insbesondere des Kriegsabristen Martin Schenk von Nydeggen mit geschichtlichen Nachrichten über Afferden, Blyenbeck ... Heyen u.a. Güter ; nach archivalischen u. anderen authentischen Quellen bearb.</indexTitle>
          <title>Geschichte der Familie Schenk von Nydeggen, insbesondere des Kriegsabristen Martin Schenk von Nydeggen : mit geschichtlichen Nachrichten über Afferden, Blyenbeck ... Heyen u.a. Güter ; nach archivalischen u. anderen authentischen Quellen bearb.</title>
+         <indexTitle>Geschichte der Familie Schenk von Nydeggen, insbesondere des Kriegsabristen Martin Schenk von Nydeggen mit geschichtlichen Nachrichten über Afferden, Blyenbeck ... Heyen u.a. Güter ; nach archivalischen u. anderen authentischen Quellen bearb.</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
          <publication>
             <arr>
                <i>
@@ -9234,6 +9322,7 @@
                <i>ger</i>
             </arr>
          </languages>
+         <series/>
          <physicalDescriptions>
             <arr>
                <i>XI, 321 S.</i>
@@ -9592,8 +9681,11 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>Semantik für Lehrkräfte linguistische Grundlagen und didaktische Impulse Christian Efing/Thorsten Roelcke</indexTitle>
          <title>Semantik für Lehrkräfte : linguistische Grundlagen und didaktische Impulse / Christian Efing/Thorsten Roelcke</title>
+         <indexTitle>Semantik für Lehrkräfte linguistische Grundlagen und didaktische Impulse Christian Efing/Thorsten Roelcke</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
          <contributors>
             <arr>
                <i>
@@ -9616,7 +9708,7 @@
                <i>
                   <place>Tübingen</place>
                   <publisher>Narr Francke Attempto</publisher>
-                  <dateOfPublication>2021 (2021)</dateOfPublication>
+                  <dateOfPublication>2021</dateOfPublication>
                   <role>Publisher</role>
                </i>
             </arr>
@@ -9990,8 +10082,8 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>On Lernen in der digitalen Welt</indexTitle>
          <title>On : Lernen in der digitalen Welt</title>
+         <indexTitle>On Lernen in der digitalen Welt</indexTitle>
          <alternativeTitles>
             <arr>
                <i>
@@ -10009,7 +10101,7 @@
                <i>
                   <place>Hannover</place>
                   <publisher>Friedrich Verlag GmbH</publisher>
-                  <dateOfPublication>2020 ([2020]-)</dateOfPublication>
+                  <dateOfPublication>[2020]-</dateOfPublication>
                   <role>Publisher</role>
                </i>
             </arr>
@@ -10045,9 +10137,10 @@
                <i>ger</i>
             </arr>
          </languages>
+         <series/>
          <physicalDescriptions>
             <arr>
-               <i>Bände</i>
+               <i>Bände ; 30 cm</i>
             </arr>
          </physicalDescriptions>
       </instance>
@@ -10272,8 +10365,11 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>Immune modulation by molecules of Staphylococcus aureus Katja Schlatterer ; Betreuer: Andreas Peschel</indexTitle>
          <title>Immune modulation by molecules of Staphylococcus aureus / Katja Schlatterer ; Betreuer: Andreas Peschel</title>
+         <indexTitle>Immune modulation by molecules of Staphylococcus aureus Katja Schlatterer ; Betreuer: Andreas Peschel</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
          <contributors>
             <arr>
                <i>
@@ -10296,7 +10392,7 @@
                <i>
                   <place>Tübingen</place>
                   <publisher>Universitätsbibliothek Tübingen</publisher>
-                  <dateOfPublication>2022 (2022)</dateOfPublication>
+                  <dateOfPublication>2022</dateOfPublication>
                   <role>Publisher</role>
                </i>
             </arr>
@@ -10327,6 +10423,7 @@
                <i>eng</i>
             </arr>
          </languages>
+         <series/>
          <physicalDescriptions>
             <arr>
                <i>Online-Ressource</i>
@@ -10674,8 +10771,11 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>Einstieg in die Physikalische Chemie für Naturwissenschaftler Wolfgang Bechmann, Ilko Bald</indexTitle>
          <title>Einstieg in die Physikalische Chemie für Naturwissenschaftler / Wolfgang Bechmann, Ilko Bald</title>
+         <indexTitle>Einstieg in die Physikalische Chemie für Naturwissenschaftler Wolfgang Bechmann, Ilko Bald</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
          <contributors>
             <arr>
                <i>
@@ -10698,7 +10798,7 @@
                <i>
                   <place>Berlin, Germany</place>
                   <publisher>Springer Spektrum</publisher>
-                  <dateOfPublication>2020 ([2020])</dateOfPublication>
+                  <dateOfPublication>[2020]</dateOfPublication>
                   <role>Publisher</role>
                </i>
             </arr>
@@ -11129,8 +11229,8 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>Methoden zur Regenwurm-Extraktion Vergleich der Formalin-, Senf- und Elektromethode [Autor: F. Vetter]</indexTitle>
          <title>Methoden zur Regenwurm-Extraktion : Vergleich der Formalin-, Senf- und Elektromethode / [Autor: F. Vetter]</title>
+         <indexTitle>Methoden zur Regenwurm-Extraktion Vergleich der Formalin-, Senf- und Elektromethode [Autor: F. Vetter]</indexTitle>
          <alternativeTitles>
             <arr>
                <i>
@@ -11184,7 +11284,7 @@
          </languages>
          <series>
             <arr>
-               <i>Umwelt-Materialien</i>
+               <i>Umwelt-Materialien ; 62 : Boden</i>
             </arr>
          </series>
          <physicalDescriptions>
@@ -11526,8 +11626,11 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>Fälle zum Besonderen Verwaltungsrecht Polizei- und Ordnungsrecht, Kommunalrecht mit Bezügen zum Verwaltungsprozessrecht von Dr. iur. Stefan Muckel (Professor an der Universität zu Köln) ; begründet von Dr. iur. Wolfgang Rüfner (em. Professor an der Universität zu Köln)</indexTitle>
          <title>Fälle zum Besonderen Verwaltungsrecht : Polizei- und Ordnungsrecht, Kommunalrecht mit Bezügen zum Verwaltungsprozessrecht / von Dr. iur. Stefan Muckel (Professor an der Universität zu Köln) ; begründet von Dr. iur. Wolfgang Rüfner (em. Professor an der Universität zu Köln)</title>
+         <indexTitle>Fälle zum Besonderen Verwaltungsrecht Polizei- und Ordnungsrecht, Kommunalrecht mit Bezügen zum Verwaltungsprozessrecht von Dr. iur. Stefan Muckel (Professor an der Universität zu Köln) ; begründet von Dr. iur. Wolfgang Rüfner (em. Professor an der Universität zu Köln)</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
          <contributors>
             <arr>
                <i>
@@ -11933,7 +12036,7 @@
                </i>
                <i>
                   <value>: 10248</value>
-                  <identifierTypeId/>
+                  <identifierTypeId>Verlags-, Produktions- und Bestellnummer</identifierTypeId>
                </i>
                <i>
                   <value>9783870712488</value>
@@ -11945,8 +12048,8 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>Ursprung und Behandlung der Krankheiten Hildegard von Bingen. Vollst. neu übers. und eingel. von Ortrun Riha</indexTitle>
          <title>Ursprung und Behandlung der Krankheiten / Hildegard von Bingen. Vollst. neu übers. und eingel. von Ortrun Riha</title>
+         <indexTitle>Ursprung und Behandlung der Krankheiten Hildegard von Bingen. Vollst. neu übers. und eingel. von Ortrun Riha</indexTitle>
          <alternativeTitles>
             <arr>
                <i>
@@ -11994,6 +12097,11 @@
                <i>ger</i>
             </arr>
          </languages>
+         <series>
+            <arr>
+               <i>Werke / Hildegard von Bingen. Hrsg. von der Abtei St. Hildegard, Eibingen ; 2</i>
+            </arr>
+         </series>
          <physicalDescriptions>
             <arr>
                <i>292 Seiten</i>
@@ -12285,8 +12393,11 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>Neugieriges Denken die Lehrtätigkeit und das theologische Werk von Hans-Georg Geyer : mit vier unpublizierten Predigten von Hans-Georg Geyer herausgegeben von Frank Dittmann, Thorsten Latzel und Henning Theißen</indexTitle>
          <title>Neugieriges Denken : die Lehrtätigkeit und das theologische Werk von Hans-Georg Geyer : mit vier unpublizierten Predigten von Hans-Georg Geyer / herausgegeben von Frank Dittmann, Thorsten Latzel und Henning Theißen</title>
+         <indexTitle>Neugieriges Denken die Lehrtätigkeit und das theologische Werk von Hans-Georg Geyer : mit vier unpublizierten Predigten von Hans-Georg Geyer herausgegeben von Frank Dittmann, Thorsten Latzel und Henning Theißen</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
          <contributors>
             <arr>
                <i>
@@ -12314,7 +12425,7 @@
                <i>
                   <place>Leipzig</place>
                   <publisher>Evangelische Verlagsanstalt</publisher>
-                  <dateOfPublication>2018 ([2018])</dateOfPublication>
+                  <dateOfPublication>[2018]</dateOfPublication>
                   <role>Publisher</role>
                </i>
             </arr>
@@ -12329,12 +12440,12 @@
          </languages>
          <series>
             <arr>
-               <i>Greifswalder theologische Forschungen (GTHF)</i>
+               <i>Greifswalder theologische Forschungen (GTHF) ; Band 30</i>
             </arr>
          </series>
          <physicalDescriptions>
             <arr>
-               <i>304 Seiten</i>
+               <i>304 Seiten ; 23 cm</i>
             </arr>
          </physicalDescriptions>
       </instance>
@@ -12587,8 +12698,11 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>Perinatalmedizin in Fällen pränatale Diagnostik, Management und Beratung ; 23 Tabellen Anke Reitter ; Rolf Schlößer</indexTitle>
          <title>Perinatalmedizin in Fällen : pränatale Diagnostik, Management und Beratung ; 23 Tabellen / Anke Reitter ; Rolf Schlößer</title>
+         <indexTitle>Perinatalmedizin in Fällen pränatale Diagnostik, Management und Beratung ; 23 Tabellen Anke Reitter ; Rolf Schlößer</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
          <contributors>
             <arr>
                <i>
@@ -12620,6 +12734,7 @@
                <i>ger</i>
             </arr>
          </languages>
+         <series/>
          <physicalDescriptions>
             <arr>
                <i>XIII, 258 S. : Ill., graph. Darst</i>
@@ -12919,14 +13034,17 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>Lire magazine littéraire</indexTitle>
          <title>Lire magazine littéraire</title>
+         <indexTitle>Lire magazine littéraire</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
          <publication>
             <arr>
                <i>
                   <place>Paris</place>
                   <publisher>EMC2 SAS</publisher>
-                  <dateOfPublication>2020 ([2020]-)</dateOfPublication>
+                  <dateOfPublication>[2020]-</dateOfPublication>
                   <role>Publisher</role>
                </i>
             </arr>
@@ -12962,6 +13080,7 @@
                <i>fre</i>
             </arr>
          </languages>
+         <series/>
          <physicalDescriptions>
             <arr>
                <i>Bände</i>
@@ -13616,8 +13735,11 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>Innere Organe 122 Tabellen</indexTitle>
          <title>Innere Organe : 122 Tabellen</title>
+         <indexTitle>Innere Organe 122 Tabellen</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
          <contributors>
             <arr>
                <i>
@@ -13657,6 +13779,11 @@
                <i>ger</i>
             </arr>
          </languages>
+         <series>
+            <arr>
+               <i>Prometheus : LernAtlas der Anatomie / Michael Schünke ; Erik Schulte ; Udo Schumacher. Ill. von Markus Voll ...</i>
+            </arr>
+         </series>
          <physicalDescriptions>
             <arr>
                <i>XV, 493 S. : zahlr. Ill., graph. Darst.</i>
@@ -15973,8 +16100,11 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>Ästhetische Grundbegriffe (ÄGB) ; historisches Wörterbuch in sieben Bänden hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ...</indexTitle>
-         <title>Ästhetische Grundbegriffe : (ÄGB) ; historisches Wörterbuch in sieben Bänden / hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ... (3)</title>
+         <title>Ästhetische Grundbegriffe : (ÄGB) ; historisches Wörterbuch in sieben Bänden / hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ... ; 3 ; Harmonie - Material</title>
+         <indexTitle>Ästhetische Grundbegriffe (ÄGB) ; historisches Wörterbuch in sieben Bänden hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ... 3 Harmonie - Material</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
          <contributors>
             <arr>
                <i>
@@ -16007,6 +16137,7 @@
                <i>ger</i>
             </arr>
          </languages>
+         <series/>
          <physicalDescriptions>
             <arr>
                <i>XIV, 882 S. : graph. Darst.</i>
@@ -16592,8 +16723,8 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>Ästhetische Grundbegriffe (ÄGB) ; historisches Wörterbuch in sieben Bänden hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ...</indexTitle>
          <title>Ästhetische Grundbegriffe : (ÄGB) ; historisches Wörterbuch in sieben Bänden / hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ...</title>
+         <indexTitle>Ästhetische Grundbegriffe (ÄGB) ; historisches Wörterbuch in sieben Bänden hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ...</indexTitle>
          <alternativeTitles>
             <arr>
                <i>
@@ -16633,6 +16764,7 @@
                <i>ger</i>
             </arr>
          </languages>
+         <series/>
       </instance>
       <instanceRelations/>
       <processing>
@@ -16895,7 +17027,7 @@
                </i>
                <i>
                   <value>Bestellnummer: 22090</value>
-                  <identifierTypeId/>
+                  <identifierTypeId>Verlags-, Produktions- und Bestellnummer</identifierTypeId>
                </i>
                <i>
                   <value>9783498001117</value>
@@ -16919,8 +17051,11 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>Zeichen der Sieger der Aufstieg Chinas im Spiegel seiner Sprache Thekla Chabbi</indexTitle>
          <title>Die Zeichen der Sieger : der Aufstieg Chinas im Spiegel seiner Sprache / Thekla Chabbi</title>
+         <indexTitle>Zeichen der Sieger der Aufstieg Chinas im Spiegel seiner Sprache Thekla Chabbi</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
          <contributors>
             <arr>
                <i>
@@ -16937,7 +17072,7 @@
                <i>
                   <place>Hamburg</place>
                   <publisher>Rowohlt</publisher>
-                  <dateOfPublication>2019 (November 2019)</dateOfPublication>
+                  <dateOfPublication>November 2019</dateOfPublication>
                   <role>Publisher</role>
                </i>
             </arr>
@@ -16950,9 +17085,10 @@
                <i>ger</i>
             </arr>
          </languages>
+         <series/>
          <physicalDescriptions>
             <arr>
-               <i>190 Seiten</i>
+               <i>190 Seiten ; 21 cm, 309 g</i>
             </arr>
          </physicalDescriptions>
          <editions>
@@ -17566,8 +17702,11 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>Chirurgische Grundlagen 72 Tabellen hrsg. von Norbert Schwenzer ... Mit Beitr. von Roland Bares ...</indexTitle>
          <title>Chirurgische Grundlagen : 72 Tabellen / hrsg. von Norbert Schwenzer ... Mit Beitr. von Roland Bares ...</title>
+         <indexTitle>Chirurgische Grundlagen 72 Tabellen hrsg. von Norbert Schwenzer ... Mit Beitr. von Roland Bares ...</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
          <contributors>
             <arr>
                <i>
@@ -19024,7 +19163,7 @@
                </i>
                <i>
                   <value>Bestellnummer: 257</value>
-                  <identifierTypeId/>
+                  <identifierTypeId>Verlags-, Produktions- und Bestellnummer</identifierTypeId>
                </i>
                <i>
                   <value>9783859952577</value>
@@ -19048,14 +19187,22 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>Zürcher Bibel 2007 mit deuterokanonischen Schriften</indexTitle>
          <title>Zürcher Bibel 2007 : mit deuterokanonischen Schriften</title>
+         <indexTitle>Zürcher Bibel 2007 mit deuterokanonischen Schriften</indexTitle>
+         <alternativeTitles>
+            <arr>
+               <i>
+                  <alternativeTitle>Bibel</alternativeTitle>
+                  <alternativeTitleTypeId>Uniform title</alternativeTitleTypeId>
+               </i>
+            </arr>
+         </alternativeTitles>
          <publication>
             <arr>
                <i>
                   <place>Zürich</place>
                   <publisher>Theologischer Verlag Zürich</publisher>
-                  <dateOfPublication>2019 (2019)</dateOfPublication>
+                  <dateOfPublication>2019</dateOfPublication>
                   <role>Publisher</role>
                </i>
             </arr>
@@ -19068,6 +19215,7 @@
                <i>ger</i>
             </arr>
          </languages>
+         <series/>
          <physicalDescriptions>
             <arr>
                <i>1340, 264, 434, 166 Seiten, 8 ungezählte Seiten : Karten ; 23 cm + Zur Erinnerung an die Trauung (1 ungezähltes Faltblatt)</i>
@@ -19313,8 +19461,11 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>Diese Tage her, seit ich Deinen Brief empfangen, war ich im Grunde etwas … , 08.05.1826. - Benediktinerabtei St. Bonifaz in München und Andechs</indexTitle>
          <title>Diese Tage her, seit ich Deinen Brief empfangen, war ich im Grunde etwas … , 08.05.1826. -  Benediktinerabtei St. Bonifaz in München und Andechs</title>
+         <indexTitle>Diese Tage her, seit ich Deinen Brief empfangen, war ich im Grunde etwas … , 08.05.1826. -  Benediktinerabtei St. Bonifaz in München und Andechs</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
          <contributors>
             <arr>
                <i>
@@ -19336,7 +19487,7 @@
                <i>
                   <place>Wien</place>
                   <publisher/>
-                  <dateOfPublication>1826 (08.05.1826)</dateOfPublication>
+                  <dateOfPublication>08.05.1826</dateOfPublication>
                   <role>Publisher</role>
                </i>
             </arr>
@@ -19362,6 +19513,7 @@
                <i>ger</i>
             </arr>
          </languages>
+         <series/>
          <physicalDescriptions>
             <arr>
                <i>2 DBl., 5 ¾ S.</i>
@@ -19547,8 +19699,8 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>Jubiläumsfestschrift St. Alban- St. Jakobus Mainz 1936 St. Alban, 1966 St. Jakobus, 1982 St. Alban- St. Jakobus [Hrsg.: Pfarrgemeinde St. Alban- St. Jakobus, Mainz. Red.: Franz Weinzinger, ...]</indexTitle>
          <title>Jubiläumsfestschrift St. Alban- St. Jakobus Mainz : 1936 St. Alban, 1966 St. Jakobus, 1982 St. Alban- St. Jakobus / [Hrsg.: Pfarrgemeinde St. Alban- St. Jakobus, Mainz. Red.: Franz Weinzinger, ...]</title>
+         <indexTitle>Jubiläumsfestschrift St. Alban- St. Jakobus Mainz 1936 St. Alban, 1966 St. Jakobus, 1982 St. Alban- St. Jakobus [Hrsg.: Pfarrgemeinde St. Alban- St. Jakobus, Mainz. Red.: Franz Weinzinger, ...]</indexTitle>
          <alternativeTitles>
             <arr>
                <i>
@@ -19576,7 +19728,7 @@
                <i>
                   <place>Mainz</place>
                   <publisher>Pfarrgemeinde St. Alban- St. Jakobus</publisher>
-                  <dateOfPublication>1986 ([1986])</dateOfPublication>
+                  <dateOfPublication>[1986]</dateOfPublication>
                   <role>Publisher</role>
                </i>
             </arr>
@@ -19589,6 +19741,7 @@
                <i>ger</i>
             </arr>
          </languages>
+         <series/>
          <physicalDescriptions>
             <arr>
                <i>80 S.</i>
@@ -19902,8 +20055,8 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>Galenische Übungen Barbara Willner ; Iris Cutt</indexTitle>
          <title>Galenische Übungen / Barbara Willner ; Iris Cutt</title>
+         <indexTitle>Galenische Übungen Barbara Willner ; Iris Cutt</indexTitle>
          <alternativeTitles>
             <arr>
                <i>
@@ -20718,8 +20871,11 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>Ästhetische Grundbegriffe (ÄGB) ; historisches Wörterbuch in sieben Bänden hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ...</indexTitle>
-         <title>Ästhetische Grundbegriffe : (ÄGB) ; historisches Wörterbuch in sieben Bänden / hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ... (7)</title>
+         <title>Ästhetische Grundbegriffe : (ÄGB) ; historisches Wörterbuch in sieben Bänden / hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ... ; 7 ; Supplemente, Register</title>
+         <indexTitle>Ästhetische Grundbegriffe (ÄGB) ; historisches Wörterbuch in sieben Bänden hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ... 7 Supplemente, Register</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
          <contributors>
             <arr>
                <i>
@@ -20752,9 +20908,10 @@
                <i>ger</i>
             </arr>
          </languages>
+         <series/>
          <physicalDescriptions>
             <arr>
-               <i>XV, 671 S. : Ill., graph. Darst.</i>
+               <i>XV, 671 S. : Ill., graph. Darst. + 1 Beil. (Lemmata)</i>
             </arr>
          </physicalDescriptions>
       </instance>
@@ -21834,8 +21991,11 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>Ästhetische Grundbegriffe (ÄGB) ; historisches Wörterbuch in sieben Bänden hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ...</indexTitle>
-         <title>Ästhetische Grundbegriffe : (ÄGB) ; historisches Wörterbuch in sieben Bänden / hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ... (2)</title>
+         <title>Ästhetische Grundbegriffe : (ÄGB) ; historisches Wörterbuch in sieben Bänden / hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ... ; 2 ; Dekadent - Grotesk</title>
+         <indexTitle>Ästhetische Grundbegriffe (ÄGB) ; historisches Wörterbuch in sieben Bänden hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ... 2 Dekadent - Grotesk</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
          <contributors>
             <arr>
                <i>
@@ -21868,6 +22028,7 @@
                <i>ger</i>
             </arr>
          </languages>
+         <series/>
          <physicalDescriptions>
             <arr>
                <i>XVI, 900 S. : Ill.</i>
@@ -22601,8 +22762,11 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>Praxisleitfaden Allgemeinmedizin Herausgeber Prof. Dr. med. Stefan Gesenhues, Dr. med. Anne Gesenhues, Ochtrup und Essen ; mit Beiträgen von Prof. Claudia Bausewein, PhD MSc, München und 27 weiteren</indexTitle>
          <title>Praxisleitfaden Allgemeinmedizin / Herausgeber Prof. Dr. med. Stefan Gesenhues, Dr. med. Anne Gesenhues, Ochtrup und Essen ; mit Beiträgen von Prof. Claudia Bausewein, PhD MSc, München und 27 weiteren</title>
+         <indexTitle>Praxisleitfaden Allgemeinmedizin Herausgeber Prof. Dr. med. Stefan Gesenhues, Dr. med. Anne Gesenhues, Ochtrup und Essen ; mit Beiträgen von Prof. Claudia Bausewein, PhD MSc, München und 27 weiteren</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
          <contributors>
             <arr>
                <i>
@@ -22624,7 +22788,7 @@
                <i>
                   <place>München</place>
                   <publisher>Urban &amp; Fischer in Elsevier</publisher>
-                  <dateOfPublication>2020 (2020)</dateOfPublication>
+                  <dateOfPublication>2020</dateOfPublication>
                   <role>Publisher</role>
                </i>
             </arr>
@@ -23095,8 +23259,11 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>Max Mohr Arzt und rastloser Literat Florian Steger ; unter Mitarbeit von Martin Regenbrecht</indexTitle>
          <title>Max Mohr : Arzt und rastloser Literat / Florian Steger ; unter Mitarbeit von Martin Regenbrecht</title>
+         <indexTitle>Max Mohr Arzt und rastloser Literat Florian Steger ; unter Mitarbeit von Martin Regenbrecht</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
          <contributors>
             <arr>
                <i>
@@ -23119,7 +23286,7 @@
                <i>
                   <place>Regensburg</place>
                   <publisher>Verlag Friedrich Pustet</publisher>
-                  <dateOfPublication>2020 ([2020])</dateOfPublication>
+                  <dateOfPublication>[2020]</dateOfPublication>
                   <role>Publisher</role>
                </i>
             </arr>
@@ -23482,8 +23649,8 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>Lauterkeitsrecht von Tobias Lettl</indexTitle>
          <title>Lauterkeitsrecht / von Tobias Lettl</title>
+         <indexTitle>Lauterkeitsrecht von Tobias Lettl</indexTitle>
          <alternativeTitles>
             <arr>
                <i>
@@ -23512,7 +23679,7 @@
                <i>
                   <place>München</place>
                   <publisher>C.H.Beck</publisher>
-                  <dateOfPublication>2021 (2021)</dateOfPublication>
+                  <dateOfPublication>2021</dateOfPublication>
                   <role>Publisher</role>
                </i>
             </arr>
@@ -23918,8 +24085,11 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>Kitāb Ḫāṣṣ al-Ḫāṣṣ fī al-amṯāl Kitāb Khāṣṣ al-Khāṣṣ Abū Manṣūr al-Tha᾽ālibī . Edited by Ramzi Baalbaki, Bilal Orfali</indexTitle>
          <title>Kitāb Ḫāṣṣ al-Ḫāṣṣ fī al-amṯāl : Kitāb Khāṣṣ al-Khāṣṣ / Abū Manṣūr al-Tha᾽ālibī . Edited by Ramzi Baalbaki, Bilal Orfali</title>
+         <indexTitle>Kitāb Ḫāṣṣ al-Ḫāṣṣ fī al-amṯāl Kitāb Khāṣṣ al-Khāṣṣ Abū Manṣūr al-Tha᾽ālibī . Edited by Ramzi Baalbaki, Bilal Orfali</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
          <contributors>
             <arr>
                <i>
@@ -23954,19 +24124,19 @@
                <i>
                   <place>Berlin</place>
                   <publisher>De Gruyter</publisher>
-                  <dateOfPublication>2020 (2020)</dateOfPublication>
+                  <dateOfPublication>2020</dateOfPublication>
                   <role>Publisher</role>
                </i>
                <i>
                   <place>Beirut</place>
                   <publisher>Orient-Institut</publisher>
-                  <dateOfPublication>2020 (2020)</dateOfPublication>
+                  <dateOfPublication>2020</dateOfPublication>
                   <role>Publisher</role>
                </i>
                <i>
                   <place>Bairūt</place>
                   <publisher>Maʿhad al-Almānī li-l-Abḥāṯ aš-Šarqīya</publisher>
-                  <dateOfPublication>2020 (2020)</dateOfPublication>
+                  <dateOfPublication>2020</dateOfPublication>
                   <role>Publisher</role>
                </i>
             </arr>
@@ -23993,7 +24163,7 @@
          </languages>
          <series>
             <arr>
-               <i>Bibliotheca Islamica</i>
+               <i>Bibliotheca Islamica ; 61</i>
             </arr>
          </series>
          <physicalDescriptions>
@@ -24247,8 +24417,11 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>Factorization of non-symmetric operators and exponential H-theorem M.P. Gualdani, S. Mischler, C. Mouhot</indexTitle>
          <title>Factorization of non-symmetric operators and exponential H-theorem / M.P. Gualdani, S. Mischler, C. Mouhot</title>
+         <indexTitle>Factorization of non-symmetric operators and exponential H-theorem M.P. Gualdani, S. Mischler, C. Mouhot</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
          <contributors>
             <arr>
                <i>
@@ -24277,7 +24450,7 @@
                <i>
                   <place>Paris</place>
                   <publisher>Société Mathématique de France</publisher>
-                  <dateOfPublication>2017 (2017)</dateOfPublication>
+                  <dateOfPublication>2017</dateOfPublication>
                   <role>Publisher</role>
                </i>
             </arr>
@@ -24304,7 +24477,7 @@
          </languages>
          <series>
             <arr>
-               <i>Mémoires de la SMF</i>
+               <i>Mémoires de la SMF ; Nouvelle série, numéro 153</i>
             </arr>
          </series>
          <physicalDescriptions>
@@ -24532,14 +24705,17 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>Lh Le magazine</indexTitle>
          <title>Lh Le magazine</title>
+         <indexTitle>Lh Le magazine</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
          <publication>
             <arr>
                <i>
                   <place>Paris</place>
                   <publisher>Electre, SA</publisher>
-                  <dateOfPublication>2020 ([2020]-)</dateOfPublication>
+                  <dateOfPublication>[2020]-</dateOfPublication>
                   <role>Publisher</role>
                </i>
             </arr>
@@ -24575,6 +24751,7 @@
                <i>fre</i>
             </arr>
          </languages>
+         <series/>
       </instance>
       <instanceRelations>
          <precedingTitles>
@@ -24946,8 +25123,11 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>Wirtschaftsstrafrecht Prof. Dr. Dr. Hauke Brettel (Johannes Gutenberg-Universität Mainz), Prof. Dr. Hendrik Schneider (Universität Leipzig)</indexTitle>
          <title>Wirtschaftsstrafrecht / Prof. Dr. Dr. Hauke Brettel (Johannes Gutenberg-Universität Mainz), Prof. Dr. Hendrik Schneider (Universität Leipzig)</title>
+         <indexTitle>Wirtschaftsstrafrecht Prof. Dr. Dr. Hauke Brettel (Johannes Gutenberg-Universität Mainz), Prof. Dr. Hendrik Schneider (Universität Leipzig)</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
          <contributors>
             <arr>
                <i>
@@ -24970,7 +25150,7 @@
                <i>
                   <place>Baden-Baden</place>
                   <publisher>Nomos</publisher>
-                  <dateOfPublication>2021 (2021)</dateOfPublication>
+                  <dateOfPublication>2021</dateOfPublication>
                   <role>Publisher</role>
                </i>
             </arr>
@@ -25434,8 +25614,11 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>Christus allein - allein das Christentum? Vorträge der vierten theologischen Konferenz zwischen Vertretern der Evangelischen Kirche in Deutschland und der Kirche von England hrsg. von Klaus Kremkau</indexTitle>
          <title>Christus allein - allein das Christentum? : Vorträge der vierten theologischen Konferenz zwischen Vertretern der Evangelischen Kirche in Deutschland und der Kirche von England / hrsg. von Klaus Kremkau</title>
+         <indexTitle>Christus allein - allein das Christentum? Vorträge der vierten theologischen Konferenz zwischen Vertretern der Evangelischen Kirche in Deutschland und der Kirche von England hrsg. von Klaus Kremkau</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
          <contributors>
             <arr>
                <i>
@@ -25474,7 +25657,7 @@
          </languages>
          <series>
             <arr>
-               <i>Beiheft zur Ökumenischen Rundschau</i>
+               <i>Beiheft zur Ökumenischen Rundschau ; 36</i>
             </arr>
          </series>
          <physicalDescriptions>
