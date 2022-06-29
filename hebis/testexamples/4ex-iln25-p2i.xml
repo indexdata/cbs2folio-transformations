@@ -263,8 +263,11 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>Gerthsen Physik Dieter Meschede [Hrsg.]</indexTitle>
          <title>Gerthsen Physik / Dieter Meschede [Hrsg.]</title>
+         <indexTitle>Gerthsen Physik Dieter Meschede [Hrsg.]</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
          <contributors>
             <arr>
                <i>
@@ -608,8 +611,11 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>kurze Geschichte der Zeit die Suche nach der Urkraft des Universums Stephen W. Hawking. Mit e. Einl. von Carl Sagan. Dt. von Hainer Kober unter fachl. Beratung von Bernd Schmidt</indexTitle>
          <title>Eine kurze Geschichte der Zeit : die Suche nach der Urkraft des Universums / Stephen W. Hawking. Mit e. Einl. von Carl Sagan. Dt. von Hainer Kober unter fachl. Beratung von Bernd Schmidt</title>
+         <indexTitle>kurze Geschichte der Zeit die Suche nach der Urkraft des Universums Stephen W. Hawking. Mit e. Einl. von Carl Sagan. Dt. von Hainer Kober unter fachl. Beratung von Bernd Schmidt</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
          <contributors>
             <arr>
                <i>
@@ -637,6 +643,7 @@
                <i>ger</i>
             </arr>
          </languages>
+         <series/>
          <physicalDescriptions>
             <arr>
                <i>238 S. : Ill., graph. Darst.</i>
@@ -864,8 +871,8 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>Annalen der Physik hrsg. unter Mitw. der Deutschen Physikalischen Gesellschaft. unter Mitw. ... hrsg. von E. Grüneisen [u.a.]</indexTitle>
          <title>Annalen der Physik / hrsg. unter Mitw. der Deutschen Physikalischen Gesellschaft. unter Mitw. ... hrsg. von E. Grüneisen [u.a.]</title>
+         <indexTitle>Annalen der Physik hrsg. unter Mitw. der Deutschen Physikalischen Gesellschaft. unter Mitw. ... hrsg. von E. Grüneisen [u.a.]</indexTitle>
          <alternativeTitles>
             <arr>
                <i>
@@ -887,13 +894,13 @@
                <i>
                   <place>Leipzig</place>
                   <publisher>Barth</publisher>
-                  <dateOfPublication>1799-1943 (1799-1943)</dateOfPublication>
+                  <dateOfPublication>1799-1943</dateOfPublication>
                   <role>Publisher</role>
                </i>
                <i>
                   <place>Halle</place>
                   <publisher>früher: Renger (anfangs)</publisher>
-                  <dateOfPublication>1799-1943 (1799-1943)</dateOfPublication>
+                  <dateOfPublication>1799-1943</dateOfPublication>
                   <role>Publisher</role>
                </i>
             </arr>
@@ -952,6 +959,7 @@
                <i>ger</i>
             </arr>
          </languages>
+         <series/>
          <physicalDescriptions>
             <arr>
                <i>Online-Ressource</i>
@@ -1177,8 +1185,11 @@
                </i>
             </arr>
          </identifiers>
-         <indexTitle>Kulturgeschichte der Physik K. Simonyi</indexTitle>
          <title>Kulturgeschichte der Physik / K. Simonyi</title>
+         <indexTitle>Kulturgeschichte der Physik K. Simonyi</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
          <contributors>
             <arr>
                <i>
@@ -1206,6 +1217,7 @@
                <i>ger</i>
             </arr>
          </languages>
+         <series/>
          <physicalDescriptions>
             <arr>
                <i>575 S. : zahlr. Ill. und graph. Darst., Kt.</i>
