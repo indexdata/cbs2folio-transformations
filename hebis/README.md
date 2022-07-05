@@ -22,9 +22,9 @@ mappings "pica2instance-new.xsl" and "relationships.xsl" are generally re-used f
 
 ## How to get local UUIDs for locations and loan-types
 
-A convenient way to get UUIDs for locations and loan types directly from the FOLIO APIs via the built-in Okapi query client. 
-You can access it by selecting 'Settings' -> 'Developers' -> 'Okapi Query'.
-Simply type 'locations' or 'loan types' into the query and run the query to get the results:
+A convenient way to get UUIDs for locations and loan types directly from the FOLIO APIs via the built-in Okapi query client.   
+You can access it by selecting 'Settings' -> 'Developers' -> 'Okapi Query'.  
+Simply type 'locations' or 'loan types' into the query and run the query to get the results:  
 
 ![Okapi query client](./FOLIO-OKAPI-Client.PNG)
 
