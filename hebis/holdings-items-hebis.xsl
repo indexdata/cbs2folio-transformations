@@ -235,6 +235,7 @@
                 </i>
               </xsl:if>
             </xsl:for-each>
+            <!-- Lokale Schlüssel: verschieben von item auf holding -->
             <xsl:for-each select="datafield[@tag='209B' and not(subfield[@code='x']='01' or subfield[@code='x']='02')]">
               <i>
                 <note>

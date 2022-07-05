@@ -16,19 +16,10 @@
     <permanentLocationId>
       <xsl:choose>
         <xsl:when test=".='DUMMY'">6276b77c-d3fc-419e-a968-776b8e24657c</xsl:when>
-        <xsl:when test=".='INST005'">1b525a41-73d6-4a0b-9b5d-9b138031e463</xsl:when>
+        <xsl:when test=".='ABT021FREIHAND'">TBD</xsl:when>
         <xsl:when test=".='INST024'">fb64e20a-3822-4035-bcaa-a17296780b17</xsl:when>
         <xsl:when test=".='L4EG'">bcd7cdc8-599b-4d1d-aec7-e13808f34c80</xsl:when>
-        <xsl:when test=".='L4OG1'">2ff490b8-b299-40aa-9b1c-ba85dd04adca</xsl:when>
-        <xsl:when test=".='L4OG2'">0a67502a-dd82-408d-9f78-a87eabe650e6</xsl:when>
-        <xsl:when test=".='L4OG3'">bb2c812e-9007-42de-a207-a9205c796c73</xsl:when>
-        <xsl:when test=".='MAG'">88b67ebc-2290-4a6e-870a-f5aec7ec650d</xsl:when>
-        <xsl:when test=".='ONLINE'">67839ee1-92e2-4c45-a4f7-53808f235b26</xsl:when>
-        <xsl:when test=".='S1EG'">53a73e5d-1a6c-4c6f-9b9f-341d9d6052ae</xsl:when>
-        <xsl:when test=".='S1OG1'">636abb41-c7e5-4f85-b902-628d95d63ae9</xsl:when>
-        <xsl:when test=".='S1OG2'">c10144ce-6486-44ae-84d6-33de5240fafd</xsl:when>
-        <xsl:when test=".='S1OG3'">a8a1d143-0f0f-4f69-9406-552af1339ad6</xsl:when>
-        <xsl:when test=".='S1OG4'">5e6a6254-9cb1-4ca4-ba90-65fdcbb7da20</xsl:when>
+
         <xsl:otherwise>5017a025-9055-41cf-9466-5c2ea4e207f0</xsl:otherwise> <!-- UNDEF -->
       </xsl:choose>
     </permanentLocationId>

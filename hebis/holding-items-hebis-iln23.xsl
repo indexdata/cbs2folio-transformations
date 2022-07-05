@@ -34,14 +34,14 @@
            </xsl:choose>
          </xsl:when>
          <!-- Hier abt='001' ergaenzen, wenn Schlossumzug -->
-         <xsl:when test="$abt='002'">
+         <xsl:when test="$abt='021'">
            <xsl:choose>
              <xsl:when test="$standort='Erdgeschoss'">L4EG</xsl:when>
              <xsl:when test="$standort='1. Obergeschoss'">L41OG</xsl:when>
              <xsl:when test="$standort='2. Obergeschoss'">L42OG</xsl:when>
              <xsl:when test="$standort='3. Obergeschoss'">L43OG</xsl:when>
-             <!-- Sonderbereich? -->   
-             <xsl:otherwise>UNDEF</xsl:otherwise>
+   
+             <xsl:otherwise>ABT021FREIHAND</xsl:otherwise>
            </xsl:choose>
          </xsl:when>
          <xsl:when test="$abt='005'">INST005</xsl:when>
@@ -75,7 +75,7 @@
     </permanentLoanTypeId>
   </xsl:template>
 
-  <xsl:template match="discoverySuppress"> <!-- uses 208@$b (und/oder Kat. 247E/XY ?) -->
+  <xsl:template match="discoverySuppress"> <!-- uses 208@$b (TBD? Kat. 4850 bzw. 247E/XY ?) -->
     <discoverySuppress>
       <!-- MZ: <xsl:value-of select="(substring(., 1, 1) = 'g') or (substring(., 2, 1) = 'y') or (substring(., 2, 1) = 'z')"/> 
            DA: nicht anzeigen: Pos.2: f, p, y, z -->
@@ -89,6 +89,7 @@
     <xsl:param name="cn"/>
     <xsl:param name="cnprefixelement"/>
     <xsl:param name="cnelement"/>
+    <!-- Anpassen -->
     <xsl:variable name="cnprefix">
       <xsl:choose>
         <xsl:when test="contains($cn,'°')">
@@ -99,6 +100,8 @@
         </xsl:when>
       </xsl:choose>
     </xsl:variable>
+    <!-- Anpassen Ende -->
+
     <xsl:message>Debug: <xsl:value-of select="$cnelement"/> Prefix "<xsl:value-of select="$cnprefix"/>"</xsl:message>
     <xsl:if test="string-length($cnprefix)>0">
       <xsl:element name="{$cnprefixelement}">
