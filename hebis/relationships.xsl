@@ -73,9 +73,11 @@
   <xsl:template match="text()"/>
   
   <xsl:template name="rel-body">
-    <instanceIdentifier>
-      <hrid><xsl:value-of select="./subfield[@code='9']"/></hrid>
-    </instanceIdentifier>
+    <xsl:if test="./subfield[@code='9']">
+      <instanceIdentifier>
+        <hrid><xsl:value-of select="./subfield[@code='9']"/></hrid>
+      </instanceIdentifier>
+    </xsl:if>
     <provisionalInstance>
       <title>
         <xsl:choose>
