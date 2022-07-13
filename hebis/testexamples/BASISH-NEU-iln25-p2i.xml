@@ -230,7 +230,11 @@
                <i>eng</i>
             </arr>
          </languages>
-         <series/>
+         <series>
+            <arr>
+               <i/>
+            </arr>
+         </series>
          <physicalDescriptions>
             <arr>
                <i>Online-Ressource</i>
@@ -475,7 +479,11 @@
                <i>dut</i>
             </arr>
          </languages>
-         <series/>
+         <series>
+            <arr>
+               <i/>
+            </arr>
+         </series>
          <physicalDescriptions>
             <arr>
                <i>407 S. : Ill., Kt.</i>
@@ -768,7 +776,7 @@
             </arr>
          </identifiers>
          <title>The Cambridge companion to literature and food / edited by J. Michelle Coghlan, University of Manchester</title>
-         <indexTitle>Cambridge companion to literature and food edited by J. Michelle Coghlan, University of Manchester</indexTitle>
+         <indexTitle>Cambridge companion to literature and food edited by J Michelle Coghlan, University of Manchester</indexTitle>
          <alternativeTitles>
             <arr>
                <i>
@@ -820,6 +828,9 @@
          <series>
             <arr>
                <i>Cambridge companions : Literature</i>
+            </arr>
+            <arr>
+               <i/>
             </arr>
          </series>
          <physicalDescriptions>
@@ -1047,7 +1058,7 @@
             </arr>
          </identifiers>
          <title>Teatro / António Pedro. Coord. de António Brás de Oliveira. Pref. de Luiz Francisco Rebello</title>
-         <indexTitle>Teatro António Pedro. Coord. de António Brás de Oliveira. Pref. de Luiz Francisco Rebello</indexTitle>
+         <indexTitle>Teatro António Pedro Coord de António Brás de Oliveira Pref de Luiz Francisco Rebello</indexTitle>
          <alternativeTitles>
             <arr/>
          </alternativeTitles>
@@ -1091,6 +1102,9 @@
          <series>
             <arr>
                <i>Autores portugueses dos séculos XIX e XX</i>
+            </arr>
+            <arr>
+               <i/>
             </arr>
          </series>
          <physicalDescriptions>
@@ -1296,7 +1310,7 @@
             </arr>
          </identifiers>
          <title>Phosphor-(III)-funktionalisierte 1,8-Naphthyridin- und Harnstoff-Derivate und deren Anwendung in der Übergangsmetall-katalysierten homogenen Katalyse / vorgelegt von Marc Awenius</title>
-         <indexTitle>Phosphor-(III)-funktionalisierte 1,8-Naphthyridin- und Harnstoff-Derivate und deren Anwendung in der Übergangsmetall-katalysierten homogenen Katalyse vorgelegt von Marc Awenius</indexTitle>
+         <indexTitle>Phosphor-III-funktionalisierte 1,8-Naphthyridin- und Harnstoff-Derivate und deren Anwendung in der Übergangsmetall-katalysierten homogenen Katalyse vorgelegt von Marc Awenius</indexTitle>
          <alternativeTitles>
             <arr/>
          </alternativeTitles>
@@ -1325,7 +1339,11 @@
                <i>ger</i>
             </arr>
          </languages>
-         <series/>
+         <series>
+            <arr>
+               <i/>
+            </arr>
+         </series>
          <physicalDescriptions>
             <arr>
                <i>[11], 261 S. : Ill., graph. Darst. ; 21 cm</i>
@@ -1640,6 +1658,9 @@
             <arr>
                <i>Beck-online</i>
             </arr>
+            <arr>
+               <i/>
+            </arr>
          </series>
          <physicalDescriptions>
             <arr>
@@ -1901,6 +1922,9 @@
          <series>
             <arr>
                <i>Utb ; 5556</i>
+            </arr>
+            <arr>
+               <i/>
             </arr>
          </series>
          <physicalDescriptions>
@@ -2584,8 +2608,8 @@
                </i>
             </arr>
          </identifiers>
-         <title>Ästhetische Grundbegriffe : (ÄGB) ; historisches Wörterbuch in sieben Bänden / hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ... ; 4 ; Medien - Populär</title>
-         <indexTitle>Ästhetische Grundbegriffe (ÄGB) ; historisches Wörterbuch in sieben Bänden hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ... 4Medien - Populär</indexTitle>
+         <title>Ästhetische Grundbegriffe : (ÄGB) ; historisches Wörterbuch in sieben Bänden / hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ... ; 4, Medien - Populär</title>
+         <indexTitle>Ästhetische Grundbegriffe ÄGB ; historisches Wörterbuch in sieben Bänden hrsg von Karlheinz Barck ; Friedrich Wolfzettel 4 Medien - Populär</indexTitle>
          <alternativeTitles>
             <arr/>
          </alternativeTitles>
@@ -2621,7 +2645,11 @@
                <i>ger</i>
             </arr>
          </languages>
-         <series/>
+         <series>
+            <arr>
+               <i/>
+            </arr>
+         </series>
          <physicalDescriptions>
             <arr>
                <i>XV, 884 S.</i>
@@ -3705,8 +3733,8 @@
                </i>
             </arr>
          </identifiers>
-         <title>Ästhetische Grundbegriffe : (ÄGB) ; historisches Wörterbuch in sieben Bänden / hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ... ; 5 ; Postmoderne - Synästhesie</title>
-         <indexTitle>Ästhetische Grundbegriffe (ÄGB) ; historisches Wörterbuch in sieben Bänden hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ... 5Postmoderne - Synästhesie</indexTitle>
+         <title>Ästhetische Grundbegriffe : (ÄGB) ; historisches Wörterbuch in sieben Bänden / hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ... ; 5, Postmoderne - Synästhesie</title>
+         <indexTitle>Ästhetische Grundbegriffe ÄGB ; historisches Wörterbuch in sieben Bänden hrsg von Karlheinz Barck ; Friedrich Wolfzettel 5 Postmoderne - Synästhesie</indexTitle>
          <alternativeTitles>
             <arr/>
          </alternativeTitles>
@@ -3742,7 +3770,11 @@
                <i>ger</i>
             </arr>
          </languages>
-         <series/>
+         <series>
+            <arr>
+               <i/>
+            </arr>
+         </series>
          <physicalDescriptions>
             <arr>
                <i>XV, 868 S. : Notenbeisp.</i>
@@ -4359,7 +4391,7 @@
             </arr>
          </identifiers>
          <title>Jahrbuch Deutsche Einheit / Marcus Böick, Constantin Goschler, Ralph Jessen (Hg.)</title>
-         <indexTitle>Jahrbuch Deutsche Einheit Marcus Böick, Constantin Goschler, Ralph Jessen (Hg.)</indexTitle>
+         <indexTitle>Jahrbuch Deutsche Einheit Marcus Böick, Constantin Goschler, Ralph Jessen Hg</indexTitle>
          <alternativeTitles>
             <arr/>
          </alternativeTitles>
@@ -4418,7 +4450,11 @@
                <i>ger</i>
             </arr>
          </languages>
-         <series/>
+         <series>
+            <arr>
+               <i/>
+            </arr>
+         </series>
       </instance>
       <instanceRelations/>
       <processing>
@@ -4720,8 +4756,8 @@
                </i>
             </arr>
          </identifiers>
-         <title>Judith : formes et sens des diverses traditions / A. M. Dubarle ; 2 ; Textes</title>
-         <indexTitle>Judith formes et sens des diverses traditions A. M. Dubarle 2Textes</indexTitle>
+         <title>Judith : formes et sens des diverses traditions / A. M. Dubarle ; 2, Textes</title>
+         <indexTitle>Judith formes et sens des diverses traditions A M Dubarle 2 Textes</indexTitle>
          <alternativeTitles>
             <arr/>
          </alternativeTitles>
@@ -4756,6 +4792,9 @@
          <series>
             <arr>
                <i>Analecta biblica ; 24, 2</i>
+            </arr>
+            <arr>
+               <i/>
             </arr>
          </series>
          <physicalDescriptions>
@@ -5563,8 +5602,8 @@
                </i>
             </arr>
          </identifiers>
-         <title>Ästhetische Grundbegriffe : (ÄGB) ; historisches Wörterbuch in sieben Bänden / hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ... ; 6 ; Tanz - Zeitalter/Epoche</title>
-         <indexTitle>Ästhetische Grundbegriffe (ÄGB) ; historisches Wörterbuch in sieben Bänden hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ... 6Tanz - Zeitalter/Epoche</indexTitle>
+         <title>Ästhetische Grundbegriffe : (ÄGB) ; historisches Wörterbuch in sieben Bänden / hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ... ; 6, Tanz - Zeitalter/Epoche</title>
+         <indexTitle>Ästhetische Grundbegriffe ÄGB ; historisches Wörterbuch in sieben Bänden hrsg von Karlheinz Barck ; Friedrich Wolfzettel 6 Tanz - Zeitalter/Epoche</indexTitle>
          <alternativeTitles>
             <arr/>
          </alternativeTitles>
@@ -5600,7 +5639,11 @@
                <i>ger</i>
             </arr>
          </languages>
-         <series/>
+         <series>
+            <arr>
+               <i/>
+            </arr>
+         </series>
          <physicalDescriptions>
             <arr>
                <i>XV, 810 S.</i>
@@ -6361,7 +6404,7 @@
             </arr>
          </identifiers>
          <title>Gutes Leben auf dem Land? : Imaginationen und Projektionen vom 18. Jahrhundert bis zur Gegenwart / Werner Nell, Marc Weiland</title>
-         <indexTitle>Gutes Leben auf dem Land? Imaginationen und Projektionen vom 18. Jahrhundert bis zur Gegenwart Werner Nell, Marc Weiland</indexTitle>
+         <indexTitle>Gutes Leben auf dem Land? Imaginationen und Projektionen vom 18 Jahrhundert bis zur Gegenwart Werner Nell, Marc Weiland</indexTitle>
          <alternativeTitles>
             <arr/>
          </alternativeTitles>
@@ -6573,6 +6616,9 @@
          <series>
             <arr>
                <i>Rurale Topografien ; 12</i>
+            </arr>
+            <arr>
+               <i/>
             </arr>
          </series>
          <physicalDescriptions>
@@ -6818,7 +6864,11 @@
                <i>ger</i>
             </arr>
          </languages>
-         <series/>
+         <series>
+            <arr>
+               <i/>
+            </arr>
+         </series>
          <physicalDescriptions>
             <arr>
                <i>110 S.</i>
@@ -7160,6 +7210,9 @@
             <arr>
                <i>Académie des sciences</i>
             </arr>
+            <arr>
+               <i/>
+            </arr>
          </series>
          <physicalDescriptions>
             <arr>
@@ -7392,7 +7445,11 @@
                <i>ger</i>
             </arr>
          </languages>
-         <series/>
+         <series>
+            <arr>
+               <i/>
+            </arr>
+         </series>
          <physicalDescriptions>
             <arr>
                <i>Online-Ressource</i>
@@ -7651,7 +7708,11 @@
                <i>ger</i>
             </arr>
          </languages>
-         <series/>
+         <series>
+            <arr>
+               <i/>
+            </arr>
+         </series>
          <physicalDescriptions>
             <arr>
                <i>XXIV, 554 Seiten : Illustrationen ; 24 cm x 17 cm</i>
@@ -7905,7 +7966,7 @@
             </arr>
          </identifiers>
          <title>Mükemmel Osmanlı lügatı / Ali Nazîmâ, Faik Reşad. Hazırlayanlar Necat Birinci, Kâzım Yetiş, M. Fatih Andi, Erol Ülgen, Nuri Saglam, Ali Yükrü Coruk</title>
-         <indexTitle>Mükemmel Osmanlı lügatı Ali Nazîmâ, Faik Reşad. Hazırlayanlar Necat Birinci, Kâzım Yetiş, M. Fatih Andi, Erol Ülgen, Nuri Saglam, Ali Yükrü Coruk</indexTitle>
+         <indexTitle>Mükemmel Osmanlı lügatı Ali Nazîmâ, Faik Reşad Hazırlayanlar Necat Birinci, Kâzım Yetiş, M Fatih Andi, Erol Ülgen, Nuri Saglam, Ali Yükrü Coruk</indexTitle>
          <alternativeTitles>
             <arr/>
          </alternativeTitles>
@@ -7972,6 +8033,9 @@
             <arr>
                <i>Türk Dil Kurumu yayınları ; 802</i>
                <i>Türkiye Türkçesi sözlükleri projesi 1, Eski sözlükler dizisi ; 4</i>
+            </arr>
+            <arr>
+               <i/>
             </arr>
          </series>
          <physicalDescriptions>
@@ -8217,7 +8281,7 @@
                   <identifierTypeId>ISBN</identifierTypeId>
                </i>
                <i>
-                  <value>: 505/23754</value>
+                  <value>505/23754</value>
                   <identifierTypeId>Verlags-, Produktions- und Bestellnummer</identifierTypeId>
                </i>
                <i>
@@ -8243,7 +8307,7 @@
             </arr>
          </identifiers>
          <title>Briefwechsel / Voltaire ; Friedrich der Große. Hrsg. und übers. von Hans Pleschinski</title>
-         <indexTitle>Briefwechsel Voltaire ; Friedrich der Große. Hrsg. und übers. von Hans Pleschinski</indexTitle>
+         <indexTitle>Briefwechsel Voltaire ; Friedrich der Große Hrsg und übers von Hans Pleschinski</indexTitle>
          <alternativeTitles>
             <arr/>
          </alternativeTitles>
@@ -8291,7 +8355,11 @@
                <i>ger</i>
             </arr>
          </languages>
-         <series/>
+         <series>
+            <arr>
+               <i/>
+            </arr>
+         </series>
          <physicalDescriptions>
             <arr>
                <i>654 S. : Ill. ; 19 cm</i>
@@ -8562,8 +8630,8 @@
                </i>
             </arr>
          </identifiers>
-         <title>China entdecken ; Lehrbuch 4 ; / Autoren: Qi Shaoyan, Tan Qiuyu, Übersetzung ins Deutsche und Anpassung an deutschsprachige Lernende: Katrin Zimmermann, Andreas Guder</title>
-         <indexTitle>China entdecken Lehrbuch 4/ Autoren: Qi Shaoyan, Tan Qiuyu, Übersetzung ins Deutsche und Anpassung an deutschsprachige Lernende: Katrin Zimmermann, Andreas Guder</indexTitle>
+         <title>China entdecken ; Lehrbuch 4, / Autoren: Qi Shaoyan, Tan Qiuyu, Übersetzung ins Deutsche und Anpassung an deutschsprachige Lernende: Katrin Zimmermann, Andreas Guder</title>
+         <indexTitle>China entdecken Lehrbuch 4 / Autoren: Qi Shaoyan, Tan Qiuyu, Übersetzung ins Deutsche und Anpassung an deutschsprachige Lernende: Katrin Zimmermann, Andreas Guder</indexTitle>
          <alternativeTitles>
             <arr/>
          </alternativeTitles>
@@ -8614,7 +8682,11 @@
                <i>ger</i>
             </arr>
          </languages>
-         <series/>
+         <series>
+            <arr>
+               <i/>
+            </arr>
+         </series>
          <physicalDescriptions>
             <arr>
                <i>231 Seiten : Illustrationen + 2 Audio-CDs</i>
@@ -9142,6 +9214,9 @@
             <arr>
                <i>De Gruyter Studium</i>
             </arr>
+            <arr>
+               <i/>
+            </arr>
          </series>
          <physicalDescriptions>
             <arr>
@@ -9300,7 +9375,7 @@
             </arr>
          </identifiers>
          <title>Geschichte der Familie Schenk von Nydeggen, insbesondere des Kriegsabristen Martin Schenk von Nydeggen : mit geschichtlichen Nachrichten über Afferden, Blyenbeck ... Heyen u.a. Güter ; nach archivalischen u. anderen authentischen Quellen bearb.</title>
-         <indexTitle>Geschichte der Familie Schenk von Nydeggen, insbesondere des Kriegsabristen Martin Schenk von Nydeggen mit geschichtlichen Nachrichten über Afferden, Blyenbeck ... Heyen u.a. Güter ; nach archivalischen u. anderen authentischen Quellen bearb.</indexTitle>
+         <indexTitle>Geschichte der Familie Schenk von Nydeggen, insbesondere des Kriegsabristen Martin Schenk von Nydeggen mit geschichtlichen Nachrichten über Afferden, Blyenbeck  Heyen ua Güter ; nach archivalischen u anderen authentischen Quellen bearb</indexTitle>
          <alternativeTitles>
             <arr/>
          </alternativeTitles>
@@ -9322,7 +9397,11 @@
                <i>ger</i>
             </arr>
          </languages>
-         <series/>
+         <series>
+            <arr>
+               <i/>
+            </arr>
+         </series>
          <physicalDescriptions>
             <arr>
                <i>XI, 321 S.</i>
@@ -9733,6 +9812,9 @@
             <arr>
                <i>Narr Studienbücher</i>
             </arr>
+            <arr>
+               <i/>
+            </arr>
          </series>
          <physicalDescriptions>
             <arr>
@@ -10125,6 +10207,10 @@
                   <note>Jahrgangszählung ab 1. Jahrgang, 4. Quartal (2020) = Heft 3</note>
                   <instanceNoteTypeId>General note</instanceNoteTypeId>
                </i>
+               <i>
+                  <note>Computer + Unterricht</note>
+                  <instanceNoteTypeId>General note</instanceNoteTypeId>
+               </i>
             </arr>
          </notes>
          <natureOfContentTermIds>
@@ -10137,7 +10223,11 @@
                <i>ger</i>
             </arr>
          </languages>
-         <series/>
+         <series>
+            <arr>
+               <i/>
+            </arr>
+         </series>
          <physicalDescriptions>
             <arr>
                <i>Bände ; 30 cm</i>
@@ -10423,7 +10513,11 @@
                <i>eng</i>
             </arr>
          </languages>
-         <series/>
+         <series>
+            <arr>
+               <i/>
+            </arr>
+         </series>
          <physicalDescriptions>
             <arr>
                <i>Online-Ressource</i>
@@ -10829,6 +10923,9 @@
                <i>Studienbücher Chemie</i>
                <i>Lehrbuch</i>
             </arr>
+            <arr>
+               <i/>
+            </arr>
          </series>
          <physicalDescriptions>
             <arr>
@@ -11230,7 +11327,7 @@
             </arr>
          </identifiers>
          <title>Methoden zur Regenwurm-Extraktion : Vergleich der Formalin-, Senf- und Elektromethode / [Autor: F. Vetter]</title>
-         <indexTitle>Methoden zur Regenwurm-Extraktion Vergleich der Formalin-, Senf- und Elektromethode [Autor: F. Vetter]</indexTitle>
+         <indexTitle>Methoden zur Regenwurm-Extraktion Vergleich der Formalin-, Senf- und Elektromethode [Autor: F Vetter]</indexTitle>
          <alternativeTitles>
             <arr>
                <i>
@@ -11285,6 +11382,9 @@
          <series>
             <arr>
                <i>Umwelt-Materialien ; 62 : Boden</i>
+            </arr>
+            <arr>
+               <i/>
             </arr>
          </series>
          <physicalDescriptions>
@@ -11627,7 +11727,7 @@
             </arr>
          </identifiers>
          <title>Fälle zum Besonderen Verwaltungsrecht : Polizei- und Ordnungsrecht, Kommunalrecht mit Bezügen zum Verwaltungsprozessrecht / von Dr. iur. Stefan Muckel (Professor an der Universität zu Köln) ; begründet von Dr. iur. Wolfgang Rüfner (em. Professor an der Universität zu Köln)</title>
-         <indexTitle>Fälle zum Besonderen Verwaltungsrecht Polizei- und Ordnungsrecht, Kommunalrecht mit Bezügen zum Verwaltungsprozessrecht von Dr. iur. Stefan Muckel (Professor an der Universität zu Köln) ; begründet von Dr. iur. Wolfgang Rüfner (em. Professor an der Universität zu Köln)</indexTitle>
+         <indexTitle>Fälle zum Besonderen Verwaltungsrecht Polizei- und Ordnungsrecht, Kommunalrecht mit Bezügen zum Verwaltungsprozessrecht von Dr iur Stefan Muckel Professor an der Universität zu Köln ; begründet von Dr iur Wolfgang Rüfner em Professor an der Universität zu Köln</indexTitle>
          <alternativeTitles>
             <arr/>
          </alternativeTitles>
@@ -11682,6 +11782,9 @@
          <series>
             <arr>
                <i>Klausurenkurs Juristische Übungsbücher</i>
+            </arr>
+            <arr>
+               <i/>
             </arr>
          </series>
          <physicalDescriptions>
@@ -12035,7 +12138,7 @@
                   <identifierTypeId>ISBN</identifierTypeId>
                </i>
                <i>
-                  <value>: 10248</value>
+                  <value>10248</value>
                   <identifierTypeId>Verlags-, Produktions- und Bestellnummer</identifierTypeId>
                </i>
                <i>
@@ -12049,7 +12152,7 @@
             </arr>
          </identifiers>
          <title>Ursprung und Behandlung der Krankheiten / Hildegard von Bingen. Vollst. neu übers. und eingel. von Ortrun Riha</title>
-         <indexTitle>Ursprung und Behandlung der Krankheiten Hildegard von Bingen. Vollst. neu übers. und eingel. von Ortrun Riha</indexTitle>
+         <indexTitle>Ursprung und Behandlung der Krankheiten Hildegard von Bingen Vollst neu übers und eingel von Ortrun Riha</indexTitle>
          <alternativeTitles>
             <arr>
                <i>
@@ -12100,6 +12203,9 @@
          <series>
             <arr>
                <i>Werke / Hildegard von Bingen. Hrsg. von der Abtei St. Hildegard, Eibingen ; 2</i>
+            </arr>
+            <arr>
+               <i/>
             </arr>
          </series>
          <physicalDescriptions>
@@ -12442,6 +12548,9 @@
             <arr>
                <i>Greifswalder theologische Forschungen (GTHF) ; Band 30</i>
             </arr>
+            <arr>
+               <i/>
+            </arr>
          </series>
          <physicalDescriptions>
             <arr>
@@ -12734,7 +12843,11 @@
                <i>ger</i>
             </arr>
          </languages>
-         <series/>
+         <series>
+            <arr>
+               <i/>
+            </arr>
+         </series>
          <physicalDescriptions>
             <arr>
                <i>XIII, 258 S. : Ill., graph. Darst</i>
@@ -13065,6 +13178,14 @@
          <notes>
             <arr>
                <i>
+                  <note>Lire</note>
+                  <instanceNoteTypeId>General note</instanceNoteTypeId>
+               </i>
+               <i>
+                  <note>Le @nouveau magazine littéraire</note>
+                  <instanceNoteTypeId>General note</instanceNoteTypeId>
+               </i>
+               <i>
                   <note>Zählung von Lire übernommen</note>
                   <instanceNoteTypeId>Numbering peculiarities note</instanceNoteTypeId>
                </i>
@@ -13080,7 +13201,11 @@
                <i>fre</i>
             </arr>
          </languages>
-         <series/>
+         <series>
+            <arr>
+               <i/>
+            </arr>
+         </series>
          <physicalDescriptions>
             <arr>
                <i>Bände</i>
@@ -13782,6 +13907,9 @@
          <series>
             <arr>
                <i>Prometheus : LernAtlas der Anatomie / Michael Schünke ; Erik Schulte ; Udo Schumacher. Ill. von Markus Voll ...</i>
+            </arr>
+            <arr>
+               <i/>
             </arr>
          </series>
          <physicalDescriptions>
@@ -16100,8 +16228,8 @@
                </i>
             </arr>
          </identifiers>
-         <title>Ästhetische Grundbegriffe : (ÄGB) ; historisches Wörterbuch in sieben Bänden / hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ... ; 3 ; Harmonie - Material</title>
-         <indexTitle>Ästhetische Grundbegriffe (ÄGB) ; historisches Wörterbuch in sieben Bänden hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ... 3Harmonie - Material</indexTitle>
+         <title>Ästhetische Grundbegriffe : (ÄGB) ; historisches Wörterbuch in sieben Bänden / hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ... ; 3, Harmonie - Material</title>
+         <indexTitle>Ästhetische Grundbegriffe ÄGB ; historisches Wörterbuch in sieben Bänden hrsg von Karlheinz Barck ; Friedrich Wolfzettel 3 Harmonie - Material</indexTitle>
          <alternativeTitles>
             <arr/>
          </alternativeTitles>
@@ -16137,7 +16265,11 @@
                <i>ger</i>
             </arr>
          </languages>
-         <series/>
+         <series>
+            <arr>
+               <i/>
+            </arr>
+         </series>
          <physicalDescriptions>
             <arr>
                <i>XIV, 882 S. : graph. Darst.</i>
@@ -16724,7 +16856,7 @@
             </arr>
          </identifiers>
          <title>Ästhetische Grundbegriffe : (ÄGB) ; historisches Wörterbuch in sieben Bänden / hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ...</title>
-         <indexTitle>Ästhetische Grundbegriffe (ÄGB) ; historisches Wörterbuch in sieben Bänden hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ...</indexTitle>
+         <indexTitle>Ästhetische Grundbegriffe ÄGB ; historisches Wörterbuch in sieben Bänden hrsg von Karlheinz Barck ; Friedrich Wolfzettel </indexTitle>
          <alternativeTitles>
             <arr>
                <i>
@@ -16764,7 +16896,11 @@
                <i>ger</i>
             </arr>
          </languages>
-         <series/>
+         <series>
+            <arr>
+               <i/>
+            </arr>
+         </series>
       </instance>
       <instanceRelations/>
       <processing>
@@ -17085,7 +17221,11 @@
                <i>ger</i>
             </arr>
          </languages>
-         <series/>
+         <series>
+            <arr>
+               <i/>
+            </arr>
+         </series>
          <physicalDescriptions>
             <arr>
                <i>190 Seiten ; 21 cm, 309 g</i>
@@ -17703,7 +17843,7 @@
             </arr>
          </identifiers>
          <title>Chirurgische Grundlagen : 72 Tabellen / hrsg. von Norbert Schwenzer ... Mit Beitr. von Roland Bares ...</title>
-         <indexTitle>Chirurgische Grundlagen 72 Tabellen hrsg. von Norbert Schwenzer ... Mit Beitr. von Roland Bares ...</indexTitle>
+         <indexTitle>Chirurgische Grundlagen 72 Tabellen hrsg von Norbert Schwenzer  Mit Beitr von Roland Bares </indexTitle>
          <alternativeTitles>
             <arr/>
          </alternativeTitles>
@@ -17741,6 +17881,9 @@
          <series>
             <arr>
                <i>Zahn-Mund-Kiefer-Heilkunde</i>
+            </arr>
+            <arr>
+               <i/>
             </arr>
          </series>
          <physicalDescriptions>
@@ -19215,7 +19358,11 @@
                <i>ger</i>
             </arr>
          </languages>
-         <series/>
+         <series>
+            <arr>
+               <i/>
+            </arr>
+         </series>
          <physicalDescriptions>
             <arr>
                <i>1340, 264, 434, 166 Seiten, 8 ungezählte Seiten : Karten ; 23 cm + Zur Erinnerung an die Trauung (1 ungezähltes Faltblatt)</i>
@@ -19462,7 +19609,7 @@
             </arr>
          </identifiers>
          <title>Diese Tage her, seit ich Deinen Brief empfangen, war ich im Grunde etwas … , 08.05.1826. -  Benediktinerabtei St. Bonifaz in München und Andechs</title>
-         <indexTitle>Diese Tage her, seit ich Deinen Brief empfangen, war ich im Grunde etwas … , 08.05.1826. -  Benediktinerabtei St. Bonifaz in München und Andechs</indexTitle>
+         <indexTitle>Diese Tage her, seit ich Deinen Brief empfangen, war ich im Grunde etwas … , 08051826 -  Benediktinerabtei St Bonifaz in München und Andechs</indexTitle>
          <alternativeTitles>
             <arr/>
          </alternativeTitles>
@@ -19513,7 +19660,11 @@
                <i>ger</i>
             </arr>
          </languages>
-         <series/>
+         <series>
+            <arr>
+               <i/>
+            </arr>
+         </series>
          <physicalDescriptions>
             <arr>
                <i>2 DBl., 5 ¾ S.</i>
@@ -19700,7 +19851,7 @@
             </arr>
          </identifiers>
          <title>Jubiläumsfestschrift St. Alban- St. Jakobus Mainz : 1936 St. Alban, 1966 St. Jakobus, 1982 St. Alban- St. Jakobus / [Hrsg.: Pfarrgemeinde St. Alban- St. Jakobus, Mainz. Red.: Franz Weinzinger, ...]</title>
-         <indexTitle>Jubiläumsfestschrift St. Alban- St. Jakobus Mainz 1936 St. Alban, 1966 St. Jakobus, 1982 St. Alban- St. Jakobus [Hrsg.: Pfarrgemeinde St. Alban- St. Jakobus, Mainz. Red.: Franz Weinzinger, ...]</indexTitle>
+         <indexTitle>Jubiläumsfestschrift St Alban- St Jakobus Mainz 1936 St Alban, 1966 St Jakobus, 1982 St Alban- St Jakobus [Hrsg: Pfarrgemeinde St Alban- St Jakobus, Mainz Red: Franz Weinzinger, ]</indexTitle>
          <alternativeTitles>
             <arr>
                <i>
@@ -19741,7 +19892,11 @@
                <i>ger</i>
             </arr>
          </languages>
-         <series/>
+         <series>
+            <arr>
+               <i/>
+            </arr>
+         </series>
          <physicalDescriptions>
             <arr>
                <i>80 S.</i>
@@ -20113,6 +20268,9 @@
          <series>
             <arr>
                <i>Lernen für die Praxis, PTA</i>
+            </arr>
+            <arr>
+               <i/>
             </arr>
          </series>
          <physicalDescriptions>
@@ -20871,8 +21029,8 @@
                </i>
             </arr>
          </identifiers>
-         <title>Ästhetische Grundbegriffe : (ÄGB) ; historisches Wörterbuch in sieben Bänden / hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ... ; 7 ; Supplemente, Register</title>
-         <indexTitle>Ästhetische Grundbegriffe (ÄGB) ; historisches Wörterbuch in sieben Bänden hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ... 7Supplemente, Register</indexTitle>
+         <title>Ästhetische Grundbegriffe : (ÄGB) ; historisches Wörterbuch in sieben Bänden / hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ... ; 7, Supplemente, Register</title>
+         <indexTitle>Ästhetische Grundbegriffe ÄGB ; historisches Wörterbuch in sieben Bänden hrsg von Karlheinz Barck ; Friedrich Wolfzettel 7 Supplemente, Register</indexTitle>
          <alternativeTitles>
             <arr/>
          </alternativeTitles>
@@ -20908,7 +21066,11 @@
                <i>ger</i>
             </arr>
          </languages>
-         <series/>
+         <series>
+            <arr>
+               <i/>
+            </arr>
+         </series>
          <physicalDescriptions>
             <arr>
                <i>XV, 671 S. : Ill., graph. Darst. + 1 Beil. (Lemmata)</i>
@@ -21991,8 +22153,8 @@
                </i>
             </arr>
          </identifiers>
-         <title>Ästhetische Grundbegriffe : (ÄGB) ; historisches Wörterbuch in sieben Bänden / hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ... ; 2 ; Dekadent - Grotesk</title>
-         <indexTitle>Ästhetische Grundbegriffe (ÄGB) ; historisches Wörterbuch in sieben Bänden hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ... 2Dekadent - Grotesk</indexTitle>
+         <title>Ästhetische Grundbegriffe : (ÄGB) ; historisches Wörterbuch in sieben Bänden / hrsg. von Karlheinz Barck ; Friedrich Wolfzettel ... ; 2, Dekadent - Grotesk</title>
+         <indexTitle>Ästhetische Grundbegriffe ÄGB ; historisches Wörterbuch in sieben Bänden hrsg von Karlheinz Barck ; Friedrich Wolfzettel 2 Dekadent - Grotesk</indexTitle>
          <alternativeTitles>
             <arr/>
          </alternativeTitles>
@@ -22028,7 +22190,11 @@
                <i>ger</i>
             </arr>
          </languages>
-         <series/>
+         <series>
+            <arr>
+               <i/>
+            </arr>
+         </series>
          <physicalDescriptions>
             <arr>
                <i>XVI, 900 S. : Ill.</i>
@@ -22763,7 +22929,7 @@
             </arr>
          </identifiers>
          <title>Praxisleitfaden Allgemeinmedizin / Herausgeber Prof. Dr. med. Stefan Gesenhues, Dr. med. Anne Gesenhues, Ochtrup und Essen ; mit Beiträgen von Prof. Claudia Bausewein, PhD MSc, München und 27 weiteren</title>
-         <indexTitle>Praxisleitfaden Allgemeinmedizin Herausgeber Prof. Dr. med. Stefan Gesenhues, Dr. med. Anne Gesenhues, Ochtrup und Essen ; mit Beiträgen von Prof. Claudia Bausewein, PhD MSc, München und 27 weiteren</indexTitle>
+         <indexTitle>Praxisleitfaden Allgemeinmedizin Herausgeber Prof Dr med Stefan Gesenhues, Dr med Anne Gesenhues, Ochtrup und Essen ; mit Beiträgen von Prof Claudia Bausewein, PhD MSc, München und 27 weiteren</indexTitle>
          <alternativeTitles>
             <arr/>
          </alternativeTitles>
@@ -22804,6 +22970,9 @@
          <series>
             <arr>
                <i>Praxisleitfaden</i>
+            </arr>
+            <arr>
+               <i/>
             </arr>
          </series>
          <physicalDescriptions>
@@ -23316,6 +23485,9 @@
             <arr>
                <i>Kleine bayerische Biografien</i>
             </arr>
+            <arr>
+               <i/>
+            </arr>
          </series>
          <physicalDescriptions>
             <arr>
@@ -23709,6 +23881,9 @@
             <arr>
                <i>Grundrisse des Rechts</i>
             </arr>
+            <arr>
+               <i/>
+            </arr>
          </series>
          <physicalDescriptions>
             <arr>
@@ -24086,7 +24261,7 @@
             </arr>
          </identifiers>
          <title>Kitāb Ḫāṣṣ al-Ḫāṣṣ fī al-amṯāl : Kitāb Khāṣṣ al-Khāṣṣ / Abū Manṣūr al-Tha᾽ālibī . Edited by Ramzi Baalbaki, Bilal Orfali</title>
-         <indexTitle>Kitāb Ḫāṣṣ al-Ḫāṣṣ fī al-amṯāl Kitāb Khāṣṣ al-Khāṣṣ Abū Manṣūr al-Tha᾽ālibī . Edited by Ramzi Baalbaki, Bilal Orfali</indexTitle>
+         <indexTitle>Kitāb Ḫāṣṣ al-Ḫāṣṣ fī al-amṯāl Kitāb Khāṣṣ al-Khāṣṣ Abū Manṣūr al-Tha᾽ālibī  Edited by Ramzi Baalbaki, Bilal Orfali</indexTitle>
          <alternativeTitles>
             <arr/>
          </alternativeTitles>
@@ -24164,6 +24339,9 @@
          <series>
             <arr>
                <i>Bibliotheca Islamica ; 61</i>
+            </arr>
+            <arr>
+               <i/>
             </arr>
          </series>
          <physicalDescriptions>
@@ -24418,7 +24596,7 @@
             </arr>
          </identifiers>
          <title>Factorization of non-symmetric operators and exponential H-theorem / M.P. Gualdani, S. Mischler, C. Mouhot</title>
-         <indexTitle>Factorization of non-symmetric operators and exponential H-theorem M.P. Gualdani, S. Mischler, C. Mouhot</indexTitle>
+         <indexTitle>Factorization of non-symmetric operators and exponential H-theorem MP Gualdani, S Mischler, C Mouhot</indexTitle>
          <alternativeTitles>
             <arr/>
          </alternativeTitles>
@@ -24478,6 +24656,9 @@
          <series>
             <arr>
                <i>Mémoires de la SMF ; Nouvelle série, numéro 153</i>
+            </arr>
+            <arr>
+               <i/>
             </arr>
          </series>
          <physicalDescriptions>
@@ -24739,6 +24920,10 @@
                   <note>Erscheint monatlich</note>
                   <instanceNoteTypeId>General note</instanceNoteTypeId>
                </i>
+               <i>
+                  <note>Livres hebdo</note>
+                  <instanceNoteTypeId>General note</instanceNoteTypeId>
+               </i>
             </arr>
          </notes>
          <natureOfContentTermIds>
@@ -24751,7 +24936,11 @@
                <i>fre</i>
             </arr>
          </languages>
-         <series/>
+         <series>
+            <arr>
+               <i/>
+            </arr>
+         </series>
       </instance>
       <instanceRelations>
          <precedingTitles>
@@ -25124,7 +25313,7 @@
             </arr>
          </identifiers>
          <title>Wirtschaftsstrafrecht / Prof. Dr. Dr. Hauke Brettel (Johannes Gutenberg-Universität Mainz), Prof. Dr. Hendrik Schneider (Universität Leipzig)</title>
-         <indexTitle>Wirtschaftsstrafrecht Prof. Dr. Dr. Hauke Brettel (Johannes Gutenberg-Universität Mainz), Prof. Dr. Hendrik Schneider (Universität Leipzig)</indexTitle>
+         <indexTitle>Wirtschaftsstrafrecht Prof Dr Dr Hauke Brettel Johannes Gutenberg-Universität Mainz, Prof Dr Hendrik Schneider Universität Leipzig</indexTitle>
          <alternativeTitles>
             <arr/>
          </alternativeTitles>
@@ -25179,6 +25368,9 @@
          <series>
             <arr>
                <i>Nomos Lehrbuch</i>
+            </arr>
+            <arr>
+               <i/>
             </arr>
          </series>
          <physicalDescriptions>
@@ -25615,7 +25807,7 @@
             </arr>
          </identifiers>
          <title>Christus allein - allein das Christentum? : Vorträge der vierten theologischen Konferenz zwischen Vertretern der Evangelischen Kirche in Deutschland und der Kirche von England / hrsg. von Klaus Kremkau</title>
-         <indexTitle>Christus allein - allein das Christentum? Vorträge der vierten theologischen Konferenz zwischen Vertretern der Evangelischen Kirche in Deutschland und der Kirche von England hrsg. von Klaus Kremkau</indexTitle>
+         <indexTitle>Christus allein - allein das Christentum? Vorträge der vierten theologischen Konferenz zwischen Vertretern der Evangelischen Kirche in Deutschland und der Kirche von England hrsg von Klaus Kremkau</indexTitle>
          <alternativeTitles>
             <arr/>
          </alternativeTitles>
@@ -25658,6 +25850,9 @@
          <series>
             <arr>
                <i>Beiheft zur Ökumenischen Rundschau ; 36</i>
+            </arr>
+            <arr>
+               <i/>
             </arr>
          </series>
          <physicalDescriptions>
