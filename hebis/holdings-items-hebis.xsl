@@ -93,7 +93,7 @@
           <xsl:for-each select="datafield[(@tag='244Z') and (subfield[@code='x']&gt;'79') and (subfield[@code='x']&lt;'99')]">
             <i>
               <note>
-                <xsl:value-of select="./subfield[@code='8']"/>
+                <xsl:value-of select="./subfield[@code='8'|@code='a']"/> <!-- Workaround: a or 8 -->
                 <xsl:if test="./subfield[@code='b']">
                   <xsl:text>. </xsl:text><xsl:value-of select="./subfield[@code='b']"/>
                 </xsl:if>
