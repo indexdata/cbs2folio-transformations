@@ -77,6 +77,55 @@
           </arr>
   	    </xsl:if>
       </holdingsStatements>
+      
+      <!-- Lokale Schluessel: moved to holding -->
+      <notes>
+        <arr>
+          <xsl:for-each select="datafield[@tag='209B' and not(subfield[@code='x']='01' or subfield[@code='x']='02')]">
+            <i>
+              <note>
+                <xsl:value-of select="./subfield[@code='a']"/>
+              </note>
+              <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
+              <staffOnly>true</staffOnly>
+            </i>
+          </xsl:for-each>
+          <xsl:for-each select="datafield[(@tag='244Z') and (subfield[@code='x']&gt;'79') and (subfield[@code='x']&lt;'99')]">
+            <i>
+              <note>
+                <xsl:value-of select="./subfield[@code='8']"/>
+                <xsl:if test="./subfield[@code='b']">
+                  <xsl:text>. </xsl:text><xsl:value-of select="./subfield[@code='b']"/>
+                </xsl:if>
+              </note>
+              <itemNoteTypeId>Provenance</itemNoteTypeId>
+              <staffOnly>false</staffOnly>
+            </i>
+          </xsl:for-each>
+          <xsl:for-each select="datafield[(@tag='244Z') and (subfield[@code='x']='99')]">
+            <i>
+              <note>
+                <xsl:value-of select="./subfield[@code='a']"/>
+                <xsl:if test="./subfield[@code='b']">
+                  <xsl:text>. </xsl:text><xsl:value-of select="./subfield[@code='b']"/>
+                </xsl:if>
+              </note>
+              <itemNoteTypeId>Provenance</itemNoteTypeId>
+              <staffOnly>false</staffOnly>
+            </i>
+          </xsl:for-each>
+          <xsl:for-each select="datafield[(@tag='220D')]">
+            <i>
+              <note>
+                <xsl:value-of select="./subfield[@code='a']"/>
+              </note>
+              <itemNoteTypeId>Provenance</itemNoteTypeId>
+              <staffOnly>false</staffOnly>
+            </i>
+          </xsl:for-each>
+        </arr>
+      </notes>
+         
       <sourceId>hebis</sourceId>
       <xsl:if test="not($electronicholding)">
          <items>
@@ -219,7 +268,7 @@
           <xsl:if test="position()=last() and ./@code='j' and ../subfield[@code='6']">-</xsl:if>
         </xsl:for-each>
       </chronology>
-      <xsl:if test="datafield[@tag='220B' or @tag='220C' or @tag='220E' or @tag='237A' or @tag='244Z' or (@tag='209B' and not(subfield[@code='x']='01' or subfield[@code='x']='02'))]">
+      <xsl:if test="datafield[@tag='220B' or @tag='220C' or @tag='220E' or @tag='237A' or (@tag='209B' and not(subfield[@code='x']='01' or subfield[@code='x']='02'))]">
         <notes>
           <arr>
             <xsl:for-each select="datafield[@tag='220B' or @tag='220C' or @tag='220E' or @tag='237A']">
@@ -234,53 +283,6 @@
                   </staffOnly>
                 </i>
               </xsl:if>
-            </xsl:for-each>
-            <!-- Lokale Schlüssel: verschieben von item auf holding -->
-            <xsl:for-each select="datafield[@tag='209B' and not(subfield[@code='x']='01' or subfield[@code='x']='02')]">
-              <i>
-                <note>
-                  <xsl:value-of select="./subfield[@code='a']"/>
-                </note>
-                <itemNoteTypeId>Lokaler Schlüssel</itemNoteTypeId>
-                <staffOnly>true</staffOnly>
-              </i>
-            </xsl:for-each>
-            <xsl:for-each select="datafield[@tag='244Z']">
-              <xsl:variable name="expansion" select="substring-before(./subfield[@code='8'], ' ; ID:')"/>
-              <i>
-                <note>
-                  <xsl:choose>
-                    <xsl:when test="./subfield[@code='S']">
-                      <xsl:choose>
-                        <xsl:when test="$expansion">
-                          <xsl:value-of select="concat(./subfield[@code='S'], ' ', $expansion)"/>
-                        </xsl:when>
-                        <xsl:when test="./subfield[@code='8']">
-                          <xsl:value-of select="concat(./subfield[@code='S'], ' ', ./subfield[@code='8'])"/>
-                        </xsl:when>
-                        <xsl:when test="./subfield[@code='a']">
-                          <xsl:value-of select="concat(./subfield[@code='S'], ' ', ./subfield[@code='a'])"/>
-                        </xsl:when>
-                      </xsl:choose>
-                    </xsl:when>
-                    <xsl:otherwise>
-                      <xsl:choose>
-                        <xsl:when test="$expansion">
-                          <xsl:value-of select="$expansion"/>
-                        </xsl:when>
-                        <xsl:when test="./subfield[@code='8']">
-                          <xsl:value-of select="./subfield[@code='8']"/>
-                        </xsl:when>
-                        <xsl:when test="./subfield[@code='a']">
-                          <xsl:value-of select="./subfield[@code='a']"/>
-                        </xsl:when>
-                      </xsl:choose>
-                    </xsl:otherwise>
-                  </xsl:choose>
-                </note>
-                <itemNoteTypeId>Note</itemNoteTypeId>
-                <staffOnly>false</staffOnly>
-              </i>
             </xsl:for-each>
           </arr>
         </notes>

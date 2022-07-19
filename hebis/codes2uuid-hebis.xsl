@@ -21,10 +21,28 @@
         <xsl:when test=".='Action note'">0e40884c-3523-4c6d-8187-d578e3d2794e</xsl:when>
         <xsl:when test=".='Copy note'">1dde7141-ec8a-4dae-9825-49ce14c728e7</xsl:when>
         <xsl:when test=".='Provenance'">c3a539b9-9576-4e3a-b6de-d910200b2919</xsl:when>
-        <xsl:when test=".='Lokaler Schlüssel'"><xsl:text>fcb01636-207d-4598-92a6-74d16e39d0a1</xsl:text></xsl:when> <!-- hebis-wide -->
+        <xsl:when test=".='Text zur Ausleihbarkeit'"><xsl:text>8ce2bc0f-e578-4b93-88b0-fd0d77de6f72</xsl:text></xsl:when> <!-- hebis-wide -->
         <xsl:otherwise>8d0a5eca-25de-4391-81a9-236eeefdd20b</xsl:otherwise> <!-- Note -->
       </xsl:choose>
     </itemNoteTypeId>
+  </xsl:template>
+  
+   <!-- Map holding note types -->
+  <xsl:template match="holdingsNoteTypeId"> <!-- Level 2: FOLIO/hebis-wide -->
+    <holdingsNoteTypeId>
+      <xsl:choose>
+        <xsl:when test=".='Binding'">e19eabab-a85c-4aef-a7b2-33bd9acef24e</xsl:when>
+        <xsl:when test=".='Note'">b160f13a-ddba-4053-b9c4-60ec5ea45d56</xsl:when>
+        <xsl:when test=".='Reproduction'">6a41b714-8574-4084-8d64-a9373c3fbb59</xsl:when>
+        <xsl:when test=".='Electronic bookplate'">88914775-f677-4759-b57b-1a33b90b24e0</xsl:when>
+        <xsl:when test=".='Action note'">d6510242-5ec3-42ed-b593-3585d2e48fd6</xsl:when>
+        <xsl:when test=".='Copy note'">c4407cc7-d79f-4609-95bd-1cefb2e2b5c5</xsl:when>
+        <xsl:when test=".='Provenance'">db9b4787-95f0-4e78-becf-26748ce6bdeb</xsl:when>
+        <xsl:when test=".='Lizenzindikator'"><xsl:text>d1d99196-8904-4b2e-9125-9f7bbbf54cc1</xsl:text></xsl:when> <!-- hebis-wide -->       
+        <xsl:when test=".='Lokaler Schluessel'"><xsl:text>49050d37-2d82-452c-a963-2645ffc0b9a9</xsl:text></xsl:when> <!-- hebis-wide -->
+        <xsl:otherwise>b160f13a-ddba-4053-b9c4-60ec5ea45d56</xsl:otherwise> <!-- Note -->
+      </xsl:choose>
+    </holdingsNoteTypeId>
   </xsl:template>
 
   <!-- Map instance note types -->
