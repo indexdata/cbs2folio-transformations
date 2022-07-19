@@ -98,7 +98,7 @@
                   <xsl:text>. </xsl:text><xsl:value-of select="./subfield[@code='b']"/>
                 </xsl:if>
               </note>
-              <itemNoteTypeId>Provenance</itemNoteTypeId>
+              <holdingsNoteTypeId>Provenance</holdingsNoteTypeId>
               <staffOnly>false</staffOnly>
             </i>
           </xsl:for-each>
@@ -110,7 +110,7 @@
                   <xsl:text>. </xsl:text><xsl:value-of select="./subfield[@code='b']"/>
                 </xsl:if>
               </note>
-              <itemNoteTypeId>Provenance</itemNoteTypeId>
+              <holdingsNoteTypeId>Provenance</holdingsNoteTypeId>
               <staffOnly>false</staffOnly>
             </i>
           </xsl:for-each>
