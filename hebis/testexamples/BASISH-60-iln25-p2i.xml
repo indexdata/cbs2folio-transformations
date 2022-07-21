@@ -685,9 +685,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -1072,6 +1069,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 15:36</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>Genauen Standort in der BB MIN erfragen!</note>
+                                 <itemNoteTypeId>Text zur Ausleihbarkeit</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -1515,9 +1517,6 @@
                         <copyNumber/>
                         <volume>487</volume>
                         <chronology>2020</chronology>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -1565,9 +1564,6 @@
                         <copyNumber/>
                         <volume>487</volume>
                         <chronology>2020</chronology>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -2277,9 +2273,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -5500,6 +5493,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
+                              <i>
+                                 <note>Tagesausleihe erst nach Rücksprache möglich</note>
+                                 <itemNoteTypeId>Text zur Ausleihbarkeit</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber>90/2013 Alte Geschichte</accessionNumber>
@@ -7395,9 +7393,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber>01/980</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -7439,9 +7434,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber>FW 2001/209</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -7483,9 +7475,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber>369 GK</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -7583,9 +7572,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber>2001/123</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -7627,9 +7613,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber>09/1328 Germanistik</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -7671,9 +7654,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber>01/122</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -7715,9 +7695,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber>58026</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -7759,9 +7736,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber>ZP02 10/134-1</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -7803,9 +7777,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber>05/300-2</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -8348,9 +8319,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber>1946 G 1837</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -9078,9 +9046,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology>1724-1791</chronology>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -9135,9 +9100,6 @@
                         <copyNumber/>
                         <volume>1-30, 137-216, 300-303, 305-310, 312-354</volume>
                         <chronology>1890-1899, 1920-1929, 1947-1948, 1949-1950, 1951-1965</chronology>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -9188,9 +9150,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology>1672</chronology>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -9243,9 +9202,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology>1742</chronology>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -9778,9 +9734,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology>1937, 1938, 1940-1942, 1944</chronology>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -10472,9 +10425,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology>2020</chronology>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -11220,9 +11170,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber>05/1431</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -11264,9 +11211,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber>2005/169</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -11308,9 +11252,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber>395 GK</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -11402,9 +11343,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber>2005/284</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -11446,9 +11384,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber>09/1328 Germanistik</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -11490,9 +11425,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber>05/88</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -11534,9 +11466,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber>58196</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -11578,9 +11507,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber>ZP02 10/134-1</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -11622,9 +11548,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber>05/300-6</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -14222,9 +14145,6 @@
                         <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -14240,9 +14160,6 @@
                         <copyNumber>2</copyNumber>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -14258,9 +14175,6 @@
                         <copyNumber>3</copyNumber>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -14276,9 +14190,6 @@
                         <copyNumber>4</copyNumber>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -14294,9 +14205,6 @@
                         <copyNumber>5</copyNumber>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -14312,9 +14220,6 @@
                         <copyNumber>6</copyNumber>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -14330,9 +14235,6 @@
                         <copyNumber>7</copyNumber>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -14348,9 +14250,6 @@
                         <copyNumber>8</copyNumber>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -14366,9 +14265,6 @@
                         <copyNumber>9</copyNumber>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -14384,9 +14280,6 @@
                         <copyNumber>10</copyNumber>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -14429,9 +14322,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -14473,9 +14363,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -14950,9 +14837,6 @@
                         <copyNumber/>
                         <volume>13, 19, 25, 27, 29-32, 42</volume>
                         <chronology>1816, 1792, 1859, 1824, 1859-1878, 1859</chronology>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -19153,9 +19037,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber>05/6013</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -19197,9 +19078,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber>FWG 2006/12</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -19246,9 +19124,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber>401 GRK</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -19341,9 +19216,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber>2005/889</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -19385,9 +19257,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber>09/1328 Germanistik</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -19429,9 +19298,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber>06/36</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -19473,9 +19339,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber>58596</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -19517,9 +19380,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber>ZP02 10/134-1</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -19561,9 +19421,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber>05/302</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -20889,9 +20746,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber>04/69</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -20933,9 +20787,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -20977,9 +20828,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber>372 GK</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -21071,9 +20919,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber>2004/13</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -21115,9 +20960,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber>09/1328 Germanistik</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -21159,9 +21001,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber>04/9</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -21203,9 +21042,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber>58026</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -21247,9 +21083,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber>ZP02 10/134-1</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -21291,9 +21124,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber>05/300-5</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -21982,9 +21812,6 @@
                         <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -22000,9 +21827,6 @@
                         <copyNumber>2</copyNumber>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -22018,9 +21842,6 @@
                         <copyNumber>3</copyNumber>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -22552,9 +22373,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -23124,9 +22942,6 @@
                         <copyNumber/>
                         <volume>1</volume>
                         <chronology>2020</chronology>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -24469,9 +24284,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber>02/4910</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -24513,9 +24325,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -24557,9 +24366,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber>371 GK</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -24657,9 +24463,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber>2002/857</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -24701,9 +24504,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber>09/1328 Germanistik</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -24745,9 +24545,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber>02/375</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -24789,9 +24586,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber>58026</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -24833,9 +24627,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber>ZP02 10/134-1</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -24877,9 +24668,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber>05/300-4</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -25146,9 +24934,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology>1977</chronology>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -25608,9 +25393,6 @@
                         <copyNumber/>
                         <volume>40</volume>
                         <chronology>1906</chronology>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber/>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -28487,9 +28269,6 @@
                         <copyNumber/>
                         <volume>30</volume>
                         <chronology>2020</chronology>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber>ACQ</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -29238,9 +29017,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber>01/4470</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -29282,9 +29058,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber>FW 2001/208</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -29326,9 +29099,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber>370 GK</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -29426,9 +29196,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber>2001/871 </accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -29470,9 +29237,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber>09/1328 Germanistik</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -29514,9 +29278,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber>01/552</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -29558,9 +29319,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber>58026</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -29602,9 +29360,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber>ZP02 10/134-1</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>
@@ -29646,9 +29401,6 @@
                         <copyNumber/>
                         <volume/>
                         <chronology/>
-                        <notes>
-                           <arr/>
-                        </notes>
                         <accessionNumber>05/300-3</accessionNumber>
                         <discoverySuppress>false</discoverySuppress>
                      </i>

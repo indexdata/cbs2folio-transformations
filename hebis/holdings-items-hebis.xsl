@@ -268,7 +268,7 @@
           <xsl:if test="position()=last() and ./@code='j' and ../subfield[@code='6']">-</xsl:if>
         </xsl:for-each>
       </chronology>
-      <xsl:if test="datafield[@tag='220B' or @tag='220C' or @tag='220E' or @tag='237A' or (@tag='209B' and not(subfield[@code='x']='01' or subfield[@code='x']='02'))]">
+      <xsl:if test="datafield[@tag='220B' or @tag='220C' or @tag='220E' or @tag='237A' or @tag='247D']">
         <notes>
           <arr>
             <xsl:for-each select="datafield[@tag='220B' or @tag='220C' or @tag='220E' or @tag='237A']">
@@ -284,6 +284,15 @@
                 </i>
               </xsl:if>
             </xsl:for-each>
+            <xsl:if test="datafield[@tag='247D']">
+              <i>
+                <note>
+                  <xsl:value-of select="datafield[@tag='247D']/subfield[@code='a']"/>
+                </note>
+                <itemNoteTypeId>Text zur Ausleihbarkeit</itemNoteTypeId>
+                <staffOnly>false</staffOnly>
+              </i>
+            </xsl:if>
           </arr>
         </notes>
       </xsl:if>
