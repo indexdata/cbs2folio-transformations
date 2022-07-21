@@ -134,6 +134,7 @@
   <xsl:template match="permanentLoanTypeId">
     <permanentLoanTypeId>
       <xsl:choose>
+        <xsl:when test=".='dummy'">dummy</xsl:when>
         <xsl:when test=".='u'">0 u ausleihbar</xsl:when>
         <xsl:when test=".='b'">1 b Kurzausleihe</xsl:when>
         <xsl:when test=".='c'">2 c Lehrbuchsammlung</xsl:when>

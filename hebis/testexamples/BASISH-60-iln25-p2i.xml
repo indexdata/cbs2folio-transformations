@@ -22484,7 +22484,7 @@
                      <i>
                         <hrid>147250242</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
-                        <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
+                        <permanentLoanTypeId>dummy</permanentLoanTypeId>
                         <status>
                            <name>Intellectual item</name>
                         </status>

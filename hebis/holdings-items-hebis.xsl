@@ -4,7 +4,12 @@
 
   <!-- ILN specific processing -->
   <xsl:template name="lcode"><xsl:value-of select="@epn"/></xsl:template>
-  <xsl:template name="loantype"><xsl:value-of select="datafield[@tag='209A']/subfield[@code='d']"/></xsl:template>
+  <xsl:template name="loantype">
+    <xsl:choose>
+      <xsl:when test="substring(datafield[@tag='208@']/subfield[@code='b'],1,1)='d'">dummy</xsl:when>
+      <xsl:otherwise><xsl:value-of select="datafield[@tag='209A']/subfield[@code='d']"/></xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
   <xsl:template name="selectioncode"><xsl:value-of select="datafield[@tag='208@']/subfield[@code='b']"/></xsl:template>
 
   <xsl:template match="collection">
