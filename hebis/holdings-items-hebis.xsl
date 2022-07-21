@@ -123,9 +123,23 @@
               <staffOnly>false</staffOnly>
             </i>
           </xsl:for-each>
+          <xsl:for-each select="datafield[@tag='209S']/subfield[@code='S'] | datafield[@tag='204U']/subfield[@code='S'] | datafield[@tag='204P']/subfield[@code='S'] | datafield[@tag='204R']/subfield[@code='S'] ">
+            <i>
+              <note>
+                <xsl:value-of select="."/>
+              </note>
+              <itemNoteTypeId>Lizenzindikator</itemNoteTypeId>
+              <staffOnly>true</staffOnly>
+            </i>
+          </xsl:for-each>
         </arr>
       </notes>
-         
+      <discoverySuppress>
+        <xsl:choose>
+          <xsl:when test="datafield[@tag='247E']/subfield[@code='a']"><xsl:text>true</xsl:text></xsl:when> <!-- selectionscode != true -->
+          <xsl:otherwise><xsl:call-template name="selectioncode"/></xsl:otherwise>
+        </xsl:choose>
+      </discoverySuppress>   
       <sourceId>hebis</sourceId>
       <xsl:if test="not($electronicholding)">
          <items>
@@ -303,9 +317,11 @@
           <xsl:if test="position() != last()">, </xsl:if>
         </xsl:for-each>
       </accessionNumber>
-      <!-- TBD 247E/XY ? -->   
     	 <discoverySuppress>
-      	 <xsl:call-template name="selectioncode"/>
+    	   <xsl:choose>
+    	     <xsl:when test="datafield[@tag='247E']/subfield[@code='a']"><xsl:text>true</xsl:text></xsl:when>
+    	     <xsl:otherwise><xsl:call-template name="selectioncode"/></xsl:otherwise>
+    	   </xsl:choose>
     	</discoverySuppress>
     </i>
   </xsl:template>
