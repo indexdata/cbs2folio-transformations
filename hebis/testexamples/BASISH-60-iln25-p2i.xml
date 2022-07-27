@@ -317,7 +317,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -342,6 +342,11 @@
                               <i>
                                  <note>OUF-Test 21-08-03; 12:16</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>FREIHAND</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -617,7 +622,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -644,6 +649,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>Katholische Theologie</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber>1980/572</accessionNumber>
@@ -668,7 +678,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -1048,7 +1058,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -1080,6 +1090,11 @@
                                  <itemNoteTypeId>Text zur Ausleihbarkeit</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>MIN / HANDAPPARAT AK BIOPHARM./PHARMAZ. TECHN.</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber>2011/280</accessionNumber>
@@ -1104,7 +1119,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -1129,6 +1144,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 15:36</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>MIN</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -1503,7 +1523,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -1551,7 +1571,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -1900,7 +1920,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -1925,6 +1945,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 15:44</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>Freihand / Chinesisch</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -2242,12 +2267,12 @@
                      <i>
                         <note>079KHF</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                      <i>
                         <note>Kunsthistorische Forschungsstätte</note>
@@ -2660,12 +2685,12 @@
                      <i>
                         <note>01810</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -2697,6 +2722,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>Recht</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber>R 60/2021/1-2</accessionNumber>
@@ -2722,12 +2752,12 @@
                      <i>
                         <note>02066</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -2757,6 +2787,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 15:54</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>Lehrstuhl Kaiser</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -3089,7 +3124,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -3114,6 +3149,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 15:50</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>Evanglische Theologie</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -3513,7 +3553,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -3540,6 +3580,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>UM LESESAAL</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -3564,7 +3609,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -3591,6 +3636,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>UM LBS</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -3613,6 +3663,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 15:34</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>UM LBS</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -3639,6 +3694,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>UM LBS</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -3663,6 +3723,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>UM LBS</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -3685,6 +3750,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 15:34</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>UM LBS</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -3908,7 +3978,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -3933,6 +4003,11 @@
                               <i>
                                  <note>OUF-Test 21-08-03; 12:21</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>FREIHAND</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -4257,7 +4332,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -4282,6 +4357,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 15:47</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>Magazin</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -4472,7 +4552,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -4497,6 +4577,11 @@
                               <i>
                                  <note>OUF-Test 21-08-03; 12:17</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>MAG</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -4869,7 +4954,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -5204,7 +5289,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -5229,6 +5314,11 @@
                               <i>
                                  <note>OUF-Test 21-08-06</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>Turkologie</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -5486,7 +5576,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -5516,6 +5606,11 @@
                               <i>
                                  <note>Tagesausleihe erst nach Rücksprache möglich</note>
                                  <itemNoteTypeId>Text zur Ausleihbarkeit</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>Alte Geschichte / Separiert</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -5907,7 +6002,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -5934,6 +6029,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>ReWi LEHRBUCHSAMMLUNG</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -5956,6 +6056,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 15:52</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>ReWi LEHRBUCHSAMMLUNG</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -5982,6 +6087,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>ReWi LEHRBUCHSAMMLUNG</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -6006,12 +6116,12 @@
                      <i>
                         <note>01810</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -6041,6 +6151,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 15:52</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>Recht</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -6492,7 +6607,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -6524,6 +6639,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>MIN</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -6548,7 +6668,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -6575,6 +6695,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>MIN LEHRBUCHSAMMLUNG</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -6597,6 +6722,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 15:37</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>MIN LEHRBUCHSAMMLUNG</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -6623,6 +6753,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>MIN LEHRBUCHSAMMLUNG</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -6647,6 +6782,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>MIN LEHRBUCHSAMMLUNG</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -6669,6 +6809,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 15:37</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>MIN LEHRBUCHSAMMLUNG</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -7398,7 +7543,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -7440,7 +7585,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -7482,7 +7627,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -7524,12 +7669,12 @@
                      <i>
                         <note>!01901!</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -7556,6 +7701,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
+                              <i>
+                                 <note>Lesesaal</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber>01/230</accessionNumber>
@@ -7581,7 +7731,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -7623,7 +7773,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -7665,7 +7815,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -7707,7 +7857,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -7749,7 +7899,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -7791,7 +7941,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -8088,12 +8238,12 @@
                      <i>
                         <note>utbStudi gesamt</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -8325,12 +8475,12 @@
                      <i>
                         <note>00045</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                      <i>
                         <note>Bormann, Martin, 1900-1945</note>
@@ -9058,12 +9208,12 @@
                      <i>
                         <note>00015</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -9118,7 +9268,7 @@
                      <i>
                         <note>00015</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -9169,7 +9319,7 @@
                      <i>
                         <note>00015</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -9217,12 +9367,12 @@
                      <i>
                         <note>08034</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                      <i>
                         <note>turk</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -9746,12 +9896,12 @@
                      <i>
                         <note>079KHF</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                      <i>
                         <note>Kunsthistorische Forschungsstätte. 1938; 1944</note>
@@ -10150,7 +10300,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -10175,6 +10325,11 @@
                               <i>
                                  <note>OUF-Test 21-08-06</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>Allgemeine und Vergleichende Literaturwissenschaft</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -10451,7 +10606,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -11197,7 +11352,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -11239,7 +11394,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -11281,7 +11436,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -11323,7 +11478,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -11350,6 +11505,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
+                              <i>
+                                 <note>Lesesaal</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber>05/300</accessionNumber>
@@ -11374,7 +11534,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -11416,7 +11576,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -11458,7 +11618,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -11500,7 +11660,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -11542,7 +11702,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -11584,7 +11744,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -11902,7 +12062,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -11927,6 +12087,11 @@
                               <i>
                                  <note>OUF-Test 21-08-06</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>FB 4-40</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -12203,12 +12368,12 @@
                      <i>
                         <note>00509</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -12233,6 +12398,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 15:59</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>UM FREIHAND</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -12479,7 +12649,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -12509,6 +12679,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 15:46</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>Magazin</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -12854,12 +13029,12 @@
                      <i>
                         <note>01650</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -12884,6 +13059,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 15:50</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>Katholische Theologie</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -12911,12 +13091,12 @@
                      <i>
                         <note>01650</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -12941,6 +13121,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 15:50</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>Katholische Theologie, Büro Altes Testament</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -13582,12 +13767,12 @@
                      <i>
                         <note>00501</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -13612,6 +13797,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 15:35</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>UM LESESAAL</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -13639,12 +13829,12 @@
                      <i>
                         <note>00507</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -13671,6 +13861,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>UM LBS (41V CHIRURGIE-MKG)</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -13693,6 +13888,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 15:35</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>UM LBS (41V CHIRURGIE-MKG)</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -13719,6 +13919,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>UM LBS (41V CHIRURGIE-MKG)</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -13741,6 +13946,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 15:35</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>UM LBS (41V CHIRURGIE-MKG)</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -13767,6 +13977,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>UM LBS (41V CHIRURGIE-MKG)</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -13789,6 +14004,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 15:35</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>UM LBS (41V CHIRURGIE-MKG)</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -13815,6 +14035,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>UM LBS (41V CHIRURGIE-MKG)</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -13837,6 +14062,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 15:35</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>UM LBS (41V CHIRURGIE-MKG)</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -13863,6 +14093,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>UM LBS (41V CHIRURGIE-MKG)</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -13885,6 +14120,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 15:35</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>UM LBS (41V CHIRURGIE-MKG)</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -13912,12 +14152,12 @@
                      <i>
                         <note>00507</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -13944,6 +14184,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>UM LBS (41V CHIRURGIE-MKG)</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -13966,6 +14211,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 15:35</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>UM LBS (41V CHIRURGIE-MKG)</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -13992,6 +14242,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>UM LBS (41V CHIRURGIE-MKG)</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -14014,6 +14269,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 15:35</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>UM LBS (41V CHIRURGIE-MKG)</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -14040,6 +14300,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>UM LBS (41V CHIRURGIE-MKG)</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -14062,6 +14327,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 15:35</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>UM LBS (41V CHIRURGIE-MKG)</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -14088,6 +14358,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>UM LBS (41V CHIRURGIE-MKG)</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -14110,6 +14385,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 15:35</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>UM LBS (41V CHIRURGIE-MKG)</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -14136,6 +14416,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>UM LBS (41V CHIRURGIE-MKG)</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -14158,6 +14443,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 15:35</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>UM LBS (41V CHIRURGIE-MKG)</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -14185,12 +14475,12 @@
                      <i>
                         <note>00507</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -14368,7 +14658,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -14410,7 +14700,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -14886,7 +15176,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -15280,7 +15570,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -15305,6 +15595,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 15:38</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>MIN / UG</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -15571,12 +15866,12 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                      <i>
                         <note>0</note>
                         <holdingsNoteTypeId>Lizenzindikator</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -15922,7 +16217,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -15954,6 +16249,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>MAG</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -15978,7 +16278,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -16005,6 +16305,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>Katholische Theologie</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber>1967/218</accessionNumber>
@@ -16029,7 +16334,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -16054,6 +16359,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 15:49</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>Evangelische Theologie, Magazin</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -16308,7 +16618,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -16335,6 +16645,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>Katholische Theologie</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber>1964/483</accessionNumber>
@@ -16359,7 +16674,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -16384,6 +16699,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 15:48</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>Evangelische Theologie, Magazin</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -16873,12 +17193,12 @@
                      <i>
                         <note>dG ebs</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -17137,7 +17457,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -17167,6 +17487,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 15:45</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>Freihand / Niederländisch</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -17490,7 +17815,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -17520,6 +17845,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 15:53</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>Handapparat Chinesisch</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -17759,7 +18089,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -17784,6 +18114,11 @@
                               <i>
                                  <note>OUF-Test 21-08-03; 12:15</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>MAG</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -18054,7 +18389,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -18079,6 +18414,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 15:58</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>UM FREIHAND</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -18360,7 +18700,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -19107,7 +19447,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -19149,7 +19489,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -19191,12 +19531,12 @@
                      <i>
                         <note>01750</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -19239,7 +19579,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -19266,6 +19606,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
+                              <i>
+                                 <note>Lesesaal</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber>06/18</accessionNumber>
@@ -19290,7 +19635,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -19332,7 +19677,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -19374,7 +19719,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -19416,7 +19761,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -19458,7 +19803,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -19500,7 +19845,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -20087,12 +20432,12 @@
                      <i>
                         <note>dG ebs</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -20827,7 +21172,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -20869,7 +21214,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -20911,7 +21256,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -20953,7 +21298,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -20980,6 +21325,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
+                              <i>
+                                 <note>Lesesaal</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber>04/18</accessionNumber>
@@ -21004,7 +21354,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -21046,7 +21396,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -21088,7 +21438,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -21130,7 +21480,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -21172,7 +21522,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -21214,7 +21564,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -21448,12 +21798,12 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                      <i>
                         <note>0</note>
                         <holdingsNoteTypeId>Lizenzindikator</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -21859,7 +22209,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -21886,6 +22236,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>LESESAAL</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -21910,7 +22265,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -22255,7 +22610,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -22473,7 +22828,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -22740,7 +23095,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -23039,12 +23394,12 @@
                      <i>
                         <note>00015</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -23461,7 +23816,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -23488,6 +23843,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>ReWi LEHRBUCHSAMMLUNG</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -23510,6 +23870,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 15:51</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>ReWi LEHRBUCHSAMMLUNG</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -23536,6 +23901,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>ReWi LEHRBUCHSAMMLUNG</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -23558,6 +23928,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 15:51</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>ReWi LEHRBUCHSAMMLUNG</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -23584,6 +23959,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>ReWi LEHRBUCHSAMMLUNG</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -23608,12 +23988,12 @@
                      <i>
                         <note>01810</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -23643,6 +24023,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 15:51</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>Recht</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -24389,7 +24774,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -24431,7 +24816,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -24473,7 +24858,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -24515,12 +24900,12 @@
                      <i>
                         <note>!01901!</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -24547,6 +24932,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
+                              <i>
+                                 <note>Lesesaal</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber>02/759</accessionNumber>
@@ -24572,7 +24962,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -24614,7 +25004,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -24656,7 +25046,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -24698,7 +25088,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -24740,7 +25130,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -24782,7 +25172,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -25048,7 +25438,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -25508,7 +25898,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -26159,12 +26549,12 @@
                      <i>
                         <note>00020</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -26191,6 +26581,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>LBS</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -26213,6 +26608,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 16:00</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>LBS</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -26239,6 +26639,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>LBS</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -26261,6 +26666,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 16:00</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>LBS</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -26287,6 +26697,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>LBS</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -26309,6 +26724,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 16:00</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>LBS</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -26335,6 +26755,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>LBS</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -26357,6 +26782,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 16:00</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>LBS</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -26383,6 +26813,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>LBS</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -26405,6 +26840,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 16:00</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>LBS</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -26431,6 +26871,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>LBS</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -26453,6 +26898,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 16:00</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>LBS</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -26479,6 +26929,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>LBS</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -26501,6 +26956,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 16:00</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>LBS</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -26527,6 +26987,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>LBS</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -26549,6 +27014,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 16:00</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>LBS</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -26575,6 +27045,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>LBS</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -26597,6 +27072,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 16:00</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>LBS</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -26623,6 +27103,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>LBS</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -26645,6 +27130,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 16:00</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>LBS</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -26671,6 +27161,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>LBS</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -26693,6 +27188,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 16:00</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>LBS</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -26719,6 +27219,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>LBS</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -26741,6 +27246,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 16:00</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>LBS</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -26767,6 +27277,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>LBS</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -26789,6 +27304,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 16:00</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>LBS</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -26815,6 +27335,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>LBS</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -26837,6 +27362,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 16:00</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>LBS</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -26863,6 +27393,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>LBS</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -26885,6 +27420,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 16:00</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>LBS</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -26911,6 +27451,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>LBS</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -26933,6 +27478,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 16:00</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>LBS</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -26959,6 +27509,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>LBS</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -26981,6 +27536,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 16:00</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>LBS</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -27007,6 +27567,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>LBS</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -27029,6 +27594,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 16:00</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>LBS</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -27055,6 +27625,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>LBS</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -27077,6 +27652,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 16:00</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>LBS</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -27103,6 +27683,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>LBS</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -27125,6 +27710,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 16:00</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>LBS</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -27151,6 +27741,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>LBS</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -27173,6 +27768,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 16:00</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>LBS</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -27199,6 +27799,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>LBS</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -27223,6 +27828,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>LBS</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber/>
@@ -27245,6 +27855,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 16:00</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>LBS</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -27272,7 +27887,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -27299,6 +27914,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
+                              <i>
+                                 <note>UM FREIHAND</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber>15/2576-2</accessionNumber>
@@ -27323,12 +27943,12 @@
                      <i>
                         <note>00020</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -27353,6 +27973,11 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 16:00</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>UM LESESAAL</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -27632,12 +28257,12 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                      <i>
                         <note>0</note>
                         <holdingsNoteTypeId>Lizenzindikator</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -28020,7 +28645,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -28045,6 +28670,11 @@
                               <i>
                                  <note>OUF-Test 21-08-06</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>Turkologie</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>
@@ -28396,7 +29026,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -29145,7 +29775,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -29187,7 +29817,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -29229,7 +29859,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -29271,12 +29901,12 @@
                      <i>
                         <note>!01901!</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -29303,6 +29933,11 @@
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
                               </i>
+                              <i>
+                                 <note>Lesesaal</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
                            </arr>
                         </notes>
                         <accessionNumber>01/793</accessionNumber>
@@ -29328,7 +29963,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -29370,7 +30005,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -29412,7 +30047,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -29454,7 +30089,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -29496,7 +30131,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -29538,7 +30173,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -29879,7 +30514,7 @@
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-                        <staffOnly>true</staffOnly>
+                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -29905,6 +30540,11 @@
                               <i>
                                  <note>OUF-Test 21-08-03; 12:07</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
+                                 <staffOnly>false</staffOnly>
+                              </i>
+                              <i>
+                                 <note>MAG</note>
+                                 <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                            </arr>

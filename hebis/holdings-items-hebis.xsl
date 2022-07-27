@@ -92,7 +92,7 @@
                 <xsl:value-of select="./subfield[@code='a']"/>
               </note>
               <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
-              <staffOnly>true</staffOnly>
+              <staffOnly>false</staffOnly>
             </i>
           </xsl:for-each>
           <xsl:for-each select="datafield[(@tag='244Z') and (subfield[@code='x']&gt;'79') and (subfield[@code='x']&lt;'99')]">
@@ -134,7 +134,7 @@
                 <xsl:value-of select="."/>
               </note>
               <holdingsNoteTypeId>Lizenzindikator</holdingsNoteTypeId>
-              <staffOnly>true</staffOnly>
+              <staffOnly>false</staffOnly>
             </i>
           </xsl:for-each>
         </arr>
@@ -312,6 +312,15 @@
                 <staffOnly>false</staffOnly>
               </i>
             </xsl:if>
+            <xsl:for-each select="datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']">
+                <i>
+                  <note>
+                    <xsl:value-of select="."/>
+                  </note>
+                  <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
+                  <staffOnly>false</staffOnly>
+                </i>             
+            </xsl:for-each>
           </arr>
         </notes>
       </xsl:if>

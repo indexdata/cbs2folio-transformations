@@ -22,6 +22,7 @@
         <xsl:when test=".='Copy note'">1dde7141-ec8a-4dae-9825-49ce14c728e7</xsl:when>
         <xsl:when test=".='Provenance'">c3a539b9-9576-4e3a-b6de-d910200b2919</xsl:when>
         <xsl:when test=".='Text zur Ausleihbarkeit'"><xsl:text>8ce2bc0f-e578-4b93-88b0-fd0d77de6f72</xsl:text></xsl:when> <!-- hebis-wide -->
+        <xsl:when test=".='Standort (8201)'"><xsl:text>ac282ea6-1592-4b7b-a0f1-093a29ae511c</xsl:text></xsl:when> <!-- hebis-wide -->
         <xsl:otherwise>8d0a5eca-25de-4391-81a9-236eeefdd20b</xsl:otherwise> <!-- Note -->
       </xsl:choose>
     </itemNoteTypeId>
