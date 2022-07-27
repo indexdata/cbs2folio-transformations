@@ -124,7 +124,7 @@
               <note>
                 <xsl:value-of select="./subfield[@code='a']"/>
               </note>
-              <itemNoteTypeId>Provenance</itemNoteTypeId>
+              <holdingsNoteTypeId>Provenance</holdingsNoteTypeId>
               <staffOnly>false</staffOnly>
             </i>
           </xsl:for-each>
@@ -133,7 +133,7 @@
               <note>
                 <xsl:value-of select="."/>
               </note>
-              <itemNoteTypeId>Lizenzindikator</itemNoteTypeId>
+              <holdingsNoteTypeId>Lizenzindikator</holdingsNoteTypeId>
               <staffOnly>true</staffOnly>
             </i>
           </xsl:for-each>

@@ -2261,7 +2261,7 @@
                      </i>
                      <i>
                         <note>Geschenk E.B. Nr 1282</note>
-                        <itemNoteTypeId>Provenance</itemNoteTypeId>
+                        <holdingsNoteTypeId>Provenance</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
                   </arr>
@@ -15575,7 +15575,7 @@
                      </i>
                      <i>
                         <note>0</note>
-                        <itemNoteTypeId>Lizenzindikator</itemNoteTypeId>
+                        <holdingsNoteTypeId>Lizenzindikator</holdingsNoteTypeId>
                         <staffOnly>true</staffOnly>
                      </i>
                   </arr>
@@ -21452,7 +21452,7 @@
                      </i>
                      <i>
                         <note>0</note>
-                        <itemNoteTypeId>Lizenzindikator</itemNoteTypeId>
+                        <holdingsNoteTypeId>Lizenzindikator</holdingsNoteTypeId>
                         <staffOnly>true</staffOnly>
                      </i>
                   </arr>
@@ -27636,7 +27636,7 @@
                      </i>
                      <i>
                         <note>0</note>
-                        <itemNoteTypeId>Lizenzindikator</itemNoteTypeId>
+                        <holdingsNoteTypeId>Lizenzindikator</holdingsNoteTypeId>
                         <staffOnly>true</staffOnly>
                      </i>
                   </arr>
