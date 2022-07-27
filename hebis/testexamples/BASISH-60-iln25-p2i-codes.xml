@@ -784,6 +784,7 @@
                   <arr>
                      <i>
                         <statement>487.2020 -</statement>
+                        <note>487.2020 -</note>
                      </i>
                   </arr>
                </holdingsStatements>
@@ -832,6 +833,7 @@
                   <arr>
                      <i>
                         <statement>487.2020 -</statement>
+                        <note>487.2020 -</note>
                      </i>
                   </arr>
                </holdingsStatements>
@@ -4954,6 +4956,7 @@
                   <arr>
                      <i>
                         <statement>1724 - 1791</statement>
+                        <note>1724 - 1791</note>
                      </i>
                   </arr>
                </holdingsStatements>
@@ -5011,9 +5014,10 @@
                      </i>
                      <i>
                         <statement>1.1890 - 30.1899; 137.1920 - 216.1929; 300.1947 - 303.1948; 305.1949 - 310.1950; 312.1951 - 354.1965</statement>
+                        <note>Sér. moderne</note>
                      </i>
                      <i>
-                        <statement>Angaben zur Vollständigkeit:[L=301.1947;303.1948]</statement>
+                        <statement>Angaben zur Vollständigkeit: [L=301.1947;303.1948]</statement>
                      </i>
                   </arr>
                </holdingsStatements>
@@ -10357,7 +10361,11 @@
                <permanentLocationId>2947e228-3ba6-4714-8ef4-bb31c254ea49</permanentLocationId>
                <holdingsTypeId>996f93e2-5b5e-4cf2-9168-33ced1f95eed</holdingsTypeId>
                <holdingsStatements>
-                  <arr/>
+                  <arr>
+                     <i>
+                        <note>Online-Zugang nur im Netz der Universität Mainz</note>
+                     </i>
+                  </arr>
                </holdingsStatements>
                <notes>
                   <arr>
@@ -12331,7 +12339,11 @@
                <permanentLocationId>2947e228-3ba6-4714-8ef4-bb31c254ea49</permanentLocationId>
                <holdingsTypeId>996f93e2-5b5e-4cf2-9168-33ced1f95eed</holdingsTypeId>
                <holdingsStatements>
-                  <arr/>
+                  <arr>
+                     <i>
+                        <note>Online-Zugang nur im Netz der Universität Mainz</note>
+                     </i>
+                  </arr>
                </holdingsStatements>
                <notes>
                   <arr>
@@ -13869,6 +13881,7 @@
                   <arr>
                      <i>
                         <statement>1977(1975)(=68)</statement>
+                        <note>1977(1975)(=68)</note>
                      </i>
                   </arr>
                </holdingsStatements>
@@ -16325,6 +16338,7 @@
                   <arr>
                      <i>
                         <statement>30.2020,1 -</statement>
+                        <note>30.2020,1 -</note>
                      </i>
                   </arr>
                </holdingsStatements>
