@@ -73,12 +73,24 @@
               <i>
                 <statement>
                     <xsl:if test="../subfield[@code='x']='03'">
-                       <xsl:text>Angaben zur Vollständigkeit:</xsl:text>  
+                       <xsl:text>Angaben zur Vollständigkeit: </xsl:text>  
                     </xsl:if>
                   <xsl:value-of select="."/>
                 </statement>
+                <xsl:if test="(../subfield[@code='x']='02') and (../../datafield[@tag='209E']/subfield[@code='x']='04')">
+                  <note>
+                    <xsl:value-of select="../../datafield[@tag='209E']/subfield[@code='a']"/>
+                  </note>
+                </xsl:if>
               </i>
             </xsl:for-each>
+            <xsl:if test="not (datafield[@tag='209E']/subfield[@code='x']='02') and (datafield[@tag='209E']/subfield[@code='x']='04')">
+              <i>
+                <note>
+                  <xsl:value-of select="datafield[@tag='209E']/subfield[@code='a']"/>
+                </note>
+              </i>
+            </xsl:if>
           </arr>
   	    </xsl:if>
       </holdingsStatements>
