@@ -79,7 +79,7 @@
                 </statement>
                 <xsl:if test="(../subfield[@code='x']='02') and (../../datafield[@tag='209E']/subfield[@code='x']='04')">
                   <note>
-                    <xsl:value-of select="../../datafield[@tag='209E']/subfield[@code='a']"/>
+                    <xsl:value-of select="../../datafield[(@tag='209E') and (subfield[@code='x']='04')]/subfield[@code='a']"/>
                   </note>
                 </xsl:if>
               </i>
@@ -87,7 +87,7 @@
             <xsl:if test="not (datafield[@tag='209E']/subfield[@code='x']='02') and (datafield[@tag='209E']/subfield[@code='x']='04')">
               <i>
                 <note>
-                  <xsl:value-of select="datafield[@tag='209E']/subfield[@code='a']"/>
+                  <xsl:value-of select="datafield[(@tag='209E') and (subfield[@code='x']='04')]/subfield[@code='a']"/>
                 </note>
               </i>
             </xsl:if>
