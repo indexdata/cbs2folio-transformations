@@ -86,7 +86,7 @@
       <items>
         <arr>
           <xsl:choose>
-            <xsl:when test="datafield[@tag='209G']/subfield[@code='a'][1]">
+            <xsl:when test="datafield[@tag='209G']/subfield[@code='a'][2]">
               <xsl:for-each select="datafield[@tag='209G']/subfield[@code='a']">
                 <xsl:apply-templates select="../.." mode="make-item">
                   <xsl:with-param name="hhrid" select="concat($hhrid, '-', .)"/>
