@@ -14,6 +14,7 @@ fi
 
 loan_type_storage_address=$okapi/loan-types
 holdings_sources_storage_address=$okapi/holdings-sources
+holdings_note_type_storage_address=$okapi/holdings-note-types
 identifier_type_storage_address=$okapi/identifier-types
 instance_statuses_storage_address=$okapi/instance-statuses
 instance_relationship_types_storage_address=$okapi/instance-relationship-types
@@ -38,6 +39,16 @@ for f in ./codes2uuid-hebis/holdings-sources/*.json; do
 	 -H "${token}" \
          -d @$f \
          "${holdings_sources_storage_address}" | grep 'message\|exists'
+done
+
+for f in ./codes2uuid-hebis/holdings-note-types/*.json; do
+        echo "PROCESSING -->" $f
+    	curl -w '\n' -s -X POST -D - \
+         -H "Content-type: application/json" \
+         -H "X-Okapi-Tenant: ${tenant}" \
+	 -H "${token}" \
+         -d @$f \
+         "${holdings_note_type_storage_address}" | grep 'message\|exists'
 done
 
 for f in ./codes2uuid-hebis/identifier-types/*.json; do

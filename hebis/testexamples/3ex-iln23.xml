@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="utf-8"?>
+<collection count="3">
+  <record>
+    <status>upsert</status>
+    <hrid>354400185</hrid>
+    <metadata>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">0026:25-03-15</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Aau</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">354400185</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">906097900</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">3662459760</subfield>
+        <subfield code="f">Book. w. online files/update : ca. EUR 49.99 (DE)</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">9783662459768</subfield>
+        <subfield code="f">Book. w. online files/update : ca. EUR 49.99 (DE)</subfield>
+      </datafield>
+      <datafield tag="004L" fulltag="004L">
+        <subfield code="0">9783662459768</subfield>
+      </datafield>
+      <datafield tag="006G" fulltag="006G">
+        <subfield code="0">1062811771</subfield>
+      </datafield>
+      <datafield tag="006T" fulltag="006T">
+        <subfield code="0">14,N50</subfield>
+      </datafield>
+      <datafield tag="006U" fulltag="006U">
+        <subfield code="0">15,A24,1128</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">DNB</subfield>
+        <subfield code="0">1062811771</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2015</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Gerthsen Physik</subfield>
+        <subfield code="h">Dieter Meschede [Hrsg.]</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">159249090</subfield>
+        <subfield code="a">Meschede</subfield>
+        <subfield code="d">Dieter</subfield>
+        <subfield code="h">1954-</subfield>
+        <subfield code="B">Hrsg.</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">184322839</subfield>
+        <subfield code="a">Gerthsen</subfield>
+        <subfield code="d">Christian</subfield>
+        <subfield code="h">1894-1956</subfield>
+        <subfield code="B">Begr.</subfield>
+      </datafield>
+      <datafield tag="032@" fulltag="032@">
+        <subfield code="a">25. Aufl.</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Berlin {[u.a.]</subfield>
+        <subfield code="n">Springer-Spektrum</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">XV, 1047 S.</subfield>
+      </datafield>
+      <datafield tag="034I" fulltag="034I">
+        <subfield code="a">240 mm x 168 mm</subfield>
+      </datafield>
+      <datafield tag="034M" fulltag="034M">
+        <subfield code="a">zahlr. Ill. u. graph. Darst.</subfield>
+      </datafield>
+      <datafield tag="036E" fulltag="036E">
+        <subfield code="a">Springer-Lehrbuch</subfield>
+      </datafield>
+      <item epn="758471904">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">13-10-20</subfield>
+          <subfield code="t">22:34:25.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="01" fulltag="201C/01">
+          <subfield code="0">14-08-15</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">758471904</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">13-10-20</subfield>
+          <subfield code="b">z</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">25 phy B 2 GER</subfield>
+          <subfield code="f">021</subfield>
+          <subfield code="d">u</subfield>
+          <subfield code="h">PHY B 2 GER</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">27521339</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="01" fulltag="247C/01">
+          <subfield code="9">102599424</subfield>
+          <subfield code="a">UB Kassel, Standort Holländischer Platz</subfield>
+          <subfield code="b">34/21</subfield>
+          <subfield code="c">352021-3</subfield>
+          <subfield code="h">DE-34-21</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
+        </datafield>
+      </item>
+      <item epn="758471912">
+        <datafield tag="201B" occurrence="02" fulltag="201B/02">
+          <subfield code="0">13-10-20</subfield>
+          <subfield code="t">22:34:25.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="02" fulltag="201C/02">
+          <subfield code="0">14-08-15</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="02" fulltag="201U/02">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="02" fulltag="203@/02">
+          <subfield code="0">758471912</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="02" fulltag="208@/02">
+          <subfield code="a">13-10-20</subfield>
+          <subfield code="b">z</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="02" fulltag="209A/02">
+          <subfield code="a">25 phy B 2 GER</subfield>
+          <subfield code="f">021</subfield>
+          <subfield code="d">u</subfield>
+          <subfield code="h">PHY B 2 GER</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="02" fulltag="209G/02">
+          <subfield code="a">27521347</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="02" fulltag="247C/02">
+          <subfield code="9">102599424</subfield>
+          <subfield code="a">UB Kassel, Standort Holländischer Platz</subfield>
+          <subfield code="b">34/21</subfield>
+          <subfield code="c">352021-3</subfield>
+          <subfield code="h">DE-34-21</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
+        </datafield>
+      </item>
+      <item epn="758471939">
+        <datafield tag="201B" occurrence="03" fulltag="201B/03">
+          <subfield code="0">13-10-20</subfield>
+          <subfield code="t">22:34:25.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="03" fulltag="201C/03">
+          <subfield code="0">14-08-15</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="03" fulltag="201U/03">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="03" fulltag="203@/03">
+          <subfield code="0">758471939</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="03" fulltag="208@/03">
+          <subfield code="a">13-10-20</subfield>
+          <subfield code="b">z</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="03" fulltag="209A/03">
+          <subfield code="a">55 phy B 2 GER</subfield>
+          <subfield code="f">050</subfield>
+          <subfield code="d">u</subfield>
+          <subfield code="h">PHY B 2 GER</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="03" fulltag="209G/03">
+          <subfield code="a">27521355</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="03" fulltag="247C/03">
+          <subfield code="9">102599513</subfield>
+          <subfield code="a">UB Kassel, Standort Wilhelmshöher Allee</subfield>
+          <subfield code="b">34/50</subfield>
+          <subfield code="c">352050-x</subfield>
+          <subfield code="h">DE-34-50</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
+        </datafield>
+      </item>
+      <item epn="756942896">
+        <datafield tag="201B" occurrence="04" fulltag="201B/04">
+          <subfield code="0">13-10-20</subfield>
+          <subfield code="t">22:34:25.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="04" fulltag="201C/04">
+          <subfield code="0">13-07-15</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="04" fulltag="201U/04">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="04" fulltag="203@/04">
+          <subfield code="0">756942896</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="04" fulltag="208@/04">
+          <subfield code="a">14-08-15</subfield>
+          <subfield code="b">z</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="04" fulltag="209A/04">
+          <subfield code="a">95 phy B 2 GER</subfield>
+          <subfield code="f">090</subfield>
+          <subfield code="d">u</subfield>
+          <subfield code="h">PHY B 2 GER</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="04" fulltag="209G/04">
+          <subfield code="a">27521312</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="04" fulltag="247C/04">
+          <subfield code="9">102599548</subfield>
+          <subfield code="a">UB Kassel, Standort Oberzwehren</subfield>
+          <subfield code="b">34/90</subfield>
+          <subfield code="c">352090-0</subfield>
+          <subfield code="h">DE-34-90</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
+        </datafield>
+      </item>
+      <item epn="758471890">
+        <datafield tag="201B" occurrence="05" fulltag="201B/05">
+          <subfield code="0">13-10-20</subfield>
+          <subfield code="t">22:34:25.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="05" fulltag="201C/05">
+          <subfield code="0">14-08-15</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="05" fulltag="201U/05">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="05" fulltag="203@/05">
+          <subfield code="0">758471890</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="05" fulltag="208@/05">
+          <subfield code="a">14-08-15</subfield>
+          <subfield code="b">z</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="05" fulltag="209A/05">
+          <subfield code="a">95 phy B 2 GER</subfield>
+          <subfield code="f">090</subfield>
+          <subfield code="d">u</subfield>
+          <subfield code="h">PHY B 2 GER</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="05" fulltag="209G/05">
+          <subfield code="a">27521320</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="05" fulltag="247C/05">
+          <subfield code="9">102599548</subfield>
+          <subfield code="a">UB Kassel, Standort Oberzwehren</subfield>
+          <subfield code="b">34/90</subfield>
+          <subfield code="c">352090-0</subfield>
+          <subfield code="h">DE-34-90</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
+        </datafield>
+      </item>
+      <item epn="764799819">
+        <datafield tag="201B" occurrence="06" fulltag="201B/06">
+          <subfield code="0">14-12-15</subfield>
+          <subfield code="t">11:22:11.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="06" fulltag="201C/06">
+          <subfield code="0">14-12-15</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="06" fulltag="201U/06">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="06" fulltag="203@/06">
+          <subfield code="0">764799819</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="06" fulltag="208@/06">
+          <subfield code="a">14-12-15</subfield>
+          <subfield code="b">z</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="06" fulltag="209A/06">
+          <subfield code="a">95 phy B 2 GER</subfield>
+          <subfield code="f">090</subfield>
+          <subfield code="d">u</subfield>
+          <subfield code="h">PHY B 2 GER</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="06" fulltag="209G/06">
+          <subfield code="a">27606377</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="06" fulltag="247C/06">
+          <subfield code="9">102599548</subfield>
+          <subfield code="a">UB Kassel, Standort Oberzwehren</subfield>
+          <subfield code="b">34/90</subfield>
+          <subfield code="c">352090-0</subfield>
+          <subfield code="h">DE-34-90</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
+        </datafield>
+      </item>
+      <item epn="764799827">
+        <datafield tag="201B" occurrence="07" fulltag="201B/07">
+          <subfield code="0">14-12-15</subfield>
+          <subfield code="t">11:22:11.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="07" fulltag="201C/07">
+          <subfield code="0">14-12-15</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="07" fulltag="201U/07">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="07" fulltag="203@/07">
+          <subfield code="0">764799827</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="07" fulltag="208@/07">
+          <subfield code="a">14-12-15</subfield>
+          <subfield code="b">z</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="07" fulltag="209A/07">
+          <subfield code="a">95 phy B 2 GER</subfield>
+          <subfield code="f">090</subfield>
+          <subfield code="d">u</subfield>
+          <subfield code="h">PHY B 2 GER</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="07" fulltag="209G/07">
+          <subfield code="a">27606385</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="07" fulltag="247C/07">
+          <subfield code="9">102599548</subfield>
+          <subfield code="a">UB Kassel, Standort Oberzwehren</subfield>
+          <subfield code="b">34/90</subfield>
+          <subfield code="c">352090-0</subfield>
+          <subfield code="h">DE-34-90</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
+        </datafield>
+      </item>
+      <item epn="764799835">
+        <datafield tag="201B" occurrence="08" fulltag="201B/08">
+          <subfield code="0">14-12-15</subfield>
+          <subfield code="t">11:22:11.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="08" fulltag="201C/08">
+          <subfield code="0">14-12-15</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="08" fulltag="201U/08">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="08" fulltag="203@/08">
+          <subfield code="0">764799835</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="08" fulltag="208@/08">
+          <subfield code="a">14-12-15</subfield>
+          <subfield code="b">z</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="08" fulltag="209A/08">
+          <subfield code="a">95 phy B 2 GER</subfield>
+          <subfield code="f">090</subfield>
+          <subfield code="d">u</subfield>
+          <subfield code="h">PHY B 2 GER</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="08" fulltag="209G/08">
+          <subfield code="a">27606393</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="08" fulltag="247C/08">
+          <subfield code="9">102599548</subfield>
+          <subfield code="a">UB Kassel, Standort Oberzwehren</subfield>
+          <subfield code="b">34/90</subfield>
+          <subfield code="c">352090-0</subfield>
+          <subfield code="h">DE-34-90</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
+        </datafield>
+      </item>
+      <item epn="764799843">
+        <datafield tag="201B" occurrence="09" fulltag="201B/09">
+          <subfield code="0">14-12-15</subfield>
+          <subfield code="t">11:22:11.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="09" fulltag="201C/09">
+          <subfield code="0">14-12-15</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="09" fulltag="201U/09">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="09" fulltag="203@/09">
+          <subfield code="0">764799843</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="09" fulltag="208@/09">
+          <subfield code="a">14-12-15</subfield>
+          <subfield code="b">z</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="09" fulltag="209A/09">
+          <subfield code="a">95 phy B 2 GER</subfield>
+          <subfield code="f">090</subfield>
+          <subfield code="d">u</subfield>
+          <subfield code="h">PHY B 2 GER</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="09" fulltag="209G/09">
+          <subfield code="a">27606407</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="09" fulltag="247C/09">
+          <subfield code="9">102599548</subfield>
+          <subfield code="a">UB Kassel, Standort Oberzwehren</subfield>
+          <subfield code="b">34/90</subfield>
+          <subfield code="c">352090-0</subfield>
+          <subfield code="h">DE-34-90</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
+        </datafield>
+      </item>
+    </metadata>
+  </record>
+  <record>
+    <status>upsert</status>
+    <hrid>01102478X</hrid>
+    <metadata>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">9999:99-99-99</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Aau</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">01102478X</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">25966573</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">3871446890</subfield>
+      </datafield>
+      <datafield tag="006G" fulltag="006G">
+        <subfield code="0">891005013</subfield>
+      </datafield>
+      <datafield tag="006U" fulltag="006U">
+        <subfield code="0">89,N32,0262</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">DNB</subfield>
+        <subfield code="0">891005013</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">1990</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Kulturgeschichte der Physik</subfield>
+        <subfield code="h">K. Simonyi</subfield>
+      </datafield>
+      <datafield tag="028A" fulltag="028A">
+        <subfield code="9">192324209</subfield>
+        <subfield code="a">Simonyi</subfield>
+        <subfield code="d">Károly</subfield>
+        <subfield code="h">1916-2001</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Thun {[u.a.]</subfield>
+        <subfield code="n">Deutsch</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">575 S.</subfield>
+      </datafield>
+      <datafield tag="034M" fulltag="034M">
+        <subfield code="a">zahlr. Ill. und graph. Darst., Kt.</subfield>
+      </datafield>
+      <item epn="051922096">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">22-05-17</subfield>
+          <subfield code="t">17:07:36.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">051922096</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">09-08-91</subfield>
+          <subfield code="b">h</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">35 1990 B 390</subfield>
+          <subfield code="f">030</subfield>
+          <subfield code="d">u</subfield>
+          <subfield code="h">35 1990 B 390</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="01" fulltag="209C/01">
+          <subfield code="a">1990 B 390</subfield>
+          <subfield code="h">1990 B 390</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">13467200</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">Sonderstandort Magazin Oberzwehren</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="01" fulltag="247C/01">
+          <subfield code="9">102599475</subfield>
+          <subfield code="a">UB Kassel, Standort Brüder-Grimm-Platz, Landesbibliothek und Murhardsche Bibliothek der Stadt Kassel</subfield>
+          <subfield code="b">34/30</subfield>
+          <subfield code="c">352030-4</subfield>
+          <subfield code="h">DE-34-30</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
+        </datafield>
+      </item>
+    </metadata>
+  </record>
+  <record>
+    <status>upsert</status>
+    <hrid>124527027</hrid>
+    <metadata>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">6050:10-10-15</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Obv</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+        <subfield code="2">rdacontent</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">Computermedien</subfield>
+        <subfield code="b">c</subfield>
+        <subfield code="2">rdamedia</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Online-Ressource</subfield>
+        <subfield code="b">cr</subfield>
+        <subfield code="2">rdacarrier</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">124527027</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">615199327</subfield>
+      </datafield>
+      <datafield tag="005P" fulltag="005P">
+        <subfield code="S">p</subfield>
+        <subfield code="0">0003-3804</subfield>
+      </datafield>
+      <datafield tag="006Z" fulltag="006Z">
+        <subfield code="0">2165600-9</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">ZDB</subfield>
+        <subfield code="0">2165600-9</subfield>
+      </datafield>
+      <datafield tag="017C" fulltag="017C">
+        <subfield code="u">http://www.bibliothek.uni-regensburg.de/ezeit/?2165600</subfield>
+        <subfield code="x">F</subfield>
+      </datafield>
+      <datafield tag="017C" fulltag="017C">
+        <subfield code="u">http://gallica.bnf.fr/ark:/12148/cb34462944f/date.r=.langFR</subfield>
+        <subfield code="x">D; 72 Jahre nach Veröffentlichung</subfield>
+        <subfield code="z">KW</subfield>
+      </datafield>
+      <datafield tag="017C" fulltag="017C">
+        <subfield code="u">http://opacplus.bsb-muenchen.de/title/287-2</subfield>
+        <subfield code="x">L; [1.F.] 1.1799 - 25.1807; 27.1807; 30.1808; N.F. 6=36.1809; 8=38.1811 - 10=40.1812; 12=42.1812; 14=44.1813 - 15=45.1813; 23=53.1816 - 30=60.1819; Neueste F. 1=61.1819 - 5=65.1820;14=74.1823; [2.F.] 1=77.1824 - 29=105.1833; 2.R. 1=31=107.1834 - 30=60=136.1843; 3.R. 1=61=137.1844 - 30=90=166.1853; 4.R. 1=91=167.1854 - 30=120=196.1863; 5.R. 1=121=197.1864 - 14=134=210.1868; 16=136=212.1869; 19=139=215.1870 - 30=150=226.1873</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">1799</subfield>
+        <subfield code="b">1943</subfield>
+        <subfield code="n">1799-1943</subfield>
+      </datafield>
+      <datafield tag="011B" fulltag="011B">
+        <subfield code="a">2008</subfield>
+        <subfield code="b">2013</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">10454466X</subfield>
+        <subfield code="a">Zeitschrift</subfield>
+      </datafield>
+      <datafield tag="018@" fulltag="018@">
+        <subfield code="a">z</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Annalen der Physik</subfield>
+        <subfield code="h">hrsg. unter Mitw. der Deutschen Physikalischen Gesellschaft. unter Mitw. ... hrsg. von E. Grüneisen [u.a.]</subfield>
+      </datafield>
+      <datafield tag="026C" fulltag="026C">
+        <subfield code="a">Ann. Physik</subfield>
+      </datafield>
+      <datafield tag="026C" fulltag="026C">
+        <subfield code="a">Ann. Phys. (Leipzig)</subfield>
+      </datafield>
+      <datafield tag="026C" fulltag="026C">
+        <subfield code="a">Ann. Phys. (East Germany)</subfield>
+      </datafield>
+      <datafield tag="031@" fulltag="031@">
+        <subfield code="a">[1.F.] 1.1799 - 30.1808; N.F. 2=32.1809 - 30=60.1819; Neueste F. 1=61.1819 - 16=76.1824; [2.F.] 1=77.1824 - 30=106.1836; 2.R. 1=31=107.1834 - 30=60=136.1843; 3.R. 1=61=137.1844 - 30=90=166.1853; 4.R. 1=91=167.1854 - 30=120=196.1863; 5.R. 1=121=197.1864 - 30=150=226.1873; 6.R. 1=151=227.1874 - 10=160=236.1877; [3.F.] 1=237.1877 - 69=305.1899; 4.F. 1=306.1900 - 87=392.1928; 5.F. 1=393.1929 - 435.1943[?]</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Leipzig</subfield>
+        <subfield code="n">Barth</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Halle</subfield>
+        <subfield code="n">Renger</subfield>
+        <subfield code="h">anfangs</subfield>
+        <subfield code="z">f</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">Online-Ressource</subfield>
+      </datafield>
+      <datafield tag="037A" fulltag="037A">
+        <subfield code="a">Gesehen am 09.07.09</subfield>
+      </datafield>
+      <datafield tag="039B" fulltag="039B">
+        <subfield code="i">In</subfield>
+        <subfield code="9">112014518</subfield>
+        <subfield code="8">Gallica : la bibliothèque numérique / Bibliothèque Nationale de France</subfield>
+      </datafield>
+      <datafield tag="039E" fulltag="039E">
+        <subfield code="b">f</subfield>
+        <subfield code="i">Vorg.</subfield>
+        <subfield code="9">277310245</subfield>
+        <subfield code="8">Neues Journal der Physik / hrsg. von Friedrich Albrecht Carl Gren</subfield>
+      </datafield>
+      <datafield tag="046D" fulltag="046D">
+        <subfield code="i">Hauptsacht. Neueste F. 1=61.1819 - 16=76.1824</subfield>
+        <subfield code="a">Annalen der Physik und der physikalischen Chemie</subfield>
+      </datafield>
+      <datafield tag="046D" fulltag="046D">
+        <subfield code="i">Hauptsacht. [2.F.] 1=77.1824 - [3.F.] 69=305.1899</subfield>
+        <subfield code="a">Annalen der Physik und Chemie</subfield>
+      </datafield>
+      <datafield tag="046D" fulltag="046D">
+        <subfield code="i">Nebent. teils</subfield>
+        <subfield code="a">Poggendorffs Annalen</subfield>
+      </datafield>
+      <datafield tag="046D" fulltag="046D">
+        <subfield code="i">Nebent. teils</subfield>
+        <subfield code="a">Wiedemanns Annalen der Physik und Chemie</subfield>
+      </datafield>
+      <item epn="22147613X">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">04-11-04</subfield>
+          <subfield code="t">20:43:04.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">22147613X</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">04-11-04</subfield>
+          <subfield code="b">l</subfield>
+        </datafield>
+        <datafield tag="209S" occurrence="01" fulltag="209S/01">
+          <subfield code="u">http://www.bibliothek.uni-regensburg.de/ezeit/?2165600&amp;bibid=UBKAS</subfield>
+          <subfield code="X">F</subfield>
+        </datafield>
+      </item>
+    </metadata>
+  </record>
+</collection>

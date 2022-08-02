@@ -196,14 +196,13 @@
                   <value>05,B22,0177</value>
                   <identifierTypeId>WV-Nummer</identifierTypeId>
                </i>
-               <i>
-                  <value>HEB: 127555897</value>
-                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
-               </i>
             </arr>
          </identifiers>
-         <indexTitle>Steigerung des ehrenamtlichen Engagements in Naturschutzverbänden Günter Mitlacher ; Ralf Schulte</indexTitle>
          <title>Steigerung des ehrenamtlichen Engagements in Naturschutzverbänden / Günter Mitlacher ; Ralf Schulte</title>
+         <indexTitle>Steigerung des ehrenamtlichen Engagements in Naturschutzverbänden Günter Mitlacher ; Ralf Schulte</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
          <contributors>
             <arr>
                <i>
@@ -237,7 +236,7 @@
          </languages>
          <series>
             <arr>
-               <i>BfN-Skripten</i>
+               <i>BfN-Skripten ; 129</i>
             </arr>
          </series>
          <physicalDescriptions>
@@ -246,6 +245,23 @@
             </arr>
          </physicalDescriptions>
       </instance>
+      <instanceRelations>
+         <parentInstances>
+            <arr>
+               <i>
+                  <instanceIdentifier>
+                     <hrid>060680504</hrid>
+                  </instanceIdentifier>
+                  <provisionalInstance>
+                     <title>BfN-Skripten</title>
+                     <instanceTypeId>a2c91e87-6bab-44d6-8adb-1fd02481fc4f</instanceTypeId>
+                     <source>hebis</source>
+                  </provisionalInstance>
+                  <instanceRelationshipTypeId>30773a27-b485-4dab-aeb6-b8c04fa3cb17</instanceRelationshipTypeId>
+               </i>
+            </arr>
+         </parentInstances>
+      </instanceRelations>
       <processing>
          <item>
             <status>
@@ -456,14 +472,13 @@
                   <value>420161613</value>
                   <identifierTypeId>OCLC</identifierTypeId>
                </i>
-               <i>
-                  <value>HEB: 045797889</value>
-                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
-               </i>
             </arr>
          </identifiers>
-         <indexTitle>Beiträge zur Unterscheidung von Kauf und Pacht vorgelegt von Peter Boller</indexTitle>
          <title>Beiträge zur Unterscheidung von Kauf und Pacht / vorgelegt von Peter Boller</title>
+         <indexTitle>Beiträge zur Unterscheidung von Kauf und Pacht vorgelegt von Peter Boller</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
          <contributors>
             <arr>
                <i>
@@ -486,17 +501,27 @@
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr>
+               <i>
+                  <note>Zugl.: </note>
+                  <instanceNoteTypeId>Dissertation note</instanceNoteTypeId>
+               </i>
+            </arr>
+         </notes>
          <languages>
             <arr>
                <i>ger</i>
             </arr>
          </languages>
+         <series/>
          <physicalDescriptions>
             <arr>
                <i>VIII, 90 S.</i>
             </arr>
          </physicalDescriptions>
       </instance>
+      <instanceRelations/>
       <processing>
          <item>
             <status>
@@ -761,14 +786,13 @@
                   <value>3-525-71401-7</value>
                   <identifierTypeId>ISBN</identifierTypeId>
                </i>
-               <i>
-                  <value>HEB: 049073338</value>
-                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
-               </i>
             </arr>
          </identifiers>
-         <indexTitle>Latinum Lehrgang für den spätbeginnenden Lateinunterricht von Helmut Schlüter u. Kurt Steinicke</indexTitle>
-         <title>Latinum : Lehrgang für den spätbeginnenden Lateinunterricht / von Helmut Schlüter u. Kurt Steinicke (Grammatisches Beiheft)</title>
+         <title>Latinum : Lehrgang für den spätbeginnenden Lateinunterricht / von Helmut Schlüter u. Kurt Steinicke ; Grammatisches Beiheft ; </title>
+         <indexTitle>Latinum Lehrgang für den spätbeginnenden Lateinunterricht von Helmut Schlüter u. Kurt Steinicke Grammatisches Beiheft </indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
          <contributors>
             <arr>
                <i>
@@ -808,6 +832,7 @@
                <i>lat</i>
             </arr>
          </languages>
+         <series/>
          <physicalDescriptions>
             <arr>
                <i>80 S.</i>
@@ -819,6 +844,23 @@
             </arr>
          </editions>
       </instance>
+      <instanceRelations>
+         <parentInstances>
+            <arr>
+               <i>
+                  <instanceIdentifier>
+                     <hrid>027901505</hrid>
+                  </instanceIdentifier>
+                  <provisionalInstance>
+                     <title>@Latinum : Lehrgang für den spätbeginnenden Lateinunterricht / von Helmut Schlüter u. Kurt Steinicke</title>
+                     <instanceTypeId>a2c91e87-6bab-44d6-8adb-1fd02481fc4f</instanceTypeId>
+                     <source>hebis</source>
+                  </provisionalInstance>
+                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+               </i>
+            </arr>
+         </parentInstances>
+      </instanceRelations>
       <processing>
          <item>
             <status>
@@ -1142,33 +1184,16 @@
                   <identifierTypeId>OCLC</identifierTypeId>
                </i>
                <i>
-                  <value>978-3-7489-2192-9</value>
-                  <identifierTypeId>ISBN</identifierTypeId>
-               </i>
-               <i>
-                  <value>978-3-8487-7787-7</value>
+                  <value>10.5771/9783748921929</value>
                   <identifierTypeId>ISBN einer Manifestation in anderer physischer Form</identifierTypeId>
-               </i>
-               <i>
-                  <value>HEB: 474839737</value>
-                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
-               </i>
-               <i>
-                  <value>ZDB-1-NBR</value>
-                  <identifierTypeId>Produktsigel für Pakete von Online-Ressourcen</identifierTypeId>
-               </i>
-               <i>
-                  <value>ZDB-1-NOL</value>
-                  <identifierTypeId>Produktsigel für Pakete von Online-Ressourcen</identifierTypeId>
-               </i>
-               <i>
-                  <value>ZDB-18-NOL</value>
-                  <identifierTypeId>Produktsigel für Pakete von Online-Ressourcen</identifierTypeId>
                </i>
             </arr>
          </identifiers>
-         <indexTitle>elektronische Person Entwurf eines Zurechnungs- und Haftungssubjekts für den Einsatz autonomer Systeme im Rechtsverkehr Cornelius Kleinert</indexTitle>
          <title>Die elektronische Person : Entwurf eines Zurechnungs- und Haftungssubjekts für den Einsatz autonomer Systeme im Rechtsverkehr / Cornelius Kleinert</title>
+         <indexTitle>elektronische Person Entwurf eines Zurechnungs- und Haftungssubjekts für den Einsatz autonomer Systeme im Rechtsverkehr Cornelius Kleinert</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
          <contributors>
             <arr>
                <i>
@@ -1197,17 +1222,16 @@
             </arr>
          </publication>
          <electronicAccess>
+            <arr/>
+         </electronicAccess>
+         <notes>
             <arr>
                <i>
-                  <uri>https://www.nomos-elibrary.de/10.5771/9783748921929/die-elektronische-person</uri>
-                  <relationshipId>f5d0068e-6272-458e-8a81-b85e7b9a14aa</relationshipId>
-               </i>
-               <i>
-                  <uri>https://doi.org/10.5771/9783748921929</uri>
-                  <relationshipId>f5d0068e-6272-458e-8a81-b85e7b9a14aa</relationshipId>
+                  <note>Dissertation, Albert-Ludwigs-Universität Freiburg im Breisgau, 2020</note>
+                  <instanceNoteTypeId>Dissertation note</instanceNoteTypeId>
                </i>
             </arr>
-         </electronicAccess>
+         </notes>
          <natureOfContentTermIds>
             <arr>
                <i/>
@@ -1220,7 +1244,7 @@
          </languages>
          <series>
             <arr>
-               <i>Der @Elektronische Rechtsverkehr</i>
+               <i>Der @Elektronische Rechtsverkehr ; Band 44</i>
             </arr>
          </series>
          <physicalDescriptions>
@@ -1234,6 +1258,7 @@
             </arr>
          </editions>
       </instance>
+      <instanceRelations/>
       <processing>
          <item>
             <status>
@@ -1486,12 +1511,12 @@
                   <identifierTypeId>OCLC</identifierTypeId>
                </i>
                <i>
-                  <value>978-3-7799-2137-0 Ringb. : ca. sfr 70.90 (freier Pr.), ca. EUR 42.00</value>
+                  <value>Ringb. : ca. sfr 70.90 (freier Pr.), ca. EUR 42.00</value>
                   <identifierTypeId>ISBN</identifierTypeId>
                </i>
                <i>
                   <value>9783779921370</value>
-                  <identifierTypeId>EAN</identifierTypeId>
+                  <identifierTypeId>Formal falsche ISBN der Reproduktion</identifierTypeId>
                </i>
                <i>
                   <value>991499360</value>
@@ -1506,13 +1531,16 @@
                   <identifierTypeId>WV-Nummer</identifierTypeId>
                </i>
                <i>
-                  <value>HEB: 211350931</value>
-                  <identifierTypeId>Erstkatalogisierer-​ID-Nummer</identifierTypeId>
+                  <value>: DE004F0ED5CC4B0AD5548C125765D005137FD</value>
+                  <identifierTypeId>Identnummer der erstkatalogisierenden Institution</identifierTypeId>
                </i>
             </arr>
          </identifiers>
-         <indexTitle>Kompetenztraining "Pädagogik der Vielfalt" Grundlagen und Praxismaterialien zu Differenzverhältnissen, Selbstreflexion und Anerkennung Uwe Sielert ...</indexTitle>
          <title>Kompetenztraining "Pädagogik der Vielfalt" : Grundlagen und Praxismaterialien zu Differenzverhältnissen, Selbstreflexion und Anerkennung / Uwe Sielert ...</title>
+         <indexTitle>Kompetenztraining "Pädagogik der Vielfalt" Grundlagen und Praxismaterialien zu Differenzverhältnissen, Selbstreflexion und Anerkennung Uwe Sielert ...</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
          <contributors>
             <arr>
                <i>
@@ -1526,7 +1554,7 @@
                <i>
                   <place>Weinheim {[u.a.]</place>
                   <publisher>Juventa</publisher>
-                  <dateOfPublication>2009 (2009)</dateOfPublication>
+                  <dateOfPublication>2009</dateOfPublication>
                   <role>Publisher</role>
                </i>
             </arr>
@@ -1539,12 +1567,14 @@
                <i>ger</i>
             </arr>
          </languages>
+         <series/>
          <physicalDescriptions>
             <arr>
                <i>261 S. : graph. Darst.</i>
             </arr>
          </physicalDescriptions>
       </instance>
+      <instanceRelations/>
       <processing>
          <item>
             <status>

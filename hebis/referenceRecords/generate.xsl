@@ -4,9 +4,9 @@
 
     <!-- Generates reference records for FOLIO installations from codes2uuid mapping xls scripts. xsl:when are processed when containing an xsl:text element. -->
 
-    <xsl:variable name="xsl-name-liste" select="('itemNoteTypeId','materialTypeId','identifierTypeId','sourceId','permanentLoanTypeId')"/>
-    <xsl:variable name="api-name-liste" select="('item-note-types','material-types','identifier-types','holdings-sources','loan-types')"/>
-    <xsl:variable name="source-name-liste" select="('hebis','hebis','K10plus','folio','')"/>
+    <xsl:variable name="xsl-name-liste" select="('itemNoteTypeId','holdingsNoteTypeId','materialTypeId','identifierTypeId','sourceId','permanentLoanTypeId')"/>
+    <xsl:variable name="api-name-liste" select="('item-note-types','holdings-note-types','material-types','identifier-types','holdings-sources','loan-types')"/>
+    <xsl:variable name="source-name-liste" select="('hebis','hebis','hebis','K10plus','folio','')"/>
  
     <xsl:template match="xsl:when[index-of($xsl-name-liste,ancestor::xsl:template/@match)>0 and xsl:text]">
             <xsl:variable name="text" select='substring-before(substring-after(@test,"&apos;"),"&apos;")'/>

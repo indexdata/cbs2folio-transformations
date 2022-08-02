@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output indent="yes" method="xml" version="1.0" encoding="UTF-8"/>
+
   <xsl:template match="collection">
     <collection>
       <xsl:apply-templates/>
     </collection>
   </xsl:template>
+
   <xsl:template match="record[./status='deleted']">
     <record>
       <delete>
@@ -15,6 +17,7 @@
       </delete>
     </record>
   </xsl:template>
+
   <xsl:template match="record">
     <record>
       <original>
@@ -25,8 +28,54 @@
       </instance>
     </record>
   </xsl:template>
+
+  <!-- hebis: added new templates -->
+  <xsl:template name="parse-021x">
+    <xsl:if test="subfield[@code='a']">
+      <xsl:value-of select="translate(./subfield[@code='a'], '@', '')"/>
+    </xsl:if>
+    <xsl:if test="subfield[@code='d']">
+      <xsl:value-of select="concat(' : ', ./subfield[@code='d'])"/>
+    </xsl:if>
+    <xsl:if test="subfield[@code='e' or @code='h']">
+      <xsl:value-of select="concat(' / ', ./subfield[@code='e' or @code='h'])"/>
+    </xsl:if>
+      <xsl:if test="subfield[@code='f']">
+      <xsl:value-of select="concat(' = ', ./subfield[@code='f'])"/>
+    </xsl:if>
+    <xsl:if test="subfield[@code='r']">
+      <xsl:value-of select="."/>
+    </xsl:if>
+  </xsl:template>
+
+  <xsl:template name="parse-036x">
+    <xsl:choose>
+      <xsl:when test="./subfield[@code='m']">
+        <xsl:value-of select="normalize-space(concat('. ', ./subfield[@code='m']))"/>
+        <xsl:if test="./subfield[@code='a']">
+          <xsl:value-of select="concat(', ', translate(./subfield[@code='a'], '@', ''))"/>
+        </xsl:if>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="normalize-space(concat('. ', translate(./subfield[@code='a'], '@', '')))"/>
+      </xsl:otherwise>
+    </xsl:choose>
+    <xsl:if test="./subfield[@code='d']">
+      <xsl:value-of select="concat(' : ', ./subfield[@code='d'])"/>
+    </xsl:if>
+    <xsl:if test="./subfield[@code='e' or @code='h']">
+      <xsl:value-of select="concat(' / ', ./subfield[@code='e' or @code='h'])"/>
+    </xsl:if>
+    <xsl:if test="./subfield[@code='f']">
+      <xsl:value-of select="concat(' = ', ./subfield[@code='f'])"/>
+    </xsl:if>
+    <xsl:if test="./subfield[@code='l']">
+      <xsl:value-of select="concat(' ; ', ./subfield[@code='l'])"/>
+    </xsl:if>
+  </xsl:template>
+
   <xsl:template match="metadata">
-    <source>hebis</source>
+    <source>hebis</source> <!-- hebis: source changed -->
     <xsl:variable name="ppn" select="datafield[@tag='003@']/subfield[@code='0']"/>
     <hrid>
       <xsl:value-of select="$ppn"/>
@@ -253,6 +302,7 @@
     <!-- Identifiers -->
     <identifiers>
       <arr>
+        <!-- hebis: added missing tags: 004R, 004U, 004V, 006B, 006N, 006X, 007Y -->
         <xsl:for-each select="datafield[@tag='003S' or @tag='003@' or @tag='004A' or @tag='004P' or @tag='004J' or @tag='004K' or @tag='004D' or @tag='005A' or @tag='005I' or @tag='005P' or @tag='005D' or @tag='004F' or @tag='004M' or @tag='004I' or @tag='006A' or @tag='006B' or @tag='006G' or @tag='006T' or @tag='006U' or @tag='006Z' or @tag='006S' or @tag='006L' or @tag='006N' or @tag='006V' or @tag='006W' or @tag='006X' or @tag='006M' or @tag='004V' or @tag='004R' or @tag='004W' or @tag='004L' or @tag='004C' or @tag='004U' or @tag='003O' or @tag='003T' or @tag='003D' or @tag='007C' or @tag='007D' or @tag='007G' or @tag='007Y' or @tag='017K' or @tag='017L']">
           <xsl:choose>
             <xsl:when test="./@tag='004A' or @tag='004D' or @tag='004P' or @tag='005A' or @tag='005P' or @tag='005D' or @tag='004F' or @tag='004M' or @tag='004I' or @tag='004R' or @tag='004U' or @tag='004V' or @tag='006B'">
@@ -288,6 +338,7 @@
                   <xsl:when test="./@tag='004F'">ISMN</xsl:when>
                   <xsl:when test="./@tag='004M'">ISRN</xsl:when>
                   <xsl:when test="./@tag='004I'">Formal falsche ISMN</xsl:when>
+                  <!-- hebis: added missing labels -->
                   <xsl:when test="./@tag='004R'">Handle</xsl:when>
                   <xsl:when test="./@tag='004U'">URN</xsl:when>
                   <xsl:when test="./@tag='004V'">DOI</xsl:when>
@@ -305,20 +356,24 @@
                 </i>
               </xsl:if>
             </xsl:when>
+            <!-- hebis: corrected mistake? 
+                 $i won't occur without $0, but $0 might occur without $i -->
             <xsl:when test="./@tag='007G' or @tag='007D'">
               <xsl:variable name="id-value">
                 <xsl:choose>
-                  <xsl:when test="./subfield[@code='0']">
+                  <xsl:when test="./subfield[@code='i']">
                     <xsl:value-of select="concat(./subfield[@code='i'],': ',./subfield[@code='0'])"/>
                   </xsl:when>
                   <xsl:otherwise>
-                    <xsl:value-of select="./subfield[@code='i']"/>
+                    <xsl:value-of select="./subfield[@code='0']"/>
                   </xsl:otherwise>
                 </xsl:choose>
               </xsl:variable>
               <xsl:variable name="id-type">
                 <xsl:choose>
                   <xsl:when test="./@tag='007G'">Identnummer der erstkatalogisierenden Institution</xsl:when>
+                  <!-- hebis: added missing labels -->
+                  <xsl:when test="./@tag='007D'">Verlags-, Produktions- und Bestellnummer</xsl:when>
                 </xsl:choose>
               </xsl:variable>
               <xsl:if test="string-length($id-value) &gt; 0">
@@ -358,6 +413,7 @@
             </xsl:when>
             <xsl:when test="./subfield[@code='0']">
               <xsl:variable name="id-value">
+                <!-- hebis: added missing subfield $i -->
                 <xsl:choose>
                   <xsl:when test="./subfield[@code='i']">
                     <xsl:value-of select="concat(./subfield[@code='i'],': ',./subfield[@code='0'])"/>
@@ -371,7 +427,7 @@
                 <xsl:choose>
                   <xsl:when test="./@tag='003O'">OCLC</xsl:when>
                   <xsl:when test="./@tag='003S'">PPN SWB</xsl:when>
-        				  <xsl:when test="./@tag='003@'">PPN</xsl:when>
+                  <xsl:when test="./@tag='003@'">PPN</xsl:when>
                   <xsl:when test="./@tag='004J'">ISBN der Reproduktion</xsl:when>
                   <xsl:when test="./@tag='004K'">Formal falsche ISBN der Reproduktion</xsl:when>
                   <xsl:when test="./@tag='005I'">Autorisierte ISSN</xsl:when>
@@ -413,7 +469,301 @@
         </xsl:for-each>
       </arr>
     </identifiers>
+
+    <!-- hebis: 
+       - added missing tags and subfields (parts of multipart resources with dependent title, "contained works")
+       - corrected order of tags and subfields, e.g. remainder of title and statement of responsibility of titles with subsets
+       - separated transcription and Non Latin script
+    -->
+
     <!-- title -->
+
+          <!-- hebis: special feature at hebis, 036A/XY doesn't exist at GBV -->
+          <xsl:variable name="title-036A">
+            <xsl:for-each select="datafield[(@tag='036A') and (not(./subfield[@code='U']) or (substring(./subfield[@code='U'],1,4) = 'Latn'))]">
+              <xsl:call-template name="parse-036x"/>
+            </xsl:for-each>
+          </xsl:variable>
+
+          <xsl:variable name="title-036C">
+            <xsl:for-each select="datafield[(@tag='036C') and (not(./subfield[@code='U']) or (substring(./subfield[@code='U'],1,4) = 'Latn'))]">
+              <xsl:call-template name="parse-036x"/>
+            </xsl:for-each>
+          </xsl:variable>
+
+          <xsl:variable name="title-036C-ori">
+            <xsl:for-each select="datafield[(@tag='036C') and (substring(./subfield[@code='U'],1,4) != 'Latn') and (./subfield[@code='U'])]">
+              <xsl:call-template name="parse-036x"/>
+            </xsl:for-each>
+          </xsl:variable>
+
+          <xsl:variable name="title-036C-idx">
+            <xsl:for-each select="datafield[(@tag='036C') and (not(./subfield[@code='U']) or (substring(./subfield[@code='U'],1,4) = 'Latn'))]">
+              <xsl:if test="./subfield[@code='m']">
+                <xsl:value-of select="concat(' ', ./subfield[@code='m'])"/>
+              </xsl:if>
+              <xsl:if test="subfield[@code='a']">
+                <xsl:choose>
+                  <xsl:when test="./subfield[@code='a'][contains(., '@')]">
+                    <xsl:value-of select="concat(' ', substring-after(./subfield[@code='a'], '@'))"/>
+                  </xsl:when>
+                  <xsl:otherwise>
+                    <xsl:value-of select="concat(' ', ./subfield[@code='a'])"/>
+                  </xsl:otherwise>
+                </xsl:choose>
+              </xsl:if>
+              <xsl:if test="subfield[@code='d']">
+                <xsl:value-of select="concat(' ', ./subfield[@code='d'])"/>
+              </xsl:if>
+              <xsl:if test="subfield[@code='e' or @code='h']">
+                <xsl:value-of select="concat(' ', ./subfield[@code='e' or @code='h'])"/>
+              </xsl:if>
+              <xsl:if test="subfield[@code='f']">
+                <xsl:value-of select="concat(' ', ./subfield[@code='f'])"/>
+              </xsl:if>
+              <xsl:if test="subfield[@code='l']">
+                <xsl:value-of select="concat(' ', ./subfield[@code='l'])"/>
+              </xsl:if>
+            </xsl:for-each>
+          </xsl:variable>
+
+          <xsl:variable name="title-021A">
+            <xsl:for-each select="datafield[(@tag='021A') and ((substring(./subfield[@code='U'],1,4) = 'Latn') or not(./subfield[@code='U']))]">
+              <xsl:call-template name="parse-021x"/>
+            </xsl:for-each>
+          </xsl:variable>
+
+          <xsl:variable name="title-021A-ori">
+            <xsl:for-each select="datafield[(@tag='021A') and (substring(./subfield[@code='U'],1,4) != 'Latn') and (./subfield[@code='U'])]">
+              <xsl:call-template name="parse-021x"/>
+            </xsl:for-each>
+          </xsl:variable>
+
+          <xsl:variable name="title-021A-idx">
+            <xsl:for-each select="datafield[(@tag='021A') and ((substring(./subfield[@code='U'],1,4) = 'Latn') or not(./subfield[@code='U']))]">
+              <xsl:if test="subfield[@code='a']">
+                <xsl:choose>
+                  <xsl:when test="./subfield[@code='a'][contains(., '@')]">
+                    <xsl:value-of select="substring-after(./subfield[@code='a'], '@')"/>
+                  </xsl:when>
+                  <xsl:otherwise>
+                    <xsl:value-of select="./subfield[@code='a']"/>
+                  </xsl:otherwise>
+                </xsl:choose>
+              </xsl:if>
+              <xsl:if test="subfield[@code='d']">
+                <xsl:value-of select="concat(' ', ./subfield[@code='d'])"/>
+              </xsl:if>
+              <xsl:if test="subfield[@code='e' or @code='h']">
+                <xsl:value-of select="concat(' ', ./subfield[@code='e' or @code='h'])"/>
+              </xsl:if>
+              <xsl:if test="subfield[@code='f']">
+                <xsl:value-of select="concat(' ', ./subfield[@code='f'])"/>
+              </xsl:if>
+              <xsl:if test="subfield[@code='r']">
+                <xsl:value-of select="./subfield[@code='r']"/>
+              </xsl:if>
+            </xsl:for-each>
+          </xsl:variable>
+
+          <xsl:variable name="title-021C">
+            <xsl:for-each select="datafield[(@tag='021C') and ((substring(./subfield[@code='U'],1,4) = 'Latn') or not(./subfield[@code='U']))]">
+              <xsl:choose>
+                <xsl:when test="./subfield[@code='l']">
+                  <xsl:value-of select="normalize-space(concat('. ', ./subfield[@code='l']))"/>
+                  <xsl:if test="subfield[@code='a']">
+                     <xsl:value-of select="concat(', ', translate(./subfield[@code='a'], '@', ''))"/>
+                  </xsl:if>
+                </xsl:when>
+                <xsl:otherwise>
+                  <xsl:value-of select="normalize-space(concat('. ', translate(./subfield[@code='a'], '@', '')))"/>
+                </xsl:otherwise>
+              </xsl:choose>
+            </xsl:for-each>
+          </xsl:variable>
+
+          <xsl:variable name="title-021C-ori">
+            <xsl:for-each select="datafield[@tag='021C']">
+              <xsl:if test="(substring(./subfield[@code='U'],1,4) != 'Latn') and (./subfield[@code='U']) ">
+                <xsl:choose>
+                  <xsl:when test="./subfield[@code='l']">
+                    <xsl:value-of select="normalize-space(concat('. ', ./subfield[@code='l']))"/>
+                    <xsl:if test="subfield[@code='a']">
+                       <xsl:value-of select="concat(', ', translate(./subfield[@code='a'], '@', ''))"/>
+                    </xsl:if>
+                  </xsl:when>
+                  <xsl:otherwise>
+                    <xsl:value-of select="normalize-space(concat('. ', translate(./subfield[@code='a'], '@', '')))"/>
+                  </xsl:otherwise>
+                </xsl:choose>
+              </xsl:if>
+            </xsl:for-each>
+          </xsl:variable>
+
+          <xsl:variable name="title-021C-idx">
+            <xsl:for-each select="datafield[(@tag='021C') and ((substring(./subfield[@code='U'],1,4) = 'Latn') or not(./subfield[@code='U']))]">
+              <xsl:if test="./subfield[@code='l']">
+                <xsl:value-of select="concat(' ', ./subfield[@code='l'])"/>
+              </xsl:if>
+              <xsl:if test="subfield[@code='a']">
+                <xsl:choose>
+                  <xsl:when test="./subfield[@code='a'][contains(., '@')]">
+                    <xsl:value-of select="concat(' ',substring-after(./subfield[@code='a'], '@'))"/>
+                  </xsl:when>
+                  <xsl:otherwise>
+                    <xsl:value-of select="concat(' ', ./subfield[@code='a'])"/>
+                  </xsl:otherwise>
+                </xsl:choose>
+              </xsl:if>
+            </xsl:for-each>
+          </xsl:variable>
+
+          <xsl:variable name="title-021M">
+            <xsl:for-each select="datafield[(@tag='021M') and ((substring(./subfield[@code='U'],1,4) = 'Latn') or not(./subfield[@code='U']))]">
+                <xsl:value-of select="' | '"/>
+              <xsl:call-template name="parse-021x"/>
+            </xsl:for-each>
+          </xsl:variable>
+
+          <xsl:variable name="title-021M-ori">
+            <xsl:for-each select="datafield[(@tag='021M') and (substring(./subfield[@code='U'],1,4) != 'Latn') and (./subfield[@code='U'])]">
+                <xsl:value-of select="' | '"/>
+              <xsl:call-template name="parse-021x"/>
+            </xsl:for-each>
+          </xsl:variable>
+
+          <xsl:variable name="title-021M-idx">
+            <xsl:for-each select="datafield[(@tag='021M') and ((substring(./subfield[@code='U'],1,4) = 'Latn') or not(./subfield[@code='U']))]">
+              <xsl:value-of select="' '"/>
+              <xsl:if test="subfield[@code='a']">
+                <xsl:choose>
+                  <xsl:when test="./subfield[@code='a'][contains(., '@')]">
+                    <xsl:value-of select="substring-after(./subfield[@code='a'], '@')"/>
+                  </xsl:when>
+                  <xsl:otherwise>
+                    <xsl:value-of select="./subfield[@code='a']"/>
+                  </xsl:otherwise>
+                </xsl:choose>
+              </xsl:if>
+              <xsl:if test="subfield[@code='d']">
+                <xsl:value-of select="concat(' ', ./subfield[@code='d'])"/>
+              </xsl:if>
+              <xsl:if test="subfield[@code='e' or @code='h']">
+                <xsl:value-of select="concat(' ', ./subfield[@code='e' or @code='h'])"/>
+              </xsl:if>
+              <xsl:if test="subfield[@code='f']">
+                <xsl:value-of select="concat(' ', ./subfield[@code='f'])"/>
+              </xsl:if>
+            </xsl:for-each>
+          </xsl:variable>
+
+          <xsl:variable name="title-021N">
+            <xsl:for-each select="datafield[(@tag='021N') and ((substring(./subfield[@code='U'],1,4) = 'Latn') or not(./subfield[@code='U']))]">
+              <xsl:if test="subfield[@code='a']">
+                <xsl:value-of select="subfield[@code='a']"/>
+              </xsl:if>
+            </xsl:for-each>
+          </xsl:variable>
+
+          <xsl:variable name="title-021N-ori">
+            <xsl:for-each select="datafield[(@tag='021N') and ((substring(./subfield[@code='U'],1,4) != 'Latn') or not(./subfield[@code='U']))]">
+              <xsl:if test="subfield[@code='a']">
+                <xsl:value-of select="subfield[@code='a']"/>
+              </xsl:if>
+            </xsl:for-each>
+          </xsl:variable>
+
+          <title>
+            <xsl:choose>
+              <xsl:when test="boolean(substring(datafield[@tag='002@']/subfield[@code='0'], 2, 1) = 'f') and datafield[@tag='036C']">
+                <xsl:value-of select="normalize-space(substring-after($title-036C, '. '))"/>
+                  <xsl:if test="$title-021A != '' and boolean(substring($title-021A, 1, 1) != ' ')">
+                    <xsl:choose>
+                      <!-- hebis: TBD: Not entirely correct, but it should work in most cases. 
+                                       The last occurrence of 036C would have to be evaluated. -->
+                      <xsl:when test="datafield[@tag='036C']/subfield[@code='l']">
+                        <xsl:value-of select="concat(', ', $title-021A)"/>
+                      </xsl:when>
+                      <xsl:otherwise>
+                        <xsl:value-of select="concat(' ; ', $title-021A)"/>
+                      </xsl:otherwise>
+                    </xsl:choose>
+                  </xsl:if>
+                  <xsl:if test="$title-021A != '' and boolean(substring($title-021A, 1, 1) = ' ')">
+                    <xsl:value-of select="$title-021A"/>
+                  </xsl:if>
+              </xsl:when> 
+              <!-- TBD: need for adjustment at GBV
+              <xsl:when test="boolean(substring(datafield[@tag='002@']/subfield[@code='0'], 2, 1) = 'f') and datafield[@tag='036E']">036E</xsl:when>
+              <xsl:when test="boolean(substring(datafield[@tag='002@']/subfield[@code='0'], 2, 1) = 'v') and datafield[@tag='036F']/subfield[@code='8']">036F</xsl:when> 
+              -->
+              <xsl:otherwise>
+                <xsl:value-of select="concat($title-021A, $title-021C)"/>
+                  <!-- hebis: ZDB special feature since the RDA switch:
+                              Edition Statement instead of subseries -->
+                  <xsl:if test="boolean(substring(datafield[@tag='002@']/subfield[@code='0'], 2, 1) = 'b') or boolean(substring(datafield[@tag='002@']/subfield[@code='0'], 2, 1) = 'd')">
+                    <xsl:if test="datafield[@tag='032@']/subfield[@code='a'] != ''">
+                      <xsl:value-of select="concat('. ', datafield[@tag='032@']/subfield[@code='a'])"/>
+                    </xsl:if>
+                  </xsl:if>
+                  <xsl:if test="$title-021M != ''">
+                    <xsl:value-of select="$title-021M"/>
+                  </xsl:if>
+                  <xsl:if test="$title-021N != ''">
+                    <xsl:choose>
+                      <xsl:when test="boolean(substring($title-021N, 1, 1) = '/')">
+                        <xsl:value-of select="concat(' ', $title-021N)"/>
+                      </xsl:when>
+                      <xsl:otherwise>
+                        <xsl:value-of select="concat(' | ', $title-021N)"/>
+                      </xsl:otherwise>
+                    </xsl:choose>
+                  </xsl:if>
+              </xsl:otherwise>
+            </xsl:choose>
+          </title> 
+
+          <indexTitle>
+            <xsl:choose>
+              <xsl:when test="boolean(substring(datafield[@tag='002@']/subfield[@code='0'], 2, 1) = 'f') and datafield[@tag='036C']">
+                <xsl:value-of select="normalize-space(translate($title-036C-idx, '&#034;&#035;&#040;&#041;&#046;', ' '))"/>
+                  <xsl:if test="$title-021A-idx != ''">
+                    <xsl:value-of select="concat(' ', $title-021A-idx)"/>
+                  </xsl:if>
+              </xsl:when>
+              <!-- TBD: need for adjustment at GBV
+              <xsl:when test="boolean(substring(datafield[@tag='002@']/subfield[@code='0'], 2, 1) = 'f') and datafield[@tag='036E']">036E</xsl:when>
+              <xsl:when test="boolean(substring(datafield[@tag='002@']/subfield[@code='0'], 2, 1) = 'v') and datafield[@tag='036F']/subfield[@code='8']">036F</xsl:when> 
+              -->
+              <xsl:otherwise>
+                <xsl:value-of select="concat(translate($title-021A-idx, '&#034;&#035;&#040;&#041;&#046;', ' '), $title-021C-idx)"/>
+                  <!-- hebis: ZDB special feature since the RDA switch:
+                              Edition Statement instead of subseries -->
+                  <xsl:if test="boolean(substring(datafield[@tag='002@']/subfield[@code='0'], 2, 1) = 'b') or boolean(substring(datafield[@tag='002@']/subfield[@code='0'], 2, 1) = 'd')">
+                    <xsl:if test="datafield[@tag='032@']/subfield[@code='a'] != ''">
+                      <xsl:value-of select="concat('. ', datafield[@tag='032@']/subfield[@code='a'])"/>
+                    </xsl:if>
+                  </xsl:if>
+                  <xsl:if test="$title-021M-idx != ''">
+                    <xsl:value-of select="$title-021M-idx"/>
+                  </xsl:if>
+                  <xsl:if test="$title-021N != ''">
+                    <xsl:choose>
+                      <xsl:when test="boolean(substring($title-021N, 1, 1) = '/')">
+                        <xsl:value-of select="concat(' ', $title-021N)"/>
+                      </xsl:when>
+                      <xsl:otherwise>
+                        <xsl:value-of select="concat(' ', $title-021N)"/>
+                      </xsl:otherwise>
+                    </xsl:choose>
+                  </xsl:if>
+              </xsl:otherwise>
+            </xsl:choose>
+          </indexTitle>
+
+
+<!-- Original Code
+
     <xsl:variable name="title-tag">
       <xsl:choose>
         <xsl:when test="boolean(substring(datafield[@tag='002@']/subfield[@code='0'], 2, 1) = 'f') and datafield[@tag='036C']">036C</xsl:when>
@@ -501,18 +851,66 @@
         </xsl:for-each>
       </xsl:when>
       <xsl:otherwise>
-        <indexTitle>KEIN TITEL, IM CBS PRÜFEN</indexTitle>
-        <title>KEIN TITEL, IM CBS PRÜFEN</title>
+        <indexTitle>KEIN TITEL, IN K10plus PRÜFEN</indexTitle>
+        <title>KEIN TITEL, IN K10plus PRÜFEN</title>
       </xsl:otherwise>
-    </xsl:choose>
+    </xsl:choose>  -->
+
     <!-- Alternative titles -->
-    <xsl:if test="datafield[@tag='047C' or @tag='027A' or @tag='021F' or @tag='046C' or @tag='026C'] or datafield[@tag='022A'][@occurrence='00']">
+
+    <!-- hebis: added missing tags: 021A + 036C (Non Latin script), 021M, 021N + 046D -->
+    <xsl:if test="datafield[@tag='047C' or @tag='027A' or @tag='021F' or @tag='046C' or @tag='046D' or @tag='026C' or @tag='036C' or @tag='021A'] or datafield[@tag='022A'][@occurrence='00']">
       <alternativeTitles>
         <arr>
+
+          <xsl:if test="not($title-021A-ori = '') or not($title-036C-ori = '') ">
+           <i>
+            <alternativeTitle>
+              <xsl:choose>
+                <xsl:when test="boolean(substring(datafield[@tag='002@']/subfield[@code='0'], 2, 1) = 'f') and datafield[@tag='036C']">
+                  <xsl:value-of select="normalize-space(substring-after($title-036C-ori, '. '))"/>
+                  <xsl:if test="$title-021A and boolean(substring($title-021A-ori, 1, 1) != ' ')">
+                    <xsl:value-of select="concat(' ; ', $title-021A)"/>
+                  </xsl:if>
+                  <xsl:if test="$title-021A-ori  != '' and boolean(substring($title-021A-ori, 1, 1) = ' ')">
+                    <xsl:value-of select="$title-021A-ori"/>
+                  </xsl:if>
+                </xsl:when> 
+                <!-- TBD: need for adjustment at GBV
+                <xsl:when test="boolean(substring(datafield[@tag='002@']/subfield[@code='0'], 2, 1) = 'f') and datafield[@tag='036E']">036E</xsl:when> 
+                <xsl:when test="boolean(substring(datafield[@tag='002@']/subfield[@code='0'], 2, 1) = 'v') and datafield[@tag='036F']/subfield[@code='8']">036F</xsl:when> -->
+                <xsl:otherwise>
+                  <xsl:value-of select="concat($title-021A-ori, $title-021C-ori)"/>
+                  <!-- hebis: ZDB special feature since the RDA switch:
+                              Edition Statement instead of subseries -->
+                  <xsl:if test="boolean(substring(datafield[@tag='002@']/subfield[@code='0'], 2, 1) = 'b') or boolean(substring(datafield[@tag='002@']/subfield[@code='0'], 2, 1) = 'd')">
+                    <xsl:if test="datafield[@tag='032@']/subfield[@code='a'] != ''">
+                      <xsl:value-of select="concat('. ', datafield[@tag='032@']/subfield[@code='a'])"/>
+                    </xsl:if>
+                  </xsl:if>
+                  <xsl:if test="$title-021M-ori">
+                    <xsl:value-of select="$title-021M-ori"/>
+                  </xsl:if>
+                    <xsl:choose>
+                      <xsl:when test="boolean(substring($title-021N-ori, 1, 1) = '/')">
+                        <xsl:value-of select="concat(' ', $title-021N-ori)"/>
+                      </xsl:when>
+                      <xsl:otherwise>
+                        <xsl:value-of select="concat(' | ', $title-021N-ori)"/>
+                      </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:otherwise>
+              </xsl:choose>
+            </alternativeTitle>
+            <alternativeTitleTypeId>Other title</alternativeTitleTypeId>
+           </i>
+          </xsl:if>
+
+
           <xsl:for-each select="datafield[@tag='047C' or @tag='027A' or @tag='026C']">
             <i>
               <alternativeTitle>
-                <xsl:value-of select="./subfield[@code='a']"/>
+                <xsl:value-of select="translate(./subfield[@code='a'], '@', '')"/>
               </alternativeTitle>
               <alternativeTitleTypeId>
                 <xsl:choose>
@@ -561,10 +959,31 @@
                   </xsl:otherwise>
                 </xsl:choose>
               </alternativeTitle>
+              <alternativeTitleTypeId>Other title</alternativeTitleTypeId> 
+            </i>
+          </xsl:for-each>
+
+          <!-- hebis: added missing tag -->
+          <xsl:for-each select="datafield[@tag='046D']">
+            <xsl:variable name="vti" select="./subfield[@code='i']"/>
+            <xsl:variable name="vta" select="./subfield[@code='a']"/>
+            <i>
+              <alternativeTitle>
+                <xsl:choose>
+                  <xsl:when test="$vti and $vta">
+                    <xsl:if test="./subfield[@code='z'] = 'e'">Frühester </xsl:if>
+                    <xsl:value-of select="concat($vti, ': ', $vta)"/>
+                  </xsl:when>
+                  <xsl:otherwise>
+                    <xsl:value-of select="$vta"/>
+                  </xsl:otherwise>
+                </xsl:choose>
+              </alternativeTitle>
               <alternativeTitleTypeId>Other title</alternativeTitleTypeId>
             </i>
           </xsl:for-each>
 
+          <!-- hebis: added missing subfields -->
           <xsl:for-each select="datafield[@tag='022A']">
             <i>
               <alternativeTitle>
@@ -619,6 +1038,7 @@
                   <xsl:when test="./subfield[@code='8']">
                     <xsl:value-of select="./subfield[@code='8']"/>
                   </xsl:when>
+                  <!-- hebis: added missing subfields and corrected ISBD punctuation -->
                   <xsl:when test="./subfield[@code='a' or @code='P']">
                     <xsl:value-of select="./subfield[@code='a' or @code='P']"/>
                     <xsl:if test="subfield[@code='d' or @code='D']">
@@ -664,6 +1084,7 @@
             </xsl:if>
           </xsl:for-each>
           <!-- Corporate authors-->
+          <!-- hebis: added missing subfields and corrected ISBD punctuation -->
           <xsl:for-each select="datafield[@tag='029A' or @tag='029F']">
             <xsl:if test="subfield[@code='a' or @code='8']">
               <xsl:variable name="con-name">
@@ -674,37 +1095,45 @@
                   <xsl:when test="./subfield[@code='8']">
                     <xsl:value-of select="./subfield[@code='8']"/>
                   </xsl:when>
-                  <xsl:when test="./subfield[@code='a']">
-                    <xsl:value-of select="./subfield[@code='a' or @code='A']"/>
-                    <xsl:if test="subfield[@code='x' or @code='X' or @code='g' or @code='G']">
-                       <xsl:value-of select="concat(', ', ./subfield[@code='x' or @code='X' or @code='g' or @code='G'])"/>
-                    </xsl:if>
-                    <xsl:if test="subfield[@code='b']">
-                       <xsl:value-of select="concat('. ', ./subfield[@code='b'])"/>
-                    </xsl:if>
-                   <xsl:choose>
-                      <xsl:when test="./subfield[@code='n' or @code='N']">
-                        <xsl:value-of select="concat(' (', ./subfield[@code='n' or @code='N'])"/>
-                        <xsl:if test="subfield[@code='d' or @code='D']">
-                          <xsl:value-of select="concat(' : ', ./subfield[@code='d' or @code='D'])"/>
-                        </xsl:if>
-                        <xsl:if test="subfield[@code='c' or @code='C']">
-                          <xsl:value-of select="concat(' : ', ./subfield[@code='c' or @code='C'])"/>
-                        </xsl:if>
-                        <xsl:value-of select="')'"/>
-                      </xsl:when>
-                      <xsl:when test="./subfield[@code='d' or @code='D']">
-                        <xsl:value-of select="concat(' (', ./subfield[@code='d' or @code='D'])"/>
-                        <xsl:if test="subfield[@code='c' or @code='C']">
-                          <xsl:value-of select="concat(' : ', ./subfield[@code='c' or @code='C'])"/>
-                        </xsl:if>
-                        <xsl:value-of select="')'"/>
-                      </xsl:when>
-                      <xsl:when test="./subfield[@code='c' or @code='C']">
-                        <xsl:value-of select="concat(' (', ./subfield[@code='c' or @code='C'], ')')"/>
-                      </xsl:when>
-                   </xsl:choose>
-                  </xsl:when>
+                  <xsl:otherwise>
+                    <xsl:for-each select="subfield">
+                      <xsl:choose>
+                        <xsl:when test="@code='a'">
+                          <xsl:value-of select="."/>
+                        </xsl:when>
+                          <xsl:when test="@code='x' or @code='g'">
+                             <xsl:value-of select="concat(', ',.)"/>
+                          </xsl:when>
+                          <xsl:when test="@code='b'">
+                            <xsl:value-of select="concat('. ',.)"/>
+                          </xsl:when>
+                      </xsl:choose> 
+                    </xsl:for-each>
+                          <xsl:choose>
+                            <xsl:when test="subfield[@code='n']">
+                              <xsl:value-of select="concat(' (',subfield[@code='n'])"/>
+                              <xsl:if test="subfield[@code='d']">
+                                <xsl:value-of select="concat(' : ',subfield[@code='d'])"/>
+                              </xsl:if>
+                              <xsl:if test="subfield[@code='c']">
+                                <xsl:value-of select="concat(' : ',subfield[@code='c'])"/>
+                              </xsl:if>
+                              <xsl:value-of select="')'"/>
+                            </xsl:when>
+                            <xsl:when test="subfield[@code='d']">
+                              <xsl:value-of select="concat(' (',subfield[@code='d'])"/>
+                              <xsl:if test="subfield[@code='c']">
+                                <xsl:value-of select="concat(' : ',subfield[@code='c'])"/>
+                              </xsl:if>
+                              <xsl:value-of select="')'"/>
+                            </xsl:when>
+                            <xsl:when test="subfield[@code='c']">
+                              <xsl:value-of select="concat(' (',subfield[@code='c'], ')')"/>
+                            </xsl:when>
+                         </xsl:choose>
+
+
+                  </xsl:otherwise>
                 </xsl:choose>
               </xsl:variable>
               <xsl:if test="string-length($con-name) &gt; 0">
@@ -765,6 +1194,10 @@
                 <xsl:variable name="date-ac" select="concat($date-a, ' (', $date-c, ')')"/>
                 <xsl:variable name="date-abcd" select="concat($date-ab, ' (', $date-cd, ')')"/>
                 <xsl:choose>
+                  <!-- hebis: If $n is present then only show $n -->
+                  <xsl:when test="$date-n">
+                    <xsl:value-of select="$date-n"/>
+                  </xsl:when>
                   <xsl:when test="$date-d and $date-n">
                     <xsl:value-of select="concat($date-abcd, ' (', $date-n, ')')"/>
                   </xsl:when>
@@ -846,7 +1279,8 @@
     <!-- Electronic access -->
     <electronicAccess>
       <arr>
-        <xsl:for-each select="datafield[@tag='009P' or @tag='017C' or @tag='017M' or @tag='017R']">
+        <!-- hebis: took out "or @tag='017M' or @tag='017R'" --> 
+        <xsl:for-each select="datafield[@tag='009P' or @tag='017C']">
           <xsl:if test="./@tag='009P' and ./subfield[@code='a']">
             <i>
               <uri>
@@ -876,6 +1310,7 @@
               <relationshipId>f5d0068e-6272-458e-8a81-b85e7b9a14aa</relationshipId>
             </i>
           </xsl:if>
+          <!-- hebis: moved to notes (Restrictions on Access Note)
 		  <xsl:if test="./@tag='017R' and ./subfield[@code='u']">
             <i>
               <uri>
@@ -887,10 +1322,10 @@
 			  <linkText>
 				<xsl:value-of select="./subfield[@code='a']"/>
 			  </linkText>
-              <relationshipId>0ce08069-8f5f-411b-b622-46674aa66a45</relationshipId>
-			  <!-- Access Status -->
+              <relationshipId>0ce08069-8f5f-411b-b622-46674aa66a45</relationshipId> 
             </i>
-          </xsl:if>
+          </xsl:if> -->
+          <!-- hebis: moved to notes (Terms Governing Use and Reproduction Note) 
 		  <xsl:if test="./@tag='017M' and ./subfield[@code='u']">
             <i>
               <uri>
@@ -902,18 +1337,18 @@
 			  <linkText>
 				<xsl:value-of select="./subfield[@code='a']"/>
 			  </linkText>
-              <relationshipId>f781cb3d-af16-40f6-9d02-c24204ac6fdc</relationshipId>
-			  <!-- Rechteinformation -->
+              <relationshipId>f781cb3d-af16-40f6-9d02-c24204ac6fdc</relationshipId> 
             </i>
-          </xsl:if>
+          </xsl:if> -->
         </xsl:for-each>
       </arr>
     </electronicAccess>
     <!-- Notes -->
-    <xsl:if test="datafield[@tag='011B' or @tag='037A' or @tag='046P' or @tag='046L' or @tag='046K' or @tag='047I' or @tag='048H']">
+    <!-- hebis: added missing tags: 017M, 017R, 035E, 037C, 039B, 039C, 039D, 039E, 046K, 046U, 047I, 048H -->
+    <xsl:if test="datafield[@tag='011B' or @tag='017M' or @tag='017R' or @tag='035E' or @tag='037A' or @tag='037C' or @tag='037I' or @tag='039B' or @tag='039C' or @tag='039D' or @tag='039E' or @tag='046P' or @tag='046L' or @tag='046K' or @tag='046U' or @tag='047I' or @tag='048H']">
       <notes>
         <arr>
-          <xsl:for-each select="datafield[@tag='011B' or @tag='037A' or @tag='037I' or @tag='046P' or @tag='046L' or @tag='046K']">
+          <xsl:for-each select="datafield[@tag='011B' or @tag='017M' or @tag='017R' or @tag='035E' or @tag='037A' or @tag='037C' or @tag='037I' or @tag='039B' or @tag='039C' or @tag='039D' or @tag='039E' or @tag='046P' or @tag='046K' or @tag='046L' or @tag='046U' or @tag='047I' or @tag='048H']">
             <i>
               <xsl:choose>
                 <xsl:when test="./@tag='011B'">
@@ -940,11 +1375,64 @@
                   </note>
                   <instanceNoteTypeId>General note</instanceNoteTypeId>
                 </xsl:when>
+
+                <xsl:when test="./@tag='039B' or @tag='039C' or @tag='039D' or @tag='039E'">
+                  <note>
+                    <xsl:choose>
+                      <xsl:when test="./subfield[@code='i']">
+                        <xsl:value-of select="concat(./subfield[@code='i'], ': ', ./subfield[@code='8'])"/>
+                      </xsl:when>
+                      <xsl:otherwise>
+                        <xsl:value-of select="./subfield[@code='8']"/>
+                      </xsl:otherwise>
+                    </xsl:choose>
+                  </note>
+                  <xsl:choose>
+                    <xsl:when test="./@tag='039C'">
+                      <instanceNoteTypeId>Supplement note</instanceNoteTypeId>
+                    </xsl:when>
+                    <xsl:when test="./@tag='039D'">
+                      <instanceNoteTypeId>Additional Physical Form Available note</instanceNoteTypeId>
+                    </xsl:when>
+                    <xsl:otherwise>
+                      <instanceNoteTypeId>General note</instanceNoteTypeId>
+                    </xsl:otherwise>
+                  </xsl:choose>
+                </xsl:when>
+
+                <xsl:when test="./@tag='037C'">
+                  <note>
+                    <xsl:for-each select="subfield">
+                      <xsl:choose>
+                        <xsl:when test="@code='a' or @code='d'">
+                          <xsl:value-of select="."/>
+                        </xsl:when>
+                        <xsl:when test="@code='e' or @code='f'">
+                          <xsl:value-of select="concat(', ',.)"/>
+                        </xsl:when>
+                        <xsl:when test="@code='g'">
+                          <xsl:value-of select="concat(' (',.,')')"/>
+                        </xsl:when>
+                      </xsl:choose> 
+                    </xsl:for-each>
+                  </note>
+                  <instanceNoteTypeId>Dissertation note</instanceNoteTypeId>
+                </xsl:when>
+
                 <xsl:otherwise>
                   <note>
                     <xsl:value-of select="./subfield[@code='a']"/>
                   </note>
                   <xsl:choose>
+                    <xsl:when test="./@tag='017M'">
+                      <instanceNoteTypeId>Terms Governing Use and Reproduction note</instanceNoteTypeId>
+                    </xsl:when>
+                    <xsl:when test="./@tag='017R'">
+                      <instanceNoteTypeId>Restrictions on Access note</instanceNoteTypeId>
+                    </xsl:when>
+                    <xsl:when test="./@tag='035E'">
+                      <instanceNoteTypeId>Cartographic Mathematical Data</instanceNoteTypeId>
+                    </xsl:when>
                     <xsl:when test="./@tag='046K'">
                       <instanceNoteTypeId>Estimated publication date</instanceNoteTypeId>
                     </xsl:when>
@@ -953,6 +1441,9 @@
                     </xsl:when>
                     <xsl:when test="./@tag='046P'">
                       <instanceNoteTypeId>Numbering peculiarities note</instanceNoteTypeId>
+                    </xsl:when>
+                    <xsl:when test="./@tag='046U'">
+                      <instanceNoteTypeId>Target Audience Note</instanceNoteTypeId>
                     </xsl:when>
                     <xsl:when test="./@tag='047I'">
                       <instanceNoteTypeId>Summary</instanceNoteTypeId>
@@ -1041,17 +1532,44 @@
       </languages>
     </xsl:if>
 	<!-- series -->
-    <xsl:if test="datafield[@tag='036E']/subfield[@code='a']">
-      <series>
+    <!-- hebis: added missing subfield $l -->
+    <series>
+      <xsl:if test="datafield[@tag='036E']/subfield[@code='a']">
         <arr>
-          <xsl:for-each select="datafield[@tag='036E']/subfield[@code='a']">
+          <xsl:for-each select="datafield[@tag='036E']">
             <i>
-              <xsl:value-of select="."/>
+              <xsl:for-each select="subfield">
+                <xsl:choose>
+                  <xsl:when test="@code='a'">
+                    <xsl:value-of select="."/>
+                  </xsl:when>
+                  <xsl:when test="@code='l'">
+                    <xsl:value-of select="concat(' ; ',.)"/>
+                  </xsl:when>
+                </xsl:choose> 
+              </xsl:for-each>
             </i>
           </xsl:for-each>
         </arr>
+      </xsl:if>
+      <!-- hebis: added series statement for parts of multipart resources with independent title
+                  and series statement for the second multipart resource (hebis-special-feature) 
+      -->
+      <xsl:choose>
+        <xsl:when test="boolean(substring(datafield[@tag='002@']/subfield[@code='0'], 2, 1) != 'f') and datafield[@tag='036C']">
+          <arr>
+            <i>
+              <xsl:value-of select="normalize-space(substring-after($title-036C, '. '))"/>
+            </i>
+          </arr>
+        </xsl:when>
+      </xsl:choose>
+          <arr>
+            <i>
+              <xsl:value-of select="normalize-space(substring-after($title-036A, '. '))"/>
+            </i>
+          </arr>
       </series>
-    </xsl:if>
     <!-- physicalDescriptions -->
     <xsl:if test="datafield[@tag='034D' or @tag='034M' or @tag='034I' or @tag='034K']">
       <xsl:variable name="phd">
@@ -1070,17 +1588,36 @@
         <arr>
           <i>
             <xsl:choose>
-              <xsl:when test="$phd and string($phm) and string($phi) and string($phk)">
-                <xsl:value-of select="concat($phd, ' : ', $phm, ' ; ', $phi, ' + ', $phk)"/>
+            <!-- hebis: correction (depending on the constellation, not all tags were displayed) -->
+              <xsl:when test="$phd != ''">
+                <xsl:value-of select="$phd"/>
+                <xsl:if test="$phm != ''">
+                  <xsl:value-of select="concat(' : ', $phm)"/>
+                </xsl:if>
+                <xsl:if test="$phi != ''">
+                  <xsl:value-of select="concat(' ; ', $phi)"/>
+                </xsl:if>
+                <xsl:if test="$phk != ''">
+                  <xsl:value-of select="concat(' + ', $phk)"/>
+                </xsl:if>
               </xsl:when>
-              <xsl:when test="$phd and string($phm) and string($phi)">
-                <xsl:value-of select="concat($phd, ' : ', $phm, ' ; ', $phi)"/>
+              <xsl:when test="$phm != ''">
+                <xsl:value-of select="$phm"/>
+                <xsl:if test="$phi != ''">
+                  <xsl:value-of select="concat(' ; ', $phi)"/>
+                </xsl:if>
+                <xsl:if test="$phk != ''">
+                  <xsl:value-of select="concat(' + ', $phk)"/>
+                </xsl:if>
               </xsl:when>
-              <xsl:when test="$phd and string($phm)">
-                <xsl:value-of select="concat($phd, ' : ', $phm)"/>
+              <xsl:when test="$phi != ''">
+                <xsl:value-of select="$phi"/>
+                <xsl:if test="$phk != ''">
+                  <xsl:value-of select="concat(' + ', $phk)"/>
+                </xsl:if>
               </xsl:when>
               <xsl:otherwise>
-                <xsl:value-of select="$phd"/>
+                <xsl:value-of select="concat(' + ', $phk)"/>
               </xsl:otherwise>
             </xsl:choose>
           </i>
@@ -1107,7 +1644,9 @@
       </editions>
     </xsl:if>
   </xsl:template>
+  
   <xsl:template match="text()"/>
+  
   <xsl:template name="join">
     <xsl:param name="list"/>
     <xsl:param name="separator"/>
@@ -1118,6 +1657,7 @@
       </xsl:if>
     </xsl:for-each>
   </xsl:template>
+  
   <xsl:template name="pica-to-iso-date">
     <xsl:param name="input"/>
     <xsl:param name="suffix"/>
@@ -1135,4 +1675,6 @@
       <xsl:value-of select="concat($year, '-', $month, '-', $day, $suffix)"/>
     </xsl:if>
   </xsl:template>
+  
 </xsl:stylesheet>
+

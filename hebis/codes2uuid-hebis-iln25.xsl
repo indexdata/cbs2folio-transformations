@@ -8,6 +8,8 @@
     </xsl:copy>
   </xsl:template>
   
+  <!-- ILN 25 UB Mainz -->
+
   <!-- Map locations 
        For Mainz, the IDs are the location names in FOLIO, generated from 209A $f and other pica fields -->
   
@@ -102,6 +104,7 @@
         <xsl:when test=".='9 g nicht ausleihbar'"><xsl:text>20c359cb-b422-47cc-8c40-e8f6655f2b70</xsl:text></xsl:when>
         <xsl:when test=".='9 Test'"><xsl:text>3b23397c-93ec-40ad-bb8a-9113f9fe9de2</xsl:text></xsl:when>
         <xsl:when test=".='9 z Verlust'"><xsl:text>661ffe64-2e47-4203-845f-96d820aa48f2</xsl:text></xsl:when>
+        <xsl:when test=".='dummy'"><xsl:text>80ff439c-3ccb-48df-9758-c11011cef6d0</xsl:text></xsl:when>
         <xsl:otherwise>7a03b2e2-c995-47a4-83d0-04bbe1930af4</xsl:otherwise> <!-- 0 u ausleihbar -->
       </xsl:choose>
     </permanentLoanTypeId>
