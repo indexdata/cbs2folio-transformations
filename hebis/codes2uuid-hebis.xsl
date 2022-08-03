@@ -40,7 +40,7 @@
         <xsl:when test=".='Copy note'">c4407cc7-d79f-4609-95bd-1cefb2e2b5c5</xsl:when>
         <xsl:when test=".='Provenance'">db9b4787-95f0-4e78-becf-26748ce6bdeb</xsl:when>
         <xsl:when test=".='Lizenzindikator'"><xsl:text>d1d99196-8904-4b2e-9125-9f7bbbf54cc1</xsl:text></xsl:when> <!-- hebis-wide -->       
-        <xsl:when test=".='Lokaler Schluessel'"><xsl:text>49050d37-2d82-452c-a963-2645ffc0b9a9</xsl:text></xsl:when> <!-- hebis-wide -->
+        <xsl:when test=".='Lokaler Schlüssel'"><xsl:text>49050d37-2d82-452c-a963-2645ffc0b9a9</xsl:text></xsl:when> <!-- hebis-wide -->
         <xsl:otherwise>b160f13a-ddba-4053-b9c4-60ec5ea45d56</xsl:otherwise> <!-- Note -->
       </xsl:choose>
     </holdingsNoteTypeId>
