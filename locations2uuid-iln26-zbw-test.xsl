@@ -37,6 +37,7 @@
 		<xsl:when test=".='K:pb'">e5162952-0c2f-4563-9286-14d3c1414327</xsl:when>
 		<xsl:when test=".='K:s'">e5162952-0c2f-4563-9286-14d3c1414327</xsl:when>
 		<xsl:when test=".='K:zpb'">e5162952-0c2f-4563-9286-14d3c1414327</xsl:when>
+		<xsl:when test=".='O:'">8dd8b541-8c56-45d2-93a8-ef6291c87d32</xsl:when>
         <xsl:when test=".='H:acq'">b6dcb05a-9958-4757-a186-2983fc408dc7</xsl:when>
 		<xsl:when test=".='K:acq'">7ad5f796-2f03-4f87-996a-9ea699710b41</xsl:when>
 		<xsl:otherwise>fdcdb3bd-6b89-4646-ad46-601e3fedc8eb</xsl:otherwise>
