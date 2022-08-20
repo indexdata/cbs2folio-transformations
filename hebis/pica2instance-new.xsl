@@ -44,7 +44,7 @@
       <xsl:value-of select="concat(' = ', ./subfield[@code='f'])"/>
     </xsl:if>
     <xsl:if test="subfield[@code='r']">
-      <xsl:value-of select="."/>
+      <xsl:value-of select="translate(./subfield[@code='r'], '@', '')"/>
     </xsl:if>
   </xsl:template>
 
@@ -561,7 +561,14 @@
                 <xsl:value-of select="concat(' ', ./subfield[@code='f'])"/>
               </xsl:if>
               <xsl:if test="subfield[@code='r']">
-                <xsl:value-of select="./subfield[@code='r']"/>
+                <xsl:choose>
+                  <xsl:when test="./subfield[@code='r'][contains(., '@')]">
+                    <xsl:value-of select="substring-after(./subfield[@code='r'], '@')"/>
+                  </xsl:when>
+                  <xsl:otherwise>
+                    <xsl:value-of select="./subfield[@code='r']"/>
+                  </xsl:otherwise>
+                </xsl:choose>
               </xsl:if>
             </xsl:for-each>
           </xsl:variable>
@@ -697,7 +704,7 @@
               <xsl:when test="boolean(substring(datafield[@tag='002@']/subfield[@code='0'], 2, 1) = 'f') and datafield[@tag='036E']">036E</xsl:when>
               <xsl:when test="boolean(substring(datafield[@tag='002@']/subfield[@code='0'], 2, 1) = 'v') and datafield[@tag='036F']/subfield[@code='8']">036F</xsl:when> 
               -->
-              <xsl:otherwise>
+              <xsl:when test="$title-021A != ''">
                 <xsl:value-of select="concat($title-021A, $title-021C)"/>
                   <!-- hebis: ZDB special feature since the RDA switch:
                               Edition Statement instead of subseries -->
@@ -719,7 +726,8 @@
                       </xsl:otherwise>
                     </xsl:choose>
                   </xsl:if>
-              </xsl:otherwise>
+              </xsl:when>
+              <xsl:otherwise>KEIN TITEL, IM CBS PRÜFEN</xsl:otherwise>
             </xsl:choose>
           </title> 
 
@@ -1541,7 +1549,7 @@
               <xsl:for-each select="subfield">
                 <xsl:choose>
                   <xsl:when test="@code='a'">
-                    <xsl:value-of select="."/>
+                    <xsl:value-of select="translate(., '@', '')"/>
                   </xsl:when>
                   <xsl:when test="@code='l'">
                     <xsl:value-of select="concat(' ; ',.)"/>
