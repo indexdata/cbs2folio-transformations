@@ -174,7 +174,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>574386653</hrid>
+                        <hrid>574386653-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>5 i nur für den Lesesaal</permanentLoanTypeId>
                         <status>
@@ -182,7 +182,7 @@
                         </status>
                         <itemLevelCallNumber>G 7725</itemLevelCallNumber>
                         <barcode>41648880</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -544,7 +544,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>1052039588</hrid>
+                        <hrid>1052039588-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
@@ -552,7 +552,7 @@
                         </status>
                         <itemLevelCallNumber>AT A VII 18 c</itemLevelCallNumber>
                         <barcode>62105582</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -606,7 +606,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>1056626909</hrid>
+                        <hrid>1056626909-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>9 g nicht ausleihbar</permanentLoanTypeId>
                         <status>
@@ -614,7 +614,7 @@
                         </status>
                         <itemLevelCallNumber>AT A VII 18 d</itemLevelCallNumber>
                         <barcode/>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -1328,7 +1328,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>176509267</hrid>
+                        <hrid>176509267-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>3 s Präsenzbestand Lesesaal</permanentLoanTypeId>
                         <status>
@@ -1336,7 +1336,7 @@
                         </status>
                         <itemLevelCallNumber>PHILOS C 370-4</itemLevelCallNumber>
                         <barcode>36905380</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber>02/4910</accessionNumber>
@@ -1370,7 +1370,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>678097798</hrid>
+                        <hrid>678097798-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
@@ -1378,7 +1378,7 @@
                         </status>
                         <itemLevelCallNumber>L 01 Ästh.Grund 1-4</itemLevelCallNumber>
                         <barcode>16484548</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber/>
@@ -1412,7 +1412,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>221750509</hrid>
+                        <hrid>221750509-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
@@ -1420,7 +1420,7 @@
                         </status>
                         <itemLevelCallNumber>Zo 4-4</itemLevelCallNumber>
                         <barcode>61180826</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber>371 GK</accessionNumber>
@@ -1459,7 +1459,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>1010303376</hrid>
+                        <hrid>1010303376-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>3 s Präsenzbestand Lesesaal</permanentLoanTypeId>
                         <status>
@@ -1467,7 +1467,7 @@
                         </status>
                         <itemLevelCallNumber>PHIL 50/5</itemLevelCallNumber>
                         <barcode>90622338</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -1516,7 +1516,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>179077457</hrid>
+                        <hrid>179077457-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>3 s Präsenzbestand Lesesaal</permanentLoanTypeId>
                         <status>
@@ -1524,7 +1524,7 @@
                         </status>
                         <itemLevelCallNumber>05 L - A 12</itemLevelCallNumber>
                         <barcode>72889389</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber>2002/857</accessionNumber>
@@ -1558,7 +1558,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>584900007</hrid>
+                        <hrid>584900007-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>3 s Präsenzbestand Lesesaal</permanentLoanTypeId>
                         <status>
@@ -1566,7 +1566,7 @@
                         </status>
                         <itemLevelCallNumber>05 L - A 12 / 2. Ex. / Zimmer Breuer</itemLevelCallNumber>
                         <barcode>76504361</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber>09/1328 Germanistik</accessionNumber>
@@ -1600,7 +1600,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>176844678</hrid>
+                        <hrid>176844678-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
@@ -1608,7 +1608,7 @@
                         </status>
                         <itemLevelCallNumber>12.0 - 1/1.4</itemLevelCallNumber>
                         <barcode>72164164</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber>02/375</accessionNumber>
@@ -1642,7 +1642,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>22285393X</hrid>
+                        <hrid>22285393X-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
@@ -1650,7 +1650,7 @@
                         </status>
                         <itemLevelCallNumber>A c.12/1-4</itemLevelCallNumber>
                         <barcode>14600258</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber>58026</accessionNumber>
@@ -1684,7 +1684,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>595435629</hrid>
+                        <hrid>595435629-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
@@ -1692,7 +1692,7 @@
                         </status>
                         <itemLevelCallNumber>CC 6800 BAR/ 1-4</itemLevelCallNumber>
                         <barcode>71995035</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber>ZP02 10/134-1</accessionNumber>
@@ -1726,7 +1726,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>581150368</hrid>
+                        <hrid>581150368-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
@@ -1734,7 +1734,7 @@
                         </status>
                         <itemLevelCallNumber>LEX ÄSTH 2.4</itemLevelCallNumber>
                         <barcode/>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber>05/300-4</accessionNumber>
@@ -2438,7 +2438,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>070304823</hrid>
+                        <hrid>070304823-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
@@ -2447,7 +2447,7 @@
                         <itemLevelCallNumberPrefix>4°</itemLevelCallNumberPrefix>
                         <itemLevelCallNumber>ZA 363</itemLevelCallNumber>
                         <barcode/>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume>40</volume>
                         <chronology>1906</chronology>
                         <accessionNumber/>
@@ -3020,7 +3020,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>564146293</hrid>
+                        <hrid>564146293-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
@@ -3028,7 +3028,7 @@
                         </status>
                         <itemLevelCallNumber>KIND 125</itemLevelCallNumber>
                         <barcode>39755624</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -3298,7 +3298,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>1010643096</hrid>
+                        <hrid>1010643096-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
@@ -3306,7 +3306,7 @@
                         </status>
                         <itemLevelCallNumber>HIS-NL 01.20 Rooij 1</itemLevelCallNumber>
                         <barcode>90435538</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -3571,7 +3571,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>1010257188</hrid>
+                        <hrid>1010257188-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
@@ -3579,7 +3579,7 @@
                         </status>
                         <itemLevelCallNumber>20000000</itemLevelCallNumber>
                         <barcode>90861096</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -4150,7 +4150,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>1084012545</hrid>
+                        <hrid>1084012545-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
@@ -4158,7 +4158,7 @@
                         </status>
                         <itemLevelCallNumber>20036909</itemLevelCallNumber>
                         <barcode>91832580</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -4869,7 +4869,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>328258482</hrid>
+                        <hrid>328258482-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>3 s Präsenzbestand Lesesaal</permanentLoanTypeId>
                         <status>
@@ -4877,7 +4877,7 @@
                         </status>
                         <itemLevelCallNumber>PHILOS C 370-7</itemLevelCallNumber>
                         <barcode>38508795</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber>05/6013</accessionNumber>
@@ -4911,7 +4911,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>496431293</hrid>
+                        <hrid>496431293-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
@@ -4919,7 +4919,7 @@
                         </status>
                         <itemLevelCallNumber>L 01 Ästh.Grund 1-7</itemLevelCallNumber>
                         <barcode>16484573</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber>FWG 2006/12</accessionNumber>
@@ -4958,7 +4958,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>345153359</hrid>
+                        <hrid>345153359-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
@@ -4966,7 +4966,7 @@
                         </status>
                         <itemLevelCallNumber>Zo 4-7</itemLevelCallNumber>
                         <barcode>61430338</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber>401 GRK</accessionNumber>
@@ -5001,7 +5001,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>1010484826</hrid>
+                        <hrid>1010484826-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>3 s Präsenzbestand Lesesaal</permanentLoanTypeId>
                         <status>
@@ -5009,7 +5009,7 @@
                         </status>
                         <itemLevelCallNumber>PHIL 50/5</itemLevelCallNumber>
                         <barcode>90622363</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -5057,7 +5057,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>333532171</hrid>
+                        <hrid>333532171-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>3 s Präsenzbestand Lesesaal</permanentLoanTypeId>
                         <status>
@@ -5065,7 +5065,7 @@
                         </status>
                         <itemLevelCallNumber>05 L - A 12</itemLevelCallNumber>
                         <barcode>72889353</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber>2005/889</accessionNumber>
@@ -5099,7 +5099,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>584899890</hrid>
+                        <hrid>584899890-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>3 s Präsenzbestand Lesesaal</permanentLoanTypeId>
                         <status>
@@ -5107,7 +5107,7 @@
                         </status>
                         <itemLevelCallNumber>05 L - A 12 / 2. Ex. / Zimmer Breuer</itemLevelCallNumber>
                         <barcode>76503800</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber>09/1328 Germanistik</accessionNumber>
@@ -5141,7 +5141,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>344792374</hrid>
+                        <hrid>344792374-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
@@ -5149,7 +5149,7 @@
                         </status>
                         <itemLevelCallNumber>12.0 - 1/1.7</itemLevelCallNumber>
                         <barcode>72164048</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber>06/36</accessionNumber>
@@ -5183,7 +5183,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>343521903</hrid>
+                        <hrid>343521903-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
@@ -5191,7 +5191,7 @@
                         </status>
                         <itemLevelCallNumber>A c.12/1-7</itemLevelCallNumber>
                         <barcode>14600325</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber>58596</accessionNumber>
@@ -5225,7 +5225,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>595436420</hrid>
+                        <hrid>595436420-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
@@ -5233,7 +5233,7 @@
                         </status>
                         <itemLevelCallNumber>CC 6800 BAR/ 1-7</itemLevelCallNumber>
                         <barcode>71995072</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber>ZP02 10/134-1</accessionNumber>
@@ -5267,7 +5267,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>581151119</hrid>
+                        <hrid>581151119-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
@@ -5275,7 +5275,7 @@
                         </status>
                         <itemLevelCallNumber>LEX ÄSTH 2.7</itemLevelCallNumber>
                         <barcode/>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber>05/302</accessionNumber>
@@ -5719,7 +5719,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>1126110477</hrid>
+                        <hrid>1126110477-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>3 s Präsenzbestand Lesesaal</permanentLoanTypeId>
                         <status>
@@ -5727,7 +5727,7 @@
                         </status>
                         <itemLevelCallNumber>VE 5020 BEC1 (7)</itemLevelCallNumber>
                         <barcode>17767408</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -5780,7 +5780,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>112914383X-17767421</hrid>
+                        <hrid>112914383X-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -5809,7 +5809,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>112914383X-17767433</hrid>
+                        <hrid>112914383X-2</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -5838,7 +5838,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>112914383X-17767457</hrid>
+                        <hrid>112914383X-3</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -5867,7 +5867,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>112914383X-17767445</hrid>
+                        <hrid>112914383X-4</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -5896,7 +5896,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>112914383X-17767410</hrid>
+                        <hrid>112914383X-5</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -6158,7 +6158,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>545056594</hrid>
+                        <hrid>545056594-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
@@ -6166,7 +6166,7 @@
                         </status>
                         <itemLevelCallNumber>AU 6073</itemLevelCallNumber>
                         <barcode>35105130</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -6485,7 +6485,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>806517980</hrid>
+                        <hrid>806517980-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
@@ -6493,7 +6493,7 @@
                         </status>
                         <itemLevelCallNumber>Gesmed 48 2016</itemLevelCallNumber>
                         <barcode/>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -6767,7 +6767,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>724801162</hrid>
+                        <hrid>724801162-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>3 s Präsenzbestand Lesesaal</permanentLoanTypeId>
                         <status>
@@ -6775,7 +6775,7 @@
                         </status>
                         <itemLevelCallNumber>W 60</itemLevelCallNumber>
                         <barcode>77057486</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -7342,7 +7342,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>299786846</hrid>
+                        <hrid>299786846-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
@@ -7350,7 +7350,7 @@
                         </status>
                         <itemLevelCallNumber>D III c 48</itemLevelCallNumber>
                         <barcode>60536138</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -7398,7 +7398,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>376141832</hrid>
+                        <hrid>376141832-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
@@ -7406,7 +7406,7 @@
                         </status>
                         <itemLevelCallNumber>Qf 6a-36</itemLevelCallNumber>
                         <barcode>60536140</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber/>
@@ -7717,7 +7717,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>1070511676</hrid>
+                        <hrid>1070511676-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
@@ -7725,7 +7725,7 @@
                         </status>
                         <itemLevelCallNumber>Lex-T-osm-290</itemLevelCallNumber>
                         <barcode>13342760</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -8181,7 +8181,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>070551871</hrid>
+                        <hrid>070551871-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
@@ -8189,7 +8189,7 @@
                         </status>
                         <itemLevelCallNumber>Y 5823</itemLevelCallNumber>
                         <barcode/>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology>1938-1939, 1941-1944</chronology>
                         <accessionNumber/>
@@ -8237,7 +8237,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>071378650</hrid>
+                        <hrid>071378650-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
@@ -8245,7 +8245,7 @@
                         </status>
                         <itemLevelCallNumber>B6 c.5/54</itemLevelCallNumber>
                         <barcode/>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology>1937, 1938, 1940-1942, 1944</chronology>
                         <accessionNumber/>
@@ -8280,7 +8280,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>071378707</hrid>
+                        <hrid>071378707-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
@@ -8288,7 +8288,7 @@
                         </status>
                         <itemLevelCallNumber>V 5382</itemLevelCallNumber>
                         <barcode/>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology>1938-1941</chronology>
                         <accessionNumber/>
@@ -8320,7 +8320,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>071378715</hrid>
+                        <hrid>071378715-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
@@ -8328,7 +8328,7 @@
                         </status>
                         <itemLevelCallNumber>KD HIS 308</itemLevelCallNumber>
                         <barcode/>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology>1938-1942</chronology>
                         <accessionNumber/>
@@ -9262,7 +9262,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>1107909716</hrid>
+                        <hrid>1107909716-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
@@ -9270,7 +9270,7 @@
                         </status>
                         <itemLevelCallNumber>Z 373</itemLevelCallNumber>
                         <barcode/>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume>30</volume>
                         <chronology>2020</chronology>
                         <accessionNumber>ACQ</accessionNumber>
@@ -9963,7 +9963,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>604165617</hrid>
+                        <hrid>604165617-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
@@ -9971,7 +9971,7 @@
                         </status>
                         <itemLevelCallNumber>ZB 1236</itemLevelCallNumber>
                         <barcode/>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume>26, 28, 38, 39, 41, 43, 47-51, 53-56</volume>
                         <chronology>1771, 1774, 1793, 1795, 1798, 1819, 1850-1879, 1961-1957</chronology>
                         <accessionNumber/>
@@ -10012,7 +10012,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>604165676</hrid>
+                        <hrid>604165676-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
@@ -10020,7 +10020,7 @@
                         </status>
                         <itemLevelCallNumber>ZB 1237</itemLevelCallNumber>
                         <barcode/>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume>13, 19, 25, 27, 29-32, 42</volume>
                         <chronology>1816, 1792, 1859, 1824, 1859-1878, 1859</chronology>
                         <accessionNumber/>
@@ -10057,7 +10057,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>604165811</hrid>
+                        <hrid>604165811-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
@@ -10065,7 +10065,7 @@
                         </status>
                         <itemLevelCallNumber>ZB 1238</itemLevelCallNumber>
                         <barcode/>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume>1, 4-6, 8-9, 11, 24</volume>
                         <chronology>1879, 1859-1859, 1860-1860, 1792, 1877</chronology>
                         <accessionNumber/>
@@ -10100,7 +10100,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>60416582X</hrid>
+                        <hrid>60416582X-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
@@ -10108,7 +10108,7 @@
                         </status>
                         <itemLevelCallNumber>ZB 1239</itemLevelCallNumber>
                         <barcode/>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume>2, 7, 10, 12, 14-16, 33</volume>
                         <chronology>1908, 1900, 1901, 1904, 1905-1905, 1907</chronology>
                         <accessionNumber/>
@@ -10442,7 +10442,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>1118401883</hrid>
+                        <hrid>1118401883-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
@@ -10450,7 +10450,7 @@
                         </status>
                         <itemLevelCallNumber>296.240</itemLevelCallNumber>
                         <barcode>18584626</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -11148,7 +11148,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>244676585</hrid>
+                        <hrid>244676585-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>3 s Präsenzbestand Lesesaal</permanentLoanTypeId>
                         <status>
@@ -11156,7 +11156,7 @@
                         </status>
                         <itemLevelCallNumber>PHILOS C 370-6</itemLevelCallNumber>
                         <barcode>38005888</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber>05/1431</accessionNumber>
@@ -11190,7 +11190,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>467614156</hrid>
+                        <hrid>467614156-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
@@ -11198,7 +11198,7 @@
                         </status>
                         <itemLevelCallNumber>L 01 Ästh.Grund 1-6</itemLevelCallNumber>
                         <barcode>16484561</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber>2005/169</accessionNumber>
@@ -11232,7 +11232,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>245463119</hrid>
+                        <hrid>245463119-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
@@ -11240,7 +11240,7 @@
                         </status>
                         <itemLevelCallNumber>Zo 4-6</itemLevelCallNumber>
                         <barcode>61332377</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber>395 GK</accessionNumber>
@@ -11274,7 +11274,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>1010468278</hrid>
+                        <hrid>1010468278-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>3 s Präsenzbestand Lesesaal</permanentLoanTypeId>
                         <status>
@@ -11282,7 +11282,7 @@
                         </status>
                         <itemLevelCallNumber>PHIL 50/5</itemLevelCallNumber>
                         <barcode>90622351</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -11330,7 +11330,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>251796027</hrid>
+                        <hrid>251796027-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>3 s Präsenzbestand Lesesaal</permanentLoanTypeId>
                         <status>
@@ -11338,7 +11338,7 @@
                         </status>
                         <itemLevelCallNumber>05 L - A 12</itemLevelCallNumber>
                         <barcode>72889377</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber>2005/284</accessionNumber>
@@ -11372,7 +11372,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>584899947</hrid>
+                        <hrid>584899947-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>3 s Präsenzbestand Lesesaal</permanentLoanTypeId>
                         <status>
@@ -11380,7 +11380,7 @@
                         </status>
                         <itemLevelCallNumber>05 L - A 12 / 2. Ex. / Zimmer Breuer</itemLevelCallNumber>
                         <barcode>76504440</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber>09/1328 Germanistik</accessionNumber>
@@ -11414,7 +11414,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>24580417X</hrid>
+                        <hrid>24580417X-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
@@ -11422,7 +11422,7 @@
                         </status>
                         <itemLevelCallNumber>12.0 - 1/1.6</itemLevelCallNumber>
                         <barcode>72164085</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber>05/88</accessionNumber>
@@ -11456,7 +11456,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>255947798</hrid>
+                        <hrid>255947798-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
@@ -11464,7 +11464,7 @@
                         </status>
                         <itemLevelCallNumber>A c.12/1-6</itemLevelCallNumber>
                         <barcode>14600283</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber>58196</accessionNumber>
@@ -11498,7 +11498,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>595436102</hrid>
+                        <hrid>595436102-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
@@ -11506,7 +11506,7 @@
                         </status>
                         <itemLevelCallNumber>CC 6800 BAR/ 1-6</itemLevelCallNumber>
                         <barcode>71995114</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber>ZP02 10/134-1</accessionNumber>
@@ -11540,7 +11540,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>58115066X</hrid>
+                        <hrid>58115066X-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
@@ -11548,7 +11548,7 @@
                         </status>
                         <itemLevelCallNumber>LEX ÄSTH 2.6</itemLevelCallNumber>
                         <barcode/>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber>05/300-6</accessionNumber>
@@ -11881,7 +11881,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>603482163</hrid>
+                        <hrid>603482163-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
@@ -11889,7 +11889,7 @@
                         </status>
                         <itemLevelCallNumber>ZB 1305-24</itemLevelCallNumber>
                         <barcode/>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -11942,7 +11942,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>336705190</hrid>
+                        <hrid>336705190-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
@@ -11950,7 +11950,7 @@
                         </status>
                         <itemLevelCallNumber>BA IV 24,2</itemLevelCallNumber>
                         <barcode>60664104</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -11998,7 +11998,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>262731266</hrid>
+                        <hrid>262731266-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
@@ -12006,7 +12006,7 @@
                         </status>
                         <itemLevelCallNumber>THEMAG Bb 300-24,2</itemLevelCallNumber>
                         <barcode>60664116</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -12404,7 +12404,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>113445421X</hrid>
+                        <hrid>113445421X-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
@@ -12412,7 +12412,7 @@
                         </status>
                         <itemLevelCallNumber>19 J/l 42 4.Aufl.</itemLevelCallNumber>
                         <barcode/>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -12471,7 +12471,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>1130673936</hrid>
+                        <hrid>1130673936-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
@@ -12479,7 +12479,7 @@
                         </status>
                         <itemLevelCallNumber>19 J/l 42 4.Aufl.</itemLevelCallNumber>
                         <barcode/>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -13175,7 +13175,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>1056542497-17275019</hrid>
+                        <hrid>1056542497-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -13204,7 +13204,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>1056542497-17275020</hrid>
+                        <hrid>1056542497-2</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -13233,7 +13233,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>1056542497-17275007</hrid>
+                        <hrid>1056542497-3</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -13294,7 +13294,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>1048567109</hrid>
+                        <hrid>1048567109-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
@@ -13302,7 +13302,7 @@
                         </status>
                         <itemLevelCallNumber>36 XX/r 5 7.Aufl.</itemLevelCallNumber>
                         <barcode/>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -13574,7 +13574,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>270135464</hrid>
+                        <hrid>270135464-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
@@ -13582,7 +13582,7 @@
                         </status>
                         <itemLevelCallNumber>F X d 42</itemLevelCallNumber>
                         <barcode>61355559</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -13630,7 +13630,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>368079074</hrid>
+                        <hrid>368079074-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
@@ -13638,7 +13638,7 @@
                         </status>
                         <itemLevelCallNumber>Sc 70</itemLevelCallNumber>
                         <barcode>61355560</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -14048,7 +14048,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>1141649802</hrid>
+                        <hrid>1141649802-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>3 s Präsenzbestand Lesesaal</permanentLoanTypeId>
                         <status>
@@ -14056,7 +14056,7 @@
                         </status>
                         <itemLevelCallNumber>LING B 356</itemLevelCallNumber>
                         <barcode>16551630</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -14104,7 +14104,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>1144975972-16551604</hrid>
+                        <hrid>1144975972-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -14119,7 +14119,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>1144975972-16551616</hrid>
+                        <hrid>1144975972-2</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -14134,7 +14134,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>1144975972-16551628</hrid>
+                        <hrid>1144975972-3</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -14442,7 +14442,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>1052419968</hrid>
+                        <hrid>1052419968-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
@@ -14450,7 +14450,7 @@
                         </status>
                         <itemLevelCallNumber>FL VOLTA 1/15</itemLevelCallNumber>
                         <barcode>77623339</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -14765,7 +14765,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>112362786X</hrid>
+                        <hrid>112362786X-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
@@ -14773,7 +14773,7 @@
                         </status>
                         <itemLevelCallNumber>FZ 1325</itemLevelCallNumber>
                         <barcode/>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume>1</volume>
                         <chronology>2020</chronology>
                         <accessionNumber/>
@@ -14998,7 +14998,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>1112384146</hrid>
+                        <hrid>1112384146-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
@@ -15006,7 +15006,7 @@
                         </status>
                         <itemLevelCallNumber>295.572-test</itemLevelCallNumber>
                         <barcode>18585722</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -15707,7 +15707,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>164154957</hrid>
+                        <hrid>164154957-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>3 s Präsenzbestand Lesesaal</permanentLoanTypeId>
                         <status>
@@ -15715,7 +15715,7 @@
                         </status>
                         <itemLevelCallNumber>PHILOS C 370-3</itemLevelCallNumber>
                         <barcode>36415144</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber>01/4470</accessionNumber>
@@ -15749,7 +15749,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>678097755</hrid>
+                        <hrid>678097755-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
@@ -15757,7 +15757,7 @@
                         </status>
                         <itemLevelCallNumber>L 01 Ästh.Grund 1-3</itemLevelCallNumber>
                         <barcode>16484536</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber>FW 2001/208</accessionNumber>
@@ -15791,7 +15791,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>221750649</hrid>
+                        <hrid>221750649-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
@@ -15799,7 +15799,7 @@
                         </status>
                         <itemLevelCallNumber>Zo 4-3</itemLevelCallNumber>
                         <barcode>61103900</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber>370 GK</accessionNumber>
@@ -15838,7 +15838,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>1010197053</hrid>
+                        <hrid>1010197053-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>3 s Präsenzbestand Lesesaal</permanentLoanTypeId>
                         <status>
@@ -15846,7 +15846,7 @@
                         </status>
                         <itemLevelCallNumber>PHIL 50/5</itemLevelCallNumber>
                         <barcode>90622326</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -15895,7 +15895,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>165736585</hrid>
+                        <hrid>165736585-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>3 s Präsenzbestand Lesesaal</permanentLoanTypeId>
                         <status>
@@ -15903,7 +15903,7 @@
                         </status>
                         <itemLevelCallNumber>05 L - A 12</itemLevelCallNumber>
                         <barcode>72889390</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber>2001/871 </accessionNumber>
@@ -15937,7 +15937,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>584900031</hrid>
+                        <hrid>584900031-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>3 s Präsenzbestand Lesesaal</permanentLoanTypeId>
                         <status>
@@ -15945,7 +15945,7 @@
                         </status>
                         <itemLevelCallNumber>05 L - A 12 / 2. Ex. / Zimmer Breuer</itemLevelCallNumber>
                         <barcode>76504324</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber>09/1328 Germanistik</accessionNumber>
@@ -15979,7 +15979,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>164736468</hrid>
+                        <hrid>164736468-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
@@ -15987,7 +15987,7 @@
                         </status>
                         <itemLevelCallNumber>12.0 - 1/1.3</itemLevelCallNumber>
                         <barcode>72164206</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber>01/552</accessionNumber>
@@ -16021,7 +16021,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>222853697</hrid>
+                        <hrid>222853697-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
@@ -16029,7 +16029,7 @@
                         </status>
                         <itemLevelCallNumber>A c.12/1-3</itemLevelCallNumber>
                         <barcode>14600295</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber>58026</accessionNumber>
@@ -16063,7 +16063,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>595435424</hrid>
+                        <hrid>595435424-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
@@ -16071,7 +16071,7 @@
                         </status>
                         <itemLevelCallNumber>CC 6800 BAR/ 1-3</itemLevelCallNumber>
                         <barcode>71994950</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber>ZP02 10/134-1</accessionNumber>
@@ -16105,7 +16105,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>581150228</hrid>
+                        <hrid>581150228-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
@@ -16113,7 +16113,7 @@
                         </status>
                         <itemLevelCallNumber>LEX ÄSTH 2.3</itemLevelCallNumber>
                         <barcode/>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber>05/300-3</accessionNumber>
@@ -16864,7 +16864,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>189502533</hrid>
+                        <hrid>189502533-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
@@ -16873,7 +16873,7 @@
                         <itemLevelCallNumberPrefix>in 4°</itemLevelCallNumberPrefix>
                         <itemLevelCallNumber>Z 6183</itemLevelCallNumber>
                         <barcode/>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology>1977</chronology>
                         <accessionNumber/>
@@ -17192,7 +17192,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>113674406</hrid>
+                        <hrid>113674406-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
@@ -17201,7 +17201,7 @@
                         <itemLevelCallNumberPrefix>4°</itemLevelCallNumberPrefix>
                         <itemLevelCallNumber>BB 1129</itemLevelCallNumber>
                         <barcode>34414860</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -17243,7 +17243,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>1153620499-17775946</hrid>
+                        <hrid>1153620499-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -17258,7 +17258,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>1153620499-17775934</hrid>
+                        <hrid>1153620499-2</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -17273,7 +17273,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>1153620499-17775983</hrid>
+                        <hrid>1153620499-3</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -17288,7 +17288,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>1153620499-17775960</hrid>
+                        <hrid>1153620499-4</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -17303,7 +17303,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>1153620499-17775958</hrid>
+                        <hrid>1153620499-5</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -17318,7 +17318,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>1153620499-17775971</hrid>
+                        <hrid>1153620499-6</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -17648,7 +17648,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>1015406858</hrid>
+                        <hrid>1015406858-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>3 s Präsenzbestand Lesesaal</permanentLoanTypeId>
                         <status>
@@ -17656,7 +17656,7 @@
                         </status>
                         <itemLevelCallNumber>LIN-ZH 08:8-4,1</itemLevelCallNumber>
                         <barcode>90256590</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -18073,7 +18073,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>1118028570-17281469</hrid>
+                        <hrid>1118028570-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -18102,7 +18102,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>1118028570-17281470</hrid>
+                        <hrid>1118028570-2</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -18131,7 +18131,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>1118028570-17281482</hrid>
+                        <hrid>1118028570-3</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -18160,7 +18160,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>1118028570-17281494</hrid>
+                        <hrid>1118028570-4</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -18189,7 +18189,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>1118028570-17281500</hrid>
+                        <hrid>1118028570-5</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -18250,7 +18250,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>1142630676</hrid>
+                        <hrid>1142630676-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>9 a bestellt</permanentLoanTypeId>
                         <status>
@@ -18258,7 +18258,7 @@
                         </status>
                         <itemLevelCallNumber>Recht bestellt 2021</itemLevelCallNumber>
                         <barcode/>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -18460,7 +18460,7 @@
          </languages>
          <series>
             <arr>
-               <i>@Soldaten, Kameraden! ; 33</i>
+               <i>Soldaten, Kameraden! ; 33</i>
             </arr>
             <arr>
                <i/>
@@ -18512,7 +18512,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>132509946</hrid>
+                        <hrid>132509946-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>5 i nur für den Lesesaal</permanentLoanTypeId>
                         <status>
@@ -18520,7 +18520,7 @@
                         </status>
                         <itemLevelCallNumber>SL 894</itemLevelCallNumber>
                         <barcode>34917662</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber>1946 G 1837</accessionNumber>
@@ -18792,7 +18792,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>1124014802</hrid>
+                        <hrid>1124014802-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
@@ -18800,7 +18800,7 @@
                         </status>
                         <itemLevelCallNumber>KIND 267</itemLevelCallNumber>
                         <barcode>18644520</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -19146,7 +19146,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>1015718213</hrid>
+                        <hrid>1015718213-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
@@ -19154,7 +19154,7 @@
                         </status>
                         <itemLevelCallNumber>KAT IV DRO 1941.12.05</itemLevelCallNumber>
                         <barcode>17641668</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber/>
@@ -19796,7 +19796,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>1046863339</hrid>
+                        <hrid>1046863339-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
@@ -19804,7 +19804,7 @@
                         </status>
                         <itemLevelCallNumber>FZ 415</itemLevelCallNumber>
                         <barcode/>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume>1207</volume>
                         <chronology>2019</chronology>
                         <accessionNumber/>
@@ -19844,7 +19844,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>104270256X</hrid>
+                        <hrid>104270256X-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>5 i nur für den Lesesaal</permanentLoanTypeId>
                         <status>
@@ -19852,7 +19852,7 @@
                         </status>
                         <itemLevelCallNumber>Ztg 54</itemLevelCallNumber>
                         <barcode/>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber/>
@@ -20232,7 +20232,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>1118270851</hrid>
+                        <hrid>1118270851-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
@@ -20240,7 +20240,7 @@
                         </status>
                         <itemLevelCallNumber>Ab 37-61</itemLevelCallNumber>
                         <barcode>18179677</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -20647,7 +20647,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>1115461281</hrid>
+                        <hrid>1115461281-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>3 s Präsenzbestand Lesesaal</permanentLoanTypeId>
                         <status>
@@ -20655,7 +20655,7 @@
                         </status>
                         <itemLevelCallNumber>MED A 2053</itemLevelCallNumber>
                         <barcode>17764456</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -20703,7 +20703,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>112427944X-17764377</hrid>
+                        <hrid>112427944X-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -20732,7 +20732,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>112427944X-17764419</hrid>
+                        <hrid>112427944X-2</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -20761,7 +20761,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>112427944X-17764250</hrid>
+                        <hrid>112427944X-3</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -20790,7 +20790,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>112427944X-17764330</hrid>
+                        <hrid>112427944X-4</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -20819,7 +20819,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>112427944X-17764298</hrid>
+                        <hrid>112427944X-5</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -21525,7 +21525,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>207910979</hrid>
+                        <hrid>207910979-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>3 s Präsenzbestand Lesesaal</permanentLoanTypeId>
                         <status>
@@ -21533,7 +21533,7 @@
                         </status>
                         <itemLevelCallNumber>PHILOS C 370-5</itemLevelCallNumber>
                         <barcode>37653112</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber>04/69</accessionNumber>
@@ -21567,7 +21567,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>67809781X</hrid>
+                        <hrid>67809781X-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
@@ -21575,7 +21575,7 @@
                         </status>
                         <itemLevelCallNumber>L 01 Ästh.Grund 1-5</itemLevelCallNumber>
                         <barcode>16484550</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber/>
@@ -21609,7 +21609,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>221750266</hrid>
+                        <hrid>221750266-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
@@ -21617,7 +21617,7 @@
                         </status>
                         <itemLevelCallNumber>Zo 4-5</itemLevelCallNumber>
                         <barcode>61264487</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber>372 GK</accessionNumber>
@@ -21651,7 +21651,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>1010401270</hrid>
+                        <hrid>1010401270-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>3 s Präsenzbestand Lesesaal</permanentLoanTypeId>
                         <status>
@@ -21659,7 +21659,7 @@
                         </status>
                         <itemLevelCallNumber>PHIL 50/5</itemLevelCallNumber>
                         <barcode>90622340</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -21707,7 +21707,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>207701636</hrid>
+                        <hrid>207701636-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>3 s Präsenzbestand Lesesaal</permanentLoanTypeId>
                         <status>
@@ -21715,7 +21715,7 @@
                         </status>
                         <itemLevelCallNumber>05 L - A 12</itemLevelCallNumber>
                         <barcode>72889365</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber>2004/13</accessionNumber>
@@ -21749,7 +21749,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>584899971</hrid>
+                        <hrid>584899971-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>3 s Präsenzbestand Lesesaal</permanentLoanTypeId>
                         <status>
@@ -21757,7 +21757,7 @@
                         </status>
                         <itemLevelCallNumber>05 L - A 12 / 2. Ex. / Zimmer Breuer</itemLevelCallNumber>
                         <barcode>76504403</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber>09/1328 Germanistik</accessionNumber>
@@ -21791,7 +21791,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>20816233X</hrid>
+                        <hrid>20816233X-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
@@ -21799,7 +21799,7 @@
                         </status>
                         <itemLevelCallNumber>12.0 - 1/1.5</itemLevelCallNumber>
                         <barcode>72164127</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber>04/9</accessionNumber>
@@ -21833,7 +21833,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>22285409X</hrid>
+                        <hrid>22285409X-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
@@ -21841,7 +21841,7 @@
                         </status>
                         <itemLevelCallNumber>A c.12/1-5</itemLevelCallNumber>
                         <barcode>14600246</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber>58026</accessionNumber>
@@ -21875,7 +21875,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>595435947</hrid>
+                        <hrid>595435947-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
@@ -21883,7 +21883,7 @@
                         </status>
                         <itemLevelCallNumber>CC 6800 BAR/ 1-5</itemLevelCallNumber>
                         <barcode>71995151</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber>ZP02 10/134-1</accessionNumber>
@@ -21917,7 +21917,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>58115052X</hrid>
+                        <hrid>58115052X-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
@@ -21925,7 +21925,7 @@
                         </status>
                         <itemLevelCallNumber>LEX ÄSTH 2.5</itemLevelCallNumber>
                         <barcode/>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber>05/300-5</accessionNumber>
@@ -22204,7 +22204,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>1126038369</hrid>
+                        <hrid>1126038369-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
@@ -22212,7 +22212,7 @@
                         </status>
                         <itemLevelCallNumber>Ya 7251</itemLevelCallNumber>
                         <barcode/>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology>2020</chronology>
                         <accessionNumber/>
@@ -22434,7 +22434,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>147250242</hrid>
+                        <hrid>147250242-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>dummy</permanentLoanTypeId>
                         <status>
@@ -22442,7 +22442,7 @@
                         </status>
                         <itemLevelCallNumber/>
                         <barcode/>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber/>
@@ -22776,7 +22776,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>1036842541</hrid>
+                        <hrid>1036842541-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
@@ -22784,7 +22784,7 @@
                         </status>
                         <itemLevelCallNumber>Sc 4779</itemLevelCallNumber>
                         <barcode>62155718</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -23156,7 +23156,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>62927178X</hrid>
+                        <hrid>62927178X-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>9 g nicht ausleihbar</permanentLoanTypeId>
                         <status>
@@ -23164,7 +23164,7 @@
                         </status>
                         <itemLevelCallNumber>29/ AK BIOPHARM./PHARMAZ. TECHN. VX 5100 WUR1 (18)</itemLevelCallNumber>
                         <barcode>11571197</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -23217,7 +23217,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>63069351X</hrid>
+                        <hrid>63069351X-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
@@ -23225,7 +23225,7 @@
                         </status>
                         <itemLevelCallNumber>VX 5100 WUR1 (18) +2</itemLevelCallNumber>
                         <barcode>11571082</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -23850,7 +23850,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>565909258</hrid>
+                        <hrid>565909258-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>3 s Präsenzbestand Lesesaal</permanentLoanTypeId>
                         <status>
@@ -23858,7 +23858,7 @@
                         </status>
                         <itemLevelCallNumber>MED V 133/01</itemLevelCallNumber>
                         <barcode>39468465</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -23912,7 +23912,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>565909266-39467400</hrid>
+                        <hrid>565909266-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -23941,7 +23941,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>565909266-39467412</hrid>
+                        <hrid>565909266-2</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -23970,7 +23970,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>565909266-39467424</hrid>
+                        <hrid>565909266-3</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -23999,7 +23999,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>565909266-39467436</hrid>
+                        <hrid>565909266-4</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -24028,7 +24028,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>565909266-39467448</hrid>
+                        <hrid>565909266-5</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -24057,7 +24057,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>565909266-39467450</hrid>
+                        <hrid>565909266-6</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -24086,7 +24086,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>565909266-39467461</hrid>
+                        <hrid>565909266-7</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -24115,7 +24115,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>565909266-39467473</hrid>
+                        <hrid>565909266-8</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -24144,7 +24144,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>565909266-39467485</hrid>
+                        <hrid>565909266-9</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -24173,7 +24173,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>565909266-39467527</hrid>
+                        <hrid>565909266-10</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -24235,7 +24235,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>616740840-12482506</hrid>
+                        <hrid>616740840-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -24264,7 +24264,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>616740840-12482518</hrid>
+                        <hrid>616740840-2</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -24293,7 +24293,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>616740840-12482520</hrid>
+                        <hrid>616740840-3</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -24322,7 +24322,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>616740840-12482531</hrid>
+                        <hrid>616740840-4</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -24351,7 +24351,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>616740840-12482543</hrid>
+                        <hrid>616740840-5</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -24380,7 +24380,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>616740840-12482555</hrid>
+                        <hrid>616740840-6</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -24409,7 +24409,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>616740840-12482567</hrid>
+                        <hrid>616740840-7</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -24438,7 +24438,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>616740840-12482579</hrid>
+                        <hrid>616740840-8</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -24467,7 +24467,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>616740840-12482580</hrid>
+                        <hrid>616740840-9</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -24496,7 +24496,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>616740840-12482592</hrid>
+                        <hrid>616740840-10</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -24558,7 +24558,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>646142364-14247741</hrid>
+                        <hrid>646142364-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
@@ -24573,7 +24573,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>646142364-14247819</hrid>
+                        <hrid>646142364-2</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
@@ -24588,7 +24588,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>646142364-14247820</hrid>
+                        <hrid>646142364-3</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
@@ -24603,7 +24603,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>646142364-14247832</hrid>
+                        <hrid>646142364-4</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
@@ -24618,7 +24618,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>646142364-14247753</hrid>
+                        <hrid>646142364-5</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
@@ -24633,7 +24633,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>646142364-14247789</hrid>
+                        <hrid>646142364-6</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
@@ -24648,7 +24648,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>646142364-14247790</hrid>
+                        <hrid>646142364-7</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
@@ -24663,7 +24663,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>646142364-14247807</hrid>
+                        <hrid>646142364-8</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
@@ -24678,7 +24678,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>646142364-14247765</hrid>
+                        <hrid>646142364-9</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
@@ -24693,7 +24693,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>646142364-14247777</hrid>
+                        <hrid>646142364-10</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
@@ -24736,7 +24736,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>566028360</hrid>
+                        <hrid>566028360-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
@@ -24744,7 +24744,7 @@
                         </status>
                         <itemLevelCallNumber>ZMK A 305,4.Aufl.</itemLevelCallNumber>
                         <barcode>17385640</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber/>
@@ -24778,7 +24778,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>779043049</hrid>
+                        <hrid>779043049-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
@@ -24786,7 +24786,7 @@
                         </status>
                         <itemLevelCallNumber>ZMK A 305,4.Aufl.</itemLevelCallNumber>
                         <barcode>17385639</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber/>
@@ -25120,7 +25120,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>1083251902</hrid>
+                        <hrid>1083251902-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
@@ -25128,7 +25128,7 @@
                         </status>
                         <itemLevelCallNumber>KUL-ZH 07:15</itemLevelCallNumber>
                         <barcode>91832372</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -25435,7 +25435,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>1020927992</hrid>
+                        <hrid>1020927992-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>3 s Präsenzbestand Lesesaal</permanentLoanTypeId>
                         <status>
@@ -25443,7 +25443,7 @@
                         </status>
                         <itemLevelCallNumber>ZZ 7255-153</itemLevelCallNumber>
                         <barcode/>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -26140,7 +26140,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>151931380</hrid>
+                        <hrid>151931380-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>3 s Präsenzbestand Lesesaal</permanentLoanTypeId>
                         <status>
@@ -26148,7 +26148,7 @@
                         </status>
                         <itemLevelCallNumber>PHILOS C 370-2</itemLevelCallNumber>
                         <barcode>36142164</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber>01/980</accessionNumber>
@@ -26182,7 +26182,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>678097690</hrid>
+                        <hrid>678097690-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
@@ -26190,7 +26190,7 @@
                         </status>
                         <itemLevelCallNumber>L 01 Ästh.Grund 1-2</itemLevelCallNumber>
                         <barcode>16484524</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber>FW 2001/209</accessionNumber>
@@ -26224,7 +26224,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>221750134</hrid>
+                        <hrid>221750134-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
@@ -26232,7 +26232,7 @@
                         </status>
                         <itemLevelCallNumber>Zo 4-2</itemLevelCallNumber>
                         <barcode>61054262</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber>369 GK</accessionNumber>
@@ -26271,7 +26271,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>1010133578</hrid>
+                        <hrid>1010133578-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>3 s Präsenzbestand Lesesaal</permanentLoanTypeId>
                         <status>
@@ -26279,7 +26279,7 @@
                         </status>
                         <itemLevelCallNumber>PHIL 50/5</itemLevelCallNumber>
                         <barcode>90622314</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -26328,7 +26328,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>152309500</hrid>
+                        <hrid>152309500-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>3 s Präsenzbestand Lesesaal</permanentLoanTypeId>
                         <status>
@@ -26336,7 +26336,7 @@
                         </status>
                         <itemLevelCallNumber>05 L - A 12</itemLevelCallNumber>
                         <barcode/>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber>2001/123</accessionNumber>
@@ -26370,7 +26370,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>584900082</hrid>
+                        <hrid>584900082-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>3 s Präsenzbestand Lesesaal</permanentLoanTypeId>
                         <status>
@@ -26378,7 +26378,7 @@
                         </status>
                         <itemLevelCallNumber>05 L - A 12 / 2. Ex. / Zimmer Breuer</itemLevelCallNumber>
                         <barcode>76504282</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber>09/1328 Germanistik</accessionNumber>
@@ -26412,7 +26412,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>152171959</hrid>
+                        <hrid>152171959-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
@@ -26420,7 +26420,7 @@
                         </status>
                         <itemLevelCallNumber>12.0 - 1/1.2</itemLevelCallNumber>
                         <barcode>72164243</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber>01/122</accessionNumber>
@@ -26454,7 +26454,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>222853557</hrid>
+                        <hrid>222853557-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
@@ -26462,7 +26462,7 @@
                         </status>
                         <itemLevelCallNumber>A c.12/1-2</itemLevelCallNumber>
                         <barcode>14600337</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber>58026</accessionNumber>
@@ -26496,7 +26496,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>595435254</hrid>
+                        <hrid>595435254-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
@@ -26504,7 +26504,7 @@
                         </status>
                         <itemLevelCallNumber>CC 6800 BAR/ 1-2</itemLevelCallNumber>
                         <barcode>71995199</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber>ZP02 10/134-1</accessionNumber>
@@ -26538,7 +26538,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>581150023</hrid>
+                        <hrid>581150023-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>4 d Präsenzbestand Wochenendausleihe</permanentLoanTypeId>
                         <status>
@@ -26546,7 +26546,7 @@
                         </status>
                         <itemLevelCallNumber>LEX ÄSTH 2.2</itemLevelCallNumber>
                         <barcode/>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <accessionNumber>05/300-2</accessionNumber>
@@ -27238,7 +27238,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>073210382</hrid>
+                        <hrid>073210382-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
@@ -27246,7 +27246,7 @@
                         </status>
                         <itemLevelCallNumber>FZ 203</itemLevelCallNumber>
                         <barcode/>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology>1724-1791</chronology>
                         <accessionNumber/>
@@ -27294,7 +27294,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>125190344</hrid>
+                        <hrid>125190344-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
@@ -27302,7 +27302,7 @@
                         </status>
                         <itemLevelCallNumber>ZA 386</itemLevelCallNumber>
                         <barcode/>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume>1-30, 137-216, 300-303, 305-310, 312-354</volume>
                         <chronology>1890-1899, 1920-1929, 1947-1948, 1949-1950, 1951-1965</chronology>
                         <accessionNumber/>
@@ -27345,7 +27345,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>125190352</hrid>
+                        <hrid>125190352-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
@@ -27353,7 +27353,7 @@
                         </status>
                         <itemLevelCallNumber>FZ 203</itemLevelCallNumber>
                         <barcode/>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology>1672</chronology>
                         <accessionNumber/>
@@ -27398,7 +27398,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>735183414</hrid>
+                        <hrid>735183414-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
@@ -27406,7 +27406,7 @@
                         </status>
                         <itemLevelCallNumber>Si 1982</itemLevelCallNumber>
                         <barcode/>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology>1742</chronology>
                         <accessionNumber/>
@@ -28064,7 +28064,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>1122135629</hrid>
+                        <hrid>1122135629-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>9 a bestellt</permanentLoanTypeId>
                         <status>
@@ -28072,7 +28072,7 @@
                         </status>
                         <itemLevelCallNumber>bestellt</itemLevelCallNumber>
                         <barcode/>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -28452,7 +28452,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>1117073882</hrid>
+                        <hrid>1117073882-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>5 i nur für den Lesesaal</permanentLoanTypeId>
                         <status>
@@ -28460,7 +28460,7 @@
                         </status>
                         <itemLevelCallNumber>Z 603</itemLevelCallNumber>
                         <barcode/>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume>487</volume>
                         <chronology>2020</chronology>
                         <accessionNumber/>
@@ -28501,7 +28501,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>1134433468</hrid>
+                        <hrid>1134433468-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>3 s Präsenzbestand Lesesaal</permanentLoanTypeId>
                         <status>
@@ -28509,7 +28509,7 @@
                         </status>
                         <itemLevelCallNumber>Z 872</itemLevelCallNumber>
                         <barcode/>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume>487</volume>
                         <chronology>2020</chronology>
                         <accessionNumber/>
@@ -29135,7 +29135,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>760510180-15888876</hrid>
+                        <hrid>760510180-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -29164,7 +29164,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>760510180-15888864</hrid>
+                        <hrid>760510180-2</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -29193,7 +29193,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>760510180-15888906</hrid>
+                        <hrid>760510180-3</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -29222,7 +29222,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>760510180-15888890</hrid>
+                        <hrid>760510180-4</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -29251,7 +29251,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>760510180-15888888</hrid>
+                        <hrid>760510180-5</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -29280,7 +29280,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>760510180-15888670</hrid>
+                        <hrid>760510180-6</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -29309,7 +29309,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>760510180-15888621</hrid>
+                        <hrid>760510180-7</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -29338,7 +29338,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>760510180-15888669</hrid>
+                        <hrid>760510180-8</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -29367,7 +29367,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>760510180-15888657</hrid>
+                        <hrid>760510180-9</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -29396,7 +29396,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>760510180-15888645</hrid>
+                        <hrid>760510180-10</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -29425,7 +29425,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>760510180-15888633</hrid>
+                        <hrid>760510180-11</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -29454,7 +29454,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>760510180-15888566</hrid>
+                        <hrid>760510180-12</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -29483,7 +29483,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>760510180-15888529</hrid>
+                        <hrid>760510180-13</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -29512,7 +29512,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>760510180-15888487</hrid>
+                        <hrid>760510180-14</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -29541,7 +29541,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>760510180-15888852</hrid>
+                        <hrid>760510180-15</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -29570,7 +29570,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>760510180-15888840</hrid>
+                        <hrid>760510180-16</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -29599,7 +29599,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>760510180-15888839</hrid>
+                        <hrid>760510180-17</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -29628,7 +29628,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>760510180-15888580</hrid>
+                        <hrid>760510180-18</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -29657,7 +29657,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>760510180-15888578</hrid>
+                        <hrid>760510180-19</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -29686,7 +29686,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>760510180-15888610</hrid>
+                        <hrid>760510180-20</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -29715,7 +29715,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>760510180-15888797</hrid>
+                        <hrid>760510180-21</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -29744,7 +29744,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>760510180-15888785</hrid>
+                        <hrid>760510180-22</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -29773,7 +29773,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>760510180-15888773</hrid>
+                        <hrid>760510180-23</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -29802,7 +29802,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>760510180-15888827</hrid>
+                        <hrid>760510180-24</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -29831,7 +29831,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>760510180-15888815</hrid>
+                        <hrid>760510180-25</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -29860,7 +29860,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>760510180-15888803</hrid>
+                        <hrid>760510180-26</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -29889,7 +29889,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>760510180-15888608</hrid>
+                        <hrid>760510180-27</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -29918,7 +29918,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>760510180-15888591</hrid>
+                        <hrid>760510180-28</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -29947,7 +29947,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>760510180-15888451</hrid>
+                        <hrid>760510180-29</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -29976,7 +29976,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>760510180-15888440</hrid>
+                        <hrid>760510180-30</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -30005,7 +30005,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>760510180-15888499</hrid>
+                        <hrid>760510180-31</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -30034,7 +30034,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>760510180-15888761</hrid>
+                        <hrid>760510180-32</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -30063,7 +30063,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>760510180-15888750</hrid>
+                        <hrid>760510180-33</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -30092,7 +30092,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>760510180-15888748</hrid>
+                        <hrid>760510180-34</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -30121,7 +30121,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>760510180-15888694</hrid>
+                        <hrid>760510180-35</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -30150,7 +30150,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>760510180-15888682</hrid>
+                        <hrid>760510180-36</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -30179,7 +30179,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>760510180-15888724</hrid>
+                        <hrid>760510180-38</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -30208,7 +30208,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>760510180-15888712</hrid>
+                        <hrid>760510180-39</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -30237,7 +30237,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>760510180-15888700</hrid>
+                        <hrid>760510180-40</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -30266,7 +30266,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>760510180-15888475</hrid>
+                        <hrid>760510180-41</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -30295,7 +30295,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>760510180-15888542</hrid>
+                        <hrid>760510180-42</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -30324,7 +30324,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>760510180-15888554</hrid>
+                        <hrid>760510180-43</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -30353,7 +30353,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>760510180-15888463</hrid>
+                        <hrid>760510180-44</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -30382,7 +30382,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>760510180-15888505</hrid>
+                        <hrid>760510180-45</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -30411,7 +30411,7 @@
                         <discoverySuppress>false</discoverySuppress>
                      </i>
                      <i>
-                        <hrid>760510180-15888530</hrid>
+                        <hrid>760510180-46</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>2 c Lehrbuchsammlung</permanentLoanTypeId>
                         <status>
@@ -30468,7 +30468,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>759702675</hrid>
+                        <hrid>759702675-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>0 u ausleihbar</permanentLoanTypeId>
                         <status>
@@ -30476,7 +30476,7 @@
                         </status>
                         <itemLevelCallNumber>GRUND 245</itemLevelCallNumber>
                         <barcode>12254595</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -30529,7 +30529,7 @@
                <items>
                   <arr>
                      <i>
-                        <hrid>760509352</hrid>
+                        <hrid>760509352-1</hrid>
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>3 s Präsenzbestand Lesesaal</permanentLoanTypeId>
                         <status>
@@ -30537,7 +30537,7 @@
                         </status>
                         <itemLevelCallNumber>MED B 132/02</itemLevelCallNumber>
                         <barcode>15888517</barcode>
-                        <copyNumber/>
+                        <copyNumber>1</copyNumber>
                         <volume/>
                         <chronology/>
                         <notes>

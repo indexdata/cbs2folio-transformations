@@ -46,9 +46,9 @@
 
   <xsl:template match="item">
     <i>
-      <xsl:variable name="hhrid" select="datafield[@tag='203@']/subfield[@code='0']"/>
+      <xsl:variable name="epn" select="datafield[@tag='203@']/subfield[@code='0']"/>
       <hrid>
-        <xsl:value-of select="$hhrid"/>
+        <xsl:value-of select="$epn"/>
       </hrid>
       <permanentLocationId>
         <xsl:call-template name="lcode"/>
@@ -161,23 +161,32 @@
       <xsl:if test="not($electronicholding)">
          <items>
            <arr>
-            <xsl:choose>
-              <xsl:when test="(datafield[(@tag='209G') and (subfield[@code='x']='00')]/subfield[@code='a'])[2]">
-                <xsl:for-each select="datafield[(@tag='209G') and (subfield[@code='x']='00')]/subfield[@code='a']">
-                  <xsl:message>Debug: <xsl:value-of select="."/></xsl:message>
-                  <xsl:apply-templates select="../.." mode="make-item">
-                  <xsl:with-param name="hhrid" select="concat($hhrid, '-', substring-before(.,' '))"/>
-                  <xsl:with-param name="bcode" select="substring-before(.,' ')"/>
-                  <xsl:with-param name="copy" select="substring-before(substring-after(.,'('),')')"/>
-                  </xsl:apply-templates>
-                </xsl:for-each>
-              </xsl:when>
-              <xsl:otherwise>
-                <xsl:apply-templates select="." mode="make-item">
-                  <xsl:with-param name="hhrid" select="$hhrid"/> <!-- TBD? -->
-                </xsl:apply-templates>
-                </xsl:otherwise>
-             </xsl:choose>          
+             <xsl:for-each select="datafield[(@tag='209G') and (subfield[@code='x']='00')]/subfield[@code='a']">
+               <xsl:message>Debug: <xsl:value-of select="."/></xsl:message>
+               <xsl:variable name="copy">
+                 <xsl:choose>
+                   <xsl:when test="contains(.,'(')">
+                     <xsl:value-of select="translate(substring-before(substring-after(.,'('),')'),' ','')"/>
+                   </xsl:when>
+                   <xsl:otherwise>
+                     <xsl:value-of select="position()"/>
+                   </xsl:otherwise>
+                 </xsl:choose>
+               </xsl:variable>
+               <xsl:message>Debug: <xsl:value-of select="concat($epn,'-',$copy)"/></xsl:message>             
+               <xsl:apply-templates select="../.." mode="make-item">
+                 <xsl:with-param name="hhrid" select="concat($epn,'-',$copy)"/>
+                 <xsl:with-param name="bcode" select="substring-before(concat(.,' '),' ')"/>
+                 <xsl:with-param name="copy" select="$copy"/>
+               </xsl:apply-templates>
+             </xsl:for-each>
+             <xsl:if test="not(datafield[(@tag='209G') and (subfield[@code='x']='00')]/subfield[@code='a'])">
+               <xsl:message>Debug: EPN <xsl:value-of select="$epn"/></xsl:message>             
+               <xsl:apply-templates select="." mode="make-item">
+                 <xsl:with-param name="hhrid" select="concat($epn,'-1')"/>
+                 <xsl:with-param name="copy" select="1"/>
+               </xsl:apply-templates>
+             </xsl:if>
            </arr>
          </items>
       </xsl:if>
@@ -215,8 +224,8 @@
  
   <xsl:template match="item" mode="make-item">
     <xsl:param name="hhrid"/>
-    <xsl:param name="bcode" select="substring-before(concat(datafield[(@tag='209G') and (subfield[@code='x']='00')]/subfield[@code='a'],' '),' ')"/>
-    <xsl:param name="copy" select="''"/> <!-- oder kann hier eine copy-Information kommen? -->
+    <xsl:param name="bcode"/>
+    <xsl:param name="copy"/>
     <i>
       <hrid>
         <xsl:value-of select="$hhrid"/>
