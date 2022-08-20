@@ -1052,18 +1052,27 @@
         </arr>
       </languages>
     </xsl:if>
-	<!-- series -->
-    <xsl:if test="datafield[@tag='036E']/subfield[@code='a']">
-      <series>
+    <!-- series -->
+    <series>
+      <xsl:if test="datafield[@tag='036E']/subfield[@code='a']">
         <arr>
-          <xsl:for-each select="datafield[@tag='036E']/subfield[@code='a']">
+          <xsl:for-each select="datafield[@tag='036E']">
             <i>
-              <xsl:value-of select="."/>
+              <xsl:for-each select="subfield">
+                <xsl:choose>
+                  <xsl:when test="@code='a'">
+                    <xsl:value-of select="."/>
+                  </xsl:when>
+                  <xsl:when test="@code='l'">
+                    <xsl:value-of select="concat(' ; ',.)"/>
+                  </xsl:when>
+                </xsl:choose> 
+              </xsl:for-each>
             </i>
           </xsl:for-each>
         </arr>
+      </xsl:if>
       </series>
-    </xsl:if>
     <!-- physicalDescriptions -->
     <xsl:if test="datafield[@tag='034D' or @tag='034M' or @tag='034I' or @tag='034K']">
       <xsl:variable name="phd">
