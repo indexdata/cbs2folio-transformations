@@ -90,7 +90,7 @@
             <xsl:variable name="copy">
               <xsl:choose>
                 <xsl:when test="./following-sibling::subfield[@code='c'][1]">
-                  <xsl:value-of select="translate(./following-sibling::subfield[@code='c'][1],' ','')"/>
+                  <xsl:value-of select="translate(./following-sibling::subfield[@code='c'][1],' .,','')"/>
                 </xsl:when>
                 <xsl:otherwise>
                   <xsl:value-of select="position()"/>
@@ -100,7 +100,7 @@
             <xsl:message>Debug: <xsl:value-of select="concat($hhrid,'-',$copy)"/></xsl:message>             
             <xsl:apply-templates select="../.." mode="make-item">
               <xsl:with-param name="hhrid" select="concat($hhrid,'-',$copy)"/>
-              <xsl:with-param name="bcode" select="substring-before(concat(.,' '),' ')"/>
+              <xsl:with-param name="bcode" select="."/>
               <xsl:with-param name="copy" select="$copy"/>
             </xsl:apply-templates>
           </xsl:for-each>
