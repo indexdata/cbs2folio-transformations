@@ -9,50 +9,44 @@
     </xsl:copy>
   </xsl:template>  
 
-  <!-- ILN 204 UB Gießen: holding-items-hebis-iln204.xsl -->
+  <!-- ILN 205 UB Marburg: holding-items-hebis-iln205.xsl -->
 
   <xsl:template match="permanentLocationId">
     <xsl:variable name="i" select="key('original',.)"/>
     <!-- 209A$f/209G$a ? -->
     <xsl:variable name="abt" select="$i/datafield[@tag='209A']/subfield[@code='f']"/>
-    <xsl:variable name="signatur" select="$i/datafield[@tag='209A']/subfield[@code='a']"/>
+    <!-- <xsl:variable name="signatur" select="$i/datafield[@tag='209A']/subfield[@code='a']"/> ? -->
     <xsl:variable name="standort" select="$i/datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']"/> 
     <xsl:variable name="electronicholding" select="(substring($i/../datafield[@tag='002@']/subfield[@code='0'],1,1) = 'O') and not(substring($i/datafield[@tag='208@']/subfield[@code='b'],1,1) = 'a')"/>
-    <permanentLocationId>
+    <permanentLocationId> <!-- TBD -->
        <xsl:choose>
-         <xsl:when test="$electronicholding">ILN204/E/E/Online Medien</xsl:when>
+         <xsl:when test="$electronicholding">ONLINE</xsl:when>
          <xsl:when test="substring($i/datafield[@tag='208@']/subfield[@code='b'],1,1) = 'd'">DUMMY</xsl:when>
          <xsl:when test="$abt='000'">
            <xsl:choose>
-             <xsl:when test="$signatur='FH '">ILN204/CG/UB/Freihand</xsl:when>
-             <xsl:when test="$signatur='000'">ILN204/CG/UB/Freihand</xsl:when>
-             <xsl:when test="$signatur='4o '">ILN204/CD/UB/UBMag</xsl:when>
-             <xsl:when test="$signatur='ADk'">ILN204/CG/UB/Altbau</xsl:when>
-             <!-- TBD -->
-             <xsl:otherwise>ILN204/CG/UB/Freihand</xsl:otherwise>
+             <xsl:when test="$standort='Erdgeschoss'">S1EG</xsl:when>
+             <xsl:when test="$standort='1. Obergeschoss'">S1OG1</xsl:when>
+             <xsl:when test="$standort='2. Obergeschoss'">S1OG2</xsl:when>
+             <xsl:when test="$standort='3. Obergeschoss'">S1OG3</xsl:when>
+             <xsl:when test="$standort='4. Obergeschoss'">S1OG3</xsl:when>
+
+             <xsl:otherwise>MAG</xsl:otherwise>
            </xsl:choose>
          </xsl:when>
          <xsl:when test="$abt='002'">
            <xsl:choose>
-             <xsl:when test="$signatur='002'">ILN204/CG/ZNL/Freihand</xsl:when>
-             <xsl:when test="$signatur='140'">ILN204/CG/ZNL/Mag</xsl:when>
-             <!-- TBD -->
-             <xsl:otherwise>ILN204/CG/ZNL/Freihand</xsl:otherwise>
+             <xsl:when test="$standort='Erdgeschoss'">L4EG</xsl:when>
+             <xsl:when test="$standort='1. Obergeschoss'">L41OG</xsl:when>
+             <xsl:when test="$standort='2. Obergeschoss'">L42OG</xsl:when>
+             <xsl:when test="$standort='3. Obergeschoss'">L43OG</xsl:when>
+ 
+             <xsl:otherwise>UNDEF</xsl:otherwise>
            </xsl:choose>
          </xsl:when>
-         <xsl:when test="$abt='005'">
-           <xsl:choose>
-             <xsl:when test="$signatur='005'">ILN204/CG/ZHB/Freihand</xsl:when>
-             <xsl:when test="$signatur='205'">ILN204/CG/ZHB/Mag</xsl:when>
-             <!-- TBD -->
-             <xsl:otherwise>ILN204/CG/ZHB/Freihand</xsl:otherwise>
-           </xsl:choose>
-         </xsl:when>
-         <xsl:when test="$abt='009'">ILN204/CG/ZP2/Freihand</xsl:when>
-         <xsl:when test="$abt='010'">ILN204/CG/ZRW/Freihand</xsl:when>
-         <xsl:when test="$abt='020'">ILN204/CG/ZRW/Freihand</xsl:when>
-         
-         <xsl:otherwise>ILN204/CD/DezFB/Fachbibliotheken</xsl:otherwise><!-- Dezentrale FB als Catchall???  -->
+         <xsl:when test="$abt='005'">INST005</xsl:when>
+         <xsl:when test="$abt='024'">INST024</xsl:when>
+
+         <xsl:otherwise>UNDEF</xsl:otherwise>
        </xsl:choose>
       </permanentLocationId>
   </xsl:template>

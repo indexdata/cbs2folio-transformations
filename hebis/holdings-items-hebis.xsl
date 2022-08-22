@@ -103,7 +103,7 @@
               <note>
                 <xsl:value-of select="./subfield[@code='a']"/>
               </note>
-              <holdingsNoteTypeId>Lokaler Schluessel</holdingsNoteTypeId>
+              <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
               <staffOnly>false</staffOnly>
             </i>
           </xsl:for-each>

@@ -8,8 +8,9 @@
     </xsl:copy>
   </xsl:template>
 
-  <!-- ILN 204 UB Giessen -->
-  <!-- Map locations (codes2uuid-hebis-iln23.xsl)
+
+  <!-- ILN 204 UB Gießen -->
+  <!-- Map locations (codes2uuid-hebis-iln204.xsl)
        the IDs are the location names in FOLIO, generated from 209A $f and other pica fields -->
 
   <xsl:template match="permanentLocationId"> <!-- ILN -->
@@ -25,14 +26,12 @@
         <xsl:when test=".='ILN204/CG/ZRW/Freihand'">4a8b6fce-6fa8-402e-afeb-7324cfe1a740</xsl:when>
         <xsl:when test=".='ILN204/CG/ZHB/Freihand'">d5a66747-ab61-4f4e-bfc5-4e5cd880c403</xsl:when>
         <xsl:when test=".='ILN204/CG/ZHB/Magazin'">29e31115-b52d-483d-a692-3209f7f25fbe</xsl:when>
-
         <xsl:otherwise>32ad6c56-957e-4a4b-ad1f-458e254b1f6e</xsl:otherwise> <!-- Hier dezentrale FB als Sammler? -->
       </xsl:choose>
     </permanentLocationId>
   </xsl:template>
 
   <!-- Map loan types -->
-  <!-- ILN 8: 6 nicht genutzt + 7 als Sonderfall = im LBS3-OUS nur manuell in Bandsatz eingetragen -->
   <xsl:template match="permanentLoanTypeId"> <!-- ILN -->
     <permanentLoanTypeId>
       <xsl:choose>
