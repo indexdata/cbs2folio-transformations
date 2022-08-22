@@ -15,20 +15,20 @@
     <xsl:variable name="i" select="key('original',.)"/>
     <!-- 209A$f/209G$a ? -->
     <xsl:variable name="abt" select="$i/datafield[@tag='209A']/subfield[@code='f']"/>
-    <!-- <xsl:variable name="signatur" select="$i/datafield[@tag='209A']/subfield[@code='a']"/> ? -->
+    <xsl:variable name="signatur" select="$i/datafield[@tag='209A']/subfield[@code='a']"/>
     <xsl:variable name="standort" select="$i/datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']"/> 
     <xsl:variable name="electronicholding" select="(substring($i/../datafield[@tag='002@']/subfield[@code='0'],1,1) = 'O') and not(substring($i/datafield[@tag='208@']/subfield[@code='b'],1,1) = 'a')"/>
     <permanentLocationId>
        <xsl:choose>
-         <xsl:when test="$electronicholding">ONLINE</xsl:when>
+         <xsl:when test="$electronicholding">ILN204/E/E/Online Medien</xsl:when>
          <xsl:when test="substring($i/datafield[@tag='208@']/subfield[@code='b'],1,1) = 'd'">DUMMY</xsl:when>
          <xsl:when test="$abt='000'">
            <xsl:choose>
-             <xsl:when test="$standort='Erdgeschoss'">S1EG</xsl:when>
-             <xsl:when test="$standort='1. Obergeschoss'">S1OG1</xsl:when>
-             <xsl:when test="$standort='2. Obergeschoss'">S1OG2</xsl:when>
-             <xsl:when test="$standort='3. Obergeschoss'">S1OG3</xsl:when>
-             <xsl:when test="$standort='4. Obergeschoss'">S1OG3</xsl:when>
+             <xsl:when test="$signatur='FH '">ILN204/CG/UB/Freihand</xsl:when>
+             <xsl:when test="$signatur='000 '">ILN204/CG/UB/Freihand</xsl:when>
+             <xsl:when test="$signatur=''"></xsl:when>
+             <xsl:when test="$signatur=''"></xsl:when>
+             <xsl:when test="$standort=''"></xsl:when>
              <!-- Rara, Sonderlesesaal, ...? -->
              <xsl:otherwise>MAG</xsl:otherwise>
            </xsl:choose>
