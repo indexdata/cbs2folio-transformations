@@ -15,12 +15,18 @@
   <xsl:template match="permanentLocationId"> <!-- ILN -->
     <permanentLocationId>
       <xsl:choose>
-        <xsl:when test=".='DUMMY'">6276b77c-d3fc-419e-a968-776b8e24657c</xsl:when>
-        <xsl:when test=".='ABT021FREIHAND'">TBD</xsl:when>
-        <xsl:when test=".='INST024'">fb64e20a-3822-4035-bcaa-a17296780b17</xsl:when>
-        <xsl:when test=".='L4EG'">bcd7cdc8-599b-4d1d-aec7-e13808f34c80</xsl:when>
+        <xsl:when test=".='ILN204/E/E/Online Medien'">a8147c16-5fea-47e0-b7b6-24016f0c4c86</xsl:when>
+        <xsl:when test=".='ILN204/CG/UB/Freihand'">4b0f04c3-80f6-41b8-b932-9ad6b1310ee1</xsl:when>
+        <xsl:when test=".='ILN204/CG/UB/Altbau'">c04637db-0938-499f-b4a4-92c28c4b1cd2</xsl:when>
+        <xsl:when test=".='ILN204/CD/UB/UBMag'">7a2e235e-a835-4aa2-a231-607cd38ea05c</xsl:when>
+        <xsl:when test=".='ILN204/CG/ZNL/Freihand'">f3dc06c9-9c2e-4026-a678-146d00591c38</xsl:when>
+        <xsl:when test=".='ILN204/CG/ZNL/Mag'">0c2ef18e-2d61-459f-9f08-a7413f3b701f</xsl:when>
+        <xsl:when test=".='ILN204/CG/ZP2/Freihand'">f73d8f40-77fb-4b19-b04a-df6177e717f9</xsl:when>
+        <xsl:when test=".='ILN204/CG/ZRW/Freihand'">4a8b6fce-6fa8-402e-afeb-7324cfe1a740</xsl:when>
+        <xsl:when test=".='ILN204/CG/ZHB/Freihand'">d5a66747-ab61-4f4e-bfc5-4e5cd880c403</xsl:when>
+        <xsl:when test=".='ILN204/CG/ZHB/Magazin'">29e31115-b52d-483d-a692-3209f7f25fbe</xsl:when>
 
-        <xsl:otherwise>5017a025-9055-41cf-9466-5c2ea4e207f0</xsl:otherwise> <!-- UNDEF -->
+        <xsl:otherwise>32ad6c56-957e-4a4b-ad1f-458e254b1f6e</xsl:otherwise> <!-- Hier dezentrale FB als Sammler? -->
       </xsl:choose>
     </permanentLocationId>
   </xsl:template>
