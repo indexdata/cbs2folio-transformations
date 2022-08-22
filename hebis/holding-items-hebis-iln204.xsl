@@ -25,29 +25,34 @@
          <xsl:when test="$abt='000'">
            <xsl:choose>
              <xsl:when test="$signatur='FH '">ILN204/CG/UB/Freihand</xsl:when>
-             <xsl:when test="$signatur='000 '">ILN204/CG/UB/Freihand</xsl:when>
-             <xsl:when test="$signatur=''"></xsl:when>
-             <xsl:when test="$signatur=''"></xsl:when>
-             <xsl:when test="$standort=''"></xsl:when>
-             <!-- Rara, Sonderlesesaal, ...? -->
-             <xsl:otherwise>MAG</xsl:otherwise>
+             <xsl:when test="$signatur='000'">ILN204/CG/UB/Freihand</xsl:when>
+             <xsl:when test="$signatur='4o '">ILN204/CD/UB/UBMag</xsl:when>
+             <xsl:when test="$signatur='ADk'">ILN204/CG/UB/Altbau</xsl:when>
+             <!-- TBD -->
+             <xsl:otherwise>ILN204/CG/UB/Freihand</xsl:otherwise>
            </xsl:choose>
          </xsl:when>
-         <!-- Hier abt='001' ergaenzen, wenn Schlossumzug -->
          <xsl:when test="$abt='002'">
            <xsl:choose>
-             <xsl:when test="$standort='Erdgeschoss'">L4EG</xsl:when>
-             <xsl:when test="$standort='1. Obergeschoss'">L41OG</xsl:when>
-             <xsl:when test="$standort='2. Obergeschoss'">L42OG</xsl:when>
-             <xsl:when test="$standort='3. Obergeschoss'">L43OG</xsl:when>
-             <!-- Sonderbereich? -->   
-             <xsl:otherwise>UNDEF</xsl:otherwise>
+             <xsl:when test="$signatur='002'">ILN204/CG/ZNL/Freihand</xsl:when>
+             <xsl:when test="$signatur='140'">ILN204/CG/ZNL/Mag</xsl:when>
+             <!-- TBD -->
+             <xsl:otherwise>ILN204/CG/ZNL/Freihand</xsl:otherwise>
            </xsl:choose>
          </xsl:when>
-         <xsl:when test="$abt='005'">INST005</xsl:when>
-         <xsl:when test="$abt='024'">INST024</xsl:when>
-         <!-- weitere ergaenzen, wenn OUS-Strukturen klarer -->
-         <xsl:otherwise>UNDEF</xsl:otherwise>
+         <xsl:when test="$abt='005'">
+           <xsl:choose>
+             <xsl:when test="$signatur='005'">ILN204/CG/ZHB/Freihand</xsl:when>
+             <xsl:when test="$signatur='205'">ILN204/CG/ZHB/Mag</xsl:when>
+             <!-- TBD -->
+             <xsl:otherwise>ILN204/CG/ZHB/Freihand</xsl:otherwise>
+           </xsl:choose>
+         </xsl:when>
+         <xsl:when test="$abt='009'">ILN204/CG/ZP2/Freihand</xsl:when>
+         <xsl:when test="$abt='010'">ILN204/CG/ZRW/Freihand</xsl:when>
+         <xsl:when test="$abt='020'">ILN204/CG/ZRW/Freihand</xsl:when>
+         
+         <xsl:otherwise>ILN204/CD/DezFB/Fachbibliotheken</xsl:otherwise><!-- Dezentrale FB als Catchall???  -->
        </xsl:choose>
       </permanentLocationId>
   </xsl:template>
