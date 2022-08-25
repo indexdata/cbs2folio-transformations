@@ -177,7 +177,9 @@
                <xsl:apply-templates select="../.." mode="make-item">
                  <xsl:with-param name="hhrid" select="concat($epn,'-',$copy)"/>
                  <xsl:with-param name="bcode" select="substring-before(concat(.,' '),' ')"/>
-                 <xsl:with-param name="copy" select="$copy"/>
+                 <xsl:with-param name="copy">
+                   <xsl:if test="last()>1"><xsl:value-of select="$copy"/></xsl:if>
+                 </xsl:with-param>
                </xsl:apply-templates>
              </xsl:for-each>
              <xsl:if test="not(datafield[(@tag='209G') and (subfield[@code='x']='00')]/subfield[@code='a'])">

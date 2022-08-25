@@ -182,7 +182,7 @@
                         </status>
                         <itemLevelCallNumber>G 7725</itemLevelCallNumber>
                         <barcode>41648880</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -552,7 +552,7 @@
                         </status>
                         <itemLevelCallNumber>AT A VII 18 c</itemLevelCallNumber>
                         <barcode>62105582</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -1336,7 +1336,7 @@
                         </status>
                         <itemLevelCallNumber>PHILOS C 370-4</itemLevelCallNumber>
                         <barcode>36905380</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <accessionNumber>02/4910</accessionNumber>
@@ -1378,7 +1378,7 @@
                         </status>
                         <itemLevelCallNumber>L 01 Ästh.Grund 1-4</itemLevelCallNumber>
                         <barcode>16484548</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <accessionNumber/>
@@ -1420,7 +1420,7 @@
                         </status>
                         <itemLevelCallNumber>Zo 4-4</itemLevelCallNumber>
                         <barcode>61180826</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <accessionNumber>371 GK</accessionNumber>
@@ -1467,7 +1467,7 @@
                         </status>
                         <itemLevelCallNumber>PHIL 50/5</itemLevelCallNumber>
                         <barcode>90622338</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -1524,7 +1524,7 @@
                         </status>
                         <itemLevelCallNumber>05 L - A 12</itemLevelCallNumber>
                         <barcode>72889389</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <accessionNumber>2002/857</accessionNumber>
@@ -1566,7 +1566,7 @@
                         </status>
                         <itemLevelCallNumber>05 L - A 12 / 2. Ex. / Zimmer Breuer</itemLevelCallNumber>
                         <barcode>76504361</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <accessionNumber>09/1328 Germanistik</accessionNumber>
@@ -1608,7 +1608,7 @@
                         </status>
                         <itemLevelCallNumber>12.0 - 1/1.4</itemLevelCallNumber>
                         <barcode>72164164</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <accessionNumber>02/375</accessionNumber>
@@ -1650,7 +1650,7 @@
                         </status>
                         <itemLevelCallNumber>A c.12/1-4</itemLevelCallNumber>
                         <barcode>14600258</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <accessionNumber>58026</accessionNumber>
@@ -1692,7 +1692,7 @@
                         </status>
                         <itemLevelCallNumber>CC 6800 BAR/ 1-4</itemLevelCallNumber>
                         <barcode>71995035</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <accessionNumber>ZP02 10/134-1</accessionNumber>
@@ -3028,7 +3028,7 @@
                         </status>
                         <itemLevelCallNumber>KIND 125</itemLevelCallNumber>
                         <barcode>39755624</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -3306,7 +3306,7 @@
                         </status>
                         <itemLevelCallNumber>HIS-NL 01.20 Rooij 1</itemLevelCallNumber>
                         <barcode>90435538</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -3579,7 +3579,7 @@
                         </status>
                         <itemLevelCallNumber>20000000</itemLevelCallNumber>
                         <barcode>90861096</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -4158,7 +4158,7 @@
                         </status>
                         <itemLevelCallNumber>20036909</itemLevelCallNumber>
                         <barcode>91832580</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -4877,7 +4877,7 @@
                         </status>
                         <itemLevelCallNumber>PHILOS C 370-7</itemLevelCallNumber>
                         <barcode>38508795</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <accessionNumber>05/6013</accessionNumber>
@@ -4919,7 +4919,7 @@
                         </status>
                         <itemLevelCallNumber>L 01 Ästh.Grund 1-7</itemLevelCallNumber>
                         <barcode>16484573</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <accessionNumber>FWG 2006/12</accessionNumber>
@@ -4966,7 +4966,7 @@
                         </status>
                         <itemLevelCallNumber>Zo 4-7</itemLevelCallNumber>
                         <barcode>61430338</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <accessionNumber>401 GRK</accessionNumber>
@@ -5009,7 +5009,7 @@
                         </status>
                         <itemLevelCallNumber>PHIL 50/5</itemLevelCallNumber>
                         <barcode>90622363</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -5065,7 +5065,7 @@
                         </status>
                         <itemLevelCallNumber>05 L - A 12</itemLevelCallNumber>
                         <barcode>72889353</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <accessionNumber>2005/889</accessionNumber>
@@ -5107,7 +5107,7 @@
                         </status>
                         <itemLevelCallNumber>05 L - A 12 / 2. Ex. / Zimmer Breuer</itemLevelCallNumber>
                         <barcode>76503800</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <accessionNumber>09/1328 Germanistik</accessionNumber>
@@ -5149,7 +5149,7 @@
                         </status>
                         <itemLevelCallNumber>12.0 - 1/1.7</itemLevelCallNumber>
                         <barcode>72164048</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <accessionNumber>06/36</accessionNumber>
@@ -5191,7 +5191,7 @@
                         </status>
                         <itemLevelCallNumber>A c.12/1-7</itemLevelCallNumber>
                         <barcode>14600325</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <accessionNumber>58596</accessionNumber>
@@ -5233,7 +5233,7 @@
                         </status>
                         <itemLevelCallNumber>CC 6800 BAR/ 1-7</itemLevelCallNumber>
                         <barcode>71995072</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <accessionNumber>ZP02 10/134-1</accessionNumber>
@@ -5727,7 +5727,7 @@
                         </status>
                         <itemLevelCallNumber>VE 5020 BEC1 (7)</itemLevelCallNumber>
                         <barcode>17767408</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -6166,7 +6166,7 @@
                         </status>
                         <itemLevelCallNumber>AU 6073</itemLevelCallNumber>
                         <barcode>35105130</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -6775,7 +6775,7 @@
                         </status>
                         <itemLevelCallNumber>W 60</itemLevelCallNumber>
                         <barcode>77057486</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -7350,7 +7350,7 @@
                         </status>
                         <itemLevelCallNumber>D III c 48</itemLevelCallNumber>
                         <barcode>60536138</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -7406,7 +7406,7 @@
                         </status>
                         <itemLevelCallNumber>Qf 6a-36</itemLevelCallNumber>
                         <barcode>60536140</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <accessionNumber/>
@@ -7725,7 +7725,7 @@
                         </status>
                         <itemLevelCallNumber>Lex-T-osm-290</itemLevelCallNumber>
                         <barcode>13342760</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -10450,7 +10450,7 @@
                         </status>
                         <itemLevelCallNumber>296.240</itemLevelCallNumber>
                         <barcode>18584626</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -11156,7 +11156,7 @@
                         </status>
                         <itemLevelCallNumber>PHILOS C 370-6</itemLevelCallNumber>
                         <barcode>38005888</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <accessionNumber>05/1431</accessionNumber>
@@ -11198,7 +11198,7 @@
                         </status>
                         <itemLevelCallNumber>L 01 Ästh.Grund 1-6</itemLevelCallNumber>
                         <barcode>16484561</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <accessionNumber>2005/169</accessionNumber>
@@ -11240,7 +11240,7 @@
                         </status>
                         <itemLevelCallNumber>Zo 4-6</itemLevelCallNumber>
                         <barcode>61332377</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <accessionNumber>395 GK</accessionNumber>
@@ -11282,7 +11282,7 @@
                         </status>
                         <itemLevelCallNumber>PHIL 50/5</itemLevelCallNumber>
                         <barcode>90622351</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -11338,7 +11338,7 @@
                         </status>
                         <itemLevelCallNumber>05 L - A 12</itemLevelCallNumber>
                         <barcode>72889377</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <accessionNumber>2005/284</accessionNumber>
@@ -11380,7 +11380,7 @@
                         </status>
                         <itemLevelCallNumber>05 L - A 12 / 2. Ex. / Zimmer Breuer</itemLevelCallNumber>
                         <barcode>76504440</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <accessionNumber>09/1328 Germanistik</accessionNumber>
@@ -11422,7 +11422,7 @@
                         </status>
                         <itemLevelCallNumber>12.0 - 1/1.6</itemLevelCallNumber>
                         <barcode>72164085</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <accessionNumber>05/88</accessionNumber>
@@ -11464,7 +11464,7 @@
                         </status>
                         <itemLevelCallNumber>A c.12/1-6</itemLevelCallNumber>
                         <barcode>14600283</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <accessionNumber>58196</accessionNumber>
@@ -11506,7 +11506,7 @@
                         </status>
                         <itemLevelCallNumber>CC 6800 BAR/ 1-6</itemLevelCallNumber>
                         <barcode>71995114</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <accessionNumber>ZP02 10/134-1</accessionNumber>
@@ -11950,7 +11950,7 @@
                         </status>
                         <itemLevelCallNumber>BA IV 24,2</itemLevelCallNumber>
                         <barcode>60664104</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -12006,7 +12006,7 @@
                         </status>
                         <itemLevelCallNumber>THEMAG Bb 300-24,2</itemLevelCallNumber>
                         <barcode>60664116</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -13582,7 +13582,7 @@
                         </status>
                         <itemLevelCallNumber>F X d 42</itemLevelCallNumber>
                         <barcode>61355559</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -13638,7 +13638,7 @@
                         </status>
                         <itemLevelCallNumber>Sc 70</itemLevelCallNumber>
                         <barcode>61355560</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -14056,7 +14056,7 @@
                         </status>
                         <itemLevelCallNumber>LING B 356</itemLevelCallNumber>
                         <barcode>16551630</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -14450,7 +14450,7 @@
                         </status>
                         <itemLevelCallNumber>FL VOLTA 1/15</itemLevelCallNumber>
                         <barcode>77623339</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -15006,7 +15006,7 @@
                         </status>
                         <itemLevelCallNumber>295.572-test</itemLevelCallNumber>
                         <barcode>18585722</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -15715,7 +15715,7 @@
                         </status>
                         <itemLevelCallNumber>PHILOS C 370-3</itemLevelCallNumber>
                         <barcode>36415144</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <accessionNumber>01/4470</accessionNumber>
@@ -15757,7 +15757,7 @@
                         </status>
                         <itemLevelCallNumber>L 01 Ästh.Grund 1-3</itemLevelCallNumber>
                         <barcode>16484536</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <accessionNumber>FW 2001/208</accessionNumber>
@@ -15799,7 +15799,7 @@
                         </status>
                         <itemLevelCallNumber>Zo 4-3</itemLevelCallNumber>
                         <barcode>61103900</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <accessionNumber>370 GK</accessionNumber>
@@ -15846,7 +15846,7 @@
                         </status>
                         <itemLevelCallNumber>PHIL 50/5</itemLevelCallNumber>
                         <barcode>90622326</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -15903,7 +15903,7 @@
                         </status>
                         <itemLevelCallNumber>05 L - A 12</itemLevelCallNumber>
                         <barcode>72889390</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <accessionNumber>2001/871 </accessionNumber>
@@ -15945,7 +15945,7 @@
                         </status>
                         <itemLevelCallNumber>05 L - A 12 / 2. Ex. / Zimmer Breuer</itemLevelCallNumber>
                         <barcode>76504324</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <accessionNumber>09/1328 Germanistik</accessionNumber>
@@ -15987,7 +15987,7 @@
                         </status>
                         <itemLevelCallNumber>12.0 - 1/1.3</itemLevelCallNumber>
                         <barcode>72164206</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <accessionNumber>01/552</accessionNumber>
@@ -16029,7 +16029,7 @@
                         </status>
                         <itemLevelCallNumber>A c.12/1-3</itemLevelCallNumber>
                         <barcode>14600295</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <accessionNumber>58026</accessionNumber>
@@ -16071,7 +16071,7 @@
                         </status>
                         <itemLevelCallNumber>CC 6800 BAR/ 1-3</itemLevelCallNumber>
                         <barcode>71994950</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <accessionNumber>ZP02 10/134-1</accessionNumber>
@@ -17201,7 +17201,7 @@
                         <itemLevelCallNumberPrefix>4°</itemLevelCallNumberPrefix>
                         <itemLevelCallNumber>BB 1129</itemLevelCallNumber>
                         <barcode>34414860</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -17656,7 +17656,7 @@
                         </status>
                         <itemLevelCallNumber>LIN-ZH 08:8-4,1</itemLevelCallNumber>
                         <barcode>90256590</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -18520,7 +18520,7 @@
                         </status>
                         <itemLevelCallNumber>SL 894</itemLevelCallNumber>
                         <barcode>34917662</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <accessionNumber>1946 G 1837</accessionNumber>
@@ -18800,7 +18800,7 @@
                         </status>
                         <itemLevelCallNumber>KIND 267</itemLevelCallNumber>
                         <barcode>18644520</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -19154,7 +19154,7 @@
                         </status>
                         <itemLevelCallNumber>KAT IV DRO 1941.12.05</itemLevelCallNumber>
                         <barcode>17641668</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <accessionNumber/>
@@ -20240,7 +20240,7 @@
                         </status>
                         <itemLevelCallNumber>Ab 37-61</itemLevelCallNumber>
                         <barcode>18179677</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -20655,7 +20655,7 @@
                         </status>
                         <itemLevelCallNumber>MED A 2053</itemLevelCallNumber>
                         <barcode>17764456</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -21533,7 +21533,7 @@
                         </status>
                         <itemLevelCallNumber>PHILOS C 370-5</itemLevelCallNumber>
                         <barcode>37653112</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <accessionNumber>04/69</accessionNumber>
@@ -21575,7 +21575,7 @@
                         </status>
                         <itemLevelCallNumber>L 01 Ästh.Grund 1-5</itemLevelCallNumber>
                         <barcode>16484550</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <accessionNumber/>
@@ -21617,7 +21617,7 @@
                         </status>
                         <itemLevelCallNumber>Zo 4-5</itemLevelCallNumber>
                         <barcode>61264487</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <accessionNumber>372 GK</accessionNumber>
@@ -21659,7 +21659,7 @@
                         </status>
                         <itemLevelCallNumber>PHIL 50/5</itemLevelCallNumber>
                         <barcode>90622340</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -21715,7 +21715,7 @@
                         </status>
                         <itemLevelCallNumber>05 L - A 12</itemLevelCallNumber>
                         <barcode>72889365</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <accessionNumber>2004/13</accessionNumber>
@@ -21757,7 +21757,7 @@
                         </status>
                         <itemLevelCallNumber>05 L - A 12 / 2. Ex. / Zimmer Breuer</itemLevelCallNumber>
                         <barcode>76504403</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <accessionNumber>09/1328 Germanistik</accessionNumber>
@@ -21799,7 +21799,7 @@
                         </status>
                         <itemLevelCallNumber>12.0 - 1/1.5</itemLevelCallNumber>
                         <barcode>72164127</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <accessionNumber>04/9</accessionNumber>
@@ -21841,7 +21841,7 @@
                         </status>
                         <itemLevelCallNumber>A c.12/1-5</itemLevelCallNumber>
                         <barcode>14600246</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <accessionNumber>58026</accessionNumber>
@@ -21883,7 +21883,7 @@
                         </status>
                         <itemLevelCallNumber>CC 6800 BAR/ 1-5</itemLevelCallNumber>
                         <barcode>71995151</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <accessionNumber>ZP02 10/134-1</accessionNumber>
@@ -22784,7 +22784,7 @@
                         </status>
                         <itemLevelCallNumber>Sc 4779</itemLevelCallNumber>
                         <barcode>62155718</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -23164,7 +23164,7 @@
                         </status>
                         <itemLevelCallNumber>29/ AK BIOPHARM./PHARMAZ. TECHN. VX 5100 WUR1 (18)</itemLevelCallNumber>
                         <barcode>11571197</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -23225,7 +23225,7 @@
                         </status>
                         <itemLevelCallNumber>VX 5100 WUR1 (18) +2</itemLevelCallNumber>
                         <barcode>11571082</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -23858,7 +23858,7 @@
                         </status>
                         <itemLevelCallNumber>MED V 133/01</itemLevelCallNumber>
                         <barcode>39468465</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -24744,7 +24744,7 @@
                         </status>
                         <itemLevelCallNumber>ZMK A 305,4.Aufl.</itemLevelCallNumber>
                         <barcode>17385640</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <accessionNumber/>
@@ -24786,7 +24786,7 @@
                         </status>
                         <itemLevelCallNumber>ZMK A 305,4.Aufl.</itemLevelCallNumber>
                         <barcode>17385639</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <accessionNumber/>
@@ -25128,7 +25128,7 @@
                         </status>
                         <itemLevelCallNumber>KUL-ZH 07:15</itemLevelCallNumber>
                         <barcode>91832372</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -26148,7 +26148,7 @@
                         </status>
                         <itemLevelCallNumber>PHILOS C 370-2</itemLevelCallNumber>
                         <barcode>36142164</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <accessionNumber>01/980</accessionNumber>
@@ -26190,7 +26190,7 @@
                         </status>
                         <itemLevelCallNumber>L 01 Ästh.Grund 1-2</itemLevelCallNumber>
                         <barcode>16484524</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <accessionNumber>FW 2001/209</accessionNumber>
@@ -26232,7 +26232,7 @@
                         </status>
                         <itemLevelCallNumber>Zo 4-2</itemLevelCallNumber>
                         <barcode>61054262</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <accessionNumber>369 GK</accessionNumber>
@@ -26279,7 +26279,7 @@
                         </status>
                         <itemLevelCallNumber>PHIL 50/5</itemLevelCallNumber>
                         <barcode>90622314</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -26378,7 +26378,7 @@
                         </status>
                         <itemLevelCallNumber>05 L - A 12 / 2. Ex. / Zimmer Breuer</itemLevelCallNumber>
                         <barcode>76504282</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <accessionNumber>09/1328 Germanistik</accessionNumber>
@@ -26420,7 +26420,7 @@
                         </status>
                         <itemLevelCallNumber>12.0 - 1/1.2</itemLevelCallNumber>
                         <barcode>72164243</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <accessionNumber>01/122</accessionNumber>
@@ -26462,7 +26462,7 @@
                         </status>
                         <itemLevelCallNumber>A c.12/1-2</itemLevelCallNumber>
                         <barcode>14600337</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <accessionNumber>58026</accessionNumber>
@@ -26504,7 +26504,7 @@
                         </status>
                         <itemLevelCallNumber>CC 6800 BAR/ 1-2</itemLevelCallNumber>
                         <barcode>71995199</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <accessionNumber>ZP02 10/134-1</accessionNumber>
@@ -30476,7 +30476,7 @@
                         </status>
                         <itemLevelCallNumber>GRUND 245</itemLevelCallNumber>
                         <barcode>12254595</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <notes>
@@ -30537,7 +30537,7 @@
                         </status>
                         <itemLevelCallNumber>MED B 132/02</itemLevelCallNumber>
                         <barcode>15888517</barcode>
-                        <copyNumber>1</copyNumber>
+                        <copyNumber/>
                         <volume/>
                         <chronology/>
                         <notes>
