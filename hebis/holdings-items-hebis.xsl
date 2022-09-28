@@ -186,7 +186,6 @@
                <xsl:message>Debug: EPN <xsl:value-of select="$epn"/></xsl:message>             
                <xsl:apply-templates select="." mode="make-item">
                  <xsl:with-param name="hhrid" select="concat($epn,'-1')"/>
-                 <xsl:with-param name="copy" select="1"/>
                </xsl:apply-templates>
              </xsl:if>
            </arr>
