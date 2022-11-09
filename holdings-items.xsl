@@ -117,8 +117,8 @@
   </xsl:template>
   <xsl:template match="item" mode="make-item">
     <xsl:param name="hhrid"/>
-    <xsl:param name="bcode"/>
-    <xsl:param name="copy"/>
+    <xsl:param name="bcode" select="datafield[@tag='209G']/subfield[@code='a']"/>
+    <xsl:param name="copy" select="datafield[@tag='209G']/subfield[@code='c']"/>
     <i>
       <hrid>
         <xsl:value-of select="$hhrid"/>
