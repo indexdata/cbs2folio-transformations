@@ -166,7 +166,7 @@
                <xsl:variable name="copy">
                  <xsl:choose>
                    <xsl:when test="contains(.,'(')">
-                     <xsl:value-of select="translate(substring-before(substring-after(.,'('),')'),' ','')"/>
+                     <xsl:value-of select="translate(substring-before(substring-after(.,'('),')'),' .,','')"/>
                    </xsl:when>
                    <xsl:otherwise>
                      <xsl:value-of select="position()"/>
