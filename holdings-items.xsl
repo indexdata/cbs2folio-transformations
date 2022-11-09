@@ -85,32 +85,22 @@
 	  <sourceId>K10plus</sourceId>
       <items>
         <arr>
-          <xsl:for-each select="datafield[@tag='209G']/subfield[@code='a']">
-            <xsl:message>Debug: <xsl:value-of select="."/></xsl:message>
-            <xsl:variable name="copy">
-              <xsl:choose>
-                <xsl:when test="./following-sibling::subfield[@code='c'][1]">
-                  <xsl:value-of select="translate(./following-sibling::subfield[@code='c'][1],' ','')"/>
-                </xsl:when>
-                <xsl:otherwise>
-                  <xsl:value-of select="position()"/>
-                </xsl:otherwise>
-              </xsl:choose>
-            </xsl:variable>
-            <xsl:message>Debug: <xsl:value-of select="concat($hhrid,'-',$copy)"/></xsl:message>             
-            <xsl:apply-templates select="../.." mode="make-item">
-              <xsl:with-param name="hhrid" select="concat($hhrid,'-',$copy)"/>
-              <xsl:with-param name="bcode" select="substring-before(concat(.,' '),' ')"/>
-              <xsl:with-param name="copy" select="$copy"/>
-            </xsl:apply-templates>
-          </xsl:for-each>
-          <xsl:if test="not(datafield[@tag='209G']/subfield[@code='a'])">
-            <xsl:message>Debug: EPN <xsl:value-of select="$hhrid"/></xsl:message>             
-            <xsl:apply-templates select="." mode="make-item">
-              <xsl:with-param name="hhrid" select="concat($hhrid,'-1')"/>
-              <xsl:with-param name="copy" select="1"/>
-            </xsl:apply-templates>
-          </xsl:if>
+          <xsl:choose>
+            <xsl:when test="datafield[@tag='209G']/subfield[@code='a'][2]">
+              <xsl:for-each select="datafield[@tag='209G']/subfield[@code='a']">
+                <xsl:apply-templates select="../.." mode="make-item">
+                  <xsl:with-param name="hhrid" select="concat($hhrid, '-', .)"/>
+                  <xsl:with-param name="bcode" select="."/>
+                  <xsl:with-param name="copy" select="./following-sibling::subfield[@code='c'][1]"/>
+                </xsl:apply-templates>
+              </xsl:for-each>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:apply-templates select="." mode="make-item">
+                <xsl:with-param name="hhrid" select="$hhrid"/>
+              </xsl:apply-templates>
+            </xsl:otherwise>
+          </xsl:choose>
         </arr>
       </items>
     </i>
