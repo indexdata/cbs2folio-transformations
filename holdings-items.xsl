@@ -85,9 +85,9 @@
 	  <sourceId>K10plus</sourceId>
 	  <discoverySuppress>
         <xsl:choose>
+          <xsl:when test="substring(datafield[@tag='208@']/subfield[@code='b'],1,1)='c'">true</xsl:when>
           <xsl:when test="substring(datafield[@tag='208@']/subfield[@code='b'],1,1)='d'">true</xsl:when>
-          <xsl:when test="substring(datafield[@tag='208@']/subfield[@code='b'],1,1)='i'">true</xsl:when>
-          <xsl:when test="datafield[@tag='208@']/subfield[@code='b']='i'">true</xsl:when>
+          <xsl:when test="substring(datafield[@tag='208@']/subfield[@code='b'],1,1)='e'">true</xsl:when>
           <xsl:otherwise>false</xsl:otherwise>
         </xsl:choose>
       </discoverySuppress>
@@ -354,8 +354,9 @@
       </accessionNumber>
       <discoverySuppress>
         <xsl:choose>
+          <xsl:when test="substring(datafield[@tag='208@']/subfield[@code='b'],1,1)='c'">true</xsl:when>
           <xsl:when test="substring(datafield[@tag='208@']/subfield[@code='b'],1,1)='d'">true</xsl:when>
-          <xsl:when test="substring(datafield[@tag='208@']/subfield[@code='b'],1,1)='i'">true</xsl:when>
+          <xsl:when test="substring(datafield[@tag='208@']/subfield[@code='b'],1,1)='e'">true</xsl:when>
           <xsl:otherwise>false</xsl:otherwise>
         </xsl:choose>
       </discoverySuppress>
