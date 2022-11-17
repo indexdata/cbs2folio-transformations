@@ -83,6 +83,14 @@
 	    </xsl:if>
       </holdingsStatements>
 	  <sourceId>K10plus</sourceId>
+	  <discoverySuppress>
+        <xsl:choose>
+          <xsl:when test="substring(datafield[@tag='208@']/subfield[@code='b'],1,1)='d'">true</xsl:when>
+          <xsl:when test="substring(datafield[@tag='208@']/subfield[@code='b'],1,1)='i'">true</xsl:when>
+          <xsl:when test="datafield[@tag='208@']/subfield[@code='b']='i'">true</xsl:when>
+          <xsl:otherwise>false</xsl:otherwise>
+        </xsl:choose>
+      </discoverySuppress>
       <items>
         <arr>
           <xsl:choose>
@@ -346,8 +354,8 @@
       </accessionNumber>
       <discoverySuppress>
         <xsl:choose>
-          <xsl:when test="datafield[@tag='208@']/subfield[@code='b']='d'">true</xsl:when>
-          <xsl:when test="datafield[@tag='208@']/subfield[@code='b']='i'">true</xsl:when>
+          <xsl:when test="substring(datafield[@tag='208@']/subfield[@code='b'],1,1)='d'">true</xsl:when>
+          <xsl:when test="substring(datafield[@tag='208@']/subfield[@code='b'],1,1)='i'">true</xsl:when>
           <xsl:otherwise>false</xsl:otherwise>
         </xsl:choose>
       </discoverySuppress>
