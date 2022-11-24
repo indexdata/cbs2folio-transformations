@@ -199,9 +199,6 @@
           </xsl:choose>
         </name>
       </status>
-      <itemLevelCallNumber>
-        <xsl:value-of select="datafield[@tag='209A']/subfield[@code='a']"/>
-      </itemLevelCallNumber>
       <barcode>
         <xsl:value-of select="$bcode"/>
       </barcode>
