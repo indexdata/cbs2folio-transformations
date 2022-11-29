@@ -1490,7 +1490,7 @@
       </xsl:if>
 	  <!-- hebis: added series statement for parts of multipart resources with independent title -->
       <xsl:choose>
-        <xsl:when test="boolean(substring(datafield[@tag='002@']/subfield[@code='0'], 2, 1) = 'f') and datafield[@tag='036C']">
+        <xsl:when test="boolean(substring(datafield[@tag='002@']/subfield[@code='0'], 2, 1) != 'f') and datafield[@tag='036C']">
           <arr>
             <i>
               <xsl:value-of select="normalize-space(substring-after($title-036C, '. '))"/>
