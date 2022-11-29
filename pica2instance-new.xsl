@@ -1488,6 +1488,16 @@
           </xsl:for-each>
         </arr>
       </xsl:if>
+	  <!-- hebis: added series statement for parts of multipart resources with independent title -->
+      <xsl:choose>
+        <xsl:when test="boolean(substring(datafield[@tag='002@']/subfield[@code='0'], 2, 1) = 'f') and datafield[@tag='036C']">
+          <arr>
+            <i>
+              <xsl:value-of select="normalize-space(substring-after($title-036C, '. '))"/>
+            </i>
+          </arr>
+        </xsl:when>
+      </xsl:choose>
       </series>
     <!-- physicalDescriptions -->
     <xsl:if test="datafield[@tag='034D' or @tag='034M' or @tag='034I' or @tag='034K']">
