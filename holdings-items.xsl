@@ -182,8 +182,12 @@
         </xsl:choose>
       </permanentLoanTypeId>
       <status>
+		<xsl:variable name="frequency" select="substring(../datafield[@tag='002@']/subfield[@code='0'],2,1)"/>
         <name>
           <xsl:choose>
+			<xsl:when test="$frequency='b'">Intellectual item</xsl:when>
+			<xsl:when test="$frequency='c'">Intellectual item</xsl:when>
+			<xsl:when test="$frequency='d'">Intellectual item</xsl:when>
             <xsl:when test="datafield[@tag='209A']/subfield[@code='d']='a'">On order</xsl:when>
 			<xsl:when test="datafield[@tag='209A']/subfield[@code='d']='u'">Available</xsl:when>
 			<xsl:when test="datafield[@tag='209A']/subfield[@code='d']='b'">Available</xsl:when>
