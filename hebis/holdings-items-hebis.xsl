@@ -97,6 +97,19 @@
       
       <notes>
         <arr>
+          <xsl:for-each select="datafield[@tag='220B' or @tag='220C' or @tag='220E' or @tag='237A']">
+            <xsl:if test="./subfield[@code='a'] or ./subfield[@code='0']">
+              <i>
+                <note>
+                  <xsl:value-of select="./subfield[@code='a'] | ./subfield[@code='0']"/>
+                </note>
+                <holdingsNoteTypeId>Note</holdingsNoteTypeId>
+                <staffOnly>
+                  <xsl:value-of select="./@tag!='237A'"/>
+                </staffOnly>
+              </i>
+            </xsl:if>
+          </xsl:for-each>
           <xsl:if test="datafield[@tag='247D']">
             <i>
               <note>
@@ -317,23 +330,10 @@
           <xsl:if test="position()=last() and ./@code='j' and ../subfield[@code='6']">-</xsl:if>
         </xsl:for-each>
       </chronology>
-      <xsl:if test="datafield[@tag='220B' or @tag='220C' or @tag='220E' or @tag='237A' or @tag='247D']">
+      <xsl:if test="datafield[@tag='209G']">
         <notes>
           <arr>
-            <xsl:for-each select="datafield[@tag='220B' or @tag='220C' or @tag='220E' or @tag='237A']">
-              <xsl:if test="./subfield[@code='a'] or ./subfield[@code='0']">
-                <i>
-                  <note>
-                    <xsl:value-of select="./subfield[@code='a'] | ./subfield[@code='0']"/>
-                  </note>
-                  <itemNoteTypeId>Note</itemNoteTypeId>
-                  <staffOnly>
-                    <xsl:value-of select="./@tag!='237A'"/>
-                  </staffOnly>
-                </i>
-              </xsl:if>
-            </xsl:for-each>
-            <xsl:for-each select="datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']">
+            <xsl:for-each select="datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']"> <!-- move to holdings + local adaptions -->
                 <i>
                   <note>
                     <xsl:value-of select="."/>
