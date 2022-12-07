@@ -134,9 +134,7 @@
             </arr>
          </languages>
          <series>
-            <arr>
-               <i/>
-            </arr>
+            <arr/>
          </series>
          <physicalDescriptions>
             <arr>
@@ -494,9 +492,7 @@
             </arr>
          </languages>
          <series>
-            <arr>
-               <i/>
-            </arr>
+            <arr/>
          </series>
          <physicalDescriptions>
             <arr>
@@ -1272,9 +1268,7 @@
             </arr>
          </languages>
          <series>
-            <arr>
-               <i/>
-            </arr>
+            <arr/>
          </series>
          <physicalDescriptions>
             <arr>
@@ -1954,9 +1948,7 @@
             </arr>
          </languages>
          <series>
-            <arr>
-               <i/>
-            </arr>
+            <arr/>
          </series>
          <physicalDescriptions>
             <arr>
@@ -2392,9 +2384,7 @@
             </arr>
          </languages>
          <series>
-            <arr>
-               <i/>
-            </arr>
+            <arr/>
          </series>
       </instance>
       <instanceRelations/>
@@ -2697,9 +2687,6 @@
             <arr>
                <i>Utb ; 5556</i>
             </arr>
-            <arr>
-               <i/>
-            </arr>
          </series>
          <physicalDescriptions>
             <arr>
@@ -2975,9 +2962,7 @@
             </arr>
          </languages>
          <series>
-            <arr>
-               <i/>
-            </arr>
+            <arr/>
          </series>
          <physicalDescriptions>
             <arr>
@@ -3258,9 +3243,7 @@
             </arr>
          </languages>
          <series>
-            <arr>
-               <i/>
-            </arr>
+            <arr/>
          </series>
          <physicalDescriptions>
             <arr>
@@ -3531,9 +3514,6 @@
             <arr>
                <i>Autores portugueses dos séculos XIX e XX</i>
             </arr>
-            <arr>
-               <i/>
-            </arr>
          </series>
          <physicalDescriptions>
             <arr>
@@ -3785,9 +3765,7 @@
             </arr>
          </languages>
          <series>
-            <arr>
-               <i/>
-            </arr>
+            <arr/>
          </series>
          <physicalDescriptions>
             <arr>
@@ -4109,9 +4087,6 @@
          <series>
             <arr>
                <i>Cambridge companions : Literature</i>
-            </arr>
-            <arr>
-               <i/>
             </arr>
          </series>
          <physicalDescriptions>
@@ -4813,9 +4788,7 @@
             </arr>
          </languages>
          <series>
-            <arr>
-               <i/>
-            </arr>
+            <arr/>
          </series>
          <physicalDescriptions>
             <arr>
@@ -5662,9 +5635,6 @@
                <i>Studienbücher Chemie</i>
                <i>Lehrbuch</i>
             </arr>
-            <arr>
-               <i/>
-            </arr>
          </series>
          <physicalDescriptions>
             <arr>
@@ -6118,9 +6088,7 @@
             </arr>
          </languages>
          <series>
-            <arr>
-               <i/>
-            </arr>
+            <arr/>
          </series>
          <physicalDescriptions>
             <arr>
@@ -6424,9 +6392,6 @@
             <arr>
                <i>Werke / Hildegard von Bingen. Hrsg. von der Abtei St. Hildegard, Eibingen ; 2</i>
             </arr>
-            <arr>
-               <i/>
-            </arr>
          </series>
          <physicalDescriptions>
             <arr>
@@ -6711,9 +6676,6 @@
             <arr>
                <i>Die Fundmünzen der römischen Zeit in Deutschland / Kommission für Geschichte des Altertums der Akademie der Wissenschaften und der Literatur, Mainz ... Begr. von Hans Gebhart ... Hrsg. von Maria R.-Alföldi. Abt. 5, Hessen ; Bd. 3</i>
             </arr>
-            <arr>
-               <i/>
-            </arr>
          </series>
          <physicalDescriptions>
             <arr>
@@ -6756,6 +6718,11 @@
                <notes>
                   <arr>
                      <i>
+                        <note>Tagesausleihe erst nach Rücksprache möglich</note>
+                        <holdingsNoteTypeId>Text zur Ausleihbarkeit</holdingsNoteTypeId>
+                        <staffOnly>false</staffOnly>
+                     </i>
+                     <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
@@ -6784,11 +6751,6 @@
                                  <note>Standort: Raum Numismatik (U1-914). Bestellung über Institut Alte Geschichte</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
                                  <staffOnly>true</staffOnly>
-                              </i>
-                              <i>
-                                 <note>Tagesausleihe erst nach Rücksprache möglich</note>
-                                 <itemNoteTypeId>Text zur Ausleihbarkeit</itemNoteTypeId>
-                                 <staffOnly>false</staffOnly>
                               </i>
                               <i>
                                  <note>Alte Geschichte / Separiert</note>
@@ -7029,9 +6991,7 @@
             </arr>
          </languages>
          <series>
-            <arr>
-               <i/>
-            </arr>
+            <arr/>
          </series>
          <physicalDescriptions>
             <arr>
@@ -7301,9 +7261,6 @@
          <series>
             <arr>
                <i>Beiheft zur Ökumenischen Rundschau ; 36</i>
-            </arr>
-            <arr>
-               <i/>
             </arr>
          </series>
          <physicalDescriptions>
@@ -7671,9 +7628,6 @@
             <arr>
                <i>Türk Dil Kurumu yayınları ; 802</i>
                <i>Türkiye Türkçesi sözlükleri projesi 1, Eski sözlükler dizisi ; 4</i>
-            </arr>
-            <arr>
-               <i/>
             </arr>
          </series>
          <physicalDescriptions>
@@ -8126,9 +8080,7 @@
             </arr>
          </languages>
          <series>
-            <arr>
-               <i/>
-            </arr>
+            <arr/>
          </series>
          <physicalDescriptions>
             <arr>
@@ -8866,9 +8818,6 @@
             <arr>
                <i>Rurale Topografien ; 12</i>
             </arr>
-            <arr>
-               <i/>
-            </arr>
          </series>
          <physicalDescriptions>
             <arr>
@@ -9200,9 +9149,7 @@
             </arr>
          </languages>
          <series>
-            <arr>
-               <i/>
-            </arr>
+            <arr/>
          </series>
          <physicalDescriptions>
             <arr>
@@ -9530,9 +9477,6 @@
          <series>
             <arr>
                <i>Beck-online</i>
-            </arr>
-            <arr>
-               <i/>
             </arr>
          </series>
          <physicalDescriptions>
@@ -9928,9 +9872,7 @@
             </arr>
          </natureOfContentTermIds>
          <series>
-            <arr>
-               <i/>
-            </arr>
+            <arr/>
          </series>
       </instance>
       <instanceRelations/>
@@ -10401,9 +10343,6 @@
          <series>
             <arr>
                <i>Kleine bayerische Biografien</i>
-            </arr>
-            <arr>
-               <i/>
             </arr>
          </series>
          <physicalDescriptions>
@@ -11092,9 +11031,7 @@
             </arr>
          </languages>
          <series>
-            <arr>
-               <i/>
-            </arr>
+            <arr/>
          </series>
          <physicalDescriptions>
             <arr>
@@ -11825,9 +11762,6 @@
             <arr>
                <i>Analecta biblica ; 24, 2</i>
             </arr>
-            <arr>
-               <i/>
-            </arr>
          </series>
          <physicalDescriptions>
             <arr>
@@ -12354,9 +12288,6 @@
             <arr>
                <i>Grundrisse des Rechts</i>
             </arr>
-            <arr>
-               <i/>
-            </arr>
          </series>
          <physicalDescriptions>
             <arr>
@@ -12746,9 +12677,6 @@
             <arr>
                <i>Académie des sciences</i>
             </arr>
-            <arr>
-               <i/>
-            </arr>
          </series>
          <physicalDescriptions>
             <arr>
@@ -13129,9 +13057,6 @@
          <series>
             <arr>
                <i>Klausurenkurs Juristische Übungsbücher</i>
-            </arr>
-            <arr>
-               <i/>
             </arr>
          </series>
          <physicalDescriptions>
@@ -13534,9 +13459,7 @@
             </arr>
          </languages>
          <series>
-            <arr>
-               <i/>
-            </arr>
+            <arr/>
          </series>
          <physicalDescriptions>
             <arr>
@@ -14008,9 +13931,6 @@
             <arr>
                <i>Narr Studienbücher</i>
             </arr>
-            <arr>
-               <i/>
-            </arr>
          </series>
          <physicalDescriptions>
             <arr>
@@ -14402,9 +14322,7 @@
             </arr>
          </languages>
          <series>
-            <arr>
-               <i/>
-            </arr>
+            <arr/>
          </series>
          <physicalDescriptions>
             <arr>
@@ -14704,9 +14622,7 @@
             </arr>
          </languages>
          <series>
-            <arr>
-               <i/>
-            </arr>
+            <arr/>
          </series>
       </instance>
       <instanceRelations>
@@ -14958,9 +14874,7 @@
             </arr>
          </languages>
          <series>
-            <arr>
-               <i/>
-            </arr>
+            <arr/>
          </series>
          <physicalDescriptions>
             <arr>
@@ -15651,9 +15565,7 @@
             </arr>
          </languages>
          <series>
-            <arr>
-               <i/>
-            </arr>
+            <arr/>
          </series>
          <physicalDescriptions>
             <arr>
@@ -16571,9 +16483,6 @@
             <arr>
                <i>De Gruyter Studium</i>
             </arr>
-            <arr>
-               <i/>
-            </arr>
          </series>
          <physicalDescriptions>
             <arr>
@@ -16821,9 +16730,7 @@
             </arr>
          </languages>
          <series>
-            <arr>
-               <i/>
-            </arr>
+            <arr/>
          </series>
       </instance>
       <instanceRelations/>
@@ -17150,9 +17057,6 @@
          <series>
             <arr>
                <i>Umwelt-Materialien ; 62 : Boden</i>
-            </arr>
-            <arr>
-               <i/>
             </arr>
          </series>
          <physicalDescriptions>
@@ -17592,9 +17496,7 @@
             </arr>
          </languages>
          <series>
-            <arr>
-               <i/>
-            </arr>
+            <arr/>
          </series>
          <physicalDescriptions>
             <arr>
@@ -18028,9 +17930,6 @@
             <arr>
                <i>Nomos Lehrbuch</i>
             </arr>
-            <arr>
-               <i/>
-            </arr>
          </series>
          <physicalDescriptions>
             <arr>
@@ -18462,9 +18361,6 @@
             <arr>
                <i>Soldaten, Kameraden! ; 33</i>
             </arr>
-            <arr>
-               <i/>
-            </arr>
          </series>
          <physicalDescriptions>
             <arr>
@@ -18752,9 +18648,7 @@
             </arr>
          </languages>
          <series>
-            <arr>
-               <i/>
-            </arr>
+            <arr/>
          </series>
          <physicalDescriptions>
             <arr>
@@ -19086,9 +18980,7 @@
             </arr>
          </languages>
          <series>
-            <arr>
-               <i/>
-            </arr>
+            <arr/>
          </series>
          <physicalDescriptions>
             <arr>
@@ -19346,7 +19238,7 @@
          <alternativeTitles>
             <arr>
                <i>
-                  <alternativeTitle>质量与市场 / 国家技术标准创新基地(广州) | </alternativeTitle>
+                  <alternativeTitle>质量与市场 / 国家技术标准创新基地(广州)</alternativeTitle>
                   <alternativeTitleTypeId>Other title</alternativeTitleTypeId>
                </i>
                <i>
@@ -19430,9 +19322,7 @@
             </arr>
          </languages>
          <series>
-            <arr>
-               <i/>
-            </arr>
+            <arr/>
          </series>
          <physicalDescriptions>
             <arr>
@@ -19740,9 +19630,7 @@
             </arr>
          </languages>
          <series>
-            <arr>
-               <i/>
-            </arr>
+            <arr/>
          </series>
       </instance>
       <instanceRelations>
@@ -20187,9 +20075,6 @@
             <arr>
                <i>Bibliotheca Islamica ; 61</i>
             </arr>
-            <arr>
-               <i/>
-            </arr>
          </series>
          <physicalDescriptions>
             <arr>
@@ -20589,9 +20474,6 @@
          <series>
             <arr>
                <i>Praxisleitfaden</i>
-            </arr>
-            <arr>
-               <i/>
             </arr>
          </series>
          <physicalDescriptions>
@@ -21469,9 +21351,7 @@
             </arr>
          </languages>
          <series>
-            <arr>
-               <i/>
-            </arr>
+            <arr/>
          </series>
          <physicalDescriptions>
             <arr>
@@ -22163,9 +22043,7 @@
             </arr>
          </languages>
          <series>
-            <arr>
-               <i/>
-            </arr>
+            <arr/>
          </series>
       </instance>
       <instanceRelations/>
@@ -22400,9 +22278,7 @@
             </arr>
          </languages>
          <series>
-            <arr>
-               <i/>
-            </arr>
+            <arr/>
          </series>
       </instance>
       <instanceRelations/>
@@ -22735,9 +22611,6 @@
          <series>
             <arr>
                <i>Greifswalder theologische Forschungen (GTHF) ; Band 30</i>
-            </arr>
-            <arr>
-               <i/>
             </arr>
          </series>
          <physicalDescriptions>
@@ -23111,9 +22984,6 @@
             <arr>
                <i>Lernen für die Praxis, PTA</i>
             </arr>
-            <arr>
-               <i/>
-            </arr>
          </series>
          <physicalDescriptions>
             <arr>
@@ -23145,6 +23015,11 @@
                <notes>
                   <arr>
                      <i>
+                        <note>Genauen Standort in der BB MIN erfragen!</note>
+                        <holdingsNoteTypeId>Text zur Ausleihbarkeit</holdingsNoteTypeId>
+                        <staffOnly>false</staffOnly>
+                     </i>
+                     <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
@@ -23172,11 +23047,6 @@
                               <i>
                                  <note>OUF-Test 21-08-09; 15:36</note>
                                  <itemNoteTypeId>Note</itemNoteTypeId>
-                                 <staffOnly>false</staffOnly>
-                              </i>
-                              <i>
-                                 <note>Genauen Standort in der BB MIN erfragen!</note>
-                                 <itemNoteTypeId>Text zur Ausleihbarkeit</itemNoteTypeId>
                                  <staffOnly>false</staffOnly>
                               </i>
                               <i>
@@ -23799,9 +23669,6 @@
          <series>
             <arr>
                <i>Zahn-Mund-Kiefer-Heilkunde</i>
-            </arr>
-            <arr>
-               <i/>
             </arr>
          </series>
          <physicalDescriptions>
@@ -25075,9 +24942,7 @@
             </arr>
          </languages>
          <series>
-            <arr>
-               <i/>
-            </arr>
+            <arr/>
          </series>
          <physicalDescriptions>
             <arr>
@@ -25394,9 +25259,6 @@
          <series>
             <arr>
                <i>Mémoires de la SMF ; Nouvelle série, numéro 153</i>
-            </arr>
-            <arr>
-               <i/>
             </arr>
          </series>
          <physicalDescriptions>
@@ -26084,9 +25946,7 @@
             </arr>
          </languages>
          <series>
-            <arr>
-               <i/>
-            </arr>
+            <arr/>
          </series>
          <physicalDescriptions>
             <arr>
@@ -27122,9 +26982,7 @@
             </arr>
          </languages>
          <series>
-            <arr>
-               <i/>
-            </arr>
+            <arr/>
          </series>
       </instance>
       <instanceRelations>
@@ -27650,9 +27508,7 @@
             </arr>
          </languages>
          <series>
-            <arr>
-               <i/>
-            </arr>
+            <arr/>
          </series>
          <physicalDescriptions>
             <arr>
@@ -28006,9 +27862,6 @@
             <arr>
                <i>Grundrisse der Erziehungswissenschaft</i>
                <i>Urban-Taschenbücher</i>
-            </arr>
-            <arr>
-               <i/>
             </arr>
          </series>
          <physicalDescriptions>
@@ -28380,9 +28233,7 @@
             </arr>
          </languages>
          <series>
-            <arr>
-               <i/>
-            </arr>
+            <arr/>
          </series>
          <physicalDescriptions>
             <arr>
@@ -29068,9 +28919,6 @@
          <series>
             <arr>
                <i>Prometheus : LernAtlas der Anatomie / Michael Schünke ; Erik Schulte ; Udo Schumacher. Ill. von Markus Voll ...</i>
-            </arr>
-            <arr>
-               <i/>
             </arr>
          </series>
          <physicalDescriptions>

@@ -95,9 +95,17 @@
   	    </xsl:if>
       </holdingsStatements>
       
-      <!-- Lokale Schluessel: moved to holding -->
       <notes>
         <arr>
+          <xsl:if test="datafield[@tag='247D']">
+            <i>
+              <note>
+                <xsl:value-of select="datafield[@tag='247D']/subfield[@code='a']"/>
+              </note>
+              <holdingsNoteTypeId>Text zur Ausleihbarkeit</holdingsNoteTypeId>
+              <staffOnly>false</staffOnly>
+            </i>
+          </xsl:if>
           <xsl:for-each select="datafield[@tag='209B' and not(subfield[@code='x']='01' or subfield[@code='x']='02')]">
             <i>
               <note>
@@ -325,15 +333,6 @@
                 </i>
               </xsl:if>
             </xsl:for-each>
-            <xsl:if test="datafield[@tag='247D']">
-              <i>
-                <note>
-                  <xsl:value-of select="datafield[@tag='247D']/subfield[@code='a']"/>
-                </note>
-                <itemNoteTypeId>Text zur Ausleihbarkeit</itemNoteTypeId>
-                <staffOnly>false</staffOnly>
-              </i>
-            </xsl:if>
             <xsl:for-each select="datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']">
                 <i>
                   <note>
