@@ -110,6 +110,15 @@
               </i>
             </xsl:if>
           </xsl:for-each>
+          <xsl:for-each select="datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']"> <!-- local adaptions -->
+            <i>
+              <note>
+                <xsl:value-of select="."/>
+              </note>
+              <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
+              <staffOnly>false</staffOnly>
+            </i>             
+          </xsl:for-each>
           <xsl:if test="datafield[@tag='247D']">
             <i>
               <note>
@@ -330,21 +339,14 @@
           <xsl:if test="position()=last() and ./@code='j' and ../subfield[@code='6']">-</xsl:if>
         </xsl:for-each>
       </chronology>
-      <xsl:if test="datafield[@tag='209G']">
+
+      <!-- no notes on item level 
         <notes>
           <arr>
-            <xsl:for-each select="datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']"> <!-- move to holdings + local adaptions -->
-                <i>
-                  <note>
-                    <xsl:value-of select="."/>
-                  </note>
-                  <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
-                  <staffOnly>false</staffOnly>
-                </i>             
-            </xsl:for-each>
+
           </arr>
-        </notes>
-      </xsl:if>
+        </notes>  -->
+      
       <!-- No item for electronic access in hebis -->
       <accessionNumber>
         <xsl:for-each select="datafield[@tag='209C']">
