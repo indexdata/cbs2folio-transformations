@@ -18,32 +18,11 @@
   </xsl:template>
 
   <xsl:template match="original">
-    <xsl:if test="item/datafield[@tag='203@']/subfield[@code='0'] | datafield[@tag='109R']">
+    <xsl:if test="item/datafield[@tag='203@']/subfield[@code='0']">
       <holdingsRecords>
         <arr>
           <xsl:apply-templates select="item"/>
-          <!-- Electronic access -->
-          <xsl:if test="datafield[@tag='109R']/subfield[@code='u']">
-            <i>
-              <hrid>
-                <xsl:value-of select="datafield[@tag='003@']/subfield[@code='0']"/>
-              </hrid>
-              <permanentLocationId>Online</permanentLocationId>
-              <!-- hardcoded : where to find in item record? -->
-              <electronicAccess>
-                <arr>
-                  <xsl:for-each select="datafield[@tag='109R']">
-                    <i>
-                      <uri>
-                        <xsl:value-of select="./subfield[@code='u']"/>
-                      </uri>
-                    </i>
-                  </xsl:for-each>
-                </arr>
-              </electronicAccess>
-            </i>
-          </xsl:if>
-        </arr>
+       </arr>
       </holdingsRecords>
     </xsl:if>
   </xsl:template>
