@@ -1274,7 +1274,7 @@
     <!-- Electronic access -->
     <electronicAccess>
       <arr>
-        <xsl:for-each select="datafield[@tag='009P' or @tag='017C' or @tag='017M' or @tag='017R']">
+        <xsl:for-each select="datafield[@tag='009P' or @tag='017C' or @tag='017M' or @tag='017R' or @tag='109R']">
           <xsl:if test="./@tag='009P' and ./subfield[@code='a']">
             <i>
               <uri>
@@ -1332,6 +1332,15 @@
 			  </linkText>
               <relationshipId>f781cb3d-af16-40f6-9d02-c24204ac6fdc</relationshipId>
 			  <!-- Rechteinformation -->
+            </i>
+          </xsl:if>
+		  <xsl:if test="./@tag='109R' and ./subfield[@code='u']">
+            <i>
+              <uri>
+                <xsl:value-of select="./subfield[@code='u']"/>
+              </uri>
+              <relationshipId>1e178616-2b75-4ecf-a8c8-99b85273dcfc</relationshipId>
+			  <!-- EZB-Frontpage (3433) -->
             </i>
           </xsl:if>
         </xsl:for-each>
