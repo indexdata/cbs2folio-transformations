@@ -158,37 +158,26 @@
 
 <!-- Parsing call number for prefix - optional -->
 
-  <xsl:template name="prefix">
-    <xsl:param name="cn"/>
-    <xsl:param name="cnprefixelement"/>
-    <xsl:param name="cnelement"/>
+  <xsl:template match="callNumber">
     <xsl:variable name="cnprefix">
       <xsl:choose>
-        <xsl:when test="contains($cn,'°')">
-          <xsl:value-of select="concat(substring-before($cn,'°'),'°')"/>
+        <xsl:when test="contains(.,'°')">
+          <xsl:value-of select="concat(substring-before(.,'°'),'°')"/>
         </xsl:when>
-        <xsl:when test="contains($cn,'@')">
-          <xsl:value-of select="substring-before($cn,'@')"/> 
+        <xsl:when test="contains(.,'@')">
+          <xsl:value-of select="substring-before(.,'@')"/> 
         </xsl:when>
       </xsl:choose>
     </xsl:variable>
-    <xsl:message>Debug: <xsl:value-of select="$cnelement"/> Prefix "<xsl:value-of select="$cnprefix"/>"</xsl:message>
+    <xsl:message>Debug: <xsl:value-of select="callNumber"/> Prefix "<xsl:value-of select="$cnprefix"/>"</xsl:message>
     <xsl:if test="string-length($cnprefix)>0">
-      <xsl:element name="{$cnprefixelement}">
+      <xsl:element name="callNumberPrefix">
         <xsl:value-of select="normalize-space(translate($cnprefix,'@',''))"/>
       </xsl:element>
     </xsl:if>
-    <xsl:element name="{$cnelement}">
-      <xsl:value-of select="normalize-space(translate(substring-after($cn,$cnprefix),'@',''))"/>
+    <xsl:element name="callNumber">
+      <xsl:value-of select="normalize-space(translate(substring-after(.,$cnprefix),'@',''))"/>
     </xsl:element>
   </xsl:template>
 
-  <xsl:template match="callNumber">
-      <xsl:call-template name="prefix">
-        <xsl:with-param name="cn" select="."/>
-        <xsl:with-param name="cnprefixelement" select="'callNumberPrefix'"/>
-        <xsl:with-param name="cnelement" select="'callNumber'"/>
-      </xsl:call-template>
-  </xsl:template>
-  
 </xsl:stylesheet>
