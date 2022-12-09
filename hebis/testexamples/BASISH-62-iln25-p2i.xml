@@ -58,8 +58,8 @@
                <subfield code="b">rum</subfield>
             </datafield>
             <datafield tag="209A" occurrence="01" fulltag="209A/01">
-               <subfield code="a">G 7725</subfield>
-               <subfield code="f">000</subfield>
+               <subfield code="a">THEMAG G 7725</subfield>
+               <subfield code="f">016</subfield>
                <subfield code="d">i</subfield>
                <subfield code="x">00</subfield>
             </datafield>
@@ -72,7 +72,7 @@
                <subfield code="x">00</subfield>
             </datafield>
             <datafield tag="209G" occurrence="01" fulltag="209G/01">
-               <subfield code="a">MAG</subfield>
+               <subfield code="a">Evangelische Theologie, Magazin</subfield>
                <subfield code="x">01</subfield>
             </datafield>
             <datafield tag="237A" occurrence="01" fulltag="237A/01">
@@ -154,7 +154,8 @@
          <arr>
             <i>
                <hrid>574386653</hrid>
-               <permanentLocationId>ZBMAG</permanentLocationId>
+               <permanentLocationId>THRARA</permanentLocationId>
+               <callNumberPrefix>THEMAG</callNumberPrefix>
                <callNumber>G 7725</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
@@ -166,7 +167,7 @@
                         <staffOnly>false</staffOnly>
                      </i>
                      <i>
-                        <note>MAG</note>
+                        <note>Evangelische Theologie, Magazin</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -7277,7 +7278,7 @@
             </i>
             <i>
                <hrid>376141832</hrid>
-               <permanentLocationId>TH</permanentLocationId>
+               <permanentLocationId>THRARA</permanentLocationId>
                <callNumber>Qf 6a-36</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
@@ -11882,8 +11883,9 @@
             </i>
             <i>
                <hrid>262731266</hrid>
-               <permanentLocationId>TH</permanentLocationId>
-               <callNumber>THEMAG Bb 300-24,2</callNumber>
+               <permanentLocationId>THRARA</permanentLocationId>
+               <callNumberPrefix>THEMAG</callNumberPrefix>
+               <callNumber>Bb 300-24,2</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
                <notes>
@@ -13443,7 +13445,7 @@
             </i>
             <i>
                <hrid>368079074</hrid>
-               <permanentLocationId>TH</permanentLocationId>
+               <permanentLocationId>THRARA</permanentLocationId>
                <callNumber>Sc 70</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>

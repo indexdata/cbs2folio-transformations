@@ -13,7 +13,6 @@
 
   <xsl:template match="permanentLocationId">
     <xsl:variable name="i" select="key('original',.)"/>
-    <!-- UB Mainz 209A$f/209G$a -->
     <xsl:variable name="abt" select="$i/datafield[@tag='209A']/subfield[@code='f']"/>
     <xsl:variable name="standort" select="$i/datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']"/> 
     <xsl:variable name="electronicholding" select="(substring($i/../datafield[@tag='002@']/subfield[@code='0'],1,1) = 'O') and not(substring($i/datafield[@tag='208@']/subfield[@code='b'],1,1) = 'a')"/>
@@ -164,18 +163,16 @@
 <!-- Parsing call number for prefix - optional -->
 
   <xsl:template match="callNumber">
-    <xsl:variable name="location" select="../permanentLocationId"/>
+    <xsl:variable name="i" select="key('original',../permanentLocationId)"/>
+    <xsl:variable name="abt" select="$i/datafield[@tag='209A']/subfield[@code='f']"/>
     <xsl:choose>
-      <xsl:when test="$location='THRARA'">
-        <xsl:message>THRARA</xsl:message>
-        <xsl:if test="starts-with(., 'THEMAG ') or starts-with(., 'THERARA ') ">
-          <callNumberPrefix>
-            <xsl:value-of select="substring-before(.,' ')"/>
-          </callNumberPrefix>
-          <callNumber>
-            <xsl:value-of select="substring-after(.,' ')"/>
-          </callNumber>
-        </xsl:if>
+      <xsl:when test="$abt=('016') and (starts-with(., 'THEMAG ') or starts-with(., 'THERARA '))">
+        <callNumberPrefix>
+          <xsl:value-of select="substring-before(.,' ')"/>
+        </callNumberPrefix>
+        <callNumber>
+          <xsl:value-of select="substring-after(.,' ')"/>
+        </callNumber>
       </xsl:when>
       <xsl:otherwise>
         <xsl:variable name="cnprefix">
