@@ -156,28 +156,48 @@
     </discoverySuppress>
   </xsl:template>
 
+  <!--  <xsl:template match="holdingsNoteTypeId">
+        
+  </xsl:template> -->
+
 <!-- Parsing call number for prefix - optional -->
 
   <xsl:template match="callNumber">
-    <xsl:variable name="cnprefix">
-      <xsl:choose>
-        <xsl:when test="contains(.,'°')">
-          <xsl:value-of select="concat(substring-before(.,'°'),'°')"/>
-        </xsl:when>
-        <xsl:when test="contains(.,'@')">
-          <xsl:value-of select="substring-before(.,'@')"/> 
-        </xsl:when>
-      </xsl:choose>
-    </xsl:variable>
-    <xsl:message>Debug: <xsl:value-of select="callNumber"/> Prefix "<xsl:value-of select="$cnprefix"/>"</xsl:message>
-    <xsl:if test="string-length($cnprefix)>0">
-      <xsl:element name="callNumberPrefix">
-        <xsl:value-of select="normalize-space(translate($cnprefix,'@',''))"/>
-      </xsl:element>
-    </xsl:if>
-    <xsl:element name="callNumber">
-      <xsl:value-of select="normalize-space(translate(substring-after(.,$cnprefix),'@',''))"/>
-    </xsl:element>
-  </xsl:template>
+    <xsl:variable name="location" select="../permanentLocationId"/>
+    <xsl:choose>
+      <xsl:when test="$location='THRARA'">
+        <xsl:message>THRARA</xsl:message>
+        <xsl:if test="starts-with(., 'THEMAG ') or starts-with(., 'THERARA ') ">
+          <callNumberPrefix>
+            <xsl:value-of select="substring-before(.,' ')"/>
+          </callNumberPrefix>
+          <callNumber>
+            <xsl:value-of select="substring-after(.,' ')"/>
+          </callNumber>
+        </xsl:if>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:variable name="cnprefix">
+          <xsl:choose>
+            <xsl:when test="contains(.,'°')">
+              <xsl:value-of select="concat(substring-before(.,'°'),'°')"/>
+            </xsl:when>
+            <xsl:when test="contains(.,'@')">
+              <xsl:value-of select="substring-before(.,'@')"/> 
+            </xsl:when>
+          </xsl:choose>
+        </xsl:variable>
+        <xsl:message>Debug: <xsl:value-of select="callNumber"/> Prefix "<xsl:value-of select="$cnprefix"/>"</xsl:message>
+        <xsl:if test="string-length($cnprefix)>0">
+          <callNumberPrefix>
+            <xsl:value-of select="normalize-space(translate($cnprefix,'@',''))"/>
+          </callNumberPrefix>
+        </xsl:if>
+        <callNumber>
+          <xsl:value-of select="normalize-space(translate(substring-after(.,$cnprefix),'@',''))"/>
+        </callNumber>
+      </xsl:otherwise>
+    </xsl:choose>
+   </xsl:template>
 
 </xsl:stylesheet>
