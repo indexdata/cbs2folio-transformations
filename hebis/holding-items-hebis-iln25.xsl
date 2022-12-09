@@ -191,12 +191,4 @@
       </xsl:call-template>
   </xsl:template>
   
-  <xsl:template match="itemLevelCallNumber">
-    <xsl:call-template name="prefix">
-      <xsl:with-param name="cn" select="."/>
-      <xsl:with-param name="cnprefixelement" select="'itemLevelCallNumberPrefix'"/>
-      <xsl:with-param name="cnelement" select="'itemLevelCallNumber'"/>
-    </xsl:call-template>
-  </xsl:template>
-
 </xsl:stylesheet>
