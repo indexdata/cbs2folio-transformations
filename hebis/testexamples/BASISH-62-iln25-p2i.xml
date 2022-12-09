@@ -58,8 +58,8 @@
                <subfield code="b">rum</subfield>
             </datafield>
             <datafield tag="209A" occurrence="01" fulltag="209A/01">
-               <subfield code="a">THEMAG G 7725</subfield>
-               <subfield code="f">016</subfield>
+               <subfield code="a">G 7725</subfield>
+               <subfield code="f">000</subfield>
                <subfield code="d">i</subfield>
                <subfield code="x">00</subfield>
             </datafield>
@@ -72,7 +72,7 @@
                <subfield code="x">00</subfield>
             </datafield>
             <datafield tag="209G" occurrence="01" fulltag="209G/01">
-               <subfield code="a">Evangelische Theologie, Magazin</subfield>
+               <subfield code="a">MAG</subfield>
                <subfield code="x">01</subfield>
             </datafield>
             <datafield tag="237A" occurrence="01" fulltag="237A/01">
@@ -154,8 +154,7 @@
          <arr>
             <i>
                <hrid>574386653</hrid>
-               <permanentLocationId>THRARA</permanentLocationId>
-               <callNumberPrefix>THEMAG</callNumberPrefix>
+               <permanentLocationId>ZBMAG</permanentLocationId>
                <callNumber>G 7725</callNumber>
                <holdingsTypeId>physical</holdingsTypeId>
                <holdingsStatements/>
@@ -167,7 +166,7 @@
                         <staffOnly>false</staffOnly>
                      </i>
                      <i>
-                        <note>Evangelische Theologie, Magazin</note>
+                        <note>MAG</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>

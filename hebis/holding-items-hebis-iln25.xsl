@@ -174,6 +174,15 @@
           <xsl:value-of select="substring-after(.,' ')"/>
         </callNumber>
       </xsl:when>
+      <xsl:when test="$abt=('000') and starts-with(., 'RARA ')">
+        <callNumberPrefix>
+          <xsl:value-of select="substring-before(.,' ')"/>
+        </callNumberPrefix>
+        <callNumber>
+          <xsl:value-of select="substring-after(.,' ')"/>
+        </callNumber>
+      </xsl:when>
+     
       <xsl:otherwise>
         <xsl:variable name="cnprefix">
           <xsl:choose>
