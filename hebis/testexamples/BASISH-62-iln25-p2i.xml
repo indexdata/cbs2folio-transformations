@@ -188,7 +188,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>G 7725</itemLevelCallNumber>
                         <barcode>41648880</barcode>
                         <copyNumber/>
                         <volume/>
@@ -552,7 +551,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>AT A VII 18 c</itemLevelCallNumber>
                         <barcode>62105582</barcode>
                         <copyNumber/>
                         <volume/>
@@ -610,7 +608,6 @@
                         <status>
                            <name>Unavailable</name>
                         </status>
-                        <itemLevelCallNumber>AT A VII 18 d</itemLevelCallNumber>
                         <barcode/>
                         <copyNumber/>
                         <volume/>
@@ -1321,7 +1318,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>PHILOS C 370-4</itemLevelCallNumber>
                         <barcode>36905380</barcode>
                         <copyNumber/>
                         <volume/>
@@ -1368,7 +1364,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>L 01 Ästh.Grund 1-4</itemLevelCallNumber>
                         <barcode>16484548</barcode>
                         <copyNumber/>
                         <volume/>
@@ -1415,7 +1410,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>Zo 4-4</itemLevelCallNumber>
                         <barcode>61180826</barcode>
                         <copyNumber/>
                         <volume/>
@@ -1472,7 +1466,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>PHIL 50/5</itemLevelCallNumber>
                         <barcode>90622338</barcode>
                         <copyNumber/>
                         <volume/>
@@ -1520,7 +1513,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>05 L - A 12</itemLevelCallNumber>
                         <barcode>72889389</barcode>
                         <copyNumber/>
                         <volume/>
@@ -1567,7 +1559,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>05 L - A 12 / 2. Ex. / Zimmer Breuer</itemLevelCallNumber>
                         <barcode>76504361</barcode>
                         <copyNumber/>
                         <volume/>
@@ -1614,7 +1605,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>12.0 - 1/1.4</itemLevelCallNumber>
                         <barcode>72164164</barcode>
                         <copyNumber/>
                         <volume/>
@@ -1661,7 +1651,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>A c.12/1-4</itemLevelCallNumber>
                         <barcode>14600258</barcode>
                         <copyNumber/>
                         <volume/>
@@ -1708,7 +1697,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>CC 6800 BAR/ 1-4</itemLevelCallNumber>
                         <barcode>71995035</barcode>
                         <copyNumber/>
                         <volume/>
@@ -1750,7 +1738,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>LEX ÄSTH 2.4</itemLevelCallNumber>
                         <barcode/>
                         <copyNumber/>
                         <volume/>
@@ -2458,8 +2445,6 @@
                         <status>
                            <name>Intellectual item</name>
                         </status>
-                        <itemLevelCallNumberPrefix>4°</itemLevelCallNumberPrefix>
-                        <itemLevelCallNumber>ZA 363</itemLevelCallNumber>
                         <barcode/>
                         <copyNumber/>
                         <volume>40</volume>
@@ -3055,7 +3040,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>KIND 125</itemLevelCallNumber>
                         <barcode>39755624</barcode>
                         <copyNumber/>
                         <volume/>
@@ -3332,7 +3316,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>HIS-NL 01.20 Rooij 1</itemLevelCallNumber>
                         <barcode>90435538</barcode>
                         <copyNumber/>
                         <volume/>
@@ -3598,7 +3581,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>20000000</itemLevelCallNumber>
                         <barcode>90861096</barcode>
                         <copyNumber/>
                         <volume/>
@@ -4168,7 +4150,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>20036909</itemLevelCallNumber>
                         <barcode>91832580</barcode>
                         <copyNumber/>
                         <volume/>
@@ -4876,7 +4857,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>PHILOS C 370-7</itemLevelCallNumber>
                         <barcode>38508795</barcode>
                         <copyNumber/>
                         <volume/>
@@ -4923,7 +4903,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>L 01 Ästh.Grund 1-7</itemLevelCallNumber>
                         <barcode>16484573</barcode>
                         <copyNumber/>
                         <volume/>
@@ -4975,7 +4954,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>Zo 4-7</itemLevelCallNumber>
                         <barcode>61430338</barcode>
                         <copyNumber/>
                         <volume/>
@@ -5028,7 +5006,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>PHIL 50/5</itemLevelCallNumber>
                         <barcode>90622363</barcode>
                         <copyNumber/>
                         <volume/>
@@ -5075,7 +5052,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>05 L - A 12</itemLevelCallNumber>
                         <barcode>72889353</barcode>
                         <copyNumber/>
                         <volume/>
@@ -5122,7 +5098,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>05 L - A 12 / 2. Ex. / Zimmer Breuer</itemLevelCallNumber>
                         <barcode>76503800</barcode>
                         <copyNumber/>
                         <volume/>
@@ -5169,7 +5144,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>12.0 - 1/1.7</itemLevelCallNumber>
                         <barcode>72164048</barcode>
                         <copyNumber/>
                         <volume/>
@@ -5216,7 +5190,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>A c.12/1-7</itemLevelCallNumber>
                         <barcode>14600325</barcode>
                         <copyNumber/>
                         <volume/>
@@ -5263,7 +5236,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>CC 6800 BAR/ 1-7</itemLevelCallNumber>
                         <barcode>71995072</barcode>
                         <copyNumber/>
                         <volume/>
@@ -5305,7 +5277,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>LEX ÄSTH 2.7</itemLevelCallNumber>
                         <barcode/>
                         <copyNumber/>
                         <volume/>
@@ -5769,7 +5740,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>VE 5020 BEC1 (7)</itemLevelCallNumber>
                         <barcode>17767408</barcode>
                         <copyNumber/>
                         <volume/>
@@ -5821,7 +5791,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>34B 223,7.Aufl.</itemLevelCallNumber>
                         <barcode>17767421</barcode>
                         <copyNumber>1</copyNumber>
                         <volume/>
@@ -5836,7 +5805,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>34B 223,7.Aufl.</itemLevelCallNumber>
                         <barcode>17767433</barcode>
                         <copyNumber>2</copyNumber>
                         <volume/>
@@ -5851,7 +5819,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>34B 223,7.Aufl.</itemLevelCallNumber>
                         <barcode>17767457</barcode>
                         <copyNumber>3</copyNumber>
                         <volume/>
@@ -5866,7 +5833,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>34B 223,7.Aufl.</itemLevelCallNumber>
                         <barcode>17767445</barcode>
                         <copyNumber>4</copyNumber>
                         <volume/>
@@ -5881,7 +5847,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>34B 223,7.Aufl.</itemLevelCallNumber>
                         <barcode>17767410</barcode>
                         <copyNumber>5</copyNumber>
                         <volume/>
@@ -6137,7 +6102,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>AU 6073</itemLevelCallNumber>
                         <barcode>35105130</barcode>
                         <copyNumber/>
                         <volume/>
@@ -6457,7 +6421,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>Gesmed 48 2016</itemLevelCallNumber>
                         <barcode/>
                         <copyNumber/>
                         <volume/>
@@ -6737,7 +6700,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>W 60</itemLevelCallNumber>
                         <barcode>77057486</barcode>
                         <copyNumber/>
                         <volume/>
@@ -7298,7 +7260,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>D III c 48</itemLevelCallNumber>
                         <barcode>60536138</barcode>
                         <copyNumber/>
                         <volume/>
@@ -7345,7 +7306,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>Qf 6a-36</itemLevelCallNumber>
                         <barcode>60536140</barcode>
                         <copyNumber/>
                         <volume/>
@@ -7671,7 +7631,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>Lex-T-osm-290</itemLevelCallNumber>
                         <barcode>13342760</barcode>
                         <copyNumber/>
                         <volume/>
@@ -8119,7 +8078,6 @@
                         <status>
                            <name>Intellectual item</name>
                         </status>
-                        <itemLevelCallNumber>Y 5823</itemLevelCallNumber>
                         <barcode/>
                         <copyNumber/>
                         <volume/>
@@ -8180,7 +8138,6 @@
                         <status>
                            <name>Intellectual item</name>
                         </status>
-                        <itemLevelCallNumber>B6 c.5/54</itemLevelCallNumber>
                         <barcode/>
                         <copyNumber/>
                         <volume/>
@@ -8229,7 +8186,6 @@
                         <status>
                            <name>Intellectual item</name>
                         </status>
-                        <itemLevelCallNumber>V 5382</itemLevelCallNumber>
                         <barcode/>
                         <copyNumber/>
                         <volume/>
@@ -8275,7 +8231,6 @@
                         <status>
                            <name>Intellectual item</name>
                         </status>
-                        <itemLevelCallNumber>KD HIS 308</itemLevelCallNumber>
                         <barcode/>
                         <copyNumber/>
                         <volume/>
@@ -9222,7 +9177,6 @@
                         <status>
                            <name>Intellectual item</name>
                         </status>
-                        <itemLevelCallNumber>Z 373</itemLevelCallNumber>
                         <barcode/>
                         <copyNumber/>
                         <volume>30</volume>
@@ -9918,7 +9872,6 @@
                         <status>
                            <name>Intellectual item</name>
                         </status>
-                        <itemLevelCallNumber>ZB 1236</itemLevelCallNumber>
                         <barcode/>
                         <copyNumber/>
                         <volume>26, 28, 38, 39, 41, 43, 47-51, 53-56</volume>
@@ -9967,7 +9920,6 @@
                         <status>
                            <name>Intellectual item</name>
                         </status>
-                        <itemLevelCallNumber>ZB 1237</itemLevelCallNumber>
                         <barcode/>
                         <copyNumber/>
                         <volume>13, 19, 25, 27, 29-32, 42</volume>
@@ -10012,7 +9964,6 @@
                         <status>
                            <name>Intellectual item</name>
                         </status>
-                        <itemLevelCallNumber>ZB 1238</itemLevelCallNumber>
                         <barcode/>
                         <copyNumber/>
                         <volume>1, 4-6, 8-9, 11, 24</volume>
@@ -10055,7 +10006,6 @@
                         <status>
                            <name>Intellectual item</name>
                         </status>
-                        <itemLevelCallNumber>ZB 1239</itemLevelCallNumber>
                         <barcode/>
                         <copyNumber/>
                         <volume>2, 7, 10, 12, 14-16, 33</volume>
@@ -10404,7 +10354,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>296.240</itemLevelCallNumber>
                         <barcode>18584626</barcode>
                         <copyNumber/>
                         <volume/>
@@ -11099,7 +11048,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>PHILOS C 370-6</itemLevelCallNumber>
                         <barcode>38005888</barcode>
                         <copyNumber/>
                         <volume/>
@@ -11146,7 +11094,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>L 01 Ästh.Grund 1-6</itemLevelCallNumber>
                         <barcode>16484561</barcode>
                         <copyNumber/>
                         <volume/>
@@ -11193,7 +11140,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>Zo 4-6</itemLevelCallNumber>
                         <barcode>61332377</barcode>
                         <copyNumber/>
                         <volume/>
@@ -11245,7 +11191,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>PHIL 50/5</itemLevelCallNumber>
                         <barcode>90622351</barcode>
                         <copyNumber/>
                         <volume/>
@@ -11292,7 +11237,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>05 L - A 12</itemLevelCallNumber>
                         <barcode>72889377</barcode>
                         <copyNumber/>
                         <volume/>
@@ -11339,7 +11283,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>05 L - A 12 / 2. Ex. / Zimmer Breuer</itemLevelCallNumber>
                         <barcode>76504440</barcode>
                         <copyNumber/>
                         <volume/>
@@ -11386,7 +11329,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>12.0 - 1/1.6</itemLevelCallNumber>
                         <barcode>72164085</barcode>
                         <copyNumber/>
                         <volume/>
@@ -11433,7 +11375,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>A c.12/1-6</itemLevelCallNumber>
                         <barcode>14600283</barcode>
                         <copyNumber/>
                         <volume/>
@@ -11480,7 +11421,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>CC 6800 BAR/ 1-6</itemLevelCallNumber>
                         <barcode>71995114</barcode>
                         <copyNumber/>
                         <volume/>
@@ -11522,7 +11462,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>LEX ÄSTH 2.6</itemLevelCallNumber>
                         <barcode/>
                         <copyNumber/>
                         <volume/>
@@ -11875,7 +11814,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>ZB 1305-24</itemLevelCallNumber>
                         <barcode/>
                         <copyNumber/>
                         <volume/>
@@ -11927,7 +11865,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>BA IV 24,2</itemLevelCallNumber>
                         <barcode>60664104</barcode>
                         <copyNumber/>
                         <volume/>
@@ -11979,7 +11916,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>THEMAG Bb 300-24,2</itemLevelCallNumber>
                         <barcode>60664116</barcode>
                         <copyNumber/>
                         <volume/>
@@ -12383,7 +12319,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>19 J/l 42 4.Aufl.</itemLevelCallNumber>
                         <barcode/>
                         <copyNumber/>
                         <volume/>
@@ -12446,7 +12381,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>19 J/l 42 4.Aufl.</itemLevelCallNumber>
                         <barcode/>
                         <copyNumber/>
                         <volume/>
@@ -13135,7 +13069,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>26Q 384,7.Aufl.</itemLevelCallNumber>
                         <barcode>17275019</barcode>
                         <copyNumber>1</copyNumber>
                         <volume/>
@@ -13150,7 +13083,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>26Q 384,7.Aufl.</itemLevelCallNumber>
                         <barcode>17275020</barcode>
                         <copyNumber>2</copyNumber>
                         <volume/>
@@ -13165,7 +13097,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>26Q 384,7.Aufl.</itemLevelCallNumber>
                         <barcode>17275007</barcode>
                         <copyNumber>3</copyNumber>
                         <volume/>
@@ -13227,7 +13158,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>36 XX/r 5 7.Aufl.</itemLevelCallNumber>
                         <barcode/>
                         <copyNumber/>
                         <volume/>
@@ -13496,7 +13426,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>F X d 42</itemLevelCallNumber>
                         <barcode>61355559</barcode>
                         <copyNumber/>
                         <volume/>
@@ -13548,7 +13477,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>Sc 70</itemLevelCallNumber>
                         <barcode>61355560</barcode>
                         <copyNumber/>
                         <volume/>
@@ -13959,7 +13887,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>LING B 356</itemLevelCallNumber>
                         <barcode>16551630</barcode>
                         <copyNumber/>
                         <volume/>
@@ -14006,7 +13933,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>15E 010</itemLevelCallNumber>
                         <barcode>16551604</barcode>
                         <copyNumber>1</copyNumber>
                         <volume/>
@@ -14021,7 +13947,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>15E 010</itemLevelCallNumber>
                         <barcode>16551616</barcode>
                         <copyNumber>2</copyNumber>
                         <volume/>
@@ -14036,7 +13961,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>15E 010</itemLevelCallNumber>
                         <barcode>16551628</barcode>
                         <copyNumber>3</copyNumber>
                         <volume/>
@@ -14352,7 +14276,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>FL VOLTA 1/15</itemLevelCallNumber>
                         <barcode>77623339</barcode>
                         <copyNumber/>
                         <volume/>
@@ -14659,7 +14582,6 @@
                         <status>
                            <name>Intellectual item</name>
                         </status>
-                        <itemLevelCallNumber>FZ 1325</itemLevelCallNumber>
                         <barcode/>
                         <copyNumber/>
                         <volume>1</volume>
@@ -14900,7 +14822,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>295.572-test</itemLevelCallNumber>
                         <barcode>18585722</barcode>
                         <copyNumber/>
                         <volume/>
@@ -15598,7 +15519,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>PHILOS C 370-3</itemLevelCallNumber>
                         <barcode>36415144</barcode>
                         <copyNumber/>
                         <volume/>
@@ -15645,7 +15565,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>L 01 Ästh.Grund 1-3</itemLevelCallNumber>
                         <barcode>16484536</barcode>
                         <copyNumber/>
                         <volume/>
@@ -15692,7 +15611,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>Zo 4-3</itemLevelCallNumber>
                         <barcode>61103900</barcode>
                         <copyNumber/>
                         <volume/>
@@ -15749,7 +15667,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>PHIL 50/5</itemLevelCallNumber>
                         <barcode>90622326</barcode>
                         <copyNumber/>
                         <volume/>
@@ -15797,7 +15714,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>05 L - A 12</itemLevelCallNumber>
                         <barcode>72889390</barcode>
                         <copyNumber/>
                         <volume/>
@@ -15844,7 +15760,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>05 L - A 12 / 2. Ex. / Zimmer Breuer</itemLevelCallNumber>
                         <barcode>76504324</barcode>
                         <copyNumber/>
                         <volume/>
@@ -15891,7 +15806,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>12.0 - 1/1.3</itemLevelCallNumber>
                         <barcode>72164206</barcode>
                         <copyNumber/>
                         <volume/>
@@ -15938,7 +15852,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>A c.12/1-3</itemLevelCallNumber>
                         <barcode>14600295</barcode>
                         <copyNumber/>
                         <volume/>
@@ -15985,7 +15898,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>CC 6800 BAR/ 1-3</itemLevelCallNumber>
                         <barcode>71994950</barcode>
                         <copyNumber/>
                         <volume/>
@@ -16027,7 +15939,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>LEX ÄSTH 2.3</itemLevelCallNumber>
                         <barcode/>
                         <copyNumber/>
                         <volume/>
@@ -16786,8 +16697,6 @@
                         <status>
                            <name>Intellectual item</name>
                         </status>
-                        <itemLevelCallNumberPrefix>in 4°</itemLevelCallNumberPrefix>
-                        <itemLevelCallNumber>Z 6183</itemLevelCallNumber>
                         <barcode/>
                         <copyNumber/>
                         <volume/>
@@ -17121,8 +17030,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumberPrefix>4°</itemLevelCallNumberPrefix>
-                        <itemLevelCallNumber>BB 1129</itemLevelCallNumber>
                         <barcode>34414860</barcode>
                         <copyNumber/>
                         <volume/>
@@ -17164,7 +17071,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>24D 010,9.Aufl.</itemLevelCallNumber>
                         <barcode>17775946</barcode>
                         <copyNumber>1</copyNumber>
                         <volume/>
@@ -17179,7 +17085,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>24D 010,9.Aufl.</itemLevelCallNumber>
                         <barcode>17775934</barcode>
                         <copyNumber>2</copyNumber>
                         <volume/>
@@ -17194,7 +17099,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>24D 010,9.Aufl.</itemLevelCallNumber>
                         <barcode>17775983</barcode>
                         <copyNumber>3</copyNumber>
                         <volume/>
@@ -17209,7 +17113,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>24D 010,9.Aufl.</itemLevelCallNumber>
                         <barcode>17775960</barcode>
                         <copyNumber>4</copyNumber>
                         <volume/>
@@ -17224,7 +17127,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>24D 010,9.Aufl.</itemLevelCallNumber>
                         <barcode>17775958</barcode>
                         <copyNumber>5</copyNumber>
                         <volume/>
@@ -17239,7 +17141,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>24D 010,9.Aufl.</itemLevelCallNumber>
                         <barcode>17775971</barcode>
                         <copyNumber>6</copyNumber>
                         <volume/>
@@ -17582,7 +17483,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>LIN-ZH 08:8-4,1</itemLevelCallNumber>
                         <barcode>90256590</barcode>
                         <copyNumber/>
                         <volume/>
@@ -17995,7 +17895,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>26F 090/02,3.Aufl.</itemLevelCallNumber>
                         <barcode>17281469</barcode>
                         <copyNumber>1</copyNumber>
                         <volume/>
@@ -18010,7 +17909,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>26F 090/02,3.Aufl.</itemLevelCallNumber>
                         <barcode>17281470</barcode>
                         <copyNumber>2</copyNumber>
                         <volume/>
@@ -18025,7 +17923,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>26F 090/02,3.Aufl.</itemLevelCallNumber>
                         <barcode>17281482</barcode>
                         <copyNumber>3</copyNumber>
                         <volume/>
@@ -18040,7 +17937,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>26F 090/02,3.Aufl.</itemLevelCallNumber>
                         <barcode>17281494</barcode>
                         <copyNumber>4</copyNumber>
                         <volume/>
@@ -18055,7 +17951,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>26F 090/02,3.Aufl.</itemLevelCallNumber>
                         <barcode>17281500</barcode>
                         <copyNumber>5</copyNumber>
                         <volume/>
@@ -18117,7 +18012,6 @@
                         <status>
                            <name>On order</name>
                         </status>
-                        <itemLevelCallNumber>Recht bestellt 2021</itemLevelCallNumber>
                         <barcode/>
                         <copyNumber/>
                         <volume/>
@@ -18362,7 +18256,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>SL 894</itemLevelCallNumber>
                         <barcode>34917662</barcode>
                         <copyNumber/>
                         <volume/>
@@ -18650,7 +18543,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>KIND 267</itemLevelCallNumber>
                         <barcode>18644520</barcode>
                         <copyNumber/>
                         <volume/>
@@ -18993,7 +18885,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>KAT IV DRO 1941.12.05</itemLevelCallNumber>
                         <barcode>17641668</barcode>
                         <copyNumber/>
                         <volume/>
@@ -19639,7 +19530,6 @@
                         <status>
                            <name>Intellectual item</name>
                         </status>
-                        <itemLevelCallNumber>FZ 415</itemLevelCallNumber>
                         <barcode/>
                         <copyNumber/>
                         <volume>1207</volume>
@@ -19692,7 +19582,6 @@
                         <status>
                            <name>Intellectual item</name>
                         </status>
-                        <itemLevelCallNumber>Ztg 54</itemLevelCallNumber>
                         <barcode/>
                         <copyNumber/>
                         <volume/>
@@ -20087,7 +19976,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>Ab 37-61</itemLevelCallNumber>
                         <barcode>18179677</barcode>
                         <copyNumber/>
                         <volume/>
@@ -20495,7 +20383,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>MED A 2053</itemLevelCallNumber>
                         <barcode>17764456</barcode>
                         <copyNumber/>
                         <volume/>
@@ -20547,7 +20434,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>41A 017,9.Aufl.</itemLevelCallNumber>
                         <barcode>17764377</barcode>
                         <copyNumber>1</copyNumber>
                         <volume/>
@@ -20562,7 +20448,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>41A 017,9.Aufl.</itemLevelCallNumber>
                         <barcode>17764419</barcode>
                         <copyNumber>2</copyNumber>
                         <volume/>
@@ -20577,7 +20462,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>41A 017,9.Aufl.</itemLevelCallNumber>
                         <barcode>17764250</barcode>
                         <copyNumber>3</copyNumber>
                         <volume/>
@@ -20592,7 +20476,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>41A 017,9.Aufl.</itemLevelCallNumber>
                         <barcode>17764330</barcode>
                         <copyNumber>4</copyNumber>
                         <volume/>
@@ -20607,7 +20490,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>41A 017,9.Aufl.</itemLevelCallNumber>
                         <barcode>17764298</barcode>
                         <copyNumber>5</copyNumber>
                         <volume/>
@@ -21302,7 +21184,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>PHILOS C 370-5</itemLevelCallNumber>
                         <barcode>37653112</barcode>
                         <copyNumber/>
                         <volume/>
@@ -21349,7 +21230,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>L 01 Ästh.Grund 1-5</itemLevelCallNumber>
                         <barcode>16484550</barcode>
                         <copyNumber/>
                         <volume/>
@@ -21396,7 +21276,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>Zo 4-5</itemLevelCallNumber>
                         <barcode>61264487</barcode>
                         <copyNumber/>
                         <volume/>
@@ -21448,7 +21327,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>PHIL 50/5</itemLevelCallNumber>
                         <barcode>90622340</barcode>
                         <copyNumber/>
                         <volume/>
@@ -21495,7 +21373,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>05 L - A 12</itemLevelCallNumber>
                         <barcode>72889365</barcode>
                         <copyNumber/>
                         <volume/>
@@ -21542,7 +21419,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>05 L - A 12 / 2. Ex. / Zimmer Breuer</itemLevelCallNumber>
                         <barcode>76504403</barcode>
                         <copyNumber/>
                         <volume/>
@@ -21589,7 +21465,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>12.0 - 1/1.5</itemLevelCallNumber>
                         <barcode>72164127</barcode>
                         <copyNumber/>
                         <volume/>
@@ -21636,7 +21511,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>A c.12/1-5</itemLevelCallNumber>
                         <barcode>14600246</barcode>
                         <copyNumber/>
                         <volume/>
@@ -21683,7 +21557,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>CC 6800 BAR/ 1-5</itemLevelCallNumber>
                         <barcode>71995151</barcode>
                         <copyNumber/>
                         <volume/>
@@ -21725,7 +21598,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>LEX ÄSTH 2.5</itemLevelCallNumber>
                         <barcode/>
                         <copyNumber/>
                         <volume/>
@@ -22015,7 +21887,6 @@
                         <status>
                            <name>Intellectual item</name>
                         </status>
-                        <itemLevelCallNumber>Ya 7251</itemLevelCallNumber>
                         <barcode/>
                         <copyNumber/>
                         <volume/>
@@ -22243,7 +22114,6 @@
                         <status>
                            <name>Intellectual item</name>
                         </status>
-                        <itemLevelCallNumber/>
                         <barcode/>
                         <copyNumber/>
                         <volume/>
@@ -22592,7 +22462,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>Sc 4779</itemLevelCallNumber>
                         <barcode>62155718</barcode>
                         <copyNumber/>
                         <volume/>
@@ -22970,7 +22839,6 @@
                         <status>
                            <name>Unavailable</name>
                         </status>
-                        <itemLevelCallNumber>29/ AK BIOPHARM./PHARMAZ. TECHN. VX 5100 WUR1 (18)</itemLevelCallNumber>
                         <barcode>11571197</barcode>
                         <copyNumber/>
                         <volume/>
@@ -23022,7 +22890,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>VX 5100 WUR1 (18) +2</itemLevelCallNumber>
                         <barcode>11571082</barcode>
                         <copyNumber/>
                         <volume/>
@@ -23648,7 +23515,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>MED V 133/01</itemLevelCallNumber>
                         <barcode>39468465</barcode>
                         <copyNumber/>
                         <volume/>
@@ -23706,7 +23572,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>41V 305,4.Aufl.</itemLevelCallNumber>
                         <barcode>39467400</barcode>
                         <copyNumber>1</copyNumber>
                         <volume/>
@@ -23721,7 +23586,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>41V 305,4.Aufl.</itemLevelCallNumber>
                         <barcode>39467412</barcode>
                         <copyNumber>2</copyNumber>
                         <volume/>
@@ -23736,7 +23600,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>41V 305,4.Aufl.</itemLevelCallNumber>
                         <barcode>39467424</barcode>
                         <copyNumber>3</copyNumber>
                         <volume/>
@@ -23751,7 +23614,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>41V 305,4.Aufl.</itemLevelCallNumber>
                         <barcode>39467436</barcode>
                         <copyNumber>4</copyNumber>
                         <volume/>
@@ -23766,7 +23628,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>41V 305,4.Aufl.</itemLevelCallNumber>
                         <barcode>39467448</barcode>
                         <copyNumber>5</copyNumber>
                         <volume/>
@@ -23781,7 +23642,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>41V 305,4.Aufl.</itemLevelCallNumber>
                         <barcode>39467450</barcode>
                         <copyNumber>6</copyNumber>
                         <volume/>
@@ -23796,7 +23656,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>41V 305,4.Aufl.</itemLevelCallNumber>
                         <barcode>39467461</barcode>
                         <copyNumber>7</copyNumber>
                         <volume/>
@@ -23811,7 +23670,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>41V 305,4.Aufl.</itemLevelCallNumber>
                         <barcode>39467473</barcode>
                         <copyNumber>8</copyNumber>
                         <volume/>
@@ -23826,7 +23684,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>41V 305,4.Aufl.</itemLevelCallNumber>
                         <barcode>39467485</barcode>
                         <copyNumber>9</copyNumber>
                         <volume/>
@@ -23841,7 +23698,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>41V 305,4.Aufl.</itemLevelCallNumber>
                         <barcode>39467527</barcode>
                         <copyNumber>10</copyNumber>
                         <volume/>
@@ -23899,7 +23755,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>41V 305,4.Aufl.</itemLevelCallNumber>
                         <barcode>12482506</barcode>
                         <copyNumber>1</copyNumber>
                         <volume/>
@@ -23914,7 +23769,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>41V 305,4.Aufl.</itemLevelCallNumber>
                         <barcode>12482518</barcode>
                         <copyNumber>2</copyNumber>
                         <volume/>
@@ -23929,7 +23783,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>41V 305,4.Aufl.</itemLevelCallNumber>
                         <barcode>12482520</barcode>
                         <copyNumber>3</copyNumber>
                         <volume/>
@@ -23944,7 +23797,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>41V 305,4.Aufl.</itemLevelCallNumber>
                         <barcode>12482531</barcode>
                         <copyNumber>4</copyNumber>
                         <volume/>
@@ -23959,7 +23811,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>41V 305,4.Aufl.</itemLevelCallNumber>
                         <barcode>12482543</barcode>
                         <copyNumber>5</copyNumber>
                         <volume/>
@@ -23974,7 +23825,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>41V 305,4.Aufl.</itemLevelCallNumber>
                         <barcode>12482555</barcode>
                         <copyNumber>6</copyNumber>
                         <volume/>
@@ -23989,7 +23839,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>41V 305,4.Aufl.</itemLevelCallNumber>
                         <barcode>12482567</barcode>
                         <copyNumber>7</copyNumber>
                         <volume/>
@@ -24004,7 +23853,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>41V 305,4.Aufl.</itemLevelCallNumber>
                         <barcode>12482579</barcode>
                         <copyNumber>8</copyNumber>
                         <volume/>
@@ -24019,7 +23867,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>41V 305,4.Aufl.</itemLevelCallNumber>
                         <barcode>12482580</barcode>
                         <copyNumber>9</copyNumber>
                         <volume/>
@@ -24034,7 +23881,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>41V 305,4.Aufl.</itemLevelCallNumber>
                         <barcode>12482592</barcode>
                         <copyNumber>10</copyNumber>
                         <volume/>
@@ -24087,7 +23933,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>ZMK A 305,4.Aufl.</itemLevelCallNumber>
                         <barcode>14247741</barcode>
                         <copyNumber>1</copyNumber>
                         <volume/>
@@ -24102,7 +23947,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>ZMK A 305,4.Aufl.</itemLevelCallNumber>
                         <barcode>14247819</barcode>
                         <copyNumber>2</copyNumber>
                         <volume/>
@@ -24117,7 +23961,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>ZMK A 305,4.Aufl.</itemLevelCallNumber>
                         <barcode>14247820</barcode>
                         <copyNumber>3</copyNumber>
                         <volume/>
@@ -24132,7 +23975,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>ZMK A 305,4.Aufl.</itemLevelCallNumber>
                         <barcode>14247832</barcode>
                         <copyNumber>4</copyNumber>
                         <volume/>
@@ -24147,7 +23989,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>ZMK A 305,4.Aufl.</itemLevelCallNumber>
                         <barcode>14247753</barcode>
                         <copyNumber>5</copyNumber>
                         <volume/>
@@ -24162,7 +24003,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>ZMK A 305,4.Aufl.</itemLevelCallNumber>
                         <barcode>14247789</barcode>
                         <copyNumber>6</copyNumber>
                         <volume/>
@@ -24177,7 +24017,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>ZMK A 305,4.Aufl.</itemLevelCallNumber>
                         <barcode>14247790</barcode>
                         <copyNumber>7</copyNumber>
                         <volume/>
@@ -24192,7 +24031,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>ZMK A 305,4.Aufl.</itemLevelCallNumber>
                         <barcode>14247807</barcode>
                         <copyNumber>8</copyNumber>
                         <volume/>
@@ -24207,7 +24045,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>ZMK A 305,4.Aufl.</itemLevelCallNumber>
                         <barcode>14247765</barcode>
                         <copyNumber>9</copyNumber>
                         <volume/>
@@ -24222,7 +24059,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>ZMK A 305,4.Aufl.</itemLevelCallNumber>
                         <barcode>14247777</barcode>
                         <copyNumber>10</copyNumber>
                         <volume/>
@@ -24270,7 +24106,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>ZMK A 305,4.Aufl.</itemLevelCallNumber>
                         <barcode>17385640</barcode>
                         <copyNumber/>
                         <volume/>
@@ -24317,7 +24152,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>ZMK A 305,4.Aufl.</itemLevelCallNumber>
                         <barcode>17385639</barcode>
                         <copyNumber/>
                         <volume/>
@@ -24667,7 +24501,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>KUL-ZH 07:15</itemLevelCallNumber>
                         <barcode>91832372</barcode>
                         <copyNumber/>
                         <volume/>
@@ -24975,7 +24808,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>ZZ 7255-153</itemLevelCallNumber>
                         <barcode/>
                         <copyNumber/>
                         <volume/>
@@ -25669,7 +25501,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>PHILOS C 370-2</itemLevelCallNumber>
                         <barcode>36142164</barcode>
                         <copyNumber/>
                         <volume/>
@@ -25716,7 +25547,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>L 01 Ästh.Grund 1-2</itemLevelCallNumber>
                         <barcode>16484524</barcode>
                         <copyNumber/>
                         <volume/>
@@ -25763,7 +25593,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>Zo 4-2</itemLevelCallNumber>
                         <barcode>61054262</barcode>
                         <copyNumber/>
                         <volume/>
@@ -25820,7 +25649,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>PHIL 50/5</itemLevelCallNumber>
                         <barcode>90622314</barcode>
                         <copyNumber/>
                         <volume/>
@@ -25868,7 +25696,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>05 L - A 12</itemLevelCallNumber>
                         <barcode/>
                         <copyNumber/>
                         <volume/>
@@ -25915,7 +25742,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>05 L - A 12 / 2. Ex. / Zimmer Breuer</itemLevelCallNumber>
                         <barcode>76504282</barcode>
                         <copyNumber/>
                         <volume/>
@@ -25962,7 +25788,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>12.0 - 1/1.2</itemLevelCallNumber>
                         <barcode>72164243</barcode>
                         <copyNumber/>
                         <volume/>
@@ -26009,7 +25834,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>A c.12/1-2</itemLevelCallNumber>
                         <barcode>14600337</barcode>
                         <copyNumber/>
                         <volume/>
@@ -26056,7 +25880,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>CC 6800 BAR/ 1-2</itemLevelCallNumber>
                         <barcode>71995199</barcode>
                         <copyNumber/>
                         <volume/>
@@ -26098,7 +25921,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>LEX ÄSTH 2.2</itemLevelCallNumber>
                         <barcode/>
                         <copyNumber/>
                         <volume/>
@@ -26796,7 +26618,6 @@
                         <status>
                            <name>Intellectual item</name>
                         </status>
-                        <itemLevelCallNumber>FZ 203</itemLevelCallNumber>
                         <barcode/>
                         <copyNumber/>
                         <volume/>
@@ -26852,7 +26673,6 @@
                         <status>
                            <name>Intellectual item</name>
                         </status>
-                        <itemLevelCallNumber>ZA 386</itemLevelCallNumber>
                         <barcode/>
                         <copyNumber/>
                         <volume>1-30, 137-216, 300-303, 305-310, 312-354</volume>
@@ -26903,7 +26723,6 @@
                         <status>
                            <name>Intellectual item</name>
                         </status>
-                        <itemLevelCallNumber>FZ 203</itemLevelCallNumber>
                         <barcode/>
                         <copyNumber/>
                         <volume/>
@@ -26961,7 +26780,6 @@
                         <status>
                            <name>Intellectual item</name>
                         </status>
-                        <itemLevelCallNumber>Si 1982</itemLevelCallNumber>
                         <barcode/>
                         <copyNumber/>
                         <volume/>
@@ -27627,7 +27445,6 @@
                         <status>
                            <name>On order</name>
                         </status>
-                        <itemLevelCallNumber>bestellt</itemLevelCallNumber>
                         <barcode/>
                         <copyNumber/>
                         <volume/>
@@ -28009,7 +27826,6 @@
                         <status>
                            <name>Intellectual item</name>
                         </status>
-                        <itemLevelCallNumber>Z 603</itemLevelCallNumber>
                         <barcode/>
                         <copyNumber/>
                         <volume>487</volume>
@@ -28063,7 +27879,6 @@
                         <status>
                            <name>Intellectual item</name>
                         </status>
-                        <itemLevelCallNumber>Z 872</itemLevelCallNumber>
                         <barcode/>
                         <copyNumber/>
                         <volume>487</volume>
@@ -28704,7 +28519,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>40B 242,4.Aufl.</itemLevelCallNumber>
                         <barcode>15888876</barcode>
                         <copyNumber>1</copyNumber>
                         <volume/>
@@ -28719,7 +28533,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>40B 242,4.Aufl.</itemLevelCallNumber>
                         <barcode>15888864</barcode>
                         <copyNumber>2</copyNumber>
                         <volume/>
@@ -28734,7 +28547,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>40B 242,4.Aufl.</itemLevelCallNumber>
                         <barcode>15888906</barcode>
                         <copyNumber>3</copyNumber>
                         <volume/>
@@ -28749,7 +28561,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>40B 242,4.Aufl.</itemLevelCallNumber>
                         <barcode>15888890</barcode>
                         <copyNumber>4</copyNumber>
                         <volume/>
@@ -28764,7 +28575,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>40B 242,4.Aufl.</itemLevelCallNumber>
                         <barcode>15888888</barcode>
                         <copyNumber>5</copyNumber>
                         <volume/>
@@ -28779,7 +28589,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>40B 242,4.Aufl.</itemLevelCallNumber>
                         <barcode>15888670</barcode>
                         <copyNumber>6</copyNumber>
                         <volume/>
@@ -28794,7 +28603,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>40B 242,4.Aufl.</itemLevelCallNumber>
                         <barcode>15888621</barcode>
                         <copyNumber>7</copyNumber>
                         <volume/>
@@ -28809,7 +28617,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>40B 242,4.Aufl.</itemLevelCallNumber>
                         <barcode>15888669</barcode>
                         <copyNumber>8</copyNumber>
                         <volume/>
@@ -28824,7 +28631,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>40B 242,4.Aufl.</itemLevelCallNumber>
                         <barcode>15888657</barcode>
                         <copyNumber>9</copyNumber>
                         <volume/>
@@ -28839,7 +28645,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>40B 242,4.Aufl.</itemLevelCallNumber>
                         <barcode>15888645</barcode>
                         <copyNumber>10</copyNumber>
                         <volume/>
@@ -28854,7 +28659,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>40B 242,4.Aufl.</itemLevelCallNumber>
                         <barcode>15888633</barcode>
                         <copyNumber>11</copyNumber>
                         <volume/>
@@ -28869,7 +28673,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>40B 242,4.Aufl.</itemLevelCallNumber>
                         <barcode>15888566</barcode>
                         <copyNumber>12</copyNumber>
                         <volume/>
@@ -28884,7 +28687,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>40B 242,4.Aufl.</itemLevelCallNumber>
                         <barcode>15888529</barcode>
                         <copyNumber>13</copyNumber>
                         <volume/>
@@ -28899,7 +28701,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>40B 242,4.Aufl.</itemLevelCallNumber>
                         <barcode>15888487</barcode>
                         <copyNumber>14</copyNumber>
                         <volume/>
@@ -28914,7 +28715,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>40B 242,4.Aufl.</itemLevelCallNumber>
                         <barcode>15888852</barcode>
                         <copyNumber>15</copyNumber>
                         <volume/>
@@ -28929,7 +28729,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>40B 242,4.Aufl.</itemLevelCallNumber>
                         <barcode>15888840</barcode>
                         <copyNumber>16</copyNumber>
                         <volume/>
@@ -28944,7 +28743,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>40B 242,4.Aufl.</itemLevelCallNumber>
                         <barcode>15888839</barcode>
                         <copyNumber>17</copyNumber>
                         <volume/>
@@ -28959,7 +28757,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>40B 242,4.Aufl.</itemLevelCallNumber>
                         <barcode>15888580</barcode>
                         <copyNumber>18</copyNumber>
                         <volume/>
@@ -28974,7 +28771,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>40B 242,4.Aufl.</itemLevelCallNumber>
                         <barcode>15888578</barcode>
                         <copyNumber>19</copyNumber>
                         <volume/>
@@ -28989,7 +28785,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>40B 242,4.Aufl.</itemLevelCallNumber>
                         <barcode>15888610</barcode>
                         <copyNumber>20</copyNumber>
                         <volume/>
@@ -29004,7 +28799,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>40B 242,4.Aufl.</itemLevelCallNumber>
                         <barcode>15888797</barcode>
                         <copyNumber>21</copyNumber>
                         <volume/>
@@ -29019,7 +28813,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>40B 242,4.Aufl.</itemLevelCallNumber>
                         <barcode>15888785</barcode>
                         <copyNumber>22</copyNumber>
                         <volume/>
@@ -29034,7 +28827,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>40B 242,4.Aufl.</itemLevelCallNumber>
                         <barcode>15888773</barcode>
                         <copyNumber>23</copyNumber>
                         <volume/>
@@ -29049,7 +28841,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>40B 242,4.Aufl.</itemLevelCallNumber>
                         <barcode>15888827</barcode>
                         <copyNumber>24</copyNumber>
                         <volume/>
@@ -29064,7 +28855,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>40B 242,4.Aufl.</itemLevelCallNumber>
                         <barcode>15888815</barcode>
                         <copyNumber>25</copyNumber>
                         <volume/>
@@ -29079,7 +28869,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>40B 242,4.Aufl.</itemLevelCallNumber>
                         <barcode>15888803</barcode>
                         <copyNumber>26</copyNumber>
                         <volume/>
@@ -29094,7 +28883,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>40B 242,4.Aufl.</itemLevelCallNumber>
                         <barcode>15888608</barcode>
                         <copyNumber>27</copyNumber>
                         <volume/>
@@ -29109,7 +28897,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>40B 242,4.Aufl.</itemLevelCallNumber>
                         <barcode>15888591</barcode>
                         <copyNumber>28</copyNumber>
                         <volume/>
@@ -29124,7 +28911,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>40B 242,4.Aufl.</itemLevelCallNumber>
                         <barcode>15888451</barcode>
                         <copyNumber>29</copyNumber>
                         <volume/>
@@ -29139,7 +28925,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>40B 242,4.Aufl.</itemLevelCallNumber>
                         <barcode>15888440</barcode>
                         <copyNumber>30</copyNumber>
                         <volume/>
@@ -29154,7 +28939,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>40B 242,4.Aufl.</itemLevelCallNumber>
                         <barcode>15888499</barcode>
                         <copyNumber>31</copyNumber>
                         <volume/>
@@ -29169,7 +28953,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>40B 242,4.Aufl.</itemLevelCallNumber>
                         <barcode>15888761</barcode>
                         <copyNumber>32</copyNumber>
                         <volume/>
@@ -29184,7 +28967,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>40B 242,4.Aufl.</itemLevelCallNumber>
                         <barcode>15888750</barcode>
                         <copyNumber>33</copyNumber>
                         <volume/>
@@ -29199,7 +28981,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>40B 242,4.Aufl.</itemLevelCallNumber>
                         <barcode>15888748</barcode>
                         <copyNumber>34</copyNumber>
                         <volume/>
@@ -29214,7 +28995,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>40B 242,4.Aufl.</itemLevelCallNumber>
                         <barcode>15888694</barcode>
                         <copyNumber>35</copyNumber>
                         <volume/>
@@ -29229,7 +29009,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>40B 242,4.Aufl.</itemLevelCallNumber>
                         <barcode>15888682</barcode>
                         <copyNumber>36</copyNumber>
                         <volume/>
@@ -29244,7 +29023,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>40B 242,4.Aufl.</itemLevelCallNumber>
                         <barcode>15888724</barcode>
                         <copyNumber>38</copyNumber>
                         <volume/>
@@ -29259,7 +29037,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>40B 242,4.Aufl.</itemLevelCallNumber>
                         <barcode>15888712</barcode>
                         <copyNumber>39</copyNumber>
                         <volume/>
@@ -29274,7 +29051,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>40B 242,4.Aufl.</itemLevelCallNumber>
                         <barcode>15888700</barcode>
                         <copyNumber>40</copyNumber>
                         <volume/>
@@ -29289,7 +29065,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>40B 242,4.Aufl.</itemLevelCallNumber>
                         <barcode>15888475</barcode>
                         <copyNumber>41</copyNumber>
                         <volume/>
@@ -29304,7 +29079,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>40B 242,4.Aufl.</itemLevelCallNumber>
                         <barcode>15888542</barcode>
                         <copyNumber>42</copyNumber>
                         <volume/>
@@ -29319,7 +29093,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>40B 242,4.Aufl.</itemLevelCallNumber>
                         <barcode>15888554</barcode>
                         <copyNumber>43</copyNumber>
                         <volume/>
@@ -29334,7 +29107,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>40B 242,4.Aufl.</itemLevelCallNumber>
                         <barcode>15888463</barcode>
                         <copyNumber>44</copyNumber>
                         <volume/>
@@ -29349,7 +29121,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>40B 242,4.Aufl.</itemLevelCallNumber>
                         <barcode>15888505</barcode>
                         <copyNumber>45</copyNumber>
                         <volume/>
@@ -29364,7 +29135,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>40B 242,4.Aufl.</itemLevelCallNumber>
                         <barcode>15888530</barcode>
                         <copyNumber>46</copyNumber>
                         <volume/>
@@ -29417,7 +29187,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>GRUND 245</itemLevelCallNumber>
                         <barcode>12254595</barcode>
                         <copyNumber/>
                         <volume/>
@@ -29474,7 +29243,6 @@
                         <status>
                            <name>Available</name>
                         </status>
-                        <itemLevelCallNumber>MED B 132/02</itemLevelCallNumber>
                         <barcode>15888517</barcode>
                         <copyNumber/>
                         <volume/>
