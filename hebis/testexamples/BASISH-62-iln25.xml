@@ -61,7 +61,7 @@
         </datafield>
         <datafield tag="209A" occurrence="01" fulltag="209A/01">
           <subfield code="a">THEMAG G 7725</subfield>
-          <subfield code="f">016</subfield>
+          <subfield code="f">000</subfield>
           <subfield code="d">i</subfield>
           <subfield code="x">00</subfield>
         </datafield>
@@ -74,7 +74,7 @@
           <subfield code="x">00</subfield>
         </datafield>
         <datafield tag="209G" occurrence="01" fulltag="209G/01">
-          <subfield code="a">Evangelische Theologie, Magazin</subfield>
+          <subfield code="a">MAG</subfield>
           <subfield code="x">01</subfield>
         </datafield>
         <datafield tag="237A" occurrence="01" fulltag="237A/01">
