@@ -22,9 +22,9 @@
          <xsl:when test="substring($i/datafield[@tag='208@']/subfield[@code='b'],1,1) = 'd'">DUMMY</xsl:when>
          <xsl:when test="$abt='000'">
            <xsl:choose>
-             <xsl:when test="$standort='FREIHAND'">ZBFREI</xsl:when>
-             <xsl:when test="$standort='LBS'">ZBLBS</xsl:when>
-             <xsl:when test="$standort='LESESAAL'">ZBLS</xsl:when>
+             <xsl:when test="contains($standort,'FREIHAND')">ZBFREI</xsl:when>
+             <xsl:when test="contains($standort,'LESESAAL')">ZBLS</xsl:when>
+               <xsl:when test="contains($standort,'LBS')">ZBLBS</xsl:when>
              <xsl:when test="contains($standort,'RARA')">ZBRARA</xsl:when>
              <xsl:otherwise>ZBMAG</xsl:otherwise>
            </xsl:choose>
@@ -58,8 +58,7 @@
          <xsl:when test="$abt='009'">FBMPI</xsl:when>	
          <xsl:when test="$abt='016'">
            <xsl:choose>
-             <xsl:when test="contains($standort,'Magazin')">THRARA</xsl:when>
-             <xsl:when test="contains($standort,'Rara')">THRARA</xsl:when>
+             <xsl:when test="contains($standort,'Magazin') or contains($standort,'Rara')">THRARA</xsl:when>
              <xsl:when test="contains($standort,'LEHRBUCH')">THLBS</xsl:when>
              <xsl:otherwise>TH</xsl:otherwise>
            </xsl:choose>
