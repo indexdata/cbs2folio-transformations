@@ -59,6 +59,7 @@
          <xsl:when test="$abt='009'">FBMPI</xsl:when>	
          <xsl:when test="$abt='016'">
            <xsl:choose>
+             <xsl:when test="contains($standort,'Magazin')">THRARA</xsl:when>
              <xsl:when test="contains($standort,'Rara')">THRARA</xsl:when>
              <xsl:when test="contains($standort,'LEHRBUCH')">THLBS</xsl:when>
              <xsl:otherwise>TH</xsl:otherwise>
