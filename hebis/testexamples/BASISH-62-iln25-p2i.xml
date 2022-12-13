@@ -166,7 +166,7 @@
                         <staffOnly>false</staffOnly>
                      </i>
                      <i>
-                        <note>MAG</note>
+                        <note>000:MAG</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -524,7 +524,7 @@
                         <staffOnly>false</staffOnly>
                      </i>
                      <i>
-                        <note>Katholische Theologie</note>
+                        <note>016:Katholische Theologie</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -581,7 +581,7 @@
                         <staffOnly>false</staffOnly>
                      </i>
                      <i>
-                        <note>Katholische Theologie, Büro Altes Testament</note>
+                        <note>016:Katholische Theologie, Büro Altes Testament</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -1296,7 +1296,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>LESESAAL</note>
+                        <note>000:LESESAAL</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -1342,7 +1342,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Filmwissenschaft</note>
+                        <note>002:Filmwissenschaft</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -1388,7 +1388,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Evangelische Theologie</note>
+                        <note>016:Evangelische Theologie</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -1439,7 +1439,7 @@
                         <staffOnly>true</staffOnly>
                      </i>
                      <i>
-                        <note>Lesesaal</note>
+                        <note>019:Lesesaal</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -1491,7 +1491,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Germanistik</note>
+                        <note>070:Germanistik</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -1537,7 +1537,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Germanistik</note>
+                        <note>070:Germanistik</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -1583,7 +1583,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Allgemeine und Vergleichende Literaturwissenschaft</note>
+                        <note>071:Allgemeine und Vergleichende Literaturwissenschaft</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -1629,7 +1629,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Kunstgeschichte</note>
+                        <note>079:Kunstgeschichte</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -1675,7 +1675,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Historische Kulturwissenschaften</note>
+                        <note>083:Historische Kulturwissenschaften</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -3013,7 +3013,7 @@
                         <staffOnly>false</staffOnly>
                      </i>
                      <i>
-                        <note>UM FREIHAND</note>
+                        <note>005:UM FREIHAND</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -3294,7 +3294,7 @@
                         <staffOnly>false</staffOnly>
                      </i>
                      <i>
-                        <note>Freihand / Niederländisch</note>
+                        <note>019:Freihand / Niederländisch</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -3559,7 +3559,7 @@
                         <staffOnly>false</staffOnly>
                      </i>
                      <i>
-                        <note>Magazin</note>
+                        <note>019:Magazin</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -4128,7 +4128,7 @@
                         <staffOnly>false</staffOnly>
                      </i>
                      <i>
-                        <note>Magazin</note>
+                        <note>019:Magazin</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -4835,7 +4835,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>LESESAAL</note>
+                        <note>000:LESESAAL</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -4881,7 +4881,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Filmwissenschaft</note>
+                        <note>002:Filmwissenschaft</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -4927,7 +4927,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Evangelische Theologie</note>
+                        <note>016:Evangelische Theologie</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -4984,7 +4984,7 @@
                         <staffOnly>true</staffOnly>
                      </i>
                      <i>
-                        <note>Lesesaal</note>
+                        <note>019:Lesesaal</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -5030,7 +5030,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Germanistik</note>
+                        <note>070:Germanistik</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -5076,7 +5076,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Germanistik</note>
+                        <note>070:Germanistik</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -5122,7 +5122,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Allgemeine und Vergleichende Literaturwissenschaft</note>
+                        <note>071:Allgemeine und Vergleichende Literaturwissenschaft</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -5168,7 +5168,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Kunstgeschichte</note>
+                        <note>079:Kunstgeschichte</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -5214,7 +5214,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Historische Kulturwissenschaften</note>
+                        <note>083:Historische Kulturwissenschaften</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -5718,7 +5718,7 @@
                         <staffOnly>false</staffOnly>
                      </i>
                      <i>
-                        <note>MIN</note>
+                        <note>006:MIN</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -5769,7 +5769,7 @@
                         <staffOnly>false</staffOnly>
                      </i>
                      <i>
-                        <note>MIN LEHRBUCHSAMMLUNG</note>
+                        <note>006:MIN LEHRBUCHSAMMLUNG</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -6080,7 +6080,7 @@
                         <staffOnly>false</staffOnly>
                      </i>
                      <i>
-                        <note>MAG</note>
+                        <note>000:MAG</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -6399,7 +6399,7 @@
                         <staffOnly>false</staffOnly>
                      </i>
                      <i>
-                        <note>FB 4-40</note>
+                        <note>034:FB 4-40</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -6673,7 +6673,7 @@
                         <staffOnly>true</staffOnly>
                      </i>
                      <i>
-                        <note>Alte Geschichte / Separiert</note>
+                        <note>086:Alte Geschichte / Separiert</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -7238,7 +7238,7 @@
                         <staffOnly>false</staffOnly>
                      </i>
                      <i>
-                        <note>Katholische Theologie</note>
+                        <note>016:Katholische Theologie</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -7284,7 +7284,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Evangelische Theologie, Magazin</note>
+                        <note>016:Evangelische Theologie, Magazin</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -7609,7 +7609,7 @@
                         <staffOnly>false</staffOnly>
                      </i>
                      <i>
-                        <note>Turkologie</note>
+                        <note>080:Turkologie</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -8106,7 +8106,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Kunstgeschichte</note>
+                        <note>079:Kunstgeschichte</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -8169,7 +8169,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Mittlere und Neuere Geschichte</note>
+                        <note>088:Mittlere und Neuere Geschichte</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -8214,7 +8214,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Schrank</note>
+                        <note>111:Schrank</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -9155,7 +9155,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Erziehungswissenschaft</note>
+                        <note>002:Erziehungswissenschaft</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -10332,7 +10332,7 @@
                         <staffOnly>false</staffOnly>
                      </i>
                      <i>
-                        <note>FREIHAND</note>
+                        <note>000:FREIHAND</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -11026,7 +11026,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>LESESAAL</note>
+                        <note>000:LESESAAL</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -11072,7 +11072,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Filmwissenschaft</note>
+                        <note>002:Filmwissenschaft</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -11118,7 +11118,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Evangelische Theologie</note>
+                        <note>016:Evangelische Theologie</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -11169,7 +11169,7 @@
                         <staffOnly>true</staffOnly>
                      </i>
                      <i>
-                        <note>Lesesaal</note>
+                        <note>019:Lesesaal</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -11215,7 +11215,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Germanistik</note>
+                        <note>070:Germanistik</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -11261,7 +11261,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Germanistik</note>
+                        <note>070:Germanistik</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -11307,7 +11307,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Allgemeine und Vergleichende Literaturwissenschaft</note>
+                        <note>071:Allgemeine und Vergleichende Literaturwissenschaft</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -11353,7 +11353,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Kunstgeschichte</note>
+                        <note>079:Kunstgeschichte</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -11399,7 +11399,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Historische Kulturwissenschaften</note>
+                        <note>083:Historische Kulturwissenschaften</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -11792,7 +11792,7 @@
                         <staffOnly>false</staffOnly>
                      </i>
                      <i>
-                        <note>MAG</note>
+                        <note>000:MAG</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -11843,7 +11843,7 @@
                         <staffOnly>false</staffOnly>
                      </i>
                      <i>
-                        <note>Katholische Theologie</note>
+                        <note>016:Katholische Theologie</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -11895,7 +11895,7 @@
                         <staffOnly>false</staffOnly>
                      </i>
                      <i>
-                        <note>Evangelische Theologie, Magazin</note>
+                        <note>016:Evangelische Theologie, Magazin</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -12293,7 +12293,7 @@
                         <staffOnly>false</staffOnly>
                      </i>
                      <i>
-                        <note>Recht</note>
+                        <note>018:Recht</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -12355,7 +12355,7 @@
                         <staffOnly>false</staffOnly>
                      </i>
                      <i>
-                        <note>Lehrstuhl Kaiser</note>
+                        <note>020:Lehrstuhl Kaiser</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -13048,7 +13048,7 @@
                         <staffOnly>false</staffOnly>
                      </i>
                      <i>
-                        <note>ReWi LEHRBUCHSAMMLUNG</note>
+                        <note>018:ReWi LEHRBUCHSAMMLUNG</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -13132,7 +13132,7 @@
                         <staffOnly>false</staffOnly>
                      </i>
                      <i>
-                        <note>Recht</note>
+                        <note>018:Recht</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -13405,7 +13405,7 @@
                         <staffOnly>false</staffOnly>
                      </i>
                      <i>
-                        <note>Katholische Theologie</note>
+                        <note>016:Katholische Theologie</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -13456,7 +13456,7 @@
                         <staffOnly>false</staffOnly>
                      </i>
                      <i>
-                        <note>Evangelische Theologie, Magazin</note>
+                        <note>016:Evangelische Theologie, Magazin</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -13866,7 +13866,7 @@
                         <staffOnly>false</staffOnly>
                      </i>
                      <i>
-                        <note>LESESAAL</note>
+                        <note>000:LESESAAL</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -13912,7 +13912,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>LBS</note>
+                        <note>000:LBS</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -14255,7 +14255,7 @@
                         <staffOnly>false</staffOnly>
                      </i>
                      <i>
-                        <note>Allgemeine und Vergleichende Literaturwissenschaft</note>
+                        <note>071:Allgemeine und Vergleichende Literaturwissenschaft</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -14801,7 +14801,7 @@
                         <staffOnly>false</staffOnly>
                      </i>
                      <i>
-                        <note>FREIHAND</note>
+                        <note>000:FREIHAND</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -15498,7 +15498,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>LESESAAL</note>
+                        <note>000:LESESAAL</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -15544,7 +15544,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Filmwissenschaft</note>
+                        <note>002:Filmwissenschaft</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -15590,7 +15590,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Evangelische Theologie</note>
+                        <note>016:Evangelische Theologie</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -15641,7 +15641,7 @@
                         <staffOnly>true</staffOnly>
                      </i>
                      <i>
-                        <note>Lesesaal</note>
+                        <note>019:Lesesaal</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -15693,7 +15693,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Germanistik</note>
+                        <note>070:Germanistik</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -15739,7 +15739,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Germanistik</note>
+                        <note>070:Germanistik</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -15785,7 +15785,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Allgemeine und Vergleichende Literaturwissenschaft</note>
+                        <note>071:Allgemeine und Vergleichende Literaturwissenschaft</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -15831,7 +15831,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Kunstgeschichte</note>
+                        <note>079:Kunstgeschichte</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -15877,7 +15877,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Historische Kulturwissenschaften</note>
+                        <note>083:Historische Kulturwissenschaften</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -17009,7 +17009,7 @@
                         <staffOnly>false</staffOnly>
                      </i>
                      <i>
-                        <note>MAG</note>
+                        <note>000:MAG</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -17055,7 +17055,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>LBS</note>
+                        <note>000:LBS</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -17462,7 +17462,7 @@
                         <staffOnly>false</staffOnly>
                      </i>
                      <i>
-                        <note>Handapparat Chinesisch</note>
+                        <note>019:Handapparat Chinesisch</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -17874,7 +17874,7 @@
                         <staffOnly>false</staffOnly>
                      </i>
                      <i>
-                        <note>ReWi LEHRBUCHSAMMLUNG</note>
+                        <note>018:ReWi LEHRBUCHSAMMLUNG</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -17986,7 +17986,7 @@
                         <staffOnly>false</staffOnly>
                      </i>
                      <i>
-                        <note>Recht</note>
+                        <note>018:Recht</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -18225,7 +18225,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>RARA</note>
+                        <note>000:RARA</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -18522,7 +18522,7 @@
                         <staffOnly>false</staffOnly>
                      </i>
                      <i>
-                        <note>UM FREIHAND</note>
+                        <note>000:UM FREIHAND</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -18844,7 +18844,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Kunstgeschichte</note>
+                        <note>079:Kunstgeschichte</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -19561,7 +19561,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Magazin</note>
+                        <note>019:Magazin</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -19955,7 +19955,7 @@
                         <staffOnly>false</staffOnly>
                      </i>
                      <i>
-                        <note>Turkologie</note>
+                        <note>080:Turkologie</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -20362,7 +20362,7 @@
                         <staffOnly>false</staffOnly>
                      </i>
                      <i>
-                        <note>UM LESESAAL</note>
+                        <note>005:UM LESESAAL</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -20413,7 +20413,7 @@
                         <staffOnly>false</staffOnly>
                      </i>
                      <i>
-                        <note>UM LBS</note>
+                        <note>005:UM LBS</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -21163,7 +21163,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>LESESAAL</note>
+                        <note>000:LESESAAL</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -21209,7 +21209,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Filmwissenschaft</note>
+                        <note>002:Filmwissenschaft</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -21255,7 +21255,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Evangelische Theologie</note>
+                        <note>016:Evangelische Theologie</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -21306,7 +21306,7 @@
                         <staffOnly>true</staffOnly>
                      </i>
                      <i>
-                        <note>Lesesaal</note>
+                        <note>019:Lesesaal</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -21352,7 +21352,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Germanistik</note>
+                        <note>070:Germanistik</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -21398,7 +21398,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Germanistik</note>
+                        <note>070:Germanistik</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -21444,7 +21444,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Allgemeine und Vergleichende Literaturwissenschaft</note>
+                        <note>071:Allgemeine und Vergleichende Literaturwissenschaft</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -21490,7 +21490,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Kunstgeschichte</note>
+                        <note>079:Kunstgeschichte</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -21536,7 +21536,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Historische Kulturwissenschaften</note>
+                        <note>083:Historische Kulturwissenschaften</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -21866,7 +21866,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Mittlere und Neuere Geschichte</note>
+                        <note>088:Mittlere und Neuere Geschichte</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -22441,7 +22441,7 @@
                         <staffOnly>false</staffOnly>
                      </i>
                      <i>
-                        <note>Evanglische Theologie</note>
+                        <note>016:Evanglische Theologie</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -22813,7 +22813,7 @@
                         <staffOnly>false</staffOnly>
                      </i>
                      <i>
-                        <note>MIN / HANDAPPARAT AK BIOPHARM./PHARMAZ. TECHN.</note>
+                        <note>006:MIN / HANDAPPARAT AK BIOPHARM./PHARMAZ. TECHN.</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -22869,7 +22869,7 @@
                         <staffOnly>false</staffOnly>
                      </i>
                      <i>
-                        <note>MIN</note>
+                        <note>006:MIN</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -23489,7 +23489,7 @@
                         <staffOnly>false</staffOnly>
                      </i>
                      <i>
-                        <note>UM LESESAAL</note>
+                        <note>005:UM LESESAAL</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -23546,7 +23546,7 @@
                         <staffOnly>false</staffOnly>
                      </i>
                      <i>
-                        <note>UM LBS (41V CHIRURGIE-MKG)</note>
+                        <note>005:UM LBS (41V CHIRURGIE-MKG)</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -23729,7 +23729,7 @@
                         <staffOnly>false</staffOnly>
                      </i>
                      <i>
-                        <note>UM LBS (41V CHIRURGIE-MKG)</note>
+                        <note>005:UM LBS (41V CHIRURGIE-MKG)</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -23907,7 +23907,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Zahnklinik</note>
+                        <note>054:Zahnklinik</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -24085,7 +24085,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Zahnklinik</note>
+                        <note>054:Zahnklinik</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -24131,7 +24131,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Zahnklinik</note>
+                        <note>054:Zahnklinik</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -24480,7 +24480,7 @@
                         <staffOnly>false</staffOnly>
                      </i>
                      <i>
-                        <note>Freihand / Chinesisch</note>
+                        <note>019:Freihand / Chinesisch</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -24787,7 +24787,7 @@
                         <staffOnly>false</staffOnly>
                      </i>
                      <i>
-                        <note>MIN / UG</note>
+                        <note>006:MIN / UG</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -25480,7 +25480,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>LESESAAL</note>
+                        <note>000:LESESAAL</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -25526,7 +25526,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Filmwissenschaft</note>
+                        <note>002:Filmwissenschaft</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -25572,7 +25572,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Evangelische Theologie</note>
+                        <note>016:Evangelische Theologie</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -25623,7 +25623,7 @@
                         <staffOnly>true</staffOnly>
                      </i>
                      <i>
-                        <note>Lesesaal</note>
+                        <note>019:Lesesaal</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -25675,7 +25675,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Germanistik</note>
+                        <note>070:Germanistik</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -25721,7 +25721,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Germanistik</note>
+                        <note>070:Germanistik</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -25767,7 +25767,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Allgemeine und Vergleichende Literaturwissenschaft</note>
+                        <note>071:Allgemeine und Vergleichende Literaturwissenschaft</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -25813,7 +25813,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Kunstgeschichte</note>
+                        <note>079:Kunstgeschichte</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -25859,7 +25859,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Historische Kulturwissenschaften</note>
+                        <note>083:Historische Kulturwissenschaften</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -26754,7 +26754,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>RARA</note>
+                        <note>000:RARA</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -27805,7 +27805,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Magazin</note>
+                        <note>019:Magazin</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -27858,7 +27858,7 @@
                <notes>
                   <arr>
                      <i>
-                        <note>Romanistik</note>
+                        <note>074:Romanistik</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -28493,7 +28493,7 @@
                         <staffOnly>false</staffOnly>
                      </i>
                      <i>
-                        <note>LBS</note>
+                        <note>000:LBS</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -29166,7 +29166,7 @@
                         <staffOnly>false</staffOnly>
                      </i>
                      <i>
-                        <note>UM FREIHAND</note>
+                        <note>005:UM FREIHAND</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
@@ -29217,7 +29217,7 @@
                         <staffOnly>false</staffOnly>
                      </i>
                      <i>
-                        <note>UM LESESAAL</note>
+                        <note>005:UM LESESAAL</note>
                         <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>

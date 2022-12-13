@@ -155,9 +155,16 @@
     </discoverySuppress>
   </xsl:template>
 
-  <!--  <xsl:template match="holdingsNoteTypeId">
-        
-  </xsl:template> -->
+  <xsl:template match="i[holdingsNoteTypeId='Standort (8201)']">
+    <xsl:variable name="i" select="key('original',../../../permanentLocationId)"/>
+    <xsl:variable name="abt" select="$i/datafield[@tag='209A']/subfield[@code='f']"/>
+    <i>
+      <note>
+        <xsl:value-of select="concat($abt,':',./note)"/> <!-- test string, needs to be developed -->
+      </note>
+      <xsl:copy-of select="*[name(.)!='note']"/>
+    </i>
+  </xsl:template>
 
 <!-- Parsing call number for prefix - optional -->
 
@@ -193,7 +200,6 @@
             </xsl:when>
           </xsl:choose>
         </xsl:variable>
-        <xsl:message>Debug: <xsl:value-of select="callNumber"/> Prefix "<xsl:value-of select="$cnprefix"/>"</xsl:message>
         <xsl:if test="string-length($cnprefix)>0">
           <callNumberPrefix>
             <xsl:value-of select="normalize-space(translate($cnprefix,'@',''))"/>
