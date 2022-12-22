@@ -13,7 +13,6 @@
 
   <xsl:template match="permanentLocationId">
     <xsl:variable name="i" select="key('original',.)"/>
-    <!-- UB Mainz 209A$f/209G$a -->
     <xsl:variable name="abt" select="$i/datafield[@tag='209A']/subfield[@code='f']"/>
     <xsl:variable name="standort" select="$i/datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']"/> 
     <xsl:variable name="electronicholding" select="(substring($i/../datafield[@tag='002@']/subfield[@code='0'],1,1) = 'O') and not(substring($i/datafield[@tag='208@']/subfield[@code='b'],1,1) = 'a')"/>
@@ -23,9 +22,9 @@
          <xsl:when test="substring($i/datafield[@tag='208@']/subfield[@code='b'],1,1) = 'd'">DUMMY</xsl:when>
          <xsl:when test="$abt='000'">
            <xsl:choose>
-             <xsl:when test="$standort='FREIHAND'">ZBFREI</xsl:when>
-             <xsl:when test="$standort='LBS'">ZBLBS</xsl:when>
-             <xsl:when test="$standort='LESESAAL'">ZBLS</xsl:when>
+             <xsl:when test="contains($standort,'FREIHAND')">ZBFREI</xsl:when>
+             <xsl:when test="contains($standort,'LESESAAL')">ZBLS</xsl:when>
+               <xsl:when test="contains($standort,'LBS')">ZBLBS</xsl:when>
              <xsl:when test="contains($standort,'RARA')">ZBRARA</xsl:when>
              <xsl:otherwise>ZBMAG</xsl:otherwise>
            </xsl:choose>
@@ -59,7 +58,7 @@
          <xsl:when test="$abt='009'">FBMPI</xsl:when>	
          <xsl:when test="$abt='016'">
            <xsl:choose>
-             <xsl:when test="contains($standort,'Rara')">THRARA</xsl:when>
+             <xsl:when test="contains($standort,'Magazin') or contains($standort,'Rara')">THRARA</xsl:when>
              <xsl:when test="contains($standort,'LEHRBUCH')">THLBS</xsl:when>
              <xsl:otherwise>TH</xsl:otherwise>
            </xsl:choose>
@@ -156,47 +155,61 @@
     </discoverySuppress>
   </xsl:template>
 
+  <xsl:template match="i[holdingsNoteTypeId='Standort (8201)']">
+    <xsl:variable name="i" select="key('original',../../../permanentLocationId)"/>
+    <xsl:variable name="abt" select="$i/datafield[@tag='209A']/subfield[@code='f']"/>
+    <i>
+      <note>
+        <xsl:value-of select="concat($abt,':',./note)"/> <!-- test string, needs to be developed -->
+      </note>
+      <xsl:copy-of select="*[name(.)!='note']"/>
+    </i>
+  </xsl:template>
+
 <!-- Parsing call number for prefix - optional -->
 
-  <xsl:template name="prefix">
-    <xsl:param name="cn"/>
-    <xsl:param name="cnprefixelement"/>
-    <xsl:param name="cnelement"/>
-    <xsl:variable name="cnprefix">
-      <xsl:choose>
-        <xsl:when test="contains($cn,'°')">
-          <xsl:value-of select="concat(substring-before($cn,'°'),'°')"/>
-        </xsl:when>
-        <xsl:when test="contains($cn,'@')">
-          <xsl:value-of select="substring-before($cn,'@')"/> 
-        </xsl:when>
-      </xsl:choose>
-    </xsl:variable>
-    <xsl:message>Debug: <xsl:value-of select="$cnelement"/> Prefix "<xsl:value-of select="$cnprefix"/>"</xsl:message>
-    <xsl:if test="string-length($cnprefix)>0">
-      <xsl:element name="{$cnprefixelement}">
-        <xsl:value-of select="normalize-space(translate($cnprefix,'@',''))"/>
-      </xsl:element>
-    </xsl:if>
-    <xsl:element name="{$cnelement}">
-      <xsl:value-of select="normalize-space(translate(substring-after($cn,$cnprefix),'@',''))"/>
-    </xsl:element>
-  </xsl:template>
-
   <xsl:template match="callNumber">
-      <xsl:call-template name="prefix">
-        <xsl:with-param name="cn" select="."/>
-        <xsl:with-param name="cnprefixelement" select="'callNumberPrefix'"/>
-        <xsl:with-param name="cnelement" select="'callNumber'"/>
-      </xsl:call-template>
-  </xsl:template>
-  
-  <xsl:template match="itemLevelCallNumber">
-    <xsl:call-template name="prefix">
-      <xsl:with-param name="cn" select="."/>
-      <xsl:with-param name="cnprefixelement" select="'itemLevelCallNumberPrefix'"/>
-      <xsl:with-param name="cnelement" select="'itemLevelCallNumber'"/>
-    </xsl:call-template>
-  </xsl:template>
+    <xsl:variable name="i" select="key('original',../permanentLocationId)"/>
+    <xsl:variable name="abt" select="$i/datafield[@tag='209A']/subfield[@code='f']"/>
+    <xsl:choose>
+      <xsl:when test="$abt=('016') and (starts-with(., 'THEMAG ') or starts-with(., 'THERARA '))">
+        <callNumberPrefix>
+          <xsl:value-of select="substring-before(.,' ')"/>
+        </callNumberPrefix>
+        <callNumber>
+          <xsl:value-of select="substring-after(.,' ')"/>
+        </callNumber>
+      </xsl:when>
+      <xsl:when test="$abt=('000') and starts-with(., 'RARA ')">
+        <callNumberPrefix>
+          <xsl:value-of select="substring-before(.,' ')"/>
+        </callNumberPrefix>
+        <callNumber>
+          <xsl:value-of select="substring-after(.,' ')"/>
+        </callNumber>
+      </xsl:when>
+     
+      <xsl:otherwise>
+        <xsl:variable name="cnprefix">
+          <xsl:choose>
+            <xsl:when test="contains(.,'°')">
+              <xsl:value-of select="concat(substring-before(.,'°'),'°')"/>
+            </xsl:when>
+            <xsl:when test="contains(.,'@')">
+              <xsl:value-of select="substring-before(.,'@')"/> 
+            </xsl:when>
+          </xsl:choose>
+        </xsl:variable>
+        <xsl:if test="string-length($cnprefix)>0">
+          <callNumberPrefix>
+            <xsl:value-of select="normalize-space(translate($cnprefix,'@',''))"/>
+          </callNumberPrefix>
+        </xsl:if>
+        <callNumber>
+          <xsl:value-of select="normalize-space(translate(substring-after(.,$cnprefix),'@',''))"/>
+        </callNumber>
+      </xsl:otherwise>
+    </xsl:choose>
+   </xsl:template>
 
 </xsl:stylesheet>

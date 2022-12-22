@@ -46,9 +46,9 @@
 
   <xsl:template match="item">
     <i>
-      <xsl:variable name="hhrid" select="datafield[@tag='203@']/subfield[@code='0']"/>
+      <xsl:variable name="epn" select="datafield[@tag='203@']/subfield[@code='0']"/>
       <hrid>
-        <xsl:value-of select="$hhrid"/>
+        <xsl:value-of select="$epn"/>
       </hrid>
       <permanentLocationId>
         <xsl:call-template name="lcode"/>
@@ -95,9 +95,39 @@
   	    </xsl:if>
       </holdingsStatements>
       
-      <!-- Lokale Schluessel: moved to holding -->
       <notes>
         <arr>
+          <xsl:for-each select="datafield[@tag='220B' or @tag='220C' or @tag='220E' or @tag='237A']">
+            <xsl:if test="./subfield[@code='a'] or ./subfield[@code='0']">
+              <i>
+                <note>
+                  <xsl:value-of select="./subfield[@code='a'] | ./subfield[@code='0']"/>
+                </note>
+                <holdingsNoteTypeId>Note</holdingsNoteTypeId>
+                <staffOnly>
+                  <xsl:value-of select="./@tag!='237A'"/>
+                </staffOnly>
+              </i>
+            </xsl:if>
+          </xsl:for-each>
+          <xsl:for-each select="datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']"> <!-- local adaptions -->
+            <i>
+              <note>
+                <xsl:value-of select="."/>
+              </note>
+              <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
+              <staffOnly>false</staffOnly>
+            </i>             
+          </xsl:for-each>
+          <xsl:if test="datafield[@tag='247D']">
+            <i>
+              <note>
+                <xsl:value-of select="datafield[@tag='247D']/subfield[@code='a']"/>
+              </note>
+              <holdingsNoteTypeId>Text zur Ausleihbarkeit</holdingsNoteTypeId>
+              <staffOnly>false</staffOnly>
+            </i>
+          </xsl:if>
           <xsl:for-each select="datafield[@tag='209B' and not(subfield[@code='x']='01' or subfield[@code='x']='02')]">
             <i>
               <note>
@@ -161,23 +191,33 @@
       <xsl:if test="not($electronicholding)">
          <items>
            <arr>
-            <xsl:choose>
-              <xsl:when test="(datafield[(@tag='209G') and (subfield[@code='x']='00')]/subfield[@code='a'])[2]">
-                <xsl:for-each select="datafield[(@tag='209G') and (subfield[@code='x']='00')]/subfield[@code='a']">
-                  <xsl:message>Debug: <xsl:value-of select="."/></xsl:message>
-                  <xsl:apply-templates select="../.." mode="make-item">
-                  <xsl:with-param name="hhrid" select="concat($hhrid, '-', substring-before(.,' '))"/>
-                  <xsl:with-param name="bcode" select="substring-before(.,' ')"/>
-                  <xsl:with-param name="copy" select="substring-before(substring-after(.,'('),')')"/>
-                  </xsl:apply-templates>
-                </xsl:for-each>
-              </xsl:when>
-              <xsl:otherwise>
-                <xsl:apply-templates select="." mode="make-item">
-                  <xsl:with-param name="hhrid" select="$hhrid"/> <!-- TBD? -->
-                </xsl:apply-templates>
-                </xsl:otherwise>
-             </xsl:choose>          
+             <xsl:for-each select="datafield[(@tag='209G') and (subfield[@code='x']='00')]/subfield[@code='a']">
+               <xsl:message>Debug: <xsl:value-of select="."/></xsl:message>
+               <xsl:variable name="copy">
+                 <xsl:choose>
+                   <xsl:when test="contains(.,'(')">
+                     <xsl:value-of select="translate(substring-before(substring-after(.,'('),')'),' .,','')"/>
+                   </xsl:when>
+                   <xsl:otherwise>
+                     <xsl:value-of select="position()"/>
+                   </xsl:otherwise>
+                 </xsl:choose>
+               </xsl:variable>
+               <xsl:message>Debug: <xsl:value-of select="concat($epn,'-',$copy)"/></xsl:message>             
+               <xsl:apply-templates select="../.." mode="make-item">
+                 <xsl:with-param name="hhrid" select="concat($epn,'-',$copy)"/>
+                 <xsl:with-param name="bcode" select="substring-before(concat(.,' '),' ')"/>
+                 <xsl:with-param name="copy">
+                   <xsl:if test="last()>1"><xsl:value-of select="$copy"/></xsl:if>
+                 </xsl:with-param>
+               </xsl:apply-templates>
+             </xsl:for-each>
+             <xsl:if test="not(datafield[(@tag='209G') and (subfield[@code='x']='00')]/subfield[@code='a'])">
+               <xsl:message>Debug: EPN <xsl:value-of select="$epn"/></xsl:message>             
+               <xsl:apply-templates select="." mode="make-item">
+                 <xsl:with-param name="hhrid" select="concat($epn,'-1')"/>
+               </xsl:apply-templates>
+             </xsl:if>
            </arr>
          </items>
       </xsl:if>
@@ -215,8 +255,8 @@
  
   <xsl:template match="item" mode="make-item">
     <xsl:param name="hhrid"/>
-    <xsl:param name="bcode" select="substring-before(concat(datafield[(@tag='209G') and (subfield[@code='x']='00')]/subfield[@code='a'],' '),' ')"/>
-    <xsl:param name="copy" select="''"/> <!-- oder kann hier eine copy-Information kommen? -->
+    <xsl:param name="bcode"/>
+    <xsl:param name="copy"/>
     <i>
       <hrid>
         <xsl:value-of select="$hhrid"/>
@@ -258,9 +298,6 @@
           </xsl:choose>
         </name>
       </status>
-      <itemLevelCallNumber>
-        <xsl:value-of select="datafield[@tag='209A']/subfield[@code='a']"/>
-      </itemLevelCallNumber>
       <barcode>
         <xsl:value-of select="$bcode"/>
       </barcode>
@@ -299,43 +336,14 @@
           <xsl:if test="position()=last() and ./@code='j' and ../subfield[@code='6']">-</xsl:if>
         </xsl:for-each>
       </chronology>
-      <xsl:if test="datafield[@tag='220B' or @tag='220C' or @tag='220E' or @tag='237A' or @tag='247D']">
+
+      <!-- no notes on item level 
         <notes>
           <arr>
-            <xsl:for-each select="datafield[@tag='220B' or @tag='220C' or @tag='220E' or @tag='237A']">
-              <xsl:if test="./subfield[@code='a'] or ./subfield[@code='0']">
-                <i>
-                  <note>
-                    <xsl:value-of select="./subfield[@code='a'] | ./subfield[@code='0']"/>
-                  </note>
-                  <itemNoteTypeId>Note</itemNoteTypeId>
-                  <staffOnly>
-                    <xsl:value-of select="./@tag!='237A'"/>
-                  </staffOnly>
-                </i>
-              </xsl:if>
-            </xsl:for-each>
-            <xsl:if test="datafield[@tag='247D']">
-              <i>
-                <note>
-                  <xsl:value-of select="datafield[@tag='247D']/subfield[@code='a']"/>
-                </note>
-                <itemNoteTypeId>Text zur Ausleihbarkeit</itemNoteTypeId>
-                <staffOnly>false</staffOnly>
-              </i>
-            </xsl:if>
-            <xsl:for-each select="datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']">
-                <i>
-                  <note>
-                    <xsl:value-of select="."/>
-                  </note>
-                  <itemNoteTypeId>Standort (8201)</itemNoteTypeId>
-                  <staffOnly>false</staffOnly>
-                </i>             
-            </xsl:for-each>
+
           </arr>
-        </notes>
-      </xsl:if>
+        </notes>  -->
+      
       <!-- No item for electronic access in hebis -->
       <accessionNumber>
         <xsl:for-each select="datafield[@tag='209C']">
