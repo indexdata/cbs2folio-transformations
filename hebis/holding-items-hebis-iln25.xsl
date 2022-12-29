@@ -31,13 +31,13 @@
          </xsl:when>
          <xsl:when test="$abt='002'">
            <xsl:choose>
-             <xsl:when test="$standort='Erziehungswissenschaft'">GFGPÄD</xsl:when>
-             <xsl:when test="$standort='Filmwissenschaft'">GFGFILM</xsl:when>
-             <xsl:when test="$standort='Journalistik'">GFGJOUR</xsl:when>
-             <xsl:when test="$standort='Politikwissenschaft'">GFGPOL</xsl:when>
-             <xsl:when test="$standort='Psychologie'">GFGPSYCH</xsl:when>
-             <xsl:when test="$standort='Publizistik'">GFGPUB</xsl:when>
-             <xsl:when test="$standort='Soziologie'">GFGSOZ</xsl:when>
+             <xsl:when test="contains($standort,'Erziehungswissenschaft')">GFGPÄD</xsl:when>
+             <xsl:when test="contains($standort,'Filmwissenschaft')">GFGFILM</xsl:when>
+             <xsl:when test="contains($standort,'Journalistik')">GFGJOUR</xsl:when>
+             <xsl:when test="contains($standort,'Politikwissenschaft')">GFGPOL</xsl:when>
+             <xsl:when test="contains($standort,'Psychologie')">GFGPSYCH</xsl:when>
+             <xsl:when test="contains($standort,'Publizistik')">GFGPUB</xsl:when>
+             <xsl:when test="contains($standort,'Soziologie')">GFGSOZ</xsl:when>
              <xsl:otherwise>GFGPÄD</xsl:otherwise>
            </xsl:choose>
          </xsl:when>
