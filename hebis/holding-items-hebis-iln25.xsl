@@ -176,7 +176,8 @@
     <xsl:variable name="i" select="key('original',../permanentLocationId)"/>
     <xsl:variable name="abt" select="$i/datafield[@tag='209A']/subfield[@code='f']"/>
     <xsl:choose>
-      <xsl:when test="$abt=('016') and (starts-with(., 'THEMAG ') or starts-with(., 'THERARA '))">
+      <xsl:when test="($abt=('016') and (starts-with(., 'THEMAG ') or starts-with(., 'THERARA '))) or 
+        ($abt=('000') and starts-with(., 'RARA '))">
         <callNumberPrefix>
           <xsl:value-of select="substring-before(.,' ')"/>
         </callNumberPrefix>
@@ -184,15 +185,6 @@
           <xsl:value-of select="substring-after(.,' ')"/>
         </callNumber>
       </xsl:when>
-      <xsl:when test="$abt=('000') and starts-with(., 'RARA ')">
-        <callNumberPrefix>
-          <xsl:value-of select="substring-before(.,' ')"/>
-        </callNumberPrefix>
-        <callNumber>
-          <xsl:value-of select="substring-after(.,' ')"/>
-        </callNumber>
-      </xsl:when>
-     
       <xsl:otherwise>
         <xsl:variable name="cnprefix">
           <xsl:choose>
