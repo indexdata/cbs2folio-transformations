@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection>
+  <record>
+    <processing>
+      <item>
+        <status>
+          <policy>overwrite</policy>
+          <ifStatusWas>
+            <arr>
+              <i>
+                <name>On order</name>
+              </i>
+            </arr>
+          </ifStatusWas>
+        </status>
+      </item>
+    </processing>
+    <original>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">0004:22-04-03</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Aau</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">109962869</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">52134322</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">3476019616</subfield>
+        <subfield code="f"> Pp. : EUR 149.95, sfr 240.00</subfield>
+      </datafield>
+      <datafield tag="004L" fulltag="004L">
+        <subfield code="0">9783476019615</subfield>
+      </datafield>
+      <datafield tag="006G" fulltag="006G">
+        <subfield code="0">965954803</subfield>
+      </datafield>
+      <datafield tag="006T" fulltag="006T">
+        <subfield code="0">03,N05,2892</subfield>
+      </datafield>
+      <datafield tag="006U" fulltag="006U">
+        <subfield code="0">03,A24,1733</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">HEB</subfield>
+        <subfield code="0">109962869</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2003</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">104814519</subfield>
+        <subfield code="a">Bibliografie</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Ernst Jünger-Bibliographie</subfield>
+        <subfield code="d">wissenschaftliche und essayistische Beiträge zu seinem Werk (1928-2002)</subfield>
+        <subfield code="h">Nicolai Riedel</subfield>
+      </datafield>
+      <datafield tag="028A" fulltag="028A">
+        <subfield code="9">208876235</subfield>
+        <subfield code="a">Riedel</subfield>
+        <subfield code="d">Nicolai</subfield>
+        <subfield code="h">1952-</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Stuttgart {[u.a.]</subfield>
+        <subfield code="n">Metzler</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">XII, 383 S.</subfield>
+      </datafield>
+      <datafield tag="036E" fulltag="036E">
+        <subfield code="a">@Personalbibliographien zur neueren deutschen Literatur</subfield>
+        <subfield code="l">5</subfield>
+      </datafield>
+      <item epn="184727820">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">05-08-22</subfield>
+          <subfield code="t">11:26:59.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="01" fulltag="201C/01">
+          <subfield code="0">10-06-03</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">184727820</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">22-07-03</subfield>
+          <subfield code="b">z</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">BAp 27,Jünger 2003</subfield>
+          <subfield code="f">000</subfield>
+          <subfield code="d">u</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">21.872.68</subfield>
+          <subfield code="h">21 872 68</subfield>
+          <subfield code="x">09</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">21872687</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="245S" occurrence="01" fulltag="245S/01">
+          <subfield code="a">15000</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="01" fulltag="247C/01">
+          <subfield code="9">102596697</subfield>
+          <subfield code="8">Universität Gießen, Universitätsbibliothek Gießen</subfield>
+        </datafield>
+      </item>
+    </original>
+    <instance>
+      <source>K10plus</source>
+      <hrid>109962869</hrid>
+      <statusUpdatedDate>2003-04-22</statusUpdatedDate>
+      <statusId>Autopsie</statusId>
+      <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
+      <instanceTypeId>a2c91e87-6bab-44d6-8adb-1fd02481fc4f</instanceTypeId>
+      <instanceFormatIds>
+        <arr/>
+      </instanceFormatIds>
+      <identifiers>
+        <arr>
+          <i>
+            <value>109962869</value>
+            <identifierTypeId>PPN</identifierTypeId>
+          </i>
+          <i>
+            <value>52134322</value>
+            <identifierTypeId>OCLC</identifierTypeId>
+          </i>
+          <i>
+            <value>3476019616  Pp. : EUR 149.95, sfr 240.00</value>
+            <identifierTypeId>ISBN</identifierTypeId>
+          </i>
+          <i>
+            <value>9783476019615</value>
+            <identifierTypeId>GTIN (vormals EAN)</identifierTypeId>
+          </i>
+          <i>
+            <value>965954803</value>
+            <identifierTypeId>DNB-Nummer</identifierTypeId>
+          </i>
+          <i>
+            <value>03,N05,2892</value>
+            <identifierTypeId>CIP-Nummer</identifierTypeId>
+          </i>
+          <i>
+            <value>03,A24,1733</value>
+            <identifierTypeId>WV-Nummer</identifierTypeId>
+          </i>
+          <i>
+            <value>HEB: 109962869</value>
+            <identifierTypeId>Identnummer der erstkatalogisierenden Institution</identifierTypeId>
+          </i>
+        </arr>
+      </identifiers>
+      <indexTitle>Ernst Jünger-Bibliographie wissenschaftliche und essayistische Beiträge zu seinem Werk (1928-2002) Nicolai Riedel</indexTitle>
+      <title>Ernst Jünger-Bibliographie : wissenschaftliche und essayistische Beiträge zu seinem Werk (1928-2002) / Nicolai Riedel</title>
+      <contributors>
+        <arr>
+          <i>
+            <name>Riedel, Nicolai</name>
+            <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+            <primary>true</primary>
+          </i>
+        </arr>
+      </contributors>
+      <publication>
+        <arr>
+          <i>
+            <place>Stuttgart {[u.a.]</place>
+            <publisher>Metzler</publisher>
+            <dateOfPublication>2003</dateOfPublication>
+            <role>Publisher</role>
+          </i>
+        </arr>
+      </publication>
+      <electronicAccess>
+        <arr/>
+      </electronicAccess>
+      <natureOfContentTermIds>
+        <arr>
+          <i>f5908d05-b16a-49cf-b192-96d55a94a0d1</i>
+        </arr>
+      </natureOfContentTermIds>
+      <languages>
+        <arr>
+          <i>ger</i>
+        </arr>
+      </languages>
+      <series>
+        <arr>
+          <i>@Personalbibliographien zur neueren deutschen Literatur</i>
+        </arr>
+      </series>
+      <physicalDescriptions>
+        <arr>
+          <i>XII, 383 S.</i>
+        </arr>
+      </physicalDescriptions>
+    </instance>
+    <instanceRelations/>
+  </record>
+  <record>
+    <processing>
+      <item>
+        <status>
+          <policy>overwrite</policy>
+          <ifStatusWas>
+            <arr>
+              <i>
+                <name>On order</name>
+              </i>
+            </arr>
+          </ifStatusWas>
+        </status>
+      </item>
+    </processing>
+    <original>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">0004:03-12-03</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Afu</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">116105488</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">615159188</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">3935004923</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">HEB</subfield>
+        <subfield code="0">116105488</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+        <subfield code="a">spa</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2003</subfield>
+      </datafield>
+      <datafield tag="028A" fulltag="028A">
+        <subfield code="9">139867201</subfield>
+        <subfield code="a">Reichenberger</subfield>
+        <subfield code="d">Kurt</subfield>
+        <subfield code="h">1922-2008</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">146368800</subfield>
+        <subfield code="a">Reichenberger</subfield>
+        <subfield code="d">Roswitha</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Kassel</subfield>
+        <subfield code="n">Thiele &amp; Schwarz</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">S. 606 -1148</subfield>
+      </datafield>
+      <datafield tag="036C" fulltag="036C">
+        <subfield code="a">Bibliographisches Handbuch der Calderón-Forschung</subfield>
+        <subfield code="f">Manual bibliográfico Calderoniano</subfield>
+        <subfield code="h">Kurt u. Roswitha Reichenberger</subfield>
+      </datafield>
+      <datafield tag="036C" occurrence="01" fulltag="036C/01">
+        <subfield code="x">12,12</subfield>
+        <subfield code="m">Teil 2</subfield>
+        <subfield code="a">Die @Literatur über Calderón und seine Werke</subfield>
+        <subfield code="d">1680 - 1980</subfield>
+        <subfield code="f">Los @estudios sobre Calderón y su obra</subfield>
+        <subfield code="h">[Kurt und Roswitha Reichenberger]</subfield>
+        <subfield code="l">2</subfield>
+      </datafield>
+      <datafield tag="036D" fulltag="036D">
+        <subfield code="9">019838999</subfield>
+        <subfield code="8">Bibliographisches Handbuch der Calderón-Forschung = Manual bibliográfico Calderoniano / Kurt u. Roswitha Reichenberger</subfield>
+      </datafield>
+      <datafield tag="046L" fulltag="046L">
+        <subfield code="a">Text dt. und span.</subfield>
+      </datafield>
+      <item epn="21028126X">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">05-08-22</subfield>
+          <subfield code="t">11:26:58.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="01" fulltag="201C/01">
+          <subfield code="0">04-03-04</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">21028126X</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">04-05-04</subfield>
+          <subfield code="b">zUB</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">BAp 27,Calderon de la Barca-2,2</subfield>
+          <subfield code="f">000</subfield>
+          <subfield code="d">u</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">4o 20.487.57-2,2</subfield>
+          <subfield code="h">20 487 57 / B 2 2</subfield>
+          <subfield code="x">09</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">60535647</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="245S" occurrence="01" fulltag="245S/01">
+          <subfield code="a">20000</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="01" fulltag="247C/01">
+          <subfield code="9">102596697</subfield>
+          <subfield code="8">Universität Gießen, Universitätsbibliothek Gießen</subfield>
+        </datafield>
+      </item>
+    </original>
+    <instance>
+      <source>K10plus</source>
+      <hrid>116105488</hrid>
+      <statusUpdatedDate>2003-12-03</statusUpdatedDate>
+      <statusId>Autopsie</statusId>
+      <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
+      <instanceTypeId>a2c91e87-6bab-44d6-8adb-1fd02481fc4f</instanceTypeId>
+      <instanceFormatIds>
+        <arr/>
+      </instanceFormatIds>
+      <identifiers>
+        <arr>
+          <i>
+            <value>116105488</value>
+            <identifierTypeId>PPN</identifierTypeId>
+          </i>
+          <i>
+            <value>615159188</value>
+            <identifierTypeId>OCLC</identifierTypeId>
+          </i>
+          <i>
+            <value>3935004923</value>
+            <identifierTypeId>ISBN</identifierTypeId>
+          </i>
+          <i>
+            <value>HEB: 116105488</value>
+            <identifierTypeId>Identnummer der erstkatalogisierenden Institution</identifierTypeId>
+          </i>
+        </arr>
+      </identifiers>
+      <indexTitle>Bibliographisches Handbuch der Calderón-Forschung Kurt u. Roswitha Reichenberger</indexTitle>
+      <title>Bibliographisches Handbuch der Calderón-Forschung = Manual bibliográfico Calderoniano / Kurt u. Roswitha Reichenberger</title>
+      <contributors>
+        <arr>
+          <i>
+            <name>Reichenberger, Kurt</name>
+            <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+            <primary>true</primary>
+          </i>
+          <i>
+            <name>Reichenberger, Roswitha</name>
+            <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+          </i>
+        </arr>
+      </contributors>
+      <publication>
+        <arr>
+          <i>
+            <place>Kassel</place>
+            <publisher>Thiele &amp; Schwarz</publisher>
+            <dateOfPublication>2003</dateOfPublication>
+            <role>Publisher</role>
+          </i>
+        </arr>
+      </publication>
+      <electronicAccess>
+        <arr/>
+      </electronicAccess>
+      <notes>
+        <arr>
+          <i>
+            <note>Text dt. und span.</note>
+            <instanceNoteTypeId>Language note</instanceNoteTypeId>
+          </i>
+        </arr>
+      </notes>
+      <languages>
+        <arr>
+          <i>ger</i>
+          <i>spa</i>
+        </arr>
+      </languages>
+      <physicalDescriptions>
+        <arr>
+          <i>S. 606 -1148</i>
+        </arr>
+      </physicalDescriptions>
+    </instance>
+    <instanceRelations>
+      <parentInstances>
+        <arr>
+          <i>
+            <instanceIdentifier>
+              <hrid>019838999</hrid>
+            </instanceIdentifier>
+            <provisionalInstance>
+              <title>Bibliographisches Handbuch der Calderón-Forschung = Manual bibliográfico Calderoniano / Kurt u. Roswitha Reichenberger</title>
+              <instanceTypeId>a2c91e87-6bab-44d6-8adb-1fd02481fc4f</instanceTypeId>
+              <source>K10plus</source>
+            </provisionalInstance>
+            <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+          </i>
+        </arr>
+      </parentInstances>
+    </instanceRelations>
+  </record>
+  <record>
+    <processing>
+      <item>
+        <status>
+          <policy>overwrite</policy>
+          <ifStatusWas>
+            <arr>
+              <i>
+                <name>On order</name>
+              </i>
+            </arr>
+          </ifStatusWas>
+        </status>
+      </item>
+    </processing>
+    <original>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">3004:12-10-06</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Afu</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">122359909</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">315137351</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">8323116245</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">HEB</subfield>
+        <subfield code="0">122359909</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">pol</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2003</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">1972 - 2001</subfield>
+      </datafield>
+      <datafield tag="028A" fulltag="028A">
+        <subfield code="9">162772947</subfield>
+        <subfield code="a">Baranowski</subfield>
+        <subfield code="d">Henryk</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Warszawa</subfield>
+        <subfield code="n">Państwowe Wydawn. Naukowe</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">XVI, 268 S.</subfield>
+      </datafield>
+      <datafield tag="036C" fulltag="036C">
+        <subfield code="x">13</subfield>
+        <subfield code="a">Bibliografia Kopernikowska</subfield>
+        <subfield code="h">oprac. Henryk Baranowski</subfield>
+        <subfield code="l">3</subfield>
+      </datafield>
+      <datafield tag="036D" fulltag="036D">
+        <subfield code="9">11609284X</subfield>
+        <subfield code="8">Bibliografia Kopernikowska / oprac. Henryk Baranowski</subfield>
+      </datafield>
+      <datafield tag="046L" fulltag="046L">
+        <subfield code="a">Vorw. poln. und engl.</subfield>
+      </datafield>
+      <item epn="34203166X">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">05-08-22</subfield>
+          <subfield code="t">11:26:57.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="01" fulltag="201C/01">
+          <subfield code="0">19-01-06</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">34203166X</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">15-02-06</subfield>
+          <subfield code="b">zUB</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">BAp 27,Kopernicus-3</subfield>
+          <subfield code="f">000</subfield>
+          <subfield code="d">u</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">20.020.48-3</subfield>
+          <subfield code="h">20 020 48 / B 3</subfield>
+          <subfield code="x">09</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">60560072</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="245S" occurrence="01" fulltag="245S/01">
+          <subfield code="a">24000</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="01" fulltag="247C/01">
+          <subfield code="9">102596697</subfield>
+          <subfield code="8">Universität Gießen, Universitätsbibliothek Gießen</subfield>
+        </datafield>
+      </item>
+    </original>
+    <instance>
+      <source>K10plus</source>
+      <hrid>122359909</hrid>
+      <statusUpdatedDate>2006-10-12</statusUpdatedDate>
+      <statusId>Autopsie</statusId>
+      <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
+      <instanceTypeId>a2c91e87-6bab-44d6-8adb-1fd02481fc4f</instanceTypeId>
+      <instanceFormatIds>
+        <arr/>
+      </instanceFormatIds>
+      <identifiers>
+        <arr>
+          <i>
+            <value>122359909</value>
+            <identifierTypeId>PPN</identifierTypeId>
+          </i>
+          <i>
+            <value>315137351</value>
+            <identifierTypeId>OCLC</identifierTypeId>
+          </i>
+          <i>
+            <value>8323116245</value>
+            <identifierTypeId>ISBN</identifierTypeId>
+          </i>
+          <i>
+            <value>HEB: 122359909</value>
+            <identifierTypeId>Identnummer der erstkatalogisierenden Institution</identifierTypeId>
+          </i>
+        </arr>
+      </identifiers>
+      <indexTitle>Bibliografia Kopernikowska oprac. Henryk Baranowski</indexTitle>
+      <title>Bibliografia Kopernikowska / oprac. Henryk Baranowski (3)</title>
+      <contributors>
+        <arr>
+          <i>
+            <name>Baranowski, Henryk</name>
+            <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+            <primary>true</primary>
+          </i>
+        </arr>
+      </contributors>
+      <publication>
+        <arr>
+          <i>
+            <place>Warszawa</place>
+            <publisher>Państwowe Wydawn. Naukowe</publisher>
+            <dateOfPublication>2003</dateOfPublication>
+            <role>Publisher</role>
+          </i>
+        </arr>
+      </publication>
+      <electronicAccess>
+        <arr/>
+      </electronicAccess>
+      <notes>
+        <arr>
+          <i>
+            <note>Vorw. poln. und engl.</note>
+            <instanceNoteTypeId>Language note</instanceNoteTypeId>
+          </i>
+        </arr>
+      </notes>
+      <languages>
+        <arr>
+          <i>pol</i>
+        </arr>
+      </languages>
+      <physicalDescriptions>
+        <arr>
+          <i>XVI, 268 S.</i>
+        </arr>
+      </physicalDescriptions>
+    </instance>
+    <instanceRelations>
+      <parentInstances>
+        <arr>
+          <i>
+            <instanceIdentifier>
+              <hrid>11609284X</hrid>
+            </instanceIdentifier>
+            <provisionalInstance>
+              <title>Bibliografia Kopernikowska / oprac. Henryk Baranowski</title>
+              <instanceTypeId>a2c91e87-6bab-44d6-8adb-1fd02481fc4f</instanceTypeId>
+              <source>K10plus</source>
+            </provisionalInstance>
+            <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+          </i>
+        </arr>
+      </parentInstances>
+    </instanceRelations>
+  </record>
+</collection>
