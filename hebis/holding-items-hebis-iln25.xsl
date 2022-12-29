@@ -175,9 +175,12 @@
   <xsl:template match="callNumber">
     <xsl:variable name="i" select="key('original',../permanentLocationId)"/>
     <xsl:variable name="abt" select="$i/datafield[@tag='209A']/subfield[@code='f']"/>
+    <xsl:variable name="standort" select="$i/datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']"/> 
     <xsl:choose>
-      <xsl:when test="($abt=('016') and (starts-with(., 'THEMAG ') or starts-with(., 'THERARA '))) or 
-        ($abt=('000') and starts-with(., 'RARA '))">
+      <xsl:when test="($abt='016' and (starts-with(., 'THEMAG ') or starts-with(., 'THERARA '))) or 
+        ($abt='000' and starts-with(., 'RARA ')) or
+        ($abt='120' and ($standort='Medienkulturwissenschaft' or $standort='Alltagsmedien')) or
+        ($abt='003') or ($abt='127')">
         <callNumberPrefix>
           <xsl:value-of select="substring-before(.,' ')"/>
         </callNumberPrefix>
