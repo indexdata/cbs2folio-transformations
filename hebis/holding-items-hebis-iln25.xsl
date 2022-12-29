@@ -158,12 +158,16 @@
   <xsl:template match="i[holdingsNoteTypeId='Standort (8201)']">
     <xsl:variable name="i" select="key('original',../../../permanentLocationId)"/>
     <xsl:variable name="abt" select="$i/datafield[@tag='209A']/subfield[@code='f']"/>
-    <i>
-      <note>
-        <xsl:value-of select="concat($abt,':',./note)"/> <!-- test string, needs to be developed -->
-      </note>
-      <xsl:copy-of select="*[name(.)!='note']"/>
-    </i>
+    <xsl:if test="not(($abt='000' and (./note='FREIHAND' or ./note='LBS' or ./note='LESESAAL' or ./note='RARA' or ./note='MAG')) or
+      ($abt='019' and (./note='Lehrbuchsammlung' or ./note='Lesesaal' or ./note='Magazin')) or
+      ($abt='005' and (./note='UM LESESAAL' or ./note='UM LBS' or ./note='UM FREIHAND')))">
+        <i>
+          <note>
+              <xsl:value-of select="./note"/>
+          </note>
+          <xsl:copy-of select="*[name(.)!='note']"/>
+        </i>
+    </xsl:if>
   </xsl:template>
 
 <!-- Parsing call number for prefix - optional -->
