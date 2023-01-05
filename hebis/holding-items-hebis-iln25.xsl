@@ -24,7 +24,7 @@
            <xsl:choose>
              <xsl:when test="contains($standort,'FREIHAND')">ZBFREI</xsl:when>
              <xsl:when test="contains($standort,'LESESAAL')">ZBLS</xsl:when>
-               <xsl:when test="contains($standort,'LBS')">ZBLBS</xsl:when>
+             <xsl:when test="contains($standort,'LBS')">ZBLBS</xsl:when>
              <xsl:when test="contains($standort,'RARA')">ZBRARA</xsl:when>
              <xsl:otherwise>ZBMAG</xsl:otherwise>
            </xsl:choose>
@@ -40,6 +40,12 @@
              <xsl:when test="contains($standort,'Soziologie')">GFGSOZ</xsl:when>
              <xsl:otherwise>GFGPÄD</xsl:otherwise>
            </xsl:choose>
+         </xsl:when>
+		 <xsl:when test="$abt='003'">
+           <xsl:choose>
+             <xsl:when test="contains($standort,'LESESAAL')">ZBLS</xsl:when>
+             <xsl:otherwise>ZBRVK</xsl:otherwise>
+			     </xsl:choose>
          </xsl:when>
          <xsl:when test="$abt='005'">
            <xsl:choose>
@@ -84,6 +90,7 @@
          <xsl:when test="$abt='020'">RWFAK</xsl:when>
          <xsl:when test="$abt='021'">ZBMAG</xsl:when>
          <xsl:when test="$abt='034'">FBGTEM</xsl:when>
+		 <xsl:when test="$abt='035'">UMRMED</xsl:when>
          <xsl:when test="$abt='043'">UMPSY</xsl:when>
          <xsl:when test="$abt='054'">UMZMK</xsl:when>
          <xsl:when test="$abt='058'">PHPHI</xsl:when>
@@ -101,8 +108,8 @@
          <xsl:when test="$abt='079'">GFGKUN</xsl:when>
          <xsl:when test="$abt='080'">ZBTURK</xsl:when>
          <xsl:when test="$abt='082'">FBÄGYPT</xsl:when>
-         <xsl:when test="$abt='085'">FBVFGE</xsl:when>
          <xsl:when test="$abt='083'">PHKLW</xsl:when>
+		 <xsl:when test="$abt='085'">FBVFGE</xsl:when>
          <xsl:when test="$abt='086'">PHALG</xsl:when>
          <xsl:when test="$abt='087'">PHBYZ</xsl:when>
          <xsl:when test="$abt='088'">PHMNG</xsl:when>
@@ -155,12 +162,50 @@
     </discoverySuppress>
   </xsl:template>
 
-  <xsl:template match="i[holdingsNoteTypeId='Standort (8201)']">
+  <xsl:template match="i[holdingsNoteTypeId='Standort (8201)']"> <!-- 8201 will be displayed by default: add exceptions here -->
     <xsl:variable name="i" select="key('original',../../../permanentLocationId)"/>
     <xsl:variable name="abt" select="$i/datafield[@tag='209A']/subfield[@code='f']"/>
     <xsl:if test="not(($abt='000' and (./note='FREIHAND' or ./note='LBS' or ./note='LESESAAL' or ./note='RARA' or ./note='MAG')) or
+	  ($abt='002' and (./note='Erziehungswissenschaft' or ./note='Filmwissenschaft' or ./note='Journalistik' or ./note='Politikwissenschaft' or ./note='Psychologie' or ./note='Publizistik' or ./note='Soziologie')) or
+	  ($abt='003' and (./note='RVK-REGALE')) or
+	  ($abt='005' and (./note='UM LESESAAL' or ./note='UM LBS' or ./note='UM FREIHAND')) or
+	  ($abt='006' and (./note='MIN' or ./note='MIN LEHRBUCHSAMMLUNG')) or
+	  ($abt='016' and (./note='Theologie LEHRBUCHSAMMLUNG')) or
+	  ($abt='018' and (./note='ReWi LEHRBUCHSAMMLUNG')) or
       ($abt='019' and (./note='Lehrbuchsammlung' or ./note='Lesesaal' or ./note='Magazin')) or
-      ($abt='005' and (./note='UM LESESAAL' or ./note='UM LBS' or ./note='UM FREIHAND')))">
+	  ($abt='034' and (./note='FB 4-40')) or
+	  ($abt='035' and (./note='Institut für Rechtsmedizin')) or
+	  ($abt='043' and (./note='Klinik für Psychiatrie und Psychotherapie')) or
+	  ($abt='054' and (./note='Zahnklinik')) or
+	  ($abt='058' and (./note='Philosophie')) or
+	  ($abt='066' and (./note='ReWi / Ethnologie und Afrikastudien')) or
+	  ($abt='069' and (./note='Psychologisches Institut / IB')) or
+	  ($abt='070' and (./note='Germanistik')) or
+	  ($abt='071' and (./note='Allgemeine und Vergleichende Literaturwissenschaft')) or
+	  ($abt='072' and (./note='Anglistik/Amerikanistik')) or
+	  ($abt='073' and (./note='Allgemeine und Vergleichende Sprachwissenschaft')) or
+	  ($abt='074' and (./note='Romanistik')) or
+	  ($abt='075' and (./note='Slavistik')) or
+	  ($abt='076' and (./note='Polonicum')) or
+	  ($abt='077' and (./note='Klassische Philologie')) or
+	  ($abt='078' and (./note='Klassische Archäologie')) or
+	  ($abt='079' and (./note='Kunstgeschichte')) or
+	  ($abt='080' and (./note='Turkologie')) or
+	  ($abt='082' and (./note='Ägyptologie und Altorientalistik')) or
+	  ($abt='083' and (./note='Historische Kulturwissenschaften')) or
+	  ($abt='085' and (./note='Institut für Vor- und Frühgeschichte' or ./note='Vor- und frühgeschichtliche Archäologie' or ./note='FB 16.1')) or
+	  ($abt='086' and (./note='Alte Geschichte')) or
+	  ($abt='087' and (./note='Byzantinistik')) or
+	  ($abt='088' and (./note='Mittlere und Neuere Geschichte')) or
+	  ($abt='090' and (./note='Buchwissenschaft')) or
+	  ($abt='091' and (./note='Musikwissenschaft')) or
+	  ($abt='092' and (./note='Osteuropäische Geschichte')) or
+	  ($abt='094' and (./note='Institut für Geschichtliche Landeskunde')) or
+	  ($abt='112' and (./note='Hochschule für Musik')) or
+	  ($abt='113' and (./note='Sport')) or	
+	  ($abt='124' and (./note='Gesangbucharchiv')) or
+	  ($abt='125' and (./note='MAG')) or
+	  ($abt='126' and (./note='USA BIBL')))">
         <i>
           <note>
               <xsl:value-of select="./note"/>

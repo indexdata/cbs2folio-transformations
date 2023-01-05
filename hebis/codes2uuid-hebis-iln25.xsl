@@ -77,12 +77,14 @@
         <xsl:when test=".='UMLBS'">0152224d-0d32-4813-a3c7-47b2ddc9cc96</xsl:when>
         <xsl:when test=".='UMLS'">a21adfe3-b5ee-4248-85a3-37a6a09fd6e8</xsl:when>
         <xsl:when test=".='UMPSY'">a6bf3e9e-c3c4-4795-94a6-500726d201c2</xsl:when>
+		<xsl:when test=".='UMRMED'">e9abed70-7bd4-464b-b5fe-8340bbe7b9cd</xsl:when>
         <xsl:when test=".='UMZMK'">28b03a76-c660-4610-a79b-c54cc11e7f74</xsl:when>		
         <xsl:when test=".='ZBFREI'">ea51b803-8bc4-4441-84e0-30a8e29c7a51</xsl:when>
         <xsl:when test=".='ZBLBS'">67ae08e9-89f9-4939-8def-5666cf7bfc3d</xsl:when>
         <xsl:when test=".='ZBLS'">c23399ef-6776-4442-a53a-dfca759c3b9f</xsl:when>
         <xsl:when test=".='ZBMAG'">413fe054-a4f3-423e-a62f-088eb111ea8d</xsl:when>
         <xsl:when test=".='ZBRARA'">61fac3e8-8a32-4117-9005-38d2a4847f00</xsl:when>
+		<xsl:when test=".='ZBRVK'">bf9b2a7a-70c9-4e54-adc8-4c8aceed863f</xsl:when>
         <xsl:when test=".='ZBTURK'">129a4323-01a0-4bad-bac5-2e0487d8e67c</xsl:when>		
         <xsl:otherwise>413fe054-a4f3-423e-a62f-088eb111ea8d</xsl:otherwise> <!-- ZBMAG -->
       </xsl:choose>
