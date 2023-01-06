@@ -602,7 +602,7 @@
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>9 g nicht ausleihbar</permanentLoanTypeId>
                         <status>
-                           <name>Unavailable</name>
+                           <name>Restricted</name>
                         </status>
                         <barcode/>
                         <copyNumber/>
@@ -1333,11 +1333,7 @@
                <holdingsStatements/>
                <notes>
                   <arr>
-                     <i>
-                        <note>Filmwissenschaft</note>
-                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
+                     
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
@@ -1478,11 +1474,7 @@
                <holdingsStatements/>
                <notes>
                   <arr>
-                     <i>
-                        <note>Germanistik</note>
-                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
+                     
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
@@ -1524,11 +1516,7 @@
                <holdingsStatements/>
                <notes>
                   <arr>
-                     <i>
-                        <note>Germanistik</note>
-                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
+                     
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
@@ -1570,11 +1558,7 @@
                <holdingsStatements/>
                <notes>
                   <arr>
-                     <i>
-                        <note>Allgemeine und Vergleichende Literaturwissenschaft</note>
-                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
+                     
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
@@ -1616,11 +1600,7 @@
                <holdingsStatements/>
                <notes>
                   <arr>
-                     <i>
-                        <note>Kunstgeschichte</note>
-                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
+                     
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
@@ -1662,11 +1642,7 @@
                <holdingsStatements/>
                <notes>
                   <arr>
-                     <i>
-                        <note>Historische Kulturwissenschaften</note>
-                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
+                     
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
@@ -4852,11 +4828,7 @@
                <holdingsStatements/>
                <notes>
                   <arr>
-                     <i>
-                        <note>Filmwissenschaft</note>
-                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
+                     
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
@@ -4997,11 +4969,7 @@
                <holdingsStatements/>
                <notes>
                   <arr>
-                     <i>
-                        <note>Germanistik</note>
-                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
+                     
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
@@ -5043,11 +5011,7 @@
                <holdingsStatements/>
                <notes>
                   <arr>
-                     <i>
-                        <note>Germanistik</note>
-                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
+                     
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
@@ -5089,11 +5053,7 @@
                <holdingsStatements/>
                <notes>
                   <arr>
-                     <i>
-                        <note>Allgemeine und Vergleichende Literaturwissenschaft</note>
-                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
+                     
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
@@ -5135,11 +5095,7 @@
                <holdingsStatements/>
                <notes>
                   <arr>
-                     <i>
-                        <note>Kunstgeschichte</note>
-                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
+                     
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
@@ -5181,11 +5137,7 @@
                <holdingsStatements/>
                <notes>
                   <arr>
-                     <i>
-                        <note>Historische Kulturwissenschaften</note>
-                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
+                     
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
@@ -5685,11 +5637,7 @@
                         <holdingsNoteTypeId>Note</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
-                     <i>
-                        <note>MIN</note>
-                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
+                     
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
@@ -5736,11 +5684,7 @@
                         <holdingsNoteTypeId>Note</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
-                     <i>
-                        <note>MIN LEHRBUCHSAMMLUNG</note>
-                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
+                     
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
@@ -6362,11 +6306,7 @@
                         <holdingsNoteTypeId>Note</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
-                     <i>
-                        <note>FB 4-40</note>
-                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
+                     
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
@@ -7572,11 +7512,7 @@
                         <holdingsNoteTypeId>Note</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
-                     <i>
-                        <note>Turkologie</note>
-                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
+                     
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
@@ -8069,11 +8005,7 @@
                </holdingsStatements>
                <notes>
                   <arr>
-                     <i>
-                        <note>Kunstgeschichte</note>
-                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
+                     
                      <i>
                         <note>079KHF</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
@@ -8132,11 +8064,7 @@
                </holdingsStatements>
                <notes>
                   <arr>
-                     <i>
-                        <note>Mittlere und Neuere Geschichte</note>
-                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
+                     
                   </arr>
                </notes>
                <discoverySuppress>false</discoverySuppress>
@@ -9118,11 +9046,7 @@
                </holdingsStatements>
                <notes>
                   <arr>
-                     <i>
-                        <note>Erziehungswissenschaft</note>
-                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
+                     
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
@@ -11027,11 +10951,7 @@
                <holdingsStatements/>
                <notes>
                   <arr>
-                     <i>
-                        <note>Filmwissenschaft</note>
-                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
+                     
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
@@ -11166,11 +11086,7 @@
                <holdingsStatements/>
                <notes>
                   <arr>
-                     <i>
-                        <note>Germanistik</note>
-                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
+                     
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
@@ -11212,11 +11128,7 @@
                <holdingsStatements/>
                <notes>
                   <arr>
-                     <i>
-                        <note>Germanistik</note>
-                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
+                     
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
@@ -11258,11 +11170,7 @@
                <holdingsStatements/>
                <notes>
                   <arr>
-                     <i>
-                        <note>Allgemeine und Vergleichende Literaturwissenschaft</note>
-                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
+                     
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
@@ -11304,11 +11212,7 @@
                <holdingsStatements/>
                <notes>
                   <arr>
-                     <i>
-                        <note>Kunstgeschichte</note>
-                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
+                     
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
@@ -11350,11 +11254,7 @@
                <holdingsStatements/>
                <notes>
                   <arr>
-                     <i>
-                        <note>Historische Kulturwissenschaften</note>
-                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
+                     
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
@@ -12995,11 +12895,7 @@
                         <holdingsNoteTypeId>Note</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
-                     <i>
-                        <note>ReWi LEHRBUCHSAMMLUNG</note>
-                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
+                     
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
@@ -14194,11 +14090,7 @@
                         <holdingsNoteTypeId>Note</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
-                     <i>
-                        <note>Allgemeine und Vergleichende Literaturwissenschaft</note>
-                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
+                     
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
@@ -15475,11 +15367,7 @@
                <holdingsStatements/>
                <notes>
                   <arr>
-                     <i>
-                        <note>Filmwissenschaft</note>
-                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
+                     
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
@@ -15620,11 +15508,7 @@
                <holdingsStatements/>
                <notes>
                   <arr>
-                     <i>
-                        <note>Germanistik</note>
-                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
+                     
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
@@ -15666,11 +15550,7 @@
                <holdingsStatements/>
                <notes>
                   <arr>
-                     <i>
-                        <note>Germanistik</note>
-                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
+                     
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
@@ -15712,11 +15592,7 @@
                <holdingsStatements/>
                <notes>
                   <arr>
-                     <i>
-                        <note>Allgemeine und Vergleichende Literaturwissenschaft</note>
-                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
+                     
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
@@ -15758,11 +15634,7 @@
                <holdingsStatements/>
                <notes>
                   <arr>
-                     <i>
-                        <note>Kunstgeschichte</note>
-                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
+                     
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
@@ -15804,11 +15676,7 @@
                <holdingsStatements/>
                <notes>
                   <arr>
-                     <i>
-                        <note>Historische Kulturwissenschaften</note>
-                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
+                     
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
@@ -17793,11 +17661,7 @@
                         <holdingsNoteTypeId>Note</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
-                     <i>
-                        <note>ReWi LEHRBUCHSAMMLUNG</note>
-                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
+                     
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
@@ -18759,11 +18623,7 @@
                <holdingsStatements/>
                <notes>
                   <arr>
-                     <i>
-                        <note>Kunstgeschichte</note>
-                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
+                     
                      <i>
                         <note>079KHF</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
@@ -19866,11 +19726,7 @@
                         <holdingsNoteTypeId>Note</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
-                     <i>
-                        <note>Turkologie</note>
-                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
+                     
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
@@ -21108,11 +20964,7 @@
                <holdingsStatements/>
                <notes>
                   <arr>
-                     <i>
-                        <note>Filmwissenschaft</note>
-                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
+                     
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
@@ -21247,11 +21099,7 @@
                <holdingsStatements/>
                <notes>
                   <arr>
-                     <i>
-                        <note>Germanistik</note>
-                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
+                     
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
@@ -21293,11 +21141,7 @@
                <holdingsStatements/>
                <notes>
                   <arr>
-                     <i>
-                        <note>Germanistik</note>
-                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
+                     
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
@@ -21339,11 +21183,7 @@
                <holdingsStatements/>
                <notes>
                   <arr>
-                     <i>
-                        <note>Allgemeine und Vergleichende Literaturwissenschaft</note>
-                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
+                     
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
@@ -21385,11 +21225,7 @@
                <holdingsStatements/>
                <notes>
                   <arr>
-                     <i>
-                        <note>Kunstgeschichte</note>
-                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
+                     
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
@@ -21431,11 +21267,7 @@
                <holdingsStatements/>
                <notes>
                   <arr>
-                     <i>
-                        <note>Historische Kulturwissenschaften</note>
-                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
+                     
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
@@ -21761,11 +21593,7 @@
                </holdingsStatements>
                <notes>
                   <arr>
-                     <i>
-                        <note>Mittlere und Neuere Geschichte</note>
-                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
+                     
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
@@ -22734,7 +22562,7 @@
                         <materialTypeId>Druckschrift</materialTypeId>
                         <permanentLoanTypeId>9 g nicht ausleihbar</permanentLoanTypeId>
                         <status>
-                           <name>Unavailable</name>
+                           <name>Restricted</name>
                         </status>
                         <barcode>11571197</barcode>
                         <copyNumber/>
@@ -22764,11 +22592,7 @@
                         <holdingsNoteTypeId>Note</holdingsNoteTypeId>
                         <staffOnly>false</staffOnly>
                      </i>
-                     <i>
-                        <note>MIN</note>
-                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
+                     
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
@@ -23798,11 +23622,7 @@
                <holdingsStatements/>
                <notes>
                   <arr>
-                     <i>
-                        <note>Zahnklinik</note>
-                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
+                     
                      <i>
                         <note>00507</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
@@ -23976,11 +23796,7 @@
                <holdingsStatements/>
                <notes>
                   <arr>
-                     <i>
-                        <note>Zahnklinik</note>
-                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
+                     
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
@@ -24022,11 +23838,7 @@
                <holdingsStatements/>
                <notes>
                   <arr>
-                     <i>
-                        <note>Zahnklinik</note>
-                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
+                     
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
@@ -25413,11 +25225,7 @@
                <holdingsStatements/>
                <notes>
                   <arr>
-                     <i>
-                        <note>Filmwissenschaft</note>
-                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
+                     
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
@@ -25558,11 +25366,7 @@
                <holdingsStatements/>
                <notes>
                   <arr>
-                     <i>
-                        <note>Germanistik</note>
-                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
+                     
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
@@ -25604,11 +25408,7 @@
                <holdingsStatements/>
                <notes>
                   <arr>
-                     <i>
-                        <note>Germanistik</note>
-                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
+                     
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
@@ -25650,11 +25450,7 @@
                <holdingsStatements/>
                <notes>
                   <arr>
-                     <i>
-                        <note>Allgemeine und Vergleichende Literaturwissenschaft</note>
-                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
+                     
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
@@ -25696,11 +25492,7 @@
                <holdingsStatements/>
                <notes>
                   <arr>
-                     <i>
-                        <note>Kunstgeschichte</note>
-                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
+                     
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
@@ -25742,11 +25534,7 @@
                <holdingsStatements/>
                <notes>
                   <arr>
-                     <i>
-                        <note>Historische Kulturwissenschaften</note>
-                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
+                     
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
@@ -27733,11 +27521,7 @@
                </holdingsStatements>
                <notes>
                   <arr>
-                     <i>
-                        <note>Romanistik</note>
-                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
+                     
                      <i>
                         <note>BASIS</note>
                         <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
