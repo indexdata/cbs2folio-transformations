@@ -109,7 +109,7 @@
          <xsl:when test="$abt='080'">ZBTURK</xsl:when>
          <xsl:when test="$abt='082'">FBÄGYPT</xsl:when>
          <xsl:when test="$abt='083'">PHKLW</xsl:when>
-		 <xsl:when test="$abt='085'">FBVFGE</xsl:when>
+		 <xsl:when test="$abt='085'">FBAVFGA</xsl:when>
          <xsl:when test="$abt='086'">PHALG</xsl:when>
          <xsl:when test="$abt='087'">PHBYZ</xsl:when>
          <xsl:when test="$abt='088'">PHMNG</xsl:when>
