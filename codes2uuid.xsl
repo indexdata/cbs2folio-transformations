@@ -28,6 +28,28 @@
     </itemNoteTypeId>
   </xsl:template>
 
+  <!-- Map holdings note types -->
+  <xsl:template match="holdingsNoteTypeId">
+    <holdingsNoteTypeId>
+      <xsl:choose>
+        <xsl:when test=".='Binding'">e19eabab-a85c-4aef-a7b2-33bd9acef24e</xsl:when>
+        <xsl:when test=".='Note'">b160f13a-ddba-4053-b9c4-60ec5ea45d56</xsl:when>
+        <xsl:when test=".='Reproduction'">6a41b714-8574-4084-8d64-a9373c3fbb59</xsl:when>
+        <xsl:when test=".='Electronic bookplate'">88914775-f677-4759-b57b-1a33b90b24e0</xsl:when>
+        <xsl:when test=".='Action note'">d6510242-5ec3-42ed-b593-3585d2e48fd6</xsl:when>
+        <xsl:when test=".='Copy note'">c4407cc7-d79f-4609-95bd-1cefb2e2b5c5</xsl:when>
+        <xsl:when test=".='Provenance'">db9b4787-95f0-4e78-becf-26748ce6bdeb</xsl:when>
+        <xsl:when test=".='4801'">84472b16-e66e-47d7-8ae9-f9720bc971f8</xsl:when>
+        <xsl:when test=".='4802'">ac963bbd-8cd7-46c6-a55d-87e49c5c5f48</xsl:when>
+        <xsl:when test=".='6800'">a4237360-17e5-45bd-a494-e32200949bbf</xsl:when>
+        <xsl:when test=".='7811'">d776d6fb-9dba-431a-8da5-6713f5957ad0</xsl:when>
+        <xsl:when test=".='7812'">ee1814e3-799a-442f-a75c-1ae0b4f76d20</xsl:when>
+        <xsl:when test=".='8600'">12d1ea41-759c-4c80-8209-271e925f8cc8</xsl:when>
+        <xsl:otherwise>b160f13a-ddba-4053-b9c4-60ec5ea45d56</xsl:otherwise>
+      </xsl:choose>
+    </holdingsNoteTypeId>
+  </xsl:template>
+
   <!-- Map instance note types -->
   <xsl:template match="instanceNoteTypeId">
     <instanceNoteTypeId>
