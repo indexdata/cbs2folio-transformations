@@ -1562,6 +1562,19 @@
         </arr>
       </editions>
     </xsl:if>
+    <!-- Administrative notes -->
+    <xsl:if test="datafield[@tag='002@']/subfield[@code='0']">
+      <xsl:variable name="bgs" select="datafield[@tag='002@']/subfield[@code='0']"/>
+      <administrativeNotes>
+        <arr>
+          <xsl:for-each select="datafield[@tag='002@']/subfield[@code='0']">
+            <i>
+              <xsl:value-of select="concat($bgs, ' (K10plus 0500)')"/>
+            </i>
+          </xsl:for-each>
+        </arr>
+      </administrativeNotes>
+    </xsl:if>
   </xsl:template>
   <xsl:template match="text()"/>
   <xsl:template name="join">
