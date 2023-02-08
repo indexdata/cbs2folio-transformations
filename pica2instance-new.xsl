@@ -1304,7 +1304,7 @@
               <relationshipId>f5d0068e-6272-458e-8a81-b85e7b9a14aa</relationshipId>
             </i>
           </xsl:if>
-		  <xsl:if test="./@tag='017R' and ./subfield[@code='u']">
+		      <xsl:if test="./@tag='017R' and ./subfield[@code='u']">
             <i>
               <uri>
                 <xsl:value-of select="./subfield[@code='u']"/>
@@ -1312,14 +1312,14 @@
               <materialsSpecification>
                 <xsl:value-of select="./subfield[@code='g']"/>
               </materialsSpecification>
-			  <linkText>
-				<xsl:value-of select="./subfield[@code='a']"/>
-			  </linkText>
+			        <linkText>
+				        <xsl:value-of select="./subfield[@code='a']"/>
+			        </linkText>
               <relationshipId>0ce08069-8f5f-411b-b622-46674aa66a45</relationshipId>
-			  <!-- Access Status -->
+			        <!-- Access Status -->
             </i>
           </xsl:if>
-		  <xsl:if test="./@tag='017M' and ./subfield[@code='u']">
+		      <xsl:if test="./@tag='017M' and ./subfield[@code='u']">
             <i>
               <uri>
                 <xsl:value-of select="./subfield[@code='u']"/>
@@ -1327,20 +1327,20 @@
               <materialsSpecification>
                 <xsl:value-of select="./subfield[@code='g']"/>
               </materialsSpecification>
-			  <linkText>
-				<xsl:value-of select="./subfield[@code='a']"/>
-			  </linkText>
+              <linkText>
+                <xsl:value-of select="./subfield[@code='a']"/>
+              </linkText>
               <relationshipId>f781cb3d-af16-40f6-9d02-c24204ac6fdc</relationshipId>
-			  <!-- Rechteinformation -->
+			        <!-- Rechteinformation -->
             </i>
           </xsl:if>
-		  <xsl:if test="./@tag='109R' and ./subfield[@code='u']">
+		      <xsl:if test="./@tag='109R' and ./subfield[@code='u']">
             <i>
               <uri>
                 <xsl:value-of select="./subfield[@code='u']"/>
               </uri>
               <relationshipId>1e178616-2b75-4ecf-a8c8-99b85273dcfc</relationshipId>
-			  <!-- EZB-Frontpage (3433) -->
+			        <!-- EZB-Frontpage (3433) -->
             </i>
           </xsl:if>
         </xsl:for-each>
