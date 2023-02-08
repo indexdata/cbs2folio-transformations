@@ -80,7 +80,7 @@
                   <note>
                     <xsl:value-of select="./subfield[@code='a'] | ./subfield[@code='0']"/>
                   </note>
-                  <holdingsNoteTypeId>4801</holdingsNoteTypeId>
+                  <holdingsNoteTypeId>Exemplarbezogener Kommentar - benutzerrelevante Hinweise (4801)</holdingsNoteTypeId>
                   <staffOnly>false</staffOnly>
                 </i>
               </xsl:if>
@@ -92,7 +92,7 @@
                   <note>
                     <xsl:value-of select="./subfield[@code='a'] | ./subfield[@code='0']"/>
                   </note>
-                  <holdingsNoteTypeId>4802</holdingsNoteTypeId>
+                  <holdingsNoteTypeId>Exemplarbezogener Kommentar - bibliotheksinterne Hinweise (4802)</holdingsNoteTypeId>
                   <staffOnly>true</staffOnly>
                 </i>
               </xsl:if>
@@ -131,7 +131,7 @@
                     </xsl:otherwise>
                   </xsl:choose>
                 </note>
-                <holdingsNoteTypeId>6800</holdingsNoteTypeId>
+                <holdingsNoteTypeId>Lokale Schlagwörter (6800)</holdingsNoteTypeId>
                 <staffOnly>false</staffOnly>
               </i>
             </xsl:for-each>
@@ -142,7 +142,7 @@
                   <note>
                     <xsl:value-of select="./subfield[@code='a']"/>
                   </note>
-                  <holdingsNoteTypeId>8600</holdingsNoteTypeId>
+                  <holdingsNoteTypeId>Abrufzeichen exemplarspezifisch (8600)</holdingsNoteTypeId>
                   <staffOnly>true</staffOnly>
                 </i>
               </xsl:if>
@@ -154,7 +154,7 @@
                   <note>
                     <xsl:value-of select="./subfield[@code='0']"/>
                   </note>
-                  <holdingsNoteTypeId>7811</holdingsNoteTypeId>
+                  <holdingsNoteTypeId>Lokale Identifikationsnummer anderer Systeme (7811)</holdingsNoteTypeId>
                   <staffOnly>false</staffOnly>
                 </i>
               </xsl:if>
@@ -166,7 +166,7 @@
                   <note>
                     <xsl:value-of select="./subfield[@code='0']"/>
                   </note>
-                  <holdingsNoteTypeId>7812</holdingsNoteTypeId>
+                  <holdingsNoteTypeId>Lokale Identifikationsnummer externer Systeme (7812)</holdingsNoteTypeId>
                   <staffOnly>false</staffOnly>
                 </i>
               </xsl:if>
