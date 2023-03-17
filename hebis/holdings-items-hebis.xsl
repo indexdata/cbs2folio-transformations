@@ -188,7 +188,7 @@
         </xsl:choose>
       </discoverySuppress>   
       <sourceId>hebis</sourceId>
-      <xsl:if test="not($electronicholding)">
+      <xsl:if test="not($electronicholding) and (datafield[(@tag='209G') and (subfield[@code='x']='00')]/subfield[@code='a'] or not(datafield[@tag='209A']/subfield[@code='i']))">
          <items>
            <arr>
              <xsl:for-each select="datafield[(@tag='209G') and (subfield[@code='x']='00')]/subfield[@code='a']">
