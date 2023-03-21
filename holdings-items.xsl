@@ -227,6 +227,18 @@
                 </xsl:apply-templates>
               </xsl:for-each>
             </xsl:when>
+            <!-- start implement bound-with case -->
+            <xsl:when test="datafield[@tag='209A']/subfield[@code='i']">
+              <xsl:if test="datafield[@tag='209G']/subfield[@code='a']">
+                <xsl:apply-templates select="." mode="make-item">
+                  <xsl:with-param name="hhrid" select="$hhrid"/>
+                </xsl:apply-templates>             
+              </xsl:if>
+              <xsl:if test="not(datafield[@tag='209G']/subfield[@code='a'])">
+                <!-- exit and don't create an item -->
+              </xsl:if>
+            </xsl:when>
+            <!-- end implement bound-with case -->
             <xsl:otherwise>
               <xsl:apply-templates select="." mode="make-item">
                 <xsl:with-param name="hhrid" select="$hhrid"/>
