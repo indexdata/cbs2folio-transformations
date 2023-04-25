@@ -339,9 +339,11 @@
           </xsl:choose>
         </name>
       </status>
-      <barcode>
-        <xsl:value-of select="$bcode"/>
-      </barcode>
+      <xsl:if test="$bcode">
+        <barcode>
+          <xsl:value-of select="$bcode"/>
+        </barcode>
+      </xsl:if>
       <copyNumber>
         <xsl:value-of select="$copy"/>
       </copyNumber>
