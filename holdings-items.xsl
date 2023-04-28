@@ -105,7 +105,7 @@
         <xsl:variable name="type1" select="substring($type, 1, 1)"/>
         <xsl:variable name="type12" select="substring($type, 1, 2)"/>
         <xsl:variable name="type2" select="substring($type, 2, 1)"/>
-        <xsl:variable name="pd" select="../datafield[@tag='013H']/subfield[@code='0']"/>
+        <xsl:variable name="pd" select="../datafield[@tag='013H']/subfield[@code='a']"/>
         <xsl:variable name="mt" select="../datafield[@tag='002D']/subfield[@code='b']"/>
         <xsl:choose>
           <xsl:when test="$type12 = 'Ab'">
@@ -129,7 +129,7 @@
             <xsl:choose>
               <xsl:when test="$pd = 'vide' or $mt = 'v'">Film (DVD/Video)</xsl:when>
               <xsl:when test="$mt = 'g' or $mt = 'n'">Bild(ersammlung)</xsl:when>
-              <xsl:when test="$mt = 'muno'">Musiknote</xsl:when>
+              <xsl:when test="$pd = 'muno'">Musiknote</xsl:when>
               <xsl:otherwise>Tonträger</xsl:otherwise>
             </xsl:choose>
           </xsl:when>
