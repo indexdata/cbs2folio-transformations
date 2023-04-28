@@ -25,7 +25,7 @@
       </xsl:choose>
     </itemNoteTypeId>
   </xsl:template>
-
+  
    <!-- Map holding note types -->
   <xsl:template match="holdingsNoteTypeId"> <!-- Level 2: FOLIO/hebis-wide -->
     <holdingsNoteTypeId>
@@ -103,10 +103,6 @@
         <xsl:when test=".='Study Program Information note'">06489647-c7b7-4b6c-878a-cb7c1178e9ca</xsl:when>
         <xsl:when test=".='Issuing Body note'">49475f04-35ef-4f8a-aa7f-92773594ca76</xsl:when>
         <xsl:when test=".='Dissertation note'">b73cc9c2-c9fa-49aa-964f-5ae1aa754ecd</xsl:when>
-        <xsl:when test=".='Besetzung'">95c85c62-9a3d-4483-82a2-9d2cdc9c2636</xsl:when>
-        <xsl:when test=".='Musikalische Ausgabeform'">12fd955c-9031-4656-8e5e-71a12ba7f31c</xsl:when>
-        <xsl:when test=".='Numerische Bezeichnung eines Musikwerks'">c56f790b-6d61-4458-90d2-647c3444cbf5</xsl:when>
-        <xsl:when test=".='Tonart'">aa23e56b-3df0-4ec2-8b7d-ae6fc3a14448</xsl:when>
         <xsl:otherwise>6a2533a7-4de2-4e64-8466-074c2fa9308c</xsl:otherwise> <!-- General note -->
       </xsl:choose>
     </instanceNoteTypeId>
@@ -546,11 +542,10 @@
     </sourceId>
   </xsl:template>
   
-  <!-- Re-map instance source 
+  <!-- Re-map instance source -->
   <xsl:template match="source">
     <source>hebis</source>
   </xsl:template>
-  -->
 
   <xsl:template match="original"/>
 </xsl:stylesheet>

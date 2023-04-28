@@ -76,14 +76,7 @@
 
   <xsl:template match="metadata">
  <!--   <source>K10plus</source> -->
-    <xsl:choose>
-      <xsl:when test="substring(datafield[@tag='002@']/subfield[@code='0'], 1, 1) = 'L'">
-        <source>hebis-LT</source> <!-- hebis: TBD: new source for foster titles -->
-      </xsl:when>
-      <xsl:otherwise>
-        <source>hebis</source> <!-- hebis: source changed -->
-      </xsl:otherwise>
-    </xsl:choose>
+    <source>hebis</source> <!-- hebis: source changed -->
     <xsl:variable name="ppn" select="datafield[@tag='003@']/subfield[@code='0']"/>
     <hrid>
       <xsl:value-of select="$ppn"/>
@@ -180,7 +173,6 @@
         <!-- two-dimensional moving image -->
         <xsl:when test="$ctype='zzz'">30fffe0e-e985-4144-b2e2-1e8179bdb41f</xsl:when>
         <!-- unspecified -->
-        <!-- TBD: change default to "unspecified"? -->
         <xsl:otherwise>a2c91e87-6bab-44d6-8adb-1fd02481fc4f</xsl:otherwise>
         <!--  : other -->
       </xsl:choose>
@@ -311,9 +303,7 @@
     <!-- Identifiers -->
     <identifiers>
       <arr>
-        <!-- hebis: added tags: 004R, 004U, 004V, 006B, 006N, 006X, 007Y -->
-        <!-- TBD: Need for clarification/discussion 
-                  Shouldn't it be 005B instead of 005D? -->
+        <!-- hebis: added missing tags: 004R, 004U, 004V, 006B, 006N, 006X, 007Y -->
         <xsl:for-each select="datafield[@tag='003S' or @tag='003@' or @tag='004A' or @tag='004P' or @tag='004J' or @tag='004K' or @tag='004D' or @tag='005A' or @tag='005I' or @tag='005P' or @tag='005D' or @tag='004F' or @tag='004M' or @tag='004I' or @tag='006A' or @tag='006B' or @tag='006G' or @tag='006T' or @tag='006U' or @tag='006Z' or @tag='006S' or @tag='006L' or @tag='006N' or @tag='006V' or @tag='006W' or @tag='006X' or @tag='006M' or @tag='004V' or @tag='004R' or @tag='004W' or @tag='004L' or @tag='004C' or @tag='004U' or @tag='003O' or @tag='003T' or @tag='003D' or @tag='007C' or @tag='007D' or @tag='007G' or @tag='007Y' or @tag='017K' or @tag='017L']">
           <xsl:choose>
             <xsl:when test="./@tag='004A' or @tag='004D' or @tag='004P' or @tag='005A' or @tag='005P' or @tag='005D' or @tag='004F' or @tag='004M' or @tag='004I' or @tag='004R' or @tag='004U' or @tag='004V' or @tag='006B'">
@@ -339,8 +329,6 @@
                   <xsl:when test="./@tag='004P' and ./subfield[@code='S']='u'">ISBN für parallele Ausgabe in einer anderen physischen Form</xsl:when>
                   <xsl:when test="./@tag='004P'">ISBN einer Manifestation in anderer physischer Form</xsl:when>
                   <xsl:when test="./@tag='005A'">ISSN</xsl:when>
-                  <!-- TBD: Need for clarification/discussion 
-                            Shouldn't it be 005B instead of 005D? -->
                   <xsl:when test="./@tag='005D'">Invalid ISSN</xsl:when>
                   <xsl:when test="./@tag='005P' and ./subfield[@code='S']='a'">ISSN für parallele Ausgaben auf einem anderen Datenträger</xsl:when>
                   <xsl:when test="./@tag='005P' and ./subfield[@code='S']='o'">ISSN für parallele Ausgaben im Fernzugriff</xsl:when>
@@ -351,7 +339,7 @@
                   <xsl:when test="./@tag='004F'">ISMN</xsl:when>
                   <xsl:when test="./@tag='004M'">ISRN</xsl:when>
                   <xsl:when test="./@tag='004I'">Formal falsche ISMN</xsl:when>
-                  <!-- hebis: added labels -->
+                  <!-- hebis: added missing labels -->
                   <xsl:when test="./@tag='004R'">Handle</xsl:when>
                   <xsl:when test="./@tag='004U'">URN</xsl:when>
                   <xsl:when test="./@tag='004V'">DOI</xsl:when>
@@ -384,7 +372,7 @@
               <xsl:variable name="id-type">
                 <xsl:choose>
                   <xsl:when test="./@tag='007G'">Identnummer der erstkatalogisierenden Institution</xsl:when>
-                  <!-- hebis: added labels -->
+                  <!-- hebis: added missing labels -->
                   <xsl:when test="./@tag='007D'">Verlags-, Produktions- und Bestellnummer</xsl:when>
                 </xsl:choose>
               </xsl:variable>
@@ -426,7 +414,7 @@
             </xsl:when>
             <xsl:when test="./subfield[@code='0']">
               <xsl:variable name="id-value">
-                <!-- hebis: added subfield $i -->
+                <!-- hebis: added missing subfield $i -->
                 <xsl:choose>
                   <xsl:when test="./subfield[@code='i']">
                     <xsl:value-of select="concat(./subfield[@code='i'],': ',./subfield[@code='0'])"/>
@@ -484,8 +472,8 @@
     </identifiers>
 
     <!-- hebis: 
-       - added tags and subfields (parts of multipart resources with dependent title, "contained works")
-       - changed order of tags and subfields, e.g. remainder of title and statement of responsibility of titles with subsets
+       - added missing tags and subfields (parts of multipart resources with dependent title, "contained works")
+       - corrected order of tags and subfields, e.g. remainder of title and statement of responsibility of titles with subsets
        - separated transcription and Non Latin script
     -->
 
@@ -817,9 +805,8 @@
 
     <!-- Alternative titles -->
 
-    <!-- hebis: added tags: 021A + 036C (Non Latin script), 021M, 021N + 046D -->
-    <!-- hebis: removed [@occurrence='00'] from 022A, all occurrences should be displayed -->
-    <xsl:if test="datafield[@tag='047C' or @tag='027A' or @tag='021F' or @tag='046C' or @tag='046D' or @tag='026C' or @tag='036C' or @tag='021A'] or datafield[@tag='022A']">
+    <!-- hebis: added missing tags: 021A + 036C (Non Latin script), 021M, 021N + 046D -->
+    <xsl:if test="datafield[@tag='047C' or @tag='027A' or @tag='021F' or @tag='046C' or @tag='046D' or @tag='026C' or @tag='036C' or @tag='021A'] or datafield[@tag='022A'][@occurrence='00']">
       <alternativeTitles>
         <arr>
 
@@ -929,7 +916,7 @@
             </i>
           </xsl:for-each>
 
-          <!-- hebis: added tag -->
+          <!-- hebis: added missing tag -->
           <xsl:for-each select="datafield[@tag='046D']">
             <xsl:variable name="vti" select="./subfield[@code='i']"/>
             <xsl:variable name="vta" select="./subfield[@code='a']"/>
@@ -949,7 +936,7 @@
             </i>
           </xsl:for-each>
 
-          <!-- hebis: added subfields -->
+          <!-- hebis: added missing subfields -->
           <xsl:for-each select="datafield[@tag='022A']">
             <i>
               <alternativeTitle>
@@ -1003,8 +990,7 @@
       </alternativeTitles>
     </xsl:if>
     <!-- Contributors -->
-    <!-- hebis: added tag 029F -->
-    <xsl:if test="datafield[@tag='028A' or @tag='028B' or @tag='028C' or @tag='028G' or @tag='029A' or @tag='029F']">
+    <xsl:if test="datafield[@tag='028A' or @tag='028B' or @tag='028C' or @tag='028G' or @tag='029A']">
       <contributors>
         <arr>
           <xsl:for-each select="datafield[@tag='028A' or @tag='028B' or @tag='028C' or @tag='028G']">
@@ -1017,7 +1003,7 @@
                   <xsl:when test="./subfield[@code='8']">
                     <xsl:value-of select="./subfield[@code='8']"/>
                   </xsl:when>
-                  <!-- hebis: added subfields and changed ISBD punctuation -->
+                  <!-- hebis: added missing subfields and corrected ISBD punctuation -->
                   <!-- TBD: Need for clarification/discussion 
                             Expansion and capital letters D, C, N, especially L -->
                   <xsl:when test="./subfield[@code='a' or @code='P']">
@@ -1065,7 +1051,7 @@
             </xsl:if>
           </xsl:for-each>
           <!-- Corporate authors-->
-          <!-- hebis: added subfields and changed ISBD punctuation -->
+          <!-- hebis: added missing subfields and corrected ISBD punctuation -->
           <!-- TBD: Need for clarification/discussion 
                     Expansion and capital letters A, B, D, G, N, X in original code
           -->
@@ -1155,11 +1141,7 @@
             <publisher>
               <xsl:for-each select="./subfield[@code='n']">
                 <xsl:variable name="pos" select="position()"/>
-                <!-- TBD: Need for clarification/discussion 
-                          Add value 'e'? -->
                 <xsl:if test="../subfield[@code='z'][$pos] = 'f'">früher: </xsl:if>
-                <!-- TBD: Need for clarification/discussion 
-                          Shouldn't it be value 's' instead of 'z'? -->
                 <xsl:if test="../subfield[@code='z'][$pos] = 'z'">später: </xsl:if>
                 <xsl:value-of select="."/>
                 <xsl:if test="../subfield[@code='h'][$pos]">
@@ -1266,8 +1248,7 @@
     <electronicAccess>
       <arr>
         <!-- hebis: took out "or @tag='017M' or @tag='017R'" --> 
-        <!-- GBV: added tag 109R -->
-        <xsl:for-each select="datafield[@tag='009P' or @tag='017C' or @tag='109R']">
+        <xsl:for-each select="datafield[@tag='009P' or @tag='017C']">
           <xsl:if test="./@tag='009P' and ./subfield[@code='a']">
             <i>
               <uri>
@@ -1327,27 +1308,15 @@
               <relationshipId>f781cb3d-af16-40f6-9d02-c24204ac6fdc</relationshipId> 
             </i>
           </xsl:if> -->
-        <!-- GBV: added tag 109R -->
-		  <xsl:if test="./@tag='109R' and ./subfield[@code='u']">
-            <i>
-              <uri>
-                <xsl:value-of select="./subfield[@code='u']"/>
-              </uri>
-              <relationshipId>1e178616-2b75-4ecf-a8c8-99b85273dcfc</relationshipId>
-			  <!-- EZB-Frontpage (3433) -->
-            </i>
-          </xsl:if>
         </xsl:for-each>
       </arr>
     </electronicAccess>
     <!-- Notes -->
-    <!-- hebis: added tags: 013E, 017M, 017R, 032X, 032Y, 032Z, 035E, 037C, 039B, 039C, 039D, 039E, 046K, 046M, 046S, 046U, 047I, 048H -->
-    <!-- TBD: Need for clarification/discussion 
-              Shouldn't it be 037G instead of 037I? -->
-    <xsl:if test="datafield[@tag='011B' or @tag='013E' or @tag='017M' or @tag='017R' or @tag='032X' or @tag='032Y' or @tag='032Z' or @tag='035E' or @tag='037A' or @tag='037C' or @tag='037I' or @tag='039B' or @tag='039C' or @tag='039D' or @tag='039E' or @tag='046P' or @tag='046L' or @tag='046K' or @tag='046M' or @tag='046S' or @tag='046U' or @tag='047I' or @tag='048H']">
+    <!-- hebis: added missing/new tags: 017M, 017R, 035E, 037C, 039B, 039C, 039D, 039E, 046K, 046U, 047I, 048H -->
+    <xsl:if test="datafield[@tag='011B' or @tag='017M' or @tag='017R' or @tag='035E' or @tag='037A' or @tag='037C' or @tag='037I' or @tag='039B' or @tag='039C' or @tag='039D' or @tag='039E' or @tag='046P' or @tag='046L' or @tag='046K' or @tag='046U' or @tag='047I' or @tag='048H']">
       <notes>
         <arr>
-          <xsl:for-each select="datafield[@tag='011B' or @tag='013E' or @tag='017M' or @tag='017R' or @tag='032X' or @tag='032Y' or @tag='032Z' or @tag='035E' or @tag='037A' or @tag='037C' or @tag='037I' or @tag='039B' or @tag='039C' or @tag='039D' or @tag='039E' or @tag='046P' or @tag='046K' or @tag='046L' or @tag='046M' or @tag='046S' or @tag='046U' or @tag='047I' or @tag='048H']">
+          <xsl:for-each select="datafield[@tag='011B' or @tag='017M' or @tag='017R' or @tag='035E' or @tag='037A' or @tag='037C' or @tag='037I' or @tag='039B' or @tag='039C' or @tag='039D' or @tag='039E' or @tag='046P' or @tag='046K' or @tag='046L' or @tag='046U' or @tag='047I' or @tag='048H']">
             <i>
               <xsl:choose>
                 <xsl:when test="./@tag='011B'">
@@ -1467,105 +1436,6 @@
                   <instanceNoteTypeId>Dissertation note</instanceNoteTypeId>
                 </xsl:when>
 
-                <!-- hebis: added new tag for "Format of notated music" -->
-                <xsl:when test="./@tag='013E'">
-                  <note>
-                    <xsl:for-each select="subfield">
-                      <xsl:choose>
-                        <xsl:when test="@code='8'">
-                          <xsl:choose>
-                            <xsl:when test="contains(., ' ; ID:')">
-                              <xsl:value-of select="substring-before(., ' ; ID:')"/>
-                            </xsl:when>
-                            <xsl:otherwise>
-                              <xsl:value-of select="."/>
-                            </xsl:otherwise>
-                          </xsl:choose>
-                        </xsl:when>
-                        <xsl:when test="@code='a'">
-                          <xsl:value-of select="."/>
-                        </xsl:when>
-                      </xsl:choose> 
-                    </xsl:for-each>
-                  </note>
-                  <instanceNoteTypeId>Musikalische Ausgabeform</instanceNoteTypeId>
-                </xsl:when> 
-
-                <!-- hebis: added new tag for "Medium of Performance" -->
-                <!-- TBD: authorities at GBV" -->
-                <xsl:when test="./@tag='032X'">
-                  <note>
-                    <xsl:for-each select="subfield">
-                      <xsl:choose>
-                        <xsl:when test="@code='s'">
-                          <xsl:value-of select="concat('Instrumente/Solisten: ',.)"/>
-                        </xsl:when>
-                        <xsl:when test="@code='t'">
-                          <xsl:value-of select="concat('Ensembles: ',.)"/>
-                        </xsl:when>
-                        <xsl:when test="@code='a' or @code='p'">
-                          <xsl:value-of select="."/>
-                        </xsl:when>
-                        <xsl:when test="@code='e' or @code='n'">
-                          <xsl:value-of select="concat(' (',.,')')"/>
-                        </xsl:when>
-                        <xsl:when test="@code='v'">
-                          <xsl:value-of select="concat(', ',.)"/>
-                        </xsl:when>
-                      </xsl:choose>
-                    </xsl:for-each>
-                  </note>
-                  <instanceNoteTypeId>Besetzung</instanceNoteTypeId>
-                </xsl:when> 
-
-                <!-- hebis: added new tag for "Numeric Designation of Musical Work" -->
-                <xsl:when test="./@tag='032Y'">
-                  <note>
-                    <xsl:for-each select="subfield">
-                      <xsl:choose>
-                        <xsl:when test="@code='a' or @code='b' or @code='c' or @code='d' or @code='e'">
-                          <xsl:value-of select="."/>
-                        </xsl:when>
-                      </xsl:choose> 
-                    </xsl:for-each>
-                  </note>
-                  <instanceNoteTypeId>Numerische Bezeichnung eines Musikwerks</instanceNoteTypeId>
-                </xsl:when> 
-
-                <!-- hebis: added new tag for "Key" -->
-                <xsl:when test="./@tag='032Z'">
-                  <note>
-                    <xsl:for-each select="subfield">
-                      <xsl:choose>
-                        <xsl:when test="@code='a'">
-                          <xsl:value-of select="concat(., ' (Original)')"/>
-                        </xsl:when>
-                        <xsl:when test="@code='b'">
-                          <xsl:value-of select="concat(., ' (Fassung)')"/>
-                        </xsl:when>
-                      </xsl:choose> 
-                    </xsl:for-each>
-                  </note>
-                  <instanceNoteTypeId>Tonart</instanceNoteTypeId>
-                </xsl:when> 
-
-                <!-- hebis: added new tag for "With note" -->
-                <xsl:when test="./@tag='046M'">
-                  <note>
-                    <xsl:for-each select="subfield">
-                      <xsl:choose>
-                        <xsl:when test="@code='u' or @code='a'">
-                          <xsl:value-of select="."/>
-                        </xsl:when>
-                        <xsl:when test="@code='h'">
-                           <xsl:value-of select="concat(' / ',.)"/>
-                        </xsl:when>
-                      </xsl:choose> 
-                    </xsl:for-each>
-                  </note>
-                  <instanceNoteTypeId>With note</instanceNoteTypeId>
-                </xsl:when> 
-
                 <xsl:otherwise>
                   <note>
                     <xsl:value-of select="./subfield[@code='a']"/>
@@ -1590,18 +1460,12 @@
                     <xsl:when test="./@tag='046P'">
                       <instanceNoteTypeId>Numbering peculiarities note</instanceNoteTypeId>
                     </xsl:when>
-                    <!-- hebis: added new labels -->
-                    <xsl:when test="./@tag='046S'">
-                      <instanceNoteTypeId>Participant or Performer note</instanceNoteTypeId>
-                    </xsl:when>
                     <xsl:when test="./@tag='046U'">
                       <instanceNoteTypeId>Target Audience Note</instanceNoteTypeId>
                     </xsl:when>
                     <xsl:when test="./@tag='047I'">
                       <instanceNoteTypeId>Summary</instanceNoteTypeId>
                     </xsl:when>
-                    <!-- TBD: Need for clarification/discussion 
-                              Shouldn't it be 037G instead of 037I? -->
                     <xsl:when test="./@tag='037I'">
                       <instanceNoteTypeId>Reproduction note</instanceNoteTypeId>
                     </xsl:when>
@@ -1687,7 +1551,7 @@
       </languages>
     </xsl:if>
 	<!-- series -->
-    <!-- hebis: added subfields -->
+    <!-- hebis: added missing subfields -->
     <!-- TBD: need for adjustment at GBV? Not sure about the subfields in PXB-format -->
     <series>
      <arr>
@@ -1762,7 +1626,7 @@
         <arr>
           <i>
             <xsl:choose>
-            <!-- hebis: depending on the constellation, not all tags were displayed -->
+            <!-- hebis: correction (depending on the constellation, not all tags were displayed) -->
               <xsl:when test="$phd != ''">
                 <xsl:value-of select="$phd"/>
                 <xsl:if test="$phm != ''">
@@ -1817,7 +1681,6 @@
         </arr>
       </editions>
     </xsl:if>
-
   </xsl:template>
   
   <xsl:template match="text()"/>
