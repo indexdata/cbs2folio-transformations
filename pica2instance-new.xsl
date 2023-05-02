@@ -1483,16 +1483,18 @@
         <arr>
           <xsl:for-each select="datafield[@tag='036E']">
             <i>
-              <xsl:for-each select="subfield">
-                <xsl:choose>
-                  <xsl:when test="@code='a'">
-                    <xsl:value-of select="."/>
-                  </xsl:when>
-                  <xsl:when test="@code='l'">
-                    <xsl:value-of select="concat(' ; ',.)"/>
-                  </xsl:when>
-                </xsl:choose> 
-              </xsl:for-each>
+              <value>
+                <xsl:for-each select="subfield">
+                  <xsl:choose>
+                    <xsl:when test="@code='a'">
+                      <xsl:value-of select="."/>
+                    </xsl:when>
+                    <xsl:when test="@code='l'">
+                      <xsl:value-of select="concat(' ; ',.)"/>
+                    </xsl:when>
+                  </xsl:choose> 
+                </xsl:for-each>
+              </value>
             </i>
           </xsl:for-each>
         </arr>
@@ -1502,7 +1504,9 @@
         <xsl:when test="boolean(substring(datafield[@tag='002@']/subfield[@code='0'], 2, 1) != 'f') and datafield[@tag='036C']">
           <arr>
             <i>
-              <xsl:value-of select="normalize-space(substring-after($title-036C, '. '))"/>
+              <value>
+                <xsl:value-of select="normalize-space(substring-after($title-036C, '. '))"/>
+              </value>
             </i>
           </arr>
         </xsl:when>
