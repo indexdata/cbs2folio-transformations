@@ -1,0 +1,125 @@
+Version 6 (status: 21.04.2023) still in progress 
+
+<source>
+- New source for foster titles?
+
+<alternativeTitle>
+- Removed [@occurrence='00'] from tag 022A 
+
+<contributors>
+- Added tag 029F
+
+<notes> 
+- Added tags 013E, 032X, 032Y, 032Z, 046M and 046S 
+- New instanceNoteTypeId ("Besetzung", "Musikalische Ausgabeform", "Numerische Bezeichnung eines Musikwerks", "Tonart")
+
+****************************************************************************************************************************
+
+Version 5 (status: 23.08.2022)
+
+<title>, <indextitle>
+- Changed ISBD punctuation in 036C
+- Adjustments for *v*-records
+- Adjustments to subfields in 022A
+
+<alternativeTitle>
+- Adjustments for Non-Latin scripts
+
+<notes>
+- Added subfields to tags 039B, 039C ,039D and 039E
+
+<series>
+- Added subfields to tag 036E
+- Added Non-Latin Script (036A + 036C)
+
+****************************************************************************************************************************
+
+Version 4 (Status: 05.08.2022)
+
+template parse-021x
+- Filter sorting character "@" from 021A $r 
+
+<indextitle>
+- Truncate before sorting character "@" in 021A $r
+
+<serie>
+- Filter sorting character "@" from 036E $a 
+
+****************************************************************************************************************************
+
+Version 3 (status: 12.07.2022)
+
+<template>
+- Added new templates parse-021x, parse-036x 
+
+</identifiers>
+- Changes to tags 007G and 007D ($i won't occur without $0, but $0 might occur without $i) 
+
+<indextitle>
+- Added tags and subfields for parts of multipart resources with dependent title (036C + 021A)
+
+<title>, <indextitle>
+- Added tags 021M and 021N
+- Added ZDB feature: Edition Statements are displayed as subseries
+
+<alternativeTitle>
+ - When $z = e in tag 046D add "Frühester"
+
+<notes>
+- Added tags 039B, 039C, 039D, 039E
+
+<series>
+- Added tag 036A/XY (information on the second multi-part resource for parts that belong to two multi-part resources), hebis feature
+
+****************************************************************************************************************************
+
+Version 2 (status: 28.06.2022)
+
+<identifiers>:
+- Added label for 007D
+
+<title>
+- Added tags and subfields for parts of multipart resources with dependent title and changed order of subfields, e.g. remainder of title and statement of responsibility of titles with subsets
+
+<alternativeTitles>
+- Title in Non-Latin scripts moved from <title> to <alternativeTitles> (tags 021A + 036C)
+- Added tag 046D
+- Filter sorting character "@"
+
+<publication>
+- If a publication year is recorded in direct form (011@ $n), the sortable forms (011@ $a and $b) are not displayed
+
+<electronicAccess> 
+- Tags 017R and 017M moved from <electronicAccess> to <notes> 
+
+<notes>
+- Added tags: 017R, 017M, 035E, 037C, 046U
+
+<series>
+- Added subfields to tag 036E
+- Added series statement for parts of multipart resources with independent title
+
+<physicalDescriptions>
+- Depending on the constellation of the tags 034D, 034I, 034K and 034M some individual elements were not displayed.
+
+****************************************************************************************************************************
+
+Version 1 (Status: 09.05.2022)
+
+<source>
+- Changed source to "hebis"
+
+<title>, <indextitle>
+- "Kein Titel, im K10plus prüfen" changed to "Kein Titel, im CBS prüfen"
+
+<identifiers>
+- Added calls for tags 004R, 004U, 004V, 006B, 006N, 006X, 007Y
+- Added labels for tags 004R, 004U, 004V, 006B
+- Added subfield $i to tags 006L, 006X, 007D, 007Y
+
+<alternativeTitle>
+- Added subfields in 022A, made subfields repeatable
+
+<contributors>
+- Changes to 028*: Personal names were partly displayed incompletely
+- Changes to 029*: Bodies and conferences were partly displayed incompletely/incorrectly.
