@@ -41,6 +41,8 @@
         <xsl:when test=".='Lokaler Schlüssel'"><xsl:text>49050d37-2d82-452c-a963-2645ffc0b9a9</xsl:text></xsl:when> <!-- hebis-wide -->
         <xsl:when test=".='Text zur Ausleihbarkeit'"><xsl:text>f862da41-4a7a-4864-8a52-befa58ab210b</xsl:text></xsl:when> <!-- hebis-wide -->
         <xsl:when test=".='Standort (8201)'"><xsl:text>013e0b2c-2259-4ee8-8d15-f463f1aeb0b1</xsl:text></xsl:when> <!-- hebis-wide -->
+        <xsl:when test=".='Lokale Schlagwörter'"><xsl:text>65eea0de-f9da-46e1-828a-479579997110</xsl:text></xsl:when> <!-- ILN-specific -->
+        <xsl:when test=".='Lokale Klassifikationen'"><xsl:text>2b56966a-4fb2-4695-befe-073ac0d22996</xsl:text></xsl:when> <!-- ILN-specific -->
         <xsl:otherwise>b160f13a-ddba-4053-b9c4-60ec5ea45d56</xsl:otherwise> <!-- Note -->
       </xsl:choose>
     </holdingsNoteTypeId>
@@ -526,6 +528,15 @@
     </identifierTypeId>
   </xsl:template>
   
+  <!-- Map classification types -->
+  <xsl:template match="classificationTypeId"> <!-- Level 1: ILN-specific  -->
+    <classificationTypeId>
+    <xsl:choose>
+      <xsl:when test=".='Lokale Klassifikation'">720a846a-85db-4d3a-bfd9-7dfd2f55ae4a</xsl:when>
+    </xsl:choose>
+    </classificationTypeId>
+  </xsl:template>
+
   <!-- Map holdings types -->
   <xsl:template match="holdingsTypeId"> <!-- Level 0: FOLIO -->
     <holdingsTypeId>
