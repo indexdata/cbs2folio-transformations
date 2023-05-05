@@ -1172,8 +1172,9 @@
             <publisher>
               <xsl:for-each select="./subfield[@code='n']">
                 <xsl:variable name="pos" select="position()"/>
+                <xsl:if test="../subfield[@code='z'][$pos] = 'e'">erster: </xsl:if>
                 <xsl:if test="../subfield[@code='z'][$pos] = 'f'">früher: </xsl:if>
-                <xsl:if test="../subfield[@code='z'][$pos] = 'z'">später: </xsl:if>
+                <xsl:if test="../subfield[@code='z'][$pos] = 's'">später: </xsl:if>
                 <xsl:value-of select="."/>
                 <xsl:if test="../subfield[@code='h'][$pos]">
                   <xsl:value-of select="concat(' (', ../subfield[@code='h'][$pos], ')')"/>
