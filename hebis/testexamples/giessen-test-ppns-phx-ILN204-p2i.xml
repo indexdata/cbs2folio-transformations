@@ -1,0 +1,1766 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection>
+   <record>
+      <original>
+         <datafield tag="001D" fulltag="001D">
+            <subfield code="0">0026:25-03-15</subfield>
+         </datafield>
+         <datafield tag="002@" fulltag="002@">
+            <subfield code="0">Aau</subfield>
+         </datafield>
+         <datafield tag="003@" fulltag="003@">
+            <subfield code="0">354400185</subfield>
+         </datafield>
+         <datafield tag="003O" fulltag="003O">
+            <subfield code="a">OCoLC</subfield>
+            <subfield code="0">906097900</subfield>
+         </datafield>
+         <datafield tag="004A" fulltag="004A">
+            <subfield code="0">3662459760</subfield>
+            <subfield code="f">Book. w. online files/update : ca. EUR 49.99 (DE)</subfield>
+         </datafield>
+         <datafield tag="004A" fulltag="004A">
+            <subfield code="0">9783662459768</subfield>
+            <subfield code="f">Book. w. online files/update : ca. EUR 49.99 (DE)</subfield>
+         </datafield>
+         <datafield tag="004L" fulltag="004L">
+            <subfield code="0">9783662459768</subfield>
+         </datafield>
+         <datafield tag="006G" fulltag="006G">
+            <subfield code="0">1062811771</subfield>
+         </datafield>
+         <datafield tag="006T" fulltag="006T">
+            <subfield code="0">14,N50</subfield>
+         </datafield>
+         <datafield tag="006U" fulltag="006U">
+            <subfield code="0">15,A24,1128</subfield>
+         </datafield>
+         <datafield tag="007G" fulltag="007G">
+            <subfield code="i">DNB</subfield>
+            <subfield code="0">1062811771</subfield>
+         </datafield>
+         <datafield tag="010@" fulltag="010@">
+            <subfield code="a">ger</subfield>
+         </datafield>
+         <datafield tag="011@" fulltag="011@">
+            <subfield code="a">2015</subfield>
+         </datafield>
+         <datafield tag="021A" fulltag="021A">
+            <subfield code="a">Gerthsen Physik</subfield>
+            <subfield code="h">Dieter Meschede [Hrsg.]</subfield>
+         </datafield>
+         <datafield tag="028C" fulltag="028C">
+            <subfield code="9">159249090</subfield>
+            <subfield code="a">Meschede</subfield>
+            <subfield code="d">Dieter</subfield>
+            <subfield code="h">1954-</subfield>
+            <subfield code="B">&#x98;Hrsg.</subfield>
+         </datafield>
+         <datafield tag="028C" fulltag="028C">
+            <subfield code="9">184322839</subfield>
+            <subfield code="a">Gerthsen</subfield>
+            <subfield code="d">Christian</subfield>
+            <subfield code="h">1894-1956</subfield>
+            <subfield code="B">Begr.</subfield>
+         </datafield>
+         <datafield tag="032@" fulltag="032@">
+            <subfield code="a">25. Aufl.</subfield>
+         </datafield>
+         <datafield tag="033A" fulltag="033A">
+            <subfield code="p">Berlin {[u.a.]</subfield>
+            <subfield code="n">Springer-Spektrum</subfield>
+         </datafield>
+         <datafield tag="034D" fulltag="034D">
+            <subfield code="a">XV, 1047 S.</subfield>
+         </datafield>
+         <datafield tag="034I" fulltag="034I">
+            <subfield code="a">240 mm x 168 mm</subfield>
+         </datafield>
+         <datafield tag="034M" fulltag="034M">
+            <subfield code="a">zahlr. Ill. u. graph. Darst.</subfield>
+         </datafield>
+         <datafield tag="036E" fulltag="036E">
+            <subfield code="a">Springer-Lehrbuch</subfield>
+         </datafield>
+         <item epn="752038176">
+            <datafield tag="201B" occurrence="01" fulltag="201B/01">
+               <subfield code="0">18-04-18</subfield>
+               <subfield code="t">14:26:51.000</subfield>
+            </datafield>
+            <datafield tag="201C" occurrence="01" fulltag="201C/01">
+               <subfield code="0">19-03-15</subfield>
+            </datafield>
+            <datafield tag="201U" occurrence="01" fulltag="201U/01">
+               <subfield code="0">utf8</subfield>
+            </datafield>
+            <datafield tag="203@" occurrence="01" fulltag="203@/01">
+               <subfield code="0">752038176</subfield>
+            </datafield>
+            <datafield tag="208@" occurrence="01" fulltag="208@/01">
+               <subfield code="a">26-03-15</subfield>
+               <subfield code="b">m002</subfield>
+            </datafield>
+            <datafield tag="209A" occurrence="01" fulltag="209A/01">
+               <subfield code="e">21</subfield>
+               <subfield code="a">002 phy At 0.909, 25.Aufl., (1.-21.Ex.)</subfield>
+               <subfield code="f">002</subfield>
+               <subfield code="d">u</subfield>
+               <subfield code="h">002 phy at 0 909 / a 25 / +1-21</subfield>
+               <subfield code="x">00</subfield>
+            </datafield>
+            <datafield tag="209A" occurrence="01" fulltag="209A/01">
+               <subfield code="a">vlbs-phy</subfield>
+               <subfield code="x">04</subfield>
+            </datafield>
+            <datafield tag="209G" occurrence="01" fulltag="209G/01">
+               <subfield code="a">86589010 (1)</subfield>
+               <subfield code="x">00</subfield>
+            </datafield>
+            <datafield tag="209G" occurrence="01" fulltag="209G/01">
+               <subfield code="a">86589028 (2)</subfield>
+               <subfield code="x">00</subfield>
+            </datafield>
+            <datafield tag="209G" occurrence="01" fulltag="209G/01">
+               <subfield code="a">86589036 (3)</subfield>
+               <subfield code="x">00</subfield>
+            </datafield>
+            <datafield tag="209G" occurrence="01" fulltag="209G/01">
+               <subfield code="a">86589044 (4)</subfield>
+               <subfield code="x">00</subfield>
+            </datafield>
+            <datafield tag="209G" occurrence="01" fulltag="209G/01">
+               <subfield code="a">86589052 (5)</subfield>
+               <subfield code="x">00</subfield>
+            </datafield>
+            <datafield tag="209G" occurrence="01" fulltag="209G/01">
+               <subfield code="a">86589060 (6)</subfield>
+               <subfield code="x">00</subfield>
+            </datafield>
+            <datafield tag="209G" occurrence="01" fulltag="209G/01">
+               <subfield code="a">86589079 (7)</subfield>
+               <subfield code="x">00</subfield>
+            </datafield>
+            <datafield tag="209G" occurrence="01" fulltag="209G/01">
+               <subfield code="a">86589087 (8)</subfield>
+               <subfield code="x">00</subfield>
+            </datafield>
+            <datafield tag="209G" occurrence="01" fulltag="209G/01">
+               <subfield code="a">86589095 (9)</subfield>
+               <subfield code="x">00</subfield>
+            </datafield>
+            <datafield tag="209G" occurrence="01" fulltag="209G/01">
+               <subfield code="a">86589109 (10)</subfield>
+               <subfield code="x">00</subfield>
+            </datafield>
+            <datafield tag="209G" occurrence="01" fulltag="209G/01">
+               <subfield code="a">86589117 (11)</subfield>
+               <subfield code="x">00</subfield>
+            </datafield>
+            <datafield tag="209G" occurrence="01" fulltag="209G/01">
+               <subfield code="a">87078582 (12)</subfield>
+               <subfield code="x">00</subfield>
+            </datafield>
+            <datafield tag="209G" occurrence="01" fulltag="209G/01">
+               <subfield code="a">87078590 (13)</subfield>
+               <subfield code="x">00</subfield>
+            </datafield>
+            <datafield tag="209G" occurrence="01" fulltag="209G/01">
+               <subfield code="a">87078604 (14)</subfield>
+               <subfield code="x">00</subfield>
+            </datafield>
+            <datafield tag="209G" occurrence="01" fulltag="209G/01">
+               <subfield code="a">87078612 (15)</subfield>
+               <subfield code="x">00</subfield>
+            </datafield>
+            <datafield tag="209G" occurrence="01" fulltag="209G/01">
+               <subfield code="a">87078620 (16)</subfield>
+               <subfield code="x">00</subfield>
+            </datafield>
+            <datafield tag="209G" occurrence="01" fulltag="209G/01">
+               <subfield code="a">87078639 (17)</subfield>
+               <subfield code="x">00</subfield>
+            </datafield>
+            <datafield tag="209G" occurrence="01" fulltag="209G/01">
+               <subfield code="a">87078647 (18)</subfield>
+               <subfield code="x">00</subfield>
+            </datafield>
+            <datafield tag="209G" occurrence="01" fulltag="209G/01">
+               <subfield code="a">87078655 (19)</subfield>
+               <subfield code="x">00</subfield>
+            </datafield>
+            <datafield tag="209G" occurrence="01" fulltag="209G/01">
+               <subfield code="a">87078663 (20)</subfield>
+               <subfield code="x">00</subfield>
+            </datafield>
+            <datafield tag="209G" occurrence="01" fulltag="209G/01">
+               <subfield code="a">87078671 (21)</subfield>
+               <subfield code="x">00</subfield>
+            </datafield>
+            <datafield tag="245S" occurrence="01" fulltag="245S/01">
+               <subfield code="a">24000</subfield>
+               <subfield code="x">01</subfield>
+            </datafield>
+            <datafield tag="247C" occurrence="01" fulltag="247C/01">
+               <subfield code="9">102596719</subfield>
+               <subfield code="8">Universität Gießen, Zweigbibliothek Natur- und Lebenswissenschaften (ZNL)</subfield>
+            </datafield>
+         </item>
+         <item epn="768404258">
+            <datafield tag="201B" occurrence="02" fulltag="201B/02">
+               <subfield code="0">22-02-16</subfield>
+               <subfield code="t">08:47:36.000</subfield>
+            </datafield>
+            <datafield tag="201C" occurrence="02" fulltag="201C/02">
+               <subfield code="0">11-02-16</subfield>
+            </datafield>
+            <datafield tag="201U" occurrence="02" fulltag="201U/02">
+               <subfield code="0">utf8</subfield>
+            </datafield>
+            <datafield tag="203@" occurrence="02" fulltag="203@/02">
+               <subfield code="0">768404258</subfield>
+            </datafield>
+            <datafield tag="208@" occurrence="02" fulltag="208@/02">
+               <subfield code="a">22-02-16</subfield>
+               <subfield code="b">z002</subfield>
+            </datafield>
+            <datafield tag="209A" occurrence="02" fulltag="209A/02">
+               <subfield code="a">002 phy At 0.909, 25.Aufl.</subfield>
+               <subfield code="f">002</subfield>
+               <subfield code="d">g</subfield>
+               <subfield code="h">002 phy at 0 909 / a 25</subfield>
+               <subfield code="x">00</subfield>
+            </datafield>
+            <datafield tag="209G" occurrence="02" fulltag="209G/02">
+               <subfield code="a">87143953</subfield>
+               <subfield code="x">00</subfield>
+            </datafield>
+            <datafield tag="209G" occurrence="02" fulltag="209G/02">
+               <subfield code="a">hap10720177</subfield>
+               <subfield code="x">01</subfield>
+            </datafield>
+            <datafield tag="245S" occurrence="02" fulltag="245S/02">
+               <subfield code="a">24000</subfield>
+               <subfield code="x">01</subfield>
+            </datafield>
+            <datafield tag="247C" occurrence="02" fulltag="247C/02">
+               <subfield code="9">102596719</subfield>
+               <subfield code="8">Universität Gießen, Zweigbibliothek Natur- und Lebenswissenschaften (ZNL)</subfield>
+            </datafield>
+         </item>
+         <item epn="77867570X">
+            <datafield tag="201B" occurrence="03" fulltag="201B/03">
+               <subfield code="0">15-08-16</subfield>
+               <subfield code="t">10:25:21.000</subfield>
+            </datafield>
+            <datafield tag="201C" occurrence="03" fulltag="201C/03">
+               <subfield code="0">28-07-16</subfield>
+            </datafield>
+            <datafield tag="201U" occurrence="03" fulltag="201U/03">
+               <subfield code="0">utf8</subfield>
+            </datafield>
+            <datafield tag="203@" occurrence="03" fulltag="203@/03">
+               <subfield code="0">77867570X</subfield>
+            </datafield>
+            <datafield tag="208@" occurrence="03" fulltag="208@/03">
+               <subfield code="a">15-08-16</subfield>
+               <subfield code="b">z002</subfield>
+            </datafield>
+            <datafield tag="209A" occurrence="03" fulltag="209A/03">
+               <subfield code="a">002 phy At 0.909, 25.Aufl.</subfield>
+               <subfield code="f">002</subfield>
+               <subfield code="d">g</subfield>
+               <subfield code="h">002 phy at 0 909 / a 25</subfield>
+               <subfield code="x">00</subfield>
+            </datafield>
+            <datafield tag="209G" occurrence="03" fulltag="209G/03">
+               <subfield code="a">87351700</subfield>
+               <subfield code="x">00</subfield>
+            </datafield>
+            <datafield tag="209G" occurrence="03" fulltag="209G/03">
+               <subfield code="a">hap10720174</subfield>
+               <subfield code="x">01</subfield>
+            </datafield>
+            <datafield tag="245S" occurrence="03" fulltag="245S/03">
+               <subfield code="a">24000</subfield>
+               <subfield code="x">01</subfield>
+            </datafield>
+            <datafield tag="247C" occurrence="03" fulltag="247C/03">
+               <subfield code="9">102596719</subfield>
+               <subfield code="8">Universität Gießen, Zweigbibliothek Natur- und Lebenswissenschaften (ZNL)</subfield>
+            </datafield>
+         </item>
+      </original>
+      <instance>
+         <source>hebis</source>
+         <hrid>354400185</hrid>
+         <statusUpdatedDate>2015-03-25</statusUpdatedDate>
+         <statusId>Autopsie</statusId>
+         <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
+         <instanceTypeId>a2c91e87-6bab-44d6-8adb-1fd02481fc4f</instanceTypeId>
+         <instanceFormatIds>
+            <arr/>
+         </instanceFormatIds>
+         <identifiers>
+            <arr>
+               <i>
+                  <value>354400185</value>
+                  <identifierTypeId>PPN</identifierTypeId>
+               </i>
+               <i>
+                  <value>906097900</value>
+                  <identifierTypeId>OCLC</identifierTypeId>
+               </i>
+               <i>
+                  <value>3662459760 Book. w. online files/update : ca. EUR 49.99 (DE)</value>
+                  <identifierTypeId>ISBN</identifierTypeId>
+               </i>
+               <i>
+                  <value>9783662459768 Book. w. online files/update : ca. EUR 49.99 (DE)</value>
+                  <identifierTypeId>ISBN</identifierTypeId>
+               </i>
+               <i>
+                  <value>9783662459768</value>
+                  <identifierTypeId>GTIN (vormals EAN)</identifierTypeId>
+               </i>
+               <i>
+                  <value>1062811771</value>
+                  <identifierTypeId>DNB-Nummer</identifierTypeId>
+               </i>
+               <i>
+                  <value>14,N50</value>
+                  <identifierTypeId>CIP-Nummer</identifierTypeId>
+               </i>
+               <i>
+                  <value>15,A24,1128</value>
+                  <identifierTypeId>WV-Nummer</identifierTypeId>
+               </i>
+               <i>
+                  <value>DNB: 1062811771</value>
+                  <identifierTypeId>Identnummer der erstkatalogisierenden Institution</identifierTypeId>
+               </i>
+            </arr>
+         </identifiers>
+         <title>Gerthsen Physik / Dieter Meschede [Hrsg.]</title>
+         <indexTitle>Gerthsen Physik Dieter Meschede [Hrsg]</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
+         <contributors>
+            <arr>
+               <i>
+                  <name>Meschede, Dieter *1954-*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <contributorTypeText>&#x98;Hrsg.</contributorTypeText>
+               </i>
+               <i>
+                  <name>Gerthsen, Christian *1894-1956*</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <contributorTypeText>Begr.</contributorTypeText>
+               </i>
+            </arr>
+         </contributors>
+         <publication>
+            <arr>
+               <i>
+                  <place>Berlin {[u.a.]</place>
+                  <publisher>Springer-Spektrum</publisher>
+                  <dateOfPublication>2015</dateOfPublication>
+                  <role>Publisher</role>
+               </i>
+            </arr>
+         </publication>
+         <electronicAccess>
+            <arr/>
+         </electronicAccess>
+         <languages>
+            <arr>
+               <i>ger</i>
+            </arr>
+         </languages>
+         <series>
+            <arr>
+               <i>Springer-Lehrbuch</i>
+            </arr>
+            <arr>
+               <i/>
+            </arr>
+         </series>
+         <physicalDescriptions>
+            <arr>
+               <i>XV, 1047 S. : zahlr. Ill. u. graph. Darst. ; 240 mm x 168 mm</i>
+            </arr>
+         </physicalDescriptions>
+         <editions>
+            <arr>
+               <i>25. Aufl.</i>
+            </arr>
+         </editions>
+      </instance>
+      <instanceRelations/>
+      <processing>
+         <item>
+            <status>
+               <policy>retain</policy>
+            </status>
+         </item>
+      </processing>
+      <holdingsRecords>
+         <arr>
+            <i>
+               <hrid>752038176</hrid>
+               <permanentLocationId>ILN204/CG/ZNL/Freihand</permanentLocationId>
+               <callNumber>002 phy At 0.909, 25.Aufl., (1.-21.Ex.)</callNumber>
+               <holdingsTypeId>physical</holdingsTypeId>
+               <holdingsStatements/>
+               <notes>
+                  <arr/>
+               </notes>
+               <discoverySuppress>false</discoverySuppress>
+               <sourceId>hebis</sourceId>
+               <items>
+                  <arr>
+                     <i>
+                        <hrid>752038176-86589010</hrid>
+                        <materialTypeId>Druckschrift</materialTypeId>
+                        <permanentLoanTypeId>0 u Ausleihbar</permanentLoanTypeId>
+                        <status>
+                           <name>Available</name>
+                        </status>
+                        <itemLevelCallNumber>002 phy At 0.909, 25.Aufl., (1.-21.Ex.)</itemLevelCallNumber>
+                        <barcode>86589010</barcode>
+                        <copyNumber>1</copyNumber>
+                        <volume/>
+                        <chronology/>
+                        <accessionNumber/>
+                        <discoverySuppress>false</discoverySuppress>
+                     </i>
+                     <i>
+                        <hrid>752038176-86589028</hrid>
+                        <materialTypeId>Druckschrift</materialTypeId>
+                        <permanentLoanTypeId>0 u Ausleihbar</permanentLoanTypeId>
+                        <status>
+                           <name>Available</name>
+                        </status>
+                        <itemLevelCallNumber>002 phy At 0.909, 25.Aufl., (1.-21.Ex.)</itemLevelCallNumber>
+                        <barcode>86589028</barcode>
+                        <copyNumber>2</copyNumber>
+                        <volume/>
+                        <chronology/>
+                        <accessionNumber/>
+                        <discoverySuppress>false</discoverySuppress>
+                     </i>
+                     <i>
+                        <hrid>752038176-86589036</hrid>
+                        <materialTypeId>Druckschrift</materialTypeId>
+                        <permanentLoanTypeId>0 u Ausleihbar</permanentLoanTypeId>
+                        <status>
+                           <name>Available</name>
+                        </status>
+                        <itemLevelCallNumber>002 phy At 0.909, 25.Aufl., (1.-21.Ex.)</itemLevelCallNumber>
+                        <barcode>86589036</barcode>
+                        <copyNumber>3</copyNumber>
+                        <volume/>
+                        <chronology/>
+                        <accessionNumber/>
+                        <discoverySuppress>false</discoverySuppress>
+                     </i>
+                     <i>
+                        <hrid>752038176-86589044</hrid>
+                        <materialTypeId>Druckschrift</materialTypeId>
+                        <permanentLoanTypeId>0 u Ausleihbar</permanentLoanTypeId>
+                        <status>
+                           <name>Available</name>
+                        </status>
+                        <itemLevelCallNumber>002 phy At 0.909, 25.Aufl., (1.-21.Ex.)</itemLevelCallNumber>
+                        <barcode>86589044</barcode>
+                        <copyNumber>4</copyNumber>
+                        <volume/>
+                        <chronology/>
+                        <accessionNumber/>
+                        <discoverySuppress>false</discoverySuppress>
+                     </i>
+                     <i>
+                        <hrid>752038176-86589052</hrid>
+                        <materialTypeId>Druckschrift</materialTypeId>
+                        <permanentLoanTypeId>0 u Ausleihbar</permanentLoanTypeId>
+                        <status>
+                           <name>Available</name>
+                        </status>
+                        <itemLevelCallNumber>002 phy At 0.909, 25.Aufl., (1.-21.Ex.)</itemLevelCallNumber>
+                        <barcode>86589052</barcode>
+                        <copyNumber>5</copyNumber>
+                        <volume/>
+                        <chronology/>
+                        <accessionNumber/>
+                        <discoverySuppress>false</discoverySuppress>
+                     </i>
+                     <i>
+                        <hrid>752038176-86589060</hrid>
+                        <materialTypeId>Druckschrift</materialTypeId>
+                        <permanentLoanTypeId>0 u Ausleihbar</permanentLoanTypeId>
+                        <status>
+                           <name>Available</name>
+                        </status>
+                        <itemLevelCallNumber>002 phy At 0.909, 25.Aufl., (1.-21.Ex.)</itemLevelCallNumber>
+                        <barcode>86589060</barcode>
+                        <copyNumber>6</copyNumber>
+                        <volume/>
+                        <chronology/>
+                        <accessionNumber/>
+                        <discoverySuppress>false</discoverySuppress>
+                     </i>
+                     <i>
+                        <hrid>752038176-86589079</hrid>
+                        <materialTypeId>Druckschrift</materialTypeId>
+                        <permanentLoanTypeId>0 u Ausleihbar</permanentLoanTypeId>
+                        <status>
+                           <name>Available</name>
+                        </status>
+                        <itemLevelCallNumber>002 phy At 0.909, 25.Aufl., (1.-21.Ex.)</itemLevelCallNumber>
+                        <barcode>86589079</barcode>
+                        <copyNumber>7</copyNumber>
+                        <volume/>
+                        <chronology/>
+                        <accessionNumber/>
+                        <discoverySuppress>false</discoverySuppress>
+                     </i>
+                     <i>
+                        <hrid>752038176-86589087</hrid>
+                        <materialTypeId>Druckschrift</materialTypeId>
+                        <permanentLoanTypeId>0 u Ausleihbar</permanentLoanTypeId>
+                        <status>
+                           <name>Available</name>
+                        </status>
+                        <itemLevelCallNumber>002 phy At 0.909, 25.Aufl., (1.-21.Ex.)</itemLevelCallNumber>
+                        <barcode>86589087</barcode>
+                        <copyNumber>8</copyNumber>
+                        <volume/>
+                        <chronology/>
+                        <accessionNumber/>
+                        <discoverySuppress>false</discoverySuppress>
+                     </i>
+                     <i>
+                        <hrid>752038176-86589095</hrid>
+                        <materialTypeId>Druckschrift</materialTypeId>
+                        <permanentLoanTypeId>0 u Ausleihbar</permanentLoanTypeId>
+                        <status>
+                           <name>Available</name>
+                        </status>
+                        <itemLevelCallNumber>002 phy At 0.909, 25.Aufl., (1.-21.Ex.)</itemLevelCallNumber>
+                        <barcode>86589095</barcode>
+                        <copyNumber>9</copyNumber>
+                        <volume/>
+                        <chronology/>
+                        <accessionNumber/>
+                        <discoverySuppress>false</discoverySuppress>
+                     </i>
+                     <i>
+                        <hrid>752038176-86589109</hrid>
+                        <materialTypeId>Druckschrift</materialTypeId>
+                        <permanentLoanTypeId>0 u Ausleihbar</permanentLoanTypeId>
+                        <status>
+                           <name>Available</name>
+                        </status>
+                        <itemLevelCallNumber>002 phy At 0.909, 25.Aufl., (1.-21.Ex.)</itemLevelCallNumber>
+                        <barcode>86589109</barcode>
+                        <copyNumber>10</copyNumber>
+                        <volume/>
+                        <chronology/>
+                        <accessionNumber/>
+                        <discoverySuppress>false</discoverySuppress>
+                     </i>
+                     <i>
+                        <hrid>752038176-86589117</hrid>
+                        <materialTypeId>Druckschrift</materialTypeId>
+                        <permanentLoanTypeId>0 u Ausleihbar</permanentLoanTypeId>
+                        <status>
+                           <name>Available</name>
+                        </status>
+                        <itemLevelCallNumber>002 phy At 0.909, 25.Aufl., (1.-21.Ex.)</itemLevelCallNumber>
+                        <barcode>86589117</barcode>
+                        <copyNumber>11</copyNumber>
+                        <volume/>
+                        <chronology/>
+                        <accessionNumber/>
+                        <discoverySuppress>false</discoverySuppress>
+                     </i>
+                     <i>
+                        <hrid>752038176-87078582</hrid>
+                        <materialTypeId>Druckschrift</materialTypeId>
+                        <permanentLoanTypeId>0 u Ausleihbar</permanentLoanTypeId>
+                        <status>
+                           <name>Available</name>
+                        </status>
+                        <itemLevelCallNumber>002 phy At 0.909, 25.Aufl., (1.-21.Ex.)</itemLevelCallNumber>
+                        <barcode>87078582</barcode>
+                        <copyNumber>12</copyNumber>
+                        <volume/>
+                        <chronology/>
+                        <accessionNumber/>
+                        <discoverySuppress>false</discoverySuppress>
+                     </i>
+                     <i>
+                        <hrid>752038176-87078590</hrid>
+                        <materialTypeId>Druckschrift</materialTypeId>
+                        <permanentLoanTypeId>0 u Ausleihbar</permanentLoanTypeId>
+                        <status>
+                           <name>Available</name>
+                        </status>
+                        <itemLevelCallNumber>002 phy At 0.909, 25.Aufl., (1.-21.Ex.)</itemLevelCallNumber>
+                        <barcode>87078590</barcode>
+                        <copyNumber>13</copyNumber>
+                        <volume/>
+                        <chronology/>
+                        <accessionNumber/>
+                        <discoverySuppress>false</discoverySuppress>
+                     </i>
+                     <i>
+                        <hrid>752038176-87078604</hrid>
+                        <materialTypeId>Druckschrift</materialTypeId>
+                        <permanentLoanTypeId>0 u Ausleihbar</permanentLoanTypeId>
+                        <status>
+                           <name>Available</name>
+                        </status>
+                        <itemLevelCallNumber>002 phy At 0.909, 25.Aufl., (1.-21.Ex.)</itemLevelCallNumber>
+                        <barcode>87078604</barcode>
+                        <copyNumber>14</copyNumber>
+                        <volume/>
+                        <chronology/>
+                        <accessionNumber/>
+                        <discoverySuppress>false</discoverySuppress>
+                     </i>
+                     <i>
+                        <hrid>752038176-87078612</hrid>
+                        <materialTypeId>Druckschrift</materialTypeId>
+                        <permanentLoanTypeId>0 u Ausleihbar</permanentLoanTypeId>
+                        <status>
+                           <name>Available</name>
+                        </status>
+                        <itemLevelCallNumber>002 phy At 0.909, 25.Aufl., (1.-21.Ex.)</itemLevelCallNumber>
+                        <barcode>87078612</barcode>
+                        <copyNumber>15</copyNumber>
+                        <volume/>
+                        <chronology/>
+                        <accessionNumber/>
+                        <discoverySuppress>false</discoverySuppress>
+                     </i>
+                     <i>
+                        <hrid>752038176-87078620</hrid>
+                        <materialTypeId>Druckschrift</materialTypeId>
+                        <permanentLoanTypeId>0 u Ausleihbar</permanentLoanTypeId>
+                        <status>
+                           <name>Available</name>
+                        </status>
+                        <itemLevelCallNumber>002 phy At 0.909, 25.Aufl., (1.-21.Ex.)</itemLevelCallNumber>
+                        <barcode>87078620</barcode>
+                        <copyNumber>16</copyNumber>
+                        <volume/>
+                        <chronology/>
+                        <accessionNumber/>
+                        <discoverySuppress>false</discoverySuppress>
+                     </i>
+                     <i>
+                        <hrid>752038176-87078639</hrid>
+                        <materialTypeId>Druckschrift</materialTypeId>
+                        <permanentLoanTypeId>0 u Ausleihbar</permanentLoanTypeId>
+                        <status>
+                           <name>Available</name>
+                        </status>
+                        <itemLevelCallNumber>002 phy At 0.909, 25.Aufl., (1.-21.Ex.)</itemLevelCallNumber>
+                        <barcode>87078639</barcode>
+                        <copyNumber>17</copyNumber>
+                        <volume/>
+                        <chronology/>
+                        <accessionNumber/>
+                        <discoverySuppress>false</discoverySuppress>
+                     </i>
+                     <i>
+                        <hrid>752038176-87078647</hrid>
+                        <materialTypeId>Druckschrift</materialTypeId>
+                        <permanentLoanTypeId>0 u Ausleihbar</permanentLoanTypeId>
+                        <status>
+                           <name>Available</name>
+                        </status>
+                        <itemLevelCallNumber>002 phy At 0.909, 25.Aufl., (1.-21.Ex.)</itemLevelCallNumber>
+                        <barcode>87078647</barcode>
+                        <copyNumber>18</copyNumber>
+                        <volume/>
+                        <chronology/>
+                        <accessionNumber/>
+                        <discoverySuppress>false</discoverySuppress>
+                     </i>
+                     <i>
+                        <hrid>752038176-87078655</hrid>
+                        <materialTypeId>Druckschrift</materialTypeId>
+                        <permanentLoanTypeId>0 u Ausleihbar</permanentLoanTypeId>
+                        <status>
+                           <name>Available</name>
+                        </status>
+                        <itemLevelCallNumber>002 phy At 0.909, 25.Aufl., (1.-21.Ex.)</itemLevelCallNumber>
+                        <barcode>87078655</barcode>
+                        <copyNumber>19</copyNumber>
+                        <volume/>
+                        <chronology/>
+                        <accessionNumber/>
+                        <discoverySuppress>false</discoverySuppress>
+                     </i>
+                     <i>
+                        <hrid>752038176-87078663</hrid>
+                        <materialTypeId>Druckschrift</materialTypeId>
+                        <permanentLoanTypeId>0 u Ausleihbar</permanentLoanTypeId>
+                        <status>
+                           <name>Available</name>
+                        </status>
+                        <itemLevelCallNumber>002 phy At 0.909, 25.Aufl., (1.-21.Ex.)</itemLevelCallNumber>
+                        <barcode>87078663</barcode>
+                        <copyNumber>20</copyNumber>
+                        <volume/>
+                        <chronology/>
+                        <accessionNumber/>
+                        <discoverySuppress>false</discoverySuppress>
+                     </i>
+                     <i>
+                        <hrid>752038176-87078671</hrid>
+                        <materialTypeId>Druckschrift</materialTypeId>
+                        <permanentLoanTypeId>0 u Ausleihbar</permanentLoanTypeId>
+                        <status>
+                           <name>Available</name>
+                        </status>
+                        <itemLevelCallNumber>002 phy At 0.909, 25.Aufl., (1.-21.Ex.)</itemLevelCallNumber>
+                        <barcode>87078671</barcode>
+                        <copyNumber>21</copyNumber>
+                        <volume/>
+                        <chronology/>
+                        <accessionNumber/>
+                        <discoverySuppress>false</discoverySuppress>
+                     </i>
+                  </arr>
+               </items>
+               <statisticalCodeIds>
+                  <arr/>
+               </statisticalCodeIds>
+            </i>
+            <i>
+               <hrid>768404258</hrid>
+               <permanentLocationId>ILN204/CG/ZNL/Freihand</permanentLocationId>
+               <callNumber>002 phy At 0.909, 25.Aufl.</callNumber>
+               <holdingsTypeId>physical</holdingsTypeId>
+               <holdingsStatements/>
+               <notes>
+                  <arr/>
+               </notes>
+               <discoverySuppress>false</discoverySuppress>
+               <sourceId>hebis</sourceId>
+               <items>
+                  <arr>
+                     <i>
+                        <hrid>768404258</hrid>
+                        <materialTypeId>Druckschrift</materialTypeId>
+                        <permanentLoanTypeId>9 g Nicht ausleihbar</permanentLoanTypeId>
+                        <status>
+                           <name>Unavailable</name>
+                        </status>
+                        <itemLevelCallNumber>002 phy At 0.909, 25.Aufl.</itemLevelCallNumber>
+                        <barcode>87143953</barcode>
+                        <copyNumber/>
+                        <volume/>
+                        <chronology/>
+                        <accessionNumber/>
+                        <discoverySuppress>false</discoverySuppress>
+                     </i>
+                  </arr>
+               </items>
+               <statisticalCodeIds>
+                  <arr/>
+               </statisticalCodeIds>
+            </i>
+            <i>
+               <hrid>77867570X</hrid>
+               <permanentLocationId>ILN204/CG/ZNL/Freihand</permanentLocationId>
+               <callNumber>002 phy At 0.909, 25.Aufl.</callNumber>
+               <holdingsTypeId>physical</holdingsTypeId>
+               <holdingsStatements/>
+               <notes>
+                  <arr/>
+               </notes>
+               <discoverySuppress>false</discoverySuppress>
+               <sourceId>hebis</sourceId>
+               <items>
+                  <arr>
+                     <i>
+                        <hrid>77867570X</hrid>
+                        <materialTypeId>Druckschrift</materialTypeId>
+                        <permanentLoanTypeId>9 g Nicht ausleihbar</permanentLoanTypeId>
+                        <status>
+                           <name>Unavailable</name>
+                        </status>
+                        <itemLevelCallNumber>002 phy At 0.909, 25.Aufl.</itemLevelCallNumber>
+                        <barcode>87351700</barcode>
+                        <copyNumber/>
+                        <volume/>
+                        <chronology/>
+                        <accessionNumber/>
+                        <discoverySuppress>false</discoverySuppress>
+                     </i>
+                  </arr>
+               </items>
+               <statisticalCodeIds>
+                  <arr/>
+               </statisticalCodeIds>
+            </i>
+         </arr>
+      </holdingsRecords>
+   </record>
+   <record>
+      <original>
+         <datafield tag="001D" fulltag="001D">
+            <subfield code="0">1999:01-03-15</subfield>
+         </datafield>
+         <datafield tag="002@" fulltag="002@">
+            <subfield code="0">Oax</subfield>
+         </datafield>
+         <datafield tag="002C" fulltag="002C">
+            <subfield code="a">Text</subfield>
+            <subfield code="b">txt</subfield>
+            <subfield code="2">rdacontent</subfield>
+         </datafield>
+         <datafield tag="002D" fulltag="002D">
+            <subfield code="a">Computermedien</subfield>
+            <subfield code="b">c</subfield>
+            <subfield code="2">rdamedia</subfield>
+         </datafield>
+         <datafield tag="002E" fulltag="002E">
+            <subfield code="a">Online-Ressource</subfield>
+            <subfield code="b">cr</subfield>
+            <subfield code="2">rdacarrier</subfield>
+         </datafield>
+         <datafield tag="003@" fulltag="003@">
+            <subfield code="0">355986272</subfield>
+         </datafield>
+         <datafield tag="004A" fulltag="004A">
+            <subfield code="0">9783662459775</subfield>
+         </datafield>
+         <datafield tag="004A" fulltag="004A">
+            <subfield code="0">3662459779</subfield>
+         </datafield>
+         <datafield tag="007D" fulltag="007D">
+            <subfield code="0">SpringerNature-11777</subfield>
+            <subfield code="f">Subject Collection Life Science and Basic Disciplines (German Language)</subfield>
+         </datafield>
+         <datafield tag="004P" fulltag="004P">
+            <subfield code="S">p</subfield>
+            <subfield code="0">9783662459768</subfield>
+         </datafield>
+         <datafield tag="004V" fulltag="004V">
+            <subfield code="0">10.1007/978-3-662-45977-5</subfield>
+         </datafield>
+         <datafield tag="007G" fulltag="007G">
+            <subfield code="i">HEB</subfield>
+            <subfield code="0">355986272</subfield>
+         </datafield>
+         <datafield tag="017C" fulltag="017C">
+            <subfield code="u">https://doi.org/10.1007/978-3-662-45977-5</subfield>
+            <subfield code="x">R</subfield>
+         </datafield>
+         <datafield tag="010@" fulltag="010@">
+            <subfield code="a">ger</subfield>
+         </datafield>
+         <datafield tag="011@" fulltag="011@">
+            <subfield code="a">2015</subfield>
+         </datafield>
+         <datafield tag="017L" fulltag="017L">
+            <subfield code="a">ZDB-2-SNA</subfield>
+         </datafield>
+         <datafield tag="021A" fulltag="021A">
+            <subfield code="a">Gerthsen Physik</subfield>
+            <subfield code="h">von Dieter Meschede</subfield>
+         </datafield>
+         <datafield tag="028A" fulltag="028A">
+            <subfield code="a">Meschede</subfield>
+            <subfield code="d">Dieter</subfield>
+            <subfield code="B">Verfasser</subfield>
+            <subfield code="4">aut</subfield>
+         </datafield>
+         <datafield tag="032@" fulltag="032@">
+            <subfield code="a">25th ed. 2015</subfield>
+         </datafield>
+         <datafield tag="033A" fulltag="033A">
+            <subfield code="p">Berlin, Heidelberg</subfield>
+            <subfield code="n">Springer Berlin Heidelberg</subfield>
+         </datafield>
+         <datafield tag="033E" fulltag="033E">
+            <subfield code="p">Cham</subfield>
+            <subfield code="n">Springer International Publishing AG</subfield>
+         </datafield>
+         <datafield tag="034D" fulltag="034D">
+            <subfield code="a">1 Online-Ressource (XVI, 1052 Seiten)</subfield>
+         </datafield>
+         <datafield tag="034M" fulltag="034M">
+            <subfield code="a">1330 Abb., 1000 Abb. in Farbe.</subfield>
+         </datafield>
+         <datafield tag="036E" fulltag="036E">
+            <subfield code="a">Springer-Lehrbuch</subfield>
+         </datafield>
+         <datafield tag="039D" fulltag="039D">
+            <subfield code="i">Erscheint auch als Druck-Ausgabe</subfield>
+            <subfield code="8">Meschede, Dieter. Gerthsen Physik. - Berlin, Heidelberg : Springer Berlin Heidelberg, 2015. - ISBN 978-3-662-45976-8</subfield>
+         </datafield>
+         <datafield tag="101B" fulltag="101B">
+            <subfield code="0">02-03-15</subfield>
+            <subfield code="t">11:11:00.000</subfield>
+         </datafield>
+         <datafield tag="101C" fulltag="101C">
+            <subfield code="0">02-03-15</subfield>
+         </datafield>
+         <datafield tag="101U" fulltag="101U">
+            <subfield code="0">utf8</subfield>
+         </datafield>
+         <datafield tag="145S" occurrence="01" fulltag="145S/01">
+            <subfield code="a">2400e</subfield>
+         </datafield>
+         <item epn="750831030">
+            <datafield tag="201B" occurrence="01" fulltag="201B/01">
+               <subfield code="0">01-03-15</subfield>
+               <subfield code="t">22:08:29.783</subfield>
+            </datafield>
+            <datafield tag="201U" occurrence="01" fulltag="201U/01">
+               <subfield code="0">utf8</subfield>
+            </datafield>
+            <datafield tag="203@" occurrence="01" fulltag="203@/01">
+               <subfield code="0">750831030</subfield>
+            </datafield>
+            <datafield tag="204P" occurrence="01" fulltag="204P/01">
+               <subfield code="S">V660</subfield>
+               <subfield code="0">10.1007/978-3-662-45977-5</subfield>
+            </datafield>
+            <datafield tag="208@" occurrence="01" fulltag="208@/01">
+               <subfield code="a">01-03-15</subfield>
+               <subfield code="b">l</subfield>
+            </datafield>
+         </item>
+      </original>
+      <instance>
+         <source>hebis</source>
+         <hrid>355986272</hrid>
+         <statusUpdatedDate>2015-03-01</statusUpdatedDate>
+         <statusId>Fremddatensatz</statusId>
+         <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
+         <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
+         <instanceFormatIds>
+            <arr>
+               <i>f5e8210f-7640-459b-a71f-552567f92369</i>
+            </arr>
+         </instanceFormatIds>
+         <identifiers>
+            <arr>
+               <i>
+                  <value>355986272</value>
+                  <identifierTypeId>PPN</identifierTypeId>
+               </i>
+               <i>
+                  <value>9783662459775</value>
+                  <identifierTypeId>ISBN</identifierTypeId>
+               </i>
+               <i>
+                  <value>3662459779</value>
+                  <identifierTypeId>ISBN</identifierTypeId>
+               </i>
+               <i>
+                  <value>SpringerNature-11777</value>
+                  <identifierTypeId>Verlags-, Produktions- und Bestellnummer</identifierTypeId>
+               </i>
+               <i>
+                  <value>9783662459768</value>
+                  <identifierTypeId>ISBN der parallelen Druckausgabe</identifierTypeId>
+               </i>
+               <i>
+                  <value>10.1007/978-3-662-45977-5</value>
+                  <identifierTypeId>DOI</identifierTypeId>
+               </i>
+               <i>
+                  <value>HEB: 355986272</value>
+                  <identifierTypeId>Identnummer der erstkatalogisierenden Institution</identifierTypeId>
+               </i>
+               <i>
+                  <value>ZDB-2-SNA</value>
+                  <identifierTypeId>Produktsigel Teilpaket, Arbeitsfeld für sonstige Produktsigel</identifierTypeId>
+               </i>
+            </arr>
+         </identifiers>
+         <title>Gerthsen Physik / von Dieter Meschede</title>
+         <indexTitle>Gerthsen Physik von Dieter Meschede</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
+         <contributors>
+            <arr>
+               <i>
+                  <name>Meschede, Dieter</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <primary>true</primary>
+                  <contributorTypeId>aut</contributorTypeId>
+                  <contributorTypeText>Verfasser</contributorTypeText>
+               </i>
+            </arr>
+         </contributors>
+         <publication>
+            <arr>
+               <i>
+                  <place>Berlin, Heidelberg</place>
+                  <publisher>Springer Berlin Heidelberg</publisher>
+                  <dateOfPublication>2015</dateOfPublication>
+                  <role>Publisher</role>
+               </i>
+               <i>
+                  <place>Cham</place>
+                  <publisher>Springer International Publishing AG</publisher>
+                  <dateOfPublication>2015</dateOfPublication>
+                  <role>Distributor</role>
+               </i>
+            </arr>
+         </publication>
+         <electronicAccess>
+            <arr>
+               <i>
+                  <uri>https://doi.org/10.1007/978-3-662-45977-5</uri>
+                  <materialsSpecification/>
+                  <publicNote/>
+                  <relationshipId>f5d0068e-6272-458e-8a81-b85e7b9a14aa</relationshipId>
+               </i>
+            </arr>
+         </electronicAccess>
+         <notes>
+            <arr>
+               <i>
+                  <note>Erscheint auch als Druck-Ausgabe: Meschede, Dieter. Gerthsen Physik. - Berlin, Heidelberg : Springer Berlin Heidelberg, 2015. - ISBN 978-3-662-45976-8</note>
+                  <instanceNoteTypeId>Additional Physical Form Available note</instanceNoteTypeId>
+               </i>
+            </arr>
+         </notes>
+         <languages>
+            <arr>
+               <i>ger</i>
+            </arr>
+         </languages>
+         <series>
+            <arr>
+               <i>Springer-Lehrbuch</i>
+            </arr>
+            <arr>
+               <i/>
+            </arr>
+         </series>
+         <physicalDescriptions>
+            <arr>
+               <i>1 Online-Ressource (XVI, 1052 Seiten) : 1330 Abb., 1000 Abb. in Farbe.</i>
+            </arr>
+         </physicalDescriptions>
+         <editions>
+            <arr>
+               <i>25th ed. 2015</i>
+            </arr>
+         </editions>
+      </instance>
+      <instanceRelations/>
+      <processing>
+         <item>
+            <status>
+               <policy>retain</policy>
+            </status>
+         </item>
+      </processing>
+      <holdingsRecords>
+         <arr>
+            <i>
+               <hrid>750831030</hrid>
+               <permanentLocationId>ILN204/E/E/Online Medien</permanentLocationId>
+               <holdingsTypeId>electronic</holdingsTypeId>
+               <holdingsStatements/>
+               <notes>
+                  <arr>
+                     <i>
+                        <note>V660</note>
+                        <holdingsNoteTypeId>Lizenzindikator</holdingsNoteTypeId>
+                        <staffOnly>false</staffOnly>
+                     </i>
+                  </arr>
+               </notes>
+               <discoverySuppress>false</discoverySuppress>
+               <sourceId>hebis</sourceId>
+               <electronicAccess>
+                  <arr>
+                     <i>
+                        <uri>10.1007/978-3-662-45977-5</uri>
+                     </i>
+                  </arr>
+               </electronicAccess>
+               <statisticalCodeIds>
+                  <arr/>
+               </statisticalCodeIds>
+            </i>
+         </arr>
+      </holdingsRecords>
+   </record>
+   <record>
+      <original>
+         <datafield tag="001D" fulltag="001D">
+            <subfield code="0">0030:08-06-21</subfield>
+         </datafield>
+         <datafield tag="002@" fulltag="002@">
+            <subfield code="0">Aax</subfield>
+         </datafield>
+         <datafield tag="002C" fulltag="002C">
+            <subfield code="a">Text</subfield>
+            <subfield code="b">txt</subfield>
+            <subfield code="2">rdacontent</subfield>
+         </datafield>
+         <datafield tag="002D" fulltag="002D">
+            <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+            <subfield code="b">n</subfield>
+            <subfield code="2">rdamedia</subfield>
+         </datafield>
+         <datafield tag="002E" fulltag="002E">
+            <subfield code="a">Band</subfield>
+            <subfield code="b">nc</subfield>
+            <subfield code="2">rdacarrier</subfield>
+         </datafield>
+         <datafield tag="003@" fulltag="003@">
+            <subfield code="0">479514151</subfield>
+         </datafield>
+         <datafield tag="004A" fulltag="004A">
+            <subfield code="0">3358020886</subfield>
+            <subfield code="f">DM 12,80</subfield>
+         </datafield>
+         <datafield tag="007G" fulltag="007G">
+            <subfield code="i">HEB</subfield>
+            <subfield code="0">479514151</subfield>
+         </datafield>
+         <datafield tag="011@" fulltag="011@">
+            <subfield code="a">1993</subfield>
+         </datafield>
+         <datafield tag="021A" fulltag="021A">
+            <subfield code="a">Schnurz, so ein Hundeleben</subfield>
+            <subfield code="h">Gunter Preuß. Ill. Karl-Heinz Appelmann</subfield>
+         </datafield>
+         <datafield tag="028A" fulltag="028A">
+            <subfield code="a">Preuß</subfield>
+            <subfield code="d">Gunter</subfield>
+            <subfield code="B">Verfasser</subfield>
+            <subfield code="4">aut</subfield>
+         </datafield>
+         <datafield tag="028C" fulltag="028C">
+            <subfield code="a">Appelmann</subfield>
+            <subfield code="d">Karl-Heinz</subfield>
+            <subfield code="B">Illustrator</subfield>
+            <subfield code="4">ill</subfield>
+         </datafield>
+         <datafield tag="033A" fulltag="033A">
+            <subfield code="p">Berlin</subfield>
+            <subfield code="n">KinderbuchVerl.</subfield>
+         </datafield>
+         <datafield tag="034D" fulltag="034D">
+            <subfield code="a">79 S.</subfield>
+         </datafield>
+         <datafield tag="034M" fulltag="034M">
+            <subfield code="a">zahlr. Ill.</subfield>
+         </datafield>
+      </original>
+      <instance>
+         <source>hebis</source>
+         <hrid>479514151</hrid>
+         <statusUpdatedDate>2021-06-08</statusUpdatedDate>
+         <statusId>Fremddatensatz</statusId>
+         <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
+         <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
+         <instanceFormatIds>
+            <arr>
+               <i>8d511d33-5e85-4c5d-9bce-6e3c9cd0c324</i>
+            </arr>
+         </instanceFormatIds>
+         <identifiers>
+            <arr>
+               <i>
+                  <value>479514151</value>
+                  <identifierTypeId>PPN</identifierTypeId>
+               </i>
+               <i>
+                  <value>3358020886 DM 12,80</value>
+                  <identifierTypeId>ISBN</identifierTypeId>
+               </i>
+               <i>
+                  <value>HEB: 479514151</value>
+                  <identifierTypeId>Identnummer der erstkatalogisierenden Institution</identifierTypeId>
+               </i>
+            </arr>
+         </identifiers>
+         <title>Schnurz, so ein Hundeleben / Gunter Preuß. Ill. Karl-Heinz Appelmann</title>
+         <indexTitle>Schnurz, so ein Hundeleben Gunter Preuß Ill Karl-Heinz Appelmann</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
+         <contributors>
+            <arr>
+               <i>
+                  <name>Preuß, Gunter</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <primary>true</primary>
+                  <contributorTypeId>aut</contributorTypeId>
+                  <contributorTypeText>Verfasser</contributorTypeText>
+               </i>
+               <i>
+                  <name>Appelmann, Karl-Heinz</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <contributorTypeId>ill</contributorTypeId>
+                  <contributorTypeText>Illustrator</contributorTypeText>
+               </i>
+            </arr>
+         </contributors>
+         <publication>
+            <arr>
+               <i>
+                  <place>Berlin</place>
+                  <publisher>KinderbuchVerl.</publisher>
+                  <dateOfPublication>1993</dateOfPublication>
+                  <role>Publisher</role>
+               </i>
+            </arr>
+         </publication>
+         <electronicAccess>
+            <arr/>
+         </electronicAccess>
+         <series>
+            <arr>
+               <i/>
+            </arr>
+         </series>
+         <physicalDescriptions>
+            <arr>
+               <i>79 S. : zahlr. Ill.</i>
+            </arr>
+         </physicalDescriptions>
+      </instance>
+      <instanceRelations/>
+   </record>
+   <record>
+      <original>
+         <datafield tag="001D" fulltag="001D">
+            <subfield code="0">6050:01-08-17</subfield>
+         </datafield>
+         <datafield tag="002@" fulltag="002@">
+            <subfield code="0">Abv</subfield>
+         </datafield>
+         <datafield tag="002C" fulltag="002C">
+            <subfield code="a">Text</subfield>
+            <subfield code="b">txt</subfield>
+            <subfield code="2">rdacontent</subfield>
+         </datafield>
+         <datafield tag="002D" fulltag="002D">
+            <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+            <subfield code="b">n</subfield>
+            <subfield code="2">rdamedia</subfield>
+         </datafield>
+         <datafield tag="002E" fulltag="002E">
+            <subfield code="a">Band</subfield>
+            <subfield code="b">nc</subfield>
+            <subfield code="2">rdacarrier</subfield>
+         </datafield>
+         <datafield tag="003@" fulltag="003@">
+            <subfield code="0">415275423</subfield>
+         </datafield>
+         <datafield tag="003O" fulltag="003O">
+            <subfield code="a">OCoLC</subfield>
+            <subfield code="0">998522145</subfield>
+         </datafield>
+         <datafield tag="005A" fulltag="005A">
+            <subfield code="0">2567-1405</subfield>
+         </datafield>
+         <datafield tag="005I" fulltag="005I">
+            <subfield code="0">2567-1405</subfield>
+            <subfield code="f">Moderne Stadtgeschichte</subfield>
+         </datafield>
+         <datafield tag="006U" fulltag="006U">
+            <subfield code="0">17,B36</subfield>
+         </datafield>
+         <datafield tag="006Z" fulltag="006Z">
+            <subfield code="0">2901326-4</subfield>
+         </datafield>
+         <datafield tag="007G" fulltag="007G">
+            <subfield code="i">ZDB</subfield>
+            <subfield code="0">2901326-4</subfield>
+         </datafield>
+         <datafield tag="010@" fulltag="010@">
+            <subfield code="a">ger</subfield>
+         </datafield>
+         <datafield tag="011@" fulltag="011@">
+            <subfield code="a">2017</subfield>
+            <subfield code="n">[2017]-</subfield>
+         </datafield>
+         <datafield tag="013D" fulltag="013D">
+            <subfield code="9">10454466X</subfield>
+            <subfield code="a">Zeitschrift</subfield>
+         </datafield>
+         <datafield tag="018@" fulltag="018@">
+            <subfield code="a">f</subfield>
+         </datafield>
+         <datafield tag="021A" fulltag="021A">
+            <subfield code="a">Moderne Stadtgeschichte</subfield>
+            <subfield code="d">MSG</subfield>
+            <subfield code="h">Deutsches Institut für Urbanistik</subfield>
+         </datafield>
+         <datafield tag="029F" fulltag="029F">
+            <subfield code="9">044441622</subfield>
+            <subfield code="a">Deutsches Institut für Urbanistik</subfield>
+            <subfield code="B">Herausgebendes Organ</subfield>
+            <subfield code="4">isb</subfield>
+         </datafield>
+         <datafield tag="031@" fulltag="031@">
+            <subfield code="a">2017, 1. Halbjahresband-</subfield>
+         </datafield>
+         <datafield tag="033A" fulltag="033A">
+            <subfield code="p">Berlin</subfield>
+            <subfield code="n">Deutsches Institut für Urbanistik gGmbH</subfield>
+         </datafield>
+         <datafield tag="034D" fulltag="034D">
+            <subfield code="a">Bände</subfield>
+         </datafield>
+         <datafield tag="034I" fulltag="034I">
+            <subfield code="a">23 cm</subfield>
+         </datafield>
+         <datafield tag="039D" fulltag="039D">
+            <subfield code="i">Erscheint auch als Online-Ausgabe</subfield>
+            <subfield code="9">421414723</subfield>
+            <subfield code="8">Moderne Stadtgeschichte : (MSG) / Deutsches Institut für Urbanistik gGmbH</subfield>
+         </datafield>
+         <datafield tag="039E" fulltag="039E">
+            <subfield code="b">f</subfield>
+            <subfield code="i">Fortsetzung von</subfield>
+            <subfield code="9">046842586</subfield>
+            <subfield code="8">Informationen zur modernen Stadtgeschichte : IMS / hrsg. vom Deutschen Institut für Urbanistik Berlin</subfield>
+         </datafield>
+         <item epn="1006487395">
+            <datafield tag="201B" occurrence="01" fulltag="201B/01">
+               <subfield code="0">29-08-17</subfield>
+               <subfield code="t">08:33:08.000</subfield>
+            </datafield>
+            <datafield tag="201C" occurrence="01" fulltag="201C/01">
+               <subfield code="0">29-08-17</subfield>
+            </datafield>
+            <datafield tag="201U" occurrence="01" fulltag="201U/01">
+               <subfield code="0">utf8</subfield>
+            </datafield>
+            <datafield tag="203@" occurrence="01" fulltag="203@/01">
+               <subfield code="0">1006487395</subfield>
+            </datafield>
+            <datafield tag="208@" occurrence="01" fulltag="208@/01">
+               <subfield code="a">29-08-17</subfield>
+               <subfield code="b">p084</subfield>
+            </datafield>
+            <datafield tag="209A" occurrence="01" fulltag="209A/01">
+               <subfield code="a">WS-Z 150</subfield>
+               <subfield code="f">084</subfield>
+               <subfield code="x">00</subfield>
+            </datafield>
+            <datafield tag="209E" occurrence="01" fulltag="209E/01">
+               <subfield code="a">2016 -</subfield>
+               <subfield code="x">02</subfield>
+            </datafield>
+            <datafield tag="231@" occurrence="01" fulltag="231@/01">
+               <subfield code="j">2016</subfield>
+            </datafield>
+            <datafield tag="247C" occurrence="01" fulltag="247C/01">
+               <subfield code="9">102596948</subfield>
+               <subfield code="8">Universität Gießen, Fachbibliothek Geschichts- und Kulturwissenschaften / Bibliothek im Historischen Institut</subfield>
+            </datafield>
+         </item>
+      </original>
+      <instance>
+         <source>hebis</source>
+         <hrid>415275423</hrid>
+         <statusUpdatedDate>2017-08-01</statusUpdatedDate>
+         <statusId>Bibliografisch vollständig</statusId>
+         <modeOfIssuanceId>068b5344-e2a6-40df-9186-1829e13cd344</modeOfIssuanceId>
+         <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
+         <instanceFormatIds>
+            <arr>
+               <i>8d511d33-5e85-4c5d-9bce-6e3c9cd0c324</i>
+            </arr>
+         </instanceFormatIds>
+         <identifiers>
+            <arr>
+               <i>
+                  <value>415275423</value>
+                  <identifierTypeId>PPN</identifierTypeId>
+               </i>
+               <i>
+                  <value>998522145</value>
+                  <identifierTypeId>OCLC</identifierTypeId>
+               </i>
+               <i>
+                  <value>2567-1405</value>
+                  <identifierTypeId>ISSN</identifierTypeId>
+               </i>
+               <i>
+                  <value>2567-1405</value>
+                  <identifierTypeId>Autorisierte ISSN</identifierTypeId>
+               </i>
+               <i>
+                  <value>17,B36</value>
+                  <identifierTypeId>WV-Nummer</identifierTypeId>
+               </i>
+               <i>
+                  <value>2901326-4</value>
+                  <identifierTypeId>ZDB-Nummer</identifierTypeId>
+               </i>
+               <i>
+                  <value>ZDB: 2901326-4</value>
+                  <identifierTypeId>Identnummer der erstkatalogisierenden Institution</identifierTypeId>
+               </i>
+            </arr>
+         </identifiers>
+         <title>Moderne Stadtgeschichte : MSG / Deutsches Institut für Urbanistik</title>
+         <indexTitle>Moderne Stadtgeschichte MSG Deutsches Institut für Urbanistik</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
+         <publication>
+            <arr>
+               <i>
+                  <place>Berlin</place>
+                  <publisher>Deutsches Institut für Urbanistik gGmbH</publisher>
+                  <dateOfPublication>[2017]-</dateOfPublication>
+                  <role>Publisher</role>
+               </i>
+            </arr>
+         </publication>
+         <publicationFrequency>
+            <arr>
+               <i>halbjährlich</i>
+            </arr>
+         </publicationFrequency>
+         <publicationRange>
+            <arr>
+               <i>2017, 1. Halbjahresband-</i>
+            </arr>
+         </publicationRange>
+         <electronicAccess>
+            <arr/>
+         </electronicAccess>
+         <notes>
+            <arr>
+               <i>
+                  <note>Erscheint auch als Online-Ausgabe: Moderne Stadtgeschichte : (MSG) / Deutsches Institut für Urbanistik gGmbH</note>
+                  <instanceNoteTypeId>Additional Physical Form Available note</instanceNoteTypeId>
+               </i>
+               <i>
+                  <note>Fortsetzung von: Informationen zur modernen Stadtgeschichte : IMS / hrsg. vom Deutschen Institut für Urbanistik Berlin</note>
+                  <instanceNoteTypeId>General note</instanceNoteTypeId>
+               </i>
+            </arr>
+         </notes>
+         <natureOfContentTermIds>
+            <arr>
+               <i>0abeee3d-8ad2-4b04-92ff-221b4fce1075</i>
+            </arr>
+         </natureOfContentTermIds>
+         <languages>
+            <arr>
+               <i>ger</i>
+            </arr>
+         </languages>
+         <series>
+            <arr>
+               <i/>
+            </arr>
+         </series>
+         <physicalDescriptions>
+            <arr>
+               <i>Bände ; 23 cm</i>
+            </arr>
+         </physicalDescriptions>
+      </instance>
+      <instanceRelations>
+         <precedingTitles>
+            <arr>
+               <i>
+                  <instanceIdentifier>
+                     <hrid>046842586</hrid>
+                  </instanceIdentifier>
+                  <provisionalInstance>
+                     <title>Informationen zur modernen Stadtgeschichte : IMS / hrsg. vom Deutschen Institut für Urbanistik Berlin</title>
+                     <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
+                     <source>hebis</source>
+                  </provisionalInstance>
+               </i>
+            </arr>
+         </precedingTitles>
+      </instanceRelations>
+      <processing>
+         <item>
+            <status>
+               <policy>retain</policy>
+            </status>
+         </item>
+      </processing>
+      <holdingsRecords>
+         <arr>
+            <i>
+               <hrid>1006487395</hrid>
+               <permanentLocationId>ILN204/CD/DezFB/Fachbibliotheken</permanentLocationId>
+               <callNumber>WS-Z 150</callNumber>
+               <holdingsTypeId>physical</holdingsTypeId>
+               <holdingsStatements>
+                  <arr>
+                     <i>
+                        <statement>2016 -</statement>
+                     </i>
+                  </arr>
+               </holdingsStatements>
+               <notes>
+                  <arr/>
+               </notes>
+               <discoverySuppress>false</discoverySuppress>
+               <sourceId>hebis</sourceId>
+               <items>
+                  <arr>
+                     <i>
+                        <hrid>1006487395</hrid>
+                        <materialTypeId>Druckschrift</materialTypeId>
+                        <permanentLoanTypeId>9 o Ausleihstatus unbekannt</permanentLoanTypeId>
+                        <status>
+                           <name>Intellectual item</name>
+                        </status>
+                        <itemLevelCallNumber>WS-Z 150</itemLevelCallNumber>
+                        <barcode/>
+                        <copyNumber/>
+                        <volume/>
+                        <chronology>2016</chronology>
+                        <accessionNumber/>
+                        <discoverySuppress>false</discoverySuppress>
+                     </i>
+                  </arr>
+               </items>
+               <statisticalCodeIds>
+                  <arr/>
+               </statisticalCodeIds>
+            </i>
+         </arr>
+      </holdingsRecords>
+   </record>
+   <record>
+      <original>
+         <datafield tag="001D" fulltag="001D">
+            <subfield code="0">9999:99-99-99</subfield>
+         </datafield>
+         <datafield tag="013H" fulltag="013H">
+            <subfield code="a">muno</subfield>
+         </datafield>
+         <datafield tag="002@" fulltag="002@">
+            <subfield code="0">Aar</subfield>
+         </datafield>
+         <datafield tag="003@" fulltag="003@">
+            <subfield code="0">062621661</subfield>
+         </datafield>
+         <datafield tag="003O" fulltag="003O">
+            <subfield code="a">OCoLC</subfield>
+            <subfield code="0">12914810</subfield>
+         </datafield>
+         <datafield tag="004A" fulltag="004A">
+            <subfield code="0">0824088506</subfield>
+         </datafield>
+         <datafield tag="007G" fulltag="007G">
+            <subfield code="i">HEB</subfield>
+            <subfield code="0">062621661</subfield>
+         </datafield>
+         <datafield tag="010@" fulltag="010@">
+            <subfield code="a">eng</subfield>
+         </datafield>
+         <datafield tag="011@" fulltag="011@">
+            <subfield code="a">1985</subfield>
+         </datafield>
+         <datafield tag="021A" fulltag="021A">
+            <subfield code="a">Die @Jagd</subfield>
+            <subfield code="h">Johann Adam Hiller</subfield>
+         </datafield>
+         <datafield tag="028A" fulltag="028A">
+            <subfield code="9">162266650</subfield>
+            <subfield code="a">Hiller</subfield>
+            <subfield code="d">Johann Adam</subfield>
+         </datafield>
+         <datafield tag="032@" fulltag="032@">
+            <subfield code="a">[Partitur]</subfield>
+         </datafield>
+         <datafield tag="033A" fulltag="033A">
+            <subfield code="p">New York {[u.a.]</subfield>
+            <subfield code="n">Garland Publ.</subfield>
+         </datafield>
+         <datafield tag="034D" fulltag="034D">
+            <subfield code="a">240 S.</subfield>
+         </datafield>
+         <datafield tag="034M" fulltag="034M">
+            <subfield code="a">Noten</subfield>
+         </datafield>
+         <datafield tag="036E" fulltag="036E">
+            <subfield code="a">German opera, 1770-1800</subfield>
+            <subfield code="l">1</subfield>
+         </datafield>
+         <item epn="110063813X">
+            <datafield tag="201B" occurrence="01" fulltag="201B/01">
+               <subfield code="0">14-04-20</subfield>
+               <subfield code="t">08:13:24.000</subfield>
+            </datafield>
+            <datafield tag="201C" occurrence="01" fulltag="201C/01">
+               <subfield code="0">14-04-20</subfield>
+            </datafield>
+            <datafield tag="201U" occurrence="01" fulltag="201U/01">
+               <subfield code="0">utf8</subfield>
+            </datafield>
+            <datafield tag="203@" occurrence="01" fulltag="203@/01">
+               <subfield code="0">110063813X</subfield>
+            </datafield>
+            <datafield tag="208@" occurrence="01" fulltag="208@/01">
+               <subfield code="a">14-04-20</subfield>
+               <subfield code="b">r055</subfield>
+            </datafield>
+            <datafield tag="209A" occurrence="01" fulltag="209A/01">
+               <subfield code="a">055 P 2033</subfield>
+               <subfield code="f">055</subfield>
+               <subfield code="d">g</subfield>
+               <subfield code="x">00</subfield>
+            </datafield>
+            <datafield tag="209C" occurrence="01" fulltag="209C/01">
+               <subfield code="a">055 92/45</subfield>
+            </datafield>
+            <datafield tag="247C" occurrence="01" fulltag="247C/01">
+               <subfield code="9">102596883</subfield>
+               <subfield code="8">Universität Gießen, Zweigbibliothek im Phil. II / Musikwissenschaft und Musikpädagogik / Mediothek</subfield>
+            </datafield>
+         </item>
+      </original>
+      <instance>
+         <source>hebis</source>
+         <hrid>062621661</hrid>
+         <statusId>Katalogisat ohne Autopsie</statusId>
+         <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
+         <instanceTypeId>a2c91e87-6bab-44d6-8adb-1fd02481fc4f</instanceTypeId>
+         <instanceFormatIds>
+            <arr/>
+         </instanceFormatIds>
+         <identifiers>
+            <arr>
+               <i>
+                  <value>062621661</value>
+                  <identifierTypeId>PPN</identifierTypeId>
+               </i>
+               <i>
+                  <value>12914810</value>
+                  <identifierTypeId>OCLC</identifierTypeId>
+               </i>
+               <i>
+                  <value>0824088506</value>
+                  <identifierTypeId>ISBN</identifierTypeId>
+               </i>
+               <i>
+                  <value>HEB: 062621661</value>
+                  <identifierTypeId>Identnummer der erstkatalogisierenden Institution</identifierTypeId>
+               </i>
+            </arr>
+         </identifiers>
+         <title>Die Jagd / Johann Adam Hiller</title>
+         <indexTitle>Jagd Johann Adam Hiller</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
+         <contributors>
+            <arr>
+               <i>
+                  <name>Hiller, Johann Adam</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <primary>true</primary>
+               </i>
+            </arr>
+         </contributors>
+         <publication>
+            <arr>
+               <i>
+                  <place>New York {[u.a.]</place>
+                  <publisher>Garland Publ.</publisher>
+                  <dateOfPublication>1985</dateOfPublication>
+                  <role>Publisher</role>
+               </i>
+            </arr>
+         </publication>
+         <electronicAccess>
+            <arr/>
+         </electronicAccess>
+         <languages>
+            <arr>
+               <i>eng</i>
+            </arr>
+         </languages>
+         <series>
+            <arr>
+               <i>German opera, 1770-1800 ; 1</i>
+            </arr>
+            <arr>
+               <i/>
+            </arr>
+         </series>
+         <physicalDescriptions>
+            <arr>
+               <i>240 S. : Noten</i>
+            </arr>
+         </physicalDescriptions>
+         <editions>
+            <arr>
+               <i>[Partitur]</i>
+            </arr>
+         </editions>
+      </instance>
+      <instanceRelations/>
+      <processing>
+         <item>
+            <status>
+               <policy>retain</policy>
+            </status>
+         </item>
+      </processing>
+      <holdingsRecords>
+         <arr>
+            <i>
+               <hrid>110063813X</hrid>
+               <permanentLocationId>ILN204/CD/DezFB/Fachbibliotheken</permanentLocationId>
+               <callNumber>055 P 2033</callNumber>
+               <holdingsTypeId>physical</holdingsTypeId>
+               <holdingsStatements/>
+               <notes>
+                  <arr/>
+               </notes>
+               <discoverySuppress>false</discoverySuppress>
+               <sourceId>hebis</sourceId>
+               <items>
+                  <arr>
+                     <i>
+                        <hrid>110063813X</hrid>
+                        <materialTypeId>Druckschrift</materialTypeId>
+                        <permanentLoanTypeId>9 g Nicht ausleihbar</permanentLoanTypeId>
+                        <status>
+                           <name>Unavailable</name>
+                        </status>
+                        <itemLevelCallNumber>055 P 2033</itemLevelCallNumber>
+                        <barcode/>
+                        <copyNumber/>
+                        <volume/>
+                        <chronology/>
+                        <accessionNumber>055 92/45</accessionNumber>
+                        <discoverySuppress>false</discoverySuppress>
+                     </i>
+                  </arr>
+               </items>
+               <statisticalCodeIds>
+                  <arr/>
+               </statisticalCodeIds>
+            </i>
+         </arr>
+      </holdingsRecords>
+   </record>
+</collection>

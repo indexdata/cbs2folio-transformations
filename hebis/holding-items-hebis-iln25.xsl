@@ -13,7 +13,6 @@
 
   <xsl:template match="permanentLocationId">
     <xsl:variable name="i" select="key('original',.)"/>
-    <!-- UB Mainz 209A$f/209G$a -->
     <xsl:variable name="abt" select="$i/datafield[@tag='209A']/subfield[@code='f']"/>
     <xsl:variable name="standort" select="$i/datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']"/> 
     <xsl:variable name="electronicholding" select="(substring($i/../datafield[@tag='002@']/subfield[@code='0'],1,1) = 'O') and not(substring($i/datafield[@tag='208@']/subfield[@code='b'],1,1) = 'a')"/>
@@ -23,24 +22,30 @@
          <xsl:when test="substring($i/datafield[@tag='208@']/subfield[@code='b'],1,1) = 'd'">DUMMY</xsl:when>
          <xsl:when test="$abt='000'">
            <xsl:choose>
-             <xsl:when test="$standort='FREIHAND'">ZBFREI</xsl:when>
-             <xsl:when test="$standort='LBS'">ZBLBS</xsl:when>
-             <xsl:when test="$standort='LESESAAL'">ZBLS</xsl:when>
+             <xsl:when test="contains($standort,'FREIHAND')">ZBFREI</xsl:when>
+             <xsl:when test="contains($standort,'LESESAAL')">ZBLS</xsl:when>
+             <xsl:when test="contains($standort,'LBS')">ZBLBS</xsl:when>
              <xsl:when test="contains($standort,'RARA')">ZBRARA</xsl:when>
              <xsl:otherwise>ZBMAG</xsl:otherwise>
            </xsl:choose>
          </xsl:when>
          <xsl:when test="$abt='002'">
            <xsl:choose>
-             <xsl:when test="$standort='Erziehungswissenschaft'">GFGPÄD</xsl:when>
-             <xsl:when test="$standort='Filmwissenschaft'">GFGFILM</xsl:when>
-             <xsl:when test="$standort='Journalistik'">GFGJOUR</xsl:when>
-             <xsl:when test="$standort='Politikwissenschaft'">GFGPOL</xsl:when>
-             <xsl:when test="$standort='Psychologie'">GFGPSYCH</xsl:when>
-             <xsl:when test="$standort='Publizistik'">GFGPUB</xsl:when>
-             <xsl:when test="$standort='Soziologie'">GFGSOZ</xsl:when>
+             <xsl:when test="contains($standort,'Erziehungswissenschaft')">GFGPÄD</xsl:when>
+             <xsl:when test="contains($standort,'Filmwissenschaft')">GFGFILM</xsl:when>
+             <xsl:when test="contains($standort,'Journalistik')">GFGJOUR</xsl:when>
+             <xsl:when test="contains($standort,'Politikwissenschaft')">GFGPOL</xsl:when>
+             <xsl:when test="contains($standort,'Psychologie')">GFGPSYCH</xsl:when>
+             <xsl:when test="contains($standort,'Publizistik')">GFGPUB</xsl:when>
+             <xsl:when test="contains($standort,'Soziologie')">GFGSOZ</xsl:when>
              <xsl:otherwise>GFGPÄD</xsl:otherwise>
            </xsl:choose>
+         </xsl:when>
+		 <xsl:when test="$abt='003'">
+           <xsl:choose>
+             <xsl:when test="contains($standort,'LESESAAL')">ZBLS</xsl:when>
+             <xsl:otherwise>ZBRVK</xsl:otherwise>
+			     </xsl:choose>
          </xsl:when>
          <xsl:when test="$abt='005'">
            <xsl:choose>
@@ -59,7 +64,7 @@
          <xsl:when test="$abt='009'">FBMPI</xsl:when>	
          <xsl:when test="$abt='016'">
            <xsl:choose>
-             <xsl:when test="contains($standort,'Rara')">THRARA</xsl:when>
+             <xsl:when test="contains($standort,'Magazin') or contains($standort,'Rara')">THRARA</xsl:when>
              <xsl:when test="contains($standort,'LEHRBUCH')">THLBS</xsl:when>
              <xsl:otherwise>TH</xsl:otherwise>
            </xsl:choose>
@@ -85,6 +90,7 @@
          <xsl:when test="$abt='020'">RWFAK</xsl:when>
          <xsl:when test="$abt='021'">ZBMAG</xsl:when>
          <xsl:when test="$abt='034'">FBGTEM</xsl:when>
+		 <xsl:when test="$abt='035'">UMRMED</xsl:when>
          <xsl:when test="$abt='043'">UMPSY</xsl:when>
          <xsl:when test="$abt='054'">UMZMK</xsl:when>
          <xsl:when test="$abt='058'">PHPHI</xsl:when>
@@ -102,8 +108,8 @@
          <xsl:when test="$abt='079'">GFGKUN</xsl:when>
          <xsl:when test="$abt='080'">ZBTURK</xsl:when>
          <xsl:when test="$abt='082'">FBÄGYPT</xsl:when>
-         <xsl:when test="$abt='085'">FBVFGE</xsl:when>
          <xsl:when test="$abt='083'">PHKLW</xsl:when>
+		 <xsl:when test="$abt='085'">FBAVFGA</xsl:when>
          <xsl:when test="$abt='086'">PHALG</xsl:when>
          <xsl:when test="$abt='087'">PHBYZ</xsl:when>
          <xsl:when test="$abt='088'">PHMNG</xsl:when>
@@ -130,73 +136,105 @@
        </xsl:choose>
       </permanentLocationId>
   </xsl:template>
-   
-  <xsl:template match="permanentLoanTypeId">
-    <permanentLoanTypeId>
-      <xsl:choose>
-        <xsl:when test=".='dummy'">dummy</xsl:when>
-        <xsl:when test=".='u'">0 u ausleihbar</xsl:when>
-        <xsl:when test=".='b'">1 b Kurzausleihe</xsl:when>
-        <xsl:when test=".='c'">2 c Lehrbuchsammlung</xsl:when>
-        <xsl:when test=".='s'">3 s Präsenzbestand Lesesaal</xsl:when>
-        <xsl:when test=".='d'">4 d Präsenzbestand Wochenendausleihe</xsl:when>
-        <xsl:when test=".='i'">5 i nur für den Lesesaal</xsl:when>
-        <xsl:when test=".='e'">8 e vermisst</xsl:when>
-        <xsl:when test=".='g'">9 g nicht ausleihbar</xsl:when>
-        <xsl:when test=".='a'">9 a bestellt</xsl:when>
-        <xsl:when test=".='z'">9 z Verlust</xsl:when>
-        <xsl:otherwise>0 u ausleihbar</xsl:otherwise>
-      </xsl:choose>
-    </permanentLoanTypeId>
-  </xsl:template>
-  
+ 
   <xsl:template match="discoverySuppress"> <!-- add: substring(., 1, 4) = 'true') or -->
     <discoverySuppress>
       <xsl:value-of select="(substring(., 1, 4) = 'true') or (substring(., 1, 1) = 'g') or (substring(., 2, 1) = 'y') or (substring(., 2, 1) = 'z')"/>           
     </discoverySuppress>
   </xsl:template>
 
+  <xsl:template match="i[holdingsNoteTypeId='Standort (8201)']"> <!-- 8201 will be displayed by default: add exceptions here -->
+    <xsl:variable name="i" select="key('original',../../../permanentLocationId)"/>
+    <xsl:variable name="abt" select="$i/datafield[@tag='209A']/subfield[@code='f']"/>
+    <xsl:if test="not(($abt='000' and (./note='FREIHAND' or ./note='LBS' or ./note='LESESAAL' or ./note='RARA' or ./note='MAG')) or
+	  ($abt='002' and (./note='Erziehungswissenschaft' or ./note='Filmwissenschaft' or ./note='Journalistik' or ./note='Politikwissenschaft' or ./note='Psychologie' or ./note='Publizistik' or ./note='Soziologie')) or
+	  ($abt='003' and (./note='RVK-REGALE')) or
+	  ($abt='005' and (./note='UM LESESAAL' or ./note='UM LBS' or ./note='UM FREIHAND')) or
+	  ($abt='006' and (./note='MIN' or ./note='MIN LEHRBUCHSAMMLUNG')) or
+	  ($abt='016' and (./note='Theologie LEHRBUCHSAMMLUNG')) or
+	  ($abt='018' and (./note='ReWi LEHRBUCHSAMMLUNG')) or
+      ($abt='019' and (./note='Lehrbuchsammlung' or ./note='Lesesaal' or ./note='Magazin')) or
+	  ($abt='034' and (./note='FB 4-40')) or
+	  ($abt='035' and (./note='Institut für Rechtsmedizin')) or
+	  ($abt='043' and (./note='Klinik für Psychiatrie und Psychotherapie')) or
+	  ($abt='054' and (./note='Zahnklinik')) or
+	  ($abt='058' and (./note='Philosophie')) or
+	  ($abt='066' and (./note='ReWi / Ethnologie und Afrikastudien')) or
+	  ($abt='069' and (./note='Psychologisches Institut / IB')) or
+	  ($abt='070' and (./note='Germanistik')) or
+	  ($abt='071' and (./note='Allgemeine und Vergleichende Literaturwissenschaft')) or
+	  ($abt='072' and (./note='Anglistik/Amerikanistik')) or
+	  ($abt='073' and (./note='Allgemeine und Vergleichende Sprachwissenschaft')) or
+	  ($abt='074' and (./note='Romanistik')) or
+	  ($abt='075' and (./note='Slavistik')) or
+	  ($abt='076' and (./note='Polonicum')) or
+	  ($abt='077' and (./note='Klassische Philologie')) or
+	  ($abt='078' and (./note='Klassische Archäologie')) or
+	  ($abt='079' and (./note='Kunstgeschichte')) or
+	  ($abt='080' and (./note='Turkologie')) or
+	  ($abt='082' and (./note='Ägyptologie und Altorientalistik')) or
+	  ($abt='083' and (./note='Historische Kulturwissenschaften')) or
+	  ($abt='085' and (./note='Institut für Vor- und Frühgeschichte' or ./note='Vor- und frühgeschichtliche Archäologie' or ./note='FB 16.1')) or
+	  ($abt='086' and (./note='Alte Geschichte')) or
+	  ($abt='087' and (./note='Byzantinistik')) or
+	  ($abt='088' and (./note='Mittlere und Neuere Geschichte')) or
+	  ($abt='090' and (./note='Buchwissenschaft')) or
+	  ($abt='091' and (./note='Musikwissenschaft')) or
+	  ($abt='092' and (./note='Osteuropäische Geschichte')) or
+	  ($abt='094' and (./note='Institut für Geschichtliche Landeskunde')) or
+	  ($abt='112' and (./note='Hochschule für Musik')) or
+	  ($abt='113' and (./note='Sport')) or	
+	  ($abt='124' and (./note='Gesangbucharchiv')) or
+	  ($abt='125' and (./note='MAG')) or
+	  ($abt='126' and (./note='USA BIBL')))">
+        <i>
+          <note>
+              <xsl:value-of select="./note"/>
+          </note>
+          <xsl:copy-of select="*[name(.)!='note']"/>
+        </i>
+    </xsl:if>
+  </xsl:template>
+
 <!-- Parsing call number for prefix - optional -->
 
-  <xsl:template name="prefix">
-    <xsl:param name="cn"/>
-    <xsl:param name="cnprefixelement"/>
-    <xsl:param name="cnelement"/>
-    <xsl:variable name="cnprefix">
-      <xsl:choose>
-        <xsl:when test="contains($cn,'°')">
-          <xsl:value-of select="concat(substring-before($cn,'°'),'°')"/>
-        </xsl:when>
-        <xsl:when test="contains($cn,'@')">
-          <xsl:value-of select="substring-before($cn,'@')"/> 
-        </xsl:when>
-      </xsl:choose>
-    </xsl:variable>
-    <xsl:message>Debug: <xsl:value-of select="$cnelement"/> Prefix "<xsl:value-of select="$cnprefix"/>"</xsl:message>
-    <xsl:if test="string-length($cnprefix)>0">
-      <xsl:element name="{$cnprefixelement}">
-        <xsl:value-of select="normalize-space(translate($cnprefix,'@',''))"/>
-      </xsl:element>
-    </xsl:if>
-    <xsl:element name="{$cnelement}">
-      <xsl:value-of select="normalize-space(translate(substring-after($cn,$cnprefix),'@',''))"/>
-    </xsl:element>
-  </xsl:template>
-
   <xsl:template match="callNumber">
-      <xsl:call-template name="prefix">
-        <xsl:with-param name="cn" select="."/>
-        <xsl:with-param name="cnprefixelement" select="'callNumberPrefix'"/>
-        <xsl:with-param name="cnelement" select="'callNumber'"/>
-      </xsl:call-template>
-  </xsl:template>
-  
-  <xsl:template match="itemLevelCallNumber">
-    <xsl:call-template name="prefix">
-      <xsl:with-param name="cn" select="."/>
-      <xsl:with-param name="cnprefixelement" select="'itemLevelCallNumberPrefix'"/>
-      <xsl:with-param name="cnelement" select="'itemLevelCallNumber'"/>
-    </xsl:call-template>
-  </xsl:template>
+    <xsl:variable name="i" select="key('original',../permanentLocationId)"/>
+    <xsl:variable name="abt" select="$i/datafield[@tag='209A']/subfield[@code='f']"/>
+    <xsl:variable name="standort" select="$i/datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']"/> 
+    <xsl:choose>
+      <xsl:when test="($abt='016' and (starts-with(., 'THEMAG ') or starts-with(., 'THERARA '))) or 
+        ($abt='000' and starts-with(., 'RARA ')) or
+        ($abt='120' and ($standort='Medienkulturwissenschaft' or $standort='Alltagsmedien')) or
+        ($abt='003') or ($abt='127')">
+        <callNumberPrefix>
+          <xsl:value-of select="substring-before(.,' ')"/>
+        </callNumberPrefix>
+        <callNumber>
+          <xsl:value-of select="substring-after(.,' ')"/>
+        </callNumber>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:variable name="cnprefix">
+          <xsl:choose>
+            <xsl:when test="contains(.,'°')">
+              <xsl:value-of select="concat(substring-before(.,'°'),'°')"/>
+            </xsl:when>
+            <xsl:when test="contains(.,'@')">
+              <xsl:value-of select="substring-before(.,'@')"/> 
+            </xsl:when>
+          </xsl:choose>
+        </xsl:variable>
+        <xsl:if test="string-length($cnprefix)>0">
+          <callNumberPrefix>
+            <xsl:value-of select="normalize-space(translate($cnprefix,'@',''))"/>
+          </callNumberPrefix>
+        </xsl:if>
+        <callNumber>
+          <xsl:value-of select="normalize-space(translate(substring-after(.,$cnprefix),'@',''))"/>
+        </callNumber>
+      </xsl:otherwise>
+    </xsl:choose>
+   </xsl:template>
 
 </xsl:stylesheet>
