@@ -417,9 +417,9 @@
                 <xsl:choose>
                   <xsl:when test="./@tag='003O'">OCLC</xsl:when>
                   <xsl:when test="./@tag='003S'">PPN SWB</xsl:when>
-				  <xsl:when test="./@tag='003@'">PPN</xsl:when>
-                  <xsl:when test="./@tag='004J'">ISBN der Reproduktion</xsl:when>
-                  <xsl:when test="./@tag='004K'">Formal falsche ISBN der Reproduktion</xsl:when>
+				          <xsl:when test="./@tag='003@'">PPN</xsl:when>
+                  <xsl:when test="./@tag='004J'">ISBN der Sekundärausgabe</xsl:when>
+                  <xsl:when test="./@tag='004K'">Formal falsche ISBN der Sekundärausgabe</xsl:when>
                   <xsl:when test="./@tag='005I'">Autorisierte ISSN</xsl:when>
                   <xsl:when test="./@tag='006A'">LCCN</xsl:when>
                   <xsl:when test="./@tag='006G'">DNB-Nummer</xsl:when>

@@ -518,13 +518,13 @@
 		<xsl:when test=".='DNB-Nummer'">63fd8fa0-a939-4d1e-869c-6dcc24c9d507</xsl:when>
 		<xsl:when test=".='Autorisierte ISSN'">c90b1f32-0ad9-46fc-9bf6-98c79a966844</xsl:when>
 		<xsl:when test=".='Fehlerhafte ISSN der parallelen Ausgabe'">5626dbb7-a0b6-4722-905b-5a1f34f69fea</xsl:when>
-		<xsl:when test=".='Formal falsche ISBN der Reproduktion'">60392328-7874-4dfa-91dc-7b56444c46f0</xsl:when>
+		<xsl:when test=".='Formal falsche ISBN der Sekundärausgabe'">60392328-7874-4dfa-91dc-7b56444c46f0</xsl:when>
 		<xsl:when test=".='Formal falsche ISMN'">08dbec41-c94d-48f4-92e2-18044e83259f</xsl:when>
 		<xsl:when test=".='Identnummer der erstkatalogisierenden Institution'">8e33c1be-e2c4-43ac-a975-8fb50f71137a</xsl:when>
 		<xsl:when test=".='ISBN der parallelen Ausgabe auf einem anderen Datenträger'">cfbf1033-2809-44e3-b4a1-25ad2fc703d3</xsl:when>
 		<xsl:when test=".='ISBN der parallelen Ausgabe im Fernzugriff'">a9ed691a-8773-4ece-88d1-c9703ab11e44</xsl:when>
 		<xsl:when test=".='ISBN der parallelen Druckausgabe'">d9f789b1-69f2-4992-8b5f-fde5d0c75d59</xsl:when>
-		<xsl:when test=".='ISBN der Reproduktion'">b99408a2-5116-4ae1-a16e-d379731d8814</xsl:when>
+		<xsl:when test=".='ISBN der Sekundärausgabe'">b99408a2-5116-4ae1-a16e-d379731d8814</xsl:when>
 		<xsl:when test=".='ISBN einer Manifestation in anderer physischer Form'">55feb40b-0de9-461b-8c34-3b638164ea6c</xsl:when>
 		<xsl:when test=".='ISBN für parallele Ausgabe in einer anderen physischen Form'">243e86bb-3192-4e6d-b58d-dc9bb4e26651</xsl:when>
 		<xsl:when test=".='ISMN'">ce741fff-9dc7-4ebb-9a28-8c5174c3a962</xsl:when>
