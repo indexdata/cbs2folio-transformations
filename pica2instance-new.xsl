@@ -1348,10 +1348,10 @@
       </arr>
     </electronicAccess>
     <!-- Notes -->
-    <xsl:if test="datafield[@tag='011B' or @tag='037A' or @tag='046P' or @tag='046L' or @tag='046K' or @tag='047I' or @tag='048H']">
+    <xsl:if test="datafield[@tag='011B' or @tag='037A' or @tag='046P' or @tag='046L' or @tag='046K' or @tag='047G' or @tag='048H']">
       <notes>
         <arr>
-          <xsl:for-each select="datafield[@tag='011B' or @tag='037A' or @tag='037I' or @tag='046P' or @tag='046L' or @tag='046K']">
+          <xsl:for-each select="datafield[@tag='011B' or @tag='037A' or @tag='037G' or @tag='046P' or @tag='046L' or @tag='046K']">
             <i>
               <xsl:choose>
                 <xsl:when test="./@tag='011B'">
@@ -1395,7 +1395,7 @@
                     <xsl:when test="./@tag='047I'">
                       <instanceNoteTypeId>Summary</instanceNoteTypeId>
                     </xsl:when>
-                    <xsl:when test="./@tag='037I'">
+                    <xsl:when test="./@tag='037G'">
                       <instanceNoteTypeId>Reproduction note</instanceNoteTypeId>
                     </xsl:when>
                     <xsl:when test="./@tag='048H'">
