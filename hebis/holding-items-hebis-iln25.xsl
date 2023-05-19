@@ -16,6 +16,7 @@
     <xsl:variable name="abt" select="$i/datafield[@tag='209A']/subfield[@code='f']"/>
     <xsl:variable name="standort" select="$i/datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']"/> 
     <xsl:variable name="electronicholding" select="(substring($i/../datafield[@tag='002@']/subfield[@code='0'],1,1) = 'O') and not(substring($i/datafield[@tag='208@']/subfield[@code='b'],1,1) = 'a')"/>
+    <xsl:variable name="onorder" select="substring($i/datafield[@tag='208@']/subfield[@code='b'],1,1) = 'a'"/>
     <permanentLocationId>
        <xsl:choose>
          <xsl:when test="$electronicholding">ONLINE</xsl:when>
@@ -26,6 +27,7 @@
              <xsl:when test="contains($standort,'LESESAAL')">ZBLS</xsl:when>
              <xsl:when test="contains($standort,'LBS')">ZBLBS</xsl:when>
              <xsl:when test="contains($standort,'RARA')">ZBRARA</xsl:when>
+             <xsl:when test="$onorder">ZBZEB</xsl:when>
              <xsl:otherwise>ZBMAG</xsl:otherwise>
            </xsl:choose>
          </xsl:when>
@@ -38,6 +40,7 @@
              <xsl:when test="contains($standort,'Psychologie')">GFGPSYCH</xsl:when>
              <xsl:when test="contains($standort,'Publizistik')">GFGPUB</xsl:when>
              <xsl:when test="contains($standort,'Soziologie')">GFGSOZ</xsl:when>
+             <xsl:when test="$onorder">GFGZEB</xsl:when>
              <xsl:otherwise>GFGPÄD</xsl:otherwise>
            </xsl:choose>
          </xsl:when>
@@ -77,6 +80,8 @@
          </xsl:when>
          <xsl:when test="$abt='019'">
            <xsl:choose>
+             <xsl:when test="contains($standort,'Fernleihe Lesesaal')">GHFLLS</xsl:when>
+             <xsl:when test="contains($standort,'Fernleihe')">GHFL</xsl:when>
              <xsl:when test="contains($standort,'Handapparat')">GHFAK</xsl:when> <!-- Es gibt auch starts-with(...,...) -->
              <xsl:when test="contains($standort,'Lehrbuch')">GHLBS</xsl:when>
              <xsl:when test="contains($standort,'Lesesaal')">GHLS</xsl:when>
@@ -90,7 +95,7 @@
          <xsl:when test="$abt='020'">RWFAK</xsl:when>
          <xsl:when test="$abt='021'">ZBMAG</xsl:when>
          <xsl:when test="$abt='034'">FBGTEM</xsl:when>
-		 <xsl:when test="$abt='035'">UMRMED</xsl:when>
+         <xsl:when test="$abt='035'">UMRMED</xsl:when>
          <xsl:when test="$abt='043'">UMPSY</xsl:when>
          <xsl:when test="$abt='054'">UMZMK</xsl:when>
          <xsl:when test="$abt='058'">PHPHI</xsl:when>
@@ -106,10 +111,10 @@
          <xsl:when test="$abt='077'">PHKLP</xsl:when>
          <xsl:when test="$abt='078'">PHKLA</xsl:when>
          <xsl:when test="$abt='079'">GFGKUN</xsl:when>
-         <xsl:when test="$abt='080'">ZBTURK</xsl:when>
+         <xsl:when test="$abt='080'">RWTURK</xsl:when>
          <xsl:when test="$abt='082'">FBÄGYPT</xsl:when>
          <xsl:when test="$abt='083'">PHKLW</xsl:when>
-		 <xsl:when test="$abt='085'">FBAVFGA</xsl:when>
+         <xsl:when test="$abt='085'">FBAVFGA</xsl:when>
          <xsl:when test="$abt='086'">PHALG</xsl:when>
          <xsl:when test="$abt='087'">PHBYZ</xsl:when>
          <xsl:when test="$abt='088'">PHMNG</xsl:when>
