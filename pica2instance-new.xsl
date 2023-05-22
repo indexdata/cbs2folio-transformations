@@ -61,13 +61,29 @@
   <xsl:template match="record">
     <record>
       <processing>
+        <holdingsRecord>
+          <retainExistingValues>
+            <forOmittedProperties>true</forOmittedProperties>
+          </retainExistingValues>
+        </holdingsRecord>
         <item>
+          <retainExistingValues>
+            <forOmittedProperties>true</forOmittedProperties>
+            <!-- Not applied at GBV but tested and working
+            <forTheseProperties>
+              <arr>
+                <i>yearCaption</i>
+                <i>statisticalCodeIds</i>
+              </arr>
+            </forTheseProperties>
+            -->
+          </retainExistingValues>
           <status>
             <policy>overwrite</policy>
             <ifStatusWas>
               <arr>
                 <i>
-                <name>On order</name>
+                  <name>On order</name>
                 </i>
               </arr>
             </ifStatusWas>
