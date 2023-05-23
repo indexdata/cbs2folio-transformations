@@ -410,7 +410,7 @@
               </xsl:variable>
               <xsl:variable name="id-type">
                 <xsl:choose>
-                  <xsl:when test="./@tag='017L'">Produktsigel Teilpaket, Arbeitsfeld für sonstige Produktsigel</xsl:when>
+                  <xsl:when test="./@tag='017L'">Produktsigel, Arbeitsfeld für sonstige Produktsigel</xsl:when>
                   <xsl:otherwise/>
                 </xsl:choose>
               </xsl:variable>
