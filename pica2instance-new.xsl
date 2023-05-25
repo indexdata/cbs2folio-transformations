@@ -1291,7 +1291,7 @@
     <!-- Electronic access -->
     <electronicAccess>
       <arr>
-        <xsl:for-each select="datafield[@tag='009P' or @tag='017C' or @tag='017M' or @tag='017R' or @tag='109R']">
+        <xsl:for-each select="datafield[@tag='009P' or @tag='017C' or @tag='109R']">
           <xsl:if test="./@tag='009P' and ./subfield[@code='a']">
             <i>
               <uri>
@@ -1322,6 +1322,7 @@
               <!-- Resource -->
             </i>
           </xsl:if>
+          <!-- Remove 017R from URL and move to instance notes
 		      <xsl:if test="./@tag='017R' and ./subfield[@code='u']">
             <i>
               <uri>
@@ -1334,9 +1335,10 @@
 				        <xsl:value-of select="./subfield[@code='a']"/>
 			        </linkText>
               <relationshipId>0ce08069-8f5f-411b-b622-46674aa66a45</relationshipId>
-			        <!-- Access Status -->
             </i>
           </xsl:if>
+          -->
+          <!-- Remove 017M from URL and move to instance notes
 		      <xsl:if test="./@tag='017M' and ./subfield[@code='u']">
             <i>
               <uri>
@@ -1349,9 +1351,9 @@
                 <xsl:value-of select="./subfield[@code='a']"/>
               </linkText>
               <relationshipId>f781cb3d-af16-40f6-9d02-c24204ac6fdc</relationshipId>
-			        <!-- Rechteinformation -->
             </i>
           </xsl:if>
+          -->
 		      <xsl:if test="./@tag='109R' and ./subfield[@code='u']">
             <i>
               <uri>
