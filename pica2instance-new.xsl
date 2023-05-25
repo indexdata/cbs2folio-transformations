@@ -1400,7 +1400,7 @@
                   </note>
                   <xsl:choose>
                     <xsl:when test="./@tag='046K'">
-                      <instanceNoteTypeId>Estimated publication date</instanceNoteTypeId>
+                      <instanceNoteTypeId>Voraussichtlicher Erscheinungstermin</instanceNoteTypeId>
                     </xsl:when>
                     <xsl:when test="./@tag='046L'">
                       <instanceNoteTypeId>Language note</instanceNoteTypeId>
