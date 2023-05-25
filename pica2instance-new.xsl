@@ -1371,10 +1371,10 @@
       </arr>
     </electronicAccess>
     <!-- Notes -->
-    <xsl:if test="datafield[@tag='011B' or @tag='037A' or @tag='046P' or @tag='046L' or @tag='046K' or @tag='047G' or @tag='048H']">
+    <xsl:if test="datafield[@tag='011B' or @tag='037A' or @tag='046P' or @tag='046L' or @tag='046K' or @tag='047G' or @tag='048H' or @tag='017M' or @tag='017R']">
       <notes>
         <arr>
-          <xsl:for-each select="datafield[@tag='011B' or @tag='037A' or @tag='037G' or @tag='046P' or @tag='046L' or @tag='046K']">
+          <xsl:for-each select="datafield[@tag='011B' or @tag='037A' or @tag='046P' or @tag='046L' or @tag='046K' or @tag='047G' or @tag='048H' or @tag='017M' or @tag='017R']">
             <i>
               <xsl:choose>
                 <xsl:when test="./@tag='011B'">
