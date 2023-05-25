@@ -1210,6 +1210,10 @@
                 <xsl:variable name="date-ac" select="concat($date-a, ' (', $date-c, ')')"/>
                 <xsl:variable name="date-abcd" select="concat($date-ab, ' (', $date-cd, ')')"/>
                 <xsl:choose>
+                  <!-- hebis: If $n is present then only show $n -->
+                  <xsl:when test="$date-n">
+                    <xsl:value-of select="$date-n"/>
+                  </xsl:when>
                   <xsl:when test="$date-d and $date-n">
                     <xsl:value-of select="concat($date-abcd, ' (', $date-n, ')')"/>
                   </xsl:when>
