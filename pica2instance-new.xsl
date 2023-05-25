@@ -1418,6 +1418,12 @@
                     <xsl:when test="./@tag='048H'">
                       <instanceNoteTypeId>System Details note</instanceNoteTypeId>
                     </xsl:when>
+                    <xsl:when test="./@tag='017M'">
+                      <instanceNoteTypeId>Terms Governing Use and Reproduction note</instanceNoteTypeId>
+                    </xsl:when>
+                    <xsl:when test="./@tag='017R'">
+                      <instanceNoteTypeId>Restrictions on Access note</instanceNoteTypeId>
+                    </xsl:when>
                     <xsl:otherwise>
                       <instanceNoteTypeId>General note</instanceNoteTypeId>
                     </xsl:otherwise>
