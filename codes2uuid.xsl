@@ -131,6 +131,7 @@
         <xsl:when test=".='Spine title'">dae08d04-8c4e-4ab2-b6bb-99edbf252231</xsl:when>
         <xsl:when test=".='Added title page title'">2ca8538d-a2fd-4e60-b967-1cb220101e22</xsl:when>
         <xsl:when test=".='Portion of title'">a8b45056-2223-43ca-8514-4dd88ece984b</xsl:when>
+        <xsl:when test=".='Other title'">2584943f-36ad-4037-a7fa-3bdebb09f452</xsl:when>
         <xsl:otherwise>0fe58901-183e-4678-a3aa-0b4751174ba8</xsl:otherwise>
       </xsl:choose>
     </alternativeTitleTypeId>
