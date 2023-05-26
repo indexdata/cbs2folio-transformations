@@ -1371,10 +1371,11 @@
       </arr>
     </electronicAccess>
     <!-- Notes -->
-    <xsl:if test="datafield[@tag='011B' or @tag='037A' or @tag='046P' or @tag='046L' or @tag='046K' or @tag='047G' or @tag='048H' or @tag='017M' or @tag='017R']">
+    <!-- hebis: added tags: 013E, 017M, 017R, 032X, 032Y, 032Z, 035E, 037C, 039B, 039C, 039D, 039E, 046K, 046M, 046S, 046U, 047I, 048H -->
+    <xsl:if test="datafield[@tag='011B' or @tag='013E' or @tag='017M' or @tag='017R' or @tag='032X' or @tag='032Y' or @tag='032Z' or @tag='035E' or @tag='037A' or @tag='037C' or @tag='037I' or @tag='039B' or @tag='039C' or @tag='039D' or @tag='039E' or @tag='046P' or @tag='046L' or @tag='046K' or @tag='046M' or @tag='046S' or @tag='046U' or @tag='047I' or @tag='048H']">
       <notes>
         <arr>
-          <xsl:for-each select="datafield[@tag='011B' or @tag='037A' or @tag='046P' or @tag='046L' or @tag='046K' or @tag='047G' or @tag='048H' or @tag='017M' or @tag='017R']">
+          <xsl:for-each select="datafield[@tag='011B' or @tag='013E' or @tag='017M' or @tag='017R' or @tag='032X' or @tag='032Y' or @tag='032Z' or @tag='035E' or @tag='037A' or @tag='037C' or @tag='037I' or @tag='039B' or @tag='039C' or @tag='039D' or @tag='039E' or @tag='046P' or @tag='046K' or @tag='046L' or @tag='046M' or @tag='046S' or @tag='046U' or @tag='047I' or @tag='048H']">
             <i>
               <xsl:choose>
                 <xsl:when test="./@tag='011B'">
@@ -1401,6 +1402,197 @@
                   </note>
                   <instanceNoteTypeId>General note</instanceNoteTypeId>
                 </xsl:when>
+                <!-- hebis: added new tags for relations as text in order to depict introductory phrases, other qualifying information and horizontal relationships-->
+                <!-- TBD: Need for discussion: Expansion -->
+                <xsl:when test="./@tag='039B' or @tag='039C' or @tag='039D' or @tag='039E'">
+                  <note>
+                   <xsl:if test="./subfield[@code='i']">
+                     <xsl:value-of select="./subfield[@code='i']"/>
+                     <xsl:if test="./subfield[@code='n']">
+                       <xsl:value-of select="concat(' ', ./subfield[@code='n'])"/>
+                     </xsl:if>
+                     <xsl:value-of select=" ': ' "/>
+                   </xsl:if>
+                   <xsl:for-each select="subfield">
+                    <xsl:choose>
+                      <xsl:when test="@code='8'">
+                        <xsl:choose>
+                          <xsl:when test="contains(., ' ; ID:')">
+                            <xsl:value-of select="substring-before(@code='8', ' ; ID:')"/>
+                          </xsl:when>
+                          <xsl:otherwise>
+                            <xsl:value-of select="."/>
+                          </xsl:otherwise>
+                        </xsl:choose>
+                      </xsl:when>
+                      <xsl:otherwise>
+                        <xsl:choose>
+                          <xsl:when test="@code='a' or @code='t'">
+                            <xsl:value-of select="."/>
+                          </xsl:when>
+                          <xsl:when test="@code='l'">
+                            <xsl:value-of select="concat( . , '. ' )"/>
+                          </xsl:when>
+                          <xsl:when test="@code='d' or @code='g' or @code='h' or @code='p'">
+                            <xsl:value-of select="concat('. - ', . )"/>
+                          </xsl:when>
+                          <xsl:when test="@code='e'">
+                            <xsl:value-of select="concat(' : ', . )"/>
+                          </xsl:when>
+                          <xsl:when test="@code='f'">
+                            <xsl:value-of select="concat(', ', . )"/>
+                          </xsl:when>
+                          <xsl:when test="@code='C'">
+                            <xsl:choose>
+                              <xsl:when test="preceding-sibling::*[1]/@code='i' or preceding-sibling::*[1]/@code='n'">
+                                <xsl:if test=". = 'ISBN' or . = 'ISMN' or . = 'ISSN' or . = 'DOI' or . = 'URN'">
+                                  <xsl:value-of select="concat(. ,' ',following-sibling::*[1])"/>
+                                </xsl:if>
+                              </xsl:when>
+                              <xsl:otherwise>
+                                <xsl:if test=". = 'ISBN' or . = 'ISMN' or . = 'ISSN' or . = 'DOI' or . = 'URN'">
+                                  <xsl:value-of select="concat('. - ',  . ,' ',following-sibling::*[1])"/>
+                                </xsl:if>
+                              </xsl:otherwise>
+                            </xsl:choose>
+                          </xsl:when>
+                        </xsl:choose> 
+                      </xsl:otherwise>
+                    </xsl:choose>
+                   </xsl:for-each>
+                  </note>
+                  <xsl:choose>
+                    <xsl:when test="./@tag='039C'">
+                      <instanceNoteTypeId>Supplement note</instanceNoteTypeId>
+                    </xsl:when>
+                    <xsl:when test="./@tag='039D'">
+                      <instanceNoteTypeId>Additional Physical Form Available note</instanceNoteTypeId>
+                    </xsl:when>
+                    <xsl:otherwise>
+                      <instanceNoteTypeId>General note</instanceNoteTypeId>
+                    </xsl:otherwise>
+                  </xsl:choose>
+                </xsl:when>
+
+                <!-- hebis: added new tag for "Dissertation note" -->
+                <xsl:when test="./@tag='037C'">
+                  <note>
+                    <xsl:for-each select="subfield">
+                      <xsl:choose>
+                        <xsl:when test="@code='a' or @code='d'">
+                          <xsl:value-of select="."/>
+                        </xsl:when>
+                        <xsl:when test="@code='e' or @code='f'">
+                          <xsl:value-of select="concat(', ',.)"/>
+                        </xsl:when>
+                        <xsl:when test="@code='g'">
+                          <xsl:value-of select="concat(' (',.,')')"/>
+                        </xsl:when>
+                      </xsl:choose> 
+                    </xsl:for-each>
+                  </note>
+                  <instanceNoteTypeId>Dissertation note</instanceNoteTypeId>
+                </xsl:when>
+
+                <!-- hebis: added new tag for "Format of notated music" -->
+                <xsl:when test="./@tag='013E'">
+                  <note>
+                    <xsl:for-each select="subfield">
+                      <xsl:choose>
+                        <xsl:when test="@code='8'">
+                          <xsl:choose>
+                            <xsl:when test="contains(., ' ; ID:')">
+                              <xsl:value-of select="substring-before(., ' ; ID:')"/>
+                            </xsl:when>
+                            <xsl:otherwise>
+                              <xsl:value-of select="."/>
+                            </xsl:otherwise>
+                          </xsl:choose>
+                        </xsl:when>
+                        <xsl:when test="@code='a'">
+                          <xsl:value-of select="."/>
+                        </xsl:when>
+                      </xsl:choose> 
+                    </xsl:for-each>
+                  </note>
+                  <instanceNoteTypeId>Musikalische Ausgabeform</instanceNoteTypeId>
+                </xsl:when> 
+
+                <!-- hebis: added new tag for "Medium of Performance" -->
+                <!-- TBD: authorities at GBV" -->
+                <xsl:when test="./@tag='032X'">
+                  <note>
+                    <xsl:for-each select="subfield">
+                      <xsl:choose>
+                        <xsl:when test="@code='s'">
+                          <xsl:value-of select="concat('Instrumente/Solisten: ',.)"/>
+                        </xsl:when>
+                        <xsl:when test="@code='t'">
+                          <xsl:value-of select="concat('Ensembles: ',.)"/>
+                        </xsl:when>
+                        <xsl:when test="@code='a' or @code='p'">
+                          <xsl:value-of select="."/>
+                        </xsl:when>
+                        <xsl:when test="@code='e' or @code='n'">
+                          <xsl:value-of select="concat(' (',.,')')"/>
+                        </xsl:when>
+                        <xsl:when test="@code='v'">
+                          <xsl:value-of select="concat(', ',.)"/>
+                        </xsl:when>
+                      </xsl:choose>
+                    </xsl:for-each>
+                  </note>
+                  <instanceNoteTypeId>Besetzung</instanceNoteTypeId>
+                </xsl:when> 
+
+                <!-- hebis: added new tag for "Numeric Designation of Musical Work" -->
+                <xsl:when test="./@tag='032Y'">
+                  <note>
+                    <xsl:for-each select="subfield">
+                      <xsl:choose>
+                        <xsl:when test="@code='a' or @code='b' or @code='c' or @code='d' or @code='e'">
+                          <xsl:value-of select="."/>
+                        </xsl:when>
+                      </xsl:choose> 
+                    </xsl:for-each>
+                  </note>
+                  <instanceNoteTypeId>Numerische Bezeichnung eines Musikwerks</instanceNoteTypeId>
+                </xsl:when> 
+
+                <!-- hebis: added new tag for "Key" -->
+                <xsl:when test="./@tag='032Z'">
+                  <note>
+                    <xsl:for-each select="subfield">
+                      <xsl:choose>
+                        <xsl:when test="@code='a'">
+                          <xsl:value-of select="concat(., ' (Original)')"/>
+                        </xsl:when>
+                        <xsl:when test="@code='b'">
+                          <xsl:value-of select="concat(., ' (Fassung)')"/>
+                        </xsl:when>
+                      </xsl:choose> 
+                    </xsl:for-each>
+                  </note>
+                  <instanceNoteTypeId>Tonart</instanceNoteTypeId>
+                </xsl:when> 
+
+                <!-- hebis: added new tag for "With note" -->
+                <xsl:when test="./@tag='046M'">
+                  <note>
+                    <xsl:for-each select="subfield">
+                      <xsl:choose>
+                        <xsl:when test="@code='u' or @code='a'">
+                          <xsl:value-of select="."/>
+                        </xsl:when>
+                        <xsl:when test="@code='h'">
+                           <xsl:value-of select="concat(' / ',.)"/>
+                        </xsl:when>
+                      </xsl:choose> 
+                    </xsl:for-each>
+                  </note>
+                  <instanceNoteTypeId>With note</instanceNoteTypeId>
+                </xsl:when> 
+
                 <xsl:otherwise>
                   <note>
                     <xsl:value-of select="./subfield[@code='a']"/>
