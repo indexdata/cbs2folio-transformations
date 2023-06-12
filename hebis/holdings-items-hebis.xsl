@@ -304,38 +304,12 @@
       <copyNumber>
         <xsl:value-of select="$copy"/>
       </copyNumber>
-      <volume>
-        <xsl:for-each select="datafield[@tag='231@']/subfield[@code='d' or @code='n']"> <!-- TBD: check if needed -->
-          <xsl:choose>
-            <xsl:when test="./@code='n'">
-              <xsl:value-of select="concat('-', .)"/>
-            </xsl:when>
-            <xsl:when test="./@code='d' and position()&gt;1">
-              <xsl:value-of select="concat(', ', .)"/>
-            </xsl:when>
-            <xsl:otherwise>
-              <xsl:value-of select="."/>
-            </xsl:otherwise>
-          </xsl:choose>
-          <xsl:if test="position()=last() and ./@code='d' and ../subfield[@code='6']">-</xsl:if>
+      <yearCaption>
+        <xsl:for-each select="datafield[@tag='209E' and (subfield[@code='x']='02')]/subfield[@code='a']">
+           <xsl:for-each select="../../datafield[@tag='209E' and (subfield[@code='x']='01')]/subfield[@code='a']"><xsl:value-of select="."/><xsl:text>: </xsl:text></xsl:for-each>
+          <xsl:value-of select="."/>
         </xsl:for-each>
-      </volume>
-      <chronology>
-        <xsl:for-each select="datafield[@tag='231@']/subfield[@code='j' or @code='k']">
-          <xsl:choose>
-            <xsl:when test="./@code='k'">
-              <xsl:value-of select="concat('-', .)"/>
-            </xsl:when>
-            <xsl:when test="./@code='j' and position()&gt;1">
-              <xsl:value-of select="concat(', ', .)"/>
-            </xsl:when>
-            <xsl:otherwise>
-              <xsl:value-of select="."/>
-            </xsl:otherwise>
-          </xsl:choose>
-          <xsl:if test="position()=last() and ./@code='j' and ../subfield[@code='6']">-</xsl:if>
-        </xsl:for-each>
-      </chronology>
+      </yearCaption>
 
       <!-- no notes on item level 
         <notes>
