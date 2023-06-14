@@ -305,10 +305,14 @@
         <xsl:value-of select="$copy"/>
       </copyNumber>
       <yearCaption>
-        <xsl:for-each select="datafield[@tag='209E' and (subfield[@code='x']='02')]/subfield[@code='a']">
+        <arr>
+        <xsl:for-each select="datafield[@tag='209E' and (subfield[@code='x']='02')]/subfield[@code='a']"> <!-- Wiederholungen kommen jedoch nicht vor -->
+          <i>
            <xsl:for-each select="../../datafield[@tag='209E' and (subfield[@code='x']='01')]/subfield[@code='a']"><xsl:value-of select="."/><xsl:text>: </xsl:text></xsl:for-each>
           <xsl:value-of select="."/>
+          </i>
         </xsl:for-each>
+        </arr>
       </yearCaption>
 
       <!-- no notes on item level 
