@@ -23,16 +23,17 @@
          <xsl:when test="substring($i/datafield[@tag='208@']/subfield[@code='b'],1,1) = 'd'">DUMMY</xsl:when>
          <xsl:when test="$abt='000'">
            <xsl:choose>
+             <xsl:when test="$onorder">ZBZEB</xsl:when>
              <xsl:when test="contains($standort,'FREIHAND')">ZBFREI</xsl:when>
              <xsl:when test="contains($standort,'LESESAAL')">ZBLS</xsl:when>
              <xsl:when test="contains($standort,'LBS')">ZBLBS</xsl:when>
              <xsl:when test="contains($standort,'RARA')">ZBRARA</xsl:when>
-             <xsl:when test="$onorder">ZBZEB</xsl:when>
              <xsl:otherwise>ZBMAG</xsl:otherwise>
            </xsl:choose>
          </xsl:when>
          <xsl:when test="$abt='002'">
            <xsl:choose>
+             <xsl:when test="$onorder">GFGZEB</xsl:when>
              <xsl:when test="contains($standort,'Erziehungswissenschaft')">GFGPÄD</xsl:when>
              <xsl:when test="contains($standort,'Filmwissenschaft')">GFGFILM</xsl:when>
              <xsl:when test="contains($standort,'Journalistik')">GFGJOUR</xsl:when>
@@ -40,12 +41,12 @@
              <xsl:when test="contains($standort,'Psychologie')">GFGPSYCH</xsl:when>
              <xsl:when test="contains($standort,'Publizistik')">GFGPUB</xsl:when>
              <xsl:when test="contains($standort,'Soziologie')">GFGSOZ</xsl:when>
-             <xsl:when test="$onorder">GFGZEB</xsl:when>
              <xsl:otherwise>GFGPÄD</xsl:otherwise>
            </xsl:choose>
          </xsl:when>
 		 <xsl:when test="$abt='003'">
            <xsl:choose>
+             <xsl:when test="$onorder">ZBZEB</xsl:when>
              <xsl:when test="contains($standort,'LESESAAL')">ZBLS</xsl:when>
              <xsl:otherwise>ZBRVK</xsl:otherwise>
 			     </xsl:choose>
@@ -59,9 +60,9 @@
          </xsl:when>
          <xsl:when test="$abt='006'">
            <xsl:choose>
-             <xsl:when test="contains($standort,'LEHRBUCH')">MINLBS</xsl:when>
-             <xsl:when test="contains($standort,'Handapparat')">MINFAK</xsl:when>
-             <xsl:otherwise>MIN</xsl:otherwise>
+             <xsl:when test="contains($standort,'LEHRBUCH')">MINTLBS</xsl:when>
+             <xsl:when test="contains($standort,'Handapparat')">MINTFAK</xsl:when>
+             <xsl:otherwise>MINT</xsl:otherwise>
            </xsl:choose>
          </xsl:when>
          <xsl:when test="$abt='009'">FBMPI</xsl:when>	
@@ -81,6 +82,7 @@
          </xsl:when>
          <xsl:when test="$abt='019'">
            <xsl:choose>
+             <xsl:when test="$onorder">GHZEB</xsl:when>
              <xsl:when test="contains($standort,'Fernleihe Lesesaal')">GHFLLS</xsl:when>
              <xsl:when test="contains($standort,'Fernleihe')">GHFL</xsl:when>
              <xsl:when test="contains($standort,'Handapparat')">GHFAK</xsl:when> <!-- Es gibt auch starts-with(...,...) -->
