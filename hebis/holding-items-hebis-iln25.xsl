@@ -217,13 +217,22 @@
       <xsl:when test="($abt='016' and (starts-with(., 'THEMAG ') or starts-with(., 'THERARA '))) or 
         ($abt='000' and starts-with(., 'RARA ')) or
         ($abt='120' and ($standort='Medienkulturwissenschaft' or $standort='Alltagsmedien')) or
-        ($abt='003') or ($abt='127')">
-        <callNumberPrefix>
-          <xsl:value-of select="substring-before(.,' ')"/>
-        </callNumberPrefix>
-        <callNumber>
-          <xsl:value-of select="substring-after(.,' ')"/>
-        </callNumber>
+        ($abt='003') or (($abt='127') and not(starts-with(.,'SI ') or starts-with(.,'SK ')))">
+        <xsl:choose>
+          <xsl:when test="contains(.,' ')">
+            <callNumberPrefix>
+              <xsl:value-of select="normalize-space(substring-before(.,' '))"/>
+            </callNumberPrefix>
+            <callNumber>
+              <xsl:value-of select="normalize-space(substring-after(.,' '))"/>
+            </callNumber>
+          </xsl:when>
+          <xsl:otherwise>
+            <callNumber>
+              <xsl:value-of select="."/>
+            </callNumber>
+          </xsl:otherwise>
+        </xsl:choose>
       </xsl:when>
       <xsl:otherwise>
         <xsl:variable name="cnprefix">
