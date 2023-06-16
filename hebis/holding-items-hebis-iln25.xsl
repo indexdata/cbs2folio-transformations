@@ -130,7 +130,12 @@
          <xsl:when test="$abt='094'">FBIGL</xsl:when>
          <xsl:when test="$abt='110'">GFGGEO</xsl:when>
          <xsl:when test="$abt='111'">FBKUNST</xsl:when>
-         <xsl:when test="$abt='112'">PHHFM</xsl:when>
+         <xsl:when test="$abt='112'">
+             <xsl:choose>
+               <xsl:when test="contains($standort,'Freihand')">PHHFMFREI</xsl:when>
+               <xsl:otherwise>PHHFMMAG</xsl:otherwise>
+             </xsl:choose>
+           </xsl:when>
          <xsl:when test="$abt='113'">GFGSPO</xsl:when>
          <xsl:when test="$abt='120'">PHTHW</xsl:when>
          <xsl:when test="$abt='124'">FBGESANG</xsl:when>
@@ -187,7 +192,7 @@
 	  ($abt='091' and (./note='Musikwissenschaft')) or
 	  ($abt='092' and (./note='Osteuropäische Geschichte')) or
 	  ($abt='094' and (./note='Institut für Geschichtliche Landeskunde')) or
-	  ($abt='112' and (./note='Hochschule für Musik')) or
+	  ($abt='112' and (./note='Hochschule für Musik' or ./note='Hochschule für Musik / Freihand' or ./note='Hochschule für Musik / Magazin')) or
 	  ($abt='113' and (./note='Sport')) or	
 	  ($abt='124' and (./note='Gesangbucharchiv')) or
 	  ($abt='125' and (./note='MAG')) or

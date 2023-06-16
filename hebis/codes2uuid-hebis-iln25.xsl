@@ -56,7 +56,8 @@
         <xsl:when test=".='PHBUW'">9bad5803-6654-45d7-9810-88fd862104c3</xsl:when>
         <xsl:when test=".='PHBYZ'">976bdf60-8978-485d-b7af-2a7595a3c002</xsl:when>
         <xsl:when test=".='PHGER'">a12555c4-26b6-4e10-8c91-76eb3af1efa1</xsl:when>
-        <xsl:when test=".='PHHFM'">67a86c11-ff12-4c8a-9ad0-a68be2fad894</xsl:when>
+        <xsl:when test=".='PHHFMFREI'">c94d7179-a254-4115-90c9-1f5ca7850e9e</xsl:when>
+        <xsl:when test=".='PHHFMMAG'">67a86c11-ff12-4c8a-9ad0-a68be2fad894</xsl:when>
         <xsl:when test=".='PHKLA'">642f2956-cb86-4fd5-be8d-f42851383504</xsl:when>
         <xsl:when test=".='PHKLP'">4e2e7695-ce87-4f7b-9cba-5d86d202ecc7</xsl:when>
         <xsl:when test=".='PHKLW'">3b099a07-17ab-44f2-92b7-d61f0cab5390</xsl:when>
