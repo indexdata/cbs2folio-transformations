@@ -665,10 +665,6 @@ title="Hintergrundfarbe : Hellviolett 100 %">ILN-spezifisch</td>
 <tr class="even">
 <td class="highlight-#abf5d1 confluenceTd"
 data-highlight-colour="#abf5d1"><div class="content-wrapper">
-<p><img src="./Level-2-Mapping_files/macro" class="editor-inline-macro"
-data-macro-name="anchor"
-data-macro-id="eb932e56-4959-431c-bba8-bc355aeee1a6"
-data-macro-default-parameter="17" data-macro-schema-version="1" /></p>
 <p><a
 href="https://kid.hebis.de/plugins/viewsource/viewpagesrc.action?pageId=142813765#Tabellarische%C3%9CbersichtzumLevel2Mapping-17"
 class="confluence-link" data-anchor="17"
@@ -717,10 +713,6 @@ title="Hintergrundfarbe : Hellgrün 100 %">Allgemein</td>
 <tr class="odd">
 <td class="highlight-#b3d4ff confluenceTd"
 data-highlight-colour="#b3d4ff"><div class="content-wrapper">
-<p><img src="./Level-2-Mapping_files/macro(1)"
-class="editor-inline-macro" data-macro-name="anchor"
-data-macro-id="622e13ee-ea71-4fee-bdef-179de30d5491"
-data-macro-default-parameter="18" data-macro-schema-version="1" /></p>
 <p><a
 href="https://kid.hebis.de/plugins/viewsource/viewpagesrc.action?pageId=142813765#Tabellarische%C3%9CbersichtzumLevel2Mapping-18"
 class="confluence-link" data-anchor="18"
@@ -776,10 +768,7 @@ title="Hintergrundfarbe : Hellblau 100 %">ILN-spezifisch</td>
 <tr class="even">
 <td class="highlight-#c0b6f2 confluenceTd"
 data-highlight-colour="#c0b6f2"><div class="content-wrapper">
-<p><img src="./Level-2-Mapping_files/macro(2)"
-class="editor-inline-macro" data-macro-name="anchor"
-data-macro-id="fdbbd27e-7e2d-4799-8e71-c12f16c2ca97"
-data-macro-default-parameter="19" data-macro-schema-version="1" /><a
+<p><a
 href="https://kid.hebis.de/plugins/viewsource/viewpagesrc.action?pageId=142813765#Tabellarische%C3%9CbersichtzumLevel2Mapping-19"
 class="confluence-link" data-anchor="19"
 data-linked-resource-default-alias="19"
@@ -833,10 +822,7 @@ Abteilungscode, Signaturanfang, Textfeld Standort</p></td>
 <tr class="odd">
 <td class="highlight-#b3d4ff confluenceTd"
 data-highlight-colour="#b3d4ff"><div class="content-wrapper">
-<p><img src="./Level-2-Mapping_files/macro(3)"
-class="editor-inline-macro" data-macro-name="anchor"
-data-macro-id="c09d49cb-6ec2-4304-b814-f6a3c75ac22e"
-data-macro-default-parameter="20" data-macro-schema-version="1" /><a
+<p><a
 href="https://kid.hebis.de/plugins/viewsource/viewpagesrc.action?pageId=142813765#Tabellarische%C3%9CbersichtzumLevel2Mapping-20"
 class="confluence-link" data-anchor="20"
 data-linked-resource-default-alias="20"
@@ -887,10 +873,7 @@ title="Hintergrundfarbe : Hellblau 100 %">ILN-spezifisch</td>
 <tr class="even">
 <td class="highlight-#abf5d1 confluenceTd"
 data-highlight-colour="#abf5d1"><div class="content-wrapper">
-<p><img src="./Level-2-Mapping_files/macro(4)"
-class="editor-inline-macro" data-macro-name="anchor"
-data-macro-id="a9937480-bed5-466a-8b1a-ec4193da8f27"
-data-macro-default-parameter="21" data-macro-schema-version="1" /><a
+<p><a
 href="https://kid.hebis.de/plugins/viewsource/viewpagesrc.action?pageId=142813765#Tabellarische%C3%9CbersichtzumLevel2Mapping-21"
 class="confluence-link" data-anchor="21"
 data-linked-resource-default-alias="21"
@@ -1203,10 +1186,7 @@ Folio</td>
 </tr>
 <tr class="even">
 <td class="confluenceTd"><div class="content-wrapper" title="">
-<p><img src="./Level-2-Mapping_files/macro(5)"
-class="editor-inline-macro" data-macro-name="anchor"
-data-macro-id="e4b4513e-a19a-41d1-b302-e1630ec6e82d"
-data-macro-default-parameter="27" data-macro-schema-version="1" /><a
+<p><a
 href="https://kid.hebis.de/plugins/viewsource/viewpagesrc.action?pageId=142813765#Tabellarische%C3%9CbersichtzumLevel2Mapping-27"
 class="confluence-link" data-anchor="27"
 data-linked-resource-default-alias="27"
@@ -1301,10 +1281,6 @@ Bezeichnung" gemappt</p></td>
 <tr class="even">
 <td class="highlight-#abf5d1 confluenceTd"
 data-highlight-colour="#abf5d1"><div class="content-wrapper">
-<p><img src="./Level-2-Mapping_files/macro(6)"
-class="editor-inline-macro" data-macro-name="anchor"
-data-macro-id="785efff4-3864-4a35-a8ca-82496d925a8d"
-data-macro-default-parameter="31" data-macro-schema-version="1" /></p>
 <p><a
 href="https://kid.hebis.de/plugins/viewsource/viewpagesrc.action?pageId=142813765#Tabellarische%C3%9CbersichtzumLevel2Mapping-31"
 class="confluence-link" data-anchor="31"
@@ -1349,10 +1325,6 @@ title="Hintergrundfarbe : Hellgrün 100 %">Allgemein</td>
 <tr class="odd">
 <td class="highlight-#abf5d1 confluenceTd"
 data-highlight-colour="#abf5d1"><div class="content-wrapper">
-<p><img src="./Level-2-Mapping_files/macro(7)"
-class="editor-inline-macro" data-macro-name="anchor"
-data-macro-id="b98184bb-6cd2-45ab-b88b-cfb71b1d27b9"
-data-macro-default-parameter="32" data-macro-schema-version="1" /></p>
 <p><a
 href="https://kid.hebis.de/plugins/viewsource/viewpagesrc.action?pageId=142813765#Tabellarische%C3%9CbersichtzumLevel2Mapping-32"
 class="confluence-link" data-anchor="32"
@@ -1396,10 +1368,6 @@ title="Hintergrundfarbe : Hellgrün 100 %">Allgemein</td>
 <tr class="even">
 <td class="highlight-#abf5d1 confluenceTd"
 data-highlight-colour="#abf5d1"><div class="content-wrapper">
-<p><img src="./Level-2-Mapping_files/macro(8)"
-class="editor-inline-macro" data-macro-name="anchor"
-data-macro-id="610e15d7-e4ca-4630-88e0-4d30455110da"
-data-macro-default-parameter="33" data-macro-schema-version="1" /></p>
 <p><a
 href="https://kid.hebis.de/plugins/viewsource/viewpagesrc.action?pageId=142813765#Tabellarische%C3%9CbersichtzumLevel2Mapping-33"
 class="confluence-link" data-anchor="33"
@@ -1443,10 +1411,6 @@ title="Hintergrundfarbe : Hellgrün 100 %">Allgemein</td>
 <tr class="odd">
 <td class="highlight-#abf5d1 confluenceTd"
 data-highlight-colour="#abf5d1"><div class="content-wrapper">
-<p><img src="./Level-2-Mapping_files/macro(9)"
-class="editor-inline-macro" data-macro-name="anchor"
-data-macro-id="b4bf1b6f-cfca-45c0-b68e-2af325a92a95"
-data-macro-default-parameter="34" data-macro-schema-version="1" /></p>
 <p><a
 href="https://kid.hebis.de/plugins/viewsource/viewpagesrc.action?pageId=142813765#Tabellarische%C3%9CbersichtzumLevel2Mapping-34"
 class="confluence-link" data-anchor="34"
@@ -1490,10 +1454,7 @@ title="Hintergrundfarbe : Hellgrün 100 %">Allgemein</td>
 <tr class="even">
 <td class="highlight-#abf5d1 confluenceTd"
 data-highlight-colour="#abf5d1"><div class="content-wrapper">
-<p><img src="./Level-2-Mapping_files/macro(10)"
-class="editor-inline-macro" data-macro-name="anchor"
-data-macro-id="b60717f4-9677-4cba-bd61-cccf654f1bad"
-data-macro-default-parameter="35" data-macro-schema-version="1" /><a
+<p><a
 href="https://kid.hebis.de/plugins/viewsource/viewpagesrc.action?pageId=142813765#Tabellarische%C3%9CbersichtzumLevel2Mapping-35"
 class="confluence-link" data-anchor="35"
 data-linked-resource-default-alias="35"
@@ -1577,10 +1538,6 @@ title="Hintergrundfarbe : Hellgrün 100 %">Allgemein</td>
 <tr class="odd">
 <td class="highlight-#abf5d1 confluenceTd"
 data-highlight-colour="#abf5d1"><div class="content-wrapper">
-<p><img src="./Level-2-Mapping_files/macro(11)"
-class="editor-inline-macro" data-macro-name="anchor"
-data-macro-id="9919b4d4-ab64-4041-96d4-48d15c2aed8d"
-data-macro-default-parameter="38" data-macro-schema-version="1" /></p>
 <p><a
 href="https://kid.hebis.de/plugins/viewsource/viewpagesrc.action?pageId=142813765#Tabellarische%C3%9CbersichtzumLevel2Mapping-38"
 class="confluence-link" data-anchor="38"
@@ -2116,10 +2073,7 @@ title="Hintergrundfarbe : Hellgrün 100 %">Allgemein</td>
 <tr class="even">
 <td class="highlight-#abf5d1 confluenceTd"
 data-highlight-colour="#abf5d1"><div class="content-wrapper">
-<p><img src="./Level-2-Mapping_files/macro(12)"
-class="editor-inline-macro" data-macro-name="anchor"
-data-macro-id="69b9930f-e90b-4891-a3c1-06761d62efbd"
-data-macro-default-parameter="51" data-macro-schema-version="1" /><a
+<p><a
 href="https://kid.hebis.de/plugins/viewsource/viewpagesrc.action?pageId=142813765#Tabellarische%C3%9CbersichtzumLevel2Mapping-51"
 class="confluence-link" data-anchor="51"
 data-linked-resource-default-alias="51"
