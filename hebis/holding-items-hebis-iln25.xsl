@@ -49,8 +49,7 @@
 		 <xsl:when test="$abt='003'">
            <xsl:choose>
              <xsl:when test="$onorder">ZBZEB</xsl:when>
-             <xsl:when test="contains($standort,'LESESAAL')">ZBLS</xsl:when>
-             <xsl:otherwise>ZBRVK</xsl:otherwise>
+             <xsl:otherwise>ZBLS</xsl:otherwise>
 			     </xsl:choose>
          </xsl:when>
          <xsl:when test="$abt='005'">
@@ -163,7 +162,6 @@
     <xsl:variable name="abt" select="$i/datafield[@tag='209A']/subfield[@code='f']"/>
     <xsl:if test="not(($abt='000' and (./note='FREIHAND' or ./note='LBS' or ./note='LESESAAL' or ./note='RARA' or ./note='MAG')) or
 	  ($abt='002' and (./note='Erziehungswissenschaft' or ./note='Filmwissenschaft' or ./note='Journalistik' or ./note='Politikwissenschaft' or ./note='Psychologie' or ./note='Publizistik' or ./note='Soziologie')) or
-	  ($abt='003' and (./note='RVK-REGALE')) or
 	  ($abt='005' and (./note='UM LESESAAL' or ./note='UM LBS' or ./note='UM FREIHAND')) or
 	  ($abt='006' and (./note='MIN' or ./note='MIN LEHRBUCHSAMMLUNG')) or
 	  ($abt='016' and (./note='Theologie LEHRBUCHSAMMLUNG')) or
