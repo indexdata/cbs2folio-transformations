@@ -584,7 +584,7 @@
   </xsl:template>
   
   <!-- Map instance types -->
-  <xsl:template match="sourceId">
+  <xsl:template match="instanceTypeId">
     <instanceTypeId>
       <xsl:choose>
         <xsl:when test=".='Kartografischer Datensatz'">3363cdb1-e644-446c-82a4-dc3a1d4395b9</xsl:when>
@@ -615,6 +615,20 @@
       </xsl:choose>
     </instanceTypeId>
   </xsl:template>
+
+  <!-- Map issuance modes -->
+  <xsl:template match="modeOfIssuanceId">
+    <modeOfIssuanceId>
+      <xsl:choose>
+        <xsl:when test=".='integrierende Ressource'">4fc0f4fe-06fd-490a-a078-c4da1754e03a</xsl:when>
+        <xsl:when test=".='mehrteilige Monografie'">f5cc2ab6-bb92-4cab-b83f-5a3d09261a41</xsl:when>
+        <xsl:when test=".='fortlaufende Ressource'">068b5344-e2a6-40df-9186-1829e13cd344</xsl:when>
+        <xsl:when test=".='nicht spezifiziert'">612bbd3d-c16b-4bfb-8517-2afafc60204a</xsl:when>
+        <xsl:otherwise>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</xsl:otherwise>
+      </xsl:choose>
+    </modeOfIssuanceId>
+  </xsl:template>
+
 
   <xsl:template match="original"/>
 </xsl:stylesheet>
