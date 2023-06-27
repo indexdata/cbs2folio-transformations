@@ -143,63 +143,39 @@
         </xsl:choose>
       </modeOfIssuanceId>
     </xsl:if>
+    
     <!-- Instance type ID (resource type) -->
     <instanceTypeId>
-      <!-- UUIDs for resource types -->
       <xsl:variable name="ctype" select="datafield[@tag='002C'][1]/subfield[@code='b']"/>
       <xsl:choose>
-        <xsl:when test="$ctype='crd'">3363cdb1-e644-446c-82a4-dc3a1d4395b9</xsl:when>
-        <!-- cartographic dataset -->
-        <xsl:when test="$ctype='cri'">526aa04d-9289-4511-8866-349299592c18</xsl:when>
-        <!-- cartographic image -->
-        <xsl:when test="$ctype='crm'">80c0c134-0240-4b63-99d0-6ca755d5f433</xsl:when>
-        <!-- cartographic moving image -->
-        <xsl:when test="$ctype='crt'">408f82f0-e612-4977-96a1-02076229e312</xsl:when>
-        <!-- cartographic tactile image -->
-        <xsl:when test="$ctype='crn'">e5136fa2-1f19-4581-b005-6e007a940ca8</xsl:when>
-        <!-- cartographic tactile three-dimensional form -->
-        <xsl:when test="$ctype='crf'">2022aa2e-bdde-4dc4-90bc-115e8894b8b3</xsl:when>
-        <!-- cartographic three-dimensional form -->
-        <xsl:when test="$ctype='cod'">df5dddff-9c30-4507-8b82-119ff972d4d7</xsl:when>
-        <!-- computer dataset -->
-        <xsl:when test="$ctype='cop'">c208544b-9e28-44fa-a13c-f4093d72f798</xsl:when>
-        <!-- computer program -->
-        <xsl:when test="$ctype='ntv'">fbe264b5-69aa-4b7c-a230-3b53337f6440</xsl:when>
-        <!-- notated movement -->
-        <xsl:when test="$ctype='ntm'">497b5090-3da2-486c-b57f-de5bb3c2e26d</xsl:when>
-        <!-- notated music -->
-        <xsl:when test="$ctype='prm'">3be24c14-3551-4180-9292-26a786649c8b</xsl:when>
-        <!-- performed music -->
-        <xsl:when test="$ctype='snd'">9bce18bd-45bf-4949-8fa8-63163e4b7d7f</xsl:when>
-        <!-- sounds -->
-        <xsl:when test="$ctype='spw'">c7f7446f-4642-4d97-88c9-55bae2ad6c7f</xsl:when>
-        <!-- spoken word -->
-        <xsl:when test="$ctype='sti'">535e3160-763a-42f9-b0c0-d8ed7df6e2a2</xsl:when>
-        <!-- still image -->
-        <xsl:when test="$ctype='tci'">efe2e89b-0525-4535-aa9b-3ff1a131189e</xsl:when>
-        <!-- tactile image -->
-        <xsl:when test="$ctype='tcn'">e6a278fb-565a-4296-a7c5-8eb63d259522</xsl:when>
-        <!-- tactile notated movement -->
-        <xsl:when test="$ctype='tcm'">a67e00fd-dcce-42a9-9e75-fd654ec31e89</xsl:when>
-        <!-- tactile notated music -->
-        <xsl:when test="$ctype='tct'">8105bd44-e7bd-487e-a8f2-b804a361d92f</xsl:when>
-        <!-- tactile text -->
-        <xsl:when test="$ctype='tcf'">82689e16-629d-47f7-94b5-d89736cf11f2</xsl:when>
-        <!-- tactile three-dimensional form -->
-        <xsl:when test="$ctype='txt'">6312d172-f0cf-40f6-b27d-9fa8feaf332f</xsl:when>
-        <!-- text -->
-        <xsl:when test="$ctype='tdf'">c1e95c2b-4efc-48cf-9e71-edb622cf0c22</xsl:when>
-        <!-- three-dimensional form -->
-        <xsl:when test="$ctype='tdm'">3e3039b7-fda0-4ac4-885a-022d457cb99c</xsl:when>
-        <!-- three-dimensional moving image -->
-        <xsl:when test="$ctype='tdi'">225faa14-f9bf-4ecd-990d-69433c912434</xsl:when>
-        <!-- two-dimensional moving image -->
-        <xsl:when test="$ctype='zzz'">30fffe0e-e985-4144-b2e2-1e8179bdb41f</xsl:when>
-        <!-- unspecified -->
-        <xsl:otherwise>a2c91e87-6bab-44d6-8adb-1fd02481fc4f</xsl:otherwise>
-        <!--  : other -->
+        <xsl:when test="$ctype='crd'">Kartografischer Datensatz</xsl:when>
+        <xsl:when test="$ctype='cri'">Kartografisches Bild</xsl:when>
+        <xsl:when test="$ctype='crm'">Kartografisches bewegtes Bild</xsl:when>
+        <xsl:when test="$ctype='crt'">Kartografisches taktiles Bild</xsl:when>
+        <xsl:when test="$ctype='crn'">Kartografische taktile dreidimensionale Form</xsl:when>
+        <xsl:when test="$ctype='crf'">Kartografische dreidimensionale Form</xsl:when>
+        <xsl:when test="$ctype='cod'">Computerdaten</xsl:when>
+        <xsl:when test="$ctype='cop'">Computerprogramm</xsl:when>
+        <xsl:when test="$ctype='ntv'">Bewegungsnotation</xsl:when>
+        <xsl:when test="$ctype='ntm'">Noten</xsl:when>
+        <xsl:when test="$ctype='prm'">Aufgeführte Musik</xsl:when>
+        <xsl:when test="$ctype='snd'">Geräusche</xsl:when>
+        <xsl:when test="$ctype='spw'">Gesprochenes Wort</xsl:when>
+        <xsl:when test="$ctype='sti'">Unbewegtes Bild</xsl:when>
+        <xsl:when test="$ctype='tci'">Taktiles Bild</xsl:when>
+        <xsl:when test="$ctype='tcn'">Taktile Bewegungsnotation</xsl:when>
+        <xsl:when test="$ctype='tcm'">Taktile Noten</xsl:when>
+        <xsl:when test="$ctype='tct'">Taktiler Text</xsl:when>
+        <xsl:when test="$ctype='tcf'">Taktile dreidimensionale Form</xsl:when>
+        <xsl:when test="$ctype='txt'">Text</xsl:when>
+        <xsl:when test="$ctype='tdf'">Dreidimensionale Form</xsl:when>
+        <xsl:when test="$ctype='tdm'">Dreidimensionales bewegtes Bild</xsl:when>
+        <xsl:when test="$ctype='tdi'">Zweidimensionales bewegtes Bild</xsl:when>
+        <xsl:when test="$ctype='zzz'">Nicht spezifiziert</xsl:when>
+        <xsl:otherwise>Sonstige</xsl:otherwise>
       </xsl:choose>
     </instanceTypeId>
+
     <!-- Formats -->
     <instanceFormatIds>
       <arr>
