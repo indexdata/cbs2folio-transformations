@@ -113,6 +113,9 @@
         <xsl:when test=".='g'"><xsl:text>20c359cb-b422-47cc-8c40-e8f6655f2b70</xsl:text></xsl:when> <!-- 9 g nicht ausleihbar -->
         <xsl:when test=".='Test'"><xsl:text>3b23397c-93ec-40ad-bb8a-9113f9fe9de2</xsl:text></xsl:when> <!-- 9 Test -->
         <xsl:when test=".='z'"><xsl:text>661ffe64-2e47-4203-845f-96d820aa48f2</xsl:text></xsl:when> <!-- 9 z Verlust -->
+        <xsl:when test=".='1'"><xsl:text>fb17e0b8-75cc-4ea2-a7ac-87bb53d146f9</xsl:text></xsl:when> <!-- 1 Fernleihe - ausleihbar ohne Verl. -->
+        <xsl:when test=".='2'"><xsl:text>370d3831-a948-4e46-9499-5ddea2f26150</xsl:text></xsl:when> <!-- 2 Fernleihe - ausleihbar mit Verl. -->
+        <xsl:when test=".='3'"><xsl:text>e6608ce5-4a46-4497-b15d-e28378a9b29c</xsl:text></xsl:when> <!-- 3 Fernleihe - Kurzausleihe ohne Verl. -->
         <xsl:when test=".='dummy'"><xsl:text>80ff439c-3ccb-48df-9758-c11011cef6d0</xsl:text></xsl:when> <!-- dummy -->
         <xsl:otherwise>7a03b2e2-c995-47a4-83d0-04bbe1930af4</xsl:otherwise> <!-- 0 u ausleihbar -->
       </xsl:choose>
