@@ -629,6 +629,69 @@
     </modeOfIssuanceId>
   </xsl:template>
 
+  <!-- Map instance formats -->
+  <xsl:template match="instanceFormatIds">
+    <instanceFormatIds>
+      <xsl:choose>
+        <xsl:when test=".='Audio - Audiocartridge'">5642320a-2ab9-475c-8ca2-4af7551cf296</xsl:when>
+        <xsl:when test=".='Audio - Audiokassette'">6d749f00-97bd-4eab-9828-57167558f514</xsl:when>
+        <xsl:when test=".='Audio - Phonographenzylinder'">485e3e1d-9f46-42b6-8c65-6bb7bd4b37f8</xsl:when>
+        <xsl:when test=".='Audio - Audiodisk'">5cb91d15-96b1-4b8a-bf60-ec310538da66</xsl:when>
+        <xsl:when test=".='Audio - Notenrolle'">7fde4e21-00b5-4de4-a90a-08a84a601aeb</xsl:when>
+        <xsl:when test=".='Audio - Tonbandspule'">7612aa96-61a6-41bd-8ed2-ff1688e794e1</xsl:when>
+        <xsl:when test=".='Audio - Audio Wire Reel'">6a679992-b37e-4b57-b6ea-96be6b51d2b4</xsl:when>
+        <xsl:when test=".='Audio - Sonstige'">a3549b8c-3282-4a14-9ec3-c1cf294043b9</xsl:when>
+        <xsl:when test=".='Audio - Tonspurspule'">5bfb7b4f-9cd5-4577-a364-f95352146a56</xsl:when>
+        <xsl:when test=".='Computermedien - Speicherkarte'">549e3381-7d49-44f6-8232-37af1cb5ecf3</xsl:when>
+        <xsl:when test=".='Computermedien - Computerchip-Cartridge'">88f58dc0-4243-4c6b-8321-70244ff34a83</xsl:when>
+        <xsl:when test=".='Computermedien - Computerdisk'">ac9de2b9-0914-4a54-8805-463686a5489e</xsl:when>
+        <xsl:when test=".='Computermedien - Computerdisk-Cartridge'">e05f2613-05df-4b4d-9292-2ee9aa778ecc</xsl:when>
+        <xsl:when test=".='Computermedien - Magnetbandcartridge'">f4f30334-568b-4dd2-88b5-db8401607daf</xsl:when>
+        <xsl:when test=".='Computermedien - Magnetbandkassette'">e5aeb29a-cf0a-4d97-8c39-7756c10d423c</xsl:when>
+        <xsl:when test=".='Computermedien - Magnetbandspule'">d16b19d1-507f-4a22-bb8a-b3f713a73221</xsl:when>
+        <xsl:when test=".='Computermedien - Online-Ressource'">f5e8210f-7640-459b-a71f-552567f92369</xsl:when>
+        <xsl:when test=".='Computermedien - Sonstige'">fe1b9adb-e0cf-4e05-905f-ce9986279404</xsl:when>
+        <xsl:when test=".='Mikroform - Mikrofilmlochkarte'">cb3004a3-2a85-4ed4-8084-409f93d6d8ba</xsl:when>
+        <xsl:when test=".='Mikroform - Mikrofiche'">fc3e32a0-9c85-4454-a42e-39fca788a7dc</xsl:when>
+        <xsl:when test=".='Mikroform - Mikrofichekassette'">b72e66e2-d946-4b01-a696-8fab07051ff8</xsl:when>
+        <xsl:when test=".='Mikroform - Mikrofilm-Cartridge'">fc9bfed9-2cb0-465f-8758-33af5bba750b</xsl:when>
+        <xsl:when test=".='Mikroform - Mikrofilmkassette'">b71e5ec6-a15d-4261-baf9-aea6be7af15b</xsl:when>
+        <xsl:when test=".='Mikroform - Mikrofilmspule'">7bfe7e83-d4aa-46d1-b2a9-f612b18d11f4</xsl:when>
+        <xsl:when test=".='Mikroform - Mikrofilmrolle'">cb96199a-21fb-4f11-b003-99291d8c9752</xsl:when>
+        <xsl:when test=".='Mikroform - Mikrofilmstreifen'">33009ba2-b742-4aab-b592-68b27451e94f</xsl:when>
+        <xsl:when test=".='Mikroform - Lichtundurchlässiger Mikrofiche'">788aa9a6-5f0b-4c52-957b-998266ee3bd3</xsl:when>
+        <xsl:when test=".='Mikroform - Sonstige'">a0f2612b-f24f-4dc8-a139-89c3da5a38f1</xsl:when>
+        <xsl:when test=".='Mikroskopisch - Objektträger'">b1c69d78-4afb-4d8b-9624-8b3cfa5288ad</xsl:when>
+        <xsl:when test=".='Mikroskopisch - Sonstige'">55d3b8aa-304e-4967-8b78-55926d7809ac</xsl:when>
+        <xsl:when test=".='Projizierbar - Filmdose'">6bf2154b-df6e-4f11-97d0-6541231ac2be</xsl:when>
+        <xsl:when test=".='Projizierbar - Filmkassette'">47b226c0-853c-40f4-ba2e-2bd5ba82b665</xsl:when>
+        <xsl:when test=".='Projizierbar - Filmspule'">55a66581-3921-4b50-9981-4fe53bf35e7f</xsl:when>
+        <xsl:when test=".='Projizierbar - Filmrolle'">f0e689e8-e62d-4aac-b1c1-198ac9114aca</xsl:when>
+        <xsl:when test=".='Projizierbar - Filmstreifen'">53f44ae4-167b-4cc2-9a63-4375c0ad9f58</xsl:when>
+        <xsl:when test=".='Projizierbar - Filmstreifen für Einzelbildvorführung'">8e04d356-2645-4f97-8de8-9721cf11ccef</xsl:when>
+        <xsl:when test=".='Projizierbar - Filmstreifen-Cartridge'">f7107ab3-9c09-4bcb-a637-368f39e0b140</xsl:when>
+        <xsl:when test=".='Projizierbar - Sonstige'">9166e7c9-7edb-4180-b57e-e495f551297f</xsl:when>
+        <xsl:when test=".='Projizierbar - Overheadfolie'">eb860cea-b842-4a8b-ab8d-0739856f0c2c</xsl:when>
+        <xsl:when test=".='Projizierbar - Dia'">b2b39d2f-856b-4419-93d3-ed1851f91b9f</xsl:when>
+        <xsl:when test=".='Stereografisch - Sonstige'">7c9b361d-66b6-4e4c-ae4b-2c01f655612c</xsl:when>
+        <xsl:when test=".='Stereografisch - Stereobild'">e62f4860-b3b0-462e-92b6-e032336ab663</xsl:when>
+        <xsl:when test=".='Stereografisch - Stereografische Disk'">c3f41d5e-e192-4828-805c-6df3270c1910</xsl:when>
+        <xsl:when test=".='Ohne Hilfsmittel zu benutzen - Karte'">5fa3e09f-2192-41a9-b4bf-9eb8aef0af0a</xsl:when>
+        <xsl:when test=".='Ohne Hilfsmittel zu benutzen - Flipchart'">affd5809-2897-42ca-b958-b311f3e0dcfb</xsl:when>
+        <xsl:when test=".='Ohne Hilfsmittel zu benutzen - Gegenstand'">926662e9-2486-4bb9-ba3b-59bd2e7f2a0c</xsl:when>
+        <xsl:when test=".='Ohne Hilfsmittel zu benutzen - Sonstige'">2802b285-9f27-4c86-a9d7-d2ac08b26a79</xsl:when>
+        <xsl:when test=".='Ohne Hilfsmittel zu benutzen - Rolle'">68e7e339-f35c-4be2-b161-0b94d7569b7b</xsl:when>
+        <xsl:when test=".='Ohne Hilfsmittel zu benutzen - Blatt'">5913bb96-e881-4087-9e71-33a43f68e12e</xsl:when>
+        <xsl:when test=".='Ohne Hilfsmittel zu benutzen - Band'">8d511d33-5e85-4c5d-9bce-6e3c9cd0c324</xsl:when>
+        <xsl:when test=".='Nicht spezifiziert - Nicht spezifiziert'">98f0caa9-d38e-427b-9ec4-454de81a94d7</xsl:when>
+        <xsl:when test=".='Video - Sonstige'">e3179f91-3032-43ee-be97-f0464f359d9c</xsl:when>
+        <xsl:when test=".='Video - Videocartridge'">132d70db-53b3-4999-bd79-0fac3b8b9b98</xsl:when>
+        <xsl:when test=".='Video - Videokassette'">431cc9a0-4572-4613-b267-befb0f3d457f</xsl:when>
+        <xsl:when test=".='Video - Videodisk'">7f857834-b2e2-48b1-8528-6a1fe89bf979</xsl:when>
+        <xsl:when test=".='Video - Videobandspule'">ba0d7429-7ccf-419d-8bfb-e6a1200a8d20</xsl:when>
+      </xsl:choose>
+    </instanceFormatIds>
+  </xsl:template>
 
   <xsl:template match="original"/>
 </xsl:stylesheet>

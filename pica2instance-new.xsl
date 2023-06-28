@@ -183,118 +183,62 @@
         <xsl:for-each select="datafield[@tag='002E']">
           <i>
             <xsl:choose>
-              <xsl:when test="./subfield[@code='b']='sg'">5642320a-2ab9-475c-8ca2-4af7551cf296</xsl:when>
-              <!-- audio : audio cartridge -->
-              <xsl:when test="./subfield[@code='b']='ss'">6d749f00-97bd-4eab-9828-57167558f514</xsl:when>
-              <!-- audio : audiocassette -->
-              <xsl:when test="./subfield[@code='b']='se'">485e3e1d-9f46-42b6-8c65-6bb7bd4b37f8</xsl:when>
-              <!-- audio : audio cylinder -->
-              <xsl:when test="./subfield[@code='b']='sd'">5cb91d15-96b1-4b8a-bf60-ec310538da66</xsl:when>
-              <!-- audio : audio disc -->
-              <xsl:when test="./subfield[@code='b']='sq'">7fde4e21-00b5-4de4-a90a-08a84a601aeb</xsl:when>
-              <!-- audio : audio roll -->
-              <xsl:when test="./subfield[@code='b']='st'">7612aa96-61a6-41bd-8ed2-ff1688e794e1</xsl:when>
-              <!-- audio : audiotape reel -->
-              <xsl:when test="./subfield[@code='b']='sw'">6a679992-b37e-4b57-b6ea-96be6b51d2b4</xsl:when>
-              <!-- audio : audio wire reel -->
-              <xsl:when test="./subfield[@code='b']='sz'">a3549b8c-3282-4a14-9ec3-c1cf294043b9</xsl:when>
-              <!-- audio : other -->
-              <xsl:when test="./subfield[@code='b']='si'">5bfb7b4f-9cd5-4577-a364-f95352146a56</xsl:when>
-              <!-- audio : sound track reel -->
-              <xsl:when test="./subfield[@code='b']='ck'">549e3381-7d49-44f6-8232-37af1cb5ecf3</xsl:when>
-              <!-- computer : computer card -->
-              <xsl:when test="./subfield[@code='b']='cb'">88f58dc0-4243-4c6b-8321-70244ff34a83</xsl:when>
-              <!-- computer : computer chip cartridge -->
-              <xsl:when test="./subfield[@code='b']='cd'">ac9de2b9-0914-4a54-8805-463686a5489e</xsl:when>
-              <!-- computer : computer disc -->
-              <xsl:when test="./subfield[@code='b']='ce'">e05f2613-05df-4b4d-9292-2ee9aa778ecc</xsl:when>
-              <!-- computer : computer disc cartridge -->
-              <xsl:when test="./subfield[@code='b']='ca'">f4f30334-568b-4dd2-88b5-db8401607daf</xsl:when>
-              <!-- computer : computer tape cartridge -->
-              <xsl:when test="./subfield[@code='b']='cf'">e5aeb29a-cf0a-4d97-8c39-7756c10d423c</xsl:when>
-              <!-- computer : computer tape cassette -->
-              <xsl:when test="./subfield[@code='b']='ch'">d16b19d1-507f-4a22-bb8a-b3f713a73221</xsl:when>
-              <!-- computer : computer tape reel -->
-              <xsl:when test="./subfield[@code='b']='cr'">f5e8210f-7640-459b-a71f-552567f92369</xsl:when>
-              <!-- computer : online resource -->
-              <xsl:when test="./subfield[@code='b']='cz'">fe1b9adb-e0cf-4e05-905f-ce9986279404</xsl:when>
-              <!-- computer : other -->
-              <xsl:when test="./subfield[@code='b']='ha'">cb3004a3-2a85-4ed4-8084-409f93d6d8ba</xsl:when>
-              <!-- microform : aperture card -->
-              <xsl:when test="./subfield[@code='b']='he'">fc3e32a0-9c85-4454-a42e-39fca788a7dc</xsl:when>
-              <!-- microform : microfiche -->
-              <xsl:when test="./subfield[@code='b']='hf'">b72e66e2-d946-4b01-a696-8fab07051ff8</xsl:when>
-              <!-- microform : microfiche cassette -->
-              <xsl:when test="./subfield[@code='b']='hb'">fc9bfed9-2cb0-465f-8758-33af5bba750b</xsl:when>
-              <!-- microform : microfilm cartridge -->
-              <xsl:when test="./subfield[@code='b']='hc'">b71e5ec6-a15d-4261-baf9-aea6be7af15b</xsl:when>
-              <!-- microform : microfilm cassette -->
-              <xsl:when test="./subfield[@code='b']='hd'">7bfe7e83-d4aa-46d1-b2a9-f612b18d11f4</xsl:when>
-              <!-- microform : microfilm reel -->
-              <xsl:when test="./subfield[@code='b']='hj'">cb96199a-21fb-4f11-b003-99291d8c9752</xsl:when>
-              <!-- microform : microfilm roll -->
-              <xsl:when test="./subfield[@code='b']='hh'">33009ba2-b742-4aab-b592-68b27451e94f</xsl:when>
-              <!-- microform : microfilm slip -->
-              <xsl:when test="./subfield[@code='b']='hg'">788aa9a6-5f0b-4c52-957b-998266ee3bd3</xsl:when>
-              <!-- microform : microopaque -->
-              <xsl:when test="./subfield[@code='b']='hz'">a0f2612b-f24f-4dc8-a139-89c3da5a38f1</xsl:when>
-              <!-- microform : other -->
-              <xsl:when test="./subfield[@code='b']='pp'">b1c69d78-4afb-4d8b-9624-8b3cfa5288ad</xsl:when>
-              <!-- microscopic : microscope slide -->
-              <xsl:when test="./subfield[@code='b']='pz'">55d3b8aa-304e-4967-8b78-55926d7809ac</xsl:when>
-              <!-- microscopic : other -->
-              <xsl:when test="./subfield[@code='b']='mc'">6bf2154b-df6e-4f11-97d0-6541231ac2be</xsl:when>
-              <!-- projected image : film cartridge -->
-              <xsl:when test="./subfield[@code='b']='mf'">47b226c0-853c-40f4-ba2e-2bd5ba82b665</xsl:when>
-              <!-- projected image : film cassette -->
-              <xsl:when test="./subfield[@code='b']='mr'">55a66581-3921-4b50-9981-4fe53bf35e7f</xsl:when>
-              <!-- projected image : film reel -->
-              <xsl:when test="./subfield[@code='b']='mo'">f0e689e8-e62d-4aac-b1c1-198ac9114aca</xsl:when>
-              <!-- projected image : film roll -->
-              <xsl:when test="./subfield[@code='b']='gd'">53f44ae4-167b-4cc2-9a63-4375c0ad9f58</xsl:when>
-              <!-- projected image : filmslip -->
-              <xsl:when test="./subfield[@code='b']='gf'">8e04d356-2645-4f97-8de8-9721cf11ccef</xsl:when>
-              <!-- projected image : filmstrip -->
-              <xsl:when test="./subfield[@code='b']='gc'">f7107ab3-9c09-4bcb-a637-368f39e0b140</xsl:when>
-              <!-- projected image : filmstrip cartridge -->
-              <xsl:when test="./subfield[@code='b']='mz'">9166e7c9-7edb-4180-b57e-e495f551297f</xsl:when>
-              <!-- projected image : other -->
-              <xsl:when test="./subfield[@code='b']='gt'">eb860cea-b842-4a8b-ab8d-0739856f0c2c</xsl:when>
-              <!-- projected image : overhead transparency -->
-              <xsl:when test="./subfield[@code='b']='gs'">b2b39d2f-856b-4419-93d3-ed1851f91b9f</xsl:when>
-              <!-- projected image : slide -->
-              <xsl:when test="./subfield[@code='b']='ez'">7c9b361d-66b6-4e4c-ae4b-2c01f655612c</xsl:when>
-              <!-- stereographic : other -->
-              <xsl:when test="./subfield[@code='b']='eh'">e62f4860-b3b0-462e-92b6-e032336ab663</xsl:when>
-              <!-- stereographic : stereograph card -->
-              <xsl:when test="./subfield[@code='b']='es'">c3f41d5e-e192-4828-805c-6df3270c1910</xsl:when>
-              <!-- stereographic : stereograph disc -->
-              <xsl:when test="./subfield[@code='b']='no'">5fa3e09f-2192-41a9-b4bf-9eb8aef0af0a</xsl:when>
-              <!-- unmediated : card -->
-              <xsl:when test="./subfield[@code='b']='nn'">affd5809-2897-42ca-b958-b311f3e0dcfb</xsl:when>
-              <!-- unmediated : flipchart -->
-              <xsl:when test="./subfield[@code='b']='nr'">926662e9-2486-4bb9-ba3b-59bd2e7f2a0c</xsl:when>
-              <!-- unmediated : object -->
-              <xsl:when test="./subfield[@code='b']='nz'">2802b285-9f27-4c86-a9d7-d2ac08b26a79</xsl:when>
-              <!-- unmediated : other -->
-              <xsl:when test="./subfield[@code='b']='na'">68e7e339-f35c-4be2-b161-0b94d7569b7b</xsl:when>
-              <!-- unmediated : roll -->
-              <xsl:when test="./subfield[@code='b']='nb'">5913bb96-e881-4087-9e71-33a43f68e12e</xsl:when>
-              <!-- unmediated : sheet -->
-              <xsl:when test="./subfield[@code='b']='nc'">8d511d33-5e85-4c5d-9bce-6e3c9cd0c324</xsl:when>
-              <!-- unmediated : volume -->
-              <xsl:when test="./subfield[@code='b']='zu'">98f0caa9-d38e-427b-9ec4-454de81a94d7</xsl:when>
-              <!-- unspecified : unspecified -->
-              <xsl:when test="./subfield[@code='b']='vz'">e3179f91-3032-43ee-be97-f0464f359d9c</xsl:when>
-              <!-- video : other -->
-              <xsl:when test="./subfield[@code='b']='vc'">132d70db-53b3-4999-bd79-0fac3b8b9b98</xsl:when>
-              <!-- video : video cartridge -->
-              <xsl:when test="./subfield[@code='b']='vf'">431cc9a0-4572-4613-b267-befb0f3d457f</xsl:when>
-              <!-- video : videocassette -->
-              <xsl:when test="./subfield[@code='b']='vd'">7f857834-b2e2-48b1-8528-6a1fe89bf979</xsl:when>
-              <!-- video : videodisc -->
-              <xsl:when test="./subfield[@code='b']='vr'">ba0d7429-7ccf-419d-8bfb-e6a1200a8d20</xsl:when>
-              <!-- video : videotape reel -->
+              <xsl:when test="./subfield[@code='b']='sg'">Audio - Audiocartridge</xsl:when>
+              <xsl:when test="./subfield[@code='b']='ss'">Audio - Audiokassette</xsl:when>
+              <xsl:when test="./subfield[@code='b']='se'">Audio - Phonographenzylinder</xsl:when>
+              <xsl:when test="./subfield[@code='b']='sd'">Audio - Audiodisk</xsl:when>
+              <xsl:when test="./subfield[@code='b']='sq'">Audio - Notenrolle</xsl:when>
+              <xsl:when test="./subfield[@code='b']='st'">Audio - Tonbandspule</xsl:when>
+              <xsl:when test="./subfield[@code='b']='sw'">Audio - Audio Wire Reel</xsl:when>
+              <xsl:when test="./subfield[@code='b']='sz'">Audio - Sonstige</xsl:when>
+              <xsl:when test="./subfield[@code='b']='si'">Audio - Tonspurspule</xsl:when>
+              <xsl:when test="./subfield[@code='b']='ck'">Computermedien - Speicherkarte</xsl:when>
+              <xsl:when test="./subfield[@code='b']='cb'">Computermedien - Computerchip-Cartridge</xsl:when>
+              <xsl:when test="./subfield[@code='b']='cd'">Computermedien - Computerdisk</xsl:when>
+              <xsl:when test="./subfield[@code='b']='ce'">Computermedien - Computerdisk-Cartridge</xsl:when>
+              <xsl:when test="./subfield[@code='b']='ca'">Computermedien - Magnetbandcartridge</xsl:when>
+              <xsl:when test="./subfield[@code='b']='cf'">Computermedien - Magnetbandkassette</xsl:when>
+              <xsl:when test="./subfield[@code='b']='ch'">Computermedien - Magnetbandspule</xsl:when>
+              <xsl:when test="./subfield[@code='b']='cr'">Computermedien - Online-Ressource</xsl:when>
+              <xsl:when test="./subfield[@code='b']='cz'">Computermedien - Sonstige</xsl:when>
+              <xsl:when test="./subfield[@code='b']='ha'">Mikroform - Mikrofilmlochkarte</xsl:when>
+              <xsl:when test="./subfield[@code='b']='he'">Mikroform - Mikrofiche</xsl:when>
+              <xsl:when test="./subfield[@code='b']='hf'">Mikroform - Mikrofichekassette</xsl:when>
+              <xsl:when test="./subfield[@code='b']='hb'">Mikroform - Mikrofilm-Cartridge</xsl:when>
+              <xsl:when test="./subfield[@code='b']='hc'">Mikroform - Mikrofilmkassette</xsl:when>
+              <xsl:when test="./subfield[@code='b']='hd'">Mikroform - Mikrofilmspule</xsl:when>
+              <xsl:when test="./subfield[@code='b']='hj'">Mikroform - Mikrofilmrolle</xsl:when>
+              <xsl:when test="./subfield[@code='b']='hh'">Mikroform - Mikrofilmstreifen</xsl:when>
+              <xsl:when test="./subfield[@code='b']='hg'">Mikroform - Lichtundurchlässiger Mikrofiche</xsl:when>
+              <xsl:when test="./subfield[@code='b']='hz'">Mikroform - Sonstige</xsl:when>
+              <xsl:when test="./subfield[@code='b']='pp'">Mikroskopisch - Objektträger</xsl:when>
+              <xsl:when test="./subfield[@code='b']='pz'">Mikroskopisch - Sonstige</xsl:when>
+              <xsl:when test="./subfield[@code='b']='mc'">Projizierbar - Filmdose</xsl:when>
+              <xsl:when test="./subfield[@code='b']='mf'">Projizierbar - Filmkassette</xsl:when>
+              <xsl:when test="./subfield[@code='b']='mr'">Projizierbar - Filmspule</xsl:when>
+              <xsl:when test="./subfield[@code='b']='mo'">Projizierbar - Filmrolle</xsl:when>
+              <xsl:when test="./subfield[@code='b']='gd'">Projizierbar - Filmstreifen</xsl:when>
+              <xsl:when test="./subfield[@code='b']='gf'">Projizierbar - Filmstreifen für Einzelbildvorführung</xsl:when>
+              <xsl:when test="./subfield[@code='b']='gc'">Projizierbar - Filmstreifen-Cartridge</xsl:when>
+              <xsl:when test="./subfield[@code='b']='mz'">Projizierbar - Sonstige</xsl:when>
+              <xsl:when test="./subfield[@code='b']='gt'">Projizierbar - Overheadfolie</xsl:when>
+              <xsl:when test="./subfield[@code='b']='gs'">Projizierbar - Dia</xsl:when>
+              <xsl:when test="./subfield[@code='b']='ez'">Stereografisch - Sonstige</xsl:when>
+              <xsl:when test="./subfield[@code='b']='eh'">Stereografisch - Stereobild</xsl:when>
+              <xsl:when test="./subfield[@code='b']='es'">Stereografisch - Stereografische Disk</xsl:when>
+              <xsl:when test="./subfield[@code='b']='no'">Ohne Hilfsmittel zu benutzen - Karte</xsl:when>
+              <xsl:when test="./subfield[@code='b']='nn'">Ohne Hilfsmittel zu benutzen - Flipchart</xsl:when>
+              <xsl:when test="./subfield[@code='b']='nr'">Ohne Hilfsmittel zu benutzen - Gegenstand</xsl:when>
+              <xsl:when test="./subfield[@code='b']='nz'">Ohne Hilfsmittel zu benutzen - Sonstige</xsl:when>
+              <xsl:when test="./subfield[@code='b']='na'">Ohne Hilfsmittel zu benutzen - Rolle</xsl:when>
+              <xsl:when test="./subfield[@code='b']='nb'">Ohne Hilfsmittel zu benutzen - Blatt</xsl:when>
+              <xsl:when test="./subfield[@code='b']='nc'">Ohne Hilfsmittel zu benutzen - Band</xsl:when>
+              <xsl:when test="./subfield[@code='b']='zu'">Nicht spezifiziert - Nicht spezifiziert</xsl:when>
+              <xsl:when test="./subfield[@code='b']='vz'">Video - Sonstige</xsl:when>
+              <xsl:when test="./subfield[@code='b']='vc'">Video - Videocartridge</xsl:when>
+              <xsl:when test="./subfield[@code='b']='vf'">Video - Videokassette</xsl:when>
+              <xsl:when test="./subfield[@code='b']='vd'">Video - Videodisk</xsl:when>
+              <xsl:when test="./subfield[@code='b']='vr'">Video - Videobandspule</xsl:when>
             </xsl:choose>
           </i>
         </xsl:for-each>
