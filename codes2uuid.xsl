@@ -721,5 +721,15 @@
     </natureOfContentTermIds>
   </xsl:template>
 
+  <!-- Map contributor name types -->
+  <xsl:template match="contributorNameTypeId">
+    <contributorNameTypeId>
+      <xsl:choose>
+        <xsl:when test=".='Personenname'">2b94c631-fca9-4892-a730-03ee529ffe2a</xsl:when>
+        <xsl:when test=".='Körperschaftsname'">2e48e713-17f3-4c13-a9f8-23845bb210aa</xsl:when>
+      </xsl:choose>
+    </contributorNameTypeId>
+  </xsl:template>
+
   <xsl:template match="original"/>
 </xsl:stylesheet>

@@ -994,7 +994,7 @@
                   <name>
                     <xsl:value-of select="$con-name"/>
                   </name>
-                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <contributorNameTypeId>Personenname</contributorNameTypeId>
                   <!-- personal name -->
                   <xsl:if test="@tag='028A'">
                     <primary>true</primary>
@@ -1082,7 +1082,7 @@
                 <name>
                   <xsl:value-of select="$name"/>
                 </name>
-                <contributorNameTypeId>2e48e713-17f3-4c13-a9f8-23845bb210aa</contributorNameTypeId>
+                <contributorNameTypeId>Körperschaftsname</contributorNameTypeId>
                 <xsl:if test="./subfield[@code='4']">
                   <contributorTypeId>
                     <xsl:value-of select="./subfield[@code='4']"/>
