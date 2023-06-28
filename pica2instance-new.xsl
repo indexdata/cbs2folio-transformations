@@ -1227,7 +1227,7 @@
               <publicNote>
                 <xsl:value-of select="./subfield[@code='4']"/>
               </publicNote>
-              <relationshipId>f5d0068e-6272-458e-8a81-b85e7b9a14aa</relationshipId>
+              <relationshipId>Ressource</relationshipId>
               <!-- Resource -->
             </i>
           </xsl:if>
@@ -1242,7 +1242,7 @@
               <publicNote>
                 <xsl:value-of select="./subfield[@code='4']"/>
               </publicNote>
-              <relationshipId>f5d0068e-6272-458e-8a81-b85e7b9a14aa</relationshipId>
+              <relationshipId>Ressource</relationshipId>
               <!-- Resource -->
             </i>
           </xsl:if>
@@ -1283,7 +1283,7 @@
               <uri>
                 <xsl:value-of select="./subfield[@code='u']"/>
               </uri>
-              <relationshipId>1e178616-2b75-4ecf-a8c8-99b85273dcfc</relationshipId>
+              <relationshipId>URL für Volltext und Kataloganreicherung (3433)</relationshipId>
               <!-- EZB-Frontpage (3433) -->
             </i>
           </xsl:if>

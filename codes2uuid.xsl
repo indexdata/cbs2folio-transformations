@@ -731,5 +731,15 @@
     </contributorNameTypeId>
   </xsl:template>
 
+  <!-- Map electronic access relationship types -->
+  <xsl:template match="relationshipId">
+    <relationshipId>
+      <xsl:choose>
+        <xsl:when test=".='Ressource'">f5d0068e-6272-458e-8a81-b85e7b9a14aa</xsl:when>
+        <xsl:when test=".='URL für Volltext und Kataloganreicherung  (3433)'">1e178616-2b75-4ecf-a8c8-99b85273dcfc</xsl:when>
+      </xsl:choose>
+    </relationshipId>
+  </xsl:template>
+
   <xsl:template match="original"/>
 </xsl:stylesheet>
