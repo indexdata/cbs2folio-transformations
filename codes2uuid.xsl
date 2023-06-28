@@ -693,5 +693,33 @@
     </instanceFormatIds>
   </xsl:template>
 
+  <!-- Map nature of content terms -->
+  <xsl:template match="natureOfContentTermIds">
+    <natureOfContentTermIds>
+      <xsl:choose>
+        <xsl:when test=".='Hörbuch'">96879b60-098b-453b-bf9a-c47866f1ab2a</xsl:when>
+        <xsl:when test=".='Autobiografie'">04a6a8d2-f902-4774-b15f-d8bd885dc804</xsl:when>
+        <xsl:when test=".='Bibliografie'">f5908d05-b16a-49cf-b192-96d55a94a0d1</xsl:when>
+        <xsl:when test=".='Biografie'">b6e214bd-82f5-467f-af5b-4592456dc4ab</xsl:when>
+        <xsl:when test=".='Ausstellungskatalog'">b82b3a0d-00fa-4811-96da-04f531da8ea8</xsl:when>
+        <xsl:when test=".='Erlebnisbericht'">c0d52f31-aabb-4c55-bf81-fea7fdda94a4</xsl:when>
+        <xsl:when test=".='Festschrift'">b29d4dc1-f78b-48fe-b3e5-df6c37cdc58d</xsl:when>
+        <xsl:when test=".='Bilderbuch'">631893b6-5d8a-4e1a-9e6b-5344e2945c74</xsl:when>
+        <xsl:when test=".='Literaturbericht'">31572023-f4c9-4cf3-80a2-0543c9eda884</xsl:when>
+        <xsl:when test=".='Konferenzschrift'">073f7f2f-9212-4395-b039-6f9825b11d54</xsl:when>
+        <xsl:when test=".='Forschungsbericht'">4570a93e-ddb6-4200-8e8b-283c8f5c9bfa</xsl:when>
+        <xsl:when test=".='Schulbuch'">44cd89f3-2e76-469f-a955-cc57cb9e0395</xsl:when>
+        <xsl:when test=".='Reisebericht'">9419a20e-6c8f-4ae1-85a7-8c184a1f4762</xsl:when>
+        <xsl:when test=".='Website'">2fbc8a7b-b432-45df-ba37-46031b1f6545</xsl:when>
+        <xsl:when test=".='Bericht'">71b43e3a-8cdd-4d22-9751-020f34fb6ef8</xsl:when>
+        <xsl:when test=".='Hochschulschrift'">94f6d06a-61e0-47c1-bbcb-6186989e6040</xsl:when>
+        <xsl:when test=".='Comic'">acceb2d6-4f05-408f-9a88-a92de26441ce</xsl:when>
+        <xsl:when test=".='Monografische Reihe'">536da7c1-9c35-45df-8ea1-c3545448df92</xsl:when>
+        <xsl:when test=".='Zeitschrift'">0abeee3d-8ad2-4b04-92ff-221b4fce1075</xsl:when>
+        <xsl:when test=".='Zeitung'">ebbbdef1-00e1-428b-bc11-314dc0705074</xsl:when>
+      </xsl:choose>
+    </natureOfContentTermIds>
+  </xsl:template>
+
   <xsl:template match="original"/>
 </xsl:stylesheet>

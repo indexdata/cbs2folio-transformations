@@ -1560,46 +1560,26 @@
           <xsl:for-each select="datafield[@tag='013D']">
             <i>
               <xsl:choose>
-                <xsl:when test="./subfield[@code='9']='132098628'">96879b60-098b-453b-bf9a-c47866f1ab2a</xsl:when>
-                <!-- Hörbuch -->
-                <xsl:when test="./subfield[@code='9']='106388258'">04a6a8d2-f902-4774-b15f-d8bd885dc804</xsl:when>
-                <!-- Autobiografie -->
-                <xsl:when test="./subfield[@code='9']='104814519'">f5908d05-b16a-49cf-b192-96d55a94a0d1</xsl:when>
-                <!-- Bibliografie -->
-                <xsl:when test="./subfield[@code='9']='104213493'">b6e214bd-82f5-467f-af5b-4592456dc4ab</xsl:when>
-                <!-- Biografie -->
-                <xsl:when test="./subfield[@code='9']='10566491X'">b82b3a0d-00fa-4811-96da-04f531da8ea8</xsl:when>
-                <!-- Ausstellungskatalog -->
-                <xsl:when test="./subfield[@code='9']='105681490'">c0d52f31-aabb-4c55-bf81-fea7fdda94a4</xsl:when>
-                <!-- Erlebnisbericht -->
-                <xsl:when test="./subfield[@code='9']='104400986'">b29d4dc1-f78b-48fe-b3e5-df6c37cdc58d</xsl:when>
-                <!-- Festschrift -->
-                <xsl:when test="./subfield[@code='9']='104450835'">631893b6-5d8a-4e1a-9e6b-5344e2945c74</xsl:when>
-                <!-- Bildband -->
-                <xsl:when test="./subfield[@code='9']='104712805'">31572023-f4c9-4cf3-80a2-0543c9eda884</xsl:when>
-                <!-- Literaturbericht -->
-                <xsl:when test="./subfield[@code='9']='826484824'">073f7f2f-9212-4395-b039-6f9825b11d54</xsl:when>
-                <!-- Konferenzschrift -->
-                <xsl:when test="./subfield[@code='9']='10467444X'">4570a93e-ddb6-4200-8e8b-283c8f5c9bfa</xsl:when>
-                <!-- Forschungsbericht -->
-                <xsl:when test="./subfield[@code='9']='104383704'">44cd89f3-2e76-469f-a955-cc57cb9e0395</xsl:when>
-                <!-- Schulbuch -->
-                <xsl:when test="./subfield[@code='9']='104189037'">9419a20e-6c8f-4ae1-85a7-8c184a1f4762</xsl:when>
-                <!-- Reisebericht -->
-                <xsl:when test="./subfield[@code='9']='32609296X'">2fbc8a7b-b432-45df-ba37-46031b1f6545</xsl:when>
-                <!-- Website -->
-                <xsl:when test="./subfield[@code='9']='104616091'">71b43e3a-8cdd-4d22-9751-020f34fb6ef8</xsl:when>
-                <!-- Bericht -->
-                <xsl:when test="./subfield[@code='9']='105825778'">94f6d06a-61e0-47c1-bbcb-6186989e6040</xsl:when>
-                <!-- Hochschulschrift -->
-                <xsl:when test="./subfield[@code='9']='104377402'">acceb2d6-4f05-408f-9a88-a92de26441ce</xsl:when>
-                <!-- Comic -->
-                <xsl:when test="./subfield[@code='9']='104628669'">536da7c1-9c35-45df-8ea1-c3545448df92</xsl:when>
-                <!-- Monografische Reihe -->
-                <xsl:when test="./subfield[@code='9']='10454466X'">0abeee3d-8ad2-4b04-92ff-221b4fce1075</xsl:when>
-                <!-- Zeitschrift -->
-                <xsl:when test="./subfield[@code='9']='106108832'">ebbbdef1-00e1-428b-bc11-314dc0705074</xsl:when>
-                <!-- Zeitung -->
+                <xsl:when test="./subfield[@code='9']='132098628'">Hörbuch</xsl:when>
+                <xsl:when test="./subfield[@code='9']='106388258'">Autobiografie</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104814519'">Bibliografie</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104213493'">Biografie</xsl:when>
+                <xsl:when test="./subfield[@code='9']='10566491X'">Ausstellungskatalog</xsl:when>
+                <xsl:when test="./subfield[@code='9']='105681490'">Erlebnisbericht</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104400986'">Festschrift</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104450835'">Bilderbuch</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104712805'">Literaturbericht</xsl:when>
+                <xsl:when test="./subfield[@code='9']='826484824'">Konferenzschrift</xsl:when>
+                <xsl:when test="./subfield[@code='9']='10467444X'">Forschungsbericht</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104383704'">Schulbuch</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104189037'">Reisebericht</xsl:when>
+                <xsl:when test="./subfield[@code='9']='32609296X'">Website</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104616091'">Bericht</xsl:when>
+                <xsl:when test="./subfield[@code='9']='105825778'">Hochschulschrift</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104377402'">Comic</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104628669'">Monografische Reihe</xsl:when>
+                <xsl:when test="./subfield[@code='9']='10454466X'">Zeitschrift</xsl:when>
+                <xsl:when test="./subfield[@code='9']='106108832'">Zeitung</xsl:when>
                 <xsl:otherwise/>
               </xsl:choose>
             </i>
