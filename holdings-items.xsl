@@ -183,7 +183,7 @@
                   <uri>
                     <xsl:value-of select="./subfield[@code='u']"/>
                   </uri>
-                  <relationshipId>f5d0068e-6272-458e-8a81-b85e7b9a14aa</relationshipId>
+                  <relationshipId>Ressource</relationshipId>
                   <!-- Resource -->
                   <xsl:if test="../datafield[@tag='209K']">
                     <publicNote>
