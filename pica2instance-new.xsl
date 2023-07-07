@@ -725,7 +725,7 @@
                     <xsl:value-of select="concat(' ', $title-021N)"/>
                   </xsl:if>
               </xsl:when>
-              <xsl:otherwise>KEIN TITEL, IM CBS PRÜFEN</xsl:otherwise>
+              <xsl:otherwise>KEIN TITEL, IM K10PLUS PRÜFEN</xsl:otherwise>
             </xsl:choose>
           </indexTitle>
 
