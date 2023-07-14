@@ -26,6 +26,8 @@
          <xsl:when test="$abt='000'">
            <xsl:choose>
              <xsl:when test="$onorder">ZBZEB</xsl:when>
+             <xsl:when test="contains($standort,'Fernleihe Lesesaal')">ZBFLLS</xsl:when>
+             <xsl:when test="contains($standort,'Fernleihe')">ZBFL</xsl:when>
              <xsl:when test="contains($standort,'FREIHAND')">ZBFREI</xsl:when>
              <xsl:when test="contains($standort,'LESESAAL')">ZBLS</xsl:when>
              <xsl:when test="contains($standort,'LBS')">ZBLBS</xsl:when>
