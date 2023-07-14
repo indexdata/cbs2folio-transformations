@@ -80,6 +80,7 @@
          <xsl:when test="$abt='018'">
            <xsl:choose>
              <xsl:when test="contains($standort,'LEHRBUCH')">RWLBS</xsl:when>
+             <xsl:when test="contains($standort,'Magazin')">RWMAG</xsl:when>
              <xsl:otherwise>RW</xsl:otherwise>
            </xsl:choose>
          </xsl:when>
@@ -105,7 +106,12 @@
          <xsl:when test="$abt='043'">UMPSY</xsl:when>
          <xsl:when test="$abt='054'">UMZMK</xsl:when>
          <xsl:when test="$abt='058'">PHPHI</xsl:when>
-         <xsl:when test="$abt='066'">RWETH</xsl:when>
+         <xsl:when test="$abt='066'">
+	    <xsl:choose>
+             <xsl:when test="contains($standort,'AMA')">RWAMA</xsl:when>
+             <xsl:otherwise>RWETH</xsl:otherwise>
+           </xsl:choose>
+         </xsl:when>
          <xsl:when test="$abt='069'">FBPSY</xsl:when>
          <xsl:when test="$abt='070'">PHGER</xsl:when>
          <xsl:when test="$abt='071'">PHAVL</xsl:when>
@@ -174,7 +180,7 @@
 	  ($abt='043' and (./note='Klinik für Psychiatrie und Psychotherapie')) or
 	  ($abt='054' and (./note='Zahnklinik')) or
 	  ($abt='058' and (./note='Philosophie')) or
-	  ($abt='066' and (./note='ReWi / Ethnologie und Afrikastudien')) or
+	  ($abt='066' and (./note='ReWi / Ethnologie und Afrikastudien' or ./note='AMA - African Music Archives')) or
 	  ($abt='069' and (./note='Psychologisches Institut / IB')) or
 	  ($abt='070' and (./note='Germanistik')) or
 	  ($abt='071' and (./note='Allgemeine und Vergleichende Literaturwissenschaft')) or
