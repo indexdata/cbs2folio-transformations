@@ -728,11 +728,10 @@
   <xsl:template match="instanceRelationshipTypeId">
     <instanceRelationshipTypeId>
       <xsl:choose>
-        <xsl:when test=".='Ressource'">6366b68c-aeeb-4dfe-9cd5-92518b2244a0</xsl:when>
-        <xsl:when test=".='volume'">23651816-7176-406a-8915-52e25b3a9411</xsl:when>
-        <xsl:when test=".='multipart monograph'">a17daf0a-f057-43b3-9997-13d0724cdf51</xsl:when>
-        <xsl:when test=".='monographic series'">30773a27-b485-4dab-aeb6-b8c04fa3cb17</xsl:when>
-        <xsl:otherwise>758f13db-ffb4-440e-bb10-8a364aa6cb4a</xsl:otherwise>
+        <xsl:when test=".='Aufsatz'">6366b68c-aeeb-4dfe-9cd5-92518b2244a0</xsl:when>
+        <xsl:when test=".='Band'">23651816-7176-406a-8915-52e25b3a9411</xsl:when>
+        <xsl:when test=".='Mehrteilige Monografie'">a17daf0a-f057-43b3-9997-13d0724cdf51</xsl:when>
+        <xsl:when test=".='Schriftenreihe'">30773a27-b485-4dab-aeb6-b8c04fa3cb17</xsl:when>
       </xsl:choose>
     </instanceRelationshipTypeId>
   </xsl:template>

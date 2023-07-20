@@ -32,11 +32,10 @@
                 <xsl:variable name='is-vol' select="substring(../datafield[@tag='002@']/subfield[@code='0'], 2, 1)"/>
                 <instanceRelationshipTypeId>
                   <xsl:choose>
-                    <xsl:when test="./@tag='039B'">article</xsl:when>
-                    <xsl:when test="./@tag='036F' and $is-vol='v'">volume</xsl:when>
-                    <xsl:when test="./@tag='036D'">multipart monograph</xsl:when>
-                    <xsl:when test="./@tag='036F'">monographic series</xsl:when>
-                    <xsl:otherwise>bound-with</xsl:otherwise>
+                    <xsl:when test="./@tag='039B'">Aufsatz</xsl:when>
+                    <xsl:when test="./@tag='036F' and $is-vol='v'">Band</xsl:when>
+                    <xsl:when test="./@tag='036D'">Mehrteilige Monografie</xsl:when>
+                    <xsl:when test="./@tag='036F'">Schriftenreihe</xsl:when>
                   </xsl:choose>
                 </instanceRelationshipTypeId>
               </i>
