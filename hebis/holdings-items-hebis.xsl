@@ -130,10 +130,10 @@
               <staffOnly>false</staffOnly>
             </i>
           </xsl:if>
-          <xsl:if test="datafield[@tag='210B']">
+          <xsl:if test="datafield[@tag='201B']">
             <i>
               <note>
-                <xsl:value-of select="datafield[@tag='210B']/subfield[@code='0'] and datafield[@tag='210B']/subfield[@code='t']"/>
+                <xsl:value-of select="datafield[@tag='201B']/subfield[@code='0'] and datafield[@tag='201B']/subfield[@code='t']"/>
               </note>
               <holdingsNoteTypeId>Letzte Änderung CBS</holdingsNoteTypeId>
               <staffOnly>true</staffOnly>
