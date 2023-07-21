@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?> 
-<!-- date of last edit: 2023-04-28 (YYYY-MM-DD) -->
+<!-- date of last edit: 2023-07-21 (YYYY-MM-DD) -->
 
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:output indent="yes" method="xml" version="1.0" encoding="UTF-8"/>
@@ -42,6 +42,7 @@
         <xsl:when test=".='Lokaler Schlüssel'"><xsl:text>49050d37-2d82-452c-a963-2645ffc0b9a9</xsl:text></xsl:when> <!-- hebis-wide -->
         <xsl:when test=".='Text zur Ausleihbarkeit'"><xsl:text>f862da41-4a7a-4864-8a52-befa58ab210b</xsl:text></xsl:when> <!-- hebis-wide -->
         <xsl:when test=".='Standort (8201)'"><xsl:text>013e0b2c-2259-4ee8-8d15-f463f1aeb0b1</xsl:text></xsl:when> <!-- hebis-wide -->
+        <xsl:when test=".='Letzte Änderung CBS'"><xsl:text>7cad8584-35f9-4ea7-8944-11bcf40ff29c</xsl:text></xsl:when> <!-- hebis-wide -->
         <xsl:otherwise>b160f13a-ddba-4053-b9c4-60ec5ea45d56</xsl:otherwise> <!-- Note -->
       </xsl:choose>
     </holdingsNoteTypeId>

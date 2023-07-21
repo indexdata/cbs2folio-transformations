@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- date of last edit: 2023-06-14 (YYYY-MM-DD) -->
+<!-- date of last edit: 2023-07-21 (YYYY-MM-DD) -->
 
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output indent="yes" method="xml" version="1.0" encoding="UTF-8"/>
@@ -128,6 +128,15 @@
               </note>
               <holdingsNoteTypeId>Text zur Ausleihbarkeit</holdingsNoteTypeId>
               <staffOnly>false</staffOnly>
+            </i>
+          </xsl:if>
+          <xsl:if test="datafield[@tag='210B']">
+            <i>
+              <note>
+                <xsl:value-of select="datafield[@tag='210B']/subfield[@code='0'] and datafield[@tag='210B']/subfield[@code='t']"/>
+              </note>
+              <holdingsNoteTypeId>Letzte Änderung CBS</holdingsNoteTypeId>
+              <staffOnly>true</staffOnly>
             </i>
           </xsl:if>
           <xsl:for-each select="datafield[@tag='209B' and not(subfield[@code='x']='01' or subfield[@code='x']='02')]">
