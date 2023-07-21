@@ -133,7 +133,7 @@
           <xsl:if test="datafield[@tag='201B']">
             <i>
               <note>
-                <xsl:value-of select="concat(translate(substring-after(./subfield[@code='0'], ':'), '-', '.'),', ', substring(./subfield[@code='t'],1,5))"/>
+                <xsl:value-of select="concat(translate(datafield[@tag='201B']/subfield[@code='0'], '-', '.'),' ', substring(datafield[@tag='201B']/subfield[@code='t'],1,5))"/>
               </note>
               <holdingsNoteTypeId>Letzte Änderung CBS</holdingsNoteTypeId>
               <staffOnly>true</staffOnly>
