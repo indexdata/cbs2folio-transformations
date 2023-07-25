@@ -183,6 +183,7 @@
         <xsl:for-each select="datafield[@tag='002E']">
           <i>
             <xsl:choose>
+              <xsl:when test="./subfield[@code='b']='sb'">Audio - Audio Belt</xsl:when>
               <xsl:when test="./subfield[@code='b']='sg'">Audio - Audiocartridge</xsl:when>
               <xsl:when test="./subfield[@code='b']='ss'">Audio - Audiokassette</xsl:when>
               <xsl:when test="./subfield[@code='b']='se'">Audio - Phonographenzylinder</xsl:when>

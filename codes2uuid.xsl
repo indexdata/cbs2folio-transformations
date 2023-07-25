@@ -616,6 +616,7 @@
   <xsl:template match="instanceFormatIds">
     <instanceFormatIds>
       <xsl:choose>
+        <xsl:when test=".='Audio - Audio Belt'">0d9b1c3d-2d13-4f18-9472-cc1b91bf1752</xsl:when>
         <xsl:when test=".='Audio - Audiocartridge'">5642320a-2ab9-475c-8ca2-4af7551cf296</xsl:when>
         <xsl:when test=".='Audio - Audiokassette'">6d749f00-97bd-4eab-9828-57167558f514</xsl:when>
         <xsl:when test=".='Audio - Phonographenzylinder'">485e3e1d-9f46-42b6-8c65-6bb7bd4b37f8</xsl:when>
