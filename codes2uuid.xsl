@@ -502,13 +502,13 @@
         <xsl:when test=".='Publisher or distributor number'">b5d8cdc4-9441-487c-90cf-0c7ec97728eb</xsl:when>
         <xsl:when test=".='BNB'">3187432f-9434-40a8-8782-35a111a1491e</xsl:when>
         <xsl:when test=".='GBV Number'">e133d384-332d-11ea-a8a4-ff796e46a18d</xsl:when>
-		    <xsl:when test=".='PPN'">1d5cb40c-508f-451b-8952-87c92be4255a</xsl:when>
+        <xsl:when test=".='PPN'">1d5cb40c-508f-451b-8952-87c92be4255a</xsl:when>
         <xsl:when test=".='PPN SWB'">6048004e-75bc-11ea-8ddd-5a780fe0d4e4</xsl:when>
         <xsl:when test=".='DNB-Nummer'">63fd8fa0-a939-4d1e-869c-6dcc24c9d507</xsl:when>
         <xsl:when test=".='Autorisierte ISSN'">c90b1f32-0ad9-46fc-9bf6-98c79a966844</xsl:when>
         <xsl:when test=".='Fehlerhafte ISSN der parallelen Ausgabe'">5626dbb7-a0b6-4722-905b-5a1f34f69fea</xsl:when>
         <xsl:when test=".='Formal falsche ISBN der Sekundärausgabe'">60392328-7874-4dfa-91dc-7b56444c46f0</xsl:when>
-        <xsl:when test=".='Formal falsche ISMN'">08dbec41-c94d-48f4-92e2-18044e83259f</xsl:when>
+        <xsl:when test=".='Formal falsche ISMN'">4f07ea37-6c7f-4836-add2-14249e628ed1</xsl:when>
         <xsl:when test=".='Identnummer der erstkatalogisierenden Institution'">8e33c1be-e2c4-43ac-a975-8fb50f71137a</xsl:when>
         <xsl:when test=".='ISBN der parallelen Ausgabe auf einem anderen Datenträger'">cfbf1033-2809-44e3-b4a1-25ad2fc703d3</xsl:when>
         <xsl:when test=".='ISBN der parallelen Ausgabe im Fernzugriff'">a9ed691a-8773-4ece-88d1-c9703ab11e44</xsl:when>
@@ -539,7 +539,7 @@
         <xsl:when test=".='Sonstige Standardnummern'">6660c49d-a70e-4fcc-ae09-aaedb5bf92e5</xsl:when>
         <xsl:when test=".='Identnummern (allgemein)'">920062a7-384a-4150-8573-4b6f15a992d6</xsl:when>
         <xsl:when test=".='GTIN (vormals EAN)'">7836bced-1d36-4ee0-b263-5d63db38676a</xsl:when>
-        <xsl:when test=".='Universal Product Code (UPC)'">0b9e3fe0-7452-445f-8696-e39f9f48ace3</xsl:when>
+        <xsl:when test=".='Universal Product Code (UPC)'">1795ea23-6856-48a5-a772-f356e16a8a6c</xsl:when>
         <xsl:when test=".='Verlags-, Produktions- und Bestellnummer'">e0f6787d-a556-4d03-9850-e60c5a2baec1</xsl:when>
         <xsl:otherwise>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</xsl:otherwise>
       </xsl:choose>
