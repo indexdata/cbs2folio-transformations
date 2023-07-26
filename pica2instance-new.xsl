@@ -1603,26 +1603,172 @@
           <xsl:for-each select="datafield[@tag='013D']">
             <i>
               <xsl:choose>
-                <xsl:when test="./subfield[@code='9']='132098628'">Hörbuch</xsl:when>
+                <xsl:when test="./subfield[@code='9']='10566491X'">Ausstellungskatalog</xsl:when>
                 <xsl:when test="./subfield[@code='9']='106388258'">Autobiografie</xsl:when>
                 <xsl:when test="./subfield[@code='9']='104814519'">Bibliografie</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104450835'">Bildband</xsl:when>
                 <xsl:when test="./subfield[@code='9']='104213493'">Biografie</xsl:when>
-                <xsl:when test="./subfield[@code='9']='10566491X'">Ausstellungskatalog</xsl:when>
-                <xsl:when test="./subfield[@code='9']='105681490'">Erlebnisbericht</xsl:when>
-                <xsl:when test="./subfield[@code='9']='104400986'">Festschrift</xsl:when>
-                <xsl:when test="./subfield[@code='9']='104450835'">Bilderbuch</xsl:when>
-                <xsl:when test="./subfield[@code='9']='104712805'">Literaturbericht</xsl:when>
-                <xsl:when test="./subfield[@code='9']='826484824'">Konferenzschrift</xsl:when>
-                <xsl:when test="./subfield[@code='9']='10467444X'">Forschungsbericht</xsl:when>
-                <xsl:when test="./subfield[@code='9']='104383704'">Schulbuch</xsl:when>
-                <xsl:when test="./subfield[@code='9']='104189037'">Reisebericht</xsl:when>
-                <xsl:when test="./subfield[@code='9']='32609296X'">Website</xsl:when>
-                <xsl:when test="./subfield[@code='9']='104616091'">Bericht</xsl:when>
-                <xsl:when test="./subfield[@code='9']='105825778'">Hochschulschrift</xsl:when>
                 <xsl:when test="./subfield[@code='9']='104377402'">Comic</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104400986'">Festschrift</xsl:when>
+                <xsl:when test="./subfield[@code='9']='105825778'">Hochschulschrift</xsl:when>
+                <xsl:when test="./subfield[@code='9']='132098628'">Hörbuch</xsl:when>
+                <xsl:when test="./subfield[@code='9']='826484824'">Konferenzschrift</xsl:when>
                 <xsl:when test="./subfield[@code='9']='104628669'">Monografische Reihe</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104383704'">Schulbuch</xsl:when>
+                <xsl:when test="./subfield[@code='9']='32609296X'">Website</xsl:when>
                 <xsl:when test="./subfield[@code='9']='10454466X'">Zeitschrift</xsl:when>
                 <xsl:when test="./subfield[@code='9']='106108832'">Zeitung</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104589043'">Adressbuch</xsl:when>
+                <xsl:when test="./subfield[@code='9']='326360107'">Altkarte</xsl:when>
+                <xsl:when test="./subfield[@code='9']='105614165'">Amtliche Publikation</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104450878'">Anleitung</xsl:when>
+                <xsl:when test="./subfield[@code='9']='106394134'">Anthologie</xsl:when>
+                <xsl:when test="./subfield[@code='9']='105610909'">Antiquariatskatalog</xsl:when>
+                <xsl:when test="./subfield[@code='9']='10466861X'">Anzeigenblatt</xsl:when>
+                <xsl:when test="./subfield[@code='9']='105606529'">Atlas</xsl:when>
+                <xsl:when test="./subfield[@code='9']='105605913'">Aufgabensammlung</xsl:when>
+                <xsl:when test="./subfield[@code='9']='105605727'">Aufsatzsammlung</xsl:when>
+                <xsl:when test="./subfield[@code='9']='105605212'">Auktionskatalog</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104107030'">Autograf</xsl:when>
+                <xsl:when test="./subfield[@code='9']='826646603'">Backbuch</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104798521'">Beispielsammlung</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104616091'">Bericht</xsl:when>
+                <xsl:when test="./subfield[@code='9']='105594474'">Bestimmungsbuch</xsl:when>
+                <xsl:when test="./subfield[@code='9']='106376977'">Bild</xsl:when>
+                <xsl:when test="./subfield[@code='9']='105591246'">Bilderbogen</xsl:when>
+                <xsl:when test="./subfield[@code='9']='106376934'">Bilderbuch</xsl:when>
+                <xsl:when test="./subfield[@code='9']='106376888'">Bildnis</xsl:when>
+                <xsl:when test="./subfield[@code='9']='105590614'">Bildwörterbuch</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104159588'">Blindendruck</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104675365'">Brief</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104269936'">Briefsammlung</xsl:when>
+                <xsl:when test="./subfield[@code='9']='19167821X'">Checkliste</xsl:when>
+                <xsl:when test="./subfield[@code='9']='106354256'">Datenbank</xsl:when>
+                <xsl:when test="./subfield[@code='9']='105565431'">Datensammlung</xsl:when>
+                <xsl:when test="./subfield[@code='9']='106350188'">Diagramm</xsl:when>
+                <xsl:when test="./subfield[@code='9']='826489532'">Diskografie</xsl:when>
+                <xsl:when test="./subfield[@code='9']='105720747'">Drehbuch</xsl:when>
+                <xsl:when test="./subfield[@code='9']='10554731X'">Einblattdruck</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104450460'">Einführung</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104713054'">Entscheidungssammlung</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104675322'">Enzyklopädie</xsl:when>
+                <xsl:when test="./subfield[@code='9']='105681490'">Erlebnisbericht</xsl:when>
+                <xsl:when test="./subfield[@code='9']='10553059X'">Fachkunde</xsl:when>
+                <xsl:when test="./subfield[@code='9']='105530085'">Fahrplan</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104339624'">Faksimile</xsl:when>
+                <xsl:when test="./subfield[@code='9']='105529699'">Fallsammlung</xsl:when>
+                <xsl:when test="./subfield[@code='9']='251636593'">Fallstudiensammlung</xsl:when>
+                <xsl:when test="./subfield[@code='9']='82648378X'">Fiktionale Darstellung</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104559683'">Film</xsl:when>
+                <xsl:when test="./subfield[@code='9']='826486371'">Filmografie</xsl:when>
+                <xsl:when test="./subfield[@code='9']='106098284'">Flugblatt</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104535164'">Flugschrift</xsl:when>
+                <xsl:when test="./subfield[@code='9']='105518972'">Formelsammlung</xsl:when>
+                <xsl:when test="./subfield[@code='9']='105518786'">Formularsammlung</xsl:when>
+                <xsl:when test="./subfield[@code='9']='10467444X'">Forschungsbericht</xsl:when>
+                <xsl:when test="./subfield[@code='9']='857755366'">Forschungsdaten</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104434880'">Fotografie</xsl:when>
+                <xsl:when test="./subfield[@code='9']='10551487X'">Führer</xsl:when>
+                <xsl:when test="./subfield[@code='9']='105514314'">Fundstellenverzeichnis</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104516127'">Genealogische Tafel</xsl:when>
+                <xsl:when test="./subfield[@code='9']='106317032'">Gespräch</xsl:when>
+                <xsl:when test="./subfield[@code='9']='105499242'">Globus</xsl:when>
+                <xsl:when test="./subfield[@code='9']='106311913'">Grafik</xsl:when>
+                <xsl:when test="./subfield[@code='9']='739426095'">Graphzine</xsl:when>
+                <xsl:when test="./subfield[@code='9']='10457187X'">Handschrift</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104279907'">Haushaltsplan</xsl:when>
+                <xsl:when test="./subfield[@code='9']='106293516'">Hörspiel</xsl:when>
+                <xsl:when test="./subfield[@code='9']='105475025'">Humoristische Darstellung</xsl:when>
+                <xsl:when test="./subfield[@code='9']='106286269'">Inkunabel</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104767812'">Interview</xsl:when>
+                <xsl:when test="./subfield[@code='9']='106284274'">Inventar</xsl:when>
+                <xsl:when test="./subfield[@code='9']='123203171'">Jugendbuch</xsl:when>
+                <xsl:when test="./subfield[@code='9']='10627645X'">Jugendsachbuch</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104559594'">Kalender</xsl:when>
+                <xsl:when test="./subfield[@code='9']='10627340X'">Karikatur</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104321792'">Karte</xsl:when>
+                <xsl:when test="./subfield[@code='9']='105454966'">Katalog</xsl:when>
+                <xsl:when test="./subfield[@code='9']='121618285'">Kinderbuch</xsl:when>
+                <xsl:when test="./subfield[@code='9']='10545169X'">Kindersachbuch</xsl:when>
+                <xsl:when test="./subfield[@code='9']='105823643'">Kochbuch</xsl:when>
+                <xsl:when test="./subfield[@code='9']='826486541'">Kolumnensammlung</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104500719'">Kommentar</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104766174'">Konkordanz</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104492910'">Kunstführer</xsl:when>
+                <xsl:when test="./subfield[@code='9']='10495146X'">Künstlerbuch</xsl:when>
+                <xsl:when test="./subfield[@code='9']='152615393'">Laudatio</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104270187'">Lehrbuch</xsl:when>
+                <xsl:when test="./subfield[@code='9']='10542739X'">Lehrerhandbuch</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104279885'">Lehrmittel</xsl:when>
+                <xsl:when test="./subfield[@code='9']='106249312'">Lehrplan</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104331259'">Lernsoftware</xsl:when>
+                <xsl:when test="./subfield[@code='9']='106247700'">Lesebuch</xsl:when>
+                <xsl:when test="./subfield[@code='9']='105423793'">Liederbuch</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104712805'">Literaturbericht</xsl:when>
+                <xsl:when test="./subfield[@code='9']='153776951'">Loseblattsammlung</xsl:when>
+                <xsl:when test="./subfield[@code='9']='241186285'">Mehrsprachiges Wörterbuch</xsl:when>
+                <xsl:when test="./subfield[@code='9']='10455827X'">Mitgliederverzeichnis</xsl:when>
+                <xsl:when test="./subfield[@code='9']='106226576'">Modell</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104106743'">Musikhandschrift</xsl:when>
+                <xsl:when test="./subfield[@code='9']='105716634'">Nachruf</xsl:when>
+                <xsl:when test="./subfield[@code='9']='213941864'">Norm</xsl:when>
+                <xsl:when test="./subfield[@code='9']='106107208'">Ortsverzeichnis</xsl:when>
+                <xsl:when test="./subfield[@code='9']='106204971'">Papyrus</xsl:when>
+                <xsl:when test="./subfield[@code='9']='105379174'">Patentschrift</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104141603'">Plakat</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104773596'">Plan</xsl:when>
+                <xsl:when test="./subfield[@code='9']='511931980'">Podcast</xsl:when>
+                <xsl:when test="./subfield[@code='9']='10619643X'">Postkarte</xsl:when>
+                <xsl:when test="./subfield[@code='9']='10572517X'">Praktikum</xsl:when>
+                <xsl:when test="./subfield[@code='9']='10536293X'">Predigthilfe</xsl:when>
+                <xsl:when test="./subfield[@code='9']='105488402'">Pressendruck</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104798122'">Pressestimme</xsl:when>
+                <xsl:when test="./subfield[@code='9']='184283949'">Programmheft</xsl:when>
+                <xsl:when test="./subfield[@code='9']='105750921'">Puzzle</xsl:when>
+                <xsl:when test="./subfield[@code='9']='105661236'">Quelle</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104637234'">Ratgeber</xsl:when>
+                <xsl:when test="./subfield[@code='9']='10459859X'">Rede</xsl:when>
+                <xsl:when test="./subfield[@code='9']='105349437'">Referateorgan</xsl:when>
+                <xsl:when test="./subfield[@code='9']='106188771'">Regest</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104189037'">Reisebericht</xsl:when>
+                <xsl:when test="./subfield[@code='9']='826486789'">Reportagensammlung</xsl:when>
+                <xsl:when test="./subfield[@code='9']='106186019'">Rezension</xsl:when>
+                <xsl:when test="./subfield[@code='9']='10564725X'">Richtlinie</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104962674'">Röntgenbild</xsl:when>
+                <xsl:when test="./subfield[@code='9']='105339881'">Rückläufiges Wörterbuch</xsl:when>
+                <xsl:when test="./subfield[@code='9']='105006653'">Sachbilderbuch</xsl:when>
+                <xsl:when test="./subfield[@code='9']='106175300'">Satzung</xsl:when>
+                <xsl:when test="./subfield[@code='9']='10533328X'">Schematismus</xsl:when>
+                <xsl:when test="./subfield[@code='9']='106080849'">Schulprogramm</xsl:when>
+                <xsl:when test="./subfield[@code='9']='106158368'">Software</xsl:when>
+                <xsl:when test="./subfield[@code='9']='106155369'">Spiel</xsl:when>
+                <xsl:when test="./subfield[@code='9']='106154761'">Sprachatlas</xsl:when>
+                <xsl:when test="./subfield[@code='9']='105705721'">Sprachführer</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104321571'">Stadtplan</xsl:when>
+                <xsl:when test="./subfield[@code='9']='106152955'">Statistik</xsl:when>
+                <xsl:when test="./subfield[@code='9']='105296104'">Tabelle</xsl:when>
+                <xsl:when test="./subfield[@code='9']='105295841'">Tafel</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104364149'">Tagebuch</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104755989'">Technische Zeichnung</xsl:when>
+                <xsl:when test="./subfield[@code='9']='105293547'">Telefonbuch</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104622822'">Testmaterial</xsl:when>
+                <xsl:when test="./subfield[@code='9']='121632903'">Theaterstück</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104417544'">Thesaurus</xsl:when>
+                <xsl:when test="./subfield[@code='9']='105003867'">Übungssammlung</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104768029'">Umfrage</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104362839'">Unterrichtseinheit</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104675098'">Urkunde</xsl:when>
+                <xsl:when test="./subfield[@code='9']='105269557'">Verkaufskatalog</xsl:when>
+                <xsl:when test="./subfield[@code='9']='105266639'">Verzeichnis</xsl:when>
+                <xsl:when test="./subfield[@code='9']='10526279X'">Vorlesungsverzeichnis</xsl:when>
+                <xsl:when test="./subfield[@code='9']='344907406'">Weblog</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104321709'">Weltkarte</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104464909'">Werkverzeichnis</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104688165'">Werkzeitschrift</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104682620'">Wörterbuch</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104725044'">Zeichnung</xsl:when>
+                <xsl:when test="./subfield[@code='9']='104105143'">Zeittafel</xsl:when>
+                <xsl:when test="./subfield[@code='9']='105797022'">Zitatensammlung</xsl:when>
                 <xsl:otherwise/>
               </xsl:choose>
             </i>
