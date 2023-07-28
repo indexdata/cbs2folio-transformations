@@ -80,6 +80,7 @@
         <xsl:when test=".='RWMAG'">8cdf85dd-4212-4e51-b59f-e1f9662de0b2</xsl:when>
         <xsl:when test=".='RWTURK'">129a4323-01a0-4bad-bac5-2e0487d8e67c</xsl:when>
         <xsl:when test=".='TH'">395d036a-83fd-4809-bf45-e607c086f13b</xsl:when>
+        <xsl:when test=".='THFAK'">4896a3a8-2d50-4975-bc8b-b9a9581ae764</xsl:when>
         <xsl:when test=".='THLBS'">3c7c0478-2383-4c17-beda-6d8d87dfd421</xsl:when>
         <xsl:when test=".='THPSYCH'">b2644e50-dd57-49f6-b4ea-c22f119e0b59</xsl:when>
         <xsl:when test=".='THRARA'">b884da52-8aad-4109-a711-dd963ccb3457</xsl:when>

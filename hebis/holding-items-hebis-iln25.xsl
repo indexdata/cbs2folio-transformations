@@ -73,7 +73,8 @@
            <xsl:choose>
              <xsl:when test="contains($standort,'Magazin') or contains($standort,'Rara')">THRARA</xsl:when>
              <xsl:when test="contains($standort,'LEHRBUCH')">THLBS</xsl:when>
-             <xsl:when test="contains($standort,'psychologie')">THPSYCH</xsl:when>
+             <xsl:when test="contains($standort,'Büro') or contains($standort,'büro')">THFAK</xsl:when>
+             <xsl:when test="contains($standort,'Psychologie')">THPSYCH</xsl:when>
              <xsl:otherwise>TH</xsl:otherwise>
            </xsl:choose>
          </xsl:when>
