@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection>
+   <record>
+      <original>
+         <datafield tag="001D" fulltag="001D">
+            <subfield code="0">0077:28-06-23</subfield>
+         </datafield>
+         <datafield tag="002@" fulltag="002@">
+            <subfield code="0">Lur</subfield>
+         </datafield>
+         <datafield tag="003@" fulltag="003@">
+            <subfield code="0">509103154</subfield>
+         </datafield>
+         <datafield tag="007G" fulltag="007G">
+            <subfield code="i">HEB</subfield>
+            <subfield code="0">509103154</subfield>
+         </datafield>
+         <datafield tag="021A" fulltag="021A">
+            <subfield code="a">FL FOLIO-TEST Test Normalausleihe</subfield>
+         </datafield>
+         <datafield tag="028A" fulltag="028A">
+            <subfield code="P">A00000001</subfield>
+         </datafield>
+         <datafield tag="033A" fulltag="033A">
+            <subfield code="p">30</subfield>
+         </datafield>
+         <item epn="1238441882">
+            <datafield tag="201B" occurrence="01" fulltag="201B/01">
+               <subfield code="0">28-06-23</subfield>
+               <subfield code="t">13:30:03.000</subfield>
+            </datafield>
+            <datafield tag="201C" occurrence="01" fulltag="201C/01">
+               <subfield code="0">28-06-23</subfield>
+            </datafield>
+            <datafield tag="201U" occurrence="01" fulltag="201U/01">
+               <subfield code="0">utf8</subfield>
+            </datafield>
+            <datafield tag="203@" occurrence="01" fulltag="203@/01">
+               <subfield code="0">1238441882</subfield>
+            </datafield>
+            <datafield tag="208@" occurrence="01" fulltag="208@/01">
+               <subfield code="a">28-06-23</subfield>
+               <subfield code="b">zy</subfield>
+            </datafield>
+            <datafield tag="209A" occurrence="01" fulltag="209A/01">
+               <subfield code="a">FL sig 01</subfield>
+               <subfield code="f">019</subfield>
+               <subfield code="d">1</subfield>
+               <subfield code="x">00</subfield>
+            </datafield>
+            <datafield tag="209B" occurrence="01" fulltag="209B/01">
+               <subfield code="a">BASIS</subfield>
+               <subfield code="x">05</subfield>
+            </datafield>
+            <datafield tag="209G" occurrence="01" fulltag="209G/01">
+               <subfield code="a">29834510</subfield>
+               <subfield code="x">00</subfield>
+            </datafield>
+            <datafield tag="209G" occurrence="01" fulltag="209G/01">
+               <subfield code="a">Fernleihe</subfield>
+               <subfield code="x">01</subfield>
+            </datafield>
+            <datafield tag="237A" occurrence="01" fulltag="237A/01">
+               <subfield code="a">Bemerkung FOLIO-TEST</subfield>
+            </datafield>
+            <datafield tag="247C" occurrence="01" fulltag="247C/01">
+               <subfield code="9">403989051</subfield>
+               <subfield code="8">Universität Mainz, Bereichsbibliothek Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim</subfield>
+            </datafield>
+            <datafield tag="247E" occurrence="01" fulltag="247E/01">
+               <subfield code="a">n</subfield>
+            </datafield>
+         </item>
+      </original>
+      <instance>
+         <source>hebis</source>
+         <hrid>509103154</hrid>
+         <statusUpdatedDate>2023-06-28</statusUpdatedDate>
+         <statusId>Katalogisat ohne Autopsie</statusId>
+         <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
+         <instanceTypeId>a2c91e87-6bab-44d6-8adb-1fd02481fc4f</instanceTypeId>
+         <instanceFormatIds>
+            <arr/>
+         </instanceFormatIds>
+         <identifiers>
+            <arr>
+               <i>
+                  <value>509103154</value>
+                  <identifierTypeId>PPN</identifierTypeId>
+               </i>
+               <i>
+                  <value>HEB: 509103154</value>
+                  <identifierTypeId>Identnummer der erstkatalogisierenden Institution</identifierTypeId>
+               </i>
+            </arr>
+         </identifiers>
+         <title>FL FOLIO-TEST Test Normalausleihe</title>
+         <indexTitle>FL FOLIO-TEST Test Normalausleihe</indexTitle>
+         <alternativeTitles>
+            <arr/>
+         </alternativeTitles>
+         <contributors>
+            <arr>
+               <i>
+                  <name>A00000001</name>
+                  <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+                  <primary>true</primary>
+               </i>
+            </arr>
+         </contributors>
+         <publication>
+            <arr>
+               <i>
+                  <place>30</place>
+                  <publisher/>
+                  <role>Publisher</role>
+               </i>
+            </arr>
+         </publication>
+         <electronicAccess>
+            <arr/>
+         </electronicAccess>
+         <series>
+            <arr/>
+         </series>
+      </instance>
+      <instanceRelations/>
+      <processing>
+         <item>
+            <status>
+               <policy>retain</policy>
+            </status>
+         </item>
+      </processing>
+      <holdingsRecords>
+         <arr>
+            <i>
+               <hrid>1238441882</hrid>
+               <permanentLocationId>GHFL</permanentLocationId>
+               <callNumber>FL sig 01</callNumber>
+               <holdingsTypeId>physical</holdingsTypeId>
+               <holdingsStatements/>
+               <notes>
+                  <arr>
+                     <i>
+                        <note>Bemerkung FOLIO-TEST</note>
+                        <holdingsNoteTypeId>Note</holdingsNoteTypeId>
+                        <staffOnly>false</staffOnly>
+                     </i>
+                     <i>
+                        <note>Fernleihe</note>
+                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
+                        <staffOnly>false</staffOnly>
+                     </i>
+                     <i>
+                        <note>BASIS</note>
+                        <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
+                        <staffOnly>false</staffOnly>
+                     </i>
+                  </arr>
+               </notes>
+               <discoverySuppress>true</discoverySuppress>
+               <sourceId>hebis</sourceId>
+               <items>
+                  <arr>
+                     <i>
+                        <hrid>1238441882-1</hrid>
+                        <materialTypeId>Druckschrift</materialTypeId>
+                        <permanentLoanTypeId>1</permanentLoanTypeId>
+                        <status>
+                           <name>Available</name>
+                        </status>
+                        <barcode>29834510</barcode>
+                        <copyNumber/>
+                        <yearCaption>
+                           <arr/>
+                        </yearCaption>
+                        <accessionNumber/>
+                        <discoverySuppress>true</discoverySuppress>
+                     </i>
+                  </arr>
+               </items>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>BASIS</i>
+                  </arr>
+               </statisticalCodeIds>
+            </i>
+         </arr>
+      </holdingsRecords>
+   </record>
+</collection>

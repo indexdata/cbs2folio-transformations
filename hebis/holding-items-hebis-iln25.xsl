@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- date of last edit: 2023-06-16 (YYYY-MM-DD) -->
+
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output indent="yes" method="xml" version="1.0" encoding="UTF-8"/>
   <xsl:key name="original" match="original/item" use="@epn"/>
@@ -16,12 +18,16 @@
     <xsl:variable name="abt" select="$i/datafield[@tag='209A']/subfield[@code='f']"/>
     <xsl:variable name="standort" select="$i/datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']"/> 
     <xsl:variable name="electronicholding" select="(substring($i/../datafield[@tag='002@']/subfield[@code='0'],1,1) = 'O') and not(substring($i/datafield[@tag='208@']/subfield[@code='b'],1,1) = 'a')"/>
+    <xsl:variable name="onorder" select="substring($i/datafield[@tag='208@']/subfield[@code='b'],1,1) = 'a'"/>
     <permanentLocationId>
        <xsl:choose>
          <xsl:when test="$electronicholding">ONLINE</xsl:when>
          <xsl:when test="substring($i/datafield[@tag='208@']/subfield[@code='b'],1,1) = 'd'">DUMMY</xsl:when>
          <xsl:when test="$abt='000'">
            <xsl:choose>
+             <xsl:when test="$onorder">ZBZEB</xsl:when>
+             <xsl:when test="contains($standort,'Fernleihe Lesesaal')">ZBFLLS</xsl:when>
+             <xsl:when test="contains($standort,'Fernleihe')">ZBFL</xsl:when>
              <xsl:when test="contains($standort,'FREIHAND')">ZBFREI</xsl:when>
              <xsl:when test="contains($standort,'LESESAAL')">ZBLS</xsl:when>
              <xsl:when test="contains($standort,'LBS')">ZBLBS</xsl:when>
@@ -31,6 +37,7 @@
          </xsl:when>
          <xsl:when test="$abt='002'">
            <xsl:choose>
+             <xsl:when test="$onorder">GFGZEB</xsl:when>
              <xsl:when test="contains($standort,'Erziehungswissenschaft')">GFGPÄD</xsl:when>
              <xsl:when test="contains($standort,'Filmwissenschaft')">GFGFILM</xsl:when>
              <xsl:when test="contains($standort,'Journalistik')">GFGJOUR</xsl:when>
@@ -43,8 +50,8 @@
          </xsl:when>
 		 <xsl:when test="$abt='003'">
            <xsl:choose>
-             <xsl:when test="contains($standort,'LESESAAL')">ZBLS</xsl:when>
-             <xsl:otherwise>ZBRVK</xsl:otherwise>
+             <xsl:when test="$onorder">ZBZEB</xsl:when>
+             <xsl:otherwise>ZBLS</xsl:otherwise>
 			     </xsl:choose>
          </xsl:when>
          <xsl:when test="$abt='005'">
@@ -56,9 +63,9 @@
          </xsl:when>
          <xsl:when test="$abt='006'">
            <xsl:choose>
-             <xsl:when test="contains($standort,'LEHRBUCH')">MINLBS</xsl:when>
-             <xsl:when test="contains($standort,'Handapparat')">MINFAK</xsl:when>
-             <xsl:otherwise>MIN</xsl:otherwise>
+             <xsl:when test="contains($standort,'LEHRBUCH')">MINTLBS</xsl:when>
+             <xsl:when test="contains($standort,'Handapparat')">MINTFAK</xsl:when>
+             <xsl:otherwise>MINT</xsl:otherwise>
            </xsl:choose>
          </xsl:when>
          <xsl:when test="$abt='009'">FBMPI</xsl:when>	
@@ -66,17 +73,22 @@
            <xsl:choose>
              <xsl:when test="contains($standort,'Magazin') or contains($standort,'Rara')">THRARA</xsl:when>
              <xsl:when test="contains($standort,'LEHRBUCH')">THLBS</xsl:when>
+             <xsl:when test="contains($standort,'psychologie')">THPSYCH</xsl:when>
              <xsl:otherwise>TH</xsl:otherwise>
            </xsl:choose>
          </xsl:when>
          <xsl:when test="$abt='018'">
            <xsl:choose>
              <xsl:when test="contains($standort,'LEHRBUCH')">RWLBS</xsl:when>
+             <xsl:when test="contains($standort,'Magazin')">RWMAG</xsl:when>
              <xsl:otherwise>RW</xsl:otherwise>
            </xsl:choose>
          </xsl:when>
          <xsl:when test="$abt='019'">
            <xsl:choose>
+             <xsl:when test="$onorder">GHZEB</xsl:when>
+             <xsl:when test="contains($standort,'Fernleihe Lesesaal')">GHFLLS</xsl:when>
+             <xsl:when test="contains($standort,'Fernleihe')">GHFL</xsl:when>
              <xsl:when test="contains($standort,'Handapparat')">GHFAK</xsl:when> <!-- Es gibt auch starts-with(...,...) -->
              <xsl:when test="contains($standort,'Lehrbuch')">GHLBS</xsl:when>
              <xsl:when test="contains($standort,'Lesesaal')">GHLS</xsl:when>
@@ -90,11 +102,16 @@
          <xsl:when test="$abt='020'">RWFAK</xsl:when>
          <xsl:when test="$abt='021'">ZBMAG</xsl:when>
          <xsl:when test="$abt='034'">FBGTEM</xsl:when>
-		 <xsl:when test="$abt='035'">UMRMED</xsl:when>
+         <xsl:when test="$abt='035'">UMRMED</xsl:when>
          <xsl:when test="$abt='043'">UMPSY</xsl:when>
          <xsl:when test="$abt='054'">UMZMK</xsl:when>
          <xsl:when test="$abt='058'">PHPHI</xsl:when>
-         <xsl:when test="$abt='066'">RWETH</xsl:when>
+         <xsl:when test="$abt='066'">
+	    <xsl:choose>
+             <xsl:when test="contains($standort,'AMA')">RWAMA</xsl:when>
+             <xsl:otherwise>RWETH</xsl:otherwise>
+           </xsl:choose>
+         </xsl:when>
          <xsl:when test="$abt='069'">FBPSY</xsl:when>
          <xsl:when test="$abt='070'">PHGER</xsl:when>
          <xsl:when test="$abt='071'">PHAVL</xsl:when>
@@ -106,10 +123,10 @@
          <xsl:when test="$abt='077'">PHKLP</xsl:when>
          <xsl:when test="$abt='078'">PHKLA</xsl:when>
          <xsl:when test="$abt='079'">GFGKUN</xsl:when>
-         <xsl:when test="$abt='080'">ZBTURK</xsl:when>
+         <xsl:when test="$abt='080'">RWTURK</xsl:when>
          <xsl:when test="$abt='082'">FBÄGYPT</xsl:when>
          <xsl:when test="$abt='083'">PHKLW</xsl:when>
-		 <xsl:when test="$abt='085'">FBAVFGA</xsl:when>
+         <xsl:when test="$abt='085'">FBAVFGA</xsl:when>
          <xsl:when test="$abt='086'">PHALG</xsl:when>
          <xsl:when test="$abt='087'">PHBYZ</xsl:when>
          <xsl:when test="$abt='088'">PHMNG</xsl:when>
@@ -125,7 +142,12 @@
          <xsl:when test="$abt='094'">FBIGL</xsl:when>
          <xsl:when test="$abt='110'">GFGGEO</xsl:when>
          <xsl:when test="$abt='111'">FBKUNST</xsl:when>
-         <xsl:when test="$abt='112'">PHHFM</xsl:when>
+         <xsl:when test="$abt='112'">
+             <xsl:choose>
+               <xsl:when test="contains($standort,'Freihand')">PHHFMFREI</xsl:when>
+               <xsl:otherwise>PHHFMMAG</xsl:otherwise>
+             </xsl:choose>
+           </xsl:when>
          <xsl:when test="$abt='113'">GFGSPO</xsl:when>
          <xsl:when test="$abt='120'">PHTHW</xsl:when>
          <xsl:when test="$abt='124'">FBGESANG</xsl:when>
@@ -148,7 +170,6 @@
     <xsl:variable name="abt" select="$i/datafield[@tag='209A']/subfield[@code='f']"/>
     <xsl:if test="not(($abt='000' and (./note='FREIHAND' or ./note='LBS' or ./note='LESESAAL' or ./note='RARA' or ./note='MAG')) or
 	  ($abt='002' and (./note='Erziehungswissenschaft' or ./note='Filmwissenschaft' or ./note='Journalistik' or ./note='Politikwissenschaft' or ./note='Psychologie' or ./note='Publizistik' or ./note='Soziologie')) or
-	  ($abt='003' and (./note='RVK-REGALE')) or
 	  ($abt='005' and (./note='UM LESESAAL' or ./note='UM LBS' or ./note='UM FREIHAND')) or
 	  ($abt='006' and (./note='MIN' or ./note='MIN LEHRBUCHSAMMLUNG')) or
 	  ($abt='016' and (./note='Theologie LEHRBUCHSAMMLUNG')) or
@@ -159,7 +180,7 @@
 	  ($abt='043' and (./note='Klinik für Psychiatrie und Psychotherapie')) or
 	  ($abt='054' and (./note='Zahnklinik')) or
 	  ($abt='058' and (./note='Philosophie')) or
-	  ($abt='066' and (./note='ReWi / Ethnologie und Afrikastudien')) or
+	  ($abt='066' and (./note='ReWi / Ethnologie und Afrikastudien' or ./note='AMA - African Music Archives')) or
 	  ($abt='069' and (./note='Psychologisches Institut / IB')) or
 	  ($abt='070' and (./note='Germanistik')) or
 	  ($abt='071' and (./note='Allgemeine und Vergleichende Literaturwissenschaft')) or
@@ -182,7 +203,7 @@
 	  ($abt='091' and (./note='Musikwissenschaft')) or
 	  ($abt='092' and (./note='Osteuropäische Geschichte')) or
 	  ($abt='094' and (./note='Institut für Geschichtliche Landeskunde')) or
-	  ($abt='112' and (./note='Hochschule für Musik')) or
+	  ($abt='112' and (./note='Hochschule für Musik' or ./note='Hochschule für Musik / Freihand' or ./note='Hochschule für Musik / Magazin')) or
 	  ($abt='113' and (./note='Sport')) or	
 	  ($abt='124' and (./note='Gesangbucharchiv')) or
 	  ($abt='125' and (./note='MAG')) or
@@ -204,15 +225,24 @@
     <xsl:variable name="standort" select="$i/datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']"/> 
     <xsl:choose>
       <xsl:when test="($abt='016' and (starts-with(., 'THEMAG ') or starts-with(., 'THERARA '))) or 
-        ($abt='000' and starts-with(., 'RARA ')) or
+        ($abt='000' and (starts-with(., 'RARA ') and not(contains(.,'°')))) or
         ($abt='120' and ($standort='Medienkulturwissenschaft' or $standort='Alltagsmedien')) or
-        ($abt='003') or ($abt='127')">
-        <callNumberPrefix>
-          <xsl:value-of select="substring-before(.,' ')"/>
-        </callNumberPrefix>
-        <callNumber>
-          <xsl:value-of select="substring-after(.,' ')"/>
-        </callNumber>
+        ($abt='003') or (($abt='127') and not(starts-with(.,'SI ') or starts-with(.,'SK ')))">
+        <xsl:choose>
+          <xsl:when test="contains(.,' ')">
+            <callNumberPrefix>
+              <xsl:value-of select="normalize-space(substring-before(.,' '))"/>
+            </callNumberPrefix>
+            <callNumber>
+              <xsl:value-of select="normalize-space(substring-after(.,' '))"/>
+            </callNumber>
+          </xsl:when>
+          <xsl:otherwise>
+            <callNumber>
+              <xsl:value-of select="."/>
+            </callNumber>
+          </xsl:otherwise>
+        </xsl:choose>
       </xsl:when>
       <xsl:otherwise>
         <xsl:variable name="cnprefix">
