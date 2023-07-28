@@ -65,25 +65,4 @@
        </i>
      </xsl:for-each>
 
-<!-- Nicht-Online-Materialien mit PIDs und URLs -->
-
-      <xsl:if test="not($electronicholding)">
-        <electronicAccess>
-          <arr>
-            <xsl:for-each select="datafield[@tag='209S']">
-              <i>
-                <uri>
-                  <xsl:value-of select="./subfield[@code='u']"/>
-                </uri>
-              </i>
-            </xsl:for-each>
-            <xsl:for-each select="datafield[@tag='204P'] | datafield[@tag='204U'] | datafield[@tag='204R']">
-              <i>
-                <uri>
-                  <xsl:value-of select="./subfield[@code='0']"/>
-                </uri>
-              </i>
-            </xsl:for-each>
-          </arr>
-        </electronicAccess>
-      </xsl:if> 
+<!-- Nicht-Online-Materialien mit PIDs und URLs -> done -->
