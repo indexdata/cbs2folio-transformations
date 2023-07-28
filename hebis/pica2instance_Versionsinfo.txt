@@ -1,7 +1,50 @@
-Version 6 (status: 21.04.2023) still in progress 
+Version 7 (status: 20.07.2023)
+
+different places in XSLT, changes for pica-tags 021A, 021M, 022A, 036A, 036C, 039B, 039C, 039D, 039E, 046C, 046D
+- Handling of non-sorting character "@"
+
+<statusId>
+- Removed status-id
+
+<modeOfIssuanceId>
+- Added $mii = "o"  and "z" (only at hebis)
+
+<instanceTypeId>
+- Changed default to "unspecified"
+
+<instanceFormatIds>
+- Added default "unspecified"
+
+<identifiers>
+- Correction (005B instead of 005D)
+- Removed 017K
+- Changed label for 017L
+- 004J + 004K: "Sekundärausgabe" instead of "Reproduktion"
+
+<indexTitle>
+- Revised normalization
+
+<publisher>
+- Added value 'e'
+- Corrected value 'z' to value 's'
+
+<notes>
+- Correction (037G instead of 037I)
+- Correction (046N instead of 046S)
+
+<instanceNoteTypeId> = "Besetzung"
+- Added subfield $8
+
+<administrativeNotes>
+- Added administrative notes for Bibliographic genre and last modified date
+
+
+****************************************************************************************************************************
+
+Version 6 (status: 05.05.2023)
 
 <source>
-- New source for foster titles?
+- New source for foster titles
 
 <alternativeTitle>
 - Removed [@occurrence='00'] from tag 022A 
@@ -10,7 +53,7 @@ Version 6 (status: 21.04.2023) still in progress
 - Added tag 029F
 
 <notes> 
-- Added tags 013E, 032X, 032Y, 032Z, 046M and 046S 
+- Added tags 013E, 032X, 032Y, 032Z, 046M and 046N 
 - New instanceNoteTypeId ("Besetzung", "Musikalische Ausgabeform", "Numerische Bezeichnung eines Musikwerks", "Tonart")
 
 ****************************************************************************************************************************
