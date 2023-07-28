@@ -221,7 +221,7 @@
            </arr>
          </items>
       </xsl:if>
-      <xsl:if test="$electronicholding">
+      <xsl:if test="datafield[@tag='209S'] | datafield[@tag='204P'] | datafield[@tag='204U'] | datafield[@tag='204R']">
         <electronicAccess>
           <arr>
             <xsl:for-each select="datafield[@tag='209S']">
@@ -241,7 +241,7 @@
           </arr>
         </electronicAccess>
       </xsl:if>
-      <statisticalCodeIds>
+        <statisticalCodeIds>
         <arr>
           <xsl:for-each select="datafield[(@tag='209B') and not(subfield[@code='x']='01' or subfield[@code='x']='02')]">
             <i>
