@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- date of last edit: 2023-07-20 (YYYY-MM-DD) -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output indent="yes" method="xml" version="1.0" encoding="UTF-8"/>
   <xsl:template match="collection">
@@ -1274,7 +1275,7 @@
     <!-- Electronic access -->
     <electronicAccess>
       <arr>
-        <xsl:for-each select="datafield[@tag='009P' or @tag='017C' or @tag='017M' or @tag='017R']">
+        <xsl:for-each select="datafield[@tag='009P' or @tag='017C' or @tag='017M' or @tag='017R' or @tag='109R']">
           <xsl:if test="./@tag='009P' and ./subfield[@code='a']">
             <i>
               <uri>
@@ -1332,6 +1333,15 @@
 			  </linkText>
               <relationshipId>f781cb3d-af16-40f6-9d02-c24204ac6fdc</relationshipId>
 			  <!-- Rechteinformation -->
+            </i>
+          </xsl:if>
+		  <xsl:if test="./@tag='109R' and ./subfield[@code='u']">
+            <i>
+              <uri>
+                <xsl:value-of select="./subfield[@code='u']"/>
+              </uri>
+              <relationshipId>1e178616-2b75-4ecf-a8c8-99b85273dcfc</relationshipId>
+			  <!-- EZB-Frontpage (3433) -->
             </i>
           </xsl:if>
         </xsl:for-each>
@@ -1488,6 +1498,16 @@
           </xsl:for-each>
         </arr>
       </xsl:if>
+	  <!-- hebis: added series statement for parts of multipart resources with independent title -->
+      <xsl:choose>
+        <xsl:when test="boolean(substring(datafield[@tag='002@']/subfield[@code='0'], 2, 1) != 'f') and datafield[@tag='036C']">
+          <arr>
+            <i>
+              <xsl:value-of select="normalize-space(substring-after($title-036C, '. '))"/>
+            </i>
+          </arr>
+        </xsl:when>
+      </xsl:choose>
       </series>
     <!-- physicalDescriptions -->
     <xsl:if test="datafield[@tag='034D' or @tag='034M' or @tag='034I' or @tag='034K']">
