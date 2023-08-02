@@ -70,6 +70,151 @@
           <xsl:otherwise>false</xsl:otherwise>
         </xsl:choose>
       </discoverySuppress>
+      <xsl:if test="datafield[@tag='220B' or @tag='237A' or @tag='244Z' or @tag='209O' or @tag='206X' or @tag='206W']">
+        <notes>
+          <arr>
+            <!-- 4801 -->
+            <xsl:for-each select="datafield[@tag='237A']">
+              <xsl:if test="./subfield[@code='a'] or ./subfield[@code='0']">
+                <i>
+                  <note>
+                    <xsl:value-of select="./subfield[@code='a'] | ./subfield[@code='0']"/>
+                  </note>
+                  <holdingsNoteTypeId>Exemplarbezogener Kommentar - benutzerrelevante Hinweise (4801)</holdingsNoteTypeId>
+                  <staffOnly>false</staffOnly>
+                </i>
+              </xsl:if>
+            </xsl:for-each>
+            <!-- 4802 -->
+            <xsl:for-each select="datafield[@tag='220B']">
+              <xsl:if test="./subfield[@code='a'] or ./subfield[@code='0']">
+                <i>
+                  <note>
+                    <xsl:value-of select="./subfield[@code='a'] | ./subfield[@code='0']"/>
+                  </note>
+                  <holdingsNoteTypeId>Exemplarbezogener Kommentar - bibliotheksinterne Hinweise (4802)</holdingsNoteTypeId>
+                  <staffOnly>true</staffOnly>
+                </i>
+              </xsl:if>
+            </xsl:for-each>
+            <!-- 6800 -->
+            <xsl:for-each select="datafield[@tag='244Z']">
+              <xsl:variable name="expansion" select="substring-before(./subfield[@code='8'], ' ; ID:')"/>
+              <i>
+                <note>
+                  <xsl:choose>
+                    <xsl:when test="./subfield[@code='S']">
+                      <xsl:choose>
+                        <xsl:when test="$expansion">
+                          <xsl:value-of select="concat(./subfield[@code='S'], ' ', $expansion)"/>
+                        </xsl:when>
+                        <xsl:when test="./subfield[@code='8']">
+                          <xsl:value-of select="concat(./subfield[@code='S'], ' ', ./subfield[@code='8'])"/>
+                        </xsl:when>
+                        <xsl:when test="./subfield[@code='a']">
+                          <xsl:value-of select="concat(./subfield[@code='S'], ' ', ./subfield[@code='a'])"/>
+                        </xsl:when>
+                      </xsl:choose>
+                    </xsl:when>
+                    <xsl:otherwise>
+                      <xsl:choose>
+                        <xsl:when test="$expansion">
+                          <xsl:value-of select="$expansion"/>
+                        </xsl:when>
+                        <xsl:when test="./subfield[@code='8']">
+                          <xsl:value-of select="./subfield[@code='8']"/>
+                        </xsl:when>
+                        <xsl:when test="./subfield[@code='a']">
+                          <xsl:value-of select="./subfield[@code='a']"/>
+                        </xsl:when>
+                      </xsl:choose>
+                    </xsl:otherwise>
+                  </xsl:choose>
+                </note>
+                <holdingsNoteTypeId>Lokale Schlagwörter (6800)</holdingsNoteTypeId>
+                <staffOnly>false</staffOnly>
+              </i>
+            </xsl:for-each>
+            <!-- 8600 -->
+            <xsl:for-each select="datafield[@tag='209O']">
+              <xsl:if test="./subfield[@code='a']">
+                <i>
+                  <note>
+                    <xsl:value-of select="./subfield[@code='a']"/>
+                  </note>
+                  <holdingsNoteTypeId>Abrufzeichen exemplarspezifisch (8600)</holdingsNoteTypeId>
+                  <staffOnly>true</staffOnly>
+                </i>
+              </xsl:if>
+            </xsl:for-each>
+            <!-- 7811 -->
+            <xsl:for-each select="datafield[@tag='206X']">
+              <xsl:if test="./subfield[@code='0']">
+                <i>
+                  <note>
+                    <xsl:value-of select="./subfield[@code='0']"/>
+                  </note>
+                  <holdingsNoteTypeId>Lokale Identifikationsnummer anderer Systeme (7811)</holdingsNoteTypeId>
+                  <staffOnly>false</staffOnly>
+                </i>
+              </xsl:if>
+            </xsl:for-each>
+            <!-- 7812 -->
+            <xsl:for-each select="datafield[@tag='206W']">
+              <xsl:if test="./subfield[@code='0']">
+                <i>
+                  <note>
+                    <xsl:value-of select="./subfield[@code='0']"/>
+                  </note>
+                  <holdingsNoteTypeId>Lokale Identifikationsnummer externer Systeme (7812)</holdingsNoteTypeId>
+                  <staffOnly>false</staffOnly>
+                </i>
+              </xsl:if>
+            </xsl:for-each>
+          </arr>
+        </notes>
+      </xsl:if>
+      <xsl:if test="datafield[@tag='209R']">
+        <electronicAccess>
+          <arr>
+            <xsl:for-each select="datafield[@tag='209R']">
+              <xsl:if test="./subfield[@code='u']">
+                <i>
+                  <uri>
+                    <xsl:value-of select="./subfield[@code='u']"/>
+                  </uri>
+                  <relationshipId>f5d0068e-6272-458e-8a81-b85e7b9a14aa</relationshipId>
+                  <!-- Resource -->
+                  <xsl:if test="../datafield[@tag='209K']">
+                    <publicNote>
+                      <xsl:variable name="enote" select="../datafield[@tag='209K'][1]/subfield[@code='a']"/>
+                      <xsl:variable name="bnote" select="../datafield[@tag='209K'][1]/subfield[@code='b']"/>
+                      <xsl:variable name="cnote" select="../datafield[@tag='209K'][1]/subfield[@code='c']"/>
+                      <xsl:choose>
+                        <xsl:when test="$enote='a'">Zugriffsrechte: domain, der Zugriff ist nur hausintern möglich</xsl:when>
+                        <xsl:when test="$enote='b'">Zugriffsrechte: free, der Zugriff ist unbeschränkt möglich</xsl:when>
+                        <xsl:when test="$enote='c'">Zugriffsrechte: blocked, der Zugriff ist gar nicht möglich</xsl:when>
+                        <xsl:when test="$enote='d'">Zugriffsrechte: domain+, der Zugriff ist hausintern und für bestimmte zugelassene, andere Benutzer möglich</xsl:when>
+                        <xsl:when test="$bnote">
+                          <xsl:value-of select="concat('Zahl der parallelen Zugriffe: ', $bnote)"/>
+                        </xsl:when>
+                      </xsl:choose>
+                      <xsl:choose>
+                        <xsl:when test="$cnote and ($enote or $bnote)">
+                          <xsl:value-of select="concat(' ; ', $cnote)"/>
+                        </xsl:when>
+                        <xsl:when test="$cnote">
+                          <xsl:value-of select="$cnote"/>
+                        </xsl:when>
+                      </xsl:choose>
+                    </publicNote>
+                  </xsl:if>
+                </i>
+              </xsl:if>
+            </xsl:for-each>
+          </arr>
+        </electronicAccess>
+      </xsl:if>
       <items>
         <arr>
           <xsl:choose>
@@ -82,6 +227,18 @@
                 </xsl:apply-templates>
               </xsl:for-each>
             </xsl:when>
+            <!-- start implement bound-with case -->
+            <xsl:when test="datafield[@tag='209A']/subfield[@code='i']">
+              <xsl:if test="datafield[@tag='209G']/subfield[@code='a']">
+                <xsl:apply-templates select="." mode="make-item">
+                  <xsl:with-param name="hhrid" select="$hhrid"/>
+                </xsl:apply-templates>             
+              </xsl:if>
+              <xsl:if test="not(datafield[@tag='209G']/subfield[@code='a'])">
+                <!-- exit and don't create an item -->
+              </xsl:if>
+            </xsl:when>
+            <!-- end implement bound-with case -->
             <xsl:otherwise>
               <xsl:apply-templates select="." mode="make-item">
                 <xsl:with-param name="hhrid" select="$hhrid"/>
@@ -164,27 +321,29 @@
 		<xsl:variable name="frequency" select="substring(../datafield[@tag='002@']/subfield[@code='0'],2,1)"/>
         <name>
           <xsl:choose>
-			<xsl:when test="$frequency='b'">Intellectual item</xsl:when>
-			<xsl:when test="$frequency='c'">Intellectual item</xsl:when>
-			<xsl:when test="$frequency='d'">Intellectual item</xsl:when>
+			      <xsl:when test="$frequency='b'">Intellectual item</xsl:when>
+			      <xsl:when test="$frequency='c'">Intellectual item</xsl:when>
+			      <xsl:when test="$frequency='d'">Intellectual item</xsl:when>
             <xsl:when test="datafield[@tag='209A']/subfield[@code='d']='a'">On order</xsl:when>
-			<xsl:when test="datafield[@tag='209A']/subfield[@code='d']='u'">Available</xsl:when>
-			<xsl:when test="datafield[@tag='209A']/subfield[@code='d']='b'">Available</xsl:when>
-			<xsl:when test="datafield[@tag='209A']/subfield[@code='d']='c'">Available</xsl:when>
-			<xsl:when test="datafield[@tag='209A']/subfield[@code='d']='s'">Available</xsl:when>
-			<xsl:when test="datafield[@tag='209A']/subfield[@code='d']='d'">Available</xsl:when>
-			<xsl:when test="datafield[@tag='209A']/subfield[@code='d']='i'">Available</xsl:when>
-			<xsl:when test="datafield[@tag='209A']/subfield[@code='d']='f'">Available</xsl:when>
-			<xsl:when test="datafield[@tag='209A']/subfield[@code='d']='z'">Missing</xsl:when>
+            <xsl:when test="datafield[@tag='209A']/subfield[@code='d']='u'">Available</xsl:when>
+            <xsl:when test="datafield[@tag='209A']/subfield[@code='d']='b'">Available</xsl:when>
+            <xsl:when test="datafield[@tag='209A']/subfield[@code='d']='c'">Available</xsl:when>
+            <xsl:when test="datafield[@tag='209A']/subfield[@code='d']='s'">Available</xsl:when>
+            <xsl:when test="datafield[@tag='209A']/subfield[@code='d']='d'">Available</xsl:when>
+            <xsl:when test="datafield[@tag='209A']/subfield[@code='d']='i'">Available</xsl:when>
+            <xsl:when test="datafield[@tag='209A']/subfield[@code='d']='f'">Available</xsl:when>
+            <xsl:when test="datafield[@tag='209A']/subfield[@code='d']='z'">Missing</xsl:when>
             <xsl:when test="datafield[@tag='209A']/subfield[@code='d']='g'">Restricted</xsl:when>
-			<xsl:when test="datafield[@tag='209A']/subfield[@code='d']='o'">Unknown</xsl:when>
+			      <xsl:when test="datafield[@tag='209A']/subfield[@code='d']='o'">Unknown</xsl:when>
             <xsl:otherwise>Available</xsl:otherwise>
           </xsl:choose>
         </name>
       </status>
-      <barcode>
-        <xsl:value-of select="$bcode"/>
-      </barcode>
+      <xsl:if test="$bcode">
+        <barcode>
+          <xsl:value-of select="$bcode"/>
+        </barcode>
+      </xsl:if>
       <copyNumber>
         <xsl:value-of select="$copy"/>
       </copyNumber>
@@ -226,106 +385,6 @@
       <descriptionOfPieces>
         <xsl:value-of select="datafield[@tag='208F']/subfield[@code='a']"/>
       </descriptionOfPieces>
-      <xsl:if test="datafield[@tag='220B' or @tag='237A' or @tag='244Z' or @tag='209O' or @tag='206X' or @tag='206W']">
-        <notes>
-          <arr>
-            <xsl:for-each select="datafield[@tag='220B' or @tag='237A' or @tag='209O' or @tag='206X' or @tag='206W']">
-              <xsl:if test="./subfield[@code='a'] or ./subfield[@code='0']">
-                <i>
-                  <note>
-                    <xsl:value-of select="./subfield[@code='a'] | ./subfield[@code='0']"/>
-                  </note>
-                  <itemNoteTypeId>Note</itemNoteTypeId>
-                  <staffOnly>
-                    <xsl:choose>
-                      <xsl:when test="./@tag='237A'">false</xsl:when>
-                      <xsl:otherwise>true</xsl:otherwise>
-                    </xsl:choose>
-                  </staffOnly>
-                </i>
-              </xsl:if>
-            </xsl:for-each>
-            <xsl:for-each select="datafield[@tag='244Z']">
-              <xsl:variable name="expansion" select="substring-before(./subfield[@code='8'], ' ; ID:')"/>
-              <i>
-                <note>
-                  <xsl:choose>
-                    <xsl:when test="./subfield[@code='S']">
-                      <xsl:choose>
-                        <xsl:when test="$expansion">
-                          <xsl:value-of select="concat(./subfield[@code='S'], ' ', $expansion)"/>
-                        </xsl:when>
-                        <xsl:when test="./subfield[@code='8']">
-                          <xsl:value-of select="concat(./subfield[@code='S'], ' ', ./subfield[@code='8'])"/>
-                        </xsl:when>
-                        <xsl:when test="./subfield[@code='a']">
-                          <xsl:value-of select="concat(./subfield[@code='S'], ' ', ./subfield[@code='a'])"/>
-                        </xsl:when>
-                      </xsl:choose>
-                    </xsl:when>
-                    <xsl:otherwise>
-                      <xsl:choose>
-                        <xsl:when test="$expansion">
-                          <xsl:value-of select="$expansion"/>
-                        </xsl:when>
-                        <xsl:when test="./subfield[@code='8']">
-                          <xsl:value-of select="./subfield[@code='8']"/>
-                        </xsl:when>
-                        <xsl:when test="./subfield[@code='a']">
-                          <xsl:value-of select="./subfield[@code='a']"/>
-                        </xsl:when>
-                      </xsl:choose>
-                    </xsl:otherwise>
-                  </xsl:choose>
-                </note>
-                <itemNoteTypeId>Note</itemNoteTypeId>
-                <staffOnly>false</staffOnly>
-              </i>
-            </xsl:for-each>
-          </arr>
-        </notes>
-      </xsl:if>
-      <xsl:if test="datafield[@tag='209R']">
-        <electronicAccess>
-          <arr>
-            <xsl:for-each select="datafield[@tag='209R']">
-              <xsl:if test="./subfield[@code='u']">
-                <i>
-                  <uri>
-                    <xsl:value-of select="./subfield[@code='u']"/>
-                  </uri>
-                  <relationshipId>f5d0068e-6272-458e-8a81-b85e7b9a14aa</relationshipId>
-                  <!-- Resource -->
-                  <xsl:if test="../datafield[@tag='209K']">
-                    <publicNote>
-                      <xsl:variable name="enote" select="../datafield[@tag='209K'][1]/subfield[@code='a']"/>
-                      <xsl:variable name="bnote" select="../datafield[@tag='209K'][1]/subfield[@code='b']"/>
-                      <xsl:variable name="cnote" select="../datafield[@tag='209K'][1]/subfield[@code='c']"/>
-                      <xsl:choose>
-                        <xsl:when test="$enote='a'">Zugriffsrechte: domain, der Zugriff ist nur hausintern möglich</xsl:when>
-                        <xsl:when test="$enote='b'">Zugriffsrechte: free, der Zugriff ist unbeschränkt möglich</xsl:when>
-                        <xsl:when test="$enote='c'">Zugriffsrechte: blocked, der Zugriff ist gar nicht möglich</xsl:when>
-                        <xsl:when test="$enote='d'">Zugriffsrechte: domain+, der Zugriff ist hausintern und für bestimmte zugelassene, andere Benutzer möglich</xsl:when>
-                        <xsl:when test="$bnote">
-                          <xsl:value-of select="concat('Zahl der parallelen Zugriffe: ', $bnote)"/>
-                        </xsl:when>
-                      </xsl:choose>
-                      <xsl:choose>
-                        <xsl:when test="$cnote and ($enote or $bnote)">
-                          <xsl:value-of select="concat(' ; ', $cnote)"/>
-                        </xsl:when>
-                        <xsl:when test="$cnote">
-                          <xsl:value-of select="$cnote"/>
-                        </xsl:when>
-                      </xsl:choose>
-                    </publicNote>
-                  </xsl:if>
-                </i>
-              </xsl:if>
-            </xsl:for-each>
-          </arr>
-        </electronicAccess>
-      </xsl:if>
       <accessionNumber>
         <xsl:for-each select="datafield[@tag='209C']">
           <xsl:value-of select="./subfield[@code='a']"/>
