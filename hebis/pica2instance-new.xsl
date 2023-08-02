@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- date of last edit: 2023-07-20 (YYYY-MM-DD) -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output indent="yes" method="xml" version="1.0" encoding="UTF-8"/>
 
@@ -32,7 +33,14 @@
   <!-- hebis: added new templates -->
   <xsl:template name="parse-021x">
     <xsl:if test="./subfield[@code='a']">
-      <xsl:value-of select="translate(./subfield[@code='a'], '@', '')"/>
+      <xsl:choose>
+        <xsl:when test="./subfield[@code='a'][contains(., '@')]">
+          <xsl:value-of select="concat(substring-before(./subfield[@code='a'], '@'), substring-after(./subfield[@code='a'], '@'))"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="./subfield[@code='a']"/>
+        </xsl:otherwise>
+      </xsl:choose>
     </xsl:if>
     <xsl:if test="./subfield[@code='d']">
       <xsl:value-of select="concat(' : ', ./subfield[@code='d'])"/>
@@ -40,11 +48,25 @@
     <xsl:if test="./subfield[@code='e' or @code='h']">
       <xsl:value-of select="concat(' / ', ./subfield[@code='e' or @code='h'])"/>
     </xsl:if>
-      <xsl:if test="./subfield[@code='f']">
-      <xsl:value-of select="concat(' = ', ./subfield[@code='f'])"/>
+    <xsl:if test="./subfield[@code='f']">
+      <xsl:choose>
+        <xsl:when test="./subfield[@code='f'][contains(., '@')]">
+          <xsl:value-of select="concat(' = ', concat(substring-before(./subfield[@code='f'], '@'), substring-after(./subfield[@code='f'], '@')))"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="concat(' = ', ./subfield[@code='f'])"/>
+         </xsl:otherwise>
+      </xsl:choose>
     </xsl:if>
     <xsl:if test="./subfield[@code='r']">
-      <xsl:value-of select="translate(./subfield[@code='r'], '@', '')"/>
+      <xsl:choose>
+        <xsl:when test="./subfield[@code='r'][contains(., '@')]">
+          <xsl:value-of select="concat(substring-before(./subfield[@code='r'], '@'), substring-after(./subfield[@code='r'], '@'))"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="./subfield[@code='r']"/>
+        </xsl:otherwise>
+      </xsl:choose>
     </xsl:if>
   </xsl:template>
 
@@ -53,11 +75,25 @@
       <xsl:when test="./subfield[@code='m']">
         <xsl:value-of select="normalize-space(concat('. ', ./subfield[@code='m']))"/>
         <xsl:if test="./subfield[@code='a']">
-          <xsl:value-of select="concat(', ', translate(./subfield[@code='a'], '@', ''))"/>
+          <xsl:choose>
+            <xsl:when test="./subfield[@code='a'][contains(., '@')]">
+              <xsl:value-of select="normalize-space(concat(', ', concat(substring-before(./subfield[@code='a'], '@'), substring-after(./subfield[@code='a'], '@'))))"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:value-of select="normalize-space(concat(', ', ./subfield[@code='a']))"/>
+             </xsl:otherwise>
+          </xsl:choose>
         </xsl:if>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:value-of select="normalize-space(concat('. ', translate(./subfield[@code='a'], '@', '')))"/>
+        <xsl:choose>
+          <xsl:when test="./subfield[@code='a'][contains(., '@')]">
+            <xsl:value-of select="normalize-space(concat('. ', concat(substring-before(./subfield[@code='a'], '@'), substring-after(./subfield[@code='a'], '@'))))"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:value-of select="normalize-space(concat('. ', ./subfield[@code='a']))"/>
+            </xsl:otherwise>
+         </xsl:choose>
       </xsl:otherwise>
     </xsl:choose>
     <xsl:if test="./subfield[@code='d']">
@@ -67,7 +103,14 @@
       <xsl:value-of select="concat(' / ', ./subfield[@code='e' or @code='h'])"/>
     </xsl:if>
     <xsl:if test="./subfield[@code='f']">
-      <xsl:value-of select="concat(' = ', ./subfield[@code='f'])"/>
+      <xsl:choose>
+        <xsl:when test="./subfield[@code='f'][contains(., '@')]">
+          <xsl:value-of select="normalize-space(concat(' = ', concat(substring-before(./subfield[@code='f'], '@'), substring-after(./subfield[@code='f'], '@'))))"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="normalize-space(concat(' = ', ./subfield[@code='f']))"/>
+         </xsl:otherwise>
+      </xsl:choose>
     </xsl:if>
     <xsl:if test="./subfield[@code='l']">
       <xsl:value-of select="concat(' ; ', ./subfield[@code='l'])"/>
@@ -76,7 +119,14 @@
 
   <xsl:template match="metadata">
  <!--   <source>K10plus</source> -->
-    <source>hebis</source> <!-- hebis: source changed -->
+    <xsl:choose>
+      <xsl:when test="substring(datafield[@tag='002@']/subfield[@code='0'], 1, 1) = 'L'">
+        <source>hebis-LT</source> <!-- hebis: new source for foster titles -->
+      </xsl:when>
+      <xsl:otherwise>
+        <source>hebis</source> <!-- hebis: source changed -->
+      </xsl:otherwise>
+    </xsl:choose>
     <xsl:variable name="ppn" select="datafield[@tag='003@']/subfield[@code='0']"/>
     <hrid>
       <xsl:value-of select="$ppn"/>
@@ -90,8 +140,12 @@
     </xsl:for-each>
     <xsl:if test="datafield[@tag='002@']">
       <!-- statusId -->
+
+<!--  hebis: removed statusId
       <statusId>
         <xsl:variable name="stcode" select="substring(datafield[@tag='002@']/subfield[@code='0'], 3, 1)"/>
+
+         GBV-Version
         <xsl:choose>
           <xsl:when test="$stcode='u'">Autopsie</xsl:when>
           <xsl:when test="$stcode='v'">Bibliografisch vollständig</xsl:when>
@@ -107,12 +161,32 @@
           <xsl:when test="$stcode='N'">Zunächst verdeckt eingespieltes Novum</xsl:when>
           <xsl:when test="$stcode='X'">Inhalt oder Struktur ist zu überprüfen</xsl:when>
         </xsl:choose>
+
+         hebis-Version
+        <xsl:choose>
+          <xsl:when test="$stcode='a'">Erwerbungsdatensatz</xsl:when>
+          <xsl:when test="$stcode='B'">Wahrscheinliche Dublette</xsl:when>
+          <xsl:when test="$stcode='f'">Fremdkatalogisat</xsl:when>
+          <xsl:when test="$stcode='g'">nach VD16/VD17-Standard aufgenommen</xsl:when>
+          <xsl:when test="$stcode='k'">Als zu löschende Dublette gekennzeichnet</xsl:when>
+          <xsl:when test="$stcode='m'">Datensatz aus OCR-Erkennung</xsl:when>
+          <xsl:when test="$stcode='p'">Manskopf'sche Porträtsammlung</xsl:when>
+          <xsl:when test="$stcode='r'">Retrospektives Katalogisat</xsl:when>
+          <xsl:when test="$stcode='u'">Titelaufnahme durch Autopsie</xsl:when>
+          <xsl:when test="$stcode='v'">Datensatz gesperrt</xsl:when>
+          <xsl:when test="$stcode='x'">Fremddaten</xsl:when>
+          <xsl:when test="$stcode='y'">Regelwerksstandard kann nicht vollständig bedient werden</xsl:when>
+        </xsl:choose>
+
       </statusId>
+-->
+
       <modeOfIssuanceId>
         <xsl:variable name="mii" select="substring(datafield[@tag='002@']/subfield[@code='0'], 2, 1)"/>
         <xsl:variable name="noc" select="datafield[@tag='013D']/subfield[@code='9']"/>
         <xsl:choose>
-          <xsl:when test="($noc='106354256' or $noc='32609296X' or $noc='344907406' or $noc='153776951') and ($mii='a' or $mii='f' or $mii='F' or $mii='s' or $mii='v')">4fc0f4fe-06fd-490a-a078-c4da1754e03a</xsl:when>
+          <!-- hebis: added "o" and "z" -->
+          <xsl:when test="($noc='106354256' or $noc='32609296X' or $noc='344907406' or $noc='153776951') and ($mii='a' or $mii='f' or $mii='F' or $mii='s' or $mii='v' or $mii='o' or $mii='z')">4fc0f4fe-06fd-490a-a078-c4da1754e03a</xsl:when>
           <xsl:when test="$mii='c'">f5cc2ab6-bb92-4cab-b83f-5a3d09261a41</xsl:when>
           <xsl:when test="$mii='b' or $mii='d'">068b5344-e2a6-40df-9186-1829e13cd344</xsl:when>
           <xsl:when test="$mii='z'">612bbd3d-c16b-4bfb-8517-2afafc60204a</xsl:when>
@@ -171,142 +245,152 @@
         <!-- three-dimensional moving image -->
         <xsl:when test="$ctype='tdi'">225faa14-f9bf-4ecd-990d-69433c912434</xsl:when>
         <!-- two-dimensional moving image -->
-        <xsl:when test="$ctype='zzz'">30fffe0e-e985-4144-b2e2-1e8179bdb41f</xsl:when>
-        <!-- unspecified -->
-        <xsl:otherwise>a2c91e87-6bab-44d6-8adb-1fd02481fc4f</xsl:otherwise>
+        <xsl:when test="$ctype='xxx'">a2c91e87-6bab-44d6-8adb-1fd02481fc4f</xsl:when>
         <!--  : other -->
+        <!-- hebis: changed default to "unspecified" -->
+        <xsl:otherwise>30fffe0e-e985-4144-b2e2-1e8179bdb41f</xsl:otherwise>
+        <!-- unspecified -->
       </xsl:choose>
     </instanceTypeId>
     <!-- Formats -->
     <instanceFormatIds>
       <arr>
-        <xsl:for-each select="datafield[@tag='002E']">
-          <i>
-            <xsl:choose>
-              <xsl:when test="./subfield[@code='b']='sg'">5642320a-2ab9-475c-8ca2-4af7551cf296</xsl:when>
-              <!-- audio : audio cartridge -->
-              <xsl:when test="./subfield[@code='b']='ss'">6d749f00-97bd-4eab-9828-57167558f514</xsl:when>
-              <!-- audio : audiocassette -->
-              <xsl:when test="./subfield[@code='b']='se'">485e3e1d-9f46-42b6-8c65-6bb7bd4b37f8</xsl:when>
-              <!-- audio : audio cylinder -->
-              <xsl:when test="./subfield[@code='b']='sd'">5cb91d15-96b1-4b8a-bf60-ec310538da66</xsl:when>
-              <!-- audio : audio disc -->
-              <xsl:when test="./subfield[@code='b']='sq'">7fde4e21-00b5-4de4-a90a-08a84a601aeb</xsl:when>
-              <!-- audio : audio roll -->
-              <xsl:when test="./subfield[@code='b']='st'">7612aa96-61a6-41bd-8ed2-ff1688e794e1</xsl:when>
-              <!-- audio : audiotape reel -->
-              <xsl:when test="./subfield[@code='b']='sw'">6a679992-b37e-4b57-b6ea-96be6b51d2b4</xsl:when>
-              <!-- audio : audio wire reel -->
-              <xsl:when test="./subfield[@code='b']='sz'">a3549b8c-3282-4a14-9ec3-c1cf294043b9</xsl:when>
-              <!-- audio : other -->
-              <xsl:when test="./subfield[@code='b']='si'">5bfb7b4f-9cd5-4577-a364-f95352146a56</xsl:when>
-              <!-- audio : sound track reel -->
-              <xsl:when test="./subfield[@code='b']='ck'">549e3381-7d49-44f6-8232-37af1cb5ecf3</xsl:when>
-              <!-- computer : computer card -->
-              <xsl:when test="./subfield[@code='b']='cb'">88f58dc0-4243-4c6b-8321-70244ff34a83</xsl:when>
-              <!-- computer : computer chip cartridge -->
-              <xsl:when test="./subfield[@code='b']='cd'">ac9de2b9-0914-4a54-8805-463686a5489e</xsl:when>
-              <!-- computer : computer disc -->
-              <xsl:when test="./subfield[@code='b']='ce'">e05f2613-05df-4b4d-9292-2ee9aa778ecc</xsl:when>
-              <!-- computer : computer disc cartridge -->
-              <xsl:when test="./subfield[@code='b']='ca'">f4f30334-568b-4dd2-88b5-db8401607daf</xsl:when>
-              <!-- computer : computer tape cartridge -->
-              <xsl:when test="./subfield[@code='b']='cf'">e5aeb29a-cf0a-4d97-8c39-7756c10d423c</xsl:when>
-              <!-- computer : computer tape cassette -->
-              <xsl:when test="./subfield[@code='b']='ch'">d16b19d1-507f-4a22-bb8a-b3f713a73221</xsl:when>
-              <!-- computer : computer tape reel -->
-              <xsl:when test="./subfield[@code='b']='cr'">f5e8210f-7640-459b-a71f-552567f92369</xsl:when>
-              <!-- computer : online resource -->
-              <xsl:when test="./subfield[@code='b']='cz'">fe1b9adb-e0cf-4e05-905f-ce9986279404</xsl:when>
-              <!-- computer : other -->
-              <xsl:when test="./subfield[@code='b']='ha'">cb3004a3-2a85-4ed4-8084-409f93d6d8ba</xsl:when>
-              <!-- microform : aperture card -->
-              <xsl:when test="./subfield[@code='b']='he'">fc3e32a0-9c85-4454-a42e-39fca788a7dc</xsl:when>
-              <!-- microform : microfiche -->
-              <xsl:when test="./subfield[@code='b']='hf'">b72e66e2-d946-4b01-a696-8fab07051ff8</xsl:when>
-              <!-- microform : microfiche cassette -->
-              <xsl:when test="./subfield[@code='b']='hb'">fc9bfed9-2cb0-465f-8758-33af5bba750b</xsl:when>
-              <!-- microform : microfilm cartridge -->
-              <xsl:when test="./subfield[@code='b']='hc'">b71e5ec6-a15d-4261-baf9-aea6be7af15b</xsl:when>
-              <!-- microform : microfilm cassette -->
-              <xsl:when test="./subfield[@code='b']='hd'">7bfe7e83-d4aa-46d1-b2a9-f612b18d11f4</xsl:when>
-              <!-- microform : microfilm reel -->
-              <xsl:when test="./subfield[@code='b']='hj'">cb96199a-21fb-4f11-b003-99291d8c9752</xsl:when>
-              <!-- microform : microfilm roll -->
-              <xsl:when test="./subfield[@code='b']='hh'">33009ba2-b742-4aab-b592-68b27451e94f</xsl:when>
-              <!-- microform : microfilm slip -->
-              <xsl:when test="./subfield[@code='b']='hg'">788aa9a6-5f0b-4c52-957b-998266ee3bd3</xsl:when>
-              <!-- microform : microopaque -->
-              <xsl:when test="./subfield[@code='b']='hz'">a0f2612b-f24f-4dc8-a139-89c3da5a38f1</xsl:when>
-              <!-- microform : other -->
-              <xsl:when test="./subfield[@code='b']='pp'">b1c69d78-4afb-4d8b-9624-8b3cfa5288ad</xsl:when>
-              <!-- microscopic : microscope slide -->
-              <xsl:when test="./subfield[@code='b']='pz'">55d3b8aa-304e-4967-8b78-55926d7809ac</xsl:when>
-              <!-- microscopic : other -->
-              <xsl:when test="./subfield[@code='b']='mc'">6bf2154b-df6e-4f11-97d0-6541231ac2be</xsl:when>
-              <!-- projected image : film cartridge -->
-              <xsl:when test="./subfield[@code='b']='mf'">47b226c0-853c-40f4-ba2e-2bd5ba82b665</xsl:when>
-              <!-- projected image : film cassette -->
-              <xsl:when test="./subfield[@code='b']='mr'">55a66581-3921-4b50-9981-4fe53bf35e7f</xsl:when>
-              <!-- projected image : film reel -->
-              <xsl:when test="./subfield[@code='b']='mo'">f0e689e8-e62d-4aac-b1c1-198ac9114aca</xsl:when>
-              <!-- projected image : film roll -->
-              <xsl:when test="./subfield[@code='b']='gd'">53f44ae4-167b-4cc2-9a63-4375c0ad9f58</xsl:when>
-              <!-- projected image : filmslip -->
-              <xsl:when test="./subfield[@code='b']='gf'">8e04d356-2645-4f97-8de8-9721cf11ccef</xsl:when>
-              <!-- projected image : filmstrip -->
-              <xsl:when test="./subfield[@code='b']='gc'">f7107ab3-9c09-4bcb-a637-368f39e0b140</xsl:when>
-              <!-- projected image : filmstrip cartridge -->
-              <xsl:when test="./subfield[@code='b']='mz'">9166e7c9-7edb-4180-b57e-e495f551297f</xsl:when>
-              <!-- projected image : other -->
-              <xsl:when test="./subfield[@code='b']='gt'">eb860cea-b842-4a8b-ab8d-0739856f0c2c</xsl:when>
-              <!-- projected image : overhead transparency -->
-              <xsl:when test="./subfield[@code='b']='gs'">b2b39d2f-856b-4419-93d3-ed1851f91b9f</xsl:when>
-              <!-- projected image : slide -->
-              <xsl:when test="./subfield[@code='b']='ez'">7c9b361d-66b6-4e4c-ae4b-2c01f655612c</xsl:when>
-              <!-- stereographic : other -->
-              <xsl:when test="./subfield[@code='b']='eh'">e62f4860-b3b0-462e-92b6-e032336ab663</xsl:when>
-              <!-- stereographic : stereograph card -->
-              <xsl:when test="./subfield[@code='b']='es'">c3f41d5e-e192-4828-805c-6df3270c1910</xsl:when>
-              <!-- stereographic : stereograph disc -->
-              <xsl:when test="./subfield[@code='b']='no'">5fa3e09f-2192-41a9-b4bf-9eb8aef0af0a</xsl:when>
-              <!-- unmediated : card -->
-              <xsl:when test="./subfield[@code='b']='nn'">affd5809-2897-42ca-b958-b311f3e0dcfb</xsl:when>
-              <!-- unmediated : flipchart -->
-              <xsl:when test="./subfield[@code='b']='nr'">926662e9-2486-4bb9-ba3b-59bd2e7f2a0c</xsl:when>
-              <!-- unmediated : object -->
-              <xsl:when test="./subfield[@code='b']='nz'">2802b285-9f27-4c86-a9d7-d2ac08b26a79</xsl:when>
-              <!-- unmediated : other -->
-              <xsl:when test="./subfield[@code='b']='na'">68e7e339-f35c-4be2-b161-0b94d7569b7b</xsl:when>
-              <!-- unmediated : roll -->
-              <xsl:when test="./subfield[@code='b']='nb'">5913bb96-e881-4087-9e71-33a43f68e12e</xsl:when>
-              <!-- unmediated : sheet -->
-              <xsl:when test="./subfield[@code='b']='nc'">8d511d33-5e85-4c5d-9bce-6e3c9cd0c324</xsl:when>
-              <!-- unmediated : volume -->
-              <xsl:when test="./subfield[@code='b']='zu'">98f0caa9-d38e-427b-9ec4-454de81a94d7</xsl:when>
-              <!-- unspecified : unspecified -->
-              <xsl:when test="./subfield[@code='b']='vz'">e3179f91-3032-43ee-be97-f0464f359d9c</xsl:when>
-              <!-- video : other -->
-              <xsl:when test="./subfield[@code='b']='vc'">132d70db-53b3-4999-bd79-0fac3b8b9b98</xsl:when>
-              <!-- video : video cartridge -->
-              <xsl:when test="./subfield[@code='b']='vf'">431cc9a0-4572-4613-b267-befb0f3d457f</xsl:when>
-              <!-- video : videocassette -->
-              <xsl:when test="./subfield[@code='b']='vd'">7f857834-b2e2-48b1-8528-6a1fe89bf979</xsl:when>
-              <!-- video : videodisc -->
-              <xsl:when test="./subfield[@code='b']='vr'">ba0d7429-7ccf-419d-8bfb-e6a1200a8d20</xsl:when>
-              <!-- video : videotape reel -->
-            </xsl:choose>
-          </i>
-        </xsl:for-each>
+        <xsl:choose>
+          <xsl:when test="datafield[@tag='002E']">
+            <xsl:for-each select="datafield[@tag='002E']">
+              <i>
+                <xsl:choose>
+                  <xsl:when test="./subfield[@code='b']='sg'">5642320a-2ab9-475c-8ca2-4af7551cf296</xsl:when>
+                  <!-- audio : audio cartridge -->
+                  <xsl:when test="./subfield[@code='b']='ss'">6d749f00-97bd-4eab-9828-57167558f514</xsl:when>
+                  <!-- audio : audiocassette -->
+                  <xsl:when test="./subfield[@code='b']='se'">485e3e1d-9f46-42b6-8c65-6bb7bd4b37f8</xsl:when>
+                  <!-- audio : audio cylinder -->
+                  <xsl:when test="./subfield[@code='b']='sd'">5cb91d15-96b1-4b8a-bf60-ec310538da66</xsl:when>
+                  <!-- audio : audio disc -->
+                  <xsl:when test="./subfield[@code='b']='sq'">7fde4e21-00b5-4de4-a90a-08a84a601aeb</xsl:when>
+                  <!-- audio : audio roll -->
+                  <xsl:when test="./subfield[@code='b']='st'">7612aa96-61a6-41bd-8ed2-ff1688e794e1</xsl:when>
+                  <!-- audio : audiotape reel -->
+                  <xsl:when test="./subfield[@code='b']='sw'">6a679992-b37e-4b57-b6ea-96be6b51d2b4</xsl:when>
+                  <!-- audio : audio wire reel -->
+                  <xsl:when test="./subfield[@code='b']='sz'">a3549b8c-3282-4a14-9ec3-c1cf294043b9</xsl:when>
+                  <!-- audio : other -->
+                  <xsl:when test="./subfield[@code='b']='si'">5bfb7b4f-9cd5-4577-a364-f95352146a56</xsl:when>
+                  <!-- audio : sound track reel -->
+                  <xsl:when test="./subfield[@code='b']='ck'">549e3381-7d49-44f6-8232-37af1cb5ecf3</xsl:when>
+                  <!-- computer : computer card -->
+                  <xsl:when test="./subfield[@code='b']='cb'">88f58dc0-4243-4c6b-8321-70244ff34a83</xsl:when>
+                  <!-- computer : computer chip cartridge -->
+                  <xsl:when test="./subfield[@code='b']='cd'">ac9de2b9-0914-4a54-8805-463686a5489e</xsl:when>
+                  <!-- computer : computer disc -->
+                  <xsl:when test="./subfield[@code='b']='ce'">e05f2613-05df-4b4d-9292-2ee9aa778ecc</xsl:when>
+                  <!-- computer : computer disc cartridge -->
+                  <xsl:when test="./subfield[@code='b']='ca'">f4f30334-568b-4dd2-88b5-db8401607daf</xsl:when>
+                  <!-- computer : computer tape cartridge -->
+                  <xsl:when test="./subfield[@code='b']='cf'">e5aeb29a-cf0a-4d97-8c39-7756c10d423c</xsl:when>
+                  <!-- computer : computer tape cassette -->
+                  <xsl:when test="./subfield[@code='b']='ch'">d16b19d1-507f-4a22-bb8a-b3f713a73221</xsl:when>
+                  <!-- computer : computer tape reel -->
+                  <xsl:when test="./subfield[@code='b']='cr'">f5e8210f-7640-459b-a71f-552567f92369</xsl:when>
+                  <!-- computer : online resource -->
+                  <xsl:when test="./subfield[@code='b']='cz'">fe1b9adb-e0cf-4e05-905f-ce9986279404</xsl:when>
+                  <!-- computer : other -->
+                  <xsl:when test="./subfield[@code='b']='ha'">cb3004a3-2a85-4ed4-8084-409f93d6d8ba</xsl:when>
+                  <!-- microform : aperture card -->
+                  <xsl:when test="./subfield[@code='b']='he'">fc3e32a0-9c85-4454-a42e-39fca788a7dc</xsl:when>
+                  <!-- microform : microfiche -->
+                  <xsl:when test="./subfield[@code='b']='hf'">b72e66e2-d946-4b01-a696-8fab07051ff8</xsl:when>
+                  <!-- microform : microfiche cassette -->
+                  <xsl:when test="./subfield[@code='b']='hb'">fc9bfed9-2cb0-465f-8758-33af5bba750b</xsl:when>
+                  <!-- microform : microfilm cartridge -->
+                  <xsl:when test="./subfield[@code='b']='hc'">b71e5ec6-a15d-4261-baf9-aea6be7af15b</xsl:when>
+                  <!-- microform : microfilm cassette -->
+                  <xsl:when test="./subfield[@code='b']='hd'">7bfe7e83-d4aa-46d1-b2a9-f612b18d11f4</xsl:when>
+                  <!-- microform : microfilm reel -->
+                  <xsl:when test="./subfield[@code='b']='hj'">cb96199a-21fb-4f11-b003-99291d8c9752</xsl:when>
+                  <!-- microform : microfilm roll -->
+                  <xsl:when test="./subfield[@code='b']='hh'">33009ba2-b742-4aab-b592-68b27451e94f</xsl:when>
+                  <!-- microform : microfilm slip -->
+                  <xsl:when test="./subfield[@code='b']='hg'">788aa9a6-5f0b-4c52-957b-998266ee3bd3</xsl:when>
+                  <!-- microform : microopaque -->
+                  <xsl:when test="./subfield[@code='b']='hz'">a0f2612b-f24f-4dc8-a139-89c3da5a38f1</xsl:when>
+                  <!-- microform : other -->
+                  <xsl:when test="./subfield[@code='b']='pp'">b1c69d78-4afb-4d8b-9624-8b3cfa5288ad</xsl:when>
+                  <!-- microscopic : microscope slide -->
+                  <xsl:when test="./subfield[@code='b']='pz'">55d3b8aa-304e-4967-8b78-55926d7809ac</xsl:when>
+                  <!-- microscopic : other -->
+                  <xsl:when test="./subfield[@code='b']='mc'">6bf2154b-df6e-4f11-97d0-6541231ac2be</xsl:when>
+                  <!-- projected image : film cartridge -->
+                  <xsl:when test="./subfield[@code='b']='mf'">47b226c0-853c-40f4-ba2e-2bd5ba82b665</xsl:when>
+                  <!-- projected image : film cassette -->
+                  <xsl:when test="./subfield[@code='b']='mr'">55a66581-3921-4b50-9981-4fe53bf35e7f</xsl:when>
+                  <!-- projected image : film reel -->
+                  <xsl:when test="./subfield[@code='b']='mo'">f0e689e8-e62d-4aac-b1c1-198ac9114aca</xsl:when>
+                  <!-- projected image : film roll -->
+                  <xsl:when test="./subfield[@code='b']='gd'">53f44ae4-167b-4cc2-9a63-4375c0ad9f58</xsl:when>
+                  <!-- projected image : filmslip -->
+                  <xsl:when test="./subfield[@code='b']='gf'">8e04d356-2645-4f97-8de8-9721cf11ccef</xsl:when>
+                  <!-- projected image : filmstrip -->
+                  <xsl:when test="./subfield[@code='b']='gc'">f7107ab3-9c09-4bcb-a637-368f39e0b140</xsl:when>
+                  <!-- projected image : filmstrip cartridge -->
+                  <xsl:when test="./subfield[@code='b']='mz'">9166e7c9-7edb-4180-b57e-e495f551297f</xsl:when>
+                  <!-- projected image : other -->
+                  <xsl:when test="./subfield[@code='b']='gt'">eb860cea-b842-4a8b-ab8d-0739856f0c2c</xsl:when>
+                  <!-- projected image : overhead transparency -->
+                  <xsl:when test="./subfield[@code='b']='gs'">b2b39d2f-856b-4419-93d3-ed1851f91b9f</xsl:when>
+                  <!-- projected image : slide -->
+                  <xsl:when test="./subfield[@code='b']='ez'">7c9b361d-66b6-4e4c-ae4b-2c01f655612c</xsl:when>
+                  <!-- stereographic : other -->
+                  <xsl:when test="./subfield[@code='b']='eh'">e62f4860-b3b0-462e-92b6-e032336ab663</xsl:when>
+                  <!-- stereographic : stereograph card -->
+                  <xsl:when test="./subfield[@code='b']='es'">c3f41d5e-e192-4828-805c-6df3270c1910</xsl:when>
+                  <!-- stereographic : stereograph disc -->
+                  <xsl:when test="./subfield[@code='b']='no'">5fa3e09f-2192-41a9-b4bf-9eb8aef0af0a</xsl:when>
+                  <!-- unmediated : card -->
+                  <xsl:when test="./subfield[@code='b']='nn'">affd5809-2897-42ca-b958-b311f3e0dcfb</xsl:when>
+                  <!-- unmediated : flipchart -->
+                  <xsl:when test="./subfield[@code='b']='nr'">926662e9-2486-4bb9-ba3b-59bd2e7f2a0c</xsl:when>
+                  <!-- unmediated : object -->
+                  <xsl:when test="./subfield[@code='b']='nz'">2802b285-9f27-4c86-a9d7-d2ac08b26a79</xsl:when>
+                  <!-- unmediated : other -->
+                  <xsl:when test="./subfield[@code='b']='na'">68e7e339-f35c-4be2-b161-0b94d7569b7b</xsl:when>
+                  <!-- unmediated : roll -->
+                  <xsl:when test="./subfield[@code='b']='nb'">5913bb96-e881-4087-9e71-33a43f68e12e</xsl:when>
+                  <!-- unmediated : sheet -->
+                  <xsl:when test="./subfield[@code='b']='nc'">8d511d33-5e85-4c5d-9bce-6e3c9cd0c324</xsl:when>
+                  <!-- unmediated : volume -->
+                  <xsl:when test="./subfield[@code='b']='zu'">98f0caa9-d38e-427b-9ec4-454de81a94d7</xsl:when>
+                  <!-- unspecified : unspecified -->
+                  <xsl:when test="./subfield[@code='b']='vz'">e3179f91-3032-43ee-be97-f0464f359d9c</xsl:when>
+                  <!-- video : other -->
+                  <xsl:when test="./subfield[@code='b']='vc'">132d70db-53b3-4999-bd79-0fac3b8b9b98</xsl:when>
+                  <!-- video : video cartridge -->
+                  <xsl:when test="./subfield[@code='b']='vf'">431cc9a0-4572-4613-b267-befb0f3d457f</xsl:when>
+                  <!-- video : videocassette -->
+                  <xsl:when test="./subfield[@code='b']='vd'">7f857834-b2e2-48b1-8528-6a1fe89bf979</xsl:when>
+                  <!-- video : videodisc -->
+                  <xsl:when test="./subfield[@code='b']='vr'">ba0d7429-7ccf-419d-8bfb-e6a1200a8d20</xsl:when>
+                  <!-- video : videotape reel -->
+                </xsl:choose>
+              </i>
+            </xsl:for-each>
+          </xsl:when>
+          <!-- hebis: added default "unspecified" -->
+          <xsl:otherwise><i>98f0caa9-d38e-427b-9ec4-454de81a94d7</i></xsl:otherwise>
+          <!-- unspecified -->
+        </xsl:choose>
       </arr>
     </instanceFormatIds>
     <!-- Identifiers -->
     <identifiers>
       <arr>
-        <!-- hebis: added missing tags: 004R, 004U, 004V, 006B, 006N, 006X, 007Y -->
-        <xsl:for-each select="datafield[@tag='003S' or @tag='003@' or @tag='004A' or @tag='004P' or @tag='004J' or @tag='004K' or @tag='004D' or @tag='005A' or @tag='005I' or @tag='005P' or @tag='005D' or @tag='004F' or @tag='004M' or @tag='004I' or @tag='006A' or @tag='006B' or @tag='006G' or @tag='006T' or @tag='006U' or @tag='006Z' or @tag='006S' or @tag='006L' or @tag='006N' or @tag='006V' or @tag='006W' or @tag='006X' or @tag='006M' or @tag='004V' or @tag='004R' or @tag='004W' or @tag='004L' or @tag='004C' or @tag='004U' or @tag='003O' or @tag='003T' or @tag='003D' or @tag='007C' or @tag='007D' or @tag='007G' or @tag='007Y' or @tag='017K' or @tag='017L']">
+        <!-- hebis: added tags: 004R, 004U, 004V, 006B, 006N, 006X, 007Y -->
+        <!-- GBV: correction (005B instead of 005D) -->
+        <!-- GBV: removed 017K -->
+        <xsl:for-each select="datafield[@tag='003S' or @tag='003@' or @tag='004A' or @tag='004P' or @tag='004J' or @tag='004K' or @tag='004D' or @tag='005A' or @tag='005I' or @tag='005P' or @tag='005B' or @tag='004F' or @tag='004M' or @tag='004I' or @tag='006A' or @tag='006B' or @tag='006G' or @tag='006T' or @tag='006U' or @tag='006Z' or @tag='006S' or @tag='006L' or @tag='006N' or @tag='006V' or @tag='006W' or @tag='006X' or @tag='006M' or @tag='004V' or @tag='004R' or @tag='004W' or @tag='004L' or @tag='004C' or @tag='004U' or @tag='003O' or @tag='003T' or @tag='003D' or @tag='007C' or @tag='007D' or @tag='007G' or @tag='007Y' or @tag='017L']">
           <xsl:choose>
-            <xsl:when test="./@tag='004A' or @tag='004D' or @tag='004P' or @tag='005A' or @tag='005P' or @tag='005D' or @tag='004F' or @tag='004M' or @tag='004I' or @tag='004R' or @tag='004U' or @tag='004V' or @tag='006B'">
+            <xsl:when test="./@tag='004A' or @tag='004D' or @tag='004P' or @tag='005A' or @tag='005P' or @tag='005B' or @tag='004F' or @tag='004M' or @tag='004I' or @tag='004R' or @tag='004U' or @tag='004V' or @tag='006B'">
               <xsl:variable name="id-value">
                 <xsl:choose>
                   <xsl:when test="./subfield[@code='f'] and ./subfield[@code='0']">
@@ -329,7 +413,8 @@
                   <xsl:when test="./@tag='004P' and ./subfield[@code='S']='u'">ISBN für parallele Ausgabe in einer anderen physischen Form</xsl:when>
                   <xsl:when test="./@tag='004P'">ISBN einer Manifestation in anderer physischer Form</xsl:when>
                   <xsl:when test="./@tag='005A'">ISSN</xsl:when>
-                  <xsl:when test="./@tag='005D'">Invalid ISSN</xsl:when>
+                  <!-- GBV: correction (005B instead of 005D) -->
+                  <xsl:when test="./@tag='005B'">Invalid ISSN</xsl:when>
                   <xsl:when test="./@tag='005P' and ./subfield[@code='S']='a'">ISSN für parallele Ausgaben auf einem anderen Datenträger</xsl:when>
                   <xsl:when test="./@tag='005P' and ./subfield[@code='S']='o'">ISSN für parallele Ausgaben im Fernzugriff</xsl:when>
                   <xsl:when test="./@tag='005P' and ./subfield[@code='S']='p'">ISSN für parallele Druckausgaben</xsl:when>
@@ -339,7 +424,7 @@
                   <xsl:when test="./@tag='004F'">ISMN</xsl:when>
                   <xsl:when test="./@tag='004M'">ISRN</xsl:when>
                   <xsl:when test="./@tag='004I'">Formal falsche ISMN</xsl:when>
-                  <!-- hebis: added missing labels -->
+                  <!-- hebis: added labels -->
                   <xsl:when test="./@tag='004R'">Handle</xsl:when>
                   <xsl:when test="./@tag='004U'">URN</xsl:when>
                   <xsl:when test="./@tag='004V'">DOI</xsl:when>
@@ -372,7 +457,7 @@
               <xsl:variable name="id-type">
                 <xsl:choose>
                   <xsl:when test="./@tag='007G'">Identnummer der erstkatalogisierenden Institution</xsl:when>
-                  <!-- hebis: added missing labels -->
+                  <!-- hebis: added labels -->
                   <xsl:when test="./@tag='007D'">Verlags-, Produktions- und Bestellnummer</xsl:when>
                 </xsl:choose>
               </xsl:variable>
@@ -387,34 +472,25 @@
                 </i>
               </xsl:if>
             </xsl:when>
-            <xsl:when test="./@tag='017K' or ./@tag='017L'">
+            <xsl:when test="./@tag='017L'">
               <xsl:variable name="id-value">
                 <xsl:call-template name="join">
                   <xsl:with-param name="list" select="./subfield[@code='a' or @code='b' or @code='c' or @code='d']"/>
                   <xsl:with-param name="separator" select="' '"/>
                 </xsl:call-template>
               </xsl:variable>
-              <xsl:variable name="id-type">
-                <xsl:choose>
-                  <!-- TBD: Label has changed in K10plus in the meantime, hasn't it? -->
-                  <xsl:when test="./@tag='017L'">Produktsigel Teilpaket, Arbeitsfeld für sonstige Produktsigel</xsl:when>
-                  <xsl:otherwise>Produktsigel Gesamtpaket</xsl:otherwise>
-                </xsl:choose>
-              </xsl:variable>
               <xsl:if test="string-length($id-value) &gt; 0">
                 <i>
                   <value>
                     <xsl:value-of select="$id-value"/>
                   </value>
-                  <identifierTypeId>
-                    <xsl:value-of select="$id-type"/>
-                  </identifierTypeId>
+                  <identifierTypeId>Produktsigel, Arbeitsfeld für sonstige Produktsigel</identifierTypeId>
                 </i>
               </xsl:if>
             </xsl:when>
             <xsl:when test="./subfield[@code='0']">
               <xsl:variable name="id-value">
-                <!-- hebis: added missing subfield $i -->
+                <!-- hebis: added subfield $i -->
                 <xsl:choose>
                   <xsl:when test="./subfield[@code='i']">
                     <xsl:value-of select="concat(./subfield[@code='i'],': ',./subfield[@code='0'])"/>
@@ -429,8 +505,8 @@
                   <xsl:when test="./@tag='003O'">OCLC</xsl:when>
                   <xsl:when test="./@tag='003S'">PPN SWB</xsl:when>
                   <xsl:when test="./@tag='003@'">PPN</xsl:when>
-                  <xsl:when test="./@tag='004J'">ISBN der Reproduktion</xsl:when>
-                  <xsl:when test="./@tag='004K'">Formal falsche ISBN der Reproduktion</xsl:when>
+                  <xsl:when test="./@tag='004J'">ISBN der Sekundärausgabe</xsl:when>
+                  <xsl:when test="./@tag='004K'">Formal falsche ISBN der Sekundärausgabe</xsl:when>
                   <xsl:when test="./@tag='005I'">Autorisierte ISSN</xsl:when>
                   <xsl:when test="./@tag='006A'">LCCN</xsl:when>
                   <xsl:when test="./@tag='006G'">DNB-Nummer</xsl:when>
@@ -472,8 +548,8 @@
     </identifiers>
 
     <!-- hebis: 
-       - added missing tags and subfields (parts of multipart resources with dependent title, "contained works")
-       - corrected order of tags and subfields, e.g. remainder of title and statement of responsibility of titles with subsets
+       - added tags and subfields (parts of multipart resources with dependent title, "contained works")
+       - changed order of tags and subfields, e.g. remainder of title and statement of responsibility of titles with subsets
        - separated transcription and Non Latin script
     -->
 
@@ -526,7 +602,14 @@
                 <xsl:value-of select="concat(' ', ./subfield[@code='e' or @code='h'])"/>
               </xsl:if>
               <xsl:if test="./subfield[@code='f']">
-                <xsl:value-of select="concat(' ', ./subfield[@code='f'])"/>
+                <xsl:choose>
+                  <xsl:when test="./subfield[@code='f'][contains(., '@')]">
+                    <xsl:value-of select="concat(' ', substring-after(./subfield[@code='f'], '@'))"/>
+                  </xsl:when>
+                  <xsl:otherwise>
+                    <xsl:value-of select="concat(' ', ./subfield[@code='f'])"/>
+                  </xsl:otherwise>
+                </xsl:choose>
               </xsl:if>
               <xsl:if test="./subfield[@code='l']">
                 <xsl:value-of select="concat(' ', ./subfield[@code='l'])"/>
@@ -565,7 +648,14 @@
                 <xsl:value-of select="concat(' ', ./subfield[@code='e' or @code='h'])"/>
               </xsl:if>
               <xsl:if test="./subfield[@code='f']">
-                <xsl:value-of select="concat(' ', ./subfield[@code='f'])"/>
+                <xsl:choose>
+                  <xsl:when test="./subfield[@code='f'][contains(., '@')]">
+                    <xsl:value-of select="substring-after(./subfield[@code='f'], '@')"/>
+                  </xsl:when>
+                  <xsl:otherwise>
+                    <xsl:value-of select="./subfield[@code='f']"/>
+                  </xsl:otherwise>
+                </xsl:choose>
               </xsl:if>
               <xsl:if test="./subfield[@code='r']">
                 <xsl:choose>
@@ -666,7 +756,14 @@
                 <xsl:value-of select="concat(' ', ./subfield[@code='e' or @code='h'])"/>
               </xsl:if>
               <xsl:if test="./subfield[@code='f']">
-                <xsl:value-of select="concat(' ', ./subfield[@code='f'])"/>
+                <xsl:choose>
+                  <xsl:when test="./subfield[@code='f'][contains(., '@')]">
+                    <xsl:value-of select="substring-after(./subfield[@code='f'], '@')"/>
+                  </xsl:when>
+                  <xsl:otherwise>
+                    <xsl:value-of select="./subfield[@code='f']"/>
+                  </xsl:otherwise>
+                </xsl:choose>
               </xsl:if>
             </xsl:for-each>
           </xsl:variable>
@@ -711,7 +808,14 @@
                 <xsl:for-each select="datafield[@tag='036E'][1]/subfield">
                   <xsl:choose>
                     <xsl:when test="@code='a'">
-                      <xsl:value-of select="translate(., '@', '')"/>
+                      <xsl:choose>
+                        <xsl:when test="./subfield[@code='a'][contains(., '@')]">
+                          <xsl:value-of select="concat(substring-before(./subfield[@code='a'], '@'), substring-after(./subfield[@code='a'], '@'))"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                          <xsl:value-of select="./subfield[@code='a']"/>
+                        </xsl:otherwise>
+                      </xsl:choose>
                     </xsl:when>
                     <xsl:when test="@code='h'">
                       <xsl:value-of select="concat(' / ', .)"/>
@@ -754,9 +858,11 @@
           </title> 
 
           <indexTitle>
+
+           <xsl:variable name="index-title">
             <xsl:choose>
               <xsl:when test="boolean(substring(datafield[@tag='002@']/subfield[@code='0'], 2, 1) = 'f') and datafield[@tag='036C']">
-                <xsl:value-of select="normalize-space(translate($title-036C-idx, '&#034;&#035;&#040;&#041;&#046;', ' '))"/>
+                <xsl:value-of select="$title-036C-idx"/>
                   <xsl:if test="$title-021A-idx != ''">
                     <xsl:value-of select="concat(' ', $title-021A-idx)"/>
                   </xsl:if>
@@ -784,7 +890,7 @@
               </xsl:when> 
 
               <xsl:when test="$title-021A-idx != ''">
-                <xsl:value-of select="concat(translate($title-021A-idx, '&#034;&#035;&#040;&#041;&#046;', ' '), $title-021C-idx)"/>
+                <xsl:value-of select="concat($title-021A-idx, ' ', $title-021C-idx)"/>
                   <!-- hebis: ZDB special feature since the RDA switch:
                               Edition Statement instead of subseries -->
                   <xsl:if test="boolean(substring(datafield[@tag='002@']/subfield[@code='0'], 2, 1) = 'b') or boolean(substring(datafield[@tag='002@']/subfield[@code='0'], 2, 1) = 'd')">
@@ -801,12 +907,16 @@
               </xsl:when>
               <xsl:otherwise>KEIN TITEL, IM CBS PRÜFEN</xsl:otherwise>
             </xsl:choose>
+           </xsl:variable>
+
+           <xsl:value-of select="normalize-space(translate($index-title, '&#33;&#34;&#35;&#36;&#37;&#38;&#40;&#43;&#44;&#58;&#41;&#42;&#45;&#46;&#47;&#59;&#60;&#61;&#63;&#91;&#92;&#93;', ''))"/>  
           </indexTitle>
 
     <!-- Alternative titles -->
 
-    <!-- hebis: added missing tags: 021A + 036C (Non Latin script), 021M, 021N + 046D -->
-    <xsl:if test="datafield[@tag='047C' or @tag='027A' or @tag='021F' or @tag='046C' or @tag='046D' or @tag='026C' or @tag='036C' or @tag='021A'] or datafield[@tag='022A'][@occurrence='00']">
+    <!-- hebis: added tags: 021A + 036C (Non Latin script), 021M, 021N + 046D -->
+    <!-- hebis: removed [@occurrence='00'] from 022A, all occurrences should be displayed -->
+    <xsl:if test="datafield[@tag='047C' or @tag='027A' or @tag='021F' or @tag='046C' or @tag='046D' or @tag='026C' or @tag='036C' or @tag='021A'] or datafield[@tag='022A']">
       <alternativeTitles>
         <arr>
 
@@ -863,7 +973,14 @@
           <xsl:for-each select="datafield[@tag='047C' or @tag='027A' or @tag='026C']">
             <i>
               <alternativeTitle>
-                <xsl:value-of select="translate(./subfield[@code='a'], '@', '')"/>
+                <xsl:choose>
+                  <xsl:when test="./subfield[@code='a'][contains(., '@')]">
+                    <xsl:value-of select="concat(substring-before(./subfield[@code='a'], '@'), substring-after(./subfield[@code='a'], '@'))"/>
+                  </xsl:when>
+                  <xsl:otherwise>
+                    <xsl:value-of select="./subfield[@code='a']"/>
+                  </xsl:otherwise>
+                </xsl:choose>
               </alternativeTitle>
               <alternativeTitleTypeId>
                 <xsl:choose>
@@ -900,7 +1017,18 @@
           </xsl:for-each>
           <xsl:for-each select="datafield[@tag='046C']">
             <xsl:variable name="vti" select="./subfield[@code='i']"/>
-            <xsl:variable name="vta" select="./subfield[@code='a']"/>
+            <xsl:variable name="vta">
+              <xsl:if test="./subfield[@code='a']">
+                <xsl:choose>
+                  <xsl:when test="./subfield[@code='a'][contains(., '@')]">
+                    <xsl:value-of select="concat(substring-before(./subfield[@code='a'], '@'), substring-after(./subfield[@code='a'], '@'))"/>
+                  </xsl:when>
+                  <xsl:otherwise>
+                    <xsl:value-of select="./subfield[@code='a']"/>
+                  </xsl:otherwise>
+                </xsl:choose>
+              </xsl:if>
+            </xsl:variable>
             <i>
               <alternativeTitle>
                 <xsl:choose>
@@ -916,10 +1044,21 @@
             </i>
           </xsl:for-each>
 
-          <!-- hebis: added missing tag -->
+          <!-- hebis: added tag -->
           <xsl:for-each select="datafield[@tag='046D']">
             <xsl:variable name="vti" select="./subfield[@code='i']"/>
-            <xsl:variable name="vta" select="./subfield[@code='a']"/>
+            <xsl:variable name="vta">
+              <xsl:if test="./subfield[@code='a']">
+                <xsl:choose>
+                  <xsl:when test="./subfield[@code='a'][contains(., '@')]">
+                    <xsl:value-of select="concat(substring-before(./subfield[@code='a'], '@'), substring-after(./subfield[@code='a'], '@'))"/>
+                  </xsl:when>
+                  <xsl:otherwise>
+                    <xsl:value-of select="./subfield[@code='a']"/>
+                  </xsl:otherwise>
+                </xsl:choose>
+              </xsl:if>
+            </xsl:variable>
             <i>
               <alternativeTitle>
                 <xsl:choose>
@@ -936,7 +1075,7 @@
             </i>
           </xsl:for-each>
 
-          <!-- hebis: added missing subfields -->
+          <!-- hebis: added subfields -->
           <xsl:for-each select="datafield[@tag='022A']">
             <i>
               <alternativeTitle>
@@ -944,17 +1083,30 @@
                 <xsl:choose>
                  <!-- TBD: need for discussion: Expansion
                            $8 solution won't work at GBV if there is a creator! -->
-                  <xsl:when test="./subfield[@code='8'][contains(., ' ; ID:')]">
+                  <xsl:when test="./subfield[@code='8'][contains(., ' ; ID:')] and ./subfield[@code='8'][contains(., '@')]">
+                    <xsl:value-of select="substring-before(concat(substring-before(./subfield[@code='8'], '@'), substring-after(./subfield[@code='8'], '@')), ' ; ID:')"/>
+                  </xsl:when>
+                  <xsl:when test="./subfield[@code='8'][contains(., ' ; ID:')] and ./subfield[@code='8'][not(contains(., '@'))]">
                     <xsl:value-of select="substring-before(./subfield[@code='8'], ' ; ID:')"/>
                   </xsl:when>
-                  <xsl:when test="./subfield[@code='8']">
+                  <xsl:when test="./subfield[@code='8'][not(contains(., ' ; ID:'))] and ./subfield[@code='8'][contains(., '@')]">
+                    <xsl:value-of select="concat(substring-before(./subfield[@code='8'], '@'), substring-after(./subfield[@code='8'], '@'))"/>
+                  </xsl:when>
+                  <xsl:when test="./subfield[@code='8'][not(contains(., ' ; ID:'))] and ./subfield[@code='8'][not(contains(., '@'))]">
                     <xsl:value-of select="./subfield[@code='8']"/>
                   </xsl:when>
                   <xsl:otherwise>
                     <xsl:for-each select="subfield">
                       <xsl:choose>
                         <xsl:when test="@code='a'">
-                          <xsl:value-of select="."/>
+                          <xsl:choose>
+                            <xsl:when test="contains(., '@')">
+                              <xsl:value-of select="concat(substring-before(., '@'), substring-after(., '@'))"/>
+                            </xsl:when>
+                            <xsl:otherwise>
+                              <xsl:value-of select="."/>
+                            </xsl:otherwise>
+                          </xsl:choose>
                         </xsl:when>
                         <xsl:when test="@code='f' or @code='g'">
                           <xsl:value-of select="concat(' (',.,')')"/>
@@ -990,7 +1142,8 @@
       </alternativeTitles>
     </xsl:if>
     <!-- Contributors -->
-    <xsl:if test="datafield[@tag='028A' or @tag='028B' or @tag='028C' or @tag='028G' or @tag='029A']">
+    <!-- hebis: added tag 029F -->
+    <xsl:if test="datafield[@tag='028A' or @tag='028B' or @tag='028C' or @tag='028G' or @tag='029A' or @tag='029F']">
       <contributors>
         <arr>
           <xsl:for-each select="datafield[@tag='028A' or @tag='028B' or @tag='028C' or @tag='028G']">
@@ -1003,22 +1156,21 @@
                   <xsl:when test="./subfield[@code='8']">
                     <xsl:value-of select="./subfield[@code='8']"/>
                   </xsl:when>
-                  <!-- hebis: added missing subfields and corrected ISBD punctuation -->
-                  <!-- TBD: Need for clarification/discussion 
-                            Expansion and capital letters D, C, N, especially L -->
+                  <!-- hebis: added subfields and changed ISBD punctuation -->
+                  <!-- hebis: removed capital letters D, C, N, L -->
                   <xsl:when test="./subfield[@code='a' or @code='P']">
                     <xsl:value-of select="./subfield[@code='a' or @code='P']"/>
-                    <xsl:if test="./subfield[@code='d' or @code='D']">
-                       <xsl:value-of select="concat(', ', ./subfield[@code='d' or @code='D'])"/>
+                    <xsl:if test="./subfield[@code='d']">
+                       <xsl:value-of select="concat(', ', ./subfield[@code='d'])"/>
                     </xsl:if>
-                    <xsl:if test="./subfield[@code='c' or @code='C']">
-                       <xsl:value-of select="concat(' ', ./subfield[@code='c' or @code='C'])"/>
+                    <xsl:if test="./subfield[@code='c']">
+                       <xsl:value-of select="concat(' ', ./subfield[@code='c'])"/>
                     </xsl:if>
-                    <xsl:if test="./subfield[@code='n' or @code='N']">
-                       <xsl:value-of select="concat(' ', ./subfield[@code='n' or @code='N'])"/>
+                    <xsl:if test="./subfield[@code='n']">
+                       <xsl:value-of select="concat(' ', ./subfield[@code='n'])"/>
                     </xsl:if>
-                    <xsl:if test="./subfield[@code='l']"> <!-- or or @code='L' -->
-                       <xsl:value-of select="concat(', ', ./subfield[@code='l'])"/> <!-- or or @code='L' -->
+                    <xsl:if test="./subfield[@code='l']">
+                       <xsl:value-of select="concat(', ', ./subfield[@code='l'])"/>
                     </xsl:if>
                     <xsl:if test="./subfield[@code='h']">
                        <xsl:value-of select="concat(' *', ./subfield[@code='h'],'*')"/>
@@ -1051,10 +1203,8 @@
             </xsl:if>
           </xsl:for-each>
           <!-- Corporate authors-->
-          <!-- hebis: added missing subfields and corrected ISBD punctuation -->
-          <!-- TBD: Need for clarification/discussion 
-                    Expansion and capital letters A, B, D, G, N, X in original code
-          -->
+          <!-- hebis: added subfields and changed ISBD punctuation -->
+          <!-- hebis: removed capital letters A, B, D, G, N, X  -->
           <xsl:for-each select="datafield[@tag='029A' or @tag='029F']">
             <xsl:if test="./subfield[@code='a' or @code='8']">
               <xsl:variable name="con-name">
@@ -1141,8 +1291,10 @@
             <publisher>
               <xsl:for-each select="./subfield[@code='n']">
                 <xsl:variable name="pos" select="position()"/>
+                <!-- GBV: Added value 'e', corrected value 'z' to value 's' -->
+                <xsl:if test="../subfield[@code='z'][$pos] = 'e'">erster: </xsl:if>
                 <xsl:if test="../subfield[@code='z'][$pos] = 'f'">früher: </xsl:if>
-                <xsl:if test="../subfield[@code='z'][$pos] = 'z'">später: </xsl:if>
+                <xsl:if test="../subfield[@code='z'][$pos] = 's'">später: </xsl:if>
                 <xsl:value-of select="."/>
                 <xsl:if test="../subfield[@code='h'][$pos]">
                   <xsl:value-of select="concat(' (', ../subfield[@code='h'][$pos], ')')"/>
@@ -1166,25 +1318,25 @@
                   <xsl:when test="$date-n">
                     <xsl:value-of select="$date-n"/>
                   </xsl:when>
-                  <xsl:when test="$date-d and $date-n">
+                  <xsl:when test="$date-d and $date-n"> <!-- TBD -->
                     <xsl:value-of select="concat($date-abcd, ' (', $date-n, ')')"/>
                   </xsl:when>
                   <xsl:when test="$date-d">
                     <xsl:value-of select="$date-abcd"/>
                   </xsl:when>
-                  <xsl:when test="$date-c and $date-n">
+                  <xsl:when test="$date-c and $date-n"> <!-- TBD -->
                     <xsl:value-of select="concat($date-ac, ' (', $date-n, ')')"/>
                   </xsl:when>
                   <xsl:when test="$date-c">
                     <xsl:value-of select="$date-ac"/>
                   </xsl:when>
-                  <xsl:when test="$date-b and $date-n">
+                  <xsl:when test="$date-b and $date-n"> <!-- TBD -->
                     <xsl:value-of select="concat($date-ab, ' (', $date-n, ')')"/>
                   </xsl:when>
                   <xsl:when test="$date-b">
                     <xsl:value-of select="$date-ab"/>
                   </xsl:when>
-                  <xsl:when test="$date-a and $date-n">
+                  <xsl:when test="$date-a and $date-n"> <!-- TBD -->
                     <xsl:value-of select="concat($date-a, ' (', $date-n, ')')"/>
                   </xsl:when>
                   <xsl:otherwise>
@@ -1248,7 +1400,8 @@
     <electronicAccess>
       <arr>
         <!-- hebis: took out "or @tag='017M' or @tag='017R'" --> 
-        <xsl:for-each select="datafield[@tag='009P' or @tag='017C']">
+        <!-- GBV: added tag 109R -->
+        <xsl:for-each select="datafield[@tag='009P' or @tag='017C' or @tag='109R']">
           <xsl:if test="./@tag='009P' and ./subfield[@code='a']">
             <i>
               <uri>
@@ -1308,15 +1461,26 @@
               <relationshipId>f781cb3d-af16-40f6-9d02-c24204ac6fdc</relationshipId> 
             </i>
           </xsl:if> -->
+        <!-- GBV: added tag 109R -->
+		  <xsl:if test="./@tag='109R' and ./subfield[@code='u']">
+            <i>
+              <uri>
+                <xsl:value-of select="./subfield[@code='u']"/>
+              </uri>
+              <relationshipId>1e178616-2b75-4ecf-a8c8-99b85273dcfc</relationshipId>
+			  <!-- EZB-Frontpage (3433) -->
+            </i>
+          </xsl:if>
         </xsl:for-each>
       </arr>
     </electronicAccess>
     <!-- Notes -->
-    <!-- hebis: added missing/new tags: 017M, 017R, 035E, 037C, 039B, 039C, 039D, 039E, 046K, 046U, 047I, 048H -->
-    <xsl:if test="datafield[@tag='011B' or @tag='017M' or @tag='017R' or @tag='035E' or @tag='037A' or @tag='037C' or @tag='037I' or @tag='039B' or @tag='039C' or @tag='039D' or @tag='039E' or @tag='046P' or @tag='046L' or @tag='046K' or @tag='046U' or @tag='047I' or @tag='048H']">
+    <!-- hebis: added tags: 013E, 017M, 017R, 032X, 032Y, 032Z, 035E, 037C, 039B, 039C, 039D, 039E, 046K, 046M, 046N, 046U, 047I, 048H -->
+    <!-- GBV: corrections (037G instead of 037I) -->
+    <xsl:if test="datafield[@tag='011B' or @tag='013E' or @tag='017M' or @tag='017R' or @tag='032X' or @tag='032Y' or @tag='032Z' or @tag='035E' or @tag='037A' or @tag='037C' or @tag='037G' or @tag='039B' or @tag='039C' or @tag='039D' or @tag='039E' or @tag='046P' or @tag='046L' or @tag='046K' or @tag='046M' or @tag='046N' or @tag='046U' or @tag='047I' or @tag='048H']">
       <notes>
         <arr>
-          <xsl:for-each select="datafield[@tag='011B' or @tag='017M' or @tag='017R' or @tag='035E' or @tag='037A' or @tag='037C' or @tag='037I' or @tag='039B' or @tag='039C' or @tag='039D' or @tag='039E' or @tag='046P' or @tag='046K' or @tag='046L' or @tag='046U' or @tag='047I' or @tag='048H']">
+          <xsl:for-each select="datafield[@tag='011B' or @tag='013E' or @tag='017M' or @tag='017R' or @tag='032X' or @tag='032Y' or @tag='032Z' or @tag='035E' or @tag='037A' or @tag='037C' or @tag='037G' or @tag='039B' or @tag='039C' or @tag='039D' or @tag='039E' or @tag='046P' or @tag='046K' or @tag='046L' or @tag='046M' or @tag='046N' or @tag='046U' or @tag='047I' or @tag='048H']">
             <i>
               <xsl:choose>
                 <xsl:when test="./@tag='011B'">
@@ -1359,18 +1523,31 @@
                     <xsl:choose>
                       <xsl:when test="@code='8'">
                         <xsl:choose>
-                          <xsl:when test="contains(., ' ; ID:')">
-                            <xsl:value-of select="substring-before(@code='8', ' ; ID:')"/>
+                          <xsl:when test="contains(., ' ; ID:') and contains(., '@')">
+                            <xsl:value-of select="substring-before(concat(substring-before(., '@'), substring-after(., '@')), ' ; ID:')"/>
                           </xsl:when>
-                          <xsl:otherwise>
+                          <xsl:when test="contains(., ' ; ID:') and not(contains(., '@'))">
+                            <xsl:value-of select="substring-before(., ' ; ID:')"/>
+                          </xsl:when>
+                          <xsl:when test="not(contains(., ' ; ID:')) and contains(., '@')">
+                            <xsl:value-of select="concat(substring-before(., '@'), substring-after(., '@'))"/>
+                          </xsl:when>
+                          <xsl:when test="not(contains(., ' ; ID:')) and not(contains(., '@'))">
                             <xsl:value-of select="."/>
-                          </xsl:otherwise>
+                          </xsl:when>
                         </xsl:choose>
                       </xsl:when>
                       <xsl:otherwise>
                         <xsl:choose>
                           <xsl:when test="@code='a' or @code='t'">
-                            <xsl:value-of select="."/>
+                            <xsl:choose>
+                              <xsl:when test="contains(., '@')">
+                                <xsl:value-of select="concat(substring-before(., '@'), substring-after(., '@'))"/>
+                              </xsl:when>
+                              <xsl:otherwise>
+                                <xsl:value-of select="."/>
+                              </xsl:otherwise>
+                            </xsl:choose>
                           </xsl:when>
                           <xsl:when test="@code='l'">
                             <xsl:value-of select="concat( . , '. ' )"/>
@@ -1436,6 +1613,114 @@
                   <instanceNoteTypeId>Dissertation note</instanceNoteTypeId>
                 </xsl:when>
 
+                <!-- hebis: added new tag for "Format of notated music" -->
+                <xsl:when test="./@tag='013E'">
+                  <note>
+                    <xsl:for-each select="subfield">
+                      <xsl:choose>
+                        <xsl:when test="@code='8'">
+                          <xsl:choose>
+                            <xsl:when test="contains(., ' ; ID:')">
+                              <xsl:value-of select="substring-before(., ' ; ID:')"/>
+                            </xsl:when>
+                            <xsl:otherwise>
+                              <xsl:value-of select="."/>
+                            </xsl:otherwise>
+                          </xsl:choose>
+                        </xsl:when>
+                        <xsl:when test="@code='a'">
+                          <xsl:value-of select="."/>
+                        </xsl:when>
+                      </xsl:choose> 
+                    </xsl:for-each>
+                  </note>
+                  <instanceNoteTypeId>Musikalische Ausgabeform</instanceNoteTypeId>
+                </xsl:when> 
+
+                <!-- hebis: added new tag for "Medium of Performance" -->
+                <xsl:when test="./@tag='032X'">
+                  <note>
+                    <xsl:for-each select="subfield">
+                      <xsl:choose>
+                        <xsl:when test="@code='8'">
+                          <xsl:value-of select="substring-before(., ' ; ID:')"/>
+                        </xsl:when>
+                        <xsl:when test="@code='s'">
+                          <xsl:value-of select="concat('Instrumente/Solisten: ',.)"/>
+                        </xsl:when>
+                        <xsl:when test="@code='t'">
+                          <xsl:value-of select="concat('Ensembles: ',.)"/>
+                        </xsl:when>
+                        <xsl:when test="@code='a' or @code='p'">
+                          <xsl:value-of select="."/>
+                        </xsl:when>
+                        <xsl:when test="@code='e' or @code='n'">
+                          <xsl:value-of select="concat(' (',.,')')"/>
+                        </xsl:when>
+                        <xsl:when test="@code='v'">
+                          <xsl:value-of select="concat(', ',.)"/>
+                        </xsl:when>
+                      </xsl:choose>
+                    </xsl:for-each>
+                  </note>
+                  <instanceNoteTypeId>Besetzung</instanceNoteTypeId>
+                </xsl:when> 
+
+                <!-- hebis: added new tag for "Numeric Designation of Musical Work" -->
+                <xsl:when test="./@tag='032Y'">
+                  <note>
+                    <xsl:for-each select="subfield">
+                      <xsl:choose>
+                        <xsl:when test="@code='a' or @code='b' or @code='c' or @code='d' or @code='e'">
+                          <xsl:value-of select="."/>
+                        </xsl:when>
+                      </xsl:choose> 
+                    </xsl:for-each>
+                  </note>
+                  <instanceNoteTypeId>Numerische Bezeichnung eines Musikwerks</instanceNoteTypeId>
+                </xsl:when> 
+
+                <!-- hebis: added new tag for "Key" -->
+                <xsl:when test="./@tag='032Z'">
+                  <note>
+                    <xsl:for-each select="subfield">
+                      <xsl:choose>
+                        <xsl:when test="@code='a'">
+                          <xsl:value-of select="concat(., ' (Original)')"/>
+                        </xsl:when>
+                        <xsl:when test="@code='b'">
+                          <xsl:value-of select="concat(., ' (Fassung)')"/>
+                        </xsl:when>
+                      </xsl:choose> 
+                    </xsl:for-each>
+                  </note>
+                  <instanceNoteTypeId>Tonart</instanceNoteTypeId>
+                </xsl:when> 
+
+                <!-- hebis: added new tag for "With note" -->
+                <xsl:when test="./@tag='046M'">
+                  <note>
+                    <xsl:for-each select="subfield">
+                      <xsl:choose>
+                        <xsl:when test="@code='u' or @code='a'">
+                          <xsl:choose>
+                            <xsl:when test="contains(., '@')">
+                              <xsl:value-of select="concat(substring-before(., '@'), substring-after(., '@'))"/>
+                            </xsl:when>
+                            <xsl:otherwise>
+                              <xsl:value-of select="."/>
+                            </xsl:otherwise>
+                          </xsl:choose>
+                        </xsl:when>
+                        <xsl:when test="@code='h'">
+                           <xsl:value-of select="concat(' / ',.)"/>
+                        </xsl:when>
+                      </xsl:choose> 
+                    </xsl:for-each>
+                  </note>
+                  <instanceNoteTypeId>With note</instanceNoteTypeId>
+                </xsl:when> 
+
                 <xsl:otherwise>
                   <note>
                     <xsl:value-of select="./subfield[@code='a']"/>
@@ -1451,8 +1736,10 @@
                     <xsl:when test="./@tag='035E'">
                       <instanceNoteTypeId>Cartographic Mathematical Data</instanceNoteTypeId>
                     </xsl:when>
+                    <!-- GBV: changed label -->
                     <xsl:when test="./@tag='046K'">
-                      <instanceNoteTypeId>Estimated publication date</instanceNoteTypeId>
+
+                      <instanceNoteTypeId>Voraussichtlicher Erscheinungstermin</instanceNoteTypeId>
                     </xsl:when>
                     <xsl:when test="./@tag='046L'">
                       <instanceNoteTypeId>Language note</instanceNoteTypeId>
@@ -1460,13 +1747,18 @@
                     <xsl:when test="./@tag='046P'">
                       <instanceNoteTypeId>Numbering peculiarities note</instanceNoteTypeId>
                     </xsl:when>
+                    <!-- hebis: added new labels -->
+                    <xsl:when test="./@tag='046N'">
+                      <instanceNoteTypeId>Participant or Performer note</instanceNoteTypeId>
+                    </xsl:when>
                     <xsl:when test="./@tag='046U'">
                       <instanceNoteTypeId>Target Audience Note</instanceNoteTypeId>
                     </xsl:when>
                     <xsl:when test="./@tag='047I'">
                       <instanceNoteTypeId>Summary</instanceNoteTypeId>
                     </xsl:when>
-                    <xsl:when test="./@tag='037I'">
+                    <!-- hebis: correction (037G instead of 037I) -->
+                    <xsl:when test="./@tag='037G'">
                       <instanceNoteTypeId>Reproduction note</instanceNoteTypeId>
                     </xsl:when>
                     <xsl:when test="./@tag='048H'">
@@ -1551,7 +1843,7 @@
       </languages>
     </xsl:if>
 	<!-- series -->
-    <!-- hebis: added missing subfields -->
+    <!-- hebis: added subfields -->
     <!-- TBD: need for adjustment at GBV? Not sure about the subfields in PXB-format -->
     <series>
      <arr>
@@ -1561,7 +1853,14 @@
               <xsl:for-each select="subfield">
                 <xsl:choose>
                   <xsl:when test="@code='a'">
-                    <xsl:value-of select="translate(., '@', '')"/>
+                    <xsl:choose>
+                      <xsl:when test="contains(., '@')">
+                        <xsl:value-of select="concat(substring-before(., '@'), substring-after(., '@'))"/>
+                      </xsl:when>
+                      <xsl:otherwise>
+                        <xsl:value-of select="."/>
+                      </xsl:otherwise>
+                    </xsl:choose>
                   </xsl:when>
                   <xsl:when test="@code='h'">
                     <xsl:value-of select="concat(' / ', .)"/>
@@ -1626,7 +1925,7 @@
         <arr>
           <i>
             <xsl:choose>
-            <!-- hebis: correction (depending on the constellation, not all tags were displayed) -->
+            <!-- hebis: depending on the constellation, not all tags were displayed -->
               <xsl:when test="$phd != ''">
                 <xsl:value-of select="$phd"/>
                 <xsl:if test="$phm != ''">
@@ -1681,6 +1980,24 @@
         </arr>
       </editions>
     </xsl:if>
+
+    <!-- GBV: Added Administrative notes -->
+    <!-- hebis: Added last modified date -->
+    <administrativeNotes>
+      <arr>
+        <xsl:for-each select="datafield[@tag='002@']">
+          <i>
+            <xsl:value-of select="concat(./subfield[@code='0'], ' (Bibliografische Gattung)')"/>
+          </i>
+        </xsl:for-each>
+        <xsl:for-each select="datafield[@tag='001B']">
+          <i>
+            <xsl:value-of select="concat(translate(substring-after(./subfield[@code='0'], ':'), '-', '.'),', ', substring(./subfield[@code='t'],1,5), ' (Datum der letzten Änderung)')"/>
+          </i>
+        </xsl:for-each>
+      </arr>
+    </administrativeNotes>
+
   </xsl:template>
   
   <xsl:template match="text()"/>

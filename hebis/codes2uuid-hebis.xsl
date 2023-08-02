@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?> 
+<!-- date of last edit: 2023-07-21 (YYYY-MM-DD) -->
 
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:output indent="yes" method="xml" version="1.0" encoding="UTF-8"/>
@@ -25,7 +26,7 @@
       </xsl:choose>
     </itemNoteTypeId>
   </xsl:template>
-  
+
    <!-- Map holding note types -->
   <xsl:template match="holdingsNoteTypeId"> <!-- Level 2: FOLIO/hebis-wide -->
     <holdingsNoteTypeId>
@@ -41,13 +42,16 @@
         <xsl:when test=".='Lokaler Schlüssel'"><xsl:text>49050d37-2d82-452c-a963-2645ffc0b9a9</xsl:text></xsl:when> <!-- hebis-wide -->
         <xsl:when test=".='Text zur Ausleihbarkeit'"><xsl:text>f862da41-4a7a-4864-8a52-befa58ab210b</xsl:text></xsl:when> <!-- hebis-wide -->
         <xsl:when test=".='Standort (8201)'"><xsl:text>013e0b2c-2259-4ee8-8d15-f463f1aeb0b1</xsl:text></xsl:when> <!-- hebis-wide -->
+        <xsl:when test=".='Letzte Änderung CBS'"><xsl:text>7cad8584-35f9-4ea7-8944-11bcf40ff29c</xsl:text></xsl:when> <!-- hebis-wide -->
+        <xsl:when test=".='Lokale Schlagwörter'"><xsl:text>65eea0de-f9da-46e1-828a-479579997110</xsl:text></xsl:when> <!-- ILN-specific -->
+        <xsl:when test=".='Lokale Klassifikationen'"><xsl:text>2b56966a-4fb2-4695-befe-073ac0d22996</xsl:text></xsl:when> <!-- ILN-specific -->
         <xsl:otherwise>b160f13a-ddba-4053-b9c4-60ec5ea45d56</xsl:otherwise> <!-- Note -->
       </xsl:choose>
     </holdingsNoteTypeId>
   </xsl:template>
 
   <!-- Map instance note types -->
-  <xsl:template match="instanceNoteTypeId"> <!-- Level 0: FOLIO -->
+  <xsl:template match="instanceNoteTypeId"> <!-- Level 0: FOLIO / hebis or ILN? -->
     <instanceNoteTypeId>
       <xsl:choose>
         <xsl:when test=".='Information related to Copyright Status'">654be0fd-bba2-4791-afa3-ae60300d7043</xsl:when>
@@ -103,6 +107,10 @@
         <xsl:when test=".='Study Program Information note'">06489647-c7b7-4b6c-878a-cb7c1178e9ca</xsl:when>
         <xsl:when test=".='Issuing Body note'">49475f04-35ef-4f8a-aa7f-92773594ca76</xsl:when>
         <xsl:when test=".='Dissertation note'">b73cc9c2-c9fa-49aa-964f-5ae1aa754ecd</xsl:when>
+        <xsl:when test=".='Besetzung'"><xsl:text>95c85c62-9a3d-4483-82a2-9d2cdc9c2636</xsl:text></xsl:when>
+        <xsl:when test=".='Musikalische Ausgabeform'"><xsl:text>12fd955c-9031-4656-8e5e-71a12ba7f31c</xsl:text></xsl:when>
+        <xsl:when test=".='Numerische Bezeichnung eines Musikwerks'"><xsl:text>c56f790b-6d61-4458-90d2-647c3444cbf5</xsl:text></xsl:when>
+        <xsl:when test=".='Tonart'"><xsl:text>aa23e56b-3df0-4ec2-8b7d-ae6fc3a14448</xsl:text></xsl:when>
         <xsl:otherwise>6a2533a7-4de2-4e64-8466-074c2fa9308c</xsl:otherwise> <!-- General note -->
       </xsl:choose>
     </instanceNoteTypeId>
@@ -522,6 +530,15 @@
     </identifierTypeId>
   </xsl:template>
   
+  <!-- Map classification types -->
+  <xsl:template match="classificationTypeId"> <!-- Level 1: ILN-specific  -->
+    <classificationTypeId>
+    <xsl:choose>
+      <xsl:when test=".='Lokale Klassifikation'">720a846a-85db-4d3a-bfd9-7dfd2f55ae4a</xsl:when>
+    </xsl:choose>
+    </classificationTypeId>
+  </xsl:template>
+
   <!-- Map holdings types -->
   <xsl:template match="holdingsTypeId"> <!-- Level 0: FOLIO -->
     <holdingsTypeId>
@@ -542,10 +559,11 @@
     </sourceId>
   </xsl:template>
   
-  <!-- Re-map instance source -->
+  <!-- Re-map instance source 
   <xsl:template match="source">
     <source>hebis</source>
   </xsl:template>
+  -->
 
   <xsl:template match="original"/>
 </xsl:stylesheet>
