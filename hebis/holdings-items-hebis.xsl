@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- date of last edit: 2023-07-21 (YYYY-MM-DD) -->
+
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output indent="yes" method="xml" version="1.0" encoding="UTF-8"/>
 
@@ -128,6 +130,15 @@
               <staffOnly>false</staffOnly>
             </i>
           </xsl:if>
+          <xsl:if test="datafield[@tag='201B']">
+            <i>
+              <note>
+                <xsl:value-of select="concat(translate(datafield[@tag='201B']/subfield[@code='0'], '-', '.'),' ', substring(datafield[@tag='201B']/subfield[@code='t'],1,5))"/>
+              </note>
+              <holdingsNoteTypeId>Letzte Änderung CBS</holdingsNoteTypeId>
+              <staffOnly>true</staffOnly>
+            </i>
+          </xsl:if>
           <xsl:for-each select="datafield[@tag='209B' and not(subfield[@code='x']='01' or subfield[@code='x']='02')]">
             <i>
               <note>
@@ -221,7 +232,7 @@
            </arr>
          </items>
       </xsl:if>
-      <xsl:if test="$electronicholding">
+      <xsl:if test="datafield[@tag='209S'] | datafield[@tag='204P'] | datafield[@tag='204U'] | datafield[@tag='204R']">
         <electronicAccess>
           <arr>
             <xsl:for-each select="datafield[@tag='209S']">
@@ -241,7 +252,7 @@
           </arr>
         </electronicAccess>
       </xsl:if>
-      <statisticalCodeIds>
+        <statisticalCodeIds>
         <arr>
           <xsl:for-each select="datafield[(@tag='209B') and not(subfield[@code='x']='01' or subfield[@code='x']='02')]">
             <i>
@@ -304,38 +315,16 @@
       <copyNumber>
         <xsl:value-of select="$copy"/>
       </copyNumber>
-      <volume>
-        <xsl:for-each select="datafield[@tag='231@']/subfield[@code='d' or @code='n']"> <!-- TBD: check if needed -->
-          <xsl:choose>
-            <xsl:when test="./@code='n'">
-              <xsl:value-of select="concat('-', .)"/>
-            </xsl:when>
-            <xsl:when test="./@code='d' and position()&gt;1">
-              <xsl:value-of select="concat(', ', .)"/>
-            </xsl:when>
-            <xsl:otherwise>
-              <xsl:value-of select="."/>
-            </xsl:otherwise>
-          </xsl:choose>
-          <xsl:if test="position()=last() and ./@code='d' and ../subfield[@code='6']">-</xsl:if>
+      <yearCaption>
+        <arr>
+        <xsl:for-each select="datafield[@tag='209E' and (subfield[@code='x']='02')]/subfield[@code='a']"> <!-- Wiederholungen kommen jedoch nicht vor -->
+          <i>
+           <xsl:for-each select="../../datafield[@tag='209E' and (subfield[@code='x']='01')]/subfield[@code='a']"><xsl:value-of select="."/><xsl:text>: </xsl:text></xsl:for-each>
+          <xsl:value-of select="."/>
+          </i>
         </xsl:for-each>
-      </volume>
-      <chronology>
-        <xsl:for-each select="datafield[@tag='231@']/subfield[@code='j' or @code='k']">
-          <xsl:choose>
-            <xsl:when test="./@code='k'">
-              <xsl:value-of select="concat('-', .)"/>
-            </xsl:when>
-            <xsl:when test="./@code='j' and position()&gt;1">
-              <xsl:value-of select="concat(', ', .)"/>
-            </xsl:when>
-            <xsl:otherwise>
-              <xsl:value-of select="."/>
-            </xsl:otherwise>
-          </xsl:choose>
-          <xsl:if test="position()=last() and ./@code='j' and ../subfield[@code='6']">-</xsl:if>
-        </xsl:for-each>
-      </chronology>
+        </arr>
+      </yearCaption>
 
       <!-- no notes on item level 
         <notes>
