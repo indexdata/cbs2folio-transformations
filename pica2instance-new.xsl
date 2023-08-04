@@ -85,6 +85,21 @@
                 <i>
                   <name>On order</name>
                 </i>
+                <i>
+                  <name>Available</name>
+                </i>
+                <i>
+                  <name>Intellectual item</name>
+                </i>
+                <i>
+                  <name>Missing</name>
+                </i>
+                <i>
+                  <name>Restricted</name>
+                </i>
+                <i>
+                  <name>Unknown</name>
+                </i>
               </arr>
             </ifStatusWas>
           </status>
