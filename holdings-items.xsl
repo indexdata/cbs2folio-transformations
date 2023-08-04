@@ -303,17 +303,17 @@
       <permanentLoanTypeId>
         <xsl:variable name="loantype" select="datafield[@tag='209A']/subfield[@code='d']"/>
         <xsl:choose>
-          <xsl:when test="$loantype='u'">ausleihbar/Fernleihe</xsl:when>
-          <xsl:when test="$loantype='b'">verkürzt ausleihbar/Fernleihe</xsl:when>
-          <xsl:when test="$loantype='c'">ausleihbar/keine Fernleihe</xsl:when>
-          <xsl:when test="$loantype='s'">mit Zustimmung ausleihbar/nur Kopie in die Fernleihe</xsl:when>
-          <xsl:when test="$loantype='d'">mit Zustimmung ausleihbar/Fernleihe</xsl:when>
-          <xsl:when test="$loantype='i'">Lesesaalausleihe/keine Fernleihe</xsl:when>
-          <xsl:when test="$loantype='f'">Lesesaalausleihe/nur Kopie in die Fernleihe</xsl:when>
-          <xsl:when test="$loantype='g'">für die Ausleihe gesperrt/keine Fernleihe</xsl:when>
-          <xsl:when test="$loantype='a'">bestellt/keine Fernleihe</xsl:when>
-          <xsl:when test="$loantype='o'">keine Angabe/keine Fernleihe</xsl:when>
-          <xsl:when test="$loantype='z'">Verlust/keine Fernleihe</xsl:when>
+          <xsl:when test="$loantype='u'">u - ausleihbar/Fernleihe</xsl:when>
+          <xsl:when test="$loantype='b'">b - verkürzt ausleihbar/Fernleihe</xsl:when>
+          <xsl:when test="$loantype='c'">c - ausleihbar/keine Fernleihe</xsl:when>
+          <xsl:when test="$loantype='s'">s - mit Zustimmung ausleihbar/nur Kopie in die Fernleihe</xsl:when>
+          <xsl:when test="$loantype='d'">d - mit Zustimmung ausleihbar/Fernleihe</xsl:when>
+          <xsl:when test="$loantype='i'">i - Lesesaalausleihe/keine Fernleihe</xsl:when>
+          <xsl:when test="$loantype='f'">f - Lesesaalausleihe/nur Kopie in die Fernleihe</xsl:when>
+          <xsl:when test="$loantype='g'">g - für die Ausleihe gesperrt/keine Fernleihe</xsl:when>
+          <xsl:when test="$loantype='a'">a - bestellt/keine Fernleihe</xsl:when>
+          <xsl:when test="$loantype='o'">o - keine Angabe/keine Fernleihe</xsl:when>
+          <xsl:when test="$loantype='z'">z - Verlust/keine Fernleihe</xsl:when>
           <xsl:otherwise>ausleihbar/Fernleihe</xsl:otherwise>
         </xsl:choose>
       </permanentLoanTypeId>

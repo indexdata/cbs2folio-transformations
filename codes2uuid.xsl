@@ -125,17 +125,17 @@
   <xsl:template match="permanentLoanTypeId">
     <permanentLoanTypeId>
       <xsl:choose>
-        <xsl:when test=".='ausleihbar/Fernleihe'">a8cacfd0-b284-47ae-b5fa-235d768411e7</xsl:when>
-        <xsl:when test=".='verkürzt ausleihbar/Fernleihe'">633f22c8-b189-4dc9-b2f0-25eb10f4739e</xsl:when>
-        <xsl:when test=".='ausleihbar/keine Fernleihe'">f961ec82-65c0-4755-ad24-90bbf87b67d5</xsl:when>
-        <xsl:when test=".='mit Zustimmung ausleihbar/nur Kopie in die Fernleihe'">7141f5a0-05ef-4869-89ab-9f0b5e3cecf3</xsl:when>
-        <xsl:when test=".='mit Zustimmung ausleihbar/Fernleihe'">74084609-eb79-4133-b8fc-81d3f5105cab</xsl:when>
-        <xsl:when test=".='Lesesaalausleihe/keine Fernleihe'">3ef6d652-2e02-4561-8f7b-720cbccde87f</xsl:when>
-        <xsl:when test=".='Lesesaalausleihe/nur Kopie in die Fernleihe'">1c2b89cb-4776-4a70-8f0e-f939833a2f4a</xsl:when>
-        <xsl:when test=".='für die Ausleihe gesperrt/keine Fernleihe'">68000e5a-6d82-4473-bc71-983bb6fcab4c</xsl:when>
-        <xsl:when test=".='bestellt/keine Fernleihe'">19f3659e-389d-49b4-9b26-f64ebf980445</xsl:when>
-        <xsl:when test=".='keine Angabe/keine Fernleihe'">19eede99-dc4c-4d8c-a7c3-0370d63ffd3c</xsl:when>
-        <xsl:when test=".='Verlust/keine Fernleihe'">ceb42d94-de4a-49b4-97e4-c32d11a0d5fc</xsl:when>
+        <xsl:when test=".='u - ausleihbar/Fernleihe'">a8cacfd0-b284-47ae-b5fa-235d768411e7</xsl:when>
+        <xsl:when test=".='b - verkürzt ausleihbar/Fernleihe'">633f22c8-b189-4dc9-b2f0-25eb10f4739e</xsl:when>
+        <xsl:when test=".='c - ausleihbar/keine Fernleihe'">f961ec82-65c0-4755-ad24-90bbf87b67d5</xsl:when>
+        <xsl:when test=".='s - mit Zustimmung ausleihbar/nur Kopie in die Fernleihe'">7141f5a0-05ef-4869-89ab-9f0b5e3cecf3</xsl:when>
+        <xsl:when test=".='d - mit Zustimmung ausleihbar/Fernleihe'">74084609-eb79-4133-b8fc-81d3f5105cab</xsl:when>
+        <xsl:when test=".='i - Lesesaalausleihe/keine Fernleihe'">3ef6d652-2e02-4561-8f7b-720cbccde87f</xsl:when>
+        <xsl:when test=".='f - Lesesaalausleihe/nur Kopie in die Fernleihe'">1c2b89cb-4776-4a70-8f0e-f939833a2f4a</xsl:when>
+        <xsl:when test=".='g - für die Ausleihe gesperrt/keine Fernleihe'">68000e5a-6d82-4473-bc71-983bb6fcab4c</xsl:when>
+        <xsl:when test=".='a - bestellt/keine Fernleihe'">19f3659e-389d-49b4-9b26-f64ebf980445</xsl:when>
+        <xsl:when test=".='o - keine Angabe/keine Fernleihe'">19eede99-dc4c-4d8c-a7c3-0370d63ffd3c</xsl:when>
+        <xsl:when test=".='z - Verlust/keine Fernleihe'">ceb42d94-de4a-49b4-97e4-c32d11a0d5fc</xsl:when>
         <xsl:otherwise>a8cacfd0-b284-47ae-b5fa-235d768411e7</xsl:otherwise>
       </xsl:choose>
     </permanentLoanTypeId>
