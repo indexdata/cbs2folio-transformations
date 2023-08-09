@@ -876,6 +876,21 @@
     </instanceRelationshipTypeId>
   </xsl:template>
 
+  <!-- Map holdings ill policies -->
+  <xsl:template match="illPolicyId">
+    <illPolicyId>
+      <xsl:choose>
+        <xsl:when test=".='8052 nx - keine Fernleihe'">9a6b418c-7bda-41fd-9ce8-eb25e5ce5d07</xsl:when>
+        <xsl:when test=".='8052 nxp - keine Fernleihe'">a8f322ed-b0cb-46e0-a8f4-ed81fe9c3726</xsl:when>
+        <xsl:when test=".='8052 kx - Papierkopie an Endnutzer'">4232a93a-6bfd-4334-8e9b-77d254f49acd</xsl:when>
+        <xsl:when test=".='8052 ky - Papierkopie an Endnutzer, nur im Inland'">4ca37b66-801b-4e56-9f10-e30a23d71e9d</xsl:when>
+        <xsl:when test=".='8052 kxp - Papierkopie an Endnutzer, Elektronische Übertragung zwischen den Bibliotheken ausgeschlossen'">e837ace5-607b-4de3-ba89-80dc40276d7b</xsl:when>
+        <xsl:when test=".='8052 kyp - Papierkopie an Endnutzer, nur im Inland, Elektronische Übertragung zwischen den Bibliotheken ausgeschlossen'">6279e99d-09fd-4e92-802d-ff61dfd06713</xsl:when>
+        <xsl:when test=".='8052 ex - elektronischer Versand an Endnutzer'">7f0aeaf5-382b-488f-85a7-2c7aa1eb2dd3</xsl:when>
+        <xsl:when test=".='8052 ey - elektronischer Versand an Endnutzer, nur im Inland'">1b10bdba-4b30-42c5-bd67-59d89461486d</xsl:when>
+      </xsl:choose>
+    </illPolicyId>
+  </xsl:template>
 
   <xsl:template match="original"/>
 </xsl:stylesheet>

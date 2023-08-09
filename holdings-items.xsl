@@ -215,6 +215,19 @@
           </arr>
         </electronicAccess>
       </xsl:if>
+      <illPolicyId>
+        <xsl:variable name="illpolicy" select="datafield[@tag='209B']/subfield[@code='a']"/>
+        <xsl:choose>
+          <xsl:when test="$illpolicy='nx'">8052 nx - keine Fernleihe</xsl:when>
+          <xsl:when test="$illpolicy='nxp'">8052 nxp - keine Fernleihe</xsl:when>
+          <xsl:when test="$illpolicy='kx'">8052 kx - Papierkopie an Endnutzer</xsl:when>
+          <xsl:when test="$illpolicy='ky'">8052 ky - Papierkopie an Endnutzer, nur im Inland</xsl:when>
+          <xsl:when test="$illpolicy='kxp'">8052 kxp - Papierkopie an Endnutzer, Elektronische Übertragung zwischen den Bibliotheken ausgeschlossen</xsl:when>
+          <xsl:when test="$illpolicy='kyp'">8052 kyp - Papierkopie an Endnutzer, nur im Inland, Elektronische Übertragung zwischen den Bibliotheken ausgeschlossen</xsl:when>
+          <xsl:when test="$illpolicy='ex'">8052 ex - elektronischer Versand an Endnutzer</xsl:when>
+          <xsl:when test="$illpolicy='ey'">8052 ey - elektronischer Versand an Endnutzer, nur im Inland</xsl:when>
+        </xsl:choose>
+      </illPolicyId>
       <items>
         <arr>
           <xsl:choose>
