@@ -606,8 +606,8 @@
   </xsl:template>
 
   <!-- Map instance formats -->
-  <xsl:template match="instanceFormatIds">
-    <instanceFormatIds>
+  <xsl:template match="instanceFormatIds/arr/i">
+    <i>
       <xsl:choose>
         <xsl:when test=".='Audio - Audio Belt'">0d9b1c3d-2d13-4f18-9472-cc1b91bf1752</xsl:when>
         <xsl:when test=".='Audio - Audiocartridge'">5642320a-2ab9-475c-8ca2-4af7551cf296</xsl:when>
@@ -667,12 +667,12 @@
         <xsl:when test=".='Video - Videodisk'">7f857834-b2e2-48b1-8528-6a1fe89bf979</xsl:when>
         <xsl:when test=".='Video - Videobandspule'">ba0d7429-7ccf-419d-8bfb-e6a1200a8d20</xsl:when>
       </xsl:choose>
-    </instanceFormatIds>
+    </i>
   </xsl:template>
 
   <!-- Map nature of content terms -->
-  <xsl:template match="natureOfContentTermIds">
-    <natureOfContentTermIds>
+  <xsl:template match="natureOfContentTermIds/arr/i">
+    <i>
       <xsl:choose>
         <xsl:when test=".='Ausstellungskatalog'">b82b3a0d-00fa-4811-96da-04f531da8ea8</xsl:when>
         <xsl:when test=".='Autobiografie'">04a6a8d2-f902-4774-b15f-d8bd885dc804</xsl:when>
@@ -841,7 +841,7 @@
         <xsl:when test=".='Zeittafel'">d1371500-3f65-43e7-855f-2b385a50a7fd</xsl:when>
         <xsl:when test=".='Zitatensammlung'">f31cdb4a-8c7d-442b-a3a1-7351a2f00b3c</xsl:when>
       </xsl:choose>
-    </natureOfContentTermIds>
+    </i>
   </xsl:template>
 
   <!-- Map contributor name types -->
