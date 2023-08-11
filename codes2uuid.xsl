@@ -587,7 +587,8 @@
         <xsl:when test=".='Dreidimensionales bewegtes Bild'">3e3039b7-fda0-4ac4-885a-022d457cb99c</xsl:when>
         <xsl:when test=".='Zweidimensionales bewegtes Bild'">225faa14-f9bf-4ecd-990d-69433c912434</xsl:when>
         <xsl:when test=".='Nicht spezifiziert'">30fffe0e-e985-4144-b2e2-1e8179bdb41f</xsl:when>
-        <xsl:otherwise>a2c91e87-6bab-44d6-8adb-1fd02481fc4f</xsl:otherwise>
+        <xsl:when test=".='Sonstige'">a2c91e87-6bab-44d6-8adb-1fd02481fc4f</xsl:when>
+        <xsl:otherwise>30fffe0e-e985-4144-b2e2-1e8179bdb41f</xsl:otherwise>
       </xsl:choose>
     </instanceTypeId>
   </xsl:template>

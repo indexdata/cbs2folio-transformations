@@ -188,7 +188,8 @@
         <xsl:when test="$ctype='tdm'">Dreidimensionales bewegtes Bild</xsl:when>
         <xsl:when test="$ctype='tdi'">Zweidimensionales bewegtes Bild</xsl:when>
         <xsl:when test="$ctype='zzz'">Nicht spezifiziert</xsl:when>
-        <xsl:otherwise>Sonstige</xsl:otherwise>
+        <xsl:when test="$ctype='xxx'">Sonstige</xsl:when>
+        <xsl:otherwise>Nicht spezifiziert</xsl:otherwise>
       </xsl:choose>
     </instanceTypeId>
 
@@ -1907,7 +1908,7 @@
         </xsl:for-each>
       </arr>
     </administrativeNotes>
-    
+
   </xsl:template>
   <xsl:template match="text()"/>
   <xsl:template name="join">
