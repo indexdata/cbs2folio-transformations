@@ -227,6 +227,7 @@
     <xsl:choose>
       <xsl:when test="($abt='016' and (starts-with(., 'THEMAG ') or starts-with(., 'THERARA '))) or 
         ($abt='000' and (starts-with(., 'RARA ') and not(contains(.,'°')))) or
+        ($abt='019' and (starts-with(.,'CELA') or starts-with(.,'CELTRA') or starts-with(.,'LBS') or starts-with(.,'MAG') or starts-with(.,'SSC'))) or
         ($abt='120' and ($standort='Medienkulturwissenschaft' or $standort='Alltagsmedien')) or
         ($abt='003') or (($abt='127') and not(starts-with(.,'SI ') or starts-with(.,'SK ')))">
         <xsl:choose>
