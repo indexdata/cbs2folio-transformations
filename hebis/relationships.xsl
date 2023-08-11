@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- date of last edit: 2022-06-13 (YYYY-MM-DD) -->
+<!-- date of last edit: 2022-08-11 (YYYY-MM-DD) -->
 
 <xsl:stylesheet
     version="1.0"
@@ -24,9 +24,10 @@
 
   <xsl:template match="original">
     <instanceRelations>
-      <!-- Parent instances -->
+      <!-- related instances -->
       <xsl:if test="./datafield[@tag='036D' or @tag='036F' or @tag='039B']">
         <parentInstances>
+          <!-- 039C is not needed, child relations are generated from parent relations -->
           <arr>
             <xsl:for-each select="datafield[@tag='036D' or @tag='036F' or @tag='039B']">
               <i>
