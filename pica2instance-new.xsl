@@ -1893,18 +1893,21 @@
       </editions>
     </xsl:if>
     <!-- Administrative notes -->
-    <xsl:if test="datafield[@tag='002@']/subfield[@code='0']">
-      <xsl:variable name="bgs" select="datafield[@tag='002@']/subfield[@code='0']"/>
-      <administrativeNotes>
-        <arr>
-          <xsl:for-each select="datafield[@tag='002@']/subfield[@code='0']">
-            <i>
-              <xsl:value-of select="concat($bgs, ' (K10plus 0500)')"/>
-            </i>
-          </xsl:for-each>
-        </arr>
-      </administrativeNotes>
-    </xsl:if>
+    <administrativeNotes>
+      <arr>
+        <xsl:for-each select="datafield[@tag='002@']">
+          <i>
+            <xsl:value-of select="concat(./subfield[@code='0'], ' (0500: Bibliografische Gattung)')"/>
+          </i>
+        </xsl:for-each>
+        <xsl:for-each select="datafield[@tag='001B']">
+          <i>
+            <xsl:value-of select="concat(translate(substring-after(./subfield[@code='0'], ':'), '-', '.'),', ', substring(./subfield[@code='t'],1,5), ' (0210: Datum der letzten Änderung)')"/>
+          </i>
+        </xsl:for-each>
+      </arr>
+    </administrativeNotes>
+    
   </xsl:template>
   <xsl:template match="text()"/>
   <xsl:template name="join">
