@@ -104,17 +104,29 @@
   <xsl:template match="alternativeTitleTypeId">
     <alternativeTitleTypeId>
       <xsl:choose>
-        <xsl:when test=".='Cover title'">5c364ce4-c8fd-4891-a28d-bb91c9bcdbfb</xsl:when>
-        <xsl:when test=".='Running title'">09964ad1-7aed-49b8-8223-a4c105e3ef87</xsl:when>
-        <xsl:when test=".='Caption title'">432ca81a-fe4d-4249-bfd3-53388725647d</xsl:when>
-        <xsl:when test=".='Uniform title'">30512027-cdc9-4c79-af75-1565b3bd888d</xsl:when>
-        <xsl:when test=".='Parallel title'">4bb300a4-04c9-414b-bfbc-9c032f74b7b2</xsl:when>
-        <xsl:when test=".='Distinctive title'">781c04a4-f41e-4ab0-9118-6836e93de3c8</xsl:when>
-        <xsl:when test=".='No type specified'">0fe58901-183e-4678-a3aa-0b4751174ba8</xsl:when>
-        <xsl:when test=".='Spine title'">dae08d04-8c4e-4ab2-b6bb-99edbf252231</xsl:when>
-        <xsl:when test=".='Added title page title'">2ca8538d-a2fd-4e60-b967-1cb220101e22</xsl:when>
-        <xsl:when test=".='Portion of title'">a8b45056-2223-43ca-8514-4dd88ece984b</xsl:when>
-        <xsl:when test=".='Other title'">2584943f-36ad-4037-a7fa-3bdebb09f452</xsl:when>
+        <!-- Cover title -->
+        <xsl:when test=".='Umschlagtitel'">5c364ce4-c8fd-4891-a28d-bb91c9bcdbfb</xsl:when>
+        <!-- Running title -->
+        <xsl:when test=".='Kolumnentitel'">09964ad1-7aed-49b8-8223-a4c105e3ef87</xsl:when>
+        <!-- Caption title -->
+        <xsl:when test=".='Kopftitel'">432ca81a-fe4d-4249-bfd3-53388725647d</xsl:when>
+        <!-- Uniform title -->
+        <xsl:when test=".='Werktitel/Einheitssachtitel'">30512027-cdc9-4c79-af75-1565b3bd888d</xsl:when>
+        <!-- Parallel title -->
+        <xsl:when test=".='Paralleltitel'">4bb300a4-04c9-414b-bfbc-9c032f74b7b2</xsl:when>
+        <!-- Distinctive title -->
+        <xsl:when test=".='Spezifischer Titel'">781c04a4-f41e-4ab0-9118-6836e93de3c8</xsl:when>
+        <!-- No type specified -->
+        <xsl:when test=".='Titeltyp nicht spezifiziert'">0fe58901-183e-4678-a3aa-0b4751174ba8</xsl:when>
+        <!-- Spine title -->
+        <xsl:when test=".='Rückentitel'">dae08d04-8c4e-4ab2-b6bb-99edbf252231</xsl:when>
+        <!-- Added title page title -->
+        <xsl:when test=".='Titel von einer weiteren Titelseite'">2ca8538d-a2fd-4e60-b967-1cb220101e22</xsl:when>
+        <!-- Portion of title -->
+        <xsl:when test=".='Teil des Titels'">a8b45056-2223-43ca-8514-4dd88ece984b</xsl:when>
+        <!-- Other title -->
+        <xsl:when test=".='Sonstiger Titel'">2584943f-36ad-4037-a7fa-3bdebb09f452</xsl:when>
+        <!-- Titeltyp nicht spezifiziert -->
         <xsl:otherwise>0fe58901-183e-4678-a3aa-0b4751174ba8</xsl:otherwise>
       </xsl:choose>
     </alternativeTitleTypeId>

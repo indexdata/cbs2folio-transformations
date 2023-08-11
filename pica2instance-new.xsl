@@ -893,7 +893,7 @@
                   </xsl:otherwise>
                 </xsl:choose>
               </alternativeTitle>
-              <alternativeTitleTypeId>Other title</alternativeTitleTypeId>
+              <alternativeTitleTypeId>Sonstiger Titel</alternativeTitleTypeId>
             </i>
           </xsl:if>
 
@@ -905,9 +905,9 @@
               </alternativeTitle>
               <alternativeTitleTypeId>
                 <xsl:choose>
-                  <xsl:when test="./@tag='047C'">Portion of title</xsl:when>
-                  <xsl:when test="./@tag='026C'">Distinctive title</xsl:when>
-                  <xsl:otherwise>Other title</xsl:otherwise>
+                  <xsl:when test="./@tag='047C'">Teil des Titels</xsl:when>
+                  <xsl:when test="./@tag='026C'">Spezifischer Titel</xsl:when>
+                  <xsl:otherwise>Sonstiger Titel</xsl:otherwise>
                 </xsl:choose>
               </alternativeTitleTypeId>
             </i>
@@ -933,7 +933,7 @@
                   </xsl:otherwise>
                 </xsl:choose>
               </alternativeTitle>
-              <alternativeTitleTypeId>Parallel title</alternativeTitleTypeId>
+              <alternativeTitleTypeId>Paralleltitel</alternativeTitleTypeId>
             </i>
           </xsl:for-each>
           <xsl:for-each select="datafield[@tag='046C']">
@@ -950,7 +950,7 @@
                   </xsl:otherwise>
                 </xsl:choose>
               </alternativeTitle>
-              <alternativeTitleTypeId>Other title</alternativeTitleTypeId> 
+              <alternativeTitleTypeId>Sonstiger Titel</alternativeTitleTypeId> 
             </i>
           </xsl:for-each>
 
@@ -970,7 +970,7 @@
                   </xsl:otherwise>
                 </xsl:choose>
               </alternativeTitle>
-              <alternativeTitleTypeId>Other title</alternativeTitleTypeId>
+              <alternativeTitleTypeId>Sonstiger Titel</alternativeTitleTypeId>
             </i>
           </xsl:for-each>
 
@@ -1008,7 +1008,7 @@
                 </xsl:variable>
                 <xsl:value-of select="$con-name"/>
               </alternativeTitle>
-              <alternativeTitleTypeId>Uniform title</alternativeTitleTypeId>
+              <alternativeTitleTypeId>Werktitel/Einheitssachtitel</alternativeTitleTypeId>
             </i>
           </xsl:for-each>
           
