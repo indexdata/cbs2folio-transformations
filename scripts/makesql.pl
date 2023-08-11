@@ -27,5 +27,5 @@ foreach my $file (@xslfiles) {
     $sql .= $_;
   }
   open OUT, ">:encoding(utf8)", "../sql/$file.sql"; 
-  print OUT $sql . "',NULL,'xml','xml',NULL,NULL,NULL,NULL);\n";
+  print OUT $sql . "',NULL,'xml','xml',NULL,'','',NULL);\n";
 }
