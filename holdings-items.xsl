@@ -62,6 +62,15 @@
 	    </xsl:if>
       </holdingsStatements>
 	  <sourceId>K10plus</sourceId>
+    <administrativeNotes>
+      <arr>
+        <xsl:for-each select="datafield[@tag='201B']">
+          <i>
+            <xsl:value-of select="concat(./subfield[@code='0'], ', ', substring(./subfield[@code='t'],1,5), ' (7903: Datum und Uhrzeit der letzten Änderung)')"/>
+          </i>
+        </xsl:for-each>
+      </arr>
+    </administrativeNotes>
 	  <discoverySuppress>
         <xsl:choose>
           <xsl:when test="substring(datafield[@tag='208@']/subfield[@code='b'],1,1)='c'">true</xsl:when>
