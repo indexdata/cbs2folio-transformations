@@ -126,6 +126,8 @@
         <xsl:when test=".='Teil des Titels'">a8b45056-2223-43ca-8514-4dd88ece984b</xsl:when>
         <!-- Other title -->
         <xsl:when test=".='Sonstiger Titel'">2584943f-36ad-4037-a7fa-3bdebb09f452</xsl:when>
+        <!-- Abweichender Titel -->
+        <xsl:when test=".='Abweichender Titel'">79ea6d17-8247-4126-aab5-99fbd2ac6dda</xsl:when>
         <!-- Titeltyp nicht spezifiziert -->
         <xsl:otherwise>0fe58901-183e-4678-a3aa-0b4751174ba8</xsl:otherwise>
       </xsl:choose>

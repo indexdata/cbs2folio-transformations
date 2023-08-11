@@ -905,6 +905,7 @@
               </alternativeTitle>
               <alternativeTitleTypeId>
                 <xsl:choose>
+                  <xsl:when test="./@tag='027A'">Abweichender Titel</xsl:when>
                   <xsl:when test="./@tag='047C'">Teil des Titels</xsl:when>
                   <xsl:when test="./@tag='026C'">Spezifischer Titel</xsl:when>
                   <xsl:otherwise>Sonstiger Titel</xsl:otherwise>
