@@ -33,6 +33,7 @@
       <hrid>
         <xsl:value-of select="$hhrid"/>
       </hrid>
+      <xsl:variable name="electronicholding" select="substring(//datafield[@tag='002@']/subfield[@code='0'],1,1) = 'O'"/>
       <xsl:variable name="lcode" select="datafield[@tag='209A']/subfield[@code='f']"/>
       <permanentLocationId>
         <xsl:value-of select="$lcode"/>
@@ -237,38 +238,40 @@
           <xsl:when test="$illpolicy='ey'">8052 ey - elektronischer Versand an Endnutzer, nur im Inland</xsl:when>
         </xsl:choose>
       </illPolicyId>
-      <items>
-        <arr>
-          <xsl:choose>
-            <xsl:when test="datafield[@tag='209G']/subfield[@code='a'][2]">
-              <xsl:for-each select="datafield[@tag='209G']/subfield[@code='a']">
-                <xsl:apply-templates select="../.." mode="make-item">
-                  <xsl:with-param name="hhrid" select="concat($hhrid, '-', .)"/>
-                  <xsl:with-param name="bcode" select="."/>
-                  <xsl:with-param name="copy" select="./following-sibling::subfield[@code='c'][1]"/>
-                </xsl:apply-templates>
-              </xsl:for-each>
-            </xsl:when>
-            <!-- start implement bound-with case -->
-            <xsl:when test="datafield[@tag='209A']/subfield[@code='i']">
-              <xsl:if test="datafield[@tag='209G']/subfield[@code='a']">
+      <xsl:if test="not($electronicholding)">
+        <items>
+          <arr>
+            <xsl:choose>
+              <xsl:when test="datafield[@tag='209G']/subfield[@code='a'][2]">
+                <xsl:for-each select="datafield[@tag='209G']/subfield[@code='a']">
+                  <xsl:apply-templates select="../.." mode="make-item">
+                    <xsl:with-param name="hhrid" select="concat($hhrid, '-', .)"/>
+                    <xsl:with-param name="bcode" select="."/>
+                    <xsl:with-param name="copy" select="./following-sibling::subfield[@code='c'][1]"/>
+                  </xsl:apply-templates>
+                </xsl:for-each>
+              </xsl:when>
+              <!-- start implement bound-with case -->
+              <xsl:when test="datafield[@tag='209A']/subfield[@code='i']">
+                <xsl:if test="datafield[@tag='209G']/subfield[@code='a']">
+                  <xsl:apply-templates select="." mode="make-item">
+                    <xsl:with-param name="hhrid" select="$hhrid"/>
+                  </xsl:apply-templates>             
+                </xsl:if>
+                <xsl:if test="not(datafield[@tag='209G']/subfield[@code='a'])">
+                  <!-- exit and don't create an item -->
+                </xsl:if>
+              </xsl:when>
+              <!-- end implement bound-with case -->
+              <xsl:otherwise>
                 <xsl:apply-templates select="." mode="make-item">
                   <xsl:with-param name="hhrid" select="$hhrid"/>
-                </xsl:apply-templates>             
-              </xsl:if>
-              <xsl:if test="not(datafield[@tag='209G']/subfield[@code='a'])">
-                <!-- exit and don't create an item -->
-              </xsl:if>
-            </xsl:when>
-            <!-- end implement bound-with case -->
-            <xsl:otherwise>
-              <xsl:apply-templates select="." mode="make-item">
-                <xsl:with-param name="hhrid" select="$hhrid"/>
-              </xsl:apply-templates>
-            </xsl:otherwise>
-          </xsl:choose>
-        </arr>
-      </items>
+                </xsl:apply-templates>
+              </xsl:otherwise>
+            </xsl:choose>
+          </arr>
+        </items>
+      </xsl:if>
     </i>
   </xsl:template>
   <xsl:template match="item" mode="make-item">
