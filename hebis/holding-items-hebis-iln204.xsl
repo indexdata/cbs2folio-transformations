@@ -464,8 +464,8 @@
           <department code="116" default-location="ILN204/CG/DezFB/Fachbibliotheken">
             <range from="sla a" to="sla z" location="ILN204/CG/DezFB/Fachbibliotheken"/>
           </department>
-          <department code="117" default-location="ILN204/CG/DezFB/Fachbibliotheken">
-            <range from="/" to="zzzz" location="ILN204/CG/DezFB/Fachbibliotheken"/>
+          <department code="117" default-location="ILN204/CG/DezFB/AngewTheaterwiss">
+            <range from="/" to="zzzz" location="ILN204/CG/DezFB/AngewTheaterwiss"/>
           </department>
           <department code="120" default-location="ILN204/CG/DezFB/Fachbibliotheken">
             <range from="/" to="z" location="ILN204/CG/DezFB/Fachbibliotheken"/>
@@ -476,20 +476,80 @@
           <department code="138" default-location="ILN204/CG/DezFB/Fachbibliotheken">
             <range from="/" to="z" location="ILN204/CG/DezFB/Fachbibliotheken"/>
           </department>
-          <department code="151" default-location="ILN204/CG/DezFB/Fachbibliotheken">
-            <range from="/" to="z" location="ILN204/CG/DezFB/Fachbibliotheken"/>
+          <department code="151" default-location="ILN204/CG/DezFB/Hermann-Hoffmann-Akademie">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Hermann-Hoffmann-Akademie"/>
           </department>
-          <department code="172" default-location="ILN204/CG/DezFB/Fachbibliotheken">
-            <range from="/" to="z" location="ILN204/CG/DezFB/Fachbibliotheken"/>
+          <department code="157" default-location="ILN204/CG/DezFB/Genetik">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Genetik"/>
           </department>
-          <department code="192" default-location="ILN204/CG/DezFB/Fachbibliotheken">
-            <range from="/" to="z" location="ILN204/CG/DezFB/Fachbibliotheken"/>
+          <department code="172" default-location="ILN204/CG/DezFB/Milchwissenschaften">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Milchwissenschaften"/>
+          </department>
+          <department code="176" default-location="ILN204/CG/DezFB/Biochemie-Endokrinologie">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Biochemie-Endokrinologie"/>
+          </department>
+          <department code="179" default-location="ILN204/CG/DezFB/Tierhygiene">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Tierhygiene"/>
+          </department>
+          <department code="182" default-location="ILN204/CG/DezFB/Gefluegelkrankheiten">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Gefluegelkrankheiten"/>
+          </department>
+          <department code="184" default-location="ILN204/CG/DezFB/Kleintier-Innere-Chirurgie">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Kleintier-Innere-Chirurgie"/>
+          </department>
+          <department code="185" default-location="ILN204/CG/DezFB/Pferdeklinik">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Pferdeklinik"/>
+          </department>
+          <department code="186" default-location="ILN204/CG/DezFB/Klinik-Wiederkäuer">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Klinik-Wiederkäuer"/>
+          </department>
+          <department code="190" default-location="ILN204/CG/DezFB/Parhmakol-Toxikol-BFS">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Parhmakol-Toxikol-BFS"/>
+          </department>
+          <department code="192" default-location="ILN204/CG/DezFB/Prozesstechnik">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Prozesstechnik"/>
           </department>
           <department code="28" default-location="ILN204/CG/DezFB/Fachbibliotheken">
             <range from="/" to="z" location="ILN204/CG/DezFB/Fachbibliotheken"/>
           </department>
+          <department code="209" default-location="ILN204/CG/DezFB/Ländliches-Genossenschaftswesen">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Ländliches-Genossenschaftswesen"/>
+          </department>
+          <department code="211" default-location="ILN204/CG/DezFB/Biomathematik">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Biomathematik"/>
+          </department>
           <department code="230" default-location="ILN204/CG/DezFB/Fachbibliotheken">
             <range from="/" to="z" location="ILN204/CG/DezFB/Fachbibliotheken"/>
+          </department>
+          <department code="231" default-location="ILN204/CG/DezFB/Anatomie">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Anatomie"/>
+          </department>
+          <department code="232" default-location="ILN204/CG/DezFB/Physiologie">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Physiologie"/>
+          </department>
+          <department code="233" default-location="ILN204/CG/DezFB/Biochemie">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Biochemie"/>
+          </department>
+          <department code="234" default-location="ILN204/CG/DezFB/Pathologie">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Pathologie"/>
+          </department>
+          <department code="235" default-location="ILN204/CG/DezFB/Arbeitsmedizin">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Arbeitsmedizin"/>
+          </department>
+          <department code="236" default-location="ILN204/CG/DezFB/Geschichte-der-Medizin">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Geschichte-der-Medizin"/>
+          </department>
+          <department code="237" default-location="ILN204/CG/DezFB/Hygiene-Umweltmedizin">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Hygiene-Umweltmedizin"/>
+          </department>
+          <department code="250" default-location="ILN204/CG/DezFB/Dermatologie">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Dermatologie"/>
+          </department>
+          <department code="258" default-location="ILN204/CG/DezFB/Augenklinik">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Augenklinik"/>
+          </department>
+          <department code="259" default-location="ILN204/CG/DezFB/Psychiat-Neurol">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Psychiat-Neurol"/>
           </department>
           <department code="290" default-location="ILN204/CG/DezFB/Fachbibliotheken">
             <range from="/" to="z" location="ILN204/CG/DezFB/Fachbibliotheken"/>
@@ -497,11 +557,17 @@
           <department code="320" default-location="ILN204/CG/DezFB/Fachbibliotheken">
             <range from="/" to="z" location="ILN204/CG/DezFB/Fachbibliotheken"/>
           </department>
+          <department code="322" default-location="ILN204/CG/DezFB/AAA-DaF">
+            <range from="/" to="z" location="ILN204/CG/DezFB/AAA-DaF"/>
+          </department>
           <department code="331" default-location="ILN204/CG/DezFB/Fachbibliotheken">
             <range from="/" to="z" location="ILN204/CG/DezFB/Fachbibliotheken"/>
           </department>
           <department code="351" default-location="ILN204/CG/DezFB/Fachbibliotheken">
             <range from="0" to="z" location="ILN204/CG/DezFB/Fachbibliotheken"/>
+          </department>
+          <department code="380" default-location="ILN204/CG/DezFB/AKWildbiologie">
+            <range from="0" to="z" location="ILN204/CG/DezFB/AKWildbiologie"/>
           </department>
           <department code="992" default-location="ILN204/E/E/Onlinemedien">
             <prefix location="ILN204/E/E/Onlinemedien">/</prefix>
