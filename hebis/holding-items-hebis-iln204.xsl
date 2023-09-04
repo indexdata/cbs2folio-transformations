@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- date of last edit: 2022-12-20 (YYYY-MM-DD) -->
+<!-- date of last edit: 2023-09-04 (YYYY-MM-DD) -->
 
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:exsl="http://exslt.org/common" version="1.1" exclude-result-prefixes="exsl">
@@ -558,15 +558,13 @@
           <department code="192" default-location="ILN204/CG/DezFB/Prozesstechnik">
             <range from="/" to="z" location="ILN204/CG/DezFB/Prozesstechnik"/>
           </department>
-          <department code="28" default-location="ILN204/CG/DezFB/Fachbibliotheken">
-            <range from="/" to="z" location="ILN204/CG/DezFB/Fachbibliotheken"/>
-          </department>
           <department code="209" default-location="ILN204/CG/DezFB/Ländliches-Genossenschaftswesen">
             <range from="/" to="z" location="ILN204/CG/DezFB/Ländliches-Genossenschaftswesen"/>
           </department>
           <department code="211" default-location="ILN204/CG/DezFB/Biomathematik">
             <range from="/" to="z" location="ILN204/CG/DezFB/Biomathematik"/>
           </department>
+          <!-- BIK 230 eigentlich nicht mehr aktiv, aber ggf. noch in CBS-Test -->
           <department code="230" default-location="ILN204/CG/DezFB/Fachbibliotheken">
             <range from="/" to="z" location="ILN204/CG/DezFB/Fachbibliotheken"/>
           </department>
@@ -606,9 +604,11 @@
           <department code="290" default-location="ILN204/CG/DezFB/Uniarchiv-SLS">
             <range from="/" to="z" location="ILN204/CG/DezFB/Uniarchiv-SLS"/>
           </department>
+          <!-- BIK 320 eigentlich nicht mehr aktiv, aber ggf. noch in CBS-Test -->
           <department code="320" default-location="ILN204/CG/DezFB/Fachbibliotheken">
             <range from="/" to="z" location="ILN204/CG/DezFB/Fachbibliotheken"/>
           </department>
+          <!-- BIK 322 eigentlich nicht mehr aktiv, aber ggf. noch in CBS-Test -->
           <department code="322" default-location="ILN204/CG/DezFB/AAA-DaF">
             <range from="/" to="z" location="ILN204/CG/DezFB/AAA-DaF"/>
           </department>
@@ -639,6 +639,7 @@
           <department code="345" default-location="ILN204/CG/DezFB/WiWi-VWL04">
             <range from="/" to="z" location="ILN204/CG/DezFB/WiWi-VWL04"/>
           </department>
+          <!-- BIK 351 eigentlich nicht mehr aktiv, aber ggf. noch in CBS-Test -->
           <department code="351" default-location="ILN204/CG/DezFB/Fachbibliotheken">
             <range from="0" to="z" location="ILN204/CG/DezFB/Fachbibliotheken"/>
           </department>
