@@ -22,6 +22,7 @@
     <xsl:variable name="abt" select="$i/datafield[@tag = '209A' and subfield[@code = 'x'] = '00']/subfield[@code = 'f']/text()"/>
     <xsl:variable name="signature"
       select="$i/datafield[@tag = '209A' and subfield[@code = 'x'] = '00']/subfield[@code = 'a']/text()"/>
+    <xsl:variable name="electronicholding" select="(substring($i/../datafield[@tag='002@']/subfield[@code='0'],1,1) = 'O') and not(substring($i/datafield[@tag='208@']/subfield[@code='b'],1,1) = 'a')"/>
     <xsl:variable name="signature-lowercase" select="
         translate($signature,
         'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
@@ -671,6 +672,7 @@
       </xsl:variable>
 
       <xsl:choose>
+        <xsl:when test="$electronicholding">ILN204/E/E/Online Medien</xsl:when>
         <xsl:when test="
             exsl:node-set($ranges-list)/ranges/department[@code = $abt]/prefix or
             exsl:node-set($ranges-list)/ranges/department[@code = $abt]/range">
@@ -1028,39 +1030,35 @@
     <xsl:param name="in-range"/>
     <xsl:param name="default-location" select="'Unbekannter Standort'"/>
     <xsl:choose>
-      <xsl:when test="$in-range = 1">
+      <xsl:when test="$range-list and $in-range = 1">
         <xsl:value-of select="$last-range/@location"/>
       </xsl:when>
-      <xsl:otherwise>
-        <xsl:choose>
-          <xsl:when test="$range-list">
-            <xsl:call-template name="get-location-by-range">
-              <xsl:with-param name="signature-lowercase" select="$signature-lowercase"/>
-              <xsl:with-param name="last-range" select="$range-list[1]"/>
-              <xsl:with-param name="range-list" select="$range-list[position() != 1]"/>
-              <xsl:with-param name="in-range">
-                <xsl:call-template name="compare-tokens">
-                  <xsl:with-param name="signature-lowercase-trimmed">
-                    <!--<xsl:value-of
-                      select="substring($signature-lowercase, 1, string-length($range-list[1]/@to))"
-                    />-->
-                    <xsl:value-of select="$signature-lowercase"/>
-                  </xsl:with-param>
-                  <xsl:with-param name="range-from">
-                    <xsl:value-of select="$range-list[1]/@from"/>
-                  </xsl:with-param>
-                  <xsl:with-param name="range-to">
-                    <xsl:value-of select="$range-list[1]/@to"/>
-                  </xsl:with-param>
-                </xsl:call-template>
+      <xsl:when test="$range-list">
+        <xsl:call-template name="get-location-by-range">
+          <xsl:with-param name="signature-lowercase" select="$signature-lowercase"/>
+          <xsl:with-param name="last-range" select="$range-list[1]"/>
+          <xsl:with-param name="range-list" select="$range-list[position() != 1]"/>
+          <xsl:with-param name="in-range">
+            <xsl:call-template name="compare-tokens">
+              <xsl:with-param name="signature-lowercase-trimmed">
+                <!--<xsl:value-of
+                  select="substring($signature-lowercase, 1, string-length($range-list[1]/@to))"
+                />-->
+                <xsl:value-of select="$signature-lowercase"/>
               </xsl:with-param>
-              <xsl:with-param name="default-location" select="$default-location"/>
+              <xsl:with-param name="range-from">
+                <xsl:value-of select="$range-list[1]/@from"/>
+              </xsl:with-param>
+              <xsl:with-param name="range-to">
+                <xsl:value-of select="$range-list[1]/@to"/>
+              </xsl:with-param>
             </xsl:call-template>
-          </xsl:when>
-          <xsl:otherwise>
-            <xsl:value-of select="$default-location"/>
-          </xsl:otherwise>
-        </xsl:choose>
+          </xsl:with-param>
+          <xsl:with-param name="default-location" select="$default-location"/>
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="$default-location"/>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
