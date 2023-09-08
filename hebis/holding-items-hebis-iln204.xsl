@@ -68,6 +68,7 @@
             <range from="4 b 49" to="4 b 73" location="ILN204/CG/UB/UBMag3"/>
             <prefix location="ILN204/CG/UB/UBMag3">4 ss</prefix>
             <range from="4/1" to="4/9" location="ILN204/CG/UB/UBMagKeller"/>
+            <range from="40.000.00" to="44.999.99" location="ILN204/CG/UB/UBMagKeller"/>
             <range from="47.000.00" to="47.999.99" location="ILN204/CG/UB/Freihand2OG"/>
             <range from="4o 1/1" to="4o 1/9" location="ILN204/CG/UB/UBMagKeller"/>
             <range from="4o 2/1" to="4o 2/9" location="ILN204/CG/UB/UBMagKeller"/>
