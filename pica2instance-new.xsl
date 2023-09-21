@@ -851,9 +851,10 @@
     <!-- Alternative titles -->
     
     <!-- hebis: added missing tags: 021A + 036C (Non Latin script), 021M, 021N + 046D -->
-    <xsl:if test="datafield[@tag='047C' or @tag='027A' or @tag='021F' or @tag='046C' or @tag='046D' or @tag='026C' or @tag='036C' or @tag='021A'] or datafield[@tag='022A'][@occurrence='00']">
-      <alternativeTitles>
-        <arr>
+    <alternativeTitles>
+      <arr>
+        <xsl:if test="datafield[@tag='047C' or @tag='027A' or @tag='021F' or @tag='046C' or @tag='046D' or @tag='026C' or @tag='036C' or @tag='021A'] or datafield[@tag='022A'][@occurrence='00']">
+          
           <xsl:if test="not($title-021A-ori = '') or not($title-036C-ori = '') ">
             <i>
               <alternativeTitle>
@@ -1012,10 +1013,9 @@
               <alternativeTitleTypeId>Werktitel/Einheitssachtitel</alternativeTitleTypeId>
             </i>
           </xsl:for-each>
-          
-        </arr>
-      </alternativeTitles>
-    </xsl:if>
+        </xsl:if>
+      </arr>
+    </alternativeTitles>
     
     <!-- Contributors -->
     <xsl:if test="datafield[@tag='028A' or @tag='028B' or @tag='028C' or @tag='028G' or @tag='029A']">
