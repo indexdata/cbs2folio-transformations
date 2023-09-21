@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output indent="yes" method="xml" version="1.0" encoding="UTF-8"/>
-
+  
   <xsl:template match="collection">
     <collection>
-        <xsl:apply-templates/>
+      <xsl:apply-templates/>
     </collection>
   </xsl:template>
-
+  
   <xsl:template match="record">
     <record>
-        <xsl:for-each select="@* | node()">
-            <xsl:copy-of select="."/>
-        </xsl:for-each>
-        <xsl:apply-templates/>
+      <xsl:for-each select="@* | node()">
+        <xsl:copy-of select="."/>
+      </xsl:for-each>
+      <xsl:apply-templates/>
     </record>
   </xsl:template>
-
+  
   <xsl:template match="original">
     <xsl:if test="item/datafield[@tag='203@']/subfield[@code='0']">
       <holdingsRecords>
         <arr>
           <xsl:apply-templates select="item"/>
-       </arr>
+        </arr>
       </holdingsRecords>
     </xsl:if>
   </xsl:template>
-
+  
   <xsl:template match="item">
     <i>
       <xsl:variable name="hhrid" select="datafield[@tag='203@']/subfield[@code='0']"/>
@@ -41,38 +41,38 @@
       <callNumber>
         <xsl:value-of select="datafield[@tag='209A']/subfield[@code='a']"/>
       </callNumber>
-	  <holdingsTypeId>
-	    <xsl:variable name="holType" select="../datafield[@tag='002@']/subfield[@code='0']"/>
-		<xsl:variable name="holType1" select="substring($holType, 1, 1)"/>
-		<xsl:choose>
-		  <xsl:when test="$holType1 = 'O'">electronic</xsl:when>
-		  <xsl:otherwise>physical</xsl:otherwise>
-		</xsl:choose>
-	  </holdingsTypeId>
+      <holdingsTypeId>
+        <xsl:variable name="holType" select="../datafield[@tag='002@']/subfield[@code='0']"/>
+        <xsl:variable name="holType1" select="substring($holType, 1, 1)"/>
+        <xsl:choose>
+          <xsl:when test="$holType1 = 'O'">electronic</xsl:when>
+          <xsl:otherwise>physical</xsl:otherwise>
+        </xsl:choose>
+      </holdingsTypeId>
       <holdingsStatements>
-	    <xsl:if test="datafield[@tag='231B']/subfield[@code='a']">
-		  <arr>
-		    <xsl:for-each select="datafield[@tag='231B']/subfield[@code='a']">
-			  <i>
-			    <statement>
-				  <xsl:value-of select="."/>
-				</statement>
+        <xsl:if test="datafield[@tag='231B']/subfield[@code='a']">
+          <arr>
+            <xsl:for-each select="datafield[@tag='231B']/subfield[@code='a']">
+              <i>
+                <statement>
+                  <xsl:value-of select="."/>
+                </statement>
               </i>
-			</xsl:for-each>
-		  </arr>
-	    </xsl:if>
+            </xsl:for-each>
+          </arr>
+        </xsl:if>
       </holdingsStatements>
-	  <sourceId>K10plus</sourceId>
-    <administrativeNotes>
-      <arr>
-        <xsl:for-each select="datafield[@tag='201B']">
-          <i>
-            <xsl:value-of select="concat(./subfield[@code='0'], ', ', substring(./subfield[@code='t'],1,5), ' (7903: Datum und Uhrzeit der letzten Änderung)')"/>
-          </i>
-        </xsl:for-each>
-      </arr>
-    </administrativeNotes>
-	  <discoverySuppress>
+      <sourceId>K10plus</sourceId>
+      <administrativeNotes>
+        <arr>
+          <xsl:for-each select="datafield[@tag='201B']">
+            <i>
+              <xsl:value-of select="concat(./subfield[@code='0'], ', ', substring(./subfield[@code='t'],1,5), ' (7903: Datum und Uhrzeit der letzten Änderung)')"/>
+            </i>
+          </xsl:for-each>
+        </arr>
+      </administrativeNotes>
+      <discoverySuppress>
         <xsl:choose>
           <xsl:when test="substring(datafield[@tag='208@']/subfield[@code='b'],1,1)='c'">true</xsl:when>
           <xsl:when test="substring(datafield[@tag='208@']/subfield[@code='b'],1,1)='d'">true</xsl:when>
@@ -343,12 +343,12 @@
         </xsl:choose>
       </permanentLoanTypeId>
       <status>
-		<xsl:variable name="frequency" select="substring(../datafield[@tag='002@']/subfield[@code='0'],2,1)"/>
+        <xsl:variable name="frequency" select="substring(../datafield[@tag='002@']/subfield[@code='0'],2,1)"/>
         <name>
           <xsl:choose>
-			      <xsl:when test="$frequency='b'">Intellectual item</xsl:when>
-			      <xsl:when test="$frequency='c'">Intellectual item</xsl:when>
-			      <xsl:when test="$frequency='d'">Intellectual item</xsl:when>
+            <xsl:when test="$frequency='b'">Intellectual item</xsl:when>
+            <xsl:when test="$frequency='c'">Intellectual item</xsl:when>
+            <xsl:when test="$frequency='d'">Intellectual item</xsl:when>
             <xsl:when test="datafield[@tag='209A']/subfield[@code='d']='a'">On order</xsl:when>
             <xsl:when test="datafield[@tag='209A']/subfield[@code='d']='u'">Available</xsl:when>
             <xsl:when test="datafield[@tag='209A']/subfield[@code='d']='b'">Available</xsl:when>
@@ -359,7 +359,7 @@
             <xsl:when test="datafield[@tag='209A']/subfield[@code='d']='f'">Available</xsl:when>
             <xsl:when test="datafield[@tag='209A']/subfield[@code='d']='z'">Missing</xsl:when>
             <xsl:when test="datafield[@tag='209A']/subfield[@code='d']='g'">Restricted</xsl:when>
-			      <xsl:when test="datafield[@tag='209A']/subfield[@code='d']='o'">Unknown</xsl:when>
+            <xsl:when test="datafield[@tag='209A']/subfield[@code='d']='o'">Unknown</xsl:when>
             <xsl:otherwise>Available</xsl:otherwise>
           </xsl:choose>
         </name>
