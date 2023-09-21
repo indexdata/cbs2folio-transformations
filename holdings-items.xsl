@@ -80,9 +80,9 @@
           <xsl:otherwise>false</xsl:otherwise>
         </xsl:choose>
       </discoverySuppress>
-      <xsl:if test="datafield[@tag='220B' or @tag='237A' or @tag='244Z' or @tag='209O' or @tag='206X' or @tag='206W']">
-        <notes>
-          <arr>
+      <notes>
+        <arr>
+          <xsl:if test="datafield[@tag='220B' or @tag='237A' or @tag='244Z' or @tag='209O' or @tag='206X' or @tag='206W']">
             <!-- 4801 -->
             <xsl:for-each select="datafield[@tag='237A']">
               <xsl:if test="./subfield[@code='a'] or ./subfield[@code='0']">
@@ -181,9 +181,9 @@
                 </i>
               </xsl:if>
             </xsl:for-each>
-          </arr>
-        </notes>
-      </xsl:if>
+          </xsl:if>
+        </arr>
+      </notes>
       <xsl:if test="datafield[@tag='209R']">
         <electronicAccess>
           <arr>
