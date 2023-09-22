@@ -12,8 +12,8 @@ xsltproc xsl/pica2instance.xsl rundir/xml/20200109200514.xml | xsltproc xsl/code
 ### CBS2FOLIO Component Matrix
 
 
-| Name     | Git Repository       | Dockerfile |      Container image |     Container Registry | Notes | 
-| ----       --------------         ----------        ---------------       ------------------   ----- |
+|   Name     |    Git Repository       |   Dockerfile  |   Container image |  Container Registry | Notes | 
+|   ----     |    --------------       |   ----------  |   --------------- |  ------------------ | ----- |
 | OUF-PICA | https://github.com/indexdata/ouf-pica | https://github.com/indexdata/ouf-pica/blob/master/Dockerfile | indexdata/ouf-pica:3.0.4 | https://hub.docker.com/repositories/indexdata |  https://github.com/indexdata/ouf-pica/blob/master/README.md |
 | MariaDB  | https://github.com/indexdata/cbs2folio-transformations/tree/master/harvester/db | https://github.com/indexdata/cbs2folio-transformations/blob/master/harvester/db/Dockerfile | indexdata:mariadb10-11-pica:latest | https://hub.docker.com/repositories/indexdata | https://github.com/indexdata/cbs2folio-transformations/blob/master/harvester/db/README.md |
 | Harvester | https://github.com/indexdata/localindices | https://github.com/indexdata/localindices/blob/master/Dockerfile | ghcr.io/indexdata/harvester:v2.15.1 | https://github.com/indexdata/localindices/pkgs/container/harvester | https://github.com/indexdata/cbs2folio-transformations/blob/master/harvester/README.md |
