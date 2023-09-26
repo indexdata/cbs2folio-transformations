@@ -1,4 +1,4 @@
 #!/bin/bash
 
 cp -a ../../sql .
-docker build -t mariadb10-11-pica:latest .
+docker build -t mariadb10-11-pica:latest --pull --no-cache .
