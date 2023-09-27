@@ -1992,7 +1992,7 @@
         </xsl:for-each>
         <xsl:for-each select="datafield[@tag='001B']">
           <i>
-            <xsl:value-of select="concat(translate(substring-after(./subfield[@code='0'], ':'), '-', '.'),', ', substring(./subfield[@code='t'],1,5), ' (Datum der letzten Änderung)')"/>
+            <xsl:value-of select="concat(translate(substring-after(./subfield[@code='0'], ':'), '-', '.'),', ', substring(./subfield[@code='t'],1,5), ' (Letzte Änderung CBS)')"/>
           </i>
         </xsl:for-each>
       </arr>
