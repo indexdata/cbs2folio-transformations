@@ -705,57 +705,59 @@
     </title> 
     
     <indexTitle>
-      <xsl:choose>
-        <xsl:when test="boolean(substring(datafield[@tag='002@']/subfield[@code='0'], 2, 1) = 'f') and datafield[@tag='036C']">
-          <xsl:value-of select="normalize-space(translate($title-036C-idx, '&#034;&#035;&#040;&#041;&#046;', ' '))"/>
-          <xsl:if test="$title-021A-idx != ''">
-            <xsl:value-of select="concat(' ', $title-021A-idx)"/>
-          </xsl:if>
-        </xsl:when>
-        
-        <!-- TBD: need for adjustment at GBV? Not sure about the subfields in PXB-format -->
-        <xsl:when test="boolean(substring(datafield[@tag='002@']/subfield[@code='0'], 2, 1) = 'f' or substring(datafield[@tag='002@']/subfield[@code='0'], 2, 1) = 'v') and datafield[@tag='036E'] and $title-021A = ''">
-          <xsl:for-each select="datafield[@tag='036E'][1]/subfield">
-            <xsl:choose>
-              <xsl:when test="@code='a'">
-                <xsl:choose>
-                  <xsl:when test="./subfield[@code='a'][contains(., '@')]">
-                    <xsl:value-of select="substring-after(., '@')"/>
-                  </xsl:when>
-                  <xsl:otherwise>
-                    <xsl:value-of select="."/>
-                  </xsl:otherwise>
-                </xsl:choose>
-              </xsl:when>
-              <xsl:when test="@code='h' or @code='l' or @code='m' or @code='p'">
-                <xsl:value-of select="concat(' ', .)"/>
-              </xsl:when>
-            </xsl:choose>
-          </xsl:for-each>
-        </xsl:when> 
-        
-        <xsl:when test="$title-021A-idx != ''">
-          <xsl:value-of select="concat(translate($title-021A-idx, '&#034;&#035;&#040;&#041;&#046;', ' '), $title-021C-idx)"/>
-          <!-- hebis: ZDB special feature since the RDA switch:
-               Edition Statement instead of subseries -->
-          <xsl:if test="boolean(substring(datafield[@tag='002@']/subfield[@code='0'], 2, 1) = 'b') or boolean(substring(datafield[@tag='002@']/subfield[@code='0'], 2, 1) = 'd')">
-            <xsl:if test="datafield[@tag='032@']/subfield[@code='a'] != ''">
-              <xsl:value-of select="concat('. ', datafield[@tag='032@']/subfield[@code='a'])"/>
+      <xsl:variable name="index-title">
+        <xsl:choose>
+          <xsl:when test="boolean(substring(datafield[@tag='002@']/subfield[@code='0'], 2, 1) = 'f') and datafield[@tag='036C']">
+            <xsl:value-of select="$title-036C-idx"/>
+            <xsl:if test="$title-021A-idx != ''">
+              <xsl:value-of select="concat(' ', $title-021A-idx)"/>
             </xsl:if>
-          </xsl:if>
-          <xsl:if test="$title-021M-idx != ''">
-            <xsl:value-of select="$title-021M-idx"/>
-          </xsl:if>
-          <xsl:if test="$title-021N != ''">
-            <xsl:value-of select="concat(' ', $title-021N)"/>
-          </xsl:if>
-        </xsl:when>
-        <xsl:otherwise>KEIN TITEL, IM K10PLUS PRÜFEN</xsl:otherwise>
-      </xsl:choose>
+          </xsl:when>
+          
+          <!-- TBD: need for adjustment at GBV? Not sure about the subfields in PXB-format -->
+          <xsl:when test="boolean(substring(datafield[@tag='002@']/subfield[@code='0'], 2, 1) = 'f' or substring(datafield[@tag='002@']/subfield[@code='0'], 2, 1) = 'v') and datafield[@tag='036E'] and $title-021A = ''">
+            <xsl:for-each select="datafield[@tag='036E'][1]/subfield">
+              <xsl:choose>
+                <xsl:when test="@code='a'">
+                  <xsl:choose>
+                    <xsl:when test="./subfield[@code='a'][contains(., '@')]">
+                      <xsl:value-of select="substring-after(., '@')"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                      <xsl:value-of select="."/>
+                    </xsl:otherwise>
+                  </xsl:choose>
+                </xsl:when>
+                <xsl:when test="@code='h' or @code='l' or @code='m' or @code='p'">
+                  <xsl:value-of select="concat(' ', .)"/>
+                </xsl:when>
+              </xsl:choose>
+            </xsl:for-each>
+          </xsl:when> 
+          
+          <xsl:when test="$title-021A-idx != ''">
+            <xsl:value-of select="concat($title-021A-idx, ' ', $title-021C-idx)"/>
+            <!-- hebis: ZDB special feature since the RDA switch:
+                 Edition Statement instead of subseries -->
+            <xsl:if test="boolean(substring(datafield[@tag='002@']/subfield[@code='0'], 2, 1) = 'b') or boolean(substring(datafield[@tag='002@']/subfield[@code='0'], 2, 1) = 'd')">
+              <xsl:if test="datafield[@tag='032@']/subfield[@code='a'] != ''">
+                <xsl:value-of select="concat('. ', datafield[@tag='032@']/subfield[@code='a'])"/>
+              </xsl:if>
+            </xsl:if>
+            <xsl:if test="$title-021M-idx != ''">
+              <xsl:value-of select="$title-021M-idx"/>
+            </xsl:if>
+            <xsl:if test="$title-021N != ''">
+              <xsl:value-of select="concat(' ', $title-021N)"/>
+            </xsl:if>
+          </xsl:when>
+          <xsl:otherwise>KEIN TITEL, IM CBS PRÜFEN</xsl:otherwise>
+        </xsl:choose>
+      </xsl:variable>
+      
+      <xsl:value-of select="normalize-space(translate($index-title, '&#33;&#34;&#35;&#36;&#37;&#38;&#40;&#43;&#44;&#58;&#41;&#42;&#45;&#46;&#47;&#59;&#60;&#61;&#63;&#91;&#92;&#93;', ''))"/>  
     </indexTitle>
-    
-    
-    
+
     <!-- Original Code
          <xsl:variable name="title-tag">
          <xsl:choose>
