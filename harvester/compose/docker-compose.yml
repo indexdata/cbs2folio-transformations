@@ -1,0 +1,67 @@
+# Compose V2
+
+services:
+  mysql:
+    image: mariadb10-11-pica:latest
+    container_name: mariadb10-11-pica
+    hostname: mysql
+    # This UID and GID must exist locally on host system
+    env_file: 
+      - .env  
+    user: "${MYSQL_UID}:${MYSQL_GID}"
+    networks: 
+      - harvester-net
+    volumes: 
+      - ${MYSQL_HOST_DATA_DIR}:/var/lib/mysql 
+    logging:
+      driver: "json-file"
+      options: 
+        max-size: "50m"
+        max-file: "5"
+    restart: "unless-stopped"
+
+  harvester:
+    image: ghcr.io/indexdata/harvester:${LOCALINDICES_RELEASE_TAG}
+    container_name: harvester
+    hostname: harvester
+    env_file: 
+      - .env
+    networks: 
+      - harvester-net
+    ports:
+      - "${HARVESTER_HOST_PORT}:8080"
+    depends_on: 
+      mysql:
+        condition: service_started
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "50m"
+        max-file: "5"
+    restart: "unless-stopped"
+
+  harvester-admin:
+    image: ghcr.io/indexdata/harvester-admin:${LOCALINDICES_RELEASE_TAG}
+    container_name: harvester-admin
+    hostname: harvester-admin
+    env_file: 
+      - .env
+    environment:
+      - HARVESTER_HOST=harvester
+    ports:
+      - "${HARVESTER_ADMIN_HOST_PORT}:8081"
+    networks:
+      - harvester-net
+    depends_on:
+      harvester:
+        condition: service_started
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "50m"
+        max-file: "5"
+    restart: "unless-stopped"
+
+networks:
+  harvester-net:
+    name: harvester-net
