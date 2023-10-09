@@ -120,33 +120,7 @@
     <hrid>
       <xsl:value-of select="$ppn"/>
     </hrid>
-    <xsl:for-each select="datafield[@tag='001D']/subfield[@code='0'][not(contains(.,'99-99'))]">
-      <statusUpdatedDate>
-        <xsl:call-template name="pica-to-iso-date">
-          <xsl:with-param name="input" select="."/>
-        </xsl:call-template>
-      </statusUpdatedDate>
-    </xsl:for-each>
     <xsl:if test="datafield[@tag='002@']">
-      <!-- statusId -->
-      <statusId>
-        <xsl:variable name="stcode" select="substring(datafield[@tag='002@']/subfield[@code='0'], 3, 1)"/>
-        <xsl:choose>
-          <xsl:when test="$stcode='u'">Autopsie</xsl:when>
-          <xsl:when test="$stcode='v'">Bibliografisch vollständig</xsl:when>
-          <xsl:when test="$stcode='a'">Erwerbungsdatensatz</xsl:when>
-          <xsl:when test="$stcode='i'">Datensatz für internen Gebrauch</xsl:when>
-          <xsl:when test="$stcode='k'">Lösch-Status</xsl:when>
-          <xsl:when test="$stcode='n'">Maschinell konvertierte Daten</xsl:when>
-          <xsl:when test="$stcode='r'">Katalogisat ohne Autopsie</xsl:when>
-          <xsl:when test="$stcode='t'">Verwaltungsdatensatz</xsl:when>
-          <xsl:when test="$stcode='x'">Fremddatensatz</xsl:when>
-          <xsl:when test="$stcode='y'">Katalogisat nach Autopsie im Vorläufigkeitsstatus</xsl:when>
-          <xsl:when test="$stcode='B'">Maschinelle Einspielung, möglicherweise dublett</xsl:when>
-          <xsl:when test="$stcode='N'">Zunächst verdeckt eingespieltes Novum</xsl:when>
-          <xsl:when test="$stcode='X'">Inhalt oder Struktur ist zu überprüfen</xsl:when>
-        </xsl:choose>
-      </statusId>
       <!-- mode of issuance -->
       <modeOfIssuanceId>
         <xsl:variable name="mii" select="substring(datafield[@tag='002@']/subfield[@code='0'], 2, 1)"/>
