@@ -1118,8 +1118,8 @@
     </alternativeTitles>
     
     <!-- Contributors -->
-    <xsl:if test="datafield[@tag='028A' or @tag='028B' or @tag='028C' or @tag='028G' or @tag='029A' or @tag='029F']">
-      <contributors>
+    <contributors>
+      <xsl:if test="datafield[@tag='028A' or @tag='028B' or @tag='028C' or @tag='028G' or @tag='029A' or @tag='029F']">
         <arr>
           <xsl:for-each select="datafield[@tag='028A' or @tag='028B' or @tag='028C' or @tag='028G']">
             <xsl:if test="./subfield[@code='a' or @code='A' or @code='P' or @code='8']">
@@ -1250,8 +1250,9 @@
             </xsl:if>
           </xsl:for-each>
         </arr>
-      </contributors>
-    </xsl:if>
+      </xsl:if>
+    </contributors>
+    
     <!-- Publication -->
     <publication>
       <arr>
