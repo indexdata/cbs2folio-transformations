@@ -23,7 +23,7 @@
   <xsl:template match="original">
     <instanceRelations>
       <!-- Parent instances -->
-      <xsl:if test="./datafield[@tag='036D' or @tag='036F' or @tag='039B']./subfield[@code='9']">
+      <xsl:if test="./datafield[@tag='036D' or @tag='036F' or @tag='039B']/subfield[@code='9']">
         <parentInstances>
           <arr>
             <xsl:for-each select="datafield[@tag='036D' or @tag='036F' or @tag='039B']">
@@ -43,7 +43,7 @@
           </arr>
         </parentInstances>
       </xsl:if>
-      <xsl:if test="./datafield[@tag='039E'] and ./subfield[@code='9']">
+      <xsl:if test="./datafield[@tag='039E']/subfield[@code='9']">
         <xsl:variable name="prec" select="./datafield[@tag='039E' and subfield[@code='b']='f']"/>
         <xsl:if test="$prec">
           <precedingTitles>
@@ -57,7 +57,7 @@
           </precedingTitles>
         </xsl:if>
       </xsl:if>
-      <xsl:if test="./datafield[@tag='039E'] and ./subfield[@code='9']">
+      <xsl:if test="./datafield[@tag='039E']/subfield[@code='9']">
         <xsl:variable name="succ" select="./datafield[@tag='039E' and subfield[@code='b']='s']"/>
         <xsl:if test="$succ">
           <succeedingTitles>
