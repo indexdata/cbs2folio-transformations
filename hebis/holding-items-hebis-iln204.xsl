@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- date of last edit: 2022-12-20 (YYYY-MM-DD) -->
+<!-- date of last edit: 2023-09-04 (YYYY-MM-DD) -->
 
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:exsl="http://exslt.org/common" version="1.1" exclude-result-prefixes="exsl">
@@ -22,6 +22,7 @@
     <xsl:variable name="abt" select="$i/datafield[@tag = '209A' and subfield[@code = 'x'] = '00']/subfield[@code = 'f']/text()"/>
     <xsl:variable name="signature"
       select="$i/datafield[@tag = '209A' and subfield[@code = 'x'] = '00']/subfield[@code = 'a']/text()"/>
+    <xsl:variable name="electronicholding" select="(substring($i/../datafield[@tag='002@']/subfield[@code='0'],1,1) = 'O') and not(substring($i/datafield[@tag='208@']/subfield[@code='b'],1,1) = 'a')"/>
     <xsl:variable name="signature-lowercase" select="
         translate($signature,
         'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
@@ -67,6 +68,7 @@
             <range from="4 b 49" to="4 b 73" location="ILN204/CG/UB/UBMag3"/>
             <prefix location="ILN204/CG/UB/UBMag3">4 ss</prefix>
             <range from="4/1" to="4/9" location="ILN204/CG/UB/UBMagKeller"/>
+            <range from="40.000.00" to="44.999.99" location="ILN204/CG/UB/UBMagKeller"/>
             <range from="47.000.00" to="47.999.99" location="ILN204/CG/UB/Freihand2OG"/>
             <range from="4o 1/1" to="4o 1/9" location="ILN204/CG/UB/UBMagKeller"/>
             <range from="4o 2/1" to="4o 2/9" location="ILN204/CG/UB/UBMagKeller"/>
@@ -393,8 +395,8 @@
           <department code="010" default-location="ILN204/CG/ZRW/Freihand"/>
 <!--            <range from="/" to="z" location="ILN204/CG/ZRW/Freihand"/>
           </department>-->
-          <department code="015" default-location="ILN204/CG/DezFB/Fachbibliotheken"/>
-<!--            <range from="/" to="z" location="ILN204/CG/DezFB/Fachbibliotheken"/>
+          <department code="015" default-location="ILN204/CG/DezFB/EDZ"/>
+<!--            <range from="/" to="z" location="ILN204/CG/DezFB/EDZ"/>
           </department>-->
           <department code="020" default-location="ILN204/CG/ZRW/Freihand">
             <range from="/" to="j" location="ILN204/CG/ZRW/Freihand"/>
@@ -403,8 +405,29 @@
             <range from="n" to="s 9" location="ILN204/CG/ZRW/Freihand"/>
             <range from="x" to="z" location="ILN204/CG/ZRW/Freihand"/>
           </department>
-          <department code="021" default-location="ILN204/CG/DezFB/Fachbibliotheken">
-            <range from="/" to="z" location="ILN204/CG/DezFB/Fachbibliotheken"/>
+          <department code="021" default-location="ILN204/CG/DezFB/WiWi-BWL01">
+            <range from="/" to="z" location="ILN204/CG/DezFB/WiWi-BWL01"/>
+          </department>
+          <department code="022" default-location="ILN204/CG/DezFB/WiWi-BWL02">
+            <range from="/" to="z" location="ILN204/CG/DezFB/WiWi-BWL02"/>
+          </department>
+          <department code="023" default-location="ILN204/CG/DezFB/WiWi-BWL03">
+            <range from="/" to="z" location="ILN204/CG/DezFB/WiWi-BWL03"/>
+          </department>
+          <department code="024" default-location="ILN204/CG/DezFB/WiWi-BWL04">
+            <range from="/" to="z" location="ILN204/CG/DezFB/WiWi-BWL04"/>
+          </department>
+          <department code="025" default-location="ILN204/CG/DezFB/WiWi-BWL05">
+            <range from="/" to="z" location="ILN204/CG/DezFB/WiWi-BWL05"/>
+          </department>
+          <department code="026" default-location="ILN204/CG/DezFB/WiWi-BWL06">
+            <range from="/" to="z" location="ILN204/CG/DezFB/WiWi-BWL06"/>
+          </department>
+          <department code="027" default-location="ILN204/CG/DezFB/WiWi-BWL07">
+            <range from="/" to="z" location="ILN204/CG/DezFB/WiWi-BWL07"/>
+          </department>
+          <department code="028" default-location="ILN204/CG/DezFB/WiWi-BWL08">
+            <range from="/" to="z" location="ILN204/CG/DezFB/WiWi-BWL08"/>
           </department>
           <department code="030" default-location="ILN204/CG/ZP2/Freihand">
             <prefix location="ILN204/CG/ZP2/Freihand">/</prefix>
@@ -418,90 +441,223 @@
             <prefix location="ILN204/CG/ZP2/Freihand">030 soz</prefix>
             <prefix location="ILN204/CG/ZP2/Freihand">z</prefix>
           </department>
-          <department code="061" default-location="ILN204/CG/DezFB/Fachbibliotheken"/>
-          <department code="082" default-location="ILN204/CG/DezFB/Fachbibliotheken"/>
-          <department code="084" default-location="ILN204/CG/DezFB/Fachbibliotheken">
-            <range from="/" to="z" location="ILN204/CG/DezFB/Fachbibliotheken"/>
+          <department code="055" default-location="ILN204/CG/DezFB/Mediothek-Musikwiss">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Mediothek-Musikwiss"/>
           </department>
-          <department code="090" default-location="ILN204/CG/DezFB/Fachbibliotheken">
-            <range from="/" to="z" location="ILN204/CG/DezFB/Fachbibliotheken"/>
+          <department code="061" default-location="ILN204/CG/DezFB/Testothek-Psychologie"/>
+          <department code="082" default-location="ILN204/CG/DezFB/FB-Klass-Archaeologie"/>
+          <department code="084" default-location="ILN204/CG/DezFB/FB-Historisches-Institut">
+            <range from="/" to="z" location="ILN204/CG/DezFB/FB-Historisches-Institut"/>
           </department>
-          <department code="092" default-location="ILN204/CG/DezFB/Fachbibliotheken">
-            <range from="/" to="z" location="ILN204/CG/DezFB/Fachbibliotheken"/>
+          <department code="090" default-location="ILN204/CG/DezFB/FB-Germanistik">
+            <range from="/" to="z" location="ILN204/CG/DezFB/FB-Germanistik"/>
           </department>
-          <department code="100" default-location="ILN204/CG/DezFB/Fachbibliotheken">
-            <range from="/" to="z" location="ILN204/CG/DezFB/Fachbibliotheken"/>
+          <department code="092" default-location="ILN204/CG/DezFB/Sudetendeutsches-Woerterbuch">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Sudetendeutsches-Woerterbuch"/>
           </department>
-          <department code="111" default-location="ILN204/CG/DezFB/Fachbibliotheken">
-            <prefix location="ILN204/CG/DezFB/Fachbibliotheken">/</prefix>
-            <prefix location="ILN204/CG/DezFB/Fachbibliotheken">0</prefix>
-            <prefix location="ILN204/CG/DezFB/Fachbibliotheken">bestellt</prefix>
-            <range from="gr a" to="gr z" location="ILN204/CG/DezFB/Fachbibliotheken"/>
-            <range from="i 0" to="i 6999" location="ILN204/CG/DezFB/Fachbibliotheken"/>
-            <range from="ii 1" to="ii 999" location="ILN204/CG/DezFB/Fachbibliotheken"/>
-            <range from="iii 1 1" to="iii 9 99999" location="ILN204/CG/DezFB/Fachbibliotheken"/>
-            <range from="iv 1 1" to="iv 4 999999" location="ILN204/CG/DezFB/Fachbibliotheken"/>
-            <range from="ix 1 1" to="ix 6 999999" location="ILN204/CG/DezFB/Fachbibliotheken"/>
-            <range from="lat a" to="lat z" location="ILN204/CG/DezFB/Fachbibliotheken"/>
-            <prefix location="ILN204/CG/DezFB/Fachbibliotheken">pap</prefix>
-            <range from="v 1 1" to="v 9 999999" location="ILN204/CG/DezFB/Fachbibliotheken"/>
-            <range from="vi 1 1" to="vi 9 999999" location="ILN204/CG/DezFB/Fachbibliotheken"/>
-            <range from="vii 1 1" to="vii 3 99999" location="ILN204/CG/DezFB/Fachbibliotheken"/>
-            <range from="viii 1 1" to="viii 7 9999" location="ILN204/CG/DezFB/Fachbibliotheken"/>
-            <range from="x 1 1" to="x 4 999999" location="ILN204/CG/DezFB/Fachbibliotheken"/>
-            <range from="xi 1 1" to="xi 9 999999" location="ILN204/CG/DezFB/Fachbibliotheken"/>
-            <range from="xii 1 1" to="xii 9 99999" location="ILN204/CG/DezFB/Fachbibliotheken"/>
-            <range from="xiii 1 1" to="xiii 1 9999" location="ILN204/CG/DezFB/Fachbibliotheken"/>
-            <range from="xiv 1 1" to="xiv 9 99999" location="ILN204/CG/DezFB/Fachbibliotheken"/>
-            <range from="xv 3 1" to="xv 5 999999" location="ILN204/CG/DezFB/Fachbibliotheken"/>
-            <range from="xvi 1" to="xvi 999999" location="ILN204/CG/DezFB/Fachbibliotheken"/>
-            <range from="xvii 1" to="xvii 999999" location="ILN204/CG/DezFB/Fachbibliotheken"/>
-            <range from="zs 0" to="zs 999999" location="ILN204/CG/DezFB/Fachbibliotheken"/>
+          <department code="100" default-location="ILN204/CG/DezFB/FB-Anglistik">
+            <range from="/" to="z" location="ILN204/CG/DezFB/FB-Anglistik"/>
           </department>
-          <department code="112" default-location="ILN204/CG/DezFB/Fachbibliotheken">
-            <range from="/" to="z" location="ILN204/CG/DezFB/Fachbibliotheken"/>
+          <department code="111" default-location="ILN204/CG/DezFB/FB-Klass-Philologie">
+            <prefix location="ILN204/CG/DezFB/FB-Klass-Philologie">/</prefix>
+            <prefix location="ILN204/CG/DezFB/FB-Klass-Philologie">0</prefix>
+            <prefix location="ILN204/CG/DezFB/FB-Klass-Philologie">bestellt</prefix>
+            <range from="gr a" to="gr z" location="ILN204/CG/DezFB/FB-Klass-Philologie"/>
+            <range from="i 0" to="i 6999" location="ILN204/CG/DezFB/FB-Klass-Philologie"/>
+            <range from="ii 1" to="ii 999" location="ILN204/CG/DezFB/FB-Klass-Philologie"/>
+            <range from="iii 1 1" to="iii 9 99999" location="ILN204/CG/DezFB/FB-Klass-Philologie"/>
+            <range from="iv 1 1" to="iv 4 999999" location="ILN204/CG/DezFB/FB-Klass-Philologie"/>
+            <range from="ix 1 1" to="ix 6 999999" location="ILN204/CG/DezFB/FB-Klass-Philologie"/>
+            <range from="lat a" to="lat z" location="ILN204/CG/DezFB/FB-Klass-Philologie"/>
+            <prefix location="ILN204/CG/DezFB/FB-Klass-Philologie">pap</prefix>
+            <range from="v 1 1" to="v 9 999999" location="ILN204/CG/DezFB/FB-Klass-Philologie"/>
+            <range from="vi 1 1" to="vi 9 999999" location="ILN204/CG/DezFB/FB-Klass-Philologie"/>
+            <range from="vii 1 1" to="vii 3 99999" location="ILN204/CG/DezFB/FB-Klass-Philologie"/>
+            <range from="viii 1 1" to="viii 7 9999" location="ILN204/CG/DezFB/FB-Klass-Philologie"/>
+            <range from="x 1 1" to="x 4 999999" location="ILN204/CG/DezFB/FB-Klass-Philologie"/>
+            <range from="xi 1 1" to="xi 9 999999" location="ILN204/CG/DezFB/FB-Klass-Philologie"/>
+            <range from="xii 1 1" to="xii 9 99999" location="ILN204/CG/DezFB/FB-Klass-Philologie"/>
+            <range from="xiii 1 1" to="xiii 1 9999" location="ILN204/CG/DezFB/FB-Klass-Philologie"/>
+            <range from="xiv 1 1" to="xiv 9 99999" location="ILN204/CG/DezFB/FB-Klass-Philologie"/>
+            <range from="xv 3 1" to="xv 5 999999" location="ILN204/CG/DezFB/FB-Klass-Philologie"/>
+            <range from="xvi 1" to="xvi 999999" location="ILN204/CG/DezFB/FB-Klass-Philologie"/>
+            <range from="xvii 1" to="xvii 999999" location="ILN204/CG/DezFB/FB-Klass-Philologie"/>
+            <range from="zs 0" to="zs 999999" location="ILN204/CG/DezFB/FB-Klass-Philologie"/>
           </department>
-          <department code="116" default-location="ILN204/CG/DezFB/Fachbibliotheken">
-            <range from="sla a" to="sla z" location="ILN204/CG/DezFB/Fachbibliotheken"/>
+          <department code="112" default-location="ILN204/CG/DezFB/FB-Romanistik">
+            <range from="/" to="z" location="ILN204/CG/DezFB/FB-Romanistik"/>
           </department>
-          <department code="117" default-location="ILN204/CG/DezFB/Fachbibliotheken">
-            <range from="/" to="zzzz" location="ILN204/CG/DezFB/Fachbibliotheken"/>
+          <department code="116" default-location="ILN204/CG/DezFB/SlavistikMediathek">
+            <range from="sla a" to="sla z" location="ILN204/CG/DezFB/SlavistikMediathek"/>
           </department>
-          <department code="120" default-location="ILN204/CG/DezFB/Fachbibliotheken">
-            <range from="/" to="z" location="ILN204/CG/DezFB/Fachbibliotheken"/>
+          <department code="117" default-location="ILN204/CG/DezFB/AngewTheaterwiss">
+            <range from="/" to="zzzz" location="ILN204/CG/DezFB/AngewTheaterwiss"/>
           </department>
-          <department code="122" default-location="ILN204/CG/DezFB/Fachbibliotheken">
-            <range from="/" to="z" location="ILN204/CG/DezFB/Fachbibliotheken"/>
+          <department code="120" default-location="ILN204/CG/DezFB/FB-Mathe-Informatik">
+            <range from="/" to="z" location="ILN204/CG/DezFB/FB-Mathe-Informatik"/>
           </department>
-          <department code="138" default-location="ILN204/CG/DezFB/Fachbibliotheken">
-            <range from="/" to="z" location="ILN204/CG/DezFB/Fachbibliotheken"/>
+          <department code="122" default-location="ILN204/CG/DezFB/FB-Mathe-Informatik">
+            <range from="/" to="z" location="ILN204/CG/DezFB/FB-Mathe-Informatik"/>
           </department>
-          <department code="151" default-location="ILN204/CG/DezFB/Fachbibliotheken">
-            <range from="/" to="z" location="ILN204/CG/DezFB/Fachbibliotheken"/>
+          <department code="138" default-location="ILN204/CG/DezFB/Strahelnschutz">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Strahelnschutz"/>
           </department>
-          <department code="172" default-location="ILN204/CG/DezFB/Fachbibliotheken">
-            <range from="/" to="z" location="ILN204/CG/DezFB/Fachbibliotheken"/>
+          <department code="151" default-location="ILN204/CG/DezFB/Hermann-Hoffmann-Akademie">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Hermann-Hoffmann-Akademie"/>
           </department>
-          <department code="192" default-location="ILN204/CG/DezFB/Fachbibliotheken">
-            <range from="/" to="z" location="ILN204/CG/DezFB/Fachbibliotheken"/>
+          <department code="154" default-location="ILN204/CG/DezFB/Zoologie1">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Zoologie1"/>
           </department>
-          <department code="28" default-location="ILN204/CG/DezFB/Fachbibliotheken">
-            <range from="/" to="z" location="ILN204/CG/DezFB/Fachbibliotheken"/>
+          <department code="157" default-location="ILN204/CG/DezFB/Genetik">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Genetik"/>
           </department>
+          <department code="172" default-location="ILN204/CG/DezFB/Milchwissenschaften">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Milchwissenschaften"/>
+          </department>
+          <department code="174" default-location="ILN204/CG/DezFB/Veterinaeranatomie">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Veterinaeranatomie"/>
+          </department>
+          <department code="175" default-location="ILN204/CG/DezFB/Veterinaerphysiologie">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Veterinaerphysiologie"/>
+          </department>
+          <department code="176" default-location="ILN204/CG/DezFB/Biochemie-Endokrinologie">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Biochemie-Endokrinologie"/>
+          </department>
+          <department code="177" default-location="ILN204/CG/DezFB/Veterinärpathologie">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Veterinärpathologie"/>
+          </department>
+          <department code="178" default-location="ILN204/CG/DezFB/Tieraerztliche-Nahrungsmittelkunde">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Tieraerztliche-Nahrungsmittelkunde"/>
+          </department>
+          <department code="179" default-location="ILN204/CG/DezFB/Tierhygiene">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Tierhygiene"/>
+          </department>
+          <department code="180" default-location="ILN204/CG/DezFB/Tierschutz-Ethologie">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Tierschutz-Ethologie"/>
+          </department>
+          <department code="182" default-location="ILN204/CG/DezFB/Gefluegelkrankheiten">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Gefluegelkrankheiten"/>
+          </department>
+          <department code="184" default-location="ILN204/CG/DezFB/Kleintier-Innere-Chirurgie">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Kleintier-Innere-Chirurgie"/>
+          </department>
+          <department code="185" default-location="ILN204/CG/DezFB/Pferdeklinik">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Pferdeklinik"/>
+          </department>
+          <department code="186" default-location="ILN204/CG/DezFB/Klinik-Wiederkäuer">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Klinik-Wiederkäuer"/>
+          </department>
+          <department code="187" default-location="ILN204/CG/DezFB/Reproduktionsmedizin-und-Neugeborenenkunde">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Reproduktionsmedizin-und-Neugeborenenkunde"/>
+          </department>
+          <department code="189" default-location="ILN204/CG/DezFB/Virologie">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Virologie"/>
+          </department>
+          <department code="190" default-location="ILN204/CG/DezFB/Parhmakol-Toxikol-BFS">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Parhmakol-Toxikol-BFS"/>
+          </department>
+          <department code="192" default-location="ILN204/CG/DezFB/Prozesstechnik">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Prozesstechnik"/>
+          </department>
+          <department code="209" default-location="ILN204/CG/DezFB/Ländliches-Genossenschaftswesen">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Ländliches-Genossenschaftswesen"/>
+          </department>
+          <department code="211" default-location="ILN204/CG/DezFB/Biomathematik">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Biomathematik"/>
+          </department>
+          <!-- BIK 230 eigentlich nicht mehr aktiv, aber ggf. noch in CBS-Test -->
           <department code="230" default-location="ILN204/CG/DezFB/Fachbibliotheken">
             <range from="/" to="z" location="ILN204/CG/DezFB/Fachbibliotheken"/>
           </department>
-          <department code="290" default-location="ILN204/CG/DezFB/Fachbibliotheken">
-            <range from="/" to="z" location="ILN204/CG/DezFB/Fachbibliotheken"/>
+          <department code="231" default-location="ILN204/CG/DezFB/Anatomie">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Anatomie"/>
           </department>
+          <department code="232" default-location="ILN204/CG/DezFB/Physiologie">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Physiologie"/>
+          </department>
+          <department code="233" default-location="ILN204/CG/DezFB/Biochemie">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Biochemie"/>
+          </department>
+          <department code="234" default-location="ILN204/CG/DezFB/Pathologie">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Pathologie"/>
+          </department>
+          <department code="235" default-location="ILN204/CG/DezFB/Arbeitsmedizin">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Arbeitsmedizin"/>
+          </department>
+          <department code="236" default-location="ILN204/CG/DezFB/Geschichte-der-Medizin">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Geschichte-der-Medizin"/>
+          </department>
+          <department code="237" default-location="ILN204/CG/DezFB/Hygiene-Umweltmedizin">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Hygiene-Umweltmedizin"/>
+          </department>
+          <department code="238" default-location="ILN204/CG/DezFB/Rechtsmedizin">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Rechtsmedizin"/>
+          </department>
+          <department code="250" default-location="ILN204/CG/DezFB/Dermatologie">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Dermatologie"/>
+          </department>
+          <department code="258" default-location="ILN204/CG/DezFB/Augenklinik">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Augenklinik"/>
+          </department>
+          <department code="259" default-location="ILN204/CG/DezFB/Psychiat-Neurol">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Psychiat-Neurol"/>
+          </department>
+          <department code="290" default-location="ILN204/CG/DezFB/Uniarchiv-SLS">
+            <range from="/" to="z" location="ILN204/CG/DezFB/Uniarchiv-SLS"/>
+          </department>
+          <!-- BIK 320 eigentlich nicht mehr aktiv, aber ggf. noch in CBS-Test -->
           <department code="320" default-location="ILN204/CG/DezFB/Fachbibliotheken">
             <range from="/" to="z" location="ILN204/CG/DezFB/Fachbibliotheken"/>
           </department>
-          <department code="331" default-location="ILN204/CG/DezFB/Fachbibliotheken">
-            <range from="/" to="z" location="ILN204/CG/DezFB/Fachbibliotheken"/>
+          <!-- BIK 322 eigentlich nicht mehr aktiv, aber ggf. noch in CBS-Test -->
+          <department code="322" default-location="ILN204/CG/DezFB/AAA-DaF">
+            <range from="/" to="z" location="ILN204/CG/DezFB/AAA-DaF"/>
           </department>
+          <department code="331" default-location="ILN204/CG/DezFB/WiWi-VWL01">
+            <range from="/" to="z" location="ILN204/CG/DezFB/WiWi-VWL01"/>
+          </department>
+          <department code="332" default-location="ILN204/CG/DezFB/WiWi-VWL02">
+            <range from="/" to="z" location="ILN204/CG/DezFB/WiWi-VWL02"/>
+          </department>
+          <department code="333" default-location="ILN204/CG/DezFB/WiWi-VWL03">
+            <range from="/" to="z" location="ILN204/CG/DezFB/WiWi-VWL03"/>
+          </department>
+          <department code="335" default-location="ILN204/CG/DezFB/WiWi-VWL05">
+            <range from="/" to="z" location="ILN204/CG/DezFB/WiWi-VWL05"/>
+          </department>
+          <department code="336" default-location="ILN204/CG/DezFB/WiWi-VWL06">
+            <range from="/" to="z" location="ILN204/CG/DezFB/WiWi-VWL06"/>
+          </department>
+          <department code="341" default-location="ILN204/CG/DezFB/WiWi-Statistik-Oekonometrie">
+            <range from="/" to="z" location="ILN204/CG/DezFB/WiWi-Statistik-Oekonometrie"/>
+          </department>
+          <department code="342" default-location="ILN204/CG/DezFB/WiWi-BWL09">
+            <range from="/" to="z" location="ILN204/CG/DezFB/WiWi-BWL09"/>
+          </department>
+          <department code="343" default-location="ILN204/CG/DezFB/WiWi-BWL10">
+            <range from="/" to="z" location="ILN204/CG/DezFB/WiWi-BWL10"/>
+          </department>
+          <department code="345" default-location="ILN204/CG/DezFB/WiWi-VWL04">
+            <range from="/" to="z" location="ILN204/CG/DezFB/WiWi-VWL04"/>
+          </department>
+          <!-- BIK 351 eigentlich nicht mehr aktiv, aber ggf. noch in CBS-Test -->
           <department code="351" default-location="ILN204/CG/DezFB/Fachbibliotheken">
             <range from="0" to="z" location="ILN204/CG/DezFB/Fachbibliotheken"/>
+          </department>
+          <department code="372" default-location="ILN204/CG/DezFB/ÖkologischerLandbau">
+            <range from="0" to="z" location="ILN204/CG/DezFB/ÖkologischerLandbau"/>
+          </department>
+          <department code="374" default-location="ILN204/CG/DezFB/LW-Inklusion-ZfL">
+            <range from="0" to="z" location="ILN204/CG/DezFB/LW-Inklusion-ZfL"/>
+          </department>
+          <department code="375" default-location="ILN204/CG/DezFB/LernwerkstattIFIB">
+            <range from="0" to="z" location="ILN204/CG/DezFB/LernwerkstattIFIB"/>
+          </department>
+          <department code="376" default-location="ILN204/CG/DezFB/DidWerkSpr">
+            <range from="0" to="z" location="ILN204/CG/DezFB/DidWerkSpr"/>
+          </department>
+          <department code="380" default-location="ILN204/CG/DezFB/AKWildbiologie">
+            <range from="0" to="z" location="ILN204/CG/DezFB/AKWildbiologie"/>
           </department>
           <department code="992" default-location="ILN204/E/E/Onlinemedien">
             <prefix location="ILN204/E/E/Onlinemedien">/</prefix>
@@ -518,6 +674,7 @@
       </xsl:variable>
 
       <xsl:choose>
+        <xsl:when test="$electronicholding">ILN204/E/E/Online Medien</xsl:when>
         <xsl:when test="
             exsl:node-set($ranges-list)/ranges/department[@code = $abt]/prefix or
             exsl:node-set($ranges-list)/ranges/department[@code = $abt]/range">
@@ -875,39 +1032,35 @@
     <xsl:param name="in-range"/>
     <xsl:param name="default-location" select="'Unbekannter Standort'"/>
     <xsl:choose>
-      <xsl:when test="$in-range = 1">
+      <xsl:when test="$range-list and $in-range = 1">
         <xsl:value-of select="$last-range/@location"/>
       </xsl:when>
-      <xsl:otherwise>
-        <xsl:choose>
-          <xsl:when test="$range-list">
-            <xsl:call-template name="get-location-by-range">
-              <xsl:with-param name="signature-lowercase" select="$signature-lowercase"/>
-              <xsl:with-param name="last-range" select="$range-list[1]"/>
-              <xsl:with-param name="range-list" select="$range-list[position() != 1]"/>
-              <xsl:with-param name="in-range">
-                <xsl:call-template name="compare-tokens">
-                  <xsl:with-param name="signature-lowercase-trimmed">
-                    <!--<xsl:value-of
-                      select="substring($signature-lowercase, 1, string-length($range-list[1]/@to))"
-                    />-->
-                    <xsl:value-of select="$signature-lowercase"/>
-                  </xsl:with-param>
-                  <xsl:with-param name="range-from">
-                    <xsl:value-of select="$range-list[1]/@from"/>
-                  </xsl:with-param>
-                  <xsl:with-param name="range-to">
-                    <xsl:value-of select="$range-list[1]/@to"/>
-                  </xsl:with-param>
-                </xsl:call-template>
+      <xsl:when test="$range-list">
+        <xsl:call-template name="get-location-by-range">
+          <xsl:with-param name="signature-lowercase" select="$signature-lowercase"/>
+          <xsl:with-param name="last-range" select="$range-list[1]"/>
+          <xsl:with-param name="range-list" select="$range-list[position() != 1]"/>
+          <xsl:with-param name="in-range">
+            <xsl:call-template name="compare-tokens">
+              <xsl:with-param name="signature-lowercase-trimmed">
+                <!--<xsl:value-of
+                  select="substring($signature-lowercase, 1, string-length($range-list[1]/@to))"
+                />-->
+                <xsl:value-of select="$signature-lowercase"/>
               </xsl:with-param>
-              <xsl:with-param name="default-location" select="$default-location"/>
+              <xsl:with-param name="range-from">
+                <xsl:value-of select="$range-list[1]/@from"/>
+              </xsl:with-param>
+              <xsl:with-param name="range-to">
+                <xsl:value-of select="$range-list[1]/@to"/>
+              </xsl:with-param>
             </xsl:call-template>
-          </xsl:when>
-          <xsl:otherwise>
-            <xsl:value-of select="$default-location"/>
-          </xsl:otherwise>
-        </xsl:choose>
+          </xsl:with-param>
+          <xsl:with-param name="default-location" select="$default-location"/>
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="$default-location"/>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
