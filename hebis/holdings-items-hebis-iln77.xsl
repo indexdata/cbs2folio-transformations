@@ -200,7 +200,7 @@
     </discoverySuppress>
   </xsl:template>
 
- <xsl:template match="notes/arr">
+  <xsl:template match="holdingsRecords/arr/i/notes/arr">
    <xsl:variable name="i" select="key('original',../../permanentLocationId)"/>
 
    <arr>
