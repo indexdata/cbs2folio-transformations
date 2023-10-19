@@ -28,11 +28,11 @@
       <xsl:if test="./datafield[@tag='036D' or @tag='036F' or @tag='039B']">
         <parentInstances>
           <!-- 039C is not needed, child relations are generated from parent relations -->
+          <xsl:variable name='is-vol' select="substring(./datafield[@tag='002@']/subfield[@code='0'], 2, 1)"/>
           <arr>
-            <xsl:for-each select="datafield[@tag='036D' or @tag='036F' or @tag='039B']">
+            <xsl:for-each select="datafield[@tag='036D' or @tag='036F' or (@tag='039B' and ($is-vol='o'))]">
               <i>
                 <xsl:call-template name="rel-body"/>
-                <xsl:variable name='is-vol' select="substring(../datafield[@tag='002@']/subfield[@code='0'], 2, 1)"/>
                 <instanceRelationshipTypeId>
                   <xsl:choose>
                     <xsl:when test="./@tag='039B'">6366b68c-aeeb-4dfe-9cd5-92518b2244a0</xsl:when> <!-- article -->
