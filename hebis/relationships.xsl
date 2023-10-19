@@ -53,7 +53,7 @@
           <arr>
             <xsl:for-each select="$prec">
               <i>
-                <xsl:call-template name="rel-body" />
+                <xsl:call-template name="rel-body-no-prov" />
               </i>
             </xsl:for-each>
           </arr>
@@ -65,7 +65,7 @@
           <arr>
             <xsl:for-each select="$succ">
               <i>
-                <xsl:call-template name="rel-body" />
+                <xsl:call-template name="rel-body-no-prov" />
               </i>
             </xsl:for-each>
           </arr>
@@ -92,4 +92,13 @@
       <source><xsl:value-of select="../../instance/source"/></source>
     </provisionalInstance>
   </xsl:template>
+  
+  <xsl:template name="rel-body-no-prov">
+    <xsl:if test="./subfield[@code='9']">
+      <instanceIdentifier>
+        <hrid><xsl:value-of select="./subfield[@code='9']"/></hrid>
+      </instanceIdentifier>
+    </xsl:if>  
+  </xsl:template>
+  
 </xsl:stylesheet>
