@@ -19,6 +19,7 @@
     <xsl:variable name="signatur-norm" select="normalize-space(translate($signatur,'ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜäöü.:/-','abcdefghijklmnopqrstuvwxyzaouaou    '))"/>
     <xsl:variable name="standort" select="$i/datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']"/> 
     <xsl:variable name="electronicholding" select="(substring($i/../datafield[@tag='002@']/subfield[@code='0'],1,1) = 'O') and not(substring($i/datafield[@tag='208@']/subfield[@code='b'],1,1) = 'a')"/>
+
     <permanentLocationId>
        <xsl:choose>
          <xsl:when test="$electronicholding">ONLINE</xsl:when>
@@ -184,7 +185,7 @@
              <xsl:when test="starts-with($signatur-norm, 'waldh ')">MAG</xsl:when>
              <xsl:when test="starts-with($signatur-norm, 'weam ')">LS</xsl:when>
              <xsl:when test="starts-with($signatur-norm, 'zs ')">LS</xsl:when>
-             <xsl:when test="starts-with($signatur-norm, '/')">LS</xsl:when>
+             <xsl:when test="starts-with($signatur, '/')">LS</xsl:when>
              <xsl:otherwise>DEFAULT</xsl:otherwise>
            </xsl:choose>
          </xsl:when>
@@ -197,6 +198,80 @@
     <discoverySuppress>
       <xsl:value-of select="(substring(., 1, 4) = 'true') or (substring(., 1, 1) = 'g')"/> 
     </discoverySuppress>
+  </xsl:template>
+
+ <xsl:template match="notes/arr">
+   <xsl:variable name="i" select="key('original',../../permanentLocationId)"/>
+
+   <arr>
+     <xsl:copy-of select="*"/>
+     
+     <!-- Lokale Schlagwörter (Level 2)
+     neue Referenzdatei, Label als Überschrift -->
+     
+      <xsl:for-each select="$i/datafield[(@tag='244Z') and (subfield[@code='x']&lt;'80')]"> 
+        <i>
+          <note>
+            <xsl:value-of select="./subfield[@code='a' or @code='8']"/>
+          </note>
+          <holdingsNoteTypeId>Lokale Schlagwörter</holdingsNoteTypeId>
+          <staffOnly>false</staffOnly>
+        </i>
+      </xsl:for-each>
+  
+     <!-- Lokale Klassifikation (Level 2)
+     neue Referenzdatei, Label als Überschrift -->  
+  
+      <xsl:for-each select="$i/datafield[@tag='245Z']"> 
+        <i>
+          <note>
+            <xsl:value-of select="./subfield[@code='a']"/>
+          </note>
+          <holdingsNoteTypeId>Lokale Klassifikationen</holdingsNoteTypeId>
+          <staffOnly>false</staffOnly>
+        </i>
+      </xsl:for-each>
+
+   </arr>
+   </xsl:template>
+
+  <xsl:template match="instance">
+
+    <instance>
+    <xsl:copy-of select="*"/> 
+
+    <xsl:variable name="o" select="../original"/> 
+
+    <xsl:if test="$o/datafield[@tag='144Z']/subfield[@code='a']">
+      <subjects>
+        <arr>
+          <xsl:for-each select="$o/datafield[@tag='144Z']">
+            <i>
+         <!-- <value>  erst mit Orchid -->
+             <xsl:value-of select="./subfield[@code='a']"/>
+       <!--  </value> erst  mit Orchid -->
+           </i>
+         </xsl:for-each>
+        </arr>
+      </subjects>
+    </xsl:if> 
+
+    <xsl:if test="$o/datafield[@tag='145Z']/subfield[@code='a']"> 
+      <classifications>
+        <arr>
+          <xsl:for-each select="$o/datafield[@tag='145Z']">
+            <i>
+             <classificationNumber>
+               <xsl:value-of select="./subfield[@code='a']"/> 
+             </classificationNumber>
+             <classificationTypeId>Lokale Klassifikation</classificationTypeId>
+            </i>
+          </xsl:for-each>
+        </arr>
+       </classifications>
+    </xsl:if>
+
+    </instance>
   </xsl:template>
 
   <!-- Parsing call number for prefix - optional -->
