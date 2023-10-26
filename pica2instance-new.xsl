@@ -700,11 +700,11 @@
             <xsl:choose>
               <xsl:when test="@code='a'">
                 <xsl:choose>
-                  <xsl:when test="./subfield[@code='a'][contains(., '@')]">
-                    <xsl:value-of select="concat(substring-before(./subfield[@code='a'], '@'), substring-after(./subfield[@code='a'], '@'))"/>
+                  <xsl:when test="@code='a'[contains(., '@')]">
+                    <xsl:value-of select="concat(substring-before(@code='a', '@'), substring-after(@code='a', '@'))"/>
                   </xsl:when>
                   <xsl:otherwise>
-                    <xsl:value-of select="./subfield[@code='a']"/>
+                    <xsl:value-of select="."/>
                   </xsl:otherwise>
                 </xsl:choose>
               </xsl:when>
@@ -714,7 +714,7 @@
               <xsl:when test="@code='l' or @code='m'">
                 <xsl:value-of select="concat(' ; ', .)"/>
               </xsl:when>
-              <xsl:when test="@code='p'">
+              <xsl:when test="@code='e'"> <!-- Should be $p, but the ouf fetch files contain $e instead. After this has been fixed, we need to change back to $p -->
                 <xsl:value-of select="concat('. ', .)"/>
               </xsl:when>
             </xsl:choose>
