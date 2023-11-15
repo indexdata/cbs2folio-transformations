@@ -35,8 +35,8 @@ There are three, interconnected components that are needed:
 The Harvester and Harvester Admin docker images can be found in a public Index Data's Github Packages repository.
 
 ```
-docker pull ghcr.io/indexdata/harvester:v2.15.2
-docker pull ghcr.io/indexdata/harvester-admin:v2.15.2
+docker pull ghcr.io/indexdata/harvester:v2.15.3
+docker pull ghcr.io/indexdata/harvester-admin:v2.15.3
 ```
 
 The Harvester is compatible with MySQL 8 and MariaDB 10.11.  You can use either the stock
@@ -94,7 +94,7 @@ The Harvester container images exposes port 8080.  To optionally access the harv
 map this port to your preferred host port.  
 
 ```
-docker run -d --name harvester --network harvester-net -p 127.0.0.1:8080:8080 -e MYSQLUSER=localidxadm -e MYSQLPASS=localidxpass -e MYSQLURL="jdbc:mysql://mysql:3306/localindices?autoReconnect=true&maxAllowedPacket=88080384" ghcr.io/indexdata/harvester:v2.15.2
+docker run -d --name harvester --network harvester-net -p 127.0.0.1:8080:8080 -e MYSQLUSER=localidxadm -e MYSQLPASS=localidxpass -e MYSQLURL="jdbc:mysql://mysql:3306/localindices?autoReconnect=true&maxAllowedPacket=88080384" ghcr.io/indexdata/harvester:v2.15.3
 ```
 
 #### Run the Harvester Admin UI
@@ -109,7 +109,7 @@ The following environment variables is required to run the Harvester Admin conta
 * HARVESTER_HOST - Set to the hostname of Harvester container
 
 ```
-docker run -d --name harvester-admin --network harvester-net -p 8081:8081 -e HARVESTER_HOST=harvester ghcr.io/indexdata/harvester-admin:v2.15.2
+docker run -d --name harvester-admin --network harvester-net -p 8081:8081 -e HARVESTER_HOST=harvester ghcr.io/indexdata/harvester-admin:v2.15.3
 ```
 
 
