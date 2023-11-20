@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- date of last edit: 2022-11-09 (YYYY-MM-DD) -->
+<!-- date of last edit: 2023-11-20 (YYYY-MM-DD) -->
 
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output indent="yes" method="xml" version="1.0" encoding="UTF-8"/>
@@ -20,81 +20,90 @@
     <xsl:variable name="signatur" select="$i/datafield[@tag='209A']/subfield[@code='a']"/>
     <xsl:variable name="standort" select="$i/datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']"/> 
     <xsl:variable name="electronicholding" select="(substring($i/../datafield[@tag='002@']/subfield[@code='0'],1,1) = 'O') and not(substring($i/datafield[@tag='208@']/subfield[@code='b'],1,1) = 'a')"/>
+
     <permanentLocationId>
        <xsl:choose>
-         <xsl:when test="$electronicholding">ONLINE</xsl:when>
-         <xsl:when test="substring($i/datafield[@tag='208@']/subfield[@code='b'],1,1) = 'd'">DUMMY</xsl:when>
+         <xsl:when test="$electronicholding">000_ERS</xsl:when>
+         <xsl:when test="substring($i/datafield[@tag='208@']/subfield[@code='b'],1,1) = 'd'">DUM_XYZ</xsl:when>
          <xsl:when test="$abt='000'">
+          <xsl:text>000_UBG</xsl:text>
+         </xsl:when>
+         <xsl:when test="$abt='010'">
            <xsl:choose>
-             <xsl:when test="$standort='Erdgeschoss'">S1EG</xsl:when>
-             <xsl:when test="$standort='1. Obergeschoss'">S1OG1</xsl:when>
-             <xsl:when test="$standort='2. Obergeschoss'">S1OG2</xsl:when>
-             <xsl:when test="$standort='3. Obergeschoss'">S1OG3</xsl:when>
-             <xsl:when test="$standort='4. Obergeschoss'">S1OG3</xsl:when>
-             <!-- Rara, Sonderlesesaal, ...? -->
-             <xsl:otherwise>MAG</xsl:otherwise>
+             <xsl:when test="starts-with($signatur, 'Wird erworben')">000_ERW</xsl:when>
+             <xsl:otherwise>010_ERD</xsl:otherwise>
            </xsl:choose>
          </xsl:when>
          <xsl:when test="$abt='020'">
            <xsl:choose>
              <xsl:when test="starts-with($standort, 'Patentinformationszentrum')">000_UBG</xsl:when>
-             <xsl:when test="starts-with($signatur, 'INCHER-Kassel Präsenzbestand')">020_INC</xsl:when>
+             <xsl:when test="starts-with($signatur, 'INCHER-Kassel Pr')">020_INC</xsl:when>
              <xsl:when test="starts-with($signatur, 'Institutionenausleihe')">020_IAL</xsl:when>
+             <xsl:when test="starts-with($signatur, 'Ausgeschieden')">000_UBG</xsl:when>
+             <xsl:otherwise>999_XYZ</xsl:otherwise>
            </xsl:choose>
          </xsl:when>
          <xsl:when test="$abt='021'">
            <xsl:choose>
              <xsl:when test="$standort='Handapparat Digitale Bibliotheksdienste'">021_HDB</xsl:when>
-             <xsl:when test="$standort='Handapparat, Prof'">020_HAP</xsl:when>
+             <xsl:when test="starts-with($standort, 'Handapparat, Prof')">020_HAP</xsl:when>
              <xsl:when test="$standort='Magazin'">021_MAG</xsl:when>
              <xsl:when test="starts-with($standort, 'Sonderstandort FB')">020_SON</xsl:when>
              <xsl:when test="starts-with($signatur, '125 STK')">021_STK</xsl:when>
+             <xsl:when test="starts-with($signatur, 'Handapparat Digitale Bibliotheksdienste')">021_HAI</xsl:when>
+             <xsl:when test="starts-with($signatur, 'Handapparat Direktion')">021_HAI</xsl:when>
+             <xsl:when test="$standort='Handapparat Direktion'">021_HDD</xsl:when>
              <xsl:otherwise>021_FHD</xsl:otherwise>
            </xsl:choose>
          </xsl:when>
          <xsl:when test="$abt='022'">
            <xsl:choose>
-             <xsl:when test="$standort='Handapparat, Prof'">020_HAP</xsl:when>
+             <xsl:when test="starts-with($standort, 'Handapparat, Prof')">020_HAP</xsl:when>
              <xsl:when test="starts-with($standort, 'Sonderstandort FB')">020_SON</xsl:when>
              <xsl:when test="$standort='Magazin'">021_MAG</xsl:when>
-             <xsl:when test="$standort='Sonderstandort Wilhelmshöher Allee, Elektrotechnik/Informatik'">022_WAS</xsl:when>
-             <xsl:when test="$signatur='Institut für Musik, Musica practica, Mönchebergstr. 1, Raum 2012'">022_IMU</xsl:when>
+             <xsl:when test="starts-with($standort, 'Sonderstandort Wilhelmsh')">022_WAS</xsl:when>
+             <xsl:when test="contains($signatur, 'r Musik, Musica Practica, M')">022_IMU</xsl:when>
+             <xsl:when test="$standort='Handapparat Direktion'">021_HDD</xsl:when>
              <xsl:otherwise>021_FHD</xsl:otherwise>
            </xsl:choose>
          </xsl:when>
          <xsl:when test="$abt='023'">
            <xsl:choose>
-             <xsl:when test="$standort='Handapparat, Prof'">020_HAP</xsl:when>
+             <xsl:when test="starts-with($standort, 'Handapparat, Prof')">020_HAP</xsl:when>
              <xsl:when test="$standort='Magazin'">021_MAG</xsl:when>
              <xsl:when test="starts-with($standort, 'Sonderstandort FB')">020_SON</xsl:when>
              <xsl:when test="$standort='Zeitungsauslage'">021_ZTG</xsl:when>
+             <xsl:when test="$standort='Handapparat Direktion'">021_HDD</xsl:when>
              <xsl:otherwise>021_FHD</xsl:otherwise>
            </xsl:choose>
          </xsl:when>
          <xsl:when test="$abt='024'">
            <xsl:choose>
-             <xsl:when test="$standort='Handapparat, Prof'">020_HAP</xsl:when>
+             <xsl:when test="starts-with($standort, 'Handapparat, Prof')">020_HAP</xsl:when>
              <xsl:when test="$standort='Magazin'">021_MAG</xsl:when>
+             <xsl:when test="$standort='Handapparat Direktion'">021_HDD</xsl:when>
              <xsl:otherwise>021_FHD</xsl:otherwise>
            </xsl:choose>
          </xsl:when>
          <xsl:when test="$abt='025'">
            <xsl:choose>
-             <xsl:when test="$standort='Handapparat, Prof'">020_HAP</xsl:when>
+             <xsl:when test="starts-with($standort, 'Handapparat, Prof')">020_HAP</xsl:when>
              <xsl:when test="$standort='Magazin'">021_MAG</xsl:when>
+             <xsl:when test="starts-with($standort, 'Sonderstandort Wilhelmsh')">022_WAS</xsl:when>
+             <xsl:when test="$standort='Handapparat Direktion'">021_HDD</xsl:when>
              <xsl:otherwise>021_FHD</xsl:otherwise>
            </xsl:choose>
          </xsl:when>
          <xsl:when test="$abt='030'">
            <xsl:choose>
-             <xsl:when test="$standort='Brüder-Grimm-Gesellschaft'">030_BGG</xsl:when>
+             <xsl:when test="contains($standort, 'der-Grimm-Gesellschaft')">030_BGG</xsl:when>
              <xsl:when test="$standort='Bibliothek Landrabbiner Isaac Prager'">030_PRA</xsl:when>
              <xsl:when test="$standort='Eulensaal'">030_EUL</xsl:when>
              <xsl:when test="$standort='Foyer Eulensaal'">030_FEU</xsl:when>
              <xsl:when test="$standort='Großformateregal'">030_GRO</xsl:when>
-             <xsl:when test="$standort='Kompaktmagazin Menzelstraße (Alpha-Presse)'">030_KHS</xsl:when>
+             <xsl:when test="starts-with($standort, 'Kompaktmagazin Menzelstra')">030_KHS</xsl:when>
              <xsl:when test="$standort='Magazin'">030_MAG</xsl:when>
-             <xsl:when test="$standort='Magazin Holländischer Platz'">030_CBM</xsl:when>
+             <xsl:when test="starts-with($standort, 'Magazin Holl')">030_CBM</xsl:when>
              <xsl:when test="$standort='Rara'">030_RAR</xsl:when>
              <xsl:when test="$standort='Sonderlesesaal'">030_SLS</xsl:when>
              <xsl:when test="$standort='Sonderstandort Magazin Oberzwehren'">030_OZW</xsl:when>
@@ -106,41 +115,47 @@
          <xsl:when test="$abt='031'">
            <xsl:choose>
              <xsl:when test="$standort='Sonderstandort Magazin Oberzwehren'">031_OZW</xsl:when>
+             <xsl:otherwise>999_XYZ</xsl:otherwise>
            </xsl:choose>
          </xsl:when>
          <xsl:when test="$abt='032'">
            <xsl:choose>
              <xsl:when test="$standort='Magazin'">032_CBM</xsl:when>
+             <xsl:otherwise>999_XYZ</xsl:otherwise>
            </xsl:choose>
          </xsl:when>
          <xsl:when test="$abt='033'">
            <xsl:choose>
-             <xsl:when test="$standort='Brüder-Grimm-Gesellschaft'">033_BGG</xsl:when>
-             <xsl:when test="$standort='Magazin Holländischer Platz'">033_CBM</xsl:when>
+             <xsl:when test="contains($standort, 'der-Grimm-Gesellschaft')">033_BGG</xsl:when>
+             <xsl:when test="starts-with($standort, 'Magazin Holl')">033_CBM</xsl:when>
              <xsl:when test="$standort='Rara'">033_RAR</xsl:when>
+             <xsl:otherwise>999_XYZ</xsl:otherwise>
            </xsl:choose>
          </xsl:when>
          <xsl:when test="$abt='034'">
            <xsl:choose>
              <xsl:when test="$standort='Foyer Eulensaal'">034_FEU</xsl:when>
+             <xsl:otherwise>999_XYZ</xsl:otherwise>
            </xsl:choose>
+         </xsl:when>
+         <xsl:when test="$abt='035'">
+          <xsl:text>035_FWH</xsl:text>
          </xsl:when>
          <xsl:when test="$abt='036'">
            <xsl:choose>
              <xsl:when test="$standort='Sonderstandort Magazin Oberzwehren'">036_OZW</xsl:when>
+             <xsl:otherwise>999_XYZ</xsl:otherwise>
            </xsl:choose>
          </xsl:when>
          <xsl:when test="$abt='039'">
            <xsl:choose>
              <xsl:when test="$standort='Foyer Eulensaal'">039_FEU</xsl:when>
              <xsl:when test="$standort='Magazin'">039_MAG</xsl:when>
+             <xsl:otherwise>039_MAG</xsl:otherwise>
            </xsl:choose>
          </xsl:when>
          <xsl:when test="$abt='040'">
-           <xsl:choose>
-             <xsl:when test="$standort='Sammlung Amerikanische Bibliothek'">021_MAG</xsl:when>
-             <xsl:when test="$standort='Magazin'">021_MAG</xsl:when>
-           </xsl:choose>
+            <xsl:text>021_MAG</xsl:text>
          </xsl:when>
          <xsl:when test="$abt='050'">
            <xsl:choose>
@@ -162,7 +177,7 @@
            <xsl:choose>
              <xsl:when test="$standort='Magazin'">080_MAG</xsl:when>
              <xsl:when test="starts-with($standort, 'Sonderstandort FB')">080_SON</xsl:when>
-             <xsl:when test="$standort='Sonderstandort Gewächshaus'">080_SON</xsl:when>
+             <xsl:when test="starts-with($standort, 'Sonderstandort Gew')">080_SON</xsl:when>
              <xsl:when test="$standort='Zeitungsauslage'">080_ZTG</xsl:when>
              <xsl:when test="starts-with($signatur, 'Institutionenausleihe')">020_IAL</xsl:when>
              <xsl:otherwise>080_FHD</xsl:otherwise>
@@ -170,7 +185,6 @@
          </xsl:when>
          <xsl:when test="$abt='090'">
            <xsl:choose>
-             <xsl:when test="$standort='Großformateregal'">090_GRO</xsl:when>
              <xsl:when test="$standort='Medienregal'">090_MDR</xsl:when>
              <xsl:when test="$standort='Zeitungsauslage'">090_ZTG</xsl:when>
              <xsl:when test="starts-with($signatur, 'Institutionenausleihe')">020_IAL</xsl:when>
@@ -183,6 +197,20 @@
              <xsl:otherwise>021_FHD</xsl:otherwise>
            </xsl:choose>
          </xsl:when>
+         <xsl:when test="$abt='200'">
+           <xsl:choose>
+             <xsl:when test="$standort='Archiv'">200_ARC</xsl:when>
+             <xsl:when test="starts-with($standort, 'Gew')">200_GEW</xsl:when>
+             <xsl:when test="$standort='ISOS-Bibliothek'">200_ISO</xsl:when>
+             <xsl:when test="$standort='Magazin Apfelkeller'">200_APF</xsl:when>
+             <xsl:when test="$standort='Magazin Spitzbogenkeller'">200_SPI</xsl:when>
+             <xsl:when test="starts-with($standort, 'Ausleihtheke')">200_SON</xsl:when>
+             <xsl:when test="starts-with($standort, 'Gro')">200_SON</xsl:when>
+             <xsl:when test="starts-with($standort, 'Medien-Regal')">200_SON</xsl:when>
+             <xsl:otherwise>200_FHD</xsl:otherwise>
+           </xsl:choose>
+         </xsl:when>
+
          <xsl:otherwise>999_XYZ</xsl:otherwise>
        </xsl:choose>
       </permanentLocationId>
@@ -200,9 +228,10 @@
         <xsl:when test=".='i'">5 i nur für den Lesesaal</xsl:when>
         <xsl:when test=".='e'">8 e Studienkolleg</xsl:when>
         <xsl:when test=".='a'">9 a bestellt (Erwerbung)</xsl:when>
-        <xsl:when test=".='o'">9 f Nur BGP-kein Zugriff-verpackt (Bau)</xsl:when>
+        <xsl:when test=".='f'">9 f Nur BGP-kein Zugriff-verpackt (Bau)</xsl:when>
         <xsl:when test=".='g'">9 g nicht ausleihbar</xsl:when>
         <xsl:when test=".='z'">9 z nicht ausleihbar</xsl:when>
+        <xsl:otherwise>9 o Ausleihstatus unbekannt</xsl:otherwise> <!-- damit Sonderfaelle auffallen -->
       </xsl:choose>
     </permanentLoanTypeId>
   </xsl:template>
@@ -215,50 +244,5 @@
     </discoverySuppress>
   </xsl:template>
 
-  <!-- Parsing call number for prefix - optional -->
-  
-  <xsl:template name="prefix"> <!-- ILN 8: Auswirkungen Testen -->
-    <xsl:param name="cn"/>
-    <xsl:param name="cnprefixelement"/>
-    <xsl:param name="cnelement"/>
-    <!-- Anpassen -->
-    <xsl:variable name="cnprefix">
-      <xsl:choose>
-        <xsl:when test="contains($cn,'°')">
-          <xsl:value-of select="concat(substring-before($cn,'°'),'°')"/>
-        </xsl:when>
-        <xsl:when test="contains($cn,'@')">
-          <xsl:value-of select="substring-before($cn,'@')"/> 
-        </xsl:when>
-      </xsl:choose>
-    </xsl:variable>
-    <!-- Anpassen Ende -->
-
-    <xsl:message>Debug: <xsl:value-of select="$cnelement"/> Prefix "<xsl:value-of select="$cnprefix"/>"</xsl:message>
-    <xsl:if test="string-length($cnprefix)>0">
-      <xsl:element name="{$cnprefixelement}">
-        <xsl:value-of select="normalize-space(translate($cnprefix,'@',''))"/>
-      </xsl:element>
-    </xsl:if>
-    <xsl:element name="{$cnelement}">
-      <xsl:value-of select="normalize-space(translate(substring-after($cn,$cnprefix),'@',''))"/>
-    </xsl:element>
-  </xsl:template>
-  
-  <xsl:template match="callNumber">
-    <xsl:call-template name="prefix">
-      <xsl:with-param name="cn" select="."/>
-      <xsl:with-param name="cnprefixelement" select="'callNumberPrefix'"/>
-      <xsl:with-param name="cnelement" select="'callNumber'"/>
-    </xsl:call-template>
-  </xsl:template>
-  
-  <xsl:template match="itemLevelCallNumber">
-    <xsl:call-template name="prefix">
-      <xsl:with-param name="cn" select="."/>
-      <xsl:with-param name="cnprefixelement" select="'itemLevelCallNumberPrefix'"/>
-      <xsl:with-param name="cnelement" select="'itemLevelCallNumber'"/>
-    </xsl:call-template>
-  </xsl:template>
-
 </xsl:stylesheet>
+
