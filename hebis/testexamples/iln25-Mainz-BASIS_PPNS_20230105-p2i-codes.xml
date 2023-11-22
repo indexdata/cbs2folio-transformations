@@ -23510,24 +23510,6 @@
                </notes>
                <discoverySuppress>false</discoverySuppress>
                <sourceId>ed96edb1-d91d-4a31-9c40-006f5199d782</sourceId>
-               <items>
-                  <arr>
-                     <i>
-                        <hrid>603482163-1</hrid>
-                        <materialTypeId>24080190-7539-4520-bde1-762f57d006fc</materialTypeId>
-                        <permanentLoanTypeId>7a03b2e2-c995-47a4-83d0-04bbe1930af4</permanentLoanTypeId>
-                        <status>
-                           <name>Available</name>
-                        </status>
-                        <barcode/>
-                        <copyNumber/>
-                        <volume/>
-                        <chronology/>
-                        <accessionNumber/>
-                        <discoverySuppress>false</discoverySuppress>
-                     </i>
-                  </arr>
-               </items>
                <statisticalCodeIds>
                   <arr>
                      <i>0ac04835-6a08-4043-9453-38908ff91129</i>
@@ -43997,24 +43979,6 @@
                </notes>
                <discoverySuppress>false</discoverySuppress>
                <sourceId>ed96edb1-d91d-4a31-9c40-006f5199d782</sourceId>
-               <items>
-                  <arr>
-                     <i>
-                        <hrid>1010608002-1</hrid>
-                        <materialTypeId>e378db32-4422-405d-bf08-89efd33335fd</materialTypeId>
-                        <permanentLoanTypeId>7a03b2e2-c995-47a4-83d0-04bbe1930af4</permanentLoanTypeId>
-                        <status>
-                           <name>Available</name>
-                        </status>
-                        <barcode/>
-                        <copyNumber/>
-                        <volume/>
-                        <chronology/>
-                        <accessionNumber>LBS 2016</accessionNumber>
-                        <discoverySuppress>false</discoverySuppress>
-                     </i>
-                  </arr>
-               </items>
                <statisticalCodeIds>
                   <arr>
                      <i>0ac04835-6a08-4043-9453-38908ff91129</i>
@@ -44044,24 +44008,6 @@
                </notes>
                <discoverySuppress>false</discoverySuppress>
                <sourceId>ed96edb1-d91d-4a31-9c40-006f5199d782</sourceId>
-               <items>
-                  <arr>
-                     <i>
-                        <hrid>1045978701-1</hrid>
-                        <materialTypeId>e378db32-4422-405d-bf08-89efd33335fd</materialTypeId>
-                        <permanentLoanTypeId>7a03b2e2-c995-47a4-83d0-04bbe1930af4</permanentLoanTypeId>
-                        <status>
-                           <name>Available</name>
-                        </status>
-                        <barcode/>
-                        <copyNumber/>
-                        <volume/>
-                        <chronology/>
-                        <accessionNumber>LBS 2016</accessionNumber>
-                        <discoverySuppress>false</discoverySuppress>
-                     </i>
-                  </arr>
-               </items>
                <statisticalCodeIds>
                   <arr>
                      <i>0ac04835-6a08-4043-9453-38908ff91129</i>
@@ -44091,24 +44037,6 @@
                </notes>
                <discoverySuppress>false</discoverySuppress>
                <sourceId>ed96edb1-d91d-4a31-9c40-006f5199d782</sourceId>
-               <items>
-                  <arr>
-                     <i>
-                        <hrid>1045978779-1</hrid>
-                        <materialTypeId>e378db32-4422-405d-bf08-89efd33335fd</materialTypeId>
-                        <permanentLoanTypeId>7a03b2e2-c995-47a4-83d0-04bbe1930af4</permanentLoanTypeId>
-                        <status>
-                           <name>Available</name>
-                        </status>
-                        <barcode/>
-                        <copyNumber/>
-                        <volume/>
-                        <chronology/>
-                        <accessionNumber>LBS 2016</accessionNumber>
-                        <discoverySuppress>false</discoverySuppress>
-                     </i>
-                  </arr>
-               </items>
                <statisticalCodeIds>
                   <arr>
                      <i>0ac04835-6a08-4043-9453-38908ff91129</i>
@@ -48589,24 +48517,6 @@
                </notes>
                <discoverySuppress>false</discoverySuppress>
                <sourceId>ed96edb1-d91d-4a31-9c40-006f5199d782</sourceId>
-               <items>
-                  <arr>
-                     <i>
-                        <hrid>567542491-1</hrid>
-                        <materialTypeId>24080190-7539-4520-bde1-762f57d006fc</materialTypeId>
-                        <permanentLoanTypeId>31c550e8-86b7-4674-bab0-7011ba94148e</permanentLoanTypeId>
-                        <status>
-                           <name>Available</name>
-                        </status>
-                        <barcode/>
-                        <copyNumber/>
-                        <volume/>
-                        <chronology/>
-                        <accessionNumber>HSK</accessionNumber>
-                        <discoverySuppress>false</discoverySuppress>
-                     </i>
-                  </arr>
-               </items>
                <statisticalCodeIds>
                   <arr>
                      <i>0ac04835-6a08-4043-9453-38908ff91129</i>
