@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection>
+   <record>
+      <original>
+         <datafield tag="001B" fulltag="001B">
+            <subfield code="0">3024:19-10-23</subfield>
+            <subfield code="t">11:56:26.000</subfield>
+         </datafield>
+         <datafield tag="001D" fulltag="001D">
+            <subfield code="0">3024:19-10-23</subfield>
+         </datafield>
+         <datafield tag="002@" fulltag="002@">
+            <subfield code="0">Mau</subfield>
+         </datafield>
+         <datafield tag="002C" fulltag="002C">
+            <subfield code="a">Text</subfield>
+            <subfield code="b">txt</subfield>
+            <subfield code="2">rdacontent</subfield>
+         </datafield>
+         <datafield tag="002D" fulltag="002D">
+            <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+            <subfield code="b">n</subfield>
+            <subfield code="2">rdamedia</subfield>
+         </datafield>
+         <datafield tag="002E" fulltag="002E">
+            <subfield code="a">Band</subfield>
+            <subfield code="b">nc</subfield>
+            <subfield code="2">rdacarrier</subfield>
+         </datafield>
+         <datafield tag="003@" fulltag="003@">
+            <subfield code="0">486736261</subfield>
+         </datafield>
+         <datafield tag="010@" fulltag="010@">
+            <subfield code="a">ger</subfield>
+         </datafield>
+         <datafield tag="011@" fulltag="011@">
+            <subfield code="a">2023</subfield>
+         </datafield>
+         <datafield tag="013E" fulltag="013E">
+            <subfield code="9">085617113</subfield>
+            <subfield code="8">Direktionsstimme</subfield>
+         </datafield>
+         <datafield tag="021A" fulltag="021A">
+            <subfield code="a">Testaufnahme</subfield>
+         </datafield>
+         <datafield tag="022A" occurrence="01" fulltag="022A/01">
+            <subfield code="a">Konzerte</subfield>
+            <subfield code="m">Violoncello</subfield>
+            <subfield code="m">Orchester</subfield>
+            <subfield code="r">d-Moll</subfield>
+         </datafield>
+         <datafield tag="032X" fulltag="032X">
+            <subfield code="a">Sopran</subfield>
+            <subfield code="n">3</subfield>
+         </datafield>
+         <datafield tag="032X" fulltag="032X">
+            <subfield code="a">Alt</subfield>
+            <subfield code="n">2</subfield>
+         </datafield>
+         <datafield tag="032X" fulltag="032X">
+            <subfield code="a">Tenor</subfield>
+         </datafield>
+         <datafield tag="032X" fulltag="032X">
+            <subfield code="a">Bariton</subfield>
+         </datafield>
+         <datafield tag="032X" fulltag="032X">
+            <subfield code="a">Bass</subfield>
+         </datafield>
+         <datafield tag="032X" fulltag="032X">
+            <subfield code="a">Knaben-​Chor</subfield>
+         </datafield>
+         <datafield tag="032X" fulltag="032X">
+            <subfield code="a">Gemischter Chor</subfield>
+            <subfield code="e">2</subfield>
+            <subfield code="v">je 4-​stimmig (SATB)</subfield>
+         </datafield>
+         <datafield tag="032X" fulltag="032X">
+            <subfield code="a">Orchester</subfield>
+         </datafield>
+         <datafield tag="032X" fulltag="032X">
+            <subfield code="s">8</subfield>
+         </datafield>
+         <datafield tag="032X" fulltag="032X">
+            <subfield code="t">4</subfield>
+         </datafield>
+         <datafield tag="032Y" fulltag="032Y">
+            <subfield code="b">op. 80</subfield>
+         </datafield>
+         <datafield tag="032Y" fulltag="032Y">
+            <subfield code="c">SWV 482-494</subfield>
+         </datafield>
+         <datafield tag="032Y" fulltag="032Y">
+            <subfield code="a">Fortlaufende Zählung</subfield>
+         </datafield>
+         <datafield tag="032Y" fulltag="032Y">
+            <subfield code="b">Opus-​Zählung</subfield>
+         </datafield>
+         <datafield tag="032Y" fulltag="032Y">
+            <subfield code="c">Thematic index number</subfield>
+         </datafield>
+         <datafield tag="032Y" fulltag="032Y">
+            <subfield code="d">Thematic index code</subfield>
+         </datafield>
+         <datafield tag="032Y" fulltag="032Y">
+            <subfield code="e">Publisher associated with opus number</subfield>
+         </datafield>
+         <datafield tag="032Z" fulltag="032Z">
+            <subfield code="a">G-Dur</subfield>
+         </datafield>
+         <datafield tag="032Z" fulltag="032Z">
+            <subfield code="b">Es-Moll</subfield>
+         </datafield>
+         <datafield tag="036E" fulltag="036E">
+            <subfield code="a">Ungezählte monografische Reihe</subfield>
+         </datafield>
+         <datafield tag="046M" fulltag="046M">
+            <subfield code="u">Viele tolle enthaltene Werke</subfield>
+         </datafield>
+         <datafield tag="046M" fulltag="046M">
+            <subfield code="a">1. Enthaltenes Werk</subfield>
+            <subfield code="h">Verfasser des 1. enthaltenen Werks</subfield>
+         </datafield>
+         <datafield tag="046M" fulltag="046M">
+            <subfield code="a">2. Enthaltenes Werk</subfield>
+            <subfield code="h">Verfasser des 2. enthaltenen Werks</subfield>
+         </datafield>
+         <datafield tag="046M" fulltag="046M">
+            <subfield code="a">3. Enthaltenes Werk</subfield>
+         </datafield>
+         <datafield tag="046N" fulltag="046N">
+            <subfield code="a">Hier stehen Anmerkungen zu Interpreten, Ausführenden, Erzählern, und/oder Präsentatoren</subfield>
+         </datafield>
+         <datafield tag="101B" fulltag="101B">
+            <subfield code="0">02-06-23</subfield>
+            <subfield code="t">14:24:51.000</subfield>
+         </datafield>
+         <datafield tag="101C" fulltag="101C">
+            <subfield code="0">10-05-23</subfield>
+         </datafield>
+         <datafield tag="101U" fulltag="101U">
+            <subfield code="0">utf8</subfield>
+         </datafield>
+         <datafield tag="144Z" occurrence="01" fulltag="144Z/01">
+            <subfield code="a">1. Lokales Schlagwort (Level 1)</subfield>
+         </datafield>
+         <datafield tag="144Z" occurrence="02" fulltag="144Z/02">
+            <subfield code="a">2. Lokales Schlagwort (Level 1)</subfield>
+         </datafield>
+         <datafield tag="144Z" occurrence="03" fulltag="144Z/03">
+            <subfield code="a">3. Lokales Schlagwort (Level 1)</subfield>
+         </datafield>
+         <datafield tag="145Z" occurrence="01" fulltag="145Z/01">
+            <subfield code="a">1. Lokale Klassifikation (Level 1)</subfield>
+         </datafield>
+         <datafield tag="145Z" occurrence="02" fulltag="145Z/02">
+            <subfield code="a">2. Lokale Klassifikation (Level 1)</subfield>
+         </datafield>
+         <datafield tag="145Z" occurrence="03" fulltag="145Z/03">
+            <subfield code="a">3. Lokale Klassifikation (Level 1)</subfield>
+         </datafield>
+         <item epn="1153677830">
+            <datafield tag="201B" occurrence="01" fulltag="201B/01">
+               <subfield code="0">02-06-23</subfield>
+               <subfield code="t">13:55:20.000</subfield>
+            </datafield>
+            <datafield tag="201C" occurrence="01" fulltag="201C/01">
+               <subfield code="0">10-05-23</subfield>
+            </datafield>
+            <datafield tag="201U" occurrence="01" fulltag="201U/01">
+               <subfield code="0">utf8</subfield>
+            </datafield>
+            <datafield tag="203@" occurrence="01" fulltag="203@/01">
+               <subfield code="0">1153677830</subfield>
+            </datafield>
+            <datafield tag="208@" occurrence="01" fulltag="208@/01">
+               <subfield code="a">11-05-23</subfield>
+               <subfield code="b">e</subfield>
+            </datafield>
+            <datafield tag="209A" occurrence="01" fulltag="209A/01">
+               <subfield code="a">/</subfield>
+               <subfield code="f">000</subfield>
+               <subfield code="d">g</subfield>
+               <subfield code="x">00</subfield>
+            </datafield>
+            <datafield tag="209B" occurrence="01" fulltag="209B/01">
+               <subfield code="a">Lokaler Schlüssel</subfield>
+               <subfield code="x">05</subfield>
+            </datafield>
+            <datafield tag="209G" occurrence="01" fulltag="209G/01">
+               <subfield code="a">Standortangabe</subfield>
+               <subfield code="x">01</subfield>
+            </datafield>
+            <datafield tag="209S" occurrence="01" fulltag="209S/01">
+               <subfield code="u">http://www.test.de</subfield>
+               <subfield code="X">H</subfield>
+            </datafield>
+            <datafield tag="244Z" occurrence="01" fulltag="244Z/01">
+               <subfield code="a">1. Lokales Schlagwort (Level 2)</subfield>
+               <subfield code="x">01</subfield>
+            </datafield>
+            <datafield tag="244Z" occurrence="01" fulltag="244Z/01">
+               <subfield code="a">2. Lokales Schlagwort (Level 2)</subfield>
+               <subfield code="x">02</subfield>
+            </datafield>
+            <datafield tag="244Z" occurrence="01" fulltag="244Z/01">
+               <subfield code="9">391368052</subfield>
+               <subfield code="8">Grundherrschaft</subfield>
+               <subfield code="x">03</subfield>
+            </datafield>
+            <datafield tag="244Z" occurrence="01" fulltag="244Z/01">
+               <subfield code="9">391371967</subfield>
+               <subfield code="8">Landbevölkerung</subfield>
+               <subfield code="x">04</subfield>
+            </datafield>
+            <datafield tag="244Z" occurrence="01" fulltag="244Z/01">
+               <subfield code="a">Weiteres Lokales Schlagwort (Level 2)</subfield>
+               <subfield code="x">06</subfield>
+            </datafield>
+            <datafield tag="244Z" occurrence="01" fulltag="244Z/01">
+               <subfield code="9">086894641</subfield>
+               <subfield code="8">Horkheimer, Max, 1895-1973</subfield>
+               <subfield code="x">80</subfield>
+            </datafield>
+            <datafield tag="244Z" occurrence="01" fulltag="244Z/01">
+               <subfield code="a">T-Pro</subfield>
+               <subfield code="x">99</subfield>
+            </datafield>
+            <datafield tag="245Z" occurrence="01" fulltag="245Z/01">
+               <subfield code="a">1. Lokale Klassifikation (Level 2)</subfield>
+               <subfield code="x">01</subfield>
+            </datafield>
+            <datafield tag="245Z" occurrence="01" fulltag="245Z/01">
+               <subfield code="a">2. Lokale Klassifikation (Level 2)</subfield>
+               <subfield code="x">02</subfield>
+            </datafield>
+            <datafield tag="247C" occurrence="01" fulltag="247C/01">
+               <subfield code="9">321462173</subfield>
+               <subfield code="8">Hochschule für Musik und Darstellende Kunst, Bibliothek</subfield>
+            </datafield>
+         </item>
+      </original>
+      <instance>
+         <source>hebis</source>
+         <hrid>486736261</hrid>
+         <statusUpdatedDate>2023-10-19</statusUpdatedDate>
+         <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
+         <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
+         <instanceFormatIds>
+            <arr>
+               <i>8d511d33-5e85-4c5d-9bce-6e3c9cd0c324</i>
+            </arr>
+         </instanceFormatIds>
+         <identifiers>
+            <arr>
+               <i>
+                  <value>486736261</value>
+                  <identifierTypeId>PPN</identifierTypeId>
+               </i>
+            </arr>
+         </identifiers>
+         <title>Testaufnahme</title>
+         <indexTitle>Testaufnahme</indexTitle>
+         <alternativeTitles>
+            <arr>
+               <i>
+                  <alternativeTitle>Konzerte, Violoncello, Orchester, d-Moll</alternativeTitle>
+                  <alternativeTitleTypeId>Uniform title</alternativeTitleTypeId>
+               </i>
+            </arr>
+         </alternativeTitles>
+         <publication>
+            <arr/>
+         </publication>
+         <electronicAccess>
+            <arr/>
+         </electronicAccess>
+         <notes>
+            <arr>
+               <i>
+                  <note>Direktionsstimme</note>
+                  <instanceNoteTypeId>Musikalische Ausgabeform</instanceNoteTypeId>
+               </i>
+               <i>
+                  <note>Sopran (3)</note>
+                  <instanceNoteTypeId>Besetzung</instanceNoteTypeId>
+               </i>
+               <i>
+                  <note>Alt (2)</note>
+                  <instanceNoteTypeId>Besetzung</instanceNoteTypeId>
+               </i>
+               <i>
+                  <note>Tenor</note>
+                  <instanceNoteTypeId>Besetzung</instanceNoteTypeId>
+               </i>
+               <i>
+                  <note>Bariton</note>
+                  <instanceNoteTypeId>Besetzung</instanceNoteTypeId>
+               </i>
+               <i>
+                  <note>Bass</note>
+                  <instanceNoteTypeId>Besetzung</instanceNoteTypeId>
+               </i>
+               <i>
+                  <note>Knaben-​Chor</note>
+                  <instanceNoteTypeId>Besetzung</instanceNoteTypeId>
+               </i>
+               <i>
+                  <note>Gemischter Chor (2), je 4-​stimmig (SATB)</note>
+                  <instanceNoteTypeId>Besetzung</instanceNoteTypeId>
+               </i>
+               <i>
+                  <note>Orchester</note>
+                  <instanceNoteTypeId>Besetzung</instanceNoteTypeId>
+               </i>
+               <i>
+                  <note>Instrumente/Solisten: 8</note>
+                  <instanceNoteTypeId>Besetzung</instanceNoteTypeId>
+               </i>
+               <i>
+                  <note>Ensembles: 4</note>
+                  <instanceNoteTypeId>Besetzung</instanceNoteTypeId>
+               </i>
+               <i>
+                  <note>op. 80</note>
+                  <instanceNoteTypeId>Numerische Bezeichnung eines Musikwerks</instanceNoteTypeId>
+               </i>
+               <i>
+                  <note>SWV 482-494</note>
+                  <instanceNoteTypeId>Numerische Bezeichnung eines Musikwerks</instanceNoteTypeId>
+               </i>
+               <i>
+                  <note>Fortlaufende Zählung</note>
+                  <instanceNoteTypeId>Numerische Bezeichnung eines Musikwerks</instanceNoteTypeId>
+               </i>
+               <i>
+                  <note>Opus-​Zählung</note>
+                  <instanceNoteTypeId>Numerische Bezeichnung eines Musikwerks</instanceNoteTypeId>
+               </i>
+               <i>
+                  <note>Thematic index number</note>
+                  <instanceNoteTypeId>Numerische Bezeichnung eines Musikwerks</instanceNoteTypeId>
+               </i>
+               <i>
+                  <note>Thematic index code</note>
+                  <instanceNoteTypeId>Numerische Bezeichnung eines Musikwerks</instanceNoteTypeId>
+               </i>
+               <i>
+                  <note>Publisher associated with opus number</note>
+                  <instanceNoteTypeId>Numerische Bezeichnung eines Musikwerks</instanceNoteTypeId>
+               </i>
+               <i>
+                  <note>G-Dur (Original)</note>
+                  <instanceNoteTypeId>Tonart</instanceNoteTypeId>
+               </i>
+               <i>
+                  <note>Es-Moll (Fassung)</note>
+                  <instanceNoteTypeId>Tonart</instanceNoteTypeId>
+               </i>
+               <i>
+                  <note>Viele tolle enthaltene Werke</note>
+                  <instanceNoteTypeId>With note</instanceNoteTypeId>
+               </i>
+               <i>
+                  <note>1. Enthaltenes Werk / Verfasser des 1. enthaltenen Werks</note>
+                  <instanceNoteTypeId>With note</instanceNoteTypeId>
+               </i>
+               <i>
+                  <note>2. Enthaltenes Werk / Verfasser des 2. enthaltenen Werks</note>
+                  <instanceNoteTypeId>With note</instanceNoteTypeId>
+               </i>
+               <i>
+                  <note>3. Enthaltenes Werk</note>
+                  <instanceNoteTypeId>With note</instanceNoteTypeId>
+               </i>
+               <i>
+                  <note>Hier stehen Anmerkungen zu Interpreten, Ausführenden, Erzählern, und/oder Präsentatoren</note>
+                  <instanceNoteTypeId>Participant or Performer note</instanceNoteTypeId>
+               </i>
+            </arr>
+         </notes>
+         <languages>
+            <arr>
+               <i>ger</i>
+            </arr>
+         </languages>
+         <series>
+            <arr>
+               <i>
+                  <value>Ungezählte monografische Reihe</value>
+               </i>
+            </arr>
+         </series>
+         <administrativeNotes>
+            <arr>
+               <i>Mau (Bibliografische Gattung)</i>
+               <i>19.10.23, 11:56 (Letzte Änderung CBS)</i>
+            </arr>
+         </administrativeNotes>
+         <subjects>
+            <arr>
+               <i>1. Lokales Schlagwort (Level 1)</i>
+               <i>2. Lokales Schlagwort (Level 1)</i>
+               <i>3. Lokales Schlagwort (Level 1)</i>
+            </arr>
+         </subjects>
+         <classifications>
+            <arr>
+               <i>
+                  <classificationNumber>1. Lokale Klassifikation (Level 1)</classificationNumber>
+                  <classificationTypeId>Lokale Klassifikation</classificationTypeId>
+               </i>
+               <i>
+                  <classificationNumber>2. Lokale Klassifikation (Level 1)</classificationNumber>
+                  <classificationTypeId>Lokale Klassifikation</classificationTypeId>
+               </i>
+               <i>
+                  <classificationNumber>3. Lokale Klassifikation (Level 1)</classificationNumber>
+                  <classificationTypeId>Lokale Klassifikation</classificationTypeId>
+               </i>
+            </arr>
+         </classifications>
+      </instance>
+      <instanceRelations/>
+      <processing>
+         <item>
+            <status>
+               <policy>retain</policy>
+            </status>
+         </item>
+      </processing>
+      <holdingsRecords>
+         <arr>
+            <i>
+               <hrid>1153677830</hrid>
+               <permanentLocationId>LS</permanentLocationId>
+               <callNumber>/</callNumber>
+               <holdingsTypeId>physical</holdingsTypeId>
+               <holdingsStatements/>
+               <notes>
+                  <arr>
+                     <i>
+                        <note>Standortangabe</note>
+                        <holdingsNoteTypeId>Standort (8201)</holdingsNoteTypeId>
+                        <staffOnly>false</staffOnly>
+                     </i>
+                     <i>
+                        <note>02.06.23 13:55</note>
+                        <holdingsNoteTypeId>Letzte Änderung CBS</holdingsNoteTypeId>
+                        <staffOnly>true</staffOnly>
+                     </i>
+                     <i>
+                        <note>Lokaler Schlüssel</note>
+                        <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
+                        <staffOnly>false</staffOnly>
+                     </i>
+                     <i>
+                        <note>Horkheimer, Max, 1895-1973</note>
+                        <holdingsNoteTypeId>Provenance</holdingsNoteTypeId>
+                        <staffOnly>false</staffOnly>
+                     </i>
+                     <i>
+                        <note>T-Pro</note>
+                        <holdingsNoteTypeId>Provenance</holdingsNoteTypeId>
+                        <staffOnly>false</staffOnly>
+                     </i>
+                     <i>
+                        <note>1. Lokales Schlagwort (Level 2)</note>
+                        <holdingsNoteTypeId>Lokale Schlagwörter</holdingsNoteTypeId>
+                        <staffOnly>false</staffOnly>
+                     </i>
+                     <i>
+                        <note>2. Lokales Schlagwort (Level 2)</note>
+                        <holdingsNoteTypeId>Lokale Schlagwörter</holdingsNoteTypeId>
+                        <staffOnly>false</staffOnly>
+                     </i>
+                     <i>
+                        <note>Grundherrschaft</note>
+                        <holdingsNoteTypeId>Lokale Schlagwörter</holdingsNoteTypeId>
+                        <staffOnly>false</staffOnly>
+                     </i>
+                     <i>
+                        <note>Landbevölkerung</note>
+                        <holdingsNoteTypeId>Lokale Schlagwörter</holdingsNoteTypeId>
+                        <staffOnly>false</staffOnly>
+                     </i>
+                     <i>
+                        <note>Weiteres Lokales Schlagwort (Level 2)</note>
+                        <holdingsNoteTypeId>Lokale Schlagwörter</holdingsNoteTypeId>
+                        <staffOnly>false</staffOnly>
+                     </i>
+                     <i>
+                        <note>1. Lokale Klassifikation (Level 2)</note>
+                        <holdingsNoteTypeId>Lokale Klassifikationen</holdingsNoteTypeId>
+                        <staffOnly>false</staffOnly>
+                     </i>
+                     <i>
+                        <note>2. Lokale Klassifikation (Level 2)</note>
+                        <holdingsNoteTypeId>Lokale Klassifikationen</holdingsNoteTypeId>
+                        <staffOnly>false</staffOnly>
+                     </i>
+                  </arr>
+               </notes>
+               <discoverySuppress>false</discoverySuppress>
+               <sourceId>hebis</sourceId>
+               <items>
+                  <arr>
+                     <i>
+                        <hrid>1153677830-1</hrid>
+                        <materialTypeId>Noten</materialTypeId>
+                        <permanentLoanTypeId>g</permanentLoanTypeId>
+                        <status>
+                           <name>Restricted</name>
+                        </status>
+                        <barcode/>
+                        <copyNumber/>
+                        <yearCaption>
+                           <arr/>
+                        </yearCaption>
+                        <accessionNumber/>
+                        <discoverySuppress>false</discoverySuppress>
+                     </i>
+                  </arr>
+               </items>
+               <electronicAccess>
+                  <arr>
+                     <i>
+                        <uri>http://www.test.de</uri>
+                     </i>
+                  </arr>
+               </electronicAccess>
+               <statisticalCodeIds>
+                  <arr>
+                     <i>Lokaler Schlüssel</i>
+                  </arr>
+               </statisticalCodeIds>
+            </i>
+         </arr>
+      </holdingsRecords>
+   </record>
+</collection>
