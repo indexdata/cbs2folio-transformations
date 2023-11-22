@@ -1,38 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output indent="yes" method="xml" version="1.0" encoding="UTF-8"/>
-
+  
   <xsl:template match="collection">
     <collection>
-        <xsl:apply-templates/>
+      <xsl:apply-templates/>
     </collection>
   </xsl:template>
-
+  
   <xsl:template match="record">
     <record>
-        <xsl:for-each select="@* | node()">
-            <xsl:copy-of select="."/>
-        </xsl:for-each>
-        <xsl:apply-templates/>
+      <xsl:for-each select="@* | node()">
+        <xsl:copy-of select="."/>
+      </xsl:for-each>
+      <xsl:apply-templates/>
     </record>
   </xsl:template>
-
+  
   <xsl:template match="original">
     <xsl:if test="item/datafield[@tag='203@']/subfield[@code='0']">
       <holdingsRecords>
         <arr>
           <xsl:apply-templates select="item"/>
-       </arr>
+        </arr>
       </holdingsRecords>
     </xsl:if>
   </xsl:template>
-
+  
   <xsl:template match="item">
     <i>
       <xsl:variable name="hhrid" select="datafield[@tag='203@']/subfield[@code='0']"/>
       <hrid>
         <xsl:value-of select="$hhrid"/>
       </hrid>
+      <xsl:variable name="electronicholding" select="substring(//datafield[@tag='002@']/subfield[@code='0'],1,1) = 'O'"/>
       <xsl:variable name="lcode" select="datafield[@tag='209A']/subfield[@code='f']"/>
       <permanentLocationId>
         <xsl:value-of select="$lcode"/>
@@ -40,29 +41,41 @@
       <callNumber>
         <xsl:value-of select="datafield[@tag='209A']/subfield[@code='a']"/>
       </callNumber>
-	  <holdingsTypeId>
-	    <xsl:variable name="holType" select="../datafield[@tag='002@']/subfield[@code='0']"/>
-		<xsl:variable name="holType1" select="substring($holType, 1, 1)"/>
-		<xsl:choose>
-		  <xsl:when test="$holType1 = 'O'">electronic</xsl:when>
-		  <xsl:otherwise>physical</xsl:otherwise>
-		</xsl:choose>
-	  </holdingsTypeId>
+      <callNumberPrefix>
+        <xsl:value-of select="datafield[@tag='209A']/subfield[@code='f']"/>
+      </callNumberPrefix>
+      <holdingsTypeId>
+        <xsl:variable name="holType" select="../datafield[@tag='002@']/subfield[@code='0']"/>
+        <xsl:variable name="holType1" select="substring($holType, 1, 1)"/>
+        <xsl:choose>
+          <xsl:when test="$holType1 = 'O'">electronic</xsl:when>
+          <xsl:otherwise>physical</xsl:otherwise>
+        </xsl:choose>
+      </holdingsTypeId>
       <holdingsStatements>
-	    <xsl:if test="datafield[@tag='231B']/subfield[@code='a']">
-		  <arr>
-		    <xsl:for-each select="datafield[@tag='231B']/subfield[@code='a']">
-			  <i>
-			    <statement>
-				  <xsl:value-of select="."/>
-				</statement>
+        <xsl:if test="datafield[@tag='231B']/subfield[@code='a']">
+          <arr>
+            <xsl:for-each select="datafield[@tag='231B']/subfield[@code='a']">
+              <i>
+                <statement>
+                  <xsl:value-of select="."/>
+                </statement>
               </i>
-			</xsl:for-each>
-		  </arr>
-	    </xsl:if>
+            </xsl:for-each>
+          </arr>
+        </xsl:if>
       </holdingsStatements>
-	  <sourceId>K10plus</sourceId>
-	  <discoverySuppress>
+      <sourceId>K10plus</sourceId>
+      <administrativeNotes>
+        <arr>
+          <xsl:for-each select="datafield[@tag='201B']">
+            <i>
+              <xsl:value-of select="concat(./subfield[@code='0'], ', ', substring(./subfield[@code='t'],1,5), ' (7903: Datum und Uhrzeit der letzten Änderung)')"/>
+            </i>
+          </xsl:for-each>
+        </arr>
+      </administrativeNotes>
+      <discoverySuppress>
         <xsl:choose>
           <xsl:when test="substring(datafield[@tag='208@']/subfield[@code='b'],1,1)='c'">true</xsl:when>
           <xsl:when test="substring(datafield[@tag='208@']/subfield[@code='b'],1,1)='d'">true</xsl:when>
@@ -70,9 +83,9 @@
           <xsl:otherwise>false</xsl:otherwise>
         </xsl:choose>
       </discoverySuppress>
-      <xsl:if test="datafield[@tag='220B' or @tag='237A' or @tag='244Z' or @tag='209O' or @tag='206X' or @tag='206W']">
-        <notes>
-          <arr>
+      <notes>
+        <arr>
+          <xsl:if test="datafield[@tag='220B' or @tag='237A' or @tag='244Z' or @tag='209O' or @tag='206X' or @tag='206W']">
             <!-- 4801 -->
             <xsl:for-each select="datafield[@tag='237A']">
               <xsl:if test="./subfield[@code='a'] or ./subfield[@code='0']">
@@ -171,82 +184,95 @@
                 </i>
               </xsl:if>
             </xsl:for-each>
-          </arr>
-        </notes>
-      </xsl:if>
-      <xsl:if test="datafield[@tag='209R']">
-        <electronicAccess>
-          <arr>
-            <xsl:for-each select="datafield[@tag='209R']">
-              <xsl:if test="./subfield[@code='u']">
-                <i>
-                  <uri>
-                    <xsl:value-of select="./subfield[@code='u']"/>
-                  </uri>
-                  <relationshipId>f5d0068e-6272-458e-8a81-b85e7b9a14aa</relationshipId>
-                  <!-- Resource -->
-                  <xsl:if test="../datafield[@tag='209K']">
-                    <publicNote>
-                      <xsl:variable name="enote" select="../datafield[@tag='209K'][1]/subfield[@code='a']"/>
-                      <xsl:variable name="bnote" select="../datafield[@tag='209K'][1]/subfield[@code='b']"/>
-                      <xsl:variable name="cnote" select="../datafield[@tag='209K'][1]/subfield[@code='c']"/>
-                      <xsl:choose>
-                        <xsl:when test="$enote='a'">Zugriffsrechte: domain, der Zugriff ist nur hausintern möglich</xsl:when>
-                        <xsl:when test="$enote='b'">Zugriffsrechte: free, der Zugriff ist unbeschränkt möglich</xsl:when>
-                        <xsl:when test="$enote='c'">Zugriffsrechte: blocked, der Zugriff ist gar nicht möglich</xsl:when>
-                        <xsl:when test="$enote='d'">Zugriffsrechte: domain+, der Zugriff ist hausintern und für bestimmte zugelassene, andere Benutzer möglich</xsl:when>
-                        <xsl:when test="$bnote">
-                          <xsl:value-of select="concat('Zahl der parallelen Zugriffe: ', $bnote)"/>
-                        </xsl:when>
-                      </xsl:choose>
-                      <xsl:choose>
-                        <xsl:when test="$cnote and ($enote or $bnote)">
-                          <xsl:value-of select="concat(' ; ', $cnote)"/>
-                        </xsl:when>
-                        <xsl:when test="$cnote">
-                          <xsl:value-of select="$cnote"/>
-                        </xsl:when>
-                      </xsl:choose>
-                    </publicNote>
-                  </xsl:if>
-                </i>
-              </xsl:if>
-            </xsl:for-each>
-          </arr>
-        </electronicAccess>
-      </xsl:if>
-      <items>
+          </xsl:if>
+        </arr>
+      </notes>
+      <electronicAccess>
         <arr>
-          <xsl:choose>
-            <xsl:when test="datafield[@tag='209G']/subfield[@code='a'][2]">
-              <xsl:for-each select="datafield[@tag='209G']/subfield[@code='a']">
-                <xsl:apply-templates select="../.." mode="make-item">
-                  <xsl:with-param name="hhrid" select="concat($hhrid, '-', .)"/>
-                  <xsl:with-param name="bcode" select="."/>
-                  <xsl:with-param name="copy" select="./following-sibling::subfield[@code='c'][1]"/>
-                </xsl:apply-templates>
-              </xsl:for-each>
-            </xsl:when>
-            <!-- start implement bound-with case -->
-            <xsl:when test="datafield[@tag='209A']/subfield[@code='i']">
-              <xsl:if test="datafield[@tag='209G']/subfield[@code='a']">
+          <xsl:for-each select="datafield[@tag='209R']">
+            <xsl:if test="./subfield[@code='u']">
+              <i>
+                <uri>
+                  <xsl:value-of select="./subfield[@code='u']"/>
+                </uri>
+                <relationshipId>Ressource</relationshipId>
+                <!-- Resource -->
+                <xsl:if test="../datafield[@tag='209K']">
+                  <publicNote>
+                    <xsl:variable name="enote" select="../datafield[@tag='209K'][1]/subfield[@code='a']"/>
+                    <xsl:variable name="bnote" select="../datafield[@tag='209K'][1]/subfield[@code='b']"/>
+                    <xsl:variable name="cnote" select="../datafield[@tag='209K'][1]/subfield[@code='c']"/>
+                    <xsl:choose>
+                      <xsl:when test="$enote='a'">Zugriffsrechte: domain, der Zugriff ist nur hausintern möglich</xsl:when>
+                      <xsl:when test="$enote='b'">Zugriffsrechte: free, der Zugriff ist unbeschränkt möglich</xsl:when>
+                      <xsl:when test="$enote='c'">Zugriffsrechte: blocked, der Zugriff ist gar nicht möglich</xsl:when>
+                      <xsl:when test="$enote='d'">Zugriffsrechte: domain+, der Zugriff ist hausintern und für bestimmte zugelassene, andere Benutzer möglich</xsl:when>
+                      <xsl:when test="$bnote">
+                        <xsl:value-of select="concat('Zahl der parallelen Zugriffe: ', $bnote)"/>
+                      </xsl:when>
+                    </xsl:choose>
+                    <xsl:choose>
+                      <xsl:when test="$cnote and ($enote or $bnote)">
+                        <xsl:value-of select="concat(' ; ', $cnote)"/>
+                      </xsl:when>
+                      <xsl:when test="$cnote">
+                        <xsl:value-of select="$cnote"/>
+                      </xsl:when>
+                    </xsl:choose>
+                  </publicNote>
+                </xsl:if>
+              </i>
+            </xsl:if>
+          </xsl:for-each>
+        </arr>
+      </electronicAccess>
+      <illPolicyId>
+        <xsl:variable name="illpolicy" select="datafield[@tag='209B']/subfield[@code='a']"/>
+        <xsl:choose>
+          <xsl:when test="$illpolicy='nx'">8052 nx - keine Fernleihe</xsl:when>
+          <xsl:when test="$illpolicy='nxp'">8052 nxp - keine Fernleihe</xsl:when>
+          <xsl:when test="$illpolicy='kx'">8052 kx - Papierkopie an Endnutzer</xsl:when>
+          <xsl:when test="$illpolicy='ky'">8052 ky - Papierkopie an Endnutzer, nur im Inland</xsl:when>
+          <xsl:when test="$illpolicy='kxp'">8052 kxp - Papierkopie an Endnutzer, Elektronische Übertragung zwischen den Bibliotheken ausgeschlossen</xsl:when>
+          <xsl:when test="$illpolicy='kyp'">8052 kyp - Papierkopie an Endnutzer, nur im Inland, Elektronische Übertragung zwischen den Bibliotheken ausgeschlossen</xsl:when>
+          <xsl:when test="$illpolicy='ex'">8052 ex - elektronischer Versand an Endnutzer</xsl:when>
+          <xsl:when test="$illpolicy='ey'">8052 ey - elektronischer Versand an Endnutzer, nur im Inland</xsl:when>
+        </xsl:choose>
+      </illPolicyId>
+      <xsl:if test="not($electronicholding)">
+        <items>
+          <arr>
+            <xsl:choose>
+              <xsl:when test="datafield[@tag='209G']/subfield[@code='a'][2]">
+                <xsl:for-each select="datafield[@tag='209G']/subfield[@code='a']">
+                  <xsl:apply-templates select="../.." mode="make-item">
+                    <xsl:with-param name="hhrid" select="concat($hhrid, '-', .)"/>
+                    <xsl:with-param name="bcode" select="."/>
+                    <xsl:with-param name="copy" select="./following-sibling::subfield[@code='c'][1]"/>
+                  </xsl:apply-templates>
+                </xsl:for-each>
+              </xsl:when>
+              <!-- start implement bound-with case -->
+              <xsl:when test="datafield[@tag='209A']/subfield[@code='i']">
+                <xsl:if test="datafield[@tag='209G']/subfield[@code='a']">
+                  <xsl:apply-templates select="." mode="make-item">
+                    <xsl:with-param name="hhrid" select="$hhrid"/>
+                  </xsl:apply-templates>             
+                </xsl:if>
+                <xsl:if test="not(datafield[@tag='209G']/subfield[@code='a'])">
+                  <!-- exit and don't create an item -->
+                </xsl:if>
+              </xsl:when>
+              <!-- end implement bound-with case -->
+              <xsl:otherwise>
                 <xsl:apply-templates select="." mode="make-item">
                   <xsl:with-param name="hhrid" select="$hhrid"/>
-                </xsl:apply-templates>             
-              </xsl:if>
-              <xsl:if test="not(datafield[@tag='209G']/subfield[@code='a'])">
-                <!-- exit and don't create an item -->
-              </xsl:if>
-            </xsl:when>
-            <!-- end implement bound-with case -->
-            <xsl:otherwise>
-              <xsl:apply-templates select="." mode="make-item">
-                <xsl:with-param name="hhrid" select="$hhrid"/>
-              </xsl:apply-templates>
-            </xsl:otherwise>
-          </xsl:choose>
-        </arr>
-      </items>
+                </xsl:apply-templates>
+              </xsl:otherwise>
+            </xsl:choose>
+          </arr>
+        </items>
+      </xsl:if>
     </i>
   </xsl:template>
   <xsl:template match="item" mode="make-item">
@@ -303,27 +329,27 @@
       <permanentLoanTypeId>
         <xsl:variable name="loantype" select="datafield[@tag='209A']/subfield[@code='d']"/>
         <xsl:choose>
-          <xsl:when test="$loantype='u'">ausleihbar/Fernleihe</xsl:when>
-          <xsl:when test="$loantype='b'">verkürzt ausleihbar/Fernleihe</xsl:when>
-          <xsl:when test="$loantype='c'">ausleihbar/keine Fernleihe</xsl:when>
-          <xsl:when test="$loantype='s'">mit Zustimmung ausleihbar/nur Kopie in die Fernleihe</xsl:when>
-          <xsl:when test="$loantype='d'">mit Zustimmung ausleihbar/Fernleihe</xsl:when>
-          <xsl:when test="$loantype='i'">Lesesaalausleihe/keine Fernleihe</xsl:when>
-          <xsl:when test="$loantype='f'">Lesesaalausleihe/nur Kopie in die Fernleihe</xsl:when>
-          <xsl:when test="$loantype='g'">für die Ausleihe gesperrt/keine Fernleihe</xsl:when>
-          <xsl:when test="$loantype='a'">bestellt/keine Fernleihe</xsl:when>
-          <xsl:when test="$loantype='o'">keine Angabe/keine Fernleihe</xsl:when>
-          <xsl:when test="$loantype='z'">Verlust/keine Fernleihe</xsl:when>
+          <xsl:when test="$loantype='u'">u - ausleihbar/Fernleihe</xsl:when>
+          <xsl:when test="$loantype='b'">b - verkürzt ausleihbar/Fernleihe</xsl:when>
+          <xsl:when test="$loantype='c'">c - ausleihbar/keine Fernleihe</xsl:when>
+          <xsl:when test="$loantype='s'">s - mit Zustimmung ausleihbar/nur Kopie in die Fernleihe</xsl:when>
+          <xsl:when test="$loantype='d'">d - mit Zustimmung ausleihbar/Fernleihe</xsl:when>
+          <xsl:when test="$loantype='i'">i - Lesesaalausleihe/keine Fernleihe</xsl:when>
+          <xsl:when test="$loantype='f'">f - Lesesaalausleihe/nur Kopie in die Fernleihe</xsl:when>
+          <xsl:when test="$loantype='g'">g - für die Ausleihe gesperrt/keine Fernleihe</xsl:when>
+          <xsl:when test="$loantype='a'">a - bestellt/keine Fernleihe</xsl:when>
+          <xsl:when test="$loantype='o'">o - keine Angabe/keine Fernleihe</xsl:when>
+          <xsl:when test="$loantype='z'">z - Verlust/keine Fernleihe</xsl:when>
           <xsl:otherwise>ausleihbar/Fernleihe</xsl:otherwise>
         </xsl:choose>
       </permanentLoanTypeId>
       <status>
-		<xsl:variable name="frequency" select="substring(../datafield[@tag='002@']/subfield[@code='0'],2,1)"/>
+        <xsl:variable name="frequency" select="substring(../datafield[@tag='002@']/subfield[@code='0'],2,1)"/>
         <name>
           <xsl:choose>
-			      <xsl:when test="$frequency='b'">Intellectual item</xsl:when>
-			      <xsl:when test="$frequency='c'">Intellectual item</xsl:when>
-			      <xsl:when test="$frequency='d'">Intellectual item</xsl:when>
+            <xsl:when test="$frequency='b'">Intellectual item</xsl:when>
+            <xsl:when test="$frequency='c'">Intellectual item</xsl:when>
+            <xsl:when test="$frequency='d'">Intellectual item</xsl:when>
             <xsl:when test="datafield[@tag='209A']/subfield[@code='d']='a'">On order</xsl:when>
             <xsl:when test="datafield[@tag='209A']/subfield[@code='d']='u'">Available</xsl:when>
             <xsl:when test="datafield[@tag='209A']/subfield[@code='d']='b'">Available</xsl:when>
@@ -334,7 +360,7 @@
             <xsl:when test="datafield[@tag='209A']/subfield[@code='d']='f'">Available</xsl:when>
             <xsl:when test="datafield[@tag='209A']/subfield[@code='d']='z'">Missing</xsl:when>
             <xsl:when test="datafield[@tag='209A']/subfield[@code='d']='g'">Restricted</xsl:when>
-			      <xsl:when test="datafield[@tag='209A']/subfield[@code='d']='o'">Unknown</xsl:when>
+            <xsl:when test="datafield[@tag='209A']/subfield[@code='d']='o'">Unknown</xsl:when>
             <xsl:otherwise>Available</xsl:otherwise>
           </xsl:choose>
         </name>
