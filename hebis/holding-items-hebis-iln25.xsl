@@ -159,7 +159,29 @@
        </xsl:choose>
       </permanentLocationId>
   </xsl:template>
- 
+
+  <xsl:template match="permanentLoanTypeId">
+    <permanentLoanTypeId>
+      <xsl:choose>
+        <xsl:when test=".='dummy'">dummy</xsl:when>
+        <xsl:when test=".='u'">u ausleihbar</xsl:when>
+        <xsl:when test=".='b'">b Kurzausleihe</xsl:when>
+        <xsl:when test=".='c'">c Lehrbuchsammlung</xsl:when>
+        <xsl:when test=".='s'">s Präsenzbestand Lesesaal</xsl:when>
+        <xsl:when test=".='d'">d Präsenzbestand Wochenendausleihe</xsl:when>
+        <xsl:when test=".='i'">i nur für den Lesesaal</xsl:when>
+        <xsl:when test=".='e'">e vermisst</xsl:when>
+        <xsl:when test=".='g'">g nicht ausleihbar</xsl:when>
+        <xsl:when test=".='a'">a bestellt</xsl:when>
+        <xsl:when test=".='z'">z Verlust</xsl:when>
+        <xsl:when test=".='1'">1 Fernleihe - ausleihbar ohne Verl.</xsl:when>
+        <xsl:when test=".='2'">2 Fernleihe - ausleihbar mit Verl.</xsl:when>
+        <xsl:when test=".='3'">3 Fernleihe - Kurzausleihe ohne Verl.</xsl:when>
+        <xsl:otherwise>u ausleihbar</xsl:otherwise>
+      </xsl:choose>
+    </permanentLoanTypeId>
+  </xsl:template>
+
   <xsl:template match="discoverySuppress"> <!-- add: substring(., 1, 4) = 'true') or -->
     <discoverySuppress>
       <xsl:value-of select="(substring(., 1, 4) = 'true') or (substring(., 1, 1) = 'g') or (substring(., 2, 1) = 'y') or (substring(., 2, 1) = 'z')"/>           
@@ -227,6 +249,7 @@
     <xsl:choose>
       <xsl:when test="($abt='016' and (starts-with(., 'THEMAG ') or starts-with(., 'THERARA '))) or 
         ($abt='000' and (starts-with(., 'RARA ') and not(contains(.,'°')))) or
+        ($abt='019' and (starts-with(.,'CELA') or starts-with(.,'CELTRA') or starts-with(.,'LBS') or starts-with(.,'MAG') or starts-with(.,'SSC'))) or
         ($abt='120' and ($standort='Medienkulturwissenschaft' or $standort='Alltagsmedien')) or
         ($abt='003') or (($abt='127') and not(starts-with(.,'SI ') or starts-with(.,'SK ')))">
         <xsl:choose>

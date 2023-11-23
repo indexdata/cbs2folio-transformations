@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?> 
-<!-- date of last edit: 2022-11-09 (YYYY-MM-DD) -->
+<!-- date of last edit: 2023-11-20 (YYYY-MM-DD) -->
 
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:output indent="yes" method="xml" version="1.0" encoding="UTF-8"/>
@@ -19,7 +19,9 @@
         <xsl:when test=".='999_XYZ'">55c66b59-721a-407c-9c65-eefcf0017c6d</xsl:when>
         <xsl:when test=".='030_MAG'">cc52f53f-0b6b-48ce-8a6f-6c8cec89246b</xsl:when>
         <xsl:when test=".='021_FHD'">333ced83-3dd3-4ef1-a8cf-fac6945bd906</xsl:when>
+        <xsl:when test=".='021_HAI'">e4768f30-40b0-43e4-b90e-f6f7afc0eaa5</xsl:when>
         <xsl:when test=".='021_HDB'">d36c4252-7a8a-472e-a8a2-6a038f9ab191</xsl:when>
+        <xsl:when test=".='021_HDD'">043de448-c927-4300-98a3-e9114aafcee6</xsl:when>
         <xsl:when test=".='030_BGG'">0da211f0-f136-4865-bdef-a79d6d2ec47a</xsl:when>
         <xsl:when test=".='030_CBM'">6a83aa6f-99ad-4e1f-b6d8-ff8117d975e2</xsl:when>
         <xsl:when test=".='030_EUL'">0bfecb78-3c84-4dfa-b9ff-416a0c57179c</xsl:when>
@@ -52,10 +54,12 @@
         <xsl:when test=".='070_MDR'">d49c7526-46d4-4997-a296-2c4759689b62</xsl:when>
         <xsl:when test=".='070_ZTG'">f9ff0e99-91d5-4d41-bb2a-37555e32455d</xsl:when>
         <xsl:when test=".='090_FHD'">03ba23c9-4cf7-482d-9aca-4de3b447ac25</xsl:when>
-        <xsl:when test=".='090_GRO'">d06ee225-efed-4568-92e3-419905a23e11</xsl:when>
         <xsl:when test=".='090_MDR'">4364da73-6f3f-4c39-b563-89736170ef7e</xsl:when>
         <xsl:when test=".='090_ZTG'">d75a8524-31a5-4af1-b068-ec5c9927e1f4</xsl:when>
-        <xsl:when test=".='010_ALL'">81cbb095-056f-42c0-aefc-2f42dde3938f</xsl:when>
+        <xsl:when test=".='000_ERS'">3483d205-0177-4a04-b3a2-0ae544407f49</xsl:when>
+        <xsl:when test=".='010_ERD'">315cdac4-c020-45e4-93cb-485935475e74</xsl:when>
+        <xsl:when test=".='000_ERW'">719a24a3-52b3-4621-bd14-612e3a0c581d</xsl:when>
+        <xsl:when test=".='DUM_XYZ'">1a90d9b2-d75a-4f28-a9b7-7cf22ea48463</xsl:when>
         <xsl:when test=".='022_WAS'">75f20517-d834-4dec-8735-82444a47b265</xsl:when>
         <xsl:when test=".='050_FHD'">29a1beab-6103-4a37-9b88-b89a76cb0f7e</xsl:when>
         <xsl:when test=".='050_ZTG'">2ca5b553-8b69-45d1-ac42-5a72a5fd3773</xsl:when>
@@ -73,6 +77,13 @@
         <xsl:when test=".='021_ZTG'">ab87711b-dab5-433f-9328-020e1ec25127</xsl:when>
         <xsl:when test=".='020_IAL'">74e20f04-35ab-4bda-a6d4-fa934b1902dd</xsl:when>
         <xsl:when test=".='000_UBG'">fe0bf573-e3bb-4357-9fa3-412a43fad95d</xsl:when>
+        <xsl:when test=".='200_ARC'">f025f0a4-062e-42db-a84a-3ab75cfbe778</xsl:when>
+        <xsl:when test=".='200_FHD'">f4cda45c-53ea-47f8-93a6-925266dbe710</xsl:when>
+        <xsl:when test=".='200_SON'">8fe19259-53c1-490b-b3e1-a0736f773369</xsl:when>
+        <xsl:when test=".='200_GEW'">74f9a858-5e2e-488c-bfc9-77438a9dac53</xsl:when>
+        <xsl:when test=".='200_ISO'">2d2a0db1-0ff3-48be-9654-d0506c7fb477</xsl:when>
+        <xsl:when test=".='200_APF'">b33e00a9-ebbf-4a74-b5e4-0112ef2d4166</xsl:when>
+        <xsl:when test=".='200_SPI'">8c3c5ec4-6c24-43a9-a29d-f6f45442eeca</xsl:when>
       </xsl:choose>
     </permanentLocationId>
   </xsl:template>
@@ -93,6 +104,8 @@
         <xsl:when test=".='9 f Nur BGP-kein Zugriff-verpackt (Bau)'"><xsl:text>05e5a4ca-08f5-44ba-8a78-b09cf6b67257</xsl:text></xsl:when>
         <xsl:when test=".='9 g nicht ausleihbar'"><xsl:text>c21b9928-023e-4e96-9281-59630de3ad8b</xsl:text></xsl:when>
         <xsl:when test=".='9 z nicht ausleihbar'"><xsl:text>154e5c51-5d56-40ca-99fe-a2bbbed8d564</xsl:text></xsl:when>
+        <xsl:when test=".='9 o Ausleihstatus unbekannt'"><xsl:text>b0303840-c30b-4c09-8e06-4f4751c36294</xsl:text></xsl:when>
+        <xsl:otherwise>b0303840-c30b-4c09-8e06-4f4751c36294</xsl:otherwise> <!-- 9 o Ausleihstatus unbekannt -->
       </xsl:choose>
     </permanentLoanTypeId>
   </xsl:template>
