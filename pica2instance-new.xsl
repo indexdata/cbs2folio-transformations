@@ -714,7 +714,7 @@
               <xsl:when test="@code='l' or @code='m'">
                 <xsl:value-of select="concat(' ; ', .)"/>
               </xsl:when>
-              <xsl:when test="@code='e'"> <!-- Should be $p, but the ouf fetch files contain $e instead. After this has been fixed, we need to change back to $p -->
+              <xsl:when test="@code='p'">
                 <xsl:value-of select="concat('. ', .)"/>
               </xsl:when>
             </xsl:choose>
