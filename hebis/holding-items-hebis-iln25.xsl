@@ -164,7 +164,7 @@
     <permanentLoanTypeId>
       <xsl:choose>
         <xsl:when test=".='dummy'">dummy</xsl:when>
-        <xsl:when test=".='u'">u ausleihbar</xsl:when>
+        <xsl:when test="(.='') or (.='u')">u ausleihbar</xsl:when>
         <xsl:when test=".='b'">b Kurzausleihe</xsl:when>
         <xsl:when test=".='c'">c Lehrbuchsammlung</xsl:when>
         <xsl:when test=".='s'">s Präsenzbestand Lesesaal</xsl:when>
@@ -177,7 +177,7 @@
         <xsl:when test=".='1'">1 Fernleihe - ausleihbar ohne Verl.</xsl:when>
         <xsl:when test=".='2'">2 Fernleihe - ausleihbar mit Verl.</xsl:when>
         <xsl:when test=".='3'">3 Fernleihe - Kurzausleihe ohne Verl.</xsl:when>
-        <xsl:otherwise>u ausleihbar</xsl:otherwise>
+        <xsl:otherwise>unbekannt</xsl:otherwise>
       </xsl:choose>
     </permanentLoanTypeId>
   </xsl:template>
