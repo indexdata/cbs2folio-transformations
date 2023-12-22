@@ -145,7 +145,7 @@
                 <xsl:value-of select="./subfield[@code='a']"/>
               </note>
               <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
-              <staffOnly>false</staffOnly>
+              <staffOnly>true</staffOnly>
             </i>
           </xsl:for-each>
           <xsl:for-each select="datafield[(@tag='244Z') and (subfield[@code='x']&gt;'79') and (subfield[@code='x']&lt;'99')]">
