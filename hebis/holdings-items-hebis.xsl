@@ -251,15 +251,8 @@
           </arr>
         </electronicAccess>
       
-        <statisticalCodeIds>
-        <arr>
-          <xsl:for-each select="datafield[(@tag='209B') and not(subfield[@code='x']='01' or subfield[@code='x']='02')]">
-            <i>
-              <xsl:value-of select="./subfield[@code='a']"/>
-            </i>
-          </xsl:for-each>
-        </arr>
-      </statisticalCodeIds>
+        <statisticalCodeIds/>
+    
     </i>
   </xsl:template>
  
