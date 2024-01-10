@@ -109,6 +109,8 @@
                 <!-- Institute -->
                 <xsl:when test=".='7/415'">017d603f-09ab-44fe-b1a0-a8dd41c54a98</xsl:when>
                 <xsl:when test="starts-with(.,'7/037')">e418d287-5e5d-41a9-bf4a-a90d369417f5</xsl:when>
+		<xsl:when test="starts-with(.,'7/042')">c2c69828-6716-47c4-aa64-758b4992ae2b</xsl:when>
+		<xsl:when test="starts-with(.,'7/052')">41616a75-c85c-4c9b-8d30-aaf5eca41aae</xsl:when>
                 <xsl:when test="starts-with(.,'7/')">82aabbe5-bbc0-4c1e-a8cd-a8c1f34729ce</xsl:when>
                 
                 <!-- Keine Zuordnung --> 
