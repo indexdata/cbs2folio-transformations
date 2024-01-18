@@ -91,7 +91,7 @@
                 <!-- Kartensammlung -->
                 <xsl:when test="$lower='kts-fh'">04d902a5-7c83-49d0-b57e-4107cfad4c47</xsl:when>
                 <xsl:when test="$lower='kts'">5757a8a4-3258-4605-92c8-90fee4750e7a</xsl:when>
-                <!-- Historisches Geb䀀ude -->
+                <!-- Historisches Gebäude -->
                 <xsl:when test="$lower='hg-fb'">e899f698-e3f3-476d-888a-f780786092e7</xsl:when>
                 <xsl:when test="$lower='hg-fdx'">380382b3-2c24-4dc8-ade6-f1cbac1f2105</xsl:when>
                 <xsl:when test="$lower='hg-kjl'">9b0fb41d-3243-4028-84b4-ccf157f17dc1</xsl:when>
