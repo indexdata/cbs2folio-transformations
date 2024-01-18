@@ -855,6 +855,12 @@
         <xsl:when test=".='Zeichnung'">c9abd8ad-79c2-4012-92a2-ea042e796fad</xsl:when>
         <xsl:when test=".='Zeittafel'">d1371500-3f65-43e7-855f-2b385a50a7fd</xsl:when>
         <xsl:when test=".='Zitatensammlung'">f31cdb4a-8c7d-442b-a3a1-7351a2f00b3c</xsl:when>
+        <xsl:when test=".='Animationsfilm'">72b23268-3926-4c53-99f6-729d3cb1123d</xsl:when>
+        <xsl:when test=".='Stummfilm'">588d62d3-911f-4fbc-8d3f-762563b3b629</xsl:when>
+        <xsl:when test=".='Spielfilm'">e747d074-1adb-45d1-a916-2942f4f80272</xsl:when>
+        <xsl:when test=".='Lehrfilm'">7a8cb898-2a97-4397-a1c8-99b502e22923</xsl:when>
+        <xsl:when test=".='Kurzfilm'">85bc1fbc-4e6f-4196-a9af-6c1974b388e4</xsl:when>
+        <xsl:when test=".='Dokumentarfilm'">be53b33e-8325-475a-8321-82444e3d9b1f</xsl:when>
       </xsl:choose>
     </i>
   </xsl:template>
