@@ -10,10 +10,10 @@
   
   <xsl:template match="record">
     <record>
-      <xsl:for-each select="*[not(self::processing)]">
-            <xsl:copy-of select="."/>
-        </xsl:for-each>
-        <xsl:apply-templates select="original"/>
+      <xsl:for-each select="*">
+        <xsl:copy-of select="."/>
+      </xsl:for-each>
+      <xsl:apply-templates select="original"/>
     </record>
   </xsl:template>
   
