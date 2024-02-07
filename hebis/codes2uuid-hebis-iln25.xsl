@@ -70,6 +70,7 @@
         <xsl:when test=".='PHPHI'">e8d099fb-53ce-4042-8824-35fb49ef42e0</xsl:when>
         <xsl:when test=".='PHPOL'">522ab11a-9387-46f5-a9d4-61ed87d9aa32</xsl:when>
         <xsl:when test=".='PHROM'">8ac4aea8-692f-4e3a-9095-b53dfb6a3aa2</xsl:when>
+        <xsl:when test=".='PHRVK'">77341140-8add-462e-af9f-c0839c3425af</xsl:when>
         <xsl:when test=".='PHSLAV'">e8d25e8a-9fe8-4e46-9b8b-79f7de9c3bc8</xsl:when>
         <xsl:when test=".='PHTHW'">4e0e57d9-f094-4e82-9bc8-8f6a55e5041c</xsl:when>		
         <xsl:when test=".='RW'">98fcae0c-df5d-472a-8dcd-25ce4252e936</xsl:when>
