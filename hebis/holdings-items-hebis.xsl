@@ -32,6 +32,15 @@
   <xsl:template match="original">
     <xsl:if test="item/datafield[@tag='203@']/subfield[@code='0']">
       <processing>
+        <holdingsRecord>
+          <retainExistingValues>
+            <forOmittedProperties>true</forOmittedProperties>
+          </retainExistingValues>
+        </holdingsRecord>
+        <item>
+          <retainExistingValues>
+            <forOmittedProperties>true</forOmittedProperties>
+          </retainExistingValues>
         <item>
           <status>
             <policy>retain</policy>
