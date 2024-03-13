@@ -41,7 +41,6 @@
           <retainExistingValues>
             <forOmittedProperties>true</forOmittedProperties>
           </retainExistingValues>
-        <item>
           <status>
             <policy>retain</policy>
           </status>
