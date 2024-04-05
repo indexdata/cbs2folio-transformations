@@ -12,6 +12,28 @@
   </xsl:template>  
 
   <!-- ILN 25 UB Mainz -->
+<xsl:template match="processing">
+      <processing>
+	<holdingsRecord>
+	  <retainExistingValues>
+	    <forOmittedProperties>true</forOmittedProperties>
+	  </retainExistingValues>
+	</holdingsRecord>
+	<item>
+	  <retainExistingValues>
+	    <forOmittedProperties>true</forOmittedProperties>
+		<forTheseProperties>
+		 <arr>
+		 <i>materialTypeId</i>
+		 </arr>
+		 </forTheseProperties>
+	  </retainExistingValues>
+	  <status>
+	    <policy>retain</policy>
+	  </status>
+	</item>
+      </processing>
+</xsl:template>
 
   <xsl:template match="permanentLocationId">
     <xsl:variable name="i" select="key('original',.)"/>
