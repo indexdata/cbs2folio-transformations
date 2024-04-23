@@ -13,6 +13,20 @@
         <hrid>
           <xsl:value-of select="./hrid"/>
         </hrid>
+        <processing>
+          <holdingsRecord>
+            <blockDeletion>
+              <ifField>hrid</ifField>
+              <matchesPattern>\D+.*</matchesPattern>
+            </blockDeletion>
+          </holdingsRecord>
+          <item>
+            <blockDeletion>
+              <ifField>hrid</ifField>
+              <matchesPattern>\D+.*</matchesPattern>
+            </blockDeletion>
+          </item>
+        </processing>
       </delete>
     </record>
   </xsl:template>
@@ -105,11 +119,19 @@
     <record>
       <processing>
         <holdingsRecord>
+          <retainOmittedRecord>
+            <ifField>hrid</ifField>
+            <matchesPattern>\D+.*</matchesPattern>
+          </retainOmittedRecord>
           <retainExistingValues>
             <forOmittedProperties>true</forOmittedProperties>
           </retainExistingValues>
         </holdingsRecord>
         <item>
+          <retainOmittedRecord>
+            <ifField>hrid</ifField>
+            <matchesPattern>\D+.*</matchesPattern>
+          </retainOmittedRecord>
           <retainExistingValues>
             <forOmittedProperties>true</forOmittedProperties>
             <!-- Not applied at GBV but tested and working
