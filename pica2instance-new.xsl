@@ -635,6 +635,13 @@
       </xsl:for-each>
     </xsl:variable>
     
+    <xsl:variable name="title-021G">
+      <xsl:for-each select="datafield[(@tag='021G') and ((substring(./subfield[@code='U'],1,4) = 'Latn') or not(./subfield[@code='U']))]">
+        <xsl:value-of select="' | '"/>
+        <xsl:call-template name="parse-021x"/>
+      </xsl:for-each>
+    </xsl:variable>
+
     <xsl:variable name="title-021M">
       <xsl:for-each select="datafield[(@tag='021M') and ((substring(./subfield[@code='U'],1,4) = 'Latn') or not(./subfield[@code='U']))]">
         <xsl:value-of select="' | '"/>
@@ -751,6 +758,9 @@
             <xsl:if test="datafield[@tag='032@']/subfield[@code='a'] != ''">
               <xsl:value-of select="concat('. ', datafield[@tag='032@']/subfield[@code='a'])"/>
             </xsl:if>
+          </xsl:if>
+          <xsl:if test="$title-021G != ''">
+            <xsl:value-of select="$title-021G"/>
           </xsl:if>
           <xsl:if test="$title-021M != ''">
             <xsl:value-of select="$title-021M"/>
