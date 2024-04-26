@@ -155,7 +155,12 @@
          <xsl:when test="$abt='087'">PHBYZ</xsl:when>
          <xsl:when test="$abt='088'">PHMNG</xsl:when>
          <xsl:when test="$abt='090'">PHBUW</xsl:when>
-         <xsl:when test="$abt='091'">PHMUW</xsl:when>
+         <xsl:when test="$abt='091'">
+           <xsl:choose>
+             <xsl:when test="contains($standort,'separiert')">PHMUWMAG</xsl:when>
+             <xsl:otherwise>PHMUW</xsl:otherwise>
+           </xsl:choose>
+	</xsl:when>
          <xsl:when test="$abt='092'">PHOEG</xsl:when>
          <xsl:when test="$abt='093'">
            <xsl:choose>
@@ -220,7 +225,7 @@
 	  ($abt='006' and (./note='MIN' or ./note='MIN LEHRBUCHSAMMLUNG')) or
 	  ($abt='016' and (./note='Theologie LEHRBUCHSAMMLUNG')) or
 	  ($abt='018' and (./note='ReWi LEHRBUCHSAMMLUNG')) or
-      ($abt='019' and (./note='Lehrbuchsammlung' or ./note='Lesesaal' or ./note='Magazin')) or
+	  ($abt='019' and (./note='Lehrbuchsammlung' or ./note='Lesesaal' or ./note='Magazin')) or
 	  ($abt='034' and (./note='FB 4-40')) or
 	  ($abt='035' and (./note='Institut für Rechtsmedizin')) or
 	  ($abt='043' and (./note='Klinik für Psychiatrie und Psychotherapie')) or
@@ -246,7 +251,7 @@
 	  ($abt='087' and (./note='Byzantinistik')) or
 	  ($abt='088' and (./note='Mittlere und Neuere Geschichte')) or
 	  ($abt='090' and (./note='Buchwissenschaft')) or
-	  ($abt='091' and (./note='Musikwissenschaft')) or
+	  ($abt='091' and (./note='Musikwissenschaft' or ./note='Musikwissenschaft / Separiert')) or
 	  ($abt='092' and (./note='Osteuropäische Geschichte')) or
 	  ($abt='094' and (./note='Institut für Geschichtliche Landeskunde')) or
 	  ($abt='112' and (./note='Hochschule für Musik' or ./note='Hochschule für Musik / Freihand' or ./note='Hochschule für Musik / Magazin')) or
