@@ -66,6 +66,7 @@
         <xsl:when test=".='PHMAG'">4ef3f125-4b94-4e43-997d-505f3d7439aa</xsl:when>
         <xsl:when test=".='PHMNG'">e91db274-7795-4a57-abff-f55cb0535c64</xsl:when>
         <xsl:when test=".='PHMUW'">771b46aa-76ab-4800-9f3b-177b89b6f853</xsl:when>
+        <xsl:when test=".='PHMUWMAG'">4312f681-88b9-4718-a382-1ef71a13bd03</xsl:when>
         <xsl:when test=".='PHOEG'">af40b5e2-180c-4450-b4e3-bad8e8b8783d</xsl:when>
         <xsl:when test=".='PHPHI'">e8d099fb-53ce-4042-8824-35fb49ef42e0</xsl:when>
         <xsl:when test=".='PHPOL'">522ab11a-9387-46f5-a9d4-61ed87d9aa32</xsl:when>
