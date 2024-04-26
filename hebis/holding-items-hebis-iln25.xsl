@@ -157,7 +157,7 @@
          <xsl:when test="$abt='090'">PHBUW</xsl:when>
          <xsl:when test="$abt='091'">
            <xsl:choose>
-             <xsl:when test="contains($standort,'separiert')">PHMUWMAG</xsl:when>
+             <xsl:when test="contains($standort,'Separiert')">PHMUWMAG</xsl:when>
              <xsl:otherwise>PHMUW</xsl:otherwise>
            </xsl:choose>
 	</xsl:when>
