@@ -10,12 +10,18 @@
     <xsl:template match="permanentLocationId">
         <xsl:variable name="electronicholding" select="substring(//datafield[@tag='002@']/subfield[@code='0'],1,1)"/>
         <xsl:variable name="lower" select="translate(.,'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz')"/>
+	<xsl:variable name="callnumber" select="../callNumber"/>    
         <permanentLocationId>
             <xsl:choose>
-                <!-- Online -->
+        	<!-- Online -->
                 <xsl:when test="$electronicholding='O'">4606eee2-9416-4ed5-8b8d-792f83c0d0eb</xsl:when>
                 <!-- Kein Standort -->   
-                <xsl:when test=".=''">78091d58-5057-4f5d-bbcc-ca07eafd8cc1</xsl:when>	
+                <xsl:when test=".=''">
+			<xsl:choose>
+                        <xsl:when test="$callnumber=''">16bbf38f-e728-4a07-80e2-389ed5fdb2c1</xsl:when> <!--Signatur auch leer-->
+                        <xsl:otherwise>78091d58-5057-4f5d-bbcc-ca07eafd8cc1</xsl:otherwise> <!-- Nur Sonderstandort fehlt -->
+                	</xsl:choose>
+		</xsl:when>	
                 <!-- BBF -->
                 <xsl:when test="$lower='bbf : mag'">34e65fe3-e709-4734-b401-dd836353e526</xsl:when>
                 <xsl:when test="starts-with($lower,'bbf')">a1f125d5-32ee-4f1d-b5a3-8e797ee4900f</xsl:when>
