@@ -293,6 +293,7 @@
             </callNumber>
           </xsl:when>
           <xsl:otherwise>
+            <callNumberPrefix/>
             <callNumber>
               <xsl:value-of select="."/>
             </callNumber>
@@ -310,11 +311,9 @@
             </xsl:when>
           </xsl:choose>
         </xsl:variable>
-        <xsl:if test="string-length($cnprefix)>0">
-          <callNumberPrefix>
-            <xsl:value-of select="normalize-space(translate($cnprefix,'@',''))"/>
-          </callNumberPrefix>
-        </xsl:if>
+        <callNumberPrefix>
+          <xsl:value-of select="normalize-space(translate($cnprefix,'@',''))"/>
+        </callNumberPrefix>
         <callNumber>
           <xsl:value-of select="normalize-space(translate(substring-after(.,$cnprefix),'@',''))"/>
         </callNumber>
