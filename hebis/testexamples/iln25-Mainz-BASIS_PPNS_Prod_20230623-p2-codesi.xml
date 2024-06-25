@@ -5,7 +5,6 @@
       <instance>
          <source>hebis</source>
          <hrid>466221029</hrid>
-         <statusUpdatedDate>2020-07-02</statusUpdatedDate>
          <modeOfIssuanceId>068b5344-e2a6-40df-9186-1829e13cd344</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -43,14 +42,17 @@
             <arr>
                <i>
                   <alternativeTitle>Lire magazine littéraire. Supplément 100% jeux</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
                <i>
                   <alternativeTitle>Lire magazine littéraire. Cahier jeux</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
             </arr>
          </alternativeTitles>
+         <contributors>
+            <arr/>
+         </contributors>
          <publication>
             <arr>
                <i>
@@ -286,7 +288,6 @@
       <instance>
          <source>hebis</source>
          <hrid>469936487</hrid>
-         <statusUpdatedDate>2020-09-30</statusUpdatedDate>
          <modeOfIssuanceId>068b5344-e2a6-40df-9186-1829e13cd344</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -314,7 +315,7 @@
                </i>
                <i>
                   <value>ZDB-1-CAJ</value>
-                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
+                  <identifierTypeId>6966e5f6-efaf-4378-86f1-7863ae1ecc6c</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -336,6 +337,9 @@
                </i>
             </arr>
          </alternativeTitles>
+         <contributors>
+            <arr/>
+         </contributors>
          <publication>
             <arr>
                <i>
@@ -488,7 +492,6 @@
       <instance>
          <source>hebis</source>
          <hrid>26473453X</hrid>
-         <statusUpdatedDate>2011-05-24</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -648,7 +651,6 @@
       <instance>
          <source>hebis</source>
          <hrid>469102136</hrid>
-         <statusUpdatedDate>2020-09-10</statusUpdatedDate>
          <modeOfIssuanceId>068b5344-e2a6-40df-9186-1829e13cd344</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -834,7 +836,6 @@
       <instance>
          <source>hebis</source>
          <hrid>458176540</hrid>
-         <statusUpdatedDate>2020-01-29</statusUpdatedDate>
          <modeOfIssuanceId>068b5344-e2a6-40df-9186-1829e13cd344</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -868,23 +869,23 @@
             <arr>
                <i>
                   <alternativeTitle>AKK</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
                <i>
                   <alternativeTitle>Mainspitze</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
                <i>
                   <alternativeTitle>Allgemeine Zeitung Mainz</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
                <i>
                   <alternativeTitle>Allgemeine Zeitung / Mainz</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
                <i>
                   <alternativeTitle>Allgemeine Zeitung. Mainz</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
                <i>
                   <alternativeTitle>Titelzusatz früher: mit Landskrone</alternativeTitle>
@@ -892,6 +893,9 @@
                </i>
             </arr>
          </alternativeTitles>
+         <contributors>
+            <arr/>
+         </contributors>
          <publication>
             <arr>
                <i>
@@ -1255,7 +1259,6 @@
       <instance>
          <source>hebis</source>
          <hrid>418372608</hrid>
-         <statusUpdatedDate>2021-09-21</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -1291,7 +1294,7 @@
                </i>
                <i>
                   <value>ZDB-20-CBO</value>
-                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
+                  <identifierTypeId>6966e5f6-efaf-4378-86f1-7863ae1ecc6c</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -1449,7 +1452,6 @@
       <instance>
          <source>hebis</source>
          <hrid>382141024</hrid>
-         <statusUpdatedDate>2016-06-29</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -1489,7 +1491,7 @@
                </i>
                <i>
                   <value>ZDB-20-CBO</value>
-                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
+                  <identifierTypeId>6966e5f6-efaf-4378-86f1-7863ae1ecc6c</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -1640,7 +1642,6 @@
       <instance>
          <source>hebis</source>
          <hrid>502405635</hrid>
-         <statusUpdatedDate>2022-12-08</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -1696,11 +1697,11 @@
                </i>
                <i>
                   <value>ZDB-35-WIC</value>
-                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
+                  <identifierTypeId>6966e5f6-efaf-4378-86f1-7863ae1ecc6c</identifierTypeId>
                </i>
                <i>
                   <value>ZDB-35-UBC</value>
-                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
+                  <identifierTypeId>6966e5f6-efaf-4378-86f1-7863ae1ecc6c</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -1710,7 +1711,7 @@
             <arr>
                <i>
                   <alternativeTitle>Wiley Blackwell companion to Indian cinema</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
             </arr>
          </alternativeTitles>
@@ -1859,7 +1860,6 @@
       <instance>
          <source>hebis</source>
          <hrid>502405643</hrid>
-         <statusUpdatedDate>2022-12-08</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -1911,11 +1911,11 @@
                </i>
                <i>
                   <value>ZDB-35-WIC</value>
-                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
+                  <identifierTypeId>6966e5f6-efaf-4378-86f1-7863ae1ecc6c</identifierTypeId>
                </i>
                <i>
                   <value>ZDB-35-UBC</value>
-                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
+                  <identifierTypeId>6966e5f6-efaf-4378-86f1-7863ae1ecc6c</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -2064,7 +2064,6 @@
       <instance>
          <source>hebis</source>
          <hrid>476012996</hrid>
-         <statusUpdatedDate>2021-02-24</statusUpdatedDate>
          <modeOfIssuanceId>068b5344-e2a6-40df-9186-1829e13cd344</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -2252,7 +2251,6 @@
       <instance>
          <source>hebis</source>
          <hrid>468727116</hrid>
-         <statusUpdatedDate>2020-09-04</statusUpdatedDate>
          <modeOfIssuanceId>068b5344-e2a6-40df-9186-1829e13cd344</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -2289,6 +2287,9 @@
          <alternativeTitles>
             <arr/>
          </alternativeTitles>
+         <contributors>
+            <arr/>
+         </contributors>
          <publication>
             <arr>
                <i>
@@ -2513,7 +2514,6 @@
       <instance>
          <source>hebis</source>
          <hrid>461064030</hrid>
-         <statusUpdatedDate>2020-03-16</statusUpdatedDate>
          <modeOfIssuanceId>068b5344-e2a6-40df-9186-1829e13cd344</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -2559,7 +2559,7 @@
             <arr>
                <i>
                   <alternativeTitle>Lernen in der digitalen Welt</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
                <i>
                   <alternativeTitle>On (Hannover)</alternativeTitle>
@@ -2567,6 +2567,9 @@
                </i>
             </arr>
          </alternativeTitles>
+         <contributors>
+            <arr/>
+         </contributors>
          <publication>
             <arr>
                <i>
@@ -2738,7 +2741,6 @@
       <instance>
          <source>hebis</source>
          <hrid>120365596</hrid>
-         <statusUpdatedDate>2004-04-08</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -2892,7 +2894,6 @@
       <instance>
          <source>hebis</source>
          <hrid>047127147</hrid>
-         <statusUpdatedDate>2015-10-09</statusUpdatedDate>
          <modeOfIssuanceId>068b5344-e2a6-40df-9186-1829e13cd344</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -2942,14 +2943,17 @@
             <arr>
                <i>
                   <alternativeTitle>CCL</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
                <i>
                   <alternativeTitle>Inhaltsverzeichnisse linguistischer Fachzeitschriften</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
             </arr>
          </alternativeTitles>
+         <contributors>
+            <arr/>
+         </contributors>
          <publication>
             <arr>
                <i>
@@ -2960,7 +2964,7 @@
                </i>
                <i>
                   <place>Frankfurt, M.</place>
-                  <publisher>früher: Stadt- u. Univ.-Bibl. (anfangs)</publisher>
+                  <publisher>Stadt- u. Univ.-Bibl. (anfangs)</publisher>
                   <dateOfPublication>1973-2006</dateOfPublication>
                   <role>Publisher</role>
                </i>
@@ -3417,7 +3421,6 @@
       <instance>
          <source>hebis</source>
          <hrid>129763500</hrid>
-         <statusUpdatedDate>2015-10-10</statusUpdatedDate>
          <modeOfIssuanceId>068b5344-e2a6-40df-9186-1829e13cd344</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -3450,6 +3453,9 @@
          <alternativeTitles>
             <arr/>
          </alternativeTitles>
+         <contributors>
+            <arr/>
+         </contributors>
          <publication>
             <arr>
                <i>
@@ -3603,7 +3609,6 @@
       <instance>
          <source>hebis</source>
          <hrid>468077731</hrid>
-         <statusUpdatedDate>2021-07-13</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -3635,11 +3640,11 @@
                </i>
                <i>
                   <value>ZDB-20-CBO</value>
-                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
+                  <identifierTypeId>6966e5f6-efaf-4378-86f1-7863ae1ecc6c</identifierTypeId>
                </i>
                <i>
                   <value>ZDB-20-CPA</value>
-                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
+                  <identifierTypeId>6966e5f6-efaf-4378-86f1-7863ae1ecc6c</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -3793,7 +3798,6 @@
       <instance>
          <source>hebis</source>
          <hrid>114017530</hrid>
-         <statusUpdatedDate>2015-10-10</statusUpdatedDate>
          <modeOfIssuanceId>068b5344-e2a6-40df-9186-1829e13cd344</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -3863,13 +3867,13 @@
                </i>
                <i>
                   <place>Lublin</place>
-                  <publisher>erster: Uniw. (2002-2004)</publisher>
+                  <publisher>Uniw. (2002-2004)</publisher>
                   <dateOfPublication>2002-</dateOfPublication>
                   <role>Publisher</role>
                </i>
                <i>
                   <place>Olsztyn</place>
-                  <publisher>früher: Wydawn. Uniw. Warmińsko-Mazurskiego (2005-2014)</publisher>
+                  <publisher>Wydawn. Uniw. Warmińsko-Mazurskiego (2005-2014)</publisher>
                   <dateOfPublication>2002-</dateOfPublication>
                   <role>Publisher</role>
                </i>
@@ -4017,7 +4021,6 @@
       <instance>
          <source>hebis</source>
          <hrid>047513578</hrid>
-         <statusUpdatedDate>2015-10-09</statusUpdatedDate>
          <modeOfIssuanceId>068b5344-e2a6-40df-9186-1829e13cd344</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -4073,7 +4076,7 @@
                </i>
                <i>
                   <place>München</place>
-                  <publisher>früher: Knorr &amp; Hirth (teils)</publisher>
+                  <publisher>Knorr &amp; Hirth (teils)</publisher>
                   <dateOfPublication>1937-1944</dateOfPublication>
                   <role>Publisher</role>
                </i>
@@ -4414,7 +4417,6 @@
       <instance>
          <source>hebis</source>
          <hrid>458176540</hrid>
-         <statusUpdatedDate>2020-01-29</statusUpdatedDate>
          <modeOfIssuanceId>068b5344-e2a6-40df-9186-1829e13cd344</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -4448,23 +4450,23 @@
             <arr>
                <i>
                   <alternativeTitle>AKK</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
                <i>
                   <alternativeTitle>Mainspitze</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
                <i>
                   <alternativeTitle>Allgemeine Zeitung Mainz</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
                <i>
                   <alternativeTitle>Allgemeine Zeitung / Mainz</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
                <i>
                   <alternativeTitle>Allgemeine Zeitung. Mainz</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
                <i>
                   <alternativeTitle>Titelzusatz früher: mit Landskrone</alternativeTitle>
@@ -4472,6 +4474,9 @@
                </i>
             </arr>
          </alternativeTitles>
+         <contributors>
+            <arr/>
+         </contributors>
          <publication>
             <arr>
                <i>
@@ -4835,7 +4840,6 @@
       <instance>
          <source>hebis</source>
          <hrid>441634001</hrid>
-         <statusUpdatedDate>2019-01-29</statusUpdatedDate>
          <modeOfIssuanceId>068b5344-e2a6-40df-9186-1829e13cd344</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -4876,6 +4880,9 @@
          <alternativeTitles>
             <arr/>
          </alternativeTitles>
+         <contributors>
+            <arr/>
+         </contributors>
          <publication>
             <arr>
                <i>
@@ -5089,7 +5096,6 @@
       <instance>
          <source>hebis</source>
          <hrid>071497145</hrid>
-         <statusUpdatedDate>2015-10-10</statusUpdatedDate>
          <modeOfIssuanceId>068b5344-e2a6-40df-9186-1829e13cd344</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -5143,6 +5149,9 @@
                </i>
             </arr>
          </alternativeTitles>
+         <contributors>
+            <arr/>
+         </contributors>
          <publication>
             <arr>
                <i>
@@ -5292,7 +5301,6 @@
       <instance>
          <source>hebis</source>
          <hrid>060752769</hrid>
-         <statusUpdatedDate>2015-10-10</statusUpdatedDate>
          <modeOfIssuanceId>068b5344-e2a6-40df-9186-1829e13cd344</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -5329,6 +5337,9 @@
          <alternativeTitles>
             <arr/>
          </alternativeTitles>
+         <contributors>
+            <arr/>
+         </contributors>
          <publication>
             <arr>
                <i>
@@ -5339,13 +5350,13 @@
                </i>
                <i>
                   <place>Salzburg</place>
-                  <publisher>früher:  Arbeitsgemeinschaft ÖSU (anfangs)</publisher>
+                  <publisher> Arbeitsgemeinschaft ÖSU (anfangs)</publisher>
                   <dateOfPublication>1981-</dateOfPublication>
                   <role>Publisher</role>
                </i>
                <i>
                   <place>Linz</place>
-                  <publisher>früher: Arbeitsgemeinschaft ÖSU (früher)</publisher>
+                  <publisher>Arbeitsgemeinschaft ÖSU (früher)</publisher>
                   <dateOfPublication>1981-</dateOfPublication>
                   <role>Publisher</role>
                </i>
@@ -5498,8 +5509,7 @@
       <instance>
          <source>hebis</source>
          <hrid>433828692</hrid>
-         <statusUpdatedDate>2018-07-19</statusUpdatedDate>
-         <modeOfIssuanceId>068b5344-e2a6-40df-9186-1829e13cd344</modeOfIssuanceId>
+         <modeOfIssuanceId>4fc0f4fe-06fd-490a-a078-c4da1754e03a</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
             <arr>
@@ -5526,7 +5536,7 @@
                </i>
                <i>
                   <value>ZDB-1-EIC</value>
-                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
+                  <identifierTypeId>6966e5f6-efaf-4378-86f1-7863ae1ecc6c</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -5540,6 +5550,9 @@
                </i>
             </arr>
          </alternativeTitles>
+         <contributors>
+            <arr/>
+         </contributors>
          <publication>
             <arr>
                <i>
@@ -5589,7 +5602,7 @@
          </notes>
          <natureOfContentTermIds>
             <arr>
-               <i/>
+               <i>ee016802-2344-4779-8901-8f94e432c95a</i>
                <i/>
             </arr>
          </natureOfContentTermIds>
@@ -5681,7 +5694,6 @@
       <instance>
          <source>hebis</source>
          <hrid>18709084X</hrid>
-         <statusUpdatedDate>2015-10-10</statusUpdatedDate>
          <modeOfIssuanceId>068b5344-e2a6-40df-9186-1829e13cd344</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -5726,6 +5738,9 @@
          <alternativeTitles>
             <arr/>
          </alternativeTitles>
+         <contributors>
+            <arr/>
+         </contributors>
          <publication>
             <arr>
                <i>
@@ -5867,7 +5882,6 @@
       <instance>
          <source>hebis</source>
          <hrid>047997524</hrid>
-         <statusUpdatedDate>2015-10-09</statusUpdatedDate>
          <modeOfIssuanceId>068b5344-e2a6-40df-9186-1829e13cd344</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -5901,7 +5915,7 @@
             <arr>
                <i>
                   <alternativeTitle>Beiträge zur Statistik Hessens / {Die Hessischen Landkreise und kreisfreien Städte nach Abschluß der Gebietsreform</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
             </arr>
          </alternativeTitles>
@@ -6046,7 +6060,6 @@
       <instance>
          <source>hebis</source>
          <hrid>047761547</hrid>
-         <statusUpdatedDate>2015-10-09</statusUpdatedDate>
          <modeOfIssuanceId>068b5344-e2a6-40df-9186-1829e13cd344</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -6079,6 +6092,9 @@
          <alternativeTitles>
             <arr/>
          </alternativeTitles>
+         <contributors>
+            <arr/>
+         </contributors>
          <publication>
             <arr>
                <i>
@@ -6238,7 +6254,6 @@
       <instance>
          <source>hebis</source>
          <hrid>047975334</hrid>
-         <statusUpdatedDate>2015-10-09</statusUpdatedDate>
          <modeOfIssuanceId>068b5344-e2a6-40df-9186-1829e13cd344</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -6427,7 +6442,6 @@
       <instance>
          <source>hebis</source>
          <hrid>063827425</hrid>
-         <statusUpdatedDate>2015-10-09</statusUpdatedDate>
          <modeOfIssuanceId>068b5344-e2a6-40df-9186-1829e13cd344</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -6621,7 +6635,6 @@
       <instance>
          <source>hebis</source>
          <hrid>508488338</hrid>
-         <statusUpdatedDate>2023-06-12</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -6803,7 +6816,6 @@
       <instance>
          <source>hebis</source>
          <hrid>047309970</hrid>
-         <statusUpdatedDate>2015-10-09</statusUpdatedDate>
          <modeOfIssuanceId>068b5344-e2a6-40df-9186-1829e13cd344</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -6847,15 +6859,15 @@
             <arr>
                <i>
                   <alternativeTitle>Mercure de France littéraire et politique</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
                <i>
                   <alternativeTitle>Mercure de France et chronique de Paris</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
                <i>
                   <alternativeTitle>Le Mercure de France au dix-neuvième siècle</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
                <i>
                   <alternativeTitle>Hauptsacht. 1791,17.Dez. - 1799,Jan.: Mercure français</alternativeTitle>
@@ -6891,6 +6903,9 @@
                </i>
             </arr>
          </alternativeTitles>
+         <contributors>
+            <arr/>
+         </contributors>
          <publication>
             <arr>
                <i>
@@ -7320,7 +7335,6 @@
       <instance>
          <source>hebis</source>
          <hrid>047972084</hrid>
-         <statusUpdatedDate>2015-10-09</statusUpdatedDate>
          <modeOfIssuanceId>068b5344-e2a6-40df-9186-1829e13cd344</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -7358,6 +7372,9 @@
                </i>
             </arr>
          </alternativeTitles>
+         <contributors>
+            <arr/>
+         </contributors>
          <publication>
             <arr>
                <i>
@@ -7553,7 +7570,6 @@
       <instance>
          <source>hebis</source>
          <hrid>50058589X</hrid>
-         <statusUpdatedDate>2023-06-06</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -7728,7 +7744,6 @@
       <instance>
          <source>hebis</source>
          <hrid>067478034</hrid>
-         <statusUpdatedDate>2015-10-10</statusUpdatedDate>
          <modeOfIssuanceId>068b5344-e2a6-40df-9186-1829e13cd344</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -7761,6 +7776,9 @@
          <alternativeTitles>
             <arr/>
          </alternativeTitles>
+         <contributors>
+            <arr/>
+         </contributors>
          <publication>
             <arr>
                <i>
@@ -8066,7 +8084,6 @@
       <instance>
          <source>hebis</source>
          <hrid>223601780</hrid>
-         <statusUpdatedDate>2015-10-10</statusUpdatedDate>
          <modeOfIssuanceId>068b5344-e2a6-40df-9186-1829e13cd344</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -8285,7 +8302,6 @@
       <instance>
          <source>hebis</source>
          <hrid>047984775</hrid>
-         <statusUpdatedDate>2015-10-09</statusUpdatedDate>
          <modeOfIssuanceId>068b5344-e2a6-40df-9186-1829e13cd344</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -8332,10 +8348,13 @@
             <arr>
                <i>
                   <alternativeTitle>LK</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
             </arr>
          </alternativeTitles>
+         <contributors>
+            <arr/>
+         </contributors>
          <publication>
             <arr>
                <i>
@@ -8565,7 +8584,6 @@
       <instance>
          <source>hebis</source>
          <hrid>047333715</hrid>
-         <statusUpdatedDate>2015-10-09</statusUpdatedDate>
          <modeOfIssuanceId>068b5344-e2a6-40df-9186-1829e13cd344</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -8607,27 +8625,27 @@
                </i>
                <i>
                   <alternativeTitle>Kongl. Vetenscaps Academiens handlingar</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
                <i>
                   <alternativeTitle>Handlingar</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
                <i>
                   <alternativeTitle>Nya handlingar</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
                <i>
                   <alternativeTitle>Kongl. Vetenskaps-Akademiens handlingar</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
                <i>
                   <alternativeTitle>Kungliga Vetenskaps-Akademiens handlingar</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
                <i>
                   <alternativeTitle>Kungliga Svenska Vetenskaps-Akademiens handlingar</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
                <i>
                   <alternativeTitle>Hauptsacht. 1.1739/40 - 7.1746: Kongl. Swenska Wetenskaps Academiens handlingar</alternativeTitle>
@@ -8685,7 +8703,7 @@
                </i>
                <i>
                   <place>Stockholm</place>
-                  <publisher>früher: Norstedt (anfangs)</publisher>
+                  <publisher>Norstedt (anfangs)</publisher>
                   <dateOfPublication>1739-1971</dateOfPublication>
                   <role>Publisher</role>
                </i>
@@ -8842,7 +8860,6 @@
       <instance>
          <source>hebis</source>
          <hrid>475623495</hrid>
-         <statusUpdatedDate>2021-02-15</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>3be24c14-3551-4180-9292-26a786649c8b</instanceTypeId>
          <instanceFormatIds>
@@ -9074,7 +9091,6 @@
       <instance>
          <source>hebis</source>
          <hrid>457592567</hrid>
-         <statusUpdatedDate>2020-11-10</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -9292,7 +9308,6 @@
       <instance>
          <source>hebis</source>
          <hrid>474420361</hrid>
-         <statusUpdatedDate>2021-01-07</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -9465,7 +9480,6 @@
       <instance>
          <source>hebis</source>
          <hrid>468729674</hrid>
-         <statusUpdatedDate>2020-09-04</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -9564,7 +9578,7 @@
             <arr>
                <i>
                   <note>ET 09/2023</note>
-                  <instanceNoteTypeId>6a2533a7-4de2-4e64-8466-074c2fa9308c</instanceNoteTypeId>
+                  <instanceNoteTypeId>57a9add3-788a-4192-aaf3-b021e6832be7</instanceNoteTypeId>
                </i>
                <i>
                   <note>Vorangegangen ist: ISBN 9783170196063</note>
@@ -9694,7 +9708,6 @@
       <instance>
          <source>hebis</source>
          <hrid>466226756</hrid>
-         <statusUpdatedDate>2020-07-02</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -9813,7 +9826,7 @@
                      <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -9893,7 +9906,6 @@
       <instance>
          <source>hebis</source>
          <hrid>047689277</hrid>
-         <statusUpdatedDate>2015-10-09</statusUpdatedDate>
          <modeOfIssuanceId>068b5344-e2a6-40df-9186-1829e13cd344</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -10118,7 +10130,6 @@
       <instance>
          <source>hebis</source>
          <hrid>474491315</hrid>
-         <statusUpdatedDate>2021-02-26</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -10308,7 +10319,6 @@
       <instance>
          <source>hebis</source>
          <hrid>466731876</hrid>
-         <statusUpdatedDate>2020-07-09</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -10488,7 +10498,6 @@
       <instance>
          <source>hebis</source>
          <hrid>475146239</hrid>
-         <statusUpdatedDate>2021-01-28</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -10718,7 +10727,6 @@
       <instance>
          <source>hebis</source>
          <hrid>439221102</hrid>
-         <statusUpdatedDate>2018-11-26</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -10892,7 +10900,6 @@
       <instance>
          <source>hebis</source>
          <hrid>475628594</hrid>
-         <statusUpdatedDate>2021-11-26</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -10932,11 +10939,11 @@
                </i>
                <i>
                   <value>ZDB-23-DGG</value>
-                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
+                  <identifierTypeId>6966e5f6-efaf-4378-86f1-7863ae1ecc6c</identifierTypeId>
                </i>
                <i>
                   <value>ZDB-23-DBV</value>
-                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
+                  <identifierTypeId>6966e5f6-efaf-4378-86f1-7863ae1ecc6c</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -11103,7 +11110,6 @@
       <instance>
          <source>hebis</source>
          <hrid>476178584</hrid>
-         <statusUpdatedDate>2021-03-01</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>3be24c14-3551-4180-9292-26a786649c8b</instanceTypeId>
          <instanceFormatIds>
@@ -11271,7 +11277,6 @@
       <instance>
          <source>hebis</source>
          <hrid>469849312</hrid>
-         <statusUpdatedDate>2021-01-18</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -11453,7 +11458,6 @@
       <instance>
          <source>hebis</source>
          <hrid>471102652</hrid>
-         <statusUpdatedDate>2020-12-03</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -11731,7 +11735,6 @@
       <instance>
          <source>hebis</source>
          <hrid>418753202</hrid>
-         <statusUpdatedDate>2021-09-28</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -11771,7 +11774,7 @@
                </i>
                <i>
                   <value>ZDB-20-CBO</value>
-                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
+                  <identifierTypeId>6966e5f6-efaf-4378-86f1-7863ae1ecc6c</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -11925,7 +11928,6 @@
       <instance>
          <source>hebis</source>
          <hrid>475634225</hrid>
-         <statusUpdatedDate>2023-02-28</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -11957,7 +11959,7 @@
                </i>
                <i>
                   <value>ZDB-23-DGG</value>
-                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
+                  <identifierTypeId>6966e5f6-efaf-4378-86f1-7863ae1ecc6c</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -12127,7 +12129,6 @@
       <instance>
          <source>hebis</source>
          <hrid>475748506</hrid>
-         <statusUpdatedDate>2021-03-02</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -12422,7 +12423,6 @@
       <instance>
          <source>hebis</source>
          <hrid>459446746</hrid>
-         <statusUpdatedDate>2020-09-18</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -12751,7 +12751,6 @@
       <instance>
          <source>hebis</source>
          <hrid>476228093</hrid>
-         <statusUpdatedDate>2021-03-02</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -12926,7 +12925,6 @@
       <instance>
          <source>hebis</source>
          <hrid>476202744</hrid>
-         <statusUpdatedDate>2021-03-02</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -12954,11 +12952,11 @@
                </i>
                <i>
                   <value>ZDB-23-GOA</value>
-                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
+                  <identifierTypeId>6966e5f6-efaf-4378-86f1-7863ae1ecc6c</identifierTypeId>
                </i>
                <i>
                   <value>ZDB-23-DGG</value>
-                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
+                  <identifierTypeId>6966e5f6-efaf-4378-86f1-7863ae1ecc6c</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -13115,7 +13113,6 @@
       <instance>
          <source>hebis</source>
          <hrid>478858833</hrid>
-         <statusUpdatedDate>2021-05-06</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -13157,7 +13154,7 @@
             <arr>
                <i>
                   <alternativeTitle>On the Influence of Adaptivity upon the Perception of Complexity in Human-Technology Interaction</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
             </arr>
          </alternativeTitles>
@@ -13323,7 +13320,6 @@
       <instance>
          <source>hebis</source>
          <hrid>465289444</hrid>
-         <statusUpdatedDate>2020-09-28</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -13537,7 +13533,6 @@
       <instance>
          <source>hebis</source>
          <hrid>466890184</hrid>
-         <statusUpdatedDate>2020-09-30</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -13852,7 +13847,6 @@
       <instance>
          <source>hebis</source>
          <hrid>474840182</hrid>
-         <statusUpdatedDate>2021-01-26</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -14109,7 +14103,6 @@
       <instance>
          <source>hebis</source>
          <hrid>466462492</hrid>
-         <statusUpdatedDate>2020-07-20</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -14414,7 +14407,6 @@
       <instance>
          <source>hebis</source>
          <hrid>468595856</hrid>
-         <statusUpdatedDate>2020-09-30</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -14597,7 +14589,6 @@
       <instance>
          <source>hebis</source>
          <hrid>468792635</hrid>
-         <statusUpdatedDate>2020-09-08</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -14843,7 +14834,6 @@
       <instance>
          <source>hebis</source>
          <hrid>469695277</hrid>
-         <statusUpdatedDate>2020-10-09</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -15184,7 +15174,6 @@
       <instance>
          <source>hebis</source>
          <hrid>474657639</hrid>
-         <statusUpdatedDate>2021-02-08</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -15376,7 +15365,6 @@
       <instance>
          <source>hebis</source>
          <hrid>47484997X</hrid>
-         <statusUpdatedDate>2021-02-04</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -15598,7 +15586,6 @@
       <instance>
          <source>hebis</source>
          <hrid>474853853</hrid>
-         <statusUpdatedDate>2021-01-19</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -15640,7 +15627,7 @@
             <arr>
                <i>
                   <alternativeTitle>Ars amicitiae: de kunst van de vriendschap in de vroegmoderne Nederlanden</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
             </arr>
          </alternativeTitles>
@@ -15779,7 +15766,6 @@
       <instance>
          <source>hebis</source>
          <hrid>471449644</hrid>
-         <statusUpdatedDate>2020-11-05</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -16038,7 +16024,6 @@
       <instance>
          <source>hebis</source>
          <hrid>471041637</hrid>
-         <statusUpdatedDate>2020-10-29</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -16096,7 +16081,7 @@
             <arr>
                <i>
                   <alternativeTitle>Women and U.S. politics</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
             </arr>
          </alternativeTitles>
@@ -16318,7 +16303,6 @@
       <instance>
          <source>hebis</source>
          <hrid>471876720</hrid>
-         <statusUpdatedDate>2020-12-07</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -16600,7 +16584,7 @@
                      <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -16743,7 +16727,6 @@
       <instance>
          <source>hebis</source>
          <hrid>468113517</hrid>
-         <statusUpdatedDate>2020-08-20</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -16975,7 +16958,6 @@
       <instance>
          <source>hebis</source>
          <hrid>475055314</hrid>
-         <statusUpdatedDate>2021-01-25</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -17087,7 +17069,7 @@
                      <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -17222,7 +17204,6 @@
       <instance>
          <source>hebis</source>
          <hrid>466033869</hrid>
-         <statusUpdatedDate>2020-07-24</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -17426,7 +17407,6 @@
       <instance>
          <source>hebis</source>
          <hrid>45793137X</hrid>
-         <statusUpdatedDate>2020-01-24</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -17690,7 +17670,6 @@
       <instance>
          <source>hebis</source>
          <hrid>449153061</hrid>
-         <statusUpdatedDate>2020-05-18</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -17885,7 +17864,6 @@
       <instance>
          <source>hebis</source>
          <hrid>465853226</hrid>
-         <statusUpdatedDate>2020-06-19</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>497b5090-3da2-486c-b57f-de5bb3c2e26d</instanceTypeId>
          <instanceFormatIds>
@@ -18014,7 +17992,7 @@
                      <instanceTypeId>497b5090-3da2-486c-b57f-de5bb3c2e26d</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -18099,7 +18077,6 @@
       <instance>
          <source>hebis</source>
          <hrid>460686119</hrid>
-         <statusUpdatedDate>2020-03-18</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -18145,7 +18122,7 @@
             <arr>
                <i>
                   <alternativeTitle>Literature and food</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
                <i>
                   <alternativeTitle>Abweichender Titel: Literature and food</alternativeTitle>
@@ -18288,7 +18265,6 @@
       <instance>
          <source>hebis</source>
          <hrid>456883304</hrid>
-         <statusUpdatedDate>2020-08-14</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -18452,7 +18428,6 @@
       <instance>
          <source>hebis</source>
          <hrid>463142055</hrid>
-         <statusUpdatedDate>2020-04-21</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -18668,7 +18643,6 @@
       <instance>
          <source>hebis</source>
          <hrid>460707167</hrid>
-         <statusUpdatedDate>2020-08-28</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -18904,7 +18878,6 @@
       <instance>
          <source>hebis</source>
          <hrid>455296138</hrid>
-         <statusUpdatedDate>2019-11-08</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -19025,7 +18998,7 @@
                      <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -19214,7 +19187,6 @@
       <instance>
          <source>hebis</source>
          <hrid>465078885</hrid>
-         <statusUpdatedDate>2020-08-06</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -19284,19 +19256,19 @@
             <arr>
                <i>
                   <alternativeTitle>Entpolitisierung</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
                <i>
                   <alternativeTitle>Politisierung</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
                <i>
                   <alternativeTitle>Entpolitisierung  Politisierung</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
                <i>
                   <alternativeTitle>Entpolitisierung Politisierung</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
             </arr>
          </alternativeTitles>
@@ -19514,7 +19486,6 @@
       <instance>
          <source>hebis</source>
          <hrid>466017030</hrid>
-         <statusUpdatedDate>2020-07-16</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -19761,7 +19732,6 @@
       <instance>
          <source>hebis</source>
          <hrid>109228227</hrid>
-         <statusUpdatedDate>2020-04-27</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -19881,7 +19851,7 @@
                      <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -20070,7 +20040,6 @@
       <instance>
          <source>hebis</source>
          <hrid>464308534</hrid>
-         <statusUpdatedDate>2020-05-25</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -20324,7 +20293,6 @@
       <instance>
          <source>hebis</source>
          <hrid>463174887</hrid>
-         <statusUpdatedDate>2020-04-21</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -20423,7 +20391,7 @@
                      <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -20508,7 +20476,6 @@
       <instance>
          <source>hebis</source>
          <hrid>463365623</hrid>
-         <statusUpdatedDate>2020-04-24</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -20554,6 +20521,9 @@
                </i>
             </arr>
          </alternativeTitles>
+         <contributors>
+            <arr/>
+         </contributors>
          <publication>
             <arr>
                <i>
@@ -20603,7 +20573,7 @@
                      <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -21028,7 +20998,6 @@
       <instance>
          <source>hebis</source>
          <hrid>463439090</hrid>
-         <statusUpdatedDate>2020-04-30</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>497b5090-3da2-486c-b57f-de5bb3c2e26d</instanceTypeId>
          <instanceFormatIds>
@@ -21222,7 +21191,6 @@
       <instance>
          <source>hebis</source>
          <hrid>454732422</hrid>
-         <statusUpdatedDate>2020-02-03</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -21420,7 +21388,6 @@
       <instance>
          <source>hebis</source>
          <hrid>454926502</hrid>
-         <statusUpdatedDate>2019-12-20</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -21474,7 +21441,7 @@
             <arr>
                <i>
                   <alternativeTitle>ZeitSpiegel</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
             </arr>
          </alternativeTitles>
@@ -21630,7 +21597,6 @@
       <instance>
          <source>hebis</source>
          <hrid>109228227</hrid>
-         <statusUpdatedDate>2020-04-27</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -21750,7 +21716,7 @@
                      <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -21939,7 +21905,6 @@
       <instance>
          <source>hebis</source>
          <hrid>454131720</hrid>
-         <statusUpdatedDate>2019-10-14</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -22256,7 +22221,6 @@
       <instance>
          <source>hebis</source>
          <hrid>451153634</hrid>
-         <statusUpdatedDate>2019-07-26</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -22668,7 +22632,6 @@
       <instance>
          <source>hebis</source>
          <hrid>475965701</hrid>
-         <statusUpdatedDate>2021-02-22</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -22859,7 +22822,6 @@
       <instance>
          <source>hebis</source>
          <hrid>451016270</hrid>
-         <statusUpdatedDate>2019-11-11</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -22984,7 +22946,7 @@
                      <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -23282,7 +23244,6 @@
       <instance>
          <source>hebis</source>
          <hrid>455858489</hrid>
-         <statusUpdatedDate>2020-07-02</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -23465,7 +23426,6 @@
       <instance>
          <source>hebis</source>
          <hrid>451016149</hrid>
-         <statusUpdatedDate>2019-11-11</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -23594,7 +23554,7 @@
                      <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -23897,7 +23857,6 @@
       <instance>
          <source>hebis</source>
          <hrid>453952739</hrid>
-         <statusUpdatedDate>2019-10-07</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -24082,7 +24041,6 @@
       <instance>
          <source>hebis</source>
          <hrid>436550504</hrid>
-         <statusUpdatedDate>2018-09-12</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>225faa14-f9bf-4ecd-990d-69433c912434</instanceTypeId>
          <instanceFormatIds>
@@ -24292,7 +24250,6 @@
       <instance>
          <source>hebis</source>
          <hrid>438450574</hrid>
-         <statusUpdatedDate>2018-11-05</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -24504,7 +24461,6 @@
       <instance>
          <source>hebis</source>
          <hrid>445581085</hrid>
-         <statusUpdatedDate>2019-07-08</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -24746,7 +24702,6 @@
       <instance>
          <source>hebis</source>
          <hrid>450116530</hrid>
-         <statusUpdatedDate>2019-11-21</statusUpdatedDate>
          <modeOfIssuanceId>f5cc2ab6-bb92-4cab-b83f-5a3d09261a41</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -24977,7 +24932,6 @@
       <instance>
          <source>hebis</source>
          <hrid>455732515</hrid>
-         <statusUpdatedDate>2019-11-18</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -25176,7 +25130,6 @@
       <instance>
          <source>hebis</source>
          <hrid>440742811</hrid>
-         <statusUpdatedDate>2019-04-12</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -25475,7 +25428,6 @@
       <instance>
          <source>hebis</source>
          <hrid>434483265</hrid>
-         <statusUpdatedDate>2018-08-10</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -25706,7 +25658,6 @@
       <instance>
          <source>hebis</source>
          <hrid>450566064</hrid>
-         <statusUpdatedDate>2019-10-11</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -26041,7 +25992,6 @@
       <instance>
          <source>hebis</source>
          <hrid>442150539</hrid>
-         <statusUpdatedDate>2019-08-02</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -26107,6 +26057,9 @@
                </i>
             </arr>
          </alternativeTitles>
+         <contributors>
+            <arr/>
+         </contributors>
          <publication>
             <arr>
                <i>
@@ -26293,7 +26246,6 @@
       <instance>
          <source>hebis</source>
          <hrid>450789543</hrid>
-         <statusUpdatedDate>2019-07-16</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -26401,7 +26353,7 @@
                      <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -26540,7 +26492,6 @@
       <instance>
          <source>hebis</source>
          <hrid>451016149</hrid>
-         <statusUpdatedDate>2019-11-11</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -26669,7 +26620,7 @@
                      <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -26972,7 +26923,6 @@
       <instance>
          <source>hebis</source>
          <hrid>447455311</hrid>
-         <statusUpdatedDate>2019-04-15</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -27017,6 +26967,9 @@
          <alternativeTitles>
             <arr/>
          </alternativeTitles>
+         <contributors>
+            <arr/>
+         </contributors>
          <publication>
             <arr>
                <i>
@@ -27061,7 +27014,7 @@
                      <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -27160,7 +27113,6 @@
       <instance>
          <source>hebis</source>
          <hrid>433182199</hrid>
-         <statusUpdatedDate>2018-07-03</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -27268,7 +27220,7 @@
                      <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -27453,7 +27405,6 @@
       <instance>
          <source>hebis</source>
          <hrid>434483265</hrid>
-         <statusUpdatedDate>2018-08-10</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -27684,7 +27635,6 @@
       <instance>
          <source>hebis</source>
          <hrid>42749169X</hrid>
-         <statusUpdatedDate>2018-07-31</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -27917,7 +27867,6 @@
       <instance>
          <source>hebis</source>
          <hrid>428202713</hrid>
-         <statusUpdatedDate>2018-04-10</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -28374,7 +28323,6 @@
       <instance>
          <source>hebis</source>
          <hrid>421515562</hrid>
-         <statusUpdatedDate>2017-12-01</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -28491,7 +28439,7 @@
                      <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -28724,7 +28672,6 @@
       <instance>
          <source>hebis</source>
          <hrid>426757319</hrid>
-         <statusUpdatedDate>2018-02-28</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -28856,7 +28803,7 @@
                      <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -29050,7 +28997,6 @@
       <instance>
          <source>hebis</source>
          <hrid>433802669</hrid>
-         <statusUpdatedDate>2018-07-23</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -29309,7 +29255,6 @@
       <instance>
          <source>hebis</source>
          <hrid>427646200</hrid>
-         <statusUpdatedDate>2018-04-10</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -29339,7 +29284,7 @@
             <arr>
                <i>
                   <alternativeTitle>Byzanz und der Westen</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
             </arr>
          </alternativeTitles>
@@ -29602,7 +29547,6 @@
       <instance>
          <source>hebis</source>
          <hrid>426976525</hrid>
-         <statusUpdatedDate>2018-03-08</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -29804,7 +29748,6 @@
       <instance>
          <source>hebis</source>
          <hrid>404948472</hrid>
-         <statusUpdatedDate>2017-08-23</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -29858,7 +29801,7 @@
             <arr>
                <i>
                   <alternativeTitle>Die deutsche Rechtschreibung</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
                <i>
                   <alternativeTitle>Titel der Beilage: Deutsche Rechtschreibung in Kürze</alternativeTitle>
@@ -29940,7 +29883,7 @@
                      <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -30249,7 +30192,6 @@
       <instance>
          <source>hebis</source>
          <hrid>417704747</hrid>
-         <statusUpdatedDate>2017-10-11</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -30488,7 +30430,6 @@
       <instance>
          <source>hebis</source>
          <hrid>433077751</hrid>
-         <statusUpdatedDate>2018-06-28</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -30681,7 +30622,6 @@
       <instance>
          <source>hebis</source>
          <hrid>460225618</hrid>
-         <statusUpdatedDate>2020-02-26</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -30854,7 +30794,6 @@
       <instance>
          <source>hebis</source>
          <hrid>405775539</hrid>
-         <statusUpdatedDate>2017-10-02</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -31334,7 +31273,6 @@
       <instance>
          <source>hebis</source>
          <hrid>204316960</hrid>
-         <statusUpdatedDate>2012-12-04</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -31497,7 +31435,6 @@
       <instance>
          <source>hebis</source>
          <hrid>428199372</hrid>
-         <statusUpdatedDate>2018-04-17</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -31686,7 +31623,6 @@
       <instance>
          <source>hebis</source>
          <hrid>425001725</hrid>
-         <statusUpdatedDate>2018-01-18</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -31792,7 +31728,7 @@
                      <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -31886,7 +31822,6 @@
       <instance>
          <source>hebis</source>
          <hrid>421515562</hrid>
-         <statusUpdatedDate>2017-12-01</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -32003,7 +31938,7 @@
                      <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -32236,7 +32171,6 @@
       <instance>
          <source>hebis</source>
          <hrid>366200968</hrid>
-         <statusUpdatedDate>2015-11-09</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>497b5090-3da2-486c-b57f-de5bb3c2e26d</instanceTypeId>
          <instanceFormatIds>
@@ -32368,7 +32302,7 @@
                      <instanceTypeId>497b5090-3da2-486c-b57f-de5bb3c2e26d</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -32512,7 +32446,6 @@
       <instance>
          <source>hebis</source>
          <hrid>438320220</hrid>
-         <statusUpdatedDate>2018-10-30</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>225faa14-f9bf-4ecd-990d-69433c912434</instanceTypeId>
          <instanceFormatIds>
@@ -32740,7 +32673,6 @@
       <instance>
          <source>hebis</source>
          <hrid>418199817</hrid>
-         <statusUpdatedDate>2017-10-18</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -32929,7 +32861,6 @@
       <instance>
          <source>hebis</source>
          <hrid>433817356</hrid>
-         <statusUpdatedDate>2018-07-19</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -33219,7 +33150,6 @@
       <instance>
          <source>hebis</source>
          <hrid>404948472</hrid>
-         <statusUpdatedDate>2017-08-23</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -33273,7 +33203,7 @@
             <arr>
                <i>
                   <alternativeTitle>Die deutsche Rechtschreibung</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
                <i>
                   <alternativeTitle>Titel der Beilage: Deutsche Rechtschreibung in Kürze</alternativeTitle>
@@ -33355,7 +33285,7 @@
                      <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -33664,7 +33594,6 @@
       <instance>
          <source>hebis</source>
          <hrid>400346869</hrid>
-         <statusUpdatedDate>2017-04-21</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>225faa14-f9bf-4ecd-990d-69433c912434</instanceTypeId>
          <instanceFormatIds>
@@ -33860,7 +33789,6 @@
       <instance>
          <source>hebis</source>
          <hrid>34250424X</hrid>
-         <statusUpdatedDate>2014-06-30</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -33976,7 +33904,7 @@
                      <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -34229,7 +34157,6 @@
       <instance>
          <source>hebis</source>
          <hrid>401737489</hrid>
-         <statusUpdatedDate>2017-04-07</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -34345,7 +34272,7 @@
                      <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -34430,7 +34357,6 @@
       <instance>
          <source>hebis</source>
          <hrid>426744098</hrid>
-         <statusUpdatedDate>2018-03-13</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -34528,7 +34454,7 @@
                      <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -34682,7 +34608,6 @@
       <instance>
          <source>hebis</source>
          <hrid>401320545</hrid>
-         <statusUpdatedDate>2017-10-04</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -34856,7 +34781,6 @@
       <instance>
          <source>hebis</source>
          <hrid>390122858</hrid>
-         <statusUpdatedDate>2017-05-15</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -35070,7 +34994,6 @@
       <instance>
          <source>hebis</source>
          <hrid>404611214</hrid>
-         <statusUpdatedDate>2017-06-23</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>497b5090-3da2-486c-b57f-de5bb3c2e26d</instanceTypeId>
          <instanceFormatIds>
@@ -35184,7 +35107,7 @@
                      <instanceTypeId>497b5090-3da2-486c-b57f-de5bb3c2e26d</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -35278,7 +35201,6 @@
       <instance>
          <source>hebis</source>
          <hrid>381975738</hrid>
-         <statusUpdatedDate>2017-02-28</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -35363,7 +35285,7 @@
             <arr>
                <i>
                   <note>201609</note>
-                  <instanceNoteTypeId>6a2533a7-4de2-4e64-8466-074c2fa9308c</instanceNoteTypeId>
+                  <instanceNoteTypeId>57a9add3-788a-4192-aaf3-b021e6832be7</instanceNoteTypeId>
                </i>
                <i>
                   <note>Quellen- und Literaturverzeichnis Seite 680-699</note>
@@ -35580,7 +35502,6 @@
       <instance>
          <source>hebis</source>
          <hrid>445409169</hrid>
-         <statusUpdatedDate>2019-02-18</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -35692,7 +35613,7 @@
                      <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -35777,7 +35698,6 @@
       <instance>
          <source>hebis</source>
          <hrid>368099172</hrid>
-         <statusUpdatedDate>2015-12-22</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -35986,7 +35906,6 @@
       <instance>
          <source>hebis</source>
          <hrid>467072264</hrid>
-         <statusUpdatedDate>2020-07-21</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>3be24c14-3551-4180-9292-26a786649c8b</instanceTypeId>
          <instanceFormatIds>
@@ -36158,7 +36077,6 @@
       <instance>
          <source>hebis</source>
          <hrid>445409983</hrid>
-         <statusUpdatedDate>2019-02-18</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -36270,7 +36188,7 @@
                      <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -36355,7 +36273,6 @@
       <instance>
          <source>hebis</source>
          <hrid>44540793X</hrid>
-         <statusUpdatedDate>2019-02-18</statusUpdatedDate>
          <modeOfIssuanceId>f5cc2ab6-bb92-4cab-b83f-5a3d09261a41</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -36515,7 +36432,6 @@
       <instance>
          <source>hebis</source>
          <hrid>419800441</hrid>
-         <statusUpdatedDate>2017-12-12</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -36672,7 +36588,6 @@
       <instance>
          <source>hebis</source>
          <hrid>461783142</hrid>
-         <statusUpdatedDate>2020-03-27</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -36852,7 +36767,6 @@
       <instance>
          <source>hebis</source>
          <hrid>463365623</hrid>
-         <statusUpdatedDate>2020-04-24</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -36898,6 +36812,9 @@
                </i>
             </arr>
          </alternativeTitles>
+         <contributors>
+            <arr/>
+         </contributors>
          <publication>
             <arr>
                <i>
@@ -36947,7 +36864,7 @@
                      <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -37327,7 +37244,6 @@
       <instance>
          <source>hebis</source>
          <hrid>35500299X</hrid>
-         <statusUpdatedDate>2015-02-17</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -37369,7 +37285,7 @@
             <arr>
                <i>
                   <alternativeTitle>Mein Anti-Störungsheft</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
             </arr>
          </alternativeTitles>
@@ -37720,7 +37636,6 @@
       <instance>
          <source>hebis</source>
          <hrid>361807546</hrid>
-         <statusUpdatedDate>2015-08-04</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -37966,7 +37881,6 @@
       <instance>
          <source>hebis</source>
          <hrid>34250424X</hrid>
-         <statusUpdatedDate>2014-06-30</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -38082,7 +37996,7 @@
                      <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -38335,7 +38249,6 @@
       <instance>
          <source>hebis</source>
          <hrid>36070350X</hrid>
-         <statusUpdatedDate>2015-07-21</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -39485,7 +39398,6 @@
       <instance>
          <source>hebis</source>
          <hrid>369843150</hrid>
-         <statusUpdatedDate>2016-02-15</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>497b5090-3da2-486c-b57f-de5bb3c2e26d</instanceTypeId>
          <instanceFormatIds>
@@ -39618,7 +39530,7 @@
                      <instanceTypeId>497b5090-3da2-486c-b57f-de5bb3c2e26d</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -39703,7 +39615,6 @@
       <instance>
          <source>hebis</source>
          <hrid>371081025</hrid>
-         <statusUpdatedDate>2016-04-20</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -39958,7 +39869,6 @@
       <instance>
          <source>hebis</source>
          <hrid>36409513X</hrid>
-         <statusUpdatedDate>2015-10-08</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -40093,7 +40003,7 @@
                      <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -40233,7 +40143,6 @@
       <instance>
          <source>hebis</source>
          <hrid>356350193</hrid>
-         <statusUpdatedDate>2015-04-13</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -40493,7 +40402,6 @@
       <instance>
          <source>hebis</source>
          <hrid>363614877</hrid>
-         <statusUpdatedDate>2015-08-28</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -40679,7 +40587,6 @@
       <instance>
          <source>hebis</source>
          <hrid>35500299X</hrid>
-         <statusUpdatedDate>2015-02-17</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -40721,7 +40628,7 @@
             <arr>
                <i>
                   <alternativeTitle>Mein Anti-Störungsheft</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
             </arr>
          </alternativeTitles>
@@ -41072,7 +40979,6 @@
       <instance>
          <source>hebis</source>
          <hrid>352055456</hrid>
-         <statusUpdatedDate>2014-12-18</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -41197,7 +41103,7 @@
                      <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -41337,7 +41243,6 @@
       <instance>
          <source>hebis</source>
          <hrid>349041989</hrid>
-         <statusUpdatedDate>2015-01-21</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -41765,7 +41670,6 @@
       <instance>
          <source>hebis</source>
          <hrid>320750817</hrid>
-         <statusUpdatedDate>2013-10-15</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -41985,7 +41889,6 @@
       <instance>
          <source>hebis</source>
          <hrid>303974311</hrid>
-         <statusUpdatedDate>2014-04-29</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -42341,7 +42244,6 @@
       <instance>
          <source>hebis</source>
          <hrid>349500819</hrid>
-         <statusUpdatedDate>2014-12-02</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>225faa14-f9bf-4ecd-990d-69433c912434</instanceTypeId>
          <instanceFormatIds>
@@ -42544,7 +42446,6 @@
       <instance>
          <source>hebis</source>
          <hrid>421352841</hrid>
-         <statusUpdatedDate>2017-11-20</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -42574,15 +42475,15 @@
             <arr>
                <i>
                   <alternativeTitle>Guidelines for community interpreting</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
                <i>
                   <alternativeTitle>Interprétation</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
                <i>
                   <alternativeTitle>ISO 13611</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
                <i>
                   <alternativeTitle>Interprétation - lignes directorices pour l'interprétation en milieu social / ISO</alternativeTitle>
@@ -42747,7 +42648,6 @@
       <instance>
          <source>hebis</source>
          <hrid>332304213</hrid>
-         <statusUpdatedDate>2013-11-04</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -43234,7 +43134,6 @@
       <instance>
          <source>hebis</source>
          <hrid>273361597</hrid>
-         <statusUpdatedDate>2011-09-08</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -43276,11 +43175,11 @@
             <arr>
                <i>
                   <alternativeTitle>Wurm Galenische Übungen</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
                <i>
                   <alternativeTitle>Galenische Übungen für das technologische Praktikum und die pharmazeutische Praxis</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
             </arr>
          </alternativeTitles>
@@ -43491,7 +43390,6 @@
       <instance>
          <source>hebis</source>
          <hrid>312311753</hrid>
-         <statusUpdatedDate>2012-11-15</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -43593,7 +43491,7 @@
                      <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -43678,7 +43576,6 @@
       <instance>
          <source>hebis</source>
          <hrid>310624533</hrid>
-         <statusUpdatedDate>2012-11-22</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -43912,7 +43809,6 @@
       <instance>
          <source>hebis</source>
          <hrid>321582616</hrid>
-         <statusUpdatedDate>2013-05-21</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -43945,6 +43841,9 @@
          <alternativeTitles>
             <arr/>
          </alternativeTitles>
+         <contributors>
+            <arr/>
+         </contributors>
          <publication>
             <arr>
                <i>
@@ -44074,7 +43973,6 @@
       <instance>
          <source>hebis</source>
          <hrid>221093621</hrid>
-         <statusUpdatedDate>2011-02-18</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -44124,7 +44022,7 @@
             <arr>
                <i>
                   <alternativeTitle>Tausend Augen, ein Gesicht</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
             </arr>
          </alternativeTitles>
@@ -44330,7 +44228,6 @@
       <instance>
          <source>hebis</source>
          <hrid>246741058</hrid>
-         <statusUpdatedDate>2011-05-11</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -44428,7 +44325,7 @@
                      <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -44628,7 +44525,6 @@
       <instance>
          <source>hebis</source>
          <hrid>320750817</hrid>
-         <statusUpdatedDate>2013-10-15</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -44848,7 +44744,6 @@
       <instance>
          <source>hebis</source>
          <hrid>220831114</hrid>
-         <statusUpdatedDate>2010-02-18</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -45184,7 +45079,6 @@
       <instance>
          <source>hebis</source>
          <hrid>347855113</hrid>
-         <statusUpdatedDate>2014-09-25</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -45218,15 +45112,15 @@
             <arr>
                <i>
                   <alternativeTitle>Fest der Völker</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
                <i>
                   <alternativeTitle>Fest der Schönheit</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
                <i>
                   <alternativeTitle>Die Macht der Bilder</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
             </arr>
          </alternativeTitles>
@@ -45379,7 +45273,6 @@
       <instance>
          <source>hebis</source>
          <hrid>235749702</hrid>
-         <statusUpdatedDate>2011-04-26</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -45496,7 +45389,7 @@
                      <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -45581,7 +45474,6 @@
       <instance>
          <source>hebis</source>
          <hrid>280217374</hrid>
-         <statusUpdatedDate>2019-10-07</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -45777,7 +45669,6 @@
       <instance>
          <source>hebis</source>
          <hrid>246193492</hrid>
-         <statusUpdatedDate>2011-08-01</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -45819,11 +45710,11 @@
             <arr>
                <i>
                   <alternativeTitle>Rīgas vecticībnieki</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
                <i>
                   <alternativeTitle>Die Altgläubigen von Riga</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
                <i>
                   <alternativeTitle>Rīgas vecticībnieki</alternativeTitle>
@@ -45981,7 +45872,6 @@
       <instance>
          <source>hebis</source>
          <hrid>308317416</hrid>
-         <statusUpdatedDate>2012-09-12</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -46102,7 +45992,7 @@
                      <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -46246,7 +46136,6 @@
       <instance>
          <source>hebis</source>
          <hrid>312312008</hrid>
-         <statusUpdatedDate>2013-01-31</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -46344,7 +46233,7 @@
                      <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -46438,7 +46327,6 @@
       <instance>
          <source>hebis</source>
          <hrid>277118166</hrid>
-         <statusUpdatedDate>2011-10-11</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -46609,7 +46497,6 @@
       <instance>
          <source>hebis</source>
          <hrid>428534899</hrid>
-         <statusUpdatedDate>2018-04-17</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -46645,7 +46532,7 @@
                </i>
                <i>
                   <value>ZDB-20-CBO</value>
-                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
+                  <identifierTypeId>6966e5f6-efaf-4378-86f1-7863ae1ecc6c</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -46802,7 +46689,6 @@
       <instance>
          <source>hebis</source>
          <hrid>215887433</hrid>
-         <statusUpdatedDate>2009-09-17</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -46887,7 +46773,7 @@
                      <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -47139,7 +47025,6 @@
       <instance>
          <source>hebis</source>
          <hrid>220831114</hrid>
-         <statusUpdatedDate>2010-02-18</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -47475,7 +47360,6 @@
       <instance>
          <source>hebis</source>
          <hrid>218686501</hrid>
-         <statusUpdatedDate>2009-12-15</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -47658,7 +47542,6 @@
       <instance>
          <source>hebis</source>
          <hrid>212220810</hrid>
-         <statusUpdatedDate>2009-05-13</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -47696,7 +47579,7 @@
             <arr>
                <i>
                   <alternativeTitle>Zweiundvierzigster Hessischer Floristentag</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
             </arr>
          </alternativeTitles>
@@ -47884,7 +47767,6 @@
       <instance>
          <source>hebis</source>
          <hrid>204418348</hrid>
-         <statusUpdatedDate>2008-10-08</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -48072,7 +47954,6 @@
       <instance>
          <source>hebis</source>
          <hrid>218734387</hrid>
-         <statusUpdatedDate>2009-12-07</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -48327,7 +48208,6 @@
       <instance>
          <source>hebis</source>
          <hrid>204418240</hrid>
-         <statusUpdatedDate>2008-10-09</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -49190,7 +49070,6 @@
       <instance>
          <source>hebis</source>
          <hrid>226193802</hrid>
-         <statusUpdatedDate>2010-08-19</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -49366,7 +49245,6 @@
       <instance>
          <source>hebis</source>
          <hrid>215886925</hrid>
-         <statusUpdatedDate>2009-09-17</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -49468,7 +49346,7 @@
                      <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -49618,7 +49496,6 @@
       <instance>
          <source>hebis</source>
          <hrid>400967677</hrid>
-         <statusUpdatedDate>2017-03-30</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -49704,7 +49581,7 @@
                      <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -49858,7 +49735,6 @@
       <instance>
          <source>hebis</source>
          <hrid>180093029</hrid>
-         <statusUpdatedDate>2015-10-10</statusUpdatedDate>
          <modeOfIssuanceId>068b5344-e2a6-40df-9186-1829e13cd344</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -50060,7 +49936,6 @@
       <instance>
          <source>hebis</source>
          <hrid>179111361</hrid>
-         <statusUpdatedDate>2006-07-21</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -50252,7 +50127,6 @@
       <instance>
          <source>hebis</source>
          <hrid>128013710</hrid>
-         <statusUpdatedDate>2005-04-21</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -50343,7 +50217,7 @@
                      <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -50885,7 +50759,6 @@
       <instance>
          <source>hebis</source>
          <hrid>448149966</hrid>
-         <statusUpdatedDate>2019-05-02</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -51083,7 +50956,6 @@
       <instance>
          <source>hebis</source>
          <hrid>204418240</hrid>
-         <statusUpdatedDate>2008-10-09</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -51946,7 +51818,6 @@
       <instance>
          <source>hebis</source>
          <hrid>134552296</hrid>
-         <statusUpdatedDate>2005-12-08</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -52041,7 +51912,7 @@
                      <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -52593,7 +52464,6 @@
       <instance>
          <source>hebis</source>
          <hrid>185634206</hrid>
-         <statusUpdatedDate>2007-04-18</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -52688,7 +52558,7 @@
                      <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -52777,7 +52647,6 @@
       <instance>
          <source>hebis</source>
          <hrid>185498809</hrid>
-         <statusUpdatedDate>2007-04-11</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -53071,7 +52940,6 @@
       <instance>
          <source>hebis</source>
          <hrid>191036684</hrid>
-         <statusUpdatedDate>2007-10-18</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -53247,7 +53115,6 @@
       <instance>
          <source>hebis</source>
          <hrid>33896472X</hrid>
-         <statusUpdatedDate>2014-12-15</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -53422,7 +53289,6 @@
       <instance>
          <source>hebis</source>
          <hrid>222388676</hrid>
-         <statusUpdatedDate>2010-04-14</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -53577,7 +53443,6 @@
       <instance>
          <source>hebis</source>
          <hrid>070154422</hrid>
-         <statusUpdatedDate>2015-10-10</statusUpdatedDate>
          <modeOfIssuanceId>068b5344-e2a6-40df-9186-1829e13cd344</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -53635,11 +53500,11 @@
             <arr>
                <i>
                   <alternativeTitle>Let's talk about</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
                <i>
                   <alternativeTitle>Schülerinnen</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
                <i>
                   <alternativeTitle>Rückentitel: Schüler</alternativeTitle>
@@ -53659,6 +53524,9 @@
                </i>
             </arr>
          </alternativeTitles>
+         <contributors>
+            <arr/>
+         </contributors>
          <publication>
             <arr>
                <i>
@@ -53669,7 +53537,7 @@
                </i>
                <i>
                   <place>Seelze</place>
-                  <publisher>erster: Friedrich (1995-2018)</publisher>
+                  <publisher>Friedrich (1995-2018)</publisher>
                   <dateOfPublication>1995-</dateOfPublication>
                   <role>Publisher</role>
                </i>
@@ -54097,7 +53965,6 @@
       <instance>
          <source>hebis</source>
          <hrid>267988680</hrid>
-         <statusUpdatedDate>2011-07-06</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -54260,7 +54127,6 @@
       <instance>
          <source>hebis</source>
          <hrid>128013710</hrid>
-         <statusUpdatedDate>2005-04-21</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -54351,7 +54217,7 @@
                      <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -54898,7 +54764,6 @@
       <instance>
          <source>hebis</source>
          <hrid>326694595</hrid>
-         <statusUpdatedDate>2013-09-10</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -55071,7 +54936,6 @@
       <instance>
          <source>hebis</source>
          <hrid>117469521</hrid>
-         <statusUpdatedDate>2003-12-22</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -55162,7 +55026,7 @@
                      <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -55694,7 +55558,6 @@
       <instance>
          <source>hebis</source>
          <hrid>195205537</hrid>
-         <statusUpdatedDate>2008-02-22</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -55936,7 +55799,6 @@
       <instance>
          <source>hebis</source>
          <hrid>203441656</hrid>
-         <statusUpdatedDate>2008-09-24</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -56021,7 +55883,7 @@
                      <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -56174,7 +56036,6 @@
       <instance>
          <source>hebis</source>
          <hrid>110005473</hrid>
-         <statusUpdatedDate>2003-03-10</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -56272,7 +56133,7 @@
                      <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -56510,7 +56371,6 @@
       <instance>
          <source>hebis</source>
          <hrid>11453506X</hrid>
-         <statusUpdatedDate>2003-10-29</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -56600,7 +56460,7 @@
                      <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -56699,7 +56559,6 @@
       <instance>
          <source>hebis</source>
          <hrid>117469521</hrid>
-         <statusUpdatedDate>2003-12-22</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -56790,7 +56649,7 @@
                      <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -57337,7 +57196,6 @@
       <instance>
          <source>hebis</source>
          <hrid>113817290</hrid>
-         <statusUpdatedDate>2004-02-04</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -57763,7 +57621,6 @@
       <instance>
          <source>hebis</source>
          <hrid>107596806</hrid>
-         <statusUpdatedDate>2002-10-11</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -57862,7 +57719,7 @@
                      <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -58414,7 +58271,6 @@
       <instance>
          <source>hebis</source>
          <hrid>108838552</hrid>
-         <statusUpdatedDate>2003-05-16</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -58693,7 +58549,6 @@
       <instance>
          <source>hebis</source>
          <hrid>108790576</hrid>
-         <statusUpdatedDate>2006-11-17</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -58743,7 +58598,7 @@
             <arr>
                <i>
                   <alternativeTitle>Die Städtepolitik der ludowingischen Landgrafen in Thüringen (1130 - 1247) unter besonderer Berücksichtigung der Anlage kleiner Städte</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
             </arr>
          </alternativeTitles>
@@ -58940,7 +58795,6 @@
       <instance>
          <source>hebis</source>
          <hrid>095964088</hrid>
-         <statusUpdatedDate>2001-02-20</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -59031,7 +58885,7 @@
                      <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -59583,7 +59437,6 @@
       <instance>
          <source>hebis</source>
          <hrid>092921108</hrid>
-         <statusUpdatedDate>2000-07-31</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -59672,7 +59525,7 @@
                      <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -59880,7 +59733,6 @@
       <instance>
          <source>hebis</source>
          <hrid>107596806</hrid>
-         <statusUpdatedDate>2002-10-11</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -59979,7 +59831,7 @@
                      <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -60531,7 +60383,6 @@
       <instance>
          <source>hebis</source>
          <hrid>096177667</hrid>
-         <statusUpdatedDate>2001-05-28</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -60748,7 +60599,6 @@
       <instance>
          <source>hebis</source>
          <hrid>100778224</hrid>
-         <statusUpdatedDate>2001-10-18</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -60839,7 +60689,7 @@
                      <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -61391,7 +61241,6 @@
       <instance>
          <source>hebis</source>
          <hrid>092921043</hrid>
-         <statusUpdatedDate>2000-07-31</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -61481,7 +61330,7 @@
                      <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -61689,7 +61538,6 @@
       <instance>
          <source>hebis</source>
          <hrid>276168917</hrid>
-         <statusUpdatedDate>2011-09-28</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -61869,7 +61717,6 @@
       <instance>
          <source>hebis</source>
          <hrid>09328845X</hrid>
-         <statusUpdatedDate>2000-08-28</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -62043,7 +61890,6 @@
       <instance>
          <source>hebis</source>
          <hrid>089687973</hrid>
-         <statusUpdatedDate>2000-10-04</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -62421,7 +62267,7 @@
                      <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -62560,7 +62406,6 @@
       <instance>
          <source>hebis</source>
          <hrid>092920500</hrid>
-         <statusUpdatedDate>2000-07-31</statusUpdatedDate>
          <modeOfIssuanceId>f5cc2ab6-bb92-4cab-b83f-5a3d09261a41</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -62722,7 +62567,6 @@
       <instance>
          <source>hebis</source>
          <hrid>091728754</hrid>
-         <statusUpdatedDate>2000-11-02</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -63595,7 +63439,6 @@
       <instance>
          <source>hebis</source>
          <hrid>057504466</hrid>
-         <statusUpdatedDate>2000-09-25</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -63828,7 +63671,6 @@
       <instance>
          <source>hebis</source>
          <hrid>056380046</hrid>
-         <statusUpdatedDate>2001-04-11</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -64196,7 +64038,7 @@
                      <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -64658,7 +64500,7 @@
                      <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -65107,7 +64949,7 @@
                      <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -65246,7 +65088,6 @@
       <instance>
          <source>hebis</source>
          <hrid>052169383</hrid>
-         <statusUpdatedDate>2014-02-17</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -65539,7 +65380,7 @@
                      <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -65763,7 +65604,7 @@
                      <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -65987,7 +65828,7 @@
                      <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -66155,7 +65996,7 @@
             <arr>
                <i>
                   <alternativeTitle>Methoden zur Regenwurm-Extraktion</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
             </arr>
          </alternativeTitles>
@@ -66738,7 +66579,6 @@
       <instance>
          <source>hebis</source>
          <hrid>273755986</hrid>
-         <statusUpdatedDate>2011-08-29</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -66764,7 +66604,7 @@
             <arr>
                <i>
                   <alternativeTitle>Guide to the microform collection : literature in various Byzantine disciplines, 1892-1982</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
             </arr>
          </alternativeTitles>
@@ -66989,7 +66829,7 @@
                      <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -67074,7 +66914,6 @@
       <instance>
          <source>hebis</source>
          <hrid>057504466</hrid>
-         <statusUpdatedDate>2000-09-25</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -67307,7 +67146,6 @@
       <instance>
          <source>hebis</source>
          <hrid>005807166</hrid>
-         <statusUpdatedDate>2015-10-09</statusUpdatedDate>
          <modeOfIssuanceId>068b5344-e2a6-40df-9186-1829e13cd344</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -67361,6 +67199,9 @@
                </i>
             </arr>
          </alternativeTitles>
+         <contributors>
+            <arr/>
+         </contributors>
          <publication>
             <arr>
                <i>
@@ -67371,13 +67212,13 @@
                </i>
                <i>
                   <place>Marbach</place>
-                  <publisher>früher: Dt. Literaturarchiv (teils)</publisher>
+                  <publisher>Dt. Literaturarchiv (teils)</publisher>
                   <dateOfPublication>1980-</dateOfPublication>
                   <role>Publisher</role>
                </i>
                <i>
                   <place>München</place>
-                  <publisher>früher: Kösel (teils)</publisher>
+                  <publisher>Kösel (teils)</publisher>
                   <dateOfPublication>1980-</dateOfPublication>
                   <role>Publisher</role>
                </i>
@@ -67521,7 +67362,6 @@
       <instance>
          <source>hebis</source>
          <hrid>104122676</hrid>
-         <statusUpdatedDate>2002-04-08</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -67686,7 +67526,6 @@
       <instance>
          <source>hebis</source>
          <hrid>129633070</hrid>
-         <statusUpdatedDate>2005-07-19</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -67944,7 +67783,7 @@
                      <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -68288,7 +68127,7 @@
                      <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -68504,7 +68343,7 @@
             <arr>
                <i>
                   <alternativeTitle>St. Alban- St. Jakobus Mainz Jubiläumsfestschrift</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
             </arr>
          </alternativeTitles>
@@ -68716,7 +68555,7 @@
                      <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -68887,7 +68726,7 @@
                      <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -69026,7 +68865,6 @@
       <instance>
          <source>hebis</source>
          <hrid>199425698</hrid>
-         <statusUpdatedDate>2008-06-16</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -69056,7 +68894,7 @@
             <arr>
                <i>
                   <alternativeTitle>Hamlet</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
             </arr>
          </alternativeTitles>
@@ -69476,7 +69314,6 @@
       <instance>
          <source>hebis</source>
          <hrid>095387781</hrid>
-         <statusUpdatedDate>2001-01-23</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -69674,7 +69511,6 @@
       <instance>
          <source>hebis</source>
          <hrid>179824945</hrid>
-         <statusUpdatedDate>2006-07-26</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -69838,7 +69674,6 @@
       <instance>
          <source>hebis</source>
          <hrid>114551588</hrid>
-         <statusUpdatedDate>2003-10-30</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -69921,7 +69756,7 @@
                      <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -70238,7 +70073,6 @@
       <instance>
          <source>hebis</source>
          <hrid>114549915</hrid>
-         <statusUpdatedDate>2003-10-30</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -70321,7 +70155,7 @@
                      <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -70474,7 +70308,6 @@
       <instance>
          <source>hebis</source>
          <hrid>114550395</hrid>
-         <statusUpdatedDate>2003-10-30</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -70557,7 +70390,7 @@
                      <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -70796,7 +70629,7 @@
                      <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -70975,7 +70808,6 @@
       <instance>
          <source>hebis</source>
          <hrid>129615552</hrid>
-         <statusUpdatedDate>2019-08-13</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -71191,7 +71023,6 @@
       <instance>
          <source>hebis</source>
          <hrid>114550956</hrid>
-         <statusUpdatedDate>2003-10-30</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -71274,7 +71105,7 @@
                      <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -71427,7 +71258,6 @@
       <instance>
          <source>hebis</source>
          <hrid>105371572</hrid>
-         <statusUpdatedDate>2002-07-02</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -71755,7 +71585,6 @@
       <instance>
          <source>hebis</source>
          <hrid>114550794</hrid>
-         <statusUpdatedDate>2003-10-30</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -71838,7 +71667,7 @@
                      <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -71991,7 +71820,6 @@
       <instance>
          <source>hebis</source>
          <hrid>425130010</hrid>
-         <statusUpdatedDate>2018-01-23</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -72202,7 +72030,6 @@
       <instance>
          <source>hebis</source>
          <hrid>178584541</hrid>
-         <statusUpdatedDate>2006-06-06</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -72362,7 +72189,6 @@
       <instance>
          <source>hebis</source>
          <hrid>212094157</hrid>
-         <statusUpdatedDate>2009-05-08</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -72391,6 +72217,9 @@
          <alternativeTitles>
             <arr/>
          </alternativeTitles>
+         <contributors>
+            <arr/>
+         </contributors>
          <publication>
             <arr>
                <i>
@@ -72504,7 +72333,6 @@
       <instance>
          <source>hebis</source>
          <hrid>105198072</hrid>
-         <statusUpdatedDate>2002-06-19</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -72835,7 +72663,6 @@
       <instance>
          <source>hebis</source>
          <hrid>008906483</hrid>
-         <statusUpdatedDate>2015-10-09</statusUpdatedDate>
          <modeOfIssuanceId>068b5344-e2a6-40df-9186-1829e13cd344</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -72905,25 +72732,25 @@
                </i>
                <i>
                   <place>Wien ; Leipzig</place>
-                  <publisher>früher: Wilhelm Braumüller, K.K. Hof- und Universitätsbuchhändler (1906)</publisher>
+                  <publisher>Wilhelm Braumüller, K.K. Hof- und Universitätsbuchhändler (1906)</publisher>
                   <dateOfPublication>1903-</dateOfPublication>
                   <role>Publisher</role>
                </i>
                <i>
                   <place>Wien</place>
-                  <publisher>früher: Holzhausen (-1951)</publisher>
+                  <publisher>Holzhausen (-1951)</publisher>
                   <dateOfPublication>1903-</dateOfPublication>
                   <role>Publisher</role>
                </i>
                <i>
                   <place>Wien ; Köln ; Graz</place>
-                  <publisher>früher: Böhlau (-1982u.1984-1996)</publisher>
+                  <publisher>Böhlau (-1982u.1984-1996)</publisher>
                   <dateOfPublication>1903-</dateOfPublication>
                   <role>Publisher</role>
                </i>
                <i>
                   <place>Wien ; Köln</place>
-                  <publisher>früher: Böhlau (1990-1991)</publisher>
+                  <publisher>Böhlau (1990-1991)</publisher>
                   <dateOfPublication>1903-</dateOfPublication>
                   <role>Publisher</role>
                </i>
@@ -73150,7 +72977,7 @@
                      <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -73294,7 +73121,6 @@
       <instance>
          <source>hebis</source>
          <hrid>108696049</hrid>
-         <statusUpdatedDate>2020-02-13</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -73457,7 +73283,6 @@
       <instance>
          <source>hebis</source>
          <hrid>135076102</hrid>
-         <statusUpdatedDate>2006-01-06</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -73617,7 +73442,6 @@
       <instance>
          <source>hebis</source>
          <hrid>093304862</hrid>
-         <statusUpdatedDate>2000-08-29</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -73782,7 +73606,6 @@
       <instance>
          <source>hebis</source>
          <hrid>337502153</hrid>
-         <statusUpdatedDate>2014-03-06</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -73946,7 +73769,6 @@
       <instance>
          <source>hebis</source>
          <hrid>202120600</hrid>
-         <statusUpdatedDate>2008-07-15</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -74107,7 +73929,6 @@
       <instance>
          <source>hebis</source>
          <hrid>276206223</hrid>
-         <statusUpdatedDate>2011-09-28</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -74280,7 +74101,6 @@
       <instance>
          <source>hebis</source>
          <hrid>221782524</hrid>
-         <statusUpdatedDate>2010-03-18</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -74440,7 +74260,6 @@
       <instance>
          <source>hebis</source>
          <hrid>123543142</hrid>
-         <statusUpdatedDate>2017-08-02</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -74621,7 +74440,6 @@
       <instance>
          <source>hebis</source>
          <hrid>106810227</hrid>
-         <statusUpdatedDate>2002-08-29</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -74858,7 +74676,6 @@
       <instance>
          <source>hebis</source>
          <hrid>100449190</hrid>
-         <statusUpdatedDate>2001-10-02</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -75023,7 +74840,6 @@
       <instance>
          <source>hebis</source>
          <hrid>098139436</hrid>
-         <statusUpdatedDate>2001-04-20</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -75118,7 +74934,7 @@
                      <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -75207,7 +75023,6 @@
       <instance>
          <source>hebis</source>
          <hrid>118810715</hrid>
-         <statusUpdatedDate>2004-02-09</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -75290,7 +75105,7 @@
                      <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -75379,7 +75194,6 @@
       <instance>
          <source>hebis</source>
          <hrid>217202535</hrid>
-         <statusUpdatedDate>2011-02-16</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -75671,7 +75485,7 @@
                      <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
                      <source>hebis</source>
                   </provisionalInstance>
-                  <instanceRelationshipTypeId>a17daf0a-f057-43b3-9997-13d0724cdf51</instanceRelationshipTypeId>
+                  <instanceRelationshipTypeId/>
                </i>
             </arr>
          </parentInstances>
@@ -75760,7 +75574,6 @@
       <instance>
          <source>hebis</source>
          <hrid>220755078</hrid>
-         <statusUpdatedDate>2012-10-19</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -76082,7 +75895,6 @@
       <instance>
          <source>hebis</source>
          <hrid>23574946X</hrid>
-         <statusUpdatedDate>2011-04-15</statusUpdatedDate>
          <modeOfIssuanceId>f5cc2ab6-bb92-4cab-b83f-5a3d09261a41</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -76230,7 +76042,6 @@
       <instance>
          <source>hebis</source>
          <hrid>47555700X</hrid>
-         <statusUpdatedDate>2022-04-05</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
          <instanceFormatIds>
@@ -76270,7 +76081,7 @@
                </i>
                <i>
                   <value>ZDB-20-CBO</value>
-                  <identifierTypeId>2e8b3b6c-0e7d-4e48-bca2-b0b23b376af5</identifierTypeId>
+                  <identifierTypeId>6966e5f6-efaf-4378-86f1-7863ae1ecc6c</identifierTypeId>
                </i>
             </arr>
          </identifiers>
@@ -76428,7 +76239,6 @@
       <instance>
          <source>hebis</source>
          <hrid>10258253X</hrid>
-         <statusUpdatedDate>2020-01-03</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -76875,7 +76685,6 @@
       <instance>
          <source>hebis</source>
          <hrid>114549575</hrid>
-         <statusUpdatedDate>2017-08-10</statusUpdatedDate>
          <modeOfIssuanceId>f5cc2ab6-bb92-4cab-b83f-5a3d09261a41</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -77023,7 +76832,6 @@
       <instance>
          <source>hebis</source>
          <hrid>090475232</hrid>
-         <statusUpdatedDate>2002-01-29</statusUpdatedDate>
          <modeOfIssuanceId>f5cc2ab6-bb92-4cab-b83f-5a3d09261a41</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -77184,7 +76992,6 @@
       <instance>
          <source>hebis</source>
          <hrid>106810227</hrid>
-         <statusUpdatedDate>2002-08-29</statusUpdatedDate>
          <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -77421,7 +77228,6 @@
       <instance>
          <source>hebis</source>
          <hrid>093913974</hrid>
-         <statusUpdatedDate>2000-10-12</statusUpdatedDate>
          <modeOfIssuanceId>f5cc2ab6-bb92-4cab-b83f-5a3d09261a41</modeOfIssuanceId>
          <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
          <instanceFormatIds>
@@ -77463,7 +77269,7 @@
             <arr>
                <i>
                   <alternativeTitle>ÄGB</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
             </arr>
          </alternativeTitles>
@@ -77763,11 +77569,11 @@
             <arr>
                <i>
                   <alternativeTitle>Vollständiges Wörterbuch der deutschen und polnischen Sprache</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
                <i>
                   <alternativeTitle>Dokładny słownik jȩzyków polskiego i niemieckiego</alternativeTitle>
-                  <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+                  <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
                </i>
                <i>
                   <alternativeTitle>Handwörterbuch</alternativeTitle>
