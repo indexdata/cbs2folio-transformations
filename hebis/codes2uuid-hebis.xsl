@@ -122,29 +122,29 @@
     <alternativeTitleTypeId>
       <xsl:choose>
         <!-- Cover title -->
-        <xsl:when test=".='Umschlagtitel'">5c364ce4-c8fd-4891-a28d-bb91c9bcdbfb</xsl:when>
+        <xsl:when test=".='Umschlagtitel'"><xsl:text>5c364ce4-c8fd-4891-a28d-bb91c9bcdbfb</xsl:text></xsl:when>
         <!-- Running title -->
-        <xsl:when test=".='Kolumnentitel'">09964ad1-7aed-49b8-8223-a4c105e3ef87</xsl:when>
+        <xsl:when test=".='Kolumnentitel'"><xsl:text>09964ad1-7aed-49b8-8223-a4c105e3ef87</xsl:text></xsl:when>
         <!-- Caption title -->
-        <xsl:when test=".='Kopftitel'">432ca81a-fe4d-4249-bfd3-53388725647d</xsl:when>
+        <xsl:when test=".='Kopftitel'"><xsl:text>432ca81a-fe4d-4249-bfd3-53388725647d</xsl:text></xsl:when>
         <!-- Uniform title -->
-        <xsl:when test=".='Werktitel/Einheitssachtitel'">30512027-cdc9-4c79-af75-1565b3bd888d</xsl:when>
+        <xsl:when test=".='Werktitel/Einheitssachtitel'"><xsl:text>30512027-cdc9-4c79-af75-1565b3bd888d</xsl:text></xsl:when>
         <!-- Parallel title -->
-        <xsl:when test=".='Paralleltitel'">4bb300a4-04c9-414b-bfbc-9c032f74b7b2</xsl:when>
+        <xsl:when test=".='Paralleltitel'"><xsl:text>4bb300a4-04c9-414b-bfbc-9c032f74b7b2</xsl:text></xsl:when>
         <!-- Distinctive title -->
-        <xsl:when test=".='Spezifischer Titel'">781c04a4-f41e-4ab0-9118-6836e93de3c8</xsl:when>
+        <xsl:when test=".='Spezifischer Titel'"><xsl:text>781c04a4-f41e-4ab0-9118-6836e93de3c8</xsl:text></xsl:when>
         <!-- No type specified -->
-        <xsl:when test=".='Titeltyp nicht spezifiziert'">0fe58901-183e-4678-a3aa-0b4751174ba8</xsl:when>
+        <xsl:when test=".='Titeltyp nicht spezifiziert'"><xsl:text>0fe58901-183e-4678-a3aa-0b4751174ba8</xsl:text></xsl:when>
         <!-- Spine title -->
-        <xsl:when test=".='Rückentitel'">dae08d04-8c4e-4ab2-b6bb-99edbf252231</xsl:when>
+        <xsl:when test=".='Rückentitel'"><xsl:text>dae08d04-8c4e-4ab2-b6bb-99edbf252231</xsl:text></xsl:when>
         <!-- Added title page title -->
-        <xsl:when test=".='Titel von einer weiteren Titelseite'">2ca8538d-a2fd-4e60-b967-1cb220101e22</xsl:when>
+        <xsl:when test=".='Titel von einer weiteren Titelseite'"><xsl:text>2ca8538d-a2fd-4e60-b967-1cb220101e22</xsl:text></xsl:when>
         <!-- Portion of title -->
-        <xsl:when test=".='Teil des Titels'">a8b45056-2223-43ca-8514-4dd88ece984b</xsl:when>
+        <xsl:when test=".='Teil des Titels'"><xsl:text>a8b45056-2223-43ca-8514-4dd88ece984b</xsl:text></xsl:when>
         <!-- Other title -->
-        <xsl:when test=".='Sonstiger Titel'">2584943f-36ad-4037-a7fa-3bdebb09f452</xsl:when>
+        <xsl:when test=".='Sonstiger Titel'"><xsl:text>2584943f-36ad-4037-a7fa-3bdebb09f452</xsl:text></xsl:when>
         <!-- Abweichender Titel -->
-        <xsl:when test=".='Abweichender Titel'">79ea6d17-8247-4126-aab5-99fbd2ac6dda</xsl:when>
+        <xsl:when test=".='Abweichender Titel'"><xsl:text>79ea6d17-8247-4126-aab5-99fbd2ac6dda</xsl:text></xsl:when>
         <!-- Titeltyp nicht spezifiziert -->
         <xsl:otherwise>0fe58901-183e-4678-a3aa-0b4751174ba8</xsl:otherwise>
       </xsl:choose>
@@ -694,172 +694,172 @@
   <xsl:template match="natureOfContentTermIds/arr/i">
     <i>
       <xsl:choose>
-        <xsl:when test=".='Ausstellungskatalog'">b82b3a0d-00fa-4811-96da-04f531da8ea8</xsl:when>
-        <xsl:when test=".='Autobiografie'">04a6a8d2-f902-4774-b15f-d8bd885dc804</xsl:when>
-        <xsl:when test=".='Bibliografie'">f5908d05-b16a-49cf-b192-96d55a94a0d1</xsl:when>
-        <xsl:when test=".='Bildband'">631893b6-5d8a-4e1a-9e6b-5344e2945c74</xsl:when>
-        <xsl:when test=".='Biografie'">b6e214bd-82f5-467f-af5b-4592456dc4ab</xsl:when>
-        <xsl:when test=".='Comic'">acceb2d6-4f05-408f-9a88-a92de26441ce</xsl:when>
-        <xsl:when test=".='Festschrift'">b29d4dc1-f78b-48fe-b3e5-df6c37cdc58d</xsl:when>
-        <xsl:when test=".='Hochschulschrift'">94f6d06a-61e0-47c1-bbcb-6186989e6040</xsl:when>
-        <xsl:when test=".='Hörbuch'">96879b60-098b-453b-bf9a-c47866f1ab2a</xsl:when>
-        <xsl:when test=".='Konferenzschrift'">073f7f2f-9212-4395-b039-6f9825b11d54</xsl:when>
-        <xsl:when test=".='Monografische Reihe'">536da7c1-9c35-45df-8ea1-c3545448df92</xsl:when>
-        <xsl:when test=".='Schulbuch'">44cd89f3-2e76-469f-a955-cc57cb9e0395</xsl:when>
-        <xsl:when test=".='Website'">2fbc8a7b-b432-45df-ba37-46031b1f6545</xsl:when>
-        <xsl:when test=".='Zeitschrift'">0abeee3d-8ad2-4b04-92ff-221b4fce1075</xsl:when>
-        <xsl:when test=".='Zeitung'">ebbbdef1-00e1-428b-bc11-314dc0705074</xsl:when>
-        <xsl:when test=".='Adressbuch'">be3b8c89-93fe-4e92-b4e8-c4377ce5b474</xsl:when>
-        <xsl:when test=".='Altkarte'">046f525f-e55f-44ba-8482-1ef9c39706e1</xsl:when>
-        <xsl:when test=".='Amtliche Publikation'">7de7e987-e5c4-4302-bbc6-1ab1aed6d02d</xsl:when>
-        <xsl:when test=".='Anleitung'">eb9aa437-5c89-499e-8e8c-99ff1bcd5c71</xsl:when>
-        <xsl:when test=".='Anthologie'">deebea24-0eeb-4b1e-9bec-cd8639b09a2c</xsl:when>
-        <xsl:when test=".='Antiquariatskatalog'">928d8236-aa3a-46d8-a023-c1f90b7b04f5</xsl:when>
-        <xsl:when test=".='Anzeigenblatt'">c9c8a62e-2a04-4693-b4b6-b036a32cd391</xsl:when>
-        <xsl:when test=".='Atlas'">1fc3ab4f-21de-442f-b521-a93b9d38093d</xsl:when>
-        <xsl:when test=".='Aufgabensammlung'">7657057f-d960-45f4-87d3-585e317c440b</xsl:when>
-        <xsl:when test=".='Aufsatzsammlung'">7766744c-1ec7-48d6-abb9-dd823648c71e</xsl:when>
-        <xsl:when test=".='Auktionskatalog'">e986b80f-9ab1-49be-900f-02d1831d5ab7</xsl:when>
-        <xsl:when test=".='Autograf'">2aaff598-df0e-402f-a20c-432cbe61956d</xsl:when>
-        <xsl:when test=".='Backbuch'">83460946-76a3-4f90-9f9b-00902e9182c4</xsl:when>
-        <xsl:when test=".='Beispielsammlung'">1f45f6f8-3646-487a-a664-9370d18f2122</xsl:when>
-        <xsl:when test=".='Bericht'">71b43e3a-8cdd-4d22-9751-020f34fb6ef8</xsl:when>
-        <xsl:when test=".='Bestimmungsbuch'">6de95e6e-13a5-4314-ae18-fdfc34481fa8</xsl:when>
-        <xsl:when test=".='Bild'">6ca89a5f-53e4-4a6e-ba9e-05c3319ed198</xsl:when>
-        <xsl:when test=".='Bilderbogen'">6106d870-d587-4136-b63a-c9ae7c71d208</xsl:when>
-        <xsl:when test=".='Bilderbuch'">926fc409-a95f-4b7b-b7ea-86078c9572fe</xsl:when>
-        <xsl:when test=".='Bildnis'">06ad760f-a9e6-41d3-86fb-afb304f3b020</xsl:when>
-        <xsl:when test=".='Bildwörterbuch'">3a61e1c9-4cda-404a-91b4-a6ebd118c6ca</xsl:when>
-        <xsl:when test=".='Blindendruck'">eafd829e-5d97-40b1-9d54-5eb9445203b2</xsl:when>
-        <xsl:when test=".='Brief'">4eef98e9-57c1-401c-90ec-6808cee49cee</xsl:when>
-        <xsl:when test=".='Briefsammlung'">0ac4b27d-5575-4638-90d1-5d22079f5da3</xsl:when>
-        <xsl:when test=".='Checkliste'">adec9237-c1bf-4105-9af4-24fcad032de7</xsl:when>
-        <xsl:when test=".='Datenbank'">ee016802-2344-4779-8901-8f94e432c95a</xsl:when>
-        <xsl:when test=".='Datensammlung'">d810d631-8628-40e7-92bb-c9c2c601b499</xsl:when>
-        <xsl:when test=".='Diagramm'">0b9d9ff8-6d44-4729-ae4c-5f4d2ffc5165</xsl:when>
-        <xsl:when test=".='Diskografie'">62c5afff-fea8-4812-ac81-2dea23ca8742</xsl:when>
-        <xsl:when test=".='Drehbuch'">46c9cf33-e782-47b4-ad2d-1e8b1111904a</xsl:when>
-        <xsl:when test=".='Einblattdruck'">22891bd4-f6ce-41db-a7a3-cd4f2483b36b</xsl:when>
-        <xsl:when test=".='Einführung'">250b66e5-f4db-4cbb-9e3d-a2c9a694c909</xsl:when>
-        <xsl:when test=".='Entscheidungssammlung'">5137143b-08be-4b0d-b260-d2d9e6c96366</xsl:when>
-        <xsl:when test=".='Enzyklopädie'">26e98583-cf35-4b41-a6ea-6f2a264c7368</xsl:when>
-        <xsl:when test=".='Erlebnisbericht'">c0d52f31-aabb-4c55-bf81-fea7fdda94a4</xsl:when>
-        <xsl:when test=".='Fachkunde'">d4f047f9-236d-406b-9f80-759f36d53307</xsl:when>
-        <xsl:when test=".='Fahrplan'">b493f8ed-afa8-4594-a51c-5d91d7fff76a</xsl:when>
-        <xsl:when test=".='Faksimile'">9e56aa8d-2cc8-4a2e-a31d-676959ab1a4f</xsl:when>
-        <xsl:when test=".='Fallsammlung'">c0e1a410-173b-4095-a3a0-a5dbc2921973</xsl:when>
-        <xsl:when test=".='Fallstudiensammlung'">3c0b6823-37ab-44b8-8e24-081da639614a</xsl:when>
-        <xsl:when test=".='Fiktionale Darstellung'">76778eff-5641-4b35-a630-ebe0f9457317</xsl:when>
-        <xsl:when test=".='Film'">6dc73545-b18e-4681-b729-bf95d4ab5bf0</xsl:when>
-        <xsl:when test=".='Filmografie'">2d0c031e-e79f-40c4-9d85-36bac930aa01</xsl:when>
-        <xsl:when test=".='Flugblatt'">f13fd271-6d55-47f5-af4e-59c5a82d43b4</xsl:when>
-        <xsl:when test=".='Flugschrift'">c1534de8-e86c-411c-b7c3-dc4e53ce53eb</xsl:when>
-        <xsl:when test=".='Formelsammlung'">85567bf8-874a-49db-8e29-81e45176ecad</xsl:when>
-        <xsl:when test=".='Formularsammlung'">a559334b-cc0d-4f62-b484-3103c4f729f1</xsl:when>
-        <xsl:when test=".='Forschungsbericht'">4570a93e-ddb6-4200-8e8b-283c8f5c9bfa</xsl:when>
-        <xsl:when test=".='Forschungsdaten'">5c8ac65d-1ded-4383-8465-d647ab7fef31</xsl:when>
-        <xsl:when test=".='Fotografie'">f50440ca-0853-4aea-9857-a6d04832c379</xsl:when>
-        <xsl:when test=".='Führer'">b627e05d-a968-4269-935e-f9103e653d4f</xsl:when>
-        <xsl:when test=".='Fundstellenverzeichnis'">b9c39312-f988-45c0-8132-3d44f0fdd445</xsl:when>
-        <xsl:when test=".='Genealogische Tafel'">c63dd1de-1d6f-4e12-b8aa-6be13404d325</xsl:when>
-        <xsl:when test=".='Gespräch'">f9d113bd-e0a2-437c-8316-c1b0a2fc2a66</xsl:when>
-        <xsl:when test=".='Globus'">0342bfc3-53e1-41eb-96ee-8980e29f20b3</xsl:when>
-        <xsl:when test=".='Grafik'">a963838f-d1f0-48e0-9a48-b5a44442dce8</xsl:when>
-        <xsl:when test=".='Graphzine'">74ae4790-38bd-4ce6-bc73-d5cbe0f49ea3</xsl:when>
-        <xsl:when test=".='Handschrift'">de934b9d-4382-4a48-aeca-8ed24598e012</xsl:when>
-        <xsl:when test=".='Haushaltsplan'">8adf1c74-7d09-4b00-8159-bdd6fc1ac264</xsl:when>
-        <xsl:when test=".='Hörspiel'">be95066d-4342-44c6-91b6-31559bbe5b29</xsl:when>
-        <xsl:when test=".='Humoristische Darstellung'">5e075c73-76c3-407d-8367-01f22278c3e5</xsl:when>
-        <xsl:when test=".='Inkunabel'">c92d2e28-3444-4bb3-9da0-ddba560b652e</xsl:when>
-        <xsl:when test=".='Interview'">afeb9dcb-5e63-4013-862f-adc08bb7d88a</xsl:when>
-        <xsl:when test=".='Inventar'">0a530f13-465f-44bd-92a6-19247ec2b9d0</xsl:when>
-        <xsl:when test=".='Jugendbuch'">1ef59947-2244-4a13-a824-9bef6cfac317</xsl:when>
-        <xsl:when test=".='Jugendsachbuch'">c972d5b6-affc-4b49-ac2f-e1417f62aa33</xsl:when>
-        <xsl:when test=".='Kalender'">591c7745-8013-4475-86d1-f26b31f771cb</xsl:when>
-        <xsl:when test=".='Karikatur'">95795710-0933-408c-bbf7-3fc947dc0dac</xsl:when>
-        <xsl:when test=".='Karte'">e437177b-5656-4027-87fb-15b80f7ae00e</xsl:when>
-        <xsl:when test=".='Katalog'">9250535a-348e-4d28-9ae3-136c6c797172</xsl:when>
-        <xsl:when test=".='Kinderbuch'">7c543859-a312-411a-b6f4-eaf62f7bfd75</xsl:when>
-        <xsl:when test=".='Kindersachbuch'">931d63ff-2a7c-4be0-84f2-28f67a64e508</xsl:when>
-        <xsl:when test=".='Kochbuch'">9eb08843-acd2-466c-beac-2912b58c37ed</xsl:when>
-        <xsl:when test=".='Kolumnensammlung'">86c64437-1d04-4fb4-b391-0116ea8fc476</xsl:when>
-        <xsl:when test=".='Kommentar'">7434eb7e-1bea-456e-82eb-57f6625bd122</xsl:when>
-        <xsl:when test=".='Konkordanz'">7e926824-b9bc-4b41-a374-0cd19bca35ae</xsl:when>
-        <xsl:when test=".='Kunstführer'">b9bec2ba-6b00-46f6-bbec-df3bbeaf1065</xsl:when>
-        <xsl:when test=".='Künstlerbuch'">752e7245-0ccb-4bd4-a728-c474e6cd5eea</xsl:when>
-        <xsl:when test=".='Laudatio'">426499e0-a758-434c-a734-d2aa76d38197</xsl:when>
-        <xsl:when test=".='Lehrbuch'">b940e0c5-4caa-4197-a214-ca8ddd6f5666</xsl:when>
-        <xsl:when test=".='Lehrerhandbuch'">8d1c4fb4-b006-49d0-8e40-a2e08f1ea619</xsl:when>
-        <xsl:when test=".='Lehrmittel'">176321da-6b23-48f5-b992-b25da1762061</xsl:when>
-        <xsl:when test=".='Lehrplan'">f0ca549e-25fe-4395-82da-f7de77108b55</xsl:when>
-        <xsl:when test=".='Lernsoftware'">f9708b8d-c0c3-4c3e-b1d0-2dfb26065609</xsl:when>
-        <xsl:when test=".='Lesebuch'">8b946df0-b673-4306-ae0d-0e0fab472bfb</xsl:when>
-        <xsl:when test=".='Liederbuch'">a8935409-8601-492e-bb85-0ec6498726ed</xsl:when>
-        <xsl:when test=".='Literaturbericht'">31572023-f4c9-4cf3-80a2-0543c9eda884</xsl:when>
-        <xsl:when test=".='Loseblattsammlung'">a26421f0-7138-496f-938d-7f2bba64144b</xsl:when>
-        <xsl:when test=".='Mehrsprachiges Wörterbuch'">11fe0ed8-e5f3-4af0-924c-99b2092ae270</xsl:when>
-        <xsl:when test=".='Mitgliederverzeichnis'">4de743d8-b943-4dc2-a51b-b89dbebc8722</xsl:when>
-        <xsl:when test=".='Modell'">765b2f6b-31de-45b6-b017-864bb4f02a9a</xsl:when>
-        <xsl:when test=".='Musikhandschrift'">dd2ab33c-5345-46f5-83cd-df948dfa9649</xsl:when>
-        <xsl:when test=".='Nachruf'">c68cbdfe-918e-454f-bb2a-bd18c52848eb</xsl:when>
-        <xsl:when test=".='Norm'">5ce7e9f6-dd50-403a-a956-ec2efe590634</xsl:when>
-        <xsl:when test=".='Ortsverzeichnis'">3f846131-2d10-40e2-9599-a72bde56110f</xsl:when>
-        <xsl:when test=".='Papyrus'">72e117fc-28d2-442c-8978-4d9f2bd47a1e</xsl:when>
-        <xsl:when test=".='Patentschrift'">5f7974b5-9011-4b67-9468-a6d1a5b581e2</xsl:when>
-        <xsl:when test=".='Plakat'">438c4de1-e1c6-409a-9cf7-ce9ba54aba97</xsl:when>
-        <xsl:when test=".='Plan'">41e647c6-7549-48bf-b44e-2df8399101b3</xsl:when>
-        <xsl:when test=".='Podcast'">e78f29eb-2e6d-48a4-9177-6d14cf9ed11d</xsl:when>
-        <xsl:when test=".='Postkarte'">286ecd88-2796-4af2-a611-e68f934e8391</xsl:when>
-        <xsl:when test=".='Praktikum'">a2de79af-7816-4aa0-8bb8-5b1bf5b2b170</xsl:when>
-        <xsl:when test=".='Predigthilfe'">ce3d93b8-898b-4583-a279-6ab4bd946f72</xsl:when>
-        <xsl:when test=".='Pressendruck'">2bf1cc39-c635-44d8-bcd1-8e53889b1ab9</xsl:when>
-        <xsl:when test=".='Pressestimme'">f978b2f7-9cf2-4756-bc4f-80f9fae93311</xsl:when>
-        <xsl:when test=".='Programmheft'">8b9af06e-6169-446e-9ef2-1524d779ba81</xsl:when>
-        <xsl:when test=".='Puzzle'">d5bf4b5a-6f25-42ff-9de5-807fc4fc9f88</xsl:when>
-        <xsl:when test=".='Quelle'">7a718575-d5b3-4e91-974a-4ab61dd34367</xsl:when>
-        <xsl:when test=".='Ratgeber'">28b9ea19-48f5-4481-ad86-17f968db740c</xsl:when>
-        <xsl:when test=".='Rede'">0a809a24-b486-4ae3-a212-bd5bf64993f7</xsl:when>
-        <xsl:when test=".='Referateorgan'">367dbc86-89d9-45d4-a3c8-cc0072727011</xsl:when>
-        <xsl:when test=".='Regest'">ae187a86-ae7b-46a0-8042-d431faa073c9</xsl:when>
-        <xsl:when test=".='Reisebericht'">9419a20e-6c8f-4ae1-85a7-8c184a1f4762</xsl:when>
-        <xsl:when test=".='Reportagensammlung'">98f15f24-d372-4377-b305-2f998a486372</xsl:when>
-        <xsl:when test=".='Rezension'">8b6d17b3-9c33-4c61-9581-5ce24f1e9043</xsl:when>
-        <xsl:when test=".='Richtlinie'">5d4b3eb3-2707-4857-b000-cdd10a85098e</xsl:when>
-        <xsl:when test=".='Röntgenbild'">f00b6d1d-2a80-4f66-9371-66dbb7793542</xsl:when>
-        <xsl:when test=".='Rückläufiges Wörterbuch'">47b3f15a-894a-4098-99f0-f6f78a3cc3eb</xsl:when>
-        <xsl:when test=".='Sachbilderbuch'">04c8e884-9d2c-4f30-b30e-0a2920c73e36</xsl:when>
-        <xsl:when test=".='Satzung'">dacb1c74-b65d-4176-b8dd-fb1aa536719e</xsl:when>
-        <xsl:when test=".='Schematismus'">53e59662-f535-4783-a3b5-649225518d6d</xsl:when>
-        <xsl:when test=".='Schulprogramm'">85657646-6b6f-4e71-b54c-d47f3b95a5ed</xsl:when>
-        <xsl:when test=".='Software'">d506f599-ff59-4d0d-8f20-5359e4e01f48</xsl:when>
-        <xsl:when test=".='Spiel'">c2ceac3c-2f1c-4657-b84f-a1bb4915025f</xsl:when>
-        <xsl:when test=".='Sprachatlas'">4d2f3df4-ad09-41aa-bf74-0a2bbb67dfff</xsl:when>
-        <xsl:when test=".='Sprachführer'">9730e60d-94f1-4130-aea0-95be3fed8157</xsl:when>
-        <xsl:when test=".='Stadtplan'">56a2b5f2-9bdf-4114-bada-c1cb1c0763ba</xsl:when>
-        <xsl:when test=".='Statistik'">b56cfee4-e602-4740-ae2c-b4802763e998</xsl:when>
-        <xsl:when test=".='Tabelle'">a0fb9bee-55df-436c-96ed-4d98997b85d1</xsl:when>
-        <xsl:when test=".='Tafel'">b86be70b-e5be-4959-ae36-01e05459ce8b</xsl:when>
-        <xsl:when test=".='Tagebuch'">cbd7205e-621a-4cc1-9c37-8d78d321c43c</xsl:when>
-        <xsl:when test=".='Technische Zeichnung'">eedd5683-b8ad-4016-a525-d9044abfbd8b</xsl:when>
-        <xsl:when test=".='Telefonbuch'">e1d95ebb-a274-46fc-98ed-6cb9318cace3</xsl:when>
-        <xsl:when test=".='Testmaterial'">7e469bcb-d4f1-4a43-ba9c-957fcc9d904c</xsl:when>
-        <xsl:when test=".='Theaterstück'">04e878fb-76a6-4196-aa01-8a5b31270ad6</xsl:when>
-        <xsl:when test=".='Thesaurus'">706f80d2-5ebe-499c-ab33-de0c9f6b7a03</xsl:when>
-        <xsl:when test=".='Übungssammlung'">9d027e90-4585-416e-8ec1-24107665a533</xsl:when>
-        <xsl:when test=".='Umfrage'">9554d351-bbe9-418b-ba45-fc2fcadc6787</xsl:when>
-        <xsl:when test=".='Unterrichtseinheit'">ddf18bbb-f443-4293-bba1-deb50d361323</xsl:when>
-        <xsl:when test=".='Urkunde'">b1f81304-18f8-44aa-9861-fee08674355c</xsl:when>
-        <xsl:when test=".='Verkaufskatalog'">68a7b19d-222e-4b8e-ac0f-35451c2b17fa</xsl:when>
-        <xsl:when test=".='Verzeichnis'">bba7b7ae-e3f0-4bd9-b490-728e6b9c44f5</xsl:when>
-        <xsl:when test=".='Vorlesungsverzeichnis'">c3bb3529-f3a6-41bf-b552-7e055b94cf13</xsl:when>
-        <xsl:when test=".='Weblog'">c85d3e92-a182-41b6-a4fc-6091061e7f23</xsl:when>
-        <xsl:when test=".='Weltkarte'">1ba6f9f9-ad22-49eb-ac5e-c3d20bf08728</xsl:when>
-        <xsl:when test=".='Werkverzeichnis'">3af8983e-309c-4c24-8a10-a9a9cd37ab56</xsl:when>
-        <xsl:when test=".='Werkzeitschrift'">5eb0568a-962f-40a2-a53e-5d5d94b4f488</xsl:when>
-        <xsl:when test=".='Wörterbuch'">2cc014ec-4ae2-4bdf-ac1b-65889482332a</xsl:when>
-        <xsl:when test=".='Zeichnung'">c9abd8ad-79c2-4012-92a2-ea042e796fad</xsl:when>
-        <xsl:when test=".='Zeittafel'">d1371500-3f65-43e7-855f-2b385a50a7fd</xsl:when>
-        <xsl:when test=".='Zitatensammlung'">f31cdb4a-8c7d-442b-a3a1-7351a2f00b3c</xsl:when>
+        <xsl:when test=".='Ausstellungskatalog'"><xsl:text>b82b3a0d-00fa-4811-96da-04f531da8ea8</xsl:text></xsl:when>
+        <xsl:when test=".='Autobiografie'"><xsl:text>04a6a8d2-f902-4774-b15f-d8bd885dc804</xsl:text></xsl:when>
+        <xsl:when test=".='Bibliografie'"><xsl:text>f5908d05-b16a-49cf-b192-96d55a94a0d1</xsl:text></xsl:when>
+        <xsl:when test=".='Bildband'"><xsl:text>631893b6-5d8a-4e1a-9e6b-5344e2945c74</xsl:text></xsl:when>
+        <xsl:when test=".='Biografie'"><xsl:text>b6e214bd-82f5-467f-af5b-4592456dc4ab</xsl:text></xsl:when>
+        <xsl:when test=".='Comic'"><xsl:text>acceb2d6-4f05-408f-9a88-a92de26441ce</xsl:text></xsl:when>
+        <xsl:when test=".='Festschrift'"><xsl:text>b29d4dc1-f78b-48fe-b3e5-df6c37cdc58d</xsl:text></xsl:when>
+        <xsl:when test=".='Hochschulschrift'"><xsl:text>94f6d06a-61e0-47c1-bbcb-6186989e6040</xsl:text></xsl:when>
+        <xsl:when test=".='Hörbuch'"><xsl:text>96879b60-098b-453b-bf9a-c47866f1ab2a</xsl:text></xsl:when>
+        <xsl:when test=".='Konferenzschrift'"><xsl:text>073f7f2f-9212-4395-b039-6f9825b11d54</xsl:text></xsl:when>
+        <xsl:when test=".='Monografische Reihe'"><xsl:text>536da7c1-9c35-45df-8ea1-c3545448df92</xsl:text></xsl:when>
+        <xsl:when test=".='Schulbuch'"><xsl:text>44cd89f3-2e76-469f-a955-cc57cb9e0395</xsl:text></xsl:when>
+        <xsl:when test=".='Website'"><xsl:text>2fbc8a7b-b432-45df-ba37-46031b1f6545</xsl:text></xsl:when>
+        <xsl:when test=".='Zeitschrift'"><xsl:text>0abeee3d-8ad2-4b04-92ff-221b4fce1075</xsl:text></xsl:when>
+        <xsl:when test=".='Zeitung'"><xsl:text>ebbbdef1-00e1-428b-bc11-314dc0705074</xsl:text></xsl:when>
+        <xsl:when test=".='Adressbuch'"><xsl:text>be3b8c89-93fe-4e92-b4e8-c4377ce5b474</xsl:text></xsl:when>
+        <xsl:when test=".='Altkarte'"><xsl:text>046f525f-e55f-44ba-8482-1ef9c39706e1</xsl:text></xsl:when>
+        <xsl:when test=".='Amtliche Publikation'"><xsl:text>7de7e987-e5c4-4302-bbc6-1ab1aed6d02d</xsl:text></xsl:when>
+        <xsl:when test=".='Anleitung'"><xsl:text>eb9aa437-5c89-499e-8e8c-99ff1bcd5c71</xsl:text></xsl:when>
+        <xsl:when test=".='Anthologie'"><xsl:text>deebea24-0eeb-4b1e-9bec-cd8639b09a2c</xsl:text></xsl:when>
+        <xsl:when test=".='Antiquariatskatalog'"><xsl:text>928d8236-aa3a-46d8-a023-c1f90b7b04f5</xsl:text></xsl:when>
+        <xsl:when test=".='Anzeigenblatt'"><xsl:text>c9c8a62e-2a04-4693-b4b6-b036a32cd391</xsl:text></xsl:when>
+        <xsl:when test=".='Atlas'"><xsl:text>1fc3ab4f-21de-442f-b521-a93b9d38093d</xsl:text></xsl:when>
+        <xsl:when test=".='Aufgabensammlung'"><xsl:text>7657057f-d960-45f4-87d3-585e317c440b</xsl:text></xsl:when>
+        <xsl:when test=".='Aufsatzsammlung'"><xsl:text>7766744c-1ec7-48d6-abb9-dd823648c71e</xsl:text></xsl:when>
+        <xsl:when test=".='Auktionskatalog'"><xsl:text>e986b80f-9ab1-49be-900f-02d1831d5ab7</xsl:text></xsl:when>
+        <xsl:when test=".='Autograf'"><xsl:text>2aaff598-df0e-402f-a20c-432cbe61956d</xsl:text></xsl:when>
+        <xsl:when test=".='Backbuch'"><xsl:text>83460946-76a3-4f90-9f9b-00902e9182c4</xsl:text></xsl:when>
+        <xsl:when test=".='Beispielsammlung'"><xsl:text>1f45f6f8-3646-487a-a664-9370d18f2122</xsl:text></xsl:when>
+        <xsl:when test=".='Bericht'"><xsl:text>71b43e3a-8cdd-4d22-9751-020f34fb6ef8</xsl:text></xsl:when>
+        <xsl:when test=".='Bestimmungsbuch'"><xsl:text>6de95e6e-13a5-4314-ae18-fdfc34481fa8</xsl:text></xsl:when>
+        <xsl:when test=".='Bild'"><xsl:text>6ca89a5f-53e4-4a6e-ba9e-05c3319ed198</xsl:text></xsl:when>
+        <xsl:when test=".='Bilderbogen'"><xsl:text>6106d870-d587-4136-b63a-c9ae7c71d208</xsl:text></xsl:when>
+        <xsl:when test=".='Bilderbuch'"><xsl:text>926fc409-a95f-4b7b-b7ea-86078c9572fe</xsl:text></xsl:when>
+        <xsl:when test=".='Bildnis'"><xsl:text>06ad760f-a9e6-41d3-86fb-afb304f3b020</xsl:text></xsl:when>
+        <xsl:when test=".='Bildwörterbuch'"><xsl:text>3a61e1c9-4cda-404a-91b4-a6ebd118c6ca</xsl:text></xsl:when>
+        <xsl:when test=".='Blindendruck'"><xsl:text>eafd829e-5d97-40b1-9d54-5eb9445203b2</xsl:text></xsl:when>
+        <xsl:when test=".='Brief'"><xsl:text>4eef98e9-57c1-401c-90ec-6808cee49cee</xsl:text></xsl:when>
+        <xsl:when test=".='Briefsammlung'"><xsl:text>0ac4b27d-5575-4638-90d1-5d22079f5da3</xsl:text></xsl:when>
+        <xsl:when test=".='Checkliste'"><xsl:text>adec9237-c1bf-4105-9af4-24fcad032de7</xsl:text></xsl:when>
+        <xsl:when test=".='Datenbank'"><xsl:text>ee016802-2344-4779-8901-8f94e432c95a</xsl:text></xsl:when>
+        <xsl:when test=".='Datensammlung'"><xsl:text>d810d631-8628-40e7-92bb-c9c2c601b499</xsl:text></xsl:when>
+        <xsl:when test=".='Diagramm'"><xsl:text>0b9d9ff8-6d44-4729-ae4c-5f4d2ffc5165</xsl:text></xsl:when>
+        <xsl:when test=".='Diskografie'"><xsl:text>62c5afff-fea8-4812-ac81-2dea23ca8742</xsl:text></xsl:when>
+        <xsl:when test=".='Drehbuch'"><xsl:text>46c9cf33-e782-47b4-ad2d-1e8b1111904a</xsl:text></xsl:when>
+        <xsl:when test=".='Einblattdruck'"><xsl:text>22891bd4-f6ce-41db-a7a3-cd4f2483b36b</xsl:text></xsl:when>
+        <xsl:when test=".='Einführung'"><xsl:text>250b66e5-f4db-4cbb-9e3d-a2c9a694c909</xsl:text></xsl:when>
+        <xsl:when test=".='Entscheidungssammlung'"><xsl:text>5137143b-08be-4b0d-b260-d2d9e6c96366</xsl:text></xsl:when>
+        <xsl:when test=".='Enzyklopädie'"><xsl:text>26e98583-cf35-4b41-a6ea-6f2a264c7368</xsl:text></xsl:when>
+        <xsl:when test=".='Erlebnisbericht'"><xsl:text>c0d52f31-aabb-4c55-bf81-fea7fdda94a4</xsl:text></xsl:when>
+        <xsl:when test=".='Fachkunde'"><xsl:text>d4f047f9-236d-406b-9f80-759f36d53307</xsl:text></xsl:when>
+        <xsl:when test=".='Fahrplan'"><xsl:text>b493f8ed-afa8-4594-a51c-5d91d7fff76a</xsl:text></xsl:when>
+        <xsl:when test=".='Faksimile'"><xsl:text>9e56aa8d-2cc8-4a2e-a31d-676959ab1a4f</xsl:text></xsl:when>
+        <xsl:when test=".='Fallsammlung'"><xsl:text>c0e1a410-173b-4095-a3a0-a5dbc2921973</xsl:text></xsl:when>
+        <xsl:when test=".='Fallstudiensammlung'"><xsl:text>3c0b6823-37ab-44b8-8e24-081da639614a</xsl:text></xsl:when>
+        <xsl:when test=".='Fiktionale Darstellung'"><xsl:text>76778eff-5641-4b35-a630-ebe0f9457317</xsl:text></xsl:when>
+        <xsl:when test=".='Film'"><xsl:text>6dc73545-b18e-4681-b729-bf95d4ab5bf0</xsl:text></xsl:when>
+        <xsl:when test=".='Filmografie'"><xsl:text>2d0c031e-e79f-40c4-9d85-36bac930aa01</xsl:text></xsl:when>
+        <xsl:when test=".='Flugblatt'"><xsl:text>f13fd271-6d55-47f5-af4e-59c5a82d43b4</xsl:text></xsl:when>
+        <xsl:when test=".='Flugschrift'"><xsl:text>c1534de8-e86c-411c-b7c3-dc4e53ce53eb</xsl:text></xsl:when>
+        <xsl:when test=".='Formelsammlung'"><xsl:text>85567bf8-874a-49db-8e29-81e45176ecad</xsl:text></xsl:when>
+        <xsl:when test=".='Formularsammlung'"><xsl:text>a559334b-cc0d-4f62-b484-3103c4f729f1</xsl:text></xsl:when>
+        <xsl:when test=".='Forschungsbericht'"><xsl:text>4570a93e-ddb6-4200-8e8b-283c8f5c9bfa</xsl:text></xsl:when>
+        <xsl:when test=".='Forschungsdaten'"><xsl:text>5c8ac65d-1ded-4383-8465-d647ab7fef31</xsl:text></xsl:when>
+        <xsl:when test=".='Fotografie'"><xsl:text>f50440ca-0853-4aea-9857-a6d04832c379</xsl:text></xsl:when>
+        <xsl:when test=".='Führer'"><xsl:text>b627e05d-a968-4269-935e-f9103e653d4f</xsl:text></xsl:when>
+        <xsl:when test=".='Fundstellenverzeichnis'"><xsl:text>b9c39312-f988-45c0-8132-3d44f0fdd445</xsl:text></xsl:when>
+        <xsl:when test=".='Genealogische Tafel'"><xsl:text>c63dd1de-1d6f-4e12-b8aa-6be13404d325</xsl:text></xsl:when>
+        <xsl:when test=".='Gespräch'"><xsl:text>f9d113bd-e0a2-437c-8316-c1b0a2fc2a66</xsl:text></xsl:when>
+        <xsl:when test=".='Globus'"><xsl:text>0342bfc3-53e1-41eb-96ee-8980e29f20b3</xsl:text></xsl:when>
+        <xsl:when test=".='Grafik'"><xsl:text>a963838f-d1f0-48e0-9a48-b5a44442dce8</xsl:text></xsl:when>
+        <xsl:when test=".='Graphzine'"><xsl:text>74ae4790-38bd-4ce6-bc73-d5cbe0f49ea3</xsl:text></xsl:when>
+        <xsl:when test=".='Handschrift'"><xsl:text>de934b9d-4382-4a48-aeca-8ed24598e012</xsl:text></xsl:when>
+        <xsl:when test=".='Haushaltsplan'"><xsl:text>8adf1c74-7d09-4b00-8159-bdd6fc1ac264</xsl:text></xsl:when>
+        <xsl:when test=".='Hörspiel'"><xsl:text>be95066d-4342-44c6-91b6-31559bbe5b29</xsl:text></xsl:when>
+        <xsl:when test=".='Humoristische Darstellung'"><xsl:text>5e075c73-76c3-407d-8367-01f22278c3e5</xsl:text></xsl:when>
+        <xsl:when test=".='Inkunabel'"><xsl:text>c92d2e28-3444-4bb3-9da0-ddba560b652e</xsl:text></xsl:when>
+        <xsl:when test=".='Interview'"><xsl:text>afeb9dcb-5e63-4013-862f-adc08bb7d88a</xsl:text></xsl:when>
+        <xsl:when test=".='Inventar'"><xsl:text>0a530f13-465f-44bd-92a6-19247ec2b9d0</xsl:text></xsl:when>
+        <xsl:when test=".='Jugendbuch'"><xsl:text>1ef59947-2244-4a13-a824-9bef6cfac317</xsl:text></xsl:when>
+        <xsl:when test=".='Jugendsachbuch'"><xsl:text>c972d5b6-affc-4b49-ac2f-e1417f62aa33</xsl:text></xsl:when>
+        <xsl:when test=".='Kalender'"><xsl:text>591c7745-8013-4475-86d1-f26b31f771cb</xsl:text></xsl:when>
+        <xsl:when test=".='Karikatur'"><xsl:text>95795710-0933-408c-bbf7-3fc947dc0dac</xsl:text></xsl:when>
+        <xsl:when test=".='Karte'"><xsl:text>e437177b-5656-4027-87fb-15b80f7ae00e</xsl:text></xsl:when>
+        <xsl:when test=".='Katalog'"><xsl:text>9250535a-348e-4d28-9ae3-136c6c797172</xsl:text></xsl:when>
+        <xsl:when test=".='Kinderbuch'"><xsl:text>7c543859-a312-411a-b6f4-eaf62f7bfd75</xsl:text></xsl:when>
+        <xsl:when test=".='Kindersachbuch'"><xsl:text>931d63ff-2a7c-4be0-84f2-28f67a64e508</xsl:text></xsl:when>
+        <xsl:when test=".='Kochbuch'"><xsl:text>9eb08843-acd2-466c-beac-2912b58c37ed</xsl:text></xsl:when>
+        <xsl:when test=".='Kolumnensammlung'"><xsl:text>86c64437-1d04-4fb4-b391-0116ea8fc476</xsl:text></xsl:when>
+        <xsl:when test=".='Kommentar'"><xsl:text>7434eb7e-1bea-456e-82eb-57f6625bd122</xsl:text></xsl:when>
+        <xsl:when test=".='Konkordanz'"><xsl:text>7e926824-b9bc-4b41-a374-0cd19bca35ae</xsl:text></xsl:when>
+        <xsl:when test=".='Kunstführer'"><xsl:text>b9bec2ba-6b00-46f6-bbec-df3bbeaf1065</xsl:text></xsl:when>
+        <xsl:when test=".='Künstlerbuch'"><xsl:text>752e7245-0ccb-4bd4-a728-c474e6cd5eea</xsl:text></xsl:when>
+        <xsl:when test=".='Laudatio'"><xsl:text>426499e0-a758-434c-a734-d2aa76d38197</xsl:text></xsl:when>
+        <xsl:when test=".='Lehrbuch'"><xsl:text>b940e0c5-4caa-4197-a214-ca8ddd6f5666</xsl:text></xsl:when>
+        <xsl:when test=".='Lehrerhandbuch'"><xsl:text>8d1c4fb4-b006-49d0-8e40-a2e08f1ea619</xsl:text></xsl:when>
+        <xsl:when test=".='Lehrmittel'"><xsl:text>176321da-6b23-48f5-b992-b25da1762061</xsl:text></xsl:when>
+        <xsl:when test=".='Lehrplan'"><xsl:text>f0ca549e-25fe-4395-82da-f7de77108b55</xsl:text></xsl:when>
+        <xsl:when test=".='Lernsoftware'"><xsl:text>f9708b8d-c0c3-4c3e-b1d0-2dfb26065609</xsl:text></xsl:when>
+        <xsl:when test=".='Lesebuch'"><xsl:text>8b946df0-b673-4306-ae0d-0e0fab472bfb</xsl:text></xsl:when>
+        <xsl:when test=".='Liederbuch'"><xsl:text>a8935409-8601-492e-bb85-0ec6498726ed</xsl:text></xsl:when>
+        <xsl:when test=".='Literaturbericht'"><xsl:text>31572023-f4c9-4cf3-80a2-0543c9eda884</xsl:text></xsl:when>
+        <xsl:when test=".='Loseblattsammlung'"><xsl:text>a26421f0-7138-496f-938d-7f2bba64144b</xsl:text></xsl:when>
+        <xsl:when test=".='Mehrsprachiges Wörterbuch'"><xsl:text>11fe0ed8-e5f3-4af0-924c-99b2092ae270</xsl:text></xsl:when>
+        <xsl:when test=".='Mitgliederverzeichnis'"><xsl:text>4de743d8-b943-4dc2-a51b-b89dbebc8722</xsl:text></xsl:when>
+        <xsl:when test=".='Modell'"><xsl:text>765b2f6b-31de-45b6-b017-864bb4f02a9a</xsl:text></xsl:when>
+        <xsl:when test=".='Musikhandschrift'"><xsl:text>dd2ab33c-5345-46f5-83cd-df948dfa9649</xsl:text></xsl:when>
+        <xsl:when test=".='Nachruf'"><xsl:text>c68cbdfe-918e-454f-bb2a-bd18c52848eb</xsl:text></xsl:when>
+        <xsl:when test=".='Norm'"><xsl:text>5ce7e9f6-dd50-403a-a956-ec2efe590634</xsl:text></xsl:when>
+        <xsl:when test=".='Ortsverzeichnis'"><xsl:text>3f846131-2d10-40e2-9599-a72bde56110f</xsl:text></xsl:when>
+        <xsl:when test=".='Papyrus'"><xsl:text>72e117fc-28d2-442c-8978-4d9f2bd47a1e</xsl:text></xsl:when>
+        <xsl:when test=".='Patentschrift'"><xsl:text>5f7974b5-9011-4b67-9468-a6d1a5b581e2</xsl:text></xsl:when>
+        <xsl:when test=".='Plakat'"><xsl:text>438c4de1-e1c6-409a-9cf7-ce9ba54aba97</xsl:text></xsl:when>
+        <xsl:when test=".='Plan'"><xsl:text>41e647c6-7549-48bf-b44e-2df8399101b3</xsl:text></xsl:when>
+        <xsl:when test=".='Podcast'"><xsl:text>e78f29eb-2e6d-48a4-9177-6d14cf9ed11d</xsl:text></xsl:when>
+        <xsl:when test=".='Postkarte'"><xsl:text>286ecd88-2796-4af2-a611-e68f934e8391</xsl:text></xsl:when>
+        <xsl:when test=".='Praktikum'"><xsl:text>a2de79af-7816-4aa0-8bb8-5b1bf5b2b170</xsl:text></xsl:when>
+        <xsl:when test=".='Predigthilfe'"><xsl:text>ce3d93b8-898b-4583-a279-6ab4bd946f72</xsl:text></xsl:when>
+        <xsl:when test=".='Pressendruck'"><xsl:text>2bf1cc39-c635-44d8-bcd1-8e53889b1ab9</xsl:text></xsl:when>
+        <xsl:when test=".='Pressestimme'"><xsl:text>f978b2f7-9cf2-4756-bc4f-80f9fae93311</xsl:text></xsl:when>
+        <xsl:when test=".='Programmheft'"><xsl:text>8b9af06e-6169-446e-9ef2-1524d779ba81</xsl:text></xsl:when>
+        <xsl:when test=".='Puzzle'"><xsl:text>d5bf4b5a-6f25-42ff-9de5-807fc4fc9f88</xsl:text></xsl:when>
+        <xsl:when test=".='Quelle'"><xsl:text>7a718575-d5b3-4e91-974a-4ab61dd34367</xsl:text></xsl:when>
+        <xsl:when test=".='Ratgeber'"><xsl:text>28b9ea19-48f5-4481-ad86-17f968db740c</xsl:text></xsl:when>
+        <xsl:when test=".='Rede'"><xsl:text>0a809a24-b486-4ae3-a212-bd5bf64993f7</xsl:text></xsl:when>
+        <xsl:when test=".='Referateorgan'"><xsl:text>367dbc86-89d9-45d4-a3c8-cc0072727011</xsl:text></xsl:when>
+        <xsl:when test=".='Regest'"><xsl:text>ae187a86-ae7b-46a0-8042-d431faa073c9</xsl:text></xsl:when>
+        <xsl:when test=".='Reisebericht'"><xsl:text>9419a20e-6c8f-4ae1-85a7-8c184a1f4762</xsl:text></xsl:when>
+        <xsl:when test=".='Reportagensammlung'"><xsl:text>98f15f24-d372-4377-b305-2f998a486372</xsl:text></xsl:when>
+        <xsl:when test=".='Rezension'"><xsl:text>8b6d17b3-9c33-4c61-9581-5ce24f1e9043</xsl:text></xsl:when>
+        <xsl:when test=".='Richtlinie'"><xsl:text>5d4b3eb3-2707-4857-b000-cdd10a85098e</xsl:text></xsl:when>
+        <xsl:when test=".='Röntgenbild'"><xsl:text>f00b6d1d-2a80-4f66-9371-66dbb7793542</xsl:text></xsl:when>
+        <xsl:when test=".='Rückläufiges Wörterbuch'"><xsl:text>47b3f15a-894a-4098-99f0-f6f78a3cc3eb</xsl:text></xsl:when>
+        <xsl:when test=".='Sachbilderbuch'"><xsl:text>04c8e884-9d2c-4f30-b30e-0a2920c73e36</xsl:text></xsl:when>
+        <xsl:when test=".='Satzung'"><xsl:text>dacb1c74-b65d-4176-b8dd-fb1aa536719e</xsl:text></xsl:when>
+        <xsl:when test=".='Schematismus'"><xsl:text>53e59662-f535-4783-a3b5-649225518d6d</xsl:text></xsl:when>
+        <xsl:when test=".='Schulprogramm'"><xsl:text>85657646-6b6f-4e71-b54c-d47f3b95a5ed</xsl:text></xsl:when>
+        <xsl:when test=".='Software'"><xsl:text>d506f599-ff59-4d0d-8f20-5359e4e01f48</xsl:text></xsl:when>
+        <xsl:when test=".='Spiel'"><xsl:text>c2ceac3c-2f1c-4657-b84f-a1bb4915025f</xsl:text></xsl:when>
+        <xsl:when test=".='Sprachatlas'"><xsl:text>4d2f3df4-ad09-41aa-bf74-0a2bbb67dfff</xsl:text></xsl:when>
+        <xsl:when test=".='Sprachführer'"><xsl:text>9730e60d-94f1-4130-aea0-95be3fed8157</xsl:text></xsl:when>
+        <xsl:when test=".='Stadtplan'"><xsl:text>56a2b5f2-9bdf-4114-bada-c1cb1c0763ba</xsl:text></xsl:when>
+        <xsl:when test=".='Statistik'"><xsl:text>b56cfee4-e602-4740-ae2c-b4802763e998</xsl:text></xsl:when>
+        <xsl:when test=".='Tabelle'"><xsl:text>a0fb9bee-55df-436c-96ed-4d98997b85d1</xsl:text></xsl:when>
+        <xsl:when test=".='Tafel'"><xsl:text>b86be70b-e5be-4959-ae36-01e05459ce8b</xsl:text></xsl:when>
+        <xsl:when test=".='Tagebuch'"><xsl:text>cbd7205e-621a-4cc1-9c37-8d78d321c43c</xsl:text></xsl:when>
+        <xsl:when test=".='Technische Zeichnung'"><xsl:text>eedd5683-b8ad-4016-a525-d9044abfbd8b</xsl:text></xsl:when>
+        <xsl:when test=".='Telefonbuch'"><xsl:text>e1d95ebb-a274-46fc-98ed-6cb9318cace3</xsl:text></xsl:when>
+        <xsl:when test=".='Testmaterial'"><xsl:text>7e469bcb-d4f1-4a43-ba9c-957fcc9d904c</xsl:text></xsl:when>
+        <xsl:when test=".='Theaterstück'"><xsl:text>04e878fb-76a6-4196-aa01-8a5b31270ad6</xsl:text></xsl:when>
+        <xsl:when test=".='Thesaurus'"><xsl:text>706f80d2-5ebe-499c-ab33-de0c9f6b7a03</xsl:text></xsl:when>
+        <xsl:when test=".='Übungssammlung'"><xsl:text>9d027e90-4585-416e-8ec1-24107665a533</xsl:text></xsl:when>
+        <xsl:when test=".='Umfrage'"><xsl:text>9554d351-bbe9-418b-ba45-fc2fcadc6787</xsl:text></xsl:when>
+        <xsl:when test=".='Unterrichtseinheit'"><xsl:text>ddf18bbb-f443-4293-bba1-deb50d361323</xsl:text></xsl:when>
+        <xsl:when test=".='Urkunde'"><xsl:text>b1f81304-18f8-44aa-9861-fee08674355c</xsl:text></xsl:when>
+        <xsl:when test=".='Verkaufskatalog'"><xsl:text>68a7b19d-222e-4b8e-ac0f-35451c2b17fa</xsl:text></xsl:when>
+        <xsl:when test=".='Verzeichnis'"><xsl:text>bba7b7ae-e3f0-4bd9-b490-728e6b9c44f5</xsl:text></xsl:when>
+        <xsl:when test=".='Vorlesungsverzeichnis'"><xsl:text>c3bb3529-f3a6-41bf-b552-7e055b94cf13</xsl:text></xsl:when>
+        <xsl:when test=".='Weblog'"><xsl:text>c85d3e92-a182-41b6-a4fc-6091061e7f23</xsl:text></xsl:when>
+        <xsl:when test=".='Weltkarte'"><xsl:text>1ba6f9f9-ad22-49eb-ac5e-c3d20bf08728</xsl:text></xsl:when>
+        <xsl:when test=".='Werkverzeichnis'"><xsl:text>3af8983e-309c-4c24-8a10-a9a9cd37ab56</xsl:text></xsl:when>
+        <xsl:when test=".='Werkzeitschrift'"><xsl:text>5eb0568a-962f-40a2-a53e-5d5d94b4f488</xsl:text></xsl:when>
+        <xsl:when test=".='Wörterbuch'"><xsl:text>2cc014ec-4ae2-4bdf-ac1b-65889482332a</xsl:text></xsl:when>
+        <xsl:when test=".='Zeichnung'"><xsl:text>c9abd8ad-79c2-4012-92a2-ea042e796fad</xsl:text></xsl:when>
+        <xsl:when test=".='Zeittafel'"><xsl:text>d1371500-3f65-43e7-855f-2b385a50a7fd</xsl:text></xsl:when>
+        <xsl:when test=".='Zitatensammlung'"><xsl:text>f31cdb4a-8c7d-442b-a3a1-7351a2f00b3c</xsl:text></xsl:when>
       </xsl:choose>
     </i>
   </xsl:template>
