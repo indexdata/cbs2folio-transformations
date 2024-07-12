@@ -6,7 +6,7 @@
 
     <xsl:variable name="xsl-name-liste" select="('itemNoteTypeId','holdingsNoteTypeId','materialTypeId','identifierTypeId','sourceId','permanentLoanTypeId','instanceNoteTypeId','alternativeTitleTypeId','natureOfContentTermIds/arr/i')"/>
     <xsl:variable name="api-name-liste" select="('item-note-types','holdings-note-types','material-types','identifier-types','holdings-sources','loan-types','instance-note-types','alternative-title-types','nature-of-content-terms')"/>
-    <xsl:variable name="source-name-liste" select="('hebis','hebis','hebis','K10plus','folio','','local','hebis','hebis')"/>
+    <xsl:variable name="source-name-liste" select="('hebis','hebis','hebis','K10plus','folio','','local','local','local')"/>
  
     <xsl:template match="xsl:when[index-of($xsl-name-liste,ancestor::xsl:template/@match)>0 and xsl:text]">
             <xsl:variable name="text" select='substring-before(substring-after(@test,"&apos;"),"&apos;")'/>
