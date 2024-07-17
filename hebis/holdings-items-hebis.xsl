@@ -9,7 +9,7 @@
   <xsl:template name="loantype">
     <xsl:choose>
       <xsl:when test="substring(datafield[@tag='208@']/subfield[@code='b'],1,1)='d'">dummy</xsl:when>
-      <xsl:when test="(substring(datafield[@tag='002@']/subfield[@code='0'],2,1)='o') and not(datafield[@tag='209A']/subfield[@code='d'])">aufsatz</xsl:when>
+      <xsl:when test="(substring(../datafield[@tag='002@']/subfield[@code='0'],2,1)='o') and not(datafield[@tag='209A']/subfield[@code='d'])">aufsatz</xsl:when>
       <xsl:otherwise><xsl:value-of select="datafield[@tag='209A']/subfield[@code='d']"/></xsl:otherwise>
     </xsl:choose>
   </xsl:template>
@@ -302,6 +302,7 @@
             <xsl:when test="(substring(datafield[@tag='208@']/subfield[@code='b'],1,1) = 'd') or 
                             (substring(datafield[@tag='208@']/subfield[@code='b'],1,1) = 'p') or
                             (substring(datafield[@tag='208@']/subfield[@code='b'],1,2) = 'gp')">Intellectual item</xsl:when>
+            <xsl:when test="(substring(../datafield[@tag='002@']/subfield[@code='0'],2,1)='o') and not(datafield[@tag='209A']/subfield[@code='d'])">Unknown</xsl:when>
             <xsl:when test="datafield[@tag='209A']/subfield[@code='d']='a'">On order</xsl:when>
             <xsl:when test="datafield[@tag='209A']/subfield[@code='d']='e'">Long missing</xsl:when>
             <xsl:when test="datafield[@tag='209A']/subfield[@code='d']='z'">Withdrawn</xsl:when>
