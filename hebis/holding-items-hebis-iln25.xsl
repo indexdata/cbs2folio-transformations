@@ -45,6 +45,7 @@
        <xsl:choose>
          <xsl:when test="$electronicholding">ONLINE</xsl:when>
          <xsl:when test="substring($i/datafield[@tag='208@']/subfield[@code='b'],1,1) = 'd'">DUMMY</xsl:when>
+         <xsl:when test="substring($i/../datafield[@tag='002@']/subfield[@code='0'],2,1) = 'o'">AUFSATZ</xsl:when>
          <xsl:when test="$abt='000'">
            <xsl:choose>
              <xsl:when test="$onorder">ZBZEB</xsl:when>

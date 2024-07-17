@@ -18,6 +18,7 @@
     <permanentLocationId>
       <xsl:choose>
         <xsl:when test=".='DUMMY'">87764786-c5c8-47d0-a480-df506c751d76</xsl:when>
+        <xsl:when test=".='AUFSATZ'">c5d96d68-ffc8-49a4-b43c-42d82f719ea9</xsl:when>
         <xsl:when test=".='FBÄGYPT'">18fe087a-125a-4082-a578-7c79fd9f64ff</xsl:when>
         <xsl:when test=".='FBAVFGA'">3b92f4b4-b21b-4c58-b968-727a03f0dfec</xsl:when>
         <xsl:when test=".='FBGESANG'">86f574fa-7ff2-4e54-a248-1867184b7139</xsl:when>
@@ -123,7 +124,7 @@
         <xsl:when test=".='1 Fernleihe - ausleihbar ohne Verl.'"><xsl:text>fb17e0b8-75cc-4ea2-a7ac-87bb53d146f9</xsl:text></xsl:when>
         <xsl:when test=".='2 Fernleihe - ausleihbar mit Verl.'"><xsl:text>370d3831-a948-4e46-9499-5ddea2f26150</xsl:text></xsl:when>
         <xsl:when test=".='3 Fernleihe - Kurzausleihe ohne Verl.'"><xsl:text>e6608ce5-4a46-4497-b15d-e28378a9b29c</xsl:text></xsl:when>
-        <xsl:when test=".='dummy'"><xsl:text>80ff439c-3ccb-48df-9758-c11011cef6d0</xsl:text></xsl:when>
+        <xsl:when test="(.='dummy') or (.='aufsatz')"><xsl:text>80ff439c-3ccb-48df-9758-c11011cef6d0</xsl:text></xsl:when>
         <xsl:when test=".='unbekannt'"><xsl:text>39176004-0e64-4d06-b136-7140e7016298</xsl:text></xsl:when>        
         <xsl:otherwise>39176004-0e64-4d06-b136-7140e7016298</xsl:otherwise> <!-- unbekannt -->
       </xsl:choose>
