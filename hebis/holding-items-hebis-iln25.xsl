@@ -192,11 +192,11 @@
     <permanentLoanTypeId>
       <xsl:choose>
         <xsl:when test=".='dummy'">dummy</xsl:when>
-        <xsl:when test="(.='') or (.='u')">u ausleihbar</xsl:when>
+        <xsl:when test="(.='') or (.='u')">u ausleihbar (auch Fernleihe)</xsl:when>
         <xsl:when test=".='b'">b Kurzausleihe</xsl:when>
         <xsl:when test=".='c'">c Lehrbuchsammlung</xsl:when>
         <xsl:when test=".='s'">s Präsenzbestand Lesesaal</xsl:when>
-        <xsl:when test=".='d'">d Präsenzbestand Wochenendausleihe</xsl:when>
+        <xsl:when test=".='d'">d ausleihbar (keine Fernleihe)</xsl:when>
         <xsl:when test=".='i'">i nur für den Lesesaal</xsl:when>
         <xsl:when test=".='e'">e vermisst</xsl:when>
         <xsl:when test=".='g'">g nicht ausleihbar</xsl:when>
