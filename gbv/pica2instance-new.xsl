@@ -224,7 +224,7 @@
         <xsl:variable name="mii" select="substring(datafield[@tag='002@']/subfield[@code='0'], 2, 1)"/>
         <xsl:variable name="noc" select="datafield[@tag='013D']/subfield[@code='9']"/>
         <xsl:choose>
-          <xsl:when test="($noc='106354256' or $noc='32609296X' or $noc='344907406' or $noc='153776951')">integrierende Ressource</xsl:when>
+          <xsl:when test="($noc='106354256' or $noc='32609296X' or $noc='344907406' or $noc='153776951') and ($mii='a' or $mii='f' or $mii='F' or $mii='s' or $mii='v')">integrierende Ressource</xsl:when>
           <xsl:when test="$mii='c'">mehrteilige Monografie</xsl:when>
           <xsl:when test="$mii='b' or $mii='d'">fortlaufende Ressource</xsl:when>
           <xsl:when test="$mii='z'">nicht spezifiziert</xsl:when>
