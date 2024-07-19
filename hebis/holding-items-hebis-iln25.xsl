@@ -12,6 +12,28 @@
   </xsl:template>  
 
   <!-- ILN 25 UB Mainz -->
+<xsl:template match="processing">
+      <processing>
+	<holdingsRecord>
+	  <retainExistingValues>
+	    <forOmittedProperties>true</forOmittedProperties>
+	  </retainExistingValues>
+	</holdingsRecord>
+	<item>
+	  <retainExistingValues>
+	    <forOmittedProperties>true</forOmittedProperties>
+		<forTheseProperties>
+		 <arr>
+		 <i>materialTypeId</i>
+		 </arr>
+		 </forTheseProperties>
+	  </retainExistingValues>
+	  <status>
+	    <policy>retain</policy>
+	  </status>
+	</item>
+      </processing>
+</xsl:template>
 
   <xsl:template match="permanentLocationId">
     <xsl:variable name="i" select="key('original',.)"/>
@@ -23,6 +45,7 @@
        <xsl:choose>
          <xsl:when test="$electronicholding">ONLINE</xsl:when>
          <xsl:when test="substring($i/datafield[@tag='208@']/subfield[@code='b'],1,1) = 'd'">DUMMY</xsl:when>
+         <xsl:when test="(substring($i/../datafield[@tag='002@']/subfield[@code='0'],2,1) = 'o') and not($i/datafield[@tag='209A']/subfield[@code='d'])">AUFSATZ</xsl:when>
          <xsl:when test="$abt='000'">
            <xsl:choose>
              <xsl:when test="$onorder">ZBZEB</xsl:when>
@@ -54,6 +77,7 @@
              <xsl:otherwise>ZBLS</xsl:otherwise>
 			     </xsl:choose>
          </xsl:when>
+         <xsl:when test="$abt='004'">PHRVK</xsl:when>
          <xsl:when test="$abt='005'">
            <xsl:choose>
              <xsl:when test="contains($standort,'LESESAAL')">UMLS</xsl:when>
@@ -132,7 +156,12 @@
          <xsl:when test="$abt='087'">PHBYZ</xsl:when>
          <xsl:when test="$abt='088'">PHMNG</xsl:when>
          <xsl:when test="$abt='090'">PHBUW</xsl:when>
-         <xsl:when test="$abt='091'">PHMUW</xsl:when>
+         <xsl:when test="$abt='091'">
+           <xsl:choose>
+             <xsl:when test="contains($standort,'Separiert')">PHMUWMAG</xsl:when>
+             <xsl:otherwise>PHMUW</xsl:otherwise>
+           </xsl:choose>
+	</xsl:when>
          <xsl:when test="$abt='092'">PHOEG</xsl:when>
          <xsl:when test="$abt='093'">
            <xsl:choose>
@@ -163,12 +192,12 @@
   <xsl:template match="permanentLoanTypeId">
     <permanentLoanTypeId>
       <xsl:choose>
-        <xsl:when test=".='dummy'">dummy</xsl:when>
-        <xsl:when test=".='u'">u ausleihbar</xsl:when>
+        <xsl:when test="(.='dummy') or (.='aufsatz')">dummy</xsl:when>
+        <xsl:when test="(.='') or (.='u')">u ausleihbar (auch Fernleihe)</xsl:when>
         <xsl:when test=".='b'">b Kurzausleihe</xsl:when>
         <xsl:when test=".='c'">c Lehrbuchsammlung</xsl:when>
         <xsl:when test=".='s'">s Präsenzbestand Lesesaal</xsl:when>
-        <xsl:when test=".='d'">d Präsenzbestand Wochenendausleihe</xsl:when>
+        <xsl:when test=".='d'">d ausleihbar (keine Fernleihe)</xsl:when>
         <xsl:when test=".='i'">i nur für den Lesesaal</xsl:when>
         <xsl:when test=".='e'">e vermisst</xsl:when>
         <xsl:when test=".='g'">g nicht ausleihbar</xsl:when>
@@ -177,7 +206,7 @@
         <xsl:when test=".='1'">1 Fernleihe - ausleihbar ohne Verl.</xsl:when>
         <xsl:when test=".='2'">2 Fernleihe - ausleihbar mit Verl.</xsl:when>
         <xsl:when test=".='3'">3 Fernleihe - Kurzausleihe ohne Verl.</xsl:when>
-        <xsl:otherwise>u ausleihbar</xsl:otherwise>
+        <xsl:otherwise>unbekannt</xsl:otherwise>
       </xsl:choose>
     </permanentLoanTypeId>
   </xsl:template>
@@ -197,7 +226,7 @@
 	  ($abt='006' and (./note='MIN' or ./note='MIN LEHRBUCHSAMMLUNG')) or
 	  ($abt='016' and (./note='Theologie LEHRBUCHSAMMLUNG')) or
 	  ($abt='018' and (./note='ReWi LEHRBUCHSAMMLUNG')) or
-      ($abt='019' and (./note='Lehrbuchsammlung' or ./note='Lesesaal' or ./note='Magazin')) or
+	  ($abt='019' and (./note='Lehrbuchsammlung' or ./note='Lesesaal' or ./note='Magazin')) or
 	  ($abt='034' and (./note='FB 4-40')) or
 	  ($abt='035' and (./note='Institut für Rechtsmedizin')) or
 	  ($abt='043' and (./note='Klinik für Psychiatrie und Psychotherapie')) or
@@ -223,7 +252,7 @@
 	  ($abt='087' and (./note='Byzantinistik')) or
 	  ($abt='088' and (./note='Mittlere und Neuere Geschichte')) or
 	  ($abt='090' and (./note='Buchwissenschaft')) or
-	  ($abt='091' and (./note='Musikwissenschaft')) or
+	  ($abt='091' and (./note='Musikwissenschaft' or ./note='Musikwissenschaft / Separiert')) or
 	  ($abt='092' and (./note='Osteuropäische Geschichte')) or
 	  ($abt='094' and (./note='Institut für Geschichtliche Landeskunde')) or
 	  ($abt='112' and (./note='Hochschule für Musik' or ./note='Hochschule für Musik / Freihand' or ./note='Hochschule für Musik / Magazin')) or
@@ -251,7 +280,10 @@
         ($abt='000' and (starts-with(., 'RARA ') and not(contains(.,'°')))) or
         ($abt='019' and (starts-with(.,'CELA') or starts-with(.,'CELTRA') or starts-with(.,'LBS') or starts-with(.,'MAG') or starts-with(.,'SSC'))) or
         ($abt='120' and ($standort='Medienkulturwissenschaft' or $standort='Alltagsmedien')) or
-        ($abt='003') or (($abt='127') and not(starts-with(.,'SI ') or starts-with(.,'SK ')))">
+        ($abt='003') or ($abt='004') or 
+        ($abt='005' and (starts-with(., '700 ') or starts-with(., '710 '))) or
+        ($abt='054' and (starts-with(., '798 ') or starts-with(., '791 '))) or
+        (($abt='127') and not(starts-with(.,'SI ') or starts-with(.,'SK ')))">
         <xsl:choose>
           <xsl:when test="contains(.,' ')">
             <callNumberPrefix>
@@ -262,6 +294,7 @@
             </callNumber>
           </xsl:when>
           <xsl:otherwise>
+            <callNumberPrefix/>
             <callNumber>
               <xsl:value-of select="."/>
             </callNumber>
@@ -279,11 +312,9 @@
             </xsl:when>
           </xsl:choose>
         </xsl:variable>
-        <xsl:if test="string-length($cnprefix)>0">
-          <callNumberPrefix>
-            <xsl:value-of select="normalize-space(translate($cnprefix,'@',''))"/>
-          </callNumberPrefix>
-        </xsl:if>
+        <callNumberPrefix>
+          <xsl:value-of select="normalize-space(translate($cnprefix,'@',''))"/>
+        </callNumberPrefix>
         <callNumber>
           <xsl:value-of select="normalize-space(translate(substring-after(.,$cnprefix),'@',''))"/>
         </callNumber>

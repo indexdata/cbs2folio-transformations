@@ -60688,4 +60688,82 @@
       </item>
     </metadata>
   </record>
+  <record>
+    <status>upsert</status>
+    <hrid>221697365</hrid>
+    <metadata>
+      <datafield tag="001B" fulltag="001B">
+        <subfield code="0">0077:17-01-22</subfield>
+        <subfield code="t">15:31:22.000</subfield>
+      </datafield>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">0077:16-03-10</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Aou</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">221697365</subfield>
+      </datafield>
+      <datafield tag="006N" fulltag="006N">
+        <subfield code="0">00080868</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">HEB</subfield>
+        <subfield code="0">221697365</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">eng</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2010</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Patrick Weil, How to be French [Rezension]</subfield>
+        <subfield code="h">Naomi Davidson</subfield>
+      </datafield>
+      <datafield tag="028A" fulltag="028A">
+        <subfield code="9">310586127</subfield>
+        <subfield code="8">Davidson, Naomi *1976-*</subfield>
+      </datafield>
+      <datafield tag="039B" fulltag="039B">
+        <subfield code="i">In</subfield>
+        <subfield code="9">047942835</subfield>
+        <subfield code="8">French history. - Oxford : Oxford University Press, 1987-. - ISSN 0269-1191</subfield>
+        <subfield code="p">Band 24, Heft 1 (2010), Seite 117-119</subfield>
+      </datafield>
+      <item epn="589900862">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">17-07-24</subfield>
+          <subfield code="t">15:35:13.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="01" fulltag="201C/01">
+          <subfield code="0">16-03-10</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">589900862</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">18-03-10</subfield>
+          <subfield code="b">f</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">/</subfield>
+          <subfield code="f">000</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">00015</subfield>
+          <subfield code="x">05</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="01" fulltag="247C/01">
+          <subfield code="9">102599602</subfield>
+          <subfield code="8">Universität Mainz, Zentralbibliothek</subfield>
+        </datafield>
+      </item>
+    </metadata>
+  </record>  
 </collection>

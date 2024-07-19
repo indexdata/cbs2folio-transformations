@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- date of last edit: 2023-07-21 (YYYY-MM-DD) -->
+<!-- date of last edit: 2024-06-06 (YYYY-MM-DD) -->
 
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output indent="yes" method="xml" version="1.0" encoding="UTF-8"/>
@@ -9,6 +9,7 @@
   <xsl:template name="loantype">
     <xsl:choose>
       <xsl:when test="substring(datafield[@tag='208@']/subfield[@code='b'],1,1)='d'">dummy</xsl:when>
+      <xsl:when test="(substring(../datafield[@tag='002@']/subfield[@code='0'],2,1)='o') and not(datafield[@tag='209A']/subfield[@code='d'])">aufsatz</xsl:when>
       <xsl:otherwise><xsl:value-of select="datafield[@tag='209A']/subfield[@code='d']"/></xsl:otherwise>
     </xsl:choose>
   </xsl:template>
@@ -32,7 +33,15 @@
   <xsl:template match="original">
     <xsl:if test="item/datafield[@tag='203@']/subfield[@code='0']">
       <processing>
+        <holdingsRecord>
+          <retainExistingValues>
+            <forOmittedProperties>true</forOmittedProperties>
+          </retainExistingValues>
+        </holdingsRecord>
         <item>
+          <retainExistingValues>
+            <forOmittedProperties>true</forOmittedProperties>
+          </retainExistingValues>
           <status>
             <policy>retain</policy>
           </status>
@@ -145,7 +154,7 @@
                 <xsl:value-of select="./subfield[@code='a']"/>
               </note>
               <holdingsNoteTypeId>Lokaler Schlüssel</holdingsNoteTypeId>
-              <staffOnly>false</staffOnly>
+              <staffOnly>true</staffOnly>
             </i>
           </xsl:for-each>
           <xsl:for-each select="datafield[(@tag='244Z') and (subfield[@code='x']&gt;'79') and (subfield[@code='x']&lt;'99')]">
@@ -187,7 +196,7 @@
                 <xsl:value-of select="."/>
               </note>
               <holdingsNoteTypeId>Lizenzindikator</holdingsNoteTypeId>
-              <staffOnly>false</staffOnly>
+              <staffOnly>true</staffOnly>
             </i>
           </xsl:for-each>
         </arr>
@@ -251,15 +260,8 @@
           </arr>
         </electronicAccess>
       
-        <statisticalCodeIds>
-        <arr>
-          <xsl:for-each select="datafield[(@tag='209B') and not(subfield[@code='x']='01' or subfield[@code='x']='02')]">
-            <i>
-              <xsl:value-of select="./subfield[@code='a']"/>
-            </i>
-          </xsl:for-each>
-        </arr>
-      </statisticalCodeIds>
+        <statisticalCodeIds/>
+    
     </i>
   </xsl:template>
  
@@ -300,6 +302,7 @@
             <xsl:when test="(substring(datafield[@tag='208@']/subfield[@code='b'],1,1) = 'd') or 
                             (substring(datafield[@tag='208@']/subfield[@code='b'],1,1) = 'p') or
                             (substring(datafield[@tag='208@']/subfield[@code='b'],1,2) = 'gp')">Intellectual item</xsl:when>
+            <xsl:when test="(substring(../datafield[@tag='002@']/subfield[@code='0'],2,1)='o') and not(datafield[@tag='209A']/subfield[@code='d'])">Unknown</xsl:when>
             <xsl:when test="datafield[@tag='209A']/subfield[@code='d']='a'">On order</xsl:when>
             <xsl:when test="datafield[@tag='209A']/subfield[@code='d']='e'">Long missing</xsl:when>
             <xsl:when test="datafield[@tag='209A']/subfield[@code='d']='z'">Withdrawn</xsl:when>
