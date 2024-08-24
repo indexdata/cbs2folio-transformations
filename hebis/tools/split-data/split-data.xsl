@@ -4,10 +4,15 @@
     exclude-result-prefixes="xs"
     version="2.0">
     
+    <xsl:template match="/">
+        <xsl:message>Info: Processing file </xsl:message>
+        <xsl:apply-templates/>
+    </xsl:template>
+    
     <xsl:template match="record">
         <xsl:variable name="ppn" select="metadata/datafield[@tag='003@']/subfield[@code='0']"/>
         <xsl:variable name="file" select="concat('dir-',substring($ppn,8,2),'/dir-',substring($ppn,6,4),'/ppn-',$ppn,'.xml')"/>
-        <xsl:message>Info: Writing to <xsl:value-of select="$file"/></xsl:message>
+        <xsl:message>Info: Writing to &apos;<xsl:value-of select="$file"/>&apos;</xsl:message>
         <xsl:result-document href="{$file}">
             <collection count="1">
                 <xsl:copy-of select="."/>
