@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><collection count="1"><record>
+    <status>upsert</status>
+    <hrid>047972084</hrid>
+    <metadata>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">6050:09-10-15</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Abv</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+        <subfield code="2">rdacontent</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+        <subfield code="b">n</subfield>
+        <subfield code="2">rdamedia</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Band</subfield>
+        <subfield code="b">nc</subfield>
+        <subfield code="2">rdacarrier</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">047972084</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">1367763889</subfield>
+      </datafield>
+      <datafield tag="006Z" fulltag="006Z">
+        <subfield code="0">703409-X</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">ZDB</subfield>
+        <subfield code="0">703409-X</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">fre</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">1738</subfield>
+        <subfield code="b">1904</subfield>
+        <subfield code="n">1738-[1904?]</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">10454466X</subfield>
+        <subfield code="a">Zeitschrift</subfield>
+      </datafield>
+      <datafield tag="018@" fulltag="018@">
+        <subfield code="a">u</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Recueil des historiens des Gaules et de la France</subfield>
+      </datafield>
+      <datafield tag="031@" fulltag="031@">
+        <subfield code="a">Tome 1-tome 22 [?] ; nouvelle édition, tome 1-tome 24 [?]</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Paris</subfield>
+      </datafield>
+      <datafield tag="046C" fulltag="046C">
+        <subfield code="i">Nebent.</subfield>
+        <subfield code="a">Rerum Gallicarum et Francicarum scriptores</subfield>
+      </datafield>
+      <item epn="59320994X">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:17:22.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="01" fulltag="201C/01">
+          <subfield code="0">20-05-10</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">59320994X</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">20-05-10</subfield>
+          <subfield code="b">p</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">2° @G 5699</subfield>
+          <subfield code="f">000</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">12</subfield>
+        </datafield>
+        <datafield tag="209E" occurrence="01" fulltag="209E/01">
+          <subfield code="a">- Nouv. éd.</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="209E" occurrence="01" fulltag="209E/01">
+          <subfield code="a">1.1869 - 23.1894</subfield>
+          <subfield code="x">02</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">MAG</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="231@" occurrence="01" fulltag="231@/01">
+          <subfield code="d">1</subfield>
+          <subfield code="j">1869</subfield>
+          <subfield code="n">23</subfield>
+          <subfield code="k">1894</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="01" fulltag="247C/01">
+          <subfield code="9">102599602</subfield>
+          <subfield code="a">Universität Mainz, Zentralbibliothek</subfield>
+          <subfield code="b">77</subfield>
+          <subfield code="c">651000-0</subfield>
+          <subfield code="h">DE-77</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
+        </datafield>
+      </item>
+      <item epn="170340112">
+        <datafield tag="201B" occurrence="02" fulltag="201B/02">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:17:23.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="02" fulltag="201C/02">
+          <subfield code="0">22-04-02</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="02" fulltag="201U/02">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="02" fulltag="203@/02">
+          <subfield code="0">170340112</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="02" fulltag="208@/02">
+          <subfield code="a">22-04-02</subfield>
+          <subfield code="b">p</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="02" fulltag="209A/02">
+          <subfield code="a">GX 40</subfield>
+          <subfield code="f">088</subfield>
+          <subfield code="d">s</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="02" fulltag="209B/02">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">12</subfield>
+        </datafield>
+        <datafield tag="209E" occurrence="02" fulltag="209E/02">
+          <subfield code="a">- Nouv. éd.</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="209E" occurrence="02" fulltag="209E/02">
+          <subfield code="a">1.1869 - 19.1880</subfield>
+          <subfield code="x">02</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="02" fulltag="209G/02">
+          <subfield code="a">Mittlere und Neuere Geschichte</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="231@" occurrence="02" fulltag="231@/02">
+          <subfield code="d">1</subfield>
+          <subfield code="j">1869</subfield>
+          <subfield code="n">19</subfield>
+          <subfield code="k">1880</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="02" fulltag="247C/02">
+          <subfield code="9">102600376</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Philosophicum, Standort Mittlere und Neuere Geschichte</subfield>
+          <subfield code="b">77/088</subfield>
+          <subfield code="c">651088-7</subfield>
+          <subfield code="h">DE-77-088</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
+        </datafield>
+      </item>
+    </metadata>
+  </record></collection>

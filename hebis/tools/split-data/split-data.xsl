@@ -6,7 +6,7 @@
     
     <xsl:template match="record">
         <xsl:variable name="ppn" select="metadata/datafield[@tag='003@']/subfield[@code='0']"/>
-        <xsl:variable name="file" select="concat($ppn,'.xml')"/>
+        <xsl:variable name="file" select="concat('ppn-',$ppn,'.xml')"/>
         <xsl:message>Info: Writing to <xsl:value-of select="$file"/></xsl:message>
         <xsl:result-document href="{$file}">
             <collection count="1">

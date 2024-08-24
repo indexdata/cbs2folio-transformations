@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><collection count="1"><record>
+    <status>upsert</status>
+    <hrid>478858833</hrid>
+    <metadata>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">6000:06-05-21</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Oax</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+        <subfield code="2">rdacontent</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">Computermedien</subfield>
+        <subfield code="b">c</subfield>
+        <subfield code="2">rdamedia</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Online-Ressource</subfield>
+        <subfield code="b">cr</subfield>
+        <subfield code="2">rdacarrier</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">478858833</subfield>
+      </datafield>
+      <datafield tag="004V" fulltag="004V">
+        <subfield code="0">10.25932/publishup-49992</subfield>
+      </datafield>
+      <datafield tag="004U" fulltag="004U">
+        <subfield code="0">urn:nbn:de:kobv:517-opus4-499926</subfield>
+      </datafield>
+      <datafield tag="006G" fulltag="006G">
+        <subfield code="0">1231355891</subfield>
+      </datafield>
+      <datafield tag="006U" fulltag="006U">
+        <subfield code="0">21,O05,0414</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">DNB</subfield>
+        <subfield code="0">1231355891</subfield>
+      </datafield>
+      <datafield tag="017C" fulltag="017C">
+        <subfield code="u">https://doi.org/10.25932/publishup-49992</subfield>
+        <subfield code="x">R</subfield>
+      </datafield>
+      <datafield tag="017C" fulltag="017C">
+        <subfield code="u">https://nbn-resolving.org/urn:nbn:de:kobv:517-opus4-499926</subfield>
+        <subfield code="x">R</subfield>
+      </datafield>
+      <datafield tag="017C" fulltag="017C">
+        <subfield code="u">https://publishup.uni-potsdam.de/frontdoor/index/index/docId/49992</subfield>
+        <subfield code="q">application/pdf</subfield>
+        <subfield code="x">H</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2021</subfield>
+        <subfield code="n">2021</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Zum Einfluss von Adaptivität auf die Wahrnehmung von Komplexität in der Mensch-Technik-Interaktion</subfield>
+        <subfield code="d">dargestellt am Beispiel Bildungstechnologie</subfield>
+        <subfield code="h">Tobias Moebert ; Gutachter: Ulrike Lucke, Niels Pinkwart, Reinhard Keil ; Betreuer: Ulrike Lucke</subfield>
+      </datafield>
+      <datafield tag="027A" fulltag="027A">
+        <subfield code="a">On the Influence of Adaptivity upon the Perception of Complexity in Human-Technology Interaction</subfield>
+      </datafield>
+      <datafield tag="028A" fulltag="028A">
+        <subfield code="9">479618453</subfield>
+        <subfield code="8">Moebert, Tobias</subfield>
+        <subfield code="B">Verfasser</subfield>
+        <subfield code="4">aut</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">191720534</subfield>
+        <subfield code="8">Lucke, Ulrike *1975-*</subfield>
+        <subfield code="B">Akademischer Betreuer</subfield>
+        <subfield code="4">dgs</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="a">Lucke</subfield>
+        <subfield code="d">Ulrike</subfield>
+        <subfield code="B">Gutachter</subfield>
+        <subfield code="4">oth</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">340595310</subfield>
+        <subfield code="8">Pinkwart, Niels</subfield>
+        <subfield code="B">Gutachter</subfield>
+        <subfield code="4">oth</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">158992067</subfield>
+        <subfield code="8">Keil, Reinhard *1953-*</subfield>
+        <subfield code="B">Gutachter</subfield>
+        <subfield code="4">oth</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Potsdam</subfield>
+        <subfield code="n">Universität Potsdam</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">Online-Ressource</subfield>
+      </datafield>
+      <datafield tag="037C" fulltag="037C">
+        <subfield code="d">Dissertation</subfield>
+        <subfield code="e">Potsdam, Universität Potsdam</subfield>
+        <subfield code="f">2021</subfield>
+      </datafield>
+      <item epn="1151459518">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:26:46.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="01" fulltag="201C/01">
+          <subfield code="0">07-05-21</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">1151459518</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">07-05-21</subfield>
+          <subfield code="b">l</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209S" occurrence="01" fulltag="209S/01">
+          <subfield code="S">0</subfield>
+          <subfield code="u">https://publishup.uni-potsdam.de/frontdoor/index/index/docId/49992</subfield>
+          <subfield code="X">H</subfield>
+        </datafield>
+      </item>
+    </metadata>
+  </record></collection>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?><collection count="1"><record>
+    <status>upsert</status>
+    <hrid>441634001</hrid>
+    <metadata>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">6050:29-01-19</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Abv</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+        <subfield code="2">rdacontent</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+        <subfield code="b">n</subfield>
+        <subfield code="2">rdamedia</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Band</subfield>
+        <subfield code="b">nc</subfield>
+        <subfield code="2">rdacarrier</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">441634001</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">1368551800</subfield>
+      </datafield>
+      <datafield tag="005A" fulltag="005A">
+        <subfield code="0">2650-3794</subfield>
+      </datafield>
+      <datafield tag="005A" fulltag="005A">
+        <subfield code="0">2270-2024</subfield>
+      </datafield>
+      <datafield tag="006Z" fulltag="006Z">
+        <subfield code="0">2957896-6</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">ZDB</subfield>
+        <subfield code="0">2957896-6</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">fre</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2019</subfield>
+        <subfield code="n">[2019]-</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">10454466X</subfield>
+        <subfield code="a">Zeitschrift</subfield>
+      </datafield>
+      <datafield tag="018@" fulltag="018@">
+        <subfield code="a">m;e</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Quinzaines</subfield>
+        <subfield code="d">lettres, arts et idées</subfield>
+      </datafield>
+      <datafield tag="031@" fulltag="031@">
+        <subfield code="a">No 1207 (16/31 janvier 2019)-</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Paris</subfield>
+        <subfield code="n">Société La Nouvelle Quinzaine Littéraire</subfield>
+      </datafield>
+      <datafield tag="039D" fulltag="039D">
+        <subfield code="i">Erscheint auch als</subfield>
+        <subfield code="n">Online-Ausgabe</subfield>
+        <subfield code="9">400719843</subfield>
+        <subfield code="8">La quinzaine littéraire : nouvelle. - Paris : Société La Nouvelle Quinzaine Littéraire, 2015-. - Online-Ressource. - ISSN 0048-6493</subfield>
+      </datafield>
+      <datafield tag="039E" fulltag="039E">
+        <subfield code="b">f</subfield>
+        <subfield code="i">Fortsetzung von</subfield>
+        <subfield code="9">396022774</subfield>
+        <subfield code="8">La quinzaine littéraire : nouvelle</subfield>
+      </datafield>
+      <item epn="1046863339">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:17:09.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="01" fulltag="201C/01">
+          <subfield code="0">01-03-19</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">1046863339</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">01-03-19</subfield>
+          <subfield code="b">p</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">FZ 415</subfield>
+          <subfield code="f">000</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">00015</subfield>
+          <subfield code="x">11</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">12</subfield>
+        </datafield>
+        <datafield tag="209E" occurrence="01" fulltag="209E/01">
+          <subfield code="a">1207.2019 -</subfield>
+          <subfield code="x">02</subfield>
+        </datafield>
+        <datafield tag="231@" occurrence="01" fulltag="231@/01">
+          <subfield code="d">1207</subfield>
+          <subfield code="j">2019</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="01" fulltag="247C/01">
+          <subfield code="9">102599602</subfield>
+          <subfield code="a">Universität Mainz, Zentralbibliothek</subfield>
+          <subfield code="b">77</subfield>
+          <subfield code="c">651000-0</subfield>
+          <subfield code="h">DE-77</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
+        </datafield>
+      </item>
+      <item epn="104270256X">
+        <datafield tag="201B" occurrence="02" fulltag="201B/02">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:17:09.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="02" fulltag="201C/02">
+          <subfield code="0">06-02-19</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="02" fulltag="201U/02">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="02" fulltag="203@/02">
+          <subfield code="0">104270256X</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="02" fulltag="208@/02">
+          <subfield code="a">06-02-19</subfield>
+          <subfield code="b">p</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="02" fulltag="209A/02">
+          <subfield code="a">Ztg 54</subfield>
+          <subfield code="f">019</subfield>
+          <subfield code="d">i</subfield>
+          <subfield code="l">lx</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="02" fulltag="209B/02">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">12</subfield>
+        </datafield>
+        <datafield tag="209E" occurrence="02" fulltag="209E/02">
+          <subfield code="a">Nur laufender Jahrgang und 5 vorhergehende Jahrgänge vorhanden; aktuelle Ausgabe siehe Zeitschriftenauslage</subfield>
+          <subfield code="x">04</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="02" fulltag="209G/02">
+          <subfield code="a">Magazin</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="02" fulltag="247C/02">
+          <subfield code="9">403989051</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim</subfield>
+          <subfield code="b">Mz 19</subfield>
+          <subfield code="c">651019-x</subfield>
+          <subfield code="h">DE-Mz19</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
+        </datafield>
+      </item>
+    </metadata>
+  </record></collection>

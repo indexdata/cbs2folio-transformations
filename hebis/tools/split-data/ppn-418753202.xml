@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?><collection count="1"><record>
+    <status>upsert</status>
+    <hrid>418753202</hrid>
+    <metadata>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">0077:28-09-21</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Oay</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+        <subfield code="2">rdacontent</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">Computermedien</subfield>
+        <subfield code="b">c</subfield>
+        <subfield code="2">rdamedia</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Online-Ressource</subfield>
+        <subfield code="b">cr</subfield>
+        <subfield code="2">rdacarrier</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">418753202</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">710992351</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">9780511973383</subfield>
+        <subfield code="f">e-book</subfield>
+      </datafield>
+      <datafield tag="004P" fulltag="004P">
+        <subfield code="S">p</subfield>
+        <subfield code="0">9780521197519</subfield>
+        <subfield code="f">hardback</subfield>
+      </datafield>
+      <datafield tag="004P" fulltag="004P">
+        <subfield code="S">p</subfield>
+        <subfield code="0">9780521127448</subfield>
+        <subfield code="f">paperback</subfield>
+      </datafield>
+      <datafield tag="004V" fulltag="004V">
+        <subfield code="0">10.1017/CBO9780511973383</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">HEB</subfield>
+        <subfield code="0">418753202</subfield>
+      </datafield>
+      <datafield tag="017C" fulltag="017C">
+        <subfield code="u">https://doi.org/10.1017/CBO9780511973383</subfield>
+        <subfield code="x">R</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">eng</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2011</subfield>
+      </datafield>
+      <datafield tag="017L" fulltag="017L">
+        <subfield code="a">ZDB-20-CBO</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Democratic deficit</subfield>
+        <subfield code="d">critical citizens revisited</subfield>
+        <subfield code="h">Pippa Norris</subfield>
+      </datafield>
+      <datafield tag="028A" fulltag="028A">
+        <subfield code="9">15935529X</subfield>
+        <subfield code="8">Norris, Pippa *1953-*</subfield>
+        <subfield code="B">Verfasser</subfield>
+        <subfield code="4">aut</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Cambridge</subfield>
+        <subfield code="n">Cambridge University Press</subfield>
+      </datafield>
+      <datafield tag="033E" fulltag="033E">
+        <subfield code="p">Cambridge, UK</subfield>
+        <subfield code="n">Cambridge University Press</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">1 Online-Ressource</subfield>
+      </datafield>
+      <datafield tag="037A" fulltag="037A">
+        <subfield code="a">Title from publisher's bibliographic system (viewed on 05 Oct 2015)</subfield>
+      </datafield>
+      <datafield tag="039D" fulltag="039D">
+        <subfield code="i">Erscheint auch als</subfield>
+        <subfield code="n">Druck-Ausgabe</subfield>
+        <subfield code="l">Norris, Pippa</subfield>
+        <subfield code="t">Democratic deficit</subfield>
+        <subfield code="C">ISBN</subfield>
+        <subfield code="6">978-0-521-19751-9</subfield>
+      </datafield>
+      <datafield tag="047I" fulltag="047I">
+        <subfield code="a">Many fear that democracies are suffering from a legitimacy crisis. This book focuses on 'democratic deficits', reflecting how far the perceived democratic performance of any state diverges from public expectations. Pippa Norris examines the symptoms by comparing system support in more than fifty societies worldwide, challenging the pervasive claim that most established democracies have experienced a steadily rising tide of political disaffection during the third-wave era. The book diagnoses the reasons behind the democratic deficit, including demand (rising public aspirations for democracy), information (negative news about government) and supply (the performance and structure of democratic regimes). Finally, Norris examines the consequences for active citizenship, for governance and, ultimately, for democratization. This book provides fresh insights into major issues at the heart of comparative politics, public opinion, political culture, political behavior, democratic governance, political psychology, political communications, public policymaking, comparative sociology, cross-national survey analysis and the dynamics of the democratization process.</subfield>
+      </datafield>
+      <datafield tag="101B" fulltag="101B">
+        <subfield code="0">28-09-21</subfield>
+        <subfield code="t">09:25:28.000</subfield>
+      </datafield>
+      <datafield tag="101C" fulltag="101C">
+        <subfield code="0">28-09-21</subfield>
+      </datafield>
+      <datafield tag="101U" fulltag="101U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="145S" occurrence="01" fulltag="145S/01">
+        <subfield code="a">240zb</subfield>
+      </datafield>
+      <item epn="107880771X">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">01-07-21</subfield>
+          <subfield code="t">16:57:31.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="01" fulltag="201C/01">
+          <subfield code="0">04-02-20</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">107880771X</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">04-02-20</subfield>
+          <subfield code="b">ou</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">cbo eba</subfield>
+          <subfield code="x">05</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">ebo</subfield>
+          <subfield code="x">06</subfield>
+        </datafield>
+        <datafield tag="209S" occurrence="01" fulltag="209S/01">
+          <subfield code="u">https://doi.org/10.1017/CBO9780511973383</subfield>
+          <subfield code="X">R</subfield>
+        </datafield>
+        <datafield tag="237A" occurrence="01" fulltag="237A/01">
+          <subfield code="a">Online-Zugang nur im Netz der Universität Mainz</subfield>
+        </datafield>
+      </item>
+    </metadata>
+  </record></collection>
