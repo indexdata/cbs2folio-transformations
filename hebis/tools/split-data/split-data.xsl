@@ -5,7 +5,9 @@
     version="2.0">
     
     <xsl:template match="record">
-        <xsl:variable name="file" select="concat(metadata/datafield[@tag='003@']/subfield[@code='0'],'.xml')"/>
+        <xsl:variable name="ppn" select="metadata/datafield[@tag='003@']/subfield[@code='0']"/>
+        <xsl:variable name="file" select="concat($ppn,'.xml')"/>
+        <xsl:message>Info: Writing to <xsl:value-of select="$file"/></xsl:message>
         <xsl:result-document href="{$file}">
             <collection count="1">
                 <xsl:copy-of select="."/>
