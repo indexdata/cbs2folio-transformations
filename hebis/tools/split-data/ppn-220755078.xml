@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><collection count="1"><record>
+    <status>upsert</status>
+    <hrid>220755078</hrid>
+    <metadata>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">0004:19-10-12</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Aau</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">220755078</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">603655961</subfield>
+      </datafield>
+      <datafield tag="006L" fulltag="006L">
+        <subfield code="i">BVB</subfield>
+        <subfield code="0">8087496879</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">HEB</subfield>
+        <subfield code="0">220755078</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">1909</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Herrschaft und Dienst</subfield>
+        <subfield code="h">Friedrich Wolters</subfield>
+      </datafield>
+      <datafield tag="028A" fulltag="028A">
+        <subfield code="9">086837559</subfield>
+        <subfield code="8">Wolters, Friedrich *1876-1930*</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">087067706</subfield>
+        <subfield code="8">Lechter, Melchior *1865-1937*</subfield>
+        <subfield code="B">Ill.</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Berlin</subfield>
+        <subfield code="n">Einhorn-Presse im Verlag Otto v. Holten</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">67 S.</subfield>
+      </datafield>
+      <datafield tag="034M" fulltag="034M">
+        <subfield code="a">Ill.</subfield>
+      </datafield>
+      <datafield tag="036E" fulltag="036E">
+        <subfield code="a">Opus ... der Einhorn-Presse</subfield>
+        <subfield code="l">1</subfield>
+      </datafield>
+      <item epn="588580287">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:30:31.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="01" fulltag="201C/01">
+          <subfield code="0">16-02-10</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">588580287</subfield>
+        </datafield>
+        <datafield tag="206W" occurrence="01" fulltag="206W/01">
+          <subfield code="0">363-0153</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">16-02-10</subfield>
+          <subfield code="b">rum</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">RARA 2° D 11330</subfield>
+          <subfield code="f">000</subfield>
+          <subfield code="d">i</subfield>
+          <subfield code="h">D 11330</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">2° D 11330</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">34325734</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">George Slg, RARA</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="01" fulltag="247C/01">
+          <subfield code="9">102599602</subfield>
+          <subfield code="a">Universität Mainz, Zentralbibliothek</subfield>
+          <subfield code="b">77</subfield>
+          <subfield code="c">651000-0</subfield>
+          <subfield code="h">DE-77</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
+        </datafield>
+      </item>
+    </metadata>
+  </record></collection>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?><collection count="1"><record>
+    <status>upsert</status>
+    <hrid>426744098</hrid>
+    <metadata>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">0077:13-03-18</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Afu</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+        <subfield code="2">rdacontent</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+        <subfield code="b">n</subfield>
+        <subfield code="2">rdamedia</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Band</subfield>
+        <subfield code="b">nc</subfield>
+        <subfield code="2">rdacarrier</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">426744098</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">1028992962</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">9783000520785</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">GBV</subfield>
+        <subfield code="0">872885631</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+        <subfield code="a">ice</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2016</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">[Lehrbuch]</subfield>
+      </datafield>
+      <datafield tag="028A" fulltag="028A">
+        <subfield code="9">423733753</subfield>
+        <subfield code="8">Drabek, Stefan</subfield>
+        <subfield code="B">Verfasser</subfield>
+        <subfield code="4">aut</subfield>
+      </datafield>
+      <datafield tag="032@" fulltag="032@">
+        <subfield code="a">2. Ausgabe</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Dresden</subfield>
+        <subfield code="n">Selbstverlag</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">132 Seiten</subfield>
+      </datafield>
+      <datafield tag="036C" fulltag="036C">
+        <subfield code="x">11</subfield>
+        <subfield code="a">Isländische Grammatik Schritt für Schritt</subfield>
+        <subfield code="h">Stefan Drabek</subfield>
+        <subfield code="l">1</subfield>
+      </datafield>
+      <datafield tag="036D" fulltag="036D">
+        <subfield code="9">423939629</subfield>
+        <subfield code="8">Isländische Grammatik Schritt für Schritt / Stefan Drabek</subfield>
+      </datafield>
+      <datafield tag="036E" fulltag="036E">
+        <subfield code="a">IsländischLernen</subfield>
+      </datafield>
+      <item epn="1018660046">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:28:01.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="01" fulltag="201C/01">
+          <subfield code="0">28-02-18</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">1018660046</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">13-03-18</subfield>
+          <subfield code="b">zig</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">Kqb 2016/1-1 1. Ex.</subfield>
+          <subfield code="f">073</subfield>
+          <subfield code="d">d</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">FB 14.2 Kqb 2016/1-1 1. Ex.</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="01" fulltag="209C/01">
+          <subfield code="a">18/288a Allg. u. Vergl. Sprachwissenschaft</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">77384760</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">Allgemeine und Vergleichende Sprachwissenschaft</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="237A" occurrence="01" fulltag="237A/01">
+          <subfield code="a">11. Druck Februar 2018 vorhanden</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="01" fulltag="247C/01">
+          <subfield code="9">102600228</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Philosophicum, Standort Allgemeine und Vergleichende Sprachwissenschaft</subfield>
+          <subfield code="b">77/073</subfield>
+          <subfield code="c">651073-5</subfield>
+          <subfield code="h">DE-77-073</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
+        </datafield>
+      </item>
+      <item epn="1019707879">
+        <datafield tag="201B" occurrence="02" fulltag="201B/02">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:28:02.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="02" fulltag="201C/02">
+          <subfield code="0">13-03-18</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="02" fulltag="201U/02">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="02" fulltag="203@/02">
+          <subfield code="0">1019707879</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="02" fulltag="208@/02">
+          <subfield code="a">13-03-18</subfield>
+          <subfield code="b">zig</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="02" fulltag="209A/02">
+          <subfield code="a">073 Kqb 2016/1-1 2. Ex.</subfield>
+          <subfield code="f">127</subfield>
+          <subfield code="d">s</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="02" fulltag="209A/02">
+          <subfield code="a">FB 14.2 Kqb 2016/1-1 2. Ex.</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="02" fulltag="209A/02">
+          <subfield code="a">R. 01-598</subfield>
+          <subfield code="x">09</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="02" fulltag="209B/02">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="02" fulltag="209C/02">
+          <subfield code="a">18/288b Allg. u. Vergl. Sprachwissenschaft</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="02" fulltag="209G/02">
+          <subfield code="a">77384801</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="02" fulltag="209G/02">
+          <subfield code="a">Allgemeine und Vergleichende Sprachwissenschaft / Separiert</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="237A" occurrence="02" fulltag="237A/02">
+          <subfield code="a">11. Druck Februar 2018 vorhanden. Standort R. 01-598</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="02" fulltag="247C/02">
+          <subfield code="9">428727336</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Philosophicum, separierte Bestände</subfield>
+          <subfield code="b">77/127</subfield>
+          <subfield code="c">651127-2</subfield>
+          <subfield code="h">DE-77-127</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nn</subfield>
+        </datafield>
+        <datafield tag="247D" occurrence="02" fulltag="247D/02">
+          <subfield code="a">Tagesausleihe erst nach Rücksprache möglich</subfield>
+        </datafield>
+      </item>
+    </metadata>
+  </record></collection>

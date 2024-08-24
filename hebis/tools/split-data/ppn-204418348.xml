@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><collection count="1"><record>
+    <status>upsert</status>
+    <hrid>204418348</hrid>
+    <metadata>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">0004:08-10-08</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Aau</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">204418348</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">316154015</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">3131476419</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">9783131476418</subfield>
+      </datafield>
+      <datafield tag="004L" fulltag="004L">
+        <subfield code="0">9783131476418</subfield>
+      </datafield>
+      <datafield tag="006G" fulltag="006G">
+        <subfield code="0">987419269</subfield>
+      </datafield>
+      <datafield tag="006L" fulltag="006L">
+        <subfield code="i">DNB</subfield>
+        <subfield code="0">987419269</subfield>
+      </datafield>
+      <datafield tag="006T" fulltag="006T">
+        <subfield code="0">08,N08,0618</subfield>
+      </datafield>
+      <datafield tag="006U" fulltag="006U">
+        <subfield code="0">08,A45,1047,0205</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">DNB</subfield>
+        <subfield code="0">987419269</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2008</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Perinatalmedizin in Fällen</subfield>
+        <subfield code="d">pränatale Diagnostik, Management und Beratung ; 23 Tabellen</subfield>
+        <subfield code="h">Anke Reitter ; Rolf Schlößer</subfield>
+      </datafield>
+      <datafield tag="028A" fulltag="028A">
+        <subfield code="9">149645724</subfield>
+        <subfield code="8">Reitter, Anke *1967-*</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">204479274</subfield>
+        <subfield code="8">Schlößer, Rolf</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Stuttgart {[u.a.] </subfield>
+        <subfield code="n">Thieme</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">XIII, 258 S.</subfield>
+      </datafield>
+      <datafield tag="034M" fulltag="034M">
+        <subfield code="a">Ill., graph. Darst</subfield>
+      </datafield>
+      <item epn="564146293">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:28:47.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="01" fulltag="201C/01">
+          <subfield code="0">01-12-08</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">564146293</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">16-02-09</subfield>
+          <subfield code="b">zv</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">KIND 125</subfield>
+          <subfield code="f">005</subfield>
+          <subfield code="d">u</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">FBM KIND 0125</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">00509</subfield>
+          <subfield code="x">05</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="01" fulltag="209C/01">
+          <subfield code="a">08/5979-5</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">39755624</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">UM FREIHAND</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="01" fulltag="247C/01">
+          <subfield code="9">103705643</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Universitätsmedizin</subfield>
+          <subfield code="b">77/005</subfield>
+          <subfield code="c">651005-x</subfield>
+          <subfield code="h">DE-77-005</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ln</subfield>
+          <subfield code="f">udi?</subfield>
+          <subfield code="g">udbfsi?</subfield>
+        </datafield>
+      </item>
+    </metadata>
+  </record></collection>

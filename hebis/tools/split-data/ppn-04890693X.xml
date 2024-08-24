@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><collection count="1"><record>
+    <status>upsert</status>
+    <hrid>04890693X</hrid>
+    <metadata>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">9999:99-99-99</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Afy</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">04890693X</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">613600280</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">HEB</subfield>
+        <subfield code="0">04890693X</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">lat</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">1768</subfield>
+        <subfield code="n">(1768)</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">165246529</subfield>
+        <subfield code="8">Gudenus, Valentin Ferdinand</subfield>
+        <subfield code="B">Hrsg.</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Göttingen</subfield>
+        <subfield code="n">Sumptu Regiae Officinae Librar. Acad.</subfield>
+      </datafield>
+      <datafield tag="036C" fulltag="036C">
+        <subfield code="x">15</subfield>
+        <subfield code="a">Codex diplomaticus</subfield>
+        <subfield code="d">exhibens anecdota ab anno DCCCLXXXI, ad MCCC Moguntiaca, ius Germanicum, et S.R.I. historiam illustrantia</subfield>
+        <subfield code="h">... addidit Valentinus Ferdinandus Gudenus</subfield>
+        <subfield code="l">5</subfield>
+      </datafield>
+      <datafield tag="036D" fulltag="036D">
+        <subfield code="9">048906700</subfield>
+        <subfield code="8">Codex diplomaticus : exhibens anecdota ab anno DCCCLXXXI, ad MCCC Moguntiaca, ius Germanicum, et S.R.I. historiam illustrantia / ... addidit Valentinus Ferdinandus Gudenus</subfield>
+      </datafield>
+      <item epn="10337292X">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:30:39.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="01" fulltag="201C/01">
+          <subfield code="0">18-07-96</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">10337292X</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">10-02-00</subfield>
+          <subfield code="b">r</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">Wmog 55-5</subfield>
+          <subfield code="f">088</subfield>
+          <subfield code="d">d</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="01" fulltag="209C/01">
+          <subfield code="a">HSK 1990/88/III</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">75793010</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">Mittlere und Neuere Geschichte</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="237A" occurrence="01" fulltag="237A/01">
+          <subfield code="a">Kopie</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="01" fulltag="247C/01">
+          <subfield code="9">102600376</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Philosophicum, Standort Mittlere und Neuere Geschichte</subfield>
+          <subfield code="b">77/088</subfield>
+          <subfield code="c">651088-7</subfield>
+          <subfield code="h">DE-77-088</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
+        </datafield>
+      </item>
+      <item epn="1089049749">
+        <datafield tag="201B" occurrence="02" fulltag="201B/02">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:30:39.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="02" fulltag="201C/02">
+          <subfield code="0">24-03-20</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="02" fulltag="201U/02">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="02" fulltag="203@/02">
+          <subfield code="0">1089049749</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="02" fulltag="208@/02">
+          <subfield code="a">24-03-20</subfield>
+          <subfield code="b">r</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="02" fulltag="209A/02">
+          <subfield code="a">QA 72,5</subfield>
+          <subfield code="f">094</subfield>
+          <subfield code="d">d</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="02" fulltag="209B/02">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="02" fulltag="209G/02">
+          <subfield code="a">Institut für Geschichtliche Landeskunde</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="02" fulltag="247C/02">
+          <subfield code="9">460818961</subfield>
+          <subfield code="a">Institut für Geschichtliche Landeskunde an der Universität Mainz e.V., Bibliothek</subfield>
+          <subfield code="b">77/094</subfield>
+          <subfield code="c">651094-2</subfield>
+          <subfield code="h">DE-77-094</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nn</subfield>
+        </datafield>
+      </item>
+    </metadata>
+  </record></collection>

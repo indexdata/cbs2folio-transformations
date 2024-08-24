@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?><collection count="1"><record>
+    <status>upsert</status>
+    <hrid>349041989</hrid>
+    <metadata>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">0077:21-01-15</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Aau</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">349041989</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">3437224840</subfield>
+        <subfield code="f">Gb. : EUR 159.99 (DE)</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">9783437224843</subfield>
+        <subfield code="f">Gb. : EUR 159.99 (DE)</subfield>
+      </datafield>
+      <datafield tag="004L" fulltag="004L">
+        <subfield code="0">9783437224843</subfield>
+      </datafield>
+      <datafield tag="006G" fulltag="006G">
+        <subfield code="0">1055922393</subfield>
+      </datafield>
+      <datafield tag="006T" fulltag="006T">
+        <subfield code="0">14,N35</subfield>
+      </datafield>
+      <datafield tag="006U" fulltag="006U">
+        <subfield code="0">15,A04,0818</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">DNB</subfield>
+        <subfield code="0">1055922393</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2015</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Psychische Erkrankungen</subfield>
+        <subfield code="d">Klinik und Therapie</subfield>
+        <subfield code="h">hrsg. von Michael Berger ... Mit Beitr. von Anja Agyemang ...</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">160240611</subfield>
+        <subfield code="8">Berger, Mathias *1947-*</subfield>
+        <subfield code="B">Hrsg.</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">353122300</subfield>
+        <subfield code="8">Agyemang, Anja</subfield>
+      </datafield>
+      <datafield tag="029F" fulltag="029F">
+        <subfield code="9">209845570</subfield>
+        <subfield code="8">Deutsches Cochrane-Zentrum</subfield>
+      </datafield>
+      <datafield tag="032@" fulltag="032@">
+        <subfield code="a">5., vollst. neu bearb. Aufl. mit umfangreichen Erg. auf der Online-Plattform</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">München</subfield>
+        <subfield code="n">Elsevier, Urban &amp; Fischer</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">XXV, 906 S.</subfield>
+      </datafield>
+      <datafield tag="034I" fulltag="034I">
+        <subfield code="a">276 mm x 213 mm</subfield>
+      </datafield>
+      <datafield tag="034M" fulltag="034M">
+        <subfield code="a">Ill., graph. Darst.</subfield>
+      </datafield>
+      <datafield tag="101B" fulltag="101B">
+        <subfield code="0">28-10-14</subfield>
+        <subfield code="t">09:24:20.000</subfield>
+      </datafield>
+      <datafield tag="101C" fulltag="101C">
+        <subfield code="0">28-10-14</subfield>
+      </datafield>
+      <datafield tag="101U" fulltag="101U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="145S" occurrence="01" fulltag="145S/01">
+        <subfield code="a">750zb</subfield>
+      </datafield>
+      <datafield tag="145S" occurrence="02" fulltag="145S/02">
+        <subfield code="a">250zb</subfield>
+      </datafield>
+      <item epn="748578072">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:28:22.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="01" fulltag="201C/01">
+          <subfield code="0">21-01-15</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">748578072</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">21-01-15</subfield>
+          <subfield code="b">zu</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">MED P 1200</subfield>
+          <subfield code="f">000</subfield>
+          <subfield code="d">s</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="01" fulltag="209C/01">
+          <subfield code="a">15/ACQ</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">16099859</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">LESESAAL</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="01" fulltag="247C/01">
+          <subfield code="9">102599602</subfield>
+          <subfield code="a">Universität Mainz, Zentralbibliothek</subfield>
+          <subfield code="b">77</subfield>
+          <subfield code="c">651000-0</subfield>
+          <subfield code="h">DE-77</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
+        </datafield>
+      </item>
+      <item epn="748578080">
+        <datafield tag="201B" occurrence="02" fulltag="201B/02">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:28:22.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="02" fulltag="201C/02">
+          <subfield code="0">21-01-15</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="02" fulltag="201U/02">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="02" fulltag="203@/02">
+          <subfield code="0">748578080</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="02" fulltag="208@/02">
+          <subfield code="a">21-01-15</subfield>
+          <subfield code="b">mu</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="02" fulltag="209A/02">
+          <subfield code="e">3</subfield>
+          <subfield code="a">23M 010,5.Aufl.</subfield>
+          <subfield code="f">000</subfield>
+          <subfield code="d">c</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="02" fulltag="209B/02">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="02" fulltag="209G/02">
+          <subfield code="a">15879231 (1)</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="02" fulltag="209G/02">
+          <subfield code="a">15879190 (2)</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="02" fulltag="209G/02">
+          <subfield code="a">15879152 (3)</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="02" fulltag="209G/02">
+          <subfield code="a">LBS</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="02" fulltag="247C/02">
+          <subfield code="9">102599602</subfield>
+          <subfield code="a">Universität Mainz, Zentralbibliothek</subfield>
+          <subfield code="b">77</subfield>
+          <subfield code="c">651000-0</subfield>
+          <subfield code="h">DE-77</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
+        </datafield>
+      </item>
+      <item epn="748577718">
+        <datafield tag="201B" occurrence="03" fulltag="201B/03">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:28:23.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="03" fulltag="201C/03">
+          <subfield code="0">21-01-15</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="03" fulltag="201U/03">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="03" fulltag="203@/03">
+          <subfield code="0">748577718</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="03" fulltag="208@/03">
+          <subfield code="a">21-01-15</subfield>
+          <subfield code="b">mv</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="03" fulltag="209A/03">
+          <subfield code="e">5</subfield>
+          <subfield code="a">41P 082,5.Aufl.</subfield>
+          <subfield code="f">005</subfield>
+          <subfield code="d">c</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="03" fulltag="209B/03">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="03" fulltag="209G/03">
+          <subfield code="a">15879425 (1)</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="03" fulltag="209G/03">
+          <subfield code="a">15878998 (2)</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="03" fulltag="209G/03">
+          <subfield code="a">15879115 (3)</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="03" fulltag="209G/03">
+          <subfield code="a">15879036 (4)</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="03" fulltag="209G/03">
+          <subfield code="a">15879073 (5)</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="03" fulltag="209G/03">
+          <subfield code="a">UM LBS</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="03" fulltag="247C/03">
+          <subfield code="9">103705643</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Universitätsmedizin</subfield>
+          <subfield code="b">77/005</subfield>
+          <subfield code="c">651005-x</subfield>
+          <subfield code="h">DE-77-005</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ln</subfield>
+          <subfield code="f">udi?</subfield>
+          <subfield code="g">udbfsi?</subfield>
+        </datafield>
+      </item>
+      <item epn="743105001">
+        <datafield tag="201B" occurrence="04" fulltag="201B/04">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:28:23.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="04" fulltag="201C/04">
+          <subfield code="0">28-10-14</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="04" fulltag="201U/04">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="04" fulltag="203@/04">
+          <subfield code="0">743105001</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="04" fulltag="208@/04">
+          <subfield code="a">21-01-15</subfield>
+          <subfield code="b">zv</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="04" fulltag="209A/04">
+          <subfield code="a">Psychiatrie 6501</subfield>
+          <subfield code="f">043</subfield>
+          <subfield code="d">s</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="04" fulltag="209B/04">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="04" fulltag="209C/04">
+          <subfield code="a">15/ACQ</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="04" fulltag="209G/04">
+          <subfield code="a">16099847</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="04" fulltag="209G/04">
+          <subfield code="a">Klinik für Psychiatrie und Psychotherapie</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="04" fulltag="247C/04">
+          <subfield code="9">102599955</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Universitätsmedizin, Klinik für Psychiatrie und Psychotherapie</subfield>
+          <subfield code="b">77/043</subfield>
+          <subfield code="c">651043-7</subfield>
+          <subfield code="h">DE-77-043</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
+        </datafield>
+      </item>
+    </metadata>
+  </record></collection>

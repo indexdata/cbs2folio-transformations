@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><collection count="1"><record>
+    <status>upsert</status>
+    <hrid>005807166</hrid>
+    <metadata>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">6050:09-10-15</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Adx</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+        <subfield code="2">rdacontent</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+        <subfield code="b">n</subfield>
+        <subfield code="2">rdamedia</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Band</subfield>
+        <subfield code="b">nc</subfield>
+        <subfield code="2">rdacarrier</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">005807166</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">714164427</subfield>
+      </datafield>
+      <datafield tag="005I" fulltag="005I">
+        <subfield code="0">2363-5428</subfield>
+        <subfield code="f">Marbacher Katalog</subfield>
+      </datafield>
+      <datafield tag="006L" fulltag="006L">
+        <subfield code="i">DNB</subfield>
+        <subfield code="0">980378648</subfield>
+      </datafield>
+      <datafield tag="006U" fulltag="006U">
+        <subfield code="0">08,B35,0443</subfield>
+      </datafield>
+      <datafield tag="006Z" fulltag="006Z">
+        <subfield code="0">15947-5s</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">ZDB</subfield>
+        <subfield code="0">15947-5</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">1980</subfield>
+        <subfield code="n">1980-</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">104628669</subfield>
+        <subfield code="a">Monografische Reihe</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">085724890</subfield>
+        <subfield code="a">Katalog</subfield>
+      </datafield>
+      <datafield tag="018@" fulltag="018@">
+        <subfield code="a">z</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Marbacher Katalog</subfield>
+        <subfield code="h">Deutsche Schiller-Gesellschaft, Marbach am Neckar. Hrsg. vom Deutschen Literaturarchiv Marbach</subfield>
+      </datafield>
+      <datafield tag="031@" fulltag="031@">
+        <subfield code="a">31.1980 -</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Marbach am Neckar</subfield>
+        <subfield code="n">Dt. Schiller-Ges.</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Marbach</subfield>
+        <subfield code="n">Dt. Literaturarchiv</subfield>
+        <subfield code="h">teils</subfield>
+        <subfield code="z">f</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">München</subfield>
+        <subfield code="n">Kösel</subfield>
+        <subfield code="h">teils</subfield>
+        <subfield code="z">f</subfield>
+      </datafield>
+      <datafield tag="039E" fulltag="039E">
+        <subfield code="b">f</subfield>
+        <subfield code="i">Vorg.</subfield>
+        <subfield code="9">008919933</subfield>
+        <subfield code="8">Schiller-Nationalmuseum und Deutsches Literaturarchiv. Sonderausstellungen des Schiller-Nationalmuseums : Katalog</subfield>
+      </datafield>
+      <datafield tag="046D" fulltag="046D">
+        <subfield code="i">Hauptsacht. bis 57.2004</subfield>
+        <subfield code="a">Marbacher Kataloge</subfield>
+      </datafield>
+      <datafield tag="046D" fulltag="046D">
+        <subfield code="i">Nebent. ab 62.2008</subfield>
+        <subfield code="a">Marbacher Kataloge</subfield>
+      </datafield>
+      <datafield tag="046P" fulltag="046P">
+        <subfield code="a">Unter diesem Titel ersch. auch spätere Aufl. einzelner Bd. d. Vorg.; unregelmäßig</subfield>
+      </datafield>
+      <item epn="107913593">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:30:16.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">107913593</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">20-02-97</subfield>
+          <subfield code="b">da</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">!070! 13.1 zur Fortsetzung</subfield>
+          <subfield code="x">09</subfield>
+        </datafield>
+      </item>
+    </metadata>
+  </record></collection>

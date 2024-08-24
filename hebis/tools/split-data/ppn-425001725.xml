@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><collection count="1"><record>
+    <status>upsert</status>
+    <hrid>425001725</hrid>
+    <metadata>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">2077:18-01-18</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Afu</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+        <subfield code="2">rdacontent</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+        <subfield code="b">n</subfield>
+        <subfield code="2">rdamedia</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Band</subfield>
+        <subfield code="b">nc</subfield>
+        <subfield code="2">rdacarrier</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">425001725</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">1019865397</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">9783905816570</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">HEB</subfield>
+        <subfield code="0">425001725</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+        <subfield code="c">chi</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2017</subfield>
+        <subfield code="n">[2017]</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">/ Autoren: Qi Shaoyan, Tan Qiuyu, Übersetzung ins Deutsche und Anpassung an deutschsprachige Lernende: Katrin Zimmermann, Andreas Guder</subfield>
+      </datafield>
+      <datafield tag="028A" fulltag="028A">
+        <subfield code="9">37776244X</subfield>
+        <subfield code="8">Qi, Shaoyan</subfield>
+        <subfield code="B">Verfasser</subfield>
+        <subfield code="4">aut</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">377764523</subfield>
+        <subfield code="8">Tan, Qiuyu</subfield>
+        <subfield code="B">Verfasser</subfield>
+        <subfield code="4">aut</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">146653556</subfield>
+        <subfield code="8">Zimmermann, Katrin</subfield>
+        <subfield code="B">Übersetzer</subfield>
+        <subfield code="4">trl</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">147391857</subfield>
+        <subfield code="8">Guder, Andreas *1966-*</subfield>
+        <subfield code="B">Übersetzer</subfield>
+        <subfield code="4">trl</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Zürich</subfield>
+        <subfield code="n">Chinabooks E. Wolf und E. Wu</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">231 Seiten</subfield>
+      </datafield>
+      <datafield tag="034K" fulltag="034K">
+        <subfield code="a">2 Audio-CDs</subfield>
+      </datafield>
+      <datafield tag="034M" fulltag="034M">
+        <subfield code="a">Illustrationen</subfield>
+      </datafield>
+      <datafield tag="036C" fulltag="036C">
+        <subfield code="x">lehrb 14</subfield>
+        <subfield code="a">China entdecken</subfield>
+        <subfield code="l">Lehrbuch 4</subfield>
+      </datafield>
+      <datafield tag="036D" fulltag="036D">
+        <subfield code="9">42129762X</subfield>
+        <subfield code="8">China entdecken</subfield>
+      </datafield>
+      <datafield tag="101B" fulltag="101B">
+        <subfield code="0">18-01-18</subfield>
+        <subfield code="t">11:19:06.000</subfield>
+      </datafield>
+      <datafield tag="101C" fulltag="101C">
+        <subfield code="0">18-01-18</subfield>
+      </datafield>
+      <datafield tag="101U" fulltag="101U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="144Z" occurrence="01" fulltag="144Z/01">
+        <subfield code="a">23 Chinesisch / Lehrbuch</subfield>
+      </datafield>
+      <datafield tag="145Z" occurrence="01" fulltag="145Z/01">
+        <subfield code="a">23 LIN-ZH 08</subfield>
+      </datafield>
+      <item epn="1015406858">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:27:49.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="01" fulltag="201C/01">
+          <subfield code="0">18-01-18</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">1015406858</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">18-01-18</subfield>
+          <subfield code="b">z</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">LIN-ZH 08:8-4,1</subfield>
+          <subfield code="f">019</subfield>
+          <subfield code="d">s</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="01" fulltag="209C/01">
+          <subfield code="a">019 18/31-2</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">90256590</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">Handapparat Chinesisch</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="220C" occurrence="01" fulltag="220C/01">
+          <subfield code="a">300919570023</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="01" fulltag="247C/01">
+          <subfield code="9">403989051</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim</subfield>
+          <subfield code="b">Mz 19</subfield>
+          <subfield code="c">651019-x</subfield>
+          <subfield code="h">DE-Mz19</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
+        </datafield>
+      </item>
+    </metadata>
+  </record></collection>

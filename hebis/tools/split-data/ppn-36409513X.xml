@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?><collection count="1"><record>
+    <status>upsert</status>
+    <hrid>36409513X</hrid>
+    <metadata>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">0066:08-10-15</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">AFu</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">36409513X</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">921250150</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">9783131601810</subfield>
+        <subfield code="f">(Paket) Pp. : EUR 139.00, sfr 231.00 (freier Pr.)</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">9783131395344</subfield>
+        <subfield code="f">Pp. : EUR 59.99 (DE), EUR 61.70 (AT), sfr 69.00 (freier Pr.)</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">3131395346</subfield>
+      </datafield>
+      <datafield tag="004L" fulltag="004L">
+        <subfield code="0">9783131395344</subfield>
+      </datafield>
+      <datafield tag="006G" fulltag="006G">
+        <subfield code="0">1071731866</subfield>
+      </datafield>
+      <datafield tag="006L" fulltag="006L">
+        <subfield code="0">910739662</subfield>
+      </datafield>
+      <datafield tag="006T" fulltag="006T">
+        <subfield code="0">15,N23</subfield>
+      </datafield>
+      <datafield tag="006U" fulltag="006U">
+        <subfield code="0">15,A39,0529</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">DNB</subfield>
+        <subfield code="0">1071731866</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2015</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Innere Organe</subfield>
+        <subfield code="d">122 Tabellen</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">153567686</subfield>
+        <subfield code="8">Schünke, Michael *1950-*</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">145079341</subfield>
+        <subfield code="8">Schulte, Erik *1956-*</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">216200962</subfield>
+        <subfield code="8">Schumacher, Udo *1956-*</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">159689147</subfield>
+        <subfield code="8">Voll, Markus *1961-*</subfield>
+        <subfield code="B">Ill.</subfield>
+      </datafield>
+      <datafield tag="032@" fulltag="032@">
+        <subfield code="a">4., überarb. und erw. Aufl.</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Stuttgart {[u.a.]</subfield>
+        <subfield code="n">Thieme</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">XV, 493 S.</subfield>
+      </datafield>
+      <datafield tag="034M" fulltag="034M">
+        <subfield code="a">zahlr. Ill., graph. Darst.</subfield>
+      </datafield>
+      <datafield tag="036C" fulltag="036C">
+        <subfield code="x">inneor</subfield>
+        <subfield code="a">Prometheus</subfield>
+        <subfield code="d">LernAtlas der Anatomie</subfield>
+        <subfield code="h">Michael Schünke ; Erik Schulte ; Udo Schumacher. Ill. von Markus Voll ...</subfield>
+      </datafield>
+      <datafield tag="036D" fulltag="036D">
+        <subfield code="9">123784344</subfield>
+        <subfield code="8">Prometheus : LernAtlas der Anatomie / Michael Schünke ; Erik Schulte ; Udo Schumacher. Ill. von Markus Voll ...</subfield>
+      </datafield>
+      <datafield tag="101B" fulltag="101B">
+        <subfield code="0">24-09-18</subfield>
+        <subfield code="t">15:18:28.000</subfield>
+      </datafield>
+      <datafield tag="101C" fulltag="101C">
+        <subfield code="0">17-09-15</subfield>
+      </datafield>
+      <datafield tag="101U" fulltag="101U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="145S" occurrence="01" fulltag="145S/01">
+        <subfield code="a">740zb</subfield>
+      </datafield>
+      <item epn="759702675">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:28:07.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="01" fulltag="201C/01">
+          <subfield code="0">17-09-15</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">759702675</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">04-11-15</subfield>
+          <subfield code="b">zv</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">GRUND 245</subfield>
+          <subfield code="f">005</subfield>
+          <subfield code="d">u</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="01" fulltag="209C/01">
+          <subfield code="a">15/2576-2</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">12254595</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">UM FREIHAND</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="01" fulltag="247C/01">
+          <subfield code="9">103705643</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Universitätsmedizin</subfield>
+          <subfield code="b">77/005</subfield>
+          <subfield code="c">651005-x</subfield>
+          <subfield code="h">DE-77-005</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ln</subfield>
+          <subfield code="f">udi?</subfield>
+          <subfield code="g">udbfsi?</subfield>
+        </datafield>
+      </item>
+      <item epn="760509352">
+        <datafield tag="201B" occurrence="02" fulltag="201B/02">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:28:08.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="02" fulltag="201C/02">
+          <subfield code="0">29-09-15</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="02" fulltag="201U/02">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="02" fulltag="203@/02">
+          <subfield code="0">760509352</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="02" fulltag="208@/02">
+          <subfield code="a">29-09-15</subfield>
+          <subfield code="b">zv</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="02" fulltag="209A/02">
+          <subfield code="a">MED B 132/02</subfield>
+          <subfield code="f">005</subfield>
+          <subfield code="d">s</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="02" fulltag="209B/02">
+          <subfield code="a">00020</subfield>
+          <subfield code="x">05</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="02" fulltag="209B/02">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="02" fulltag="209G/02">
+          <subfield code="a">15888517</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="02" fulltag="209G/02">
+          <subfield code="a">UM LESESAAL</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="02" fulltag="247C/02">
+          <subfield code="9">103705643</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Universitätsmedizin</subfield>
+          <subfield code="b">77/005</subfield>
+          <subfield code="c">651005-x</subfield>
+          <subfield code="h">DE-77-005</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ln</subfield>
+          <subfield code="f">udi?</subfield>
+          <subfield code="g">udbfsi?</subfield>
+        </datafield>
+      </item>
+    </metadata>
+  </record></collection>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?><collection count="1"><record>
+    <status>upsert</status>
+    <hrid>056380046</hrid>
+    <metadata>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">0077:11-04-01</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Aau</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">056380046</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">237315326</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">3871731501</subfield>
+        <subfield code="f">Gewebe</subfield>
+      </datafield>
+      <datafield tag="004D" fulltag="004D">
+        <subfield code="0">3928761363</subfield>
+        <subfield code="f">(Museumsausg.)</subfield>
+      </datafield>
+      <datafield tag="006G" fulltag="006G">
+        <subfield code="0">952993996</subfield>
+      </datafield>
+      <datafield tag="006U" fulltag="006U">
+        <subfield code="0">98,A13,1170</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">DNB</subfield>
+        <subfield code="0">952993996</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">1997</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Friedemann Hahn</subfield>
+        <subfield code="d">Bilder über Bilder ; [Neues Museum Weserburg, 12. Dezember 1997 - 1. März 1998 ... Haus am Waldsee, 13. Februar - 28. März 1999]</subfield>
+        <subfield code="h">Neues Museum Weserburg Bremen ...</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">086885847</subfield>
+        <subfield code="8">Hahn, Friedemann *1949-*</subfield>
+        <subfield code="B">Ill.</subfield>
+      </datafield>
+      <datafield tag="029F" fulltag="029F">
+        <subfield code="9">043667910</subfield>
+        <subfield code="8">Neues Museum Weserburg Bremen</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Stuttgart</subfield>
+        <subfield code="n">Radius-Verl.</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">CXXXII S.</subfield>
+      </datafield>
+      <datafield tag="034I" fulltag="034I">
+        <subfield code="a">30 x 35 cm</subfield>
+      </datafield>
+      <datafield tag="034M" fulltag="034M">
+        <subfield code="a">überw. Ill.</subfield>
+      </datafield>
+      <datafield tag="037A" fulltag="037A">
+        <subfield code="a">Literaturverz. S. CXXVIII - CXXXII</subfield>
+      </datafield>
+      <datafield tag="101B" fulltag="101B">
+        <subfield code="0">05-12-02</subfield>
+        <subfield code="t">17:48:08.641</subfield>
+      </datafield>
+      <datafield tag="101C" fulltag="101C">
+        <subfield code="0">11-04-01</subfield>
+      </datafield>
+      <datafield tag="101U" fulltag="101U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="144Z" occurrence="50" fulltag="144Z/50">
+        <subfield code="a">15.5 Hahn, Friedemann</subfield>
+      </datafield>
+      <datafield tag="144Z" occurrence="51" fulltag="144Z/51">
+        <subfield code="a">15.5 Ausstellung, Weserburg, Neues Museum, 12.12.1997-01.03.1998</subfield>
+      </datafield>
+      <datafield tag="144Z" occurrence="52" fulltag="144Z/52">
+        <subfield code="a">15.5 Ausstellung, Lübeck, Overbeck-Gesellschaft, 22.03.-03.05.1998</subfield>
+      </datafield>
+      <datafield tag="144Z" occurrence="53" fulltag="144Z/53">
+        <subfield code="a">15.5 Ausstellung, Lingen, Kunsthalle, 24.05.-17.06.1998</subfield>
+      </datafield>
+      <datafield tag="144Z" occurrence="54" fulltag="144Z/54">
+        <subfield code="a">15.5 Ausstellung, Berlin, Haus am Waldseee, 13.02.-28.03.1999</subfield>
+      </datafield>
+      <item epn="157037657">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:30:06.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="01" fulltag="201C/01">
+          <subfield code="0">11-04-01</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">157037657</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">11-04-01</subfield>
+          <subfield code="b">z</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">MON H 230/4.3</subfield>
+          <subfield code="f">079</subfield>
+          <subfield code="d">d</subfield>
+          <subfield code="h">MON H 230 4 3</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="01" fulltag="209C/01">
+          <subfield code="a">50964</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">14748810</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">Kunstgeschichte</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="01" fulltag="247C/01">
+          <subfield code="9">102600287</subfield>
+          <subfield code="a">Universität Mainz / Bereichsbibliothek Georg Forster-Gebäude / Kunstgeschichte</subfield>
+          <subfield code="b">77/079</subfield>
+          <subfield code="c">651079-6</subfield>
+          <subfield code="h">DE-77-079</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
+        </datafield>
+      </item>
+      <item epn="50276077X">
+        <datafield tag="201B" occurrence="02" fulltag="201B/02">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:30:07.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="02" fulltag="201C/02">
+          <subfield code="0">17-04-07</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="02" fulltag="201U/02">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="02" fulltag="203@/02">
+          <subfield code="0">50276077X</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="02" fulltag="208@/02">
+          <subfield code="a">17-04-07</subfield>
+          <subfield code="b">zwl</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="02" fulltag="209A/02">
+          <subfield code="a">HAHN 32 2.EX.</subfield>
+          <subfield code="f">111</subfield>
+          <subfield code="d">d</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="02" fulltag="209B/02">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="02" fulltag="209C/02">
+          <subfield code="a">07/300-19.1</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="02" fulltag="209G/02">
+          <subfield code="a">Basisklasse</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="02" fulltag="247C/02">
+          <subfield code="9">102600600</subfield>
+          <subfield code="a">Universität Mainz, Kunsthochschule</subfield>
+          <subfield code="b">77/111</subfield>
+          <subfield code="c">651111-9</subfield>
+          <subfield code="h">DE-77-111</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
+        </datafield>
+      </item>
+      <item epn="619731249">
+        <datafield tag="201B" occurrence="03" fulltag="201B/03">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:30:07.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="03" fulltag="201C/03">
+          <subfield code="0">09-05-11</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="03" fulltag="201U/03">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="03" fulltag="203@/03">
+          <subfield code="0">619731249</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="03" fulltag="208@/03">
+          <subfield code="a">09-05-11</subfield>
+          <subfield code="b">z</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="03" fulltag="209A/03">
+          <subfield code="a">HAHN 32 1.EX.</subfield>
+          <subfield code="f">111</subfield>
+          <subfield code="d">d</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="03" fulltag="209B/03">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="03" fulltag="209C/03">
+          <subfield code="a">07/300-19.2</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="03" fulltag="247C/03">
+          <subfield code="9">102600600</subfield>
+          <subfield code="a">Universität Mainz, Kunsthochschule</subfield>
+          <subfield code="b">77/111</subfield>
+          <subfield code="c">651111-9</subfield>
+          <subfield code="h">DE-77-111</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
+        </datafield>
+      </item>
+    </metadata>
+  </record></collection>

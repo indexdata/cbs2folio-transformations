@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?><collection count="1"><record>
+    <status>upsert</status>
+    <hrid>421352841</hrid>
+    <metadata>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">2077:20-11-17</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Aau</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+        <subfield code="2">rdacontent</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+        <subfield code="b">n</subfield>
+        <subfield code="2">rdamedia</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Band</subfield>
+        <subfield code="b">nc</subfield>
+        <subfield code="2">rdacarrier</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">421352841</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">909077696</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">HEB</subfield>
+        <subfield code="0">421352841</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">eng</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2014</subfield>
+        <subfield code="n">2014</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Interpreting - guidelines for community interpreting</subfield>
+        <subfield code="h">ISO</subfield>
+      </datafield>
+      <datafield tag="021F" fulltag="021F">
+        <subfield code="a">Interprétation - lignes directorices pour l'interprétation en milieu social</subfield>
+        <subfield code="h">ISO</subfield>
+      </datafield>
+      <datafield tag="027A" fulltag="027A">
+        <subfield code="a">Guidelines for community interpreting</subfield>
+      </datafield>
+      <datafield tag="027A" fulltag="027A">
+        <subfield code="a">Interprétation</subfield>
+      </datafield>
+      <datafield tag="027A" fulltag="027A">
+        <subfield code="a">ISO 13611</subfield>
+      </datafield>
+      <datafield tag="029F" fulltag="029F">
+        <subfield code="9">04191242X</subfield>
+        <subfield code="8">Internationale Organisation für Normung</subfield>
+        <subfield code="B">Herausgebendes Organ</subfield>
+        <subfield code="4">isb</subfield>
+      </datafield>
+      <datafield tag="032@" fulltag="032@">
+        <subfield code="a">First edition</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Geneva</subfield>
+        <subfield code="n">ISO</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">v, 15 Seiten</subfield>
+      </datafield>
+      <datafield tag="034I" fulltag="034I">
+        <subfield code="a">30 cm.</subfield>
+      </datafield>
+      <datafield tag="034M" fulltag="034M">
+        <subfield code="a">Illustrationen</subfield>
+      </datafield>
+      <datafield tag="036E" fulltag="036E">
+        <subfield code="a">International standard</subfield>
+        <subfield code="l">ISO 13611</subfield>
+      </datafield>
+      <datafield tag="037A" fulltag="037A">
+        <subfield code="a">"Reference number: ISO 13611:2014(E)</subfield>
+      </datafield>
+      <datafield tag="037A" fulltag="037A">
+        <subfield code="a">"The committee responsible for this document is ISO/TC 37, terminology and other languages and content resources, Subcommittee SC 5, Translation, interpresting and related technology"--Foreword</subfield>
+      </datafield>
+      <datafield tag="037A" fulltag="037A">
+        <subfield code="a">Includes bibliographical references (page 15)</subfield>
+      </datafield>
+      <datafield tag="101B" fulltag="101B">
+        <subfield code="0">21-11-17</subfield>
+        <subfield code="t">08:50:25.000</subfield>
+      </datafield>
+      <datafield tag="101C" fulltag="101C">
+        <subfield code="0">20-11-17</subfield>
+      </datafield>
+      <datafield tag="101U" fulltag="101U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="144Z" occurrence="01" fulltag="144Z/01">
+        <subfield code="a">23 Norm</subfield>
+      </datafield>
+      <datafield tag="144Z" occurrence="02" fulltag="144Z/02">
+        <subfield code="a">23 Dolmetschen / Gemeinwesen</subfield>
+      </datafield>
+      <datafield tag="145S" occurrence="01" fulltag="145S/01">
+        <subfield code="a">be0</subfield>
+      </datafield>
+      <datafield tag="145Z" occurrence="01" fulltag="145Z/01">
+        <subfield code="a">23 TRA-ALLG 65</subfield>
+      </datafield>
+      <item epn="1011757508">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:28:24.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="01" fulltag="201C/01">
+          <subfield code="0">20-11-17</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">1011757508</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">20-11-17</subfield>
+          <subfield code="b">z</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">NORM 25</subfield>
+          <subfield code="f">019</subfield>
+          <subfield code="d">g</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="01" fulltag="209C/01">
+          <subfield code="a">17/343</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">90252481</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">Aufsicht</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="220C" occurrence="01" fulltag="220C/01">
+          <subfield code="a">300916876023</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="01" fulltag="247C/01">
+          <subfield code="9">403989051</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim</subfield>
+          <subfield code="b">Mz 19</subfield>
+          <subfield code="c">651019-x</subfield>
+          <subfield code="h">DE-Mz19</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
+        </datafield>
+      </item>
+    </metadata>
+  </record></collection>

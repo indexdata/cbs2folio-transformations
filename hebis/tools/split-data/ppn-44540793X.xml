@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><collection count="1"><record>
+    <status>upsert</status>
+    <hrid>44540793X</hrid>
+    <metadata>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">0077:18-02-19</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Acu</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">44540793X</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">HEB</subfield>
+        <subfield code="0">44540793X</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">eng</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2016</subfield>
+        <subfield code="b">2017</subfield>
+        <subfield code="n">[2016-2017]</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Welcome to Zamrock!</subfield>
+        <subfield code="d">how Zambia's liberation lead to a rock revolution, 1972-1977</subfield>
+        <subfield code="h">produced by Eothen Alapatt. Liner notes by Eothen Alapatt and Leonard Koloko</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">445407565</subfield>
+        <subfield code="8">Alapatt, Eothen</subfield>
+        <subfield code="B">Produzent</subfield>
+        <subfield code="4">pro</subfield>
+        <subfield code="B">Verfasser von ergänzendem Text</subfield>
+        <subfield code="4">wst</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">166776890</subfield>
+        <subfield code="8">Koloko, Leonard</subfield>
+        <subfield code="B">Verfasser von ergänzendem Text</subfield>
+        <subfield code="4">wst</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Los Angeles</subfield>
+        <subfield code="n">Now-Again Records</subfield>
+      </datafield>
+      <datafield tag="033E" fulltag="033E">
+        <subfield code="p">[Malden, MA]</subfield>
+        <subfield code="n">Traffic Entertainment Group</subfield>
+      </datafield>
+      <datafield tag="037A" fulltag="037A">
+        <subfield code="a">Buchtitel mit CDs</subfield>
+      </datafield>
+      <item epn="1046270036">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:28:01.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="01" fulltag="201C/01">
+          <subfield code="0">18-02-19</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">1046270036</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">18-02-19</subfield>
+          <subfield code="b">dummy</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+      </item>
+    </metadata>
+  </record></collection>

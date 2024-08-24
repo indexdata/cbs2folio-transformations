@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?><collection count="1"><record>
+    <status>upsert</status>
+    <hrid>203441656</hrid>
+    <metadata>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">2077:24-09-08</subfield>
+      </datafield>
+      <datafield tag="013H" fulltag="013H">
+        <subfield code="a">soto</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Bfu</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">203441656</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">613003851</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">HEB</subfield>
+        <subfield code="0">203441656</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">gre</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2004</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">20330683X</subfield>
+        <subfield code="8">Demirē-Prodromidu, Helenē</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">203307348</subfield>
+        <subfield code="8">Kamarianu-Basileiu, Rula</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Athēna</subfield>
+        <subfield code="n">Metaichmio</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">1 Audio-CD</subfield>
+      </datafield>
+      <datafield tag="034M" fulltag="034M">
+        <subfield code="a">12 cm</subfield>
+      </datafield>
+      <datafield tag="036C" fulltag="036C">
+        <subfield code="x">cd</subfield>
+        <subfield code="a">Nea hellēnika gia metanastes, palinnostuntes, prosphyges kai xenus</subfield>
+        <subfield code="n">Medienkombination</subfield>
+        <subfield code="d">epipedo 3 ; ... kai kalē epitychia</subfield>
+        <subfield code="h">Helenē Demirē-Prodromidu, Rula Kamarianu-Basileiu</subfield>
+        <subfield code="l">CD</subfield>
+      </datafield>
+      <datafield tag="036D" fulltag="036D">
+        <subfield code="9">203441354</subfield>
+        <subfield code="8">Nea hellēnika gia metanastes, palinnostuntes, prosphyges kai xenus : epipedo 3 ; ... kai kalē epitychia / Helenē Demirē-Prodromidu, Rula Kamarianu-Basileiu</subfield>
+      </datafield>
+      <datafield tag="101B" fulltag="101B">
+        <subfield code="0">03-11-17</subfield>
+        <subfield code="t">13:21:41.000</subfield>
+      </datafield>
+      <datafield tag="101C" fulltag="101C">
+        <subfield code="0">24-09-08</subfield>
+      </datafield>
+      <datafield tag="101U" fulltag="101U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="144Z" occurrence="01" fulltag="144Z/01">
+        <subfield code="a">23 Neugriechisch / Lehrmittel</subfield>
+      </datafield>
+      <datafield tag="145Z" occurrence="01" fulltag="145Z/01">
+        <subfield code="a">23 LIN-GR 08.80</subfield>
+      </datafield>
+      <item epn="1010571915">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:29:07.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="01" fulltag="201C/01">
+          <subfield code="0">24-09-08</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">1010571915</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">24-09-08</subfield>
+          <subfield code="b">z</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">83000099</subfield>
+          <subfield code="f">019</subfield>
+          <subfield code="d">s</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">830000997023</subfield>
+          <subfield code="x">09</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="01" fulltag="209C/01">
+          <subfield code="a">08/570-7</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">Handapparat Griechisch</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="220C" occurrence="01" fulltag="220C/01">
+          <subfield code="a">830000997023</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="01" fulltag="247C/01">
+          <subfield code="9">403989051</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim</subfield>
+          <subfield code="b">Mz 19</subfield>
+          <subfield code="c">651019-x</subfield>
+          <subfield code="h">DE-Mz19</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
+        </datafield>
+      </item>
+      <item epn="617420335">
+        <datafield tag="201B" occurrence="02" fulltag="201B/02">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:29:08.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="02" fulltag="201C/02">
+          <subfield code="0">21-04-11</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="02" fulltag="201U/02">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="02" fulltag="203@/02">
+          <subfield code="0">617420335</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="02" fulltag="208@/02">
+          <subfield code="a">25-02-13</subfield>
+          <subfield code="b">zim</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="02" fulltag="209A/02">
+          <subfield code="a">077 CD 28</subfield>
+          <subfield code="f">127</subfield>
+          <subfield code="d">d</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="02" fulltag="209A/02">
+          <subfield code="a">FB 15.3 077 CD 28</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="02" fulltag="209A/02">
+          <subfield code="a">R. 03-552</subfield>
+          <subfield code="x">02</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="02" fulltag="209A/02">
+          <subfield code="a">NGR l 212-10</subfield>
+          <subfield code="x">09</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="02" fulltag="209B/02">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="02" fulltag="209C/02">
+          <subfield code="a">12/1126-2 Klassische Philologie</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="02" fulltag="209G/02">
+          <subfield code="a">76965303</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="02" fulltag="209G/02">
+          <subfield code="a">Klassische Philologie / Separiert</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="237A" occurrence="02" fulltag="237A/02">
+          <subfield code="a">CD bestellen - Standort Raum 03-552</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="02" fulltag="247C/02">
+          <subfield code="9">428727336</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Philosophicum, separierte Bestände</subfield>
+          <subfield code="b">77/127</subfield>
+          <subfield code="c">651127-2</subfield>
+          <subfield code="h">DE-77-127</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nn</subfield>
+        </datafield>
+      </item>
+    </metadata>
+  </record></collection>

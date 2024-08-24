@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><collection count="1"><record>
+    <status>upsert</status>
+    <hrid>057504466</hrid>
+    <metadata>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">0034:25-09-00</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Aau</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">057504466</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">614254752</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">377570566X</subfield>
+        <subfield code="f">Gewebe : DM 128.00</subfield>
+      </datafield>
+      <datafield tag="006G" fulltag="006G">
+        <subfield code="0">946437211</subfield>
+      </datafield>
+      <datafield tag="006U" fulltag="006U">
+        <subfield code="0">96,A07,1167</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">DNB</subfield>
+        <subfield code="0">946437211</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">1995</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Claes Oldenburg: Eine Anthologie</subfield>
+        <subfield code="d">[zu der Ausstellung Claes Oldenburg: Eine Anthologie, National Gallery of Art, Washington, D.C., 12. Februar - 7. Mai 1995, The Museum of Contemporary Art, Los Angeles, 2. Juli - 3. September 1995, Solomon R. Guggenheim Museum, New York, 6. Oktober 1995 - 21. Januar 1996 ...]</subfield>
+        <subfield code="h">Guggenheim Museum. [Übers. Marga Taylor ...]</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">086930788</subfield>
+        <subfield code="8">Oldenburg, Claes *1929-2022*</subfield>
+        <subfield code="B">Ill.</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">293021228</subfield>
+        <subfield code="8">Taylor, Marga</subfield>
+        <subfield code="B">Übers.</subfield>
+      </datafield>
+      <datafield tag="029F" fulltag="029F">
+        <subfield code="9">041886259</subfield>
+        <subfield code="8">National Gallery of Art (Washington, DC)</subfield>
+      </datafield>
+      <datafield tag="029F" fulltag="029F">
+        <subfield code="9">085212636</subfield>
+        <subfield code="8">Solomon R. Guggenheim Museum</subfield>
+      </datafield>
+      <datafield tag="029F" fulltag="029F">
+        <subfield code="9">049790870</subfield>
+        <subfield code="8">Ausstellung Claes Oldenburg: Eine Anthologie (1995 - 1996 : Washington, DC u.a.)</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Ostfildern bei Stuttgart</subfield>
+        <subfield code="n">Hatje</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">575 S.</subfield>
+      </datafield>
+      <datafield tag="034I" fulltag="034I">
+        <subfield code="a">32 cm</subfield>
+      </datafield>
+      <datafield tag="034M" fulltag="034M">
+        <subfield code="a">überw. Ill.</subfield>
+      </datafield>
+      <item epn="595201970">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:30:10.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="01" fulltag="201C/01">
+          <subfield code="0">22-06-10</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">595201970</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">22-06-10</subfield>
+          <subfield code="b">z</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">OLD 4 1. EX. </subfield>
+          <subfield code="f">111</subfield>
+          <subfield code="d">d</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="01" fulltag="209C/01">
+          <subfield code="a">01/67-20</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="01" fulltag="247C/01">
+          <subfield code="9">102600600</subfield>
+          <subfield code="a">Universität Mainz, Kunsthochschule</subfield>
+          <subfield code="b">77/111</subfield>
+          <subfield code="c">651111-9</subfield>
+          <subfield code="h">DE-77-111</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
+        </datafield>
+      </item>
+      <item epn="595202039">
+        <datafield tag="201B" occurrence="02" fulltag="201B/02">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:30:10.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="02" fulltag="201C/02">
+          <subfield code="0">22-06-10</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="02" fulltag="201U/02">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="02" fulltag="203@/02">
+          <subfield code="0">595202039</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="02" fulltag="208@/02">
+          <subfield code="a">22-06-10</subfield>
+          <subfield code="b">z</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="02" fulltag="209A/02">
+          <subfield code="a">OLD 4 2.EX. </subfield>
+          <subfield code="f">111</subfield>
+          <subfield code="d">d</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="02" fulltag="209B/02">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="02" fulltag="209C/02">
+          <subfield code="a">01/96-8</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="02" fulltag="209G/02">
+          <subfield code="a">Basisklasse</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="02" fulltag="247C/02">
+          <subfield code="9">102600600</subfield>
+          <subfield code="a">Universität Mainz, Kunsthochschule</subfield>
+          <subfield code="b">77/111</subfield>
+          <subfield code="c">651111-9</subfield>
+          <subfield code="h">DE-77-111</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
+        </datafield>
+      </item>
+    </metadata>
+  </record></collection>

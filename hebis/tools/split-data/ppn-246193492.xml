@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><collection count="1"><record>
+    <status>upsert</status>
+    <hrid>246193492</hrid>
+    <metadata>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">0077:01-08-11</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Sau</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">246193492</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">744310973</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">9789984490229</subfield>
+      </datafield>
+      <datafield tag="006G" fulltag="006G">
+        <subfield code="0">1006652868</subfield>
+      </datafield>
+      <datafield tag="006U" fulltag="006U">
+        <subfield code="0">11,B18,0908</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">DNB</subfield>
+        <subfield code="0">1006652868</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">mul</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2010</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Rižskie starověry</subfield>
+        <subfield code="h">Latvijas Vecticībnieku Biedrība, Arhiv̄s. Teksta autors Arnolds Podmazovs</subfield>
+      </datafield>
+      <datafield tag="021F" fulltag="021F">
+        <subfield code="a">Rīgas vecticībnieki</subfield>
+      </datafield>
+      <datafield tag="021F" fulltag="021F">
+        <subfield code="a">Die @Altgläubigen von Riga</subfield>
+        <subfield code="h">Latvijas Vecticībnieku Biedrība, Arhiv̄s. Teksta autors Arnolds Podmazovs</subfield>
+      </datafield>
+      <datafield tag="027A" fulltag="027A">
+        <subfield code="a">Rīgas vecticībnieki</subfield>
+      </datafield>
+      <datafield tag="027A" fulltag="027A">
+        <subfield code="a">Die @Altgläubigen von Riga</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">245804714</subfield>
+        <subfield code="8">Podmazov, Arnolʹd A.</subfield>
+      </datafield>
+      <datafield tag="029F" fulltag="029F">
+        <subfield code="9">245802797</subfield>
+        <subfield code="8">Latvijas Vecticībnieku Biedrība. Arhiv̄</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">[Riga]</subfield>
+        <subfield code="n">Latvijas Vecticībnieku Biedrība, Arhiv̄s</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">CD-ROM</subfield>
+      </datafield>
+      <datafield tag="034I" fulltag="034I">
+        <subfield code="a">12 cm, in Behältnis 19 x 14 x 1 cm</subfield>
+      </datafield>
+      <datafield tag="037A" fulltag="037A">
+        <subfield code="a">Titel auf dem Behältnis</subfield>
+      </datafield>
+      <datafield tag="046L" fulltag="046L">
+        <subfield code="a">Text dt., engl.,lett. und russ.</subfield>
+      </datafield>
+      <item epn="62576157X">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:28:37.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="01" fulltag="201C/01">
+          <subfield code="0">01-08-11</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">62576157X</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">01-08-11</subfield>
+          <subfield code="b">zis</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">092 CD 8</subfield>
+          <subfield code="f">127</subfield>
+          <subfield code="d">d</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">FB 16.6 092 CD 8</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="01" fulltag="209C/01">
+          <subfield code="a">108/11</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">76874073</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">Osteuropäische Geschichte / Separiert</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="237A" occurrence="01" fulltag="237A/01">
+          <subfield code="a">CD bestellen</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="01" fulltag="247C/01">
+          <subfield code="9">428727336</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Philosophicum, separierte Bestände</subfield>
+          <subfield code="b">77/127</subfield>
+          <subfield code="c">651127-2</subfield>
+          <subfield code="h">DE-77-127</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nn</subfield>
+        </datafield>
+      </item>
+    </metadata>
+  </record></collection>

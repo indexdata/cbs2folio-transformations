@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><collection count="1"><record>
+    <status>upsert</status>
+    <hrid>235749702</hrid>
+    <metadata>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">0030:26-04-11</subfield>
+      </datafield>
+      <datafield tag="013H" fulltag="013H">
+        <subfield code="a">muno</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Afu</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">235749702</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">1595515038</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">9781595515032</subfield>
+      </datafield>
+      <datafield tag="007D" fulltag="007D">
+        <subfield code="i">Verlags-​ und Firmenbestellnummer</subfield>
+        <subfield code="0">CMM 112-1</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">HEB</subfield>
+        <subfield code="0">235749702</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">zxx</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2011</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Il @primo libro de motetti a due, tre, quattro, cinque &amp; otto voci con una Messa á quattro (1610)</subfield>
+        <subfield code="h">ed. Dennis Collins ...</subfield>
+      </datafield>
+      <datafield tag="028A" fulltag="028A">
+        <subfield code="9">087059215</subfield>
+        <subfield code="8">Grandi, Alessandro *1586-1630*</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">200747533</subfield>
+        <subfield code="8">Kurtzman, Jeffrey G. *1940-*</subfield>
+        <subfield code="B">Hrsg.</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">142880663</subfield>
+        <subfield code="8">Collins, Dennis</subfield>
+        <subfield code="B">Hrsg.</subfield>
+      </datafield>
+      <datafield tag="032@" fulltag="032@">
+        <subfield code="a">[Partitur]</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Middleton, Wisc. {[u.a.]</subfield>
+        <subfield code="n">American Institute of Musicology</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">LVI, 137 S.</subfield>
+      </datafield>
+      <datafield tag="034M" fulltag="034M">
+        <subfield code="a">Faks.</subfield>
+      </datafield>
+      <datafield tag="036C" fulltag="036C">
+        <subfield code="x">11</subfield>
+        <subfield code="a">Alessandro Grandi Opera omnia</subfield>
+        <subfield code="n">Musikdruck</subfield>
+        <subfield code="h">Jeffrey Kurtzman, ed. generalis</subfield>
+        <subfield code="l">1</subfield>
+      </datafield>
+      <datafield tag="036D" fulltag="036D">
+        <subfield code="9">23574946X</subfield>
+        <subfield code="8">Alessandro Grandi Opera omnia / Jeffrey Kurtzman, ed. generalis</subfield>
+      </datafield>
+      <datafield tag="036E" fulltag="036E">
+        <subfield code="a">Corpvs mensvrabilis mvsicae</subfield>
+        <subfield code="l">112,1</subfield>
+      </datafield>
+      <datafield tag="046L" fulltag="046L">
+        <subfield code="a">Gesangstexte in lat., Einf. u. Krit. Ber. in engl.</subfield>
+      </datafield>
+      <item epn="618131817">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:28:35.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="01" fulltag="201C/01">
+          <subfield code="0">29-04-11</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">618131817</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">29-04-11</subfield>
+          <subfield code="b">zkm</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">H gr 20.00 00 01</subfield>
+          <subfield code="f">091</subfield>
+          <subfield code="d">d</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">FB 07 H gr 20.00 00 01</subfield>
+          <subfield code="x">09</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="01" fulltag="209C/01">
+          <subfield code="a">11 N 70</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">78517992</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">Musikwissenschaft</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="01" fulltag="247C/01">
+          <subfield code="9">102600406</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Philosophicum, Standort Musikwissenschaft</subfield>
+          <subfield code="b">77/091</subfield>
+          <subfield code="c">651091-7</subfield>
+          <subfield code="h">DE-77-091</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
+        </datafield>
+      </item>
+    </metadata>
+  </record></collection>

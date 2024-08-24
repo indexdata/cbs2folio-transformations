@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><collection count="1"><record>
+    <status>upsert</status>
+    <hrid>123543142</hrid>
+    <metadata>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">4506:02-08-17</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Aav</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+        <subfield code="2">rdacontent</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+        <subfield code="b">n</subfield>
+        <subfield code="2">rdamedia</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Band</subfield>
+        <subfield code="b">nc</subfield>
+        <subfield code="2">rdacarrier</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">123543142</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">177055754</subfield>
+      </datafield>
+      <datafield tag="006M" fulltag="006M">
+        <subfield code="0">VD18 13892185</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">HEB</subfield>
+        <subfield code="0">123543142</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">1793</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Geographisch-historisch- und statistische Beschreibung von Ungarn und dem Banat, Sklavonien und Syrmien, Kroazien, Dalmazien, Galizien und Lodomerien, der Bukowina und Siebenbürgen</subfield>
+        <subfield code="d">aus gedruckten und handschriftlichen Urkunden</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">354445413</subfield>
+        <subfield code="8">Mizler, Johann Martin Friedrich</subfield>
+        <subfield code="B">Drucker</subfield>
+        <subfield code="4">prt</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Schwabach</subfield>
+        <subfield code="p">Leipzig</subfield>
+        <subfield code="n">bey Johann Martin Friedrich Mizler, Buchdrucker und Buchhändler</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">4 ungezählte Seiten, 500 Seiten, das heißt 516 Seiten</subfield>
+      </datafield>
+      <datafield tag="034I" fulltag="034I">
+        <subfield code="a">8°</subfield>
+      </datafield>
+      <datafield tag="037A" fulltag="037A">
+        <subfield code="a">Erschien auch als Neue Sammlung geographisch-historisch-statistischer Schriften ; Bd. 12</subfield>
+      </datafield>
+      <datafield tag="037A" fulltag="037A">
+        <subfield code="a">Paginierfehler: Seite 155 als Seite 135 paginiert, auf Seite 384 folgt Seite 386, auf Seite 496 folgt Seite 481 (Seite 497 als Seite 481 paginiert, Seite 498 als Seite 482 usw.)</subfield>
+      </datafield>
+      <datafield tag="046L" fulltag="046L">
+        <subfield code="a">In Fraktur</subfield>
+      </datafield>
+      <datafield tag="047C" fulltag="047C">
+        <subfield code="a">Slawonien Kroatien Dalmatien</subfield>
+      </datafield>
+      <item epn="219180326">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:30:38.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="01" fulltag="201C/01">
+          <subfield code="0">09-09-04</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">219180326</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">09-09-04</subfield>
+          <subfield code="b">r</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">092 UUc 2</subfield>
+          <subfield code="f">127</subfield>
+          <subfield code="d">i</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">FB 16.6 092 UUc 2</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">UUc 2</subfield>
+          <subfield code="x">02</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">R. 00-553</subfield>
+          <subfield code="x">09</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="01" fulltag="209C/01">
+          <subfield code="a">2218/57</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">Osteuropäische Geschichte / Separiert</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="01" fulltag="247C/01">
+          <subfield code="9">428727336</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Philosophicum, separierte Bestände</subfield>
+          <subfield code="b">77/127</subfield>
+          <subfield code="c">651127-2</subfield>
+          <subfield code="h">DE-77-127</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nn</subfield>
+        </datafield>
+      </item>
+    </metadata>
+  </record></collection>

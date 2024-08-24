@@ -96,46 +96,6 @@
       <datafield tag="145S" occurrence="01" fulltag="145S/01">
         <subfield code="a">740zb</subfield>
       </datafield>
-      <item epn="1104231174">
-        <datafield tag="201B" occurrence="01" fulltag="201B/01">
-          <subfield code="0">12-06-23</subfield>
-          <subfield code="t">10:27:05.000</subfield>
-        </datafield>
-        <datafield tag="201C" occurrence="01" fulltag="201C/01">
-          <subfield code="0">06-05-20</subfield>
-        </datafield>
-        <datafield tag="201U" occurrence="01" fulltag="201U/01">
-          <subfield code="0">utf8</subfield>
-        </datafield>
-        <datafield tag="203@" occurrence="01" fulltag="203@/01">
-          <subfield code="0">1104231174</subfield>
-        </datafield>
-        <datafield tag="208@" occurrence="01" fulltag="208@/01">
-          <subfield code="a">06-05-20</subfield>
-          <subfield code="b">zu</subfield>
-        </datafield>
-        <datafield tag="209A" occurrence="01" fulltag="209A/01">
-          <subfield code="a">MED A 954-9</subfield>
-          <subfield code="f">000</subfield>
-          <subfield code="d">s</subfield>
-          <subfield code="x">00</subfield>
-        </datafield>
-        <datafield tag="209G" occurrence="01" fulltag="209G/01">
-          <subfield code="a">LESESAAL</subfield>
-          <subfield code="x">01</subfield>
-        </datafield>
-        <datafield tag="247C" occurrence="01" fulltag="247C/01">
-          <subfield code="9">102599602</subfield>
-          <subfield code="a">Universität Mainz, Zentralbibliothek</subfield>
-          <subfield code="b">77</subfield>
-          <subfield code="c">651000-0</subfield>
-          <subfield code="h">DE-77</subfield>
-          <subfield code="d">HES</subfield>
-          <subfield code="e">ld</subfield>
-          <subfield code="f">ubi?</subfield>
-          <subfield code="g">ubfsi?</subfield>
-        </datafield>
-      </item>
       <item epn="1104231182">
         <datafield tag="201B" occurrence="02" fulltag="201B/02">
           <subfield code="0">12-06-23</subfield>

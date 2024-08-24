@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?><collection count="1"><record>
+    <status>upsert</status>
+    <hrid>426757319</hrid>
+    <metadata>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">0017:28-02-18</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">AFu</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+        <subfield code="2">rdacontent</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+        <subfield code="b">n</subfield>
+        <subfield code="2">rdamedia</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Band</subfield>
+        <subfield code="b">nc</subfield>
+        <subfield code="2">rdacarrier</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">426757319</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">1027470477</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">9783161502965</subfield>
+        <subfield code="f">Leinen</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">9783161502989</subfield>
+        <subfield code="f">Hldr</subfield>
+      </datafield>
+      <datafield tag="004L" fulltag="004L">
+        <subfield code="0">9783161502965</subfield>
+      </datafield>
+      <datafield tag="006G" fulltag="006G">
+        <subfield code="0">1058925733</subfield>
+      </datafield>
+      <datafield tag="006T" fulltag="006T">
+        <subfield code="0">14,N41</subfield>
+      </datafield>
+      <datafield tag="006U" fulltag="006U">
+        <subfield code="0">19,A21,1001</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">GBV</subfield>
+        <subfield code="0">1014857449</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2018</subfield>
+        <subfield code="n">[2018]</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Verstehende Soziologie und Werturteilsfreiheit</subfield>
+        <subfield code="d">Schriften und Reden 1908-1917</subfield>
+        <subfield code="h">Max Weber ; herausgegeben von Johannes Weiß in Zusammenarbeit mit Sabine Frommer</subfield>
+      </datafield>
+      <datafield tag="028A" fulltag="028A">
+        <subfield code="9">086970682</subfield>
+        <subfield code="8">Weber, Max *1864-1920*</subfield>
+        <subfield code="B">Verfasser</subfield>
+        <subfield code="4">aut</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">152268499</subfield>
+        <subfield code="8">Weiß, Johannes *1941-*</subfield>
+        <subfield code="B">Herausgeber</subfield>
+        <subfield code="4">edt</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">378258222</subfield>
+        <subfield code="8">Frommer, Sabine</subfield>
+        <subfield code="B">Herausgeber</subfield>
+        <subfield code="4">edt</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Tübingen</subfield>
+        <subfield code="n">J.C.B. Mohr (Paul Siebeck)</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">XV, 648 Seiten</subfield>
+      </datafield>
+      <datafield tag="034I" fulltag="034I">
+        <subfield code="a">24 cm</subfield>
+      </datafield>
+      <datafield tag="034M" fulltag="034M">
+        <subfield code="a">Illustrationen</subfield>
+      </datafield>
+      <datafield tag="036C" fulltag="036C">
+        <subfield code="a">Gesamtausgabe</subfield>
+        <subfield code="h">Max Weber ; im Auftrag der Kommission für Sozial- und Wirtschaftsgeschichte der Bayerischen Akademie der Wissenschaften ; herausgegeben von Horst Baier [und 5 weiteren]</subfield>
+      </datafield>
+      <datafield tag="036C" occurrence="01" fulltag="036C/01">
+        <subfield code="x">11,212</subfield>
+        <subfield code="m">Abteilung 1</subfield>
+        <subfield code="a">Schriften und Reden</subfield>
+        <subfield code="l">Band 12</subfield>
+      </datafield>
+      <datafield tag="036D" fulltag="036D">
+        <subfield code="9">005376041</subfield>
+        <subfield code="8">Gesamtausgabe / Max Weber. Hrsg. von Horst Baier ...</subfield>
+      </datafield>
+      <datafield tag="037A" fulltag="037A">
+        <subfield code="a">Mit Registern</subfield>
+      </datafield>
+      <datafield tag="101B" fulltag="101B">
+        <subfield code="0">12-03-18</subfield>
+        <subfield code="t">11:56:08.000</subfield>
+      </datafield>
+      <datafield tag="101C" fulltag="101C">
+        <subfield code="0">12-03-18</subfield>
+      </datafield>
+      <datafield tag="101U" fulltag="101U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="145S" occurrence="01" fulltag="145S/01">
+        <subfield code="a">270zb</subfield>
+      </datafield>
+      <item epn="1019628790">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:27:42.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="01" fulltag="201C/01">
+          <subfield code="0">12-03-18</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">1019628790</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">12-03-18</subfield>
+          <subfield code="b">zu</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">BE 1311-1,12 </subfield>
+          <subfield code="f">000</subfield>
+          <subfield code="d">u</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">17661606</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">MAG</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="01" fulltag="247C/01">
+          <subfield code="9">102599602</subfield>
+          <subfield code="a">Universität Mainz, Zentralbibliothek</subfield>
+          <subfield code="b">77</subfield>
+          <subfield code="c">651000-0</subfield>
+          <subfield code="h">DE-77</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
+        </datafield>
+      </item>
+      <item epn="1038889685">
+        <datafield tag="201B" occurrence="02" fulltag="201B/02">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:27:43.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="02" fulltag="201C/02">
+          <subfield code="0">17-01-19</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="02" fulltag="201U/02">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="02" fulltag="203@/02">
+          <subfield code="0">1038889685</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="02" fulltag="208@/02">
+          <subfield code="a">17-01-19</subfield>
+          <subfield code="b">zse</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="02" fulltag="209A/02">
+          <subfield code="a">41 WEBE 1-XII</subfield>
+          <subfield code="f">002</subfield>
+          <subfield code="d">d</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="02" fulltag="209B/02">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="02" fulltag="209C/02">
+          <subfield code="a">G0 2018/2</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="02" fulltag="209G/02">
+          <subfield code="a">14383119</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="02" fulltag="209G/02">
+          <subfield code="a">Soziologie</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="02" fulltag="247C/02">
+          <subfield code="9">103704124</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Georg Forster-Gebäude</subfield>
+          <subfield code="b">77/002</subfield>
+          <subfield code="c">651002-4</subfield>
+          <subfield code="h">DE-77-002</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nn</subfield>
+        </datafield>
+      </item>
+      <item epn="1019874155">
+        <datafield tag="201B" occurrence="03" fulltag="201B/03">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:27:43.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="03" fulltag="201C/03">
+          <subfield code="0">15-03-18</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="03" fulltag="201U/03">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="03" fulltag="203@/03">
+          <subfield code="0">1019874155</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="03" fulltag="208@/03">
+          <subfield code="a">15-03-18</subfield>
+          <subfield code="b">zkd</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="03" fulltag="209A/03">
+          <subfield code="a">G/w 95</subfield>
+          <subfield code="f">018</subfield>
+          <subfield code="d">d</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="03" fulltag="209B/03">
+          <subfield code="a">01820</subfield>
+          <subfield code="x">05</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="03" fulltag="209B/03">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="03" fulltag="209C/03">
+          <subfield code="a">WF 21/2018</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="03" fulltag="209G/03">
+          <subfield code="a">VWL</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="03" fulltag="247C/03">
+          <subfield code="9">102599718</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Rechts- und Wirtschaftswissenschaften</subfield>
+          <subfield code="b">77/018</subfield>
+          <subfield code="c">651018-8</subfield>
+          <subfield code="h">DE-77-018</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
+        </datafield>
+      </item>
+    </metadata>
+  </record></collection>

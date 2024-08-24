@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?><collection count="1"><record>
+    <status>upsert</status>
+    <hrid>035059141</hrid>
+    <metadata>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">9999:99-99-99</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Aau</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">035059141</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">34120600</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">3895780022</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">9783895780028</subfield>
+      </datafield>
+      <datafield tag="006G" fulltag="006G">
+        <subfield code="0">944266711</subfield>
+      </datafield>
+      <datafield tag="006U" fulltag="006U">
+        <subfield code="0">95,N21,0416</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">DNB</subfield>
+        <subfield code="0">944266711</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">1995</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Bildgebende Systeme für die medizinische Diagnostik</subfield>
+        <subfield code="d">Röntgendiagnostik und Angiographie, Computertomographie, Nuklearmedizin, Magnetresonanztomographie, Sonographie, integrierte Informationssysteme</subfield>
+        <subfield code="h">Hrsg.: Heinz Morneburg</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">14925220X</subfield>
+        <subfield code="8">Morneburg, Heinz</subfield>
+        <subfield code="B">Hrsg.</subfield>
+      </datafield>
+      <datafield tag="032@" fulltag="032@">
+        <subfield code="a">3., wesentlich überarb. und erw. Aufl.</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">München</subfield>
+        <subfield code="n">Publicis-MCD-Verl.</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">729 S.</subfield>
+      </datafield>
+      <datafield tag="034M" fulltag="034M">
+        <subfield code="a">zahlr. Ill. und graph. Darst.</subfield>
+      </datafield>
+      <datafield tag="101B" fulltag="101B">
+        <subfield code="0">08-11-06</subfield>
+        <subfield code="t">11:53:54.000</subfield>
+      </datafield>
+      <datafield tag="101C" fulltag="101C">
+        <subfield code="0">03-01-96</subfield>
+      </datafield>
+      <datafield tag="101U" fulltag="101U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="145S" occurrence="01" fulltag="145S/01">
+        <subfield code="a">00200</subfield>
+      </datafield>
+      <datafield tag="145Z" occurrence="01" fulltag="145Z/01">
+        <subfield code="a">Med 51.000000 /39</subfield>
+      </datafield>
+      <datafield tag="145Z" occurrence="60" fulltag="145Z/60">
+        <subfield code="a">UH 5420</subfield>
+      </datafield>
+      <item epn="141888903">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:30:12.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="01" fulltag="201C/01">
+          <subfield code="0">21-03-00</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">141888903</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">15-09-10</subfield>
+          <subfield code="b">zn</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">62/ANGEWANDTE PHYSIK UH 5420 MOR1 (3)</subfield>
+          <subfield code="f">006</subfield>
+          <subfield code="d">g</subfield>
+          <subfield code="h">UH 5420 MOR1 (3)</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="01" fulltag="209C/01">
+          <subfield code="a">7879</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">38315324</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">MIN / HANDAPPARAT ANGEWANDTE PHYSIK</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="01" fulltag="247C/01">
+          <subfield code="9">103704582</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Mathematik, Informatik, Naturwissenschaften und Technik</subfield>
+          <subfield code="b">77/006</subfield>
+          <subfield code="c">651006-1</subfield>
+          <subfield code="h">DE-77-006</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">u?</subfield>
+          <subfield code="g">usc?</subfield>
+        </datafield>
+        <datafield tag="247D" occurrence="01" fulltag="247D/01">
+          <subfield code="a">Genauen Standort in der BB MIN erfragen!</subfield>
+        </datafield>
+      </item>
+      <item epn="598647856">
+        <datafield tag="201B" occurrence="02" fulltag="201B/02">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:30:13.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="02" fulltag="201C/02">
+          <subfield code="0">15-09-10</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="02" fulltag="201U/02">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="02" fulltag="203@/02">
+          <subfield code="0">598647856</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="02" fulltag="208@/02">
+          <subfield code="a">30-09-10</subfield>
+          <subfield code="b">zna</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="02" fulltag="209A/02">
+          <subfield code="a">UH 5420 MOR1 (3) +2</subfield>
+          <subfield code="f">006</subfield>
+          <subfield code="d">u</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="02" fulltag="209B/02">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="02" fulltag="209C/02">
+          <subfield code="a">2010/261</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="02" fulltag="209G/02">
+          <subfield code="a">11565975</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="02" fulltag="209G/02">
+          <subfield code="a">MIN</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="02" fulltag="247C/02">
+          <subfield code="9">103704582</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Mathematik, Informatik, Naturwissenschaften und Technik</subfield>
+          <subfield code="b">77/006</subfield>
+          <subfield code="c">651006-1</subfield>
+          <subfield code="h">DE-77-006</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">u?</subfield>
+          <subfield code="g">usc?</subfield>
+        </datafield>
+      </item>
+      <item epn="161295150">
+        <datafield tag="201B" occurrence="03" fulltag="201B/03">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:30:13.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="03" fulltag="201C/03">
+          <subfield code="0">28-06-01</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="03" fulltag="201U/03">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="03" fulltag="203@/03">
+          <subfield code="0">161295150</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="03" fulltag="208@/03">
+          <subfield code="a">28-06-01</subfield>
+          <subfield code="b">z</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="03" fulltag="209A/03">
+          <subfield code="a">Diagn 90 Bil 1995</subfield>
+          <subfield code="f">034</subfield>
+          <subfield code="d">d</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="03" fulltag="209B/03">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="03" fulltag="209C/03">
+          <subfield code="a">2001 G 0104</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="03" fulltag="209G/03">
+          <subfield code="a">FB 4-40</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="03" fulltag="247C/03">
+          <subfield code="9">102599866</subfield>
+          <subfield code="a">Universität Mainz, Fachbereich 04, Universitätsmedizin, Institut für Geschichte, Theorie und Ethik der Medizin</subfield>
+          <subfield code="b">77/034</subfield>
+          <subfield code="c">651034-6</subfield>
+          <subfield code="h">DE-77-034</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
+        </datafield>
+      </item>
+    </metadata>
+  </record></collection>
