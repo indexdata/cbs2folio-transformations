@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><collection count="1"><record>
+    <status>upsert</status>
+    <hrid>468077731</hrid>
+    <metadata>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">0077:13-07-21</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Oay</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+        <subfield code="2">rdacontent</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">Computermedien</subfield>
+        <subfield code="b">c</subfield>
+        <subfield code="2">rdamedia</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Online-Ressource</subfield>
+        <subfield code="b">cr</subfield>
+        <subfield code="2">rdacarrier</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">468077731</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">1142918479</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">9781139524100</subfield>
+        <subfield code="f">e-book</subfield>
+      </datafield>
+      <datafield tag="004P" fulltag="004P">
+        <subfield code="S">p</subfield>
+        <subfield code="0">9781107034037</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">HEB</subfield>
+        <subfield code="0">468077731</subfield>
+      </datafield>
+      <datafield tag="017C" fulltag="017C">
+        <subfield code="u">https://doi.org/10.1017/9781139524100</subfield>
+        <subfield code="x">R</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">eng</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2020</subfield>
+      </datafield>
+      <datafield tag="017L" fulltag="017L">
+        <subfield code="a">ZDB-20-CBO</subfield>
+      </datafield>
+      <datafield tag="017L" fulltag="017L">
+        <subfield code="a">ZDB-20-CPA</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Gauge theory of weak decays</subfield>
+        <subfield code="d">the standard model and the expedition to new physics summits</subfield>
+        <subfield code="h">Andrzej J. Buras</subfield>
+      </datafield>
+      <datafield tag="028A" fulltag="028A">
+        <subfield code="9">467078076</subfield>
+        <subfield code="8">Buras, Andrzej *1946-*</subfield>
+        <subfield code="B">Verfasser</subfield>
+        <subfield code="4">aut</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Cambridge</subfield>
+        <subfield code="n">Cambridge University Press</subfield>
+      </datafield>
+      <datafield tag="033E" fulltag="033E">
+        <subfield code="p">Cambridge, UK</subfield>
+        <subfield code="n">Cambridge University Press</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">1 Online-Ressource</subfield>
+      </datafield>
+      <datafield tag="037A" fulltag="037A">
+        <subfield code="a">Title from publisher's bibliographic system (viewed on 11 Jun 2020)</subfield>
+      </datafield>
+      <datafield tag="039D" fulltag="039D">
+        <subfield code="i">Erscheint auch als</subfield>
+        <subfield code="n">Druckausgabe</subfield>
+        <subfield code="C">ISBN</subfield>
+        <subfield code="6">978-1-107-03403-7</subfield>
+      </datafield>
+      <datafield tag="047I" fulltag="047I">
+        <subfield code="a">This is the first advanced, systematic and comprehensive look at weak decays in the framework of gauge theories. Included is a large spectrum of topics, both theoretical and experimental. In addition to explicit advanced calculations of Feynman diagrams and the study of renormalization group strong interaction effects in weak decays, the book is devoted to the Standard Model Effective Theory, dominating present phenomenology in this field, and to new physics models with the goal of searching for new particles and interactions through quantum fluctuations. This book will benefit theorists, experimental researchers, and Ph.D. students working on flavour physics and weak decays as well as physicists interested in physics beyond the Standard Model. In its concern for the search for new phenomena at short distance scales through the interplay between theory and experiment, this book constitutes a travel guide to physics far beyond the scales explored by the Large Hadron Collider at CERN.</subfield>
+      </datafield>
+      <datafield tag="101B" fulltag="101B">
+        <subfield code="0">13-07-21</subfield>
+        <subfield code="t">07:31:04.000</subfield>
+      </datafield>
+      <datafield tag="101C" fulltag="101C">
+        <subfield code="0">13-07-21</subfield>
+      </datafield>
+      <datafield tag="101U" fulltag="101U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="145S" occurrence="01" fulltag="145S/01">
+        <subfield code="a">620zb</subfield>
+      </datafield>
+      <item epn="1119347815">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">01-07-21</subfield>
+          <subfield code="t">16:55:31.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="01" fulltag="201C/01">
+          <subfield code="0">26-08-20</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">1119347815</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">26-08-20</subfield>
+          <subfield code="b">ou</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">cbo eba</subfield>
+          <subfield code="x">05</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">ebo</subfield>
+          <subfield code="x">06</subfield>
+        </datafield>
+        <datafield tag="209S" occurrence="01" fulltag="209S/01">
+          <subfield code="u">https://doi.org/10.1017/9781139524100</subfield>
+          <subfield code="X">R</subfield>
+        </datafield>
+        <datafield tag="237A" occurrence="01" fulltag="237A/01">
+          <subfield code="a">Online-Zugang nur im Netz der Universität Mainz</subfield>
+        </datafield>
+      </item>
+    </metadata>
+  </record></collection>

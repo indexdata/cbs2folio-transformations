@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><collection count="1"><record>
+    <status>upsert</status>
+    <hrid>418372608</hrid>
+    <metadata>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">0066:21-09-21</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Oau</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+        <subfield code="2">rdacontent</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">Computermedien</subfield>
+        <subfield code="b">c</subfield>
+        <subfield code="2">rdamedia</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Online-Ressource</subfield>
+        <subfield code="b">cr</subfield>
+        <subfield code="2">rdacarrier</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">418372608</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">797919354</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">9780511979026</subfield>
+        <subfield code="f">(ebook)</subfield>
+      </datafield>
+      <datafield tag="004P" fulltag="004P">
+        <subfield code="S">p</subfield>
+        <subfield code="0">9780521195652</subfield>
+        <subfield code="f">(hardback)</subfield>
+      </datafield>
+      <datafield tag="004V" fulltag="004V">
+        <subfield code="0">10.1017/CBO9780511979026</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">HEB</subfield>
+        <subfield code="0">418372608</subfield>
+      </datafield>
+      <datafield tag="017C" fulltag="017C">
+        <subfield code="u">https://doi.org/10.1017/CBO9780511979026</subfield>
+        <subfield code="x">R</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">eng</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2012</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">085562742</subfield>
+        <subfield code="a">Aufsatzsammlung</subfield>
+      </datafield>
+      <datafield tag="017L" fulltag="017L">
+        <subfield code="a">ZDB-20-CBO</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">The @Cambridge handbook of language policy</subfield>
+        <subfield code="h">edited by Bernard Spolsky</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">18617392X</subfield>
+        <subfield code="8">Spolsky, Bernard *1932-*</subfield>
+        <subfield code="B">Herausgeber</subfield>
+        <subfield code="4">edt</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Cambridge</subfield>
+        <subfield code="n">Cambridge University Press</subfield>
+      </datafield>
+      <datafield tag="033E" fulltag="033E">
+        <subfield code="p">Cambridge, UK</subfield>
+        <subfield code="n">Cambridge University Press</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">1 Online-Ressource (xvi, 738 Seiten)</subfield>
+      </datafield>
+      <datafield tag="034M" fulltag="034M">
+        <subfield code="a">Illustrationen, Diagramme</subfield>
+      </datafield>
+      <datafield tag="036E" fulltag="036E">
+        <subfield code="a">Cambridge handbooks in language and linguistics</subfield>
+      </datafield>
+      <datafield tag="037A" fulltag="037A">
+        <subfield code="a">Title from publisher's bibliographic system (viewed on 05 Oct 2015)</subfield>
+      </datafield>
+      <datafield tag="047I" fulltag="047I">
+        <subfield code="a">Over the last 50 years, language policy has developed into a major discipline, drawing on research and practice in many nations and at many levels. This is the first Handbook to deal with language policy as a whole and is a complete 'state-of-the-field' survey, covering language practices, beliefs about language varieties, and methods and agencies for language management. It provides a historical background which traces the development of classical language planning, describes activities associated with indigenous and endangered languages, and contains chapters on imperialism, colonialism, effects of migration and globalization, and educational policy. It also evaluates language management agencies, analyzes language activism and looks at language cultivation (including reform of writing systems, orthography and modernized terminology). The definitive guide to the subject, it will be welcomed by students, researchers and language professionals in linguistics, education and politics.</subfield>
+      </datafield>
+      <datafield tag="101B" fulltag="101B">
+        <subfield code="0">11-05-22</subfield>
+        <subfield code="t">13:19:27.000</subfield>
+      </datafield>
+      <datafield tag="101C" fulltag="101C">
+        <subfield code="0">11-05-22</subfield>
+      </datafield>
+      <datafield tag="101U" fulltag="101U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="145S" occurrence="01" fulltag="145S/01">
+        <subfield code="a">400zb</subfield>
+      </datafield>
+      <item epn="1078783462">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">24-01-22</subfield>
+          <subfield code="t">09:19:12.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="01" fulltag="201C/01">
+          <subfield code="0">04-02-20</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">1078783462</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">04-02-20</subfield>
+          <subfield code="b">ou</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">cbo eba</subfield>
+          <subfield code="x">05</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">ebo</subfield>
+          <subfield code="x">06</subfield>
+        </datafield>
+        <datafield tag="209S" occurrence="01" fulltag="209S/01">
+          <subfield code="u">https://doi.org/10.1017/CBO9780511979026</subfield>
+          <subfield code="X">R</subfield>
+        </datafield>
+        <datafield tag="237A" occurrence="01" fulltag="237A/01">
+          <subfield code="a">Online-Zugang nur im Netz der Universität Mainz</subfield>
+        </datafield>
+      </item>
+    </metadata>
+  </record></collection>
