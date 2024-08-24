@@ -4,7 +4,7 @@
     exclude-result-prefixes="xs"
     version="2.0">
     
-    <xsl:template match="//record">
+    <xsl:template match="record">
         <xsl:result-document href="{concat(metadata/datafield[@tag='003@']/subfield[@code='0'],'.xml')}">
             <xsl:copy-of select="."/>
         </xsl:result-document>
