@@ -456,6 +456,24 @@
         <xsl:when test=".='mrb'">515caf91-3dde-4769-b784-50c9e23400d5</xsl:when>
         <xsl:when test=".='dub'">88370fc3-bf69-45b6-b518-daf9a3877385</xsl:when>
         <xsl:when test=".='aqt'">57247637-c41b-498d-9c46-935469335485</xsl:when>
+        <xsl:when test=".='rap'">1026d16f-7afd-4622-a480-324c5b237c2d</xsl:when>
+        <xsl:when test=".='bka'">3569a7a6-d1a0-4c63-9bad-530d9768f8d5</xsl:when>
+        <xsl:when test=".='rxa'">a39de795-c8ca-4d35-954f-5e3b203d028e</xsl:when>
+        <xsl:when test=".='cad'">41c31c83-69b8-4a2d-a43d-544b20a1239d</xsl:when>
+        <xsl:when test=".='fon'">34078285-46a5-49da-aa6e-612de735c6ec</xsl:when>
+        <xsl:when test=".='edd'">d4ed183c-3ae0-42e8-861a-159cdafb3235</xsl:when>
+        <xsl:when test=".='aup'">f02c59bb-7e9d-47bf-b520-c0791a3947dd</xsl:when>
+        <xsl:when test=".='dgc'">75309d02-a947-4370-b17a-d1629330b09b</xsl:when>
+        <xsl:when test=".='aue'">0dffbfab-9d05-43e1-ada6-9c830b53c444</xsl:when>
+        <xsl:when test=".='mxe'">d0b57a21-94f8-4d65-9916-c7e8ee46f201</xsl:when>
+        <xsl:when test=".='djo'">6caa11c6-2b17-477e-9c5f-fe6e5f34fcd2</xsl:when>
+        <xsl:when test=".='dbd'">af48e321-2385-49d8-8b79-09fda1f78662</xsl:when>
+        <xsl:when test=".='mka'">372332e7-1534-435b-866d-dcac1a5489eb</xsl:when>
+        <xsl:when test=".='mup'">16c9ba61-1ae4-4ee0-8038-8b4f836528aa</xsl:when>
+        <xsl:when test=".='onp'">9b880dc7-dee7-4a64-b963-85e3b152f342</xsl:when>
+        <xsl:when test=".='swd'">348933e2-82ec-48a7-a2d6-56f6f04c1362</xsl:when>
+        <xsl:when test=".='sfx'">aa335b3c-2c7b-440c-b70b-7a0b0b6120c9</xsl:when>
+        <xsl:when test=".='vfx'">09ffc001-5e04-45a0-aa10-04e28801d20e</xsl:when>
         <xsl:otherwise>361f4bfd-a87d-463c-84d8-69346c3082f6</xsl:otherwise>
       </xsl:choose>
     </contributorTypeId>
