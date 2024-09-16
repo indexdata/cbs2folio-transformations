@@ -34,6 +34,10 @@
     <xsl:if test="item/datafield[@tag='203@']/subfield[@code='0']">
       <processing> <!-- generates hebis default -->
         <holdingsRecord>
+          <blockDeletion>
+            <ifField>hrid</ifField>
+            <matchesPattern>\D+.*</matchesPattern>
+          </blockDeletion>
           <retainOmittedRecord>
             <ifField>hrid</ifField>
             <matchesPattern>\D+.*</matchesPattern>
@@ -43,6 +47,10 @@
           </retainExistingValues>
         </holdingsRecord>
         <item>
+          <blockDeletion>
+            <ifField>hrid</ifField>
+            <matchesPattern>\D+.*</matchesPattern>
+          </blockDeletion>
           <retainOmittedRecord>
             <ifField>hrid</ifField>
             <matchesPattern>\D+.*</matchesPattern>

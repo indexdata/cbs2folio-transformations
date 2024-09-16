@@ -15,6 +15,10 @@
 <xsl:template match="processing">
       <processing> <!-- overwrites hebis default -->
 	<holdingsRecord>
+	  <blockDeletion>
+	    <ifField>hrid</ifField>
+	    <matchesPattern>\D+.*</matchesPattern>
+	  </blockDeletion>
 	  <retainOmittedRecord>
 	    <ifField>hrid</ifField>
 	    <matchesPattern>\D+.*</matchesPattern>
@@ -24,6 +28,10 @@
 	  </retainExistingValues>
 	</holdingsRecord>
 	<item>
+	  <blockDeletion>
+	    <ifField>hrid</ifField>
+	    <matchesPattern>\D+.*</matchesPattern>
+	  </blockDeletion>
 	  <retainOmittedRecord>
 	    <ifField>hrid</ifField>
 	    <matchesPattern>\D+.*</matchesPattern>
