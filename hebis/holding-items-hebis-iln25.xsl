@@ -17,11 +17,11 @@
 	<holdingsRecord>
 	  <blockDeletion>
 	    <ifField>hrid</ifField>
-	    <matchesPattern>\D+.*</matchesPattern>
+	    <matchesPattern>\D.*</matchesPattern>
 	  </blockDeletion>
 	  <retainOmittedRecord>
 	    <ifField>hrid</ifField>
-	    <matchesPattern>\D+.*</matchesPattern>
+	    <matchesPattern>\D.*</matchesPattern>
 	  </retainOmittedRecord>
 	  <retainExistingValues>
 	    <forOmittedProperties>true</forOmittedProperties>
@@ -30,11 +30,11 @@
 	<item>
 	  <blockDeletion>
 	    <ifField>hrid</ifField>
-	    <matchesPattern>\D+.*</matchesPattern>
+	    <matchesPattern>\D.*</matchesPattern>
 	  </blockDeletion>
 	  <retainOmittedRecord>
 	    <ifField>hrid</ifField>
-	    <matchesPattern>\D+.*</matchesPattern>
+	    <matchesPattern>\D.*</matchesPattern>
 	  </retainOmittedRecord>
 	  <retainExistingValues>
 	    <forOmittedProperties>true</forOmittedProperties>
