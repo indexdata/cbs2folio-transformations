@@ -23,7 +23,7 @@
 
   <xsl:template match="record">
     <record>
-      <xsl:for-each select="*[not(self::processing)]">
+      <xsl:for-each select="*[not(self::processing)]">  <!-- removes any 'processing' element from pica2instance-new.xsl! -->
             <xsl:copy-of select="."/>
         </xsl:for-each>
         <xsl:apply-templates select="original"/>
@@ -32,13 +32,21 @@
 
   <xsl:template match="original">
     <xsl:if test="item/datafield[@tag='203@']/subfield[@code='0']">
-      <processing>
+      <processing> <!-- generates hebis default -->
         <holdingsRecord>
+          <retainOmittedRecord>
+            <ifField>hrid</ifField>
+            <matchesPattern>\D+.*</matchesPattern>
+          </retainOmittedRecord>
           <retainExistingValues>
             <forOmittedProperties>true</forOmittedProperties>
           </retainExistingValues>
         </holdingsRecord>
         <item>
+          <retainOmittedRecord>
+            <ifField>hrid</ifField>
+            <matchesPattern>\D+.*</matchesPattern>
+          </retainOmittedRecord>
           <retainExistingValues>
             <forOmittedProperties>true</forOmittedProperties>
           </retainExistingValues>

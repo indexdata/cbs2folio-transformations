@@ -13,13 +13,21 @@
 
   <!-- ILN 25 UB Mainz -->
 <xsl:template match="processing">
-      <processing>
+      <processing> <!-- overwrites hebis default -->
 	<holdingsRecord>
+	  <retainOmittedRecord>
+	    <ifField>hrid</ifField>
+	    <matchesPattern>\D+.*</matchesPattern>
+	  </retainOmittedRecord>
 	  <retainExistingValues>
 	    <forOmittedProperties>true</forOmittedProperties>
 	  </retainExistingValues>
 	</holdingsRecord>
 	<item>
+	  <retainOmittedRecord>
+	    <ifField>hrid</ifField>
+	    <matchesPattern>\D+.*</matchesPattern>
+	  </retainOmittedRecord>
 	  <retainExistingValues>
 	    <forOmittedProperties>true</forOmittedProperties>
 		<forTheseProperties>
