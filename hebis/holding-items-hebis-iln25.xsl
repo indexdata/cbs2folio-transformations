@@ -15,14 +15,6 @@
 <xsl:template match="processing">
   <processing> <!-- overwrites hebis default -->
     <item>
-      <blockDeletion>
-        <ifField>hrid</ifField>
-        <matchesPattern>it.*</matchesPattern>
-      </blockDeletion>
-      <retainOmittedRecord>
-        <ifField>hrid</ifField>
-        <matchesPattern>it.*</matchesPattern>
-      </retainOmittedRecord>
       <retainExistingValues>
         <forOmittedProperties>true</forOmittedProperties>
         <forTheseProperties>
@@ -34,8 +26,19 @@
       <status>
         <policy>retain</policy>
       </status>
+      <blockDeletion>
+        <ifField>hrid</ifField>
+        <matchesPattern>it.*</matchesPattern>
+      </blockDeletion>
+      <retainOmittedRecord>
+        <ifField>hrid</ifField>
+        <matchesPattern>it.*</matchesPattern>
+      </retainOmittedRecord>
     </item>
   	<holdingsRecord>
+  	  <retainExistingValues>
+  	    <forOmittedProperties>true</forOmittedProperties>
+  	  </retainExistingValues>
   	  <blockDeletion>
   	    <ifField>hrid</ifField>
   	    <matchesPattern>ho.*</matchesPattern>
@@ -44,9 +47,6 @@
   	    <ifField>hrid</ifField>
   	    <matchesPattern>ho.*</matchesPattern>
   	  </retainOmittedRecord>
-  	  <retainExistingValues>
-  	    <forOmittedProperties>true</forOmittedProperties>
-  	  </retainExistingValues>
   	</holdingsRecord>
   </processing>
 </xsl:template>
