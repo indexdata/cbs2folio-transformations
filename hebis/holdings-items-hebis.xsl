@@ -33,35 +33,40 @@
   <xsl:template match="original">
     <xsl:if test="item/datafield[@tag='203@']/subfield[@code='0']">
       <processing> <!-- generates hebis default -->
-        <holdingsRecord>
-          <blockDeletion>
-            <ifField>hrid</ifField>
-            <matchesPattern>\D+.*</matchesPattern>
-          </blockDeletion>
-          <retainOmittedRecord>
-            <ifField>hrid</ifField>
-            <matchesPattern>\D+.*</matchesPattern>
-          </retainOmittedRecord>
-          <retainExistingValues>
-            <forOmittedProperties>true</forOmittedProperties>
-          </retainExistingValues>
-        </holdingsRecord>
         <item>
           <blockDeletion>
             <ifField>hrid</ifField>
-            <matchesPattern>\D+.*</matchesPattern>
+            <matchesPattern>it.*</matchesPattern>
           </blockDeletion>
           <retainOmittedRecord>
             <ifField>hrid</ifField>
-            <matchesPattern>\D+.*</matchesPattern>
+            <matchesPattern>it.*</matchesPattern>
           </retainOmittedRecord>
           <retainExistingValues>
             <forOmittedProperties>true</forOmittedProperties>
+            <forTheseProperties>
+              <arr>
+                <i>materialTypeId</i>
+              </arr>
+            </forTheseProperties>
           </retainExistingValues>
           <status>
             <policy>retain</policy>
           </status>
         </item>
+        <holdingsRecord>
+          <blockDeletion>
+            <ifField>hrid</ifField>
+            <matchesPattern>ho.*</matchesPattern>
+          </blockDeletion>
+          <retainOmittedRecord>
+            <ifField>hrid</ifField>
+            <matchesPattern>ho.*</matchesPattern>
+          </retainOmittedRecord>
+          <retainExistingValues>
+            <forOmittedProperties>true</forOmittedProperties>
+          </retainExistingValues>
+        </holdingsRecord>
       </processing>
       <holdingsRecords>
         <arr>
