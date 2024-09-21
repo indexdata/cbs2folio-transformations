@@ -896,5 +896,16 @@
     </instanceRelationshipTypeId>
   </xsl:template>
   
+  <!-- Map processing statistical codes -->
+  <xsl:template match="processing/*/statisticalCoding/arr/i/setCode">
+    <setCode>
+      <xsl:choose>
+        <xsl:when test=".='ITEM_STATUS'"><xsl:text>e7b3071c-8cc0-48cc-9cd0-dfc82c4e4602</xsl:text></xsl:when>
+        <xsl:when test=".='PO_LINE_REFERENCE'"><xsl:text>dcf1220f-5524-4f1e-8e40-5da3366e8478</xsl:text></xsl:when>
+        <xsl:otherwise>unknown</xsl:otherwise>
+      </xsl:choose>
+    </setCode>
+  </xsl:template>
+  
   <xsl:template match="original"/>
 </xsl:stylesheet>

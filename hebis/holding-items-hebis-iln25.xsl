@@ -34,6 +34,15 @@
         <ifField>hrid</ifField>
         <matchesPattern>it.*</matchesPattern>
       </retainOmittedRecord>
+      <statisticalCoding>
+        <arr>
+          <i>
+            <if>deleteSkipped</if>
+            <becauseOf>ITEM_STATUS</becauseOf>
+            <setCode>ITEM_STATUS</setCode>
+          </i>         
+        </arr>
+      </statisticalCoding>
     </item>
   	<holdingsRecord>
   	  <retainExistingValues>
@@ -47,7 +56,32 @@
   	    <ifField>hrid</ifField>
   	    <matchesPattern>ho.*</matchesPattern>
   	  </retainOmittedRecord>
+  	  <statisticalCoding>
+  	    <arr>
+  	      <i>
+  	        <if>deleteSkipped</if>
+  	        <becauseOf>ITEM_STATUS</becauseOf>
+  	        <setCode>ITEM_STATUS</setCode>
+  	      </i>         
+  	    </arr>
+  	  </statisticalCoding>
   	</holdingsRecord>
+    <instance>
+      <statisticalCoding>
+        <arr>
+          <i>
+            <if>deleteSkipped</if>
+            <becauseOf>PO_LINE_REFERENCE</becauseOf>
+            <setCode>PO_LINE_REFERENCE</setCode>
+          </i>   
+          <i>
+            <if>deleteSkipped</if>
+            <becauseOf>ITEM_STATUS</becauseOf>
+            <setCode>ITEM_STATUS</setCode>
+          </i>         
+        </arr>
+      </statisticalCoding>
+    </instance>
   </processing>
 </xsl:template>
 
