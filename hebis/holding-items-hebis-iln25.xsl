@@ -12,7 +12,7 @@
   </xsl:template>  
 
   <!-- ILN 25 UB Mainz -->
-<xsl:template match="processing">
+<xsl:template match="processing[not(parent::delete)]">
   <processing> <!-- overwrites hebis default -->
     <item>
       <retainExistingValues>
@@ -26,10 +26,6 @@
       <status>
         <policy>retain</policy>
       </status>
-      <blockDeletion>
-        <ifField>hrid</ifField>
-        <matchesPattern>it.*</matchesPattern>
-      </blockDeletion>
       <retainOmittedRecord>
         <ifField>hrid</ifField>
         <matchesPattern>it.*</matchesPattern>
@@ -48,10 +44,6 @@
   	  <retainExistingValues>
   	    <forOmittedProperties>true</forOmittedProperties>
   	  </retainExistingValues>
-  	  <blockDeletion>
-  	    <ifField>hrid</ifField>
-  	    <matchesPattern>ho.*</matchesPattern>
-  	  </blockDeletion>
   	  <retainOmittedRecord>
   	    <ifField>hrid</ifField>
   	    <matchesPattern>ho.*</matchesPattern>
@@ -66,22 +58,7 @@
   	    </arr>
   	  </statisticalCoding>
   	</holdingsRecord>
-    <instance>
-      <statisticalCoding>
-        <arr>
-          <i>
-            <if>deleteSkipped</if>
-            <becauseOf>PO_LINE_REFERENCE</becauseOf>
-            <setCode>PO_LINE_REFERENCE</setCode>
-          </i>   
-          <i>
-            <if>deleteSkipped</if>
-            <becauseOf>ITEM_STATUS</becauseOf>
-            <setCode>ITEM_STATUS</setCode>
-          </i>         
-        </arr>
-      </statisticalCoding>
-    </instance>
+    <instance/>
   </processing>
 </xsl:template>
 

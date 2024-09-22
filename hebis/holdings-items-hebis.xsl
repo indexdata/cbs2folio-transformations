@@ -21,12 +21,70 @@
     </collection>
   </xsl:template>
 
-  <xsl:template match="record">
+  <xsl:template match="record[not(delete)]">
     <record>
       <xsl:for-each select="*[not(self::processing)]">  <!-- removes any 'processing' element from pica2instance-new.xsl! -->
             <xsl:copy-of select="."/>
         </xsl:for-each>
         <xsl:apply-templates select="original"/>
+    </record>
+  </xsl:template>
+  
+  <xsl:template match="record[delete]">
+    <record>
+      <delete>
+        <xsl:for-each select="delete/*[not(self::processing)]">  <!-- removes any 'processing' element from pica2instance-new.xsl! -->
+          <xsl:copy-of select="."/>
+        </xsl:for-each>
+        <processing> <!-- generates hebis default -->
+          <item>
+            <blockDeletion>
+              <ifField>hrid</ifField>
+              <matchesPattern>it.*</matchesPattern>
+            </blockDeletion>
+            <statisticalCoding>
+              <arr>
+                <i>
+                  <if>deleteSkipped</if>
+                  <becauseOf>ITEM_STATUS</becauseOf>
+                  <setCode>ITEM_STATUS</setCode>
+                </i>         
+              </arr>
+            </statisticalCoding>
+          </item>
+          <holdingsRecord>
+            <blockDeletion>
+              <ifField>hrid</ifField>
+              <matchesPattern>ho.*</matchesPattern>
+            </blockDeletion>
+            <statisticalCoding>
+              <arr>
+                <i>
+                  <if>deleteSkipped</if>
+                  <becauseOf>ITEM_STATUS</becauseOf>
+                  <setCode>ITEM_STATUS</setCode>
+                </i>         
+              </arr>
+            </statisticalCoding>
+          </holdingsRecord>
+          <instance>
+            <statisticalCoding>
+              <arr>
+                <i>
+                  <if>deleteSkipped</if>
+                  <becauseOf>PO_LINE_REFERENCE</becauseOf>
+                  <setCode>PO_LINE_REFERENCE</setCode>
+                </i>   
+                <i>
+                  <if>deleteSkipped</if>
+                  <becauseOf>ITEM_STATUS</becauseOf>
+                  <setCode>ITEM_STATUS</setCode>
+                </i>         
+              </arr>
+            </statisticalCoding>
+          </instance>
+        </processing>
+      </delete>
     </record>
   </xsl:template>
 
@@ -45,10 +103,6 @@
           <status>
             <policy>retain</policy>
           </status>
-          <blockDeletion>
-            <ifField>hrid</ifField>
-            <matchesPattern>it.*</matchesPattern>
-          </blockDeletion>
           <retainOmittedRecord>
             <ifField>hrid</ifField>
             <matchesPattern>it.*</matchesPattern>
@@ -67,10 +121,6 @@
           <retainExistingValues>
             <forOmittedProperties>true</forOmittedProperties>
           </retainExistingValues>
-          <blockDeletion>
-            <ifField>hrid</ifField>
-            <matchesPattern>ho.*</matchesPattern>
-          </blockDeletion>
           <retainOmittedRecord>
             <ifField>hrid</ifField>
             <matchesPattern>ho.*</matchesPattern>
@@ -85,22 +135,7 @@
             </arr>
           </statisticalCoding>
         </holdingsRecord>
-        <instance>
-          <statisticalCoding>
-            <arr>
-              <i>
-                <if>deleteSkipped</if>
-                <becauseOf>PO_LINE_REFERENCE</becauseOf>
-                <setCode>PO_LINE_REFERENCE</setCode>
-              </i>   
-              <i>
-                <if>deleteSkipped</if>
-                <becauseOf>ITEM_STATUS</becauseOf>
-                <setCode>ITEM_STATUS</setCode>
-              </i>         
-            </arr>
-          </statisticalCoding>
-        </instance>
+        <instance/>
       </processing>
       <holdingsRecords>
         <arr>
