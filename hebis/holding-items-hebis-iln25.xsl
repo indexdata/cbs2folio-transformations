@@ -36,7 +36,7 @@
             <if>deleteSkipped</if>
             <becauseOf>ITEM_STATUS</becauseOf>
             <setCode>ITEM_STATUS</setCode>
-          </i>         
+          </i>
         </arr>
       </statisticalCoding>
     </item>
@@ -54,7 +54,12 @@
   	        <if>deleteSkipped</if>
   	        <becauseOf>ITEM_STATUS</becauseOf>
   	        <setCode>ITEM_STATUS</setCode>
-  	      </i>         
+  	      </i>
+  	      <i>
+  	        <if>deleteSkipped</if>
+  	        <becauseOf>ITEM_PATTERN_MATCH</becauseOf>
+  	        <setCode>ITEM_PATTERN_MATCH</setCode>
+  	      </i> 
   	    </arr>
   	  </statisticalCoding>
   	</holdingsRecord>
