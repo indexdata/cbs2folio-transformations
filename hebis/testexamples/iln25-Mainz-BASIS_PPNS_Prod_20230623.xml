@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <collection count="302">
   <record>
+    <status>deleted</status>
+    <hrid>123456789</hrid>
+  </record>
+  <record>
     <status>upsert</status>
     <hrid>466221029</hrid>
     <metadata>
