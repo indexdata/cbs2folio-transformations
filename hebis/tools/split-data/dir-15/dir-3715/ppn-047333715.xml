@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?><collection count="1"><record>
+    <status>upsert</status>
+    <hrid>047333715</hrid>
+    <metadata>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">6050:09-10-15</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Abv</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+        <subfield code="2">rdacontent</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+        <subfield code="b">n</subfield>
+        <subfield code="2">rdamedia</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Band</subfield>
+        <subfield code="b">nc</subfield>
+        <subfield code="2">rdacarrier</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">047333715</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">1367294816</subfield>
+      </datafield>
+      <datafield tag="006L" fulltag="006L">
+        <subfield code="i">DNB</subfield>
+        <subfield code="0">974508268</subfield>
+      </datafield>
+      <datafield tag="006Z" fulltag="006Z">
+        <subfield code="0">214062-7</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">HEB</subfield>
+        <subfield code="0">047333715</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">swe</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">1739</subfield>
+        <subfield code="b">1971</subfield>
+        <subfield code="n">1739-1971</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">104628669</subfield>
+        <subfield code="a">Monografische Reihe</subfield>
+      </datafield>
+      <datafield tag="018@" fulltag="018@">
+        <subfield code="a">u</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Kungliga Svenska Vetenskapsakademiens handlingar</subfield>
+      </datafield>
+      <datafield tag="026C" fulltag="026C">
+        <subfield code="a">K. Sven. Vetenskapsakad. Handl.</subfield>
+      </datafield>
+      <datafield tag="027A" fulltag="027A">
+        <subfield code="a">Kongl. Vetenscaps Academiens handlingar</subfield>
+      </datafield>
+      <datafield tag="027A" fulltag="027A">
+        <subfield code="a">Handlingar</subfield>
+      </datafield>
+      <datafield tag="027A" fulltag="027A">
+        <subfield code="a">Nya handlingar</subfield>
+      </datafield>
+      <datafield tag="027A" fulltag="027A">
+        <subfield code="a">Kongl. Vetenskaps-Akademiens handlingar</subfield>
+      </datafield>
+      <datafield tag="027A" fulltag="027A">
+        <subfield code="a">Kungliga Vetenskaps-Akademiens handlingar</subfield>
+      </datafield>
+      <datafield tag="027A" fulltag="027A">
+        <subfield code="a">Kungliga Svenska Vetenskaps-Akademiens handlingar</subfield>
+      </datafield>
+      <datafield tag="029A" fulltag="029A">
+        <subfield code="9">04194268X</subfield>
+        <subfield code="8">Kungliga Svenska Vetenskapsakademien</subfield>
+        <subfield code="B">Verfasser</subfield>
+        <subfield code="4">aut</subfield>
+      </datafield>
+      <datafield tag="031@" fulltag="031@">
+        <subfield code="a">1.1739/40 - 40.1779; [N.F.] 1.1780 - 33.1812; 1813 - 1854; N.F.=[3.F.] 1.1855/56 - 63.1923; 3.Ser.=[4.F.] 1.1924 - 25.1948; 4.Ser.=[5.F.] 1.1949/50 - 14.1971; damit Ersch. eingest.</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Stockholm</subfield>
+        <subfield code="n">Almqvist &amp; Wiksell</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Berlin</subfield>
+        <subfield code="n">Natura</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Stockholm</subfield>
+        <subfield code="n">Norstedt</subfield>
+        <subfield code="h">anfangs</subfield>
+        <subfield code="z">f</subfield>
+      </datafield>
+      <datafield tag="037A" fulltag="037A">
+        <subfield code="a">Repr.: Königstein/Ts. : Koeltz</subfield>
+      </datafield>
+      <datafield tag="039C" fulltag="039C">
+        <subfield code="i">Beil.</subfield>
+        <subfield code="9">070387702</subfield>
+        <subfield code="8">Iakttagelser under en ballongfärd : den ..</subfield>
+      </datafield>
+      <datafield tag="039C" fulltag="039C">
+        <subfield code="i">Index 1826/80</subfield>
+        <subfield code="9">071071342</subfield>
+        <subfield code="8">Kungliga Svenska Vetenskapsakademien. Förteckning öfver inneh°allet i Kongl. Svenska Vetenskaps-Academiens skrifter</subfield>
+      </datafield>
+      <datafield tag="039D" fulltag="039D">
+        <subfield code="i">Dt. Übers.</subfield>
+        <subfield code="9">047895381</subfield>
+        <subfield code="8">Kungliga Svenska Vetenskapsakademien. Der Königl. Schwedischen Akademie der Wissenschaften neue Abhandlungen aus der Naturlehre, Haushaltungskunst und Mechanik / aus dem Schwedischen übersetzt von Abraham Gotthelf Kästner und Heinrich Friedrich Link. - Leipzig : Heinsius, 1749-1792</subfield>
+      </datafield>
+      <datafield tag="039D" fulltag="039D">
+        <subfield code="i">Digital. Ausg.</subfield>
+        <subfield code="l">Kungliga Svenska Vetenskapsakademien</subfield>
+        <subfield code="t">Kungliga Svenska Vetenskapsakademiens handlingar</subfield>
+        <subfield code="d">Stockholm</subfield>
+        <subfield code="e">Almqvist &amp; Wiksell</subfield>
+        <subfield code="f">1780-1828</subfield>
+        <subfield code="h">Online-Ressource</subfield>
+      </datafield>
+      <datafield tag="046D" fulltag="046D">
+        <subfield code="i">Hauptsacht. 1.1739/40 - 7.1746</subfield>
+        <subfield code="a">Kongl. Swenska Wetenskaps Academiens handlingar</subfield>
+      </datafield>
+      <datafield tag="046D" fulltag="046D">
+        <subfield code="i">Hauptsacht. 8.1737 - 18.1757</subfield>
+        <subfield code="a">Kongl. Svenska Vetenskaps Academiens handlingar</subfield>
+      </datafield>
+      <datafield tag="046D" fulltag="046D">
+        <subfield code="i">Hauptsacht. 19.1758 - 40.1779</subfield>
+        <subfield code="a">Kongl. Vetenskaps Academiens handlingar</subfield>
+      </datafield>
+      <datafield tag="046D" fulltag="046D">
+        <subfield code="i">Hauptsacht. 1.1780 - 33.1812</subfield>
+        <subfield code="a">Kongl. Vetenskaps Akademiens nya handlingar</subfield>
+      </datafield>
+      <datafield tag="046D" fulltag="046D">
+        <subfield code="i">Hauptsacht. 1813 - 1854</subfield>
+        <subfield code="a">Kongl. Vetenskaps-Academiens handlingar</subfield>
+      </datafield>
+      <datafield tag="046D" fulltag="046D">
+        <subfield code="i">Hauptsacht. N.F. 1.1855/56 - 3.Ser. 18.1940</subfield>
+        <subfield code="a">Kongl. Svenska Vetenskaps-Akademiens handlingar</subfield>
+      </datafield>
+      <datafield tag="046D" fulltag="046D">
+        <subfield code="i">Hauptsacht. später teils</subfield>
+        <subfield code="a">Kungl. Svenska Vetenskapsakademiens handlingar</subfield>
+      </datafield>
+      <datafield tag="046P" fulltag="046P">
+        <subfield code="a">Anfangs als Zeitschrift erschienen</subfield>
+      </datafield>
+      <datafield tag="101B" fulltag="101B">
+        <subfield code="0">19-12-07</subfield>
+        <subfield code="t">13:35:14.000</subfield>
+      </datafield>
+      <datafield tag="101U" fulltag="101U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="145S" occurrence="01" fulltag="145S/01">
+        <subfield code="a">004</subfield>
+      </datafield>
+      <item epn="070304823">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:17:22.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">070304823</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">21-10-98</subfield>
+          <subfield code="b">p</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">4°@ZA 363</subfield>
+          <subfield code="f">000</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">12</subfield>
+        </datafield>
+        <datafield tag="209E" occurrence="01" fulltag="209E/01">
+          <subfield code="a">N.F.</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="209E" occurrence="01" fulltag="209E/01">
+          <subfield code="a">40.1906</subfield>
+          <subfield code="x">02</subfield>
+        </datafield>
+        <datafield tag="231@" occurrence="01" fulltag="231@/01">
+          <subfield code="d">40</subfield>
+          <subfield code="j">1906</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="01" fulltag="247C/01">
+          <subfield code="9">102599602</subfield>
+          <subfield code="a">Universität Mainz, Zentralbibliothek</subfield>
+          <subfield code="b">77</subfield>
+          <subfield code="c">651000-0</subfield>
+          <subfield code="h">DE-77</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
+        </datafield>
+      </item>
+    </metadata>
+  </record></collection>

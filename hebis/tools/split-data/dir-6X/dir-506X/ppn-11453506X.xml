@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><collection count="1"><record>
+    <status>upsert</status>
+    <hrid>11453506X</hrid>
+    <metadata>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">0017:29-10-03</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">AFu</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">11453506X</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">174878820</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">3805332858</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">HEB</subfield>
+        <subfield code="0">11453506X</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2003</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Kassel</subfield>
+        <subfield code="h">bearb. von Helmut Schubert</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">140224823</subfield>
+        <subfield code="8">Schubert, Helmut</subfield>
+        <subfield code="B">Bearb.</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Mainz am Rhein</subfield>
+        <subfield code="n">von Zabern</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">99 S.</subfield>
+      </datafield>
+      <datafield tag="034M" fulltag="034M">
+        <subfield code="a">Kt.</subfield>
+      </datafield>
+      <datafield tag="036C" fulltag="036C">
+        <subfield code="a">Die @Fundmünzen der römischen Zeit in Deutschland</subfield>
+        <subfield code="h">Kommission für Geschichte des Altertums der Akademie der Wissenschaften und der Literatur, Mainz ... Begr. von Hans Gebhart ... Hrsg. von Maria R.-Alföldi</subfield>
+      </datafield>
+      <datafield tag="036C" occurrence="01" fulltag="036C/01">
+        <subfield code="x">15,13</subfield>
+        <subfield code="m">Abt. 5</subfield>
+        <subfield code="a">@Hessen</subfield>
+        <subfield code="l">Bd. 3</subfield>
+      </datafield>
+      <datafield tag="036D" fulltag="036D">
+        <subfield code="9">010569189</subfield>
+        <subfield code="8">Die @Fundmünzen der römischen Zeit in Deutschland / herausgegeben von der Römisch-Germanischen Kommission des Deutschen Archäologischen Instituts zu Frankfurt a.M. ; begründet von Hans Gebhart und Konrad Kraft ; herausgegeben von Maria R.-Alföldi</subfield>
+      </datafield>
+      <item epn="724801162">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:29:24.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="01" fulltag="201C/01">
+          <subfield code="0">19-12-13</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">724801162</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">19-12-13</subfield>
+          <subfield code="b">zio</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">W 60</subfield>
+          <subfield code="f">086</subfield>
+          <subfield code="d">s</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">FB 16.2 W 60</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">R. U1-914</subfield>
+          <subfield code="x">09</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="01" fulltag="209C/01">
+          <subfield code="a">90/2013 Alte Geschichte</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">77057486</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">Alte Geschichte / Separiert</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="220B" occurrence="01" fulltag="220B/01">
+          <subfield code="a">Standort: Raum Numismatik (U1-914). Bestellung über Institut Alte Geschichte</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="01" fulltag="247C/01">
+          <subfield code="9">10260035X</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Philosophicum, Standort Alte Geschichte</subfield>
+          <subfield code="b">77/086</subfield>
+          <subfield code="c">651086-3</subfield>
+          <subfield code="h">DE-77-086</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
+        </datafield>
+        <datafield tag="247D" occurrence="01" fulltag="247D/01">
+          <subfield code="a">Tagesausleihe erst nach Rücksprache möglich</subfield>
+        </datafield>
+      </item>
+    </metadata>
+  </record></collection>

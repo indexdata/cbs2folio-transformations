@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?><collection count="1"><record>
+    <status>upsert</status>
+    <hrid>113817290</hrid>
+    <metadata>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">0030:04-02-04</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Aau</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">113817290</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">55680854</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">3897961016</subfield>
+        <subfield code="f">kart. : EUR 33.00</subfield>
+      </datafield>
+      <datafield tag="004L" fulltag="004L">
+        <subfield code="0">9783897961012</subfield>
+      </datafield>
+      <datafield tag="006G" fulltag="006G">
+        <subfield code="0">967358388</subfield>
+      </datafield>
+      <datafield tag="006T" fulltag="006T">
+        <subfield code="0">03,N19,0766</subfield>
+      </datafield>
+      <datafield tag="006U" fulltag="006U">
+        <subfield code="0">03,A39,1518</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">DNB</subfield>
+        <subfield code="0">967358388</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+        <subfield code="a">eng</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2003</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Sprachtechnologie für die multilinguale Kommunikation</subfield>
+        <subfield code="d">Textproduktion, Recherche, Übersetzung, Lokalisierung</subfield>
+        <subfield code="h">Uta Seewald-Heeg (Hrsg.)</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">155370758</subfield>
+        <subfield code="8">Seewald-Heeg, Uta *1962-*</subfield>
+        <subfield code="B">Hrsg.</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">176196021</subfield>
+        <subfield code="8">Biemann, Christian</subfield>
+        <subfield code="B">Mitarb.</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">17619603X</subfield>
+        <subfield code="8">Bordag, Stefan</subfield>
+        <subfield code="B">Mitarb.</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">155160257</subfield>
+        <subfield code="8">Reitter, David</subfield>
+        <subfield code="B">Mitarb.</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">460898507</subfield>
+        <subfield code="8">Chiarcos, Christian</subfield>
+        <subfield code="B">Mitarb.</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">160573068</subfield>
+        <subfield code="8">Göbel, Tobias</subfield>
+        <subfield code="B">Mitarb.</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">146685350</subfield>
+        <subfield code="8">Schäler, Reinhard</subfield>
+        <subfield code="B">Mitarb.</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">141755148</subfield>
+        <subfield code="8">Seelbach, Dieter *1941-*</subfield>
+        <subfield code="B">Mitarb.</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">342896733</subfield>
+        <subfield code="8">Langer, Stefan</subfield>
+        <subfield code="B">Mitarb.</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">14638380X</subfield>
+        <subfield code="8">Weber, Nico</subfield>
+        <subfield code="B">Mitarb.</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">315185597</subfield>
+        <subfield code="8">Abel, Andrea *1973-*</subfield>
+        <subfield code="B">Mitarb.</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">176196056</subfield>
+        <subfield code="8">Voltmer, Leonhard</subfield>
+        <subfield code="B">Mitarb.</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">149868359</subfield>
+        <subfield code="8">Carson-Berndsen, Julie</subfield>
+        <subfield code="B">Mitarb.</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">183687884</subfield>
+        <subfield code="8">Neugebauer, Moritz</subfield>
+        <subfield code="B">Mitarb.</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">43711709X</subfield>
+        <subfield code="8">Eberle, Kurt</subfield>
+        <subfield code="B">Mitarb.</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">159892171</subfield>
+        <subfield code="8">Sasaki, Felix</subfield>
+        <subfield code="B">Mitarb.</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">151806276</subfield>
+        <subfield code="8">Mandl, Thomas</subfield>
+        <subfield code="B">Mitarb.</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">175974160</subfield>
+        <subfield code="8">Womser-Hacker, Christa</subfield>
+        <subfield code="B">Mitarb.</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">154217093</subfield>
+        <subfield code="8">Fissgus, Ursula *1957-*</subfield>
+        <subfield code="B">Mitarb.</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">176196064</subfield>
+        <subfield code="8">Bachmann, Elke</subfield>
+        <subfield code="B">Mitarb.</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">145917525</subfield>
+        <subfield code="8">Müller, Katrin</subfield>
+        <subfield code="B">Mitarb.</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">176196102</subfield>
+        <subfield code="8">Nörenberg, Katrin</subfield>
+        <subfield code="B">Mitarb.</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">176196110</subfield>
+        <subfield code="8">Siggelkow, Ulrike</subfield>
+        <subfield code="B">Mitarb.</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">176196129</subfield>
+        <subfield code="8">Woetzel, Susann</subfield>
+        <subfield code="B">Mitarb.</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">175609497</subfield>
+        <subfield code="8">Kuboň, Vladislav</subfield>
+        <subfield code="B">Mitarb.</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">235893188</subfield>
+        <subfield code="8">Köhler, Reinhard *1951-*</subfield>
+        <subfield code="B">Mitarb.</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">172191602</subfield>
+        <subfield code="8">Mehler, Alexander</subfield>
+        <subfield code="B">Mitarb.</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">437113795</subfield>
+        <subfield code="8">Rapp, Reinhard</subfield>
+        <subfield code="B">Mitarb.</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">214318125</subfield>
+        <subfield code="8">Ziegler, Arne *1963-*</subfield>
+        <subfield code="B">Mitarb.</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">146451309</subfield>
+        <subfield code="8">Naumann, Sven</subfield>
+        <subfield code="B">Mitarb.</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">176196137</subfield>
+        <subfield code="8">Goecke, Daniela</subfield>
+        <subfield code="B">Mitarb.</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">176196145</subfield>
+        <subfield code="8">Naber, Daniel</subfield>
+        <subfield code="B">Mitarb.</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">143608835</subfield>
+        <subfield code="8">Witt, Andreas</subfield>
+        <subfield code="B">Mitarb.</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">153431415</subfield>
+        <subfield code="8">Gut, Ulrike</subfield>
+        <subfield code="B">Mitarb.</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">155214128</subfield>
+        <subfield code="8">Milde, Jan-Torsten *1965-*</subfield>
+        <subfield code="B">Mitarb.</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">228628016</subfield>
+        <subfield code="8">Pitsch, Karola</subfield>
+        <subfield code="B">Mitarb.</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">141643846</subfield>
+        <subfield code="8">Schmidt, Thomas</subfield>
+        <subfield code="B">Mitarb.</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">144942739</subfield>
+        <subfield code="8">Koepke, Peter</subfield>
+        <subfield code="B">Mitarb.</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">143280562</subfield>
+        <subfield code="8">Schröder, Bernhard</subfield>
+        <subfield code="B">Mitarb.</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">183014278</subfield>
+        <subfield code="8">Quasthoff, Uwe *1956-*</subfield>
+        <subfield code="B">Mitarb.</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">143305956</subfield>
+        <subfield code="8">Richter, Matthias</subfield>
+        <subfield code="B">Mitarb.</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">138247854</subfield>
+        <subfield code="8">Wolf, Christian</subfield>
+        <subfield code="B">Mitarb.</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">183916700</subfield>
+        <subfield code="8">Kunze, Manuela *1971-*</subfield>
+        <subfield code="B">Mitarb.</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">187514313</subfield>
+        <subfield code="8">Rösner, Dietmar *1951-*</subfield>
+        <subfield code="B">Mitarb.</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">176196072</subfield>
+        <subfield code="8">Hentze, Michael</subfield>
+        <subfield code="B">Mitarb.</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">176196080</subfield>
+        <subfield code="8">Kislow, Katja</subfield>
+        <subfield code="B">Mitarb.</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">269812539</subfield>
+        <subfield code="8">Kutz, Michael</subfield>
+        <subfield code="B">Mitarb.</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Sankt Augustin</subfield>
+        <subfield code="n">Gardez!-Verl.</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">478 S.</subfield>
+      </datafield>
+      <datafield tag="034I" fulltag="034I">
+        <subfield code="a">21 cm</subfield>
+      </datafield>
+      <datafield tag="034K" fulltag="034K">
+        <subfield code="a">1 CD-ROM (12 cm)</subfield>
+      </datafield>
+      <datafield tag="034M" fulltag="034M">
+        <subfield code="a">Ill., graph. Darst.</subfield>
+      </datafield>
+      <datafield tag="036E" fulltag="036E">
+        <subfield code="a">Sprachwissenschaft, Computerlinguistik und neue Medien</subfield>
+        <subfield code="l">5</subfield>
+      </datafield>
+      <datafield tag="036E" fulltag="036E">
+        <subfield code="a">Beiträge der GLDV-Frühjahrestagung ...</subfield>
+        <subfield code="l">2003</subfield>
+      </datafield>
+      <datafield tag="037A" fulltag="037A">
+        <subfield code="a">Beitr. teilw. dt., teilw. engl.</subfield>
+      </datafield>
+      <datafield tag="037A" fulltag="037A">
+        <subfield code="a">Literaturangaben</subfield>
+      </datafield>
+      <item epn="212877593">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:29:25.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="01" fulltag="201C/01">
+          <subfield code="0">19-04-04</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">212877593</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">19-04-04</subfield>
+          <subfield code="b">r</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">Bk 2003/1</subfield>
+          <subfield code="f">073</subfield>
+          <subfield code="d">d</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">FB 14.2 Bk 2003/1</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">073 CD 23</subfield>
+          <subfield code="x">09</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="01" fulltag="209C/01">
+          <subfield code="a">76/2003</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">74360437</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">Allgemeine und Vergleichende Sprachwissenschaft</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="237A" occurrence="01" fulltag="237A/01">
+          <subfield code="a">CD bestellen: Signatur 073 CD 23</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="01" fulltag="247C/01">
+          <subfield code="9">102600228</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Philosophicum, Standort Allgemeine und Vergleichende Sprachwissenschaft</subfield>
+          <subfield code="b">77/073</subfield>
+          <subfield code="c">651073-5</subfield>
+          <subfield code="h">DE-77-073</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
+        </datafield>
+      </item>
+    </metadata>
+  </record></collection>

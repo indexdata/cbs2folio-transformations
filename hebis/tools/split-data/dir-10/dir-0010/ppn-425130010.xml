@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><collection count="1"><record>
+    <status>upsert</status>
+    <hrid>425130010</hrid>
+    <metadata>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">0077:23-01-18</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Aar</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+        <subfield code="2">rdacontent</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+        <subfield code="b">n</subfield>
+        <subfield code="2">rdamedia</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Band</subfield>
+        <subfield code="b">nc</subfield>
+        <subfield code="2">rdacarrier</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">425130010</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">1020168618</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">HEB</subfield>
+        <subfield code="0">425130010</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">fre</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">1941</subfield>
+        <subfield code="n">1941</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">085563315</subfield>
+        <subfield code="a">Auktionskatalog</subfield>
+        <subfield code="y">05.12.1941</subfield>
+        <subfield code="z">Paris</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Tableaux anciens</subfield>
+        <subfield code="d">par ou attribués à Bassano, Bosch, Boulogne, Braunschweig, Bredael, Brueghel [und weitere] : tableaux modernes : par Boggs, Cazin, Dethiers, Levy Dhurmer, Flameng, Guillaumet [und weitere] : dessins, aquarelles, pastels : par Bernard, Boudin, Cabat, Calbet, Courbet, Delacroix, Frémiet [und weitere] : sculpture par Carrier-Belleuse : bronzes : par Bennés, Bonheur (Rosa), Cain, Frémiet, Gardet, Mène, Moigniez : vente Hôtel Drouot, Salle No 9, le vendredi 5 décembre 1941</subfield>
+        <subfield code="h">commissaire-priseur: H. Baudoin ; assiste de: Pour les tableaux modernes André Schœller, expert, pour les tableaux anciens Georges Terrisse, expert</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">312171994</subfield>
+        <subfield code="8">Baudoin, Henri</subfield>
+        <subfield code="B">Mitwirkender</subfield>
+        <subfield code="4">ctb</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">416069371</subfield>
+        <subfield code="8">Schœller, André</subfield>
+        <subfield code="B">Mitwirkender</subfield>
+        <subfield code="4">ctb</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">425126455</subfield>
+        <subfield code="8">Terrisse, Georges</subfield>
+        <subfield code="B">Mitwirkender</subfield>
+        <subfield code="4">ctb</subfield>
+      </datafield>
+      <datafield tag="029F" fulltag="029F">
+        <subfield code="9">041895886</subfield>
+        <subfield code="8">Hôtel Drouot</subfield>
+        <subfield code="B">Veranstalter</subfield>
+        <subfield code="4">orm</subfield>
+      </datafield>
+      <datafield tag="029F" fulltag="029F">
+        <subfield code="9">095986340</subfield>
+        <subfield code="8">Commissaire-Priseur Henri Baudoin (Paris)</subfield>
+        <subfield code="B">Veranstalter</subfield>
+        <subfield code="4">orm</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Paris</subfield>
+        <subfield code="n">[Verlag nicht ermittelbar]</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">23 Seiten</subfield>
+      </datafield>
+      <datafield tag="034M" fulltag="034M">
+        <subfield code="a">Illustrationen</subfield>
+      </datafield>
+      <datafield tag="046C" fulltag="046C">
+        <subfield code="i">Titel auf dem Umschlag</subfield>
+        <subfield code="a">Tableaux anciens et modernes</subfield>
+      </datafield>
+      <item epn="1015718213">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:30:30.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="01" fulltag="201C/01">
+          <subfield code="0">23-01-18</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">1015718213</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">23-01-18</subfield>
+          <subfield code="b">rki</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">2° BH 1093</subfield>
+          <subfield code="f">000</subfield>
+          <subfield code="d">i</subfield>
+          <subfield code="h">BH 1093</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">KAT IV DRO 1941.12.05</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">079KHF</subfield>
+          <subfield code="x">05</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">07934</subfield>
+          <subfield code="x">06</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">17641668</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">MAG</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="220D" occurrence="01" fulltag="220D/01">
+          <subfield code="a">Geschenk E.B. Nr 1282</subfield>
+        </datafield>
+        <datafield tag="244Z" occurrence="01" fulltag="244Z/01">
+          <subfield code="9">404819435</subfield>
+          <subfield code="7">Tb3</subfield>
+          <subfield code="V">kiz</subfield>
+          <subfield code="A">gnd</subfield>
+          <subfield code="0">1136085645</subfield>
+          <subfield code="a">Kunsthistorische Forschungsstätte</subfield>
+          <subfield code="x">80</subfield>
+        </datafield>
+        <datafield tag="244Z" occurrence="01" fulltag="244Z/01">
+          <subfield code="9">423710192</subfield>
+          <subfield code="7">Tp1</subfield>
+          <subfield code="V">piz</subfield>
+          <subfield code="A">gnd</subfield>
+          <subfield code="0">1148119914</subfield>
+          <subfield code="a">Bignou, Étienne, 1891-1950</subfield>
+          <subfield code="x">81</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="01" fulltag="247C/01">
+          <subfield code="9">102599602</subfield>
+          <subfield code="a">Universität Mainz, Zentralbibliothek</subfield>
+          <subfield code="b">77</subfield>
+          <subfield code="c">651000-0</subfield>
+          <subfield code="h">DE-77</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
+        </datafield>
+      </item>
+    </metadata>
+  </record></collection>

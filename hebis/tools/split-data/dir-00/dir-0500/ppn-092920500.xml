@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><collection count="1"><record>
+    <status>upsert</status>
+    <hrid>092920500</hrid>
+    <metadata>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">0123:31-07-00</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Acu</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+        <subfield code="2">rdacontent</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+        <subfield code="b">n</subfield>
+        <subfield code="2">rdamedia</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Band</subfield>
+        <subfield code="b">nc</subfield>
+        <subfield code="2">rdacarrier</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">092920500</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">174526803</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">3933679346</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">HEB</subfield>
+        <subfield code="0">092920500</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2000</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">10566491X</subfield>
+        <subfield code="a">Ausstellungskatalog</subfield>
+        <subfield code="y">2000</subfield>
+        <subfield code="z">Marbach am Neckar</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">10566491X</subfield>
+        <subfield code="a">Ausstellungskatalog</subfield>
+        <subfield code="y">2000</subfield>
+        <subfield code="z">Zürich</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">10566491X</subfield>
+        <subfield code="a">Ausstellungskatalog</subfield>
+        <subfield code="y">2001</subfield>
+        <subfield code="z">New York</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">10566491X</subfield>
+        <subfield code="a">Ausstellungskatalog</subfield>
+        <subfield code="y">2001</subfield>
+        <subfield code="z">Dresden</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Spiegel der Welt</subfield>
+        <subfield code="d">Handschriften und Bücher aus drei Jahrtausenden ; eine Ausstellung der Fondation Martin Bodmer, Cologny, in Verbindung mit dem Schiller-Nationalmuseum Marbach und der Stiftung Museum Bärengasse, Zürich ; Museum Bärengasse, Zürich, 31. Mai - 27. August 2000 ; Schiller-Nationalmuseum, Marbach, 10. September - 29. Oktober 2000 ; Grolier-Club, New York, 20. Februar - 28. April 2001 ; Sächsische Landesbibliothek - Staats- und Universitätsbibliothek Dresden, Staatliche Kunstsammlungen Dresden, Residenzschloß, Georgenbau, 27. Mai - 26. August 2001</subfield>
+        <subfield code="h">[Ausstellung und Katalog: Martin Bircher ...]</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">08741077X</subfield>
+        <subfield code="8">Bircher, Martin *1938-2006*</subfield>
+      </datafield>
+      <datafield tag="029F" fulltag="029F">
+        <subfield code="9">040269817</subfield>
+        <subfield code="8">Bibliotheca Bodmeriana</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Cologny</subfield>
+        <subfield code="n">Fondation Martin Bodmer</subfield>
+      </datafield>
+      <datafield tag="036E" fulltag="036E">
+        <subfield code="a">Marbacher Kataloge</subfield>
+        <subfield code="l">55</subfield>
+      </datafield>
+      <item epn="147519381">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:29:51.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">147519381</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">07-05-19</subfield>
+          <subfield code="b">da</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+      </item>
+    </metadata>
+  </record></collection>

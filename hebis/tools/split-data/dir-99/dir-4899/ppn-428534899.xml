@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><collection count="1"><record>
+    <status>upsert</status>
+    <hrid>428534899</hrid>
+    <metadata>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">6055:17-04-18</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Oax</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+        <subfield code="2">rdacontent</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">Computermedien</subfield>
+        <subfield code="b">c</subfield>
+        <subfield code="2">rdamedia</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Online-Ressource</subfield>
+        <subfield code="b">cr</subfield>
+        <subfield code="2">rdacarrier</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">428534899</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">1030819807</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">9781316227404</subfield>
+        <subfield code="f">(ebook)</subfield>
+      </datafield>
+      <datafield tag="004P" fulltag="004P">
+        <subfield code="S">p</subfield>
+        <subfield code="0">9781107107007</subfield>
+        <subfield code="f">(hardback)</subfield>
+      </datafield>
+      <datafield tag="004P" fulltag="004P">
+        <subfield code="S">p</subfield>
+        <subfield code="0">9781107514553</subfield>
+        <subfield code="f">(paperback)</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">HEB</subfield>
+        <subfield code="0">428534899</subfield>
+      </datafield>
+      <datafield tag="017C" fulltag="017C">
+        <subfield code="u">https://doi.org/10.1017/9781316227404</subfield>
+        <subfield code="x">R</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">eng</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2018</subfield>
+      </datafield>
+      <datafield tag="017L" fulltag="017L">
+        <subfield code="a">ZDB-20-CBO</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Roman political thought</subfield>
+        <subfield code="h">Jed W. Atkins, Duke University, Durham, North Carolina</subfield>
+      </datafield>
+      <datafield tag="028A" fulltag="028A">
+        <subfield code="9">333689410</subfield>
+        <subfield code="8">Atkins, Jed W.</subfield>
+        <subfield code="B">Verfasser</subfield>
+        <subfield code="4">aut</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Cambridge</subfield>
+        <subfield code="n">Cambridge University Press</subfield>
+      </datafield>
+      <datafield tag="033E" fulltag="033E">
+        <subfield code="p">Cambridge, UK</subfield>
+        <subfield code="n">Cambridge University Press</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">1 Online-Ressource (xvii, 239 pages)</subfield>
+      </datafield>
+      <datafield tag="036E" fulltag="036E">
+        <subfield code="a">Key themes in ancient history</subfield>
+      </datafield>
+      <datafield tag="037A" fulltag="037A">
+        <subfield code="a">Title from publisher's bibliographic system (viewed on 05 Apr 2018)</subfield>
+      </datafield>
+      <datafield tag="047I" fulltag="047I">
+        <subfield code="a">What can the Romans teach us about politics? This thematic introduction to Roman political thought shows how the Roman world developed political ideas of lasting significance, from the consequential constitutional notions of the separation of powers, political legitimacy, and individual rights to key concepts in international relations, such as imperialism, just war theory, and cosmopolitanism. Jed W. Atkins relates these and many other important ideas to Roman republicanism, traces their evolution across all major periods of Roman history, and describes Christianity's important contributions to their development. Using the politics and political thought of the United States as a case study, he argues that the relevance of Roman political thought for modern liberal democracies lies in the profound mixture of ideas both familiar and foreign to us that shape and enliven Roman republicanism. Accessible to students and non-specialists, this book provides an invaluable guide to Roman political thought and its enduring legacies.</subfield>
+      </datafield>
+      <item epn="105781671X">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">14-08-19</subfield>
+          <subfield code="t">13:14:14.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="01" fulltag="201C/01">
+          <subfield code="0">14-08-19</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">105781671X</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">14-08-19</subfield>
+          <subfield code="b">a</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">bestellt</subfield>
+          <subfield code="f">086</subfield>
+          <subfield code="d">a</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">FB 16.2</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="01" fulltag="209C/01">
+          <subfield code="a">/2019 Alte Geschichte</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">Alte Geschichte</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="01" fulltag="247C/01">
+          <subfield code="9">10260035X</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Philosophicum, Standort Alte Geschichte</subfield>
+          <subfield code="b">77/086</subfield>
+          <subfield code="c">651086-3</subfield>
+          <subfield code="h">DE-77-086</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
+        </datafield>
+      </item>
+    </metadata>
+  </record></collection>

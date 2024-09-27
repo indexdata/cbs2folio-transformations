@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><collection count="1"><record>
+    <status>upsert</status>
+    <hrid>433828692</hrid>
+    <metadata>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">6050:19-07-18</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Obv</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+        <subfield code="2">rdacontent</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">Computermedien</subfield>
+        <subfield code="b">c</subfield>
+        <subfield code="2">rdamedia</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Online-Ressource</subfield>
+        <subfield code="b">cr</subfield>
+        <subfield code="2">rdacarrier</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">433828692</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">1368467283</subfield>
+      </datafield>
+      <datafield tag="006Z" fulltag="006Z">
+        <subfield code="0">2936581-8</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">ZDB</subfield>
+        <subfield code="0">2936581-8</subfield>
+      </datafield>
+      <datafield tag="017C" fulltag="017C">
+        <subfield code="u">http://www.eastindiacompany.amdigital.co.uk</subfield>
+        <subfield code="x">H</subfield>
+        <subfield code="z">NL</subfield>
+      </datafield>
+      <datafield tag="017C" fulltag="017C">
+        <subfield code="u">http://dbis.uni-regensburg.de/frontdoor.php?titel_id=101929</subfield>
+        <subfield code="x">T</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">eng</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2018</subfield>
+        <subfield code="n">2018-</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">106354256</subfield>
+        <subfield code="a">Datenbank</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">085503576</subfield>
+        <subfield code="a">Quelle</subfield>
+      </datafield>
+      <datafield tag="017L" fulltag="017L">
+        <subfield code="a">ZDB-1-EIC</subfield>
+      </datafield>
+      <datafield tag="018@" fulltag="018@">
+        <subfield code="a">u</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">East India Company</subfield>
+      </datafield>
+      <datafield tag="026C" fulltag="026C">
+        <subfield code="a">EIC</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Marlborough, England</subfield>
+        <subfield code="n">Adam Matthew Digital</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">Online-Ressource</subfield>
+      </datafield>
+      <datafield tag="037A" fulltag="037A">
+        <subfield code="a">Gesehen am 19.07.2018</subfield>
+      </datafield>
+      <datafield tag="037A" fulltag="037A">
+        <subfield code="a">Coverage 1600-1947</subfield>
+      </datafield>
+      <datafield tag="047I" fulltag="047I">
+        <subfield code="a">This digital resource allows students and researchers to access a vast and remarkable collection of primary source documents from the India Office Records held by the British Library, the single most important archive for the study of the East India Company. From the Company’s charter in 1600 to Indian independence in 1947, the East India Company resource tells the story of trade with the East, politics, and the rise and fall of the British Empire. It records the challenges of a globalising world and sheds light on many contrasting lives – from those of powerful political figures to ordinary people in Britain and Asia and the individual traders who lived and worked at the edge of Empire. This incredible story is told through the manuscript records of the period, with over 1.2 million pages of content digitised. The resource consists of 5 modules: Module 1: Trade, governance and Empire, 1600-1947; Module 2: Factory records for South Asia and South-East Asia; Module 3: Factory records for China, Japan and the Middle East; Module 4: Correspondence: early voyages, formation and conflict; Module 5: Correspondence: domestic life, governance and territorial expansion</subfield>
+      </datafield>
+      <item epn="1027892205">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:17:10.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="01" fulltag="201C/01">
+          <subfield code="0">06-09-18</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">1027892205</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">06-09-18</subfield>
+          <subfield code="b">p</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">/</subfield>
+          <subfield code="f">001</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">12</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="01" fulltag="209C/01">
+          <subfield code="a">e-only</subfield>
+        </datafield>
+        <datafield tag="209E" occurrence="01" fulltag="209E/01">
+          <subfield code="a">Online-Zugang nur im Netz der Universität Mainz</subfield>
+          <subfield code="x">04</subfield>
+        </datafield>
+        <datafield tag="209S" occurrence="01" fulltag="209S/01">
+          <subfield code="u">http://www.bibliothek.uni-regensburg.de/dbinfo/frontdoor.php?titel_id=101929&amp;bib_id=ub_mz </subfield>
+          <subfield code="X">T</subfield>
+        </datafield>
+        <datafield tag="245G" occurrence="01" fulltag="245G/01">
+          <subfield code="c">ej</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="01" fulltag="247C/01">
+          <subfield code="9">102599610</subfield>
+          <subfield code="a">Universität Mainz, Elektronische Ressourcen</subfield>
+          <subfield code="b">77/001</subfield>
+          <subfield code="c">651001-2</subfield>
+          <subfield code="h">DE-77-001</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
+        </datafield>
+      </item>
+    </metadata>
+  </record></collection>
