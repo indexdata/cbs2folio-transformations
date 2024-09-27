@@ -1082,7 +1082,7 @@
                   </xsl:otherwise>
                 </xsl:choose>
               </alternativeTitle>
-              <alternativeTitleTypeId>Abweichender Titel</alternativeTitleTypeId> 
+              <alternativeTitleTypeId>Sonstiger Titel</alternativeTitleTypeId> 
             </i>
           </xsl:for-each>
           
