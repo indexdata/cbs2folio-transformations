@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><collection count="1"><record>
+    <status>upsert</status>
+    <hrid>180093029</hrid>
+    <metadata>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">6050:10-10-15</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Adx</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+        <subfield code="2">rdacontent</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+        <subfield code="b">n</subfield>
+        <subfield code="2">rdamedia</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Band</subfield>
+        <subfield code="b">nc</subfield>
+        <subfield code="2">rdacarrier</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">180093029</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">723615867</subfield>
+      </datafield>
+      <datafield tag="005A" fulltag="005A">
+        <subfield code="0">0416-7465</subfield>
+      </datafield>
+      <datafield tag="006L" fulltag="006L">
+        <subfield code="i">DNB</subfield>
+        <subfield code="0">97943209X</subfield>
+      </datafield>
+      <datafield tag="006U" fulltag="006U">
+        <subfield code="0">08,B22,0020</subfield>
+      </datafield>
+      <datafield tag="006Z" fulltag="006Z">
+        <subfield code="0">2280507-2s</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">ZDB</subfield>
+        <subfield code="0">2280507-2</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2005</subfield>
+        <subfield code="b">2008</subfield>
+        <subfield code="n">2005-2008</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">104628669</subfield>
+        <subfield code="a">Monografische Reihe</subfield>
+      </datafield>
+      <datafield tag="018@" fulltag="018@">
+        <subfield code="a">z</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Schriftenreihe des Grünflächen- und Umweltamtes</subfield>
+        <subfield code="h">Grünflächen- und Umweltamt, Abteilung Umwelt. Hrsg. Magistrat der Wissenschaftsstadt Darmstadt, Grünflächen- und Umweltamt</subfield>
+      </datafield>
+      <datafield tag="029A" fulltag="029A">
+        <subfield code="9">128025999</subfield>
+        <subfield code="8">Darmstadt. Grünflächen- und Umweltamt</subfield>
+        <subfield code="B">Verfasser</subfield>
+        <subfield code="4">aut</subfield>
+      </datafield>
+      <datafield tag="031@" fulltag="031@">
+        <subfield code="a">17.2005,4 - 18.2008,3; damit Ersch. eingest.</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Darmstadt</subfield>
+        <subfield code="n">Magistrat der Wissenschaftsstadt Darmstadt, Grünflächen und Umweltamt</subfield>
+      </datafield>
+      <datafield tag="039E" fulltag="039E">
+        <subfield code="b">f</subfield>
+        <subfield code="i">Vorg.</subfield>
+        <subfield code="9">123009731</subfield>
+        <subfield code="8">Darmstadt. Amt für Stadtökologie. Schriftenreihe / Wissenschaftsstadt Darmstadt, Amt für Stadtökologie, Abt. Umwelt</subfield>
+      </datafield>
+      <datafield tag="046D" fulltag="046D">
+        <subfield code="i">Hauptsacht. bis 2006</subfield>
+        <subfield code="a">Schriftenreihe</subfield>
+      </datafield>
+      <datafield tag="046P" fulltag="046P">
+        <subfield code="a">Ersch. unregelmäßig</subfield>
+      </datafield>
+      <item epn="433895926">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:28:54.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">433895926</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">03-08-06</subfield>
+          <subfield code="b">dummy</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+      </item>
+    </metadata>
+  </record></collection>

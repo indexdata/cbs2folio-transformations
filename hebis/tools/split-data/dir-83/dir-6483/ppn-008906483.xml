@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><collection count="1"><record>
+    <status>upsert</status>
+    <hrid>008906483</hrid>
+    <metadata>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">6050:09-10-15</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Adx</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+        <subfield code="2">rdacontent</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+        <subfield code="b">n</subfield>
+        <subfield code="2">rdamedia</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Band</subfield>
+        <subfield code="b">nc</subfield>
+        <subfield code="2">rdacarrier</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">008906483</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">985614244</subfield>
+      </datafield>
+      <datafield tag="005A" fulltag="005A">
+        <subfield code="0">1012-5744</subfield>
+      </datafield>
+      <datafield tag="006L" fulltag="006L">
+        <subfield code="i">DNB</subfield>
+        <subfield code="0">550991859</subfield>
+      </datafield>
+      <datafield tag="006U" fulltag="006U">
+        <subfield code="0">09,A14,2491</subfield>
+      </datafield>
+      <datafield tag="006Z" fulltag="006Z">
+        <subfield code="0">520755-1s</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">ZDB</subfield>
+        <subfield code="0">520755-1</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">1903</subfield>
+        <subfield code="n">1903-</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">104628669</subfield>
+        <subfield code="a">Monografische Reihe</subfield>
+      </datafield>
+      <datafield tag="018@" fulltag="018@">
+        <subfield code="a">z</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Veröffentlichungen der Kommission für Neuere Geschichte Österreichs</subfield>
+      </datafield>
+      <datafield tag="029A" fulltag="029A">
+        <subfield code="9">042707196</subfield>
+        <subfield code="8">Kommission für Neuere Geschichte Österreichs</subfield>
+        <subfield code="B">Verfasser</subfield>
+        <subfield code="4">aut</subfield>
+      </datafield>
+      <datafield tag="031@" fulltag="031@">
+        <subfield code="a">[1.]1903 - [2.]1906; 3.1907 - 4.1907/13; 5.1907 - 32.1938; Nr. 35.1950 - 72.1982; 73.1996; 74.1984 -</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Wien ; Köln ; Weimar</subfield>
+        <subfield code="n">Böhlau</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Wien ; Leipzig</subfield>
+        <subfield code="n">Wilhelm Braumüller, K.K. Hof- und Universitätsbuchhändler</subfield>
+        <subfield code="h">1906</subfield>
+        <subfield code="z">f</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Wien</subfield>
+        <subfield code="n">Holzhausen</subfield>
+        <subfield code="h">-1951</subfield>
+        <subfield code="z">f</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Wien ; Köln ; Graz</subfield>
+        <subfield code="n">Böhlau</subfield>
+        <subfield code="h">-1982u.1984-1996</subfield>
+        <subfield code="z">f</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Wien ; Köln</subfield>
+        <subfield code="n">Böhlau</subfield>
+        <subfield code="h">1990-1991</subfield>
+        <subfield code="z">f</subfield>
+      </datafield>
+      <datafield tag="034K" fulltag="034K">
+        <subfield code="a">DVDs als Beil.</subfield>
+      </datafield>
+      <datafield tag="037A" fulltag="037A">
+        <subfield code="a">Repr.: Nendeln : Kraus, 1972</subfield>
+      </datafield>
+      <datafield tag="039D" fulltag="039D">
+        <subfield code="i">Erscheint auch als</subfield>
+        <subfield code="n">Online-Ausgabe</subfield>
+        <subfield code="9">400955709</subfield>
+        <subfield code="8">Veröffentlichungen der Kommission für Neuere Geschichte Österreichs. - Wien ; Köln ; Weimar : Böhlau Verlag, [1960?]-. - Online-Ressource</subfield>
+      </datafield>
+      <datafield tag="039E" fulltag="039E">
+        <subfield code="b">s</subfield>
+        <subfield code="i">33.1942 - 34.1943</subfield>
+        <subfield code="9">023760974</subfield>
+        <subfield code="8">Kommission für Neuere Geschichte des Ehemaligen Österreich. Veröffentlichungen der Kommission für Neuere Geschichte des Ehemaligen Österreich</subfield>
+      </datafield>
+      <datafield tag="046D" fulltag="046D">
+        <subfield code="i">Nebent. teils</subfield>
+        <subfield code="a">Austria</subfield>
+      </datafield>
+      <datafield tag="046P" fulltag="046P">
+        <subfield code="a">Ersch. unregelmäßig; 4.1907/13 auf d. Bd.-Titelbl. mit Ersch.-Jahr 1913; 88.1997 fälschlich auch als 87 bez.; teils mit springenden Ersch.-Jahren</subfield>
+      </datafield>
+      <item epn="108411389">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:30:33.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">108411389</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">20-02-97</subfield>
+          <subfield code="b">dummy</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+      </item>
+    </metadata>
+  </record></collection>

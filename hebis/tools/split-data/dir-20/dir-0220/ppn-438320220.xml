@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><collection count="1"><record>
+    <status>upsert</status>
+    <hrid>438320220</hrid>
+    <metadata>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">0077:30-10-18</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Sau</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">zweidimensionales bewegtes Bild</subfield>
+        <subfield code="b">tdi</subfield>
+        <subfield code="2">rdacontent</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">video</subfield>
+        <subfield code="b">v</subfield>
+        <subfield code="2">rdamedia</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Videodisk</subfield>
+        <subfield code="b">vd</subfield>
+        <subfield code="2">rdacarrier</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">438320220</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">1060603384</subfield>
+      </datafield>
+      <datafield tag="004L" fulltag="004L">
+        <subfield code="0">5414937033423</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">HEB</subfield>
+        <subfield code="0">438320220</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">dut</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2017</subfield>
+        <subfield code="n">[2017]</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">085039985</subfield>
+        <subfield code="a">Film</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Sprakeloos</subfield>
+        <subfield code="d">ode an mijn moeder</subfield>
+        <subfield code="h">een film van Hilde Van Mieghem ; naar de succesroman van Tom Lanoye ; Stany Crets ; Viviane de Muynck ; Rik van Uffelen ; Hans Kesting ; Marie Vinck ; Flor Decleir</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">222695323</subfield>
+        <subfield code="8">Mieghem, Hilde van *1958-*</subfield>
+        <subfield code="B">Regisseur</subfield>
+        <subfield code="4">drt</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">087758407</subfield>
+        <subfield code="8">Lanoye, Tom *1958-*</subfield>
+        <subfield code="B">Sonstige</subfield>
+        <subfield code="4">oth</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">267921578</subfield>
+        <subfield code="8">Muynck, Viviane de *1946-*</subfield>
+        <subfield code="B">Schauspieler</subfield>
+        <subfield code="4">act</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">367583003</subfield>
+        <subfield code="8">Crets, Stany *1964-*</subfield>
+        <subfield code="B">Schauspieler</subfield>
+        <subfield code="4">act</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">350570469</subfield>
+        <subfield code="8">Uffelen, Rik van</subfield>
+        <subfield code="B">Schauspieler</subfield>
+        <subfield code="4">act</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">211734675</subfield>
+        <subfield code="8">Kesting, Hans *1960-*</subfield>
+        <subfield code="B">Schauspieler</subfield>
+        <subfield code="4">act</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">438319532</subfield>
+        <subfield code="8">Vinck, Marie *1983-*</subfield>
+        <subfield code="B">Schauspieler</subfield>
+        <subfield code="4">act</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">438320069</subfield>
+        <subfield code="8">Decleir, Flor *1990-*</subfield>
+        <subfield code="B">Schauspieler</subfield>
+        <subfield code="4">act</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">[Amsterdam]</subfield>
+        <subfield code="n">Paradiso Films</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">1 DVD-Video (105 min.)</subfield>
+      </datafield>
+      <datafield tag="034I" fulltag="034I">
+        <subfield code="a">12 cm, in Behältnis (19 x 13,5 x 2 cm)</subfield>
+      </datafield>
+      <datafield tag="034M" fulltag="034M">
+        <subfield code="a">farbig, Ton, Breitbild (16:9)</subfield>
+      </datafield>
+      <datafield tag="037A" fulltag="037A">
+        <subfield code="a">Videoversie van de film: België : Caviar Content, ©2017</subfield>
+      </datafield>
+      <datafield tag="046L" fulltag="046L">
+        <subfield code="a">Sprache: Niederländisch. - Untertitel: Niederländisch-Englisch, Niederländisch-Französisch</subfield>
+      </datafield>
+      <datafield tag="047I" fulltag="047I">
+        <subfield code="a">De wereld van een succesvole schrijver stort in wanneer zijn moeder door een beroerte haar taalvermogen en zelfredzaamheid verliest</subfield>
+      </datafield>
+      <item epn="1033215651">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:27:46.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="01" fulltag="201C/01">
+          <subfield code="0">02-11-18</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">1033215651</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">02-11-18</subfield>
+          <subfield code="b">zic</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">070 DVD 158</subfield>
+          <subfield code="f">127</subfield>
+          <subfield code="d">d</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="01" fulltag="209C/01">
+          <subfield code="a">18/Geschenk Germanistik</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">77184125</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">Germanistik / Separiert</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="237A" occurrence="01" fulltag="237A/01">
+          <subfield code="a">DVD bestellen</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="01" fulltag="247C/01">
+          <subfield code="9">428727336</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Philosophicum, separierte Bestände</subfield>
+          <subfield code="b">77/127</subfield>
+          <subfield code="c">651127-2</subfield>
+          <subfield code="h">DE-77-127</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nn</subfield>
+        </datafield>
+      </item>
+    </metadata>
+  </record></collection>

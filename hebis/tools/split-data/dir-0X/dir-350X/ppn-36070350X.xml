@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="UTF-8"?><collection count="1"><record>
+    <status>upsert</status>
+    <hrid>36070350X</hrid>
+    <metadata>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">0077:21-07-15</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Aau</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">36070350X</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">913013278</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">3476025667</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">9783476025661</subfield>
+      </datafield>
+      <datafield tag="004L" fulltag="004L">
+        <subfield code="0">9783476025661</subfield>
+      </datafield>
+      <datafield tag="006G" fulltag="006G">
+        <subfield code="0">1072773236</subfield>
+      </datafield>
+      <datafield tag="006L" fulltag="006L">
+        <subfield code="i">BVB</subfield>
+        <subfield code="0">BV042580654</subfield>
+      </datafield>
+      <datafield tag="006T" fulltag="006T">
+        <subfield code="0">15,N28</subfield>
+      </datafield>
+      <datafield tag="006U" fulltag="006U">
+        <subfield code="0">15,A45,0625</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">BVB</subfield>
+        <subfield code="0">BV042580654</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2015</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Einführung in die germanistische Linguistik</subfield>
+        <subfield code="h">Jörg Meibauer ...</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">152117717</subfield>
+        <subfield code="8">Meibauer, Jörg *1953-*</subfield>
+      </datafield>
+      <datafield tag="032@" fulltag="032@">
+        <subfield code="a">3., überarb. und aktualisierte Aufl.</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Stuttgart {[u.a.]</subfield>
+        <subfield code="n">Metzler</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">XI, 372 S.</subfield>
+      </datafield>
+      <datafield tag="034M" fulltag="034M">
+        <subfield code="a">graph. Darst.</subfield>
+      </datafield>
+      <datafield tag="101B" fulltag="101B">
+        <subfield code="0">25-06-15</subfield>
+        <subfield code="t">11:36:19.000</subfield>
+      </datafield>
+      <datafield tag="101C" fulltag="101C">
+        <subfield code="0">25-06-15</subfield>
+      </datafield>
+      <datafield tag="101U" fulltag="101U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="145S" occurrence="01" fulltag="145S/01">
+        <subfield code="a">380zb</subfield>
+      </datafield>
+      <item epn="755949366">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:28:10.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="01" fulltag="201C/01">
+          <subfield code="0">25-06-15</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">755949366</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">21-07-15</subfield>
+          <subfield code="b">zu</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">GERM B 76</subfield>
+          <subfield code="f">000</subfield>
+          <subfield code="d">s</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="01" fulltag="209C/01">
+          <subfield code="a">15/ACQ</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">16313602</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">LESESAAL</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="01" fulltag="247C/01">
+          <subfield code="9">102599602</subfield>
+          <subfield code="a">Universität Mainz, Zentralbibliothek</subfield>
+          <subfield code="b">77</subfield>
+          <subfield code="c">651000-0</subfield>
+          <subfield code="h">DE-77</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
+        </datafield>
+      </item>
+      <item epn="757249922">
+        <datafield tag="201B" occurrence="02" fulltag="201B/02">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:28:10.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="02" fulltag="201C/02">
+          <subfield code="0">21-07-15</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="02" fulltag="201U/02">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="02" fulltag="203@/02">
+          <subfield code="0">757249922</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="02" fulltag="208@/02">
+          <subfield code="a">21-07-15</subfield>
+          <subfield code="b">mu</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="02" fulltag="209A/02">
+          <subfield code="e">20</subfield>
+          <subfield code="a">15B 001,3.Aufl.</subfield>
+          <subfield code="f">000</subfield>
+          <subfield code="d">c</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="02" fulltag="209B/02">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="02" fulltag="209G/02">
+          <subfield code="a">16313833 (1)</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="02" fulltag="209G/02">
+          <subfield code="a">16313821 (2)</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="02" fulltag="209G/02">
+          <subfield code="a">16313808 (3)</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="02" fulltag="209G/02">
+          <subfield code="a">16313729 (4)</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="02" fulltag="209G/02">
+          <subfield code="a">16313791 (5)</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="02" fulltag="209G/02">
+          <subfield code="a">16313780 (6)</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="02" fulltag="209G/02">
+          <subfield code="a">16313640 (7)</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="02" fulltag="209G/02">
+          <subfield code="a">16313699 (8)</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="02" fulltag="209G/02">
+          <subfield code="a">16313742 (9)</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="02" fulltag="209G/02">
+          <subfield code="a">16313730 (10)</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="02" fulltag="209G/02">
+          <subfield code="a">16313705 (11)</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="02" fulltag="209G/02">
+          <subfield code="a">16313778 (12)</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="02" fulltag="209G/02">
+          <subfield code="a">16313754 (13)</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="02" fulltag="209G/02">
+          <subfield code="a">16313766 (14)</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="02" fulltag="209G/02">
+          <subfield code="a">16313675 (15)</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="02" fulltag="209G/02">
+          <subfield code="a">16313663 (16)</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="02" fulltag="209G/02">
+          <subfield code="a">16313717 (17)</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="02" fulltag="209G/02">
+          <subfield code="a">16313810 (18)</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="02" fulltag="209G/02">
+          <subfield code="a">16313687 (19)</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="02" fulltag="209G/02">
+          <subfield code="a">16313651 (20)</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="02" fulltag="209G/02">
+          <subfield code="a">LBS</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="02" fulltag="247C/02">
+          <subfield code="9">102599602</subfield>
+          <subfield code="a">Universität Mainz, Zentralbibliothek</subfield>
+          <subfield code="b">77</subfield>
+          <subfield code="c">651000-0</subfield>
+          <subfield code="h">DE-77</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
+        </datafield>
+      </item>
+      <item epn="806883790">
+        <datafield tag="201B" occurrence="03" fulltag="201B/03">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:28:11.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="03" fulltag="201C/03">
+          <subfield code="0">19-05-17</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="03" fulltag="201U/03">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="03" fulltag="203@/03">
+          <subfield code="0">806883790</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="03" fulltag="208@/03">
+          <subfield code="a">01-06-17</subfield>
+          <subfield code="b">zy</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="03" fulltag="209A/03">
+          <subfield code="a">07 D - E 373 3. Aufl.</subfield>
+          <subfield code="f">070</subfield>
+          <subfield code="d">e</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="03" fulltag="209A/03">
+          <subfield code="a">RVK GC 1015</subfield>
+          <subfield code="x">06</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="03" fulltag="209B/03">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="03" fulltag="209C/03">
+          <subfield code="a">17/407-1 Germanistik</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="03" fulltag="209G/03">
+          <subfield code="a">77301919</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="03" fulltag="209G/03">
+          <subfield code="a">Germanistik / Separiert</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="03" fulltag="247C/03">
+          <subfield code="9">102600198</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Philosophicum, Standorte Germanistik I / Kulturanthropologie und Germanistik II</subfield>
+          <subfield code="b">77/070</subfield>
+          <subfield code="c">651070-x</subfield>
+          <subfield code="h">DE-77-070</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
+        </datafield>
+        <datafield tag="247D" occurrence="03" fulltag="247D/03">
+          <subfield code="a">Standort: Büro d'Avis (R.01-515); Anzeige im OPAC unterdrückt! Buch ist für eine Ausleihe an Tutoren über Herrn d'Avis entsichert!</subfield>
+        </datafield>
+      </item>
+      <item epn="806883804">
+        <datafield tag="201B" occurrence="04" fulltag="201B/04">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:28:12.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="04" fulltag="201C/04">
+          <subfield code="0">19-05-17</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="04" fulltag="201U/04">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="04" fulltag="203@/04">
+          <subfield code="0">806883804</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="04" fulltag="208@/04">
+          <subfield code="a">01-06-17</subfield>
+          <subfield code="b">zy</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="04" fulltag="209A/04">
+          <subfield code="a">07 D - E 373 3. Aufl. / 2. Ex.</subfield>
+          <subfield code="f">070</subfield>
+          <subfield code="d">e</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="04" fulltag="209A/04">
+          <subfield code="a">RVK GC 1015</subfield>
+          <subfield code="x">06</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="04" fulltag="209B/04">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="04" fulltag="209C/04">
+          <subfield code="a">17/407-2 Germanistik</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="04" fulltag="209G/04">
+          <subfield code="a">77301907</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="04" fulltag="209G/04">
+          <subfield code="a">Germanistik / Separiert</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="04" fulltag="247C/04">
+          <subfield code="9">102600198</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Philosophicum, Standorte Germanistik I / Kulturanthropologie und Germanistik II</subfield>
+          <subfield code="b">77/070</subfield>
+          <subfield code="c">651070-x</subfield>
+          <subfield code="h">DE-77-070</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
+        </datafield>
+        <datafield tag="247D" occurrence="04" fulltag="247D/04">
+          <subfield code="a">Standort: Büro d'Avis (R.01-515); Anzeige im OPAC unterdrückt! Buch ist für eine Ausleihe an Tutoren über Herrn d'Avis entsichert!</subfield>
+        </datafield>
+      </item>
+      <item epn="806883812">
+        <datafield tag="201B" occurrence="05" fulltag="201B/05">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:28:12.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="05" fulltag="201C/05">
+          <subfield code="0">19-05-17</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="05" fulltag="201U/05">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="05" fulltag="203@/05">
+          <subfield code="0">806883812</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="05" fulltag="208@/05">
+          <subfield code="a">01-06-17</subfield>
+          <subfield code="b">zy</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="05" fulltag="209A/05">
+          <subfield code="a">07 D - E 373 3. Aufl. / 3. Ex.</subfield>
+          <subfield code="f">070</subfield>
+          <subfield code="d">e</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="05" fulltag="209A/05">
+          <subfield code="a">RVK GC 1015</subfield>
+          <subfield code="x">06</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="05" fulltag="209B/05">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="05" fulltag="209C/05">
+          <subfield code="a">17/407-3 Germanistik</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="05" fulltag="209G/05">
+          <subfield code="a">77301877</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="05" fulltag="209G/05">
+          <subfield code="a">Germanistik / Separiert</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="05" fulltag="247C/05">
+          <subfield code="9">102600198</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Philosophicum, Standorte Germanistik I / Kulturanthropologie und Germanistik II</subfield>
+          <subfield code="b">77/070</subfield>
+          <subfield code="c">651070-x</subfield>
+          <subfield code="h">DE-77-070</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
+        </datafield>
+        <datafield tag="247D" occurrence="05" fulltag="247D/05">
+          <subfield code="a">Standort: Büro d'Avis (R.01-515); Anzeige im OPAC unterdrückt! Buch ist für eine Ausleihe an Tutoren über Herrn d'Avis entsichert!</subfield>
+        </datafield>
+      </item>
+      <item epn="806883820">
+        <datafield tag="201B" occurrence="06" fulltag="201B/06">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:28:13.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="06" fulltag="201C/06">
+          <subfield code="0">19-05-17</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="06" fulltag="201U/06">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="06" fulltag="203@/06">
+          <subfield code="0">806883820</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="06" fulltag="208@/06">
+          <subfield code="a">01-06-17</subfield>
+          <subfield code="b">zy</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="06" fulltag="209A/06">
+          <subfield code="a">07 D - E 373 3. Aufl. / 4. Ex.</subfield>
+          <subfield code="f">070</subfield>
+          <subfield code="d">e</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="06" fulltag="209A/06">
+          <subfield code="a">RVK GC 1015</subfield>
+          <subfield code="x">06</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="06" fulltag="209B/06">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="06" fulltag="209C/06">
+          <subfield code="a">17/407-4 Germanistik</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="06" fulltag="209G/06">
+          <subfield code="a">77301828</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="06" fulltag="209G/06">
+          <subfield code="a">Germanistik / Separiert</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="06" fulltag="247C/06">
+          <subfield code="9">102600198</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Philosophicum, Standorte Germanistik I / Kulturanthropologie und Germanistik II</subfield>
+          <subfield code="b">77/070</subfield>
+          <subfield code="c">651070-x</subfield>
+          <subfield code="h">DE-77-070</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
+        </datafield>
+        <datafield tag="247D" occurrence="06" fulltag="247D/06">
+          <subfield code="a">Standort: Büro d'Avis (R.01-515); Anzeige im OPAC unterdrückt! Buch ist für eine Ausleihe an Tutoren über Herrn d'Avis entsichert!</subfield>
+        </datafield>
+      </item>
+      <item epn="806883839">
+        <datafield tag="201B" occurrence="07" fulltag="201B/07">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:28:13.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="07" fulltag="201C/07">
+          <subfield code="0">19-05-17</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="07" fulltag="201U/07">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="07" fulltag="203@/07">
+          <subfield code="0">806883839</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="07" fulltag="208@/07">
+          <subfield code="a">01-06-17</subfield>
+          <subfield code="b">zy</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="07" fulltag="209A/07">
+          <subfield code="a">07 D - E 373 3. Aufl. / 5. Ex.</subfield>
+          <subfield code="f">070</subfield>
+          <subfield code="d">e</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="07" fulltag="209A/07">
+          <subfield code="a">RVK GC 1015</subfield>
+          <subfield code="x">06</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="07" fulltag="209B/07">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="07" fulltag="209C/07">
+          <subfield code="a">17/407-5 Germanistik</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="07" fulltag="209G/07">
+          <subfield code="a">77301774</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="07" fulltag="209G/07">
+          <subfield code="a">Germanistik / Separiert</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="07" fulltag="247C/07">
+          <subfield code="9">102600198</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Philosophicum, Standorte Germanistik I / Kulturanthropologie und Germanistik II</subfield>
+          <subfield code="b">77/070</subfield>
+          <subfield code="c">651070-x</subfield>
+          <subfield code="h">DE-77-070</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
+        </datafield>
+        <datafield tag="247D" occurrence="07" fulltag="247D/07">
+          <subfield code="a">Standort: Büro d'Avis (R.01-515); Anzeige im OPAC unterdrückt! Buch ist für eine Ausleihe an Tutoren über Herrn d'Avis entsichert!</subfield>
+        </datafield>
+      </item>
+      <item epn="806883847">
+        <datafield tag="201B" occurrence="08" fulltag="201B/08">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:28:14.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="08" fulltag="201C/08">
+          <subfield code="0">19-05-17</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="08" fulltag="201U/08">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="08" fulltag="203@/08">
+          <subfield code="0">806883847</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="08" fulltag="208@/08">
+          <subfield code="a">01-06-17</subfield>
+          <subfield code="b">zy</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="08" fulltag="209A/08">
+          <subfield code="a">07 D - E 373 3. Aufl. / 6. Ex.</subfield>
+          <subfield code="f">070</subfield>
+          <subfield code="d">e</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="08" fulltag="209A/08">
+          <subfield code="a">RVK GC 1015</subfield>
+          <subfield code="x">06</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="08" fulltag="209B/08">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="08" fulltag="209C/08">
+          <subfield code="a">17/407-6 Germanistik</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="08" fulltag="209G/08">
+          <subfield code="a">77301865</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="08" fulltag="209G/08">
+          <subfield code="a">Germanistik / Separiert</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="08" fulltag="247C/08">
+          <subfield code="9">102600198</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Philosophicum, Standorte Germanistik I / Kulturanthropologie und Germanistik II</subfield>
+          <subfield code="b">77/070</subfield>
+          <subfield code="c">651070-x</subfield>
+          <subfield code="h">DE-77-070</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
+        </datafield>
+        <datafield tag="247D" occurrence="08" fulltag="247D/08">
+          <subfield code="a">Standort: Büro d'Avis (R.01-515); Anzeige im OPAC unterdrückt! Buch ist für eine Ausleihe an Tutoren über Herrn d'Avis entsichert!</subfield>
+        </datafield>
+      </item>
+      <item epn="806883855">
+        <datafield tag="201B" occurrence="09" fulltag="201B/09">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:28:15.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="09" fulltag="201C/09">
+          <subfield code="0">19-05-17</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="09" fulltag="201U/09">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="09" fulltag="203@/09">
+          <subfield code="0">806883855</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="09" fulltag="208@/09">
+          <subfield code="a">01-06-17</subfield>
+          <subfield code="b">zy</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="09" fulltag="209A/09">
+          <subfield code="a">07 D - E 373 3. Aufl. / 7. Ex.</subfield>
+          <subfield code="f">070</subfield>
+          <subfield code="d">e</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="09" fulltag="209A/09">
+          <subfield code="a">RVK GC 1015</subfield>
+          <subfield code="x">06</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="09" fulltag="209B/09">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="09" fulltag="209C/09">
+          <subfield code="a">17/407-7 Germanistik</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="09" fulltag="209G/09">
+          <subfield code="a">77301737</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="09" fulltag="209G/09">
+          <subfield code="a">Germanistik / Separiert</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="09" fulltag="247C/09">
+          <subfield code="9">102600198</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Philosophicum, Standorte Germanistik I / Kulturanthropologie und Germanistik II</subfield>
+          <subfield code="b">77/070</subfield>
+          <subfield code="c">651070-x</subfield>
+          <subfield code="h">DE-77-070</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
+        </datafield>
+        <datafield tag="247D" occurrence="09" fulltag="247D/09">
+          <subfield code="a">Standort: Büro d'Avis (R.01-515); Anzeige im OPAC unterdrückt! Buch ist für eine Ausleihe an Tutoren durch Herrn d'Avis entsichert!</subfield>
+        </datafield>
+      </item>
+      <item epn="806883863">
+        <datafield tag="201B" occurrence="10" fulltag="201B/10">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:28:15.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="10" fulltag="201C/10">
+          <subfield code="0">19-05-17</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="10" fulltag="201U/10">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="10" fulltag="203@/10">
+          <subfield code="0">806883863</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="10" fulltag="208@/10">
+          <subfield code="a">01-06-17</subfield>
+          <subfield code="b">zy</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="10" fulltag="209A/10">
+          <subfield code="a">07 D - E 373 3. Aufl. / 8. Ex.</subfield>
+          <subfield code="f">070</subfield>
+          <subfield code="d">e</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="10" fulltag="209A/10">
+          <subfield code="a">RVK GC 1015</subfield>
+          <subfield code="x">06</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="10" fulltag="209B/10">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="10" fulltag="209C/10">
+          <subfield code="a">17/407-8 Germanistik</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="10" fulltag="209G/10">
+          <subfield code="a">77301830</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="10" fulltag="209G/10">
+          <subfield code="a">Germanistik / Separiert</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="10" fulltag="247C/10">
+          <subfield code="9">102600198</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Philosophicum, Standorte Germanistik I / Kulturanthropologie und Germanistik II</subfield>
+          <subfield code="b">77/070</subfield>
+          <subfield code="c">651070-x</subfield>
+          <subfield code="h">DE-77-070</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
+        </datafield>
+        <datafield tag="247D" occurrence="10" fulltag="247D/10">
+          <subfield code="a">Standort: Büro d'Avis (R.01-515); Anzeige im OPAC unterdrückt! Buch ist für eine Ausleihe an Tutoren durch Herrn d'Avis entsichert!</subfield>
+        </datafield>
+      </item>
+      <item epn="1011734850">
+        <datafield tag="201B" occurrence="11" fulltag="201B/11">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:28:16.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="11" fulltag="201C/11">
+          <subfield code="0">17-11-17</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="11" fulltag="201U/11">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="11" fulltag="203@/11">
+          <subfield code="0">1011734850</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="11" fulltag="208@/11">
+          <subfield code="a">22-12-17</subfield>
+          <subfield code="b">zic</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="11" fulltag="209A/11">
+          <subfield code="a">07 D - E 373 3. Aufl. / 9. Ex.</subfield>
+          <subfield code="f">070</subfield>
+          <subfield code="d">d</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="11" fulltag="209A/11">
+          <subfield code="a">RVK GC 1015</subfield>
+          <subfield code="x">06</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="11" fulltag="209B/11">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="11" fulltag="209C/11">
+          <subfield code="a">17/941 Germanistik</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="11" fulltag="209G/11">
+          <subfield code="a">77355734</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="11" fulltag="209G/11">
+          <subfield code="a">Germanistik</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="11" fulltag="247C/11">
+          <subfield code="9">102600198</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Philosophicum, Standorte Germanistik I / Kulturanthropologie und Germanistik II</subfield>
+          <subfield code="b">77/070</subfield>
+          <subfield code="c">651070-x</subfield>
+          <subfield code="h">DE-77-070</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
+        </datafield>
+      </item>
+      <item epn="104619870X">
+        <datafield tag="201B" occurrence="12" fulltag="201B/12">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:28:17.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="12" fulltag="201C/12">
+          <subfield code="0">15-02-19</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="12" fulltag="201U/12">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="12" fulltag="203@/12">
+          <subfield code="0">104619870X</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="12" fulltag="208@/12">
+          <subfield code="a">22-02-19</subfield>
+          <subfield code="b">zic</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="12" fulltag="209A/12">
+          <subfield code="a">07 D - E 373 3. Aufl. / 10. Ex.</subfield>
+          <subfield code="f">070</subfield>
+          <subfield code="d">d</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="12" fulltag="209A/12">
+          <subfield code="a">RVK GC 1015</subfield>
+          <subfield code="x">06</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="12" fulltag="209B/12">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="12" fulltag="209C/12">
+          <subfield code="a">19/212 Germanistik</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="12" fulltag="209G/12">
+          <subfield code="a">77497103</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="12" fulltag="209G/12">
+          <subfield code="a">Germanistik</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="220C" occurrence="12" fulltag="220C/12">
+          <subfield code="a">Für reguläre Aufstellung in Bibliothek</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="12" fulltag="247C/12">
+          <subfield code="9">102600198</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Philosophicum, Standorte Germanistik I / Kulturanthropologie und Germanistik II</subfield>
+          <subfield code="b">77/070</subfield>
+          <subfield code="c">651070-x</subfield>
+          <subfield code="h">DE-77-070</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
+        </datafield>
+      </item>
+      <item epn="1046410717">
+        <datafield tag="201B" occurrence="13" fulltag="201B/13">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:28:17.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="13" fulltag="201C/13">
+          <subfield code="0">22-02-19</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="13" fulltag="201U/13">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="13" fulltag="203@/13">
+          <subfield code="0">1046410717</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="13" fulltag="208@/13">
+          <subfield code="a">22-02-19</subfield>
+          <subfield code="b">zic</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="13" fulltag="209A/13">
+          <subfield code="a">07 D - E 373 3. Aufl. / 11. Ex.</subfield>
+          <subfield code="f">070</subfield>
+          <subfield code="d">d</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="13" fulltag="209A/13">
+          <subfield code="a">RVK GC 1015</subfield>
+          <subfield code="x">06</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="13" fulltag="209B/13">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="13" fulltag="209C/13">
+          <subfield code="a">19/212 Germanistik</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="13" fulltag="209G/13">
+          <subfield code="a">77496974</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="13" fulltag="209G/13">
+          <subfield code="a">Germanistik</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="220C" occurrence="13" fulltag="220C/13">
+          <subfield code="a">Für reguläre Aufstellung in Bibliothek</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="13" fulltag="247C/13">
+          <subfield code="9">102600198</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Philosophicum, Standorte Germanistik I / Kulturanthropologie und Germanistik II</subfield>
+          <subfield code="b">77/070</subfield>
+          <subfield code="c">651070-x</subfield>
+          <subfield code="h">DE-77-070</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
+        </datafield>
+      </item>
+    </metadata>
+  </record></collection>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><collection count="1"><record>
+    <status>upsert</status>
+    <hrid>475965701</hrid>
+    <metadata>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">0077:22-02-21</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Aau</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+        <subfield code="2">rdacontent</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+        <subfield code="b">n</subfield>
+        <subfield code="2">rdamedia</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Band</subfield>
+        <subfield code="b">nc</subfield>
+        <subfield code="2">rdacarrier</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">475965701</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">1112132921</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">9789004399839</subfield>
+        <subfield code="f">hardback</subfield>
+      </datafield>
+      <datafield tag="004P" fulltag="004P">
+        <subfield code="S">o</subfield>
+        <subfield code="0">9789004399846</subfield>
+        <subfield code="f">(ebook)</subfield>
+      </datafield>
+      <datafield tag="006L" fulltag="006L">
+        <subfield code="i">KXP</subfield>
+        <subfield code="0">1666949906</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">KXP</subfield>
+        <subfield code="0">1666949906</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">eng</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2019</subfield>
+        <subfield code="n">[2019]</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">826484824</subfield>
+        <subfield code="a">Konferenzschrift</subfield>
+        <subfield code="y">2016</subfield>
+        <subfield code="z">Cambridge, UK</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Concepts in Middle Kingdom funerary culture</subfield>
+        <subfield code="d">proceedings of the Lady Wallis Budge anniversary symposium held at Christ's College, Cambridge, 22 January 2016</subfield>
+        <subfield code="h">edited by Rune Nyord</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">21870979X</subfield>
+        <subfield code="8">Nyord, Rune *1977-*</subfield>
+        <subfield code="B">Herausgeber</subfield>
+        <subfield code="4">edt</subfield>
+      </datafield>
+      <datafield tag="029A" fulltag="029A">
+        <subfield code="9">452286840</subfield>
+        <subfield code="8">Lady Wallis Budge Anniversary Symposium (2016 : Cambridge)</subfield>
+        <subfield code="B">Verfasser</subfield>
+        <subfield code="4">aut</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Leiden</subfield>
+        <subfield code="p">Boston</subfield>
+        <subfield code="n">Brill</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">[VIII], 258 Seiten</subfield>
+      </datafield>
+      <datafield tag="034M" fulltag="034M">
+        <subfield code="a">Illustrationen</subfield>
+      </datafield>
+      <datafield tag="036E" fulltag="036E">
+        <subfield code="a">Culture and history of the ancient Near East</subfield>
+        <subfield code="l">volume 102</subfield>
+      </datafield>
+      <datafield tag="039D" fulltag="039D">
+        <subfield code="i">Erscheint auch als</subfield>
+        <subfield code="n">Online-Ausgabe</subfield>
+        <subfield code="l">Lady Wallis Budge Anniversary Symposium (2016 : Cambridge)</subfield>
+        <subfield code="t">Concepts in Middle Kingdom funerary culture</subfield>
+        <subfield code="d">Leiden</subfield>
+        <subfield code="e">Brill</subfield>
+        <subfield code="f">2019</subfield>
+        <subfield code="h">1 Online-Ressource (258 Seiten)</subfield>
+        <subfield code="C">ISBN</subfield>
+        <subfield code="6">9789004399846</subfield>
+      </datafield>
+      <item epn="1142688151">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:27:15.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="01" fulltag="201C/01">
+          <subfield code="0">22-02-21</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">1142688151</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">22-02-21</subfield>
+          <subfield code="b">zkk</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">17 CHANE 102</subfield>
+          <subfield code="f">082</subfield>
+          <subfield code="d">d</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">FB 15.8 17 CHANE 102</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="01" fulltag="209C/01">
+          <subfield code="a">2020/80</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">Ägyptologie und Altorientalistik</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="01" fulltag="247C/01">
+          <subfield code="9">102600317</subfield>
+          <subfield code="a">Universität Mainz, Fachbereich 07, Geschichts- und Kulturwissenschaften, Institut für Altertumswissenschaften - Ägyptologie und Altorientalistik</subfield>
+          <subfield code="b">77/082</subfield>
+          <subfield code="c">651082-6</subfield>
+          <subfield code="h">DE-77-082</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
+        </datafield>
+      </item>
+    </metadata>
+  </record></collection>

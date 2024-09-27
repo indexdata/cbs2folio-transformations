@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?><collection count="1"><record>
+    <status>upsert</status>
+    <hrid>466462492</hrid>
+    <metadata>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">0026:20-07-20</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Aau</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+        <subfield code="2">rdacontent</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+        <subfield code="b">n</subfield>
+        <subfield code="2">rdamedia</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Band</subfield>
+        <subfield code="b">nc</subfield>
+        <subfield code="2">rdacarrier</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">466462492</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">9783732905553</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">3732905551</subfield>
+      </datafield>
+      <datafield tag="004L" fulltag="004L">
+        <subfield code="0">9783732905553</subfield>
+      </datafield>
+      <datafield tag="004P" fulltag="004P">
+        <subfield code="S">o</subfield>
+        <subfield code="0">9783732994427</subfield>
+      </datafield>
+      <datafield tag="006G" fulltag="006G">
+        <subfield code="0">1211754383</subfield>
+      </datafield>
+      <datafield tag="006L" fulltag="006L">
+        <subfield code="i">KXP</subfield>
+        <subfield code="0">1700929593</subfield>
+      </datafield>
+      <datafield tag="006L" fulltag="006L">
+        <subfield code="i">DNB</subfield>
+        <subfield code="0">1211754383</subfield>
+      </datafield>
+      <datafield tag="006T" fulltag="006T">
+        <subfield code="0">20,N25</subfield>
+      </datafield>
+      <datafield tag="006U" fulltag="006U">
+        <subfield code="0">20,A51,0611</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">DNB</subfield>
+        <subfield code="0">1211754383</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+        <subfield code="a">rus</subfield>
+        <subfield code="a">eng</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2020</subfield>
+        <subfield code="n">[2020]</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">104400986</subfield>
+        <subfield code="a">Festschrift</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">085562742</subfield>
+        <subfield code="a">Aufsatzsammlung</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="T">01</subfield>
+        <subfield code="U">Latn</subfield>
+        <subfield code="a">Russland übersetzen</subfield>
+        <subfield code="d">Festschrift für Birgit Menzel</subfield>
+        <subfield code="h">Christine Engel/Irina Pohlan/Stephan Walter (Hg.)</subfield>
+      </datafield>
+      <datafield tag="021F" fulltag="021F">
+        <subfield code="T">01</subfield>
+        <subfield code="U">Latn</subfield>
+        <subfield code="a">Russia in translation</subfield>
+      </datafield>
+      <datafield tag="021F" fulltag="021F">
+        <subfield code="T">01</subfield>
+        <subfield code="U">Latn</subfield>
+        <subfield code="a">Rossija v perevode</subfield>
+        <subfield code="h">Christine Engel/Irina Pohlan/Stephan Walter (Hg.)</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="T">01</subfield>
+        <subfield code="U">Cyrl</subfield>
+        <subfield code="a">Russland übersetzen</subfield>
+        <subfield code="d">Festschrift für Birgit Menzel</subfield>
+        <subfield code="h">Christine Engel/Irina Pohlan/Stephan Walter (Hg.)</subfield>
+      </datafield>
+      <datafield tag="021F" fulltag="021F">
+        <subfield code="T">01</subfield>
+        <subfield code="U">Cyrl</subfield>
+        <subfield code="a">Russia in translation</subfield>
+      </datafield>
+      <datafield tag="021F" fulltag="021F">
+        <subfield code="T">01</subfield>
+        <subfield code="U">Cyrl</subfield>
+        <subfield code="a">Россия в переводе</subfield>
+        <subfield code="h">Christine Engel/Irina Pohlan/Stephan Walter (Hg.)</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">151712387</subfield>
+        <subfield code="8">Engel, Christine *1946-*</subfield>
+        <subfield code="B">Herausgeber</subfield>
+        <subfield code="4">edt</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">428647022</subfield>
+        <subfield code="8">Pohlan, Irina</subfield>
+        <subfield code="B">Herausgeber</subfield>
+        <subfield code="4">edt</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">374551499</subfield>
+        <subfield code="8">Walter, Stephan</subfield>
+        <subfield code="B">Herausgeber</subfield>
+        <subfield code="4">edt</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">159622549</subfield>
+        <subfield code="8">Menzel, Birgit *1953-*</subfield>
+        <subfield code="B">Gefeierter</subfield>
+        <subfield code="4">hnr</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Berlin</subfield>
+        <subfield code="n">Frank &amp; Timme, Verlag für wissenschaftliche Literatur</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">320 Seiten</subfield>
+      </datafield>
+      <datafield tag="034I" fulltag="034I">
+        <subfield code="a">21 cm x 14.8 cm</subfield>
+      </datafield>
+      <datafield tag="034M" fulltag="034M">
+        <subfield code="a">Illustrationen</subfield>
+      </datafield>
+      <datafield tag="036E" fulltag="036E">
+        <subfield code="a">Ost-West-Express : Kultur und Übersetzung</subfield>
+        <subfield code="l">Band 39</subfield>
+      </datafield>
+      <datafield tag="037A" fulltag="037A">
+        <subfield code="a">Literaturangaben</subfield>
+      </datafield>
+      <datafield tag="039D" fulltag="039D">
+        <subfield code="i">Erscheint auch als</subfield>
+        <subfield code="n">Online-Ausgabe</subfield>
+        <subfield code="C">ISBN</subfield>
+        <subfield code="6">9783732994427</subfield>
+      </datafield>
+      <datafield tag="046L" fulltag="046L">
+        <subfield code="a">Teilweise kyrillisch</subfield>
+      </datafield>
+      <datafield tag="101B" fulltag="101B">
+        <subfield code="0">05-08-20</subfield>
+        <subfield code="t">11:41:12.000</subfield>
+      </datafield>
+      <datafield tag="101C" fulltag="101C">
+        <subfield code="0">05-08-20</subfield>
+      </datafield>
+      <datafield tag="101U" fulltag="101U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="144Z" occurrence="01" fulltag="144Z/01">
+        <subfield code="a">23 Literatur</subfield>
+      </datafield>
+      <datafield tag="144Z" occurrence="02" fulltag="144Z/02">
+        <subfield code="a">23 Kultur</subfield>
+      </datafield>
+      <datafield tag="144Z" occurrence="03" fulltag="144Z/03">
+        <subfield code="a">23 Sprache</subfield>
+      </datafield>
+      <datafield tag="144Z" occurrence="04" fulltag="144Z/04">
+        <subfield code="a">23 Translation</subfield>
+      </datafield>
+      <datafield tag="144Z" occurrence="05" fulltag="144Z/05">
+        <subfield code="a">23 Übersetzungsprozesse</subfield>
+      </datafield>
+      <datafield tag="144Z" occurrence="06" fulltag="144Z/06">
+        <subfield code="a">23 Multiperspektivität</subfield>
+      </datafield>
+      <datafield tag="145Z" occurrence="01" fulltag="145Z/01">
+        <subfield code="a">23 TRA-RU 07</subfield>
+      </datafield>
+      <item epn="1114126772">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:27:03.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="01" fulltag="201C/01">
+          <subfield code="0">06-07-20</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">1114126772</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">05-08-20</subfield>
+          <subfield code="b">z</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">TRA-RU 07:1</subfield>
+          <subfield code="f">019</subfield>
+          <subfield code="d">u</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="01" fulltag="209C/01">
+          <subfield code="a">019 20/165</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">90493861</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">Freihand / Russisch</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="01" fulltag="247C/01">
+          <subfield code="9">403989051</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim</subfield>
+          <subfield code="b">Mz 19</subfield>
+          <subfield code="c">651019-x</subfield>
+          <subfield code="h">DE-Mz19</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
+        </datafield>
+      </item>
+      <item epn="1126037885">
+        <datafield tag="201B" occurrence="02" fulltag="201B/02">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:27:04.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="02" fulltag="201C/02">
+          <subfield code="0">16-10-20</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="02" fulltag="201U/02">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="02" fulltag="203@/02">
+          <subfield code="0">1126037885</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="02" fulltag="208@/02">
+          <subfield code="a">27-11-20</subfield>
+          <subfield code="b">zii</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="02" fulltag="209A/02">
+          <subfield code="a">G 3-0-M 27</subfield>
+          <subfield code="f">075</subfield>
+          <subfield code="d">d</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="02" fulltag="209A/02">
+          <subfield code="a">FB 15.2 G 3-0-M 27</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="02" fulltag="209B/02">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="02" fulltag="209C/02">
+          <subfield code="a">20/765 Slavistik</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="02" fulltag="209G/02">
+          <subfield code="a">77661626</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="02" fulltag="209G/02">
+          <subfield code="a">Slavistik</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="02" fulltag="247C/02">
+          <subfield code="9">102600244</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Philosophicum, Standort Slavistik</subfield>
+          <subfield code="b">77/075</subfield>
+          <subfield code="c">651075-9</subfield>
+          <subfield code="h">DE-77-075</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
+        </datafield>
+      </item>
+    </metadata>
+  </record></collection>

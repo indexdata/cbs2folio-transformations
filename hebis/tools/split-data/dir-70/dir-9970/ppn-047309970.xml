@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?><collection count="1"><record>
+    <status>upsert</status>
+    <hrid>047309970</hrid>
+    <metadata>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">6050:09-10-15</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Abv</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+        <subfield code="2">rdacontent</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+        <subfield code="b">n</subfield>
+        <subfield code="2">rdamedia</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">Mikroform</subfield>
+        <subfield code="b">h</subfield>
+        <subfield code="2">rdamedia</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Band</subfield>
+        <subfield code="b">nc</subfield>
+        <subfield code="2">rdacarrier</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Sonstige Mikroformen</subfield>
+        <subfield code="b">hz</subfield>
+        <subfield code="2">rdacarrier</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Mikrofilmrolle</subfield>
+        <subfield code="b">hj</subfield>
+        <subfield code="2">rdacarrier</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">047309970</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">1367307160</subfield>
+      </datafield>
+      <datafield tag="005A" fulltag="005A">
+        <subfield code="0">1149-0292</subfield>
+      </datafield>
+      <datafield tag="006L" fulltag="006L">
+        <subfield code="i">ZDB</subfield>
+        <subfield code="0">11943-X</subfield>
+      </datafield>
+      <datafield tag="006Z" fulltag="006Z">
+        <subfield code="0">209702-3</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">ZDB</subfield>
+        <subfield code="0">209702-3</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">fre</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">1724</subfield>
+        <subfield code="b">1965</subfield>
+        <subfield code="n">1724-1965</subfield>
+      </datafield>
+      <datafield tag="011B" fulltag="011B">
+        <subfield code="a">2007</subfield>
+        <subfield code="b">2007</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">10454466X</subfield>
+        <subfield code="a">Zeitschrift</subfield>
+      </datafield>
+      <datafield tag="018@" fulltag="018@">
+        <subfield code="a">m</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Mercure de France</subfield>
+      </datafield>
+      <datafield tag="027A" fulltag="027A">
+        <subfield code="a">Mercure de France littéraire et politique</subfield>
+      </datafield>
+      <datafield tag="027A" fulltag="027A">
+        <subfield code="a">Mercure de France et chronique de Paris</subfield>
+      </datafield>
+      <datafield tag="027A" fulltag="027A">
+        <subfield code="a">Le @Mercure de France au dix-neuvième siècle</subfield>
+      </datafield>
+      <datafield tag="031@" fulltag="031@">
+        <subfield code="a">1724 - 1792; An I=[1792/93] - VII=[1798/99]; VIII=[1799/1800] - XIV=[1805/06] = 1-22 = Nr. 1-232; 23.1806 - 63.1815 = Nr. 233-680; 64.1815 - 69.1816; [N.S.] 1.1817 - 5.1818,Jan.; 1819,Juli - 1820,Febr. = Vol.1-2; [N.S.2] 1.1823 - 37.1832; Sér. moderne 1.1890 - 297.1940,Juni = Année [1]-51; 298.1940,Juni/1946; 299.1947 - 354.1965; auch mit durchgehender Nr.-Zählung; damit Ersch. eingest.</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Paris</subfield>
+      </datafield>
+      <datafield tag="037A" fulltag="037A">
+        <subfield code="a">Repr.: Nendeln : Kraus [u.a.]; Genève : Slatkine; Chêne-Bourg : Minkoff; Hamburg : Virchaux; Hambourg : Fauche</subfield>
+      </datafield>
+      <datafield tag="039C" fulltag="039C">
+        <subfield code="i">Beil.</subfield>
+        <subfield code="9">069452172</subfield>
+        <subfield code="8">L' aviseur national</subfield>
+      </datafield>
+      <datafield tag="039C" fulltag="039C">
+        <subfield code="i">1778,Apr. - 1789,Nov. Beil.</subfield>
+        <subfield code="9">064964744</subfield>
+        <subfield code="8">Journal politique de Bruxelles</subfield>
+      </datafield>
+      <datafield tag="039D" fulltag="039D">
+        <subfield code="i">Digital. Ausg.</subfield>
+        <subfield code="9">21409619X</subfield>
+        <subfield code="8">Mercure de France. - Paris, 1724-1965. - Online-Ressource</subfield>
+      </datafield>
+      <datafield tag="039E" fulltag="039E">
+        <subfield code="b">f</subfield>
+        <subfield code="i">Vorg.</subfield>
+        <subfield code="9">047138688</subfield>
+        <subfield code="8">Le mercure</subfield>
+      </datafield>
+      <datafield tag="039E" fulltag="039E">
+        <subfield code="b">f</subfield>
+        <subfield code="i">Darin aufgeg.</subfield>
+        <subfield code="9">04833796X</subfield>
+        <subfield code="8">La revue philosophique, littéraire et politique</subfield>
+      </datafield>
+      <datafield tag="039E" fulltag="039E">
+        <subfield code="b">f</subfield>
+        <subfield code="i">Beil. bis 1792, dann darin aufgeg.</subfield>
+        <subfield code="9">068830335</subfield>
+        <subfield code="8">Mercure historique et politique</subfield>
+      </datafield>
+      <datafield tag="039E" fulltag="039E">
+        <subfield code="b">s</subfield>
+        <subfield code="i">1818,Febr. - 1819,Juni gilt als Ersatz</subfield>
+        <subfield code="9">064964744</subfield>
+        <subfield code="8">Journal politique de Bruxelles</subfield>
+      </datafield>
+      <datafield tag="039E" fulltag="039E">
+        <subfield code="b">s</subfield>
+        <subfield code="i">1818,Febr. - 1819,Juni gilt als Ersatz</subfield>
+        <subfield code="9">047097779</subfield>
+        <subfield code="8">La minerve française / par Aignan [u.a.]</subfield>
+      </datafield>
+      <datafield tag="039E" fulltag="039E">
+        <subfield code="b">s</subfield>
+        <subfield code="i">1.1886 - 12.1889</subfield>
+        <subfield code="9">064834875</subfield>
+        <subfield code="8">La Pléiade</subfield>
+      </datafield>
+      <datafield tag="046D" fulltag="046D">
+        <subfield code="i">Hauptsacht. 1791,17.Dez. - 1799,Jan.</subfield>
+        <subfield code="a">Mercure français</subfield>
+      </datafield>
+      <datafield tag="046D" fulltag="046D">
+        <subfield code="i">Hauptsacht. 1.1823 - 18.1827 u. 27.1829 - 35.1831</subfield>
+        <subfield code="a">Le @Mercure du dix-neuvième siècle</subfield>
+      </datafield>
+      <datafield tag="046D" fulltag="046D">
+        <subfield code="i">Hauptsacht. 19.1827 - 26.1829 u. Nebent. 27.1829 - 35.1831</subfield>
+        <subfield code="a">Le @Mercure de France au dix-neuvièmesiècle</subfield>
+      </datafield>
+      <datafield tag="046D" fulltag="046D">
+        <subfield code="i">Auf d. Bandtitelbl. 1.1800,Juni/Juli - 35.1809</subfield>
+        <subfield code="a">Le @Mercure de France, littéraire et politique</subfield>
+      </datafield>
+      <datafield tag="046D" fulltag="046D">
+        <subfield code="i">Auf d. Bandtitelbl. 1819,Juli - 1820,Febr.</subfield>
+        <subfield code="a">Le @Mercure de France et Chronique de Paris</subfield>
+      </datafield>
+      <datafield tag="046D" fulltag="046D">
+        <subfield code="i">Hauptsacht. bis T. 347.1963</subfield>
+        <subfield code="a">Mercvre de France</subfield>
+      </datafield>
+      <datafield tag="046D" fulltag="046D">
+        <subfield code="i">Nebent. teils</subfield>
+        <subfield code="a">Mercure de France politique, historique et litteraire</subfield>
+      </datafield>
+      <datafield tag="046D" fulltag="046D">
+        <subfield code="i">Zusatz 1800-1804[?]</subfield>
+        <subfield code="a">Journal historique, politique et littéraire</subfield>
+      </datafield>
+      <datafield tag="046P" fulltag="046P">
+        <subfield code="a">1798 - 1799 auch mit zusätzlicher Tome-Zählung; 1799,Okt. - 1800,Juni u. 1815,Mai-Aug. u. 1818,Febr. - 1819,Juni u. 1820,März - 1822 nicht ersch.; Zählung d. Repr. 1724 -  1791: T. 6-141. - Periodizität: monatl.</subfield>
+      </datafield>
+      <datafield tag="101B" fulltag="101B">
+        <subfield code="0">20-03-19</subfield>
+        <subfield code="t">09:32:20.000</subfield>
+      </datafield>
+      <datafield tag="101U" fulltag="101U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="145S" occurrence="01" fulltag="145S/01">
+        <subfield code="a">300</subfield>
+      </datafield>
+      <item epn="073210382">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:17:23.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">073210382</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">23-02-99</subfield>
+          <subfield code="b">p</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">FZ 203</subfield>
+          <subfield code="f">000</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">00015</subfield>
+          <subfield code="x">11</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">12</subfield>
+        </datafield>
+        <datafield tag="209E" occurrence="01" fulltag="209E/01">
+          <subfield code="a">1724 - 1791</subfield>
+          <subfield code="x">02</subfield>
+        </datafield>
+        <datafield tag="209E" occurrence="01" fulltag="209E/01">
+          <subfield code="a">Repr.</subfield>
+          <subfield code="x">04</subfield>
+        </datafield>
+        <datafield tag="231@" occurrence="01" fulltag="231@/01">
+          <subfield code="j">1724</subfield>
+          <subfield code="k">1791</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="01" fulltag="247C/01">
+          <subfield code="9">102599602</subfield>
+          <subfield code="a">Universität Mainz, Zentralbibliothek</subfield>
+          <subfield code="b">77</subfield>
+          <subfield code="c">651000-0</subfield>
+          <subfield code="h">DE-77</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
+        </datafield>
+      </item>
+      <item epn="125190344">
+        <datafield tag="201B" occurrence="02" fulltag="201B/02">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:17:24.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="02" fulltag="201U/02">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="02" fulltag="203@/02">
+          <subfield code="0">125190344</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="02" fulltag="208@/02">
+          <subfield code="a">23-02-99</subfield>
+          <subfield code="b">p</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="02" fulltag="209A/02">
+          <subfield code="a">ZA 386</subfield>
+          <subfield code="f">000</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="02" fulltag="209B/02">
+          <subfield code="a">00015</subfield>
+          <subfield code="x">11</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="02" fulltag="209B/02">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">12</subfield>
+        </datafield>
+        <datafield tag="209E" occurrence="02" fulltag="209E/02">
+          <subfield code="a">Sér. moderne</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="209E" occurrence="02" fulltag="209E/02">
+          <subfield code="a">1.1890 - 30.1899; 137.1920 - 216.1929; 300.1947 - 303.1948; 305.1949 - 310.1950; 312.1951 - 354.1965</subfield>
+          <subfield code="x">02</subfield>
+        </datafield>
+        <datafield tag="209E" occurrence="02" fulltag="209E/02">
+          <subfield code="a">[L=301.1947;303.1948]</subfield>
+          <subfield code="x">03</subfield>
+        </datafield>
+        <datafield tag="209E" occurrence="02" fulltag="209E/02">
+          <subfield code="a">Teilw. Repr.</subfield>
+          <subfield code="x">04</subfield>
+        </datafield>
+        <datafield tag="231@" occurrence="02" fulltag="231@/02">
+          <subfield code="d">1</subfield>
+          <subfield code="j">1890</subfield>
+          <subfield code="n">30</subfield>
+          <subfield code="k">1899</subfield>
+          <subfield code="d">137</subfield>
+          <subfield code="j">1920</subfield>
+          <subfield code="n">216</subfield>
+          <subfield code="k">1929</subfield>
+          <subfield code="d">300</subfield>
+          <subfield code="j">1947</subfield>
+          <subfield code="n">303</subfield>
+          <subfield code="k">1948</subfield>
+          <subfield code="d">305</subfield>
+          <subfield code="j">1949</subfield>
+          <subfield code="n">310</subfield>
+          <subfield code="k">1950</subfield>
+          <subfield code="d">312</subfield>
+          <subfield code="j">1951</subfield>
+          <subfield code="n">354</subfield>
+          <subfield code="k">1965</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="02" fulltag="247C/02">
+          <subfield code="9">102599602</subfield>
+          <subfield code="a">Universität Mainz, Zentralbibliothek</subfield>
+          <subfield code="b">77</subfield>
+          <subfield code="c">651000-0</subfield>
+          <subfield code="h">DE-77</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
+        </datafield>
+      </item>
+      <item epn="125190352">
+        <datafield tag="201B" occurrence="03" fulltag="201B/03">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:17:24.000</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="03" fulltag="201U/03">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="03" fulltag="203@/03">
+          <subfield code="0">125190352</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="03" fulltag="208@/03">
+          <subfield code="a">23-02-99</subfield>
+          <subfield code="b">p</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="03" fulltag="209A/03">
+          <subfield code="a">FZ 203</subfield>
+          <subfield code="f">000</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="03" fulltag="209B/03">
+          <subfield code="a">00015</subfield>
+          <subfield code="x">11</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="03" fulltag="209B/03">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">12</subfield>
+        </datafield>
+        <datafield tag="209E" occurrence="03" fulltag="209E/03">
+          <subfield code="a">- Index zu</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="209E" occurrence="03" fulltag="209E/03">
+          <subfield code="a">1672/1832(1910)(Repr.1973)</subfield>
+          <subfield code="x">02</subfield>
+        </datafield>
+        <datafield tag="231@" occurrence="03" fulltag="231@/03">
+          <subfield code="j">1672</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="03" fulltag="247C/03">
+          <subfield code="9">102599602</subfield>
+          <subfield code="a">Universität Mainz, Zentralbibliothek</subfield>
+          <subfield code="b">77</subfield>
+          <subfield code="c">651000-0</subfield>
+          <subfield code="h">DE-77</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
+        </datafield>
+      </item>
+      <item epn="735183414">
+        <datafield tag="201B" occurrence="04" fulltag="201B/04">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:17:25.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="04" fulltag="201C/04">
+          <subfield code="0">29-07-14</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="04" fulltag="201U/04">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="04" fulltag="203@/04">
+          <subfield code="0">735183414</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="04" fulltag="208@/04">
+          <subfield code="a">29-07-14</subfield>
+          <subfield code="b">p</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="04" fulltag="209A/04">
+          <subfield code="a">Si 1982</subfield>
+          <subfield code="f">000</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="04" fulltag="209A/04">
+          <subfield code="a">Fh 75</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="04" fulltag="209B/04">
+          <subfield code="a">08034</subfield>
+          <subfield code="x">05</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="04" fulltag="209B/04">
+          <subfield code="a">turk</subfield>
+          <subfield code="x">06</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="04" fulltag="209B/04">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">12</subfield>
+        </datafield>
+        <datafield tag="209E" occurrence="04" fulltag="209E/04">
+          <subfield code="a">1742</subfield>
+          <subfield code="x">02</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="04" fulltag="209G/04">
+          <subfield code="a">RARA</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="231@" occurrence="04" fulltag="231@/04">
+          <subfield code="j">1742</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="04" fulltag="247C/04">
+          <subfield code="9">102599602</subfield>
+          <subfield code="a">Universität Mainz, Zentralbibliothek</subfield>
+          <subfield code="b">77</subfield>
+          <subfield code="c">651000-0</subfield>
+          <subfield code="h">DE-77</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
+        </datafield>
+      </item>
+    </metadata>
+  </record></collection>

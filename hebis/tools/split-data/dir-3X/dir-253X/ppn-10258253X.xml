@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?><collection count="1"><record>
+    <status>upsert</status>
+    <hrid>10258253X</hrid>
+    <metadata>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">3030:03-01-20</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Aau</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">10258253X</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">264938448</subfield>
+      </datafield>
+      <datafield tag="006W" fulltag="006W">
+        <subfield code="0">VD17 23:230077V</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">HEB</subfield>
+        <subfield code="0">10258253X</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">1662</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Chronica Der Freyen Reichs-Statt Speyer, Darinn von dreyerley fürnemblich gehandelt, Erstlich vom Ursprung, Auffnehmen, Befreyung, Beschaffenheit deß Regiments, Freyheiten, Privilegien, Rechten, Gerechtigkeiten, denckwürdigen Sachen und Geschichten, auch underschiedlichen Kriegen und Belägerungen der Statt Speyr: Zum andern, von Anfang und Auffrichtung deß Teutschen Reichs, desselben Regierung durch König und Kayser, und was es jeder Zeit ins gemein mit demselben, und insonders mit den Erbaren Frey und Reichs-Stätten vor Gestalt gehabt, auch von deß H. Reichs und dessen Gliedern Handlungen, Ordnungen und Processen, mancherley Veränderungen, so darein gefallen, sampt vielen außerlesenen guten und nutzlichen Historien, Politischen Reguln und Exempeln. Zum dritten, von Anfang und Beschreibung der Bischoffen zu Speyr, und deß Speyrischen Bisthumbs</subfield>
+        <subfield code="h">Mit Fleiß zusammen getragen Durch Christophorum Lehmann</subfield>
+      </datafield>
+      <datafield tag="028A" fulltag="028A">
+        <subfield code="9">155268252</subfield>
+        <subfield code="8">Lehmann, Christoph *1568-1638*</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">326376232</subfield>
+        <subfield code="8">Rosa, Esther *1662*</subfield>
+        <subfield code="B">Verlag</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">326351965</subfield>
+        <subfield code="8">Fievet, Daniel *16XX-1673*</subfield>
+        <subfield code="B">Drucker</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Franckfurt am Mayn</subfield>
+        <subfield code="n">Rosen</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Franckfurt am Mayn</subfield>
+        <subfield code="n">Fievet</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">[4] Bl., 1024 S., [50] Bl.</subfield>
+      </datafield>
+      <datafield tag="037A" fulltag="037A">
+        <subfield code="a">Nicht identisch mit VD17 3:305678Z (Zeilenumbruch auf dem Titelblatt hier: "... Politischen Re-||guln ...", dort: "... Politischen // Reguln ...")</subfield>
+      </datafield>
+      <item epn="580550869">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:30:40.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="01" fulltag="201C/01">
+          <subfield code="0">13-08-09</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">580550869</subfield>
+        </datafield>
+        <datafield tag="206W" occurrence="01" fulltag="206W/01">
+          <subfield code="0">301-0473</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">13-08-09</subfield>
+          <subfield code="b">rum</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">RARA G 3741</subfield>
+          <subfield code="f">000</subfield>
+          <subfield code="d">i</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">G 3741</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">00031</subfield>
+          <subfield code="x">05</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">41401216</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">RARA</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="01" fulltag="247C/01">
+          <subfield code="9">102599602</subfield>
+          <subfield code="a">Universität Mainz, Zentralbibliothek</subfield>
+          <subfield code="b">77</subfield>
+          <subfield code="c">651000-0</subfield>
+          <subfield code="h">DE-77</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">ld</subfield>
+          <subfield code="f">ubi?</subfield>
+          <subfield code="g">ubfsi?</subfield>
+        </datafield>
+      </item>
+      <item epn="299858308">
+        <datafield tag="201B" occurrence="02" fulltag="201B/02">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:30:41.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="02" fulltag="201C/02">
+          <subfield code="0">29-09-05</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="02" fulltag="201U/02">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="02" fulltag="203@/02">
+          <subfield code="0">299858308</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="02" fulltag="208@/02">
+          <subfield code="a">29-09-05</subfield>
+          <subfield code="b">r</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="02" fulltag="209A/02">
+          <subfield code="a">G Sp 15</subfield>
+          <subfield code="f">016</subfield>
+          <subfield code="d">s</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="02" fulltag="209B/02">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="02" fulltag="209C/02">
+          <subfield code="a">1988/1400</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="02" fulltag="209G/02">
+          <subfield code="a">61122954</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="02" fulltag="209G/02">
+          <subfield code="a">Katholische Theologie</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="237A" occurrence="02" fulltag="237A/02">
+          <subfield code="a">Fotokopie</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="02" fulltag="247C/02">
+          <subfield code="9">102599696</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Katholische und Evangelische Theologie</subfield>
+          <subfield code="b">77/016</subfield>
+          <subfield code="c">651016-4</subfield>
+          <subfield code="h">DE-77-016</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
+        </datafield>
+      </item>
+      <item epn="166890588">
+        <datafield tag="201B" occurrence="03" fulltag="201B/03">
+          <subfield code="0">12-06-23</subfield>
+          <subfield code="t">10:30:41.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="03" fulltag="201C/03">
+          <subfield code="0">21-01-02</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="03" fulltag="201U/03">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="03" fulltag="203@/03">
+          <subfield code="0">166890588</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="03" fulltag="208@/03">
+          <subfield code="a">21-01-02</subfield>
+          <subfield code="b">r</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="03" fulltag="209A/03">
+          <subfield code="a">WD 381</subfield>
+          <subfield code="f">088</subfield>
+          <subfield code="d">e</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="03" fulltag="209B/03">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">08</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="03" fulltag="209C/03">
+          <subfield code="a">HSK 1975/155/III</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="03" fulltag="209G/03">
+          <subfield code="a">Mittlere und Neuere Geschichte</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="03" fulltag="247C/03">
+          <subfield code="9">102600376</subfield>
+          <subfield code="a">Universität Mainz, Bereichsbibliothek Philosophicum, Standort Mittlere und Neuere Geschichte</subfield>
+          <subfield code="b">77/088</subfield>
+          <subfield code="c">651088-7</subfield>
+          <subfield code="h">DE-77-088</subfield>
+          <subfield code="d">HES</subfield>
+          <subfield code="e">nd</subfield>
+        </datafield>
+        <datafield tag="247D" occurrence="03" fulltag="247D/03">
+          <subfield code="a">BB Philosophicum vermisst 2018-08</subfield>
+        </datafield>
+      </item>
+    </metadata>
+  </record></collection>

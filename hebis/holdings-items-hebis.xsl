@@ -21,31 +21,136 @@
     </collection>
   </xsl:template>
 
-  <xsl:template match="record">
+  <xsl:template match="record[not(delete)]">
     <record>
-      <xsl:for-each select="*[not(self::processing)]">
+      <xsl:for-each select="*[not(self::processing)]">  <!-- removes any 'processing' element from pica2instance-new.xsl! -->
             <xsl:copy-of select="."/>
         </xsl:for-each>
         <xsl:apply-templates select="original"/>
     </record>
   </xsl:template>
+  
+  <xsl:template match="record[delete]">
+    <record>
+      <delete>
+        <xsl:for-each select="delete/*[not(self::processing)]">  <!-- removes any 'processing' element from pica2instance-new.xsl! -->
+          <xsl:copy-of select="."/>
+        </xsl:for-each>
+        <processing> <!-- generates hebis default -->
+          <item>
+            <blockDeletion>
+              <ifField>hrid</ifField>
+              <matchesPattern>it.*</matchesPattern>
+            </blockDeletion>
+            <statisticalCoding>
+              <arr>
+                <i>
+                  <if>deleteSkipped</if>
+                  <becauseOf>ITEM_STATUS</becauseOf>
+                  <setCode>ITEM_STATUS</setCode>
+                </i>         
+              </arr>
+            </statisticalCoding>
+          </item>
+          <holdingsRecord>
+            <blockDeletion>
+              <ifField>hrid</ifField>
+              <matchesPattern>ho.*</matchesPattern>
+            </blockDeletion>
+            <statisticalCoding>
+              <arr>
+                <i>
+                  <if>deleteSkipped</if>
+                  <becauseOf>ITEM_STATUS</becauseOf>
+                  <setCode>ITEM_STATUS</setCode>
+                </i>         
+              </arr>
+            </statisticalCoding>
+          </holdingsRecord>
+          <instance>
+            <statisticalCoding>
+              <arr>
+                <i>
+                  <if>deleteSkipped</if>
+                  <becauseOf>PO_LINE_REFERENCE</becauseOf>
+                  <setCode>PO_LINE_REFERENCE</setCode>
+                </i>   
+                <i>
+                  <if>deleteSkipped</if>
+                  <becauseOf>ITEM_STATUS</becauseOf>
+                  <setCode>ITEM_STATUS</setCode>
+                </i>
+                <i>
+                  <if>deleteSkipped</if>
+                  <becauseOf>HOLDINGS_RECORD_PATTERN_MATCH</becauseOf>
+                  <setCode>HOLDINGS_RECORD_PATTERN_MATCH</setCode>
+                </i> 
+                <i>
+                  <if>deleteSkipped</if>
+                  <becauseOf>ITEM_PATTERN_MATCH</becauseOf>
+                  <setCode>ITEM_PATTERN_MATCH</setCode>
+                </i> 
+              </arr>
+            </statisticalCoding>
+          </instance>
+        </processing>
+      </delete>
+    </record>
+  </xsl:template>
 
   <xsl:template match="original">
     <xsl:if test="item/datafield[@tag='203@']/subfield[@code='0']">
-      <processing>
-        <holdingsRecord>
-          <retainExistingValues>
-            <forOmittedProperties>true</forOmittedProperties>
-          </retainExistingValues>
-        </holdingsRecord>
+      <processing> <!-- generates hebis default -->
         <item>
           <retainExistingValues>
             <forOmittedProperties>true</forOmittedProperties>
+            <forTheseProperties>
+              <arr>
+                <i>materialTypeId</i>
+              </arr>
+            </forTheseProperties>
           </retainExistingValues>
           <status>
             <policy>retain</policy>
           </status>
+          <retainOmittedRecord>
+            <ifField>hrid</ifField>
+            <matchesPattern>it.*</matchesPattern>
+          </retainOmittedRecord>
+          <statisticalCoding>
+            <arr>
+              <i>
+                <if>deleteSkipped</if>
+                <becauseOf>ITEM_STATUS</becauseOf>
+                <setCode>ITEM_STATUS</setCode>
+              </i>         
+            </arr>
+          </statisticalCoding>
         </item>
+        <holdingsRecord>
+          <retainExistingValues>
+            <forOmittedProperties>true</forOmittedProperties>
+          </retainExistingValues>
+          <retainOmittedRecord>
+            <ifField>hrid</ifField>
+            <matchesPattern>ho.*</matchesPattern>
+          </retainOmittedRecord>
+          <statisticalCoding>
+            <arr>
+              <i>
+                <if>deleteSkipped</if>
+                <becauseOf>ITEM_STATUS</becauseOf>
+                <setCode>ITEM_STATUS</setCode>
+              </i>
+              <i>
+                <if>deleteSkipped</if>
+                <becauseOf>ITEM_PATTERN_MATCH</becauseOf>
+                <setCode>ITEM_PATTERN_MATCH</setCode>
+              </i> 
+            </arr>
+          </statisticalCoding>
+        </holdingsRecord>
+        <instance/>
       </processing>
       <holdingsRecords>
         <arr>
