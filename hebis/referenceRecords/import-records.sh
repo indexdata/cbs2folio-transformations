@@ -13,17 +13,20 @@ if [ $pw == "xxx" ] ; then
 fi
 
 loan_type_storage_address=$okapi/loan-types
+alternative_title_type_storage_address=$okapi/alternative-title-types
 holdings_sources_storage_address=$okapi/holdings-sources
 holdings_note_type_storage_address=$okapi/holdings-note-types
 identifier_type_storage_address=$okapi/identifier-types
 instance_statuses_storage_address=$okapi/instance-statuses
 instance_relationship_types_storage_address=$okapi/instance-relationship-types
+instance_note_type_storage_address=$okapi/instance-note-types
 item_note_type_storage_address=$okapi/item-note-types
 material_type_storage_address=$okapi/material-types
+nature_of_content_terms_storage_address=$okapi/nature-of-content-terms
 
 for f in ./codes2uuid-hebis-iln$iln/loan-types/*.json; do
     echo "PROCESSING -->" $f
-    curl -w '\n' -s -X POST -D - \
+    curl -w '\n' --http1.1 -s -X POST -D - \
          -H "Content-type: application/json" \
          -H "X-Okapi-Tenant: ${tenant}" \
 	 -H "${token}" \
@@ -31,9 +34,19 @@ for f in ./codes2uuid-hebis-iln$iln/loan-types/*.json; do
          "${loan_type_storage_address}" | grep 'message\|exists'
 done
 
+for f in ./codes2uuid-hebis/alternative-title-types/*.json; do
+    echo "PROCESSING -->" $f
+    curl -w '\n' --http1.1 -s -X POST -D - \
+         -H "Content-type: application/json" \
+         -H "X-Okapi-Tenant: ${tenant}" \
+	 -H "${token}" \
+         -d @$f \
+         "${alternative_title_type_storage_address}" | grep 'message\|exists'
+done
+
 for f in ./codes2uuid-hebis/holdings-sources/*.json; do
     echo "PROCESSING -->" $f
-    curl -w '\n' -s -X POST -D - \
+    curl -w '\n' --http1.1 -s -X POST -D - \
          -H "Content-type: application/json" \
          -H "X-Okapi-Tenant: ${tenant}" \
 	 -H "${token}" \
@@ -43,7 +56,7 @@ done
 
 for f in ./codes2uuid-hebis/holdings-note-types/*.json; do
         echo "PROCESSING -->" $f
-    	curl -w '\n' -s -X POST -D - \
+    	curl -w '\n' --http1.1 -s -X POST -D - \
          -H "Content-type: application/json" \
          -H "X-Okapi-Tenant: ${tenant}" \
 	 -H "${token}" \
@@ -53,7 +66,7 @@ done
 
 for f in ./codes2uuid-hebis/identifier-types/*.json; do
     echo "PROCESSING -->" $f
-    curl -w '\n' -s -X POST -D - \
+    curl -w '\n' --http1.1 -s -X POST -D - \
          -H "Content-type: application/json" \
          -H "X-Okapi-Tenant: ${tenant}" \
 	 -H "${token}" \
@@ -63,7 +76,7 @@ done
 
 for f in ./Additional/instance-relationship-types/*.json; do
 	echo "PROCESSING -->" $f
-    	curl -w '\n' -s -X POST -D - \
+    	curl -w '\n' --http1.1 -s -X POST -D - \
          -H "Content-type: application/json" \
          -H "X-Okapi-Tenant: ${tenant}" \
 	 -H "${token}" \
@@ -73,7 +86,7 @@ done
 
 for f in ./K10plus/instance-statuses/*.json; do
 	echo "PROCESSING -->" $f
-    	curl -w '\n' -s -X POST -D - \
+    	curl -w '\n' --http1.1 -s -X POST -D - \
          -H "Content-type: application/json" \
          -H "X-Okapi-Tenant: ${tenant}" \
 	 -H "${token}" \
@@ -81,9 +94,19 @@ for f in ./K10plus/instance-statuses/*.json; do
          "${instance_statuses_storage_address}" | grep 'message\|exists'
 done
 
+for f in ./codes2uuid-hebis/instance-note-types/*.json; do
+        echo "PROCESSING -->" $f
+    	curl -w '\n' --http1.1 -s -X POST -D - \
+         -H "Content-type: application/json" \
+         -H "X-Okapi-Tenant: ${tenant}" \
+	 -H "${token}" \
+         -d @$f \
+         "${instance_note_type_storage_address}" | grep 'message\|exists'
+done
+
 for f in ./codes2uuid-hebis/item-note-types/*.json; do
         echo "PROCESSING -->" $f
-    	curl -w '\n' -s -X POST -D - \
+    	curl -w '\n' --http1.1 -s -X POST -D - \
          -H "Content-type: application/json" \
          -H "X-Okapi-Tenant: ${tenant}" \
 	 -H "${token}" \
@@ -93,10 +116,20 @@ done
 
 for f in ./codes2uuid-hebis/material-types/*.json; do
 	echo "PROCESSING -->" $f
-    	curl -w '\n' -s -X POST -D - \
+    	curl -w '\n' --http1.1 -s -X POST -D - \
          -H "Content-type: application/json" \
          -H "X-Okapi-Tenant: ${tenant}" \
 	 -H "${token}" \
          -d @$f \
          "${material_type_storage_address}" | grep 'message\|exists'
+done
+
+for f in ./codes2uuid-hebis/nature-of-content-terms/*.json; do
+	echo "PROCESSING -->" $f
+    	curl -w '\n' --http1.1 -s -X POST -D - \
+         -H "Content-type: application/json" \
+         -H "X-Okapi-Tenant: ${tenant}" \
+	 -H "${token}" \
+         -d @$f \
+        "${nature_of_content_terms_storage_address}" | grep 'message\|exists'
 done
