@@ -36,6 +36,7 @@
             <if>deleteSkipped</if>
             <becauseOf>ITEM_STATUS</becauseOf>
             <setCode>ITEM_STATUS</setCode>
+            <!-- seems not to work properly Quesnelia 2024-10-28 -->
           </i>
         </arr>
       </statisticalCoding>
