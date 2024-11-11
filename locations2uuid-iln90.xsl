@@ -34,8 +34,8 @@
         <xsl:when test=".='ZSS-MAGAZIN'">4c65d434-83df-4e95-a305-e2f606348c51</xsl:when>
         <xsl:when test=".='ZTG'">f83c0ce8-5e85-4dd0-a191-e9daadf98d66</xsl:when>
         <xsl:when test=".[contains(.,'geloescht')]">2f84ae67-bd38-4546-a0bb-256d7a1b7ef6</xsl:when>
-	<xsl:when test=".='Online'">184aae84-a5bf-4c6a-85ba-4a7c73026cd5</xsl:when>
-	<xsl:otherwise>bbbb3330-253a-45d2-924c-75179019c943</xsl:otherwise>
+        <xsl:when test=".='Online'">184aae84-a5bf-4c6a-85ba-4a7c73026cd5</xsl:when>
+        <xsl:otherwise>bbbb3330-253a-45d2-924c-75179019c943</xsl:otherwise>
       </xsl:choose>
     </permanentLocationId>
   </xsl:template>
