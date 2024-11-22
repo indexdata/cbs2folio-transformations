@@ -314,10 +314,11 @@
         ($abt='000' and (starts-with(., 'RARA ') and not(contains(.,'°')))) or
         ($abt='019' and (starts-with(.,'CELA') or starts-with(.,'CELTRA') or starts-with(.,'LBS') or starts-with(.,'MAG') or starts-with(.,'SSC'))) or
         ($abt='120' and ($standort='Medienkulturwissenschaft' or $standort='Alltagsmedien')) or
-        ($abt='003') or ($abt='004') or 
+        ($abt='003') or ($abt='004') or
+        ($abt='002' and (starts-with(., '400 ') or starts-with(., '410 ') or starts-with(., '430 ') or starts-with(., '480 ')) and $standort='Politikwissenschaft / Bibliothek Inklusive Politische Bildung') or
         ($abt='005' and (starts-with(., '700 ') or starts-with(., '710 '))) or
         ($abt='054' and (starts-with(., '798 ') or starts-with(., '791 '))) or
-        (($abt='127') and not(starts-with(.,'SI ') or starts-with(.,'SK ')))">
+        (($abt='127') and not(starts-with(.,'SI ') or starts-with(.,'SK ')))"> <!-- RVK-Bereiche und Verwandtes -->
         <xsl:choose>
           <xsl:when test="contains(.,' ')">
             <callNumberPrefix>
