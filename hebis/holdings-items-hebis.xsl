@@ -263,6 +263,7 @@
               <staffOnly>true</staffOnly>
             </i>
           </xsl:for-each>
+          <!-- entfernt, weil über HDS2 angezeigt und sonst gedoppelt
           <xsl:for-each select="datafield[(@tag='244Z') and (subfield[@code='x']&gt;'79') and (subfield[@code='x']&lt;'99')]">
             <i>
               <note>
@@ -296,6 +297,7 @@
               <staffOnly>false</staffOnly>
             </i>
           </xsl:for-each>
+                    -->
           <xsl:for-each select="datafield[@tag='209S']/subfield[@code='S'] | datafield[@tag='204U']/subfield[@code='S'] | datafield[@tag='204P']/subfield[@code='S'] | datafield[@tag='204R']/subfield[@code='S'] ">
             <i>
               <note>
