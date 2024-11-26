@@ -97,6 +97,7 @@
           </xsl:choose>
         </xsl:if>
       </xsl:when>
+      <xsl:when test="not(./subfield[@code='a'])"><xsl:text> [kein Titel] </xsl:text></xsl:when> <!-- Workaround to avoid record loss MK 26.22.24 -->
       <xsl:otherwise>
         <xsl:choose>
           <xsl:when test="./subfield[@code='a'][contains(., '@')]">
