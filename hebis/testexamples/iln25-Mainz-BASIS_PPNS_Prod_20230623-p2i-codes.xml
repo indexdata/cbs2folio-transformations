@@ -4450,11 +4450,6 @@
                         <holdingsNoteTypeId>49050d37-2d82-452c-a963-2645ffc0b9a9</holdingsNoteTypeId>
                         <staffOnly>true</staffOnly>
                      </i>
-                     <i>
-                        <note>. 1938; 1944</note>
-                        <holdingsNoteTypeId>db9b4787-95f0-4e78-becf-26748ce6bdeb</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
                   </arr>
                </notes>
                <discoverySuppress>false</discoverySuppress>
@@ -6664,11 +6659,6 @@
                         <note>BASIS</note>
                         <holdingsNoteTypeId>49050d37-2d82-452c-a963-2645ffc0b9a9</holdingsNoteTypeId>
                         <staffOnly>true</staffOnly>
-                     </i>
-                     <i>
-                        <note>. 1938</note>
-                        <holdingsNoteTypeId>db9b4787-95f0-4e78-becf-26748ce6bdeb</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
@@ -42535,7 +42525,7 @@
          <series>
             <arr>
                <i>
-                  <value>Oeuvres complètes / Jean-Baptiste Lully. Ed. par l'Association Lully. Réd. en chef: Jerôme de la Gorce .... Sér. 3, Opéras ; 6.</value>
+                  <value>Oeuvres complètes / Jean-Baptiste Lully. Ed. par l'Association Lully. Réd. en chef: Jerôme de la Gorce .... Sér. 3, Opéras ; 6 [kein Titel]</value>
                </i>
             </arr>
          </series>
@@ -70435,11 +70425,6 @@
                         <holdingsNoteTypeId>49050d37-2d82-452c-a963-2645ffc0b9a9</holdingsNoteTypeId>
                         <staffOnly>true</staffOnly>
                      </i>
-                     <i>
-                        <note/>
-                        <holdingsNoteTypeId>db9b4787-95f0-4e78-becf-26748ce6bdeb</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
                   </arr>
                </notes>
                <discoverySuppress>false</discoverySuppress>
@@ -72637,21 +72622,6 @@
                         <note>BASIS</note>
                         <holdingsNoteTypeId>49050d37-2d82-452c-a963-2645ffc0b9a9</holdingsNoteTypeId>
                         <staffOnly>true</staffOnly>
-                     </i>
-                     <i>
-                        <note/>
-                        <holdingsNoteTypeId>db9b4787-95f0-4e78-becf-26748ce6bdeb</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
-                     <i>
-                        <note/>
-                        <holdingsNoteTypeId>db9b4787-95f0-4e78-becf-26748ce6bdeb</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
-                     </i>
-                     <i>
-                        <note>Geschenk E.B. Nr 1282</note>
-                        <holdingsNoteTypeId>db9b4787-95f0-4e78-becf-26748ce6bdeb</holdingsNoteTypeId>
-                        <staffOnly>false</staffOnly>
                      </i>
                   </arr>
                </notes>
