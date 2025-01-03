@@ -178,7 +178,7 @@
       <xsl:variable name="electronicholding" select="(substring(../datafield[@tag='002@']/subfield[@code='0'],1,1) = 'O') and not(substring(datafield[@tag='208@']/subfield[@code='b'],1,1) = 'a')"/>
       <callNumber>
           <xsl:if test="not($electronicholding) and (substring(datafield[@tag='208@']/subfield[@code='b'],1,1) != 'd')">
-               <xsl:value-of select="datafield[@tag='209A']/subfield[@code='a']"/>
+            <xsl:value-of select="datafield[(@tag='209A') and (subfield[@code='x']='00')]/subfield[@code='a']"/>
           </xsl:if>
       </callNumber>  
 	    <holdingsTypeId>
