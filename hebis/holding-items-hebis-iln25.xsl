@@ -30,16 +30,20 @@
         <ifField>hrid</ifField>
         <matchesPattern>it.*</matchesPattern>
       </retainOmittedRecord>
-      <statisticalCoding>
-        <arr>
-          <i>
-            <if>deleteSkipped</if>
-            <becauseOf>ITEM_STATUS</becauseOf>
-            <setCode>ITEM_STATUS</setCode>
-            <!-- seems not to work properly Quesnelia 2024-10-28 -->
-          </i>
-        </arr>
-      </statisticalCoding>
+      <!-- does not to work properly in Quesnelia 2024-12:
+            - statistical code is not set in some cases (false neagtive)
+            - statistical code is also set (false positive) in "retainOmittedRecord" protected cases
+            - statistical code is also set (false positive) in holding transfer cases
+            -> left out (in addition seems not to be needed)
+          <statisticalCoding>
+            <arr>
+              <i>
+                <if>deleteSkipped</if>
+                <becauseOf>ITEM_STATUS</becauseOf>
+                <setCode>ITEM_STATUS</setCode>
+              </i>         
+            </arr>
+          </statisticalCoding> -->
     </item>
   	<holdingsRecord>
   	  <retainExistingValues>
