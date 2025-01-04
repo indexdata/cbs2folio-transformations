@@ -131,6 +131,24 @@
     </permanentLoanTypeId>
   </xsl:template>
 
+  <xsl:template match="holdingsNoteTypeId"> <!-- Level 2: additional ids for multiple call number workaround -->
+    <holdingsNoteTypeId>
+      <xsl:choose>
+        <xsl:when test=".='Weitere Signaturen (7101)'"><xsl:text>bd3b7265-3337-4f62-bba8-12b7938cf161</xsl:text></xsl:when>
+        <xsl:when test=".='Weitere Signaturen (7102)'"><xsl:text>ef5fe122-3412-4fb5-91d6-79516907fa9b</xsl:text></xsl:when>
+        <xsl:when test=".='Weitere Signaturen (7103)'"><xsl:text>bf986cf6-87af-47a2-b159-5b5de0fff7c5</xsl:text></xsl:when>
+        <xsl:when test=".='Weitere Signaturen (7104)'"><xsl:text>979c9edb-c487-4f6e-94f6-876a46252815</xsl:text></xsl:when>
+        <xsl:when test=".='Weitere Signaturen (7105)'"><xsl:text>60b8d358-9d13-4e11-bd3c-edf3104d0bf5</xsl:text></xsl:when>
+        <xsl:when test=".='Weitere Signaturen (7106)'"><xsl:text>12878c96-b955-4b11-ad20-b3d35c5e1d27</xsl:text></xsl:when>
+        <xsl:when test=".='Weitere Signaturen (7107)'"><xsl:text>c0a59e6c-e6ea-4158-b4c5-610486f8f6e9</xsl:text></xsl:when>
+        <xsl:when test=".='Weitere Signaturen (7108)'"><xsl:text>f43a450a-0574-450b-9dd1-74d9ae6a6502</xsl:text></xsl:when>     
+        <xsl:when test=".='Weitere Signaturen (7109)'"><xsl:text>a3b8e442-a3bf-461e-a708-173001b8e67c</xsl:text></xsl:when>
+        <xsl:when test=".='Weitere Signaturen (7110)'"><xsl:text>24f2019c-2e64-42b3-a760-7a89a0dcb363</xsl:text></xsl:when>
+        <xsl:otherwise><xsl:value-of select="."/></xsl:otherwise>
+      </xsl:choose>
+    </holdingsNoteTypeId>
+  </xsl:template>
+
   <!-- Map statistical code ids -->
   <xsl:template match="statisticalCodeIds"> <!-- ILN -->
     <statisticalCodeIds>

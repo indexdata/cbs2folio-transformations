@@ -45,7 +45,7 @@
         <xsl:when test=".='Letzte Änderung CBS'"><xsl:text>7cad8584-35f9-4ea7-8944-11bcf40ff29c</xsl:text></xsl:when> <!-- hebis-wide -->
         <xsl:when test=".='Lokale Schlagwörter'"><xsl:text>65eea0de-f9da-46e1-828a-479579997110</xsl:text></xsl:when> <!-- ILN-specific -->
         <xsl:when test=".='Lokale Klassifikationen'"><xsl:text>2b56966a-4fb2-4695-befe-073ac0d22996</xsl:text></xsl:when> <!-- ILN-specific -->
-        <xsl:otherwise>b160f13a-ddba-4053-b9c4-60ec5ea45d56</xsl:otherwise> <!-- Note -->
+        <xsl:otherwise><xsl:value-of select="."/></xsl:otherwise>
       </xsl:choose>
     </holdingsNoteTypeId>
   </xsl:template>
