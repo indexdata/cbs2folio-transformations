@@ -12,25 +12,25 @@
   </xsl:template>  
 
   <!-- ILN 25 UB Mainz -->
-<xsl:template match="processing[not(parent::delete)]">
-  <processing> <!-- overwrites hebis default -->
-    <item>
-      <retainExistingValues>
-        <forOmittedProperties>true</forOmittedProperties>
-        <forTheseProperties>
-          <arr>
-            <i>materialTypeId</i>
-          </arr>
-        </forTheseProperties>
-      </retainExistingValues>
-      <status>
-        <policy>retain</policy>
-      </status>
-      <retainOmittedRecord>
-        <ifField>hrid</ifField>
-        <matchesPattern>it.*</matchesPattern>
-      </retainOmittedRecord>
-      <!-- does not to work properly in Quesnelia 2024-12:
+  <xsl:template match="processing[not(parent::delete)]">
+    <processing> <!-- overwrites hebis default -->
+      <item>
+        <retainExistingValues>
+          <forOmittedProperties>true</forOmittedProperties>
+          <forTheseProperties>
+            <arr>
+              <i>materialTypeId</i>
+            </arr>
+          </forTheseProperties>
+        </retainExistingValues>
+        <status>
+          <policy>retain</policy>
+        </status>
+        <retainOmittedRecord>
+          <ifField>hrid</ifField>
+          <matchesPattern>it.*</matchesPattern>
+        </retainOmittedRecord>
+        <!-- does not to work properly in Quesnelia 2024-12:
             - statistical code is not set in some cases (false neagtive)
             - statistical code is also set (false positive) in "retainOmittedRecord" protected cases
             - statistical code is also set (false positive) in holding transfer cases
@@ -44,33 +44,33 @@
               </i>         
             </arr>
           </statisticalCoding> -->
-    </item>
-  	<holdingsRecord>
-  	  <retainExistingValues>
-  	    <forOmittedProperties>true</forOmittedProperties>
-  	  </retainExistingValues>
-  	  <retainOmittedRecord>
-  	    <ifField>hrid</ifField>
-  	    <matchesPattern>ho.*</matchesPattern>
-  	  </retainOmittedRecord>
-  	  <statisticalCoding>
-  	    <arr>
-  	      <i>
-  	        <if>deleteSkipped</if>
-  	        <becauseOf>ITEM_STATUS</becauseOf>
-  	        <setCode>ITEM_STATUS</setCode>
-  	      </i>
-  	      <i>
-  	        <if>deleteSkipped</if>
-  	        <becauseOf>ITEM_PATTERN_MATCH</becauseOf>
-  	        <setCode>ITEM_PATTERN_MATCH</setCode>
-  	      </i> 
-  	    </arr>
-  	  </statisticalCoding>
-  	</holdingsRecord>
-    <instance/>
-  </processing>
-</xsl:template>
+      </item>
+      <holdingsRecord>
+        <retainExistingValues>
+          <forOmittedProperties>true</forOmittedProperties>
+        </retainExistingValues>
+        <retainOmittedRecord>
+          <ifField>hrid</ifField>
+          <matchesPattern>ho.*</matchesPattern>
+        </retainOmittedRecord>
+        <statisticalCoding>
+          <arr>
+            <i>
+              <if>deleteSkipped</if>
+              <becauseOf>ITEM_STATUS</becauseOf>
+              <setCode>ITEM_STATUS</setCode>
+            </i>
+            <i>
+              <if>deleteSkipped</if>
+              <becauseOf>ITEM_PATTERN_MATCH</becauseOf>
+              <setCode>ITEM_PATTERN_MATCH</setCode>
+            </i> 
+          </arr>
+        </statisticalCoding>
+      </holdingsRecord>
+      <instance/>
+    </processing>
+  </xsl:template>
 
   <xsl:template match="permanentLocationId">
     <xsl:variable name="i" select="key('original',.)"/>

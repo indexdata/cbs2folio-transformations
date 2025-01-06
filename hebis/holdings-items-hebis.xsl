@@ -42,15 +42,7 @@
               <ifField>hrid</ifField>
               <matchesPattern>it.*</matchesPattern>
             </blockDeletion>
-            <statisticalCoding>
-              <arr>
-                <i>
-                  <if>deleteSkipped</if>
-                  <becauseOf>ITEM_STATUS</becauseOf>
-                  <setCode>ITEM_STATUS</setCode>
-                </i>         
-              </arr>
-            </statisticalCoding>
+            <statisticalCoding/>
           </item>
           <holdingsRecord>
             <blockDeletion>
@@ -59,22 +51,6 @@
             </blockDeletion>
             <statisticalCoding>
               <arr>
-                <i>
-                  <if>deleteSkipped</if>
-                  <becauseOf>ITEM_STATUS</becauseOf>
-                  <setCode>ITEM_STATUS</setCode>
-                </i>         
-              </arr>
-            </statisticalCoding>
-          </holdingsRecord>
-          <instance>
-            <statisticalCoding>
-              <arr>
-                <i>
-                  <if>deleteSkipped</if>
-                  <becauseOf>PO_LINE_REFERENCE</becauseOf>
-                  <setCode>PO_LINE_REFERENCE</setCode>
-                </i>   
                 <i>
                   <if>deleteSkipped</if>
                   <becauseOf>ITEM_STATUS</becauseOf>
@@ -90,6 +66,17 @@
                   <becauseOf>ITEM_PATTERN_MATCH</becauseOf>
                   <setCode>ITEM_PATTERN_MATCH</setCode>
                 </i> 
+              </arr>
+            </statisticalCoding>
+          </holdingsRecord>
+          <instance>
+            <statisticalCoding>
+              <arr>
+                <i>
+                  <if>deleteSkipped</if>
+                  <becauseOf>PO_LINE_REFERENCE</becauseOf>
+                  <setCode>PO_LINE_REFERENCE</setCode>
+                </i>   
               </arr>
             </statisticalCoding>
           </instance>
