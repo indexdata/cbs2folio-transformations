@@ -358,9 +358,7 @@
             </xsl:for-each>
           </arr>
         </electronicAccess>
-      
-        <statisticalCodeIds/>
-    
+       
     </i>
   </xsl:template>
  
