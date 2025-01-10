@@ -142,7 +142,11 @@
             </arr>
           </statisticalCoding>
         </holdingsRecord>
-        <instance/>
+        <instance>
+          <retainExistingValues>
+            <forOmittedProperties>true</forOmittedProperties>
+          </retainExistingValues>
+        </instance>
       </processing>
       <holdingsRecords>
         <arr>

@@ -236,7 +236,7 @@
     <xsl:if test="datafield[@tag='002@']">
       <!-- mode of issuance -->
       <!-- hebis: changes for integrating resources (only $noc) -->
-      <modeOfIssuanceId>
+      <modeOfIssuanceId> <!-- no retain? -->
         <xsl:variable name="mii" select="substring(datafield[@tag='002@']/subfield[@code='0'], 2, 1)"/>
         <xsl:variable name="noc" select="datafield[@tag='013D']/subfield[@code='9']"/>
         <xsl:choose>
@@ -1283,7 +1283,7 @@
               </xsl:for-each>
             </publisher>
             <xsl:if test="..//datafield[@tag='011@']">
-              <dateOfPublication>
+              <dateOfPublication> <!-- no retain? -->
                 <xsl:variable name="date-a" select="../datafield[@tag='011@']/subfield[@code='a']"/>
                 <xsl:variable name="date-b" select="../datafield[@tag='011@']/subfield[@code='b']"/>
                 <xsl:variable name="date-c" select="../datafield[@tag='011@']/subfield[@code='c']"/>
@@ -1338,7 +1338,7 @@
     </publication>
     <!-- Publication frequency -->
     <xsl:if test="datafield[@tag='018@']">
-      <publicationFrequency>
+      <publicationFrequency> <!-- no retain? -->
         <arr>
           <xsl:for-each select="datafield[@tag='018@']">
             <i>
@@ -1458,7 +1458,7 @@
     <!-- hebis: added tags: 013E, 017M, 017R, 032X, 032Y, 032Z, 035E, 037C, 039B, 039C, 039D, 039E, 046K, 046M, 046N, 046U, 047I, 048H -->
     <!-- GBV: corrections (037G instead of 037I) -->
     <xsl:if test="datafield[@tag='011B' or @tag='013E' or @tag='017M' or @tag='017R' or @tag='032X' or @tag='032Y' or @tag='032Z' or @tag='035E' or @tag='037A' or @tag='037C' or @tag='037G' or @tag='039B' or @tag='039C' or @tag='039D' or @tag='039E' or @tag='046P' or @tag='046L' or @tag='046K' or @tag='046M' or @tag='046N' or @tag='046U' or @tag='047I' or @tag='048H']">
-      <notes>
+      <notes> <!-- no retain? -->
         <arr>
           <xsl:for-each select="datafield[@tag='011B' or @tag='013E' or @tag='017M' or @tag='017R' or @tag='032X' or @tag='032Y' or @tag='032Z' or @tag='035E' or @tag='037A' or @tag='037C' or @tag='037G' or @tag='039B' or @tag='039C' or @tag='039D' or @tag='039E' or @tag='046P' or @tag='046K' or @tag='046L' or @tag='046M' or @tag='046N' or @tag='046U' or @tag='047I' or @tag='048H']">
             <i>
@@ -1756,7 +1756,7 @@
     </xsl:if>
     <!-- Nature of contents -->
     <xsl:if test="datafield[@tag='013D']">
-      <natureOfContentTermIds>
+      <natureOfContentTermIds> <!-- no retain? -->
         <arr>
           <xsl:for-each select="datafield[@tag='013D']">
             <i>
@@ -1936,7 +1936,7 @@
     </xsl:if>
     <!-- languages -->
     <xsl:if test="datafield[@tag='010@']/subfield[@code='a']">
-      <languages>
+      <languages> <!-- no retain? -->
         <arr>
           <xsl:for-each select="datafield[@tag='010@']/subfield[@code='a']">
             <i>
@@ -2079,7 +2079,7 @@
     <xsl:if test="datafield[@tag='032@']/subfield[@code='a']">
       <xsl:variable name="eda" select="datafield[@tag='032@']/subfield[@code='a']"/>
       <xsl:variable name="edh" select="datafield[@tag='032@']/subfield[@code='h']"/>
-      <editions>
+      <editions> <!-- no retain? -->
         <arr>
           <i>
             <xsl:choose>
