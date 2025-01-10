@@ -68,7 +68,11 @@
           </arr>
         </statisticalCoding>
       </holdingsRecord>
-      <instance/>
+      <instance>
+        <retainExistingValues>
+          <forOmittedProperties>true</forOmittedProperties>
+        </retainExistingValues>
+      </instance>
     </processing>
   </xsl:template>
 
