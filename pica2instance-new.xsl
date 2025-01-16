@@ -1522,10 +1522,10 @@
         </xsl:for-each>
       </arr>
     </electronicAccess>
-    <!-- Notes -->
+    <!-- Send empty Notes if neccessary -->
     <!-- hebis: added tags: 013E, 017M, 017R, 032X, 032Y, 032Z, 035E, 037C, 039B, 039C, 039D, 039E, 046K, 046M, 046S, 046U, 047I, 048H -->
-    <xsl:if test="datafield[@tag='011B' or @tag='013E' or @tag='017M' or @tag='017R' or @tag='032X' or @tag='032Y' or @tag='032Z' or @tag='035E' or @tag='037A' or @tag='037C' or @tag='037I' or @tag='039B' or @tag='039C' or @tag='039D' or @tag='039E' or @tag='046P' or @tag='046L' or @tag='046K' or @tag='046M' or @tag='046S' or @tag='046U' or @tag='047I' or @tag='048H']">
-      <notes>
+    <notes>
+      <xsl:if test="datafield[@tag='011B' or @tag='013E' or @tag='017M' or @tag='017R' or @tag='032X' or @tag='032Y' or @tag='032Z' or @tag='035E' or @tag='037A' or @tag='037C' or @tag='037I' or @tag='039B' or @tag='039C' or @tag='039D' or @tag='039E' or @tag='046P' or @tag='046L' or @tag='046K' or @tag='046M' or @tag='046S' or @tag='046U' or @tag='047I' or @tag='048H']">
         <arr>
           <xsl:for-each select="datafield[@tag='011B' or @tag='013E' or @tag='017M' or @tag='017R' or @tag='032X' or @tag='032Y' or @tag='032Z' or @tag='035E' or @tag='037A' or @tag='037C' or @tag='037I' or @tag='039B' or @tag='039C' or @tag='039D' or @tag='039E' or @tag='046P' or @tag='046K' or @tag='046L' or @tag='046M' or @tag='046S' or @tag='046U' or @tag='047I' or @tag='048H']">
             <i>
@@ -1806,8 +1806,8 @@
             </i>
           </xsl:for-each>
         </arr>
-      </notes>
-    </xsl:if>
+      </xsl:if>
+    </notes>
     <!-- Nature of contents -->
     <xsl:if test="datafield[@tag='013D']">
       <natureOfContentTermIds>
