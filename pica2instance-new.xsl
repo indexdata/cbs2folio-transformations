@@ -1989,9 +1989,9 @@
       </xsl:if>
     </natureOfContentTermIds>
     
-    <!-- languages -->
-    <xsl:if test="datafield[@tag='010@']/subfield[@code='a']">
-      <languages>
+    <!-- Send empty Languages array if neccessary -->
+    <languages>
+      <xsl:if test="datafield[@tag='010@']/subfield[@code='a']">
         <arr>
           <xsl:for-each select="datafield[@tag='010@']/subfield[@code='a']">
             <i>
@@ -1999,8 +1999,9 @@
             </i>
           </xsl:for-each>
         </arr>
-      </languages>
-    </xsl:if>
+      </xsl:if>
+    </languages>
+    
     <!-- series -->
     <series>
       <xsl:if test="datafield[@tag='036E']/subfield[@code='a']">
