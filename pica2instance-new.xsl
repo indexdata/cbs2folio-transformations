@@ -14,7 +14,7 @@
           <xsl:value-of select="./hrid"/>
         </hrid>
         <processing>
-        <instance>
+          <instance>
             <statisticalCoding>
               <arr>
                 <i>
@@ -44,7 +44,7 @@
             <blockDeletion>
               <ifField>hrid</ifField>
               <matchesPattern>\D+.*</matchesPattern>
-          </blockDeletion>
+            </blockDeletion>
           </holdingsRecord>
           <item>
             <blockDeletion>
@@ -153,19 +153,19 @@
             <forOmittedProperties>true</forOmittedProperties>
           </retainExistingValues>
           <statisticalCoding>
-              <arr>
-                <i>
-                  <if>deleteSkipped</if>
-                  <becauseOf>ITEM_PATTERN_MATCH</becauseOf>
-                  <setCode>970b8b4e-ee88-4037-b954-a10ee75340f0</setCode>
-                </i>      
-                <i>
-                  <if>deleteSkipped</if>
-                  <becauseOf>ITEM_STATUS</becauseOf>
-                  <setCode>e7b3071c-8cc0-48cc-9cd0-dfc82c4e4602</setCode>
-                </i>
-              </arr>
-            </statisticalCoding>
+            <arr>
+              <i>
+                <if>deleteSkipped</if>
+                <becauseOf>ITEM_PATTERN_MATCH</becauseOf>
+                <setCode>970b8b4e-ee88-4037-b954-a10ee75340f0</setCode>
+              </i>      
+              <i>
+                <if>deleteSkipped</if>
+                <becauseOf>ITEM_STATUS</becauseOf>
+                <setCode>e7b3071c-8cc0-48cc-9cd0-dfc82c4e4602</setCode>
+              </i>
+            </arr>
+          </statisticalCoding>
         </holdingsRecord>
         <item>
           <retainOmittedRecord>
@@ -681,7 +681,7 @@
         <xsl:call-template name="parse-021x"/>
       </xsl:for-each>
     </xsl:variable>
-
+    
     <xsl:variable name="title-021M">
       <xsl:for-each select="datafield[(@tag='021M') and ((substring(./subfield[@code='U'],1,4) = 'Latn') or not(./subfield[@code='U']))]">
         <xsl:value-of select="' | '"/>
@@ -1189,10 +1189,10 @@
       </arr>
     </alternativeTitles>
     
-    <!-- Contributors -->
+    <!-- Send empty contributors array if neccessary -->
     <contributors>
-      <xsl:if test="datafield[@tag='028A' or @tag='028B' or @tag='028C' or @tag='028G' or @tag='029A' or @tag='029F']">
-        <arr>
+      <arr>
+        <xsl:if test="datafield[@tag='028A' or @tag='028B' or @tag='028C' or @tag='028G' or @tag='029A' or @tag='029F']">
           <xsl:for-each select="datafield[@tag='028A' or @tag='028B' or @tag='028C' or @tag='028G']">
             <xsl:if test="./subfield[@code='a' or @code='A' or @code='P' or @code='8']">
               <xsl:variable name="con-name">
@@ -1321,8 +1321,8 @@
               </xsl:if>
             </xsl:if>
           </xsl:for-each>
-        </arr>
-      </xsl:if>
+        </xsl:if>
+      </arr>
     </contributors>
     
     <!-- Publication -->
