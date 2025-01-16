@@ -2079,11 +2079,11 @@
         </arr>
       </physicalDescriptions>
     </xsl:if>
-    <!-- Edition -->
-    <xsl:if test="datafield[@tag='032@']/subfield[@code='a']">
-      <xsl:variable name="eda" select="datafield[@tag='032@']/subfield[@code='a']"/>
-      <xsl:variable name="edh" select="datafield[@tag='032@']/subfield[@code='h']"/>
-      <editions>
+    <!-- Send empty Editions if neccessary -->
+    <editions>
+      <xsl:if test="datafield[@tag='032@']/subfield[@code='a']">
+        <xsl:variable name="eda" select="datafield[@tag='032@']/subfield[@code='a']"/>
+        <xsl:variable name="edh" select="datafield[@tag='032@']/subfield[@code='h']"/>
         <arr>
           <i>
             <xsl:choose>
@@ -2096,8 +2096,9 @@
             </xsl:choose>
           </i>
         </arr>
-      </editions>
-    </xsl:if>
+      </xsl:if>
+    </editions>
+    
     <!-- Administrative notes -->
     <administrativeNotes>
       <arr>
