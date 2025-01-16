@@ -144,6 +144,15 @@
   <xsl:template match="record">
     <record>
       <processing>
+        <instance>
+          <retainExistingValues>
+            <forTheseProperties>
+              <arr>
+                <i>statisticalCodeIds</i>
+              </arr>
+            </forTheseProperties>
+          </retainExistingValues>
+        </instance>
         <holdingsRecord>
           <retainOmittedRecord>
             <ifField>hrid</ifField>
