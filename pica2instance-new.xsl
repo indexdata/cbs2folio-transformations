@@ -1404,9 +1404,9 @@
         </xsl:for-each>
       </arr>
     </publication>
-    <!-- Publication frequency -->
-    <xsl:if test="datafield[@tag='018@']">
-      <publicationFrequency>
+    <!-- Send empty Publication Frequency if neccessary -->
+    <publicationFrequency>
+      <xsl:if test="datafield[@tag='018@']">
         <arr>
           <xsl:for-each select="datafield[@tag='018@']">
             <i>
@@ -1432,8 +1432,8 @@
             </i>
           </xsl:for-each>
         </arr>
-      </publicationFrequency>
-    </xsl:if>
+      </xsl:if>
+    </publicationFrequency>
     <!-- Publication range -->
     <xsl:if test="datafield[@tag='031@']">
       <publicationRange>
