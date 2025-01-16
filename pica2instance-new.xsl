@@ -224,9 +224,9 @@
     <hrid>
       <xsl:value-of select="$ppn"/>
     </hrid>
-    <xsl:if test="datafield[@tag='002@']">
-      <!-- mode of issuance -->
-      <modeOfIssuanceId>
+    <!-- Send empty mode of issuance if neccessary -->
+    <modeOfIssuanceId>
+      <xsl:if test="datafield[@tag='002@']">
         <xsl:variable name="mii" select="substring(datafield[@tag='002@']/subfield[@code='0'], 2, 1)"/>
         <xsl:variable name="noc" select="datafield[@tag='013D']/subfield[@code='9']"/>
         <xsl:choose>
@@ -236,8 +236,8 @@
           <xsl:when test="$mii='z'">nicht spezifiziert</xsl:when>
           <xsl:otherwise>einzelne Einheit</xsl:otherwise>
         </xsl:choose>
-      </modeOfIssuanceId>
-    </xsl:if>
+      </xsl:if>
+    </modeOfIssuanceId>
     
     <!-- Instance type ID (resource type) -->
     <instanceTypeId>
