@@ -1808,9 +1808,9 @@
         </arr>
       </xsl:if>
     </notes>
-    <!-- Nature of contents -->
-    <xsl:if test="datafield[@tag='013D']">
-      <natureOfContentTermIds>
+    <!-- Send empty Nature of contents array if neccessary -->
+    <natureOfContentTermIds>
+      <xsl:if test="datafield[@tag='013D']">
         <arr>
           <xsl:for-each select="datafield[@tag='013D']">
             <i>
@@ -1986,8 +1986,9 @@
             </i>
           </xsl:for-each>
         </arr>
-      </natureOfContentTermIds>
-    </xsl:if>
+      </xsl:if>
+    </natureOfContentTermIds>
+    
     <!-- languages -->
     <xsl:if test="datafield[@tag='010@']/subfield[@code='a']">
       <languages>
