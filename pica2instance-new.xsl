@@ -224,7 +224,7 @@
     <hrid>
       <xsl:value-of select="$ppn"/>
     </hrid>
-    <!-- Send empty modeOfIssuanceId if neccessary -->
+    <!-- Send empty Mode of Issuance if neccessary -->
     <modeOfIssuanceId>
       <xsl:if test="datafield[@tag='002@']">
         <xsl:variable name="mii" select="substring(datafield[@tag='002@']/subfield[@code='0'], 2, 1)"/>
@@ -1349,7 +1349,7 @@
                 <xsl:if test="$pos != last()"> ; </xsl:if>
               </xsl:for-each>
             </publisher>
-            <!-- Send empty dateOfPublication if neccessary -->
+            <!-- Send empty Date of Publication if neccessary -->
             <dateOfPublication>
               <xsl:if test="..//datafield[@tag='011@']">
                 <xsl:variable name="date-a" select="../datafield[@tag='011@']/subfield[@code='a']"/>
