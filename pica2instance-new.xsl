@@ -224,7 +224,7 @@
     <hrid>
       <xsl:value-of select="$ppn"/>
     </hrid>
-    <!-- Send empty mode of issuance if neccessary -->
+    <!-- Send empty modeOfIssuanceId if neccessary -->
     <modeOfIssuanceId>
       <xsl:if test="datafield[@tag='002@']">
         <xsl:variable name="mii" select="substring(datafield[@tag='002@']/subfield[@code='0'], 2, 1)"/>
@@ -1349,8 +1349,9 @@
                 <xsl:if test="$pos != last()"> ; </xsl:if>
               </xsl:for-each>
             </publisher>
-            <xsl:if test="..//datafield[@tag='011@']">
-              <dateOfPublication>
+            <!-- Send empty dateOfPublication if neccessary -->
+            <dateOfPublication>
+              <xsl:if test="..//datafield[@tag='011@']">
                 <xsl:variable name="date-a" select="../datafield[@tag='011@']/subfield[@code='a']"/>
                 <xsl:variable name="date-b" select="../datafield[@tag='011@']/subfield[@code='b']"/>
                 <xsl:variable name="date-c" select="../datafield[@tag='011@']/subfield[@code='c']"/>
@@ -1390,8 +1391,8 @@
                     <xsl:value-of select="$date-a"/>
                   </xsl:otherwise>
                 </xsl:choose>
-              </dateOfPublication>
-            </xsl:if>
+              </xsl:if>
+            </dateOfPublication>
             <role>
               <xsl:choose>
                 <xsl:when test="./@tag = '033C'">Manufacturer</xsl:when>
