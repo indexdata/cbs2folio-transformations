@@ -42,7 +42,6 @@
               <ifField>hrid</ifField>
               <matchesPattern>it.*</matchesPattern>
             </blockDeletion>
-            <statisticalCoding/>
           </item>
           <holdingsRecord>
             <blockDeletion>
