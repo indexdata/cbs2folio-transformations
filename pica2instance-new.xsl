@@ -14,7 +14,7 @@
           <xsl:value-of select="./hrid"/>
         </hrid>
         <processing>
-        <instance>
+          <instance>
             <statisticalCoding>
               <arr>
                 <i>
@@ -44,7 +44,7 @@
             <blockDeletion>
               <ifField>hrid</ifField>
               <matchesPattern>\D+.*</matchesPattern>
-          </blockDeletion>
+            </blockDeletion>
           </holdingsRecord>
           <item>
             <blockDeletion>
@@ -144,6 +144,15 @@
   <xsl:template match="record">
     <record>
       <processing>
+        <instance>
+          <retainExistingValues>
+            <forTheseProperties>
+              <arr>
+                <i>statisticalCodeIds</i>
+              </arr>
+            </forTheseProperties>
+          </retainExistingValues>
+        </instance>
         <holdingsRecord>
           <retainOmittedRecord>
             <ifField>hrid</ifField>
@@ -153,19 +162,19 @@
             <forOmittedProperties>true</forOmittedProperties>
           </retainExistingValues>
           <statisticalCoding>
-              <arr>
-                <i>
-                  <if>deleteSkipped</if>
-                  <becauseOf>ITEM_PATTERN_MATCH</becauseOf>
-                  <setCode>970b8b4e-ee88-4037-b954-a10ee75340f0</setCode>
-                </i>      
-                <i>
-                  <if>deleteSkipped</if>
-                  <becauseOf>ITEM_STATUS</becauseOf>
-                  <setCode>e7b3071c-8cc0-48cc-9cd0-dfc82c4e4602</setCode>
-                </i>
-              </arr>
-            </statisticalCoding>
+            <arr>
+              <i>
+                <if>deleteSkipped</if>
+                <becauseOf>ITEM_PATTERN_MATCH</becauseOf>
+                <setCode>970b8b4e-ee88-4037-b954-a10ee75340f0</setCode>
+              </i>      
+              <i>
+                <if>deleteSkipped</if>
+                <becauseOf>ITEM_STATUS</becauseOf>
+                <setCode>e7b3071c-8cc0-48cc-9cd0-dfc82c4e4602</setCode>
+              </i>
+            </arr>
+          </statisticalCoding>
         </holdingsRecord>
         <item>
           <retainOmittedRecord>
@@ -224,9 +233,9 @@
     <hrid>
       <xsl:value-of select="$ppn"/>
     </hrid>
-    <xsl:if test="datafield[@tag='002@']">
-      <!-- mode of issuance -->
-      <modeOfIssuanceId>
+    <!-- Send empty Mode of Issuance if neccessary -->
+    <modeOfIssuanceId>
+      <xsl:if test="datafield[@tag='002@']">
         <xsl:variable name="mii" select="substring(datafield[@tag='002@']/subfield[@code='0'], 2, 1)"/>
         <xsl:variable name="noc" select="datafield[@tag='013D']/subfield[@code='9']"/>
         <xsl:choose>
@@ -236,8 +245,8 @@
           <xsl:when test="$mii='z'">nicht spezifiziert</xsl:when>
           <xsl:otherwise>einzelne Einheit</xsl:otherwise>
         </xsl:choose>
-      </modeOfIssuanceId>
-    </xsl:if>
+      </xsl:if>
+    </modeOfIssuanceId>
     
     <!-- Instance type ID (resource type) -->
     <instanceTypeId>
@@ -681,7 +690,7 @@
         <xsl:call-template name="parse-021x"/>
       </xsl:for-each>
     </xsl:variable>
-
+    
     <xsl:variable name="title-021M">
       <xsl:for-each select="datafield[(@tag='021M') and ((substring(./subfield[@code='U'],1,4) = 'Latn') or not(./subfield[@code='U']))]">
         <xsl:value-of select="' | '"/>
@@ -1189,10 +1198,10 @@
       </arr>
     </alternativeTitles>
     
-    <!-- Contributors -->
+    <!-- Send empty contributors array if neccessary -->
     <contributors>
-      <xsl:if test="datafield[@tag='028A' or @tag='028B' or @tag='028C' or @tag='028G' or @tag='029A' or @tag='029F']">
-        <arr>
+      <arr>
+        <xsl:if test="datafield[@tag='028A' or @tag='028B' or @tag='028C' or @tag='028G' or @tag='029A' or @tag='029F']">
           <xsl:for-each select="datafield[@tag='028A' or @tag='028B' or @tag='028C' or @tag='028G']">
             <xsl:if test="./subfield[@code='a' or @code='A' or @code='P' or @code='8']">
               <xsl:variable name="con-name">
@@ -1321,8 +1330,8 @@
               </xsl:if>
             </xsl:if>
           </xsl:for-each>
-        </arr>
-      </xsl:if>
+        </xsl:if>
+      </arr>
     </contributors>
     
     <!-- Publication -->
@@ -1349,8 +1358,9 @@
                 <xsl:if test="$pos != last()"> ; </xsl:if>
               </xsl:for-each>
             </publisher>
-            <xsl:if test="..//datafield[@tag='011@']">
-              <dateOfPublication>
+            <!-- Send empty Date of Publication if neccessary -->
+            <dateOfPublication>
+              <xsl:if test="..//datafield[@tag='011@']">
                 <xsl:variable name="date-a" select="../datafield[@tag='011@']/subfield[@code='a']"/>
                 <xsl:variable name="date-b" select="../datafield[@tag='011@']/subfield[@code='b']"/>
                 <xsl:variable name="date-c" select="../datafield[@tag='011@']/subfield[@code='c']"/>
@@ -1390,8 +1400,8 @@
                     <xsl:value-of select="$date-a"/>
                   </xsl:otherwise>
                 </xsl:choose>
-              </dateOfPublication>
-            </xsl:if>
+              </xsl:if>
+            </dateOfPublication>
             <role>
               <xsl:choose>
                 <xsl:when test="./@tag = '033C'">Manufacturer</xsl:when>
@@ -1403,9 +1413,9 @@
         </xsl:for-each>
       </arr>
     </publication>
-    <!-- Publication frequency -->
-    <xsl:if test="datafield[@tag='018@']">
-      <publicationFrequency>
+    <!-- Send empty Publication Frequency if neccessary -->
+    <publicationFrequency>
+      <xsl:if test="datafield[@tag='018@']">
         <arr>
           <xsl:for-each select="datafield[@tag='018@']">
             <i>
@@ -1431,8 +1441,8 @@
             </i>
           </xsl:for-each>
         </arr>
-      </publicationFrequency>
-    </xsl:if>
+      </xsl:if>
+    </publicationFrequency>
     <!-- Publication range -->
     <xsl:if test="datafield[@tag='031@']">
       <publicationRange>
@@ -1521,10 +1531,10 @@
         </xsl:for-each>
       </arr>
     </electronicAccess>
-    <!-- Notes -->
+    <!-- Send empty Notes if neccessary -->
     <!-- hebis: added tags: 013E, 017M, 017R, 032X, 032Y, 032Z, 035E, 037C, 039B, 039C, 039D, 039E, 046K, 046M, 046S, 046U, 047I, 048H -->
-    <xsl:if test="datafield[@tag='011B' or @tag='013E' or @tag='017M' or @tag='017R' or @tag='032X' or @tag='032Y' or @tag='032Z' or @tag='035E' or @tag='037A' or @tag='037C' or @tag='037I' or @tag='039B' or @tag='039C' or @tag='039D' or @tag='039E' or @tag='046P' or @tag='046L' or @tag='046K' or @tag='046M' or @tag='046S' or @tag='046U' or @tag='047I' or @tag='048H']">
-      <notes>
+    <notes>
+      <xsl:if test="datafield[@tag='011B' or @tag='013E' or @tag='017M' or @tag='017R' or @tag='032X' or @tag='032Y' or @tag='032Z' or @tag='035E' or @tag='037A' or @tag='037C' or @tag='037I' or @tag='039B' or @tag='039C' or @tag='039D' or @tag='039E' or @tag='046P' or @tag='046L' or @tag='046K' or @tag='046M' or @tag='046S' or @tag='046U' or @tag='047I' or @tag='048H']">
         <arr>
           <xsl:for-each select="datafield[@tag='011B' or @tag='013E' or @tag='017M' or @tag='017R' or @tag='032X' or @tag='032Y' or @tag='032Z' or @tag='035E' or @tag='037A' or @tag='037C' or @tag='037I' or @tag='039B' or @tag='039C' or @tag='039D' or @tag='039E' or @tag='046P' or @tag='046K' or @tag='046L' or @tag='046M' or @tag='046S' or @tag='046U' or @tag='047I' or @tag='048H']">
             <i>
@@ -1805,11 +1815,11 @@
             </i>
           </xsl:for-each>
         </arr>
-      </notes>
-    </xsl:if>
-    <!-- Nature of contents -->
-    <xsl:if test="datafield[@tag='013D']">
-      <natureOfContentTermIds>
+      </xsl:if>
+    </notes>
+    <!-- Send empty Nature of contents array if neccessary -->
+    <natureOfContentTermIds>
+      <xsl:if test="datafield[@tag='013D']">
         <arr>
           <xsl:for-each select="datafield[@tag='013D']">
             <i>
@@ -1985,11 +1995,12 @@
             </i>
           </xsl:for-each>
         </arr>
-      </natureOfContentTermIds>
-    </xsl:if>
-    <!-- languages -->
-    <xsl:if test="datafield[@tag='010@']/subfield[@code='a']">
-      <languages>
+      </xsl:if>
+    </natureOfContentTermIds>
+    
+    <!-- Send empty Languages array if neccessary -->
+    <languages>
+      <xsl:if test="datafield[@tag='010@']/subfield[@code='a']">
         <arr>
           <xsl:for-each select="datafield[@tag='010@']/subfield[@code='a']">
             <i>
@@ -1997,8 +2008,9 @@
             </i>
           </xsl:for-each>
         </arr>
-      </languages>
-    </xsl:if>
+      </xsl:if>
+    </languages>
+    
     <!-- series -->
     <series>
       <xsl:if test="datafield[@tag='036E']/subfield[@code='a']">
@@ -2076,11 +2088,11 @@
         </arr>
       </physicalDescriptions>
     </xsl:if>
-    <!-- Edition -->
-    <xsl:if test="datafield[@tag='032@']/subfield[@code='a']">
-      <xsl:variable name="eda" select="datafield[@tag='032@']/subfield[@code='a']"/>
-      <xsl:variable name="edh" select="datafield[@tag='032@']/subfield[@code='h']"/>
-      <editions>
+    <!-- Send empty Editions if neccessary -->
+    <editions>
+      <xsl:if test="datafield[@tag='032@']/subfield[@code='a']">
+        <xsl:variable name="eda" select="datafield[@tag='032@']/subfield[@code='a']"/>
+        <xsl:variable name="edh" select="datafield[@tag='032@']/subfield[@code='h']"/>
         <arr>
           <i>
             <xsl:choose>
@@ -2093,8 +2105,9 @@
             </xsl:choose>
           </i>
         </arr>
-      </editions>
-    </xsl:if>
+      </xsl:if>
+    </editions>
+    
     <!-- Administrative notes -->
     <administrativeNotes>
       <arr>
