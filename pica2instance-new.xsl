@@ -465,6 +465,7 @@
               <xsl:variable name="id-type">
                 <xsl:choose>
                   <xsl:when test="./@tag='003O'">OCLC</xsl:when>
+                  <xsl:when test="./@tag='003H'">PPN hebis</xsl:when>
                   <xsl:when test="./@tag='003S'">PPN SWB</xsl:when>
                   <xsl:when test="./@tag='003@'">PPN</xsl:when>
                   <xsl:when test="./@tag='004J'">ISBN der Sekundärausgabe</xsl:when>
@@ -477,6 +478,7 @@
                   <xsl:when test="./@tag='006T'">CIP-Nummer</xsl:when>
                   <xsl:when test="./@tag='006U'">WV-Nummer</xsl:when>
                   <xsl:when test="./@tag='006Z'">ZDB-Nummer</xsl:when>
+                  <xsl:when test="./@tag='006H'">hebis-PPN des umgelenkten Satzes</xsl:when>
                   <xsl:when test="./@tag='006S'">SWB-PPN des umgelenkten Satzes</xsl:when>
                   <xsl:when test="./@tag='006L'">Weitere Verbundidentnummern</xsl:when>
                   <xsl:when test="./@tag='006X'">Identnummern weiterer Fremddatenlieferanten</xsl:when>
