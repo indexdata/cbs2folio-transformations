@@ -9,7 +9,6 @@
                   <ifField>hrid</ifField>
                   <matchesPattern>it.*</matchesPattern>
                </blockDeletion>
-               <statisticalCoding/>
             </item>
             <holdingsRecord>
                <blockDeletion>
@@ -168,6 +167,9 @@
                <i>Bände</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Abv (Bibliografische Gattung)</i>
@@ -487,6 +489,9 @@
                <i>Online-Ressource</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Obv (Bibliografische Gattung)</i>
@@ -634,9 +639,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>lat</i>
@@ -852,6 +866,9 @@
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
          <natureOfContentTermIds>
             <arr>
                <i>0abeee3d-8ad2-4b04-92ff-221b4fce1075</i>
@@ -865,6 +882,9 @@
          <series>
             <arr/>
          </series>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Abv (Bibliografische Gattung)</i>
@@ -1053,6 +1073,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr>
                <i>
@@ -1097,6 +1120,9 @@
                <i>1 Online-Ressource (xvi, 738 Seiten) : Illustrationen, Diagramme</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Oau (Bibliografische Gattung)</i>
@@ -1277,6 +1303,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr>
                <i>
@@ -1305,6 +1334,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>eng</i>
@@ -1523,6 +1555,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr>
                <i>
@@ -1545,6 +1580,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>eng</i>
@@ -1562,6 +1600,9 @@
                <i>1 Online-Ressource (unpaged) : color illustrations</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Oax (Bibliografische Gattung)</i>
@@ -1753,6 +1794,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr>
                <i>
@@ -1779,6 +1823,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>eng</i>
@@ -1792,6 +1839,9 @@
                <i>1 Online-Ressource (xiv, 529 pages) : illustrations</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Oax (Bibliografische Gattung)</i>
@@ -2010,6 +2060,9 @@
                <i>Online-Ressource</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Obv (Bibliografische Gattung)</i>
@@ -2196,6 +2249,9 @@
          <series>
             <arr/>
          </series>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Abv (Bibliografische Gattung)</i>
@@ -2510,6 +2566,9 @@
                <i>Bände ; 30 cm</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Abv (Bibliografische Gattung)</i>
@@ -2686,6 +2745,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -2697,6 +2759,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -2710,6 +2775,9 @@
                <i>VIII, 429 S.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -2934,6 +3002,9 @@
                <i>30 cm</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Abv (Bibliografische Gattung)</i>
@@ -3445,6 +3516,9 @@
                <i>CD-ROMs</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Sbv (Bibliografische Gattung)</i>
@@ -3645,6 +3719,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr>
                <i>
@@ -3671,6 +3748,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>eng</i>
@@ -3684,6 +3764,9 @@
                <i>1 Online-Ressource</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Oay (Bibliografische Gattung)</i>
@@ -3913,6 +3996,9 @@
          <series>
             <arr/>
          </series>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Abv (Bibliografische Gattung)</i>
@@ -4145,6 +4231,9 @@
                <i>21 cm</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Abv (Bibliografische Gattung)</i>
@@ -4979,6 +5068,9 @@
          <series>
             <arr/>
          </series>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Abv (Bibliografische Gattung)</i>
@@ -5270,6 +5362,9 @@
          <series>
             <arr/>
          </series>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Abv (Bibliografische Gattung)</i>
@@ -5497,6 +5592,9 @@
                <i>30 cm</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Abv (Bibliografische Gattung)</i>
@@ -5735,6 +5833,9 @@
                <i>Online-Ressource</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Obv (Bibliografische Gattung)</i>
@@ -5906,6 +6007,9 @@
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
          <natureOfContentTermIds>
             <arr>
                <i>0abeee3d-8ad2-4b04-92ff-221b4fce1075</i>
@@ -5924,6 +6028,9 @@
                <i>15 x 22 cm</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Abv (Bibliografische Gattung)</i>
@@ -6118,6 +6225,9 @@
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
          <natureOfContentTermIds>
             <arr>
                <i>0abeee3d-8ad2-4b04-92ff-221b4fce1075</i>
@@ -6131,6 +6241,9 @@
          <series>
             <arr/>
          </series>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Abv (Bibliografische Gattung)</i>
@@ -6329,6 +6442,9 @@
          <series>
             <arr/>
          </series>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Abv (Bibliografische Gattung)</i>
@@ -6533,14 +6649,23 @@
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
          <natureOfContentTermIds>
             <arr>
                <i>0abeee3d-8ad2-4b04-92ff-221b4fce1075</i>
             </arr>
          </natureOfContentTermIds>
+         <languages>
+            <arr/>
+         </languages>
          <series>
             <arr/>
          </series>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Abv (Bibliografische Gattung)</i>
@@ -6755,6 +6880,9 @@
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
          <natureOfContentTermIds>
             <arr>
                <i>0abeee3d-8ad2-4b04-92ff-221b4fce1075</i>
@@ -6768,6 +6896,9 @@
          <series>
             <arr/>
          </series>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Abv (Bibliografische Gattung)</i>
@@ -6962,6 +7093,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -6973,6 +7107,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>eng</i>
@@ -7284,6 +7421,9 @@
          <series>
             <arr/>
          </series>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Abv (Bibliografische Gattung)</i>
@@ -7707,6 +7847,9 @@
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
          <natureOfContentTermIds>
             <arr>
                <i>0abeee3d-8ad2-4b04-92ff-221b4fce1075</i>
@@ -7720,6 +7863,9 @@
          <series>
             <arr/>
          </series>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Abv (Bibliografische Gattung)</i>
@@ -7958,6 +8104,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -7973,6 +8122,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -7990,6 +8142,9 @@
                <i>111 Seiten : Illustrationen</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -8158,14 +8313,23 @@
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
          <natureOfContentTermIds>
             <arr>
                <i>0abeee3d-8ad2-4b04-92ff-221b4fce1075</i>
             </arr>
          </natureOfContentTermIds>
+         <languages>
+            <arr/>
+         </languages>
          <series>
             <arr/>
          </series>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Abv (Bibliografische Gattung)</i>
@@ -8567,6 +8731,9 @@
                <i>30 cm</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Abv (Bibliografische Gattung)</i>
@@ -8809,6 +8976,9 @@
          <series>
             <arr/>
          </series>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Abv (Bibliografische Gattung)</i>
@@ -9187,6 +9357,9 @@
          <series>
             <arr/>
          </series>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Abv (Bibliografische Gattung)</i>
@@ -9416,6 +9589,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -9435,6 +9611,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ita</i>
@@ -9452,6 +9631,9 @@
                <i>3 CDs : DDD ; 12 cm + Beiheft (19 Seiten)</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Bau (Bibliografische Gattung)</i>
@@ -9650,6 +9832,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -9870,6 +10055,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr>
                <i>
@@ -9898,6 +10086,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>eng</i>
@@ -9911,6 +10102,9 @@
                <i>Online-Ressource</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Oax (Bibliografische Gattung)</i>
@@ -10102,6 +10296,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -10117,6 +10314,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -10338,9 +10538,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -10608,6 +10817,9 @@
          <series>
             <arr/>
          </series>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Abv (Bibliografische Gattung)</i>
@@ -10801,6 +11013,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -10812,6 +11027,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -10829,6 +11047,9 @@
                <i>301 Seiten ; 24 cm</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -11012,6 +11233,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr>
                <i>
@@ -11054,6 +11278,9 @@
                <i>Online-Ressource</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Oax (Bibliografische Gattung)</i>
@@ -11208,6 +11435,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -11241,6 +11471,9 @@
                <i>100 Blätter : Illustrationen, Diagramme</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -11455,6 +11688,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -11484,6 +11720,9 @@
                <i>201 Seiten</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -11683,6 +11922,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr>
                <i>
@@ -11730,6 +11972,9 @@
                <i>1 Online-Ressource (XI, 197 Seiten) : Illustrationen</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Oau (Bibliografische Gattung)</i>
@@ -11887,6 +12132,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -11902,6 +12150,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>und</i>
@@ -11915,6 +12166,9 @@
                <i>2 Schallplatten in Album : 33⅓ UpM, Stereo ; 30 cm</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Bau (Bibliografische Gattung)</i>
@@ -12103,9 +12357,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -12119,6 +12382,9 @@
                <i>XXIV, 554 Seiten : Illustrationen ; 24 cm x 17 cm</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -12328,6 +12594,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -12343,6 +12612,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -12601,6 +12873,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr>
                <i>
@@ -12627,6 +12902,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>eng</i>
@@ -12640,6 +12918,9 @@
                <i>1 Online-Ressource</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Oay (Bibliografische Gattung)</i>
@@ -12813,6 +13094,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr>
                <i>
@@ -12845,6 +13129,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -12862,6 +13149,9 @@
                <i>1 Online-Ressource (632 p.)</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Oay (Bibliografische Gattung)</i>
@@ -13067,6 +13357,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -13082,6 +13375,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -13099,6 +13395,9 @@
                <i>221 Seiten : Illustrationen, 1 Karte ; 24 cm x 17 cm</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -13364,6 +13663,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -13692,6 +13994,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -13703,6 +14008,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>eng</i>
@@ -13716,6 +14024,9 @@
                <i>239 Seiten ; 29 cm</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -13921,6 +14232,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr>
                <i>
@@ -13943,6 +14257,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>fre</i>
@@ -13960,6 +14277,9 @@
                <i>1 Online-Ressource (482 p.)</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Oax (Bibliografische Gattung)</i>
@@ -14150,6 +14470,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr>
                <i>
@@ -14180,6 +14503,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -14193,6 +14519,9 @@
                <i>Online-Ressource</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Oax (Bibliografische Gattung)</i>
@@ -14381,6 +14710,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -14396,6 +14728,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>eng</i>
@@ -14607,6 +14942,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -14618,6 +14956,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -14948,6 +15289,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -14959,6 +15303,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -14977,6 +15324,9 @@
                <i>340 Seiten : Illustrationen, Diagramme, Notenbeispiele ; 23 cm x 15 cm</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -15267,6 +15617,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -15311,6 +15664,9 @@
                <i>320 Seiten : Illustrationen ; 21 cm x 14.8 cm</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -15556,9 +15912,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -15572,6 +15937,9 @@
                <i>207 Seiten : mit 1 Abbildung ; 20.5 cm x 12.4 cm, 322 g</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -15755,6 +16123,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -15770,6 +16141,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -15787,6 +16161,9 @@
                <i>274 Seiten : Illustrationen</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -16041,6 +16418,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -16392,6 +16772,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -16403,6 +16786,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -16620,6 +17006,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -16661,6 +17050,9 @@
                <i>290 Seiten : Illustrationen ; 24 cm x 15.5 cm, 540 g</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -16846,6 +17238,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -16857,6 +17252,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>eng</i>
@@ -16874,6 +17272,9 @@
                <i>360 Seiten : Illustrationen, farbig ; 27 cm</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -17056,6 +17457,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -17101,6 +17505,9 @@
                <i>105 Seiten : Illustrationen ; 23 cm x 15 cm</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -17361,6 +17768,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -17618,6 +18028,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -17641,6 +18054,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>eng</i>
@@ -17658,6 +18074,9 @@
                <i>xi, 247 Seiten</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -17815,6 +18234,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -17830,6 +18252,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -18152,6 +18577,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -18171,6 +18599,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ara</i>
@@ -18372,6 +18803,9 @@
          <publication>
             <arr/>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -18383,6 +18817,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -18396,6 +18833,9 @@
                <i>VI, 651 Seiten, 64 ungezählte Seiten Bildtafeln : Illustrationen</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Afu (Bibliografische Gattung)</i>
@@ -18647,6 +19087,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -18684,6 +19127,9 @@
                <i>133 Seiten : Illustrationen ; 19 cm</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -18879,6 +19325,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -18916,6 +19365,9 @@
                <i>377 Seiten</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -19155,6 +19607,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -19170,6 +19625,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -19184,6 +19642,9 @@
                <i>465 Seiten : Illustrationen, Karten</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -19369,6 +19830,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -19388,6 +19852,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>lat</i>
@@ -19409,6 +19876,9 @@
                <i>1 Partitur (LXVII, 91 Seiten)</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>AFu (Bibliografische Gattung)</i>
@@ -19613,6 +20083,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -19624,6 +20097,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>eng</i>
@@ -19641,6 +20117,9 @@
                <i>xxiii, 285 Seiten</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -19807,9 +20286,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>eng</i>
@@ -19823,6 +20311,9 @@
                <i>243 Seiten</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -20029,6 +20520,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -20066,6 +20560,9 @@
                <i>983 Seiten ; 23 cm x 15.5 cm</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -20243,6 +20740,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -20254,6 +20754,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>eng</i>
@@ -20271,6 +20774,9 @@
                <i>[XII], 165 Seiten : Illustrationen, Karten, Diagramme</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -20525,6 +21031,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -20536,6 +21045,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -20549,6 +21061,9 @@
                <i>329 Seiten ; 25 cm</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Afu (Bibliografische Gattung)</i>
@@ -20893,6 +21408,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -21177,6 +21695,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -21188,6 +21709,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -21205,6 +21729,9 @@
                <i>XVII, 131 Seiten : Diagramme, Illustrationen ; 21 cm x 14.8 cm</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -21444,6 +21971,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -21478,6 +22008,9 @@
                <i>619 Seiten : Illustrationen ; 21 cm x 13.5 cm</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -21708,9 +22241,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -21724,6 +22266,9 @@
                <i>Spalte 161-320</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Afu (Bibliografische Gattung)</i>
@@ -21937,6 +22482,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -21948,6 +22496,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -21961,6 +22512,9 @@
                <i>1 Partitur (25 Seiten)</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aay (Bibliografische Gattung)</i>
@@ -22153,6 +22707,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -22164,6 +22721,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -22386,6 +22946,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -22419,6 +22982,9 @@
                <i>198 Seiten : Illustrationen</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -22615,9 +23181,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -22635,6 +23210,9 @@
                <i>591 Seiten</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>AFu (Bibliografische Gattung)</i>
@@ -22950,6 +23528,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -22983,6 +23564,9 @@
                <i>95 Seiten : zahlreiche Illustrationen, Karten ; 23 cm</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -23278,6 +23862,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -23315,6 +23902,9 @@
                <i>xiv, 326 Seiten ; 21 cm x 13.5 cm</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -23690,6 +24280,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -23723,6 +24316,9 @@
                <i>[VIII], 258 Seiten : Illustrationen</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -23912,6 +24508,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -23927,6 +24526,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -24335,6 +24937,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -24557,9 +25162,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -24577,6 +25191,9 @@
                <i>X, 505 Seiten : Illustrationen, Karten ; 30 cm + 11 Faltbeilagen</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -24773,6 +25390,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -24810,6 +25430,9 @@
                <i>1 DVD-Video (106 Minuten) : Farbe, Ton, Breitbild ; 12 cm, in Behältnis (19 x 13,5 x 2 cm)</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Say (Bibliografische Gattung)</i>
@@ -25014,6 +25637,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -25033,6 +25659,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -25050,6 +25679,9 @@
                <i>304 Seiten ; 23 cm</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -25243,9 +25875,15 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
          <natureOfContentTermIds>
             <arr>
                <i>b82b3a0d-00fa-4811-96da-04f531da8ea8</i>
@@ -25500,6 +26138,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -25511,6 +26152,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -25524,6 +26168,9 @@
                <i>21 cm x 13.7 cm, 1762 g</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Acu (Bibliografische Gattung)</i>
@@ -25759,6 +26406,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -25986,6 +26636,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -26307,6 +26960,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -26342,6 +26998,9 @@
                <i>382 Seiten : Illustrationen, 1 Plan ; 24 cm x 17 cm</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -26657,9 +27316,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -26915,6 +27583,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -26926,6 +27597,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>eng</i>
@@ -26943,6 +27617,9 @@
                <i>VI Seiten, Seite 367-684 : Illustrationen</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Afu (Bibliografische Gattung)</i>
@@ -27202,6 +27879,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -27213,6 +27893,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -27622,9 +28305,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -27638,6 +28330,9 @@
                <i>1 DVD-ROM ; 87 g + 1 Kurzanleitung (4 ungezählte Seiten)</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Sfu (Bibliografische Gattung)</i>
@@ -27854,6 +28549,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -27865,6 +28563,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -27878,6 +28579,9 @@
                <i>Seite 550-1338 : Illustrationen, Diagramme, Plan</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Afu (Bibliografische Gattung)</i>
@@ -28179,9 +28883,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -28195,6 +28908,9 @@
                <i>319 Seiten : Illustrationen</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -28419,6 +29135,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -28434,6 +29153,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>eng</i>
@@ -28701,6 +29423,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -28734,6 +29459,9 @@
                <i>447 Seiten : Illustrationen</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -29193,6 +29921,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -29204,6 +29935,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -29221,6 +29955,9 @@
                <i>XV, 648 Seiten : Illustrationen ; 24 cm</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>AFu (Bibliografische Gattung)</i>
@@ -29530,6 +30267,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -29549,6 +30289,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -29566,6 +30309,9 @@
                <i>210 Seiten ; 22.5 cm x 14.8 cm, 339 g</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -29808,6 +30554,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -30131,6 +30880,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -30168,6 +30920,9 @@
                <i>208 Seiten : Diagramme ; 23.5 cm x 16.2 cm, 340 g</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -30341,6 +31096,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -30374,6 +31132,9 @@
                <i>VI, 97 Blätter : Illustrationen, Diagramme</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -30599,6 +31360,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -30636,6 +31400,9 @@
                <i>550 Seiten, 16 ungezählte Blatt Tafeln : Illustrationen</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -30815,9 +31582,15 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
          <natureOfContentTermIds>
             <arr>
                <i/>
@@ -31047,9 +31820,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -31489,6 +32271,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -31500,6 +32285,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -31513,6 +32301,9 @@
                <i>VIII, 223 S.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -31698,6 +32489,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -31713,6 +32507,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>eng</i>
@@ -31730,6 +32527,9 @@
                <i>137 Seiten</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -31916,9 +32716,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -31932,6 +32741,9 @@
                <i>231 Seiten : Illustrationen + 2 Audio-CDs</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Afu (Bibliografische Gattung)</i>
@@ -32141,9 +32953,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -32510,6 +33331,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -32525,6 +33349,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>eng</i>
@@ -32547,6 +33374,9 @@
                <i>1 Partitur (XLVIII, 460 Seiten)</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>AFu (Bibliografische Gattung)</i>
@@ -32833,6 +33663,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -32870,6 +33703,9 @@
                <i>1 DVD-Video (105 min.) : farbig, Ton, Breitbild (16:9) ; 12 cm, in Behältnis (19 x 13,5 x 2 cm)</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Sau (Bibliografische Gattung)</i>
@@ -33064,9 +33900,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>eng</i>
@@ -33087,6 +33932,9 @@
                <i>xxix, 376 Seiten</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -33263,6 +34111,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -33278,6 +34129,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>eng</i>
@@ -33295,6 +34149,9 @@
                <i>xxxi, 399 Seiten : Illustrationen, Karten</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -33614,9 +34471,15 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
          <natureOfContentTermIds>
             <arr>
                <i/>
@@ -34047,6 +34910,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -34088,6 +34954,9 @@
                <i>1 DVD-Video (85 min) : Regionalcode 2, PAL</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Sau (Bibliografische Gattung)</i>
@@ -34285,9 +35154,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -34489,9 +35367,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -34775,6 +35662,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -34786,6 +35676,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>eng</i>
@@ -35014,6 +35907,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -35033,6 +35929,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -35046,6 +35945,9 @@
                <i>XXVI, 374 Seiten : Illustrationen</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -35228,6 +36130,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -35243,6 +36148,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>zxx</i>
@@ -35256,6 +36164,9 @@
                <i>XX, 202 Seiten : Illustrationen, Faksimiles</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Afu (Bibliografische Gattung)</i>
@@ -35474,6 +36385,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -35489,6 +36403,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -35788,6 +36705,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -35799,6 +36719,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>eng</i>
@@ -35812,6 +36735,9 @@
                <i>103 Seiten : Illustrationen + 1 CD</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Afu (Bibliografische Gattung)</i>
@@ -36026,6 +36952,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -36059,6 +36988,9 @@
                <i>193 Seiten ; 21 cm x 14.8 cm</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -36233,9 +37165,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>zxx</i>
@@ -36249,6 +37190,9 @@
                <i>1 CD (52:34) : digital, Stereo ; 12 cm + 1 Booklet</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Bau (Bibliografische Gattung)</i>
@@ -36433,6 +37377,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -36444,6 +37391,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>eng</i>
@@ -36457,6 +37407,9 @@
                <i>103 Seiten : Illustrationen + 1 CD</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Afu (Bibliografische Gattung)</i>
@@ -36639,6 +37592,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -36650,6 +37606,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>eng</i>
@@ -36658,6 +37617,9 @@
          <series>
             <arr/>
          </series>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Acu (Bibliografische Gattung)</i>
@@ -36821,9 +37783,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>fre</i>
@@ -36837,6 +37808,9 @@
                <i>156 Seiten ; 21 cm</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -37011,6 +37985,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -37022,6 +37999,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -37040,6 +38020,9 @@
                <i>185 Seiten : Illustrationen</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aar (Bibliografische Gattung)</i>
@@ -37213,9 +38196,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -37726,6 +38718,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -37737,6 +38732,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -37754,6 +38752,9 @@
                <i>332 S. ; 15 cm</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -38010,9 +39011,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -38027,6 +39037,9 @@
                <i>LIX, 648 S.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Afu (Bibliografische Gattung)</i>
@@ -38400,9 +39413,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -39587,6 +40609,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -39606,6 +40631,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>lat</i>
@@ -39627,6 +40655,9 @@
                <i>LXVII, 71 Seiten</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>AFu (Bibliografische Gattung)</i>
@@ -39836,6 +40867,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -39847,6 +40881,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>fre</i>
@@ -39866,6 +40903,9 @@
                <i>226 Seiten : Illustrationen ; 25 cm</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -40128,9 +41168,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -40426,9 +41475,15 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
          <natureOfContentTermIds>
             <arr>
                <i/>
@@ -40452,6 +41507,9 @@
                <i>410 Seiten : Illustrationen ; 24 cm, 693 g</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -40664,6 +41722,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -40896,6 +41957,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -40911,6 +41975,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -40928,6 +41995,9 @@
                <i>120 S. : Ill. + 1 Beil.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -41330,6 +42400,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -41341,6 +42414,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>zxx</i>
@@ -41625,9 +42701,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -42060,6 +43145,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -42071,6 +43159,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -42088,6 +43179,9 @@
                <i>352 S. : graph. Darst.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -42436,6 +43530,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -42463,6 +43560,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>spa</i>
@@ -42476,6 +43576,9 @@
                <i>1 DVD-Video (NTSC, Widescreen anamórfico (2:35:1), Regionalcode 4, 94 Minuten) : farbig, Dolby Digital 5.1 ; 12 cm</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Sau (Bibliografische Gattung)</i>
@@ -42666,6 +43769,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -42685,6 +43791,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>eng</i>
@@ -42902,9 +44011,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -43408,6 +44526,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -43419,6 +44540,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -43670,9 +44794,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -43690,6 +44823,9 @@
                <i>560 S., [8] Bl., [2] gef. Bl. : Ill., Kt.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Afu (Bibliografische Gattung)</i>
@@ -43896,9 +45032,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -44128,6 +45273,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -44139,6 +45287,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>eng</i>
@@ -44156,6 +45307,9 @@
                <i>xiv, [495]-697 p. : Ill., ports.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -44351,6 +45505,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -44362,6 +45519,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -44375,6 +45535,9 @@
                <i>176 S. : Ill. ; 21 cm</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -44611,6 +45774,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -44622,6 +45788,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -44924,9 +46093,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>lav</i>
@@ -44940,6 +46118,9 @@
                <i>399 S. : Ill., Kt. + 1 CD-Beil.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -45193,6 +46374,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -45204,6 +46388,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -45224,6 +46411,9 @@
                <i>3 DVD-Videos (DVD 9, Bildformat 1,33:1, 4:3 Vollbild, Ländercode 2, 204 Min., 197 Min.) : s/w., mono Dolby digital ; 12 cm + 1 Beih. (14 S.)</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Sau (Bibliografische Gattung)</i>
@@ -45414,6 +46604,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -45425,6 +46618,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>zxx</i>
@@ -45662,6 +46858,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -45673,6 +46872,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -45686,6 +46888,9 @@
                <i>654 S. : Ill. ; 19 cm</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -45880,6 +47085,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -45895,6 +47103,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>mul</i>
@@ -45908,6 +47119,9 @@
                <i>CD-ROM ; 12 cm, in Behältnis 19 x 14 x 1 cm</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Sau (Bibliografische Gattung)</i>
@@ -46102,6 +47316,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -46113,6 +47330,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -46376,9 +47596,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -46396,6 +47625,9 @@
                <i>1 CD (77 Min.) : DDD, stereo ; 12 cm</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Bfu (Bibliografische Gattung)</i>
@@ -46596,9 +47828,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -46616,6 +47857,9 @@
                <i>1 CD-ROM ; 12 cm</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Sau (Bibliografische Gattung)</i>
@@ -46812,6 +48056,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr>
                <i>
@@ -46834,6 +48081,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>eng</i>
@@ -46851,6 +48101,9 @@
                <i>1 Online-Ressource (xvii, 239 pages)</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Oax (Bibliografische Gattung)</i>
@@ -47011,9 +48264,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -47027,6 +48289,9 @@
                <i>1 CD ; 12 cm</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Bfu (Bibliografische Gattung)</i>
@@ -47375,9 +48640,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>eng</i>
@@ -47395,6 +48669,9 @@
                <i>IX, 231 S.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -47746,6 +49023,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -47757,6 +49037,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>por</i>
@@ -47774,6 +49057,9 @@
                <i>1 DVD-Video (Format 4:3 PAL, 80 Min.) : s/w, Dolby digital 1.0 ; 12 cm + Begleith. (15 S. : Ill.)</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Sau (Bibliografische Gattung)</i>
@@ -47963,9 +49249,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -47983,6 +49278,9 @@
                <i>71 S. : Ill., graph. Darst., Kt.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -48223,9 +49521,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -48239,6 +49546,9 @@
                <i>XIII, 258 S. : Ill., graph. Darst</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -48429,6 +49739,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -48440,6 +49753,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -48689,6 +50005,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -48700,6 +50019,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>dut</i>
@@ -48713,6 +50035,9 @@
                <i>407 S. : Ill., Kt.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -48888,6 +50213,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -48899,6 +50227,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -49159,9 +50490,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -49175,6 +50515,9 @@
                <i>309 S. : Ill.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Afu (Bibliografische Gattung)</i>
@@ -49484,6 +50827,9 @@
          <series>
             <arr/>
          </series>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Adx (Bibliografische Gattung)</i>
@@ -49670,6 +51016,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -49681,6 +51030,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -49694,6 +51046,9 @@
                <i>1 DVD-Video (DVD-Typ 9, Bildformat 1,78:1, PAL, Regionalcode 2, 129 Min.) : farb., mit Ton, Dolby digital surround , Dolby digital stereo</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Say (Bibliografische Gattung)</i>
@@ -49892,6 +51247,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -49903,6 +51261,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>eng</i>
@@ -49920,6 +51281,9 @@
                <i>X, 389 S. : Karten</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -50112,9 +51476,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -50977,9 +52350,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -50993,6 +52375,9 @@
                <i>XV, 671 S. : Ill., graph. Darst. + 1 Beil. (Lemmata)</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Afu (Bibliografische Gattung)</i>
@@ -51643,9 +53028,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>eng</i>
@@ -51659,6 +53053,9 @@
                <i>XLI, 1404 S. : zahlr. Ill.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Afu (Bibliografische Gattung)</i>
@@ -51880,9 +53277,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>eng</i>
@@ -51903,6 +53309,9 @@
                <i>Getr. Zählung : Ill., graph. Darst.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -52166,6 +53575,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -52177,6 +53589,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>fre</i>
@@ -52194,6 +53609,9 @@
                <i>286 S.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -52373,6 +53791,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -52384,6 +53805,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>eng</i>
@@ -52401,6 +53825,9 @@
                <i>XIII, 266 S. : Ill., Tab., graph. Darst.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -52563,9 +53990,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -52579,6 +54015,9 @@
                <i>X, 193 S.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aar (Bibliografische Gattung)</i>
@@ -52902,6 +54341,9 @@
                <i>30 cm</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Abv (Bibliografische Gattung)</i>
@@ -53292,9 +54734,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>eng</i>
@@ -53308,6 +54759,9 @@
                <i>[320] S. : nur Ill.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -53484,9 +54938,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -53500,6 +54963,9 @@
                <i>XV, 810 S.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Afu (Bibliografische Gattung)</i>
@@ -54141,6 +55607,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -54152,6 +55621,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>fre</i>
@@ -54165,6 +55637,9 @@
                <i>248 S. : zahlr. Ill.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -54336,9 +55811,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>pol</i>
@@ -54356,6 +55840,9 @@
                <i>293 S. : Ill. + 2 CD-ROMs</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -54607,9 +56094,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>gre</i>
@@ -54623,6 +56119,9 @@
                <i>1 Audio-CD : 12 cm</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Bfu (Bibliografische Gattung)</i>
@@ -54886,6 +56385,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -54897,6 +56399,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -54914,6 +56419,9 @@
                <i>11 Kt.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Afu (Bibliografische Gattung)</i>
@@ -55255,9 +56763,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -55275,6 +56792,9 @@
                <i>99 S. : Kt.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>AFu (Bibliografische Gattung)</i>
@@ -55482,9 +57002,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -55498,6 +57027,9 @@
                <i>XV, 868 S. : Notenbeisp.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Afu (Bibliografische Gattung)</i>
@@ -56385,6 +57917,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -56400,6 +57935,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -56421,6 +57959,9 @@
                <i>478 S. : Ill., graph. Darst. ; 21 cm + 1 CD-ROM (12 cm)</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -56613,9 +58154,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -56633,6 +58183,9 @@
                <i>824 S. : graph. Darst., Kt.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -56912,6 +58465,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -56945,6 +58501,9 @@
                <i>374 S. : Kt.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -57167,9 +58726,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -57183,6 +58751,9 @@
                <i>XVI, 900 S. : Ill.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Afu (Bibliografische Gattung)</i>
@@ -57832,9 +59403,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -57848,6 +59428,9 @@
                <i>235 Seiten : Illustrationen</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Afu (Bibliografische Gattung)</i>
@@ -58165,9 +59748,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -58181,6 +59773,9 @@
                <i>XV, 884 S.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Afu (Bibliografische Gattung)</i>
@@ -58835,9 +60430,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -58851,6 +60455,9 @@
                <i>165 S. : graph. Darst. ; 21 cm</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -59073,9 +60680,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -59089,6 +60705,9 @@
                <i>XIV, 882 S. : graph. Darst.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Afu (Bibliografische Gattung)</i>
@@ -59734,9 +61353,15 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
          <natureOfContentTermIds>
             <arr>
                <i>b82b3a0d-00fa-4811-96da-04f531da8ea8</i>
@@ -59755,6 +61380,9 @@
                <i>466 Seiten : Illustrationen</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Afu (Bibliografische Gattung)</i>
@@ -60064,9 +61692,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -60276,9 +61913,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>fre</i>
@@ -60292,6 +61938,9 @@
                <i>111 S. : Ill. + 13 Taf.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -60480,9 +62129,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -60503,6 +62161,9 @@
                <i>239 S. : Ill., graph. Darst. ; 19 cm</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -60794,9 +62455,15 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
          <natureOfContentTermIds>
             <arr>
                <i>b82b3a0d-00fa-4811-96da-04f531da8ea8</i>
@@ -60817,6 +62484,9 @@
                </i>
             </arr>
          </series>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Acu (Bibliografische Gattung)</i>
@@ -60998,6 +62668,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -61009,6 +62682,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -61026,6 +62702,9 @@
                <i>XIV, 408 S.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -61665,9 +63344,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>eng</i>
@@ -61681,6 +63369,9 @@
                <i>XII, 234 S. : Ill.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -61914,6 +63605,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -61925,6 +63619,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -61938,6 +63635,9 @@
                <i>CXXXII S. : überw. Ill. ; 30 x 35 cm</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -62192,9 +63892,15 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
          <natureOfContentTermIds>
             <arr>
                <i>f5908d05-b16a-49cf-b192-96d55a94a0d1</i>
@@ -62213,6 +63919,9 @@
                <i>XC, 638 S.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Afu (Bibliografische Gattung)</i>
@@ -62458,9 +64167,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -62710,9 +64428,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>eng</i>
@@ -62726,6 +64453,9 @@
                <i>XVII, 521 S. : Ill.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Afu (Bibliografische Gattung)</i>
@@ -62986,9 +64716,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -63002,6 +64741,9 @@
                <i>128 S. : zahlr. Ill.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -63210,9 +64952,15 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
          <natureOfContentTermIds>
             <arr>
                <i>f5908d05-b16a-49cf-b192-96d55a94a0d1</i>
@@ -63231,6 +64979,9 @@
                <i>XLVII S., S. 639 - 1450 : Kt. + Kt.-Beil.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Afu (Bibliografische Gattung)</i>
@@ -63464,9 +65215,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>eng</i>
@@ -63480,6 +65240,9 @@
                <i>Getr. Zählung</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -63692,9 +65455,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>eng</i>
@@ -63708,6 +65480,9 @@
                <i>572 S. : Ill.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Afu (Bibliografische Gattung)</i>
@@ -63951,9 +65726,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>eng</i>
@@ -63967,6 +65751,9 @@
                <i>555 S. : Ill.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Afu (Bibliografische Gattung)</i>
@@ -64210,9 +65997,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>eng</i>
@@ -64226,6 +66022,9 @@
                <i>536 S. : Ill.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Afu (Bibliografische Gattung)</i>
@@ -64470,6 +66269,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -64481,6 +66283,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -64501,6 +66306,9 @@
                <i>45 S. : Ill., graph. Darst.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -64666,9 +66474,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -64686,6 +66503,9 @@
                <i>92 S.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aar (Bibliografische Gattung)</i>
@@ -64903,9 +66723,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -65157,9 +66986,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>mul</i>
@@ -65178,6 +67016,9 @@
                <i>&lt;12&gt; microfiches : positive</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Ear (Bibliografische Gattung)</i>
@@ -65350,9 +67191,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -65366,6 +67216,9 @@
                <i>40 S. : nur Ill.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Afr (Bibliografische Gattung)</i>
@@ -65573,9 +67426,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -65589,6 +67451,9 @@
                <i>575 S. : überw. Ill. ; 32 cm</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -65867,6 +67732,9 @@
          <series>
             <arr/>
          </series>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Adx (Bibliografische Gattung)</i>
@@ -66044,9 +67912,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>por</i>
@@ -66064,6 +67941,9 @@
                <i>344 S. : Ill.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aar (Bibliografische Gattung)</i>
@@ -66231,6 +68111,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -66242,6 +68125,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>pol</i>
@@ -66255,6 +68141,9 @@
                <i>[16 Bl.] + Beil. (13 S.)</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aar (Bibliografische Gattung)</i>
@@ -66431,9 +68320,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -66816,9 +68714,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -66832,6 +68739,9 @@
                <i>80 S.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aax (Bibliografische Gattung)</i>
@@ -66989,9 +68899,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -67005,6 +68924,9 @@
                <i>108 S.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Afr (Bibliografische Gattung)</i>
@@ -67188,9 +69110,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -67204,6 +69135,9 @@
                <i>71 S. : Ill.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Afu (Bibliografische Gattung)</i>
@@ -67467,9 +69401,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -67483,6 +69426,9 @@
                <i>202 S. : Ill. + XIV S. Beil. / [mit einem Nachw. von Renate Müller-Krumbach]</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -67661,9 +69607,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -67934,9 +69889,18 @@
          <publication>
             <arr/>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>eng</i>
@@ -67954,6 +69918,9 @@
                <i>222 S. : Kt.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aar (Bibliografische Gattung)</i>
@@ -68167,9 +70134,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ita</i>
@@ -68187,6 +70163,9 @@
                <i>178 S.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -68364,9 +70343,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>eng</i>
@@ -68381,6 +70369,9 @@
                <i>LXXXIII, 260 S. : Ill.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Afr (Bibliografische Gattung)</i>
@@ -68635,9 +70626,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -68655,6 +70655,9 @@
                <i>88 S.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aar (Bibliografische Gattung)</i>
@@ -68822,9 +70825,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>eng</i>
@@ -68839,6 +70851,9 @@
                <i>XII, 274 S. : Ill.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Afr (Bibliografische Gattung)</i>
@@ -69093,9 +71108,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>eng</i>
@@ -69110,6 +71134,9 @@
                <i>LVIII,234 : Ill.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Afr (Bibliografische Gattung)</i>
@@ -69364,9 +71391,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>fre</i>
@@ -69385,6 +71421,9 @@
                <i>203 S.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Afu (Bibliografische Gattung)</i>
@@ -69658,9 +71697,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -69674,6 +71722,9 @@
                <i>110 Seiten</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -69887,9 +71938,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>eng</i>
@@ -69904,6 +71964,9 @@
                <i>LXVIII, 174 S.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Afr (Bibliografische Gattung)</i>
@@ -70158,9 +72221,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -70174,6 +72246,9 @@
                <i>26 S. : Ill.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aar (Bibliografische Gattung)</i>
@@ -70519,9 +72594,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>eng</i>
@@ -70536,6 +72620,9 @@
                <i>LXIV, 230 S.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Afr (Bibliografische Gattung)</i>
@@ -70820,9 +72907,15 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
          <natureOfContentTermIds>
             <arr>
                <i/>
@@ -70841,6 +72934,9 @@
                <i>23 Seiten : Illustrationen</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aar (Bibliografische Gattung)</i>
@@ -71013,9 +73109,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -71029,6 +73134,9 @@
                <i>139 S.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aar (Bibliografische Gattung)</i>
@@ -71195,9 +73303,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -71211,6 +73328,9 @@
                <i>XI, 321 S.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aar (Bibliografische Gattung)</i>
@@ -71368,9 +73488,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -71569,6 +73698,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -71580,6 +73712,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -71593,6 +73728,9 @@
                <i>108 S. : Ill.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -71852,6 +73990,9 @@
                <i> + DVDs als Beil.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Adx (Bibliografische Gattung)</i>
@@ -72019,9 +74160,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>lat</i>
@@ -72030,6 +74180,9 @@
          <series>
             <arr/>
          </series>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Afy (Bibliografische Gattung)</i>
@@ -72259,6 +74412,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -72270,6 +74426,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -72283,6 +74442,9 @@
                <i>XVI, 696 S.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -72450,9 +74612,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -72633,9 +74804,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>eng</i>
@@ -72649,6 +74829,9 @@
                <i>266 S.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -72830,9 +75013,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -73028,9 +75220,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -73216,6 +75417,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -73227,6 +75431,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>rus</i>
@@ -73240,6 +75447,9 @@
                <i>224 S.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aar (Bibliografische Gattung)</i>
@@ -73417,9 +75627,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -73615,6 +75834,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -73634,6 +75856,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -73647,6 +75872,9 @@
                <i>4 ungezählte Seiten, 500 Seiten, das heißt 516 Seiten ; 8°</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aav (Bibliografische Gattung)</i>
@@ -73829,9 +76057,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>eng</i>
@@ -74017,6 +76254,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -74028,6 +76268,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -74041,6 +76284,9 @@
                <i>VIII, 340 S.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Afy (Bibliografische Gattung)</i>
@@ -74224,9 +76470,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -74241,6 +76496,9 @@
                <i>800 S.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Afr (Bibliografische Gattung)</i>
@@ -74424,9 +76682,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -74440,6 +76707,9 @@
                <i>VIII, 406 S.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -74663,9 +76933,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -74680,6 +76959,9 @@
                <i>970 S.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Afy (Bibliografische Gattung)</i>
@@ -74872,9 +77154,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -74892,6 +77183,9 @@
                <i>67 S. : Ill.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -75059,9 +77353,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -75075,6 +77378,9 @@
                <i>VIII, 343 S.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -75238,13 +77544,23 @@
                <i>
                   <place>Middleton, Wisc. {[u.a.]</place>
                   <publisher>American Institute of Musicology</publisher>
+                  <dateOfPublication/>
                   <role>Publisher</role>
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>eng</i>
@@ -75258,6 +77574,9 @@
                </i>
             </arr>
          </series>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Acy (Bibliografische Gattung)</i>
@@ -75442,6 +77761,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr>
                <i>
@@ -75486,6 +77808,9 @@
                <i>1 Online-Ressource (xiii, 336 Seiten)</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Oay (Bibliografische Gattung)</i>
@@ -75658,6 +77983,9 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -75669,6 +77997,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -75682,6 +78013,9 @@
                <i>[4] Bl., 1024 S., [50] Bl.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aau (Bibliografische Gattung)</i>
@@ -75959,13 +78293,23 @@
                <i>
                   <place>New York {[u.a.]</place>
                   <publisher>Oxford Univ. Press</publisher>
+                  <dateOfPublication/>
                   <role>Publisher</role>
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>eng</i>
@@ -75974,6 +78318,9 @@
          <series>
             <arr/>
          </series>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Acu (Bibliografische Gattung)</i>
@@ -76127,13 +78474,23 @@
                <i>
                   <place>Bologna</place>
                   <publisher>Forni</publisher>
+                  <dateOfPublication/>
                   <role>Publisher</role>
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>eng</i>
@@ -76308,13 +78665,23 @@
                <i>
                   <place>Hildesheim {[u.a.]</place>
                   <publisher>Olms</publisher>
+                  <dateOfPublication/>
                   <role>Publisher</role>
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>fre</i>
@@ -76328,6 +78695,9 @@
                </i>
             </arr>
          </series>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Acu (Bibliografische Gattung)</i>
@@ -76498,9 +78868,18 @@
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>lat</i>
@@ -76514,6 +78893,9 @@
                <i>[4] Bl., 38 S.</i>
             </arr>
          </physicalDescriptions>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aar (Bibliografische Gattung)</i>
@@ -76769,13 +79151,23 @@
                <i>
                   <place>Stuttgart {[u.a.]</place>
                   <publisher>Metzler</publisher>
+                  <dateOfPublication/>
                   <role>Publisher</role>
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -76784,6 +79176,9 @@
          <series>
             <arr/>
          </series>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Acu (Bibliografische Gattung)</i>
@@ -76940,13 +79335,23 @@
                <i>
                   <place>München</place>
                   <publisher>Oldenbourg</publisher>
+                  <dateOfPublication/>
                   <role>Publisher</role>
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -76959,6 +79364,9 @@
                </i>
             </arr>
          </series>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Acu (Bibliografische Gattung)</i>
@@ -77124,13 +79532,23 @@
                <i>
                   <place>Wiedeń</place>
                   <publisher>Perles</publisher>
+                  <dateOfPublication/>
                   <role>Publisher</role>
                </i>
             </arr>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
+         <notes>
+            <arr/>
+         </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>ger</i>
@@ -77140,6 +79558,9 @@
          <series>
             <arr/>
          </series>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Acy (Bibliografische Gattung)</i>
@@ -77290,6 +79711,9 @@
          <publication>
             <arr/>
          </publication>
+         <publicationFrequency>
+            <arr/>
+         </publicationFrequency>
          <electronicAccess>
             <arr/>
          </electronicAccess>
@@ -77301,6 +79725,9 @@
                </i>
             </arr>
          </notes>
+         <natureOfContentTermIds>
+            <arr/>
+         </natureOfContentTermIds>
          <languages>
             <arr>
                <i>eng</i>
@@ -77309,6 +79736,9 @@
          <series>
             <arr/>
          </series>
+         <editions>
+            <arr/>
+         </editions>
          <administrativeNotes>
             <arr>
                <i>Aou (Bibliografische Gattung)</i>
