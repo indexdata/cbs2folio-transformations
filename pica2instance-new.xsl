@@ -1413,6 +1413,35 @@
         </xsl:for-each>
       </arr>
     </publication>
+    
+    <!-- Dates -->
+    <dates>
+      <xsl:if test="datafield[@tag='011@']">
+        <xsl:variable name="start" select="datafield[@tag='011@']/subfield[@code='a']"/>
+        <xsl:variable name="end" select="datafield[@tag='011@']/subfield[@code='b']"/>
+        <xsl:variable name="status" select="substring(datafield[@tag='002@']/subfield[@code='0'], 2, 1)"/>
+        <xsl:variable name="has-end" select="boolean(datafield[@tag='011@']/subfield[@code='b'])"/>
+        <xsl:variable name="dateTypeId">
+          <xsl:choose>
+            <xsl:when test="($status='b' or $status='d') and not($has-end)">c</xsl:when>
+            <xsl:when test="($status='b' or $status='d') and $has-end">d</xsl:when>
+            <xsl:when test="$status='c'">m</xsl:when>
+            <xsl:when test="not($status='b' or $status='d') and $has-end">m</xsl:when>
+            <xsl:otherwise>s</xsl:otherwise>
+          </xsl:choose>
+        </xsl:variable>
+        <date1>
+          <xsl:value-of select="$start"/>
+        </date1>
+        <date2>
+          <xsl:value-of select="$end"/>
+        </date2>
+        <dateTypeId>
+          <xsl:value-of select="$dateTypeId"/>
+        </dateTypeId>
+      </xsl:if>
+    </dates>
+
     <!-- Send empty Publication Frequency if neccessary -->
     <publicationFrequency>
       <arr>
