@@ -370,6 +370,19 @@
           <xsl:value-of select="$bcode"/>
         </barcode>
       </xsl:if>
+      <!-- Temporarily added until error in MODINVSTOR-1368 is corrected -->
+      <itemLevelCallNumberPrefix>
+        <xsl:value-of select="datafield[@tag='209A']/subfield[@code='f']"/>
+      </itemLevelCallNumberPrefix>
+      <!-- Temporarily added until error in MODINVSTOR-1368 is corrected -->
+      <itemLevelCallNumber>
+        <xsl:value-of select="datafield[@tag='209A']/subfield[@code='a']"/>
+      </itemLevelCallNumber>
+      <!-- Temporarily added until error in MODINVSTOR-1368 is corrected -->
+      <xsl:variable name="lcode" select="datafield[@tag='209A']/subfield[@code='f']"/>
+      <permanentLocationId>
+        <xsl:value-of select="$lcode"/>
+      </permanentLocationId>
       <copyNumber>
         <xsl:value-of select="$copy"/>
       </copyNumber>
