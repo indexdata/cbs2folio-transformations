@@ -68,6 +68,11 @@
       <sourceId>K10plus</sourceId>
       <administrativeNotes>
         <arr>
+          <xsl:for-each select="datafield[@tag='201A']">
+            <i>
+              <xsl:value-of select="concat(./subfield[@code='0'], ' (7902: Datum der Ersterfassung)')"/>
+            </i>
+          </xsl:for-each>
           <xsl:for-each select="datafield[@tag='201B']">
             <i>
               <xsl:value-of select="concat(./subfield[@code='0'], ', ', substring(./subfield[@code='t'],1,5), ' (7903: Datum und Uhrzeit der letzten Änderung)')"/>
