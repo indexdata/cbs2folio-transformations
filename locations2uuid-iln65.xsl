@@ -20,24 +20,27 @@
                 <!-- Fernleihe -->
                 <xsl:when test="$lower='fl'">f39316ae-8752-4fe4-adc6-593c1c38ddc7</xsl:when>
                 <!-- ZB Handapparate -->
-                <xsl:when test="matches($lower, '^M[1-3]-HA')">4fe61527-1a06-4850-b1bb-66b18ce77618</xsl:when>
+                <!-- <xsl:when test="matches($lower, '^M[1-3]-HA')">4fe61527-1a06-4850-b1bb-66b18ce77618</xsl:when> -->
+                <xsl:when test="$lower='m1-ha'">4fe61527-1a06-4850-b1bb-66b18ce77618</xsl:when>
+                <xsl:when test="$lower='m2-ha'">4fe61527-1a06-4850-b1bb-66b18ce77618</xsl:when>
+                <xsl:when test="$lower='m3-ha'">4fe61527-1a06-4850-b1bb-66b18ce77618</xsl:when>
                 <!-- ZB Magazin -->
                 <xsl:when test="starts-with($lower,'m')">c6c12585-e4df-4d6e-984a-1fd43232c8d5</xsl:when>
                 <xsl:when test="$lower='vel-l'">c6c12585-e4df-4d6e-984a-1fd43232c8d5</xsl:when>
-                <xsl:when test="$lower,'ermlitz'">c6c12585-e4df-4d6e-984a-1fd43232c8d5</xsl:when>
+                <xsl:when test="$lower='ermlitz'">c6c12585-e4df-4d6e-984a-1fd43232c8d5</xsl:when>
                 <!-- ZB Historische Sammlungen -->
                 <xsl:when test="$lower='hs'">a7f9dad1-a3d2-4047-be3b-93175906210f</xsl:when>
                 <!-- ZB Kartensammlung -->
                 <xsl:when test="$lower='akt'">02ed770a-cf91-4e8e-b807-690fe391f434</xsl:when>
-                <xsl:when test="$lower,'kt'">02ed770a-cf91-4e8e-b807-690fe391f434</xsl:when>
+                <xsl:when test="$lower='kt'">02ed770a-cf91-4e8e-b807-690fe391f434</xsl:when>
                 <!-- ZB Lesesaal für hist. Bestände und Karten (Haus 13) -->
                 <xsl:when test="$lower='ls13'">460871fe-54fb-4f42-bc53-2509af98bb3f</xsl:when>
                 <!-- ZB Hauptlesesaal (Haus 50) -->
                 <xsl:when test="$lower='ls50'">653de8ed-bfb0-421a-ba18-61f6332dab86</xsl:when>
                 <!-- Alvensleben -->
-                <xsl:when test="$lower='ls50'">66016510-d721-4025-b6e4-dbc80f80205f</xsl:when>
+                <xsl:when test="$lower='alv'">66016510-d721-4025-b6e4-dbc80f80205f</xsl:when>
                 <!--Ha 1-->
-                <xsl:when test="$lower='HA 1'">
+                <xsl:when test="$lower='ha 1'">
                     <xsl:choose>
                         <!--Ha 1 Freihandbestand-->
                         <xsl:when test="starts-with($callnumber, 'VO-LS')">08008ae6-7b24-40f0-ab01-831559fe28e4</xsl:when> 
@@ -56,7 +59,8 @@
                 <xsl:when test="$lower='ha 4h'">04de2aae-ddbc-4f57-9ca5-95419f91d69a</xsl:when>
                 <!-- Ha 4 Freihandbestand -->
                 <xsl:when test="starts-with($lower,'ha 4')">e767e4d7-6fbf-4e15-a69f-7efb9811b5ad</xsl:when>
-                <xsl:when test="starts-with($lower,'ha 8')">e767e4d7-6fbf-4e15-a69f-7efb9811b5ad</xsl:when>
+                <xsl:when test="$lower='ha 8'">e767e4d7-6fbf-4e15-a69f-7efb9811b5ad</xsl:when>
+                <xsl:when test="$lower='ha 8z'">e767e4d7-6fbf-4e15-a69f-7efb9811b5ad</xsl:when>
                 <!--Ha 6 Sonderstandore-->
                 <xsl:when test="$lower='ha 6d'">1ddbd38a-accb-4280-a748-535128c4eca5</xsl:when>
                 <xsl:when test="$lower='ha 6' and starts-with($callnumber, '6J')">1ddbd38a-accb-4280-a748-535128c4eca5</xsl:when>
