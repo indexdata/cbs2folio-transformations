@@ -19,15 +19,83 @@
                 <xsl:when test="$callnumber='bestellt'">3c708275-c75c-47ae-a210-5820551765a8</xsl:when>
                 <!-- Fernleihe -->
                 <xsl:when test="$lower='fl'">f39316ae-8752-4fe4-adc6-593c1c38ddc7</xsl:when>
+                <!-- Alvensleben -->
+                <xsl:when test="$lower='alv'">66016510-d721-4025-b6e4-dbc80f80205f</xsl:when>
+                <!-- Ermlitz -->
+                <xsl:when test="$lower='ermlitz'">476b8b75-471f-4aad-afa0-22f74f263eb4</xsl:when>
+                 <!-- Restitute -->
+                <xsl:when test="
+                    starts-with($lower,'alv')
+                    or $lower='anb' 
+                    or starts-with($lower,'arn')
+                    or $lower='asse'
+                    or starts-with($lower,'bar')
+                    or $lower='bas'
+                    or $lower='bis'
+                    or $lower='bod'
+                    or $lower='bos'
+                    or $lower='brei'
+                    or starts-with($lower,'bue')
+                    or $lower='burg'
+                    or starts-with($lower,'buss')
+                    or $lower='dav'
+                    or $lower='dohn'
+                    or $lower='doel'
+                    or $lower='elle'
+                    or $lower='end'
+                    or $lower='etz'
+                    or $lower='gnei'
+                    or $lower='goss'
+                    or $lower='gro'
+                    or $lower='gwi'
+                    or $lower='hag'
+                    or $lower='harv'
+                    or $lower='hard'
+                    or $lower='heck'
+                    or starts-with($lower,'hell')
+                    or starts-with($lower,'her')
+                    or $lower='jag'
+                    or $lower='klei'
+                    or $lower='kli'
+                    or starts-with($lower,'knes')
+                    or $lower='kor'
+                    or $lower='kot'
+                    or starts-with($lower,'kro')
+                    or $lower='kue'
+                    or $lower='lei'
+                    or $lower='mohr'
+                    or starts-with($lower,'muen')
+                    or $lower='nat'
+                    or $lower='net'
+                    or $lower='olg'
+                    or $lower='ost'
+                    or $lower='rec'
+                    or $lower='roes'
+                    or $lower='run'
+                    or $lower='rein'
+                    or $lower='saen'
+                    or starts-with($lower,'sch')
+                    or $lower='sie'
+                    or starts-with($lower,'st')
+                    or starts-with($lower,'vel')
+                    or $lower='war'
+                    or $lower='wed'
+                    or $lower='wer'
+                    or $lower='wiln'
+                    or $lower='wut'
+                    or $lower='zec'
+                    or $lower='zim'
+                    or $lower='zsch'">
+                    4c8a7cfb-7660-487f-ac17-6741744721ef
+                </xsl:when>
                 <!-- ZB Handapparate -->
-                <!-- <xsl:when test="matches($lower, '^M[1-3]-HA')">4fe61527-1a06-4850-b1bb-66b18ce77618</xsl:when> -->
+                <!-- xsl:when test="matches($lower, '^M[1-3]-HA')">4fe61527-1a06-4850-b1bb-66b18ce77618</xsl:when> matches() funktioniert ab XSLT 2.0 (bzw. XPath 2.0). -->
                 <xsl:when test="$lower='m1-ha'">4fe61527-1a06-4850-b1bb-66b18ce77618</xsl:when>
                 <xsl:when test="$lower='m2-ha'">4fe61527-1a06-4850-b1bb-66b18ce77618</xsl:when>
                 <xsl:when test="$lower='m3-ha'">4fe61527-1a06-4850-b1bb-66b18ce77618</xsl:when>
                 <!-- ZB Magazin -->
                 <xsl:when test="starts-with($lower,'m')">c6c12585-e4df-4d6e-984a-1fd43232c8d5</xsl:when>
                 <xsl:when test="$lower='vel-l'">c6c12585-e4df-4d6e-984a-1fd43232c8d5</xsl:when>
-                <xsl:when test="$lower='ermlitz'">c6c12585-e4df-4d6e-984a-1fd43232c8d5</xsl:when>
                 <!-- ZB Historische Sammlungen -->
                 <xsl:when test="$lower='hs'">a7f9dad1-a3d2-4047-be3b-93175906210f</xsl:when>
                 <!-- ZB Kartensammlung -->
@@ -37,8 +105,6 @@
                 <xsl:when test="$lower='ls13'">460871fe-54fb-4f42-bc53-2509af98bb3f</xsl:when>
                 <!-- ZB Hauptlesesaal (Haus 50) -->
                 <xsl:when test="$lower='ls50'">653de8ed-bfb0-421a-ba18-61f6332dab86</xsl:when>
-                <!-- Alvensleben -->
-                <xsl:when test="$lower='alv'">66016510-d721-4025-b6e4-dbc80f80205f</xsl:when>
                 <!--Ha 1-->
                 <xsl:when test="$lower='ha 1'">
                     <xsl:choose>
