@@ -24,6 +24,7 @@
                 <xsl:when test="$lower='m1-ha'">4fe61527-1a06-4850-b1bb-66b18ce77618</xsl:when>
                 <xsl:when test="$lower='m2-ha'">4fe61527-1a06-4850-b1bb-66b18ce77618</xsl:when>
                 <xsl:when test="$lower='m3-ha'">4fe61527-1a06-4850-b1bb-66b18ce77618</xsl:when>
+                <xsl:when test="$lower='vel-l'">4fe61527-1a06-4850-b1bb-66b18ce77618</xsl:when>
                 <!-- ZB Magazin -->
                 <xsl:when test="starts-with($lower,'m1')">c6c12585-e4df-4d6e-984a-1fd43232c8d5</xsl:when>
                 <xsl:when test="starts-with($lower,'m2')">c6c12585-e4df-4d6e-984a-1fd43232c8d5</xsl:when>
@@ -47,6 +48,8 @@
                         <xsl:otherwise>0e464ec5-d43d-42c5-83f5-f8011761b31e</xsl:otherwise> 
                     </xsl:choose>
                 </xsl:when>
+                <!-- Ha 1 Handapparate -->
+                <xsl:when test="$lower='ha 1-ha'">f9ac8c5f-a369-45fb-a56d-c0b29ab8fc5b</xsl:when>
                 <!-- Ha 4 Magazin -->
                 <xsl:when test="$lower='ha 4-m'">ad35a75f-66ab-4b7e-a94a-5e7bc2ad988c</xsl:when>
                 <!-- Ha 4 Sonderstandorte -->
@@ -172,6 +175,8 @@
                 <xsl:when test="$lower='alv'">66016510-d721-4025-b6e4-dbc80f80205f</xsl:when>
                 <!-- Ermlitz -->
                 <xsl:when test="$lower='ermlitz'">476b8b75-471f-4aad-afa0-22f74f263eb4</xsl:when>
+                <!-- TM Theodor Mahlmann -->
+                <xsl:when test="$lower='tm'">8878b913-3c06-48ee-802f-035ef576eba4</xsl:when>
                 <!-- Restitute -->
                 <xsl:when test="
                     starts-with($lower,'alv')
@@ -226,7 +231,6 @@
                     or starts-with($lower,'sch')
                     or $lower='sie'
                     or starts-with($lower,'st')
-                    or starts-with($lower,'vel')
                     or $lower='war'
                     or $lower='wed'
                     or $lower='wer'
