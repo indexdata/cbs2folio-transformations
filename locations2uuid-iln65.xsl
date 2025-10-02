@@ -238,9 +238,7 @@
                     or $lower='wut'
                     or $lower='zec'
                     or $lower='zim'
-                    or $lower='zsch'">
-                    4c8a7cfb-7660-487f-ac17-6741744721ef
-                </xsl:when>             
+                    or $lower='zsch'">4c8a7cfb-7660-487f-ac17-6741744721ef</xsl:when>             
                 <!-- Keine Zuordnung --> 
                 <xsl:otherwise>4e7e30fa-3961-4aae-8217-5e2d3edbea30</xsl:otherwise>		
             </xsl:choose>
