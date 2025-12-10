@@ -175,7 +175,14 @@
               <xsl:if test="./subfield[@code='0']">
                 <i>
                   <note>
-                    <xsl:value-of select="./subfield[@code='0']"/>
+                    <xsl:choose>
+                      <xsl:when test="./subfield[@code='i']">
+                        <xsl:value-of select="concat(./subfield[@code='i'], ': ', ./subfield[@code='0'])"/>
+                      </xsl:when>
+                      <xsl:otherwise>
+                        <xsl:value-of select="./subfield[@code='0']"/>
+                      </xsl:otherwise>
+                    </xsl:choose>
                   </note>
                   <holdingsNoteTypeId>Lokale Identifikationsnummer anderer Systeme (7811)</holdingsNoteTypeId>
                   <staffOnly>false</staffOnly>
