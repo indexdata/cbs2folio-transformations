@@ -2022,8 +2022,14 @@
                         </xsl:otherwise>
                       </xsl:choose>
                     </xsl:when>
-                    <xsl:when test="@code='l'">
-                      <xsl:value-of select="concat(' ; ',.)"/>
+                    <xsl:when test="@code='h'">
+                      <xsl:value-of select="concat(' / ', .)"/>
+                    </xsl:when>
+                    <xsl:when test="@code='l' or @code='m'">
+                      <xsl:value-of select="concat(' ; ', .)"/>
+                    </xsl:when>
+                    <xsl:when test="@code='p'">
+                      <xsl:value-of select="concat('. ', .)"/>
                     </xsl:when>
                   </xsl:choose> 
                 </xsl:for-each>
