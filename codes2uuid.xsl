@@ -933,5 +933,18 @@
     </illPolicyId>
   </xsl:template>
 
+  <!-- Map date types -->
+  <xsl:template match="dateTypeId">
+    <dateTypeId>
+      <xsl:choose>
+        <xsl:when test=".='c'">0750f52b-3bfc-458d-9307-e9afc8bcdffa</xsl:when>
+        <xsl:when test=".='d'">42dac21e-3c81-4cb1-9f16-9e50c81bacc4</xsl:when>
+        <xsl:when test=".='m'">8fa6d067-41ff-4362-96a0-96b16ddce267</xsl:when>
+        <xsl:when test=".='s'">24a506e8-2a92-4ecc-bd09-ff849321fd5a</xsl:when>
+      </xsl:choose>
+    </dateTypeId>
+  </xsl:template>
+
+
   <xsl:template match="original"/>
 </xsl:stylesheet>
