@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- date of last edit: 2023-06-16 (YYYY-MM-DD) -->
 
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0">
   <xsl:output indent="yes" method="xml" version="1.0" encoding="UTF-8"/>
   <xsl:key name="original" match="original/item" use="@epn"/>
      
@@ -12,65 +11,132 @@
   </xsl:template>  
 
   <!-- ILN 25 UB Mainz -->
-<xsl:template match="processing[not(parent::delete)]">
-  <processing> <!-- overwrites hebis default -->
-    <item>
-      <retainExistingValues>
-        <forOmittedProperties>true</forOmittedProperties>
-        <forTheseProperties>
+  
+  <xsl:template match="record[not(delete)]">
+    <record>
+      <xsl:copy-of select="original"/>
+      <instance>
+        <source>hebis</source>
+        <hrid><xsl:value-of select="instance/hrid"/></hrid>
+        <xsl:apply-templates select="instance/*[not(self::hrid or self::source or self::administrativeNotes)]"/>
+        <administrativeNotes>
           <arr>
-            <i>materialTypeId</i>
+            <xsl:apply-templates select="instance/administrativeNotes/arr/*"/>
+            <i><xsl:value-of select="concat('Hebis-Instanz hebis-PPN: ',instance/hrid)"/></i>
           </arr>
-        </forTheseProperties>
-      </retainExistingValues>
-      <status>
-        <policy>retain</policy>
-      </status>
-      <retainOmittedRecord>
-        <ifField>hrid</ifField>
-        <matchesPattern>it.*</matchesPattern>
-      </retainOmittedRecord>
-      <statisticalCoding>
+        </administrativeNotes>
+      <!-- TBD: lokale Schlagwortsysteme
+        <subjects>
+          <arr>
+            <xsl:for-each select="original/datafield[@tag='145Z']/subfield[@code='a']">
+              <i><value><xsl:value-of select="."/></value></i>
+            </xsl:for-each>
+          </arr>
+        </subjects> -->
+      </instance>
+      <xsl:apply-templates select="instanceRelations|processing"/>
+      <xsl:variable name="original" select="original"/>
+      <holdingsRecords>
         <arr>
-          <i>
-            <if>deleteSkipped</if>
-            <becauseOf>ITEM_STATUS</becauseOf>
-            <setCode>ITEM_STATUS</setCode>
-          </i>
+          <xsl:for-each select="holdingsRecords/arr/i">
+            <i>
+              <xsl:apply-templates select="*[not(self::administrativeNotes)]"/>
+              <administrativeNotes>
+                <arr>
+                  <xsl:apply-templates select="administrativeNotes/arr/*"/>
+                  <i><xsl:value-of select="concat(translate($original/item[@epn=current()/hrid]/datafield[@tag='201B']/subfield[@code='0'], '-', '.'),', ', substring($original/item[@epn=current()/hrid]/datafield[@tag='201B']/subfield[@code='t'],1,5), ' (Letzte Änderung CBS)')"/></i>
+                  <i><xsl:value-of select="concat('Datenursprung Hebis hebis-EPN: ',hrid)"/></i>
+                </arr>
+              </administrativeNotes>
+            </i>
+          </xsl:for-each>
         </arr>
-      </statisticalCoding>
-    </item>
-  	<holdingsRecord>
-  	  <retainExistingValues>
-  	    <forOmittedProperties>true</forOmittedProperties>
-  	  </retainExistingValues>
-  	  <retainOmittedRecord>
-  	    <ifField>hrid</ifField>
-  	    <matchesPattern>ho.*</matchesPattern>
-  	  </retainOmittedRecord>
-  	  <statisticalCoding>
-  	    <arr>
-  	      <i>
-  	        <if>deleteSkipped</if>
-  	        <becauseOf>ITEM_STATUS</becauseOf>
-  	        <setCode>ITEM_STATUS</setCode>
-  	      </i>
-  	      <i>
-  	        <if>deleteSkipped</if>
-  	        <becauseOf>ITEM_PATTERN_MATCH</becauseOf>
-  	        <setCode>ITEM_PATTERN_MATCH</setCode>
-  	      </i> 
-  	    </arr>
-  	  </statisticalCoding>
-  	</holdingsRecord>
-    <instance/>
-  </processing>
-</xsl:template>
+      </holdingsRecords>
+    </record>
+  </xsl:template>
+  
+  <xsl:template match="processing[not(parent::delete)]">
+    <processing> <!-- overwrites hebis default -->
+      <item>
+        <retainExistingValues>
+          <forOmittedProperties>true</forOmittedProperties>
+          <forTheseProperties>
+            <arr>
+              <i>materialTypeId</i>
+            </arr>
+          </forTheseProperties>
+        </retainExistingValues>
+        <status>
+          <policy>retain</policy>
+        </status>
+        <retainOmittedRecord>
+          <ifField>hrid</ifField>
+          <matchesPattern>it.*</matchesPattern>
+        </retainOmittedRecord>
+        <!-- does not to work properly in Quesnelia 2024-12:
+            - statistical code is not set in some cases (false neagtive)
+            - statistical code is also set (false positive) in "retainOmittedRecord" protected cases
+            - statistical code is also set (false positive) in holding transfer cases
+            -> left out (in addition seems not to be needed)
+          <statisticalCoding>
+            <arr>
+              <i>
+                <if>deleteSkipped</if>
+                <becauseOf>ITEM_STATUS</becauseOf>
+                <setCode>ITEM_STATUS</setCode>
+              </i>         
+            </arr>
+          </statisticalCoding> -->
+      </item>
+      <holdingsRecord>
+        <retainExistingValues>
+          <forOmittedProperties>true</forOmittedProperties>
+        </retainExistingValues>
+        <retainOmittedRecord>
+          <ifField>hrid</ifField>
+          <matchesPattern>ho.*</matchesPattern>
+        </retainOmittedRecord>
+        <statisticalCoding>
+          <arr>
+            <i>
+              <if>deleteSkipped</if>
+              <becauseOf>ITEM_STATUS</becauseOf>
+              <setCode>ITEM_STATUS</setCode>
+            </i>
+            <i>
+              <if>deleteSkipped</if>
+              <becauseOf>ITEM_PATTERN_MATCH</becauseOf>
+              <setCode>ITEM_PATTERN_MATCH</setCode>
+            </i> 
+          </arr>
+        </statisticalCoding>
+      </holdingsRecord>
+      <instance>
+        <retainExistingValues>
+          <forOmittedProperties>true</forOmittedProperties>
+        </retainExistingValues>
+      </instance>
+    </processing>
+  </xsl:template>
+
+  <xsl:template match="materialTypeId"> <!-- Level 0/2: hebis wide and local -->
+    <xsl:variable name="i" select="key('original',../../../../permanentLocationId)[last()]"/>
+    <materialTypeId>
+       <xsl:choose>
+         <xsl:when test="(substring($i/../datafield[@tag='002@']/subfield[@code='0'],1,1) != 'O') and (substring($i/../datafield[@tag='002@']/subfield[@code='0'],2,2) = 'bv')">Zeitschriftenband</xsl:when>
+         <xsl:otherwise><xsl:value-of select="."/></xsl:otherwise>
+       </xsl:choose>
+    </materialTypeId>
+  </xsl:template>
+
+  <xsl:template match="i[permanentLoanTypeId='dummy']"/>
+  
+  <xsl:template match="i[holdingsNoteTypeId='Letzte Änderung CBS']"/>
 
   <xsl:template match="permanentLocationId">
-    <xsl:variable name="i" select="key('original',.)"/>
+    <xsl:variable name="i" select="key('original',.)[last()]"/>
     <xsl:variable name="abt" select="$i/datafield[@tag='209A']/subfield[@code='f']"/>
-    <xsl:variable name="standort" select="$i/datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']"/> 
+    <xsl:variable name="standort" select="upper-case($i/datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a'][1])"/> 
     <xsl:variable name="electronicholding" select="(substring($i/../datafield[@tag='002@']/subfield[@code='0'],1,1) = 'O') and not(substring($i/datafield[@tag='208@']/subfield[@code='b'],1,1) = 'a')"/>
     <xsl:variable name="onorder" select="substring($i/datafield[@tag='208@']/subfield[@code='b'],1,1) = 'a'"/>
     <permanentLocationId>
@@ -81,8 +147,8 @@
          <xsl:when test="$abt='000'">
            <xsl:choose>
              <xsl:when test="$onorder">ZBZEB</xsl:when>
-             <xsl:when test="contains($standort,'Fernleihe Lesesaal')">ZBFLLS</xsl:when>
-             <xsl:when test="contains($standort,'Fernleihe')">ZBFL</xsl:when>
+             <xsl:when test="contains($standort,'FERNLEIHE LESESAAL')">ZBFLLS</xsl:when>
+             <xsl:when test="contains($standort,'FERNLEIHE')">ZBFL</xsl:when>
              <xsl:when test="contains($standort,'FREIHAND')">ZBFREI</xsl:when>
              <xsl:when test="contains($standort,'LESESAAL')">ZBLS</xsl:when>
              <xsl:when test="contains($standort,'LBS')">ZBLBS</xsl:when>
@@ -93,13 +159,13 @@
          <xsl:when test="$abt='002'">
            <xsl:choose>
              <xsl:when test="$onorder">GFGZEB</xsl:when>
-             <xsl:when test="contains($standort,'Erziehungswissenschaft')">GFGPÄD</xsl:when>
-             <xsl:when test="contains($standort,'Filmwissenschaft')">GFGFILM</xsl:when>
-             <xsl:when test="contains($standort,'Journalistik')">GFGJOUR</xsl:when>
-             <xsl:when test="contains($standort,'Politikwissenschaft')">GFGPOL</xsl:when>
-             <xsl:when test="contains($standort,'Psychologie')">GFGPSYCH</xsl:when>
-             <xsl:when test="contains($standort,'Publizistik')">GFGPUB</xsl:when>
-             <xsl:when test="contains($standort,'Soziologie')">GFGSOZ</xsl:when>
+             <xsl:when test="contains($standort,upper-case('Erziehungswissenschaft'))">GFGPÄD</xsl:when>
+             <xsl:when test="contains($standort,upper-case('Filmwissenschaft'))">GFGFILM</xsl:when>
+             <xsl:when test="contains($standort,upper-case('Journalistik'))">GFGJOUR</xsl:when>
+             <xsl:when test="contains($standort,upper-case('Politikwissenschaft'))">GFGPOL</xsl:when>
+             <xsl:when test="contains($standort,upper-case('Psychologie'))">GFGPSYCH</xsl:when>
+             <xsl:when test="contains($standort,upper-case('Publizistik'))">GFGPUB</xsl:when>
+             <xsl:when test="contains($standort,upper-case('Soziologie'))">GFGSOZ</xsl:when>
              <xsl:otherwise>GFGPÄD</xsl:otherwise>
            </xsl:choose>
          </xsl:when>
@@ -109,7 +175,12 @@
              <xsl:otherwise>ZBLS</xsl:otherwise>
 			     </xsl:choose>
          </xsl:when>
-         <xsl:when test="$abt='004'">PHRVK</xsl:when>
+         <xsl:when test="$abt='004'">
+           <xsl:choose>
+             <xsl:when test="contains($standort,'NUMERUS')">PHNC</xsl:when>
+             <xsl:otherwise>PHRVK</xsl:otherwise>
+           </xsl:choose>
+         </xsl:when>
          <xsl:when test="$abt='005'">
            <xsl:choose>
              <xsl:when test="contains($standort,'LESESAAL')">UMLS</xsl:when>
@@ -120,36 +191,41 @@
          <xsl:when test="$abt='006'">
            <xsl:choose>
              <xsl:when test="contains($standort,'LEHRBUCH')">MINTLBS</xsl:when>
-             <xsl:when test="contains($standort,'Handapparat')">MINTFAK</xsl:when>
+             <xsl:when test="contains($standort,'HANDAPPARAT')">MINTFAK</xsl:when>
              <xsl:otherwise>MINT</xsl:otherwise>
            </xsl:choose>
          </xsl:when>
          <xsl:when test="$abt='009'">FBMPI</xsl:when>	
          <xsl:when test="$abt='016'">
            <xsl:choose>
-             <xsl:when test="contains($standort,'Magazin') or contains($standort,'Rara')">THRARA</xsl:when>
+             <xsl:when test="$standort='EVANGELISCHE THEOLOGIE'">THEV</xsl:when>
+             <xsl:when test="$standort='KATHOLISCHE THEOLOGIE'">THKT</xsl:when>
+             <xsl:when test="contains($standort,'MAGAZIN') or contains($standort,'Rara')">THRARA</xsl:when>
              <xsl:when test="contains($standort,'LEHRBUCH')">THLBS</xsl:when>
-             <xsl:when test="contains($standort,'Büro') or contains($standort,'büro')">THFAK</xsl:when>
-             <xsl:when test="contains($standort,'Psychologie')">THPSYCH</xsl:when>
+             <xsl:when test="contains($standort,'BÜRO') or contains($standort,'büro')">THFAK</xsl:when>
+             <xsl:when test="contains($standort,'PSYCHOLOGIE')">THPSYCH</xsl:when>
              <xsl:otherwise>TH</xsl:otherwise>
            </xsl:choose>
          </xsl:when>
          <xsl:when test="$abt='018'">
            <xsl:choose>
              <xsl:when test="contains($standort,'LEHRBUCH')">RWLBS</xsl:when>
-             <xsl:when test="contains($standort,'Magazin')">RWMAG</xsl:when>
+             <xsl:when test="contains($standort,'MAGAZIN')">RWMAG</xsl:when>
+             <xsl:when test="contains($standort,'RECHT')">RWR</xsl:when>
+             <xsl:when test="contains($standort,'MEDIZIN')">RWM</xsl:when>
+             <xsl:when test="contains($standort,'VWL') or contains($standort,'BWL') or contains($standort,'WIPÄD')">RWW</xsl:when>
              <xsl:otherwise>RW</xsl:otherwise>
            </xsl:choose>
          </xsl:when>
          <xsl:when test="$abt='019'">
            <xsl:choose>
              <xsl:when test="$onorder">GHZEB</xsl:when>
-             <xsl:when test="contains($standort,'Fernleihe Lesesaal')">GHFLLS</xsl:when>
-             <xsl:when test="contains($standort,'Fernleihe')">GHFL</xsl:when>
-             <xsl:when test="contains($standort,'Handapparat')">GHFAK</xsl:when> <!-- Es gibt auch starts-with(...,...) -->
-             <xsl:when test="contains($standort,'Lehrbuch')">GHLBS</xsl:when>
-             <xsl:when test="contains($standort,'Lesesaal')">GHLS</xsl:when>
-             <xsl:when test="contains($standort,'Magazin')">GHMAG</xsl:when>
+             <xsl:when test="contains($standort,upper-case('Fernleihe Lesesaal'))">GHFLLS</xsl:when>
+             <xsl:when test="contains($standort,upper-case('Fernleihe'))">GHFL</xsl:when>
+             <xsl:when test="contains($standort,upper-case('Handapparat'))">GHFAK</xsl:when>
+             <xsl:when test="contains($standort,upper-case('Lehrbuch'))">GHLBS</xsl:when>
+             <xsl:when test="contains($standort,upper-case('Lesesaal'))">GHLS</xsl:when>
+             <xsl:when test="contains($standort,upper-case('Magazin'))">GHMAG</xsl:when>
              <xsl:when test="($standort='CELA')
                or ($standort='CELTRA')
                or ($standort='SSC')">GHSEP</xsl:when>
@@ -164,8 +240,9 @@
          <xsl:when test="$abt='054'">UMZMK</xsl:when>
          <xsl:when test="$abt='058'">PHPHI</xsl:when>
          <xsl:when test="$abt='066'">
-	    <xsl:choose>
+	         <xsl:choose>
              <xsl:when test="contains($standort,'AMA')">RWAMA</xsl:when>
+	           <xsl:when test="contains($standort,'JAHN')">RWJAHN</xsl:when>
              <xsl:otherwise>RWETH</xsl:otherwise>
            </xsl:choose>
          </xsl:when>
@@ -190,7 +267,7 @@
          <xsl:when test="$abt='090'">PHBUW</xsl:when>
          <xsl:when test="$abt='091'">
            <xsl:choose>
-             <xsl:when test="contains($standort,'Separiert')">PHMUWMAG</xsl:when>
+             <xsl:when test="contains($standort,upper-case('Separiert'))">PHMUWMAG</xsl:when>
              <xsl:otherwise>PHMUW</xsl:otherwise>
            </xsl:choose>
 	</xsl:when>
@@ -206,7 +283,7 @@
          <xsl:when test="$abt='111'">FBKUNST</xsl:when>
          <xsl:when test="$abt='112'">
              <xsl:choose>
-               <xsl:when test="contains($standort,'Freihand')">PHHFMFREI</xsl:when>
+               <xsl:when test="contains($standort,'FREIHAND')">PHHFMFREI</xsl:when>
                <xsl:otherwise>PHHFMMAG</xsl:otherwise>
              </xsl:choose>
            </xsl:when>
@@ -222,6 +299,8 @@
   </xsl:template>
 
   <xsl:template match="permanentLoanTypeId">
+    <xsl:variable name="i" select="key('original',../../../../permanentLocationId)[last()]"/>
+    <xsl:variable name="abt" select="$i/datafield[@tag='209A']/subfield[@code='f']"/>
     <permanentLoanTypeId>
       <xsl:choose>
         <xsl:when test="(.='dummy') or (.='aufsatz')">dummy</xsl:when>
@@ -229,7 +308,12 @@
         <xsl:when test=".='b'">b Kurzausleihe</xsl:when>
         <xsl:when test=".='c'">c Lehrbuchsammlung</xsl:when>
         <xsl:when test=".='s'">s Präsenzbestand Lesesaal</xsl:when>
-        <xsl:when test=".='d'">d ausleihbar (keine Fernleihe)</xsl:when>
+        <xsl:when test=".='d'">
+        <xsl:choose>
+          <xsl:when test="($abt='035') or ($abt='043')  or ($abt='009') or ($abt='034') or ($abt='094') or ($abt='018')  or ($abt='082') or ($abt='085')">s Präsenzbestand Lesesaal</xsl:when>
+          <xsl:otherwise>d ausleihbar (keine Fernleihe)</xsl:otherwise>
+        </xsl:choose>
+        </xsl:when>
         <xsl:when test=".='i'">i nur für den Lesesaal</xsl:when>
         <xsl:when test=".='e'">e vermisst</xsl:when>
         <xsl:when test=".='g'">g nicht ausleihbar</xsl:when>
@@ -250,25 +334,26 @@
   </xsl:template>
 
   <xsl:template match="i[holdingsNoteTypeId='Standort (8201)']"> <!-- 8201 will be displayed by default: add exceptions here -->
-    <xsl:variable name="i" select="key('original',../../../permanentLocationId)"/>
+    <xsl:variable name="i" select="key('original',../../../permanentLocationId)[last()]"/>
     <xsl:variable name="abt" select="$i/datafield[@tag='209A']/subfield[@code='f']"/>
     <xsl:if test="not(($abt='000' and (./note='FREIHAND' or ./note='LBS' or ./note='LESESAAL' or ./note='RARA' or ./note='MAG')) or
 	  ($abt='002' and (./note='Erziehungswissenschaft' or ./note='Filmwissenschaft' or ./note='Journalistik' or ./note='Politikwissenschaft' or ./note='Psychologie' or ./note='Publizistik' or ./note='Soziologie')) or
+	  ($abt='003' and (./note='LESESAAL')) or
 	  ($abt='005' and (./note='UM LESESAAL' or ./note='UM LBS' or ./note='UM FREIHAND')) or
 	  ($abt='006' and (./note='MIN' or ./note='MIN LEHRBUCHSAMMLUNG')) or
-	  ($abt='016' and (./note='Theologie LEHRBUCHSAMMLUNG')) or
-	  ($abt='018' and (./note='ReWi LEHRBUCHSAMMLUNG')) or
-	  ($abt='019' and (./note='Lehrbuchsammlung' or ./note='Lesesaal' or ./note='Magazin')) or
+	  ($abt='016' and (./note='Theologie LEHRBUCHSAMMLUNG' or ./note='Bereichsbibliothek Theologie, RVK' or ./note='Bereichsbibliothek Theologie, Numerus Currens')) or
+	  ($abt='018' and (./note='ReWi LEHRBUCHSAMMLUNG') or (./note='Recht') or (./note='VWL') or (./note='BWL')  or (./note='WiPäd') or (./note='Medizin')) or
+	  ($abt='019' and (./note='Lehrbuchsammlung' or ./note='Lesesaal' or ./note='Magazin' or starts-with(./note,'Freihand'))) or
 	  ($abt='034' and (./note='FB 4-40')) or
 	  ($abt='035' and (./note='Institut für Rechtsmedizin')) or
 	  ($abt='043' and (./note='Klinik für Psychiatrie und Psychotherapie')) or
 	  ($abt='054' and (./note='Zahnklinik')) or
 	  ($abt='058' and (./note='Philosophie')) or
-	  ($abt='066' and (./note='ReWi / Ethnologie und Afrikastudien' or ./note='AMA - African Music Archives')) or
+	  ($abt='066' and (./note='ReWi / Ethnologie und Afrikastudien' or ./note='AMA - African Music Archives' or ./note='ReWi / Jahn-Bibliothek für Afrikanische Literaturen')) or 
 	  ($abt='069' and (./note='Psychologisches Institut / IB')) or
 	  ($abt='070' and (./note='Germanistik')) or
 	  ($abt='071' and (./note='Allgemeine und Vergleichende Literaturwissenschaft')) or
-	  ($abt='072' and (./note='Anglistik/Amerikanistik')) or
+	  ($abt='072' and (./note='Anglistik/Amerikanistik' or ./note='Amerikanistik' or ./note='Anglistik')) or
 	  ($abt='073' and (./note='Allgemeine und Vergleichende Sprachwissenschaft')) or
 	  ($abt='074' and (./note='Romanistik')) or
 	  ($abt='075' and (./note='Slavistik')) or
@@ -291,7 +376,7 @@
 	  ($abt='113' and (./note='Sport')) or	
 	  ($abt='124' and (./note='Gesangbucharchiv')) or
 	  ($abt='125' and (./note='MAG')) or
-	  ($abt='126' and (./note='USA BIBL')))">
+	  ($abt='126' and (./note='USA BIBL')))"> <!-- später: $abt='16' 'Evangelische Theologie' or 'Katholische Theologie' -->
         <i>
           <note>
               <xsl:value-of select="./note"/>
@@ -301,21 +386,38 @@
     </xsl:if>
   </xsl:template>
 
-<!-- Parsing call number for prefix - optional -->
+<!-- multiple call number workaround  - TBD: Ansetzungsformen der weiteren Signaturen? -->
 
+  <xsl:template match="notes">
+    <xsl:variable name="i" select="key('original',../permanentLocationId)[last()]"/>
+      <notes>
+        <arr>
+          <xsl:apply-templates select="arr/i[not(holdingsNoteTypeId='Signatur Ansetzungsform (7100)')]"/> 
+        </arr>
+      </notes>
+  </xsl:template>
+  
+  <!-- Parsing call number for prefix - optional -->
   <xsl:template match="callNumber">
-    <xsl:variable name="i" select="key('original',../permanentLocationId)"/>
+    <xsl:variable name="i" select="key('original',../permanentLocationId)[last()]"/>
     <xsl:variable name="abt" select="$i/datafield[@tag='209A']/subfield[@code='f']"/>
-    <xsl:variable name="standort" select="$i/datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a']"/> 
+    <xsl:variable name="standort" select="$i/datafield[(@tag='209G') and (subfield[@code='x']='01')]/subfield[@code='a'][1]"/> 
     <xsl:choose>
+      <xsl:when test="matches(.,'^\d{3}\s[A-Z]{2}\s\d{3,6}.*') or matches(.,'^\d{3}\s[A-Z]\s\d{3}\.\d{3}.*') or starts-with(.,'INFO ')"> <!-- RVK-Signatur oder Magazin-Signatur -->
+          <callNumberPrefix>
+            <xsl:value-of select="substring-before(.,' ')"/>
+          </callNumberPrefix>
+          <callNumber>
+            <xsl:value-of select="substring-after(.,' ')"/>
+          </callNumber>
+      </xsl:when>
       <xsl:when test="($abt='016' and (starts-with(., 'THEMAG ') or starts-with(., 'THERARA '))) or 
         ($abt='000' and (starts-with(., 'RARA ') and not(contains(.,'°')))) or
         ($abt='019' and (starts-with(.,'CELA') or starts-with(.,'CELTRA') or starts-with(.,'LBS') or starts-with(.,'MAG') or starts-with(.,'SSC'))) or
-        ($abt='120' and ($standort='Medienkulturwissenschaft' or $standort='Alltagsmedien')) or
-        ($abt='003') or ($abt='004') or 
-        ($abt='005' and (starts-with(., '700 ') or starts-with(., '710 '))) or
-        ($abt='054' and (starts-with(., '798 ') or starts-with(., '791 '))) or
-        (($abt='127') and not(starts-with(.,'SI ') or starts-with(.,'SK ')))">
+        (($abt='072') and (starts-with(.,'Anglistik'))) or
+        ((($abt='079') or ($abt='080')) and starts-with(.,'GROSSFORMAT')) or
+        (($abt='126') and (starts-with(.,'Oversize'))) or
+        (($abt='127') and not(starts-with(.,'SI ') or starts-with(.,'SK ')))"> <!-- Leeerzeichen zur Abtrennung -->
         <xsl:choose>
           <xsl:when test="contains(.,' ')">
             <callNumberPrefix>
@@ -353,5 +455,16 @@
       </xsl:otherwise>
     </xsl:choose>
    </xsl:template>
+
+  <xsl:template match="statisticalCodeIds">
+    <xsl:variable name="i" select="key('original',../../../../permanentLocationId)[last()]"/> <!-- ILN -->
+    <statisticalCodeIds>
+      <arr>
+        <xsl:if test="$i/datafield[(@tag='209B') and not(subfield[@code='x']='01' or subfield[@code='x']='02')]/subfield[@code='a']='LZA'">
+          <i>LZA</i>
+        </xsl:if>
+      </arr>
+    </statisticalCodeIds>
+  </xsl:template>
 
 </xsl:stylesheet>

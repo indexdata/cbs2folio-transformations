@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<collection count="1">
+  <record>
+    <status>upsert</status>
+    <hrid>486337383</hrid>
+    <metadata>
+      <datafield tag="001B" fulltag="001B">
+        <subfield code="0">0077:04-01-23</subfield>
+        <subfield code="t">11:17:50.000</subfield>
+      </datafield>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">0077:04-01-23</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Aau</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+        <subfield code="2">rdacontent</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+        <subfield code="b">n</subfield>
+        <subfield code="2">rdamedia</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Band</subfield>
+        <subfield code="b">nc</subfield>
+        <subfield code="2">rdacarrier</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">486337383</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">9783110798838</subfield>
+        <subfield code="f">: EUR 109.95 (DE) (freier Preis), EUR 109.95 (AT) (freier Preis)</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">3110798832</subfield>
+      </datafield>
+      <datafield tag="004L" fulltag="004L">
+        <subfield code="0">9783110798838</subfield>
+      </datafield>
+      <datafield tag="004P" fulltag="004P">
+        <subfield code="S">o</subfield>
+        <subfield code="0">9783110799019</subfield>
+      </datafield>
+      <datafield tag="004P" fulltag="004P">
+        <subfield code="S">o</subfield>
+        <subfield code="0">9783110798913</subfield>
+      </datafield>
+      <datafield tag="006G" fulltag="006G">
+        <subfield code="0">1264150652</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">DNB</subfield>
+        <subfield code="0">1264150652</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">eng</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2022</subfield>
+        <subfield code="n">2022</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">105825778</subfield>
+        <subfield code="a">Hochschulschrift</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">The @concept of moral progress</subfield>
+        <subfield code="h">Frauke Albersmeier</subfield>
+      </datafield>
+      <datafield tag="028A" fulltag="028A">
+        <subfield code="9">457718242</subfield>
+        <subfield code="8">Albersmeier, Frauke</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Berlin</subfield>
+        <subfield code="n">De Gruyter</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">VIII, 247 Seiten</subfield>
+      </datafield>
+      <datafield tag="034I" fulltag="034I">
+        <subfield code="a">23 cm x 15.5 cm</subfield>
+      </datafield>
+      <datafield tag="034M" fulltag="034M">
+        <subfield code="a">Diagramme</subfield>
+      </datafield>
+      <datafield tag="036E" fulltag="036E">
+        <subfield code="a">Practical Philosophy</subfield>
+        <subfield code="l">Volume 24</subfield>
+      </datafield>
+      <datafield tag="037A" fulltag="037A">
+        <subfield code="a">Literaturverzeichnis Seite 235-244</subfield>
+      </datafield>
+      <datafield tag="037C" fulltag="037C">
+        <subfield code="d">Dissertation</subfield>
+        <subfield code="e">Heinrich-Heine-Universität Düsseldorf</subfield>
+        <subfield code="f">2022</subfield>
+      </datafield>
+      <datafield tag="039D" fulltag="039D">
+        <subfield code="i">Erscheint auch als</subfield>
+        <subfield code="n">Online-Ausgabe</subfield>
+        <subfield code="C">ISBN</subfield>
+        <subfield code="6">978-3-11-079901-9</subfield>
+      </datafield>
+      <datafield tag="039D" fulltag="039D">
+        <subfield code="i">Erscheint auch als</subfield>
+        <subfield code="n">Online-Ausgabe</subfield>
+        <subfield code="C">ISBN</subfield>
+        <subfield code="6">978-3-11-079891-3</subfield>
+      </datafield>
+      <datafield tag="101B" fulltag="101B">
+        <subfield code="0">04-01-23</subfield>
+        <subfield code="t">11:17:50.000</subfield>
+      </datafield>
+      <datafield tag="101C" fulltag="101C">
+        <subfield code="0">04-01-23</subfield>
+      </datafield>
+      <datafield tag="101U" fulltag="101U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="145S" occurrence="01" fulltag="145S/01">
+        <subfield code="a">460zb</subfield>
+      </datafield>
+      <item epn="1153640368">
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">04-01-23</subfield>
+          <subfield code="t">15:35:12.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="01" fulltag="201C/01">
+          <subfield code="0">04-01-23</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">1153640368</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">03-12-22</subfield>
+          <subfield code="b">zu</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="a">200 CC 7200 A332</subfield>
+          <subfield code="f">003</subfield>
+          <subfield code="d">u</subfield>
+          <subfield code="h">CC 7200 A332</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">BASIS</subfield>
+          <subfield code="x">05</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">18844375</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">RVK-REGALE</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="01" fulltag="247C/01">
+          <subfield code="9">485384787</subfield>
+          <subfield code="8">Universität Mainz, Zentralbibliothek, neue Aufstellung</subfield>
+        </datafield>
+      </item>
+      <item epn="1153735415">
+        <datafield tag="201B" occurrence="02" fulltag="201B/02">
+          <subfield code="0">07-12-23</subfield>
+          <subfield code="t">10:52:16.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="02" fulltag="201C/02">
+          <subfield code="0">07-12-23</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="02" fulltag="201U/02">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="02" fulltag="203@/02">
+          <subfield code="0">1153735415</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="02" fulltag="208@/02">
+          <subfield code="a">07-12-23</subfield>
+          <subfield code="b">zi</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="02" fulltag="209A/02">
+          <subfield code="a">200 CC 7200 A332</subfield>
+          <subfield code="f">004</subfield>
+          <subfield code="d">d</subfield>
+          <subfield code="h">CC 7200 A332</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="02" fulltag="247C/02">
+          <subfield code="9">487772423</subfield>
+          <subfield code="8">Universität Mainz, Bereichsbibliothek Philosophicum, RVK-Aufstellung</subfield>
+        </datafield>
+      </item>
+      <item epn="1153735423">
+        <datafield tag="201B" occurrence="03" fulltag="201B/03">
+          <subfield code="0">07-12-23</subfield>
+          <subfield code="t">10:54:00.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="03" fulltag="201C/03">
+          <subfield code="0">07-12-23</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="03" fulltag="201U/03">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="03" fulltag="203@/03">
+          <subfield code="0">1153735423</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="03" fulltag="208@/03">
+          <subfield code="a">07-12-23</subfield>
+          <subfield code="b">zi</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="03" fulltag="209A/03">
+          <subfield code="a">200 CC 7200 A332+2</subfield>
+          <subfield code="f">004</subfield>
+          <subfield code="d">d</subfield>
+          <subfield code="h">CC 7200 A332  / +2</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="03" fulltag="247C/03">
+          <subfield code="9">487772423</subfield>
+          <subfield code="8">Universität Mainz, Bereichsbibliothek Philosophicum, RVK-Aufstellung</subfield>
+        </datafield>
+      </item>
+      <item epn="1153906783">
+        <datafield tag="201B" occurrence="04" fulltag="201B/04">
+          <subfield code="0">05-03-25</subfield>
+          <subfield code="t">12:06:35.000</subfield>
+        </datafield>
+        <datafield tag="201C" occurrence="04" fulltag="201C/04">
+          <subfield code="0">05-03-25</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="04" fulltag="201U/04">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="04" fulltag="203@/04">
+          <subfield code="0">1153906783</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="04" fulltag="208@/04">
+          <subfield code="a">05-03-25</subfield>
+          <subfield code="b">z</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="04" fulltag="209A/04">
+          <subfield code="a">Batch</subfield>
+          <subfield code="f">000</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="04" fulltag="209G/04">
+          <subfield code="a">MAG</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="247C" occurrence="04" fulltag="247C/04">
+          <subfield code="9">102599602</subfield>
+          <subfield code="8">Universität Mainz, Zentralbibliothek</subfield>
+        </datafield>
+      </item>
+    </metadata>
+    <rawrecord><![CDATA[001B ƒ00077:04-01-23ƒt11:17:50.000001D ƒ00077:04-01-23002@ ƒ0Aau002C ƒaTextƒbtxtƒ2rdacontent002D ƒaohne Hilfsmittel zu benutzenƒbnƒ2rdamedia002E ƒaBandƒbncƒ2rdacarrier003@ ƒ0486337383004A ƒ09783110798838ƒf: EUR 109.95 (DE) (freier Preis), EUR 109.95 (AT) (freier Preis)004A ƒ03110798832004L ƒ09783110798838004P ƒSoƒ09783110799019004P ƒSoƒ09783110798913006G ƒ01264150652007G ƒiDNBƒ01264150652010@ ƒaeng011@ ƒa2022ƒn2022013D ƒ9105825778ƒaHochschulschrift021A ƒaThe @concept of moral progressƒhFrauke Albersmeier028A ƒ9457718242ƒ8Albersmeier, Frauke033A ƒpBerlinƒnDe Gruyter034D ƒaVIII, 247 Seiten034I ƒa23 cm x 15.5 cm034M ƒaDiagramme036E ƒaPractical PhilosophyƒlVolume 24037A ƒaLiteraturverzeichnis Seite 235-244037C ƒdDissertationƒeHeinrich-Heine-Universität Düsseldorfƒf2022039D ƒiErscheint auch alsƒnOnline-AusgabeƒCISBNƒ6978-3-11-079901-9039D ƒiErscheint auch alsƒnOnline-AusgabeƒCISBNƒ6978-3-11-079891-3101B ƒ004-01-23ƒt11:17:50.000101C ƒ004-01-23101U ƒ0utf8145S/01 ƒa460zb201B/01 ƒ004-01-23ƒt15:35:12.000201C/01 ƒ004-01-23201U/01 ƒ0utf8203@/01 ƒ01153640368208@/01 ƒa03-12-22ƒbzu209A/01 ƒa200 CC 7200 A332ƒf003ƒduƒhCC 7200 A332ƒx00209B/01 ƒaBASISƒx05209G/01 ƒa18844375ƒx00209G/01 ƒaRVK-REGALEƒx01247C/01 ƒ9485384787ƒ8Universität Mainz, Zentralbibliothek, neue Aufstellung201B/02 ƒ007-12-23ƒt10:52:16.000201C/02 ƒ007-12-23201U/02 ƒ0utf8203@/02 ƒ01153735415208@/02 ƒa07-12-23ƒbzi209A/02 ƒa200 CC 7200 A332ƒf004ƒddƒhCC 7200 A332ƒx00247C/02 ƒ9487772423ƒ8Universität Mainz, Bereichsbibliothek Philosophicum, RVK-Aufstellung201B/03 ƒ007-12-23ƒt10:54:00.000201C/03 ƒ007-12-23201U/03 ƒ0utf8203@/03 ƒ01153735423208@/03 ƒa07-12-23ƒbzi209A/03 ƒa200 CC 7200 A332+2ƒf004ƒddƒhCC 7200 A332  / +2ƒx00247C/03 ƒ9487772423ƒ8Universität Mainz, Bereichsbibliothek Philosophicum, RVK-Aufstellung201B/04 ƒ005-03-25ƒt12:06:35.000201C/04 ƒ005-03-25201U/04 ƒ0utf8203@/04 ƒ01153906783208@/04 ƒa05-03-25ƒbz209A/04 ƒaBatchƒf000ƒx00209G/04 ƒaMAGƒx01247C/04 ƒ9102599602ƒ8Universität Mainz, Zentralbibliothek]]></rawrecord>
+  </record>
+</collection>

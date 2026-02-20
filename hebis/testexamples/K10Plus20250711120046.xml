@@ -1,0 +1,4256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<collection count="17">
+  <record>
+    <status>upsert</status>
+    <hrid>225107570</hrid>
+    <metadata>
+      <datafield tag="001@" fulltag="001@">
+        <subfield code="0">22,31,2030</subfield>
+      </datafield>
+      <datafield tag="001A" fulltag="001A">
+        <subfield code="0">0018:05-03-97</subfield>
+      </datafield>
+      <datafield tag="001B" fulltag="001B">
+        <subfield code="0">MZUB:07-07-25</subfield>
+        <subfield code="t">15:04:22.000</subfield>
+      </datafield>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">0027:22-07-13</subfield>
+      </datafield>
+      <datafield tag="001U" fulltag="001U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="001X" fulltag="001X">
+        <subfield code="0">0</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Aau</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+        <subfield code="b">n</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Band</subfield>
+        <subfield code="b">nc</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">225107570</subfield>
+      </datafield>
+      <datafield tag="003H" fulltag="003H">
+        <subfield code="0">114537607</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">238417741</subfield>
+        <subfield code="v">2012-12-31</subfield>
+      </datafield>
+      <datafield tag="003S" fulltag="003S">
+        <subfield code="0">9225107579</subfield>
+      </datafield>
+      <datafield tag="003T" fulltag="003T">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">238417741</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">GBV</subfield>
+        <subfield code="0">225107570</subfield>
+      </datafield>
+      <datafield tag="007H" fulltag="007H">
+        <subfield code="i">HEB</subfield>
+        <subfield code="0">114537607</subfield>
+      </datafield>
+      <datafield tag="009@" fulltag="009@">
+        <subfield code="a">HEB</subfield>
+        <subfield code="b">0501</subfield>
+      </datafield>
+      <datafield tag="009@" fulltag="009@">
+        <subfield code="a">HEB</subfield>
+        <subfield code="b">0503</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">1940</subfield>
+      </datafield>
+      <datafield tag="009Q" fulltag="009Q">
+        <subfield code="a">http://scans.hebis.de/HEBCGI/show.pl?11453760_toc.pdf</subfield>
+        <subfield code="m">V:DE-603;B:DE-30</subfield>
+        <subfield code="q">application/pdf</subfield>
+        <subfield code="3">Inhaltsverzeichnis</subfield>
+        <subfield code="5">04</subfield>
+      </datafield>
+      <datafield tag="019@" fulltag="019@">
+        <subfield code="a">XA-DXDE</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Atem einer Flöte</subfield>
+        <subfield code="d">Gedichte</subfield>
+        <subfield code="h">Hans Baumann</subfield>
+      </datafield>
+      <datafield tag="028A" fulltag="028A">
+        <subfield code="9">134265653</subfield>
+        <subfield code="8">Baumann, Hans *1914-1988* ; ID: gnd/11882404X</subfield>
+      </datafield>
+      <datafield tag="032@" fulltag="032@">
+        <subfield code="a">1. - 4. Tsd</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Leipzig</subfield>
+        <subfield code="n">Poeschel &amp; Trepte</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Jena</subfield>
+        <subfield code="n">Diederichs</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">60 S</subfield>
+      </datafield>
+      <datafield tag="045R" fulltag="045R">
+        <subfield code="9">1270901230</subfield>
+        <subfield code="8">GM 2330: G Germanistik. Niederlandistik. Skandinavistik / GE 3003-GT 1500 Deutsche Literatur / GM Das 20. Jahrhundert und Moderne I / GM 1001-GM 7651 Das 20. Jahrhundert und Moderne I. 1885 - 1945 / GM 1402-GM 7651 Literaturgeschichte / GM 2100-GM 7651 Einzelne Autoren / GM 2211-GM 2804 Autoren B / GM 2330-GM 2331 Baumann, Hans / Primärliteratur</subfield>
+      </datafield>
+      <datafield tag="046H" fulltag="046H">
+        <subfield code="a">Vorlage des Erscheinungsvermerks: Eugen Diederichs Verlag Jena. - Auf der Titelrücks.: Druck von Poeschel &amp; Trepte in Leipzig</subfield>
+      </datafield>
+      <item epn="6010919134">
+        <datafield tag="201A" occurrence="01" fulltag="201A/01">
+          <subfield code="0">07-07-25</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">07-07-25</subfield>
+          <subfield code="t">15:04:22.000</subfield>
+        </datafield>
+        <datafield tag="201D" occurrence="01" fulltag="201D/01">
+          <subfield code="0">MZUB:13-12-08</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">6010919134</subfield>
+        </datafield>
+        <datafield tag="203H" occurrence="01" fulltag="203H/01">
+          <subfield code="0">564842605</subfield>
+        </datafield>
+        <datafield tag="206W" occurrence="01" fulltag="206W/01">
+          <subfield code="0">223-0672</subfield>
+        </datafield>
+        <datafield tag="206X" occurrence="01" fulltag="206X/01">
+          <subfield code="0">564842605</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">13-12-08</subfield>
+          <subfield code="b">l01</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="B">77</subfield>
+          <subfield code="a">AG 1430</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">konv</subfield>
+          <subfield code="x">12</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="01" fulltag="209C/01">
+          <subfield code="a">1967 G 851</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">40607539</subfield>
+        </datafield>
+      </item>
+    </metadata>
+    <rawrecord><![CDATA[001@ ƒ022,31,2030
+001A ƒ00018:05-03-97
+001B ƒ0MZUB:07-07-25ƒt15:04:22.000
+001D ƒ00027:22-07-13
+001U ƒ0utf8
+001X ƒ00
+002@ ƒ0Aau
+002C ƒaTextƒbtxt
+002D ƒaohne Hilfsmittel zu benutzenƒbn
+002E ƒaBandƒbnc
+003@ ƒ0225107570
+003H ƒ0114537607
+003O ƒaOCoLCƒ0238417741ƒv2012-12-31
+003S ƒ09225107579
+003T ƒaOCoLCƒ0238417741
+007G ƒiGBVƒ0225107570
+007H ƒiHEBƒ0114537607
+009@ ƒaHEBƒb0501
+009@ ƒaHEBƒb0503
+010@ ƒager
+011@ ƒa1940
+009Q ƒahttp://scans.hebis.de/HEBCGI/show.pl?11453760_toc.pdfƒmV:DE-603;B:DE-30ƒqapplication/pdfƒ3Inhaltsverzeichnisƒ504
+019@ ƒaXA-DXDE
+021A ƒaAtem einer FlöteƒdGedichteƒhHans Baumann
+028A ƒ9134265653ƒ8Baumann, Hans *1914-1988* ; ID: gnd/11882404X
+032@ ƒa1. - 4. Tsd
+033A ƒpLeipzigƒnPoeschel & Trepte
+033A ƒpJenaƒnDiederichs
+034D ƒa60 S
+045R ƒ91270901230ƒ8GM 2330: G$jGermanistik. Niederlandistik. Skandinavistik / GE 3003-GT 1500$jDeutsche Literatur / GM$jDas 20. Jahrhundert und Moderne I / GM 1001-GM 7651$jDas 20. Jahrhundert und Moderne I. 1885 - 1945 / GM 1402-GM 7651$jLiteraturgeschichte / GM 2100-GM 7651$jEinzelne Autoren / GM 2211-GM 2804$jAutoren B / GM 2330-GM 2331$jBaumann, Hans / Primärliteratur
+046H ƒaVorlage des Erscheinungsvermerks: Eugen Diederichs Verlag Jena. - Auf der Titelrücks.: Druck von Poeschel & Trepte in Leipzig
+
+201A/01 ƒ007-07-25
+201B/01 ƒ007-07-25ƒt15:04:22.000
+201D/01 ƒ0MZUB:13-12-08
+201U/01 ƒ0utf8
+203@/01 ƒ06010919134
+203H/01 ƒ0564842605
+206W/01 ƒ0223-0672
+206X/01 ƒ0564842605
+208@/01 ƒa13-12-08ƒbl01
+209A/01 ƒB77ƒaAG 1430ƒx00
+209B/01 ƒakonvƒx12
+209C/01 ƒa1967 G 851ƒx00
+209G/01 ƒa40607539
+
+]]></rawrecord>
+  </record>
+  <record>
+    <status>upsert</status>
+    <hrid>1005560161</hrid>
+    <metadata>
+      <datafield tag="001@" fulltag="001@">
+        <subfield code="0">11,267,2030,4038,4253,4302,4320</subfield>
+      </datafield>
+      <datafield tag="001A" fulltag="001A">
+        <subfield code="0">2004:24-11-17</subfield>
+      </datafield>
+      <datafield tag="001B" fulltag="001B">
+        <subfield code="0">BSZ:04-06-25</subfield>
+        <subfield code="t">12:27:44.000</subfield>
+      </datafield>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">2004:29-11-17</subfield>
+      </datafield>
+      <datafield tag="001U" fulltag="001U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="001X" fulltag="001X">
+        <subfield code="0">0</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Abv</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+        <subfield code="b">n</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Band</subfield>
+        <subfield code="b">nc</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">1005560161</subfield>
+      </datafield>
+      <datafield tag="003H" fulltag="003H">
+        <subfield code="0">421530146</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">1368977953</subfield>
+        <subfield code="v">2024-04-02</subfield>
+      </datafield>
+      <datafield tag="003S" fulltag="003S">
+        <subfield code="0">495705446</subfield>
+      </datafield>
+      <datafield tag="006G" fulltag="006G">
+        <subfield code="0">1145333079</subfield>
+      </datafield>
+      <datafield tag="006U" fulltag="006U">
+        <subfield code="0">18,B05</subfield>
+      </datafield>
+      <datafield tag="006Y" fulltag="006Y">
+        <subfield code="0">zdb1145333079</subfield>
+      </datafield>
+      <datafield tag="006Z" fulltag="006Z">
+        <subfield code="0">2912459-1</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">ZDB</subfield>
+        <subfield code="0">2912459-1</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+      </datafield>
+      <datafield tag="010E" fulltag="010E">
+        <subfield code="e">rda</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2017</subfield>
+        <subfield code="b">2017</subfield>
+        <subfield code="n">November 2017</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">10454466X</subfield>
+        <subfield code="8">Zeitschrift ; ID: gnd/4067488-5</subfield>
+      </datafield>
+      <datafield tag="018@" fulltag="018@">
+        <subfield code="a">z</subfield>
+      </datafield>
+      <datafield tag="019@" fulltag="019@">
+        <subfield code="a">XA-DE</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Rheinland-Pfalz 2060</subfield>
+      </datafield>
+      <datafield tag="021C" fulltag="021C">
+        <subfield code="a">Auswirkungen des demografischen Wandels auf den Pflegebedarf</subfield>
+        <subfield code="d">(Basisjahr ...)</subfield>
+      </datafield>
+      <datafield tag="027A" fulltag="027A">
+        <subfield code="a">Statistische Analysen</subfield>
+      </datafield>
+      <datafield tag="029F" fulltag="029F">
+        <subfield code="9">100838162</subfield>
+        <subfield code="8">Rheinland-Pfalz Statistisches Landesamt ; ID: gnd/36467-8</subfield>
+        <subfield code="B">Herausgebendes Organ</subfield>
+        <subfield code="4">isb</subfield>
+      </datafield>
+      <datafield tag="031@" fulltag="031@">
+        <subfield code="a">2015 ; damit Erscheinen eingestellt</subfield>
+      </datafield>
+      <datafield tag="031N" fulltag="031N">
+        <subfield code="j">2015</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Bad Ems</subfield>
+        <subfield code="n">Statistisches Landesamt Rheinland-Pfalz</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">Bände</subfield>
+      </datafield>
+      <datafield tag="034I" fulltag="034I">
+        <subfield code="a">30 cm</subfield>
+      </datafield>
+      <datafield tag="036E" fulltag="036E">
+        <subfield code="a">Statistik nutzen</subfield>
+      </datafield>
+      <datafield tag="037A" fulltag="037A">
+        <subfield code="a">Bände zugleich einzelne Bände von: Statistische Analysen</subfield>
+      </datafield>
+      <datafield tag="037A" fulltag="037A">
+        <subfield code="a">2011-2014 nicht erschienen</subfield>
+      </datafield>
+      <datafield tag="039D" fulltag="039D">
+        <subfield code="i">Erscheint auch als</subfield>
+        <subfield code="n">Online-Ausgabe</subfield>
+        <subfield code="9">1024199037</subfield>
+        <subfield code="8">Rheinland-Pfalz 2060. Auswirkungen des demografischen Wandels auf den Pflegebedarf / Rheinland-Pfalz ; ID: gnd/4049795-1. - Bad Ems : Statistisches Landesamt Rheinland-Pfalz, November 2017 ; ZDB-ID: 2932302-2</subfield>
+        <subfield code="C">DNB</subfield>
+        <subfield code="6">1160775486</subfield>
+      </datafield>
+      <datafield tag="039E" fulltag="039E">
+        <subfield code="b">f</subfield>
+        <subfield code="i">Fortsetzung von</subfield>
+        <subfield code="9">1005562989</subfield>
+        <subfield code="8">Rheinland-Pfalz 2050. Auswirkungen des demografischen Wandels auf den Pflegebedarf ; ZDB-ID: 2912472-4</subfield>
+        <subfield code="C">DNB</subfield>
+        <subfield code="6">1145334741</subfield>
+      </datafield>
+      <datafield tag="044K" fulltag="044K">
+        <subfield code="9">106185543</subfield>
+        <subfield code="8">Rheinland-Pfalz ; ID: gnd/4049795-1</subfield>
+      </datafield>
+      <datafield tag="044K" fulltag="044K">
+        <subfield code="9">10637804X</subfield>
+        <subfield code="8">Bevölkerungsentwicklung ; ID: gnd/4006292-2</subfield>
+      </datafield>
+      <datafield tag="044K" fulltag="044K">
+        <subfield code="9">504062468</subfield>
+        <subfield code="8">Pflegebedarf ; ID: gnd/4997375-7</subfield>
+      </datafield>
+      <datafield tag="045G" fulltag="045G">
+        <subfield code="a">360</subfield>
+        <subfield code="a">310</subfield>
+        <subfield code="k">maschinell generiert dnb</subfield>
+        <subfield code="v">20180125</subfield>
+        <subfield code="A">DE-101</subfield>
+      </datafield>
+      <datafield tag="045G" fulltag="045G">
+        <subfield code="a">310</subfield>
+        <subfield code="a">330</subfield>
+        <subfield code="A">DE-600</subfield>
+      </datafield>
+      <datafield tag="045Q" occurrence="01" fulltag="045Q/01">
+        <subfield code="9">106412140</subfield>
+        <subfield code="8">74.80 Demographie Geographie</subfield>
+      </datafield>
+      <datafield tag="045Q" occurrence="01" fulltag="045Q/01">
+        <subfield code="9">106409034</subfield>
+        <subfield code="8">44.17 Stationäres Gesundheitswesen Krankenhauswesen</subfield>
+      </datafield>
+      <datafield tag="045Q" occurrence="01" fulltag="045Q/01">
+        <subfield code="9">106412922</subfield>
+        <subfield code="8">79.13 Altenhilfe</subfield>
+      </datafield>
+      <datafield tag="046X" fulltag="046X">
+        <subfield code="a">aa</subfield>
+        <subfield code="f">PERP</subfield>
+        <subfield code="5">DE-929</subfield>
+      </datafield>
+      <datafield tag="047B" fulltag="047B">
+        <subfield code="a">Kopie;101b!(28-03-22)</subfield>
+      </datafield>
+      <item epn="6007674126">
+        <datafield tag="201A" occurrence="01" fulltag="201A/01">
+          <subfield code="0">29-11-19</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">29-01-24</subfield>
+          <subfield code="t">17:01:08.000</subfield>
+        </datafield>
+        <datafield tag="201D" occurrence="01" fulltag="201D/01">
+          <subfield code="0">MZUB:29-11-19</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">6007674126</subfield>
+        </datafield>
+        <datafield tag="203H" occurrence="01" fulltag="203H/01">
+          <subfield code="0">1071228676</subfield>
+        </datafield>
+        <datafield tag="206Z" occurrence="01" fulltag="206Z/01">
+          <subfield code="0">653907117</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">29-11-19</subfield>
+          <subfield code="b">z01</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="B">77</subfield>
+          <subfield code="f">000</subfield>
+          <subfield code="a">4° Y 8288</subfield>
+          <subfield code="J">l</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="f">MAG</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="231@" occurrence="01" fulltag="231@/01">
+          <subfield code="j">2015</subfield>
+        </datafield>
+        <datafield tag="231B" occurrence="01" fulltag="231B/01">
+          <subfield code="g">1</subfield>
+          <subfield code="a">2015</subfield>
+        </datafield>
+      </item>
+    </metadata>
+    <rawrecord><![CDATA[001@ ƒ011,267,2030,4038,4253,4302,4320
+001A ƒ02004:24-11-17
+001B ƒ0BSZ:04-06-25ƒt12:27:44.000
+001D ƒ02004:29-11-17
+001U ƒ0utf8
+001X ƒ00
+002@ ƒ0Abv
+002C ƒaTextƒbtxt
+002D ƒaohne Hilfsmittel zu benutzenƒbn
+002E ƒaBandƒbnc
+003@ ƒ01005560161
+003H ƒ0421530146
+003O ƒaOCoLCƒ01368977953ƒv2024-04-02
+003S ƒ0495705446
+006G ƒ01145333079
+006U ƒ018,B05
+006Y ƒ0zdb1145333079
+006Z ƒ02912459-1
+007G ƒiZDBƒ02912459-1
+010@ ƒager
+010E ƒerda
+011@ ƒa2017ƒb2017ƒnNovember 2017
+013D ƒ910454466Xƒ8Zeitschrift ; ID: gnd/4067488-5
+018@ ƒaz
+019@ ƒaXA-DE
+021A ƒaRheinland-Pfalz 2060
+021C ƒaAuswirkungen des demografischen Wandels auf den Pflegebedarfƒd(Basisjahr ...)
+027A ƒaStatistische Analysen
+029F ƒ9100838162ƒ8Rheinland-Pfalz$bStatistisches Landesamt ; ID: gnd/36467-8ƒBHerausgebendes Organƒ4isb
+031@ ƒa2015 ; damit Erscheinen eingestellt
+031N ƒj2015
+033A ƒpBad EmsƒnStatistisches Landesamt Rheinland-Pfalz
+034D ƒaBände
+034I ƒa30 cm
+036E ƒaStatistik nutzen
+037A ƒaBände zugleich einzelne Bände von: Statistische Analysen
+037A ƒa2011-2014 nicht erschienen
+039D ƒiErscheint auch alsƒnOnline-Ausgabeƒ91024199037ƒ8Rheinland-Pfalz 2060. Auswirkungen des demografischen Wandels auf den Pflegebedarf / Rheinland-Pfalz ; ID: gnd/4049795-1. - Bad Ems : Statistisches Landesamt Rheinland-Pfalz, November 2017 ; ZDB-ID: 2932302-2ƒCDNBƒ61160775486
+039E ƒbfƒiFortsetzung vonƒ91005562989ƒ8Rheinland-Pfalz 2050. Auswirkungen des demografischen Wandels auf den Pflegebedarf ; ZDB-ID: 2912472-4ƒCDNBƒ61145334741
+044K ƒ9106185543ƒ8Rheinland-Pfalz ; ID: gnd/4049795-1
+044K ƒ910637804Xƒ8Bevölkerungsentwicklung ; ID: gnd/4006292-2
+044K ƒ9504062468ƒ8Pflegebedarf ; ID: gnd/4997375-7
+045G ƒa360ƒa310ƒkmaschinell generiert dnbƒv20180125ƒADE-101
+045G ƒa310ƒa330ƒADE-600
+045Q/01 ƒ9106412140ƒ874.80$jDemographie$XGeographie
+045Q/01 ƒ9106409034ƒ844.17$jStationäres Gesundheitswesen$jKrankenhauswesen
+045Q/01 ƒ9106412922ƒ879.13$jAltenhilfe
+046X ƒaaaƒfPERPƒ5DE-929
+047B ƒaKopie;101b!(28-03-22)
+
+201A/01 ƒ029-11-19
+201B/01 ƒ029-01-24ƒt17:01:08.000
+201D/01 ƒ0MZUB:29-11-19
+201U/01 ƒ0utf8
+203@/01 ƒ06007674126
+203H/01 ƒ01071228676
+206Z/01 ƒ0653907117
+208@/01 ƒa29-11-19ƒbz01
+209A/01 ƒB77ƒf000ƒa4° Y 8288ƒJlƒx00
+209A/01 ƒfMAGƒx01
+231@/01 ƒj2015
+231B/01 ƒg1ƒa2015
+
+]]></rawrecord>
+  </record>
+  <record>
+    <status>upsert</status>
+    <hrid>126133085</hrid>
+    <metadata>
+      <datafield tag="001@" fulltag="001@">
+        <subfield code="0">21-22,40,72,227,674,692,2030</subfield>
+      </datafield>
+      <datafield tag="001A" fulltag="001A">
+        <subfield code="0">2000:02-07-93</subfield>
+      </datafield>
+      <datafield tag="001B" fulltag="001B">
+        <subfield code="0">MZUB:07-07-25</subfield>
+        <subfield code="t">17:38:00.000</subfield>
+      </datafield>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">9999:99-99-99</subfield>
+      </datafield>
+      <datafield tag="001U" fulltag="001U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="001X" fulltag="001X">
+        <subfield code="0">0</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Acn</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">kartografisches Bild</subfield>
+        <subfield code="b">cri</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+        <subfield code="b">n</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">126133085</subfield>
+      </datafield>
+      <datafield tag="003H" fulltag="003H">
+        <subfield code="0">114390010</subfield>
+      </datafield>
+      <datafield tag="003S" fulltag="003S">
+        <subfield code="0">9126133083</subfield>
+      </datafield>
+      <datafield tag="003T" fulltag="003T">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">174855730</subfield>
+      </datafield>
+      <datafield tag="006Y" fulltag="006Y">
+        <subfield code="0">002229986</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">GBV</subfield>
+        <subfield code="0">126133085</subfield>
+      </datafield>
+      <datafield tag="007H" fulltag="007H">
+        <subfield code="i">HEB</subfield>
+        <subfield code="0">114390010</subfield>
+      </datafield>
+      <datafield tag="009@" fulltag="009@">
+        <subfield code="a">HEB</subfield>
+        <subfield code="b">0501</subfield>
+      </datafield>
+      <datafield tag="009@" fulltag="009@">
+        <subfield code="a">HEB</subfield>
+        <subfield code="b">0503</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">1963</subfield>
+        <subfield code="n">1963-</subfield>
+      </datafield>
+      <datafield tag="013H" fulltag="013H">
+        <subfield code="a">kart</subfield>
+      </datafield>
+      <datafield tag="019@" fulltag="019@">
+        <subfield code="a">XA-DE</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Gaußsche Landesaufnahme der 1815 durch Hannover erworbenen Gebiete</subfield>
+        <subfield code="h">hrsg. von der Historischen Kommission für Niedersachsen. [Aufgenommen: Carl Friedrich Gauss]</subfield>
+      </datafield>
+      <datafield tag="027A" fulltag="027A">
+        <subfield code="a">Landesaufnahme der 1815 durch Hannover erworbenen Gebiete</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">133847047</subfield>
+        <subfield code="8">Gauß, Carl Friedrich *1777-1855* ; ID: gnd/104234644</subfield>
+      </datafield>
+      <datafield tag="029F" fulltag="029F">
+        <subfield code="9">101748868</subfield>
+        <subfield code="8">Historische Kommission für Niedersachsen und Bremen ; ID: gnd/2012067-9</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Hannover</subfield>
+        <subfield code="n">Schmorl &amp; von Seefeld</subfield>
+      </datafield>
+      <datafield tag="035E" fulltag="035E">
+        <subfield code="a">1:25.000 (Maßstab der Originalkt. 1:21.333 1/3)</subfield>
+      </datafield>
+      <datafield tag="036E" fulltag="036E">
+        <subfield code="a">Veröffentlichungen der Historischen Kommission für Niedersachsen</subfield>
+        <subfield code="l">28</subfield>
+      </datafield>
+      <datafield tag="045Y" fulltag="045Y">
+        <subfield code="a">ggo</subfield>
+      </datafield>
+      <datafield tag="046C" fulltag="046C">
+        <subfield code="i">Nebent.</subfield>
+        <subfield code="a">Landesaufnahme der 1815 durch Hannover erworbenen Gebiete</subfield>
+      </datafield>
+      <item epn="6011967124">
+        <datafield tag="201A" occurrence="01" fulltag="201A/01">
+          <subfield code="0">07-07-25</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">07-07-25</subfield>
+          <subfield code="t">17:38:00.000</subfield>
+        </datafield>
+        <datafield tag="201D" occurrence="01" fulltag="201D/01">
+          <subfield code="0">MZUB:03-11-03</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">6011967124</subfield>
+        </datafield>
+        <datafield tag="203H" occurrence="01" fulltag="203H/01">
+          <subfield code="0">189379960</subfield>
+        </datafield>
+        <datafield tag="206X" occurrence="01" fulltag="206X/01">
+          <subfield code="0">189379960</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">03-11-03</subfield>
+          <subfield code="b">l01</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="B">77</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">konv</subfield>
+          <subfield code="x">12</subfield>
+        </datafield>
+      </item>
+    </metadata>
+    <rawrecord><![CDATA[001@ ƒ021-22,40,72,227,674,692,2030
+001A ƒ02000:02-07-93
+001B ƒ0MZUB:07-07-25ƒt17:38:00.000
+001D ƒ09999:99-99-99
+001U ƒ0utf8
+001X ƒ00
+002@ ƒ0Acn
+002C ƒakartografisches Bildƒbcri
+002D ƒaohne Hilfsmittel zu benutzenƒbn
+003@ ƒ0126133085
+003H ƒ0114390010
+003S ƒ09126133083
+003T ƒaOCoLCƒ0174855730
+006Y ƒ0002229986
+007G ƒiGBVƒ0126133085
+007H ƒiHEBƒ0114390010
+009@ ƒaHEBƒb0501
+009@ ƒaHEBƒb0503
+010@ ƒager
+011@ ƒa1963ƒn1963-
+013H ƒakart
+019@ ƒaXA-DE
+021A ƒaGaußsche Landesaufnahme der 1815 durch Hannover erworbenen Gebieteƒhhrsg. von der Historischen Kommission für Niedersachsen. [Aufgenommen: Carl Friedrich Gauss]
+027A ƒaLandesaufnahme der 1815 durch Hannover erworbenen Gebiete
+028C ƒ9133847047ƒ8Gauß, Carl Friedrich *1777-1855* ; ID: gnd/104234644
+029F ƒ9101748868ƒ8Historische Kommission für Niedersachsen und Bremen ; ID: gnd/2012067-9
+033A ƒpHannoverƒnSchmorl & von Seefeld
+035E ƒa1:25.000 (Maßstab der Originalkt. 1:21.333 1/3)
+036E ƒaVeröffentlichungen der Historischen Kommission für Niedersachsenƒl28
+045Y ƒaggo
+046C ƒiNebent.ƒaLandesaufnahme der 1815 durch Hannover erworbenen Gebiete
+
+201A/01 ƒ007-07-25
+201B/01 ƒ007-07-25ƒt17:38:00.000
+201D/01 ƒ0MZUB:03-11-03
+201U/01 ƒ0utf8
+203@/01 ƒ06011967124
+203H/01 ƒ0189379960
+206X/01 ƒ0189379960
+208@/01 ƒa03-11-03ƒbl01
+209A/01 ƒB77ƒx00
+209B/01 ƒakonvƒx12
+
+]]></rawrecord>
+  </record>
+  <record>
+    <status>upsert</status>
+    <hrid>842607412</hrid>
+    <metadata>
+      <datafield tag="001@" fulltag="001@">
+        <subfield code="0">11,40,179,181,267,2002,2010-2012,2030</subfield>
+      </datafield>
+      <datafield tag="001A" fulltag="001A">
+        <subfield code="0">2004:09-12-15</subfield>
+      </datafield>
+      <datafield tag="001B" fulltag="001B">
+        <subfield code="0">BSZ:04-06-25</subfield>
+        <subfield code="t">14:03:41.000</subfield>
+      </datafield>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">2004:09-12-15</subfield>
+      </datafield>
+      <datafield tag="001U" fulltag="001U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="001X" fulltag="001X">
+        <subfield code="0">0</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Adv</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+        <subfield code="b">n</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Band</subfield>
+        <subfield code="b">nc</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">842607412</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">1226309214</subfield>
+        <subfield code="v">2023-12-04</subfield>
+      </datafield>
+      <datafield tag="003S" fulltag="003S">
+        <subfield code="0">452773962</subfield>
+      </datafield>
+      <datafield tag="005A" fulltag="005A">
+        <subfield code="0">2510-4012</subfield>
+      </datafield>
+      <datafield tag="005I" fulltag="005I">
+        <subfield code="0">2510-4012</subfield>
+        <subfield code="f">Studien zu altägyptischen Totentexten</subfield>
+      </datafield>
+      <datafield tag="005P" fulltag="005P">
+        <subfield code="S">o</subfield>
+        <subfield code="0">2942-6146</subfield>
+      </datafield>
+      <datafield tag="006G" fulltag="006G">
+        <subfield code="0">107960619X</subfield>
+      </datafield>
+      <datafield tag="006H" fulltag="006H">
+        <subfield code="0">367143704</subfield>
+      </datafield>
+      <datafield tag="006U" fulltag="006U">
+        <subfield code="0">16,A44</subfield>
+      </datafield>
+      <datafield tag="006Z" fulltag="006Z">
+        <subfield code="0">2841443-3</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">ZDB</subfield>
+        <subfield code="0">2841443-3</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+        <subfield code="a">fre</subfield>
+      </datafield>
+      <datafield tag="010E" fulltag="010E">
+        <subfield code="e">rda</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2015</subfield>
+        <subfield code="n">2015-</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">104628669</subfield>
+        <subfield code="8">Monografische Reihe ; ID: gnd/4179998-7</subfield>
+      </datafield>
+      <datafield tag="018@" fulltag="018@">
+        <subfield code="a">z</subfield>
+      </datafield>
+      <datafield tag="019@" fulltag="019@">
+        <subfield code="a">XA-DE</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Studien zu altägyptischen Totentexten</subfield>
+      </datafield>
+      <datafield tag="031@" fulltag="031@">
+        <subfield code="a">Band 19-</subfield>
+      </datafield>
+      <datafield tag="031N" fulltag="031N">
+        <subfield code="d">19</subfield>
+        <subfield code="j">2015</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Wiesbaden</subfield>
+        <subfield code="n">Harrassowitz Verlag</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">Bände</subfield>
+      </datafield>
+      <datafield tag="034I" fulltag="034I">
+        <subfield code="a">31 cm</subfield>
+      </datafield>
+      <datafield tag="039D" fulltag="039D">
+        <subfield code="i">Erscheint auch als</subfield>
+        <subfield code="n">Online-Ausgabe</subfield>
+        <subfield code="9">1871850614</subfield>
+        <subfield code="8">Studien zu altägyptischen Totentexten. - Wiesbaden : Harrassowitz Verlag, 2015- ; ZDB-ID: 3173635-X</subfield>
+        <subfield code="C">ISSN</subfield>
+        <subfield code="6">2942-6146</subfield>
+        <subfield code="C">DNB</subfield>
+        <subfield code="6">1312098392</subfield>
+      </datafield>
+      <datafield tag="039E" fulltag="039E">
+        <subfield code="b">f</subfield>
+        <subfield code="i">Fortsetzung von</subfield>
+        <subfield code="9">52828522X</subfield>
+        <subfield code="8">Studien zum altägyptischen Totenbuch ; ZDB-ID: 2287222-X</subfield>
+        <subfield code="C">ISSN</subfield>
+        <subfield code="6">1430-9726</subfield>
+        <subfield code="C">DNB</subfield>
+        <subfield code="6">952766027</subfield>
+      </datafield>
+      <datafield tag="045G" fulltag="045G">
+        <subfield code="a">290</subfield>
+        <subfield code="a">930</subfield>
+        <subfield code="A">DE-101</subfield>
+      </datafield>
+      <datafield tag="045G" fulltag="045G">
+        <subfield code="a">290</subfield>
+        <subfield code="a">930</subfield>
+        <subfield code="A">DE-600</subfield>
+      </datafield>
+      <item epn="600881021X">
+        <datafield tag="201A" occurrence="01" fulltag="201A/01">
+          <subfield code="0">20-06-25</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">20-06-25</subfield>
+          <subfield code="t">16:36:13.000</subfield>
+        </datafield>
+        <datafield tag="201D" occurrence="01" fulltag="201D/01">
+          <subfield code="0">MZUB:08-04-16</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">600881021X</subfield>
+        </datafield>
+        <datafield tag="203H" occurrence="01" fulltag="203H/01">
+          <subfield code="0">770959334</subfield>
+        </datafield>
+        <datafield tag="206X" occurrence="01" fulltag="206X/01">
+          <subfield code="0">770959334</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">08-04-16</subfield>
+          <subfield code="b">l01</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="B">77</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">konv</subfield>
+          <subfield code="x">12</subfield>
+        </datafield>
+      </item>
+    </metadata>
+    <rawrecord><![CDATA[001@ ƒ011,40,179,181,267,2002,2010-2012,2030
+001A ƒ02004:09-12-15
+001B ƒ0BSZ:04-06-25ƒt14:03:41.000
+001D ƒ02004:09-12-15
+001U ƒ0utf8
+001X ƒ00
+002@ ƒ0Adv
+002C ƒaTextƒbtxt
+002D ƒaohne Hilfsmittel zu benutzenƒbn
+002E ƒaBandƒbnc
+003@ ƒ0842607412
+003O ƒaOCoLCƒ01226309214ƒv2023-12-04
+003S ƒ0452773962
+005A ƒ02510-4012
+005I ƒ02510-4012ƒfStudien zu altägyptischen Totentexten
+005P ƒSoƒ02942-6146
+006G ƒ0107960619X
+006H ƒ0367143704
+006U ƒ016,A44
+006Z ƒ02841443-3
+007G ƒiZDBƒ02841443-3
+010@ ƒagerƒafre
+010E ƒerda
+011@ ƒa2015ƒn2015-
+013D ƒ9104628669ƒ8Monografische Reihe ; ID: gnd/4179998-7
+018@ ƒaz
+019@ ƒaXA-DE
+021A ƒaStudien zu altägyptischen Totentexten
+031@ ƒaBand 19-
+031N ƒd19ƒj2015ƒ6
+033A ƒpWiesbadenƒnHarrassowitz Verlag
+034D ƒaBände
+034I ƒa31 cm
+039D ƒiErscheint auch alsƒnOnline-Ausgabeƒ91871850614ƒ8Studien zu altägyptischen Totentexten. - Wiesbaden : Harrassowitz Verlag, 2015- ; ZDB-ID: 3173635-XƒCISSNƒ62942-6146ƒCDNBƒ61312098392
+039E ƒbfƒiFortsetzung vonƒ952828522Xƒ8Studien zum altägyptischen Totenbuch ; ZDB-ID: 2287222-XƒCISSNƒ61430-9726ƒCDNBƒ6952766027
+045G ƒa290ƒa930ƒADE-101
+045G ƒa290ƒa930ƒADE-600
+
+201A/01 ƒ020-06-25
+201B/01 ƒ020-06-25ƒt16:36:13.000
+201D/01 ƒ0MZUB:08-04-16
+201U/01 ƒ0utf8
+203@/01 ƒ0600881021X
+203H/01 ƒ0770959334
+206X/01 ƒ0770959334
+208@/01 ƒa08-04-16ƒbl01
+209A/01 ƒB77ƒx00
+209B/01 ƒakonvƒx12
+
+]]></rawrecord>
+  </record>
+  <record>
+    <status>upsert</status>
+    <hrid>244132410</hrid>
+    <metadata>
+      <datafield tag="001@" fulltag="001@">
+        <subfield code="0">11,22,24,31,40,65,69,72,104,181,2030</subfield>
+      </datafield>
+      <datafield tag="001A" fulltag="001A">
+        <subfield code="0">0003:27-05-98</subfield>
+      </datafield>
+      <datafield tag="001B" fulltag="001B">
+        <subfield code="0">MZUB:07-07-25</subfield>
+        <subfield code="t">15:06:17.000</subfield>
+      </datafield>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">9999:99-99-99</subfield>
+      </datafield>
+      <datafield tag="001U" fulltag="001U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="001X" fulltag="001X">
+        <subfield code="0">0</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Aau</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+        <subfield code="b">n</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Band</subfield>
+        <subfield code="b">nc</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">244132410</subfield>
+      </datafield>
+      <datafield tag="003H" fulltag="003H">
+        <subfield code="0">11462156X</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">230700793</subfield>
+        <subfield code="v">2012-12-31</subfield>
+      </datafield>
+      <datafield tag="003S" fulltag="003S">
+        <subfield code="0">9244132419</subfield>
+      </datafield>
+      <datafield tag="003T" fulltag="003T">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">431524215</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">GBV</subfield>
+        <subfield code="0">244132410</subfield>
+      </datafield>
+      <datafield tag="007H" fulltag="007H">
+        <subfield code="i">HEB</subfield>
+        <subfield code="0">11462156X</subfield>
+      </datafield>
+      <datafield tag="009@" fulltag="009@">
+        <subfield code="a">HEB</subfield>
+        <subfield code="b">0501</subfield>
+      </datafield>
+      <datafield tag="009@" fulltag="009@">
+        <subfield code="a">HEB</subfield>
+        <subfield code="b">0503</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">1940</subfield>
+      </datafield>
+      <datafield tag="019@" fulltag="019@">
+        <subfield code="a">XA-DK</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Papyrus Carlsberg No. 1</subfield>
+        <subfield code="d">ein hieratisch-demotischer kosmologischer Text</subfield>
+        <subfield code="h">hrsg. und bearb. von H. O. Lange und O. Neugebauer</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">134658507</subfield>
+        <subfield code="8">Lange, Hans O. *1863-1943* ; ID: gnd/116688998</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">078415497</subfield>
+        <subfield code="8">Neugebauer, Otto *1899-1990* ; ID: gnd/11695471X</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">København</subfield>
+        <subfield code="n">Munksgaard</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">92 S., VII Taf., 31 Faltbl.</subfield>
+      </datafield>
+      <datafield tag="034M" fulltag="034M">
+        <subfield code="a">Ill.</subfield>
+      </datafield>
+      <datafield tag="036E" fulltag="036E">
+        <subfield code="a">Historisk-filologiske skrifter</subfield>
+        <subfield code="l">1,2</subfield>
+      </datafield>
+      <datafield tag="036F" fulltag="036F">
+        <subfield code="X">102</subfield>
+        <subfield code="9">129481718</subfield>
+        <subfield code="8">Historisk-filologiske skrifter ; ZDB-ID: 204516-3</subfield>
+        <subfield code="l">1,2</subfield>
+      </datafield>
+      <datafield tag="045Q" occurrence="01" fulltag="045Q/01">
+        <subfield code="9">106423193</subfield>
+        <subfield code="8">18.72 Ägyptische Sprache und Literatur</subfield>
+      </datafield>
+      <datafield tag="045Q" occurrence="01" fulltag="045Q/01">
+        <subfield code="9">106404547</subfield>
+        <subfield code="8">17.98 Textsammlungen</subfield>
+      </datafield>
+      <datafield tag="045R" fulltag="045R">
+        <subfield code="9">1271323605</subfield>
+        <subfield code="8">EO 2390: E Allgemeine und vergleichende Sprach- und Literaturwissenschaft. Indogermanistik. Außereuropäische Sprachen und Literaturen / EO 1000-EO 4060 Ägyptische Sprache und Literatur / EO 2300-EO 2650 Ägyptische Literatur / Papyri, Ostraka, Inschriften</subfield>
+      </datafield>
+      <datafield tag="046X" fulltag="046X">
+        <subfield code="a">ba</subfield>
+        <subfield code="c">2018</subfield>
+        <subfield code="5">DE-8</subfield>
+      </datafield>
+      <datafield tag="046X" fulltag="046X">
+        <subfield code="a">eb</subfield>
+        <subfield code="c">20240324</subfield>
+        <subfield code="f">DE-4165</subfield>
+        <subfield code="z">2</subfield>
+      </datafield>
+      <item epn="601093253X">
+        <datafield tag="201A" occurrence="01" fulltag="201A/01">
+          <subfield code="0">07-07-25</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">07-07-25</subfield>
+          <subfield code="t">15:06:17.000</subfield>
+        </datafield>
+        <datafield tag="201D" occurrence="01" fulltag="201D/01">
+          <subfield code="0">MZUB:03-11-03</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">601093253X</subfield>
+        </datafield>
+        <datafield tag="203H" occurrence="01" fulltag="203H/01">
+          <subfield code="0">189910569</subfield>
+        </datafield>
+        <datafield tag="206X" occurrence="01" fulltag="206X/01">
+          <subfield code="0">189910569</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">03-11-03</subfield>
+          <subfield code="b">l01</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="B">77</subfield>
+          <subfield code="a">4° ZA 1650-1</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">konv</subfield>
+          <subfield code="x">12</subfield>
+        </datafield>
+        <datafield tag="237A" occurrence="01" fulltag="237A/01">
+          <subfield code="a">Teil eines Sammelbandes</subfield>
+        </datafield>
+      </item>
+    </metadata>
+    <rawrecord><![CDATA[001@ ƒ011,22,24,31,40,65,69,72,104,181,2030
+001A ƒ00003:27-05-98
+001B ƒ0MZUB:07-07-25ƒt15:06:17.000
+001D ƒ09999:99-99-99
+001U ƒ0utf8
+001X ƒ00
+002@ ƒ0Aau
+002C ƒaTextƒbtxt
+002D ƒaohne Hilfsmittel zu benutzenƒbn
+002E ƒaBandƒbnc
+003@ ƒ0244132410
+003H ƒ011462156X
+003O ƒaOCoLCƒ0230700793ƒv2012-12-31
+003S ƒ09244132419
+003T ƒaOCoLCƒ0431524215
+007G ƒiGBVƒ0244132410
+007H ƒiHEBƒ011462156X
+009@ ƒaHEBƒb0501
+009@ ƒaHEBƒb0503
+010@ ƒager
+011@ ƒa1940
+019@ ƒaXA-DK
+021A ƒaPapyrus Carlsberg No. 1ƒdein hieratisch-demotischer kosmologischer Textƒhhrsg. und bearb. von H. O. Lange und O. Neugebauer
+028C ƒ9134658507ƒ8Lange, Hans O. *1863-1943* ; ID: gnd/116688998
+028C ƒ9078415497ƒ8Neugebauer, Otto *1899-1990* ; ID: gnd/11695471X
+033A ƒpKøbenhavnƒnMunksgaard
+034D ƒa92 S., VII Taf., 31 Faltbl.
+034M ƒaIll.
+036E ƒaHistorisk-filologiske skrifterƒl1,2
+036F ƒX102ƒ9129481718ƒ8Historisk-filologiske skrifter ; ZDB-ID: 204516-3ƒl1,2
+045Q/01 ƒ9106423193ƒ818.72$jÄgyptische Sprache und Literatur
+045Q/01 ƒ9106404547ƒ817.98$jTextsammlungen
+045R ƒ91271323605ƒ8EO 2390: E$jAllgemeine und vergleichende Sprach- und Literaturwissenschaft. Indogermanistik. Außereuropäische Sprachen und Literaturen / EO 1000-EO 4060$jÄgyptische Sprache und Literatur / EO 2300-EO 2650$jÄgyptische Literatur / Papyri, Ostraka, Inschriften
+046X ƒabaƒc2018ƒ5DE-8
+046X ƒaebƒc20240324ƒfDE-4165ƒz2
+
+201A/01 ƒ007-07-25
+201B/01 ƒ007-07-25ƒt15:06:17.000
+201D/01 ƒ0MZUB:03-11-03
+201U/01 ƒ0utf8
+203@/01 ƒ0601093253X
+203H/01 ƒ0189910569
+206X/01 ƒ0189910569
+208@/01 ƒa03-11-03ƒbl01
+209A/01 ƒB77ƒa4° ZA 1650-1ƒx00
+209B/01 ƒakonvƒx12
+237A/01 ƒaTeil eines Sammelbandes
+
+]]></rawrecord>
+  </record>
+  <record>
+    <status>upsert</status>
+    <hrid>1881372200</hrid>
+    <metadata>
+      <datafield tag="001@" fulltag="001@">
+        <subfield code="0">11,22-23,30-31,40,65,69-70,90,127,130,603,1200,2001,2003,2005,2007,2009,2011,2014,2018,2025,2030,2038-2039,2044,4012,4027-4029,4035,4037-4038,4112,4125,4246,4266,4305-4307,4313-4316,4318,4322-4323,4325</subfield>
+      </datafield>
+      <datafield tag="001A" fulltag="001A">
+        <subfield code="0">2004:21-02-24</subfield>
+      </datafield>
+      <datafield tag="001B" fulltag="001B">
+        <subfield code="0">BSZ:04-06-25</subfield>
+        <subfield code="t">12:28:35.000</subfield>
+      </datafield>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">2004:21-02-24</subfield>
+      </datafield>
+      <datafield tag="001U" fulltag="001U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="001X" fulltag="001X">
+        <subfield code="0">0</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Obv</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">Computermedien</subfield>
+        <subfield code="b">c</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Online-Ressource</subfield>
+        <subfield code="b">cr</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">1881372200</subfield>
+      </datafield>
+      <datafield tag="003H" fulltag="003H">
+        <subfield code="0">515716057</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">1427522233</subfield>
+        <subfield code="v">2024-06-04</subfield>
+      </datafield>
+      <datafield tag="005A" fulltag="005A">
+        <subfield code="0">2756-2034</subfield>
+      </datafield>
+      <datafield tag="006G" fulltag="006G">
+        <subfield code="0">1321269773</subfield>
+      </datafield>
+      <datafield tag="006Z" fulltag="006Z">
+        <subfield code="0">3179440-3</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">ZDB</subfield>
+        <subfield code="0">3179440-3</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">eng</subfield>
+      </datafield>
+      <datafield tag="010E" fulltag="010E">
+        <subfield code="e">rda</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2018</subfield>
+        <subfield code="n">[2018]-</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">10454466X</subfield>
+        <subfield code="8">Zeitschrift ; ID: gnd/4067488-5</subfield>
+      </datafield>
+      <datafield tag="016A" fulltag="016A">
+        <subfield code="0">crxxxxxxxxxxxx</subfield>
+      </datafield>
+      <datafield tag="009P" occurrence="03" fulltag="009P/03">
+        <subfield code="a">https://educationpublishing.com/ejr/</subfield>
+        <subfield code="x">H</subfield>
+      </datafield>
+      <datafield tag="009P" occurrence="03" fulltag="009P/03">
+        <subfield code="a">https://ezb.ur.de/?3179440-3</subfield>
+        <subfield code="x">F</subfield>
+      </datafield>
+      <datafield tag="018@" fulltag="018@">
+        <subfield code="a">i</subfield>
+        <subfield code="a">f</subfield>
+      </datafield>
+      <datafield tag="019@" fulltag="019@">
+        <subfield code="a">XA-GB</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Education journal review</subfield>
+      </datafield>
+      <datafield tag="031@" fulltag="031@">
+        <subfield code="a">Volume 25, number 2 (2018)-</subfield>
+      </datafield>
+      <datafield tag="031N" fulltag="031N">
+        <subfield code="d">25</subfield>
+        <subfield code="e">2</subfield>
+        <subfield code="j">2018</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Exeter</subfield>
+        <subfield code="n">Education Publishing Company</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">Online-Ressource</subfield>
+      </datafield>
+      <datafield tag="037A" fulltag="037A">
+        <subfield code="a">Erscheint seit 2019 drei mal im Jahr</subfield>
+      </datafield>
+      <datafield tag="039E" fulltag="039E">
+        <subfield code="b">f</subfield>
+        <subfield code="i">Fortsetzung von</subfield>
+        <subfield code="9">66870988X</subfield>
+        <subfield code="8">Education review ; ZDB-ID: 2628258-6</subfield>
+        <subfield code="C">ISSN</subfield>
+        <subfield code="6">2756-2026</subfield>
+        <subfield code="C">DNB</subfield>
+        <subfield code="6">1015227554</subfield>
+      </datafield>
+      <datafield tag="039E" fulltag="039E">
+        <subfield code="b">f</subfield>
+        <subfield code="i">Fortsetzung von</subfield>
+        <subfield code="9">225863227</subfield>
+        <subfield code="8">Education review ; ZDB-ID: 1365805-0</subfield>
+        <subfield code="C">ISSN</subfield>
+        <subfield code="6">0951-7855</subfield>
+        <subfield code="C">DNB</subfield>
+        <subfield code="6">018641520</subfield>
+      </datafield>
+      <datafield tag="045G" fulltag="045G">
+        <subfield code="a">370</subfield>
+        <subfield code="A">DE-600</subfield>
+      </datafield>
+      <datafield tag="045V" fulltag="045V">
+        <subfield code="i">FID</subfield>
+        <subfield code="a">BIFO-HF</subfield>
+        <subfield code="q">DE-11</subfield>
+      </datafield>
+      <datafield tag="045V" fulltag="045V">
+        <subfield code="i">FID</subfield>
+        <subfield code="a">BIFO</subfield>
+        <subfield code="q">DE-29</subfield>
+      </datafield>
+      <datafield tag="045V" fulltag="045V">
+        <subfield code="i">FID</subfield>
+        <subfield code="a">BIFO</subfield>
+        <subfield code="q">DE-Bs78</subfield>
+      </datafield>
+      <datafield tag="045V" fulltag="045V">
+        <subfield code="i">FID</subfield>
+        <subfield code="a">BIFO</subfield>
+        <subfield code="q">DE-B478</subfield>
+      </datafield>
+      <item epn="6007739449">
+        <datafield tag="201A" occurrence="01" fulltag="201A/01">
+          <subfield code="0">06-05-24</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">20-05-24</subfield>
+          <subfield code="t">17:01:15.000</subfield>
+        </datafield>
+        <datafield tag="201D" occurrence="01" fulltag="201D/01">
+          <subfield code="0">MZU001:06-05-24</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">6007739449</subfield>
+        </datafield>
+        <datafield tag="203H" occurrence="01" fulltag="203H/01">
+          <subfield code="0">126209738X</subfield>
+        </datafield>
+        <datafield tag="206Z" occurrence="01" fulltag="206Z/01">
+          <subfield code="0">1084223031</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">06-05-24</subfield>
+          <subfield code="b">z02</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="B">77/001</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="c">8g</subfield>
+          <subfield code="d">cr uuuuuuuuuuu</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">cofz</subfield>
+          <subfield code="x">12</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="01" fulltag="209C/01">
+          <subfield code="a">e-only</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209R" occurrence="01" fulltag="209R/01">
+          <subfield code="u">https://ezb.ur.de/?3179440-3&amp;bibid=UBMZ</subfield>
+          <subfield code="x">F</subfield>
+        </datafield>
+        <datafield tag="231D" occurrence="01" fulltag="231D/01">
+          <subfield code="a">Online-Zugang nur im Netz der Universität Mainz</subfield>
+        </datafield>
+        <datafield tag="245G" occurrence="01" fulltag="245G/01">
+          <subfield code="c">ej</subfield>
+        </datafield>
+      </item>
+      <item epn="6008815254">
+        <datafield tag="201A" occurrence="02" fulltag="201A/02">
+          <subfield code="0">20-06-25</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="02" fulltag="201B/02">
+          <subfield code="0">20-06-25</subfield>
+          <subfield code="t">16:38:12.000</subfield>
+        </datafield>
+        <datafield tag="201D" occurrence="02" fulltag="201D/02">
+          <subfield code="0">MZUB:13-05-24</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="02" fulltag="201U/02">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="02" fulltag="203@/02">
+          <subfield code="0">6008815254</subfield>
+        </datafield>
+        <datafield tag="203H" occurrence="02" fulltag="203H/02">
+          <subfield code="0">1262639743</subfield>
+        </datafield>
+        <datafield tag="206X" occurrence="02" fulltag="206X/02">
+          <subfield code="0">1262639743</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="02" fulltag="208@/02">
+          <subfield code="a">13-05-24</subfield>
+          <subfield code="b">l01</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="02" fulltag="209A/02">
+          <subfield code="B">77</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="02" fulltag="209B/02">
+          <subfield code="a">konv</subfield>
+          <subfield code="x">12</subfield>
+        </datafield>
+        <datafield tag="209R" occurrence="02" fulltag="209R/02">
+          <subfield code="u">https://ezb.ur.de/?3179440-3&amp;bibid=UBMZ</subfield>
+          <subfield code="x">F</subfield>
+        </datafield>
+      </item>
+    </metadata>
+    <rawrecord><![CDATA[001@ ƒ011,22-23,30-31,40,65,69-70,90,127,130,603,1200,2001,2003,2005,2007,2009,2011,2014,2018,2025,2030,2038-2039,2044,4012,4027-4029,4035,4037-4038,4112,4125,4246,4266,4305-4307,4313-4316,4318,4322-4323,4325
+001A ƒ02004:21-02-24
+001B ƒ0BSZ:04-06-25ƒt12:28:35.000
+001D ƒ02004:21-02-24
+001U ƒ0utf8
+001X ƒ00
+002@ ƒ0Obv
+002C ƒaTextƒbtxt
+002D ƒaComputermedienƒbc
+002E ƒaOnline-Ressourceƒbcr
+003@ ƒ01881372200
+003H ƒ0515716057
+003O ƒaOCoLCƒ01427522233ƒv2024-06-04
+005A ƒ02756-2034
+006G ƒ01321269773
+006Z ƒ03179440-3
+007G ƒiZDBƒ03179440-3
+010@ ƒaeng
+010E ƒerda
+011@ ƒa2018ƒn[2018]-
+013D ƒ910454466Xƒ8Zeitschrift ; ID: gnd/4067488-5
+016A ƒ0crxxxxxxxxxxxx
+009P/03 ƒahttps://educationpublishing.com/ejr/ƒxH
+009P/03 ƒahttps://ezb.ur.de/?3179440-3ƒxF
+018@ ƒaiƒaf
+019@ ƒaXA-GB
+021A ƒaEducation journal review
+031@ ƒaVolume 25, number 2 (2018)-
+031N ƒd25ƒe2ƒj2018ƒ6
+033A ƒpExeterƒnEducation Publishing Company
+034D ƒaOnline-Ressource
+037A ƒaErscheint seit 2019 drei mal im Jahr
+039E ƒbfƒiFortsetzung vonƒ966870988Xƒ8Education review ; ZDB-ID: 2628258-6ƒCISSNƒ62756-2026ƒCDNBƒ61015227554
+039E ƒbfƒiFortsetzung vonƒ9225863227ƒ8Education review ; ZDB-ID: 1365805-0ƒCISSNƒ60951-7855ƒCDNBƒ6018641520
+045G ƒa370ƒADE-600
+045V ƒiFIDƒaBIFO-HFƒqDE-11
+045V ƒiFIDƒaBIFOƒqDE-29
+045V ƒiFIDƒaBIFOƒqDE-Bs78
+045V ƒiFIDƒaBIFOƒqDE-B478
+
+201A/01 ƒ006-05-24
+201B/01 ƒ020-05-24ƒt17:01:15.000
+201D/01 ƒ0MZU001:06-05-24
+201U/01 ƒ0utf8
+203@/01 ƒ06007739449
+203H/01 ƒ0126209738X
+206Z/01 ƒ01084223031
+208@/01 ƒa06-05-24ƒbz02
+209A/01 ƒB77/001ƒx00
+209B/01 ƒc8gƒdcr uuuuuuuuuuuƒx01
+209B/01 ƒacofzƒx12
+209C/01 ƒae-onlyƒx00
+209R/01 ƒuhttps://ezb.ur.de/?3179440-3&bibid=UBMZƒxF
+231D/01 ƒaOnline-Zugang nur im Netz der Universität Mainz
+245G/01 ƒcej
+
+201A/02 ƒ020-06-25
+201B/02 ƒ020-06-25ƒt16:38:12.000
+201D/02 ƒ0MZUB:13-05-24
+201U/02 ƒ0utf8
+203@/02 ƒ06008815254
+203H/02 ƒ01262639743
+206X/02 ƒ01262639743
+208@/02 ƒa13-05-24ƒbl01
+209A/02 ƒB77ƒx00
+209B/02 ƒakonvƒx12
+209R/02 ƒuhttps://ezb.ur.de/?3179440-3&bibid=UBMZƒxF
+
+]]></rawrecord>
+  </record>
+  <record>
+    <status>upsert</status>
+    <hrid>178824011</hrid>
+    <metadata>
+      <datafield tag="001@" fulltag="001@">
+        <subfield code="0">31,40,62,285,2030</subfield>
+      </datafield>
+      <datafield tag="001A" fulltag="001A">
+        <subfield code="0">2001:08-01-95</subfield>
+      </datafield>
+      <datafield tag="001B" fulltag="001B">
+        <subfield code="0">MZUB:07-07-25</subfield>
+        <subfield code="t">17:45:41.000</subfield>
+      </datafield>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">9999:99-99-99</subfield>
+      </datafield>
+      <datafield tag="001U" fulltag="001U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="001X" fulltag="001X">
+        <subfield code="0">0</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Acu</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+        <subfield code="b">n</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Band</subfield>
+        <subfield code="b">nc</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">178824011</subfield>
+      </datafield>
+      <datafield tag="003H" fulltag="003H">
+        <subfield code="0">122794087</subfield>
+      </datafield>
+      <datafield tag="003S" fulltag="003S">
+        <subfield code="0">917882401X</subfield>
+      </datafield>
+      <datafield tag="003T" fulltag="003T">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">69026700</subfield>
+      </datafield>
+      <datafield tag="006G" fulltag="006G">
+        <subfield code="0">454418019</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">GBV</subfield>
+        <subfield code="0">178824011</subfield>
+      </datafield>
+      <datafield tag="007H" fulltag="007H">
+        <subfield code="i">HEB</subfield>
+        <subfield code="0">122794087</subfield>
+      </datafield>
+      <datafield tag="009@" fulltag="009@">
+        <subfield code="a">HEB</subfield>
+        <subfield code="b">0501</subfield>
+      </datafield>
+      <datafield tag="009@" fulltag="009@">
+        <subfield code="a">HEB</subfield>
+        <subfield code="b">0503</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">grc</subfield>
+        <subfield code="a">ger</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">1963</subfield>
+        <subfield code="n">1963-</subfield>
+      </datafield>
+      <datafield tag="019@" fulltag="019@">
+        <subfield code="a">XA-DE</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Griechische Lyrik</subfield>
+        <subfield code="h">in Ausw. und hrsg. von Hans Schnabel</subfield>
+      </datafield>
+      <datafield tag="028A" fulltag="028A">
+        <subfield code="d">Hans</subfield>
+        <subfield code="a">Schnabel</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Münster</subfield>
+        <subfield code="n">Aschendorff</subfield>
+      </datafield>
+      <datafield tag="036E" fulltag="036E">
+        <subfield code="a">Aschendorffs Sammlung lateinischer und griechischer Klassiker</subfield>
+      </datafield>
+      <datafield tag="045E" fulltag="045E">
+        <subfield code="a">11a</subfield>
+      </datafield>
+      <item epn="601201984X">
+        <datafield tag="201A" occurrence="01" fulltag="201A/01">
+          <subfield code="0">07-07-25</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">07-07-25</subfield>
+          <subfield code="t">17:45:41.000</subfield>
+        </datafield>
+        <datafield tag="201D" occurrence="01" fulltag="201D/01">
+          <subfield code="0">MZUB:26-04-05</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">601201984X</subfield>
+        </datafield>
+        <datafield tag="203H" occurrence="01" fulltag="203H/01">
+          <subfield code="0">245291245</subfield>
+        </datafield>
+        <datafield tag="206X" occurrence="01" fulltag="206X/01">
+          <subfield code="0">245291245</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">26-04-05</subfield>
+          <subfield code="b">l01</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="B">77</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">konv</subfield>
+          <subfield code="x">12</subfield>
+        </datafield>
+      </item>
+    </metadata>
+    <rawrecord><![CDATA[001@ ƒ031,40,62,285,2030
+001A ƒ02001:08-01-95
+001B ƒ0MZUB:07-07-25ƒt17:45:41.000
+001D ƒ09999:99-99-99
+001U ƒ0utf8
+001X ƒ00
+002@ ƒ0Acu
+002C ƒaTextƒbtxt
+002D ƒaohne Hilfsmittel zu benutzenƒbn
+002E ƒaBandƒbnc
+003@ ƒ0178824011
+003H ƒ0122794087
+003S ƒ0917882401X
+003T ƒaOCoLCƒ069026700
+006G ƒ0454418019
+007G ƒiGBVƒ0178824011
+007H ƒiHEBƒ0122794087
+009@ ƒaHEBƒb0501
+009@ ƒaHEBƒb0503
+010@ ƒagrcƒager
+011@ ƒa1963ƒn1963-
+019@ ƒaXA-DE
+021A ƒaGriechische Lyrikƒhin Ausw. und hrsg. von Hans Schnabel
+028A ƒdHansƒaSchnabel
+033A ƒpMünsterƒnAschendorff
+036E ƒaAschendorffs Sammlung lateinischer und griechischer Klassiker
+045E ƒa11a
+
+201A/01 ƒ007-07-25
+201B/01 ƒ007-07-25ƒt17:45:41.000
+201D/01 ƒ0MZUB:26-04-05
+201U/01 ƒ0utf8
+203@/01 ƒ0601201984X
+203H/01 ƒ0245291245
+206X/01 ƒ0245291245
+208@/01 ƒa26-04-05ƒbl01
+209A/01 ƒB77ƒx00
+209B/01 ƒakonvƒx12
+
+]]></rawrecord>
+  </record>
+  <record>
+    <status>upsert</status>
+    <hrid>188432892X</hrid>
+    <metadata>
+      <datafield tag="001@" fulltag="001@">
+        <subfield code="0">21,130,193,2003-2004,2009,2012,2030,2060,2068,2470,4012,4028,4035,4038,4082,4112,4315,4317-4318,4320,4324</subfield>
+      </datafield>
+      <datafield tag="001A" fulltag="001A">
+        <subfield code="0">2004:26-03-24</subfield>
+      </datafield>
+      <datafield tag="001B" fulltag="001B">
+        <subfield code="0">BSZ:04-06-25</subfield>
+        <subfield code="t">12:28:36.000</subfield>
+      </datafield>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">2004:26-03-24</subfield>
+      </datafield>
+      <datafield tag="001U" fulltag="001U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="001X" fulltag="001X">
+        <subfield code="0">0</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Abv</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+        <subfield code="b">n</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Band</subfield>
+        <subfield code="b">nc</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">188432892X</subfield>
+      </datafield>
+      <datafield tag="003H" fulltag="003H">
+        <subfield code="0">516556320</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">1429555400</subfield>
+        <subfield code="v">2025-02-26</subfield>
+      </datafield>
+      <datafield tag="005A" fulltag="005A">
+        <subfield code="0">2416-8793</subfield>
+      </datafield>
+      <datafield tag="006G" fulltag="006G">
+        <subfield code="0">1324462531</subfield>
+      </datafield>
+      <datafield tag="006Z" fulltag="006Z">
+        <subfield code="0">3183028-6</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">ZDB</subfield>
+        <subfield code="0">3183028-6</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">fre</subfield>
+      </datafield>
+      <datafield tag="010E" fulltag="010E">
+        <subfield code="e">rda</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2024</subfield>
+        <subfield code="n">[2024]-</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">106108832</subfield>
+        <subfield code="8">Zeitung ; ID: gnd/4067510-5</subfield>
+      </datafield>
+      <datafield tag="013H" fulltag="013H">
+        <subfield code="a">zt</subfield>
+      </datafield>
+      <datafield tag="018@" fulltag="018@">
+        <subfield code="a">w</subfield>
+      </datafield>
+      <datafield tag="019@" fulltag="019@">
+        <subfield code="a">XA-FR</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Le @nouvel obs</subfield>
+      </datafield>
+      <datafield tag="031@" fulltag="031@">
+        <subfield code="a">No 3103 (21/27 mars 2024)-</subfield>
+      </datafield>
+      <datafield tag="031N" fulltag="031N">
+        <subfield code="e">3103</subfield>
+        <subfield code="b">21</subfield>
+        <subfield code="c">3</subfield>
+        <subfield code="j">2024</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Paris</subfield>
+        <subfield code="n">Le Nouvel Observateur du Monde</subfield>
+      </datafield>
+      <datafield tag="033H" fulltag="033H">
+        <subfield code="9">106204734</subfield>
+        <subfield code="8">Paris ; ID: gnd/4044660-8</subfield>
+      </datafield>
+      <datafield tag="039E" fulltag="039E">
+        <subfield code="b">f</subfield>
+        <subfield code="i">Fortsetzung von</subfield>
+        <subfield code="9">799369527</subfield>
+        <subfield code="8">L' @OBS ; ZDB-ID: 2797605-1</subfield>
+        <subfield code="C">ISSN</subfield>
+        <subfield code="6">2416-8793</subfield>
+        <subfield code="C">DNB</subfield>
+        <subfield code="6">1060113163</subfield>
+      </datafield>
+      <datafield tag="041A" fulltag="041A">
+        <subfield code="9">106327232</subfield>
+        <subfield code="8">Frankreich ; ID: gnd/4018145-5</subfield>
+      </datafield>
+      <datafield tag="041A" occurrence="01" fulltag="041A/01">
+        <subfield code="9">104152206</subfield>
+        <subfield code="8">Politik ; ID: gnd/4046514-7</subfield>
+      </datafield>
+      <datafield tag="041A" occurrence="02" fulltag="041A/02">
+        <subfield code="9">104346884</subfield>
+        <subfield code="8">Wirtschaft ; ID: gnd/4066399-1</subfield>
+      </datafield>
+      <datafield tag="041A" occurrence="03" fulltag="041A/03">
+        <subfield code="9">882320696</subfield>
+        <subfield code="8">Tagesgeschehen ; ID: gnd/1127893440</subfield>
+      </datafield>
+      <datafield tag="041A" occurrence="09" fulltag="041A/09">
+        <subfield code="A">DE-605</subfield>
+      </datafield>
+      <datafield tag="045G" fulltag="045G">
+        <subfield code="a">050</subfield>
+        <subfield code="A">DE-600</subfield>
+      </datafield>
+      <datafield tag="047B" fulltag="047B">
+        <subfield code="a">(üa/Z)</subfield>
+      </datafield>
+      <item epn="6007674533">
+        <datafield tag="201A" occurrence="01" fulltag="201A/01">
+          <subfield code="0">23-05-24</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">27-05-24</subfield>
+          <subfield code="t">17:02:35.000</subfield>
+        </datafield>
+        <datafield tag="201D" occurrence="01" fulltag="201D/01">
+          <subfield code="0">MZUB:23-05-24</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">6007674533</subfield>
+        </datafield>
+        <datafield tag="203H" occurrence="01" fulltag="203H/01">
+          <subfield code="0">1264211783</subfield>
+        </datafield>
+        <datafield tag="206Z" occurrence="01" fulltag="206Z/01">
+          <subfield code="0">1091734321</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">23-05-24</subfield>
+          <subfield code="b">z01</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="B">77</subfield>
+          <subfield code="f">000</subfield>
+          <subfield code="a">FZ 400</subfield>
+          <subfield code="J">l</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="f">MAG</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="231@" occurrence="01" fulltag="231@/01">
+          <subfield code="j">2024</subfield>
+        </datafield>
+        <datafield tag="231B" occurrence="01" fulltag="231B/01">
+          <subfield code="g">1</subfield>
+          <subfield code="a">2024,Nr.3103 -</subfield>
+        </datafield>
+      </item>
+      <item epn="6008815262">
+        <datafield tag="201A" occurrence="02" fulltag="201A/02">
+          <subfield code="0">20-06-25</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="02" fulltag="201B/02">
+          <subfield code="0">20-06-25</subfield>
+          <subfield code="t">16:38:12.000</subfield>
+        </datafield>
+        <datafield tag="201D" occurrence="02" fulltag="201D/02">
+          <subfield code="0">MZUB:10-04-24</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="02" fulltag="201U/02">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="02" fulltag="203@/02">
+          <subfield code="0">6008815262</subfield>
+        </datafield>
+        <datafield tag="203H" occurrence="02" fulltag="203H/02">
+          <subfield code="0">1261057066</subfield>
+        </datafield>
+        <datafield tag="206X" occurrence="02" fulltag="206X/02">
+          <subfield code="0">1261057066</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="02" fulltag="208@/02">
+          <subfield code="a">10-04-24</subfield>
+          <subfield code="b">l02</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="02" fulltag="209A/02">
+          <subfield code="B">77</subfield>
+          <subfield code="a">Z 353</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="02" fulltag="209B/02">
+          <subfield code="a">konv</subfield>
+          <subfield code="x">12</subfield>
+        </datafield>
+        <datafield tag="231D" occurrence="02" fulltag="231D/02">
+          <subfield code="a">Nur laufender Jahrgang und 5 vorhergehende Jahrgänge vorhanden; aktueller Jahrgang siehe Zeitschriftenauslage</subfield>
+        </datafield>
+      </item>
+    </metadata>
+    <rawrecord><![CDATA[001@ ƒ021,130,193,2003-2004,2009,2012,2030,2060,2068,2470,4012,4028,4035,4038,4082,4112,4315,4317-4318,4320,4324
+001A ƒ02004:26-03-24
+001B ƒ0BSZ:04-06-25ƒt12:28:36.000
+001D ƒ02004:26-03-24
+001U ƒ0utf8
+001X ƒ00
+002@ ƒ0Abv
+002C ƒaTextƒbtxt
+002D ƒaohne Hilfsmittel zu benutzenƒbn
+002E ƒaBandƒbnc
+003@ ƒ0188432892X
+003H ƒ0516556320
+003O ƒaOCoLCƒ01429555400ƒv2025-02-26
+005A ƒ02416-8793
+006G ƒ01324462531
+006Z ƒ03183028-6
+007G ƒiZDBƒ03183028-6
+010@ ƒafre
+010E ƒerda
+011@ ƒa2024ƒn[2024]-
+013D ƒ9106108832ƒ8Zeitung ; ID: gnd/4067510-5
+013H ƒazt
+018@ ƒaw
+019@ ƒaXA-FR
+021A ƒaLe @nouvel obs
+031@ ƒaNo 3103 (21/27 mars 2024)-
+031N ƒe3103ƒb21ƒc3ƒj2024ƒ6
+033A ƒpParisƒnLe Nouvel Observateur du Monde
+033H ƒ9106204734ƒ8Paris ; ID: gnd/4044660-8
+039E ƒbfƒiFortsetzung vonƒ9799369527ƒ8L' @OBS ; ZDB-ID: 2797605-1ƒCISSNƒ62416-8793ƒCDNBƒ61060113163
+041A ƒ9106327232ƒ8Frankreich ; ID: gnd/4018145-5
+041A/01 ƒ9104152206ƒ8Politik ; ID: gnd/4046514-7
+041A/02 ƒ9104346884ƒ8Wirtschaft ; ID: gnd/4066399-1
+041A/03 ƒ9882320696ƒ8Tagesgeschehen ; ID: gnd/1127893440
+041A/09 ƒADE-605
+045G ƒa050ƒADE-600
+047B ƒa(üa/Z)
+
+201A/01 ƒ023-05-24
+201B/01 ƒ027-05-24ƒt17:02:35.000
+201D/01 ƒ0MZUB:23-05-24
+201U/01 ƒ0utf8
+203@/01 ƒ06007674533
+203H/01 ƒ01264211783
+206Z/01 ƒ01091734321
+208@/01 ƒa23-05-24ƒbz01
+209A/01 ƒB77ƒf000ƒaFZ 400ƒJlƒx00
+209A/01 ƒfMAGƒx01
+231@/01 ƒj2024ƒ6
+231B/01 ƒg1ƒa2024,Nr.3103 -
+
+201A/02 ƒ020-06-25
+201B/02 ƒ020-06-25ƒt16:38:12.000
+201D/02 ƒ0MZUB:10-04-24
+201U/02 ƒ0utf8
+203@/02 ƒ06008815262
+203H/02 ƒ01261057066
+206X/02 ƒ01261057066
+208@/02 ƒa10-04-24ƒbl02
+209A/02 ƒB77ƒaZ 353ƒx00
+209B/02 ƒakonvƒx12
+231D/02 ƒaNur laufender Jahrgang und 5 vorhergehende Jahrgänge vorhanden; aktueller Jahrgang siehe Zeitschriftenauslage
+
+]]></rawrecord>
+  </record>
+  <record>
+    <status>upsert</status>
+    <hrid>6002972765</hrid>
+    <metadata>
+      <datafield tag="001@" fulltag="001@">
+        <subfield code="0">2030</subfield>
+      </datafield>
+      <datafield tag="001A" fulltag="001A">
+        <subfield code="0">MZUB:07-07-25</subfield>
+      </datafield>
+      <datafield tag="001B" fulltag="001B">
+        <subfield code="0">MZUB:07-07-25</subfield>
+        <subfield code="t">16:04:17.000</subfield>
+      </datafield>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">MZUB:07-07-25</subfield>
+      </datafield>
+      <datafield tag="001U" fulltag="001U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="001X" fulltag="001X">
+        <subfield code="0">0</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Ean</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">Mikroform</subfield>
+        <subfield code="b">h</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Mikrofiche</subfield>
+        <subfield code="b">he</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">6002972765</subfield>
+      </datafield>
+      <datafield tag="003H" fulltag="003H">
+        <subfield code="0">119917955</subfield>
+      </datafield>
+      <datafield tag="003T" fulltag="003T">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">265440644</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="0">3628365899</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">HEB</subfield>
+        <subfield code="0">119917955</subfield>
+      </datafield>
+      <datafield tag="009@" fulltag="009@">
+        <subfield code="a">HEB</subfield>
+        <subfield code="b">0501</subfield>
+      </datafield>
+      <datafield tag="009@" fulltag="009@">
+        <subfield code="a">HEB</subfield>
+        <subfield code="b">0503</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">1820</subfield>
+      </datafield>
+      <datafield tag="011B" fulltag="011B">
+        <subfield code="a">1989</subfield>
+        <subfield code="n">[19]89</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Feierstunden</subfield>
+        <subfield code="h">Maria E. Von Zay</subfield>
+      </datafield>
+      <datafield tag="028A" fulltag="028A">
+        <subfield code="d">Maria E.</subfield>
+        <subfield code="a">Von Zay</subfield>
+      </datafield>
+      <datafield tag="032C" fulltag="032C">
+        <subfield code="a">[Mikrofiche-Ausg.]</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Pesth.</subfield>
+        <subfield code="n">Hartleben</subfield>
+      </datafield>
+      <datafield tag="033N" fulltag="033N">
+        <subfield code="p">Stuttgart</subfield>
+        <subfield code="n">Belser</subfield>
+      </datafield>
+      <datafield tag="033Q" fulltag="033Q">
+        <subfield code="a">1 Mikrofiche</subfield>
+      </datafield>
+      <datafield tag="036L" fulltag="036L">
+        <subfield code="a">Edition Corvey</subfield>
+        <subfield code="p">Deutschsprachige Belletristik</subfield>
+        <subfield code="m">Deutschsprachige Belletristik</subfield>
+      </datafield>
+      <item epn="6011349161">
+        <datafield tag="201A" occurrence="01" fulltag="201A/01">
+          <subfield code="0">07-07-25</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">07-07-25</subfield>
+          <subfield code="t">16:04:17.000</subfield>
+        </datafield>
+        <datafield tag="201D" occurrence="01" fulltag="201D/01">
+          <subfield code="0">MZUB:29-03-04</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">6011349161</subfield>
+        </datafield>
+        <datafield tag="203H" occurrence="01" fulltag="203H/01">
+          <subfield code="0">211688436</subfield>
+        </datafield>
+        <datafield tag="206X" occurrence="01" fulltag="206X/01">
+          <subfield code="0">211688436</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">19-03-04</subfield>
+          <subfield code="b">l01</subfield>
+        </datafield>
+        <datafield tag="208G" occurrence="01" fulltag="208G/01">
+          <subfield code="a">Mikroformen Philosophicum, Abgabe aus 070</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="B">77</subfield>
+          <subfield code="f">Mikroformen aus Bereichsbibliotheken</subfield>
+          <subfield code="a">070 MF Corvey 104-6</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">konv</subfield>
+          <subfield code="x">12</subfield>
+        </datafield>
+        <datafield tag="209O" occurrence="01" fulltag="209O/01">
+          <subfield code="a">07098</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209O" occurrence="01" fulltag="209O/01">
+          <subfield code="a">12598</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+      </item>
+    </metadata>
+    <rawrecord><![CDATA[001@ ƒ02030
+001A ƒ0MZUB:07-07-25
+001B ƒ0MZUB:07-07-25ƒt16:04:17.000
+001D ƒ0MZUB:07-07-25
+001U ƒ0utf8
+001X ƒ00
+002@ ƒ0Ean
+002C ƒaTextƒbtxt
+002D ƒaMikroformƒbh
+002E ƒaMikroficheƒbhe
+003@ ƒ06002972765
+003H ƒ0119917955
+003T ƒaOCoLCƒ0265440644
+004A ƒ03628365899
+007G ƒiHEBƒ0119917955
+009@ ƒaHEBƒb0501
+009@ ƒaHEBƒb0503
+010@ ƒager
+011@ ƒa1820
+011B ƒa1989ƒn[19]89
+021A ƒaFeierstundenƒhMaria E. Von Zay
+028A ƒdMaria E.ƒaVon Zay
+032C ƒa[Mikrofiche-Ausg.]
+033A ƒpPesth.ƒnHartleben
+033N ƒpStuttgartƒnBelser
+033Q ƒa1 Mikrofiche
+036L ƒaEdition CorveyƒpDeutschsprachige BelletristikƒmDeutschsprachige Belletristik
+
+201A/01 ƒ007-07-25
+201B/01 ƒ007-07-25ƒt16:04:17.000
+201D/01 ƒ0MZUB:29-03-04
+201U/01 ƒ0utf8
+203@/01 ƒ06011349161
+203H/01 ƒ0211688436
+206X/01 ƒ0211688436
+208@/01 ƒa19-03-04ƒbl01
+208G/01 ƒaMikroformen Philosophicum, Abgabe aus 070
+209A/01 ƒB77ƒfMikroformen aus Bereichsbibliothekenƒa070 MF Corvey 104-6ƒx00
+209B/01 ƒakonvƒx12
+209O/01 ƒa07098ƒx00
+209O/01 ƒa12598ƒx00
+
+]]></rawrecord>
+  </record>
+  <record>
+    <status>upsert</status>
+    <hrid>240586328</hrid>
+    <metadata>
+      <datafield tag="001@" fulltag="001@">
+        <subfield code="0">11,22,24,40,70,241,2001,2030</subfield>
+      </datafield>
+      <datafield tag="001A" fulltag="001A">
+        <subfield code="0">0007:25-02-98</subfield>
+      </datafield>
+      <datafield tag="001B" fulltag="001B">
+        <subfield code="0">MZUB:07-07-25</subfield>
+        <subfield code="t">15:15:38.000</subfield>
+      </datafield>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">0008:17-09-09</subfield>
+      </datafield>
+      <datafield tag="001U" fulltag="001U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="001X" fulltag="001X">
+        <subfield code="0">0</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Aau</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+        <subfield code="b">n</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Band</subfield>
+        <subfield code="b">nc</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">240586328</subfield>
+      </datafield>
+      <datafield tag="003H" fulltag="003H">
+        <subfield code="0">115315330</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">245733998</subfield>
+        <subfield code="v">2012-12-31</subfield>
+      </datafield>
+      <datafield tag="003S" fulltag="003S">
+        <subfield code="0">9240586326</subfield>
+      </datafield>
+      <datafield tag="003T" fulltag="003T">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">615059283</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">GBV</subfield>
+        <subfield code="0">240586328</subfield>
+      </datafield>
+      <datafield tag="007H" fulltag="007H">
+        <subfield code="i">HEB</subfield>
+        <subfield code="0">115315330</subfield>
+      </datafield>
+      <datafield tag="007Y" fulltag="007Y">
+        <subfield code="i">Hochschulschriftennummer</subfield>
+        <subfield code="0">U 40.655</subfield>
+      </datafield>
+      <datafield tag="009@" fulltag="009@">
+        <subfield code="a">HEB</subfield>
+        <subfield code="b">0501</subfield>
+      </datafield>
+      <datafield tag="009@" fulltag="009@">
+        <subfield code="a">HEB</subfield>
+        <subfield code="b">0503</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">1940</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">105825778</subfield>
+        <subfield code="8">Hochschulschrift ; ID: gnd/4113937-9</subfield>
+      </datafield>
+      <datafield tag="019@" fulltag="019@">
+        <subfield code="a">XA-DXDE</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Die @Anfänge der musikalischen Fachpresse in Deutschland</subfield>
+        <subfield code="d">geschichtliche Grundlagen</subfield>
+        <subfield code="h">von Kurt Dolinski</subfield>
+      </datafield>
+      <datafield tag="028A" fulltag="028A">
+        <subfield code="9">380327023</subfield>
+        <subfield code="8">Dolinski, Kurt *1911-* ; ID: gnd/125246080</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Berlin</subfield>
+        <subfield code="n">Hermann Schmidt</subfield>
+      </datafield>
+      <datafield tag="033D" fulltag="033D">
+        <subfield code="p">Berlin</subfield>
+        <subfield code="4">uvp</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">189 S.</subfield>
+      </datafield>
+      <datafield tag="037C" fulltag="037C">
+        <subfield code="a">Berlin, Univ., Diss., 1937</subfield>
+      </datafield>
+      <datafield tag="044A" fulltag="044A">
+        <subfield code="S">s</subfield>
+        <subfield code="a">Music</subfield>
+        <subfield code="a">History and criticism</subfield>
+        <subfield code="a">Germany</subfield>
+      </datafield>
+      <datafield tag="044A" fulltag="044A">
+        <subfield code="S">s</subfield>
+        <subfield code="a">Musical criticism</subfield>
+      </datafield>
+      <datafield tag="044K" fulltag="044K">
+        <subfield code="9">104137754</subfield>
+        <subfield code="8">Musik ; ID: gnd/4040802-4</subfield>
+      </datafield>
+      <datafield tag="044K" fulltag="044K">
+        <subfield code="9">105530530</subfield>
+        <subfield code="8">Fachpresse ; ID: gnd/4153497-9</subfield>
+      </datafield>
+      <datafield tag="045A" fulltag="045A">
+        <subfield code="a">ML275</subfield>
+      </datafield>
+      <datafield tag="045Q" occurrence="01" fulltag="045Q/01">
+        <subfield code="9">10641514X</subfield>
+        <subfield code="8">05.33 Pressewesen</subfield>
+      </datafield>
+      <datafield tag="046X" fulltag="046X">
+        <subfield code="a">eb</subfield>
+        <subfield code="c">20210904</subfield>
+        <subfield code="f">DE-640</subfield>
+        <subfield code="z">1</subfield>
+      </datafield>
+      <datafield tag="046X" fulltag="046X">
+        <subfield code="a">eb</subfield>
+        <subfield code="c">20240324</subfield>
+        <subfield code="f">DE-4165</subfield>
+        <subfield code="z">2</subfield>
+      </datafield>
+      <item epn="6011000207">
+        <datafield tag="201A" occurrence="01" fulltag="201A/01">
+          <subfield code="0">07-07-25</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">07-07-25</subfield>
+          <subfield code="t">15:15:38.000</subfield>
+        </datafield>
+        <datafield tag="201D" occurrence="01" fulltag="201D/01">
+          <subfield code="0">MZUB:10-04-08</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">6011000207</subfield>
+        </datafield>
+        <datafield tag="203H" occurrence="01" fulltag="203H/01">
+          <subfield code="0">542290154</subfield>
+        </datafield>
+        <datafield tag="206X" occurrence="01" fulltag="206X/01">
+          <subfield code="0">542290154</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">10-04-08</subfield>
+          <subfield code="b">l01</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="B">77</subfield>
+          <subfield code="a">U 52239</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">konv</subfield>
+          <subfield code="x">12</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">40701465</subfield>
+        </datafield>
+      </item>
+      <item epn="6011000215">
+        <datafield tag="201A" occurrence="02" fulltag="201A/02">
+          <subfield code="0">07-07-25</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="02" fulltag="201B/02">
+          <subfield code="0">07-07-25</subfield>
+          <subfield code="t">15:15:38.000</subfield>
+        </datafield>
+        <datafield tag="201D" occurrence="02" fulltag="201D/02">
+          <subfield code="0">MZU002:25-11-03</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="02" fulltag="201U/02">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="02" fulltag="203@/02">
+          <subfield code="0">6011000215</subfield>
+        </datafield>
+        <datafield tag="203H" occurrence="02" fulltag="203H/02">
+          <subfield code="0">204375150</subfield>
+        </datafield>
+        <datafield tag="206X" occurrence="02" fulltag="206X/02">
+          <subfield code="0">204375150</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="02" fulltag="208@/02">
+          <subfield code="a">25-11-03</subfield>
+          <subfield code="b">l02</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="02" fulltag="209A/02">
+          <subfield code="B">77/002</subfield>
+          <subfield code="a">03 DOL 1</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="02" fulltag="209B/02">
+          <subfield code="a">konv</subfield>
+          <subfield code="x">12</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="02" fulltag="209C/02">
+          <subfield code="a">PUG 794/71</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="02" fulltag="209G/02">
+          <subfield code="a">12941598</subfield>
+        </datafield>
+      </item>
+      <item epn="6011000223">
+        <datafield tag="201A" occurrence="03" fulltag="201A/03">
+          <subfield code="0">07-07-25</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="03" fulltag="201B/03">
+          <subfield code="0">07-07-25</subfield>
+          <subfield code="t">15:15:38.000</subfield>
+        </datafield>
+        <datafield tag="201D" occurrence="03" fulltag="201D/03">
+          <subfield code="0">MZU091:03-06-04</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="03" fulltag="201U/03">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="03" fulltag="203@/03">
+          <subfield code="0">6011000223</subfield>
+        </datafield>
+        <datafield tag="203H" occurrence="03" fulltag="203H/03">
+          <subfield code="0">214995054</subfield>
+        </datafield>
+        <datafield tag="206X" occurrence="03" fulltag="206X/03">
+          <subfield code="0">214995054</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="03" fulltag="208@/03">
+          <subfield code="a">03-06-04</subfield>
+          <subfield code="b">l03</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="03" fulltag="209A/03">
+          <subfield code="B">77/091</subfield>
+          <subfield code="a">Cb 350</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="03" fulltag="209A/03">
+          <subfield code="a">FB 16.5 Cb 350</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="03" fulltag="209B/03">
+          <subfield code="a">konv</subfield>
+          <subfield code="x">12</subfield>
+        </datafield>
+        <datafield tag="209C" occurrence="03" fulltag="209C/03">
+          <subfield code="a">55/167</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="03" fulltag="209G/03">
+          <subfield code="a">78452055</subfield>
+        </datafield>
+      </item>
+    </metadata>
+    <rawrecord><![CDATA[001@ ƒ011,22,24,40,70,241,2001,2030
+001A ƒ00007:25-02-98
+001B ƒ0MZUB:07-07-25ƒt15:15:38.000
+001D ƒ00008:17-09-09
+001U ƒ0utf8
+001X ƒ00
+002@ ƒ0Aau
+002C ƒaTextƒbtxt
+002D ƒaohne Hilfsmittel zu benutzenƒbn
+002E ƒaBandƒbnc
+003@ ƒ0240586328
+003H ƒ0115315330
+003O ƒaOCoLCƒ0245733998ƒv2012-12-31
+003S ƒ09240586326
+003T ƒaOCoLCƒ0615059283
+007G ƒiGBVƒ0240586328
+007H ƒiHEBƒ0115315330
+007Y ƒiHochschulschriftennummerƒ0U 40.655
+009@ ƒaHEBƒb0501
+009@ ƒaHEBƒb0503
+010@ ƒager
+011@ ƒa1940
+013D ƒ9105825778ƒ8Hochschulschrift ; ID: gnd/4113937-9
+019@ ƒaXA-DXDE
+021A ƒaDie @Anfänge der musikalischen Fachpresse in Deutschlandƒdgeschichtliche Grundlagenƒhvon Kurt Dolinski
+028A ƒ9380327023ƒ8Dolinski, Kurt *1911-* ; ID: gnd/125246080
+033A ƒpBerlinƒnHermann Schmidt
+033D ƒpBerlinƒ4uvp
+034D ƒa189 S.
+037C ƒaBerlin, Univ., Diss., 1937
+044A ƒSsƒaMusicƒaHistory and criticismƒaGermany
+044A ƒSsƒaMusical criticism
+044K ƒ9104137754ƒ8Musik ; ID: gnd/4040802-4
+044K ƒ9105530530ƒ8Fachpresse ; ID: gnd/4153497-9
+045A ƒaML275
+045Q/01 ƒ910641514Xƒ805.33$jPressewesen
+046X ƒaebƒc20210904ƒfDE-640ƒz1
+046X ƒaebƒc20240324ƒfDE-4165ƒz2
+
+201A/01 ƒ007-07-25
+201B/01 ƒ007-07-25ƒt15:15:38.000
+201D/01 ƒ0MZUB:10-04-08
+201U/01 ƒ0utf8
+203@/01 ƒ06011000207
+203H/01 ƒ0542290154
+206X/01 ƒ0542290154
+208@/01 ƒa10-04-08ƒbl01
+209A/01 ƒB77ƒaU 52239ƒx00
+209B/01 ƒakonvƒx12
+209G/01 ƒa40701465
+
+201A/02 ƒ007-07-25
+201B/02 ƒ007-07-25ƒt15:15:38.000
+201D/02 ƒ0MZU002:25-11-03
+201U/02 ƒ0utf8
+203@/02 ƒ06011000215
+203H/02 ƒ0204375150
+206X/02 ƒ0204375150
+208@/02 ƒa25-11-03ƒbl02
+209A/02 ƒB77/002ƒa03 DOL 1ƒx00
+209B/02 ƒakonvƒx12
+209C/02 ƒaPUG 794/71ƒx00
+209G/02 ƒa12941598
+
+201A/03 ƒ007-07-25
+201B/03 ƒ007-07-25ƒt15:15:38.000
+201D/03 ƒ0MZU091:03-06-04
+201U/03 ƒ0utf8
+203@/03 ƒ06011000223
+203H/03 ƒ0214995054
+206X/03 ƒ0214995054
+208@/03 ƒa03-06-04ƒbl03
+209A/03 ƒB77/091ƒaCb 350ƒx00
+209A/03 ƒaFB 16.5 Cb 350ƒx01
+209B/03 ƒakonvƒx12
+209C/03 ƒa55/167ƒx00
+209G/03 ƒa78452055
+
+]]></rawrecord>
+  </record>
+  <record>
+    <status>upsert</status>
+    <hrid>1785334670</hrid>
+    <metadata>
+      <datafield tag="001@" fulltag="001@">
+        <subfield code="0">11,20,22,24,30-31,39-40,60,62-63,65,69-70,72-73,95,110,118,122,130-132,140,147,151,160-161,164,206,209,213,217,230,239,264,267,285,293,352,602-603,752,2001,2003,2006,2008-2009,2011,2014,2018,2030,2403,2574,4012,4029,4035,4037,4112,4125-4126,4155,4249,4305-4306,4310,4313-4314,4317-4318,4322-4325,4367,4700</subfield>
+      </datafield>
+      <datafield tag="001A" fulltag="001A">
+        <subfield code="0">2004:10-01-22</subfield>
+      </datafield>
+      <datafield tag="001B" fulltag="001B">
+        <subfield code="0">2004:09-06-25</subfield>
+        <subfield code="t">21:13:14.000</subfield>
+      </datafield>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">2004:10-01-22</subfield>
+      </datafield>
+      <datafield tag="001U" fulltag="001U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="001X" fulltag="001X">
+        <subfield code="0">0</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Obv</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">Computermedien</subfield>
+        <subfield code="b">c</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Online-Ressource</subfield>
+        <subfield code="b">cr</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">1785334670</subfield>
+      </datafield>
+      <datafield tag="003H" fulltag="003H">
+        <subfield code="0">489350623</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">1292462467</subfield>
+        <subfield code="v">2025-06-09</subfield>
+      </datafield>
+      <datafield tag="004V" fulltag="004V">
+        <subfield code="0">10.5771/0721-2402</subfield>
+      </datafield>
+      <datafield tag="005A" fulltag="005A">
+        <subfield code="0">2942-3600</subfield>
+      </datafield>
+      <datafield tag="005I" fulltag="005I">
+        <subfield code="0">2942-3600</subfield>
+        <subfield code="f">Zeitschrift für Religion und Weltanschauung</subfield>
+      </datafield>
+      <datafield tag="005P" fulltag="005P">
+        <subfield code="S">p</subfield>
+        <subfield code="0">2747-9706</subfield>
+      </datafield>
+      <datafield tag="006G" fulltag="006G">
+        <subfield code="0">1249083699</subfield>
+      </datafield>
+      <datafield tag="006Z" fulltag="006Z">
+        <subfield code="0">3105372-5</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">ZDB</subfield>
+        <subfield code="0">3105372-5</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+      </datafield>
+      <datafield tag="010E" fulltag="010E">
+        <subfield code="e">rda</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2021</subfield>
+        <subfield code="n">[2021]-</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">10454466X</subfield>
+        <subfield code="8">Zeitschrift ; ID: gnd/4067488-5</subfield>
+      </datafield>
+      <datafield tag="016A" fulltag="016A">
+        <subfield code="0">crxxxxxxxxxxxx</subfield>
+      </datafield>
+      <datafield tag="009P" occurrence="03" fulltag="009P/03">
+        <subfield code="a">https://doi.org/10.5771/0721-2402</subfield>
+        <subfield code="x">R</subfield>
+      </datafield>
+      <datafield tag="009P" occurrence="03" fulltag="009P/03">
+        <subfield code="a">https://www.nomos-elibrary.de/zeitschrift/0721-2402</subfield>
+        <subfield code="x">H; 84. Jahrgang, 1 (2021)-</subfield>
+      </datafield>
+      <datafield tag="009P" occurrence="03" fulltag="009P/03">
+        <subfield code="a">https://www.ezw-berlin.de/publikationen/zeitschrift-fuer-religion-und-weltanschauung/</subfield>
+        <subfield code="x">H; 84. Jahrgang, 1 (2021)-86. Jahrgang, 2 (2023)</subfield>
+        <subfield code="4">LF</subfield>
+      </datafield>
+      <datafield tag="009P" occurrence="03" fulltag="009P/03">
+        <subfield code="a">https://ezb.ur.de/?3105372-5</subfield>
+        <subfield code="x">F</subfield>
+      </datafield>
+      <datafield tag="017L" fulltag="017L">
+        <subfield code="a">ZDB-1-NOLZ</subfield>
+      </datafield>
+      <datafield tag="017L" fulltag="017L">
+        <subfield code="a">ZDB-1-NSWZ</subfield>
+      </datafield>
+      <datafield tag="017L" fulltag="017L">
+        <subfield code="a">ZDB-1-NREZ</subfield>
+      </datafield>
+      <datafield tag="018@" fulltag="018@">
+        <subfield code="a">b</subfield>
+      </datafield>
+      <datafield tag="019@" fulltag="019@">
+        <subfield code="a">XA-DE</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Zeitschrift für Religion und Weltanschauung</subfield>
+        <subfield code="d">(ZRW) : Materialdienst der Evangelischen Zentralstelle für Weltanschauungsfragen</subfield>
+        <subfield code="h">EZW, Evangelische Zentralstelle für Weltanschauungsfragen ; EKD, Evangelische Kirche in Deutschland</subfield>
+      </datafield>
+      <datafield tag="027A" fulltag="027A">
+        <subfield code="a">ZRW</subfield>
+      </datafield>
+      <datafield tag="029F" fulltag="029F">
+        <subfield code="9">332633632</subfield>
+        <subfield code="8">Evangelische Zentralstelle für Weltanschauungsfragen ; ID: gnd/10025459-7</subfield>
+        <subfield code="B">Herausgebendes Organ</subfield>
+        <subfield code="4">isb</subfield>
+      </datafield>
+      <datafield tag="031@" fulltag="031@">
+        <subfield code="a">84. Jahrgang, 1 (2021)-</subfield>
+      </datafield>
+      <datafield tag="031N" fulltag="031N">
+        <subfield code="d">84</subfield>
+        <subfield code="e">1</subfield>
+        <subfield code="j">2021</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Baden-Banden</subfield>
+        <subfield code="n">Nomos</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Berlin</subfield>
+        <subfield code="n">EZW</subfield>
+        <subfield code="h">2021-2023</subfield>
+        <subfield code="z">e</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Hannover</subfield>
+        <subfield code="n">EKD</subfield>
+        <subfield code="h">2021-2023</subfield>
+        <subfield code="z">e</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">Online-Ressource</subfield>
+      </datafield>
+      <datafield tag="037A" fulltag="037A">
+        <subfield code="a">Gesehen am 07.06.2023</subfield>
+      </datafield>
+      <datafield tag="039D" fulltag="039D">
+        <subfield code="i">Erscheint auch als</subfield>
+        <subfield code="n">Druck-Ausgabe</subfield>
+        <subfield code="9">1747160431</subfield>
+        <subfield code="8">Zeitschrift für Religion und Weltanschauung / Evangelische Zentralstelle für Weltanschauungsfragen ; ID: gnd/10025459-7. - [Baden-Baden] : Nomos, [2021]- ; ZDB-ID: 3052445-3</subfield>
+        <subfield code="C">ISSN</subfield>
+        <subfield code="6">2747-9706</subfield>
+        <subfield code="C">DNB</subfield>
+        <subfield code="6">1226189547</subfield>
+      </datafield>
+      <datafield tag="039E" fulltag="039E">
+        <subfield code="b">f</subfield>
+        <subfield code="i">Fortsetzung von</subfield>
+        <subfield code="9">818042060</subfield>
+        <subfield code="8">Materialdienst / Evangelische Zentralstelle für Weltanschauungsfragen ; ID: gnd/10025459-7 ; ZDB-ID: 2809864-X</subfield>
+        <subfield code="C">DNB</subfield>
+        <subfield code="6">1066581827</subfield>
+      </datafield>
+      <datafield tag="045G" fulltag="045G">
+        <subfield code="a">230</subfield>
+        <subfield code="A">DE-101</subfield>
+      </datafield>
+      <datafield tag="045G" fulltag="045G">
+        <subfield code="a">230</subfield>
+        <subfield code="A">DE-600</subfield>
+      </datafield>
+      <datafield tag="045V" fulltag="045V">
+        <subfield code="a">0</subfield>
+      </datafield>
+      <datafield tag="046X" fulltag="046X">
+        <subfield code="a">aa</subfield>
+        <subfield code="k">DE-576</subfield>
+        <subfield code="5">DE-31</subfield>
+      </datafield>
+      <datafield tag="047B" fulltag="047B">
+        <subfield code="a">C!URL mit z KW gelöscht(07-06-23)</subfield>
+      </datafield>
+      <item epn="6008846540">
+        <datafield tag="201A" occurrence="01" fulltag="201A/01">
+          <subfield code="0">20-06-25</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">20-06-25</subfield>
+          <subfield code="t">16:55:59.000</subfield>
+        </datafield>
+        <datafield tag="201D" occurrence="01" fulltag="201D/01">
+          <subfield code="0">MZUB:31-08-23</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">6008846540</subfield>
+        </datafield>
+        <datafield tag="203H" occurrence="01" fulltag="203H/01">
+          <subfield code="0">1242381392</subfield>
+        </datafield>
+        <datafield tag="206X" occurrence="01" fulltag="206X/01">
+          <subfield code="0">1242381392</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">31-08-23</subfield>
+          <subfield code="b">l01</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="B">77</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">konv</subfield>
+          <subfield code="x">12</subfield>
+        </datafield>
+        <datafield tag="209R" occurrence="01" fulltag="209R/01">
+          <subfield code="u">https://ezb.ur.de/?3105372-5&amp;bibid=UBMZ</subfield>
+          <subfield code="x">F</subfield>
+        </datafield>
+      </item>
+    </metadata>
+    <rawrecord><![CDATA[001@ ƒ011,20,22,24,30-31,39-40,60,62-63,65,69-70,72-73,95,110,118,122,130-132,140,147,151,160-161,164,206,209,213,217,230,239,264,267,285,293,352,602-603,752,2001,2003,2006,2008-2009,2011,2014,2018,2030,2403,2574,4012,4029,4035,4037,4112,4125-4126,4155,4249,4305-4306,4310,4313-4314,4317-4318,4322-4325,4367,4700
+001A ƒ02004:10-01-22
+001B ƒ02004:09-06-25ƒt21:13:14.000
+001D ƒ02004:10-01-22
+001U ƒ0utf8
+001X ƒ00
+002@ ƒ0Obv
+002C ƒaTextƒbtxt
+002D ƒaComputermedienƒbc
+002E ƒaOnline-Ressourceƒbcr
+003@ ƒ01785334670
+003H ƒ0489350623
+003O ƒaOCoLCƒ01292462467ƒv2025-06-09
+004V ƒ010.5771/0721-2402
+005A ƒ02942-3600
+005I ƒ02942-3600ƒfZeitschrift für Religion und Weltanschauung
+005P ƒSpƒ02747-9706
+006G ƒ01249083699
+006Z ƒ03105372-5
+007G ƒiZDBƒ03105372-5
+010@ ƒager
+010E ƒerda
+011@ ƒa2021ƒn[2021]-
+013D ƒ910454466Xƒ8Zeitschrift ; ID: gnd/4067488-5
+016A ƒ0crxxxxxxxxxxxx
+009P/03 ƒahttps://doi.org/10.5771/0721-2402ƒxR
+009P/03 ƒahttps://www.nomos-elibrary.de/zeitschrift/0721-2402ƒxH; 84. Jahrgang, 1 (2021)-
+009P/03 ƒahttps://www.ezw-berlin.de/publikationen/zeitschrift-fuer-religion-und-weltanschauung/ƒxH; 84. Jahrgang, 1 (2021)-86. Jahrgang, 2 (2023)ƒ4LF
+009P/03 ƒahttps://ezb.ur.de/?3105372-5ƒxF
+017L ƒaZDB-1-NOLZ
+017L ƒaZDB-1-NSWZ
+017L ƒaZDB-1-NREZ
+018@ ƒab
+019@ ƒaXA-DE
+021A ƒaZeitschrift für Religion und Weltanschauungƒd(ZRW) : Materialdienst der Evangelischen Zentralstelle für WeltanschauungsfragenƒhEZW, Evangelische Zentralstelle für Weltanschauungsfragen ; EKD, Evangelische Kirche in Deutschland
+027A ƒaZRW
+029F ƒ9332633632ƒ8Evangelische Zentralstelle für Weltanschauungsfragen ; ID: gnd/10025459-7ƒBHerausgebendes Organƒ4isb
+031@ ƒa84. Jahrgang, 1 (2021)-
+031N ƒd84ƒe1ƒj2021ƒ6
+033A ƒpBaden-BandenƒnNomos
+033A ƒpBerlinƒnEZWƒh2021-2023ƒze
+033A ƒpHannoverƒnEKDƒh2021-2023ƒze
+034D ƒaOnline-Ressource
+037A ƒaGesehen am 07.06.2023
+039D ƒiErscheint auch alsƒnDruck-Ausgabeƒ91747160431ƒ8Zeitschrift für Religion und Weltanschauung / Evangelische Zentralstelle für Weltanschauungsfragen ; ID: gnd/10025459-7. - [Baden-Baden] : Nomos, [2021]- ; ZDB-ID: 3052445-3ƒCISSNƒ62747-9706ƒCDNBƒ61226189547
+039E ƒbfƒiFortsetzung vonƒ9818042060ƒ8Materialdienst / Evangelische Zentralstelle für Weltanschauungsfragen ; ID: gnd/10025459-7 ; ZDB-ID: 2809864-XƒCDNBƒ61066581827
+045G ƒa230ƒADE-101
+045G ƒa230ƒADE-600
+045V ƒa0
+046X ƒaaaƒkDE-576ƒ5DE-31
+047B ƒaC!URL mit z KW gelöscht(07-06-23)
+
+201A/01 ƒ020-06-25
+201B/01 ƒ020-06-25ƒt16:55:59.000
+201D/01 ƒ0MZUB:31-08-23
+201U/01 ƒ0utf8
+203@/01 ƒ06008846540
+203H/01 ƒ01242381392
+206X/01 ƒ01242381392
+208@/01 ƒa31-08-23ƒbl01
+209A/01 ƒB77ƒx00
+209B/01 ƒakonvƒx12
+209R/01 ƒuhttps://ezb.ur.de/?3105372-5&bibid=UBMZƒxF
+
+]]></rawrecord>
+  </record>
+  <record>
+    <status>upsert</status>
+    <hrid>178731528</hrid>
+    <metadata>
+      <datafield tag="001@" fulltag="001@">
+        <subfield code="0">11,21-22,24,40,61,65,92,241,2030</subfield>
+      </datafield>
+      <datafield tag="001A" fulltag="001A">
+        <subfield code="0">2001:07-01-95</subfield>
+      </datafield>
+      <datafield tag="001B" fulltag="001B">
+        <subfield code="0">MZUB:07-07-25</subfield>
+        <subfield code="t">17:45:53.000</subfield>
+      </datafield>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">0018:07-12-07</subfield>
+      </datafield>
+      <datafield tag="001U" fulltag="001U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="001X" fulltag="001X">
+        <subfield code="0">0</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Acu</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+        <subfield code="b">n</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Band</subfield>
+        <subfield code="b">nc</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">178731528</subfield>
+      </datafield>
+      <datafield tag="003H" fulltag="003H">
+        <subfield code="0">123001277</subfield>
+      </datafield>
+      <datafield tag="003S" fulltag="003S">
+        <subfield code="0">9178731526</subfield>
+      </datafield>
+      <datafield tag="003T" fulltag="003T">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">01541418</subfield>
+      </datafield>
+      <datafield tag="004A" fulltag="004A">
+        <subfield code="f"> : zus. 34.- (kart.)</subfield>
+      </datafield>
+      <datafield tag="006G" fulltag="006G">
+        <subfield code="0">454312067</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">GBV</subfield>
+        <subfield code="0">178731528</subfield>
+      </datafield>
+      <datafield tag="007H" fulltag="007H">
+        <subfield code="i">HEB</subfield>
+        <subfield code="0">123001277</subfield>
+      </datafield>
+      <datafield tag="009@" fulltag="009@">
+        <subfield code="a">HEB</subfield>
+        <subfield code="b">0501</subfield>
+      </datafield>
+      <datafield tag="009@" fulltag="009@">
+        <subfield code="a">HEB</subfield>
+        <subfield code="b">0503</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">1963</subfield>
+        <subfield code="b">1963</subfield>
+        <subfield code="n">1963</subfield>
+      </datafield>
+      <datafield tag="019@" fulltag="019@">
+        <subfield code="a">XA-DE</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">@Gesamtanalyse der Harmonik von Richard Wagners Musikdrama "Tristan und Isolde"</subfield>
+        <subfield code="d">unter spezieller Berücksichtigung der Sequenztechnik des Tristanstiles</subfield>
+        <subfield code="h">von Horst Scharschuch</subfield>
+      </datafield>
+      <datafield tag="028A" fulltag="028A">
+        <subfield code="d">Horst</subfield>
+        <subfield code="a">Scharschuch</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Regensburg</subfield>
+        <subfield code="n">Bosse</subfield>
+      </datafield>
+      <datafield tag="034I" fulltag="034I">
+        <subfield code="a">8 (Beibd. 4)</subfield>
+      </datafield>
+      <datafield tag="036E" fulltag="036E">
+        <subfield code="a">Forschungsbeiträge zur Musikwissenschaft</subfield>
+        <subfield code="l">...</subfield>
+      </datafield>
+      <datafield tag="044K" fulltag="044K">
+        <subfield code="9">70174930X</subfield>
+        <subfield code="8">Wagner, Richard *1813-1883* ; ID: gnd/118594117 Tristan und Isolde ; ID: gnd/300170483</subfield>
+      </datafield>
+      <datafield tag="044K" fulltag="044K">
+        <subfield code="9">105712892</subfield>
+        <subfield code="8">Harmonik ; ID: gnd/4129030-6</subfield>
+      </datafield>
+      <datafield tag="045E" fulltag="045E">
+        <subfield code="a">13a</subfield>
+      </datafield>
+      <item epn="6012021321">
+        <datafield tag="201A" occurrence="01" fulltag="201A/01">
+          <subfield code="0">07-07-25</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">07-07-25</subfield>
+          <subfield code="t">17:45:53.000</subfield>
+        </datafield>
+        <datafield tag="201D" occurrence="01" fulltag="201D/01">
+          <subfield code="0">MZUB:09-08-04</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">6012021321</subfield>
+        </datafield>
+        <datafield tag="203H" occurrence="01" fulltag="203H/01">
+          <subfield code="0">218001827</subfield>
+        </datafield>
+        <datafield tag="206X" occurrence="01" fulltag="206X/01">
+          <subfield code="0">218001827</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">09-08-04</subfield>
+          <subfield code="b">l01</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="B">77</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">konv</subfield>
+          <subfield code="x">12</subfield>
+        </datafield>
+      </item>
+    </metadata>
+    <rawrecord><![CDATA[001@ ƒ011,21-22,24,40,61,65,92,241,2030
+001A ƒ02001:07-01-95
+001B ƒ0MZUB:07-07-25ƒt17:45:53.000
+001D ƒ00018:07-12-07
+001U ƒ0utf8
+001X ƒ00
+002@ ƒ0Acu
+002C ƒaTextƒbtxt
+002D ƒaohne Hilfsmittel zu benutzenƒbn
+002E ƒaBandƒbnc
+003@ ƒ0178731528
+003H ƒ0123001277
+003S ƒ09178731526
+003T ƒaOCoLCƒ001541418
+004A ƒf : zus. 34.- (kart.)
+006G ƒ0454312067
+007G ƒiGBVƒ0178731528
+007H ƒiHEBƒ0123001277
+009@ ƒaHEBƒb0501
+009@ ƒaHEBƒb0503
+010@ ƒager
+011@ ƒa1963ƒb1963ƒn1963
+019@ ƒaXA-DE
+021A ƒa@Gesamtanalyse der Harmonik von Richard Wagners Musikdrama "Tristan und Isolde"ƒdunter spezieller Berücksichtigung der Sequenztechnik des Tristanstilesƒhvon Horst Scharschuch
+028A ƒdHorstƒaScharschuch
+033A ƒpRegensburgƒnBosse
+034I ƒa8 (Beibd. 4)
+036E ƒaForschungsbeiträge zur Musikwissenschaftƒl...
+044K ƒ970174930Xƒ8Wagner, Richard *1813-1883* ; ID: gnd/118594117$aTristan und Isolde ; ID: gnd/300170483
+044K ƒ9105712892ƒ8Harmonik ; ID: gnd/4129030-6
+045E ƒa13a
+
+201A/01 ƒ007-07-25
+201B/01 ƒ007-07-25ƒt17:45:53.000
+201D/01 ƒ0MZUB:09-08-04
+201U/01 ƒ0utf8
+203@/01 ƒ06012021321
+203H/01 ƒ0218001827
+206X/01 ƒ0218001827
+208@/01 ƒa09-08-04ƒbl01
+209A/01 ƒB77ƒx00
+209B/01 ƒakonvƒx12
+
+]]></rawrecord>
+  </record>
+  <record>
+    <status>upsert</status>
+    <hrid>1770724494</hrid>
+    <metadata>
+      <datafield tag="001@" fulltag="001@">
+        <subfield code="0">31,178,267,2005-2006,2011,2030,4012,4035,4037-4038,4219,4246,4314,4319</subfield>
+      </datafield>
+      <datafield tag="001A" fulltag="001A">
+        <subfield code="0">2004:15-09-21</subfield>
+      </datafield>
+      <datafield tag="001B" fulltag="001B">
+        <subfield code="0">BSZ:04-06-25</subfield>
+        <subfield code="t">12:28:20.000</subfield>
+      </datafield>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">2004:15-09-21</subfield>
+      </datafield>
+      <datafield tag="001U" fulltag="001U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="001X" fulltag="001X">
+        <subfield code="0">0</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Obv</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">Computermedien</subfield>
+        <subfield code="b">c</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Online-Ressource</subfield>
+        <subfield code="b">cr</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">1770724494</subfield>
+      </datafield>
+      <datafield tag="003H" fulltag="003H">
+        <subfield code="0">485558025</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">1298586190</subfield>
+        <subfield code="v">2024-04-27</subfield>
+      </datafield>
+      <datafield tag="004V" fulltag="004V">
+        <subfield code="0">10.1055/s-00051909</subfield>
+      </datafield>
+      <datafield tag="005A" fulltag="005A">
+        <subfield code="0">2749-7453</subfield>
+      </datafield>
+      <datafield tag="005I" fulltag="005I">
+        <subfield code="0">2749-7453</subfield>
+        <subfield code="f">Angewandte Nuklearmedizin</subfield>
+      </datafield>
+      <datafield tag="005P" fulltag="005P">
+        <subfield code="S">p</subfield>
+        <subfield code="0">2749-7445</subfield>
+      </datafield>
+      <datafield tag="006G" fulltag="006G">
+        <subfield code="0">1241206260</subfield>
+      </datafield>
+      <datafield tag="006Z" fulltag="006Z">
+        <subfield code="0">3093194-0</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">ZDB</subfield>
+        <subfield code="0">3093194-0</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2022</subfield>
+        <subfield code="n">2022-</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">10454466X</subfield>
+        <subfield code="8">Zeitschrift ; ID: gnd/4067488-5</subfield>
+      </datafield>
+      <datafield tag="016A" fulltag="016A">
+        <subfield code="0">crxxxxxxxxxxxx</subfield>
+      </datafield>
+      <datafield tag="009P" occurrence="03" fulltag="009P/03">
+        <subfield code="a">https://doi.org/10.1055/s-00051909</subfield>
+        <subfield code="x">R</subfield>
+      </datafield>
+      <datafield tag="009P" occurrence="03" fulltag="009P/03">
+        <subfield code="a">https://ezb.ur.de/?3093194-0</subfield>
+        <subfield code="x">F</subfield>
+      </datafield>
+      <datafield tag="009P" occurrence="03" fulltag="009P/03">
+        <subfield code="a">https://www.thieme-connect.de/products/ejournals/journal/10.1055/s-00051909</subfield>
+        <subfield code="x">H</subfield>
+      </datafield>
+      <datafield tag="018@" fulltag="018@">
+        <subfield code="a">q</subfield>
+      </datafield>
+      <datafield tag="019@" fulltag="019@">
+        <subfield code="a">XA-DE</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Angewandte Nuklearmedizin</subfield>
+        <subfield code="d">Organ des Berufsverbandes Deutscher Nuklearmediziner</subfield>
+      </datafield>
+      <datafield tag="029F" fulltag="029F">
+        <subfield code="9">100764592</subfield>
+        <subfield code="8">Berufsverband Deutscher Nuklearmediziner ; ID: gnd/32458-9</subfield>
+        <subfield code="B">Herausgebendes Organ</subfield>
+        <subfield code="4">isb</subfield>
+      </datafield>
+      <datafield tag="031@" fulltag="031@">
+        <subfield code="a">Volume 45, Ausgabe 01 (März 2022)-</subfield>
+      </datafield>
+      <datafield tag="031N" fulltag="031N">
+        <subfield code="d">45</subfield>
+        <subfield code="e">1</subfield>
+        <subfield code="c">3</subfield>
+        <subfield code="j">2022</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Stuttgart</subfield>
+        <subfield code="n">Thieme</subfield>
+      </datafield>
+      <datafield tag="037A" fulltag="037A">
+        <subfield code="a">Gesehen am 27.06.2023</subfield>
+      </datafield>
+      <datafield tag="039D" fulltag="039D">
+        <subfield code="i">Erscheint auch als</subfield>
+        <subfield code="n">Druck-Ausgabe</subfield>
+        <subfield code="9">1770723927</subfield>
+        <subfield code="8">Angewandte Nuklearmedizin / Berufsverband Deutscher Nuklearmediziner ; ID: gnd/32458-9. - Stuttgart : Thieme, [2022]- ; ZDB-ID: 3093190-3</subfield>
+        <subfield code="C">ISSN</subfield>
+        <subfield code="6">2749-7445</subfield>
+        <subfield code="C">DNB</subfield>
+        <subfield code="6">1241205639</subfield>
+      </datafield>
+      <datafield tag="039E" fulltag="039E">
+        <subfield code="b">f</subfield>
+        <subfield code="i">Fortsetzung von</subfield>
+        <subfield code="9">356569373</subfield>
+        <subfield code="8">Der @Nuklearmediziner ; ZDB-ID: 2092413-6</subfield>
+        <subfield code="C">ISSN</subfield>
+        <subfield code="6">1439-5800</subfield>
+        <subfield code="C">DNB</subfield>
+        <subfield code="6">024029300</subfield>
+      </datafield>
+      <datafield tag="045F" fulltag="045F">
+        <subfield code="e">23/ger</subfield>
+        <subfield code="a">616.0757505</subfield>
+        <subfield code="A">SEPA</subfield>
+      </datafield>
+      <datafield tag="045G" fulltag="045G">
+        <subfield code="a">610</subfield>
+        <subfield code="A">DE-101</subfield>
+      </datafield>
+      <datafield tag="045G" fulltag="045G">
+        <subfield code="a">610</subfield>
+        <subfield code="A">DE-600</subfield>
+      </datafield>
+      <datafield tag="045W" fulltag="045W">
+        <subfield code="a">pha</subfield>
+      </datafield>
+      <item epn="600773868X">
+        <datafield tag="201A" occurrence="01" fulltag="201A/01">
+          <subfield code="0">19-04-23</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">11-09-23</subfield>
+          <subfield code="t">17:01:12.000</subfield>
+        </datafield>
+        <datafield tag="201D" occurrence="01" fulltag="201D/01">
+          <subfield code="0">MZU001:19-04-23</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">600773868X</subfield>
+        </datafield>
+        <datafield tag="203H" occurrence="01" fulltag="203H/01">
+          <subfield code="0">1232899550</subfield>
+        </datafield>
+        <datafield tag="206Z" occurrence="01" fulltag="206Z/01">
+          <subfield code="0">878595457</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">19-04-23</subfield>
+          <subfield code="b">z02</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="B">77/001</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="c">8g</subfield>
+          <subfield code="d">cr uuuuuuuuuuu</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">cofz</subfield>
+          <subfield code="x">12</subfield>
+        </datafield>
+        <datafield tag="209R" occurrence="01" fulltag="209R/01">
+          <subfield code="u">http://www.bibliothek.uni-regensburg.de/ezeit/?3093194&amp;bibid=UBMZ</subfield>
+          <subfield code="x">F</subfield>
+        </datafield>
+        <datafield tag="231D" occurrence="01" fulltag="231D/01">
+          <subfield code="a">Online-Zugang nur im Netz der Universität Mainz</subfield>
+        </datafield>
+        <datafield tag="245G" occurrence="01" fulltag="245G/01">
+          <subfield code="c">ej</subfield>
+        </datafield>
+      </item>
+      <item epn="6008814991">
+        <datafield tag="201A" occurrence="02" fulltag="201A/02">
+          <subfield code="0">20-06-25</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="02" fulltag="201B/02">
+          <subfield code="0">20-06-25</subfield>
+          <subfield code="t">16:37:58.000</subfield>
+        </datafield>
+        <datafield tag="201D" occurrence="02" fulltag="201D/02">
+          <subfield code="0">MZUB:01-09-23</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="02" fulltag="201U/02">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="02" fulltag="203@/02">
+          <subfield code="0">6008814991</subfield>
+        </datafield>
+        <datafield tag="203H" occurrence="02" fulltag="203H/02">
+          <subfield code="0">1242497218</subfield>
+        </datafield>
+        <datafield tag="206X" occurrence="02" fulltag="206X/02">
+          <subfield code="0">1242497218</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="02" fulltag="208@/02">
+          <subfield code="a">01-09-23</subfield>
+          <subfield code="b">l01</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="02" fulltag="209A/02">
+          <subfield code="B">77</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="02" fulltag="209B/02">
+          <subfield code="a">konv</subfield>
+          <subfield code="x">12</subfield>
+        </datafield>
+        <datafield tag="209R" occurrence="02" fulltag="209R/02">
+          <subfield code="u">https://ezb.ur.de/?3093194-0&amp;bibid=UBMZ</subfield>
+          <subfield code="x">F</subfield>
+        </datafield>
+      </item>
+    </metadata>
+    <rawrecord><![CDATA[001@ ƒ031,178,267,2005-2006,2011,2030,4012,4035,4037-4038,4219,4246,4314,4319
+001A ƒ02004:15-09-21
+001B ƒ0BSZ:04-06-25ƒt12:28:20.000
+001D ƒ02004:15-09-21
+001U ƒ0utf8
+001X ƒ00
+002@ ƒ0Obv
+002C ƒaTextƒbtxt
+002D ƒaComputermedienƒbc
+002E ƒaOnline-Ressourceƒbcr
+003@ ƒ01770724494
+003H ƒ0485558025
+003O ƒaOCoLCƒ01298586190ƒv2024-04-27
+004V ƒ010.1055/s-00051909
+005A ƒ02749-7453
+005I ƒ02749-7453ƒfAngewandte Nuklearmedizin
+005P ƒSpƒ02749-7445
+006G ƒ01241206260
+006Z ƒ03093194-0
+007G ƒiZDBƒ03093194-0
+010@ ƒager
+011@ ƒa2022ƒn2022-
+013D ƒ910454466Xƒ8Zeitschrift ; ID: gnd/4067488-5
+016A ƒ0crxxxxxxxxxxxx
+009P/03 ƒahttps://doi.org/10.1055/s-00051909ƒxR
+009P/03 ƒahttps://ezb.ur.de/?3093194-0ƒxF
+009P/03 ƒahttps://www.thieme-connect.de/products/ejournals/journal/10.1055/s-00051909ƒxH
+018@ ƒaq
+019@ ƒaXA-DE
+021A ƒaAngewandte NuklearmedizinƒdOrgan des Berufsverbandes Deutscher Nuklearmediziner
+029F ƒ9100764592ƒ8Berufsverband Deutscher Nuklearmediziner ; ID: gnd/32458-9ƒBHerausgebendes Organƒ4isb
+031@ ƒaVolume 45, Ausgabe 01 (März 2022)-
+031N ƒd45ƒe1ƒc3ƒj2022ƒ6
+033A ƒpStuttgartƒnThieme
+037A ƒaGesehen am 27.06.2023
+039D ƒiErscheint auch alsƒnDruck-Ausgabeƒ91770723927ƒ8Angewandte Nuklearmedizin / Berufsverband Deutscher Nuklearmediziner ; ID: gnd/32458-9. - Stuttgart : Thieme, [2022]- ; ZDB-ID: 3093190-3ƒCISSNƒ62749-7445ƒCDNBƒ61241205639
+039E ƒbfƒiFortsetzung vonƒ9356569373ƒ8Der @Nuklearmediziner ; ZDB-ID: 2092413-6ƒCISSNƒ61439-5800ƒCDNBƒ6024029300
+045F ƒe23/gerƒa616.0757505ƒASEPA
+045G ƒa610ƒADE-101
+045G ƒa610ƒADE-600
+045W ƒapha
+
+201A/01 ƒ019-04-23
+201B/01 ƒ011-09-23ƒt17:01:12.000
+201D/01 ƒ0MZU001:19-04-23
+201U/01 ƒ0utf8
+203@/01 ƒ0600773868X
+203H/01 ƒ01232899550
+206Z/01 ƒ0878595457
+208@/01 ƒa19-04-23ƒbz02
+209A/01 ƒB77/001ƒx00
+209B/01 ƒc8gƒdcr uuuuuuuuuuuƒx01
+209B/01 ƒacofzƒx12
+209R/01 ƒuhttp://www.bibliothek.uni-regensburg.de/ezeit/?3093194&bibid=UBMZƒxF
+231D/01 ƒaOnline-Zugang nur im Netz der Universität Mainz
+245G/01 ƒcej
+
+201A/02 ƒ020-06-25
+201B/02 ƒ020-06-25ƒt16:37:58.000
+201D/02 ƒ0MZUB:01-09-23
+201U/02 ƒ0utf8
+203@/02 ƒ06008814991
+203H/02 ƒ01242497218
+206X/02 ƒ01242497218
+208@/02 ƒa01-09-23ƒbl01
+209A/02 ƒB77ƒx00
+209B/02 ƒakonvƒx12
+209R/02 ƒuhttps://ezb.ur.de/?3093194-0&bibid=UBMZƒxF
+
+]]></rawrecord>
+  </record>
+  <record>
+    <status>upsert</status>
+    <hrid>1046817361</hrid>
+    <metadata>
+      <datafield tag="001@" fulltag="001@">
+        <subfield code="0">2030,4038</subfield>
+      </datafield>
+      <datafield tag="001A" fulltag="001A">
+        <subfield code="0">2004:17-01-19</subfield>
+      </datafield>
+      <datafield tag="001B" fulltag="001B">
+        <subfield code="0">BSZ:04-06-25</subfield>
+        <subfield code="t">12:27:55.000</subfield>
+      </datafield>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">2004:23-01-19</subfield>
+      </datafield>
+      <datafield tag="001U" fulltag="001U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="001X" fulltag="001X">
+        <subfield code="0">0</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Abv</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+        <subfield code="b">n</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Band</subfield>
+        <subfield code="b">nc</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">1046817361</subfield>
+      </datafield>
+      <datafield tag="003H" fulltag="003H">
+        <subfield code="0">440921775</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">1368766650</subfield>
+        <subfield code="v">2023-04-01</subfield>
+      </datafield>
+      <datafield tag="003S" fulltag="003S">
+        <subfield code="0">51632943X</subfield>
+      </datafield>
+      <datafield tag="005A" fulltag="005A">
+        <subfield code="0">2648-1057</subfield>
+      </datafield>
+      <datafield tag="006G" fulltag="006G">
+        <subfield code="0">1175557412</subfield>
+      </datafield>
+      <datafield tag="006Y" fulltag="006Y">
+        <subfield code="0">zdb1175557412</subfield>
+      </datafield>
+      <datafield tag="006Z" fulltag="006Z">
+        <subfield code="0">2956346-X</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">ZDB</subfield>
+        <subfield code="0">2956346-X</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">fre</subfield>
+      </datafield>
+      <datafield tag="010E" fulltag="010E">
+        <subfield code="e">rda</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2018</subfield>
+        <subfield code="n">2018-</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">10454466X</subfield>
+        <subfield code="8">Zeitschrift ; ID: gnd/4067488-5</subfield>
+      </datafield>
+      <datafield tag="018@" fulltag="018@">
+        <subfield code="a">z</subfield>
+      </datafield>
+      <datafield tag="019@" fulltag="019@">
+        <subfield code="a">XA-FR</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Rapport sur la pauvreté en France</subfield>
+        <subfield code="h">Observatoire des inégalités</subfield>
+      </datafield>
+      <datafield tag="029F" fulltag="029F">
+        <subfield code="9">530041855</subfield>
+        <subfield code="8">Observatoire des Inégalités Tours ; ID: gnd/6065116-7</subfield>
+        <subfield code="B">Herausgebendes Organ</subfield>
+        <subfield code="4">isb</subfield>
+      </datafield>
+      <datafield tag="031@" fulltag="031@">
+        <subfield code="a">1ère édition (2018)-</subfield>
+      </datafield>
+      <datafield tag="031N" fulltag="031N">
+        <subfield code="d">1</subfield>
+        <subfield code="j">2018</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Tours</subfield>
+        <subfield code="n">Observatoire des inégalités</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">Bände</subfield>
+      </datafield>
+      <datafield tag="045G" fulltag="045G">
+        <subfield code="a">360</subfield>
+        <subfield code="A">DE-600</subfield>
+      </datafield>
+      <item epn="600767424X">
+        <datafield tag="201A" occurrence="01" fulltag="201A/01">
+          <subfield code="0">17-01-19</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">29-01-24</subfield>
+          <subfield code="t">17:01:10.000</subfield>
+        </datafield>
+        <datafield tag="201D" occurrence="01" fulltag="201D/01">
+          <subfield code="0">MZUB:17-01-19</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">600767424X</subfield>
+        </datafield>
+        <datafield tag="203H" occurrence="01" fulltag="203H/01">
+          <subfield code="0">1035328526</subfield>
+        </datafield>
+        <datafield tag="206Z" occurrence="01" fulltag="206Z/01">
+          <subfield code="0">48297365X</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">17-01-19</subfield>
+          <subfield code="b">z01</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="B">77</subfield>
+          <subfield code="f">000</subfield>
+          <subfield code="a">FZ 1311</subfield>
+          <subfield code="J">l</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="f">MAG</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="231@" occurrence="01" fulltag="231@/01">
+          <subfield code="d">1</subfield>
+          <subfield code="j">2018</subfield>
+        </datafield>
+        <datafield tag="231B" occurrence="01" fulltag="231B/01">
+          <subfield code="g">1</subfield>
+          <subfield code="a">1.2018</subfield>
+        </datafield>
+      </item>
+    </metadata>
+    <rawrecord><![CDATA[001@ ƒ02030,4038
+001A ƒ02004:17-01-19
+001B ƒ0BSZ:04-06-25ƒt12:27:55.000
+001D ƒ02004:23-01-19
+001U ƒ0utf8
+001X ƒ00
+002@ ƒ0Abv
+002C ƒaTextƒbtxt
+002D ƒaohne Hilfsmittel zu benutzenƒbn
+002E ƒaBandƒbnc
+003@ ƒ01046817361
+003H ƒ0440921775
+003O ƒaOCoLCƒ01368766650ƒv2023-04-01
+003S ƒ051632943X
+005A ƒ02648-1057
+006G ƒ01175557412
+006Y ƒ0zdb1175557412
+006Z ƒ02956346-X
+007G ƒiZDBƒ02956346-X
+010@ ƒafre
+010E ƒerda
+011@ ƒa2018ƒn2018-
+013D ƒ910454466Xƒ8Zeitschrift ; ID: gnd/4067488-5
+018@ ƒaz
+019@ ƒaXA-FR
+021A ƒaRapport sur la pauvreté en FranceƒhObservatoire des inégalités
+029F ƒ9530041855ƒ8Observatoire des Inégalités$gTours ; ID: gnd/6065116-7ƒBHerausgebendes Organƒ4isb
+031@ ƒa1ère édition (2018)-
+031N ƒd1ƒj2018
+033A ƒpToursƒnObservatoire des inégalités
+034D ƒaBände
+045G ƒa360ƒADE-600
+
+201A/01 ƒ017-01-19
+201B/01 ƒ029-01-24ƒt17:01:10.000
+201D/01 ƒ0MZUB:17-01-19
+201U/01 ƒ0utf8
+203@/01 ƒ0600767424X
+203H/01 ƒ01035328526
+206Z/01 ƒ048297365X
+208@/01 ƒa17-01-19ƒbz01
+209A/01 ƒB77ƒf000ƒaFZ 1311ƒJlƒx00
+209A/01 ƒfMAGƒx01
+231@/01 ƒd1ƒj2018
+231B/01 ƒg1ƒa1.2018
+
+]]></rawrecord>
+  </record>
+  <record>
+    <status>upsert</status>
+    <hrid>1837297304</hrid>
+    <metadata>
+      <datafield tag="001@" fulltag="001@">
+        <subfield code="0">22,24,31,50,121,267,2001,2003,2005,2008,2012,2030,2046</subfield>
+      </datafield>
+      <datafield tag="001A" fulltag="001A">
+        <subfield code="0">2004:22-02-23</subfield>
+      </datafield>
+      <datafield tag="001B" fulltag="001B">
+        <subfield code="0">BSZ:04-06-25</subfield>
+        <subfield code="t">14:03:49.000</subfield>
+      </datafield>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">2004:22-02-23</subfield>
+      </datafield>
+      <datafield tag="001U" fulltag="001U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="001X" fulltag="001X">
+        <subfield code="0">0</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Adv</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+        <subfield code="b">n</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Band</subfield>
+        <subfield code="b">nc</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">1837297304</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">1393653480</subfield>
+        <subfield code="v">2023-12-14</subfield>
+      </datafield>
+      <datafield tag="005A" fulltag="005A">
+        <subfield code="0">2941-0568</subfield>
+      </datafield>
+      <datafield tag="005I" fulltag="005I">
+        <subfield code="0">2941-0568</subfield>
+        <subfield code="f">Beihefte zu den Acta Cusana</subfield>
+      </datafield>
+      <datafield tag="006G" fulltag="006G">
+        <subfield code="0">128164658X</subfield>
+      </datafield>
+      <datafield tag="006H" fulltag="006H">
+        <subfield code="0">50521850X</subfield>
+      </datafield>
+      <datafield tag="006U" fulltag="006U">
+        <subfield code="0">23,A14</subfield>
+      </datafield>
+      <datafield tag="006Z" fulltag="006Z">
+        <subfield code="0">3148591-1</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">ZDB</subfield>
+        <subfield code="0">3148591-1</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+      </datafield>
+      <datafield tag="010E" fulltag="010E">
+        <subfield code="e">rda</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2023</subfield>
+        <subfield code="n">[2023]-</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">104628669</subfield>
+        <subfield code="8">Monografische Reihe ; ID: gnd/4179998-7</subfield>
+      </datafield>
+      <datafield tag="018@" fulltag="018@">
+        <subfield code="a">z</subfield>
+      </datafield>
+      <datafield tag="019@" fulltag="019@">
+        <subfield code="a">XA-DE</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Beihefte zu den Acta Cusana</subfield>
+      </datafield>
+      <datafield tag="031@" fulltag="031@">
+        <subfield code="a">Beiheft 1-</subfield>
+      </datafield>
+      <datafield tag="031N" fulltag="031N">
+        <subfield code="d">1</subfield>
+        <subfield code="j">2023</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Hamburg</subfield>
+        <subfield code="n">Felix Meiner Verlag</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">Bände</subfield>
+      </datafield>
+      <datafield tag="034I" fulltag="034I">
+        <subfield code="a">25 cm</subfield>
+      </datafield>
+      <datafield tag="045G" fulltag="045G">
+        <subfield code="a">230</subfield>
+        <subfield code="a">100</subfield>
+        <subfield code="a">940</subfield>
+        <subfield code="k">maschinell generiert dnb</subfield>
+        <subfield code="v">20230329</subfield>
+        <subfield code="A">DE-101</subfield>
+      </datafield>
+      <datafield tag="045G" fulltag="045G">
+        <subfield code="a">230</subfield>
+        <subfield code="A">DE-600</subfield>
+      </datafield>
+      <item epn="6008815181">
+        <datafield tag="201A" occurrence="01" fulltag="201A/01">
+          <subfield code="0">20-06-25</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">20-06-25</subfield>
+          <subfield code="t">16:38:06.000</subfield>
+        </datafield>
+        <datafield tag="201D" occurrence="01" fulltag="201D/01">
+          <subfield code="0">MZUB:22-02-23</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">6008815181</subfield>
+        </datafield>
+        <datafield tag="203H" occurrence="01" fulltag="203H/01">
+          <subfield code="0">1227808550</subfield>
+        </datafield>
+        <datafield tag="206X" occurrence="01" fulltag="206X/01">
+          <subfield code="0">1227808550</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">22-02-23</subfield>
+          <subfield code="b">l01</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="B">77</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">konv</subfield>
+          <subfield code="x">12</subfield>
+        </datafield>
+        <datafield tag="209O" occurrence="01" fulltag="209O/01">
+          <subfield code="a">!003! zur Fortsetzung RVK-Aufstellung, Einzelsignaturen!</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="237B" occurrence="01" fulltag="237B/01">
+          <subfield code="f">200zb</subfield>
+        </datafield>
+        <datafield tag="237B" occurrence="01" fulltag="237B/01">
+          <subfield code="f">460zb</subfield>
+        </datafield>
+      </item>
+    </metadata>
+    <rawrecord><![CDATA[001@ ƒ022,24,31,50,121,267,2001,2003,2005,2008,2012,2030,2046
+001A ƒ02004:22-02-23
+001B ƒ0BSZ:04-06-25ƒt14:03:49.000
+001D ƒ02004:22-02-23
+001U ƒ0utf8
+001X ƒ00
+002@ ƒ0Adv
+002C ƒaTextƒbtxt
+002D ƒaohne Hilfsmittel zu benutzenƒbn
+002E ƒaBandƒbnc
+003@ ƒ01837297304
+003O ƒaOCoLCƒ01393653480ƒv2023-12-14
+005A ƒ02941-0568
+005I ƒ02941-0568ƒfBeihefte zu den Acta Cusana
+006G ƒ0128164658X
+006H ƒ050521850X
+006U ƒ023,A14
+006Z ƒ03148591-1
+007G ƒiZDBƒ03148591-1
+010@ ƒager
+010E ƒerda
+011@ ƒa2023ƒn[2023]-
+013D ƒ9104628669ƒ8Monografische Reihe ; ID: gnd/4179998-7
+018@ ƒaz
+019@ ƒaXA-DE
+021A ƒaBeihefte zu den Acta Cusana
+031@ ƒaBeiheft 1-
+031N ƒd1ƒj2023ƒ6
+033A ƒpHamburgƒnFelix Meiner Verlag
+034D ƒaBände
+034I ƒa25 cm
+045G ƒa230ƒa100ƒa940ƒkmaschinell generiert dnbƒv20230329ƒADE-101
+045G ƒa230ƒADE-600
+
+201A/01 ƒ020-06-25
+201B/01 ƒ020-06-25ƒt16:38:06.000
+201D/01 ƒ0MZUB:22-02-23
+201U/01 ƒ0utf8
+203@/01 ƒ06008815181
+203H/01 ƒ01227808550
+206X/01 ƒ01227808550
+208@/01 ƒa22-02-23ƒbl01
+209A/01 ƒB77ƒx00
+209B/01 ƒakonvƒx12
+209O/01 ƒa!003! zur Fortsetzung RVK-Aufstellung, Einzelsignaturen!ƒx00
+237B/01 ƒf200zb
+237B/01 ƒf460zb
+
+]]></rawrecord>
+  </record>
+  <record>
+    <status>upsert</status>
+    <hrid>126133220</hrid>
+    <metadata>
+      <datafield tag="001@" fulltag="001@">
+        <subfield code="0">21-22,40,72,227,674,2030</subfield>
+      </datafield>
+      <datafield tag="001A" fulltag="001A">
+        <subfield code="0">2000:02-07-93</subfield>
+      </datafield>
+      <datafield tag="001B" fulltag="001B">
+        <subfield code="0">MZUB:07-07-25</subfield>
+        <subfield code="t">15:00:47.000</subfield>
+      </datafield>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">0046:26-08-03</subfield>
+      </datafield>
+      <datafield tag="001U" fulltag="001U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="001X" fulltag="001X">
+        <subfield code="0">0</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">AFu</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">kartografisches Bild</subfield>
+        <subfield code="b">cri</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+        <subfield code="b">n</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Blatt</subfield>
+        <subfield code="b">nb</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">126133220</subfield>
+      </datafield>
+      <datafield tag="003H" fulltag="003H">
+        <subfield code="0">114390681</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">60439377</subfield>
+        <subfield code="v">2012-12-31</subfield>
+      </datafield>
+      <datafield tag="003S" fulltag="003S">
+        <subfield code="0">9126133229</subfield>
+      </datafield>
+      <datafield tag="003T" fulltag="003T">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">60439377</subfield>
+      </datafield>
+      <datafield tag="006Y" fulltag="006Y">
+        <subfield code="0">002230259</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">GBV</subfield>
+        <subfield code="0">126133220</subfield>
+      </datafield>
+      <datafield tag="007H" fulltag="007H">
+        <subfield code="i">HEB</subfield>
+        <subfield code="0">114390681</subfield>
+      </datafield>
+      <datafield tag="009@" fulltag="009@">
+        <subfield code="a">HEB</subfield>
+        <subfield code="b">0501</subfield>
+      </datafield>
+      <datafield tag="009@" fulltag="009@">
+        <subfield code="a">HEB</subfield>
+        <subfield code="b">0503</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">ger</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">1963</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">104321792</subfield>
+        <subfield code="8">Karte ; ID: gnd/4029783-4</subfield>
+      </datafield>
+      <datafield tag="013H" fulltag="013H">
+        <subfield code="a">kart</subfield>
+      </datafield>
+      <datafield tag="019@" fulltag="019@">
+        <subfield code="a">XA-DE</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Lamspringe</subfield>
+      </datafield>
+      <datafield tag="028C" fulltag="028C">
+        <subfield code="9">476594170</subfield>
+        <subfield code="8">Engel, Franz *1908-1967* ; ID: gnd/129653144</subfield>
+      </datafield>
+      <datafield tag="029F" fulltag="029F">
+        <subfield code="9">101748868</subfield>
+        <subfield code="8">Historische Kommission für Niedersachsen und Bremen ; ID: gnd/2012067-9</subfield>
+      </datafield>
+      <datafield tag="032@" fulltag="032@">
+        <subfield code="a">[Nachdr.] der Originalbl.: Hildesheim 41, 42, 49, 50, aufgenommen/rev.: Bl. 41 und 49: 1834/40, Bl. 42 und 50: 1839/39</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Hannover</subfield>
+        <subfield code="n">Schmorl &amp; von Seefeld</subfield>
+      </datafield>
+      <datafield tag="034D" fulltag="034D">
+        <subfield code="a">1 Kt</subfield>
+      </datafield>
+      <datafield tag="034I" fulltag="034I">
+        <subfield code="a">56 x 56 cm</subfield>
+      </datafield>
+      <datafield tag="034M" fulltag="034M">
+        <subfield code="a">einfarb</subfield>
+      </datafield>
+      <datafield tag="035E" fulltag="035E">
+        <subfield code="a">1:25.000 (Maßstab der Originalkt. 1:21.333 1/3)</subfield>
+      </datafield>
+      <datafield tag="036C" fulltag="036C">
+        <subfield code="a">Gaußsche Landesaufnahme der 1815 durch Hannover erworbenen Gebiete</subfield>
+        <subfield code="h">hrsg. von der Historischen Kommission für Niedersachsen. [Aufgenommen: Carl Friedrich Gauss]</subfield>
+      </datafield>
+      <datafield tag="036C" occurrence="01" fulltag="036C/01">
+        <subfield code="m">I</subfield>
+        <subfield code="a">Fürstentum Hildesheim</subfield>
+        <subfield code="d">1827-1840</subfield>
+        <subfield code="l">13</subfield>
+      </datafield>
+      <datafield tag="036D" fulltag="036D">
+        <subfield code="X">I,13.1963</subfield>
+        <subfield code="9">126133085</subfield>
+        <subfield code="8">Gaußsche Landesaufnahme der 1815 durch Hannover erworbenen Gebiete</subfield>
+        <subfield code="l">I, 13</subfield>
+      </datafield>
+      <datafield tag="036F" fulltag="036F">
+        <subfield code="X">280130</subfield>
+        <subfield code="9">130163988</subfield>
+        <subfield code="8">Veröffentlichungen der Historischen Kommission für Niedersachsen und Bremen / Historische Kommission für Niedersachsen und Bremen ; ID: gnd/2012067-9 ; ZDB-ID: 518763-1</subfield>
+        <subfield code="l">28</subfield>
+      </datafield>
+      <datafield tag="037A" fulltag="037A">
+        <subfield code="a">Auch als elektronisches Dokument vorh</subfield>
+      </datafield>
+      <datafield tag="045Y" fulltag="045Y">
+        <subfield code="a">nbhil</subfield>
+      </datafield>
+      <datafield tag="046X" fulltag="046X">
+        <subfield code="a">aa</subfield>
+        <subfield code="f">PENI</subfield>
+        <subfield code="x">XA-DE-NI</subfield>
+        <subfield code="5">DE-35</subfield>
+      </datafield>
+      <datafield tag="046X" fulltag="046X">
+        <subfield code="a">eb</subfield>
+        <subfield code="c">20241027</subfield>
+        <subfield code="f">DE-4165</subfield>
+        <subfield code="z">2</subfield>
+      </datafield>
+      <item epn="6010893143">
+        <datafield tag="201A" occurrence="01" fulltag="201A/01">
+          <subfield code="0">07-07-25</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">07-07-25</subfield>
+          <subfield code="t">15:00:47.000</subfield>
+        </datafield>
+        <datafield tag="201D" occurrence="01" fulltag="201D/01">
+          <subfield code="0">MZUB:20-10-03</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">6010893143</subfield>
+        </datafield>
+        <datafield tag="203H" occurrence="01" fulltag="203H/01">
+          <subfield code="0">189364440</subfield>
+        </datafield>
+        <datafield tag="206X" occurrence="01" fulltag="206X/01">
+          <subfield code="0">189364440</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">21-10-03</subfield>
+          <subfield code="b">l01</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="B">77</subfield>
+          <subfield code="a">KT 739-13</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">konv</subfield>
+          <subfield code="x">12</subfield>
+        </datafield>
+        <datafield tag="209G" occurrence="01" fulltag="209G/01">
+          <subfield code="a">37395640</subfield>
+        </datafield>
+      </item>
+    </metadata>
+    <rawrecord><![CDATA[001@ ƒ021-22,40,72,227,674,2030
+001A ƒ02000:02-07-93
+001B ƒ0MZUB:07-07-25ƒt15:00:47.000
+001D ƒ00046:26-08-03
+001U ƒ0utf8
+001X ƒ00
+002@ ƒ0AFu
+002C ƒakartografisches Bildƒbcri
+002D ƒaohne Hilfsmittel zu benutzenƒbn
+002E ƒaBlattƒbnb
+003@ ƒ0126133220
+003H ƒ0114390681
+003O ƒaOCoLCƒ060439377ƒv2012-12-31
+003S ƒ09126133229
+003T ƒaOCoLCƒ060439377
+006Y ƒ0002230259
+007G ƒiGBVƒ0126133220
+007H ƒiHEBƒ0114390681
+009@ ƒaHEBƒb0501
+009@ ƒaHEBƒb0503
+010@ ƒager
+011@ ƒa1963
+013D ƒ9104321792ƒ8Karte ; ID: gnd/4029783-4
+013H ƒakart
+019@ ƒaXA-DE
+021A ƒaLamspringe
+028C ƒ9476594170ƒ8Engel, Franz *1908-1967* ; ID: gnd/129653144
+029F ƒ9101748868ƒ8Historische Kommission für Niedersachsen und Bremen ; ID: gnd/2012067-9
+032@ ƒa[Nachdr.] der Originalbl.: Hildesheim 41, 42, 49, 50, aufgenommen/rev.: Bl. 41 und 49: 1834/40, Bl. 42 und 50: 1839/39
+033A ƒpHannoverƒnSchmorl & von Seefeld
+034D ƒa1 Kt
+034I ƒa56 x 56 cm
+034M ƒaeinfarb
+035E ƒa1:25.000 (Maßstab der Originalkt. 1:21.333 1/3)
+036C ƒaGaußsche Landesaufnahme der 1815 durch Hannover erworbenen Gebieteƒhhrsg. von der Historischen Kommission für Niedersachsen. [Aufgenommen: Carl Friedrich Gauss]
+036C/01 ƒmIƒaFürstentum Hildesheimƒd1827-1840ƒl13
+036D ƒXI,13.1963ƒ9126133085ƒ8Gaußsche Landesaufnahme der 1815 durch Hannover erworbenen GebieteƒlI, 13
+036F ƒX280130ƒ9130163988ƒ8Veröffentlichungen der Historischen Kommission für Niedersachsen und Bremen / Historische Kommission für Niedersachsen und Bremen ; ID: gnd/2012067-9 ; ZDB-ID: 518763-1ƒl28
+037A ƒaAuch als elektronisches Dokument vorh
+045Y ƒanbhil
+046X ƒaaaƒfPENIƒxXA-DE-NIƒ5DE-35
+046X ƒaebƒc20241027ƒfDE-4165ƒz2
+
+201A/01 ƒ007-07-25
+201B/01 ƒ007-07-25ƒt15:00:47.000
+201D/01 ƒ0MZUB:20-10-03
+201U/01 ƒ0utf8
+203@/01 ƒ06010893143
+203H/01 ƒ0189364440
+206X/01 ƒ0189364440
+208@/01 ƒa21-10-03ƒbl01
+209A/01 ƒB77ƒaKT 739-13ƒx00
+209B/01 ƒakonvƒx12
+209G/01 ƒa37395640
+
+]]></rawrecord>
+  </record>
+  <record>
+    <status>upsert</status>
+    <hrid>842389261</hrid>
+    <metadata>
+      <datafield tag="001@" fulltag="001@">
+        <subfield code="0">11,22,24,31,39-40,130,135,181,2002,2004-2005,2008,2010-2012,2030,2158</subfield>
+      </datafield>
+      <datafield tag="001A" fulltag="001A">
+        <subfield code="0">2004:08-12-15</subfield>
+      </datafield>
+      <datafield tag="001B" fulltag="001B">
+        <subfield code="0">BSZ:04-06-25</subfield>
+        <subfield code="t">14:03:41.000</subfield>
+      </datafield>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">2004:16-12-15</subfield>
+      </datafield>
+      <datafield tag="001U" fulltag="001U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="001X" fulltag="001X">
+        <subfield code="0">0</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Adv</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+        <subfield code="b">n</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Band</subfield>
+        <subfield code="b">nc</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">842389261</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">934653806</subfield>
+        <subfield code="v">2023-04-01</subfield>
+      </datafield>
+      <datafield tag="003S" fulltag="003S">
+        <subfield code="0">452304954</subfield>
+      </datafield>
+      <datafield tag="006G" fulltag="006G">
+        <subfield code="0">1079877754</subfield>
+      </datafield>
+      <datafield tag="006H" fulltag="006H">
+        <subfield code="0">367486156</subfield>
+      </datafield>
+      <datafield tag="006S" fulltag="006S">
+        <subfield code="0">453057241</subfield>
+      </datafield>
+      <datafield tag="006Z" fulltag="006Z">
+        <subfield code="0">2842055-X</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">ZDB</subfield>
+        <subfield code="0">2842055-X</subfield>
+      </datafield>
+      <datafield tag="009@" fulltag="009@">
+        <subfield code="b">sdedup20220302</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">eng</subfield>
+      </datafield>
+      <datafield tag="010E" fulltag="010E">
+        <subfield code="e">rda</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">2015</subfield>
+        <subfield code="n">[2015]-</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">104628669</subfield>
+        <subfield code="8">Monografische Reihe ; ID: gnd/4179998-7</subfield>
+      </datafield>
+      <datafield tag="018@" fulltag="018@">
+        <subfield code="a">z</subfield>
+      </datafield>
+      <datafield tag="019@" fulltag="019@">
+        <subfield code="a">XA-GB</subfield>
+        <subfield code="a">XD-US</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Themes in contemporary archaeology</subfield>
+      </datafield>
+      <datafield tag="029F" fulltag="029F">
+        <subfield code="9">251793826</subfield>
+        <subfield code="8">European Association of Archaeologists ; ID: gnd/5306453-7</subfield>
+        <subfield code="B">Herausgebendes Organ</subfield>
+        <subfield code="4">isb</subfield>
+      </datafield>
+      <datafield tag="031@" fulltag="031@">
+        <subfield code="a">Volume 1-</subfield>
+      </datafield>
+      <datafield tag="031N" fulltag="031N">
+        <subfield code="d">1</subfield>
+        <subfield code="j">2015</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">London</subfield>
+        <subfield code="p">New York</subfield>
+        <subfield code="n">Routledge</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Leeds</subfield>
+        <subfield code="n">Maney Publishing</subfield>
+        <subfield code="h">2015</subfield>
+        <subfield code="z">e</subfield>
+      </datafield>
+      <datafield tag="045G" fulltag="045G">
+        <subfield code="a">930</subfield>
+        <subfield code="A">DE-600</subfield>
+      </datafield>
+      <item epn="6008810236">
+        <datafield tag="201A" occurrence="01" fulltag="201A/01">
+          <subfield code="0">20-06-25</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="01" fulltag="201B/01">
+          <subfield code="0">20-06-25</subfield>
+          <subfield code="t">16:36:13.000</subfield>
+        </datafield>
+        <datafield tag="201D" occurrence="01" fulltag="201D/01">
+          <subfield code="0">MZUB:29-03-16</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="01" fulltag="201U/01">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="01" fulltag="203@/01">
+          <subfield code="0">6008810236</subfield>
+        </datafield>
+        <datafield tag="203H" occurrence="01" fulltag="203H/01">
+          <subfield code="0">770609244</subfield>
+        </datafield>
+        <datafield tag="206X" occurrence="01" fulltag="206X/01">
+          <subfield code="0">770609244</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="01" fulltag="208@/01">
+          <subfield code="a">29-03-16</subfield>
+          <subfield code="b">l01</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="01" fulltag="209A/01">
+          <subfield code="B">77</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="01" fulltag="209B/01">
+          <subfield code="a">konv</subfield>
+          <subfield code="x">12</subfield>
+        </datafield>
+      </item>
+    </metadata>
+    <rawrecord><![CDATA[001@ ƒ011,22,24,31,39-40,130,135,181,2002,2004-2005,2008,2010-2012,2030,2158
+001A ƒ02004:08-12-15
+001B ƒ0BSZ:04-06-25ƒt14:03:41.000
+001D ƒ02004:16-12-15
+001U ƒ0utf8
+001X ƒ00
+002@ ƒ0Adv
+002C ƒaTextƒbtxt
+002D ƒaohne Hilfsmittel zu benutzenƒbn
+002E ƒaBandƒbnc
+003@ ƒ0842389261
+003O ƒaOCoLCƒ0934653806ƒv2023-04-01
+003S ƒ0452304954
+006G ƒ01079877754
+006H ƒ0367486156
+006S ƒ0453057241
+006Z ƒ02842055-X
+007G ƒiZDBƒ02842055-X
+009@ ƒbsdedup20220302
+010@ ƒaeng
+010E ƒerda
+011@ ƒa2015ƒn[2015]-
+013D ƒ9104628669ƒ8Monografische Reihe ; ID: gnd/4179998-7
+018@ ƒaz
+019@ ƒaXA-GBƒaXD-US
+021A ƒaThemes in contemporary archaeology
+029F ƒ9251793826ƒ8European Association of Archaeologists ; ID: gnd/5306453-7ƒBHerausgebendes Organƒ4isb
+031@ ƒaVolume 1-
+031N ƒd1ƒj2015ƒ6
+033A ƒpLondonƒpNew YorkƒnRoutledge
+033A ƒpLeedsƒnManey Publishingƒh2015ƒze
+045G ƒa930ƒADE-600
+
+201A/01 ƒ020-06-25
+201B/01 ƒ020-06-25ƒt16:36:13.000
+201D/01 ƒ0MZUB:29-03-16
+201U/01 ƒ0utf8
+203@/01 ƒ06008810236
+203H/01 ƒ0770609244
+206X/01 ƒ0770609244
+208@/01 ƒa29-03-16ƒbl01
+209A/01 ƒB77ƒx00
+209B/01 ƒakonvƒx12
+
+]]></rawrecord>
+  </record>
+</collection>
