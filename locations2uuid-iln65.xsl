@@ -158,9 +158,9 @@
                 <!-- Ha 38 Handapparate -->
                 <xsl:when test="$lower='ha 38-ha'">3cb3a32a-b93d-4f8b-a183-905af97654f3</xsl:when>
                 <!-- Ha 150 Freihandbestand -->
-                <xsl:when test="$lower='ha 150'">3e2b953a-2707-48d3-a3ae-b50f0ec8bfdb</xsl:when>
+                <xsl:when test="$lower='ha 150'">c0b7c42d-74a7-470a-a3cf-8002f708fa4b</xsl:when>
                 <!-- Ha 150 Magazin -->
-                <xsl:when test="$lower='ha 150-m'">c0b7c42d-74a7-470a-a3cf-8002f708fa4b</xsl:when>
+                <xsl:when test="$lower='ha 150-m'">55a28635-952d-4873-bf34-eefac2b6f58a</xsl:when>
                 <!-- Ha 150 Handapparate -->
                 <xsl:when test="$lower='ha 150-ha'">5c0d2562-e5a8-43ee-9d50-4154bd6fa8ee</xsl:when>
                 <!-- Ha 150 Sonderstandort -->
