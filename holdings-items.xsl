@@ -357,7 +357,7 @@
           <xsl:when test="$loantype='a'">a - bestellt/keine Fernleihe</xsl:when>
           <xsl:when test="$loantype='o'">o - keine Angabe/keine Fernleihe</xsl:when>
           <xsl:when test="$loantype='z'">z - Verlust/keine Fernleihe</xsl:when>
-          <xsl:otherwise>ausleihbar/Fernleihe</xsl:otherwise>
+          <xsl:otherwise>u - ausleihbar/Fernleihe</xsl:otherwise>
         </xsl:choose>
       </permanentLoanTypeId>
       <status>
