@@ -438,7 +438,7 @@
           <subfield code="x">01</subfield>
         </datafield>
         <datafield tag="209B" occurrence="01" fulltag="209B/01">
-          <subfield code="a">01810</subfield>
+          <subfield code="a">LZA</subfield>
           <subfield code="x">05</subfield>
         </datafield>
         <datafield tag="209C" occurrence="01" fulltag="209C/01">
@@ -2174,7 +2174,7 @@
           <subfield code="x">02</subfield>
         </datafield>
         <datafield tag="209G" occurrence="06" fulltag="209G/06">
-          <subfield code="a">Slavistik / Separiert</subfield>
+          <subfield code="a">Slavistik / Separiert/ Hegelstraße</subfield>
           <subfield code="x">01</subfield>
         </datafield>
         <datafield tag="231@" occurrence="06" fulltag="231@/06">
@@ -51934,7 +51934,7 @@
           <subfield code="b">r</subfield>
         </datafield>
         <datafield tag="209A" occurrence="01" fulltag="209A/01">
-          <subfield code="a">DARW (Semester-Apparat AEP)</subfield>
+          <subfield code="a">410 MS 2870 G774</subfield>
           <subfield code="f">016</subfield>
           <subfield code="d">s</subfield>
           <subfield code="x">00</subfield>

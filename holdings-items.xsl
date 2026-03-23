@@ -175,7 +175,14 @@
               <xsl:if test="./subfield[@code='0']">
                 <i>
                   <note>
-                    <xsl:value-of select="./subfield[@code='0']"/>
+                    <xsl:choose>
+                      <xsl:when test="./subfield[@code='i']">
+                        <xsl:value-of select="concat(./subfield[@code='i'], ': ', ./subfield[@code='0'])"/>
+                      </xsl:when>
+                      <xsl:otherwise>
+                        <xsl:value-of select="./subfield[@code='0']"/>
+                      </xsl:otherwise>
+                    </xsl:choose>
                   </note>
                   <holdingsNoteTypeId>Lokale Identifikationsnummer anderer Systeme (7811)</holdingsNoteTypeId>
                   <staffOnly>false</staffOnly>
@@ -350,7 +357,7 @@
           <xsl:when test="$loantype='a'">a - bestellt/keine Fernleihe</xsl:when>
           <xsl:when test="$loantype='o'">o - keine Angabe/keine Fernleihe</xsl:when>
           <xsl:when test="$loantype='z'">z - Verlust/keine Fernleihe</xsl:when>
-          <xsl:otherwise>ausleihbar/Fernleihe</xsl:otherwise>
+          <xsl:otherwise>u - ausleihbar/Fernleihe</xsl:otherwise>
         </xsl:choose>
       </permanentLoanTypeId>
       <status>
@@ -368,7 +375,7 @@
             <xsl:when test="datafield[@tag='209A']/subfield[@code='d']='d'">Available</xsl:when>
             <xsl:when test="datafield[@tag='209A']/subfield[@code='d']='i'">Available</xsl:when>
             <xsl:when test="datafield[@tag='209A']/subfield[@code='d']='f'">Available</xsl:when>
-            <xsl:when test="datafield[@tag='209A']/subfield[@code='d']='z'">Missing</xsl:when>
+            <xsl:when test="datafield[@tag='209A']/subfield[@code='d']='z'">Long missing</xsl:when>
             <xsl:when test="datafield[@tag='209A']/subfield[@code='d']='g'">Restricted</xsl:when>
             <xsl:when test="datafield[@tag='209A']/subfield[@code='d']='o'">Unknown</xsl:when>
             <xsl:otherwise>Available</xsl:otherwise>

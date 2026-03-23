@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?> 
-<!-- date of last edit: 2023-06-16 (YYYY-MM-DD) -->
 
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:output indent="yes" method="xml" version="1.0" encoding="UTF-8"/>
@@ -14,8 +13,8 @@
   <!-- Map locations 
        For Mainz, the IDs are the location names in FOLIO, generated from 209A $f and other pica fields -->
   
-  <xsl:template match="permanentLocationId"> <!-- ILN -->
-    <permanentLocationId>
+  <xsl:template match="permanentLocationId|temporaryLocationId"> <!-- ILN/hand -->
+    <xsl:element name="{name()}">
       <xsl:choose>
         <xsl:when test=".='DUMMY'">87764786-c5c8-47d0-a480-df506c751d76</xsl:when>
         <xsl:when test=".='AUFSATZ'">c5d96d68-ffc8-49a4-b43c-42d82f719ea9</xsl:when>
@@ -68,21 +67,29 @@
         <xsl:when test=".='PHMNG'">e91db274-7795-4a57-abff-f55cb0535c64</xsl:when>
         <xsl:when test=".='PHMUW'">771b46aa-76ab-4800-9f3b-177b89b6f853</xsl:when>
         <xsl:when test=".='PHMUWMAG'">4312f681-88b9-4718-a382-1ef71a13bd03</xsl:when>
+        <xsl:when test=".='PHNC'">c2d54f53-55b0-4a2d-acc7-893faebc4254</xsl:when>
         <xsl:when test=".='PHOEG'">af40b5e2-180c-4450-b4e3-bad8e8b8783d</xsl:when>
         <xsl:when test=".='PHPHI'">e8d099fb-53ce-4042-8824-35fb49ef42e0</xsl:when>
         <xsl:when test=".='PHPOL'">522ab11a-9387-46f5-a9d4-61ed87d9aa32</xsl:when>
         <xsl:when test=".='PHROM'">8ac4aea8-692f-4e3a-9095-b53dfb6a3aa2</xsl:when>
         <xsl:when test=".='PHRVK'">77341140-8add-462e-af9f-c0839c3425af</xsl:when>
         <xsl:when test=".='PHSLAV'">e8d25e8a-9fe8-4e46-9b8b-79f7de9c3bc8</xsl:when>
+        <xsl:when test=".='PHSON'">ce688565-3763-4701-8d23-67b071da3015</xsl:when>
         <xsl:when test=".='PHTHW'">4e0e57d9-f094-4e82-9bc8-8f6a55e5041c</xsl:when>		
+        <xsl:when test=".='RWR'">c32ad861-d3fa-4091-b68b-92c6710bd50b</xsl:when>
+        <xsl:when test=".='RWW'">f15803f6-6997-48f4-9c42-8774ed18506d</xsl:when>
+        <xsl:when test=".='RWM'">5a1d846c-e6db-4ba2-ae83-e94cda2ad424</xsl:when>
         <xsl:when test=".='RW'">98fcae0c-df5d-472a-8dcd-25ce4252e936</xsl:when>
         <xsl:when test=".='RWAMA'">75082038-b301-41bb-b818-75d0f34aa6ae</xsl:when>
         <xsl:when test=".='RWETH'">9bf8ba06-3a78-4cdc-84fb-c3a15eecd722</xsl:when>
         <xsl:when test=".='RWFAK'">7970efa9-5057-4bf3-bcac-b01287dfcdd4</xsl:when>
+        <xsl:when test=".='RWJAHN'">65387ee4-49bd-4ec7-a700-d8ff6837c176</xsl:when>
         <xsl:when test=".='RWLBS'">22d4af1b-3d9c-4ad8-afa2-ff7076bfe7c1</xsl:when>
         <xsl:when test=".='RWMAG'">8cdf85dd-4212-4e51-b59f-e1f9662de0b2</xsl:when>
         <xsl:when test=".='RWTURK'">129a4323-01a0-4bad-bac5-2e0487d8e67c</xsl:when>
         <xsl:when test=".='TH'">395d036a-83fd-4809-bf45-e607c086f13b</xsl:when>
+        <xsl:when test=".='THEV'">a8197543-2b59-4b3d-950f-1450015f040a</xsl:when>
+        <xsl:when test=".='THKT'">3f56b005-4982-4438-83e5-13036be1295f</xsl:when>
         <xsl:when test=".='THFAK'">4896a3a8-2d50-4975-bc8b-b9a9581ae764</xsl:when>
         <xsl:when test=".='THLBS'">3c7c0478-2383-4c17-beda-6d8d87dfd421</xsl:when>
         <xsl:when test=".='THPSYCH'">b2644e50-dd57-49f6-b4ea-c22f119e0b59</xsl:when>
@@ -101,13 +108,16 @@
         <xsl:when test=".='ZBMAG'">413fe054-a4f3-423e-a62f-088eb111ea8d</xsl:when>
         <xsl:when test=".='ZBRARA'">61fac3e8-8a32-4117-9005-38d2a4847f00</xsl:when>
         <xsl:when test=".='ZBZEB'">802ea709-f017-49e7-9795-5fa0053668cb</xsl:when>
-        <xsl:otherwise>413fe054-a4f3-423e-a62f-088eb111ea8d</xsl:otherwise> <!-- ZBMAG -->
+        <xsl:when test=".='UNKNOWN'">8334fb6b-013b-4ad4-9d58-7710f82edb50</xsl:when>
+        <xsl:otherwise>8334fb6b-013b-4ad4-9d58-7710f82edb50</xsl:otherwise> <!-- UNKNOWN -->
       </xsl:choose>
-    </permanentLocationId>
+    </xsl:element>
   </xsl:template>
 
+
+
   <!-- Map loan types -->
-  <xsl:template match="permanentLoanTypeId"> <!-- ILN -->
+  <xsl:template match="permanentLoanTypeId"> <!-- ILN/generate -->
     <permanentLoanTypeId>
       <xsl:choose>
         <xsl:when test=".='u ausleihbar (auch Fernleihe)'"><xsl:text>7a03b2e2-c995-47a4-83d0-04bbe1930af4</xsl:text></xsl:when> 
@@ -131,21 +141,43 @@
     </permanentLoanTypeId>
   </xsl:template>
 
+  <!-- Map identifier types -->
+  <xsl:template match="identifierTypeId"> <!-- additional RLP/generate -->
+    <identifierTypeId>
+      <xsl:choose>
+        <xsl:when test=".='PPN-K10plus'"><xsl:text>98e4039e-adfe-405f-b763-c642765269df</xsl:text></xsl:when>
+        <xsl:when test=".='PPN-Hebis'"><xsl:text>be3a2669-391d-4027-b023-1092a61ac631</xsl:text></xsl:when>
+        <xsl:otherwise><xsl:value-of select="."/></xsl:otherwise>
+      </xsl:choose>
+    </identifierTypeId>
+  </xsl:template>
+
   <!-- Map statistical code ids -->
-  <xsl:template match="statisticalCodeIds"> <!-- ILN -->
+  <xsl:template match="statisticalCodeIds"> <!-- ILN/copy --> <!-- TBD: generate -->
     <statisticalCodeIds>
       <arr>
         <xsl:for-each select="arr/i">
           <i>
             <xsl:choose>
-              <xsl:when test=".='BASIS'">0ac04835-6a08-4043-9453-38908ff91129</xsl:when>
-              <xsl:when test=".='00015'">a59d4a4e-0339-4243-9039-bd64c8a9c941</xsl:when>
-              <xsl:when test=".='00016'">e70c1e74-d136-4d59-bdb9-1ec2f33c6a93</xsl:when>
+              <xsl:when test=".='LZA'">25c91085-8b64-47ea-9cb8-20dd539ac466</xsl:when>
+              <xsl:when test=".='Dublettenbereinigung'">812aef7b-f026-449e-8976-31883ad95d1b</xsl:when>
+              <xsl:when test=".='ZDB-Titel-mit-Mono-EPN'">73abd902-87c7-4bad-bdfe-25cbc06b6e63</xsl:when>
             </xsl:choose>
           </i>
         </xsl:for-each>
       </arr>
     </statisticalCodeIds>
+  </xsl:template>
+
+  <!-- Map holding note types -->
+  <xsl:template match="holdingsNoteTypeId"> <!-- Level 2: FOLIO/hebis-wide/generate -->
+    <holdingsNoteTypeId>
+      <xsl:choose>
+        <xsl:when test=".='Produktsigel'"><xsl:text>bb307f6c-aae9-40f5-9a70-155064eee19d</xsl:text></xsl:when>
+        <xsl:when test=".='Abrufzeichen'"><xsl:text>6d3f575d-6727-42a4-ae58-56c00de2e1d4</xsl:text></xsl:when>        
+        <xsl:otherwise><xsl:value-of select="."/></xsl:otherwise>
+      </xsl:choose>
+    </holdingsNoteTypeId>
   </xsl:template>
 
 </xsl:stylesheet>

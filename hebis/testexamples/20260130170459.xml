@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<collection count="1">
+  <record>
+    <status>upsert</status>
+    <hrid>211611743</hrid>
+    <metadata>
+      <datafield tag="001@" fulltag="001@">
+        <subfield code="0">2025,2030,2085,4012,4038,4112,4323</subfield>
+        <subfield code="a">7</subfield>
+      </datafield>
+      <datafield tag="001A" fulltag="001A">
+        <subfield code="0">2004:07-06-96</subfield>
+      </datafield>
+      <datafield tag="001B" fulltag="001B">
+        <subfield code="0">BSZ:04-06-25</subfield>
+        <subfield code="t">12:46:54.000</subfield>
+      </datafield>
+      <datafield tag="001D" fulltag="001D">
+        <subfield code="0">2004:10-03-99</subfield>
+      </datafield>
+      <datafield tag="001U" fulltag="001U">
+        <subfield code="0">utf8</subfield>
+      </datafield>
+      <datafield tag="001X" fulltag="001X">
+        <subfield code="0">0</subfield>
+      </datafield>
+      <datafield tag="002@" fulltag="002@">
+        <subfield code="0">Abv</subfield>
+      </datafield>
+      <datafield tag="002C" fulltag="002C">
+        <subfield code="a">Text</subfield>
+        <subfield code="b">txt</subfield>
+      </datafield>
+      <datafield tag="002D" fulltag="002D">
+        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+        <subfield code="b">n</subfield>
+      </datafield>
+      <datafield tag="002E" fulltag="002E">
+        <subfield code="a">Band</subfield>
+        <subfield code="b">nc</subfield>
+      </datafield>
+      <datafield tag="003@" fulltag="003@">
+        <subfield code="0">211611743</subfield>
+      </datafield>
+      <datafield tag="003H" fulltag="003H">
+        <subfield code="0">070254133</subfield>
+      </datafield>
+      <datafield tag="003O" fulltag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">609923001</subfield>
+        <subfield code="v">2023-04-01</subfield>
+      </datafield>
+      <datafield tag="003S" fulltag="003S">
+        <subfield code="0">081828586</subfield>
+      </datafield>
+      <datafield tag="005A" fulltag="005A">
+        <subfield code="0">1263-588X</subfield>
+      </datafield>
+      <datafield tag="006G" fulltag="006G">
+        <subfield code="0">018248926</subfield>
+      </datafield>
+      <datafield tag="006H" fulltag="006H">
+        <subfield code="0">210285850</subfield>
+      </datafield>
+      <datafield tag="006N" fulltag="006N">
+        <subfield code="0">97400304</subfield>
+      </datafield>
+      <datafield tag="006S" fulltag="006S">
+        <subfield code="0">082434859</subfield>
+      </datafield>
+      <datafield tag="006Z" fulltag="006Z">
+        <subfield code="0">1322273-9</subfield>
+      </datafield>
+      <datafield tag="007G" fulltag="007G">
+        <subfield code="i">ZDB</subfield>
+        <subfield code="0">1322273-9</subfield>
+      </datafield>
+      <datafield tag="010@" fulltag="010@">
+        <subfield code="a">fre</subfield>
+      </datafield>
+      <datafield tag="011@" fulltag="011@">
+        <subfield code="a">1995</subfield>
+        <subfield code="n">1995-</subfield>
+      </datafield>
+      <datafield tag="013D" fulltag="013D">
+        <subfield code="9">10454466X</subfield>
+        <subfield code="8">Zeitschrift ; ID: gnd/4067488-5</subfield>
+      </datafield>
+      <datafield tag="018@" fulltag="018@">
+        <subfield code="a">f</subfield>
+      </datafield>
+      <datafield tag="019@" fulltag="019@">
+        <subfield code="a">XA-FR</subfield>
+      </datafield>
+      <datafield tag="021A" fulltag="021A">
+        <subfield code="a">Le @télémaque</subfield>
+        <subfield code="d">éducation &amp; philosophie</subfield>
+        <subfield code="h">Centre Régional de Documentation Pédagogique, CRDP</subfield>
+      </datafield>
+      <datafield tag="031@" fulltag="031@">
+        <subfield code="a">1.1995 -</subfield>
+      </datafield>
+      <datafield tag="031N" fulltag="031N">
+        <subfield code="d">1</subfield>
+        <subfield code="j">1995</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Caen</subfield>
+        <subfield code="n">Presses Universitaires de Caen</subfield>
+      </datafield>
+      <datafield tag="033A" fulltag="033A">
+        <subfield code="p">Dijon</subfield>
+        <subfield code="h">anfangs</subfield>
+        <subfield code="z">f</subfield>
+      </datafield>
+      <datafield tag="039D" fulltag="039D">
+        <subfield code="i">Online-Ausg.</subfield>
+        <subfield code="9">66081398X</subfield>
+        <subfield code="8">Le @télémaque. - Caen : Presses Universitaires de Caen, 2001- ; ZDB-ID: 2610256-0</subfield>
+        <subfield code="C">ZDB</subfield>
+        <subfield code="6">26102560</subfield>
+      </datafield>
+      <datafield tag="041A" fulltag="041A">
+        <subfield code="9">106200259</subfield>
+        <subfield code="8">Philosophie ; ID: gnd/4045791-6</subfield>
+      </datafield>
+      <datafield tag="041A" occurrence="01" fulltag="041A/01">
+        <subfield code="9">106206168</subfield>
+        <subfield code="8">Pädagogik ; ID: gnd/4044302-4</subfield>
+      </datafield>
+      <datafield tag="045G" fulltag="045G">
+        <subfield code="a">100</subfield>
+        <subfield code="a">370</subfield>
+        <subfield code="A">DE-600</subfield>
+      </datafield>
+      <datafield tag="045V" fulltag="045V">
+        <subfield code="i">FID</subfield>
+        <subfield code="a">PHILOS</subfield>
+        <subfield code="q">DE-12</subfield>
+      </datafield>
+      <datafield tag="045V" fulltag="045V">
+        <subfield code="a">5,1</subfield>
+        <subfield code="a">5,3</subfield>
+      </datafield>
+      <datafield tag="045W" fulltag="045W">
+        <subfield code="a">phi</subfield>
+      </datafield>
+      <item epn="6039197455">
+        <datafield tag="201A" occurrence="02" fulltag="201A/02">
+          <subfield code="0">06-11-25</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="02" fulltag="201B/02">
+          <subfield code="0">06-11-25</subfield>
+          <subfield code="t">15:20:38.000</subfield>
+        </datafield>
+        <datafield tag="201D" occurrence="02" fulltag="201D/02">
+          <subfield code="0">MZUXXX:07-03-13</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="02" fulltag="201U/02">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="02" fulltag="203@/02">
+          <subfield code="0">6039197455</subfield>
+        </datafield>
+        <datafield tag="203H" occurrence="02" fulltag="203H/02">
+          <subfield code="0">568975103</subfield>
+        </datafield>
+        <datafield tag="206X" occurrence="02" fulltag="206X/02">
+          <subfield code="0">HEB568975103</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="02" fulltag="208@/02">
+          <subfield code="a">07-03-13</subfield>
+          <subfield code="b">l01</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="02" fulltag="209A/02">
+          <subfield code="B">77/XXX</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="02" fulltag="209B/02">
+          <subfield code="a">konv</subfield>
+          <subfield code="x">12</subfield>
+        </datafield>
+        <datafield tag="209B" occurrence="02" fulltag="209B/02">
+          <subfield code="a">da</subfield>
+          <subfield code="x">13</subfield>
+        </datafield>
+        <datafield tag="209O" occurrence="02" fulltag="209O/02">
+          <subfield code="a">!000! Schriftenreihe zur Fortsetzung ZZ</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+      </item>
+      <item epn="6047739504">
+        <datafield tag="201A" occurrence="03" fulltag="201A/03">
+          <subfield code="0">08-12-25</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="03" fulltag="201B/03">
+          <subfield code="0">08-12-25</subfield>
+          <subfield code="t">17:08:12.000</subfield>
+        </datafield>
+        <datafield tag="201D" occurrence="03" fulltag="201D/03">
+          <subfield code="0">MZUB:08-03-13</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="03" fulltag="201U/03">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="03" fulltag="203@/03">
+          <subfield code="0">6047739504</subfield>
+        </datafield>
+        <datafield tag="203H" occurrence="03" fulltag="203H/03">
+          <subfield code="0">567496880</subfield>
+        </datafield>
+        <datafield tag="206Z" occurrence="03" fulltag="206Z/03">
+          <subfield code="0">151919321</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="03" fulltag="208@/03">
+          <subfield code="a">08-03-13</subfield>
+          <subfield code="b">z01</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="03" fulltag="209A/03">
+          <subfield code="B">77</subfield>
+          <subfield code="f">000</subfield>
+          <subfield code="a">FR 78</subfield>
+          <subfield code="J">l</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="03" fulltag="209A/03">
+          <subfield code="f">MAG</subfield>
+          <subfield code="x">01</subfield>
+        </datafield>
+        <datafield tag="231@" occurrence="03" fulltag="231@/03">
+          <subfield code="d">34</subfield>
+          <subfield code="j">2008</subfield>
+        </datafield>
+        <datafield tag="231B" occurrence="03" fulltag="231B/03">
+          <subfield code="g">1</subfield>
+          <subfield code="a">34.2008 -</subfield>
+        </datafield>
+      </item>
+      <item epn="6055522071">
+        <datafield tag="201A" occurrence="04" fulltag="201A/04">
+          <subfield code="0">30-01-26</subfield>
+        </datafield>
+        <datafield tag="201B" occurrence="04" fulltag="201B/04">
+          <subfield code="0">30-01-26</subfield>
+          <subfield code="t">10:59:33.000</subfield>
+        </datafield>
+        <datafield tag="201D" occurrence="04" fulltag="201D/04">
+          <subfield code="0">MZUB:30-01-26</subfield>
+        </datafield>
+        <datafield tag="201U" occurrence="04" fulltag="201U/04">
+          <subfield code="0">utf8</subfield>
+        </datafield>
+        <datafield tag="203@" occurrence="04" fulltag="203@/04">
+          <subfield code="0">6055522071</subfield>
+        </datafield>
+        <datafield tag="206X" occurrence="04" fulltag="206X/04">
+          <subfield code="0">ho00000001365</subfield>
+        </datafield>
+        <datafield tag="208@" occurrence="04" fulltag="208@/04">
+          <subfield code="a">30-01-26</subfield>
+          <subfield code="b">l01</subfield>
+        </datafield>
+        <datafield tag="209A" occurrence="04" fulltag="209A/04">
+          <subfield code="B">77</subfield>
+          <subfield code="x">00</subfield>
+        </datafield>
+      </item>
+    </metadata>
+    <rawrecord><![CDATA[001@ ƒ02025,2030,2085,4012,4038,4112,4323ƒa7
+001A ƒ02004:07-06-96
+001B ƒ0BSZ:04-06-25ƒt12:46:54.000
+001D ƒ02004:10-03-99
+001U ƒ0utf8
+001X ƒ00
+002@ ƒ0Abv
+002C ƒaTextƒbtxt
+002D ƒaohne Hilfsmittel zu benutzenƒbn
+002E ƒaBandƒbnc
+003@ ƒ0211611743
+003H ƒ0070254133
+003O ƒaOCoLCƒ0609923001ƒv2023-04-01
+003S ƒ0081828586
+005A ƒ01263-588X
+006G ƒ0018248926
+006H ƒ0210285850
+006N ƒ097400304
+006S ƒ0082434859
+006Z ƒ01322273-9
+007G ƒiZDBƒ01322273-9
+010@ ƒafre
+011@ ƒa1995ƒn1995-
+013D ƒ910454466Xƒ8Zeitschrift ; ID: gnd/4067488-5
+018@ ƒaf
+019@ ƒaXA-FR
+021A ƒaLe @télémaqueƒdéducation & philosophieƒhCentre Régional de Documentation Pédagogique, CRDP
+031@ ƒa1.1995 -
+031N ƒd1ƒj1995ƒ6
+033A ƒpCaenƒnPresses Universitaires de Caen
+033A ƒpDijonƒhanfangsƒzf
+039D ƒiOnline-Ausg.ƒ966081398Xƒ8Le @télémaque. - Caen : Presses Universitaires de Caen, 2001- ; ZDB-ID: 2610256-0ƒCZDBƒ626102560
+041A ƒ9106200259ƒ8Philosophie ; ID: gnd/4045791-6
+041A/01 ƒ9106206168ƒ8Pädagogik ; ID: gnd/4044302-4
+045G ƒa100ƒa370ƒADE-600
+045V ƒiFIDƒaPHILOSƒqDE-12
+045V ƒa5,1ƒa5,3
+045W ƒaphi
+
+201A/01 ƒ006-11-25
+201B/01 ƒ030-01-26ƒt10:59:33.000
+201D/01 ƒ0MZUB:17-02-09
+201U/01 ƒ0utf8
+203@/01 ƒ06038359400
+203H/01 ƒ0567496880
+206X/01 ƒ0HEB567496880
+208@/01 ƒa08-03-13ƒbl01
+209A/01 ƒB77ƒaFR 78ƒx00
+209B/01 ƒakonvƒx12
+209B/01 ƒapxƒx13
+209O/01 ƒa00015ƒx00
+231@/01 ƒd34ƒj2008ƒ6
+231B/01 ƒa34.2008 -
+
+201A/02 ƒ006-11-25
+201B/02 ƒ006-11-25ƒt15:20:38.000
+201D/02 ƒ0MZUXXX:07-03-13
+201U/02 ƒ0utf8
+203@/02 ƒ06039197455
+203H/02 ƒ0568975103
+206X/02 ƒ0HEB568975103
+208@/02 ƒa07-03-13ƒbl01
+209A/02 ƒB77/XXXƒx00
+209B/02 ƒakonvƒx12
+209B/02 ƒadaƒx13
+209O/02 ƒa!000! Schriftenreihe zur Fortsetzung ZZƒx00
+
+201A/03 ƒ008-12-25
+201B/03 ƒ008-12-25ƒt17:08:12.000
+201D/03 ƒ0MZUB:08-03-13
+201U/03 ƒ0utf8
+203@/03 ƒ06047739504
+203H/03 ƒ0567496880
+206Z/03 ƒ0151919321
+208@/03 ƒa08-03-13ƒbz01
+209A/03 ƒB77ƒf000ƒaFR 78ƒJlƒx00
+209A/03 ƒfMAGƒx01
+231@/03 ƒd34ƒj2008ƒ6
+231B/03 ƒg1ƒa34.2008 -
+
+201A/04 ƒ030-01-26
+201B/04 ƒ030-01-26ƒt10:59:33.000
+201D/04 ƒ0MZUB:30-01-26
+201U/04 ƒ0utf8
+203@/04 ƒ06055522071
+206X/04 ƒ0ho00000001365
+208@/04 ƒa30-01-26ƒbl01
+209A/04 ƒB77ƒx00
+
+]]></rawrecord>
+  </record>
+</collection>

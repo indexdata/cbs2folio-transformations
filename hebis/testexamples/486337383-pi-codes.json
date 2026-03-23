@@ -1,0 +1,265 @@
+{
+  "instance": {
+    "physicalDescriptions": ["VIII, 247 Seiten : Diagramme ; 23 cm x 15.5 cm"],
+    "notes": [
+      {
+        "note": "Literaturverzeichnis Seite 235-244",
+        "instanceNoteTypeId": "6a2533a7-4de2-4e64-8466-074c2fa9308c"
+      },
+      {
+        "note": "Dissertation, Heinrich-Heine-Universit?t D?sseldorf, 2022",
+        "instanceNoteTypeId": "b73cc9c2-c9fa-49aa-964f-5ae1aa754ecd"
+      },
+      {
+        "note": "Erscheint auch als Online-Ausgabe: ISBN 978-3-11-079901-9",
+        "instanceNoteTypeId": "1d51e8b2-dee7-43f5-983c-a40757b9cdfa"
+      },
+      {
+        "note": "Erscheint auch als Online-Ausgabe: ISBN 978-3-11-079891-3",
+        "instanceNoteTypeId": "1d51e8b2-dee7-43f5-983c-a40757b9cdfa"
+      }
+    ],
+    "languages": ["eng"],
+    "modeOfIssuanceId": "9d18a02f-5897-4c31-9106-c9abb5c7ae8b",
+    "instanceTypeId": "6312d172-f0cf-40f6-b27d-9fa8feaf332f",
+    "identifiers": [
+      {
+        "identifierTypeId": "1d5cb40c-508f-451b-8952-87c92be4255a",
+        "value": 486337383"
+      },
+      {
+        "identifierTypeId": "8261054f-be78-422d-bd51-4ed9f33c3422",
+        "value": "9783110798838 : EUR 109.95 (DE) (freier Preis), EUR 109.95 (AT) (freier Preis)"
+      },
+      {
+        "identifierTypeId": "8261054f-be78-422d-bd51-4ed9f33c3422",
+        "value": "3110798832"
+      },
+      {
+        "identifierTypeId": "7836bced-1d36-4ee0-b263-5d63db38676a",
+        "value": "9783110798838"
+      },
+      {
+        "identifierTypeId": "a9ed691a-8773-4ece-88d1-c9703ab11e44",
+        "value": "9783110799019"
+      },
+      {
+        "identifierTypeId": "a9ed691a-8773-4ece-88d1-c9703ab11e44",
+        "value": "9783110798913"
+      },
+      {
+        "identifierTypeId": "63fd8fa0-a939-4d1e-869c-6dcc24c9d507",
+        "value": "1264150652"
+      },
+      {
+        "identifierTypeId": "8e33c1be-e2c4-43ac-a975-8fb50f71137a",
+        "value": "DNB: 1264150652"
+      }
+    ],
+    "source": "hebis",
+    "title": "The concept of moral progress / Frauke Albersmeier",
+    "indexTitle": "concept of moral progress Frauke Albersmeier",
+    "publicationFrequency": [],
+    "electronicAccess": [],
+    "natureOfContentTermIds": ["94f6d06a-61e0-47c1-bbcb-6186989e6040"],
+    "editions": [],
+    "hrid": "486337383",
+    "instanceFormatIds": ["8d511d33-5e85-4c5d-9bce-6e3c9cd0c324"],
+    "series": [
+      {"value": "Practical Philosophy ; Volume 24"}
+    ],
+    "publication": [
+      {
+        "role": "Publisher",
+        "publisher": "De Gruyter",
+        "place": "Berlin",
+        "dateOfPublication": "2022"
+      }
+    ],
+    "contributors": [
+      {
+        "contributorNameTypeId": "2b94c631-fca9-4892-a730-03ee529ffe2a",
+        "name": "Albersmeier, Frauke",
+        "primary": "true"
+      }
+    ],
+    "administrativeNotes": [
+      "Aau (Bibliografische Gattung)",
+      "04.01.23, 11:17 (Letzte ?nderung CBS)"
+    ],
+    "alternativeTitles": []
+  },
+  "holdingsRecords": [
+    {
+      "holdingsStatements": null,
+      "sourceId": "ed96edb1-d91d-4a31-9c40-006f5199d782",
+      "electronicAccess": [],
+      "callNumberPrefix": "200",
+      "notes": [
+        {
+          "note": "RVK-REGALE",
+          "holdingsNoteTypeId": "013e0b2c-2259-4ee8-8d15-f463f1aeb0b1",
+          "staffOnly": "false"
+        },
+        {
+          "note": "04.01.23 15:35",
+          "holdingsNoteTypeId": "7cad8584-35f9-4ea7-8944-11bcf40ff29c",
+          "staffOnly": "true"
+        },
+        {
+          "note": "BASIS",
+          "holdingsNoteTypeId": "49050d37-2d82-452c-a963-2645ffc0b9a9",
+          "staffOnly": "true"
+        }
+      ],
+      "discoverySuppress": "false",
+      "hrid": "1153640368",
+      "callNumber": "CC 7200 A332",
+      "permanentLocationId": "c23399ef-6776-4442-a53a-dfca759c3b9f",
+      "holdingsTypeId": "0c422f92-0f4d-4d32-8cbe-390ebc33a3e5",
+      "items": [
+        {
+          "discoverySuppress": "false",
+          "hrid": "1153640368-1",
+          "materialTypeId": "24080190-7539-4520-bde1-762f57d006fc",
+          "yearCaption": [],
+          "copyNumber": null,
+          "permanentLoanTypeId": "7a03b2e2-c995-47a4-83d0-04bbe1930af4",
+          "barcode": "18844375",
+          "accessionNumber": null,
+          "status": {"name": "Available"}
+        }
+      ]
+    },
+    {
+      "holdingsStatements": null,
+      "sourceId": "ed96edb1-d91d-4a31-9c40-006f5199d782",
+      "electronicAccess": [],
+      "callNumberPrefix": "200",
+      "notes": [
+        {
+          "note": "07.12.23 10:52",
+          "holdingsNoteTypeId": "7cad8584-35f9-4ea7-8944-11bcf40ff29c",
+          "staffOnly": "true"
+        }
+      ],
+      "discoverySuppress": "false",
+      "hrid": "1153735415",
+      "callNumber": "CC 7200 A332",
+      "permanentLocationId": "77341140-8add-462e-af9f-c0839c3425af",
+      "holdingsTypeId": "0c422f92-0f4d-4d32-8cbe-390ebc33a3e5",
+      "items": [
+        {
+          "discoverySuppress": "false",
+          "hrid": "1153735415-1",
+          "materialTypeId": "24080190-7539-4520-bde1-762f57d006fc",
+          "yearCaption": [],
+          "copyNumber": null,
+          "permanentLoanTypeId": "31c550e8-86b7-4674-bab0-7011ba94148e",
+          "barcode": null,
+          "accessionNumber": null,
+          "status": {"name": "Available"}
+        }
+      ]
+    },
+    {
+      "holdingsStatements": null,
+      "sourceId": "ed96edb1-d91d-4a31-9c40-006f5199d782",
+      "electronicAccess": [],
+      "callNumberPrefix": "200",
+      "notes": [
+        {
+          "note": "07.12.23 10:54",
+          "holdingsNoteTypeId": "7cad8584-35f9-4ea7-8944-11bcf40ff29c",
+          "staffOnly": "true"
+        }
+      ],
+      "discoverySuppress": "false",
+      "hrid": "1153735423",
+      "callNumber": "CC 7200 A332+2",
+      "permanentLocationId": "77341140-8add-462e-af9f-c0839c3425af",
+      "holdingsTypeId": "0c422f92-0f4d-4d32-8cbe-390ebc33a3e5",
+      "items": [
+        {
+          "discoverySuppress": "false",
+          "hrid": "1153735423-1",
+          "materialTypeId": "24080190-7539-4520-bde1-762f57d006fc",
+          "yearCaption": [],
+          "copyNumber": null,
+          "permanentLoanTypeId": "31c550e8-86b7-4674-bab0-7011ba94148e",
+          "barcode": null,
+          "accessionNumber": null,
+          "status": {"name": "Available"}
+        }
+      ]
+    },
+    {
+      "holdingsStatements": null,
+      "sourceId": "ed96edb1-d91d-4a31-9c40-006f5199d782",
+      "electronicAccess": [],
+      "callNumberPrefix": null,
+      "notes": [
+        {
+          "note": "05.03.25 12:06",
+          "holdingsNoteTypeId": "7cad8584-35f9-4ea7-8944-11bcf40ff29c",
+          "staffOnly": "true"
+        }
+      ],
+      "discoverySuppress": "false",
+      "hrid": "1153906783",
+      "callNumber": "Batch",
+      "permanentLocationId": "413fe054-a4f3-423e-a62f-088eb111ea8d",
+      "holdingsTypeId": "0c422f92-0f4d-4d32-8cbe-390ebc33a3e5",
+      "items": [
+        {
+          "discoverySuppress": "false",
+          "hrid": "1153906783-1",
+          "materialTypeId": "24080190-7539-4520-bde1-762f57d006fc",
+          "yearCaption": [],
+          "copyNumber": null,
+          "permanentLoanTypeId": "7a03b2e2-c995-47a4-83d0-04bbe1930af4",
+          "barcode": null,
+          "accessionNumber": null,
+          "status": {"name": "Available"}
+        }
+      ]
+    }
+  ],
+  "processing": {
+    "item": {
+      "retainOmittedRecord": {
+        "ifField": "hrid",
+        "matchesPattern": "it.*"
+      },
+      "retainExistingValues": {
+        "forTheseProperties": ["materialTypeId"],
+        "forOmittedProperties": "true"
+      },
+      "status": {"policy": "retain"}
+    },
+    "instance": {
+      "retainExistingValues": {"forOmittedProperties": "true"}
+    },
+    "batchIndex": 0,
+    "holdingsRecord": {
+      "retainOmittedRecord": {
+        "ifField": "hrid",
+        "matchesPattern": "ho.*"
+      },
+      "statisticalCoding": [
+        {
+          "becauseOf": "ITEM_STATUS",
+          "setCode": "e7b3071c-8cc0-48cc-9cd0-dfc82c4e4602",
+          "if": "deleteSkipped"
+        },
+        {
+          "becauseOf": "ITEM_PATTERN_MATCH",
+          "setCode": "970b8b4e-ee88-4037-b954-a10ee75340f0",
+          "if": "deleteSkipped"
+        }
+      ],
+      "retainExistingValues": {"forOmittedProperties": "true"}
+    }
+  },
+  "instanceRelations": null
+}

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- date of last edit: 2024-06-06 (YYYY-MM-DD) -->
+<!-- date of last edit: 2025-04-30 (YYYY-MM-DD) -->
 
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output indent="yes" method="xml" version="1.0" encoding="UTF-8"/>
@@ -42,15 +42,6 @@
               <ifField>hrid</ifField>
               <matchesPattern>it.*</matchesPattern>
             </blockDeletion>
-            <statisticalCoding>
-              <arr>
-                <i>
-                  <if>deleteSkipped</if>
-                  <becauseOf>ITEM_STATUS</becauseOf>
-                  <setCode>ITEM_STATUS</setCode>
-                </i>         
-              </arr>
-            </statisticalCoding>
           </item>
           <holdingsRecord>
             <blockDeletion>
@@ -59,22 +50,6 @@
             </blockDeletion>
             <statisticalCoding>
               <arr>
-                <i>
-                  <if>deleteSkipped</if>
-                  <becauseOf>ITEM_STATUS</becauseOf>
-                  <setCode>ITEM_STATUS</setCode>
-                </i>         
-              </arr>
-            </statisticalCoding>
-          </holdingsRecord>
-          <instance>
-            <statisticalCoding>
-              <arr>
-                <i>
-                  <if>deleteSkipped</if>
-                  <becauseOf>PO_LINE_REFERENCE</becauseOf>
-                  <setCode>PO_LINE_REFERENCE</setCode>
-                </i>   
                 <i>
                   <if>deleteSkipped</if>
                   <becauseOf>ITEM_STATUS</becauseOf>
@@ -90,6 +65,17 @@
                   <becauseOf>ITEM_PATTERN_MATCH</becauseOf>
                   <setCode>ITEM_PATTERN_MATCH</setCode>
                 </i> 
+              </arr>
+            </statisticalCoding>
+          </holdingsRecord>
+          <instance>
+            <statisticalCoding>
+              <arr>
+                <i>
+                  <if>deleteSkipped</if>
+                  <becauseOf>PO_LINE_REFERENCE</becauseOf>
+                  <setCode>PO_LINE_REFERENCE</setCode>
+                </i>   
               </arr>
             </statisticalCoding>
           </instance>
@@ -117,6 +103,11 @@
             <ifField>hrid</ifField>
             <matchesPattern>it.*</matchesPattern>
           </retainOmittedRecord>
+          <!-- does not to work properly in Quesnelia 2024-12:
+            - statistical code is not set in some cases (false neagtive)
+            - statistical code is also set (false positive) in "retainOmittedRecord" protected cases
+            - statistical code is also set (false positive) in holding transfer cases
+            -> left out (in addition seems not to be needed)
           <statisticalCoding>
             <arr>
               <i>
@@ -125,7 +116,7 @@
                 <setCode>ITEM_STATUS</setCode>
               </i>         
             </arr>
-          </statisticalCoding>
+          </statisticalCoding> -->
         </item>
         <holdingsRecord>
           <retainExistingValues>
@@ -150,7 +141,11 @@
             </arr>
           </statisticalCoding>
         </holdingsRecord>
-        <instance/>
+        <instance>
+          <retainExistingValues>
+            <forOmittedProperties>true</forOmittedProperties>
+          </retainExistingValues>
+        </instance>
       </processing>
       <holdingsRecords>
         <arr>
@@ -171,9 +166,10 @@
       </permanentLocationId>
       <!-- There is no 109R in hebis, see $electronicholding -->
       <xsl:variable name="electronicholding" select="(substring(../datafield[@tag='002@']/subfield[@code='0'],1,1) = 'O') and not(substring(datafield[@tag='208@']/subfield[@code='b'],1,1) = 'a')"/>
+      <xsl:variable name="dummy" select="(substring(datafield[@tag='208@']/subfield[@code='b'],1,1) = 'd')"/>
       <callNumber>
-          <xsl:if test="not($electronicholding) and (substring(datafield[@tag='208@']/subfield[@code='b'],1,1) != 'd')">
-               <xsl:value-of select="datafield[@tag='209A']/subfield[@code='a']"/>
+          <xsl:if test="not($electronicholding) and not($dummy)">
+            <xsl:value-of select="datafield[(@tag='209A') and (subfield[@code='x']='00')]/subfield[@code='a']"/>
           </xsl:if>
       </callNumber>  
 	    <holdingsTypeId>
@@ -262,6 +258,7 @@
               <staffOnly>true</staffOnly>
             </i>
           </xsl:for-each>
+          <!-- entfernt, weil über HDS2 angezeigt und sonst gedoppelt
           <xsl:for-each select="datafield[(@tag='244Z') and (subfield[@code='x']&gt;'79') and (subfield[@code='x']&lt;'99')]">
             <i>
               <note>
@@ -295,6 +292,7 @@
               <staffOnly>false</staffOnly>
             </i>
           </xsl:for-each>
+                    -->
           <xsl:for-each select="datafield[@tag='209S']/subfield[@code='S'] | datafield[@tag='204U']/subfield[@code='S'] | datafield[@tag='204P']/subfield[@code='S'] | datafield[@tag='204R']/subfield[@code='S'] ">
             <i>
               <note>
@@ -304,6 +302,35 @@
               <staffOnly>true</staffOnly>
             </i>
           </xsl:for-each>
+
+        <xsl:for-each select="datafield[@tag='209A']/subfield[(@code='a') or (@code='h')]">
+          <i>
+            <note>
+              <xsl:value-of select="."/>
+            </note>
+            <holdingsNoteTypeId>
+              <xsl:variable name="codex" select="../subfield[@code='x']"/>
+              <xsl:choose>
+                <xsl:when test="$codex='00'">
+                  <xsl:text>Signatur Ansetzungsform (7100)</xsl:text>
+                </xsl:when>
+                <xsl:when test="($codex='01') or ($codex='02') or ($codex='03') or ($codex='04') or ($codex='05') or ($codex='06') or ($codex='07') or ($codex='08')">
+                  <xsl:text>Weitere Signaturen (71</xsl:text><xsl:value-of select="$codex"/><xsl:text>)</xsl:text>
+                </xsl:when>
+                <xsl:when test="$codex='09'">
+                  <xsl:text>Magazinsignatur (nur Monografien) (71</xsl:text><xsl:value-of select="$codex"/><xsl:text>)</xsl:text>
+                </xsl:when>
+                <xsl:when test="$codex='10'">
+                  <xsl:text>Magazinsignatur (nur Zeitschriften) (71</xsl:text><xsl:value-of select="$codex"/><xsl:text>)</xsl:text>
+                </xsl:when>
+                <xsl:otherwise>
+                  <xsl:text>Note</xsl:text>
+                </xsl:otherwise>
+              </xsl:choose>
+            </holdingsNoteTypeId>
+            <staffOnly>true</staffOnly>  
+          </i>
+        </xsl:for-each>
         </arr>
       </notes>
       <discoverySuppress>
@@ -317,7 +344,7 @@
          <items>
            <arr>
              <xsl:for-each select="datafield[(@tag='209G') and (subfield[@code='x']='00')]/subfield[@code='a']">
-               <xsl:message>Debug: <xsl:value-of select="."/></xsl:message>
+            <!--   <xsl:message>Debug: <xsl:value-of select="."/></xsl:message> -->
                <xsl:variable name="copy">
                  <xsl:choose>
                    <xsl:when test="contains(.,'(')">
@@ -328,7 +355,7 @@
                    </xsl:otherwise>
                  </xsl:choose>
                </xsl:variable>
-               <xsl:message>Debug: <xsl:value-of select="concat($epn,'-',$copy)"/></xsl:message>             
+             <!--  <xsl:message>Debug: <xsl:value-of select="concat($epn,'-',$copy)"/></xsl:message> -->
                <xsl:apply-templates select="../.." mode="make-item">
                  <xsl:with-param name="hhrid" select="concat($epn,'-',$copy)"/>
                  <xsl:with-param name="bcode" select="substring-before(concat(.,' '),' ')"/>
@@ -338,7 +365,7 @@
                </xsl:apply-templates>
              </xsl:for-each>
              <xsl:if test="not(datafield[(@tag='209G') and (subfield[@code='x']='00')]/subfield[@code='a'])">
-               <xsl:message>Debug: EPN <xsl:value-of select="$epn"/></xsl:message>             
+             <!--   <xsl:message>Debug: EPN <xsl:value-of select="$epn"/></xsl:message>  -->
                <xsl:apply-templates select="." mode="make-item">
                  <xsl:with-param name="hhrid" select="concat($epn,'-1')"/>
                </xsl:apply-templates>
@@ -364,9 +391,7 @@
             </xsl:for-each>
           </arr>
         </electronicAccess>
-      
-        <statisticalCodeIds/>
-    
+       
     </i>
   </xsl:template>
  
@@ -453,6 +478,7 @@
     	     <xsl:otherwise><xsl:call-template name="selectioncode"/></xsl:otherwise>
     	   </xsl:choose>
     	</discoverySuppress>
+      <statisticalCodeIds/>
     </i>
   </xsl:template>
   <xsl:template match="text()"/>

@@ -46,30 +46,6 @@
           </arr>
         </parentInstances>
       </xsl:if>
-      <xsl:variable name="prec" select="./datafield[@tag='039E' and subfield[@code='b']='f']"/>
-      <xsl:if test="$prec">
-        <precedingTitles>
-          <arr>
-            <xsl:for-each select="$prec">
-              <i>
-                <xsl:call-template name="rel-body-no-prov" />
-              </i>
-            </xsl:for-each>
-          </arr>
-        </precedingTitles>
-      </xsl:if>
-      <xsl:variable name="succ" select="./datafield[@tag='039E' and subfield[@code='b']='s']"/>
-      <xsl:if test="$succ">
-        <succeedingTitles>
-          <arr>
-            <xsl:for-each select="$succ">
-              <i>
-                <xsl:call-template name="rel-body-no-prov" />
-              </i>
-            </xsl:for-each>
-          </arr>
-        </succeedingTitles>
-      </xsl:if>
     </instanceRelations>
   </xsl:template>
   <xsl:template match="text()"/>
@@ -91,13 +67,5 @@
       <source><xsl:value-of select="../../instance/source"/></source>
     </provisionalInstance>
   </xsl:template>
-  
-  <xsl:template name="rel-body-no-prov">
-    <xsl:if test="./subfield[@code='9']">
-      <instanceIdentifier>
-        <hrid><xsl:value-of select="./subfield[@code='9']"/></hrid>
-      </instanceIdentifier>
-    </xsl:if>  
-  </xsl:template>
-  
+
 </xsl:stylesheet>
