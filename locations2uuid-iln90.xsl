@@ -1,42 +1,63 @@
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-  <xsl:output indent="yes" method="xml" version="1.0" encoding="UTF-8"/>
-  <xsl:template match="@* | node()">
-    <xsl:copy>
-      <xsl:apply-templates select="@* | node()"/>
-    </xsl:copy>
-  </xsl:template>
-
-  <!-- Map locations 
-       NOTE: The tests are the codes returned by 209A $f, not the location names in FOLIO -->
-   <xsl:template match="permanentLocationId">
-    <permanentLocationId>
-      <xsl:choose>
-        <xsl:when test=".='PRF'">7ee4a234-77f0-415d-bfb5-8acce84cf319</xsl:when>
-        <xsl:when test=".='ALT'">daa2314f-f7da-468b-b61d-e9b88f2c0367</xsl:when>
-        <xsl:when test=".='HOLTHUSEN'">b54c934b-d3dd-4899-9a3e-78a2e984289e</xsl:when>
-        <xsl:when test=".='AZP'">0ebd6872-f8bc-4e0f-b111-d7a5ef4bcd54</xsl:when>
-        <xsl:when test=".='ATLANTENSCHRANK'">63024fee-f3e8-42ed-96a5-02f3b6294e7b</xsl:when>
-        <xsl:when test=".='STA'">e83fac36-512c-42fd-b530-71d68170f212</xsl:when>
-        <xsl:when test=".='FL'">d6d7f50e-25e6-4f24-881d-3d78b34cc283</xsl:when>
-        <xsl:when test=".='HA'">950aea9f-8112-4693-8aa0-c7ad8754ccc8</xsl:when>
-        <xsl:when test=".='LEIHSTELLE'">cf0d6cf9-3ea9-4605-960c-71785e59126d</xsl:when>
-        <xsl:when test=".='LESELOUNGE'">30272f6c-a721-4a87-84ef-001d49d9dbd0</xsl:when>
-        <xsl:when test=".='LS-NUTZUNG'">efc0fc01-5d81-426e-9ec9-879b4ee29810</xsl:when>
-        <xsl:when test=".='MAGAZIN'">bc565d2f-de93-4eb0-a9cd-d3d8e1c5f0c2</xsl:when>
-        <xsl:when test=".='AMI'">8e914723-39db-49ed-8f8f-1e162148220d</xsl:when>
-        <xsl:when test=".='Makuliert!HA'">6855eb40-d0e7-4c4e-ba90-4d3773b663c6</xsl:when>
-        <xsl:when test=".='Makuliert!MAGAZIN'">71d3e26d-cd26-4fa7-8841-609e68f66960</xsl:when>
-        <xsl:when test=".='MEDIOTHEK'">39f3bf22-717d-4900-aa8d-c4a81bd6e91b</xsl:when>
-        <xsl:when test=".='MIKROFORM'">71d3e26d-cd26-4fa7-8841-609e68f66960</xsl:when>
-        <xsl:when test=".='PRR'">7e5314e4-ae2b-4b9d-ac8a-962b7a85e034</xsl:when>
-        <xsl:when test=".='RARA'">7ab40f6b-85bc-4711-9b0a-b8a01f9ca939</xsl:when>
-        <xsl:when test=".='SEMAPP'">4a4671c4-183e-4de6-9d4b-99328f63087a</xsl:when>
-        <xsl:when test=".='ZSS-MAGAZIN'">4c65d434-83df-4e95-a305-e2f606348c51</xsl:when>
-        <xsl:when test=".='ZTG'">f83c0ce8-5e85-4dd0-a191-e9daadf98d66</xsl:when>
-        <xsl:when test=".[contains(.,'geloescht')]">2f84ae67-bd38-4546-a0bb-256d7a1b7ef6</xsl:when>
-        <xsl:when test=".='Online'">184aae84-a5bf-4c6a-85ba-4a7c73026cd5</xsl:when>
-        <xsl:otherwise>bbbb3330-253a-45d2-924c-75179019c943</xsl:otherwise>
-      </xsl:choose>
-    </permanentLocationId>
-  </xsl:template>
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    <xsl:output indent="yes" method="xml" version="1.0" encoding="UTF-8"/>
+    <xsl:template match="@* | node()">
+        <xsl:copy>
+            <xsl:apply-templates select="@* | node()"/>
+        </xsl:copy>
+    </xsl:template>
+    <!-- Map locations -->
+    <xsl:template match="permanentLocationId">
+        <xsl:variable name="electronicholding" select="substring(//datafield[@tag='002@']/subfield[@code='0'],1,1)"/>
+        <xsl:variable name="lower" select="lower-case(.)"/>
+	    <xsl:variable name="callnumber" select="../callNumber"/>
+        <xsl:variable name="callnumberLower" select="lower-case($callnumber)"/> 
+        <permanentLocationId>
+            <xsl:choose>
+                <!-- Online -->
+                <xsl:when test="$electronicholding='O'">6714a1c7-8215-4841-8b77-d2523b42ff6b</xsl:when>
+                <!-- bestellt -->   
+                <xsl:when test="$callnumberLower='bestellt'">5efa0567-d253-415c-8c9a-7083dc02b55f</xsl:when>
+                <!-- ausgesondert -->   
+                <xsl:when test="$callnumberLower = ('verlust')
+                                    or starts-with($callnumberLower, 'makuliert')
+                                    or $lower = ('makuliert')"
+                                    >20ab3498-7cc3-4085-a687-3ba1aec3f5cd</xsl:when>
+                 <!-- Freihandbestand (FH) kein Eintrag in $f -->   
+                <xsl:when test=".=''">5dc16961-7ae5-4bbf-8c18-0adc9e58d32a</xsl:when>	
+                <!-- Fernleihe -->
+                <xsl:when test="$lower='fl'">3a25464f-4af8-4789-9988-47eb2e0fa832</xsl:when>  
+                <!-- Magazin Mediothek (AMI) -->
+                <xsl:when test="$lower = 'ami'">3cf4dceb-1432-474b-b63d-75ac500383bc</xsl:when>
+                <!-- Arbeitsbibliothek Holthusen (HOLT) -->
+                <xsl:when test="$lower = 'holthusen'">a529aa09-1bf2-4efc-a77f-18d4afefff69</xsl:when>
+                <!-- Lesesaalnutzung (LS-NUTZUNG) -->
+                <xsl:when test="$lower = 'ls-nutzung'">16a12d2a-957d-4798-9047-f16caefcd8ed</xsl:when>
+                <!-- Magazin (MAG) -->
+                <xsl:when test="$lower = ('magazin', 'alt')">7cecb171-ca65-4bab-b47f-424ed60432a1</xsl:when>                
+                <!-- Mediothek (MEDIOTHEK) -->
+                <xsl:when test="$lower='mediothek'">e6d8fdcd-65c7-4a9f-82c4-e769108014d4</xsl:when>
+                <!-- Rarabestand (RARA) -->
+                <xsl:when test="$lower='rara'">a16c96a6-a988-4b7a-a310-80024c7cac87</xsl:when>
+                <!-- Semesterapparate (SEMAPP) -->
+                <xsl:when test="$lower='semapp'">a5a3e4d1-55b8-4c64-b214-39a9bbfb7e6a</xsl:when>
+                <!-- Einbandsammlung (STA) -->
+                <xsl:when test="$lower='sta'">a6e772d7-73e4-45b8-8a39-42c97fcf8af8</xsl:when>
+                <!--Universitätsverlag (UV) -->
+                <xsl:when test="$lower='uv'">b9c827e0-3385-415f-b699-e49ce5fbafad</xsl:when>
+                <!--Zeitschriftenmagazin (ZSS-MAG) -->
+                <xsl:when test="$lower = 'zss-magazin'">a0dacd6c-4433-4b3d-8d92-4fc41f05a53c</xsl:when>
+                <!--Leselounge (ZTG) -->
+                <xsl:when test="$lower ='ztg'">8e57f8d5-c00a-4d35-be19-beb64099989f</xsl:when>
+                <!--Schulmuseum (SCHUL) -->
+                <xsl:when test="$lower = 'schulmuseum'">09b6ac4d-fef5-468e-87dd-be127bddba24</xsl:when>
+                <!--AZP-Bibliothek (AZP) -->
+                <xsl:when test="$lower ='azp'">dc5238a8-da20-42dd-8436-98989cc2fa95</xsl:when>
+                <!--Handapparate (HA) -->
+                <xsl:when test="$lower ='ha'">2633c3b4-6643-461a-98c1-e5d07724c4fc</xsl:when>
+                <!-- Keine Zuordnung / Sonstige (SONST) --> 
+                <xsl:otherwise>33afca1e-d7e7-43c9-8cb4-5d3fcad8e176</xsl:otherwise>		
+            </xsl:choose>
+        </permanentLocationId>
+    </xsl:template>
 </xsl:stylesheet>
