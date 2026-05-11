@@ -9,19 +9,30 @@
     <!-- Map locations -->
     <xsl:template match="permanentLocationId">
         <xsl:variable name="electronicholding" select="substring(//datafield[@tag='002@']/subfield[@code='0'],1,1)"/>
-        <xsl:variable name="lower" select="lower-case(.)"/>
+        <xsl:variable name="callnumber" select="string(../callNumber)"/>
+        <xsl:variable name="itemLevelCallnumber" select="string(../itemLevelCallNumber)"/>
+        <xsl:variable name="callnumberLower" select="lower-case(normalize-space($callnumber))"/>
+        <xsl:variable name="itemLevelCallnumberLower" select="lower-case(normalize-space($itemLevelCallnumber))"/>
+        <xsl:variable name="lower" select="lower-case(normalize-space(.))"/>
+        <!-- xsl:variable name="lower" select="lower-case(.)"/>
 	    <xsl:variable name="callnumber" select="../callNumber"/>
+        <xsl:variable name="itemLevelCallnumber" select="../itemLevelCallNumber"/>
         <xsl:variable name="callnumberLower" select="lower-case($callnumber)"/> 
+        <xsl:variable name="itemLevelCallnumberLower" select="lower-case($itemLevelCallnumber)"/ --> 
+
         <permanentLocationId>
             <xsl:choose>
                 <!-- Online -->
                 <xsl:when test="$electronicholding='O'">6714a1c7-8215-4841-8b77-d2523b42ff6b</xsl:when>
                 <!-- bestellt -->   
                 <xsl:when test="$callnumberLower='bestellt'">5efa0567-d253-415c-8c9a-7083dc02b55f</xsl:when>
+                <xsl:when test="$itemLevelCallnumberLower='bestellt'">5efa0567-d253-415c-8c9a-7083dc02b55f</xsl:when>
                 <!-- ausgesondert -->   
-                <xsl:when test="$callnumberLower = ('verlust')
+                <xsl:when test="$callnumberLower = 'verlust'
+                                    or $itemLevelCallnumberLower = 'verlust'
                                     or starts-with($callnumberLower, 'makuliert')
-                                    or $lower = ('makuliert')"
+                                    or starts-with($itemLevelCallnumberLower, 'makuliert')
+                                    or starts-with ($lower, 'makuliert')"
                                     >20ab3498-7cc3-4085-a687-3ba1aec3f5cd</xsl:when>
                  <!-- Freihandbestand (FH) kein Eintrag in $f -->   
                 <xsl:when test=".=''">5dc16961-7ae5-4bbf-8c18-0adc9e58d32a</xsl:when>	
