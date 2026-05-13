@@ -66,6 +66,10 @@
                 <xsl:when test="$lower ='azp'">dc5238a8-da20-42dd-8436-98989cc2fa95</xsl:when>
                 <!--Handapparate (HA) -->
                 <xsl:when test="$lower ='ha'">2633c3b4-6643-461a-98c1-e5d07724c4fc</xsl:when>
+                <!--Atlantenschrank (ATLANTENSCHRANK) -->
+                <xsl:when test="$lower ='atlantenschrank'">afc13080-044f-4630-863e-15039f41410d</xsl:when>
+                <!--Sonderformatregal (SONDER)-->
+                <xsl:when test="$lower ='sonder'">fd0d3178-da9d-4fe2-b185-0722d393caaf</xsl:when>
                 <!-- Keine Zuordnung / Sonstige (SONST) --> 
                 <xsl:otherwise>33afca1e-d7e7-43c9-8cb4-5d3fcad8e176</xsl:otherwise>		
             </xsl:choose>
