@@ -9,18 +9,23 @@
     <!-- Map locations -->
     <xsl:template match="permanentLocationId">
         <xsl:variable name="electronicholding" select="substring(//datafield[@tag='002@']/subfield[@code='0'],1,1)"/>
-        <!-- xsl:variable name="lower" select="translate(.,'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz')"/-->
-        <xsl:variable name="lower" select="lower-case(.)"/>
-	    <xsl:variable name="callnumber" select="../callNumber"/>
-        <xsl:variable name="callnumberLower" select="lower-case($callnumber)"/> 
+        <xsl:variable name="callnumber" select="string(../callNumber)"/>
+        <xsl:variable name="itemLevelCallnumber" select="string(../itemLevelCallNumber)"/>
+        <xsl:variable name="callnumberLower" select="lower-case(normalize-space($callnumber))"/>
+        <xsl:variable name="itemLevelCallnumberLower" select="lower-case(normalize-space($itemLevelCallnumber))"/>
+        <xsl:variable name="lower" select="lower-case(normalize-space(.))"/>
+
         <permanentLocationId>
             <xsl:choose>
                 <!-- Online -->
                 <xsl:when test="$electronicholding='O'">be83badd-72ec-417a-8284-bb2fa58afeb1</xsl:when>
                 <!-- bestellt -->   
-                <xsl:when test="$callnumberLower='bestellt'">2cc5a0db-7703-4193-ba85-8e800bd327e4</xsl:when>
+                <xsl:when test="$callnumberLower = 'bestellt'
+                                    or $itemLevelCallnumberLower = 'bestellt'">2cc5a0db-7703-4193-ba85-8e800bd327e4</xsl:when>
                 <!-- Bestellung negativ -->   
-                <xsl:when test="$callnumberLower = ('vergriffen','erscheint nicht','storniert','nicht lieferbar')">1a430501-3ad0-448e-a366-6666faad2e49</xsl:when>
+                <xsl:when test="$callnumberLower = ('vergriffen','erscheint nicht','storniert','nicht lieferbar')
+                            or $itemLevelCallnumberLower = ('vergriffen','erscheint nicht','storniert','nicht lieferbar')"
+                            >1a430501-3ad0-448e-a366-6666faad2e49</xsl:when>
                 <!-- Magazin -->
                 <xsl:when test="$lower='mag'">11eab764-df2d-4427-97c1-f2ab75f61509</xsl:when>  
                 <!-- TGB Freihand -->
