@@ -115,4 +115,18 @@
             </xsl:choose>
         </permanentLocationId>
     </xsl:template>
+    <xsl:template match="status">
+       <status>
+           <name>
+               <xsl:choose>
+                   <xsl:when test="name = 'Restricted'">
+                       Withdrawn
+                   </xsl:when>
+                   <xsl:otherwise>
+                       <xsl:value-of select="name"/>
+                   </xsl:otherwise>
+               </xsl:choose>
+          </name>
+       </status>
+</xsl:template>
 </xsl:stylesheet>
