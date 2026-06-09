@@ -214,6 +214,9 @@
                 <i>
                   <name>Unknown</name>
                 </i>
+                <i>
+                  <name>Withdrawn</name>
+                </i>
               </arr>
             </ifStatusWas>
           </status>
