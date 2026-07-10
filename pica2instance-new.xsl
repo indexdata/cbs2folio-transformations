@@ -423,6 +423,7 @@
               </xsl:variable>
               <xsl:variable name="id-type">
                 <xsl:choose>
+                  <xsl:when test="./@tag='007D'">Verlags-, Produktions- und Bestellnummer</xsl:when>
                   <xsl:when test="./@tag='007G'">Identnummer der erstkatalogisierenden Institution</xsl:when>
                 </xsl:choose>
               </xsl:variable>
