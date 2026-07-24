@@ -497,6 +497,7 @@
                   <xsl:when test="./@tag='004L'">GTIN (vormals EAN)</xsl:when>
                   <xsl:when test="./@tag='004C'">Universal Product Code (UPC)</xsl:when>
                   <xsl:when test="./@tag='007D'">Verlags-, Produktions- und Bestellnummer</xsl:when>
+                  <xsl:when test="./@tag='006B'">BNB</xsl:when>
                 </xsl:choose>
               </xsl:variable>
               <xsl:if test="string-length($id-value) &gt; 0">
