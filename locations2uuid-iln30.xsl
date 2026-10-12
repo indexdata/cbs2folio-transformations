@@ -26,6 +26,8 @@
                 <xsl:when test="$electronicholding='O'">a4a8d22a-2529-4425-b732-97a3e1cd52cd</xsl:when>
                 <!-- Magazin, kein $f -->
                 <xsl:when test=".=''">4eebee1e-61ab-4284-87d8-f1fc7183fc24</xsl:when>
+                <!-- Institutsbestand -->
+                <xsl:when test="starts-with($lower,'104')">74970ff9-5bb3-4150-ae31-54d1ff5f7039</xsl:when>
                 <!-- Fernleihe -->
                 <xsl:when test="$lower = 'fl'">780e8161-2232-4cf2-9bf6-59a39c74bfe5</xsl:when>
                 <!-- Bibliografischer Block -->
